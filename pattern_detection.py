@@ -48,8 +48,7 @@ def pattern_detection(highs, lows):
 
     # Symmetrical triangle (converging)
     if (abs(high_angle) >= angle_threshold and high_r2 >= r2_threshold_weak and
-          abs(low_angle) >= angle_threshold and low_r2 >= r2_threshold_weak and
-          np.sign(high_slope) != np.sign(low_slope)):
+          abs(low_angle) >= angle_threshold and low_r2 >= r2_threshold_weak):
         return "symmetrical_triangle", high_slope, high_C, low_slope, low_C, None, None
 
     return "no_pattern", high_slope,high_C, low_slope,low_C, min(lows), max(highs)

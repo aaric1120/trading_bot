@@ -1,6 +1,8 @@
 from finvizfinance.screener.overview import Overview
 import yfinance as yf
 
+import sys
+
 
 def get_undervalued_stocks():
     """
@@ -17,8 +19,10 @@ def get_undervalued_stocks():
 
     filters_dict = {'Float':'Under 10M',
                     'Price':'$1 to $20',
-                    'Relative Volume':'Over 5',
-                    'Change':'Up 10%'
+                    'Relative Volume':'Over 3',
+                    'Current Volume':'Over 500K',
+                    'Average True Range':'Over 0.5',
+                    'Beta':'Over 2'
                     }
 
     foverview.set_filter(filters_dict=filters_dict)
@@ -57,3 +61,4 @@ def get_stock_info(ticker):
 
     return stock_info
 
+# get_undervalued_stocks()

@@ -57,7 +57,7 @@ limit_order_data = LimitOrderRequest(
 req = LimitOrderRequest(
                     symbol = 'AAPL',
                     limit_price=209,
-                    qty = 5,
+                    qty = 1,
                     side = OrderSide.BUY,
                     time_in_force = TimeInForce.DAY,
                     order_class = OrderClass.BRACKET,
@@ -67,24 +67,24 @@ req = LimitOrderRequest(
 
 # limit_order = trading_client.submit_order(order_data=req)
 
-# cancel_statuses = trading_client.cancel_orders()
-curr_symbol = 'NVDA'
+cancel_statuses = trading_client.cancel_orders()
+# curr_symbol = 'NVDA'
 
 # da = [int(x) for x in datetime.now().strftime("%Y %m %d %H %M").split(" ")]
 # da[3] += 3
 # print(da)
 
 
-get_stock_price = StockBarsRequest(symbol_or_symbols=[curr_symbol],
-                                   start=datetime.now(),
-                                   timeframe=TimeFrame.Minute)
-
-get_stock_price_data = hist_data_client.get_stock_bars(get_stock_price)
+# get_stock_price = StockBarsRequest(symbol_or_symbols=[curr_symbol],
+#                                    start=datetime.now(),
+#                                    timeframe=TimeFrame.Minute)
+#
+# get_stock_price_data = hist_data_client.get_stock_bars(get_stock_price)
 
 # print(get_stock_price_data[curr_symbol])
 
 
-latest_bar_request = StockLatestBarRequest(symbol_or_symbols=[curr_symbol])
+# latest_bar_request = StockLatestBarRequest(symbol_or_symbols=[curr_symbol])
 
 # while(True):
 #     latest_bar_data = hist_data_client.get_stock_latest_bar(latest_bar_request)
@@ -94,10 +94,10 @@ latest_bar_request = StockLatestBarRequest(symbol_or_symbols=[curr_symbol])
 
 
 # Bar data from a day
-day_bar_request = StockBarsRequest(symbol_or_symbols=[curr_symbol],
-                                   timeframe=TimeFrame.Minute
-                                   )
-day_bar_data = hist_data_client.get_stock_bars(day_bar_request)
+# day_bar_request = StockBarsRequest(symbol_or_symbols=[curr_symbol],
+#                                    timeframe=TimeFrame.Minute
+#                                    )
+# day_bar_data = hist_data_client.get_stock_bars(day_bar_request)
 
 
 # while(True):
@@ -106,37 +106,37 @@ day_bar_data = hist_data_client.get_stock_bars(day_bar_request)
 #     time.sleep(60)
 
 
-latest_trade_request = StockLatestTradeRequest(symbol_or_symbols=[curr_symbol])
-latest_trade_data = hist_data_client.get_stock_latest_trade(latest_trade_request)
-
-latest_quote_request = StockLatestQuoteRequest(symbol_or_symbols=[curr_symbol])
-latest_quote_data = hist_data_client.get_stock_latest_quote(latest_quote_request)
-
-snapshot_request = StockSnapshotRequest(symbol_or_symbols=[curr_symbol],
-                                        start=datetime.now())
-snapshot_data = hist_data_client.get_stock_snapshot(snapshot_request)
+# latest_trade_request = StockLatestTradeRequest(symbol_or_symbols=[curr_symbol])
+# latest_trade_data = hist_data_client.get_stock_latest_trade(latest_trade_request)
+#
+# latest_quote_request = StockLatestQuoteRequest(symbol_or_symbols=[curr_symbol])
+# latest_quote_data = hist_data_client.get_stock_latest_quote(latest_quote_request)
+#
+# snapshot_request = StockSnapshotRequest(symbol_or_symbols=[curr_symbol],
+#                                         start=datetime.now())
+# snapshot_data = hist_data_client.get_stock_snapshot(snapshot_request)
 
 # print(snapshot_data)
-
-news_request = NewsRequest(symbols=curr_symbol,
-                           start=datetime(2025,7,1),
-                           end=datetime(2025,7,2))
-
-news_data = news_data_client.get_news(news_request)
+#
+# news_request = NewsRequest(symbols=curr_symbol,
+#                            start=datetime(2025,7,1),
+#                            end=datetime(2025,7,2))
+#
+# news_data = news_data_client.get_news(news_request)
 
 # print(news_data)
 
 # print(day_bar_data["ENGS"], len(day_bar_data["ENGS"]))
 
 # Get the dataframe for all highest price in list
-p_high_df = pd.DataFrame([x.high for x in day_bar_data[curr_symbol]])
-p_low_df = pd.DataFrame([x.low for x in day_bar_data[curr_symbol]])
-high_np = np.array([x.high for x in day_bar_data[curr_symbol]][:10])
-low_np = np.array([x.low for x in day_bar_data[curr_symbol]][:10])
-
-test_high = np.array([1,2,3,4,5])
-test_low = np.array([5,4,3,2,1])
-print(pattern_detection(test_high, test_low))
+# p_high_df = pd.DataFrame([x.high for x in day_bar_data[curr_symbol]])
+# p_low_df = pd.DataFrame([x.low for x in day_bar_data[curr_symbol]])
+# high_np = np.array([x.high for x in day_bar_data[curr_symbol]][:10])
+# low_np = np.array([x.low for x in day_bar_data[curr_symbol]][:10])
+#
+# test_high = np.array([1,2,3,4,5])
+# test_low = np.array([5,4,3,2,1])
+# print(pattern_detection(test_high, test_low))
 
 
 
@@ -186,26 +186,26 @@ print(pattern_detection(test_high, test_low))
 """
 calculate resistance/support lines algorithm:
 """
-high_nv = [x.high for x in day_bar_data[curr_symbol]][:10]
-low_nv = [x.low for x in day_bar_data[curr_symbol]][:10]
-
-slope1, inter1,_ = calculate_slope(high_np)
-slope2, inter2,_ = calculate_slope(low_np)
-
-x = np.linspace(0,10,100)
-y = slope2*x + (min(low_nv)-slope2*low_nv.index(min(low_nv)))
-y_2 = slope1*x + (max(high_nv)-slope1*high_nv.index(max(high_nv)))
-x_1 = np.arange(len(high_np))
-y_1 = high_np
-x_3 = np.arange(len(low_np))
-y_3 = low_np
-plt.plot(x, y, '-r', label='y=2x+1')
-plt.plot(x_1, y_1, 'ob')
-plt.plot(x,y_2,'-g')
-plt.plot(x_3, y_3, 'oy')
-plt.title('Graph of y=2x+1')
-plt.xlabel('x', color='#1C2833')
-plt.ylabel('y', color='#1C2833')
-plt.legend(loc='upper left')
-plt.grid()
-plt.show()
+# high_nv = [x.high for x in day_bar_data[curr_symbol]][:10]
+# low_nv = [x.low for x in day_bar_data[curr_symbol]][:10]
+#
+# slope1, inter1,_ = calculate_slope(high_np)
+# slope2, inter2,_ = calculate_slope(low_np)
+#
+# x = np.linspace(0,10,100)
+# y = slope2*x + (min(low_nv)-slope2*low_nv.index(min(low_nv)))
+# y_2 = slope1*x + (max(high_nv)-slope1*high_nv.index(max(high_nv)))
+# x_1 = np.arange(len(high_np))
+# y_1 = high_np
+# x_3 = np.arange(len(low_np))
+# y_3 = low_np
+# plt.plot(x, y, '-r', label='y=2x+1')
+# plt.plot(x_1, y_1, 'ob')
+# plt.plot(x,y_2,'-g')
+# plt.plot(x_3, y_3, 'oy')
+# plt.title('Graph of y=2x+1')
+# plt.xlabel('x', color='#1C2833')
+# plt.ylabel('y', color='#1C2833')
+# plt.legend(loc='upper left')
+# plt.grid()
+# plt.show()

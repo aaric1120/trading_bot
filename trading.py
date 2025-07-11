@@ -12,6 +12,10 @@ from pattern_detection import calculate_slope
 
 from param_reader import param_reader
 
+import logging
+from datetime import datetime
+
+
 class BaseTrade:
     highs = []
     lows = []
@@ -30,6 +34,16 @@ class BaseTrade:
         self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
         self.hist_request = StockLatestBarRequest(symbol_or_symbols=[self.symbol])
         self.param = param
+
+        # Configure logging
+        logging.FileHandler(f"logs/trade_log_{self.symbol}_{datetime.today().strftime('%Y-%m-%d')}.txt", mode="a",
+                            encoding=None, delay=False)
+        logging.basicConfig(
+            filename=f"logs/trade_log_{self.symbol}_{datetime.today().strftime('%Y-%m-%d')}.txt",  # file to write
+            level=logging.INFO,  # log INFO and above
+            format="%(asctime)s %(levelname)s: %(message)s",
+            datefmt="%Y-%m-%d %H:%M:%S"
+        )
 
     def get_new_lines(self):
         return
@@ -54,21 +68,29 @@ class BaseTrade:
                     print(f"Current Close is {close}")
                     print(f"Current resistance is: {self.resist} and support is: {self.support}")
 
+                    logging.info(f"Current High asks for {self.symbol} is {self.highs[-1]}")
+                    logging.info(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
+                    logging.info(f"Current Close is {close}")
+                    logging.info(f"Current resistance is: {self.resist} and support is: {self.support}")
+
                     # If close between resistance and support, update the line
                     if self.support < close < self.resist:
                         self.get_new_lines()
                         print(f"Updated resistance to: {self.resist} and support to: {self.support}")
+                        logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         breakout, breakdown = False, False
 
                     # if resistance is broken initially
                     elif close > self.resist and not breakout:
                         # set breakout check to true
                         print(f"The Current Close {close} is above the resistance...")
+                        logging.info(f"The Current Close {close} is above the resistance...")
                         breakout, breakdown = True, False
 
                     # second bar also closes above resistance: BUY
                     elif close > self.resist and breakout:
                         print(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
+                        logging.info(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
                         # Set stop loss at just below resistance
                         stop_loss = round(self.resist * self.param["stop_loss"], 2) #PARAM
 
@@ -91,21 +113,39 @@ class BaseTrade:
 
                         print(limit_order_data)
 
+
                         # place the order
+                        self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
+                                                          'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
                         limit_order = self.trade_client.submit_order(order_data=limit_order_data)
                         print(limit_order)
+                        logging.info("ORDER INFO:")
+                        logging.info(limit_order)
+                        logging.info("====ClOSING TRADE====")
                         break
 
                     elif close < self.support and not breakdown:
                         print(f"close price: {close} just dropped below support of {self.support}...")
+                        logging.info(f"close price: {close} just dropped below support of {self.support}...")
                         breakdown, breakout = True, False
 
                     elif close < self.support and breakdown:
                         print(f"Closing price: {close} just dropped below support {self.support} again...ending trade...")
+                        logging.info(
+                            f"Closing price: {close} just dropped below support {self.support} again...ending trade...")
+
                         break
 
                 # Bar updates every Minute for latest data
                 time.sleep(60)
+
+                # Check close time for market
+                MARKET_CLOSE_TIME = datetime.time(16, 0)  # 4:00 PM (24-hour format)
+                if datetime.datetime.now().time() > MARKET_CLOSE_TIME:
+                    break;
+
+                print(f"The Timestamp is {datetime.now()}")
+
         except Exception as e:
             print(e)
 
