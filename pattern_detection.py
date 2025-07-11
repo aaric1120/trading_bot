@@ -1,5 +1,9 @@
 import numpy as np
 from scipy.stats import linregress
+from param_reader import param_reader
+
+# read the parameters from file
+param = param_reader("param.txt")
 
 
 def is_horizontal(points, tolerance=0.015):  # 1.5% price tolerance
@@ -19,9 +23,9 @@ def pattern_detection(highs, lows):
     low_slope, low_C, low_r2 = calculate_slope(lows)
 
     # Classification conditions PARAM
-    angle_threshold = 2.0  # Degrees
-    r2_threshold_weak = 0.3
-    r2_threshold_strong = 0.5
+    angle_threshold = param["angle_threshold"]  # Degrees
+    r2_threshold_weak = param["r2_threshold_weak"]
+    r2_threshold_strong = param["r2_threshold_strong"]
 
     # Angles for resistance/support
     high_angle = np.degrees(np.arctan(high_slope))

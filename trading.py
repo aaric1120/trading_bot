@@ -10,6 +10,7 @@ from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeReques
 from alpaca.trading import TradingClient, OrderSide, TimeInForce, OrderClass, TakeProfitRequest, StopLossRequest
 from pattern_detection import calculate_slope
 
+from param_reader import param_reader
 
 class BaseTrade:
     highs = []
@@ -19,14 +20,16 @@ class BaseTrade:
     symbol = ""
     resist = 0
     support = 0
+    param = None
 
-    def __init__(self,symbol, high, low):
+    def __init__(self,symbol, param, high, low):
         self.symbol = symbol
         self.highs = high
         self.lows = low
         self.hist_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
         self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
         self.hist_request = StockLatestBarRequest(symbol_or_symbols=[self.symbol])
+        self.param = param
 
     def get_new_lines(self):
         return
@@ -67,11 +70,11 @@ class BaseTrade:
                     elif close > self.resist and breakout:
                         print(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
                         # Set stop loss at just below resistance
-                        stop_loss = round(self.resist, 2) #PARAM
+                        stop_loss = round(self.resist * self.param["stop_loss"], 2) #PARAM
 
-                        price = round(close * 1.005,2)  # PARAM
+                        price = round(close * self.param["price"],2)  # PARAM
 
-                        take_profit = round(price * 1.005,2)  # PARAM
+                        take_profit = round(price * self.param["take_profit"],2)  # PARAM
 
                         quantity = math.floor(float(self.trade_client.get_account().cash) / price)
 
@@ -113,8 +116,8 @@ class TriangleTrade(BaseTrade):
     high_const = 0
     low_const = 0
 
-    def __init__(self, symbol, high, low, h_slope, h_const, l_slope, l_const):
-        super().__init__(symbol, high, low)
+    def __init__(self, symbol,param, high, low, h_slope, h_const, l_slope, l_const):
+        super().__init__(symbol,param, high, low)
         self.high_slope=h_slope
         self.high_const=h_const
         self.low_slope=l_slope
@@ -137,8 +140,8 @@ class TriangleTrade(BaseTrade):
 
 class RectangleTrade(BaseTrade):
 
-    def __init__(self, symbol, high, low, resist, support):
-        super().__init__(symbol, high, low)
+    def __init__(self, symbol,param, high, low, resist, support):
+        super().__init__(symbol,param, high, low)
         self.resist = resist
         self.support = support
 

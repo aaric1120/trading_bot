@@ -49,32 +49,32 @@ def main():
             print(highs)
             print(lows)
 
-        if (len(highs) > 10):
+        if (len(highs) > param["sample_minutes"]):
             pattern, high_slp, high_C, low_slp, low_C, rect_min, rect_max = pattern_detection(np.array(highs), np.array(lows))
             print("The detected pattern is: " + pattern)
             if (pattern == "no_pattern"):
                 # if for 30 min, truncate to latest 5 minutes and try again
-                if (len(highs) > 30):
-                    highs = highs[25:]
-                    lows = lows[25:]
+                if (len(highs) > int(param["minute_limit"])):
+                    highs = highs[int(param["minute_limit"] - param["retention"]):]
+                    lows = lows[int(param["minute_limit"] - param["retention"]):]
 
             elif (pattern == "rectangle"):
-                Rect_trading = RectangleTrade(curr_symbol,highs, lows,rect_max, rect_min)
+                Rect_trading = RectangleTrade(curr_symbol,param, highs, lows,rect_max, rect_min)
                 Rect_trading.run()
                 break
 
             elif (pattern == "symmetrical_triangle"):
-                Tri_trading = TriangleTrade(curr_symbol,highs,lows,high_slp,high_C,low_slp,low_C)
+                Tri_trading = TriangleTrade(curr_symbol, param, highs,lows,high_slp,high_C,low_slp,low_C)
                 Tri_trading.run()
                 break
 
             elif (pattern == "ascending_triangle"):
-                ATri_trade = AscendingTriangle(curr_symbol,highs,lows,high_slp,high_C,low_slp,low_C)
+                ATri_trade = AscendingTriangle(curr_symbol, param, highs,lows,high_slp,high_C,low_slp,low_C)
                 ATri_trade.run()
                 break
 
             elif (pattern == "descending_trianlge"):
-                DTri_trade = DescendingTriangle(curr_symbol,highs,lows,high_slp,high_C,low_slp,low_C)
+                DTri_trade = DescendingTriangle(curr_symbol, param, highs,lows,high_slp,high_C,low_slp,low_C)
                 DTri_trade.run()
                 break
 
