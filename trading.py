@@ -13,7 +13,7 @@ from pattern_detection import calculate_slope
 from param_reader import param_reader
 
 import logging
-from datetime import datetime
+import datetime as dt
 
 
 class BaseTrade:
@@ -36,10 +36,10 @@ class BaseTrade:
         self.param = param
 
         # Configure logging
-        logging.FileHandler(f"logs/trade_log_{self.symbol}_{datetime.today().strftime('%Y-%m-%d')}.txt", mode="a",
+        logging.FileHandler(f"logs/trade_log_{self.symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt", mode="a",
                             encoding=None, delay=False)
         logging.basicConfig(
-            filename=f"logs/trade_log_{self.symbol}_{datetime.today().strftime('%Y-%m-%d')}.txt",  # file to write
+            filename=f"logs/trade_log_{self.symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt",  # file to write
             level=logging.INFO,  # log INFO and above
             format="%(asctime)s %(levelname)s: %(message)s",
             datefmt="%Y-%m-%d %H:%M:%S"
@@ -140,11 +140,12 @@ class BaseTrade:
                 time.sleep(60)
 
                 # Check close time for market
-                MARKET_CLOSE_TIME = datetime.time(16, 0)  # 4:00 PM (24-hour format)
-                if datetime.datetime.now().time() > MARKET_CLOSE_TIME:
+                MARKET_CLOSE_TIME = dt.time(16, 0,0)  # 4:00 PM (24-hour format)
+                if dt.datetime.now().time() > MARKET_CLOSE_TIME:
+                    print("The Market is closed...")
                     break;
 
-                print(f"The Timestamp is {datetime.now()}")
+                print(f"The Timestamp is {dt.datetime.now()}")
 
         except Exception as e:
             print(e)

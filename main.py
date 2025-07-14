@@ -5,14 +5,15 @@ from stock_screener import get_undervalued_stocks
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest, StockLatestBarRequest
 
-from datetime import datetime,date
+import datetime as dt
 from alpaca.data import TimeFrame
+import time as tm
 
 import numpy as np
 
 from pattern_detection import pattern_detection
 
-from trading import *
+from trading import RectangleTrade, AscendingTriangle, DescendingTriangle, TriangleTrade
 
 import sys
 import logging
@@ -24,9 +25,9 @@ def main():
     print(f"Currently Trading the stock: {curr_symbol}")
 
     # Configure logging
-    logging.FileHandler(f"logs/trade_log_{curr_symbol}_{datetime.today().strftime('%Y-%m-%d')}.txt", mode="a", encoding=None, delay=False)
+    logging.FileHandler(f"logs/trade_log_{curr_symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt", mode="a", encoding=None, delay=False)
     logging.basicConfig(
-        filename=f"logs/trade_log_{curr_symbol}_{datetime.today().strftime('%Y-%m-%d')}.txt",  # file to write
+        filename=f"logs/trade_log_{curr_symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt",  # file to write
         level=logging.INFO,  # log INFO and above
         format="%(asctime)s %(levelname)s: %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S"
@@ -101,14 +102,15 @@ def main():
                     break
 
         # Wait 60 seconds for next bar
-        time.sleep(60)
+        tm.sleep(60)
 
         # Check close time for market
-        MARKET_CLOSE_TIME = datetime.time(16, 0)  # 4:00 PM (24-hour format)
-        if datetime.datetime.now().time() > MARKET_CLOSE_TIME:
-            break;
+        MARKET_CLOSE_TIME = dt.time(16, 0,0)  # 4:00 PM (24-hour format)
+        if dt.datetime.now().time() > MARKET_CLOSE_TIME:
+            print("The Market has closed...")
+            break
 
-        print(f"The Timestamp is {datetime.now()}")
+        print(f"The Timestamp is {dt.datetime.now()}")
 
 
 if __name__=="__main__":
