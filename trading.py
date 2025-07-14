@@ -1,16 +1,13 @@
 import math
 import time
-import matplotlib.pyplot as plt
 
 from alpaca.broker import LimitOrderRequest
-from alpaca.data.historical import StockHistoricalDataClient, NewsClient
-from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeRequest, StockLatestBarRequest,\
-    StockSnapshotRequest, NewsRequest, StockBarsRequest
+from alpaca.data.historical import StockHistoricalDataClient
+from alpaca.data.requests import StockLatestBarRequest
+
 
 from alpaca.trading import TradingClient, OrderSide, TimeInForce, OrderClass, TakeProfitRequest, StopLossRequest
 from pattern_detection import calculate_slope
-
-from param_reader import param_reader
 
 import logging
 import datetime as dt
@@ -112,7 +109,6 @@ class BaseTrade:
                                                 stop_loss=StopLossRequest(stop_price=stop_loss))
 
                         print(limit_order_data)
-
 
                         # place the order
                         self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',

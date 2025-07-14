@@ -1,3 +1,5 @@
+import math
+
 from matplotlib import pyplot as plt
 from pydantic_core import TzInfo
 
@@ -45,29 +47,61 @@ wss_client = StockDataStream('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtO
 #                     time_in_force=TimeInForce.DAY
 #                     )
 
-limit_order_data = LimitOrderRequest(
-                        symbol="AAPL",
-                        limit_price=210,
-                        qty=601,
-                        side=OrderSide.SELL,
-                        time_in_force=TimeInForce.DAY
-                    )
-
-
-req = LimitOrderRequest(
-                    symbol = 'AAPL',
-                    limit_price=209,
-                    qty = 1,
-                    side = OrderSide.BUY,
-                    time_in_force = TimeInForce.DAY,
-                    order_class = OrderClass.BRACKET,
-                    take_profit = TakeProfitRequest(limit_price=600),
-                    stop_loss = StopLossRequest(stop_price=150))
+# limit_order_data = LimitOrderRequest(
+#                         symbol="AAPL",
+#                         limit_price=210,
+#                         qty=601,
+#                         side=OrderSide.SELL,
+#                         time_in_force=TimeInForce.DAY
+#                     )
+#
+#
+# req = LimitOrderRequest(
+#                     symbol = 'AAPL',
+#                     limit_price=209,
+#                     qty = 1,
+#                     side = OrderSide.BUY,
+#                     time_in_force = TimeInForce.DAY,
+#                     order_class = OrderClass.BRACKET,
+#                     take_profit = TakeProfitRequest(limit_price=600),
+#                     stop_loss = StopLossRequest(stop_price=150))
 
 
 # limit_order = trading_client.submit_order(order_data=req)
+resist = 162.02
+close = 160.65
+# place the order
+trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
+                                  'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
 
-cancel_statuses = trading_client.cancel_orders()
+stop_loss = round(resist * param["stop_loss"], 2) #PARAM
+
+price = round(close * param["price"],2)  # PARAM
+
+take_profit = round(price * param["take_profit"],2)  # PARAM
+
+quantity = math.floor(float(trade_client.get_account().cash) / price)
+
+# do the buy
+limit_order_data = LimitOrderRequest(
+                        symbol="NVDA",
+                        limit_price=price,
+                        qty=quantity,
+                        side=OrderSide.BUY,
+                        time_in_force=TimeInForce.GTC,
+                        order_class=OrderClass.BRACKET,
+                        take_profit=TakeProfitRequest(limit_price=take_profit),
+                        stop_loss=StopLossRequest(stop_price=stop_loss))
+
+# print(limit_order_data)
+#
+# # place the order
+# trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
+#                                   'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+# limit_order = trade_client.submit_order(order_data=limit_order_data)
+# print(limit_order)
+#
+# cancel_statuses = trading_client.cancel_orders()
 # curr_symbol = 'NVDA'
 
 # da = [int(x) for x in datetime.now().strftime("%Y %m %d %H %M").split(" ")]
@@ -209,3 +243,8 @@ calculate resistance/support lines algorithm:
 # plt.legend(loc='upper left')
 # plt.grid()
 # plt.show()
+
+
+test = " test "
+print(test)
+print(test.strip(" "))
