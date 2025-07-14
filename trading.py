@@ -138,6 +138,7 @@ class BaseTrade:
                 # Check close time for market
                 MARKET_CLOSE_TIME = dt.time(16, 0,0)  # 4:00 PM (24-hour format)
                 if dt.datetime.now().time() > MARKET_CLOSE_TIME:
+                    logging.info("The Market is closed...")
                     print("The Market is closed...")
                     break;
 

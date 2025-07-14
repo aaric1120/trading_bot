@@ -17,7 +17,7 @@ def get_undervalued_stocks():
     """
     foverview = Overview()
 
-    filters_dict = {'Float':'Under 10M',
+    filters_dict = {'Float':'Under 20M',
                     'Price':'$1 to $20',
                     'Relative Volume':'Over 3',
                     'Current Volume':'Over 500K',
@@ -31,8 +31,8 @@ def get_undervalued_stocks():
     #     os.makedirs('out')
     # df_overview.to_csv('out/Overview.csv', index=False)
     tickers = df_overview['Ticker'].to_list()
-    print("Current list of valid stocks...")
-    print(tickers)
+    # print("Current list of valid stocks...")
+    # print(tickers)
     return tickers
 
 
@@ -61,4 +61,4 @@ def get_stock_info(ticker):
 
     return stock_info
 
-# get_undervalued_stocks()
+# print(get_undervalued_stocks())

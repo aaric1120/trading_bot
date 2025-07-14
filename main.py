@@ -1,12 +1,9 @@
 from param_reader import param_reader
 
-from stock_screener import get_undervalued_stocks
-
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest, StockLatestBarRequest
 
 import datetime as dt
-from alpaca.data import TimeFrame
 import time as tm
 
 import numpy as np
