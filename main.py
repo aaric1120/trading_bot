@@ -22,7 +22,8 @@ def main():
     print(f"Currently Trading the stock: {curr_symbol}")
 
     # Configure logging
-    logging.FileHandler(f"logs/trade_log_{curr_symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt", mode="a", encoding=None, delay=False)
+    logging.FileHandler(f"logs/trade_log_{curr_symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt", mode="a",
+                        encoding=None, delay=False)
     logging.basicConfig(
         filename=f"logs/trade_log_{curr_symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt",  # file to write
         level=logging.INFO,  # log INFO and above

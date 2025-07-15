@@ -1,5 +1,4 @@
 import math
-import time
 
 from alpaca.broker import LimitOrderRequest
 from alpaca.data.historical import StockHistoricalDataClient
@@ -11,6 +10,7 @@ from pattern_detection import calculate_slope
 
 import logging
 import datetime as dt
+import time as tm
 
 
 class BaseTrade:
@@ -133,7 +133,7 @@ class BaseTrade:
                         break
 
                 # Bar updates every Minute for latest data
-                time.sleep(60)
+                tm.sleep(60)
 
                 # Check close time for market
                 MARKET_CLOSE_TIME = dt.time(16, 0,0)  # 4:00 PM (24-hour format)
@@ -146,6 +146,7 @@ class BaseTrade:
 
         except Exception as e:
             print(e)
+            logging.info(e)
 
 
 class TriangleTrade(BaseTrade):

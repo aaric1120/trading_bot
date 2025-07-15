@@ -1,8 +1,6 @@
 from finvizfinance.screener.overview import Overview
 import yfinance as yf
 
-import sys
-
 
 def get_undervalued_stocks():
     """

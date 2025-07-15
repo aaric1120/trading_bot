@@ -16,7 +16,7 @@ from alpaca.data.historical import StockHistoricalDataClient, NewsClient
 from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeRequest, StockLatestBarRequest,\
     StockSnapshotRequest, NewsRequest, StockBarsRequest
 
-import time
+import time_tools
 import numpy as np
 import yfinance as yf
 
