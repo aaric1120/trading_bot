@@ -13,13 +13,9 @@ def get_stock_start(stock_list,stock_dict,process_list):
     # print(f"Current list of available stockes to trade: {watch_list}")
 
     if (watch_list is not None):
-        # write into the stocks
-        # only get at most 10 stocks
-        if len(watch_list) > 10:
-            watch_list = watch_list[:9] # TEMPORARY
-
+        # write into the stock
         for stock in watch_list:
-            if stock not in stock_dict:
+            if stock not in stock_dict and len(stock_dict) < 10: #PARAM
                 process_list.append(subprocess.Popen(['python', 'main.py', stock], shell=True))
                 stock_list.append(stock)
                 stock_dict.add(stock)
@@ -52,27 +48,19 @@ def main():
     check_list = False
 
     while (not check_list):
-        print("There are currently no stocks to trade...")
+        print("Getting list of stocks to trade...")
         if dt.datetime.now().time() > MARKET_CLOSE_TIME:
             print("The Market has closed...")
             break
         else:
+            # get list of stocks available for trading
             check_list = get_stock_start(stock_list,stock_dict,process_list)
+            print(f"The Current active stocks are {stock_dict}")
+
+            print("Sleeping for 15 minutes until next stock check...")
             tm.sleep(900) # PARAM
 
     while True:
-        # Check if the process has finished
-        for i in range(len(stock_list)):
-            if(stock_list[i] is not None):
-                if process_list[i].poll() is not None:
-                    stock_dict.remove(stock_list[i])
-                    stock_list[i] = None
-
-        print(f"The Current active stocks are {stock_dict}")
-
-        print("Sleeping for 15 minutes until next stock check...")
-        tm.sleep(900) # PARAM
-        # get list of stocks available for trading
         # Check close time for market
         if dt.datetime.now().time() > MARKET_CLOSE_TIME:
             print("The Market has closed...")
@@ -86,7 +74,12 @@ def main():
                         stock_list[i] = None
 
             # Get new stocks to add...
+            print("Adding new stocks to the list...")
             get_stock_start(stock_list, stock_dict, process_list)
+            print(f"The Current active stocks are {stock_dict}")
+
+            print("Sleeping for 15 minutes until next stock check...")
+            tm.sleep(900)  # PARAM
 
     return
 

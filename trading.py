@@ -70,6 +70,7 @@ class BaseTrade:
                     self.lows.append(low)
                     self.volume += volume
                     self.get_new_avg()
+                    # self.get_new_lines()
 
                     print(f"Current High asks for {self.symbol} is {self.highs[-1]}")
                     print(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
@@ -99,6 +100,14 @@ class BaseTrade:
                         print(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         breakout, breakdown = True, False
+
+                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] > volume):
+                        print(f"The current close: {close} is above the resistance of {self.resist}, but volume isn't enough...")
+                        logging.info(
+                            f"The current close: {close} is above the resistance of {self.resist}, but volume isn't enough...")
+                        self.get_new_lines()
+                        print(f"Updated resistance to: {self.resist} and support to: {self.support}")
+                        logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
 
                     # second bar also closes above resistance: BUY
                     elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume):
