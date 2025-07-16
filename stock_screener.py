@@ -15,12 +15,19 @@ def get_undervalued_stocks():
     """
     foverview = Overview()
 
-    filters_dict = {'Float':'Under 20M',
-                    'Price':'$1 to $20',
-                    'Relative Volume':'Over 3',
-                    'Current Volume':'Over 500K',
-                    'Average True Range':'Over 0.5',
-                    'Beta':'Over 2'
+    # filters_dict = {'Float':'Under 50M',
+    #                 'Price':'$1 to $20',
+    #                 'Relative Volume':'Over 3',
+    #                 'Current Volume':'Over 500K',
+    #                 'Average True Range':'Over 0.5',
+    #                 'Beta':'Over 2'
+    #                 }
+
+    filters_dict = {'Price': '$1 to $20',
+                    'Relative Volume': 'Over 3',
+                    'Current Volume': 'Over 500K',
+                    'Average True Range': 'Over 0.5',
+                    'Beta': 'Over 2'
                     }
 
     foverview.set_filter(filters_dict=filters_dict)
@@ -28,10 +35,12 @@ def get_undervalued_stocks():
     # if not os.path.exists('out'):  # ensures you have an 'out' folder ready
     #     os.makedirs('out')
     # df_overview.to_csv('out/Overview.csv', index=False)
-    tickers = df_overview['Ticker'].to_list()
+    if (df_overview is not None):
+        tickers = df_overview['Ticker'].to_list()
+        return tickers
     # print("Current list of valid stocks...")
     # print(tickers)
-    return tickers
+    return None
 
 
 def get_stock_info(ticker):

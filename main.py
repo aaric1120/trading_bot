@@ -42,6 +42,7 @@ def main():
 
     highs=[]
     lows=[]
+    volume=0.0
 
     # Get the initial data
     get_stock_price_data = hist_stock_client.get_stock_latest_bar(get_stock_price)
@@ -59,6 +60,7 @@ def main():
             logging.info(f"Most recent stock data: {get_stock_price_data}")
             highs.append(get_stock_price_data[curr_symbol].high)
             lows.append(get_stock_price_data[curr_symbol].low)
+            volume += get_stock_price_data[curr_symbol].volume
             print("Current Stock is: " + curr_symbol)
             print(highs)
             print(lows)
@@ -77,25 +79,25 @@ def main():
 
                 elif (pattern == "rectangle"):
                     logging.info("Pattern matched as Rectangle, starting trading strategy")
-                    Rect_trading = RectangleTrade(curr_symbol,param, highs, lows,rect_max, rect_min)
+                    Rect_trading = RectangleTrade(curr_symbol,param, highs, lows, volume,rect_max, rect_min)
                     Rect_trading.run()
                     break
 
                 elif (pattern == "symmetrical_triangle"):
                     logging.info("Pattern matched as Symmetrical Triangle, starting trading strategy")
-                    Tri_trading = TriangleTrade(curr_symbol, param, highs,lows,high_slp,high_C,low_slp,low_C)
+                    Tri_trading = TriangleTrade(curr_symbol, param, highs,lows, volume,high_slp,high_C,low_slp,low_C)
                     Tri_trading.run()
                     break
 
                 elif (pattern == "ascending_triangle"):
                     logging.info("Pattern matched as Ascending Triangle, starting trading strategy")
-                    ATri_trade = AscendingTriangle(curr_symbol, param, highs,lows,high_slp,high_C,low_slp,low_C)
+                    ATri_trade = AscendingTriangle(curr_symbol, param, highs,lows, volume, high_slp,high_C,low_slp,low_C)
                     ATri_trade.run()
                     break
 
                 elif (pattern == "descending_trianlge"):
                     logging.info("Pattern matched as Descending Trianlge, starting trading strategy")
-                    DTri_trade = DescendingTriangle(curr_symbol, param, highs,lows,high_slp,high_C,low_slp,low_C)
+                    DTri_trade = DescendingTriangle(curr_symbol, param, highs,lows, volume, high_slp,high_C,low_slp,low_C)
                     DTri_trade.run()
                     break
 

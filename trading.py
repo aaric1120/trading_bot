@@ -22,8 +22,10 @@ class BaseTrade:
     resist = 0
     support = 0
     param = None
+    volume = 0.0
+    avg_vol = 0.0
 
-    def __init__(self,symbol, param, high, low):
+    def __init__(self,symbol, param, high, low, volume):
         self.symbol = symbol
         self.highs = high
         self.lows = low
@@ -31,6 +33,8 @@ class BaseTrade:
         self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
         self.hist_request = StockLatestBarRequest(symbol_or_symbols=[self.symbol])
         self.param = param
+        self.volume = volume
+        self.avg_vol = round(self.volume / len(self.highs) , 2)
 
         # Configure logging
         logging.FileHandler(f"logs/trade_log_{self.symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt", mode="a",
@@ -45,6 +49,9 @@ class BaseTrade:
     def get_new_lines(self):
         return
 
+    def get_new_avg(self):
+        self.avg_vol = round(self.volume / len(self.highs), 2)
+
     def run(self):
         breakout = False
         breakdown = False
@@ -54,21 +61,27 @@ class BaseTrade:
                 self.hist_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ',
                                                              'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
                 latest_bar = self.hist_client.get_stock_latest_bar(self.hist_request)
-                high, low, close = latest_bar[self.symbol].high, latest_bar[self.symbol].low, latest_bar[self.symbol].close
+                high, low, close, volume = latest_bar[self.symbol].high, latest_bar[self.symbol].low,\
+                                           latest_bar[self.symbol].close, latest_bar[self.symbol].volume
 
                 # Check if data is repeated
                 if high != self.highs[-1] and low != self.lows[-1]:
                     self.highs.append(high)
                     self.lows.append(low)
+                    self.volume += volume
+                    self.get_new_avg()
+
                     print(f"Current High asks for {self.symbol} is {self.highs[-1]}")
                     print(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
                     print(f"Current Close is {close}")
                     print(f"Current resistance is: {self.resist} and support is: {self.support}")
+                    print(f"Current average volume is: {self.avg_vol}")
 
                     logging.info(f"Current High asks for {self.symbol} is {self.highs[-1]}")
                     logging.info(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
                     logging.info(f"Current Close is {close}")
                     logging.info(f"Current resistance is: {self.resist} and support is: {self.support}")
+                    logging.info(f"Current average volume is: {self.avg_vol}")
 
                     # If close between resistance and support, update the line
                     if self.support < close < self.resist:
@@ -82,12 +95,19 @@ class BaseTrade:
                         # set breakout check to true
                         print(f"The Current Close {close} is above the resistance...")
                         logging.info(f"The Current Close {close} is above the resistance...")
+                        self.get_new_lines()
+                        print(f"Updated resistance to: {self.resist} and support to: {self.support}")
+                        logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         breakout, breakdown = True, False
 
                     # second bar also closes above resistance: BUY
-                    elif close > self.resist and breakout:
+                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume):
                         print(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
                         logging.info(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
+                        print(f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
+                        logging.info(
+                            f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
+
                         # Set stop loss at just below resistance
                         stop_loss = round(self.resist * self.param["stop_loss"], 2) #PARAM
 
@@ -103,7 +123,7 @@ class BaseTrade:
                                                 limit_price=price,
                                                 qty=quantity,
                                                 side=OrderSide.BUY,
-                                                time_in_force=TimeInForce.GTC,
+                                                time_in_force=TimeInForce.DAY,
                                                 order_class=OrderClass.BRACKET,
                                                 take_profit=TakeProfitRequest(limit_price=take_profit),
                                                 stop_loss=StopLossRequest(stop_price=stop_loss))
@@ -146,7 +166,7 @@ class BaseTrade:
 
         except Exception as e:
             print(e)
-            logging.info(e)
+            logging.error(e)
 
 
 class TriangleTrade(BaseTrade):
@@ -155,8 +175,8 @@ class TriangleTrade(BaseTrade):
     high_const = 0
     low_const = 0
 
-    def __init__(self, symbol,param, high, low, h_slope, h_const, l_slope, l_const):
-        super().__init__(symbol,param, high, low)
+    def __init__(self, symbol,param, high, low, volume, h_slope, h_const, l_slope, l_const):
+        super().__init__(symbol,param, high, low, volume)
         self.high_slope=h_slope
         self.high_const=h_const
         self.low_slope=l_slope
@@ -179,8 +199,8 @@ class TriangleTrade(BaseTrade):
 
 class RectangleTrade(BaseTrade):
 
-    def __init__(self, symbol,param, high, low, resist, support):
-        super().__init__(symbol,param, high, low)
+    def __init__(self, symbol,param, high, low, volume, resist, support):
+        super().__init__(symbol,param, high, low, volume)
         self.resist = resist
         self.support = support
 

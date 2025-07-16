@@ -10,26 +10,34 @@ def get_stock_start(stock_list,stock_dict,process_list):
     # get list of stocks available for trading
     watch_list = get_undervalued_stocks()
 
-    print(f"Current list of available stockes to trade: {watch_list}")
+    # print(f"Current list of available stockes to trade: {watch_list}")
 
-    # write into the stocks
-    for stock in watch_list:
-        if stock not in stock_dict:
-            process_list.append(subprocess.Popen(['python', 'main.py', stock], shell=True))
-            stock_list.append(stock)
-            stock_dict.add(stock)
+    if (watch_list is not None):
+        # write into the stocks
+        # only get at most 10 stocks
+        if len(watch_list) > 10:
+            watch_list = watch_list[:9] # TEMPORARY
 
-    return
+        for stock in watch_list:
+            if stock not in stock_dict:
+                process_list.append(subprocess.Popen(['python', 'main.py', stock], shell=True))
+                stock_list.append(stock)
+                stock_dict.add(stock)
+
+        return True
+
+    return False
 
 
 def main():
     # Check if market is open or not...
     MARKET_OPEN_TIME = dt.time(9, 30, 0)  # 9:30 AM (24-hour format) PARAM
     MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format) PARAM
-    MIDNIGHT = dt.time(23, 59, 59)
+    PRE_MIDNIGHT = dt.time(23, 59, 59)
+    POST_MIDNIGHT = dt.time(0, 0, 0)
 
-    if  MARKET_CLOSE_TIME < dt.datetime.now().time() < MIDNIGHT \
-            or MIDNIGHT < dt.datetime.now().time() < MARKET_OPEN_TIME:
+    if  MARKET_CLOSE_TIME < dt.datetime.now().time() < PRE_MIDNIGHT \
+            or POST_MIDNIGHT < dt.datetime.now().time() < MARKET_OPEN_TIME:
         print("The Market hasn't opened yet...")
         sleep_sec = get_seconds(9,30,0) # PARAM
         print(f"Sleeping for {sleep_sec} seconds until Marktet opens...")
@@ -41,9 +49,18 @@ def main():
     process_list = []
 
     # get list of stocks available for trading
-    get_stock_start(stock_list,stock_dict,process_list)
+    check_list = False
 
-    while len(stock_dict) != 0:
+    while (not check_list):
+        print("There are currently no stocks to trade...")
+        if dt.datetime.now().time() > MARKET_CLOSE_TIME:
+            print("The Market has closed...")
+            break
+        else:
+            check_list = get_stock_start(stock_list,stock_dict,process_list)
+            tm.sleep(900) # PARAM
+
+    while True:
         # Check if the process has finished
         for i in range(len(stock_list)):
             if(stock_list[i] is not None):
@@ -51,6 +68,9 @@ def main():
                     stock_dict.remove(stock_list[i])
                     stock_list[i] = None
 
+        print(f"The Current active stocks are {stock_dict}")
+
+        print("Sleeping for 15 minutes until next stock check...")
         tm.sleep(900) # PARAM
         # get list of stocks available for trading
         # Check close time for market
@@ -58,6 +78,14 @@ def main():
             print("The Market has closed...")
             break
         else:
+            # Check if the process has finished
+            for i in range(len(stock_list)):
+                if (stock_list[i] is not None):
+                    if process_list[i].poll() is not None:
+                        stock_dict.remove(stock_list[i])
+                        stock_list[i] = None
+
+            # Get new stocks to add...
             get_stock_start(stock_list, stock_dict, process_list)
 
     return
