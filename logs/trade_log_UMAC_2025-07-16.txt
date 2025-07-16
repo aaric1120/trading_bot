@@ -1,0 +1,927 @@
+2025-07-16 10:53:25 INFO: === Strategy started ===
+2025-07-16 10:53:25 INFO: Start collecting the current highs/lows for: UMAC
+2025-07-16 10:53:25 INFO: Most recent stock data: {'UMAC': {   'close': 11.435,
+    'high': 11.435,
+    'low': 11.435,
+    'open': 11.435,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 156.0,
+    'vwap': 11.435}}
+2025-07-16 10:54:25 INFO: Most recent stock data: {'UMAC': {   'close': 11.335,
+    'high': 11.335,
+    'low': 11.335,
+    'open': 11.335,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 11.335}}
+2025-07-16 10:55:25 INFO: Most recent stock data: {'UMAC': {   'close': 11.33,
+    'high': 11.33,
+    'low': 11.32,
+    'open': 11.32,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 425.0,
+    'vwap': 11.323333}}
+2025-07-16 10:56:25 INFO: Most recent stock data: {'UMAC': {   'close': 11.32,
+    'high': 11.32,
+    'low': 11.28,
+    'open': 11.28,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 575.0,
+    'vwap': 11.297}}
+2025-07-16 10:58:26 INFO: Most recent stock data: {'UMAC': {   'close': 11.35,
+    'high': 11.35,
+    'low': 11.35,
+    'open': 11.35,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 11.35}}
+2025-07-16 10:59:26 INFO: Most recent stock data: {'UMAC': {   'close': 11.22,
+    'high': 11.235,
+    'low': 11.22,
+    'open': 11.235,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 346.0,
+    'vwap': 11.225}}
+2025-07-16 11:01:26 INFO: Most recent stock data: {'UMAC': {   'close': 11.22,
+    'high': 11.22,
+    'low': 11.21,
+    'open': 11.21,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 950.0,
+    'vwap': 11.21125}}
+2025-07-16 11:02:26 INFO: Most recent stock data: {'UMAC': {   'close': 11.3,
+    'high': 11.3,
+    'low': 11.29,
+    'open': 11.29,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 503.0,
+    'vwap': 11.295996}}
+2025-07-16 11:03:26 INFO: Most recent stock data: {'UMAC': {   'close': 11.29,
+    'high': 11.29,
+    'low': 11.275,
+    'open': 11.275,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 329.0,
+    'vwap': 11.280536}}
+2025-07-16 11:04:27 INFO: Most recent stock data: {'UMAC': {   'close': 11.36,
+    'high': 11.36,
+    'low': 11.36,
+    'open': 11.36,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.36}}
+2025-07-16 11:05:27 INFO: Most recent stock data: {'UMAC': {   'close': 11.4,
+    'high': 11.4,
+    'low': 11.4,
+    'open': 11.4,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 290.0,
+    'vwap': 11.4}}
+2025-07-16 11:05:27 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-16 11:05:27 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-16 11:06:27 INFO: Current High asks for UMAC is 11.435
+2025-07-16 11:06:27 INFO: Current Low asks for UMAC is 11.42
+2025-07-16 11:06:27 INFO: Current Close is 11.42
+2025-07-16 11:06:27 INFO: Current resistance is: 11.435 and support is: 11.21
+2025-07-16 11:06:27 INFO: Current average volume is: 413.58
+2025-07-16 11:06:27 INFO: Updated resistance to: 11.435 and support to: 11.21
+2025-07-16 11:07:27 INFO: Current High asks for UMAC is 11.46
+2025-07-16 11:07:27 INFO: Current Low asks for UMAC is 11.445
+2025-07-16 11:07:27 INFO: Current Close is 11.46
+2025-07-16 11:07:27 INFO: Current resistance is: 11.435 and support is: 11.21
+2025-07-16 11:07:27 INFO: Current average volume is: 404.08
+2025-07-16 11:07:27 INFO: The Current Close 11.46 is above the resistance...
+2025-07-16 11:07:27 INFO: Updated resistance to: 11.46 and support to: 11.21
+2025-07-16 11:09:27 INFO: Current High asks for UMAC is 11.345
+2025-07-16 11:09:27 INFO: Current Low asks for UMAC is 11.345
+2025-07-16 11:09:27 INFO: Current Close is 11.345
+2025-07-16 11:09:27 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:09:27 INFO: Current average volume is: 382.36
+2025-07-16 11:09:27 INFO: Updated resistance to: 11.46 and support to: 11.21
+2025-07-16 11:10:28 INFO: Current High asks for UMAC is 11.34
+2025-07-16 11:10:28 INFO: Current Low asks for UMAC is 11.33
+2025-07-16 11:10:28 INFO: Current Close is 11.34
+2025-07-16 11:10:28 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:10:28 INFO: Current average volume is: 376.87
+2025-07-16 11:10:28 INFO: Updated resistance to: 11.46 and support to: 11.21
+2025-07-16 11:11:28 INFO: Current High asks for UMAC is 11.295
+2025-07-16 11:11:28 INFO: Current Low asks for UMAC is 11.295
+2025-07-16 11:11:28 INFO: Current Close is 11.295
+2025-07-16 11:11:28 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:11:28 INFO: Current average volume is: 359.56
+2025-07-16 11:11:28 INFO: Updated resistance to: 11.46 and support to: 11.21
+2025-07-16 11:12:28 INFO: Current High asks for UMAC is 11.3
+2025-07-16 11:12:28 INFO: Current Low asks for UMAC is 11.3
+2025-07-16 11:12:28 INFO: Current Close is 11.3
+2025-07-16 11:12:28 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:12:28 INFO: Current average volume is: 353.35
+2025-07-16 11:12:28 INFO: Updated resistance to: 11.46 and support to: 11.21
+2025-07-16 11:13:28 INFO: Current High asks for UMAC is 11.285
+2025-07-16 11:13:28 INFO: Current Low asks for UMAC is 11.28
+2025-07-16 11:13:28 INFO: Current Close is 11.28
+2025-07-16 11:13:28 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:13:28 INFO: Current average volume is: 347.61
+2025-07-16 11:13:28 INFO: Updated resistance to: 11.46 and support to: 11.21
+2025-07-16 11:14:28 INFO: Current High asks for UMAC is 11.305
+2025-07-16 11:14:28 INFO: Current Low asks for UMAC is 11.305
+2025-07-16 11:14:28 INFO: Current Close is 11.305
+2025-07-16 11:14:28 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:14:28 INFO: Current average volume is: 366.16
+2025-07-16 11:14:28 INFO: Updated resistance to: 11.46 and support to: 11.21
+2025-07-16 11:15:28 INFO: Current High asks for UMAC is 11.27
+2025-07-16 11:15:28 INFO: Current Low asks for UMAC is 11.26
+2025-07-16 11:15:28 INFO: Current Close is 11.27
+2025-07-16 11:15:28 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:15:28 INFO: Current average volume is: 362.85
+2025-07-16 11:15:28 INFO: Updated resistance to: 11.46 and support to: 11.21
+2025-07-16 11:17:29 INFO: Current High asks for UMAC is 11.26
+2025-07-16 11:17:29 INFO: Current Low asks for UMAC is 11.21
+2025-07-16 11:17:29 INFO: Current Close is 11.21
+2025-07-16 11:17:29 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:17:29 INFO: Current average volume is: 368.19
+2025-07-16 11:19:29 INFO: Current High asks for UMAC is 11.18
+2025-07-16 11:19:29 INFO: Current Low asks for UMAC is 11.18
+2025-07-16 11:19:29 INFO: Current Close is 11.18
+2025-07-16 11:19:29 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:19:29 INFO: Current average volume is: 358.27
+2025-07-16 11:19:29 INFO: close price: 11.18 just dropped below support of 11.21...
+2025-07-16 11:20:29 INFO: Current High asks for UMAC is 11.17
+2025-07-16 11:20:29 INFO: Current Low asks for UMAC is 11.145
+2025-07-16 11:20:29 INFO: Current Close is 11.145
+2025-07-16 11:20:29 INFO: Current resistance is: 11.46 and support is: 11.21
+2025-07-16 11:20:29 INFO: Current average volume is: 355.74
+2025-07-16 11:20:29 INFO: Closing price: 11.145 just dropped below support 11.21 again...ending trade...
+2025-07-16 11:23:25 INFO: === Strategy started ===
+2025-07-16 11:23:25 INFO: Start collecting the current highs/lows for: UMAC
+2025-07-16 11:23:25 INFO: Most recent stock data: {'UMAC': {   'close': 11.03,
+    'high': 11.04,
+    'low': 11.03,
+    'open': 11.04,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 620.0,
+    'vwap': 11.034444}}
+2025-07-16 11:25:26 INFO: Most recent stock data: {'UMAC': {   'close': 11.06,
+    'high': 11.08,
+    'low': 11.06,
+    'open': 11.08,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 411.0,
+    'vwap': 11.070354}}
+2025-07-16 11:28:26 INFO: Most recent stock data: {'UMAC': {   'close': 11.09,
+    'high': 11.09,
+    'low': 11.09,
+    'open': 11.09,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 335.0,
+    'vwap': 11.09}}
+2025-07-16 11:29:26 INFO: Most recent stock data: {'UMAC': {   'close': 11.035,
+    'high': 11.035,
+    'low': 11.035,
+    'open': 11.035,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 123.0,
+    'vwap': 11.035}}
+2025-07-16 11:32:27 INFO: Most recent stock data: {'UMAC': {   'close': 11.055,
+    'high': 11.055,
+    'low': 11.04,
+    'open': 11.04,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 925.0,
+    'vwap': 11.05125}}
+2025-07-16 11:33:27 INFO: Most recent stock data: {'UMAC': {   'close': 10.97,
+    'high': 10.98,
+    'low': 10.95,
+    'open': 10.98,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2559.0,
+    'vwap': 10.960749}}
+2025-07-16 11:34:27 INFO: Most recent stock data: {'UMAC': {   'close': 10.93,
+    'high': 10.975,
+    'low': 10.93,
+    'open': 10.975,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1333.0,
+    'vwap': 10.95231}}
+2025-07-16 11:35:27 INFO: Most recent stock data: {'UMAC': {   'close': 10.93,
+    'high': 10.93,
+    'low': 10.92,
+    'open': 10.93,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2116.0,
+    'vwap': 10.928492}}
+2025-07-16 11:36:27 INFO: Most recent stock data: {'UMAC': {   'close': 10.94,
+    'high': 10.94,
+    'low': 10.905,
+    'open': 10.91,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1083.0,
+    'vwap': 10.912436}}
+2025-07-16 11:37:27 INFO: Most recent stock data: {'UMAC': {   'close': 10.91,
+    'high': 10.91,
+    'low': 10.88,
+    'open': 10.91,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 797.0,
+    'vwap': 10.893333}}
+2025-07-16 11:38:27 INFO: Most recent stock data: {'UMAC': {   'close': 10.84,
+    'high': 10.9,
+    'low': 10.84,
+    'open': 10.9,
+    'symbol': 'UMAC',
+    'timestamp': datetime.datetime(2025, 7, 16, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1822.0,
+    'vwap': 10.892243}}
+2025-07-16 11:38:27 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-16 11:38:27 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-16 11:39:28 INFO: Current High asks for UMAC is 10.86
+2025-07-16 11:39:28 INFO: Current Low asks for UMAC is 10.82
+2025-07-16 11:39:28 INFO: Current Close is 10.86
+2025-07-16 11:39:28 INFO: Current resistance is: 11.09 and support is: 10.84
+2025-07-16 11:39:28 INFO: Current average volume is: 984.17
+2025-07-16 11:39:28 INFO: Updated resistance to: 11.09 and support to: 10.82
+2025-07-16 11:40:28 INFO: Current High asks for UMAC is 10.88
+2025-07-16 11:40:28 INFO: Current Low asks for UMAC is 10.87
+2025-07-16 11:40:28 INFO: Current Close is 10.88
+2025-07-16 11:40:28 INFO: Current resistance is: 11.09 and support is: 10.82
+2025-07-16 11:40:28 INFO: Current average volume is: 935.31
+2025-07-16 11:40:28 INFO: Updated resistance to: 11.09 and support to: 10.82
+2025-07-16 11:41:28 INFO: Current High asks for UMAC is 10.85
+2025-07-16 11:41:28 INFO: Current Low asks for UMAC is 10.815
+2025-07-16 11:41:28 INFO: Current Close is 10.83
+2025-07-16 11:41:28 INFO: Current resistance is: 11.09 and support is: 10.82
+2025-07-16 11:41:28 INFO: Current average volume is: 939.5
+2025-07-16 11:41:28 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:43:28 INFO: Current High asks for UMAC is 10.985
+2025-07-16 11:43:28 INFO: Current Low asks for UMAC is 10.93
+2025-07-16 11:43:28 INFO: Current Close is 10.985
+2025-07-16 11:43:28 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:43:28 INFO: Current average volume is: 963.13
+2025-07-16 11:43:28 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:44:28 INFO: Current High asks for UMAC is 10.97
+2025-07-16 11:44:28 INFO: Current Low asks for UMAC is 10.94
+2025-07-16 11:44:28 INFO: Current Close is 10.97
+2025-07-16 11:44:28 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:44:28 INFO: Current average volume is: 1016.19
+2025-07-16 11:44:28 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:46:29 INFO: Current High asks for UMAC is 11.065
+2025-07-16 11:46:29 INFO: Current Low asks for UMAC is 11.01
+2025-07-16 11:46:29 INFO: Current Close is 11.065
+2025-07-16 11:46:29 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:46:29 INFO: Current average volume is: 1018.88
+2025-07-16 11:46:29 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:47:29 INFO: Current High asks for UMAC is 11.09
+2025-07-16 11:47:29 INFO: Current Low asks for UMAC is 11.035
+2025-07-16 11:47:29 INFO: Current Close is 11.04
+2025-07-16 11:47:29 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:47:29 INFO: Current average volume is: 1008.39
+2025-07-16 11:47:29 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:48:29 INFO: Current High asks for UMAC is 11.04
+2025-07-16 11:48:29 INFO: Current Low asks for UMAC is 10.99
+2025-07-16 11:48:29 INFO: Current Close is 10.99
+2025-07-16 11:48:29 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:48:29 INFO: Current average volume is: 986.05
+2025-07-16 11:48:29 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:49:29 INFO: Current High asks for UMAC is 10.895
+2025-07-16 11:49:29 INFO: Current Low asks for UMAC is 10.895
+2025-07-16 11:49:29 INFO: Current Close is 10.895
+2025-07-16 11:49:29 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:49:29 INFO: Current average volume is: 941.75
+2025-07-16 11:49:29 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:50:29 INFO: Current High asks for UMAC is 10.87
+2025-07-16 11:50:29 INFO: Current Low asks for UMAC is 10.87
+2025-07-16 11:50:29 INFO: Current Close is 10.87
+2025-07-16 11:50:29 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:50:29 INFO: Current average volume is: 902.86
+2025-07-16 11:50:29 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:51:29 INFO: Current High asks for UMAC is 10.855
+2025-07-16 11:51:29 INFO: Current Low asks for UMAC is 10.855
+2025-07-16 11:51:29 INFO: Current Close is 10.855
+2025-07-16 11:51:29 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:51:29 INFO: Current average volume is: 867.77
+2025-07-16 11:51:29 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:53:30 INFO: Current High asks for UMAC is 10.83
+2025-07-16 11:53:30 INFO: Current Low asks for UMAC is 10.83
+2025-07-16 11:53:30 INFO: Current Close is 10.83
+2025-07-16 11:53:30 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:53:30 INFO: Current average volume is: 847.43
+2025-07-16 11:53:30 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:54:30 INFO: Current High asks for UMAC is 10.82
+2025-07-16 11:54:30 INFO: Current Low asks for UMAC is 10.82
+2025-07-16 11:54:30 INFO: Current Close is 10.82
+2025-07-16 11:54:30 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:54:30 INFO: Current average volume is: 816.29
+2025-07-16 11:54:30 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:55:30 INFO: Current High asks for UMAC is 10.83
+2025-07-16 11:55:30 INFO: Current Low asks for UMAC is 10.83
+2025-07-16 11:55:30 INFO: Current Close is 10.83
+2025-07-16 11:55:30 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:55:30 INFO: Current average volume is: 800.04
+2025-07-16 11:55:30 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:56:30 INFO: Current High asks for UMAC is 10.89
+2025-07-16 11:56:30 INFO: Current Low asks for UMAC is 10.89
+2025-07-16 11:56:30 INFO: Current Close is 10.89
+2025-07-16 11:56:30 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:56:30 INFO: Current average volume is: 776.73
+2025-07-16 11:56:30 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:57:30 INFO: Current High asks for UMAC is 10.885
+2025-07-16 11:57:30 INFO: Current Low asks for UMAC is 10.87
+2025-07-16 11:57:30 INFO: Current Close is 10.87
+2025-07-16 11:57:30 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:57:30 INFO: Current average volume is: 759.78
+2025-07-16 11:57:30 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 11:58:30 INFO: Current High asks for UMAC is 10.96
+2025-07-16 11:58:30 INFO: Current Low asks for UMAC is 10.96
+2025-07-16 11:58:30 INFO: Current Close is 10.96
+2025-07-16 11:58:30 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 11:58:30 INFO: Current average volume is: 739.79
+2025-07-16 11:58:30 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 12:02:31 INFO: Current High asks for UMAC is 11.08
+2025-07-16 12:02:31 INFO: Current Low asks for UMAC is 11.08
+2025-07-16 12:02:31 INFO: Current Close is 11.08
+2025-07-16 12:02:31 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 12:02:31 INFO: Current average volume is: 738.0
+2025-07-16 12:02:31 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 12:03:31 INFO: Current High asks for UMAC is 11.06
+2025-07-16 12:03:31 INFO: Current Low asks for UMAC is 11.035
+2025-07-16 12:03:31 INFO: Current Close is 11.035
+2025-07-16 12:03:31 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 12:03:31 INFO: Current average volume is: 720.07
+2025-07-16 12:03:31 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 12:04:31 INFO: Current High asks for UMAC is 11.04
+2025-07-16 12:04:31 INFO: Current Low asks for UMAC is 11.015
+2025-07-16 12:04:31 INFO: Current Close is 11.04
+2025-07-16 12:04:31 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 12:04:31 INFO: Current average volume is: 712.97
+2025-07-16 12:04:31 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 12:06:31 INFO: Current High asks for UMAC is 11.07
+2025-07-16 12:06:31 INFO: Current Low asks for UMAC is 11.07
+2025-07-16 12:06:31 INFO: Current Close is 11.07
+2025-07-16 12:06:31 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 12:06:31 INFO: Current average volume is: 697.34
+2025-07-16 12:06:31 INFO: Updated resistance to: 11.09 and support to: 10.815
+2025-07-16 12:07:32 INFO: Current High asks for UMAC is 11.225
+2025-07-16 12:07:32 INFO: Current Low asks for UMAC is 11.19
+2025-07-16 12:07:32 INFO: Current Close is 11.225
+2025-07-16 12:07:32 INFO: Current resistance is: 11.09 and support is: 10.815
+2025-07-16 12:07:32 INFO: Current average volume is: 685.3
+2025-07-16 12:07:32 INFO: The Current Close 11.225 is above the resistance...
+2025-07-16 12:07:32 INFO: Updated resistance to: 11.225 and support to: 10.815
+2025-07-16 12:09:32 INFO: Current High asks for UMAC is 11.265
+2025-07-16 12:09:32 INFO: Current Low asks for UMAC is 11.24
+2025-07-16 12:09:32 INFO: Current Close is 11.24
+2025-07-16 12:09:32 INFO: Current resistance is: 11.225 and support is: 10.815
+2025-07-16 12:09:32 INFO: Current average volume is: 685.71
+2025-07-16 12:09:32 INFO: The current close: 11.24 is above the resistance of 11.225, but volume isn't enough...
+2025-07-16 12:09:32 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:12:32 INFO: Current High asks for UMAC is 11.165
+2025-07-16 12:12:32 INFO: Current Low asks for UMAC is 11.165
+2025-07-16 12:12:32 INFO: Current Close is 11.165
+2025-07-16 12:12:32 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:12:32 INFO: Current average volume is: 672.0
+2025-07-16 12:12:32 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:15:33 INFO: Current High asks for UMAC is 11.17
+2025-07-16 12:15:33 INFO: Current Low asks for UMAC is 11.16
+2025-07-16 12:15:33 INFO: Current Close is 11.17
+2025-07-16 12:15:33 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:15:33 INFO: Current average volume is: 659.61
+2025-07-16 12:15:33 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:16:33 INFO: Current High asks for UMAC is 11.21
+2025-07-16 12:16:33 INFO: Current Low asks for UMAC is 11.205
+2025-07-16 12:16:33 INFO: Current Close is 11.21
+2025-07-16 12:16:33 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:16:33 INFO: Current average volume is: 647.86
+2025-07-16 12:16:33 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:19:33 INFO: Current High asks for UMAC is 11.13
+2025-07-16 12:19:33 INFO: Current Low asks for UMAC is 11.13
+2025-07-16 12:19:33 INFO: Current Close is 11.13
+2025-07-16 12:19:33 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:19:33 INFO: Current average volume is: 636.08
+2025-07-16 12:19:33 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:22:34 INFO: Current High asks for UMAC is 11.02
+2025-07-16 12:22:34 INFO: Current Low asks for UMAC is 11.02
+2025-07-16 12:22:34 INFO: Current Close is 11.02
+2025-07-16 12:22:34 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:22:34 INFO: Current average volume is: 623.69
+2025-07-16 12:22:34 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:23:34 INFO: Current High asks for UMAC is 10.92
+2025-07-16 12:23:34 INFO: Current Low asks for UMAC is 10.9
+2025-07-16 12:23:34 INFO: Current Close is 10.92
+2025-07-16 12:23:34 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:23:34 INFO: Current average volume is: 615.6
+2025-07-16 12:23:34 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:25:34 INFO: Current High asks for UMAC is 10.96
+2025-07-16 12:25:34 INFO: Current Low asks for UMAC is 10.96
+2025-07-16 12:25:34 INFO: Current Close is 10.96
+2025-07-16 12:25:34 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:25:34 INFO: Current average volume is: 608.07
+2025-07-16 12:25:34 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:26:34 INFO: Current High asks for UMAC is 10.98
+2025-07-16 12:26:34 INFO: Current Low asks for UMAC is 10.98
+2025-07-16 12:26:34 INFO: Current Close is 10.98
+2025-07-16 12:26:34 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:26:34 INFO: Current average volume is: 597.24
+2025-07-16 12:26:34 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:29:35 INFO: Current High asks for UMAC is 10.94
+2025-07-16 12:29:35 INFO: Current Low asks for UMAC is 10.94
+2025-07-16 12:29:35 INFO: Current Close is 10.94
+2025-07-16 12:29:35 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:29:35 INFO: Current average volume is: 585.67
+2025-07-16 12:29:35 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:31:35 INFO: Current High asks for UMAC is 10.95
+2025-07-16 12:31:35 INFO: Current Low asks for UMAC is 10.945
+2025-07-16 12:31:35 INFO: Current Close is 10.945
+2025-07-16 12:31:35 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:31:35 INFO: Current average volume is: 582.02
+2025-07-16 12:31:35 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:32:35 INFO: Current High asks for UMAC is 10.955
+2025-07-16 12:32:35 INFO: Current Low asks for UMAC is 10.95
+2025-07-16 12:32:35 INFO: Current Close is 10.95
+2025-07-16 12:32:35 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:32:35 INFO: Current average volume is: 581.93
+2025-07-16 12:32:35 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:34:35 INFO: Current High asks for UMAC is 11.0
+2025-07-16 12:34:35 INFO: Current Low asks for UMAC is 10.97
+2025-07-16 12:34:35 INFO: Current Close is 10.98
+2025-07-16 12:34:35 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:34:35 INFO: Current average volume is: 584.5
+2025-07-16 12:34:35 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:36:36 INFO: Current High asks for UMAC is 11.02
+2025-07-16 12:36:36 INFO: Current Low asks for UMAC is 11.02
+2025-07-16 12:36:36 INFO: Current Close is 11.02
+2025-07-16 12:36:36 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:36:36 INFO: Current average volume is: 574.96
+2025-07-16 12:36:36 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:38:36 INFO: Current High asks for UMAC is 11.015
+2025-07-16 12:38:36 INFO: Current Low asks for UMAC is 11.015
+2025-07-16 12:38:36 INFO: Current Close is 11.015
+2025-07-16 12:38:36 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:38:36 INFO: Current average volume is: 569.33
+2025-07-16 12:38:36 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:40:36 INFO: Current High asks for UMAC is 11.055
+2025-07-16 12:40:36 INFO: Current Low asks for UMAC is 11.045
+2025-07-16 12:40:36 INFO: Current Close is 11.055
+2025-07-16 12:40:36 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:40:36 INFO: Current average volume is: 564.86
+2025-07-16 12:40:36 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:41:36 INFO: Current High asks for UMAC is 11.08
+2025-07-16 12:41:36 INFO: Current Low asks for UMAC is 11.08
+2025-07-16 12:41:36 INFO: Current Close is 11.08
+2025-07-16 12:41:36 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:41:36 INFO: Current average volume is: 555.56
+2025-07-16 12:41:36 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:43:37 INFO: Current High asks for UMAC is 11.1
+2025-07-16 12:43:37 INFO: Current Low asks for UMAC is 11.05
+2025-07-16 12:43:37 INFO: Current Close is 11.1
+2025-07-16 12:43:37 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:43:37 INFO: Current average volume is: 563.9
+2025-07-16 12:43:37 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:44:37 INFO: Current High asks for UMAC is 11.055
+2025-07-16 12:44:37 INFO: Current Low asks for UMAC is 11.055
+2025-07-16 12:44:37 INFO: Current Close is 11.055
+2025-07-16 12:44:37 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:44:37 INFO: Current average volume is: 567.21
+2025-07-16 12:44:37 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:47:37 INFO: Current High asks for UMAC is 11.045
+2025-07-16 12:47:37 INFO: Current Low asks for UMAC is 11.045
+2025-07-16 12:47:37 INFO: Current Close is 11.045
+2025-07-16 12:47:37 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:47:37 INFO: Current average volume is: 558.43
+2025-07-16 12:47:37 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:50:38 INFO: Current High asks for UMAC is 11.165
+2025-07-16 12:50:38 INFO: Current Low asks for UMAC is 11.165
+2025-07-16 12:50:38 INFO: Current Close is 11.165
+2025-07-16 12:50:38 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:50:38 INFO: Current average volume is: 561.06
+2025-07-16 12:50:38 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:53:38 INFO: Current High asks for UMAC is 11.24
+2025-07-16 12:53:38 INFO: Current Low asks for UMAC is 11.23
+2025-07-16 12:53:38 INFO: Current Close is 11.24
+2025-07-16 12:53:38 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:53:38 INFO: Current average volume is: 572.91
+2025-07-16 12:53:38 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:54:38 INFO: Current High asks for UMAC is 11.26
+2025-07-16 12:54:38 INFO: Current Low asks for UMAC is 11.26
+2025-07-16 12:54:38 INFO: Current Close is 11.26
+2025-07-16 12:54:38 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:54:38 INFO: Current average volume is: 564.5
+2025-07-16 12:54:38 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:55:38 INFO: Current High asks for UMAC is 11.255
+2025-07-16 12:55:38 INFO: Current Low asks for UMAC is 11.255
+2025-07-16 12:55:38 INFO: Current Close is 11.255
+2025-07-16 12:55:38 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:55:38 INFO: Current average volume is: 569.05
+2025-07-16 12:55:38 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:56:38 INFO: Current High asks for UMAC is 11.23
+2025-07-16 12:56:38 INFO: Current Low asks for UMAC is 11.23
+2025-07-16 12:56:38 INFO: Current Close is 11.23
+2025-07-16 12:56:38 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:56:38 INFO: Current average volume is: 571.36
+2025-07-16 12:56:38 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 12:58:39 INFO: Current High asks for UMAC is 11.175
+2025-07-16 12:58:39 INFO: Current Low asks for UMAC is 11.175
+2025-07-16 12:58:39 INFO: Current Close is 11.175
+2025-07-16 12:58:39 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 12:58:39 INFO: Current average volume is: 564.25
+2025-07-16 12:58:39 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 13:03:39 INFO: Current High asks for UMAC is 11.205
+2025-07-16 13:03:39 INFO: Current Low asks for UMAC is 11.17
+2025-07-16 13:03:39 INFO: Current Close is 11.205
+2025-07-16 13:03:39 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 13:03:39 INFO: Current average volume is: 559.35
+2025-07-16 13:03:39 INFO: Updated resistance to: 11.265 and support to: 10.815
+2025-07-16 13:04:39 INFO: Current High asks for UMAC is 11.28
+2025-07-16 13:04:39 INFO: Current Low asks for UMAC is 11.21
+2025-07-16 13:04:39 INFO: Current Close is 11.28
+2025-07-16 13:04:39 INFO: Current resistance is: 11.265 and support is: 10.815
+2025-07-16 13:04:39 INFO: Current average volume is: 555.16
+2025-07-16 13:04:39 INFO: The Current Close 11.28 is above the resistance...
+2025-07-16 13:04:39 INFO: Updated resistance to: 11.28 and support to: 10.815
+2025-07-16 13:05:40 INFO: Current High asks for UMAC is 11.25
+2025-07-16 13:05:40 INFO: Current Low asks for UMAC is 11.25
+2025-07-16 13:05:40 INFO: Current Close is 11.25
+2025-07-16 13:05:40 INFO: Current resistance is: 11.28 and support is: 10.815
+2025-07-16 13:05:40 INFO: Current average volume is: 547.82
+2025-07-16 13:05:40 INFO: Updated resistance to: 11.28 and support to: 10.815
+2025-07-16 13:06:40 INFO: Current High asks for UMAC is 11.29
+2025-07-16 13:06:40 INFO: Current Low asks for UMAC is 11.28
+2025-07-16 13:06:40 INFO: Current Close is 11.29
+2025-07-16 13:06:40 INFO: Current resistance is: 11.28 and support is: 10.815
+2025-07-16 13:06:40 INFO: Current average volume is: 542.3
+2025-07-16 13:06:40 INFO: The Current Close 11.29 is above the resistance...
+2025-07-16 13:06:40 INFO: Updated resistance to: 11.29 and support to: 10.815
+2025-07-16 13:07:40 INFO: Current High asks for UMAC is 11.3
+2025-07-16 13:07:40 INFO: Current Low asks for UMAC is 11.3
+2025-07-16 13:07:40 INFO: Current Close is 11.3
+2025-07-16 13:07:40 INFO: Current resistance is: 11.29 and support is: 10.815
+2025-07-16 13:07:40 INFO: Current average volume is: 538.58
+2025-07-16 13:07:40 INFO: The current close: 11.3 is above the resistance of 11.29, but volume isn't enough...
+2025-07-16 13:07:40 INFO: Updated resistance to: 11.3 and support to: 10.815
+2025-07-16 13:09:40 INFO: Current High asks for UMAC is 11.295
+2025-07-16 13:09:40 INFO: Current Low asks for UMAC is 11.285
+2025-07-16 13:09:40 INFO: Current Close is 11.295
+2025-07-16 13:09:40 INFO: Current resistance is: 11.3 and support is: 10.815
+2025-07-16 13:09:40 INFO: Current average volume is: 536.28
+2025-07-16 13:09:40 INFO: Updated resistance to: 11.3 and support to: 10.815
+2025-07-16 13:12:40 INFO: Current High asks for UMAC is 11.355
+2025-07-16 13:12:40 INFO: Current Low asks for UMAC is 11.31
+2025-07-16 13:12:40 INFO: Current Close is 11.31
+2025-07-16 13:12:40 INFO: Current resistance is: 11.3 and support is: 10.815
+2025-07-16 13:12:40 INFO: Current average volume is: 544.06
+2025-07-16 13:12:40 INFO: The Current Close 11.31 is above the resistance...
+2025-07-16 13:12:40 INFO: Updated resistance to: 11.355 and support to: 10.815
+2025-07-16 13:20:41 INFO: Current High asks for UMAC is 11.43
+2025-07-16 13:20:41 INFO: Current Low asks for UMAC is 11.38
+2025-07-16 13:20:41 INFO: Current Close is 11.38
+2025-07-16 13:20:41 INFO: Current resistance is: 11.355 and support is: 10.815
+2025-07-16 13:20:41 INFO: Current average volume is: 539.7
+2025-07-16 13:20:41 INFO: The current close: 11.38 is above the resistance of 11.355, but volume isn't enough...
+2025-07-16 13:20:41 INFO: Updated resistance to: 11.43 and support to: 10.815
+2025-07-16 13:22:42 INFO: Current High asks for UMAC is 11.415
+2025-07-16 13:22:42 INFO: Current Low asks for UMAC is 11.415
+2025-07-16 13:22:42 INFO: Current Close is 11.415
+2025-07-16 13:22:42 INFO: Current resistance is: 11.43 and support is: 10.815
+2025-07-16 13:22:42 INFO: Current average volume is: 533.24
+2025-07-16 13:22:42 INFO: Updated resistance to: 11.43 and support to: 10.815
+2025-07-16 13:24:42 INFO: Current High asks for UMAC is 11.43
+2025-07-16 13:24:42 INFO: Current Low asks for UMAC is 11.43
+2025-07-16 13:24:42 INFO: Current Close is 11.43
+2025-07-16 13:24:42 INFO: Current resistance is: 11.43 and support is: 10.815
+2025-07-16 13:24:42 INFO: Current average volume is: 526.96
+2025-07-16 13:25:42 INFO: Current High asks for UMAC is 11.44
+2025-07-16 13:25:42 INFO: Current Low asks for UMAC is 11.425
+2025-07-16 13:25:42 INFO: Current Close is 11.44
+2025-07-16 13:25:42 INFO: Current resistance is: 11.43 and support is: 10.815
+2025-07-16 13:25:42 INFO: Current average volume is: 523.9
+2025-07-16 13:25:42 INFO: The Current Close 11.44 is above the resistance...
+2025-07-16 13:25:42 INFO: Updated resistance to: 11.44 and support to: 10.815
+2025-07-16 13:26:42 INFO: Current High asks for UMAC is 11.51
+2025-07-16 13:26:42 INFO: Current Low asks for UMAC is 11.49
+2025-07-16 13:26:42 INFO: Current Close is 11.51
+2025-07-16 13:26:42 INFO: Current resistance is: 11.44 and support is: 10.815
+2025-07-16 13:26:42 INFO: Current average volume is: 526.51
+2025-07-16 13:26:42 INFO: The current close: 11.51 is above the resistance of 11.44, but volume isn't enough...
+2025-07-16 13:26:42 INFO: Updated resistance to: 11.51 and support to: 10.815
+2025-07-16 13:28:43 INFO: Current High asks for UMAC is 11.53
+2025-07-16 13:28:43 INFO: Current Low asks for UMAC is 11.53
+2025-07-16 13:28:43 INFO: Current Close is 11.53
+2025-07-16 13:28:43 INFO: Current resistance is: 11.51 and support is: 10.815
+2025-07-16 13:28:43 INFO: Current average volume is: 521.99
+2025-07-16 13:28:43 INFO: The current close: 11.53 is above the resistance of 11.51, but volume isn't enough...
+2025-07-16 13:28:43 INFO: Updated resistance to: 11.53 and support to: 10.815
+2025-07-16 13:29:43 INFO: Current High asks for UMAC is 11.55
+2025-07-16 13:29:43 INFO: Current Low asks for UMAC is 11.55
+2025-07-16 13:29:43 INFO: Current Close is 11.55
+2025-07-16 13:29:43 INFO: Current resistance is: 11.53 and support is: 10.815
+2025-07-16 13:29:43 INFO: Current average volume is: 518.95
+2025-07-16 13:29:43 INFO: The current close: 11.55 is above the resistance of 11.53, but volume isn't enough...
+2025-07-16 13:29:43 INFO: Updated resistance to: 11.55 and support to: 10.815
+2025-07-16 13:32:43 INFO: Current High asks for UMAC is 11.47
+2025-07-16 13:32:43 INFO: Current Low asks for UMAC is 11.47
+2025-07-16 13:32:43 INFO: Current Close is 11.47
+2025-07-16 13:32:43 INFO: Current resistance is: 11.55 and support is: 10.815
+2025-07-16 13:32:43 INFO: Current average volume is: 513.28
+2025-07-16 13:32:43 INFO: Updated resistance to: 11.55 and support to: 10.815
+2025-07-16 13:34:43 INFO: Current High asks for UMAC is 11.44
+2025-07-16 13:34:43 INFO: Current Low asks for UMAC is 11.44
+2025-07-16 13:34:43 INFO: Current Close is 11.44
+2025-07-16 13:34:43 INFO: Current resistance is: 11.55 and support is: 10.815
+2025-07-16 13:34:43 INFO: Current average volume is: 509.11
+2025-07-16 13:34:43 INFO: Updated resistance to: 11.55 and support to: 10.815
+2025-07-16 13:35:44 INFO: Current High asks for UMAC is 11.52
+2025-07-16 13:35:44 INFO: Current Low asks for UMAC is 11.43
+2025-07-16 13:35:44 INFO: Current Close is 11.52
+2025-07-16 13:35:44 INFO: Current resistance is: 11.55 and support is: 10.815
+2025-07-16 13:35:44 INFO: Current average volume is: 508.04
+2025-07-16 13:35:44 INFO: Updated resistance to: 11.55 and support to: 10.815
+2025-07-16 13:37:44 INFO: Current High asks for UMAC is 11.56
+2025-07-16 13:37:44 INFO: Current Low asks for UMAC is 11.52
+2025-07-16 13:37:44 INFO: Current Close is 11.54
+2025-07-16 13:37:44 INFO: Current resistance is: 11.55 and support is: 10.815
+2025-07-16 13:37:44 INFO: Current average volume is: 510.51
+2025-07-16 13:37:44 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:38:44 INFO: Current High asks for UMAC is 11.5
+2025-07-16 13:38:44 INFO: Current Low asks for UMAC is 11.49
+2025-07-16 13:38:44 INFO: Current Close is 11.49
+2025-07-16 13:38:44 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:38:44 INFO: Current average volume is: 510.37
+2025-07-16 13:38:44 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:39:44 INFO: Current High asks for UMAC is 11.47
+2025-07-16 13:39:44 INFO: Current Low asks for UMAC is 11.46
+2025-07-16 13:39:44 INFO: Current Close is 11.47
+2025-07-16 13:39:44 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:39:44 INFO: Current average volume is: 506.44
+2025-07-16 13:39:44 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:43:45 INFO: Current High asks for UMAC is 11.42
+2025-07-16 13:43:45 INFO: Current Low asks for UMAC is 11.4
+2025-07-16 13:43:45 INFO: Current Close is 11.4
+2025-07-16 13:43:45 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:43:45 INFO: Current average volume is: 503.93
+2025-07-16 13:43:45 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:47:45 INFO: Current High asks for UMAC is 11.33
+2025-07-16 13:47:45 INFO: Current Low asks for UMAC is 11.33
+2025-07-16 13:47:45 INFO: Current Close is 11.33
+2025-07-16 13:47:45 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:47:45 INFO: Current average volume is: 502.51
+2025-07-16 13:47:45 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:48:43 INFO: Current High asks for UMAC is 11.35
+2025-07-16 13:48:43 INFO: Current Low asks for UMAC is 11.325
+2025-07-16 13:48:43 INFO: Current Close is 11.33
+2025-07-16 13:48:43 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:48:43 INFO: Current average volume is: 502.48
+2025-07-16 13:48:43 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:49:44 INFO: Current High asks for UMAC is 11.33
+2025-07-16 13:49:44 INFO: Current Low asks for UMAC is 11.33
+2025-07-16 13:49:44 INFO: Current Close is 11.33
+2025-07-16 13:49:44 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:49:44 INFO: Current average volume is: 497.63
+2025-07-16 13:49:44 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:50:44 INFO: Current High asks for UMAC is 11.34
+2025-07-16 13:50:44 INFO: Current Low asks for UMAC is 11.32
+2025-07-16 13:50:44 INFO: Current Close is 11.34
+2025-07-16 13:50:44 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:50:44 INFO: Current average volume is: 499.69
+2025-07-16 13:50:44 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:51:44 INFO: Current High asks for UMAC is 11.325
+2025-07-16 13:51:44 INFO: Current Low asks for UMAC is 11.31
+2025-07-16 13:51:44 INFO: Current Close is 11.31
+2025-07-16 13:51:44 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:51:44 INFO: Current average volume is: 496.16
+2025-07-16 13:51:44 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:55:44 INFO: Current High asks for UMAC is 11.29
+2025-07-16 13:55:44 INFO: Current Low asks for UMAC is 11.29
+2025-07-16 13:55:44 INFO: Current Close is 11.29
+2025-07-16 13:55:44 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:55:44 INFO: Current average volume is: 492.13
+2025-07-16 13:55:44 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:56:45 INFO: Current High asks for UMAC is 11.27
+2025-07-16 13:56:45 INFO: Current Low asks for UMAC is 11.27
+2025-07-16 13:56:45 INFO: Current Close is 11.27
+2025-07-16 13:56:45 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:56:45 INFO: Current average volume is: 487.62
+2025-07-16 13:56:45 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 13:58:45 INFO: Current High asks for UMAC is 11.285
+2025-07-16 13:58:45 INFO: Current Low asks for UMAC is 11.285
+2025-07-16 13:58:45 INFO: Current Close is 11.285
+2025-07-16 13:58:45 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 13:58:45 INFO: Current average volume is: 483.28
+2025-07-16 13:58:45 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:00:45 INFO: Current High asks for UMAC is 11.27
+2025-07-16 14:00:45 INFO: Current Low asks for UMAC is 11.27
+2025-07-16 14:00:45 INFO: Current Close is 11.27
+2025-07-16 14:00:45 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:00:45 INFO: Current average volume is: 478.98
+2025-07-16 14:00:45 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:03:45 INFO: Current High asks for UMAC is 11.265
+2025-07-16 14:03:45 INFO: Current Low asks for UMAC is 11.255
+2025-07-16 14:03:45 INFO: Current Close is 11.26
+2025-07-16 14:03:45 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:03:45 INFO: Current average volume is: 479.99
+2025-07-16 14:03:45 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:04:46 INFO: Current High asks for UMAC is 11.25
+2025-07-16 14:04:46 INFO: Current Low asks for UMAC is 11.25
+2025-07-16 14:04:46 INFO: Current Close is 11.25
+2025-07-16 14:04:46 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:04:46 INFO: Current average volume is: 478.03
+2025-07-16 14:04:46 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:07:46 INFO: Current High asks for UMAC is 11.28
+2025-07-16 14:07:46 INFO: Current Low asks for UMAC is 11.28
+2025-07-16 14:07:46 INFO: Current Close is 11.28
+2025-07-16 14:07:46 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:07:46 INFO: Current average volume is: 475.2
+2025-07-16 14:07:46 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:08:46 INFO: Current High asks for UMAC is 11.285
+2025-07-16 14:08:46 INFO: Current Low asks for UMAC is 11.285
+2025-07-16 14:08:46 INFO: Current Close is 11.285
+2025-07-16 14:08:46 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:08:46 INFO: Current average volume is: 471.16
+2025-07-16 14:08:46 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:10:47 INFO: Current High asks for UMAC is 11.33
+2025-07-16 14:10:47 INFO: Current Low asks for UMAC is 11.33
+2025-07-16 14:10:47 INFO: Current Close is 11.33
+2025-07-16 14:10:47 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:10:47 INFO: Current average volume is: 467.21
+2025-07-16 14:10:47 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:15:47 INFO: Current High asks for UMAC is 11.32
+2025-07-16 14:15:47 INFO: Current Low asks for UMAC is 11.32
+2025-07-16 14:15:47 INFO: Current Close is 11.32
+2025-07-16 14:15:47 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:15:47 INFO: Current average volume is: 464.39
+2025-07-16 14:15:47 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:19:48 INFO: Current High asks for UMAC is 11.19
+2025-07-16 14:19:48 INFO: Current Low asks for UMAC is 11.19
+2025-07-16 14:19:48 INFO: Current Close is 11.19
+2025-07-16 14:19:48 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:19:48 INFO: Current average volume is: 460.7
+2025-07-16 14:19:48 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:21:48 INFO: Current High asks for UMAC is 11.22
+2025-07-16 14:21:48 INFO: Current Low asks for UMAC is 11.22
+2025-07-16 14:21:48 INFO: Current Close is 11.22
+2025-07-16 14:21:48 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:21:48 INFO: Current average volume is: 456.98
+2025-07-16 14:21:48 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:24:48 INFO: Current High asks for UMAC is 11.3
+2025-07-16 14:24:48 INFO: Current Low asks for UMAC is 11.3
+2025-07-16 14:24:48 INFO: Current Close is 11.3
+2025-07-16 14:24:48 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:24:48 INFO: Current average volume is: 453.34
+2025-07-16 14:24:48 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:27:49 INFO: Current High asks for UMAC is 11.315
+2025-07-16 14:27:49 INFO: Current Low asks for UMAC is 11.315
+2025-07-16 14:27:49 INFO: Current Close is 11.315
+2025-07-16 14:27:49 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:27:49 INFO: Current average volume is: 449.77
+2025-07-16 14:27:49 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:30:49 INFO: Current High asks for UMAC is 11.36
+2025-07-16 14:30:49 INFO: Current Low asks for UMAC is 11.36
+2025-07-16 14:30:49 INFO: Current Close is 11.36
+2025-07-16 14:30:49 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:30:49 INFO: Current average volume is: 449.1
+2025-07-16 14:30:49 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:34:50 INFO: Current High asks for UMAC is 11.38
+2025-07-16 14:34:50 INFO: Current Low asks for UMAC is 11.38
+2025-07-16 14:34:50 INFO: Current Close is 11.38
+2025-07-16 14:34:50 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:34:50 INFO: Current average volume is: 445.98
+2025-07-16 14:34:50 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:35:50 INFO: Current High asks for UMAC is 11.46
+2025-07-16 14:35:50 INFO: Current Low asks for UMAC is 11.46
+2025-07-16 14:35:50 INFO: Current Close is 11.46
+2025-07-16 14:35:50 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:35:50 INFO: Current average volume is: 442.59
+2025-07-16 14:35:50 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:37:50 INFO: Current High asks for UMAC is 11.495
+2025-07-16 14:37:50 INFO: Current Low asks for UMAC is 11.495
+2025-07-16 14:37:50 INFO: Current Close is 11.495
+2025-07-16 14:37:50 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:37:50 INFO: Current average volume is: 439.35
+2025-07-16 14:37:50 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:39:50 INFO: Current High asks for UMAC is 11.485
+2025-07-16 14:39:50 INFO: Current Low asks for UMAC is 11.485
+2025-07-16 14:39:50 INFO: Current Close is 11.485
+2025-07-16 14:39:50 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:39:50 INFO: Current average volume is: 436.32
+2025-07-16 14:39:50 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:41:51 INFO: Current High asks for UMAC is 11.46
+2025-07-16 14:41:51 INFO: Current Low asks for UMAC is 11.46
+2025-07-16 14:41:51 INFO: Current Close is 11.46
+2025-07-16 14:41:51 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:41:51 INFO: Current average volume is: 434.07
+2025-07-16 14:41:51 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:44:51 INFO: Current High asks for UMAC is 11.405
+2025-07-16 14:44:51 INFO: Current Low asks for UMAC is 11.405
+2025-07-16 14:44:51 INFO: Current Close is 11.405
+2025-07-16 14:44:51 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:44:51 INFO: Current average volume is: 431.89
+2025-07-16 14:44:51 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:45:51 INFO: Current High asks for UMAC is 11.415
+2025-07-16 14:45:51 INFO: Current Low asks for UMAC is 11.4
+2025-07-16 14:45:51 INFO: Current Close is 11.415
+2025-07-16 14:45:51 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:45:51 INFO: Current average volume is: 430.66
+2025-07-16 14:45:51 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:46:51 INFO: Current High asks for UMAC is 11.385
+2025-07-16 14:46:51 INFO: Current Low asks for UMAC is 11.35
+2025-07-16 14:46:51 INFO: Current Close is 11.35
+2025-07-16 14:46:51 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:46:51 INFO: Current average volume is: 435.06
+2025-07-16 14:46:51 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:47:52 INFO: Current High asks for UMAC is 11.38
+2025-07-16 14:47:52 INFO: Current Low asks for UMAC is 11.34
+2025-07-16 14:47:52 INFO: Current Close is 11.38
+2025-07-16 14:47:52 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:47:52 INFO: Current average volume is: 432.9
+2025-07-16 14:47:52 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:51:52 INFO: Current High asks for UMAC is 11.4
+2025-07-16 14:51:52 INFO: Current Low asks for UMAC is 11.38
+2025-07-16 14:51:52 INFO: Current Close is 11.4
+2025-07-16 14:51:52 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:51:52 INFO: Current average volume is: 433.51
+2025-07-16 14:51:52 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:52:52 INFO: Current High asks for UMAC is 11.41
+2025-07-16 14:52:52 INFO: Current Low asks for UMAC is 11.41
+2025-07-16 14:52:52 INFO: Current Close is 11.41
+2025-07-16 14:52:52 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:52:52 INFO: Current average volume is: 430.51
+2025-07-16 14:52:52 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:54:53 INFO: Current High asks for UMAC is 11.425
+2025-07-16 14:54:53 INFO: Current Low asks for UMAC is 11.425
+2025-07-16 14:54:53 INFO: Current Close is 11.425
+2025-07-16 14:54:53 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:54:53 INFO: Current average volume is: 429.4
+2025-07-16 14:54:53 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:55:53 INFO: Current High asks for UMAC is 11.51
+2025-07-16 14:55:53 INFO: Current Low asks for UMAC is 11.48
+2025-07-16 14:55:53 INFO: Current Close is 11.51
+2025-07-16 14:55:53 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:55:53 INFO: Current average volume is: 430.03
+2025-07-16 14:55:53 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 14:59:53 INFO: Current High asks for UMAC is 11.54
+2025-07-16 14:59:53 INFO: Current Low asks for UMAC is 11.515
+2025-07-16 14:59:53 INFO: Current Close is 11.54
+2025-07-16 14:59:53 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 14:59:53 INFO: Current average volume is: 429.8
+2025-07-16 14:59:53 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 15:00:53 INFO: Current High asks for UMAC is 11.525
+2025-07-16 15:00:53 INFO: Current Low asks for UMAC is 11.525
+2025-07-16 15:00:53 INFO: Current Close is 11.525
+2025-07-16 15:00:53 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 15:00:53 INFO: Current average volume is: 426.93
+2025-07-16 15:00:53 INFO: Updated resistance to: 11.56 and support to: 10.815
+2025-07-16 15:01:53 INFO: Current High asks for UMAC is 11.57
+2025-07-16 15:01:53 INFO: Current Low asks for UMAC is 11.535
+2025-07-16 15:01:53 INFO: Current Close is 11.57
+2025-07-16 15:01:53 INFO: Current resistance is: 11.56 and support is: 10.815
+2025-07-16 15:01:53 INFO: Current average volume is: 425.85
+2025-07-16 15:01:53 INFO: The Current Close 11.57 is above the resistance...
+2025-07-16 15:01:53 INFO: Updated resistance to: 11.57 and support to: 10.815
+2025-07-16 15:02:54 INFO: Current High asks for UMAC is 11.61
+2025-07-16 15:02:54 INFO: Current Low asks for UMAC is 11.6
+2025-07-16 15:02:54 INFO: Current Close is 11.6
+2025-07-16 15:02:54 INFO: Current resistance is: 11.57 and support is: 10.815
+2025-07-16 15:02:54 INFO: Current average volume is: 427.71
+2025-07-16 15:02:54 INFO: The current close: 11.6 is above the resistance of 11.57. Placing Order...
+2025-07-16 15:02:54 INFO: The current volume: 643.0 is higher than the average volume: 427.71 by required factor
+2025-07-16 15:02:54 ERROR: {"code":40010001,"message":"qty must be \u003e 0"}

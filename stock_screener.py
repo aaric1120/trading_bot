@@ -25,7 +25,6 @@ def get_undervalued_stocks():
 
     filters_dict = {'Price': '$1 to $20',
                     'Relative Volume': 'Over 3',
-                    'Current Volume': 'Over 500K',
                     'Average True Range': 'Over 0.5',
                     'Beta': 'Over 2'
                     }
