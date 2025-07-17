@@ -82,9 +82,6 @@ class BaseTrade:
 
             # else we start the 30 minute montioring
             while True:
-                # Check how many shares are available
-                curr_qty = int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
-
                 # Keep the loop alive without timeout
                 self.hist_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ',
                                                              'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
@@ -102,13 +99,7 @@ class BaseTrade:
                 logging.info(latest_bar)
 
                 # if Price is equal or above take profit
-                if close >= take_profit:
-                    # check how many shares are left
-                    if curr_qty == 1:
-                        sell_qty = 1
-                    else:
-                        sell_qty = math.floor(curr_qty / 2)
-
+                if take_profit <= close:
                     # Cancel all trades not finished
                     # Get the current orders open for this symbol
                     req = GetOrdersRequest(
@@ -116,11 +107,25 @@ class BaseTrade:
                         symbols=[self.symbol]
                     )
                     orders = self.trade_client.get_orders(req)
+
                     # Cancel all orders for the partial fil or non filled orders
                     for order in orders:
                         self.trade_client.cancel_order_by_id(str(order.id))
 
+                    # Check how many shares are available
+                    curr_qty = int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+
+                    # check how many shares are left
+                    if curr_qty == 1:
+                        sell_qty = 1
+                    else:
+                        sell_qty = math.floor(curr_qty / 2) # PARAM
+
+
+
+                    # Update take profit with latest close
                     take_profit = close
+
                     print(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {take_profit}")
                     logging.info(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {take_profit}")
                     # sell for take profit
@@ -143,7 +148,7 @@ class BaseTrade:
                         return
 
                     # Updated the take profit price
-                    stop_loss = take_profit
+                    stop_loss = round(take_profit * self.param["stop_loss"], 2)
                     take_profit = round(take_profit * self.param["take_profit"], 2)
                     print(f"the updated take profit price is {take_profit},")
                     print(f"the updated stop loss price is {stop_loss},")
@@ -152,9 +157,9 @@ class BaseTrade:
                     # If price bouncing between stop_loss and take profit
                     pass
 
-                elif close <= stop_loss or total_time > 30 or dt.datetime.now().time() > dt.time(15, 55, 0):
-                    print("Selling all of position...")
-                    logging.info("Selling all of position...")
+                elif close <= stop_loss or total_time > 90 or dt.datetime.now().time() > dt.time(15, 55, 0): # PARAM
+                    print(f"Selling all of position with {self.symbol}...")
+                    logging.info(f"Selling all of position with {self.symbol}...")
                     # liquidate all position
                     # Get the current orders open for this symbol
                     req = GetOrdersRequest(
@@ -182,9 +187,9 @@ class BaseTrade:
                     )
                     return
 
-                # Wait 1 minute for latest bar
+                # Wait 1/3 minute for latest bar (PARAM)
                 total_time += 1
-                tm.sleep(60)
+                tm.sleep(20)
 
         except Exception as e:
             print(f"Error doing order monitoring: {e}")
@@ -263,6 +268,12 @@ class BaseTrade:
 
                         quantity = math.floor(float(self.trade_client.get_account().cash) / price)
 
+                        if quantity < 1:
+                            print("insufficient funds to make purchase...ending trade ")
+                            logging.info("insufficient funds to make purchase...ending trade ")
+                            logging.info("====ClOSING TRADE====")
+                            break
+
                         # do the buy
                         limit_order_data = LimitOrderRequest(
                                                         symbol=self.symbol,
@@ -301,8 +312,11 @@ class BaseTrade:
 
                         break
 
-                # Bar updates every Minute for latest data
-                tm.sleep(60)
+                # Bar updates every Minute for latest data unless initial breakout, then half the time (PARAM)
+                if not breakout:
+                    tm.sleep(60)
+                else:
+                    tm.sleep(30)
 
                 # Check close time for market
                 MARKET_CLOSE_TIME = dt.time(16, 0,0)  # 4:00 PM (24-hour format)
