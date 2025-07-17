@@ -1,0 +1,418 @@
+2025-07-17 10:15:01 INFO: === Strategy started ===
+2025-07-17 10:15:01 INFO: Start collecting the current highs/lows for: MESO
+2025-07-17 10:15:02 INFO: Most recent stock data: {'MESO': {   'close': 12.525,
+    'high': 12.525,
+    'low': 12.525,
+    'open': 12.525,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.525}}
+2025-07-17 10:17:02 INFO: Most recent stock data: {'MESO': {   'close': 12.52,
+    'high': 12.52,
+    'low': 12.52,
+    'open': 12.52,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 130.0,
+    'vwap': 12.52}}
+2025-07-17 10:24:03 INFO: Most recent stock data: {'MESO': {   'close': 12.45,
+    'high': 12.45,
+    'low': 12.45,
+    'open': 12.45,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 12.45}}
+2025-07-17 10:33:04 INFO: Most recent stock data: {'MESO': {   'close': 12.455,
+    'high': 12.455,
+    'low': 12.455,
+    'open': 12.455,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.455}}
+2025-07-17 10:34:05 INFO: Most recent stock data: {'MESO': {   'close': 12.48,
+    'high': 12.48,
+    'low': 12.48,
+    'open': 12.48,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.48}}
+2025-07-17 10:42:06 INFO: Most recent stock data: {'MESO': {   'close': 12.37,
+    'high': 12.37,
+    'low': 12.37,
+    'open': 12.37,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 12.37}}
+2025-07-17 10:43:06 INFO: Most recent stock data: {'MESO': {   'close': 12.47,
+    'high': 12.47,
+    'low': 12.46,
+    'open': 12.46,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 240.0,
+    'vwap': 12.465708}}
+2025-07-17 10:53:07 INFO: Most recent stock data: {'MESO': {   'close': 12.57,
+    'high': 12.57,
+    'low': 12.545,
+    'open': 12.55,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 12.55875}}
+2025-07-17 11:02:09 INFO: Most recent stock data: {'MESO': {   'close': 12.475,
+    'high': 12.49,
+    'low': 12.475,
+    'open': 12.49,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 437.0,
+    'vwap': 12.47844}}
+2025-07-17 11:16:11 INFO: Most recent stock data: {'MESO': {   'close': 12.405,
+    'high': 12.405,
+    'low': 12.405,
+    'open': 12.405,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.405}}
+2025-07-17 11:33:13 INFO: Most recent stock data: {'MESO': {   'close': 12.395,
+    'high': 12.395,
+    'low': 12.395,
+    'open': 12.395,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 12.395}}
+2025-07-17 11:33:13 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-17 11:33:13 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-17 11:36:14 INFO: {'MESO': {   'close': 12.455,
+    'high': 12.455,
+    'low': 12.455,
+    'open': 12.455,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 198.0,
+    'vwap': 12.455}}
+2025-07-17 11:36:14 INFO: Current resistance is: 12.57 and support is: 12.37
+2025-07-17 11:36:14 INFO: Current average volume is: 184.08
+2025-07-17 11:36:14 INFO: Updated resistance to: 12.57 and support to: 12.37
+2025-07-17 11:37:14 INFO: {'MESO': {   'close': 12.465,
+    'high': 12.465,
+    'low': 12.465,
+    'open': 12.465,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.465}}
+2025-07-17 11:37:14 INFO: Current resistance is: 12.57 and support is: 12.37
+2025-07-17 11:37:14 INFO: Current average volume is: 177.62
+2025-07-17 11:37:14 INFO: Updated resistance to: 12.57 and support to: 12.37
+2025-07-17 11:44:15 INFO: {'MESO': {   'close': 12.48,
+    'high': 12.48,
+    'low': 12.48,
+    'open': 12.48,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.48}}
+2025-07-17 11:44:15 INFO: Current resistance is: 12.57 and support is: 12.37
+2025-07-17 11:44:15 INFO: Current average volume is: 172.07
+2025-07-17 11:44:15 INFO: Updated resistance to: 12.57 and support to: 12.37
+2025-07-17 11:54:16 INFO: {'MESO': {   'close': 12.46,
+    'high': 12.46,
+    'low': 12.46,
+    'open': 12.46,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.46}}
+2025-07-17 11:54:16 INFO: Current resistance is: 12.57 and support is: 12.37
+2025-07-17 11:54:16 INFO: Current average volume is: 167.27
+2025-07-17 11:54:16 INFO: Updated resistance to: 12.57 and support to: 12.37
+2025-07-17 11:58:16 INFO: {'MESO': {   'close': 12.5,
+    'high': 12.5,
+    'low': 12.5,
+    'open': 12.5,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 204.0,
+    'vwap': 12.5}}
+2025-07-17 11:58:16 INFO: Current resistance is: 12.57 and support is: 12.37
+2025-07-17 11:58:16 INFO: Current average volume is: 169.56
+2025-07-17 11:58:16 INFO: Updated resistance to: 12.57 and support to: 12.37
+2025-07-17 12:11:18 INFO: {'MESO': {   'close': 12.44,
+    'high': 12.44,
+    'low': 12.44,
+    'open': 12.44,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 204.0,
+    'vwap': 12.44}}
+2025-07-17 12:11:18 INFO: Current resistance is: 12.57 and support is: 12.37
+2025-07-17 12:11:18 INFO: Current average volume is: 171.59
+2025-07-17 12:11:18 INFO: Updated resistance to: 12.57 and support to: 12.37
+2025-07-17 12:25:20 INFO: {'MESO': {   'close': 12.375,
+    'high': 12.375,
+    'low': 12.375,
+    'open': 12.375,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 12.375}}
+2025-07-17 12:25:20 INFO: Current resistance is: 12.57 and support is: 12.37
+2025-07-17 12:25:20 INFO: Current average volume is: 167.78
+2025-07-17 12:25:20 INFO: Updated resistance to: 12.57 and support to: 12.37
+2025-07-17 12:32:44 INFO: === Strategy started ===
+2025-07-17 12:32:44 INFO: Start collecting the current highs/lows for: MESO
+2025-07-17 12:32:44 INFO: Most recent stock data: {'MESO': {   'close': 12.375,
+    'high': 12.375,
+    'low': 12.375,
+    'open': 12.375,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 12.375}}
+2025-07-17 12:33:44 INFO: Most recent stock data: {'MESO': {   'close': 12.4,
+    'high': 12.4,
+    'low': 12.4,
+    'open': 12.4,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.4}}
+2025-07-17 12:36:26 INFO: === Strategy started ===
+2025-07-17 12:36:26 INFO: Start collecting the current highs/lows for: MESO
+2025-07-17 12:36:26 INFO: Most recent stock data: {'MESO': {   'close': 12.4,
+    'high': 12.4,
+    'low': 12.4,
+    'open': 12.4,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.4}}
+2025-07-17 12:40:27 INFO: Most recent stock data: {'MESO': {   'close': 12.36,
+    'high': 12.36,
+    'low': 12.36,
+    'open': 12.36,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.36}}
+2025-07-17 13:09:30 INFO: Most recent stock data: {'MESO': {   'close': 12.345,
+    'high': 12.345,
+    'low': 12.345,
+    'open': 12.345,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 12.345}}
+2025-07-17 13:23:32 INFO: Most recent stock data: {'MESO': {   'close': 12.25,
+    'high': 12.25,
+    'low': 12.25,
+    'open': 12.25,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 203.0,
+    'vwap': 12.25}}
+2025-07-17 13:25:33 INFO: Most recent stock data: {'MESO': {   'close': 12.295,
+    'high': 12.295,
+    'low': 12.29,
+    'open': 12.29,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 209.0,
+    'vwap': 12.292463}}
+2025-07-17 13:40:35 INFO: Most recent stock data: {'MESO': {   'close': 12.33,
+    'high': 12.33,
+    'low': 12.33,
+    'open': 12.33,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 12.33}}
+2025-07-17 13:45:35 INFO: Most recent stock data: {'MESO': {   'close': 12.325,
+    'high': 12.325,
+    'low': 12.325,
+    'open': 12.325,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 306.0,
+    'vwap': 12.325}}
+2025-07-17 13:52:36 INFO: Most recent stock data: {'MESO': {   'close': 12.29,
+    'high': 12.29,
+    'low': 12.29,
+    'open': 12.29,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 380.0,
+    'vwap': 12.29}}
+2025-07-17 13:54:37 INFO: Most recent stock data: {'MESO': {   'close': 12.295,
+    'high': 12.295,
+    'low': 12.295,
+    'open': 12.295,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 115.0,
+    'vwap': 12.295}}
+2025-07-17 14:01:38 INFO: Most recent stock data: {'MESO': {   'close': 12.29,
+    'high': 12.29,
+    'low': 12.29,
+    'open': 12.29,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.29}}
+2025-07-17 14:22:41 INFO: Most recent stock data: {'MESO': {   'close': 12.245,
+    'high': 12.245,
+    'low': 12.245,
+    'open': 12.245,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.245}}
+2025-07-17 14:22:41 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-17 14:22:41 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-17 14:25:41 INFO: {'MESO': {   'close': 12.255,
+    'high': 12.255,
+    'low': 12.255,
+    'open': 12.255,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 310.0,
+    'vwap': 12.255}}
+2025-07-17 14:25:41 INFO: Current resistance is: 12.4 and support is: 12.245
+2025-07-17 14:25:41 INFO: Current average volume is: 185.33
+2025-07-17 14:25:41 INFO: Updated resistance to: 12.4 and support to: 12.245
+2025-07-17 14:35:43 INFO: {'MESO': {   'close': 12.29,
+    'high': 12.29,
+    'low': 12.29,
+    'open': 12.29,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 140.0,
+    'vwap': 12.29}}
+2025-07-17 14:35:43 INFO: Current resistance is: 12.4 and support is: 12.245
+2025-07-17 14:35:43 INFO: Current average volume is: 181.85
+2025-07-17 14:35:43 INFO: Updated resistance to: 12.4 and support to: 12.245
+2025-07-17 14:45:44 INFO: {'MESO': {   'close': 12.345,
+    'high': 12.345,
+    'low': 12.345,
+    'open': 12.345,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.345}}
+2025-07-17 14:45:44 INFO: Current resistance is: 12.4 and support is: 12.245
+2025-07-17 14:45:44 INFO: Current average volume is: 176.0
+2025-07-17 14:45:44 INFO: Updated resistance to: 12.4 and support to: 12.245
+2025-07-17 15:08:47 INFO: {'MESO': {   'close': 12.37,
+    'high': 12.38,
+    'low': 12.37,
+    'open': 12.38,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 231.0,
+    'vwap': 12.375671}}
+2025-07-17 15:08:47 INFO: Current resistance is: 12.4 and support is: 12.245
+2025-07-17 15:08:47 INFO: Current average volume is: 179.67
+2025-07-17 15:08:47 INFO: Updated resistance to: 12.4 and support to: 12.245
+2025-07-17 15:12:47 INFO: {'MESO': {   'close': 12.385,
+    'high': 12.385,
+    'low': 12.385,
+    'open': 12.385,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.385}}
+2025-07-17 15:12:47 INFO: Current resistance is: 12.4 and support is: 12.245
+2025-07-17 15:12:47 INFO: Current average volume is: 174.69
+2025-07-17 15:12:47 INFO: Updated resistance to: 12.4 and support to: 12.245
+2025-07-17 15:14:48 INFO: {'MESO': {   'close': 12.345,
+    'high': 12.345,
+    'low': 12.345,
+    'open': 12.345,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 144.0,
+    'vwap': 12.345}}
+2025-07-17 15:14:48 INFO: Current resistance is: 12.4 and support is: 12.245
+2025-07-17 15:14:48 INFO: Current average volume is: 172.88
+2025-07-17 15:14:48 INFO: Updated resistance to: 12.4 and support to: 12.245
+2025-07-17 15:16:48 INFO: {'MESO': {   'close': 12.355,
+    'high': 12.355,
+    'low': 12.355,
+    'open': 12.355,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 12.355}}
+2025-07-17 15:16:48 INFO: Current resistance is: 12.4 and support is: 12.245
+2025-07-17 15:16:48 INFO: Current average volume is: 174.39
+2025-07-17 15:16:48 INFO: Updated resistance to: 12.4 and support to: 12.245
+2025-07-17 15:21:49 INFO: {'MESO': {   'close': 12.32,
+    'high': 12.32,
+    'low': 12.32,
+    'open': 12.32,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.32}}
+2025-07-17 15:21:49 INFO: Current resistance is: 12.4 and support is: 12.245
+2025-07-17 15:21:49 INFO: Current average volume is: 170.47
+2025-07-17 15:21:49 INFO: Updated resistance to: 12.4 and support to: 12.245
+2025-07-17 15:25:49 INFO: {'MESO': {   'close': 12.335,
+    'high': 12.335,
+    'low': 12.335,
+    'open': 12.335,
+    'symbol': 'MESO',
+    'timestamp': datetime.datetime(2025, 7, 17, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 121.0,
+    'vwap': 12.335}}
+2025-07-17 15:25:49 INFO: Current resistance is: 12.4 and support is: 12.245
+2025-07-17 15:25:49 INFO: Current average volume is: 168.0
+2025-07-17 15:25:49 INFO: Updated resistance to: 12.4 and support to: 12.245
