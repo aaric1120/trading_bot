@@ -7,6 +7,8 @@ from alpaca.data.requests import StockLatestBarRequest
 
 from alpaca.trading import TradingClient, OrderSide, TimeInForce, OrderClass, TakeProfitRequest, StopLossRequest
 from pattern_detection import calculate_slope
+from alpaca.trading.requests import GetOrdersRequest, ClosePositionRequest
+from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
 
 import logging
 import datetime as dt
@@ -52,6 +54,125 @@ class BaseTrade:
     def get_new_avg(self):
         self.avg_vol = round(self.volume / len(self.highs), 2)
 
+    def monitor_order(self, stop_loss, take_profit):
+        # wait 1 minute for order to fill
+        tm.sleep(60)
+        total_time = 0
+        try:
+            # Check if all the stock are sold
+            self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
+                                              'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+
+            # Get the current orders open for this symbol
+            req = GetOrdersRequest(
+                status=QueryOrderStatus.OPEN,
+                symbols=[self.symbol]
+            )
+            orders = self.trade_client.get_orders(req)
+            # Cancel all orders for the partial fil or non filled orders
+            for order in orders:
+                self.trade_client.cancel_order_by_id(str(order.id))
+
+            # Get the number of stocks currently being traded
+            curr_qty = int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+
+            # If the current owned qty is 0. close the monitor
+            if curr_qty == 0:
+                return
+
+            # else we start the 30 minute montioring
+            while True:
+                # Check how many shares are available
+                curr_qty = int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+
+                # Keep the loop alive without timeout
+                self.hist_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ',
+                                                             'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
+                self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
+                                                  'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+
+                # Get latest close price
+                latest_bar = self.hist_client.get_stock_latest_bar(self.hist_request)
+                high, low, close = latest_bar[self.symbol].high, latest_bar[self.symbol].low, \
+                                           latest_bar[self.symbol].close
+
+                print(f"Current High asks for {self.symbol} is {self.highs[-1]}")
+                print(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
+                print(f"Current Close is {close}")
+                logging.info(latest_bar)
+
+                # if Price is equal or above take profit
+                if close >= take_profit:
+                    # check how many shares are left
+                    if curr_qty == 1:
+                        sell_qty = 1
+                    else:
+                        sell_qty = math.floor(curr_qty / 2)
+
+                    # sell for take profit
+                    limit_order_data = LimitOrderRequest(
+                                                        symbol=self.symbol,
+                                                        qty=sell_qty,
+                                                        limit_price=take_profit,
+                                                        side=OrderSide.SELL,
+                                                        type=OrderType.LIMIT,
+                                                        time_in_force=TimeInForce.DAY)
+
+                    limit_order = self.trade_client.submit_order(order_data=limit_order_data)
+                    print("TAKE PROFIT ORDER INFO:")
+                    print(limit_order)
+                    logging.info("TAKE PROFIT ORDER INFO:")
+                    logging.info(limit_order)
+
+                    # if it was the last stock sold
+                    if sell_qty == 1:
+                        return
+
+                    # Updated the take profit price
+                    stop_loss = take_profit
+                    take_profit = round(take_profit * self.param["take_profit"], 2)
+                    print(f"the updated take profit price is {take_profit},")
+
+                elif stop_loss < close < take_profit:
+                    # If price bouncing between stop_loss and take profit
+                    pass
+
+                elif close <= stop_loss or total_time > 30 or dt.datetime.now().time() > dt.time(15, 55, 0):
+                    # liquidate all position
+                    # Get the current orders open for this symbol
+                    req = GetOrdersRequest(
+                        status=QueryOrderStatus.OPEN,
+                        symbols=[self.symbol]
+                    )
+                    orders = self.trade_client.get_orders(req)
+
+                    # Cancel all orders for the partial fil or non filled orders
+                    for order in orders:
+                        self.trade_client.cancel_order_by_id(str(order.id))
+
+                    # Get the number of stocks currently available
+                    curr_qty = str(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+
+                    self.trade_client.close_position(
+                        symbol_or_asset_id=self.symbol,
+                        close_options=ClosePositionRequest(
+                            qty=curr_qty,
+                        )
+                    )
+                    print("Price dropped below stop loss, selling all of position...")
+                    logging.info("Price dropped below stop loss, selling all of position...")
+                    return
+
+                # Wait 1 minute for latest bar
+                total_time += 1
+                tm.sleep(60)
+
+        except Exception as e:
+            print(f"Error doing order monitoring: {e}")
+            logging.info(e)
+
+        return
+
     def run(self):
         breakout = False
         breakdown = False
@@ -78,9 +199,7 @@ class BaseTrade:
                     print(f"Current resistance is: {self.resist} and support is: {self.support}")
                     print(f"Current average volume is: {self.avg_vol}")
 
-                    logging.info(f"Current High asks for {self.symbol} is {self.highs[-1]}")
-                    logging.info(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
-                    logging.info(f"Current Close is {close}")
+                    logging.info(latest_bar)
                     logging.info(f"Current resistance is: {self.resist} and support is: {self.support}")
                     logging.info(f"Current average volume is: {self.avg_vol}")
 
@@ -128,24 +247,27 @@ class BaseTrade:
 
                         # do the buy
                         limit_order_data = LimitOrderRequest(
-                                                symbol=self.symbol,
-                                                limit_price=price,
-                                                qty=quantity,
-                                                side=OrderSide.BUY,
-                                                time_in_force=TimeInForce.DAY,
-                                                order_class=OrderClass.BRACKET,
-                                                take_profit=TakeProfitRequest(limit_price=take_profit),
-                                                stop_loss=StopLossRequest(stop_price=stop_loss))
+                                                        symbol=self.symbol,
+                                                        qty=quantity,
+                                                        limit_price=price,
+                                                        side=OrderSide.BUY,
+                                                        type=OrderType.LIMIT,
+                                                        time_in_force=TimeInForce.DAY)
 
                         print(limit_order_data)
 
                         # place the order
                         self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
                                                           'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+
                         limit_order = self.trade_client.submit_order(order_data=limit_order_data)
                         print(limit_order)
                         logging.info("ORDER INFO:")
                         logging.info(limit_order)
+
+                        # Start the monitoring of the order
+                        self.monitor_order(stop_loss,take_profit)
+
                         logging.info("====ClOSING TRADE====")
                         break
 
