@@ -30,6 +30,7 @@ def main():
     # Check if market is open or not...
     MARKET_OPEN_TIME = dt.time(9, 30, 0)  # 9:30 AM (24-hour format) PARAM
     MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format) PARAM
+    MARKET_DEADLINE = dt.time(15,30,0) # PARAM
     PRE_MIDNIGHT = dt.time(23, 59, 59)
     POST_MIDNIGHT = dt.time(0, 0, 0)
 
@@ -74,12 +75,14 @@ def main():
                         stock_dict.remove(stock_list[i])
                         stock_list[i] = None
 
-            # Get new stocks to add...
-            print("Adding new stocks to the list...")
-            get_stock_start(stock_list, stock_dict, process_list)
-            print(f"The Current active stocks are {stock_dict}")
+            # Don't get new stock after deadline
+            if dt.datetime.now().time() < MARKET_DEADLINE:
+                # Get new stocks to add...
+                print("Adding new stocks to the list...")
+                get_stock_start(stock_list, stock_dict, process_list)
+                print(f"The Current active stocks are {stock_dict}")
 
-            print("Sleeping for 15 minutes until next stock check...")
+                print("Sleeping for 15 minutes until next stock check...")
             tm.sleep(900)  # PARAM
 
     return

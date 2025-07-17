@@ -218,6 +218,8 @@ class BaseTrade:
     def run(self):
         breakout = False
         breakdown = False
+        MARKET_DEADLINE = dt.time(15, 30, 0) # PARAM
+        MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format)
 
         try:
             while(True):
@@ -270,7 +272,13 @@ class BaseTrade:
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
 
                     # second bar also closes above resistance: BUY
-                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume):
+                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume): # PARAM
+                        if dt.datetime.now().time() > MARKET_DEADLINE:
+                            print("The current time is past the last buy deadline...")
+                            logging.info("The current time is past the last buy deadline...")
+                            logging.info("====ClOSING TRADE====")
+                            return
+
                         print(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
                         logging.info(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
                         print(f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
@@ -340,7 +348,6 @@ class BaseTrade:
                     tm.sleep(30)
 
                 # Check close time for market
-                MARKET_CLOSE_TIME = dt.time(16, 0,0)  # 4:00 PM (24-hour format)
                 if dt.datetime.now().time() > MARKET_CLOSE_TIME:
                     logging.info("The Market is closed...")
                     print("The Market is closed...")
