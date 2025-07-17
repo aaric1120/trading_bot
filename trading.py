@@ -5,7 +5,7 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockLatestBarRequest
 
 
-from alpaca.trading import TradingClient, OrderSide, TimeInForce, OrderClass, TakeProfitRequest, StopLossRequest
+from alpaca.trading import TradingClient, OrderSide, TimeInForce, OrderClass
 from pattern_detection import calculate_slope
 from alpaca.trading.requests import GetOrdersRequest, ClosePositionRequest
 from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
@@ -109,6 +109,20 @@ class BaseTrade:
                     else:
                         sell_qty = math.floor(curr_qty / 2)
 
+                    # Cancel all trades not finished
+                    # Get the current orders open for this symbol
+                    req = GetOrdersRequest(
+                        status=QueryOrderStatus.OPEN,
+                        symbols=[self.symbol]
+                    )
+                    orders = self.trade_client.get_orders(req)
+                    # Cancel all orders for the partial fil or non filled orders
+                    for order in orders:
+                        self.trade_client.cancel_order_by_id(str(order.id))
+
+                    take_profit = close
+                    print(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {take_profit}")
+                    logging.info(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {take_profit}")
                     # sell for take profit
                     limit_order_data = LimitOrderRequest(
                                                         symbol=self.symbol,
@@ -132,12 +146,15 @@ class BaseTrade:
                     stop_loss = take_profit
                     take_profit = round(take_profit * self.param["take_profit"], 2)
                     print(f"the updated take profit price is {take_profit},")
+                    print(f"the updated stop loss price is {stop_loss},")
 
                 elif stop_loss < close < take_profit:
                     # If price bouncing between stop_loss and take profit
                     pass
 
                 elif close <= stop_loss or total_time > 30 or dt.datetime.now().time() > dt.time(15, 55, 0):
+                    print("Selling all of position...")
+                    logging.info("Selling all of position...")
                     # liquidate all position
                     # Get the current orders open for this symbol
                     req = GetOrdersRequest(
@@ -153,14 +170,16 @@ class BaseTrade:
                     # Get the number of stocks currently available
                     curr_qty = str(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
 
+                    print(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
+                    logging.info(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
+
+                    # Selling all positions...
                     self.trade_client.close_position(
                         symbol_or_asset_id=self.symbol,
                         close_options=ClosePositionRequest(
                             qty=curr_qty,
                         )
                     )
-                    print("Price dropped below stop loss, selling all of position...")
-                    logging.info("Price dropped below stop loss, selling all of position...")
                     return
 
                 # Wait 1 minute for latest bar
@@ -191,7 +210,6 @@ class BaseTrade:
                     self.lows.append(low)
                     self.volume += volume
                     self.get_new_avg()
-                    # self.get_new_lines()
 
                     print(f"Current High asks for {self.symbol} is {self.highs[-1]}")
                     print(f"Current Low asks for {self.symbol} is {self.lows[-1]}")

@@ -6,12 +6,12 @@
 from alpaca.trading.client import TradingClient
 
 from alpaca.trading.requests import GetOrdersRequest, ClosePositionRequest
-from alpaca.trading.enums import OrderSide, QueryOrderStatus
+from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
 from alpaca.trading.requests import GetAssetsRequest
 from alpaca.trading.enums import AssetClass
 
-# from alpaca.trading.requests import MarketOrderRequest, LimitOrderRequest, TakeProfitRequest, StopLossRequest
-# from alpaca.trading.enums import OrderSide, TimeInForce, OrderClass
+from alpaca.trading.requests import MarketOrderRequest, LimitOrderRequest, TakeProfitRequest, StopLossRequest
+from alpaca.trading.enums import OrderSide, TimeInForce, OrderClass
 from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
 from datetime import datetime, tzinfo, date, timezone
 # import pytz
@@ -45,19 +45,17 @@ trading_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZg
 print(trading_client.get_account().cash)
 print(trading_client.get_open_position(symbol_or_asset_id='NVDA').qty_available)
 
-# params to filter orders by
-request_params = GetOrdersRequest(
-                    symbol='NVDA',
-                    status=QueryOrderStatus.OPEN,
-                    side=OrderSide.BUY
-                 )
+# # params to filter orders by
+# request_params = GetOrdersRequest(
+#                     symbol='NVDA',
+#                     status=QueryOrderStatus.OPEN,
+#                     side=OrderSide.BUY
+#                  )
 
 # orders that satisfy params
 # orders = trading_client.get_orders(filter=request_params)
 #
 # print(orders)
-
-trading_client.cancel_order_by_id('2c4eb280-67e6-44d0-9831-ff4f5677ce95')
 
 # get a list of orders including closed (e.g. filled) orders by specifying symbol
 req = GetOrdersRequest(
@@ -70,12 +68,22 @@ print(orders)
 for order in orders:
     trading_client.cancel_order_by_id(str(order.id))
 
-trading_client.close_position(
-    symbol_or_asset_id = 'NVDA',
-    close_options = ClosePositionRequest(
-        qty = "1",
-    )
-)
+# trading_client.close_position(
+#     symbol_or_asset_id = 'NVDA',
+#     close_options = ClosePositionRequest(
+#         qty = "1",
+#     )
+# )
+
+# limit_order_data = LimitOrderRequest(
+#                                     symbol='NVDA',
+#                                     qty=1,
+#                                     limit_price=170,
+#                                     side=OrderSide.BUY,
+#                                     type=OrderType.LIMIT,
+#                                     time_in_force=TimeInForce.DAY)
+#
+# limit_order = trading_client.submit_order(order_data=limit_order_data)
 
 # search for crypto assets
 # search_params = GetAssetsRequest(asset_class=AssetClass.US_EQUITY)

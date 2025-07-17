@@ -16,6 +16,7 @@ def get_stock_start(stock_list,stock_dict,process_list):
         # write into the stock
         for stock in watch_list:
             if stock not in stock_dict and len(stock_dict) < 10: #PARAM
+                # HERE WOULD BE AI CLI SENTIMENT SCANNER
                 process_list.append(subprocess.Popen(['python', 'main.py', stock], shell=True))
                 stock_list.append(stock)
                 stock_dict.add(stock)
