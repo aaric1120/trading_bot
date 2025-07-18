@@ -7,7 +7,7 @@ import time as tm
 
 def main():
     # Check if market is open or not...
-    MARKET_OPEN_TIME = dt.time(9, 30, 0)  # 9:30 AM (24-hour format) PARAM
+    MARKET_OPEN_TIME = dt.time(9, 45, 0)  # 9:45 AM (24-hour format) PARAM
     MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format) PARAM
     MARKET_DEADLINE = dt.time(15,30,0) # PARAM
     PRE_MIDNIGHT = dt.time(23, 59, 59)
@@ -16,7 +16,7 @@ def main():
     if  MARKET_CLOSE_TIME < dt.datetime.now().time() < PRE_MIDNIGHT \
             or POST_MIDNIGHT < dt.datetime.now().time() < MARKET_OPEN_TIME:
         print("The Market hasn't opened yet...")
-        sleep_sec = get_seconds(9,30,0) # PARAM
+        sleep_sec = get_seconds(9,45,0) # PARAM
         print(f"Sleeping for {sleep_sec} seconds until Marktet opens...")
         tm.sleep(sleep_sec)
 

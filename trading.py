@@ -14,6 +14,8 @@ import logging
 import datetime as dt
 import time as tm
 
+from TelegramBot import TelegramBot
+
 
 class BaseTrade:
     highs = []
@@ -26,6 +28,7 @@ class BaseTrade:
     param = None
     volume = 0.0
     avg_vol = 0.0
+    msg_bot = TelegramBot()
 
     def __init__(self,symbol, param, high, low, volume):
         self.symbol = symbol
@@ -152,11 +155,16 @@ class BaseTrade:
                     logging.info("TAKE PROFIT ORDER INFO:")
                     logging.info(limit_order)
 
+                    # Send a notification
+                    self.msg_bot.send_message(
+                        "TAKE PROFIT", self.symbol, "SELL", take_profit, sell_qty, dt.datetime.now())
+
                     # if it was the last stock sold
                     if sell_qty == 1:
                         return
 
                     # Updated the take profit price
+                    init_price = take_profit
                     stop_loss = round(take_profit * self.param["stop_loss"], 2)
                     take_profit = round(take_profit * self.param["take_profit"], 2)
                     print(f"the updated take profit price is {take_profit},")
@@ -180,6 +188,10 @@ class BaseTrade:
 
                     print(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
                     logging.info(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
+
+                    # Send a notification
+                    self.msg_bot.send_message("STOP LOSS", self.symbol, "SELL", stop_loss, curr_qty,
+                                              dt.datetime.now())
 
                     # Selling all positions...
                     self.trade_client.close_position(
@@ -221,6 +233,10 @@ class BaseTrade:
                     print(limit_order)
                     logging.info("BREAK EVEN ORDER INFO:")
                     logging.info(limit_order)
+
+                    # Send a notification
+                    self.msg_bot.send_message("BREAK EVEN", self.symbol, "SELL", init_price, curr_qty,
+                                              dt.datetime.now())
 
                 # Wait 1/3 minute for latest bar (PARAM)
                 total_time += 1
@@ -336,6 +352,10 @@ class BaseTrade:
                         print(limit_order)
                         logging.info("ORDER INFO:")
                         logging.info(limit_order)
+
+                        # Send a notification
+                        self.msg_bot.send_message("BUY IN", self.symbol, "BUY", price, quantity,
+                                                  dt.datetime.now())
 
                         # Start the monitoring of the order
                         print(f"Starting the monitoring of {self.symbol}, the current take profit is: {take_profit}, the current stop loss is: {stop_loss}")
