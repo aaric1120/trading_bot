@@ -4,7 +4,11 @@ def param_reader (path: str):
         with open(path, "r") as file:
             for line in file.readlines():
                 values = line.split("=")
-                param_dict[values[0].strip(" ")] = float(values[1].strip("\n").strip(" "))
+                if "key" in values[0]:
+                    param_dict[values[0].strip(" ")] = str(values[1].strip("\n").strip(" "))
+                else:
+                    param_dict[values[0].strip(" ")] = float(values[1].strip("\n").strip(" "))
+
     except Exception as e:
         print(e)
         raise Exception(e)

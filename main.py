@@ -37,7 +37,7 @@ def main():
     logging.info(f"Start collecting the current highs/lows for: {curr_symbol}")
 
     # Gather 20 minutes of stock price after market opens
-    hist_stock_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
+    hist_stock_client = StockHistoricalDataClient(param["alpaca_key"], param["secret_key"])
     get_stock_price = StockLatestBarRequest(symbol_or_symbols=[curr_symbol])
 
     highs=[]
@@ -52,8 +52,8 @@ def main():
 
     while(True):
         # Keep connection in loop to stop timeouts
-        hist_stock_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ',
-                                                      'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
+        hist_stock_client = StockHistoricalDataClient(param["alpaca_key"],
+                                                      param["secret_key"])
         get_stock_price_data = hist_stock_client.get_stock_latest_bar(get_stock_price)
 
         if (highs[-1] != get_stock_price_data[curr_symbol].high and lows[-1] != get_stock_price_data[curr_symbol].low):

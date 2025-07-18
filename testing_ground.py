@@ -26,14 +26,14 @@ from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeReques
 # import numpy as np
 # import yfinance as yf
 #
-# from param_reader import param_reader
-#
-# from pattern_detection import *
-# param = param_reader("param.txt")
+from param_reader import param_reader
+
+from pattern_detection import *
+param = param_reader("param.txt")
 #
 #
 # # Request Examples
-trading_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+trading_client = TradingClient(param["alpaca_key"], param["secret_key"], paper=True)
 #
 # hist_data_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
 #
@@ -42,8 +42,8 @@ trading_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZg
 # wss_client = StockDataStream('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
 #
 #
-print(trading_client.get_account().cash)
-print(trading_client.get_open_position(symbol_or_asset_id='NVDA').qty_available)
+print(trading_client.get_account())
+# print(trading_client.get_open_position(symbol_or_asset_id='NVDA').qty_available)
 
 # # params to filter orders by
 # request_params = GetOrdersRequest(
@@ -58,15 +58,15 @@ print(trading_client.get_open_position(symbol_or_asset_id='NVDA').qty_available)
 # print(orders)
 
 # get a list of orders including closed (e.g. filled) orders by specifying symbol
-req = GetOrdersRequest(
-    status = QueryOrderStatus.OPEN,
-    symbols = ['NVDA']
-)
-orders = trading_client.get_orders(req)
-print(orders)
-
-for order in orders:
-    trading_client.cancel_order_by_id(str(order.id))
+# req = GetOrdersRequest(
+#     status = QueryOrderStatus.OPEN,
+#     symbols = ['NVDA']
+# )
+# orders = trading_client.get_orders(req)
+# print(orders)
+#
+# for order in orders:
+#     trading_client.cancel_order_by_id(str(order.id))
 
 # trading_client.close_position(
 #     symbol_or_asset_id = 'NVDA',

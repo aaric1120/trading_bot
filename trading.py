@@ -5,7 +5,7 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockLatestBarRequest
 
 
-from alpaca.trading import TradingClient, OrderSide, TimeInForce, OrderClass
+from alpaca.trading import TradingClient, TimeInForce
 from pattern_detection import calculate_slope
 from alpaca.trading.requests import GetOrdersRequest, ClosePositionRequest
 from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
@@ -31,13 +31,13 @@ class BaseTrade:
     msg_bot = TelegramBot()
 
     def __init__(self,symbol, param, high, low, volume):
+        self.param = param
         self.symbol = symbol
         self.highs = high
         self.lows = low
-        self.hist_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
-        self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+        self.hist_client = StockHistoricalDataClient(self.param["alpaca_key"], self.param["secret_key"])
+        self.trade_client = TradingClient(self.param["alpaca_key"], self.param["secret_key"], paper=True)
         self.hist_request = StockLatestBarRequest(symbol_or_symbols=[self.symbol])
-        self.param = param
         self.volume = volume
         self.avg_vol = round(self.volume / len(self.highs) , 2)
 
@@ -59,8 +59,8 @@ class BaseTrade:
 
     def cancel_all(self):
         # Check if all the stock are sold
-        self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
-                                          'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+        self.trade_client = TradingClient(self.param["alpaca_key"],
+                                          self.param["secret_key"], paper=True)
 
         # Get the current orders open for this symbol
         req = GetOrdersRequest(
@@ -96,10 +96,10 @@ class BaseTrade:
             # else we start the 30 minute montioring
             while True:
                 # Keep the loop alive without timeout
-                self.hist_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ',
-                                                             'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
-                self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
-                                                  'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+                self.hist_client = StockHistoricalDataClient(self.param["alpaca_key"],
+                                                             self.param["secret_key"])
+                self.trade_client = TradingClient(self.param["alpaca_key"],
+                                                  self.param["secret_key"], paper=True)
 
                 # Get latest close price
                 latest_bar = self.hist_client.get_stock_latest_bar(self.hist_request)
@@ -256,8 +256,8 @@ class BaseTrade:
 
         try:
             while(True):
-                self.hist_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ',
-                                                             'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
+                self.hist_client = StockHistoricalDataClient(self.param["alpaca_key"],
+                                                             self.param["secret_key"])
                 latest_bar = self.hist_client.get_stock_latest_bar(self.hist_request)
                 high, low, close, volume = latest_bar[self.symbol].high, latest_bar[self.symbol].low,\
                                            latest_bar[self.symbol].close, latest_bar[self.symbol].volume
@@ -345,8 +345,8 @@ class BaseTrade:
                         print(limit_order_data)
 
                         # place the order
-                        self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
-                                                          'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+                        self.trade_client = TradingClient(self.param["alpaca_key"],
+                                                          self.param["secret_key"], paper=True)
 
                         limit_order = self.trade_client.submit_order(order_data=limit_order_data)
                         print(limit_order)
@@ -388,7 +388,7 @@ class BaseTrade:
                 if dt.datetime.now().time() > MARKET_CLOSE_TIME:
                     logging.info("The Market is closed...")
                     print("The Market is closed...")
-                    break;
+                    break
 
                 print(f"The Timestamp is {dt.datetime.now()}")
 
