@@ -71,6 +71,9 @@ class BaseTrade:
 
         return
 
+    def get_available_shares(self):
+        return int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+
     def monitor_order(self, stop_loss, take_profit, init_price):
         # wait 1 minute for order to fill
         tm.sleep(60)
@@ -81,7 +84,7 @@ class BaseTrade:
             self.cancel_all()
 
             # Get the number of stocks currently being traded
-            curr_qty = int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+            curr_qty = self.get_available_shares()
 
             # If the current owned qty is 0. close the monitor
             if curr_qty == 0:
@@ -117,7 +120,7 @@ class BaseTrade:
                     self.cancel_all()
 
                     # Check how many shares are available
-                    curr_qty = int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+                    curr_qty = self.get_available_shares()
 
                     # check how many shares are left
                     if curr_qty == 1:
@@ -165,7 +168,7 @@ class BaseTrade:
                     self.cancel_all()
 
                     # Get the number of stocks currently available
-                    curr_qty = str(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+                    curr_qty = self.get_available_shares()
 
                     print(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
                     logging.info(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
@@ -174,7 +177,7 @@ class BaseTrade:
                     self.trade_client.close_position(
                         symbol_or_asset_id=self.symbol,
                         close_options=ClosePositionRequest(
-                            qty=curr_qty,
+                            qty=str(curr_qty),
                         )
                     )
                     return
@@ -183,11 +186,12 @@ class BaseTrade:
                 elif not breakeven and int(self.param["stock_retention"]*3/2) <= total_time < int(self.param["stock_retention"]*3):
                     # Set breakeven filter to true
                     breakeven = True
+
                     # Cancel all trades not finished
                     self.cancel_all()
 
                     # Check how many shares are available
-                    curr_qty = int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+                    curr_qty = self.get_available_shares()
 
                     print(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {init_price}")
                     logging.info(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {init_price}")

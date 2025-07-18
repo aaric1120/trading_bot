@@ -1,6 +1,8 @@
 from finvizfinance.screener.overview import Overview
 import yfinance as yf
 
+import subprocess
+
 
 def get_undervalued_stocks():
     """
@@ -66,5 +68,32 @@ def get_stock_info(ticker):
     print(f"3-Month Avg Volume: {stock_info['averageVolume']:,} shares")
 
     return stock_info
+
+
+def get_stock_start(stock_list,stock_dict,process_list):
+    """
+    Starts the multi process for each stock trading...
+    :param stock_list:
+    :param stock_dict:
+    :param process_list:
+    :return:
+    """
+    # get list of stocks available for trading
+    watch_list = get_undervalued_stocks()
+
+    # print(f"Current list of available stockes to trade: {watch_list}")
+
+    if (watch_list is not None):
+        # write into the stock
+        for stock in watch_list:
+            if stock not in stock_dict and len(stock_dict) < 10: #PARAM
+                # HERE WOULD BE AI CLI SENTIMENT SCANNER
+                process_list.append(subprocess.Popen(['python', 'main.py', stock], shell=True)) # PARAM
+                stock_list.append(stock)
+                stock_dict.add(stock)
+
+        return True
+
+    return False
 
 # print(get_undervalued_stocks())

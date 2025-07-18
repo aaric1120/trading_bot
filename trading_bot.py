@@ -1,29 +1,8 @@
 from time_tools import get_current_date, get_seconds
+from stock_screener import get_stock_start
+
 import datetime as dt
 import time as tm
-
-from stock_screener import get_undervalued_stocks
-import subprocess
-
-
-def get_stock_start(stock_list,stock_dict,process_list):
-    # get list of stocks available for trading
-    watch_list = get_undervalued_stocks()
-
-    # print(f"Current list of available stockes to trade: {watch_list}")
-
-    if (watch_list is not None):
-        # write into the stock
-        for stock in watch_list:
-            if stock not in stock_dict and len(stock_dict) < 10: #PARAM
-                # HERE WOULD BE AI CLI SENTIMENT SCANNER
-                process_list.append(subprocess.Popen(['python', 'main.py', stock], shell=True))
-                stock_list.append(stock)
-                stock_dict.add(stock)
-
-        return True
-
-    return False
 
 
 def main():
@@ -46,22 +25,7 @@ def main():
     stock_dict = set()
     process_list = []
 
-    # get list of stocks available for trading
-    check_list = False
-
-    while (not check_list):
-        print("Getting list of stocks to trade...")
-        if dt.datetime.now().time() > MARKET_CLOSE_TIME:
-            print("The Market has closed...")
-            break
-        else:
-            # get list of stocks available for trading
-            check_list = get_stock_start(stock_list,stock_dict,process_list)
-            print(f"The Current active stocks are {stock_dict}")
-
-            print("Sleeping for 15 minutes until next stock check...")
-            tm.sleep(900) # PARAM
-
+    # Main loop to add new stocks every 15 minutes...
     while True:
         # Check close time for market
         if dt.datetime.now().time() > MARKET_CLOSE_TIME:
@@ -82,7 +46,7 @@ def main():
                 get_stock_start(stock_list, stock_dict, process_list)
                 print(f"The Current active stocks are {stock_dict}")
 
-                print("Sleeping for 15 minutes until next stock check...")
+            print("Sleeping for 15 minutes until next stock check...")
             tm.sleep(900)  # PARAM
 
     return
