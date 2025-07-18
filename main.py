@@ -1,22 +1,19 @@
-from param_reader import param_reader
-
-from alpaca.data.historical import StockHistoricalDataClient
-from alpaca.data.requests import StockBarsRequest, StockLatestBarRequest
-
-import datetime as dt
-import time as tm
-
-import numpy as np
-
-from pattern_detection import pattern_detection
-
-from trading import RectangleTrade, AscendingTriangle, DescendingTriangle, TriangleTrade
-
 import sys
 import logging
 
+import time as tm
+import numpy as np
+import datetime as dt
+
+from param_reader import param_reader
+from pattern_detection import pattern_detection
+from alpaca.data.requests import StockLatestBarRequest
+from alpaca.data.historical import StockHistoricalDataClient
+from trading import RectangleTrade, AscendingTriangle, DescendingTriangle, TriangleTrade
+
 
 def main():
+    MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format)
     # Get the stock to trade
     curr_symbol = sys.argv[-1]
     print(f"Currently Trading the stock: {curr_symbol}")
@@ -81,34 +78,33 @@ def main():
                     logging.info("Pattern matched as Rectangle, starting trading strategy")
                     Rect_trading = RectangleTrade(curr_symbol,param, highs, lows, volume,rect_max, rect_min)
                     Rect_trading.run()
-                    break
+                    return
 
                 elif (pattern == "symmetrical_triangle"):
                     logging.info("Pattern matched as Symmetrical Triangle, starting trading strategy")
                     Tri_trading = TriangleTrade(curr_symbol, param, highs,lows, volume,high_slp,high_C,low_slp,low_C)
                     Tri_trading.run()
-                    break
+                    return
 
                 elif (pattern == "ascending_triangle"):
                     logging.info("Pattern matched as Ascending Triangle, starting trading strategy")
                     ATri_trade = AscendingTriangle(curr_symbol, param, highs,lows, volume, high_slp,high_C,low_slp,low_C)
                     ATri_trade.run()
-                    break
+                    return
 
                 elif (pattern == "descending_trianlge"):
                     logging.info("Pattern matched as Descending Trianlge, starting trading strategy")
                     DTri_trade = DescendingTriangle(curr_symbol, param, highs,lows, volume, high_slp,high_C,low_slp,low_C)
                     DTri_trade.run()
-                    break
+                    return
 
         # Wait 60 seconds for next bar
         tm.sleep(60)
 
         # Check close time for market
-        MARKET_CLOSE_TIME = dt.time(16, 0,0)  # 4:00 PM (24-hour format)
         if dt.datetime.now().time() > MARKET_CLOSE_TIME:
             print("The Market has closed...")
-            break
+            return
 
         print(f"The Timestamp is {dt.datetime.now()}")
 
