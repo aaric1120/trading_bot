@@ -179,6 +179,7 @@ class BaseTrade:
                     )
                     return
 
+                # Once half of retention period was been met without shares being sold
                 elif not breakeven and int(self.param["stock_retention"]*3/2) <= total_time < int(self.param["stock_retention"]*3):
                     # Set breakeven filter to true
                     breakeven = True
