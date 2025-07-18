@@ -1,0 +1,573 @@
+2025-07-18 11:15:03 INFO: === Strategy started ===
+2025-07-18 11:15:03 INFO: Start collecting the current highs/lows for: PDYN
+2025-07-18 11:15:03 INFO: Most recent stock data: {'PDYN': {   'close': 12.03,
+    'high': 12.03,
+    'low': 12.03,
+    'open': 12.03,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.03}}
+2025-07-18 11:16:04 INFO: Most recent stock data: {'PDYN': {   'close': 12.01,
+    'high': 12.01,
+    'low': 11.99,
+    'open': 11.99,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 525.0,
+    'vwap': 11.9975}}
+2025-07-18 11:20:04 INFO: Most recent stock data: {'PDYN': {   'close': 12.02,
+    'high': 12.02,
+    'low': 12.02,
+    'open': 12.02,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 12.02}}
+2025-07-18 11:23:05 INFO: Most recent stock data: {'PDYN': {   'close': 12.06,
+    'high': 12.06,
+    'low': 12.06,
+    'open': 12.06,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 347.0,
+    'vwap': 12.06}}
+2025-07-18 11:24:05 INFO: Most recent stock data: {'PDYN': {   'close': 12.09,
+    'high': 12.09,
+    'low': 12.09,
+    'open': 12.09,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 638.0,
+    'vwap': 12.09}}
+2025-07-18 11:26:05 INFO: Most recent stock data: {'PDYN': {   'close': 12.08,
+    'high': 12.08,
+    'low': 12.08,
+    'open': 12.08,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 182.0,
+    'vwap': 12.08}}
+2025-07-18 11:28:05 INFO: Most recent stock data: {'PDYN': {   'close': 12.065,
+    'high': 12.065,
+    'low': 12.065,
+    'open': 12.065,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 12.065}}
+2025-07-18 11:29:05 INFO: Most recent stock data: {'PDYN': {   'close': 12.085,
+    'high': 12.085,
+    'low': 12.085,
+    'open': 12.085,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 146.0,
+    'vwap': 12.085}}
+2025-07-18 11:30:06 INFO: Most recent stock data: {'PDYN': {   'close': 12.15,
+    'high': 12.15,
+    'low': 12.12,
+    'open': 12.12,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 734.0,
+    'vwap': 12.124587}}
+2025-07-18 11:33:06 INFO: Most recent stock data: {'PDYN': {   'close': 12.22,
+    'high': 12.22,
+    'low': 12.22,
+    'open': 12.22,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.22}}
+2025-07-18 11:34:06 INFO: Most recent stock data: {'PDYN': {   'close': 12.2,
+    'high': 12.2,
+    'low': 12.2,
+    'open': 12.2,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 309.0,
+    'vwap': 12.2}}
+2025-07-18 11:34:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-18 11:34:06 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-18 11:35:06 INFO: {'PDYN': {   'close': 12.145,
+    'high': 12.145,
+    'low': 12.145,
+    'open': 12.145,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 138.0,
+    'vwap': 12.145}}
+2025-07-18 11:35:06 INFO: Current resistance is: 12.22 and support is: 11.99
+2025-07-18 11:35:06 INFO: Current average volume is: 326.58
+2025-07-18 11:35:06 INFO: Updated resistance to: 12.22 and support to: 11.99
+2025-07-18 11:39:07 INFO: {'PDYN': {   'close': 12.05,
+    'high': 12.05,
+    'low': 12.05,
+    'open': 12.05,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.05}}
+2025-07-18 11:39:07 INFO: Current resistance is: 12.22 and support is: 11.99
+2025-07-18 11:39:07 INFO: Current average volume is: 309.15
+2025-07-18 11:39:07 INFO: Updated resistance to: 12.22 and support to: 11.99
+2025-07-18 11:47:08 INFO: {'PDYN': {   'close': 12.02,
+    'high': 12.055,
+    'low': 12.02,
+    'open': 12.055,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 12.0375}}
+2025-07-18 11:47:08 INFO: Current resistance is: 12.22 and support is: 11.99
+2025-07-18 11:47:08 INFO: Current average volume is: 302.07
+2025-07-18 11:47:08 INFO: Updated resistance to: 12.22 and support to: 11.99
+2025-07-18 11:49:08 INFO: {'PDYN': {   'close': 12.01,
+    'high': 12.01,
+    'low': 12.01,
+    'open': 12.01,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.01}}
+2025-07-18 11:49:08 INFO: Current resistance is: 12.22 and support is: 11.99
+2025-07-18 11:49:08 INFO: Current average volume is: 288.6
+2025-07-18 11:49:08 INFO: Updated resistance to: 12.22 and support to: 11.99
+2025-07-18 11:53:09 INFO: {'PDYN': {   'close': 12.07,
+    'high': 12.07,
+    'low': 12.07,
+    'open': 12.07,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 153.0,
+    'vwap': 12.07}}
+2025-07-18 11:53:09 INFO: Current resistance is: 12.22 and support is: 11.99
+2025-07-18 11:53:09 INFO: Current average volume is: 280.12
+2025-07-18 11:53:09 INFO: Updated resistance to: 12.22 and support to: 11.99
+2025-07-18 11:54:09 INFO: {'PDYN': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.18,
+    'open': 12.18,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 255.0,
+    'vwap': 12.186}}
+2025-07-18 11:54:09 INFO: Current resistance is: 12.22 and support is: 11.99
+2025-07-18 11:54:09 INFO: Current average volume is: 278.65
+2025-07-18 11:54:09 INFO: Updated resistance to: 12.22 and support to: 11.99
+2025-07-18 11:55:09 INFO: {'PDYN': {   'close': 12.13,
+    'high': 12.13,
+    'low': 12.13,
+    'open': 12.13,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 211.0,
+    'vwap': 12.13}}
+2025-07-18 11:55:09 INFO: Current resistance is: 12.22 and support is: 11.99
+2025-07-18 11:55:09 INFO: Current average volume is: 274.89
+2025-07-18 11:55:09 INFO: Updated resistance to: 12.22 and support to: 11.99
+2025-07-18 11:56:09 INFO: {'PDYN': {   'close': 12.17,
+    'high': 12.17,
+    'low': 12.17,
+    'open': 12.17,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 210.0,
+    'vwap': 12.17}}
+2025-07-18 11:56:09 INFO: Current resistance is: 12.22 and support is: 11.99
+2025-07-18 11:56:09 INFO: Current average volume is: 271.47
+2025-07-18 11:56:09 INFO: Updated resistance to: 12.22 and support to: 11.99
+2025-07-18 12:04:10 INFO: {'PDYN': {   'close': 12.27,
+    'high': 12.27,
+    'low': 12.27,
+    'open': 12.27,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.27}}
+2025-07-18 12:04:10 INFO: Current resistance is: 12.22 and support is: 11.99
+2025-07-18 12:04:10 INFO: Current average volume is: 262.9
+2025-07-18 12:04:10 INFO: The Current Close 12.27 is above the resistance...
+2025-07-18 12:04:10 INFO: Updated resistance to: 12.27 and support to: 11.99
+2025-07-18 12:06:11 INFO: {'PDYN': {   'close': 12.18,
+    'high': 12.25,
+    'low': 12.18,
+    'open': 12.25,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 658.0,
+    'vwap': 12.216607}}
+2025-07-18 12:06:11 INFO: Current resistance is: 12.27 and support is: 11.99
+2025-07-18 12:06:11 INFO: Current average volume is: 281.71
+2025-07-18 12:06:11 INFO: Updated resistance to: 12.27 and support to: 11.99
+2025-07-18 12:07:11 INFO: {'PDYN': {   'close': 12.17,
+    'high': 12.17,
+    'low': 12.17,
+    'open': 12.17,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.17}}
+2025-07-18 12:07:11 INFO: Current resistance is: 12.27 and support is: 11.99
+2025-07-18 12:07:11 INFO: Current average volume is: 273.45
+2025-07-18 12:07:11 INFO: Updated resistance to: 12.27 and support to: 11.99
+2025-07-18 12:08:11 INFO: {'PDYN': {   'close': 12.12,
+    'high': 12.12,
+    'low': 12.12,
+    'open': 12.12,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 190.0,
+    'vwap': 12.12}}
+2025-07-18 12:08:11 INFO: Current resistance is: 12.27 and support is: 11.99
+2025-07-18 12:08:11 INFO: Current average volume is: 269.83
+2025-07-18 12:08:11 INFO: Updated resistance to: 12.27 and support to: 11.99
+2025-07-18 12:12:11 INFO: {'PDYN': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 118.0,
+    'vwap': 12.19}}
+2025-07-18 12:12:11 INFO: Current resistance is: 12.27 and support is: 11.99
+2025-07-18 12:12:11 INFO: Current average volume is: 263.5
+2025-07-18 12:12:11 INFO: Updated resistance to: 12.27 and support to: 11.99
+2025-07-18 12:14:12 INFO: {'PDYN': {   'close': 12.29,
+    'high': 12.29,
+    'low': 12.29,
+    'open': 12.29,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 140.0,
+    'vwap': 12.29}}
+2025-07-18 12:14:12 INFO: Current resistance is: 12.27 and support is: 11.99
+2025-07-18 12:14:12 INFO: Current average volume is: 258.56
+2025-07-18 12:14:12 INFO: The Current Close 12.29 is above the resistance...
+2025-07-18 12:14:12 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:19:13 INFO: {'PDYN': {   'close': 12.19,
+    'high': 12.2,
+    'low': 12.19,
+    'open': 12.2,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 310.0,
+    'vwap': 12.194}}
+2025-07-18 12:19:13 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:19:13 INFO: Current average volume is: 260.54
+2025-07-18 12:19:13 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:20:13 INFO: {'PDYN': {   'close': 12.205,
+    'high': 12.205,
+    'low': 12.2,
+    'open': 12.2,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 310.0,
+    'vwap': 12.203387}}
+2025-07-18 12:20:13 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:20:13 INFO: Current average volume is: 262.37
+2025-07-18 12:20:13 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:21:13 INFO: {'PDYN': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 269.0,
+    'vwap': 12.19}}
+2025-07-18 12:21:13 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:21:13 INFO: Current average volume is: 262.61
+2025-07-18 12:21:13 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:23:14 INFO: {'PDYN': {   'close': 12.21,
+    'high': 12.25,
+    'low': 12.21,
+    'open': 12.25,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1100.0,
+    'vwap': 12.215455}}
+2025-07-18 12:23:14 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:23:14 INFO: Current average volume is: 291.48
+2025-07-18 12:23:14 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:25:14 INFO: {'PDYN': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 438.0,
+    'vwap': 12.19}}
+2025-07-18 12:25:14 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:25:14 INFO: Current average volume is: 296.37
+2025-07-18 12:25:14 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:28:14 INFO: {'PDYN': {   'close': 12.12,
+    'high': 12.12,
+    'low': 12.12,
+    'open': 12.12,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 107.0,
+    'vwap': 12.12}}
+2025-07-18 12:28:14 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:28:14 INFO: Current average volume is: 290.26
+2025-07-18 12:28:14 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:30:14 INFO: {'PDYN': {   'close': 12.13,
+    'high': 12.13,
+    'low': 12.13,
+    'open': 12.13,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 110.0,
+    'vwap': 12.13}}
+2025-07-18 12:30:14 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:30:14 INFO: Current average volume is: 284.62
+2025-07-18 12:30:14 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:35:15 INFO: {'PDYN': {   'close': 12.09,
+    'high': 12.09,
+    'low': 12.09,
+    'open': 12.09,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 243.0,
+    'vwap': 12.09}}
+2025-07-18 12:35:15 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:35:15 INFO: Current average volume is: 283.36
+2025-07-18 12:35:15 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:36:15 INFO: {'PDYN': {   'close': 12.03,
+    'high': 12.05,
+    'low': 12.03,
+    'open': 12.05,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 472.0,
+    'vwap': 12.03875}}
+2025-07-18 12:36:15 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:36:15 INFO: Current average volume is: 288.91
+2025-07-18 12:36:15 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:40:16 INFO: {'PDYN': {   'close': 12.07,
+    'high': 12.08,
+    'low': 12.07,
+    'open': 12.08,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 12.0775}}
+2025-07-18 12:40:16 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:40:16 INFO: Current average volume is: 294.94
+2025-07-18 12:40:16 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:46:17 INFO: {'PDYN': {   'close': 12.09,
+    'high': 12.09,
+    'low': 12.09,
+    'open': 12.09,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.09}}
+2025-07-18 12:46:17 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:46:17 INFO: Current average volume is: 289.53
+2025-07-18 12:46:17 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:49:17 INFO: {'PDYN': {   'close': 12.07,
+    'high': 12.07,
+    'low': 12.07,
+    'open': 12.07,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 139.0,
+    'vwap': 12.07}}
+2025-07-18 12:49:17 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:49:17 INFO: Current average volume is: 285.46
+2025-07-18 12:49:17 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:52:17 INFO: {'PDYN': {   'close': 12.13,
+    'high': 12.13,
+    'low': 12.13,
+    'open': 12.13,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 12.13}}
+2025-07-18 12:52:17 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:52:17 INFO: Current average volume is: 285.84
+2025-07-18 12:52:17 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 12:54:18 INFO: {'PDYN': {   'close': 12.135,
+    'high': 12.135,
+    'low': 12.135,
+    'open': 12.135,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 157.0,
+    'vwap': 12.135}}
+2025-07-18 12:54:18 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 12:54:18 INFO: Current average volume is: 282.54
+2025-07-18 12:54:18 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:01:19 INFO: {'PDYN': {   'close': 12.1,
+    'high': 12.1,
+    'low': 12.1,
+    'open': 12.1,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.1}}
+2025-07-18 13:01:19 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:01:19 INFO: Current average volume is: 277.98
+2025-07-18 13:01:19 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:04:19 INFO: {'PDYN': {   'close': 12.11,
+    'high': 12.11,
+    'low': 12.11,
+    'open': 12.11,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 113.0,
+    'vwap': 12.11}}
+2025-07-18 13:04:19 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:04:19 INFO: Current average volume is: 273.95
+2025-07-18 13:04:19 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:05:19 INFO: {'PDYN': {   'close': 12.085,
+    'high': 12.085,
+    'low': 12.07,
+    'open': 12.07,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 12.0775}}
+2025-07-18 13:05:19 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:05:19 INFO: Current average volume is: 272.19
+2025-07-18 13:05:19 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:12:20 INFO: {'PDYN': {   'close': 12.01,
+    'high': 12.02,
+    'low': 12.01,
+    'open': 12.02,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 724.0,
+    'vwap': 12.012727}}
+2025-07-18 13:12:20 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:12:20 INFO: Current average volume is: 282.7
+2025-07-18 13:12:20 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:19:21 INFO: {'PDYN': {   'close': 12.03,
+    'high': 12.03,
+    'low': 12.03,
+    'open': 12.03,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 220.0,
+    'vwap': 12.03}}
+2025-07-18 13:19:21 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:19:21 INFO: Current average volume is: 281.27
+2025-07-18 13:19:21 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:21:21 INFO: {'PDYN': {   'close': 12.0,
+    'high': 12.0,
+    'low': 12.0,
+    'open': 12.0,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 231.0,
+    'vwap': 12.0}}
+2025-07-18 13:21:21 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:21:21 INFO: Current average volume is: 280.16
+2025-07-18 13:21:21 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:25:22 INFO: {'PDYN': {   'close': 12.15,
+    'high': 12.15,
+    'low': 12.15,
+    'open': 12.15,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 177.0,
+    'vwap': 12.15}}
+2025-07-18 13:25:22 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:25:22 INFO: Current average volume is: 277.91
+2025-07-18 13:25:22 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:26:22 INFO: {'PDYN': {   'close': 12.155,
+    'high': 12.155,
+    'low': 12.155,
+    'open': 12.155,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 104.0,
+    'vwap': 12.155}}
+2025-07-18 13:26:22 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:26:22 INFO: Current average volume is: 274.21
+2025-07-18 13:26:22 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:28:22 INFO: {'PDYN': {   'close': 12.2,
+    'high': 12.2,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 602.0,
+    'vwap': 12.191724}}
+2025-07-18 13:28:22 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:28:22 INFO: Current average volume is: 281.04
+2025-07-18 13:28:22 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:29:22 INFO: {'PDYN': {   'close': 12.24,
+    'high': 12.24,
+    'low': 12.24,
+    'open': 12.24,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 138.0,
+    'vwap': 12.24}}
+2025-07-18 13:29:22 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:29:22 INFO: Current average volume is: 278.12
+2025-07-18 13:29:22 INFO: Updated resistance to: 12.29 and support to: 11.99
+2025-07-18 13:31:22 INFO: {'PDYN': {   'close': 12.22,
+    'high': 12.225,
+    'low': 12.22,
+    'open': 12.225,
+    'symbol': 'PDYN',
+    'timestamp': datetime.datetime(2025, 7, 18, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1200.0,
+    'vwap': 12.224583}}
+2025-07-18 13:31:22 INFO: Current resistance is: 12.29 and support is: 11.99
+2025-07-18 13:31:22 INFO: Current average volume is: 296.56
+2025-07-18 13:31:22 INFO: Updated resistance to: 12.29 and support to: 11.99

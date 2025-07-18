@@ -143,8 +143,8 @@ class BaseTrade:
                     # sell for take profit
                     limit_order_data = LimitOrderRequest(
                                                         symbol=self.symbol,
-                                                        qty=sell_qty,
-                                                        limit_price=take_profit,
+                                                        qty=int(sell_qty),
+                                                        limit_price=round(take_profit,2),
                                                         side=OrderSide.SELL,
                                                         type=OrderType.LIMIT,
                                                         time_in_force=TimeInForce.DAY)
@@ -203,7 +203,8 @@ class BaseTrade:
                     return
 
                 # Once half of retention period was been met without shares being sold
-                elif not breakeven and int(self.param["stock_retention"]*3/2) <= total_time < int(self.param["stock_retention"]*3):
+                elif not breakeven and int(self.param["stock_retention"]*3*self.param["breakeven"]) \
+                        <= total_time < int(self.param["stock_retention"]*3):
                     # Set breakeven filter to true
                     breakeven = True
 
@@ -223,7 +224,7 @@ class BaseTrade:
                     limit_order_data = LimitOrderRequest(
                                                         symbol=self.symbol,
                                                         qty=curr_qty,
-                                                        limit_price=init_price,
+                                                        limit_price=round(init_price,2),
                                                         side=OrderSide.SELL,
                                                         type=OrderType.LIMIT,
                                                         time_in_force=TimeInForce.DAY)

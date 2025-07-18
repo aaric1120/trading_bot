@@ -2,7 +2,7 @@ from finvizfinance.screener.overview import Overview
 import yfinance as yf
 
 import subprocess
-
+from random import shuffle
 
 def get_undervalued_stocks():
     """
@@ -38,6 +38,7 @@ def get_undervalued_stocks():
     # df_overview.to_csv('out/Overview.csv', index=False)
     if (df_overview is not None):
         tickers = df_overview['Ticker'].to_list()
+        shuffle(tickers)
         return tickers
     # print("Current list of valid stocks...")
     # print(tickers)
@@ -78,7 +79,7 @@ def get_stock_start(stock_list,stock_dict,process_list):
     :param process_list:
     :return:
     """
-    # get list of stocks available for trading
+    # get set of stocks available for trading
     watch_list = get_undervalued_stocks()
 
     # print(f"Current list of available stockes to trade: {watch_list}")
