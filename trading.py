@@ -122,6 +122,10 @@ class BaseTrade:
                     # Check how many shares are available
                     curr_qty = self.get_available_shares()
 
+                    # is amount is zero, exit the trade...
+                    if curr_qty == 0:
+                        return
+
                     # check how many shares are left
                     if curr_qty == 1:
                         sell_qty = 1
@@ -170,6 +174,10 @@ class BaseTrade:
                     # Get the number of stocks currently available
                     curr_qty = self.get_available_shares()
 
+                    # is amount is zero, exit the trade...
+                    if curr_qty == 0:
+                        return
+
                     print(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
                     logging.info(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
 
@@ -192,6 +200,10 @@ class BaseTrade:
 
                     # Check how many shares are available
                     curr_qty = self.get_available_shares()
+
+                    # is amount is zero, exit the trade...
+                    if curr_qty == 0:
+                        return
 
                     print(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {init_price}")
                     logging.info(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {init_price}")
