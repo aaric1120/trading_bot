@@ -39,7 +39,7 @@ class BaseTrade:
         self.trade_client = TradingClient(self.param["alpaca_key"], self.param["secret_key"], paper=True)
         self.hist_request = StockLatestBarRequest(symbol_or_symbols=[self.symbol])
         self.volume = volume
-        self.avg_vol = round(self.volume / len(self.highs) , 2)
+        self.avg_vol = round(self.volume / len(self.highs), 2)
 
         # Configure logging
         logging.FileHandler(f"logs/trade_log_{self.symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt", mode="a",
