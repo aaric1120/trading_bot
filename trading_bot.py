@@ -15,8 +15,8 @@ def main():
     CURR_DAY = get_current_date()
 
     while True:
-        if MARKET_CLOSE_TIME < dt.datetime.now().time() < PRE_MIDNIGHT \
-                or POST_MIDNIGHT < dt.datetime.now().time() < MARKET_OPEN_TIME:
+        if (MARKET_CLOSE_TIME < dt.datetime.now().time() < PRE_MIDNIGHT \
+                or POST_MIDNIGHT < dt.datetime.now().time() < MARKET_OPEN_TIME) or CURR_DAY >= 5:
             print("The Market hasn't opened yet...")
             sleep_sec = get_seconds(9,45,0) # PARAM
 
