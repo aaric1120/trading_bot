@@ -12,12 +12,19 @@ def main():
     MARKET_DEADLINE = dt.time(15,30,0) # PARAM
     PRE_MIDNIGHT = dt.time(23, 59, 59)
     POST_MIDNIGHT = dt.time(0, 0, 0)
+    CURR_DAY = get_current_date()
 
     if  MARKET_CLOSE_TIME < dt.datetime.now().time() < PRE_MIDNIGHT \
             or POST_MIDNIGHT < dt.datetime.now().time() < MARKET_OPEN_TIME:
         print("The Market hasn't opened yet...")
         sleep_sec = get_seconds(9,45,0) # PARAM
-        print(f"Sleeping for {sleep_sec} seconds until Marktet opens...")
+
+        # Checks the day of the week to calculate the time to wait
+        if (CURR_DAY == 4 and MARKET_CLOSE_TIME < dt.datetime.now().time() < PRE_MIDNIGHT) or CURR_DAY > 4:
+            sleep_sec += 86400 * (6 - CURR_DAY)
+
+        print(f"Sleeping for {int(sleep_sec/3600)} Hours "
+              f"and {int((sleep_sec % 3600) / 60)} Minutes until Marktet opens...")
         tm.sleep(sleep_sec)
 
     # variables that track the process

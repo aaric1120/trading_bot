@@ -5,20 +5,10 @@ def get_current_date():
     # Get the current date and time
     current_datetime = datetime.now()
 
-    # Extract the current time
-    current_time = current_datetime.strftime("%H:%M:%S")
-
     # Get the day of the week (0=Monday, 6=Sunday)
     day_of_week_numeric = current_datetime.weekday()
 
-    # Map the numeric day to a string representation
-    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-    day_of_week_string = days[day_of_week_numeric]
-
-    # print(f"Current Time: {current_time}")
-    # print(f"Day of the Week: {day_of_week_string}")
-    # print(f"Day of the week in number: {day_of_week_numeric}")
-    return current_time, day_of_week_string, day_of_week_string
+    return day_of_week_numeric
 
 
 def get_seconds(hour, minute, seconds):
@@ -27,14 +17,15 @@ def get_seconds(hour, minute, seconds):
 
     # Get current time and combine it with today's date
     current_datetime = datetime.now()
-    current_time = current_datetime.time()
 
     # Combine target_time with today's date
     target_datetime = datetime.combine(current_datetime.date(), target_time)
+    pre_midnight = datetime.combine(current_datetime.date(), time(23, 59, 59))
+    post_midnight = datetime.combine(current_datetime.date(), time(0, 0, 0))
 
     # Calculate the difference in seconds
-    if current_datetime > target_datetime:
-        time_diff = current_datetime - target_datetime
+    if pre_midnight >= current_datetime:
+        time_diff = (pre_midnight - current_datetime) + (target_datetime - post_midnight)
     else:
         time_diff = target_datetime - current_datetime
 
@@ -42,7 +33,3 @@ def get_seconds(hour, minute, seconds):
 
     # print(f"Seconds between now and {target_time}: {seconds_diff}")
     return int(seconds_diff)
-
-
-# print(get_seconds(9,30,0))
-# print(get_current_date())

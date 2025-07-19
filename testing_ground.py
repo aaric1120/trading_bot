@@ -4,6 +4,7 @@
 # from pydantic_core import TzInfo
 #
 from alpaca.trading.client import TradingClient
+from time_tools import get_current_date
 
 from alpaca.trading.requests import GetOrdersRequest, ClosePositionRequest
 from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
@@ -33,7 +34,9 @@ param = param_reader("param.txt")
 #
 #
 # # Request Examples
-trading_client = TradingClient(param["alpaca_key"], param["secret_key"], paper=True)
+# trading_client = TradingClient(param["alpaca_key"], param["secret_key"], paper=True)
+
+print(get_current_date()[0])
 #
 # hist_data_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
 #
@@ -42,7 +45,7 @@ trading_client = TradingClient(param["alpaca_key"], param["secret_key"], paper=T
 # wss_client = StockDataStream('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
 #
 #
-print(trading_client.get_account())
+# print(trading_client.get_account())
 # print(trading_client.get_open_position(symbol_or_asset_id='NVDA').qty_available)
 
 # # params to filter orders by
