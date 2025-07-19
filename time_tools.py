@@ -24,7 +24,7 @@ def get_seconds(hour, minute, seconds):
     post_midnight = datetime.combine(current_datetime.date(), time(0, 0, 0))
 
     # Calculate the difference in seconds
-    if pre_midnight >= current_datetime:
+    if pre_midnight >= current_datetime > target_datetime:
         time_diff = (pre_midnight - current_datetime) + (target_datetime - post_midnight)
     else:
         time_diff = target_datetime - current_datetime
