@@ -23,9 +23,9 @@ def main():
         # Main loop to add new stocks every 15 minutes...
         while True:
             # Check close time for market
-            if dt.datetime.now().time() > MARKET_CLOSE_TIME:
+            if dt.datetime.now().time() >= MARKET_CLOSE_TIME:
                 print("The Market has closed...")
-                break
+                return
             else:
                 # Check if the process has finished
                 for i in range(len(stock_list)):
@@ -35,7 +35,7 @@ def main():
                             stock_list[i] = None
 
                 # Don't get new stock after deadline
-                if dt.datetime.now().time() < MARKET_DEADLINE:
+                if dt.datetime.now().time() <= MARKET_DEADLINE:
                     # Get new stocks to add...
                     print("Adding new stocks to the list...")
                     get_stock_start(stock_list, stock_dict, process_list)

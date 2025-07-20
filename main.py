@@ -102,7 +102,7 @@ def main():
         tm.sleep(60)
 
         # Check close time for market
-        if dt.datetime.now().time() > MARKET_CLOSE_TIME:
+        if dt.datetime.now().time() >= MARKET_CLOSE_TIME:
             print("The Market has closed...")
             return
 

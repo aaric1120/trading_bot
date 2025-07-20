@@ -172,7 +172,8 @@ class BaseTrade:
                     logging.info(f"the updated take profit price is {take_profit},")
                     logging.info(f"the updated stop loss price is {stop_loss},")
 
-                elif close <= stop_loss or total_time >= int(self.param["stock_retention"]*3) or dt.datetime.now().time() > dt.time(15, 55, 0): # PARAM
+                elif close <= stop_loss or total_time >= int(self.param["stock_retention"]*3) or \
+                        dt.datetime.now().time() >= LAST_MARKET_SELL: # PARAM
                     print(f"Selling all of position with {self.symbol}...")
                     logging.info(f"Selling all of position with {self.symbol}...")
 
@@ -307,7 +308,7 @@ class BaseTrade:
 
                     # second bar also closes above resistance: BUY
                     elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume): # PARAM
-                        if dt.datetime.now().time() > MARKET_DEADLINE:
+                        if dt.datetime.now().time() >= MARKET_DEADLINE:
                             print("The current time is past the last buy deadline...")
                             logging.info("The current time is past the last buy deadline...")
                             logging.info("====ClOSING TRADE====")
@@ -386,7 +387,7 @@ class BaseTrade:
                     tm.sleep(30)
 
                 # Check close time for market
-                if dt.datetime.now().time() > MARKET_CLOSE_TIME:
+                if dt.datetime.now().time() >= MARKET_CLOSE_TIME:
                     logging.info("The Market is closed...")
                     print("The Market is closed...")
                     break
