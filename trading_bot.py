@@ -7,10 +7,6 @@ import time as tm
 
 
 def main():
-    # Check if market is open or not...
-    # MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format) PARAM
-    # MARKET_DEADLINE = dt.time(15,30,0) # PARAM
-
     while True:
         # Sleep til market opens
         sleep_til_market()

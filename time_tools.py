@@ -39,7 +39,6 @@ def get_seconds(hour, minute, seconds):
 
     seconds_diff = time_diff.total_seconds()
 
-    # print(f"Seconds between now and {target_time}: {seconds_diff}")
     return int(seconds_diff)
 
 
@@ -48,12 +47,7 @@ def sleep_til_market():
     check if the time is ready...
     :return:
     """
-    # # Check if market is open or not...
-    # MARKET_OPEN_TIME = dt.time(9, 45, 0)  # 9:45 AM (24-hour format) PARAM
-    # MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format) PARAM
-    # MARKET_DEADLINE = dt.time(15, 30, 0)  # PARAM
-    # PRE_MIDNIGHT = dt.time(23, 59, 59)
-    # POST_MIDNIGHT = dt.time(0, 0, 0)
+    # Check if market is open or not...
     CURR_DAY = get_current_date()
 
     if (MARKET_CLOSE_TIME < dt.datetime.now().time() < PRE_MIDNIGHT
@@ -68,12 +62,10 @@ def sleep_til_market():
             if dt.datetime.now().time() < MARKET_OPEN_TIME:
                 sleep_sec += 86400 * 2
             else:
-                sleep_sec += 86400 * 1.5
+                sleep_sec += 86400
         elif CURR_DAY == 6:
             if dt.datetime.now().time() < MARKET_OPEN_TIME:
                 sleep_sec += 86400
-            else:
-                sleep_sec += 86400 * 0.5
 
         print(f"Sleeping for {int(sleep_sec / 3600)} Hours "
               f"and {int((sleep_sec % 3600) / 60)} Minutes until Marktet opens...")

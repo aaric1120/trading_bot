@@ -253,8 +253,6 @@ class BaseTrade:
     def run(self):
         breakout = False
         breakdown = False
-        # MARKET_DEADLINE = dt.time(15, 30, 0) # PARAM
-        # MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format)
 
         try:
             while(True):
