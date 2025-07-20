@@ -3,7 +3,7 @@ import logging
 
 import time as tm
 import numpy as np
-import datetime as dt
+from TimeConstants import *
 
 from param_reader import param_reader
 from pattern_detection import pattern_detection
@@ -13,7 +13,7 @@ from trading import RectangleTrade, AscendingTriangle, DescendingTriangle, Trian
 
 
 def main():
-    MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format)
+    # MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format)
     # Get the stock to trade
     curr_symbol = sys.argv[-1]
     print(f"Currently Trading the stock: {curr_symbol}")

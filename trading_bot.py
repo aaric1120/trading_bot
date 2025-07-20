@@ -1,32 +1,19 @@
-from time_tools import get_current_date, get_seconds
+from TimeConstants import *
+
+from time_tools import sleep_til_market
 from stock_screener import get_stock_start
 
-import datetime as dt
 import time as tm
 
 
 def main():
     # Check if market is open or not...
-    MARKET_OPEN_TIME = dt.time(9, 45, 0)  # 9:45 AM (24-hour format) PARAM
-    MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format) PARAM
-    MARKET_DEADLINE = dt.time(15,30,0) # PARAM
-    PRE_MIDNIGHT = dt.time(23, 59, 59)
-    POST_MIDNIGHT = dt.time(0, 0, 0)
-    CURR_DAY = get_current_date()
+    # MARKET_CLOSE_TIME = dt.time(16, 0, 0)  # 4:00 PM (24-hour format) PARAM
+    # MARKET_DEADLINE = dt.time(15,30,0) # PARAM
 
     while True:
-        if (MARKET_CLOSE_TIME < dt.datetime.now().time() < PRE_MIDNIGHT \
-                or POST_MIDNIGHT < dt.datetime.now().time() < MARKET_OPEN_TIME) or CURR_DAY >= 5:
-            print("The Market hasn't opened yet...")
-            sleep_sec = get_seconds(9,45,0) # PARAM
-
-            # Checks the day of the week to calculate the time to wait
-            if (CURR_DAY == 4 and MARKET_CLOSE_TIME < dt.datetime.now().time() < PRE_MIDNIGHT) or CURR_DAY > 4:
-                sleep_sec += 86400 * (6 - CURR_DAY)
-
-            print(f"Sleeping for {int(sleep_sec/3600)} Hours "
-                  f"and {int((sleep_sec % 3600) / 60)} Minutes until Marktet opens...")
-            tm.sleep(sleep_sec)
+        # Sleep til market opens
+        sleep_til_market()
 
         # variables that track the process
         stock_list = []
