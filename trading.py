@@ -167,10 +167,8 @@ class BaseTrade:
                     init_price = take_profit
                     stop_loss = round(take_profit * self.param["stop_loss"], 2)
                     take_profit = round(take_profit * self.param["take_profit"], 2)
-                    print(f"the updated take profit price is {take_profit},")
-                    print(f"the updated stop loss price is {stop_loss},")
-                    logging.info(f"the updated take profit price is {take_profit},")
-                    logging.info(f"the updated stop loss price is {stop_loss},")
+                    print(f"the updated take profit price is {take_profit}, the updated stop loss price is {stop_loss}")
+                    logging.info(f"the updated take profit price is {take_profit}, the updated stop loss price is {stop_loss}")
 
                 elif close <= stop_loss or total_time >= int(self.param["stock_retention"]*3) or \
                         dt.datetime.now().time() >= LAST_MARKET_SELL: # PARAM
