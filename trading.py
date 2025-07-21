@@ -254,6 +254,7 @@ class BaseTrade:
 
         try:
             while(True):
+                # Keep the loop alive
                 self.hist_client = StockHistoricalDataClient(self.param["alpaca_key"],
                                                              self.param["secret_key"])
                 latest_bar = self.hist_client.get_stock_latest_bar(self.hist_request)
@@ -303,7 +304,7 @@ class BaseTrade:
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
 
                     # second bar also closes above resistance: BUY
-                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume): # PARAM
+                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume):
                         if dt.datetime.now().time() >= MARKET_DEADLINE:
                             print("The current time is past the last buy deadline...")
                             logging.info("The current time is past the last buy deadline...")
@@ -317,11 +318,11 @@ class BaseTrade:
                             f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
 
                         # Set stop loss at just below resistance
-                        stop_loss = round(self.resist * self.param["stop_loss"], 2) #PARAM
+                        stop_loss = round(self.resist * self.param["stop_loss"], 2)
 
-                        price = round(close * self.param["price"],2)  # PARAM
+                        price = round(close * self.param["price"], 2)
 
-                        take_profit = round(price * self.param["take_profit"],2)  # PARAM
+                        take_profit = round(price * self.param["take_profit"], 2)
 
                         quantity = math.floor(float(self.trade_client.get_account().cash) / price)
 
