@@ -1,0 +1,1268 @@
+2025-07-21 10:00:07 INFO: === Strategy started ===
+2025-07-21 10:00:07 INFO: Start collecting the current highs/lows for: AMPX
+2025-07-21 10:00:08 INFO: Most recent stock data: {'AMPX': {   'close': 8.78,
+    'high': 8.81,
+    'low': 8.78,
+    'open': 8.81,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 701.0,
+    'vwap': 8.795714}}
+2025-07-21 10:01:08 INFO: Most recent stock data: {'AMPX': {   'close': 8.74,
+    'high': 8.74,
+    'low': 8.74,
+    'open': 8.74,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 8.74}}
+2025-07-21 10:02:09 INFO: Most recent stock data: {'AMPX': {   'close': 8.76,
+    'high': 8.78,
+    'low': 8.76,
+    'open': 8.78,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 604.0,
+    'vwap': 8.774}}
+2025-07-21 10:06:09 INFO: Most recent stock data: {'AMPX': {   'close': 8.925,
+    'high': 8.94,
+    'low': 8.85,
+    'open': 8.855,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1304.0,
+    'vwap': 8.886923}}
+2025-07-21 10:07:09 INFO: Most recent stock data: {'AMPX': {   'close': 8.9,
+    'high': 8.92,
+    'low': 8.9,
+    'open': 8.9,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1678.0,
+    'vwap': 8.906429}}
+2025-07-21 10:08:09 INFO: Most recent stock data: {'AMPX': {   'close': 8.91,
+    'high': 8.93,
+    'low': 8.88,
+    'open': 8.88,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1133.0,
+    'vwap': 8.914211}}
+2025-07-21 10:09:09 INFO: Most recent stock data: {'AMPX': {   'close': 8.9,
+    'high': 8.935,
+    'low': 8.9,
+    'open': 8.935,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 627.0,
+    'vwap': 8.925}}
+2025-07-21 10:10:10 INFO: Most recent stock data: {'AMPX': {   'close': 8.82,
+    'high': 8.925,
+    'low': 8.82,
+    'open': 8.925,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 936.0,
+    'vwap': 8.892127}}
+2025-07-21 10:11:10 INFO: Most recent stock data: {'AMPX': {   'close': 8.79,
+    'high': 8.79,
+    'low': 8.76,
+    'open': 8.76,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 8.78}}
+2025-07-21 10:12:10 INFO: Most recent stock data: {'AMPX': {   'close': 8.85,
+    'high': 8.85,
+    'low': 8.85,
+    'open': 8.85,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 423.0,
+    'vwap': 8.85}}
+2025-07-21 10:14:10 INFO: Most recent stock data: {'AMPX': {   'close': 8.825,
+    'high': 8.84,
+    'low': 8.825,
+    'open': 8.84,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 8.8325}}
+2025-07-21 10:14:10 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 10:14:10 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-21 10:17:10 INFO: {'AMPX': {   'close': 8.78,
+    'high': 8.785,
+    'low': 8.78,
+    'open': 8.78,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 888.0,
+    'vwap': 8.780714}}
+2025-07-21 10:17:10 INFO: Current resistance is: 8.94 and support is: 8.74
+2025-07-21 10:17:10 INFO: Current average volume is: 699.42
+2025-07-21 10:17:10 INFO: Updated resistance to: 8.94 and support to: 8.74
+2025-07-21 10:18:11 INFO: {'AMPX': {   'close': 8.81,
+    'high': 8.81,
+    'low': 8.81,
+    'open': 8.81,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 591.0,
+    'vwap': 8.81}}
+2025-07-21 10:18:11 INFO: Current resistance is: 8.94 and support is: 8.74
+2025-07-21 10:18:11 INFO: Current average volume is: 691.08
+2025-07-21 10:18:11 INFO: Updated resistance to: 8.94 and support to: 8.74
+2025-07-21 10:19:11 INFO: {'AMPX': {   'close': 8.785,
+    'high': 8.79,
+    'low': 8.785,
+    'open': 8.79,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 362.0,
+    'vwap': 8.788333}}
+2025-07-21 10:19:11 INFO: Current resistance is: 8.94 and support is: 8.74
+2025-07-21 10:19:11 INFO: Current average volume is: 667.57
+2025-07-21 10:19:11 INFO: Updated resistance to: 8.94 and support to: 8.74
+2025-07-21 10:20:11 INFO: {'AMPX': {   'close': 8.74,
+    'high': 8.785,
+    'low': 8.74,
+    'open': 8.785,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1049.0,
+    'vwap': 8.765588}}
+2025-07-21 10:20:11 INFO: Current resistance is: 8.94 and support is: 8.74
+2025-07-21 10:20:11 INFO: Current average volume is: 693.0
+2025-07-21 10:21:11 INFO: {'AMPX': {   'close': 8.79,
+    'high': 8.79,
+    'low': 8.75,
+    'open': 8.75,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1097.0,
+    'vwap': 8.777667}}
+2025-07-21 10:21:11 INFO: Current resistance is: 8.94 and support is: 8.74
+2025-07-21 10:21:11 INFO: Current average volume is: 718.25
+2025-07-21 10:21:11 INFO: Updated resistance to: 8.94 and support to: 8.74
+2025-07-21 10:22:11 INFO: {'AMPX': {   'close': 8.81,
+    'high': 8.815,
+    'low': 8.81,
+    'open': 8.815,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 464.0,
+    'vwap': 8.8125}}
+2025-07-21 10:22:11 INFO: Current resistance is: 8.94 and support is: 8.74
+2025-07-21 10:22:11 INFO: Current average volume is: 703.29
+2025-07-21 10:22:11 INFO: Updated resistance to: 8.94 and support to: 8.74
+2025-07-21 10:23:11 INFO: {'AMPX': {   'close': 8.765,
+    'high': 8.765,
+    'low': 8.765,
+    'open': 8.765,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 110.0,
+    'vwap': 8.765}}
+2025-07-21 10:23:11 INFO: Current resistance is: 8.94 and support is: 8.74
+2025-07-21 10:23:11 INFO: Current average volume is: 670.33
+2025-07-21 10:23:11 INFO: Updated resistance to: 8.94 and support to: 8.74
+2025-07-21 10:24:11 INFO: {'AMPX': {   'close': 8.69,
+    'high': 8.72,
+    'low': 8.66,
+    'open': 8.72,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1452.0,
+    'vwap': 8.693022}}
+2025-07-21 10:24:11 INFO: Current resistance is: 8.94 and support is: 8.74
+2025-07-21 10:24:11 INFO: Current average volume is: 711.47
+2025-07-21 10:24:11 INFO: close price: 8.69 just dropped below support of 8.74...
+2025-07-21 10:25:11 INFO: {'AMPX': {   'close': 8.68,
+    'high': 8.68,
+    'low': 8.68,
+    'open': 8.68,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 8.68}}
+2025-07-21 10:25:11 INFO: Current resistance is: 8.94 and support is: 8.74
+2025-07-21 10:25:11 INFO: Current average volume is: 695.9
+2025-07-21 10:25:11 INFO: Closing price: 8.68 just dropped below support 8.74 again...ending trade...
+2025-07-21 10:30:02 INFO: === Strategy started ===
+2025-07-21 10:30:02 INFO: Start collecting the current highs/lows for: AMPX
+2025-07-21 10:30:03 INFO: Most recent stock data: {'AMPX': {   'close': 8.73,
+    'high': 8.745,
+    'low': 8.73,
+    'open': 8.74,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 303.0,
+    'vwap': 8.738333}}
+2025-07-21 10:32:03 INFO: Most recent stock data: {'AMPX': {   'close': 8.815,
+    'high': 8.83,
+    'low': 8.815,
+    'open': 8.83,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 896.0,
+    'vwap': 8.821471}}
+2025-07-21 10:33:03 INFO: Most recent stock data: {'AMPX': {   'close': 8.75,
+    'high': 8.76,
+    'low': 8.75,
+    'open': 8.76,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 800.0,
+    'vwap': 8.75125}}
+2025-07-21 10:35:03 INFO: Most recent stock data: {'AMPX': {   'close': 8.77,
+    'high': 8.77,
+    'low': 8.765,
+    'open': 8.77,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 302.0,
+    'vwap': 8.768333}}
+2025-07-21 10:37:04 INFO: Most recent stock data: {'AMPX': {   'close': 8.76,
+    'high': 8.76,
+    'low': 8.76,
+    'open': 8.76,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 830.0,
+    'vwap': 8.76}}
+2025-07-21 10:38:04 INFO: Most recent stock data: {'AMPX': {   'close': 8.79,
+    'high': 8.79,
+    'low': 8.78,
+    'open': 8.78,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 8.785}}
+2025-07-21 10:39:04 INFO: Most recent stock data: {'AMPX': {   'close': 8.81,
+    'high': 8.81,
+    'low': 8.81,
+    'open': 8.81,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 250.0,
+    'vwap': 8.81}}
+2025-07-21 10:40:04 INFO: Most recent stock data: {'AMPX': {   'close': 8.82,
+    'high': 8.82,
+    'low': 8.82,
+    'open': 8.82,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 8.82}}
+2025-07-21 10:41:04 INFO: Most recent stock data: {'AMPX': {   'close': 8.81,
+    'high': 8.81,
+    'low': 8.81,
+    'open': 8.81,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 165.0,
+    'vwap': 8.81}}
+2025-07-21 10:42:04 INFO: Most recent stock data: {'AMPX': {   'close': 8.805,
+    'high': 8.815,
+    'low': 8.805,
+    'open': 8.815,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 8.81}}
+2025-07-21 10:43:04 INFO: Most recent stock data: {'AMPX': {   'close': 8.81,
+    'high': 8.81,
+    'low': 8.81,
+    'open': 8.81,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 8.81}}
+2025-07-21 10:43:04 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 10:43:04 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-21 10:44:04 INFO: {'AMPX': {   'close': 8.82,
+    'high': 8.825,
+    'low': 8.82,
+    'open': 8.825,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 460.0,
+    'vwap': 8.822143}}
+2025-07-21 10:44:04 INFO: Current resistance is: 8.83 and support is: 8.73
+2025-07-21 10:44:04 INFO: Current average volume is: 401.17
+2025-07-21 10:44:04 INFO: Updated resistance to: 8.83 and support to: 8.73
+2025-07-21 10:45:05 INFO: {'AMPX': {   'close': 8.86,
+    'high': 8.875,
+    'low': 8.86,
+    'open': 8.875,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 570.0,
+    'vwap': 8.86875}}
+2025-07-21 10:45:05 INFO: Current resistance is: 8.83 and support is: 8.73
+2025-07-21 10:45:05 INFO: Current average volume is: 414.15
+2025-07-21 10:45:05 INFO: The Current Close 8.86 is above the resistance...
+2025-07-21 10:45:05 INFO: Updated resistance to: 8.875 and support to: 8.73
+2025-07-21 10:47:05 INFO: {'AMPX': {   'close': 8.88,
+    'high': 8.88,
+    'low': 8.88,
+    'open': 8.88,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 106.0,
+    'vwap': 8.88}}
+2025-07-21 10:47:05 INFO: Current resistance is: 8.875 and support is: 8.73
+2025-07-21 10:47:05 INFO: Current average volume is: 392.14
+2025-07-21 10:47:05 INFO: The current close: 8.88 is above the resistance of 8.875, but volume isn't enough...
+2025-07-21 10:47:05 INFO: Updated resistance to: 8.88 and support to: 8.73
+2025-07-21 10:48:05 INFO: {'AMPX': {   'close': 8.89,
+    'high': 8.89,
+    'low': 8.89,
+    'open': 8.89,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 115.0,
+    'vwap': 8.89}}
+2025-07-21 10:48:05 INFO: Current resistance is: 8.88 and support is: 8.73
+2025-07-21 10:48:05 INFO: Current average volume is: 373.67
+2025-07-21 10:48:05 INFO: The current close: 8.89 is above the resistance of 8.88, but volume isn't enough...
+2025-07-21 10:48:05 INFO: Updated resistance to: 8.89 and support to: 8.73
+2025-07-21 10:50:06 INFO: {'AMPX': {   'close': 8.93,
+    'high': 8.935,
+    'low': 8.92,
+    'open': 8.92,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 514.0,
+    'vwap': 8.927915}}
+2025-07-21 10:50:06 INFO: Current resistance is: 8.89 and support is: 8.73
+2025-07-21 10:50:06 INFO: Current average volume is: 382.44
+2025-07-21 10:50:06 INFO: The current close: 8.93 is above the resistance of 8.89, but volume isn't enough...
+2025-07-21 10:50:06 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 10:51:06 INFO: {'AMPX': {   'close': 8.9,
+    'high': 8.92,
+    'low': 8.9,
+    'open': 8.92,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1106.0,
+    'vwap': 8.910909}}
+2025-07-21 10:51:06 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 10:51:06 INFO: Current average volume is: 425.0
+2025-07-21 10:51:06 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 10:52:06 INFO: {'AMPX': {   'close': 8.84,
+    'high': 8.895,
+    'low': 8.84,
+    'open': 8.895,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 924.0,
+    'vwap': 8.870882}}
+2025-07-21 10:52:06 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 10:52:06 INFO: Current average volume is: 452.72
+2025-07-21 10:52:06 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 10:54:07 INFO: {'AMPX': {   'close': 8.82,
+    'high': 8.82,
+    'low': 8.815,
+    'open': 8.815,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1002.0,
+    'vwap': 8.817477}}
+2025-07-21 10:54:07 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 10:54:07 INFO: Current average volume is: 481.63
+2025-07-21 10:54:07 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 10:55:07 INFO: {'AMPX': {   'close': 8.84,
+    'high': 8.85,
+    'low': 8.84,
+    'open': 8.85,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 687.0,
+    'vwap': 8.845}}
+2025-07-21 10:55:07 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 10:55:07 INFO: Current average volume is: 491.9
+2025-07-21 10:55:07 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 10:57:07 INFO: {'AMPX': {   'close': 8.91,
+    'high': 8.91,
+    'low': 8.855,
+    'open': 8.855,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 835.0,
+    'vwap': 8.890625}}
+2025-07-21 10:57:07 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 10:57:07 INFO: Current average volume is: 508.24
+2025-07-21 10:57:07 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 10:58:07 INFO: {'AMPX': {   'close': 8.89,
+    'high': 8.9,
+    'low': 8.89,
+    'open': 8.9,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 306.0,
+    'vwap': 8.896667}}
+2025-07-21 10:58:07 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 10:58:07 INFO: Current average volume is: 499.05
+2025-07-21 10:58:07 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 10:59:07 INFO: {'AMPX': {   'close': 8.875,
+    'high': 8.88,
+    'low': 8.86,
+    'open': 8.88,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1377.0,
+    'vwap': 8.868462}}
+2025-07-21 10:59:07 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 10:59:07 INFO: Current average volume is: 537.22
+2025-07-21 10:59:07 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 11:00:07 INFO: {'AMPX': {   'close': 8.885,
+    'high': 8.885,
+    'low': 8.88,
+    'open': 8.88,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1816.0,
+    'vwap': 8.883056}}
+2025-07-21 11:00:07 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 11:00:07 INFO: Current average volume is: 590.5
+2025-07-21 11:00:07 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 11:01:07 INFO: {'AMPX': {   'close': 8.85,
+    'high': 8.85,
+    'low': 8.845,
+    'open': 8.845,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1038.0,
+    'vwap': 8.845608}}
+2025-07-21 11:01:07 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 11:01:07 INFO: Current average volume is: 608.4
+2025-07-21 11:01:07 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 11:02:08 INFO: {'AMPX': {   'close': 8.88,
+    'high': 8.895,
+    'low': 8.865,
+    'open': 8.865,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1681.0,
+    'vwap': 8.884328}}
+2025-07-21 11:02:08 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 11:02:08 INFO: Current average volume is: 649.65
+2025-07-21 11:02:08 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 11:03:08 INFO: {'AMPX': {   'close': 8.86,
+    'high': 8.88,
+    'low': 8.86,
+    'open': 8.88,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 3200.0,
+    'vwap': 8.867656}}
+2025-07-21 11:03:08 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 11:03:08 INFO: Current average volume is: 744.11
+2025-07-21 11:03:08 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 11:04:08 INFO: {'AMPX': {   'close': 8.87,
+    'high': 8.87,
+    'low': 8.87,
+    'open': 8.87,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 8.87}}
+2025-07-21 11:04:08 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 11:04:08 INFO: Current average volume is: 724.68
+2025-07-21 11:04:08 INFO: Updated resistance to: 8.935 and support to: 8.73
+2025-07-21 11:05:08 INFO: {'AMPX': {   'close': 8.96,
+    'high': 8.98,
+    'low': 8.89,
+    'open': 8.89,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 3624.0,
+    'vwap': 8.938936}}
+2025-07-21 11:05:08 INFO: Current resistance is: 8.935 and support is: 8.73
+2025-07-21 11:05:08 INFO: Current average volume is: 824.66
+2025-07-21 11:05:08 INFO: The Current Close 8.96 is above the resistance...
+2025-07-21 11:05:08 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:06:08 INFO: {'AMPX': {   'close': 8.905,
+    'high': 8.94,
+    'low': 8.905,
+    'open': 8.94,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1106.0,
+    'vwap': 8.926364}}
+2025-07-21 11:06:08 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:06:08 INFO: Current average volume is: 834.03
+2025-07-21 11:06:08 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:07:08 INFO: {'AMPX': {   'close': 8.925,
+    'high': 8.935,
+    'low': 8.9,
+    'open': 8.9,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 3307.0,
+    'vwap': 8.930253}}
+2025-07-21 11:07:08 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:07:08 INFO: Current average volume is: 913.81
+2025-07-21 11:07:08 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:08:08 INFO: {'AMPX': {   'close': 8.92,
+    'high': 8.95,
+    'low': 8.92,
+    'open': 8.95,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 610.0,
+    'vwap': 8.928636}}
+2025-07-21 11:08:08 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:08:08 INFO: Current average volume is: 904.31
+2025-07-21 11:08:08 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:09:09 INFO: {'AMPX': {   'close': 8.9,
+    'high': 8.9,
+    'low': 8.89,
+    'open': 8.89,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1556.0,
+    'vwap': 8.896667}}
+2025-07-21 11:09:09 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:09:09 INFO: Current average volume is: 924.06
+2025-07-21 11:09:09 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:15:09 INFO: {'AMPX': {   'close': 8.905,
+    'high': 8.905,
+    'low': 8.895,
+    'open': 8.895,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2501.0,
+    'vwap': 8.9}}
+2025-07-21 11:15:09 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:15:09 INFO: Current average volume is: 970.44
+2025-07-21 11:15:09 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:17:10 INFO: {'AMPX': {   'close': 8.925,
+    'high': 8.93,
+    'low': 8.91,
+    'open': 8.91,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1443.0,
+    'vwap': 8.918214}}
+2025-07-21 11:17:10 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:17:10 INFO: Current average volume is: 983.94
+2025-07-21 11:17:10 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:18:10 INFO: {'AMPX': {   'close': 8.905,
+    'high': 8.945,
+    'low': 8.9,
+    'open': 8.945,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2715.0,
+    'vwap': 8.912643}}
+2025-07-21 11:18:10 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:18:10 INFO: Current average volume is: 1032.03
+2025-07-21 11:18:10 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:20:10 INFO: {'AMPX': {   'close': 8.935,
+    'high': 8.935,
+    'low': 8.935,
+    'open': 8.935,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 8.935}}
+2025-07-21 11:20:10 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:20:10 INFO: Current average volume is: 1006.84
+2025-07-21 11:20:10 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:21:10 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.95,
+    'low': 8.94,
+    'open': 8.95,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 341.0,
+    'vwap': 8.943333}}
+2025-07-21 11:21:10 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:21:10 INFO: Current average volume is: 989.32
+2025-07-21 11:21:10 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:22:10 INFO: {'AMPX': {   'close': 8.97,
+    'high': 8.97,
+    'low': 8.95,
+    'open': 8.95,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2120.0,
+    'vwap': 8.96641}}
+2025-07-21 11:22:10 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:22:10 INFO: Current average volume is: 1018.31
+2025-07-21 11:22:10 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:24:10 INFO: {'AMPX': {   'close': 8.935,
+    'high': 8.95,
+    'low': 8.93,
+    'open': 8.95,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 900.0,
+    'vwap': 8.937222}}
+2025-07-21 11:24:10 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:24:10 INFO: Current average volume is: 1015.35
+2025-07-21 11:24:10 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:25:11 INFO: {'AMPX': {   'close': 8.91,
+    'high': 8.91,
+    'low': 8.89,
+    'open': 8.895,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1710.0,
+    'vwap': 8.897647}}
+2025-07-21 11:25:11 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:25:11 INFO: Current average volume is: 1032.29
+2025-07-21 11:25:11 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:27:11 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.94,
+    'low': 8.915,
+    'open': 8.92,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 507.0,
+    'vwap': 8.92875}}
+2025-07-21 11:27:11 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:27:11 INFO: Current average volume is: 1019.79
+2025-07-21 11:27:11 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:28:11 INFO: {'AMPX': {   'close': 8.95,
+    'high': 8.95,
+    'low': 8.95,
+    'open': 8.95,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 687.0,
+    'vwap': 8.95}}
+2025-07-21 11:28:11 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:28:11 INFO: Current average volume is: 1012.05
+2025-07-21 11:28:11 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:29:11 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.94,
+    'low': 8.94,
+    'open': 8.94,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 242.0,
+    'vwap': 8.94}}
+2025-07-21 11:29:11 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:29:11 INFO: Current average volume is: 994.55
+2025-07-21 11:29:11 INFO: Updated resistance to: 8.98 and support to: 8.73
+2025-07-21 11:33:12 INFO: {'AMPX': {   'close': 8.96,
+    'high': 8.99,
+    'low': 8.96,
+    'open': 8.96,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1424.0,
+    'vwap': 8.963592}}
+2025-07-21 11:33:12 INFO: Current resistance is: 8.98 and support is: 8.73
+2025-07-21 11:33:12 INFO: Current average volume is: 1004.09
+2025-07-21 11:33:12 INFO: Updated resistance to: 8.99 and support to: 8.73
+2025-07-21 11:35:12 INFO: {'AMPX': {   'close': 9.005,
+    'high': 9.01,
+    'low': 8.99,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1852.0,
+    'vwap': 8.998235}}
+2025-07-21 11:35:12 INFO: Current resistance is: 8.99 and support is: 8.73
+2025-07-21 11:35:12 INFO: Current average volume is: 1022.52
+2025-07-21 11:35:12 INFO: The Current Close 9.005 is above the resistance...
+2025-07-21 11:35:12 INFO: Updated resistance to: 9.01 and support to: 8.73
+2025-07-21 11:36:12 INFO: {'AMPX': {   'close': 9.08,
+    'high': 9.085,
+    'low': 9.015,
+    'open': 9.015,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 3498.0,
+    'vwap': 9.056563}}
+2025-07-21 11:36:12 INFO: Current resistance is: 9.01 and support is: 8.73
+2025-07-21 11:36:12 INFO: Current average volume is: 1075.19
+2025-07-21 11:36:12 INFO: The current close: 9.08 is above the resistance of 9.01. Placing Order...
+2025-07-21 11:36:12 INFO: The current volume: 3498.0 is higher than the average volume: 1075.19 by required factor
+2025-07-21 11:36:12 INFO: ORDER INFO:
+2025-07-21 11:36:12 INFO: id=UUID('314347e8-354c-4512-a185-9251423a37a3') client_order_id='36716e0a-2e1f-4da5-852b-69773eadde4d' created_at=datetime.datetime(2025, 7, 21, 15, 36, 13, 214317, tzinfo=TzInfo(UTC)) updated_at=datetime.datetime(2025, 7, 21, 15, 36, 13, 214828, tzinfo=TzInfo(UTC)) submitted_at=datetime.datetime(2025, 7, 21, 15, 36, 13, 214317, tzinfo=TzInfo(UTC)) filled_at=None expired_at=None expires_at=datetime.datetime(2025, 7, 21, 20, 0, tzinfo=TzInfo(UTC)) canceled_at=None failed_at=None replaced_at=None replaced_by=None replaces=None asset_id=UUID('76189e24-7e6f-4483-a6c9-d8fa278340c5') symbol='AMPX' asset_class=<AssetClass.US_EQUITY: 'us_equity'> notional=None qty='14642' filled_qty='0' filled_avg_price=None order_class=<OrderClass.SIMPLE: 'simple'> order_type=<OrderType.LIMIT: 'limit'> type=<OrderType.LIMIT: 'limit'> side=<OrderSide.BUY: 'buy'> time_in_force=<TimeInForce.DAY: 'day'> limit_price='9.08' stop_price=None status=<OrderStatus.PENDING_NEW: 'pending_new'> extended_hours=False legs=None trail_percent=None trail_price=None hwm=None position_intent=<PositionIntent.BUY_TO_OPEN: 'buy_to_open'> ratio_qty=None
+2025-07-21 11:36:13 INFO: Starting the monitoring of AMPX, the current take profit is: 9.19, the current stop loss is: 8.87
+2025-07-21 11:37:13 INFO: {'AMPX': {   'close': 9.005,
+    'high': 9.065,
+    'low': 9.005,
+    'open': 9.065,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1417.0,
+    'vwap': 9.023266}}
+2025-07-21 11:37:13 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:37:33 INFO: {'AMPX': {   'close': 9.005,
+    'high': 9.065,
+    'low': 9.005,
+    'open': 9.065,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1417.0,
+    'vwap': 9.023266}}
+2025-07-21 11:37:33 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:37:53 INFO: {'AMPX': {   'close': 9.005,
+    'high': 9.065,
+    'low': 9.005,
+    'open': 9.065,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1417.0,
+    'vwap': 9.023266}}
+2025-07-21 11:37:53 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:38:14 INFO: {'AMPX': {   'close': 8.995,
+    'high': 9.01,
+    'low': 8.995,
+    'open': 9.01,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1000.0,
+    'vwap': 9.0015}}
+2025-07-21 11:38:14 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:38:34 INFO: {'AMPX': {   'close': 8.995,
+    'high': 9.01,
+    'low': 8.995,
+    'open': 9.01,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1000.0,
+    'vwap': 9.0015}}
+2025-07-21 11:38:34 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:38:54 INFO: {'AMPX': {   'close': 8.995,
+    'high': 9.01,
+    'low': 8.995,
+    'open': 9.01,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1000.0,
+    'vwap': 9.0015}}
+2025-07-21 11:38:54 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:39:14 INFO: {'AMPX': {   'close': 8.99,
+    'high': 8.99,
+    'low': 8.99,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 883.0,
+    'vwap': 8.99}}
+2025-07-21 11:39:14 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:39:34 INFO: {'AMPX': {   'close': 8.99,
+    'high': 8.99,
+    'low': 8.99,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 883.0,
+    'vwap': 8.99}}
+2025-07-21 11:39:34 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:39:54 INFO: {'AMPX': {   'close': 8.99,
+    'high': 8.99,
+    'low': 8.99,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 883.0,
+    'vwap': 8.99}}
+2025-07-21 11:39:54 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:40:14 INFO: {'AMPX': {   'close': 9.0,
+    'high': 9.0,
+    'low': 8.995,
+    'open': 8.995,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 212.0,
+    'vwap': 8.9975}}
+2025-07-21 11:40:14 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:40:34 INFO: {'AMPX': {   'close': 9.0,
+    'high': 9.0,
+    'low': 8.995,
+    'open': 8.995,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 212.0,
+    'vwap': 8.9975}}
+2025-07-21 11:40:34 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:40:55 INFO: {'AMPX': {   'close': 9.0,
+    'high': 9.0,
+    'low': 8.995,
+    'open': 8.995,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 212.0,
+    'vwap': 8.9975}}
+2025-07-21 11:40:55 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:41:15 INFO: {'AMPX': {   'close': 9.0,
+    'high': 9.0,
+    'low': 8.995,
+    'open': 8.995,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1026.0,
+    'vwap': 8.998125}}
+2025-07-21 11:41:15 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:41:35 INFO: {'AMPX': {   'close': 9.0,
+    'high': 9.0,
+    'low': 8.995,
+    'open': 8.995,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1026.0,
+    'vwap': 8.998125}}
+2025-07-21 11:41:35 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:41:55 INFO: {'AMPX': {   'close': 9.0,
+    'high': 9.0,
+    'low': 8.995,
+    'open': 8.995,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1026.0,
+    'vwap': 8.998125}}
+2025-07-21 11:41:55 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:42:15 INFO: {'AMPX': {   'close': 8.99,
+    'high': 9.0,
+    'low': 8.99,
+    'open': 9.0,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1111.0,
+    'vwap': 8.994773}}
+2025-07-21 11:42:15 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:42:35 INFO: {'AMPX': {   'close': 8.99,
+    'high': 9.0,
+    'low': 8.99,
+    'open': 9.0,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1111.0,
+    'vwap': 8.994773}}
+2025-07-21 11:42:35 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:42:55 INFO: {'AMPX': {   'close': 8.99,
+    'high': 9.0,
+    'low': 8.99,
+    'open': 9.0,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1111.0,
+    'vwap': 8.994773}}
+2025-07-21 11:42:55 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:43:15 INFO: {'AMPX': {   'close': 8.985,
+    'high': 8.985,
+    'low': 8.98,
+    'open': 8.985,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1182.0,
+    'vwap': 8.982245}}
+2025-07-21 11:43:15 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:43:36 INFO: {'AMPX': {   'close': 8.985,
+    'high': 8.985,
+    'low': 8.98,
+    'open': 8.985,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1182.0,
+    'vwap': 8.982245}}
+2025-07-21 11:43:36 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:43:56 INFO: {'AMPX': {   'close': 8.985,
+    'high': 8.985,
+    'low': 8.98,
+    'open': 8.985,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1182.0,
+    'vwap': 8.982245}}
+2025-07-21 11:43:56 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:44:16 INFO: {'AMPX': {   'close': 8.985,
+    'high': 8.99,
+    'low': 8.975,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1004.0,
+    'vwap': 8.984444}}
+2025-07-21 11:44:16 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:44:36 INFO: {'AMPX': {   'close': 8.985,
+    'high': 8.99,
+    'low': 8.975,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1004.0,
+    'vwap': 8.984444}}
+2025-07-21 11:44:36 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:44:56 INFO: {'AMPX': {   'close': 8.985,
+    'high': 8.99,
+    'low': 8.975,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1004.0,
+    'vwap': 8.984444}}
+2025-07-21 11:44:56 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:45:16 INFO: {'AMPX': {   'close': 8.97,
+    'high': 8.975,
+    'low': 8.965,
+    'open': 8.975,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1173.0,
+    'vwap': 8.969711}}
+2025-07-21 11:45:16 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:45:36 INFO: {'AMPX': {   'close': 8.97,
+    'high': 8.975,
+    'low': 8.965,
+    'open': 8.975,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1173.0,
+    'vwap': 8.969711}}
+2025-07-21 11:45:36 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:45:56 INFO: {'AMPX': {   'close': 8.97,
+    'high': 8.975,
+    'low': 8.965,
+    'open': 8.975,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1173.0,
+    'vwap': 8.969711}}
+2025-07-21 11:45:56 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:46:17 INFO: {'AMPX': {   'close': 8.975,
+    'high': 8.975,
+    'low': 8.975,
+    'open': 8.975,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 8.975}}
+2025-07-21 11:46:17 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:46:37 INFO: {'AMPX': {   'close': 8.975,
+    'high': 8.975,
+    'low': 8.975,
+    'open': 8.975,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 8.975}}
+2025-07-21 11:46:37 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:46:57 INFO: {'AMPX': {   'close': 8.975,
+    'high': 8.975,
+    'low': 8.975,
+    'open': 8.975,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 8.975}}
+2025-07-21 11:46:57 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:47:17 INFO: {'AMPX': {   'close': 8.985,
+    'high': 8.985,
+    'low': 8.96,
+    'open': 8.96,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 401.0,
+    'vwap': 8.973432}}
+2025-07-21 11:47:17 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:47:37 INFO: {'AMPX': {   'close': 8.985,
+    'high': 8.985,
+    'low': 8.96,
+    'open': 8.96,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 401.0,
+    'vwap': 8.973432}}
+2025-07-21 11:47:37 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:47:57 INFO: {'AMPX': {   'close': 8.985,
+    'high': 8.985,
+    'low': 8.96,
+    'open': 8.96,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 401.0,
+    'vwap': 8.973432}}
+2025-07-21 11:47:57 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:48:17 INFO: {'AMPX': {   'close': 8.97,
+    'high': 8.99,
+    'low': 8.97,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 818.0,
+    'vwap': 8.975}}
+2025-07-21 11:48:17 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:48:38 INFO: {'AMPX': {   'close': 8.97,
+    'high': 8.99,
+    'low': 8.97,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 818.0,
+    'vwap': 8.975}}
+2025-07-21 11:48:38 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:48:58 INFO: {'AMPX': {   'close': 8.97,
+    'high': 8.99,
+    'low': 8.97,
+    'open': 8.99,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 818.0,
+    'vwap': 8.975}}
+2025-07-21 11:48:58 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:49:18 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.94,
+    'low': 8.94,
+    'open': 8.94,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 8.94}}
+2025-07-21 11:49:18 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:49:38 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.94,
+    'low': 8.94,
+    'open': 8.94,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 8.94}}
+2025-07-21 11:49:38 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:49:58 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.94,
+    'low': 8.94,
+    'open': 8.94,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 8.94}}
+2025-07-21 11:49:58 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:50:18 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.94,
+    'low': 8.94,
+    'open': 8.94,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 8.94}}
+2025-07-21 11:50:18 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:50:38 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.94,
+    'low': 8.94,
+    'open': 8.94,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 8.94}}
+2025-07-21 11:50:38 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:50:58 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.94,
+    'low': 8.94,
+    'open': 8.94,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 8.94}}
+2025-07-21 11:50:58 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:51:18 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.95,
+    'low': 8.925,
+    'open': 8.93,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1044.0,
+    'vwap': 8.935526}}
+2025-07-21 11:51:18 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:51:39 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.95,
+    'low': 8.925,
+    'open': 8.93,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1044.0,
+    'vwap': 8.935526}}
+2025-07-21 11:51:39 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:51:59 INFO: {'AMPX': {   'close': 8.94,
+    'high': 8.95,
+    'low': 8.925,
+    'open': 8.93,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1044.0,
+    'vwap': 8.935526}}
+2025-07-21 11:51:59 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:52:19 INFO: {'AMPX': {   'close': 8.93,
+    'high': 8.935,
+    'low': 8.925,
+    'open': 8.935,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1746.0,
+    'vwap': 8.930218}}
+2025-07-21 11:52:19 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:52:39 INFO: {'AMPX': {   'close': 8.93,
+    'high': 8.935,
+    'low': 8.925,
+    'open': 8.935,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1746.0,
+    'vwap': 8.930218}}
+2025-07-21 11:52:39 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:52:59 INFO: {'AMPX': {   'close': 8.93,
+    'high': 8.935,
+    'low': 8.925,
+    'open': 8.935,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1746.0,
+    'vwap': 8.930218}}
+2025-07-21 11:52:59 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:53:19 INFO: {'AMPX': {   'close': 8.93,
+    'high': 8.93,
+    'low': 8.93,
+    'open': 8.93,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 391.0,
+    'vwap': 8.93}}
+2025-07-21 11:53:19 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:53:40 INFO: {'AMPX': {   'close': 8.93,
+    'high': 8.93,
+    'low': 8.93,
+    'open': 8.93,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 391.0,
+    'vwap': 8.93}}
+2025-07-21 11:53:40 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:54:00 INFO: {'AMPX': {   'close': 8.86,
+    'high': 8.885,
+    'low': 8.86,
+    'open': 8.885,
+    'symbol': 'AMPX',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 722.0,
+    'vwap': 8.867143}}
+2025-07-21 11:54:00 INFO: For AMPX, the current stop loss is: 8.87, and the current take profit is: 9.19
+2025-07-21 11:54:00 INFO: Selling all of position with AMPX...
+2025-07-21 11:54:00 INFO: The number of shares of AMPX to liquidate is: 14642...
+2025-07-21 11:54:01 INFO: ====ClOSING TRADE====

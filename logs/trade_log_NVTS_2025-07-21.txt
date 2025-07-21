@@ -1,0 +1,644 @@
+2025-07-21 10:15:02 INFO: === Strategy started ===
+2025-07-21 10:15:02 INFO: Start collecting the current highs/lows for: NVTS
+2025-07-21 10:15:02 INFO: Most recent stock data: {'NVTS': {   'close': 8.655,
+    'high': 8.67,
+    'low': 8.655,
+    'open': 8.67,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 645.0,
+    'vwap': 8.658142}}
+2025-07-21 10:16:02 INFO: Most recent stock data: {'NVTS': {   'close': 8.69,
+    'high': 8.71,
+    'low': 8.68,
+    'open': 8.68,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1296.0,
+    'vwap': 8.691818}}
+2025-07-21 10:17:02 INFO: Most recent stock data: {'NVTS': {   'close': 8.75,
+    'high': 8.755,
+    'low': 8.735,
+    'open': 8.74,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1958.0,
+    'vwap': 8.747159}}
+2025-07-21 10:18:02 INFO: Most recent stock data: {'NVTS': {   'close': 8.8,
+    'high': 8.82,
+    'low': 8.76,
+    'open': 8.76,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 12261.0,
+    'vwap': 8.771074}}
+2025-07-21 10:19:03 INFO: Most recent stock data: {'NVTS': {   'close': 8.805,
+    'high': 8.81,
+    'low': 8.78,
+    'open': 8.81,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 7200.0,
+    'vwap': 8.803264}}
+2025-07-21 10:20:03 INFO: Most recent stock data: {'NVTS': {   'close': 8.82,
+    'high': 8.83,
+    'low': 8.76,
+    'open': 8.83,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 5093.0,
+    'vwap': 8.806008}}
+2025-07-21 10:21:03 INFO: Most recent stock data: {'NVTS': {   'close': 8.94,
+    'high': 8.94,
+    'low': 8.855,
+    'open': 8.855,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 3820.0,
+    'vwap': 8.885027}}
+2025-07-21 10:22:03 INFO: Most recent stock data: {'NVTS': {   'close': 9.055,
+    'high': 9.075,
+    'low': 8.945,
+    'open': 8.945,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 10210.0,
+    'vwap': 9.033917}}
+2025-07-21 10:23:03 INFO: Most recent stock data: {'NVTS': {   'close': 9.07,
+    'high': 9.08,
+    'low': 9.02,
+    'open': 9.075,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 3272.0,
+    'vwap': 9.053731}}
+2025-07-21 10:24:03 INFO: Most recent stock data: {'NVTS': {   'close': 9.025,
+    'high': 9.06,
+    'low': 8.995,
+    'open': 9.06,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 6984.0,
+    'vwap': 9.022293}}
+2025-07-21 10:25:03 INFO: Most recent stock data: {'NVTS': {   'close': 9.12,
+    'high': 9.14,
+    'low': 9.025,
+    'open': 9.035,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 8235.0,
+    'vwap': 9.064623}}
+2025-07-21 10:25:03 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 10:25:03 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-21 10:26:04 INFO: {'NVTS': {   'close': 9.06,
+    'high': 9.13,
+    'low': 9.04,
+    'open': 9.11,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 11291.0,
+    'vwap': 9.087596}}
+2025-07-21 10:26:04 INFO: Current resistance is: 9.189 and support is: 9.096
+2025-07-21 10:26:04 INFO: Current average volume is: 5968.33
+2025-07-21 10:26:04 INFO: close price: 9.06 just dropped below support of 9.096...
+2025-07-21 10:27:04 INFO: {'NVTS': {   'close': 9.15,
+    'high': 9.17,
+    'low': 9.11,
+    'open': 9.11,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 61.0,
+    'volume': 17913.0,
+    'vwap': 9.145005}}
+2025-07-21 10:27:04 INFO: Current resistance is: 9.189 and support is: 9.096
+2025-07-21 10:27:04 INFO: Current average volume is: 6887.15
+2025-07-21 10:27:04 INFO: Updated resistance to: 9.215 and support to: 9.159
+2025-07-21 10:28:04 INFO: {'NVTS': {   'close': 9.085,
+    'high': 9.165,
+    'low': 9.065,
+    'open': 9.165,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 15351.0,
+    'vwap': 9.125663}}
+2025-07-21 10:28:04 INFO: Current resistance is: 9.215 and support is: 9.159
+2025-07-21 10:28:04 INFO: Current average volume is: 7491.71
+2025-07-21 10:28:04 INFO: close price: 9.085 just dropped below support of 9.159...
+2025-07-21 10:29:04 INFO: {'NVTS': {   'close': 9.16,
+    'high': 9.16,
+    'low': 9.09,
+    'open': 9.11,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 6960.0,
+    'vwap': 9.130464}}
+2025-07-21 10:29:04 INFO: Current resistance is: 9.215 and support is: 9.159
+2025-07-21 10:29:04 INFO: Current average volume is: 7456.27
+2025-07-21 10:29:04 INFO: Updated resistance to: 9.289 and support to: 9.176
+2025-07-21 10:30:04 INFO: {'NVTS': {   'close': 9.21,
+    'high': 9.25,
+    'low': 9.18,
+    'open': 9.19,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 6589.0,
+    'vwap': 9.209039}}
+2025-07-21 10:30:04 INFO: Current resistance is: 9.289 and support is: 9.176
+2025-07-21 10:30:04 INFO: Current average volume is: 7402.06
+2025-07-21 10:30:04 INFO: Updated resistance to: 9.289 and support to: 9.211
+2025-07-21 10:31:04 INFO: {'NVTS': {   'close': 9.18,
+    'high': 9.195,
+    'low': 9.16,
+    'open': 9.195,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1605.0,
+    'vwap': 9.177333}}
+2025-07-21 10:31:04 INFO: Current resistance is: 9.289 and support is: 9.211
+2025-07-21 10:31:04 INFO: Current average volume is: 7061.06
+2025-07-21 10:31:04 INFO: close price: 9.18 just dropped below support of 9.211...
+2025-07-21 10:32:04 INFO: {'NVTS': {   'close': 9.2,
+    'high': 9.255,
+    'low': 9.195,
+    'open': 9.22,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3815.0,
+    'vwap': 9.2268}}
+2025-07-21 10:32:04 INFO: Current resistance is: 9.289 and support is: 9.211
+2025-07-21 10:32:04 INFO: Current average volume is: 6880.72
+2025-07-21 10:32:04 INFO: Closing price: 9.2 just dropped below support 9.211 again...ending trade...
+2025-07-21 11:15:03 INFO: === Strategy started ===
+2025-07-21 11:15:03 INFO: Start collecting the current highs/lows for: NVTS
+2025-07-21 11:15:04 INFO: Most recent stock data: {'NVTS': {   'close': 9.03,
+    'high': 9.03,
+    'low': 9.03,
+    'open': 9.03,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 9.03}}
+2025-07-21 11:16:04 INFO: Most recent stock data: {'NVTS': {   'close': 9.11,
+    'high': 9.11,
+    'low': 9.055,
+    'open': 9.055,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2840.0,
+    'vwap': 9.069468}}
+2025-07-21 11:18:04 INFO: Most recent stock data: {'NVTS': {   'close': 8.985,
+    'high': 9.03,
+    'low': 8.985,
+    'open': 9.03,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2132.0,
+    'vwap': 9.020396}}
+2025-07-21 11:19:04 INFO: Most recent stock data: {'NVTS': {   'close': 8.98,
+    'high': 8.99,
+    'low': 8.98,
+    'open': 8.99,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 411.0,
+    'vwap': 8.983464}}
+2025-07-21 11:21:04 INFO: Most recent stock data: {'NVTS': {   'close': 8.96,
+    'high': 8.97,
+    'low': 8.945,
+    'open': 8.945,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1315.0,
+    'vwap': 8.954615}}
+2025-07-21 11:22:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.98,
+    'high': 8.98,
+    'low': 8.955,
+    'open': 8.955,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1003.0,
+    'vwap': 8.9625}}
+2025-07-21 11:23:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.99,
+    'high': 8.99,
+    'low': 8.975,
+    'open': 8.975,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1903.0,
+    'vwap': 8.982406}}
+2025-07-21 11:24:05 INFO: Most recent stock data: {'NVTS': {   'close': 9.02,
+    'high': 9.02,
+    'low': 8.95,
+    'open': 8.985,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2406.0,
+    'vwap': 8.988092}}
+2025-07-21 11:25:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.995,
+    'high': 9.015,
+    'low': 8.995,
+    'open': 9.015,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1599.0,
+    'vwap': 9.000357}}
+2025-07-21 11:26:05 INFO: Most recent stock data: {'NVTS': {   'close': 9.05,
+    'high': 9.05,
+    'low': 9.01,
+    'open': 9.01,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 895.0,
+    'vwap': 9.019375}}
+2025-07-21 11:27:05 INFO: Most recent stock data: {'NVTS': {   'close': 9.1,
+    'high': 9.12,
+    'low': 9.1,
+    'open': 9.12,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 758.0,
+    'vwap': 9.102857}}
+2025-07-21 11:27:05 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 11:27:05 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-21 11:28:05 INFO: {'NVTS': {   'close': 9.09,
+    'high': 9.09,
+    'low': 9.09,
+    'open': 9.09,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2550.0,
+    'vwap': 9.09}}
+2025-07-21 11:28:05 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:28:05 INFO: Current average volume is: 1484.33
+2025-07-21 11:28:05 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:30:06 INFO: {'NVTS': {   'close': 9.07,
+    'high': 9.07,
+    'low': 9.07,
+    'open': 9.07,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 402.0,
+    'vwap': 9.07}}
+2025-07-21 11:30:06 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:30:06 INFO: Current average volume is: 1401.08
+2025-07-21 11:30:06 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:31:06 INFO: {'NVTS': {   'close': 9.0,
+    'high': 9.05,
+    'low': 9.0,
+    'open': 9.05,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1065.0,
+    'vwap': 9.028665}}
+2025-07-21 11:31:06 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:31:06 INFO: Current average volume is: 1377.07
+2025-07-21 11:31:06 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:32:06 INFO: {'NVTS': {   'close': 8.98,
+    'high': 9.01,
+    'low': 8.98,
+    'open': 9.01,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 351.0,
+    'vwap': 9.0}}
+2025-07-21 11:32:06 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:32:06 INFO: Current average volume is: 1308.67
+2025-07-21 11:32:06 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:33:06 INFO: {'NVTS': {   'close': 9.01,
+    'high': 9.015,
+    'low': 8.95,
+    'open': 8.97,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1931.0,
+    'vwap': 8.96446}}
+2025-07-21 11:33:06 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:33:06 INFO: Current average volume is: 1347.56
+2025-07-21 11:33:06 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:34:06 INFO: {'NVTS': {   'close': 8.97,
+    'high': 8.97,
+    'low': 8.96,
+    'open': 8.96,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 594.0,
+    'vwap': 8.961701}}
+2025-07-21 11:34:06 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:34:06 INFO: Current average volume is: 1303.24
+2025-07-21 11:34:06 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:35:06 INFO: {'NVTS': {   'close': 8.955,
+    'high': 8.96,
+    'low': 8.95,
+    'open': 8.95,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1296.0,
+    'vwap': 8.953645}}
+2025-07-21 11:35:06 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:35:06 INFO: Current average volume is: 1302.83
+2025-07-21 11:35:06 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:36:06 INFO: {'NVTS': {   'close': 9.01,
+    'high': 9.01,
+    'low': 9.01,
+    'open': 9.01,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 106.0,
+    'vwap': 9.01}}
+2025-07-21 11:36:06 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:36:06 INFO: Current average volume is: 1239.84
+2025-07-21 11:36:06 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:37:07 INFO: {'NVTS': {   'close': 9.0,
+    'high': 9.03,
+    'low': 9.0,
+    'open': 9.015,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 3106.0,
+    'vwap': 9.016496}}
+2025-07-21 11:37:07 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:37:07 INFO: Current average volume is: 1333.15
+2025-07-21 11:37:07 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:38:07 INFO: {'NVTS': {   'close': 8.99,
+    'high': 8.99,
+    'low': 8.95,
+    'open': 8.96,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1883.0,
+    'vwap': 8.959568}}
+2025-07-21 11:38:07 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:38:07 INFO: Current average volume is: 1359.33
+2025-07-21 11:38:07 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:40:07 INFO: {'NVTS': {   'close': 8.99,
+    'high': 9.02,
+    'low': 8.975,
+    'open': 8.99,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2845.0,
+    'vwap': 8.988239}}
+2025-07-21 11:40:07 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:40:07 INFO: Current average volume is: 1426.86
+2025-07-21 11:40:07 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:41:07 INFO: {'NVTS': {   'close': 8.97,
+    'high': 8.98,
+    'low': 8.97,
+    'open': 8.975,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1715.0,
+    'vwap': 8.972553}}
+2025-07-21 11:41:07 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:41:07 INFO: Current average volume is: 1439.39
+2025-07-21 11:41:07 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:43:07 INFO: {'NVTS': {   'close': 8.955,
+    'high': 8.985,
+    'low': 8.945,
+    'open': 8.98,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3065.0,
+    'vwap': 8.959458}}
+2025-07-21 11:43:07 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:43:07 INFO: Current average volume is: 1507.12
+2025-07-21 11:43:07 INFO: Updated resistance to: 9.12 and support to: 8.945
+2025-07-21 11:44:07 INFO: {'NVTS': {   'close': 8.955,
+    'high': 8.96,
+    'low': 8.92,
+    'open': 8.96,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1767.0,
+    'vwap': 8.94474}}
+2025-07-21 11:44:07 INFO: Current resistance is: 9.12 and support is: 8.945
+2025-07-21 11:44:07 INFO: Current average volume is: 1517.52
+2025-07-21 11:44:07 INFO: Updated resistance to: 9.12 and support to: 8.92
+2025-07-21 11:45:08 INFO: {'NVTS': {   'close': 8.92,
+    'high': 8.955,
+    'low': 8.895,
+    'open': 8.955,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 5225.0,
+    'vwap': 8.931746}}
+2025-07-21 11:45:08 INFO: Current resistance is: 9.12 and support is: 8.92
+2025-07-21 11:45:08 INFO: Current average volume is: 1660.12
+2025-07-21 11:46:08 INFO: {'NVTS': {   'close': 8.93,
+    'high': 8.93,
+    'low': 8.925,
+    'open': 8.925,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 603.0,
+    'vwap': 8.928333}}
+2025-07-21 11:46:08 INFO: Current resistance is: 9.12 and support is: 8.92
+2025-07-21 11:46:08 INFO: Current average volume is: 1620.96
+2025-07-21 11:46:08 INFO: Updated resistance to: 9.12 and support to: 8.92
+2025-07-21 11:47:08 INFO: {'NVTS': {   'close': 8.95,
+    'high': 8.95,
+    'low': 8.92,
+    'open': 8.92,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1037.0,
+    'vwap': 8.941104}}
+2025-07-21 11:47:08 INFO: Current resistance is: 9.12 and support is: 8.92
+2025-07-21 11:47:08 INFO: Current average volume is: 1600.11
+2025-07-21 11:47:08 INFO: Updated resistance to: 9.12 and support to: 8.92
+2025-07-21 11:48:08 INFO: {'NVTS': {   'close': 8.91,
+    'high': 8.935,
+    'low': 8.9,
+    'open': 8.935,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1979.0,
+    'vwap': 8.919063}}
+2025-07-21 11:48:08 INFO: Current resistance is: 9.12 and support is: 8.92
+2025-07-21 11:48:08 INFO: Current average volume is: 1613.17
+2025-07-21 11:48:08 INFO: close price: 8.91 just dropped below support of 8.92...
+2025-07-21 11:50:08 INFO: {'NVTS': {   'close': 8.895,
+    'high': 8.91,
+    'low': 8.89,
+    'open': 8.91,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1447.0,
+    'vwap': 8.893879}}
+2025-07-21 11:50:08 INFO: Current resistance is: 9.12 and support is: 8.92
+2025-07-21 11:50:08 INFO: Current average volume is: 1607.63
+2025-07-21 11:50:08 INFO: Closing price: 8.895 just dropped below support 8.92 again...ending trade...
+2025-07-21 12:00:04 INFO: === Strategy started ===
+2025-07-21 12:00:04 INFO: Start collecting the current highs/lows for: NVTS
+2025-07-21 12:00:04 INFO: Most recent stock data: {'NVTS': {   'close': 8.78,
+    'high': 8.82,
+    'low': 8.75,
+    'open': 8.815,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 6400.0,
+    'vwap': 8.785822}}
+2025-07-21 12:01:04 INFO: Most recent stock data: {'NVTS': {   'close': 8.895,
+    'high': 8.895,
+    'low': 8.8,
+    'open': 8.8,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1419.0,
+    'vwap': 8.866263}}
+2025-07-21 12:02:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.915,
+    'high': 8.915,
+    'low': 8.885,
+    'open': 8.91,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1604.0,
+    'vwap': 8.895625}}
+2025-07-21 12:03:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.935,
+    'high': 8.95,
+    'low': 8.87,
+    'open': 8.905,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 4225.0,
+    'vwap': 8.924796}}
+2025-07-21 12:04:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.96,
+    'high': 8.99,
+    'low': 8.96,
+    'open': 8.96,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2350.0,
+    'vwap': 8.973913}}
+2025-07-21 12:05:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.99,
+    'high': 9.005,
+    'low': 8.99,
+    'open': 9.0,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1600.0,
+    'vwap': 8.997813}}
+2025-07-21 12:06:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.945,
+    'high': 8.945,
+    'low': 8.945,
+    'open': 8.945,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 307.0,
+    'vwap': 8.945}}
+2025-07-21 12:07:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.82,
+    'high': 8.86,
+    'low': 8.82,
+    'open': 8.86,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 8.84}}
+2025-07-21 12:09:05 INFO: Most recent stock data: {'NVTS': {   'close': 8.805,
+    'high': 8.81,
+    'low': 8.78,
+    'open': 8.78,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1510.0,
+    'vwap': 8.793667}}
+2025-07-21 12:10:06 INFO: Most recent stock data: {'NVTS': {   'close': 8.83,
+    'high': 8.845,
+    'low': 8.82,
+    'open': 8.84,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2050.0,
+    'vwap': 8.831111}}
+2025-07-21 12:11:06 INFO: Most recent stock data: {'NVTS': {   'close': 8.875,
+    'high': 8.905,
+    'low': 8.845,
+    'open': 8.845,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2897.0,
+    'vwap': 8.894648}}
+2025-07-21 12:11:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 12:11:06 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-21 12:12:06 INFO: {'NVTS': {   'close': 8.73,
+    'high': 8.85,
+    'low': 8.73,
+    'open': 8.85,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 2922.0,
+    'vwap': 8.761347}}
+2025-07-21 12:12:06 INFO: Current resistance is: 9.005 and support is: 8.75
+2025-07-21 12:12:06 INFO: Current average volume is: 1765.33
+2025-07-21 12:12:06 INFO: close price: 8.73 just dropped below support of 8.75...
+2025-07-21 12:13:06 INFO: {'NVTS': {   'close': 8.72,
+    'high': 8.75,
+    'low': 8.71,
+    'open': 8.75,
+    'symbol': 'NVTS',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1415.0,
+    'vwap': 8.723214}}
+2025-07-21 12:13:06 INFO: Current resistance is: 9.005 and support is: 8.75
+2025-07-21 12:13:06 INFO: Current average volume is: 1738.38
+2025-07-21 12:13:06 INFO: Closing price: 8.72 just dropped below support 8.75 again...ending trade...
