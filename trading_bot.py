@@ -4,6 +4,7 @@ from time_tools import sleep_til_market
 from stock_screener import get_stock_start
 
 import time as tm
+from param_reader import PARAM
 
 
 def main():
@@ -42,7 +43,7 @@ def main():
                     break
 
                 print("Sleeping for 15 minutes until next stock check...")
-                tm.sleep(900)  # PARAM
+                tm.sleep(int(PARAM["stock_check_time"]))
 
 
 if __name__ == "__main__":

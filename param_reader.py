@@ -14,3 +14,6 @@ def param_reader (path: str):
         raise Exception(e)
 
     return param_dict
+
+
+PARAM = param_reader("param.txt")

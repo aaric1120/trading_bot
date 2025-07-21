@@ -329,7 +329,7 @@ class BaseTrade:
                             print("insufficient funds to make purchase...ending trade ")
                             logging.info("insufficient funds to make purchase...ending trade ")
                             logging.info("====ClOSING TRADE====")
-                            break
+                            return
 
                         # do the buy
                         limit_order_data = LimitOrderRequest(
@@ -362,7 +362,7 @@ class BaseTrade:
                         self.monitor_order(stop_loss,take_profit,close)
 
                         logging.info("====ClOSING TRADE====")
-                        break
+                        return
 
                     elif close < self.support and not breakdown:
                         print(f"close price: {close} just dropped below support of {self.support}...")
@@ -374,7 +374,7 @@ class BaseTrade:
                         logging.info(
                             f"Closing price: {close} just dropped below support {self.support} again...ending trade...")
 
-                        break
+                        return
 
                 # Bar updates every Minute for latest data unless initial breakout, then half the time (PARAM)
                 if not breakout:
@@ -386,7 +386,7 @@ class BaseTrade:
                 if dt.datetime.now().time() >= MARKET_CLOSE_TIME:
                     logging.info("The Market is closed...")
                     print("The Market is closed...")
-                    break
+                    return
 
                 print(f"The Timestamp is {dt.datetime.now()}")
 
