@@ -21,7 +21,7 @@ def main():
             # Check close time for market
             if dt.datetime.now().time() >= MARKET_CLOSE_TIME:
                 print("The Market has closed...")
-                return
+                break
             else:
                 # Check if the process has finished
                 for i in range(len(stock_list)):
