@@ -2284,3 +2284,1170 @@
 2025-07-21 12:18:09 INFO: Current resistance is: 19.77 and support is: 19.54
 2025-07-21 12:18:09 INFO: Current average volume is: 905.92
 2025-07-21 12:18:09 INFO: Closing price: 19.37 just dropped below support 19.54 again...ending trade...
+2025-07-21 12:45:04 INFO: === Strategy started ===
+2025-07-21 12:45:04 INFO: Start collecting the current highs/lows for: DJT
+2025-07-21 12:45:04 INFO: Most recent stock data: {'DJT': {   'close': 19.38,
+    'high': 19.38,
+    'low': 19.37,
+    'open': 19.38,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 538.0,
+    'vwap': 19.376}}
+2025-07-21 12:48:05 INFO: Most recent stock data: {'DJT': {   'close': 19.36,
+    'high': 19.36,
+    'low': 19.36,
+    'open': 19.36,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.36}}
+2025-07-21 12:49:05 INFO: Most recent stock data: {'DJT': {   'close': 19.34,
+    'high': 19.35,
+    'low': 19.33,
+    'open': 19.35,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 627.0,
+    'vwap': 19.344262}}
+2025-07-21 12:51:05 INFO: Most recent stock data: {'DJT': {   'close': 19.37,
+    'high': 19.37,
+    'low': 19.36,
+    'open': 19.36,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 642.0,
+    'vwap': 19.362857}}
+2025-07-21 12:53:06 INFO: Most recent stock data: {'DJT': {   'close': 19.38,
+    'high': 19.38,
+    'low': 19.38,
+    'open': 19.38,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 257.0,
+    'vwap': 19.38}}
+2025-07-21 12:54:06 INFO: Most recent stock data: {'DJT': {   'close': 19.4,
+    'high': 19.41,
+    'low': 19.4,
+    'open': 19.41,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 207.0,
+    'vwap': 19.405}}
+2025-07-21 12:57:06 INFO: Most recent stock data: {'DJT': {   'close': 19.48,
+    'high': 19.48,
+    'low': 19.48,
+    'open': 19.48,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 165.0,
+    'vwap': 19.48}}
+2025-07-21 12:59:06 INFO: Most recent stock data: {'DJT': {   'close': 19.45,
+    'high': 19.45,
+    'low': 19.45,
+    'open': 19.45,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 450.0,
+    'vwap': 19.45}}
+2025-07-21 13:00:06 INFO: Most recent stock data: {'DJT': {   'close': 19.44,
+    'high': 19.44,
+    'low': 19.44,
+    'open': 19.44,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 366.0,
+    'vwap': 19.44}}
+2025-07-21 13:02:07 INFO: Most recent stock data: {'DJT': {   'close': 19.45,
+    'high': 19.45,
+    'low': 19.45,
+    'open': 19.45,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.45}}
+2025-07-21 13:03:07 INFO: Most recent stock data: {'DJT': {   'close': 19.46,
+    'high': 19.46,
+    'low': 19.46,
+    'open': 19.46,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 19.46}}
+2025-07-21 13:03:07 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 13:03:07 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-21 13:04:07 INFO: {'DJT': {   'close': 19.515,
+    'high': 19.515,
+    'low': 19.515,
+    'open': 19.515,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 136.0,
+    'vwap': 19.515}}
+2025-07-21 13:04:07 INFO: Current resistance is: 19.48 and support is: 19.33
+2025-07-21 13:04:07 INFO: Current average volume is: 270.83
+2025-07-21 13:04:07 INFO: The Current Close 19.515 is above the resistance...
+2025-07-21 13:04:07 INFO: Updated resistance to: 19.515 and support to: 19.33
+2025-07-21 13:06:08 INFO: {'DJT': {   'close': 19.55,
+    'high': 19.55,
+    'low': 19.55,
+    'open': 19.55,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 117.0,
+    'vwap': 19.55}}
+2025-07-21 13:06:08 INFO: Current resistance is: 19.515 and support is: 19.33
+2025-07-21 13:06:08 INFO: Current average volume is: 259.0
+2025-07-21 13:06:08 INFO: The current close: 19.55 is above the resistance of 19.515, but volume isn't enough...
+2025-07-21 13:06:08 INFO: Updated resistance to: 19.55 and support to: 19.33
+2025-07-21 13:07:08 INFO: {'DJT': {   'close': 19.57,
+    'high': 19.57,
+    'low': 19.57,
+    'open': 19.57,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 19.57}}
+2025-07-21 13:07:08 INFO: Current resistance is: 19.55 and support is: 19.33
+2025-07-21 13:07:08 INFO: Current average volume is: 255.5
+2025-07-21 13:07:08 INFO: The current close: 19.57 is above the resistance of 19.55, but volume isn't enough...
+2025-07-21 13:07:08 INFO: Updated resistance to: 19.57 and support to: 19.33
+2025-07-21 13:08:08 INFO: {'DJT': {   'close': 19.58,
+    'high': 19.58,
+    'low': 19.58,
+    'open': 19.58,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 19.58}}
+2025-07-21 13:08:08 INFO: Current resistance is: 19.57 and support is: 19.33
+2025-07-21 13:08:08 INFO: Current average volume is: 251.8
+2025-07-21 13:08:08 INFO: The current close: 19.58 is above the resistance of 19.57, but volume isn't enough...
+2025-07-21 13:08:08 INFO: Updated resistance to: 19.58 and support to: 19.33
+2025-07-21 13:10:09 INFO: {'DJT': {   'close': 19.595,
+    'high': 19.595,
+    'low': 19.595,
+    'open': 19.595,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 104.0,
+    'vwap': 19.595}}
+2025-07-21 13:10:09 INFO: Current resistance is: 19.58 and support is: 19.33
+2025-07-21 13:10:09 INFO: Current average volume is: 242.56
+2025-07-21 13:10:09 INFO: The current close: 19.595 is above the resistance of 19.58, but volume isn't enough...
+2025-07-21 13:10:09 INFO: Updated resistance to: 19.595 and support to: 19.33
+2025-07-21 13:11:09 INFO: {'DJT': {   'close': 19.56,
+    'high': 19.58,
+    'low': 19.56,
+    'open': 19.58,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 738.0,
+    'vwap': 19.565385}}
+2025-07-21 13:11:09 INFO: Current resistance is: 19.595 and support is: 19.33
+2025-07-21 13:11:09 INFO: Current average volume is: 271.71
+2025-07-21 13:11:09 INFO: Updated resistance to: 19.595 and support to: 19.33
+2025-07-21 13:12:09 INFO: {'DJT': {   'close': 19.555,
+    'high': 19.57,
+    'low': 19.555,
+    'open': 19.57,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 19.561}}
+2025-07-21 13:12:09 INFO: Current resistance is: 19.595 and support is: 19.33
+2025-07-21 13:12:09 INFO: Current average volume is: 284.39
+2025-07-21 13:12:09 INFO: Updated resistance to: 19.595 and support to: 19.33
+2025-07-21 13:13:09 INFO: {'DJT': {   'close': 19.63,
+    'high': 19.63,
+    'low': 19.55,
+    'open': 19.55,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 998.0,
+    'vwap': 19.583333}}
+2025-07-21 13:13:09 INFO: Current resistance is: 19.595 and support is: 19.33
+2025-07-21 13:13:09 INFO: Current average volume is: 321.95
+2025-07-21 13:13:09 INFO: The Current Close 19.63 is above the resistance...
+2025-07-21 13:13:09 INFO: Updated resistance to: 19.63 and support to: 19.33
+2025-07-21 13:14:09 INFO: {'DJT': {   'close': 19.615,
+    'high': 19.66,
+    'low': 19.61,
+    'open': 19.66,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 640.0,
+    'vwap': 19.625726}}
+2025-07-21 13:14:09 INFO: Current resistance is: 19.63 and support is: 19.33
+2025-07-21 13:14:09 INFO: Current average volume is: 337.85
+2025-07-21 13:14:09 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:15:09 INFO: {'DJT': {   'close': 19.59,
+    'high': 19.615,
+    'low': 19.59,
+    'open': 19.615,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 569.0,
+    'vwap': 19.59875}}
+2025-07-21 13:15:09 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:15:09 INFO: Current average volume is: 348.86
+2025-07-21 13:15:09 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:16:10 INFO: {'DJT': {   'close': 19.58,
+    'high': 19.58,
+    'low': 19.58,
+    'open': 19.58,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.58}}
+2025-07-21 13:16:10 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:16:10 INFO: Current average volume is: 337.55
+2025-07-21 13:16:10 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:18:10 INFO: {'DJT': {   'close': 19.55,
+    'high': 19.55,
+    'low': 19.55,
+    'open': 19.55,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 19.55}}
+2025-07-21 13:18:10 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:18:10 INFO: Current average volume is: 331.57
+2025-07-21 13:18:10 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:21:10 INFO: {'DJT': {   'close': 19.575,
+    'high': 19.575,
+    'low': 19.575,
+    'open': 19.575,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 220.0,
+    'vwap': 19.575}}
+2025-07-21 13:21:10 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:21:10 INFO: Current average volume is: 326.92
+2025-07-21 13:21:10 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:22:10 INFO: {'DJT': {   'close': 19.54,
+    'high': 19.54,
+    'low': 19.54,
+    'open': 19.54,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.54}}
+2025-07-21 13:22:10 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:22:10 INFO: Current average volume is: 317.84
+2025-07-21 13:22:10 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:24:11 INFO: {'DJT': {   'close': 19.52,
+    'high': 19.52,
+    'low': 19.51,
+    'open': 19.51,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 890.0,
+    'vwap': 19.511836}}
+2025-07-21 13:24:11 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:24:11 INFO: Current average volume is: 339.85
+2025-07-21 13:24:11 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:30:11 INFO: {'DJT': {   'close': 19.49,
+    'high': 19.49,
+    'low': 19.49,
+    'open': 19.49,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 155.0,
+    'vwap': 19.49}}
+2025-07-21 13:30:11 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:30:11 INFO: Current average volume is: 333.0
+2025-07-21 13:30:11 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:31:12 INFO: {'DJT': {   'close': 19.46,
+    'high': 19.47,
+    'low': 19.46,
+    'open': 19.47,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 524.0,
+    'vwap': 19.464118}}
+2025-07-21 13:31:12 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:31:12 INFO: Current average volume is: 339.82
+2025-07-21 13:31:12 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:33:12 INFO: {'DJT': {   'close': 19.46,
+    'high': 19.46,
+    'low': 19.445,
+    'open': 19.445,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 3150.0,
+    'vwap': 19.447762}}
+2025-07-21 13:33:12 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:33:12 INFO: Current average volume is: 436.72
+2025-07-21 13:33:12 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:34:12 INFO: {'DJT': {   'close': 19.46,
+    'high': 19.48,
+    'low': 19.46,
+    'open': 19.465,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 311.0,
+    'vwap': 19.468226}}
+2025-07-21 13:34:12 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:34:12 INFO: Current average volume is: 432.53
+2025-07-21 13:34:12 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:37:12 INFO: {'DJT': {   'close': 19.48,
+    'high': 19.49,
+    'low': 19.465,
+    'open': 19.465,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1969.0,
+    'vwap': 19.469865}}
+2025-07-21 13:37:12 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:37:12 INFO: Current average volume is: 482.1
+2025-07-21 13:37:12 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:38:12 INFO: {'DJT': {   'close': 19.42,
+    'high': 19.48,
+    'low': 19.42,
+    'open': 19.48,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2030.0,
+    'vwap': 19.461295}}
+2025-07-21 13:38:12 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:38:12 INFO: Current average volume is: 530.47
+2025-07-21 13:38:12 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:40:13 INFO: {'DJT': {   'close': 19.38,
+    'high': 19.42,
+    'low': 19.38,
+    'open': 19.42,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 402.0,
+    'vwap': 19.398333}}
+2025-07-21 13:40:13 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:40:13 INFO: Current average volume is: 526.58
+2025-07-21 13:40:13 INFO: Updated resistance to: 19.66 and support to: 19.33
+2025-07-21 13:41:13 INFO: {'DJT': {   'close': 19.335,
+    'high': 19.35,
+    'low': 19.32,
+    'open': 19.35,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 305.0,
+    'vwap': 19.335}}
+2025-07-21 13:41:13 INFO: Current resistance is: 19.66 and support is: 19.33
+2025-07-21 13:41:13 INFO: Current average volume is: 520.06
+2025-07-21 13:41:13 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 13:44:13 INFO: {'DJT': {   'close': 19.365,
+    'high': 19.365,
+    'low': 19.365,
+    'open': 19.365,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.365}}
+2025-07-21 13:44:13 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 13:44:13 INFO: Current average volume is: 508.06
+2025-07-21 13:44:13 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 13:45:13 INFO: {'DJT': {   'close': 19.44,
+    'high': 19.44,
+    'low': 19.38,
+    'open': 19.38,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 950.0,
+    'vwap': 19.424706}}
+2025-07-21 13:45:13 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 13:45:13 INFO: Current average volume is: 520.33
+2025-07-21 13:45:13 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 13:48:14 INFO: {'DJT': {   'close': 19.49,
+    'high': 19.49,
+    'low': 19.43,
+    'open': 19.43,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 436.0,
+    'vwap': 19.462656}}
+2025-07-21 13:48:14 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 13:48:14 INFO: Current average volume is: 518.05
+2025-07-21 13:48:14 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 13:55:15 INFO: {'DJT': {   'close': 19.5,
+    'high': 19.5,
+    'low': 19.485,
+    'open': 19.485,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 238.0,
+    'vwap': 19.4925}}
+2025-07-21 13:55:15 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 13:55:15 INFO: Current average volume is: 510.68
+2025-07-21 13:55:15 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 13:56:15 INFO: {'DJT': {   'close': 19.52,
+    'high': 19.52,
+    'low': 19.52,
+    'open': 19.52,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 19.52}}
+2025-07-21 13:56:15 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 13:56:15 INFO: Current average volume is: 500.18
+2025-07-21 13:56:15 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 13:57:15 INFO: {'DJT': {   'close': 19.54,
+    'high': 19.54,
+    'low': 19.54,
+    'open': 19.54,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 245.0,
+    'vwap': 19.54}}
+2025-07-21 13:57:15 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 13:57:15 INFO: Current average volume is: 493.8
+2025-07-21 13:57:15 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 13:59:15 INFO: {'DJT': {   'close': 19.5,
+    'high': 19.51,
+    'low': 19.49,
+    'open': 19.51,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 512.0,
+    'vwap': 19.503878}}
+2025-07-21 13:59:15 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 13:59:15 INFO: Current average volume is: 494.24
+2025-07-21 13:59:15 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:00:15 INFO: {'DJT': {   'close': 19.485,
+    'high': 19.485,
+    'low': 19.485,
+    'open': 19.485,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 133.0,
+    'vwap': 19.485}}
+2025-07-21 14:00:15 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:00:15 INFO: Current average volume is: 485.64
+2025-07-21 14:00:15 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:01:15 INFO: {'DJT': {   'close': 19.48,
+    'high': 19.48,
+    'low': 19.47,
+    'open': 19.47,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 239.0,
+    'vwap': 19.474545}}
+2025-07-21 14:01:15 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:01:15 INFO: Current average volume is: 479.91
+2025-07-21 14:01:15 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:03:16 INFO: {'DJT': {   'close': 19.455,
+    'high': 19.47,
+    'low': 19.455,
+    'open': 19.47,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 765.0,
+    'vwap': 19.467313}}
+2025-07-21 14:03:16 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:03:16 INFO: Current average volume is: 486.39
+2025-07-21 14:03:16 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:07:16 INFO: {'DJT': {   'close': 19.49,
+    'high': 19.49,
+    'low': 19.49,
+    'open': 19.49,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 110.0,
+    'vwap': 19.49}}
+2025-07-21 14:07:16 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:07:16 INFO: Current average volume is: 478.02
+2025-07-21 14:07:16 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:08:16 INFO: {'DJT': {   'close': 19.51,
+    'high': 19.51,
+    'low': 19.5,
+    'open': 19.5,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 215.0,
+    'vwap': 19.505}}
+2025-07-21 14:08:16 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:08:16 INFO: Current average volume is: 472.3
+2025-07-21 14:08:16 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:13:17 INFO: {'DJT': {   'close': 19.55,
+    'high': 19.55,
+    'low': 19.53,
+    'open': 19.53,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 530.0,
+    'vwap': 19.541538}}
+2025-07-21 14:13:17 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:13:17 INFO: Current average volume is: 473.53
+2025-07-21 14:13:17 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:16:17 INFO: {'DJT': {   'close': 19.59,
+    'high': 19.59,
+    'low': 19.59,
+    'open': 19.59,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 225.0,
+    'vwap': 19.59}}
+2025-07-21 14:16:17 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:16:17 INFO: Current average volume is: 468.35
+2025-07-21 14:16:17 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:18:17 INFO: {'DJT': {   'close': 19.58,
+    'high': 19.58,
+    'low': 19.58,
+    'open': 19.58,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 260.0,
+    'vwap': 19.58}}
+2025-07-21 14:18:17 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:18:17 INFO: Current average volume is: 464.1
+2025-07-21 14:18:17 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:20:18 INFO: {'DJT': {   'close': 19.64,
+    'high': 19.64,
+    'low': 19.6,
+    'open': 19.6,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 475.0,
+    'vwap': 19.6225}}
+2025-07-21 14:20:18 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:20:18 INFO: Current average volume is: 464.32
+2025-07-21 14:20:18 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:21:18 INFO: {'DJT': {   'close': 19.59,
+    'high': 19.63,
+    'low': 19.59,
+    'open': 19.62,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 447.0,
+    'vwap': 19.6075}}
+2025-07-21 14:21:18 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:21:18 INFO: Current average volume is: 463.98
+2025-07-21 14:21:18 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:24:18 INFO: {'DJT': {   'close': 19.57,
+    'high': 19.57,
+    'low': 19.57,
+    'open': 19.57,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 297.0,
+    'vwap': 19.57}}
+2025-07-21 14:24:18 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:24:18 INFO: Current average volume is: 460.77
+2025-07-21 14:24:18 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:27:18 INFO: {'DJT': {   'close': 19.565,
+    'high': 19.565,
+    'low': 19.565,
+    'open': 19.565,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 120.0,
+    'vwap': 19.565}}
+2025-07-21 14:27:18 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:27:18 INFO: Current average volume is: 454.34
+2025-07-21 14:27:18 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:28:19 INFO: {'DJT': {   'close': 19.57,
+    'high': 19.57,
+    'low': 19.57,
+    'open': 19.57,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.57}}
+2025-07-21 14:28:19 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:28:19 INFO: Current average volume is: 447.78
+2025-07-21 14:28:19 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:30:19 INFO: {'DJT': {   'close': 19.62,
+    'high': 19.62,
+    'low': 19.62,
+    'open': 19.62,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 401.0,
+    'vwap': 19.62}}
+2025-07-21 14:30:19 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:30:19 INFO: Current average volume is: 446.93
+2025-07-21 14:30:19 INFO: Updated resistance to: 19.66 and support to: 19.32
+2025-07-21 14:31:19 INFO: {'DJT': {   'close': 19.665,
+    'high': 19.665,
+    'low': 19.645,
+    'open': 19.645,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 302.0,
+    'vwap': 19.658333}}
+2025-07-21 14:31:19 INFO: Current resistance is: 19.66 and support is: 19.32
+2025-07-21 14:31:19 INFO: Current average volume is: 444.34
+2025-07-21 14:31:19 INFO: The Current Close 19.665 is above the resistance...
+2025-07-21 14:31:19 INFO: Updated resistance to: 19.665 and support to: 19.32
+2025-07-21 14:33:19 INFO: {'DJT': {   'close': 19.69,
+    'high': 19.69,
+    'low': 19.66,
+    'open': 19.66,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 501.0,
+    'vwap': 19.68}}
+2025-07-21 14:33:19 INFO: Current resistance is: 19.665 and support is: 19.32
+2025-07-21 14:33:19 INFO: Current average volume is: 445.33
+2025-07-21 14:33:19 INFO: The current close: 19.69 is above the resistance of 19.665, but volume isn't enough...
+2025-07-21 14:33:19 INFO: Updated resistance to: 19.69 and support to: 19.32
+2025-07-21 14:35:20 INFO: {'DJT': {   'close': 19.71,
+    'high': 19.71,
+    'low': 19.71,
+    'open': 19.71,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 341.0,
+    'vwap': 19.71}}
+2025-07-21 14:35:20 INFO: Current resistance is: 19.69 and support is: 19.32
+2025-07-21 14:35:20 INFO: Current average volume is: 443.53
+2025-07-21 14:35:20 INFO: The current close: 19.71 is above the resistance of 19.69, but volume isn't enough...
+2025-07-21 14:35:20 INFO: Updated resistance to: 19.71 and support to: 19.32
+2025-07-21 14:37:20 INFO: {'DJT': {   'close': 19.7,
+    'high': 19.705,
+    'low': 19.7,
+    'open': 19.705,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 325.0,
+    'vwap': 19.702727}}
+2025-07-21 14:37:20 INFO: Current resistance is: 19.71 and support is: 19.32
+2025-07-21 14:37:20 INFO: Current average volume is: 441.53
+2025-07-21 14:37:20 INFO: Updated resistance to: 19.71 and support to: 19.32
+2025-07-21 14:38:21 INFO: {'DJT': {   'close': 19.775,
+    'high': 19.775,
+    'low': 19.775,
+    'open': 19.775,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 230.0,
+    'vwap': 19.775}}
+2025-07-21 14:38:21 INFO: Current resistance is: 19.71 and support is: 19.32
+2025-07-21 14:38:21 INFO: Current average volume is: 438.0
+2025-07-21 14:38:21 INFO: The Current Close 19.775 is above the resistance...
+2025-07-21 14:38:21 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:39:21 INFO: {'DJT': {   'close': 19.755,
+    'high': 19.755,
+    'low': 19.755,
+    'open': 19.755,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 145.0,
+    'vwap': 19.755}}
+2025-07-21 14:39:21 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:39:21 INFO: Current average volume is: 433.2
+2025-07-21 14:39:21 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:41:21 INFO: {'DJT': {   'close': 19.75,
+    'high': 19.75,
+    'low': 19.75,
+    'open': 19.75,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.75}}
+2025-07-21 14:41:21 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:41:21 INFO: Current average volume is: 427.82
+2025-07-21 14:41:21 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:42:21 INFO: {'DJT': {   'close': 19.72,
+    'high': 19.74,
+    'low': 19.72,
+    'open': 19.74,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 426.0,
+    'vwap': 19.73}}
+2025-07-21 14:42:21 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:42:21 INFO: Current average volume is: 427.79
+2025-07-21 14:42:21 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:45:22 INFO: {'DJT': {   'close': 19.73,
+    'high': 19.73,
+    'low': 19.73,
+    'open': 19.73,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.73}}
+2025-07-21 14:45:22 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:45:22 INFO: Current average volume is: 422.67
+2025-07-21 14:45:22 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:47:22 INFO: {'DJT': {   'close': 19.72,
+    'high': 19.72,
+    'low': 19.72,
+    'open': 19.72,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 179.0,
+    'vwap': 19.72}}
+2025-07-21 14:47:22 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:47:22 INFO: Current average volume is: 418.92
+2025-07-21 14:47:22 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:48:22 INFO: {'DJT': {   'close': 19.65,
+    'high': 19.68,
+    'low': 19.64,
+    'open': 19.68,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 898.0,
+    'vwap': 19.665}}
+2025-07-21 14:48:22 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:48:22 INFO: Current average volume is: 426.18
+2025-07-21 14:48:22 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:50:22 INFO: {'DJT': {   'close': 19.64,
+    'high': 19.64,
+    'low': 19.62,
+    'open': 19.62,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 544.0,
+    'vwap': 19.635062}}
+2025-07-21 14:50:22 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:50:22 INFO: Current average volume is: 427.94
+2025-07-21 14:50:22 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:51:22 INFO: {'DJT': {   'close': 19.62,
+    'high': 19.62,
+    'low': 19.61,
+    'open': 19.61,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 649.0,
+    'vwap': 19.615}}
+2025-07-21 14:51:22 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:51:22 INFO: Current average volume is: 431.19
+2025-07-21 14:51:22 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:54:23 INFO: {'DJT': {   'close': 19.63,
+    'high': 19.63,
+    'low': 19.63,
+    'open': 19.63,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 127.0,
+    'vwap': 19.63}}
+2025-07-21 14:54:23 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:54:23 INFO: Current average volume is: 426.78
+2025-07-21 14:54:23 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:55:23 INFO: {'DJT': {   'close': 19.61,
+    'high': 19.61,
+    'low': 19.61,
+    'open': 19.61,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 19.61}}
+2025-07-21 14:55:23 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:55:23 INFO: Current average volume is: 422.16
+2025-07-21 14:55:23 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:57:23 INFO: {'DJT': {   'close': 19.59,
+    'high': 19.59,
+    'low': 19.59,
+    'open': 19.59,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 106.0,
+    'vwap': 19.59}}
+2025-07-21 14:57:23 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:57:23 INFO: Current average volume is: 417.7
+2025-07-21 14:57:23 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 14:58:23 INFO: {'DJT': {   'close': 19.56,
+    'high': 19.56,
+    'low': 19.56,
+    'open': 19.56,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 19.56}}
+2025-07-21 14:58:23 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 14:58:23 INFO: Current average volume is: 416.07
+2025-07-21 14:58:23 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:01:24 INFO: {'DJT': {   'close': 19.51,
+    'high': 19.52,
+    'low': 19.51,
+    'open': 19.52,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 412.0,
+    'vwap': 19.512817}}
+2025-07-21 15:01:24 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:01:24 INFO: Current average volume is: 416.01
+2025-07-21 15:01:24 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:05:24 INFO: {'DJT': {   'close': 19.5,
+    'high': 19.5,
+    'low': 19.5,
+    'open': 19.5,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 196.0,
+    'vwap': 19.5}}
+2025-07-21 15:05:24 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:05:24 INFO: Current average volume is: 413.04
+2025-07-21 15:05:24 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:08:24 INFO: {'DJT': {   'close': 19.47,
+    'high': 19.47,
+    'low': 19.47,
+    'open': 19.47,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 140.0,
+    'vwap': 19.47}}
+2025-07-21 15:08:24 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:08:24 INFO: Current average volume is: 409.4
+2025-07-21 15:08:24 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:13:25 INFO: {'DJT': {   'close': 19.485,
+    'high': 19.495,
+    'low': 19.485,
+    'open': 19.495,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 340.0,
+    'vwap': 19.488559}}
+2025-07-21 15:13:25 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:13:25 INFO: Current average volume is: 408.49
+2025-07-21 15:13:25 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:14:25 INFO: {'DJT': {   'close': 19.49,
+    'high': 19.49,
+    'low': 19.49,
+    'open': 19.49,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 278.0,
+    'vwap': 19.49}}
+2025-07-21 15:14:25 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:14:25 INFO: Current average volume is: 406.79
+2025-07-21 15:14:25 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:15:25 INFO: {'DJT': {   'close': 19.54,
+    'high': 19.54,
+    'low': 19.54,
+    'open': 19.54,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 485.0,
+    'vwap': 19.54}}
+2025-07-21 15:15:25 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:15:25 INFO: Current average volume is: 407.79
+2025-07-21 15:15:25 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:17:26 INFO: {'DJT': {   'close': 19.535,
+    'high': 19.56,
+    'low': 19.535,
+    'open': 19.56,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 353.0,
+    'vwap': 19.545417}}
+2025-07-21 15:17:26 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:17:26 INFO: Current average volume is: 407.1
+2025-07-21 15:17:26 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:21:26 INFO: {'DJT': {   'close': 19.59,
+    'high': 19.59,
+    'low': 19.59,
+    'open': 19.59,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 353.0,
+    'vwap': 19.59}}
+2025-07-21 15:21:26 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:21:26 INFO: Current average volume is: 406.43
+2025-07-21 15:21:26 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:22:26 INFO: {'DJT': {   'close': 19.58,
+    'high': 19.61,
+    'low': 19.58,
+    'open': 19.61,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1132.0,
+    'vwap': 19.589311}}
+2025-07-21 15:22:26 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:22:26 INFO: Current average volume is: 415.38
+2025-07-21 15:22:26 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:23:26 INFO: {'DJT': {   'close': 19.55,
+    'high': 19.565,
+    'low': 19.54,
+    'open': 19.565,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2713.0,
+    'vwap': 19.55045}}
+2025-07-21 15:23:26 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:23:26 INFO: Current average volume is: 443.4
+2025-07-21 15:23:26 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:26:27 INFO: {'DJT': {   'close': 19.5,
+    'high': 19.5,
+    'low': 19.495,
+    'open': 19.495,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 555.0,
+    'vwap': 19.49902}}
+2025-07-21 15:26:27 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:26:27 INFO: Current average volume is: 444.75
+2025-07-21 15:26:27 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:27:27 INFO: {'DJT': {   'close': 19.44,
+    'high': 19.475,
+    'low': 19.44,
+    'open': 19.475,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 755.0,
+    'vwap': 19.461765}}
+2025-07-21 15:27:27 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:27:27 INFO: Current average volume is: 448.44
+2025-07-21 15:27:27 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:28:27 INFO: {'DJT': {   'close': 19.45,
+    'high': 19.46,
+    'low': 19.43,
+    'open': 19.43,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 19.446667}}
+2025-07-21 15:28:27 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:28:27 INFO: Current average volume is: 446.69
+2025-07-21 15:28:27 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:29:27 INFO: {'DJT': {   'close': 19.41,
+    'high': 19.45,
+    'low': 19.405,
+    'open': 19.45,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 19.416429}}
+2025-07-21 15:29:27 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:29:27 INFO: Current average volume is: 449.64
+2025-07-21 15:29:27 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:31:27 INFO: {'DJT': {   'close': 19.47,
+    'high': 19.48,
+    'low': 19.45,
+    'open': 19.45,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 793.0,
+    'vwap': 19.466667}}
+2025-07-21 15:31:27 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:31:27 INFO: Current average volume is: 453.59
+2025-07-21 15:31:27 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:32:28 INFO: {'DJT': {   'close': 19.39,
+    'high': 19.4,
+    'low': 19.35,
+    'open': 19.4,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2615.0,
+    'vwap': 19.366491}}
+2025-07-21 15:32:28 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:32:28 INFO: Current average volume is: 478.15
+2025-07-21 15:32:28 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:33:28 INFO: {'DJT': {   'close': 19.38,
+    'high': 19.38,
+    'low': 19.37,
+    'open': 19.37,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 507.0,
+    'vwap': 19.378}}
+2025-07-21 15:33:28 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:33:28 INFO: Current average volume is: 478.47
+2025-07-21 15:33:28 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:34:28 INFO: {'DJT': {   'close': 19.405,
+    'high': 19.42,
+    'low': 19.36,
+    'open': 19.36,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3391.0,
+    'vwap': 19.406314}}
+2025-07-21 15:34:28 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:34:28 INFO: Current average volume is: 510.83
+2025-07-21 15:34:28 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:35:28 INFO: {'DJT': {   'close': 19.375,
+    'high': 19.4,
+    'low': 19.375,
+    'open': 19.395,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1484.0,
+    'vwap': 19.388641}}
+2025-07-21 15:35:28 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:35:28 INFO: Current average volume is: 521.53
+2025-07-21 15:35:28 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:37:28 INFO: {'DJT': {   'close': 19.32,
+    'high': 19.32,
+    'low': 19.3,
+    'open': 19.31,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2362.0,
+    'vwap': 19.301838}}
+2025-07-21 15:37:28 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:37:28 INFO: Current average volume is: 541.53
+2025-07-21 15:39:29 INFO: {'DJT': {   'close': 19.36,
+    'high': 19.36,
+    'low': 19.36,
+    'open': 19.36,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 213.0,
+    'vwap': 19.36}}
+2025-07-21 15:39:29 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:39:29 INFO: Current average volume is: 538.0
+2025-07-21 15:39:29 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:40:29 INFO: {'DJT': {   'close': 19.37,
+    'high': 19.37,
+    'low': 19.37,
+    'open': 19.37,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 634.0,
+    'vwap': 19.37}}
+2025-07-21 15:40:29 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:40:29 INFO: Current average volume is: 539.02
+2025-07-21 15:40:29 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:41:29 INFO: {'DJT': {   'close': 19.35,
+    'high': 19.35,
+    'low': 19.35,
+    'open': 19.35,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 301.0,
+    'vwap': 19.35}}
+2025-07-21 15:41:29 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:41:29 INFO: Current average volume is: 536.52
+2025-07-21 15:41:29 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:42:29 INFO: {'DJT': {   'close': 19.33,
+    'high': 19.36,
+    'low': 19.32,
+    'open': 19.36,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1789.0,
+    'vwap': 19.336953}}
+2025-07-21 15:42:29 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:42:29 INFO: Current average volume is: 549.56
+2025-07-21 15:42:29 INFO: Updated resistance to: 19.775 and support to: 19.32
+2025-07-21 15:43:29 INFO: {'DJT': {   'close': 19.32,
+    'high': 19.32,
+    'low': 19.31,
+    'open': 19.31,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 505.0,
+    'vwap': 19.3175}}
+2025-07-21 15:43:29 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:43:29 INFO: Current average volume is: 549.1
+2025-07-21 15:44:29 INFO: {'DJT': {   'close': 19.265,
+    'high': 19.33,
+    'low': 19.265,
+    'open': 19.31,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 918.0,
+    'vwap': 19.303462}}
+2025-07-21 15:44:29 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:44:29 INFO: Current average volume is: 552.87
+2025-07-21 15:44:29 INFO: close price: 19.265 just dropped below support of 19.32...
+2025-07-21 15:45:29 INFO: {'DJT': {   'close': 19.27,
+    'high': 19.27,
+    'low': 19.27,
+    'open': 19.27,
+    'symbol': 'DJT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 385.0,
+    'vwap': 19.27}}
+2025-07-21 15:45:29 INFO: Current resistance is: 19.775 and support is: 19.32
+2025-07-21 15:45:29 INFO: Current average volume is: 551.17
+2025-07-21 15:45:29 INFO: Closing price: 19.27 just dropped below support 19.32 again...ending trade...

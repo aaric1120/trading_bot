@@ -37,6 +37,10 @@ def main():
                     get_stock_start(stock_list, stock_dict, process_list)
                     print(f"The Current active stocks are {stock_dict}")
 
+                # Exit the loop if past market deadline
+                elif dt.datetime.now().time() > MARKET_DEADLINE:
+                    break
+
                 print("Sleeping for 15 minutes until next stock check...")
                 tm.sleep(900)  # PARAM
 
