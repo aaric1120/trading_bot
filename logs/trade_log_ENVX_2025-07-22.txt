@@ -1,0 +1,466 @@
+2025-07-22 10:04:40 INFO: === Strategy started ===
+2025-07-22 10:04:40 INFO: Start collecting the current highs/lows for: ENVX
+2025-07-22 10:04:40 INFO: Most recent stock data: {'ENVX': {   'close': 14.335,
+    'high': 14.335,
+    'low': 14.23,
+    'open': 14.23,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 28818.0,
+    'vwap': 14.267013}}
+2025-07-22 10:05:41 INFO: Most recent stock data: {'ENVX': {   'close': 14.27,
+    'high': 14.305,
+    'low': 14.265,
+    'open': 14.3,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 74.0,
+    'volume': 9032.0,
+    'vwap': 14.28011}}
+2025-07-22 10:06:41 INFO: Most recent stock data: {'ENVX': {   'close': 14.46,
+    'high': 14.465,
+    'low': 14.285,
+    'open': 14.285,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 213.0,
+    'volume': 102616.0,
+    'vwap': 14.41763}}
+2025-07-22 10:07:41 INFO: Most recent stock data: {'ENVX': {   'close': 14.48,
+    'high': 14.53,
+    'low': 14.44,
+    'open': 14.445,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 90.0,
+    'volume': 23670.0,
+    'vwap': 14.453666}}
+2025-07-22 10:08:41 INFO: Most recent stock data: {'ENVX': {   'close': 14.52,
+    'high': 14.535,
+    'low': 14.465,
+    'open': 14.52,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1174.0,
+    'vwap': 14.517683}}
+2025-07-22 10:09:41 INFO: Most recent stock data: {'ENVX': {   'close': 14.7,
+    'high': 14.73,
+    'low': 14.53,
+    'open': 14.53,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 5840.0,
+    'vwap': 14.651233}}
+2025-07-22 10:10:41 INFO: Most recent stock data: {'ENVX': {   'close': 14.735,
+    'high': 14.77,
+    'low': 14.735,
+    'open': 14.77,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 5563.0,
+    'vwap': 14.751482}}
+2025-07-22 10:11:41 INFO: Most recent stock data: {'ENVX': {   'close': 14.805,
+    'high': 14.835,
+    'low': 14.73,
+    'open': 14.73,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 3337.0,
+    'vwap': 14.791793}}
+2025-07-22 10:12:42 INFO: Most recent stock data: {'ENVX': {   'close': 14.725,
+    'high': 14.83,
+    'low': 14.725,
+    'open': 14.83,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1305.0,
+    'vwap': 14.779355}}
+2025-07-22 10:13:42 INFO: Most recent stock data: {'ENVX': {   'close': 14.595,
+    'high': 14.665,
+    'low': 14.59,
+    'open': 14.665,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 900.0,
+    'vwap': 14.63}}
+2025-07-22 10:14:42 INFO: Most recent stock data: {'ENVX': {   'close': 14.78,
+    'high': 14.78,
+    'low': 14.625,
+    'open': 14.625,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1972.0,
+    'vwap': 14.715968}}
+2025-07-22 10:14:42 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-22 10:14:42 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-22 10:15:42 INFO: {'ENVX': {   'close': 14.755,
+    'high': 14.83,
+    'low': 14.755,
+    'open': 14.81,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1524.0,
+    'vwap': 14.786343}}
+2025-07-22 10:15:42 INFO: Current resistance is: 15.039 and support is: 14.774
+2025-07-22 10:15:42 INFO: Current average volume is: 13077.75
+2025-07-22 10:15:42 INFO: close price: 14.755 just dropped below support of 14.774...
+2025-07-22 10:16:42 INFO: {'ENVX': {   'close': 14.7,
+    'high': 14.7,
+    'low': 14.7,
+    'open': 14.7,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 170.0,
+    'vwap': 14.7}}
+2025-07-22 10:16:42 INFO: Current resistance is: 15.039 and support is: 14.774
+2025-07-22 10:16:42 INFO: Current average volume is: 12084.85
+2025-07-22 10:16:42 INFO: Closing price: 14.7 just dropped below support 14.774 again...ending trade...
+2025-07-22 10:34:35 INFO: === Strategy started ===
+2025-07-22 10:34:35 INFO: Start collecting the current highs/lows for: ENVX
+2025-07-22 10:34:35 INFO: Most recent stock data: {'ENVX': {   'close': 14.925,
+    'high': 14.925,
+    'low': 14.905,
+    'open': 14.905,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2730.0,
+    'vwap': 14.910962}}
+2025-07-22 10:35:35 INFO: Most recent stock data: {'ENVX': {   'close': 15.0,
+    'high': 15.03,
+    'low': 14.945,
+    'open': 14.945,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3011.0,
+    'vwap': 14.997963}}
+2025-07-22 10:36:35 INFO: Most recent stock data: {'ENVX': {   'close': 15.055,
+    'high': 15.085,
+    'low': 14.995,
+    'open': 14.995,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2457.0,
+    'vwap': 15.050625}}
+2025-07-22 10:37:36 INFO: Most recent stock data: {'ENVX': {   'close': 15.125,
+    'high': 15.145,
+    'low': 15.055,
+    'open': 15.055,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2942.0,
+    'vwap': 15.115926}}
+2025-07-22 10:38:36 INFO: Most recent stock data: {'ENVX': {   'close': 15.105,
+    'high': 15.14,
+    'low': 15.105,
+    'open': 15.12,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 907.0,
+    'vwap': 15.123125}}
+2025-07-22 10:39:36 INFO: Most recent stock data: {'ENVX': {   'close': 15.07,
+    'high': 15.09,
+    'low': 15.07,
+    'open': 15.09,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1001.0,
+    'vwap': 15.077}}
+2025-07-22 10:40:36 INFO: Most recent stock data: {'ENVX': {   'close': 15.11,
+    'high': 15.12,
+    'low': 15.11,
+    'open': 15.12,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 899.0,
+    'vwap': 15.117143}}
+2025-07-22 10:41:36 INFO: Most recent stock data: {'ENVX': {   'close': 15.09,
+    'high': 15.09,
+    'low': 15.065,
+    'open': 15.065,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1219.0,
+    'vwap': 15.0725}}
+2025-07-22 10:42:36 INFO: Most recent stock data: {'ENVX': {   'close': 15.095,
+    'high': 15.095,
+    'low': 15.095,
+    'open': 15.095,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 211.0,
+    'vwap': 15.095}}
+2025-07-22 10:43:36 INFO: Most recent stock data: {'ENVX': {   'close': 15.02,
+    'high': 15.07,
+    'low': 15.015,
+    'open': 15.07,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1874.0,
+    'vwap': 15.054381}}
+2025-07-22 10:44:36 INFO: Most recent stock data: {'ENVX': {   'close': 15.005,
+    'high': 15.01,
+    'low': 14.995,
+    'open': 15.005,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1215.0,
+    'vwap': 15.001667}}
+2025-07-22 10:44:36 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-22 10:44:36 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-22 10:45:37 INFO: {'ENVX': {   'close': 14.97,
+    'high': 14.97,
+    'low': 14.965,
+    'open': 14.965,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 489.0,
+    'vwap': 14.967976}}
+2025-07-22 10:45:37 INFO: Current resistance is: 15.145 and support is: 14.905
+2025-07-22 10:45:37 INFO: Current average volume is: 1352.08
+2025-07-22 10:45:37 INFO: Updated resistance to: 15.145 and support to: 14.905
+2025-07-22 10:47:37 INFO: {'ENVX': {   'close': 14.915,
+    'high': 15.005,
+    'low': 14.915,
+    'open': 15.005,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1000.0,
+    'vwap': 14.95}}
+2025-07-22 10:47:37 INFO: Current resistance is: 15.145 and support is: 14.905
+2025-07-22 10:47:37 INFO: Current average volume is: 1325.0
+2025-07-22 10:47:37 INFO: Updated resistance to: 15.145 and support to: 14.905
+2025-07-22 10:48:37 INFO: {'ENVX': {   'close': 14.935,
+    'high': 14.935,
+    'low': 14.935,
+    'open': 14.935,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 222.0,
+    'vwap': 14.935}}
+2025-07-22 10:48:37 INFO: Current resistance is: 15.145 and support is: 14.905
+2025-07-22 10:48:37 INFO: Current average volume is: 1246.21
+2025-07-22 10:48:37 INFO: Updated resistance to: 15.145 and support to: 14.905
+2025-07-22 10:49:37 INFO: {'ENVX': {   'close': 14.865,
+    'high': 14.865,
+    'low': 14.82,
+    'open': 14.85,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2274.0,
+    'vwap': 14.835263}}
+2025-07-22 10:49:37 INFO: Current resistance is: 15.145 and support is: 14.905
+2025-07-22 10:49:37 INFO: Current average volume is: 1314.73
+2025-07-22 10:49:37 INFO: close price: 14.865 just dropped below support of 14.905...
+2025-07-22 10:50:37 INFO: {'ENVX': {   'close': 14.91,
+    'high': 14.91,
+    'low': 14.91,
+    'open': 14.91,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 134.0,
+    'vwap': 14.91}}
+2025-07-22 10:50:37 INFO: Current resistance is: 15.145 and support is: 14.905
+2025-07-22 10:50:37 INFO: Current average volume is: 1240.94
+2025-07-22 10:50:37 INFO: Updated resistance to: 15.145 and support to: 14.905
+2025-07-22 10:51:38 INFO: {'ENVX': {   'close': 14.935,
+    'high': 14.935,
+    'low': 14.89,
+    'open': 14.915,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 880.0,
+    'vwap': 14.906875}}
+2025-07-22 10:51:38 INFO: Current resistance is: 15.145 and support is: 14.905
+2025-07-22 10:51:38 INFO: Current average volume is: 1219.71
+2025-07-22 10:51:38 INFO: Updated resistance to: 15.145 and support to: 14.89
+2025-07-22 10:53:38 INFO: {'ENVX': {   'close': 14.955,
+    'high': 14.955,
+    'low': 14.955,
+    'open': 14.955,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 181.0,
+    'vwap': 14.955}}
+2025-07-22 10:53:38 INFO: Current resistance is: 15.145 and support is: 14.89
+2025-07-22 10:53:38 INFO: Current average volume is: 1162.0
+2025-07-22 10:53:38 INFO: Updated resistance to: 15.145 and support to: 14.89
+2025-07-22 10:54:38 INFO: {'ENVX': {   'close': 14.965,
+    'high': 14.965,
+    'low': 14.96,
+    'open': 14.96,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 564.0,
+    'vwap': 14.964}}
+2025-07-22 10:54:38 INFO: Current resistance is: 15.145 and support is: 14.89
+2025-07-22 10:54:38 INFO: Current average volume is: 1130.53
+2025-07-22 10:54:38 INFO: Updated resistance to: 15.145 and support to: 14.89
+2025-07-22 10:57:50 ERROR: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars/latest?symbols=ENVX (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018860DE9220>: Failed to resolve 'data.alpaca.markets' ([Errno 11001] getaddrinfo failed)"))
+2025-07-22 11:31:00 INFO: === Strategy started ===
+2025-07-22 11:31:00 INFO: Start collecting the current highs/lows for: ENVX
+2025-07-22 11:31:00 INFO: Most recent stock data: {'ENVX': {   'close': 14.775,
+    'high': 14.775,
+    'low': 14.745,
+    'open': 14.775,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2630.0,
+    'vwap': 14.757747}}
+2025-07-22 11:32:00 INFO: Most recent stock data: {'ENVX': {   'close': 14.765,
+    'high': 14.795,
+    'low': 14.765,
+    'open': 14.775,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1393.0,
+    'vwap': 14.778079}}
+2025-07-22 11:33:00 INFO: Most recent stock data: {'ENVX': {   'close': 14.825,
+    'high': 14.87,
+    'low': 14.78,
+    'open': 14.78,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 4390.0,
+    'vwap': 14.824485}}
+2025-07-22 11:34:01 INFO: Most recent stock data: {'ENVX': {   'close': 14.825,
+    'high': 14.86,
+    'low': 14.825,
+    'open': 14.83,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1070.0,
+    'vwap': 14.834524}}
+2025-07-22 11:35:01 INFO: Most recent stock data: {'ENVX': {   'close': 14.84,
+    'high': 14.845,
+    'low': 14.815,
+    'open': 14.815,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 3661.0,
+    'vwap': 14.825096}}
+2025-07-22 11:36:01 INFO: Most recent stock data: {'ENVX': {   'close': 14.875,
+    'high': 14.875,
+    'low': 14.875,
+    'open': 14.875,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 632.0,
+    'vwap': 14.875}}
+2025-07-22 11:37:01 INFO: Most recent stock data: {'ENVX': {   'close': 14.865,
+    'high': 14.89,
+    'low': 14.865,
+    'open': 14.89,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 209.0,
+    'vwap': 14.8775}}
+2025-07-22 11:39:01 INFO: Most recent stock data: {'ENVX': {   'close': 14.86,
+    'high': 14.86,
+    'low': 14.855,
+    'open': 14.855,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 304.0,
+    'vwap': 14.856645}}
+2025-07-22 11:40:01 INFO: Most recent stock data: {'ENVX': {   'close': 14.83,
+    'high': 14.85,
+    'low': 14.83,
+    'open': 14.85,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 307.0,
+    'vwap': 14.836667}}
+2025-07-22 11:41:02 INFO: Most recent stock data: {'ENVX': {   'close': 14.89,
+    'high': 14.89,
+    'low': 14.87,
+    'open': 14.87,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 838.0,
+    'vwap': 14.885625}}
+2025-07-22 11:42:02 INFO: Most recent stock data: {'ENVX': {   'close': 14.91,
+    'high': 14.965,
+    'low': 14.91,
+    'open': 14.93,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2623.0,
+    'vwap': 14.954615}}
+2025-07-22 11:42:02 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-22 11:42:02 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-22 11:43:02 INFO: {'ENVX': {   'close': 14.9,
+    'high': 14.92,
+    'low': 14.89,
+    'open': 14.92,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1564.0,
+    'vwap': 14.903077}}
+2025-07-22 11:43:02 INFO: Current resistance is: 14.965 and support is: 14.745
+2025-07-22 11:43:02 INFO: Current average volume is: 1415.92
+2025-07-22 11:43:02 INFO: Updated resistance to: 14.965 and support to: 14.745
+2025-07-22 11:44:02 INFO: {'ENVX': {   'close': 14.94,
+    'high': 14.94,
+    'low': 14.94,
+    'open': 14.94,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 14.94}}
+2025-07-22 11:44:02 INFO: Current resistance is: 14.965 and support is: 14.745
+2025-07-22 11:44:02 INFO: Current average volume is: 1314.77
+2025-07-22 11:44:02 INFO: Updated resistance to: 14.965 and support to: 14.745
+2025-07-22 11:45:02 INFO: {'ENVX': {   'close': 14.95,
+    'high': 14.95,
+    'low': 14.935,
+    'open': 14.935,
+    'symbol': 'ENVX',
+    'timestamp': datetime.datetime(2025, 7, 22, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 801.0,
+    'vwap': 14.94}}
+2025-07-22 11:45:02 INFO: Current resistance is: 14.965 and support is: 14.745
+2025-07-22 11:45:02 INFO: Current average volume is: 1278.07
+2025-07-22 11:45:02 INFO: Updated resistance to: 14.965 and support to: 14.745

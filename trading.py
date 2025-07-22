@@ -164,7 +164,7 @@ class BaseTrade:
                         return
 
                     # Updated the take profit price
-                    stop_loss = round(take_profit, 2)
+                    stop_loss = round(take_profit * self.param["tp_stop_loss"], 2)
                     take_profit = round(take_profit * self.param["take_profit"], 2)
                     init_price = round((take_profit + stop_loss) / 2, 2)
                     print(f"the updated take profit price is {take_profit}, the updated stop loss price is {stop_loss}")

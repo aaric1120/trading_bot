@@ -35,14 +35,17 @@ def main():
                 if dt.datetime.now().time() <= MARKET_DEADLINE:
                     # Get new stocks to add...
                     print("Adding new stocks to the list...")
-                    get_stock_start(stock_list, stock_dict, process_list)
+                    try:
+                        get_stock_start(stock_list, stock_dict, process_list)
+                    except Exception as e:
+                        print(e)
                     print(f"The Current active stocks are {stock_dict}")
 
                 # Exit the loop if past market deadline
                 elif dt.datetime.now().time() > MARKET_DEADLINE:
                     break
 
-                print("Sleeping for 15 minutes until next stock check...")
+                print(f"Sleeping for {int(PARAM['stock_check_time'] / 60)} minutes until next stock check...")
                 tm.sleep(int(PARAM["stock_check_time"]))
 
 
