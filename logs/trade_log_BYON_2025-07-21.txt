@@ -1,0 +1,814 @@
+2025-07-21 10:30:02 INFO: === Strategy started ===
+2025-07-21 10:30:02 INFO: Start collecting the current highs/lows for: BYON
+2025-07-21 10:30:03 INFO: Most recent stock data: {'BYON': {   'close': 10.08,
+    'high': 10.08,
+    'low': 10.055,
+    'open': 10.055,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 443.0,
+    'vwap': 10.066667}}
+2025-07-21 10:31:03 INFO: Most recent stock data: {'BYON': {   'close': 10.04,
+    'high': 10.04,
+    'low': 10.01,
+    'open': 10.01,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 611.0,
+    'vwap': 10.026}}
+2025-07-21 10:32:03 INFO: Most recent stock data: {'BYON': {   'close': 10.02,
+    'high': 10.06,
+    'low': 10.02,
+    'open': 10.06,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 205.0,
+    'vwap': 10.04}}
+2025-07-21 10:34:03 INFO: Most recent stock data: {'BYON': {   'close': 9.94,
+    'high': 9.95,
+    'low': 9.92,
+    'open': 9.95,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 9.936667}}
+2025-07-21 10:35:03 INFO: Most recent stock data: {'BYON': {   'close': 9.9,
+    'high': 9.915,
+    'low': 9.9,
+    'open': 9.915,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 9.9075}}
+2025-07-21 10:36:03 INFO: Most recent stock data: {'BYON': {   'close': 9.85,
+    'high': 9.85,
+    'low': 9.85,
+    'open': 9.85,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 236.0,
+    'vwap': 9.85}}
+2025-07-21 10:38:04 INFO: Most recent stock data: {'BYON': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.87,
+    'open': 9.87,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 511.0,
+    'vwap': 9.91}}
+2025-07-21 10:39:04 INFO: Most recent stock data: {'BYON': {   'close': 9.92,
+    'high': 9.95,
+    'low': 9.92,
+    'open': 9.95,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 401.0,
+    'vwap': 9.94}}
+2025-07-21 10:40:04 INFO: Most recent stock data: {'BYON': {   'close': 9.93,
+    'high': 9.93,
+    'low': 9.93,
+    'open': 9.93,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 218.0,
+    'vwap': 9.93}}
+2025-07-21 10:41:04 INFO: Most recent stock data: {'BYON': {   'close': 9.9,
+    'high': 9.9,
+    'low': 9.9,
+    'open': 9.9,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.9}}
+2025-07-21 10:43:04 INFO: Most recent stock data: {'BYON': {   'close': 9.89,
+    'high': 9.89,
+    'low': 9.825,
+    'open': 9.85,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 321.0,
+    'vwap': 9.855}}
+2025-07-21 10:43:04 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 10:43:04 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-21 10:44:04 INFO: {'BYON': {   'close': 9.97,
+    'high': 9.97,
+    'low': 9.97,
+    'open': 9.97,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.97}}
+2025-07-21 10:44:04 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:44:04 INFO: Current average volume is: 283.58
+2025-07-21 10:44:04 INFO: Updated resistance to: 10.08 and support to: 9.825
+2025-07-21 10:45:05 INFO: {'BYON': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.92,
+    'open': 9.92,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 108.0,
+    'vwap': 9.92}}
+2025-07-21 10:45:05 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:45:05 INFO: Current average volume is: 270.08
+2025-07-21 10:45:05 INFO: Updated resistance to: 10.08 and support to: 9.825
+2025-07-21 10:46:05 INFO: {'BYON': {   'close': 9.945,
+    'high': 9.945,
+    'low': 9.915,
+    'open': 9.915,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 539.0,
+    'vwap': 9.926667}}
+2025-07-21 10:46:05 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:46:05 INFO: Current average volume is: 289.29
+2025-07-21 10:46:05 INFO: Updated resistance to: 10.08 and support to: 9.825
+2025-07-21 10:48:05 INFO: {'BYON': {   'close': 9.96,
+    'high': 9.96,
+    'low': 9.96,
+    'open': 9.96,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 466.0,
+    'vwap': 9.96}}
+2025-07-21 10:48:05 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:48:05 INFO: Current average volume is: 301.07
+2025-07-21 10:48:05 INFO: Updated resistance to: 10.08 and support to: 9.825
+2025-07-21 10:49:05 INFO: {'BYON': {   'close': 10.015,
+    'high': 10.015,
+    'low': 10.015,
+    'open': 10.015,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 10.015}}
+2025-07-21 10:49:05 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:49:05 INFO: Current average volume is: 289.12
+2025-07-21 10:49:05 INFO: Updated resistance to: 10.08 and support to: 9.825
+2025-07-21 10:50:05 INFO: {'BYON': {   'close': 10.0,
+    'high': 10.01,
+    'low': 9.995,
+    'open': 10.005,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 709.0,
+    'vwap': 10.004286}}
+2025-07-21 10:50:05 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:50:05 INFO: Current average volume is: 313.82
+2025-07-21 10:50:05 INFO: Updated resistance to: 10.08 and support to: 9.825
+2025-07-21 10:51:05 INFO: {'BYON': {   'close': 10.005,
+    'high': 10.005,
+    'low': 10.005,
+    'open': 10.005,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 157.0,
+    'vwap': 10.005}}
+2025-07-21 10:51:05 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:51:05 INFO: Current average volume is: 305.11
+2025-07-21 10:51:05 INFO: Updated resistance to: 10.08 and support to: 9.825
+2025-07-21 10:53:06 INFO: {'BYON': {   'close': 10.0,
+    'high': 10.0,
+    'low': 10.0,
+    'open': 10.0,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 235.0,
+    'vwap': 10.0}}
+2025-07-21 10:53:06 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:53:06 INFO: Current average volume is: 301.42
+2025-07-21 10:53:06 INFO: Updated resistance to: 10.08 and support to: 9.825
+2025-07-21 10:56:06 INFO: {'BYON': {   'close': 9.97,
+    'high': 9.97,
+    'low': 9.97,
+    'open': 9.97,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 612.0,
+    'vwap': 9.97}}
+2025-07-21 10:56:06 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:56:06 INFO: Current average volume is: 316.95
+2025-07-21 10:56:06 INFO: Updated resistance to: 10.08 and support to: 9.825
+2025-07-21 10:57:06 INFO: {'BYON': {   'close': 10.13,
+    'high': 10.13,
+    'low': 9.995,
+    'open': 9.995,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 547.0,
+    'vwap': 10.025}}
+2025-07-21 10:57:06 INFO: Current resistance is: 10.08 and support is: 9.825
+2025-07-21 10:57:06 INFO: Current average volume is: 327.9
+2025-07-21 10:57:06 INFO: The Current Close 10.13 is above the resistance...
+2025-07-21 10:57:06 INFO: Updated resistance to: 10.13 and support to: 9.825
+2025-07-21 10:58:06 INFO: {'BYON': {   'close': 10.07,
+    'high': 10.125,
+    'low': 10.07,
+    'open': 10.125,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1006.0,
+    'vwap': 10.110714}}
+2025-07-21 10:58:06 INFO: Current resistance is: 10.13 and support is: 9.825
+2025-07-21 10:58:06 INFO: Current average volume is: 358.73
+2025-07-21 10:58:06 INFO: Updated resistance to: 10.13 and support to: 9.825
+2025-07-21 10:59:06 INFO: {'BYON': {   'close': 10.035,
+    'high': 10.07,
+    'low': 10.035,
+    'open': 10.07,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 10.0525}}
+2025-07-21 10:59:06 INFO: Current resistance is: 10.13 and support is: 9.825
+2025-07-21 10:59:06 INFO: Current average volume is: 351.91
+2025-07-21 10:59:06 INFO: Updated resistance to: 10.13 and support to: 9.825
+2025-07-21 11:00:07 INFO: {'BYON': {   'close': 10.04,
+    'high': 10.04,
+    'low': 10.04,
+    'open': 10.04,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 294.0,
+    'vwap': 10.04}}
+2025-07-21 11:00:07 INFO: Current resistance is: 10.13 and support is: 9.825
+2025-07-21 11:00:07 INFO: Current average volume is: 349.5
+2025-07-21 11:00:07 INFO: Updated resistance to: 10.13 and support to: 9.825
+2025-07-21 11:02:07 INFO: {'BYON': {   'close': 10.08,
+    'high': 10.08,
+    'low': 10.065,
+    'open': 10.065,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 10.0725}}
+2025-07-21 11:02:07 INFO: Current resistance is: 10.13 and support is: 9.825
+2025-07-21 11:02:07 INFO: Current average volume is: 343.92
+2025-07-21 11:02:07 INFO: Updated resistance to: 10.13 and support to: 9.825
+2025-07-21 11:04:07 INFO: {'BYON': {   'close': 10.07,
+    'high': 10.07,
+    'low': 10.06,
+    'open': 10.06,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 10.065}}
+2025-07-21 11:04:07 INFO: Current resistance is: 10.13 and support is: 9.825
+2025-07-21 11:04:07 INFO: Current average volume is: 349.92
+2025-07-21 11:04:07 INFO: Updated resistance to: 10.13 and support to: 9.825
+2025-07-21 11:05:07 INFO: {'BYON': {   'close': 10.095,
+    'high': 10.095,
+    'low': 10.09,
+    'open': 10.09,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 222.0,
+    'vwap': 10.0925}}
+2025-07-21 11:05:07 INFO: Current resistance is: 10.13 and support is: 9.825
+2025-07-21 11:05:07 INFO: Current average volume is: 345.19
+2025-07-21 11:05:07 INFO: Updated resistance to: 10.13 and support to: 9.825
+2025-07-21 11:06:07 INFO: {'BYON': {   'close': 10.08,
+    'high': 10.08,
+    'low': 10.08,
+    'open': 10.08,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 10.08}}
+2025-07-21 11:06:07 INFO: Current resistance is: 10.13 and support is: 9.825
+2025-07-21 11:06:07 INFO: Current average volume is: 343.57
+2025-07-21 11:06:07 INFO: Updated resistance to: 10.13 and support to: 9.825
+2025-07-21 11:10:08 INFO: {'BYON': {   'close': 10.17,
+    'high': 10.18,
+    'low': 10.15,
+    'open': 10.15,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1110.0,
+    'vwap': 10.1675}}
+2025-07-21 11:10:08 INFO: Current resistance is: 10.13 and support is: 9.825
+2025-07-21 11:10:08 INFO: Current average volume is: 370.0
+2025-07-21 11:10:08 INFO: The Current Close 10.17 is above the resistance...
+2025-07-21 11:10:08 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:12:08 INFO: {'BYON': {   'close': 10.11,
+    'high': 10.12,
+    'low': 10.09,
+    'open': 10.12,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 531.0,
+    'vwap': 10.112}}
+2025-07-21 11:12:08 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:12:08 INFO: Current average volume is: 375.37
+2025-07-21 11:12:08 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:14:09 INFO: {'BYON': {   'close': 10.11,
+    'high': 10.11,
+    'low': 10.105,
+    'open': 10.105,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 281.0,
+    'vwap': 10.1075}}
+2025-07-21 11:14:09 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:14:09 INFO: Current average volume is: 372.32
+2025-07-21 11:14:09 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:15:09 INFO: {'BYON': {   'close': 10.065,
+    'high': 10.09,
+    'low': 10.065,
+    'open': 10.09,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1214.0,
+    'vwap': 10.086124}}
+2025-07-21 11:15:09 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:15:09 INFO: Current average volume is: 398.62
+2025-07-21 11:15:09 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:16:09 INFO: {'BYON': {   'close': 10.045,
+    'high': 10.05,
+    'low': 10.04,
+    'open': 10.04,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1373.0,
+    'vwap': 10.048566}}
+2025-07-21 11:16:09 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:16:09 INFO: Current average volume is: 428.15
+2025-07-21 11:16:09 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:17:09 INFO: {'BYON': {   'close': 10.075,
+    'high': 10.075,
+    'low': 10.055,
+    'open': 10.055,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 10.065}}
+2025-07-21 11:17:09 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:17:09 INFO: Current average volume is: 421.44
+2025-07-21 11:17:09 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:18:09 INFO: {'BYON': {   'close': 10.07,
+    'high': 10.07,
+    'low': 10.07,
+    'open': 10.07,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 10.07}}
+2025-07-21 11:18:09 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:18:09 INFO: Current average volume is: 412.83
+2025-07-21 11:18:09 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:21:09 INFO: {'BYON': {   'close': 10.1,
+    'high': 10.1,
+    'low': 10.1,
+    'open': 10.1,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 199.0,
+    'vwap': 10.1}}
+2025-07-21 11:21:09 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:21:09 INFO: Current average volume is: 406.89
+2025-07-21 11:21:09 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:22:10 INFO: {'BYON': {   'close': 10.06,
+    'high': 10.06,
+    'low': 10.06,
+    'open': 10.06,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 595.0,
+    'vwap': 10.06}}
+2025-07-21 11:22:10 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:22:10 INFO: Current average volume is: 411.97
+2025-07-21 11:22:10 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:24:10 INFO: {'BYON': {   'close': 10.115,
+    'high': 10.14,
+    'low': 10.11,
+    'open': 10.135,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2536.0,
+    'vwap': 10.123125}}
+2025-07-21 11:24:10 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:24:10 INFO: Current average volume is: 467.87
+2025-07-21 11:24:10 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:26:10 INFO: {'BYON': {   'close': 10.14,
+    'high': 10.15,
+    'low': 10.13,
+    'open': 10.13,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 543.0,
+    'vwap': 10.144}}
+2025-07-21 11:26:10 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:26:10 INFO: Current average volume is: 469.79
+2025-07-21 11:26:10 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:28:10 INFO: {'BYON': {   'close': 10.12,
+    'high': 10.12,
+    'low': 10.12,
+    'open': 10.12,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 261.0,
+    'vwap': 10.12}}
+2025-07-21 11:28:10 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:28:10 INFO: Current average volume is: 464.57
+2025-07-21 11:28:10 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:33:11 INFO: {'BYON': {   'close': 10.14,
+    'high': 10.14,
+    'low': 10.14,
+    'open': 10.14,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 273.0,
+    'vwap': 10.14}}
+2025-07-21 11:33:11 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:33:11 INFO: Current average volume is: 459.9
+2025-07-21 11:33:11 INFO: Updated resistance to: 10.18 and support to: 9.825
+2025-07-21 11:36:11 INFO: {'BYON': {   'close': 10.19,
+    'high': 10.19,
+    'low': 10.18,
+    'open': 10.18,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 10.185}}
+2025-07-21 11:36:11 INFO: Current resistance is: 10.18 and support is: 9.825
+2025-07-21 11:36:11 INFO: Current average volume is: 453.71
+2025-07-21 11:36:11 INFO: The Current Close 10.19 is above the resistance...
+2025-07-21 11:36:11 INFO: Updated resistance to: 10.19 and support to: 9.825
+2025-07-21 11:39:12 INFO: {'BYON': {   'close': 10.175,
+    'high': 10.2,
+    'low': 10.175,
+    'open': 10.2,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 498.0,
+    'vwap': 10.19}}
+2025-07-21 11:39:12 INFO: Current resistance is: 10.19 and support is: 9.825
+2025-07-21 11:39:12 INFO: Current average volume is: 454.74
+2025-07-21 11:39:12 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:40:12 INFO: {'BYON': {   'close': 10.165,
+    'high': 10.165,
+    'low': 10.155,
+    'open': 10.165,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 10.1625}}
+2025-07-21 11:40:12 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:40:12 INFO: Current average volume is: 453.5
+2025-07-21 11:40:12 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:41:12 INFO: {'BYON': {   'close': 10.1,
+    'high': 10.15,
+    'low': 10.1,
+    'open': 10.15,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 712.0,
+    'vwap': 10.128571}}
+2025-07-21 11:41:12 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:41:12 INFO: Current average volume is: 459.24
+2025-07-21 11:41:12 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:49:13 INFO: {'BYON': {   'close': 10.105,
+    'high': 10.105,
+    'low': 10.105,
+    'open': 10.105,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 179.0,
+    'vwap': 10.105}}
+2025-07-21 11:49:13 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:49:13 INFO: Current average volume is: 453.15
+2025-07-21 11:49:13 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:50:14 INFO: {'BYON': {   'close': 10.09,
+    'high': 10.09,
+    'low': 10.09,
+    'open': 10.09,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 110.0,
+    'vwap': 10.09}}
+2025-07-21 11:50:14 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:50:14 INFO: Current average volume is: 445.85
+2025-07-21 11:50:14 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:51:14 INFO: {'BYON': {   'close': 10.085,
+    'high': 10.085,
+    'low': 10.08,
+    'open': 10.08,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 344.0,
+    'vwap': 10.082561}}
+2025-07-21 11:51:14 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:51:14 INFO: Current average volume is: 443.73
+2025-07-21 11:51:14 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:55:14 INFO: {'BYON': {   'close': 10.07,
+    'high': 10.07,
+    'low': 10.05,
+    'open': 10.05,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1716.0,
+    'vwap': 10.051254}}
+2025-07-21 11:55:14 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:55:14 INFO: Current average volume is: 469.69
+2025-07-21 11:55:14 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:56:14 INFO: {'BYON': {   'close': 10.06,
+    'high': 10.065,
+    'low': 10.06,
+    'open': 10.065,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 344.0,
+    'vwap': 10.062619}}
+2025-07-21 11:56:14 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:56:14 INFO: Current average volume is: 467.18
+2025-07-21 11:56:14 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:57:14 INFO: {'BYON': {   'close': 10.045,
+    'high': 10.05,
+    'low': 10.045,
+    'open': 10.05,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 310.0,
+    'vwap': 10.048226}}
+2025-07-21 11:57:14 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:57:14 INFO: Current average volume is: 464.1
+2025-07-21 11:57:14 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:58:15 INFO: {'BYON': {   'close': 9.96,
+    'high': 9.99,
+    'low': 9.96,
+    'open': 9.99,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 417.0,
+    'vwap': 9.9825}}
+2025-07-21 11:58:15 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:58:15 INFO: Current average volume is: 463.19
+2025-07-21 11:58:15 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 11:59:15 INFO: {'BYON': {   'close': 9.88,
+    'high': 9.93,
+    'low': 9.88,
+    'open': 9.93,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 440.0,
+    'vwap': 9.906829}}
+2025-07-21 11:59:15 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 11:59:15 INFO: Current average volume is: 462.75
+2025-07-21 11:59:15 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:01:15 INFO: {'BYON': {   'close': 9.91,
+    'high': 9.91,
+    'low': 9.91,
+    'open': 9.91,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 310.0,
+    'vwap': 9.91}}
+2025-07-21 12:01:15 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:01:15 INFO: Current average volume is: 459.93
+2025-07-21 12:01:15 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:04:15 INFO: {'BYON': {   'close': 9.925,
+    'high': 9.925,
+    'low': 9.925,
+    'open': 9.925,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.925}}
+2025-07-21 12:04:15 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:04:15 INFO: Current average volume is: 453.38
+2025-07-21 12:04:15 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:07:16 INFO: {'BYON': {   'close': 9.96,
+    'high': 9.99,
+    'low': 9.96,
+    'open': 9.99,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 380.0,
+    'vwap': 9.97}}
+2025-07-21 12:07:16 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:07:16 INFO: Current average volume is: 452.07
+2025-07-21 12:07:16 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:08:16 INFO: {'BYON': {   'close': 9.98,
+    'high': 9.98,
+    'low': 9.97,
+    'open': 9.97,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.975}}
+2025-07-21 12:08:16 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:08:16 INFO: Current average volume is: 447.65
+2025-07-21 12:08:16 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:09:16 INFO: {'BYON': {   'close': 9.99,
+    'high': 9.99,
+    'low': 9.99,
+    'open': 9.99,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 104.0,
+    'vwap': 9.99}}
+2025-07-21 12:09:16 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:09:16 INFO: Current average volume is: 441.72
+2025-07-21 12:09:16 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:10:16 INFO: {'BYON': {   'close': 9.975,
+    'high': 9.975,
+    'low': 9.975,
+    'open': 9.975,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 557.0,
+    'vwap': 9.975}}
+2025-07-21 12:10:16 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:10:16 INFO: Current average volume is: 443.68
+2025-07-21 12:10:16 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:11:16 INFO: {'BYON': {   'close': 9.965,
+    'high': 9.965,
+    'low': 9.965,
+    'open': 9.965,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 243.0,
+    'vwap': 9.965}}
+2025-07-21 12:11:16 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:11:16 INFO: Current average volume is: 440.33
+2025-07-21 12:11:16 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:12:16 INFO: {'BYON': {   'close': 9.96,
+    'high': 9.96,
+    'low': 9.96,
+    'open': 9.96,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.96}}
+2025-07-21 12:12:16 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:12:16 INFO: Current average volume is: 434.75
+2025-07-21 12:12:16 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:13:17 INFO: {'BYON': {   'close': 9.995,
+    'high': 9.995,
+    'low': 9.995,
+    'open': 9.995,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.995}}
+2025-07-21 12:13:17 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:13:17 INFO: Current average volume is: 429.35
+2025-07-21 12:13:17 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:17:17 INFO: {'BYON': {   'close': 9.985,
+    'high': 9.985,
+    'low': 9.985,
+    'open': 9.985,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 235.0,
+    'vwap': 9.985}}
+2025-07-21 12:17:17 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:17:17 INFO: Current average volume is: 426.27
+2025-07-21 12:17:17 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:18:17 INFO: {'BYON': {   'close': 9.975,
+    'high': 9.975,
+    'low': 9.975,
+    'open': 9.975,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1072.0,
+    'vwap': 9.975}}
+2025-07-21 12:18:17 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:18:17 INFO: Current average volume is: 436.36
+2025-07-21 12:18:17 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:20:17 INFO: {'BYON': {   'close': 9.955,
+    'high': 9.955,
+    'low': 9.93,
+    'open': 9.93,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 222.0,
+    'vwap': 9.9425}}
+2025-07-21 12:20:17 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:20:17 INFO: Current average volume is: 433.06
+2025-07-21 12:20:17 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:22:18 INFO: {'BYON': {   'close': 9.925,
+    'high': 9.925,
+    'low': 9.925,
+    'open': 9.925,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 117.0,
+    'vwap': 9.925}}
+2025-07-21 12:22:18 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:22:18 INFO: Current average volume is: 428.27
+2025-07-21 12:22:18 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:26:18 INFO: {'BYON': {   'close': 9.89,
+    'high': 9.92,
+    'low': 9.89,
+    'open': 9.92,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 639.0,
+    'vwap': 9.900833}}
+2025-07-21 12:26:18 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:26:18 INFO: Current average volume is: 431.42
+2025-07-21 12:26:18 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:27:18 INFO: {'BYON': {   'close': 9.845,
+    'high': 9.85,
+    'low': 9.845,
+    'open': 9.85,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 510.0,
+    'vwap': 9.848226}}
+2025-07-21 12:27:18 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:27:18 INFO: Current average volume is: 432.57
+2025-07-21 12:27:18 INFO: Updated resistance to: 10.2 and support to: 9.825
+2025-07-21 12:30:19 INFO: {'BYON': {   'close': 9.8,
+    'high': 9.83,
+    'low': 9.8,
+    'open': 9.83,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 501.0,
+    'vwap': 9.819}}
+2025-07-21 12:30:19 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:30:19 INFO: Current average volume is: 433.57
+2025-07-21 12:30:19 INFO: close price: 9.8 just dropped below support of 9.825...
+2025-07-21 12:31:19 INFO: {'BYON': {   'close': 9.82,
+    'high': 9.82,
+    'low': 9.82,
+    'open': 9.82,
+    'symbol': 'BYON',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.82}}
+2025-07-21 12:31:19 INFO: Current resistance is: 10.2 and support is: 9.825
+2025-07-21 12:31:19 INFO: Current average volume is: 428.8
+2025-07-21 12:31:19 INFO: Closing price: 9.82 just dropped below support 9.825 again...ending trade...

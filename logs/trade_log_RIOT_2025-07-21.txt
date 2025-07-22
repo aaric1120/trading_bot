@@ -1,0 +1,935 @@
+2025-07-21 12:15:04 INFO: === Strategy started ===
+2025-07-21 12:15:04 INFO: Start collecting the current highs/lows for: RIOT
+2025-07-21 12:15:05 INFO: Most recent stock data: {'RIOT': {   'close': 14.69,
+    'high': 14.7,
+    'low': 14.655,
+    'open': 14.655,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 351.0,
+    'vwap': 14.681667}}
+2025-07-21 12:16:05 INFO: Most recent stock data: {'RIOT': {   'close': 14.75,
+    'high': 14.755,
+    'low': 14.72,
+    'open': 14.72,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2875.0,
+    'vwap': 14.739245}}
+2025-07-21 12:17:05 INFO: Most recent stock data: {'RIOT': {   'close': 14.62,
+    'high': 14.75,
+    'low': 14.62,
+    'open': 14.75,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2949.0,
+    'vwap': 14.674469}}
+2025-07-21 12:18:05 INFO: Most recent stock data: {'RIOT': {   'close': 14.605,
+    'high': 14.63,
+    'low': 14.605,
+    'open': 14.63,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 596.0,
+    'vwap': 14.618932}}
+2025-07-21 12:20:05 INFO: Most recent stock data: {'RIOT': {   'close': 14.66,
+    'high': 14.66,
+    'low': 14.635,
+    'open': 14.635,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1449.0,
+    'vwap': 14.658214}}
+2025-07-21 12:22:05 INFO: Most recent stock data: {'RIOT': {   'close': 14.58,
+    'high': 14.61,
+    'low': 14.58,
+    'open': 14.61,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2299.0,
+    'vwap': 14.596933}}
+2025-07-21 12:23:06 INFO: Most recent stock data: {'RIOT': {   'close': 14.59,
+    'high': 14.59,
+    'low': 14.565,
+    'open': 14.58,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1120.0,
+    'vwap': 14.575811}}
+2025-07-21 12:24:06 INFO: Most recent stock data: {'RIOT': {   'close': 14.585,
+    'high': 14.6,
+    'low': 14.585,
+    'open': 14.6,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2260.0,
+    'vwap': 14.598182}}
+2025-07-21 12:25:06 INFO: Most recent stock data: {'RIOT': {   'close': 14.605,
+    'high': 14.605,
+    'low': 14.565,
+    'open': 14.565,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1800.0,
+    'vwap': 14.589525}}
+2025-07-21 12:26:06 INFO: Most recent stock data: {'RIOT': {   'close': 14.62,
+    'high': 14.62,
+    'low': 14.62,
+    'open': 14.62,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 345.0,
+    'vwap': 14.62}}
+2025-07-21 12:27:06 INFO: Most recent stock data: {'RIOT': {   'close': 14.605,
+    'high': 14.605,
+    'low': 14.605,
+    'open': 14.605,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 14.605}}
+2025-07-21 12:27:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 12:27:06 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-21 12:28:06 INFO: {'RIOT': {   'close': 14.69,
+    'high': 14.69,
+    'low': 14.625,
+    'open': 14.625,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2828.0,
+    'vwap': 14.67411}}
+2025-07-21 12:28:06 INFO: Current resistance is: 14.755 and support is: 14.565
+2025-07-21 12:28:06 INFO: Current average volume is: 1551.75
+2025-07-21 12:28:06 INFO: Updated resistance to: 14.755 and support to: 14.565
+2025-07-21 12:29:07 INFO: {'RIOT': {   'close': 14.68,
+    'high': 14.715,
+    'low': 14.68,
+    'open': 14.715,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 482.0,
+    'vwap': 14.6925}}
+2025-07-21 12:29:07 INFO: Current resistance is: 14.755 and support is: 14.565
+2025-07-21 12:29:07 INFO: Current average volume is: 1469.46
+2025-07-21 12:29:07 INFO: Updated resistance to: 14.755 and support to: 14.565
+2025-07-21 12:30:07 INFO: {'RIOT': {   'close': 14.65,
+    'high': 14.685,
+    'low': 14.65,
+    'open': 14.685,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1332.0,
+    'vwap': 14.664545}}
+2025-07-21 12:30:07 INFO: Current resistance is: 14.755 and support is: 14.565
+2025-07-21 12:30:07 INFO: Current average volume is: 1459.64
+2025-07-21 12:30:07 INFO: Updated resistance to: 14.755 and support to: 14.565
+2025-07-21 12:31:07 INFO: {'RIOT': {   'close': 14.67,
+    'high': 14.67,
+    'low': 14.655,
+    'open': 14.655,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 329.0,
+    'vwap': 14.664444}}
+2025-07-21 12:31:07 INFO: Current resistance is: 14.755 and support is: 14.565
+2025-07-21 12:31:07 INFO: Current average volume is: 1384.27
+2025-07-21 12:31:07 INFO: Updated resistance to: 14.755 and support to: 14.565
+2025-07-21 12:32:07 INFO: {'RIOT': {   'close': 14.72,
+    'high': 14.725,
+    'low': 14.695,
+    'open': 14.7,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2084.0,
+    'vwap': 14.703478}}
+2025-07-21 12:32:07 INFO: Current resistance is: 14.755 and support is: 14.565
+2025-07-21 12:32:07 INFO: Current average volume is: 1428.0
+2025-07-21 12:32:07 INFO: Updated resistance to: 14.755 and support to: 14.565
+2025-07-21 12:33:07 INFO: {'RIOT': {   'close': 14.75,
+    'high': 14.765,
+    'low': 14.735,
+    'open': 14.755,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 4347.0,
+    'vwap': 14.750118}}
+2025-07-21 12:33:07 INFO: Current resistance is: 14.755 and support is: 14.565
+2025-07-21 12:33:07 INFO: Current average volume is: 1599.71
+2025-07-21 12:33:07 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:34:07 INFO: {'RIOT': {   'close': 14.72,
+    'high': 14.74,
+    'low': 14.72,
+    'open': 14.74,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1490.0,
+    'vwap': 14.730769}}
+2025-07-21 12:34:07 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:34:07 INFO: Current average volume is: 1593.61
+2025-07-21 12:34:07 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:35:07 INFO: {'RIOT': {   'close': 14.735,
+    'high': 14.735,
+    'low': 14.715,
+    'open': 14.715,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 307.0,
+    'vwap': 14.725}}
+2025-07-21 12:35:07 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:35:07 INFO: Current average volume is: 1525.89
+2025-07-21 12:35:07 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:36:07 INFO: {'RIOT': {   'close': 14.715,
+    'high': 14.75,
+    'low': 14.705,
+    'open': 14.745,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 3728.0,
+    'vwap': 14.729262}}
+2025-07-21 12:36:07 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:36:07 INFO: Current average volume is: 1636.0
+2025-07-21 12:36:07 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:37:08 INFO: {'RIOT': {   'close': 14.75,
+    'high': 14.76,
+    'low': 14.72,
+    'open': 14.72,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1624.0,
+    'vwap': 14.72625}}
+2025-07-21 12:37:08 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:37:08 INFO: Current average volume is: 1635.43
+2025-07-21 12:37:08 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:38:08 INFO: {'RIOT': {   'close': 14.725,
+    'high': 14.75,
+    'low': 14.725,
+    'open': 14.75,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 329.0,
+    'vwap': 14.736682}}
+2025-07-21 12:38:08 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:38:08 INFO: Current average volume is: 1576.05
+2025-07-21 12:38:08 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:39:08 INFO: {'RIOT': {   'close': 14.73,
+    'high': 14.73,
+    'low': 14.73,
+    'open': 14.73,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 118.0,
+    'vwap': 14.73}}
+2025-07-21 12:39:08 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:39:08 INFO: Current average volume is: 1512.65
+2025-07-21 12:39:08 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:40:08 INFO: {'RIOT': {   'close': 14.645,
+    'high': 14.7,
+    'low': 14.645,
+    'open': 14.7,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1691.0,
+    'vwap': 14.687254}}
+2025-07-21 12:40:08 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:40:08 INFO: Current average volume is: 1520.08
+2025-07-21 12:40:08 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:41:08 INFO: {'RIOT': {   'close': 14.605,
+    'high': 14.62,
+    'low': 14.605,
+    'open': 14.62,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1119.0,
+    'vwap': 14.618488}}
+2025-07-21 12:41:08 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:41:08 INFO: Current average volume is: 1504.04
+2025-07-21 12:41:08 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:42:08 INFO: {'RIOT': {   'close': 14.65,
+    'high': 14.65,
+    'low': 14.63,
+    'open': 14.64,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1179.0,
+    'vwap': 14.640858}}
+2025-07-21 12:42:08 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:42:08 INFO: Current average volume is: 1491.54
+2025-07-21 12:42:08 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:44:08 INFO: {'RIOT': {   'close': 14.67,
+    'high': 14.67,
+    'low': 14.66,
+    'open': 14.66,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1958.0,
+    'vwap': 14.664839}}
+2025-07-21 12:44:08 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:44:08 INFO: Current average volume is: 1508.81
+2025-07-21 12:44:08 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:45:09 INFO: {'RIOT': {   'close': 14.61,
+    'high': 14.65,
+    'low': 14.61,
+    'open': 14.65,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 3290.0,
+    'vwap': 14.625625}}
+2025-07-21 12:45:09 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:45:09 INFO: Current average volume is: 1572.43
+2025-07-21 12:45:09 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:46:09 INFO: {'RIOT': {   'close': 14.63,
+    'high': 14.63,
+    'low': 14.625,
+    'open': 14.625,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 923.0,
+    'vwap': 14.629444}}
+2025-07-21 12:46:09 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:46:09 INFO: Current average volume is: 1550.03
+2025-07-21 12:46:09 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:48:09 INFO: {'RIOT': {   'close': 14.6,
+    'high': 14.625,
+    'low': 14.6,
+    'open': 14.625,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2128.0,
+    'vwap': 14.601235}}
+2025-07-21 12:48:09 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:48:09 INFO: Current average volume is: 1569.3
+2025-07-21 12:48:09 INFO: Updated resistance to: 14.765 and support to: 14.565
+2025-07-21 12:49:09 INFO: {'RIOT': {   'close': 14.57,
+    'high': 14.57,
+    'low': 14.55,
+    'open': 14.57,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2325.0,
+    'vwap': 14.559318}}
+2025-07-21 12:49:09 INFO: Current resistance is: 14.765 and support is: 14.565
+2025-07-21 12:49:09 INFO: Current average volume is: 1593.68
+2025-07-21 12:49:09 INFO: Updated resistance to: 14.765 and support to: 14.55
+2025-07-21 12:51:09 INFO: {'RIOT': {   'close': 14.61,
+    'high': 14.61,
+    'low': 14.59,
+    'open': 14.59,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1129.0,
+    'vwap': 14.596}}
+2025-07-21 12:51:09 INFO: Current resistance is: 14.765 and support is: 14.55
+2025-07-21 12:51:09 INFO: Current average volume is: 1579.16
+2025-07-21 12:51:09 INFO: Updated resistance to: 14.765 and support to: 14.55
+2025-07-21 12:52:09 INFO: {'RIOT': {   'close': 14.66,
+    'high': 14.66,
+    'low': 14.61,
+    'open': 14.61,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2181.0,
+    'vwap': 14.64}}
+2025-07-21 12:52:09 INFO: Current resistance is: 14.765 and support is: 14.55
+2025-07-21 12:52:09 INFO: Current average volume is: 1597.39
+2025-07-21 12:52:09 INFO: Updated resistance to: 14.765 and support to: 14.55
+2025-07-21 12:53:10 INFO: {'RIOT': {   'close': 14.65,
+    'high': 14.65,
+    'low': 14.65,
+    'open': 14.65,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1960.0,
+    'vwap': 14.65}}
+2025-07-21 12:53:10 INFO: Current resistance is: 14.765 and support is: 14.55
+2025-07-21 12:53:10 INFO: Current average volume is: 1608.06
+2025-07-21 12:53:10 INFO: Updated resistance to: 14.765 and support to: 14.55
+2025-07-21 12:54:10 INFO: {'RIOT': {   'close': 14.62,
+    'high': 14.62,
+    'low': 14.62,
+    'open': 14.62,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 311.0,
+    'vwap': 14.62}}
+2025-07-21 12:54:10 INFO: Current resistance is: 14.765 and support is: 14.55
+2025-07-21 12:54:10 INFO: Current average volume is: 1571.0
+2025-07-21 12:54:10 INFO: Updated resistance to: 14.765 and support to: 14.55
+2025-07-21 12:55:10 INFO: {'RIOT': {   'close': 14.59,
+    'high': 14.59,
+    'low': 14.59,
+    'open': 14.59,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1000.0,
+    'vwap': 14.59}}
+2025-07-21 12:55:10 INFO: Current resistance is: 14.765 and support is: 14.55
+2025-07-21 12:55:10 INFO: Current average volume is: 1555.14
+2025-07-21 12:55:10 INFO: Updated resistance to: 14.765 and support to: 14.55
+2025-07-21 12:57:10 INFO: {'RIOT': {   'close': 14.54,
+    'high': 14.56,
+    'low': 14.54,
+    'open': 14.56,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 885.0,
+    'vwap': 14.548258}}
+2025-07-21 12:57:10 INFO: Current resistance is: 14.765 and support is: 14.55
+2025-07-21 12:57:10 INFO: Current average volume is: 1537.03
+2025-07-21 12:57:10 INFO: close price: 14.54 just dropped below support of 14.55...
+2025-07-21 12:58:10 INFO: {'RIOT': {   'close': 14.49,
+    'high': 14.5,
+    'low': 14.48,
+    'open': 14.5,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 5956.0,
+    'vwap': 14.488055}}
+2025-07-21 12:58:10 INFO: Current resistance is: 14.765 and support is: 14.55
+2025-07-21 12:58:10 INFO: Current average volume is: 1653.32
+2025-07-21 12:58:10 INFO: Closing price: 14.49 just dropped below support 14.55 again...ending trade...
+2025-07-21 14:30:06 INFO: === Strategy started ===
+2025-07-21 14:30:06 INFO: Start collecting the current highs/lows for: RIOT
+2025-07-21 14:30:06 INFO: Most recent stock data: {'RIOT': {   'close': 14.49,
+    'high': 14.5,
+    'low': 14.48,
+    'open': 14.5,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 595.0,
+    'vwap': 14.491681}}
+2025-07-21 14:31:06 INFO: Most recent stock data: {'RIOT': {   'close': 14.475,
+    'high': 14.49,
+    'low': 14.475,
+    'open': 14.49,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 3014.0,
+    'vwap': 14.4825}}
+2025-07-21 14:32:06 INFO: Most recent stock data: {'RIOT': {   'close': 14.47,
+    'high': 14.47,
+    'low': 14.465,
+    'open': 14.465,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 347.0,
+    'vwap': 14.466471}}
+2025-07-21 14:33:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.43,
+    'high': 14.455,
+    'low': 14.43,
+    'open': 14.455,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1569.0,
+    'vwap': 14.437423}}
+2025-07-21 14:34:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.425,
+    'high': 14.43,
+    'low': 14.425,
+    'open': 14.43,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 880.0,
+    'vwap': 14.428278}}
+2025-07-21 14:35:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.44,
+    'high': 14.45,
+    'low': 14.44,
+    'open': 14.45,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 494.0,
+    'vwap': 14.443151}}
+2025-07-21 14:36:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.46,
+    'high': 14.46,
+    'low': 14.45,
+    'open': 14.45,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 805.0,
+    'vwap': 14.453655}}
+2025-07-21 14:38:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.4,
+    'high': 14.41,
+    'low': 14.39,
+    'open': 14.41,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 6347.0,
+    'vwap': 14.401297}}
+2025-07-21 14:39:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.44,
+    'high': 14.44,
+    'low': 14.44,
+    'open': 14.44,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1290.0,
+    'vwap': 14.44}}
+2025-07-21 14:40:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.44,
+    'high': 14.445,
+    'low': 14.435,
+    'open': 14.435,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2031.0,
+    'vwap': 14.439598}}
+2025-07-21 14:41:08 INFO: Most recent stock data: {'RIOT': {   'close': 14.41,
+    'high': 14.41,
+    'low': 14.41,
+    'open': 14.41,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 235.0,
+    'vwap': 14.41}}
+2025-07-21 14:41:08 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 14:41:08 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-21 14:42:08 INFO: {'RIOT': {   'close': 14.425,
+    'high': 14.425,
+    'low': 14.425,
+    'open': 14.425,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 281.0,
+    'vwap': 14.425}}
+2025-07-21 14:42:08 INFO: Current resistance is: 14.5 and support is: 14.39
+2025-07-21 14:42:08 INFO: Current average volume is: 1441.08
+2025-07-21 14:42:08 INFO: Updated resistance to: 14.5 and support to: 14.39
+2025-07-21 14:43:08 INFO: {'RIOT': {   'close': 14.41,
+    'high': 14.41,
+    'low': 14.41,
+    'open': 14.41,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2357.0,
+    'vwap': 14.41}}
+2025-07-21 14:43:08 INFO: Current resistance is: 14.5 and support is: 14.39
+2025-07-21 14:43:08 INFO: Current average volume is: 1511.54
+2025-07-21 14:43:08 INFO: Updated resistance to: 14.5 and support to: 14.39
+2025-07-21 14:45:08 INFO: {'RIOT': {   'close': 14.42,
+    'high': 14.42,
+    'low': 14.395,
+    'open': 14.4,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2280.0,
+    'vwap': 14.404081}}
+2025-07-21 14:45:08 INFO: Current resistance is: 14.5 and support is: 14.39
+2025-07-21 14:45:08 INFO: Current average volume is: 1566.43
+2025-07-21 14:45:08 INFO: Updated resistance to: 14.5 and support to: 14.39
+2025-07-21 14:46:08 INFO: {'RIOT': {   'close': 14.41,
+    'high': 14.41,
+    'low': 14.39,
+    'open': 14.4,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2775.0,
+    'vwap': 14.397236}}
+2025-07-21 14:46:08 INFO: Current resistance is: 14.5 and support is: 14.39
+2025-07-21 14:46:08 INFO: Current average volume is: 1647.0
+2025-07-21 14:46:08 INFO: Updated resistance to: 14.5 and support to: 14.39
+2025-07-21 14:47:09 INFO: {'RIOT': {   'close': 14.375,
+    'high': 14.4,
+    'low': 14.37,
+    'open': 14.4,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1871.0,
+    'vwap': 14.387374}}
+2025-07-21 14:47:09 INFO: Current resistance is: 14.5 and support is: 14.39
+2025-07-21 14:47:09 INFO: Current average volume is: 1661.0
+2025-07-21 14:47:09 INFO: close price: 14.375 just dropped below support of 14.39...
+2025-07-21 14:48:09 INFO: {'RIOT': {   'close': 14.33,
+    'high': 14.34,
+    'low': 14.33,
+    'open': 14.33,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 4501.0,
+    'vwap': 14.332953}}
+2025-07-21 14:48:09 INFO: Current resistance is: 14.5 and support is: 14.39
+2025-07-21 14:48:09 INFO: Current average volume is: 1828.06
+2025-07-21 14:48:09 INFO: Closing price: 14.33 just dropped below support 14.39 again...ending trade...
+2025-07-21 15:00:06 INFO: === Strategy started ===
+2025-07-21 15:00:06 INFO: Start collecting the current highs/lows for: RIOT
+2025-07-21 15:00:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.215,
+    'high': 14.215,
+    'low': 14.185,
+    'open': 14.21,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 3663.0,
+    'vwap': 14.207175}}
+2025-07-21 15:01:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.22,
+    'high': 14.22,
+    'low': 14.22,
+    'open': 14.22,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2095.0,
+    'vwap': 14.22}}
+2025-07-21 15:03:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.21,
+    'high': 14.21,
+    'low': 14.19,
+    'open': 14.19,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 509.0,
+    'vwap': 14.195}}
+2025-07-21 15:04:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.25,
+    'high': 14.255,
+    'low': 14.22,
+    'open': 14.22,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1991.0,
+    'vwap': 14.238333}}
+2025-07-21 15:05:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.24,
+    'high': 14.27,
+    'low': 14.24,
+    'open': 14.255,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 4757.0,
+    'vwap': 14.257061}}
+2025-07-21 15:06:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.215,
+    'high': 14.23,
+    'low': 14.215,
+    'open': 14.23,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1104.0,
+    'vwap': 14.227273}}
+2025-07-21 15:07:07 INFO: Most recent stock data: {'RIOT': {   'close': 14.25,
+    'high': 14.305,
+    'low': 14.25,
+    'open': 14.3,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 4134.0,
+    'vwap': 14.284332}}
+2025-07-21 15:11:08 INFO: Most recent stock data: {'RIOT': {   'close': 14.24,
+    'high': 14.25,
+    'low': 14.23,
+    'open': 14.235,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1420.0,
+    'vwap': 14.239113}}
+2025-07-21 15:12:08 INFO: Most recent stock data: {'RIOT': {   'close': 14.29,
+    'high': 14.29,
+    'low': 14.235,
+    'open': 14.235,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2125.0,
+    'vwap': 14.265037}}
+2025-07-21 15:13:08 INFO: Most recent stock data: {'RIOT': {   'close': 14.29,
+    'high': 14.3,
+    'low': 14.26,
+    'open': 14.28,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2695.0,
+    'vwap': 14.280204}}
+2025-07-21 15:14:08 INFO: Most recent stock data: {'RIOT': {   'close': 14.335,
+    'high': 14.335,
+    'low': 14.31,
+    'open': 14.33,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1674.0,
+    'vwap': 14.321249}}
+2025-07-21 15:14:08 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 15:14:08 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-21 15:15:09 INFO: {'RIOT': {   'close': 14.35,
+    'high': 14.375,
+    'low': 14.34,
+    'open': 14.34,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 6606.0,
+    'vwap': 14.358137}}
+2025-07-21 15:15:09 INFO: Current resistance is: 14.335 and support is: 14.185
+2025-07-21 15:15:09 INFO: Current average volume is: 2425.83
+2025-07-21 15:15:09 INFO: The Current Close 14.35 is above the resistance...
+2025-07-21 15:15:09 INFO: Updated resistance to: 14.375 and support to: 14.185
+2025-07-21 15:17:09 INFO: {'RIOT': {   'close': 14.315,
+    'high': 14.36,
+    'low': 14.31,
+    'open': 14.345,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1445.0,
+    'vwap': 14.324691}}
+2025-07-21 15:17:09 INFO: Current resistance is: 14.375 and support is: 14.185
+2025-07-21 15:17:09 INFO: Current average volume is: 2350.38
+2025-07-21 15:17:09 INFO: Updated resistance to: 14.375 and support to: 14.185
+2025-07-21 15:19:10 INFO: {'RIOT': {   'close': 14.405,
+    'high': 14.405,
+    'low': 14.35,
+    'open': 14.355,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 9636.0,
+    'vwap': 14.375313}}
+2025-07-21 15:19:10 INFO: Current resistance is: 14.375 and support is: 14.185
+2025-07-21 15:19:10 INFO: Current average volume is: 2870.79
+2025-07-21 15:19:10 INFO: The Current Close 14.405 is above the resistance...
+2025-07-21 15:19:10 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:20:10 INFO: {'RIOT': {   'close': 14.315,
+    'high': 14.4,
+    'low': 14.315,
+    'open': 14.4,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 8618.0,
+    'vwap': 14.356184}}
+2025-07-21 15:20:10 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:20:10 INFO: Current average volume is: 3253.93
+2025-07-21 15:20:10 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:21:10 INFO: {'RIOT': {   'close': 14.295,
+    'high': 14.325,
+    'low': 14.295,
+    'open': 14.3,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 7032.0,
+    'vwap': 14.313935}}
+2025-07-21 15:21:10 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:21:10 INFO: Current average volume is: 3490.06
+2025-07-21 15:21:10 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:22:10 INFO: {'RIOT': {   'close': 14.32,
+    'high': 14.32,
+    'low': 14.305,
+    'open': 14.305,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1703.0,
+    'vwap': 14.313245}}
+2025-07-21 15:22:10 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:22:10 INFO: Current average volume is: 3384.94
+2025-07-21 15:22:10 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:23:10 INFO: {'RIOT': {   'close': 14.33,
+    'high': 14.33,
+    'low': 14.31,
+    'open': 14.315,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1682.0,
+    'vwap': 14.317962}}
+2025-07-21 15:23:10 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:23:10 INFO: Current average volume is: 3290.33
+2025-07-21 15:23:10 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:24:10 INFO: {'RIOT': {   'close': 14.35,
+    'high': 14.35,
+    'low': 14.33,
+    'open': 14.33,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 3423.0,
+    'vwap': 14.338063}}
+2025-07-21 15:24:10 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:24:10 INFO: Current average volume is: 3297.32
+2025-07-21 15:24:10 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:26:11 INFO: {'RIOT': {   'close': 14.315,
+    'high': 14.33,
+    'low': 14.315,
+    'open': 14.33,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1509.0,
+    'vwap': 14.327192}}
+2025-07-21 15:26:11 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:26:11 INFO: Current average volume is: 3207.9
+2025-07-21 15:26:11 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:27:11 INFO: {'RIOT': {   'close': 14.3,
+    'high': 14.315,
+    'low': 14.3,
+    'open': 14.315,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 4324.0,
+    'vwap': 14.302802}}
+2025-07-21 15:27:11 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:27:11 INFO: Current average volume is: 3261.05
+2025-07-21 15:27:11 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:28:11 INFO: {'RIOT': {   'close': 14.28,
+    'high': 14.31,
+    'low': 14.28,
+    'open': 14.31,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 2300.0,
+    'vwap': 14.288043}}
+2025-07-21 15:28:11 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:28:11 INFO: Current average volume is: 3217.36
+2025-07-21 15:28:11 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:29:11 INFO: {'RIOT': {   'close': 14.26,
+    'high': 14.285,
+    'low': 14.26,
+    'open': 14.28,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 6038.0,
+    'vwap': 14.274245}}
+2025-07-21 15:29:11 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:29:11 INFO: Current average volume is: 3340.0
+2025-07-21 15:29:11 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:30:11 INFO: {'RIOT': {   'close': 14.27,
+    'high': 14.27,
+    'low': 14.27,
+    'open': 14.27,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 699.0,
+    'vwap': 14.27}}
+2025-07-21 15:30:11 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:30:11 INFO: Current average volume is: 3229.96
+2025-07-21 15:30:11 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:33:11 INFO: {'RIOT': {   'close': 14.23,
+    'high': 14.26,
+    'low': 14.23,
+    'open': 14.25,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2130.0,
+    'vwap': 14.25176}}
+2025-07-21 15:33:11 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:33:11 INFO: Current average volume is: 3185.96
+2025-07-21 15:33:11 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:34:12 INFO: {'RIOT': {   'close': 14.22,
+    'high': 14.22,
+    'low': 14.22,
+    'open': 14.22,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 2500.0,
+    'vwap': 14.22}}
+2025-07-21 15:34:12 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:34:12 INFO: Current average volume is: 3159.58
+2025-07-21 15:34:12 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:36:12 INFO: {'RIOT': {   'close': 14.23,
+    'high': 14.235,
+    'low': 14.23,
+    'open': 14.23,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1385.0,
+    'vwap': 14.231404}}
+2025-07-21 15:36:12 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:36:12 INFO: Current average volume is: 3093.85
+2025-07-21 15:36:12 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:37:12 INFO: {'RIOT': {   'close': 14.2,
+    'high': 14.23,
+    'low': 14.2,
+    'open': 14.23,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1709.0,
+    'vwap': 14.219688}}
+2025-07-21 15:37:12 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:37:12 INFO: Current average volume is: 3044.39
+2025-07-21 15:37:12 INFO: Updated resistance to: 14.405 and support to: 14.185
+2025-07-21 15:38:12 INFO: {'RIOT': {   'close': 14.18,
+    'high': 14.18,
+    'low': 14.18,
+    'open': 14.18,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 4299.0,
+    'vwap': 14.18}}
+2025-07-21 15:38:12 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:38:12 INFO: Current average volume is: 3087.66
+2025-07-21 15:38:12 INFO: close price: 14.18 just dropped below support of 14.185...
+2025-07-21 15:40:12 INFO: {'RIOT': {   'close': 14.16,
+    'high': 14.19,
+    'low': 14.16,
+    'open': 14.19,
+    'symbol': 'RIOT',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 3781.0,
+    'vwap': 14.181549}}
+2025-07-21 15:40:12 INFO: Current resistance is: 14.405 and support is: 14.185
+2025-07-21 15:40:12 INFO: Current average volume is: 3110.77
+2025-07-21 15:40:12 INFO: Closing price: 14.16 just dropped below support 14.185 again...ending trade...

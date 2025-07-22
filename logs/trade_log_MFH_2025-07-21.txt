@@ -1,0 +1,443 @@
+2025-07-21 10:30:02 INFO: === Strategy started ===
+2025-07-21 10:30:02 INFO: Start collecting the current highs/lows for: MFH
+2025-07-21 10:30:03 INFO: Most recent stock data: {'MFH': {   'close': 5.45,
+    'high': 5.45,
+    'low': 5.45,
+    'open': 5.45,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 303.0,
+    'vwap': 5.45}}
+2025-07-21 10:38:04 INFO: Most recent stock data: {'MFH': {   'close': 5.23,
+    'high': 5.23,
+    'low': 5.23,
+    'open': 5.23,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 5.23}}
+2025-07-21 10:39:04 INFO: Most recent stock data: {'MFH': {   'close': 5.17,
+    'high': 5.17,
+    'low': 5.17,
+    'open': 5.17,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 172.0,
+    'vwap': 5.17}}
+2025-07-21 10:57:06 INFO: Most recent stock data: {'MFH': {   'close': 5.5,
+    'high': 5.52,
+    'low': 5.47,
+    'open': 5.47,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.496667}}
+2025-07-21 10:58:06 INFO: Most recent stock data: {'MFH': {   'close': 5.64,
+    'high': 5.68,
+    'low': 5.64,
+    'open': 5.65,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 5.655}}
+2025-07-21 10:59:06 INFO: Most recent stock data: {'MFH': {   'close': 5.63,
+    'high': 5.63,
+    'low': 5.63,
+    'open': 5.63,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 252.0,
+    'vwap': 5.63}}
+2025-07-21 11:06:07 INFO: Most recent stock data: {'MFH': {   'close': 5.8,
+    'high': 5.8,
+    'low': 5.8,
+    'open': 5.8,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 724.0,
+    'vwap': 5.8}}
+2025-07-21 11:07:07 INFO: Most recent stock data: {'MFH': {   'close': 5.99,
+    'high': 5.99,
+    'low': 5.97,
+    'open': 5.97,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 5.986}}
+2025-07-21 11:08:07 INFO: Most recent stock data: {'MFH': {   'close': 5.82,
+    'high': 5.82,
+    'low': 5.82,
+    'open': 5.82,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.82}}
+2025-07-21 11:21:09 INFO: Most recent stock data: {'MFH': {   'close': 5.69,
+    'high': 5.69,
+    'low': 5.69,
+    'open': 5.69,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.69}}
+2025-07-21 11:25:10 INFO: Most recent stock data: {'MFH': {   'close': 5.68,
+    'high': 5.68,
+    'low': 5.68,
+    'open': 5.68,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.68}}
+2025-07-21 11:25:10 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 11:25:10 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-21 11:31:10 INFO: {'MFH': {   'close': 5.65,
+    'high': 5.65,
+    'low': 5.65,
+    'open': 5.65,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 104.0,
+    'vwap': 5.65}}
+2025-07-21 11:31:10 INFO: Current resistance is: 6.208 and support is: 5.669
+2025-07-21 11:31:10 INFO: Current average volume is: 254.42
+2025-07-21 11:31:10 INFO: close price: 5.65 just dropped below support of 5.669...
+2025-07-21 11:43:12 INFO: {'MFH': {   'close': 5.66,
+    'high': 5.66,
+    'low': 5.66,
+    'open': 5.66,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 5.66}}
+2025-07-21 11:43:12 INFO: Current resistance is: 6.208 and support is: 5.669
+2025-07-21 11:43:12 INFO: Current average volume is: 265.62
+2025-07-21 11:43:12 INFO: Closing price: 5.66 just dropped below support 5.669 again...ending trade...
+2025-07-21 13:00:04 INFO: === Strategy started ===
+2025-07-21 13:00:04 INFO: Start collecting the current highs/lows for: MFH
+2025-07-21 13:00:04 INFO: Most recent stock data: {'MFH': {   'close': 5.1,
+    'high': 5.17,
+    'low': 5.1,
+    'open': 5.17,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 603.0,
+    'vwap': 5.156}}
+2025-07-21 13:01:05 INFO: Most recent stock data: {'MFH': {   'close': 4.95,
+    'high': 5.01,
+    'low': 4.95,
+    'open': 5.01,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 610.0,
+    'vwap': 4.981667}}
+2025-07-21 13:02:05 INFO: Most recent stock data: {'MFH': {   'close': 4.96,
+    'high': 4.97,
+    'low': 4.94,
+    'open': 4.94,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 900.0,
+    'vwap': 4.956667}}
+2025-07-21 13:04:05 INFO: Most recent stock data: {'MFH': {   'close': 4.96,
+    'high': 4.96,
+    'low': 4.955,
+    'open': 4.955,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 808.0,
+    'vwap': 4.9575}}
+2025-07-21 13:15:06 INFO: Most recent stock data: {'MFH': {   'close': 4.83,
+    'high': 4.885,
+    'low': 4.83,
+    'open': 4.885,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 4.8575}}
+2025-07-21 13:22:07 INFO: Most recent stock data: {'MFH': {   'close': 4.78,
+    'high': 4.78,
+    'low': 4.78,
+    'open': 4.78,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.78}}
+2025-07-21 13:28:08 INFO: Most recent stock data: {'MFH': {   'close': 4.76,
+    'high': 4.76,
+    'low': 4.76,
+    'open': 4.76,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 202.0,
+    'vwap': 4.76}}
+2025-07-21 13:34:09 INFO: Most recent stock data: {'MFH': {   'close': 4.755,
+    'high': 4.755,
+    'low': 4.755,
+    'open': 4.755,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.755}}
+2025-07-21 13:39:09 INFO: Most recent stock data: {'MFH': {   'close': 4.65,
+    'high': 4.65,
+    'low': 4.65,
+    'open': 4.65,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.65}}
+2025-07-21 13:40:10 INFO: Most recent stock data: {'MFH': {   'close': 4.61,
+    'high': 4.61,
+    'low': 4.585,
+    'open': 4.585,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 4.5975}}
+2025-07-21 13:41:10 INFO: Most recent stock data: {'MFH': {   'close': 4.58,
+    'high': 4.585,
+    'low': 4.58,
+    'open': 4.585,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 4.581667}}
+2025-07-21 13:41:10 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 13:41:10 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-21 13:55:12 INFO: {'MFH': {   'close': 4.545,
+    'high': 4.545,
+    'low': 4.545,
+    'open': 4.545,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 4.545}}
+2025-07-21 13:55:12 INFO: Current resistance is: 4.568 and support is: 4.531
+2025-07-21 13:55:12 INFO: Current average volume is: 301.75
+2025-07-21 13:55:12 INFO: Updated resistance to: 4.533 and support to: 4.497
+2025-07-21 13:56:12 INFO: {'MFH': {   'close': 4.55,
+    'high': 4.55,
+    'low': 4.55,
+    'open': 4.55,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 158.0,
+    'vwap': 4.55}}
+2025-07-21 13:56:12 INFO: Current resistance is: 4.533 and support is: 4.497
+2025-07-21 13:56:12 INFO: Current average volume is: 290.69
+2025-07-21 13:56:12 INFO: The Current Close 4.55 is above the resistance...
+2025-07-21 13:56:12 INFO: Updated resistance to: 4.518 and support to: 4.454
+2025-07-21 14:05:14 INFO: {'MFH': {   'close': 4.555,
+    'high': 4.555,
+    'low': 4.555,
+    'open': 4.555,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.555}}
+2025-07-21 14:05:14 INFO: Current resistance is: 4.518 and support is: 4.454
+2025-07-21 14:05:14 INFO: Current average volume is: 277.07
+2025-07-21 14:05:14 INFO: The current close: 4.555 is above the resistance of 4.518, but volume isn't enough...
+2025-07-21 14:05:14 INFO: Updated resistance to: 4.515 and support to: 4.418
+2025-07-21 14:13:16 INFO: {'MFH': {   'close': 4.09,
+    'high': 4.46,
+    'low': 4.09,
+    'open': 4.46,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 6281.0,
+    'vwap': 4.28156}}
+2025-07-21 14:13:16 INFO: Current resistance is: 4.515 and support is: 4.418
+2025-07-21 14:13:16 INFO: Current average volume is: 677.33
+2025-07-21 14:13:16 INFO: close price: 4.09 just dropped below support of 4.418...
+2025-07-21 14:23:17 INFO: {'MFH': {   'close': 3.33,
+    'high': 3.415,
+    'low': 3.33,
+    'open': 3.415,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1158.0,
+    'vwap': 3.3625}}
+2025-07-21 14:23:17 INFO: Current resistance is: 4.515 and support is: 4.418
+2025-07-21 14:23:17 INFO: Current average volume is: 707.38
+2025-07-21 14:23:17 INFO: Closing price: 3.33 just dropped below support 4.418 again...ending trade...
+2025-07-21 14:30:06 INFO: === Strategy started ===
+2025-07-21 14:30:06 INFO: Start collecting the current highs/lows for: MFH
+2025-07-21 14:30:06 INFO: Most recent stock data: {'MFH': {   'close': 3.33,
+    'high': 3.415,
+    'low': 3.33,
+    'open': 3.415,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1158.0,
+    'vwap': 3.3625}}
+2025-07-21 14:34:07 INFO: Most recent stock data: {'MFH': {   'close': 2.73,
+    'high': 2.95,
+    'low': 2.73,
+    'open': 2.95,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 2.84}}
+2025-07-21 14:39:07 INFO: Most recent stock data: {'MFH': {   'close': 2.37,
+    'high': 2.48,
+    'low': 2.37,
+    'open': 2.42,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1933.0,
+    'vwap': 2.413979}}
+2025-07-21 14:44:08 INFO: Most recent stock data: {'MFH': {   'close': 2.46,
+    'high': 2.62,
+    'low': 2.46,
+    'open': 2.62,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1100.0,
+    'vwap': 2.556364}}
+2025-07-21 14:45:08 INFO: Most recent stock data: {'MFH': {   'close': 2.5,
+    'high': 2.54,
+    'low': 2.26,
+    'open': 2.46,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2646.0,
+    'vwap': 2.455}}
+2025-07-21 14:46:08 INFO: Most recent stock data: {'MFH': {   'close': 2.27,
+    'high': 2.53,
+    'low': 2.19,
+    'open': 2.53,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 900.0,
+    'vwap': 2.401111}}
+2025-07-21 14:47:08 INFO: Most recent stock data: {'MFH': {   'close': 2.24,
+    'high': 2.27,
+    'low': 2.24,
+    'open': 2.27,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 473.0,
+    'vwap': 2.247595}}
+2025-07-21 14:48:08 INFO: Most recent stock data: {'MFH': {   'close': 2.155,
+    'high': 2.175,
+    'low': 2.15,
+    'open': 2.175,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 690.0,
+    'vwap': 2.167373}}
+2025-07-21 14:54:09 INFO: Most recent stock data: {'MFH': {   'close': 2.1,
+    'high': 2.1,
+    'low': 2.07,
+    'open': 2.07,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 2.08}}
+2025-07-21 14:55:09 INFO: Most recent stock data: {'MFH': {   'close': 2.01,
+    'high': 2.01,
+    'low': 1.97,
+    'open': 1.97,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 399.0,
+    'vwap': 1.986667}}
+2025-07-21 14:56:09 INFO: Most recent stock data: {'MFH': {   'close': 2.03,
+    'high': 2.07,
+    'low': 2.01,
+    'open': 2.02,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1604.0,
+    'vwap': 2.032}}
+2025-07-21 14:56:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-21 14:56:09 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-21 14:57:10 INFO: {'MFH': {   'close': 1.87,
+    'high': 2.025,
+    'low': 1.87,
+    'open': 2.025,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 945.0,
+    'vwap': 1.935625}}
+2025-07-21 14:57:10 INFO: Current resistance is: 2.136 and support is: 1.767
+2025-07-21 14:57:10 INFO: Current average volume is: 932.5
+2025-07-21 14:57:10 INFO: Updated resistance to: 2.137 and support to: 1.774
+2025-07-21 14:58:10 INFO: {'MFH': {   'close': 1.86,
+    'high': 1.93,
+    'low': 1.85,
+    'open': 1.87,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1987.0,
+    'vwap': 1.871718}}
+2025-07-21 14:58:10 INFO: Current resistance is: 2.137 and support is: 1.774
+2025-07-21 14:58:10 INFO: Current average volume is: 1013.62
+2025-07-21 14:58:10 INFO: Updated resistance to: 2.112 and support to: 1.759
+2025-07-21 14:59:10 INFO: {'MFH': {   'close': 1.75,
+    'high': 1.79,
+    'low': 1.75,
+    'open': 1.79,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 800.0,
+    'vwap': 1.76375}}
+2025-07-21 14:59:10 INFO: Current resistance is: 2.112 and support is: 1.759
+2025-07-21 14:59:10 INFO: Current average volume is: 998.36
+2025-07-21 14:59:10 INFO: close price: 1.75 just dropped below support of 1.759...
+2025-07-21 15:05:11 INFO: {'MFH': {   'close': 1.5,
+    'high': 1.745,
+    'low': 1.5,
+    'open': 1.745,
+    'symbol': 'MFH',
+    'timestamp': datetime.datetime(2025, 7, 21, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 3843.0,
+    'vwap': 1.597}}
+2025-07-21 15:05:11 INFO: Current resistance is: 2.112 and support is: 1.759
+2025-07-21 15:05:11 INFO: Current average volume is: 1188.0
+2025-07-21 15:05:11 INFO: Closing price: 1.5 just dropped below support 1.759 again...ending trade...

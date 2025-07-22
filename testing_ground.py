@@ -3,9 +3,16 @@
 # from matplotlib import pyplot as plt
 # from pydantic_core import TzInfo
 #
-# from alpaca.trading.client import TradingClient
-# from alpaca.trading.requests import MarketOrderRequest, LimitOrderRequest, TakeProfitRequest, StopLossRequest
-# from alpaca.trading.enums import OrderSide, TimeInForce, OrderClass
+from alpaca.trading.client import TradingClient
+from time_tools import get_current_date
+
+from alpaca.trading.requests import GetOrdersRequest, ClosePositionRequest
+from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
+from alpaca.trading.requests import GetAssetsRequest
+from alpaca.trading.enums import AssetClass
+
+from alpaca.trading.requests import MarketOrderRequest, LimitOrderRequest, TakeProfitRequest, StopLossRequest
+from alpaca.trading.enums import OrderSide, TimeInForce, OrderClass
 from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
 from datetime import datetime, tzinfo, date, timezone
 # import pytz
@@ -20,23 +27,73 @@ from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeReques
 # import numpy as np
 # import yfinance as yf
 #
-# from param_reader import param_reader
-#
-# from pattern_detection import *
-# param = param_reader("param.txt")
+from param_reader import param_reader
+
+from pattern_detection import *
+param = param_reader("param.txt")
 #
 #
 # # Request Examples
-# trading_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+# trading_client = TradingClient(param["alpaca_key"], param["secret_key"], paper=True)
+
+print(get_current_date()[0])
 #
-hist_data_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
+# hist_data_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
 #
 # news_data_client = NewsClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
 #
 # wss_client = StockDataStream('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
 #
 #
-# # print(trading_client.get_account().cash)
+# print(trading_client.get_account())
+# print(trading_client.get_open_position(symbol_or_asset_id='NVDA').qty_available)
+
+# # params to filter orders by
+# request_params = GetOrdersRequest(
+#                     symbol='NVDA',
+#                     status=QueryOrderStatus.OPEN,
+#                     side=OrderSide.BUY
+#                  )
+
+# orders that satisfy params
+# orders = trading_client.get_orders(filter=request_params)
+#
+# print(orders)
+
+# get a list of orders including closed (e.g. filled) orders by specifying symbol
+# req = GetOrdersRequest(
+#     status = QueryOrderStatus.OPEN,
+#     symbols = ['NVDA']
+# )
+# orders = trading_client.get_orders(req)
+# print(orders)
+#
+# for order in orders:
+#     trading_client.cancel_order_by_id(str(order.id))
+
+# trading_client.close_position(
+#     symbol_or_asset_id = 'NVDA',
+#     close_options = ClosePositionRequest(
+#         qty = "1",
+#     )
+# )
+
+# limit_order_data = LimitOrderRequest(
+#                                     symbol='NVDA',
+#                                     qty=1,
+#                                     limit_price=170,
+#                                     side=OrderSide.BUY,
+#                                     type=OrderType.LIMIT,
+#                                     time_in_force=TimeInForce.DAY)
+#
+# limit_order = trading_client.submit_order(order_data=limit_order_data)
+
+# search for crypto assets
+# search_params = GetAssetsRequest(asset_class=AssetClass.US_EQUITY)
+#
+# assets = trading_client.get_all_assets(search_params)
+#
+# print(assets)
 #
 #
 # # preparing orders
@@ -102,28 +159,28 @@ hist_data_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg
 # # print(limit_order)
 # #
 # cancel_statuses = trading_client.cancel_orders()
-curr_symbol = 'NVDA'
+# curr_symbol = 'NVDA'
 #
 # # da = [int(x) for x in datetime.now().strftime("%Y %m %d %H %M").split(" ")]
 # # da[3] += 3
 # # print(da)
 #
 #
-get_stock_price = StockBarsRequest(symbol_or_symbols=[curr_symbol],
-                                   timeframe=TimeFrame.Minute)
+# get_stock_price = StockBarsRequest(symbol_or_symbols=[curr_symbol],
+#                                    timeframe=TimeFrame.Minute)
+# # #
+# get_stock_price_data = hist_data_client.get_stock_bars(get_stock_price)
 # #
-get_stock_price_data = hist_data_client.get_stock_bars(get_stock_price)
-#
-print(get_stock_price_data[curr_symbol])
+# print(get_stock_price_data[curr_symbol])
 #
 #
-latest_bar_request = StockLatestBarRequest(symbol_or_symbols=[curr_symbol])
+# latest_bar_request = StockLatestBarRequest(symbol_or_symbols=[curr_symbol])
 #
 # # while(True):
-latest_bar_data = hist_data_client.get_stock_latest_bar(latest_bar_request)
+# # latest_bar_data = hist_data_client.get_stock_latest_bar(latest_bar_request)
 
 # #
-print(latest_bar_data)
+# # print(latest_bar_data)
 # #     time.sleep(30)
 #
 #

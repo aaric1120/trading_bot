@@ -5,12 +5,16 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockLatestBarRequest
 
 
-from alpaca.trading import TradingClient, OrderSide, TimeInForce, OrderClass, TakeProfitRequest, StopLossRequest
+from alpaca.trading import TradingClient, TimeInForce
 from pattern_detection import calculate_slope
+from alpaca.trading.requests import GetOrdersRequest, ClosePositionRequest
+from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
 
 import logging
-import datetime as dt
 import time as tm
+
+from TelegramBot import TelegramBot
+from TimeConstants import *
 
 
 class BaseTrade:
@@ -24,17 +28,18 @@ class BaseTrade:
     param = None
     volume = 0.0
     avg_vol = 0.0
+    msg_bot = TelegramBot()
 
     def __init__(self,symbol, param, high, low, volume):
+        self.param = param
         self.symbol = symbol
         self.highs = high
         self.lows = low
-        self.hist_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
-        self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+        self.hist_client = StockHistoricalDataClient(self.param["alpaca_key"], self.param["secret_key"])
+        self.trade_client = TradingClient(self.param["alpaca_key"], self.param["secret_key"], paper=True)
         self.hist_request = StockLatestBarRequest(symbol_or_symbols=[self.symbol])
-        self.param = param
         self.volume = volume
-        self.avg_vol = round(self.volume / len(self.highs) , 2)
+        self.avg_vol = round(self.volume / len(self.highs), 2)
 
         # Configure logging
         logging.FileHandler(f"logs/trade_log_{self.symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt", mode="a",
@@ -52,14 +57,206 @@ class BaseTrade:
     def get_new_avg(self):
         self.avg_vol = round(self.volume / len(self.highs), 2)
 
+    def cancel_all(self):
+        # Check if all the stock are sold
+        self.trade_client = TradingClient(self.param["alpaca_key"],
+                                          self.param["secret_key"], paper=True)
+
+        # Get the current orders open for this symbol
+        req = GetOrdersRequest(
+            status=QueryOrderStatus.OPEN,
+            symbols=[self.symbol]
+        )
+        orders = self.trade_client.get_orders(req)
+        # Cancel all orders for the partial fil or non filled orders
+        for order in orders:
+            self.trade_client.cancel_order_by_id(str(order.id))
+
+        return
+
+    def get_available_shares(self):
+        return int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+
+    def monitor_order(self, stop_loss, take_profit, init_price):
+        # wait 1 minute for order to fill
+        tm.sleep(60)
+        total_time = 0
+        breakeven = False
+        try:
+            # cancel all trades
+            self.cancel_all()
+
+            # Get the number of stocks currently being traded
+            curr_qty = self.get_available_shares()
+
+            # If the current owned qty is 0. close the monitor
+            if curr_qty == 0:
+                return
+
+            # else we start the 30 minute montioring
+            while True:
+                # Keep the loop alive without timeout
+                self.hist_client = StockHistoricalDataClient(self.param["alpaca_key"],
+                                                             self.param["secret_key"])
+                self.trade_client = TradingClient(self.param["alpaca_key"],
+                                                  self.param["secret_key"], paper=True)
+
+                # Get latest close price
+                latest_bar = self.hist_client.get_stock_latest_bar(self.hist_request)
+                high, low, close = latest_bar[self.symbol].high, latest_bar[self.symbol].low, \
+                                           latest_bar[self.symbol].close
+
+                print(f"Current High asks for {self.symbol} is {self.highs[-1]}")
+                print(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
+                print(f"Current Close is {close}")
+                print(f"For {self.symbol}, the current stop loss is: {stop_loss}, and the current take profit is: {take_profit}")
+                logging.info(latest_bar)
+                logging.info(
+                    f"For {self.symbol}, the current stop loss is: {stop_loss}, and the current take profit is: {take_profit}")
+
+                # if Price is equal or above take profit
+                if take_profit <= close:
+                    # Cancel breakeven request
+                    breakeven = False
+
+                    # Cancel all trades not finished
+                    self.cancel_all()
+
+                    # Check how many shares are available
+                    curr_qty = self.get_available_shares()
+
+                    # is amount is zero, exit the trade...
+                    if curr_qty == 0:
+                        return
+
+                    # check how many shares are left
+                    if curr_qty == 1:
+                        sell_qty = 1
+                    else:
+                        sell_qty = math.floor(curr_qty / 2) # PARAM
+
+                    # Update take profit with latest close
+                    take_profit = close
+
+                    print(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {take_profit}")
+                    logging.info(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {take_profit}")
+                    # sell for take profit
+                    limit_order_data = LimitOrderRequest(
+                                                        symbol=self.symbol,
+                                                        qty=int(sell_qty),
+                                                        limit_price=round(take_profit,2),
+                                                        side=OrderSide.SELL,
+                                                        type=OrderType.LIMIT,
+                                                        time_in_force=TimeInForce.DAY)
+
+                    limit_order = self.trade_client.submit_order(order_data=limit_order_data)
+                    print("TAKE PROFIT ORDER INFO:")
+                    print(limit_order)
+                    logging.info("TAKE PROFIT ORDER INFO:")
+                    logging.info(limit_order)
+
+                    # Send a notification
+                    self.msg_bot.send_message(
+                        "TAKE PROFIT", self.symbol, "SELL", take_profit, sell_qty, dt.datetime.now())
+
+                    # if it was the last stock sold
+                    if sell_qty == 1:
+                        return
+
+                    # Updated the take profit price
+                    stop_loss = round(take_profit * self.param["tp_stop_loss"], 2)
+                    take_profit = round(take_profit * self.param["take_profit"], 2)
+                    init_price = round((take_profit + stop_loss) / 2, 2)
+                    print(f"the updated take profit price is {take_profit}, the updated stop loss price is {stop_loss}")
+                    logging.info(f"the updated take profit price is {take_profit}, the updated stop loss price is {stop_loss}")
+
+                elif close <= stop_loss or total_time >= int(self.param["stock_retention"]*3) or \
+                        dt.datetime.now().time() >= LAST_MARKET_SELL: # PARAM
+                    print(f"Selling all of position with {self.symbol}...")
+                    logging.info(f"Selling all of position with {self.symbol}...")
+
+                    # cancel all position
+                    self.cancel_all()
+
+                    # Get the number of stocks currently available
+                    curr_qty = self.get_available_shares()
+
+                    # is amount is zero, exit the trade...
+                    if curr_qty == 0:
+                        return
+
+                    print(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
+                    logging.info(f"The number of shares of {self.symbol} to liquidate is: {curr_qty}...")
+
+                    # Send a notification
+                    self.msg_bot.send_message("STOP LOSS", self.symbol, "SELL", stop_loss, curr_qty,
+                                              dt.datetime.now())
+
+                    # Selling all positions...
+                    self.trade_client.close_position(
+                        symbol_or_asset_id=self.symbol,
+                        close_options=ClosePositionRequest(
+                            qty=str(curr_qty),
+                        )
+                    )
+                    return
+
+                # Once half of retention period was been met without shares being sold
+                elif not breakeven and int(self.param["stock_retention"]*3*self.param["breakeven"]) \
+                        < total_time < int(self.param["stock_retention"]*3):
+                    # Set breakeven filter to true
+                    breakeven = True
+
+                    # Cancel all trades not finished
+                    self.cancel_all()
+
+                    # Check how many shares are available
+                    curr_qty = self.get_available_shares()
+
+                    # is amount is zero, exit the trade...
+                    if curr_qty == 0:
+                        return
+
+                    print(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {init_price}")
+                    logging.info(f"Placing order to sell {curr_qty} shares of {self.symbol} at price {init_price}")
+                    # sell for take profit
+                    limit_order_data = LimitOrderRequest(
+                                                        symbol=self.symbol,
+                                                        qty=curr_qty,
+                                                        limit_price=round(init_price,2),
+                                                        side=OrderSide.SELL,
+                                                        type=OrderType.LIMIT,
+                                                        time_in_force=TimeInForce.DAY)
+
+                    limit_order = self.trade_client.submit_order(order_data=limit_order_data)
+                    print("BREAK EVEN ORDER INFO:")
+                    print(limit_order)
+                    logging.info("BREAK EVEN ORDER INFO:")
+                    logging.info(limit_order)
+
+                    # Send a notification
+                    self.msg_bot.send_message("BREAK EVEN", self.symbol, "SELL", init_price, curr_qty,
+                                              dt.datetime.now())
+
+                # Wait 1/3 minute for latest bar (PARAM)
+                total_time += 1
+                tm.sleep(20)
+
+        except Exception as e:
+            print(f"Error doing order monitoring: {e}")
+            logging.info(e)
+
+        return
+
     def run(self):
         breakout = False
         breakdown = False
 
         try:
             while(True):
-                self.hist_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ',
-                                                             'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
+                # Keep the loop alive
+                self.hist_client = StockHistoricalDataClient(self.param["alpaca_key"],
+                                                             self.param["secret_key"])
                 latest_bar = self.hist_client.get_stock_latest_bar(self.hist_request)
                 high, low, close, volume = latest_bar[self.symbol].high, latest_bar[self.symbol].low,\
                                            latest_bar[self.symbol].close, latest_bar[self.symbol].volume
@@ -70,7 +267,6 @@ class BaseTrade:
                     self.lows.append(low)
                     self.volume += volume
                     self.get_new_avg()
-                    # self.get_new_lines()
 
                     print(f"Current High asks for {self.symbol} is {self.highs[-1]}")
                     print(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
@@ -78,9 +274,7 @@ class BaseTrade:
                     print(f"Current resistance is: {self.resist} and support is: {self.support}")
                     print(f"Current average volume is: {self.avg_vol}")
 
-                    logging.info(f"Current High asks for {self.symbol} is {self.highs[-1]}")
-                    logging.info(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
-                    logging.info(f"Current Close is {close}")
+                    logging.info(latest_bar)
                     logging.info(f"Current resistance is: {self.resist} and support is: {self.support}")
                     logging.info(f"Current average volume is: {self.avg_vol}")
 
@@ -111,6 +305,12 @@ class BaseTrade:
 
                     # second bar also closes above resistance: BUY
                     elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume):
+                        if dt.datetime.now().time() >= MARKET_DEADLINE:
+                            print("The current time is past the last buy deadline...")
+                            logging.info("The current time is past the last buy deadline...")
+                            logging.info("====ClOSING TRADE====")
+                            return
+
                         print(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
                         logging.info(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
                         print(f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
@@ -118,36 +318,52 @@ class BaseTrade:
                             f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
 
                         # Set stop loss at just below resistance
-                        stop_loss = round(self.resist * self.param["stop_loss"], 2) #PARAM
+                        stop_loss = round(self.resist * self.param["stop_loss"], 2)
 
-                        price = round(close * self.param["price"],2)  # PARAM
+                        price = round(close * self.param["price"], 2)
 
-                        take_profit = round(price * self.param["take_profit"],2)  # PARAM
+                        take_profit = round(price * self.param["take_profit"], 2)
 
                         quantity = math.floor(float(self.trade_client.get_account().cash) / price)
 
+                        if quantity < 1:
+                            print("insufficient funds to make purchase...ending trade ")
+                            logging.info("insufficient funds to make purchase...ending trade ")
+                            logging.info("====ClOSING TRADE====")
+                            return
+
                         # do the buy
                         limit_order_data = LimitOrderRequest(
-                                                symbol=self.symbol,
-                                                limit_price=price,
-                                                qty=quantity,
-                                                side=OrderSide.BUY,
-                                                time_in_force=TimeInForce.DAY,
-                                                order_class=OrderClass.BRACKET,
-                                                take_profit=TakeProfitRequest(limit_price=take_profit),
-                                                stop_loss=StopLossRequest(stop_price=stop_loss))
+                                                        symbol=self.symbol,
+                                                        qty=quantity,
+                                                        limit_price=price,
+                                                        side=OrderSide.BUY,
+                                                        type=OrderType.LIMIT,
+                                                        time_in_force=TimeInForce.DAY)
 
                         print(limit_order_data)
 
                         # place the order
-                        self.trade_client = TradingClient('PKIY6QW5KN7LAQ8BKRRZ',
-                                                          'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V', paper=True)
+                        self.trade_client = TradingClient(self.param["alpaca_key"],
+                                                          self.param["secret_key"], paper=True)
+
                         limit_order = self.trade_client.submit_order(order_data=limit_order_data)
                         print(limit_order)
                         logging.info("ORDER INFO:")
                         logging.info(limit_order)
+
+                        # Send a notification
+                        self.msg_bot.send_message("BUY IN", self.symbol, "BUY", price, quantity,
+                                                  dt.datetime.now())
+
+                        # Start the monitoring of the order
+                        print(f"Starting the monitoring of {self.symbol}, the current take profit is: {take_profit}, the current stop loss is: {stop_loss}")
+                        logging.info(
+                            f"Starting the monitoring of {self.symbol}, the current take profit is: {take_profit}, the current stop loss is: {stop_loss}")
+                        self.monitor_order(stop_loss,take_profit,close)
+
                         logging.info("====ClOSING TRADE====")
-                        break
+                        return
 
                     elif close < self.support and not breakdown:
                         print(f"close price: {close} just dropped below support of {self.support}...")
@@ -159,17 +375,19 @@ class BaseTrade:
                         logging.info(
                             f"Closing price: {close} just dropped below support {self.support} again...ending trade...")
 
-                        break
+                        return
 
-                # Bar updates every Minute for latest data
-                tm.sleep(60)
+                # Bar updates every Minute for latest data unless initial breakout, then half the time (PARAM)
+                if not breakout:
+                    tm.sleep(60)
+                else:
+                    tm.sleep(30)
 
                 # Check close time for market
-                MARKET_CLOSE_TIME = dt.time(16, 0,0)  # 4:00 PM (24-hour format)
-                if dt.datetime.now().time() > MARKET_CLOSE_TIME:
+                if dt.datetime.now().time() >= MARKET_CLOSE_TIME:
                     logging.info("The Market is closed...")
                     print("The Market is closed...")
-                    break;
+                    return
 
                 print(f"The Timestamp is {dt.datetime.now()}")
 
@@ -200,8 +418,8 @@ class TriangleTrade(BaseTrade):
         self.low_slope, self.low_const,_ = calculate_slope(self.lows)
 
         # calculate the current resistance/support line to pass through the max/min of the highs/lows
-        self.resist = self.high_slope * len(self.highs) + (max(self.highs) - self.high_slope * self.highs.index(max(self.highs)))
-        self.support = self.low_slope * len(self.lows) + (min(self.lows) - self.low_slope * self.lows.index(min(self.lows)))
+        self.resist = round(self.high_slope * len(self.highs) + (max(self.highs) - self.high_slope * self.highs.index(max(self.highs))),3)
+        self.support = round(self.low_slope * len(self.lows) + (min(self.lows) - self.low_slope * self.lows.index(min(self.lows))),3)
 
         return
 
@@ -224,7 +442,7 @@ class AscendingTriangle(TriangleTrade):
         self.resist = max(self.highs)
 
         self.low_slope, self.low_const, _ = calculate_slope(self.lows)
-        self.support = self.low_slope * len(self.lows) + (min(self.lows) - self.low_slope * self.lows.index(min(self.lows)))
+        self.support = round(self.low_slope * len(self.lows) + (min(self.lows) - self.low_slope * self.lows.index(min(self.lows))),3)
         return
 
 
@@ -233,6 +451,6 @@ class DescendingTriangle(TriangleTrade):
         self.support = min(self.lows)
 
         self.high_slope, self.high_const, _ = calculate_slope(self.highs)
-        self.resist = self.high_slope * len(self.highs) + (max(self.highs) - self.high_slope * self.highs.index(max(self.highs)))
+        self.resist = round(self.high_slope * len(self.highs) + (max(self.highs) - self.high_slope * self.highs.index(max(self.highs))), 3)
         return
 

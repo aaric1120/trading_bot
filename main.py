@@ -1,19 +1,15 @@
-from param_reader import param_reader
-
-from alpaca.data.historical import StockHistoricalDataClient
-from alpaca.data.requests import StockBarsRequest, StockLatestBarRequest
-
-import datetime as dt
-import time as tm
-
-import numpy as np
-
-from pattern_detection import pattern_detection
-
-from trading import RectangleTrade, AscendingTriangle, DescendingTriangle, TriangleTrade
-
 import sys
 import logging
+
+import time as tm
+import numpy as np
+from TimeConstants import *
+
+from param_reader import param_reader
+from pattern_detection import pattern_detection
+from alpaca.data.requests import StockLatestBarRequest
+from alpaca.data.historical import StockHistoricalDataClient
+from trading import RectangleTrade, AscendingTriangle, DescendingTriangle, TriangleTrade
 
 
 def main():
@@ -37,12 +33,13 @@ def main():
     logging.info(f"Start collecting the current highs/lows for: {curr_symbol}")
 
     # Gather 20 minutes of stock price after market opens
-    hist_stock_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
+    hist_stock_client = StockHistoricalDataClient(param["alpaca_key"], param["secret_key"])
     get_stock_price = StockLatestBarRequest(symbol_or_symbols=[curr_symbol])
 
     highs=[]
     lows=[]
     volume=0.0
+    total_time = 0
 
     # Get the initial data
     get_stock_price_data = hist_stock_client.get_stock_latest_bar(get_stock_price)
@@ -52,8 +49,8 @@ def main():
 
     while(True):
         # Keep connection in loop to stop timeouts
-        hist_stock_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ',
-                                                      'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
+        hist_stock_client = StockHistoricalDataClient(param["alpaca_key"],
+                                                      param["secret_key"])
         get_stock_price_data = hist_stock_client.get_stock_latest_bar(get_stock_price)
 
         if (highs[-1] != get_stock_price_data[curr_symbol].high and lows[-1] != get_stock_price_data[curr_symbol].low):
@@ -76,39 +73,44 @@ def main():
                         logging.info(f"Data points limit reached {param['minute_limit']}, reducing to most recent {param['retention']} points.")
                         highs = highs[int(param["minute_limit"] - param["retention"]):]
                         lows = lows[int(param["minute_limit"] - param["retention"]):]
+                        total_time = 0
 
                 elif (pattern == "rectangle"):
                     logging.info("Pattern matched as Rectangle, starting trading strategy")
                     Rect_trading = RectangleTrade(curr_symbol,param, highs, lows, volume,rect_max, rect_min)
                     Rect_trading.run()
-                    break
+                    return
 
                 elif (pattern == "symmetrical_triangle"):
                     logging.info("Pattern matched as Symmetrical Triangle, starting trading strategy")
                     Tri_trading = TriangleTrade(curr_symbol, param, highs,lows, volume,high_slp,high_C,low_slp,low_C)
                     Tri_trading.run()
-                    break
+                    return
 
                 elif (pattern == "ascending_triangle"):
                     logging.info("Pattern matched as Ascending Triangle, starting trading strategy")
                     ATri_trade = AscendingTriangle(curr_symbol, param, highs,lows, volume, high_slp,high_C,low_slp,low_C)
                     ATri_trade.run()
-                    break
+                    return
 
                 elif (pattern == "descending_trianlge"):
                     logging.info("Pattern matched as Descending Trianlge, starting trading strategy")
                     DTri_trade = DescendingTriangle(curr_symbol, param, highs,lows, volume, high_slp,high_C,low_slp,low_C)
                     DTri_trade.run()
-                    break
+                    return
+
+        elif total_time == int(param["minute_limit"]) and len(highs) < param["sample_minutes"]:
+            print(f"The stock has exceeded the time limit of {param['minute_limit']} without collecting enough data...ending")
+            return
 
         # Wait 60 seconds for next bar
         tm.sleep(60)
+        total_time += 1
 
         # Check close time for market
-        MARKET_CLOSE_TIME = dt.time(16, 0,0)  # 4:00 PM (24-hour format)
-        if dt.datetime.now().time() > MARKET_CLOSE_TIME:
+        if dt.datetime.now().time() >= MARKET_CLOSE_TIME:
             print("The Market has closed...")
-            break
+            return
 
         print(f"The Timestamp is {dt.datetime.now()}")
 

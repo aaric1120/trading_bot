@@ -22,7 +22,7 @@ def pattern_detection(highs, lows):
     high_slope, high_C, high_r2 = calculate_slope(highs)
     low_slope, low_C, low_r2 = calculate_slope(lows)
 
-    # Classification conditions PARAM
+    # Classification conditions
     angle_threshold = param["angle_threshold"]  # Degrees
     r2_threshold_weak = param["r2_threshold_weak"]
     r2_threshold_strong = param["r2_threshold_strong"]
