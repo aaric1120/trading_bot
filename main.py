@@ -39,6 +39,7 @@ def main():
     highs=[]
     lows=[]
     volume=0.0
+    total_time = 0
 
     # Get the initial data
     get_stock_price_data = hist_stock_client.get_stock_latest_bar(get_stock_price)
@@ -72,6 +73,7 @@ def main():
                         logging.info(f"Data points limit reached {param['minute_limit']}, reducing to most recent {param['retention']} points.")
                         highs = highs[int(param["minute_limit"] - param["retention"]):]
                         lows = lows[int(param["minute_limit"] - param["retention"]):]
+                        total_time = 0
 
                 elif (pattern == "rectangle"):
                     logging.info("Pattern matched as Rectangle, starting trading strategy")
@@ -97,8 +99,13 @@ def main():
                     DTri_trade.run()
                     return
 
+        elif total_time == int(param["minute_limit"]) and len(highs) < param["sample_minutes"]:
+            print(f"The stock has exceeded the time limit of {param['minute_limit']} without collecting enough data...ending")
+            return
+
         # Wait 60 seconds for next bar
         tm.sleep(60)
+        total_time += 1
 
         # Check close time for market
         if dt.datetime.now().time() >= MARKET_CLOSE_TIME:
