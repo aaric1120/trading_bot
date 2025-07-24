@@ -1,27 +1,124 @@
+from ibapi.client import EClient
+from ibapi.wrapper import EWrapper
+from ibapi.contract import Contract
+from ibapi.order import Order
+import threading
+import time
+
+
+class IBapi(EWrapper, EClient):
+    def __init__(self):
+        EClient.__init__(self, self)
+        self.nextValidOrderId = None
+
+    def nextValidId(self, orderId: int):
+        super().nextValidId(orderId)
+        self.nextValidOrderId = orderId
+        print("Next Valid Order ID:", orderId)
+
+    def orderStatus(self, orderId, status, filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId,
+                    whyHeld, mktCapPrice):
+        print(
+            f"OrderStatus. Id: {orderId}, Status: {status}, Filled: {filled}, Remaining: {remaining}, AvgFillPrice: {avgFillPrice}")
+
+    def openOrder(self, orderId, contract, order, orderState):
+        print(
+            f"OpenOrder. ID: {orderId}, {contract.symbol}, {contract.secType}, {contract.currency}, {order.action}, {order.orderType}, {order.totalQuantity}, {orderState.status}")
+
+    def execDetails(self, reqId, contract, execution):
+        print(
+            f"ExecDetails. {contract.symbol}, {contract.secType}, {execution.side}, {execution.shares}, {execution.price}")
+
+
+def run_loop(app):
+    app.run()
+
+
+app = IBapi()
+app.connect('127.0.0.1', 7497, 123)  # 7497 for paper trading
+
+# Start the socket in a thread
+api_thread = threading.Thread(target=run_loop, args=(app,), daemon=True)
+api_thread.start()
+
+time.sleep(1)  # Sleep interval to allow time for connection to setup
+
+if not app.isConnected():
+    print("Failed to connect")
+    exit()
+
+def create_contract(symbol, sec_type='STK', exchange='SMART', currency='USD'):
+    contract = Contract()
+    contract.symbol = symbol
+    contract.secType = sec_type
+    contract.exchange = exchange
+    contract.currency = currency
+    return contract
+
+# Example for Apple stock
+apple_contract = create_contract('AAPL')
+
+
+def create_order(action, quantity, order_type, price=None, tif='DAY'):
+    order = Order()
+    order.action = action  # 'BUY' or 'SELL'
+    order.totalQuantity = quantity
+    order.orderType = order_type  # 'MKT', 'LMT', 'STP', etc.
+    order.tif = tif  # 'DAY', 'GTC' (Good Till Canceled)
+
+    if price is not None:
+        order.lmtPrice = price  # Required for limit orders
+
+    return order
+
+
+# Market order example
+market_order = create_order('BUY', 10, 'MKT')
+
+# Limit order example
+limit_order = create_order('SELL', 5, 'LMT', 150.50)
+
+# Wait until we have the next valid order ID
+while app.nextValidOrderId is None:
+    app.nextValidId(1000)
+    time.sleep(0.1)
+
+# Place market order
+app.placeOrder(app.nextValidOrderId, apple_contract, market_order)
+print(f"Placed market order with ID: {app.nextValidOrderId}")
+app.nextValidOrderId += 1
+
+# Place limit order
+app.placeOrder(app.nextValidOrderId, apple_contract, limit_order)
+print(f"Placed limit order with ID: {app.nextValidOrderId}")
+
+# Let the order events come through
+time.sleep(3)
+app.disconnect()
 # import math
 #
 # from matplotlib import pyplot as plt
 # from pydantic_core import TzInfo
 #
-from alpaca.trading.client import TradingClient
-from time_tools import get_current_date
+# from alpaca.trading.client import TradingClient
+# from time_tools import get_current_date
 
-from alpaca.trading.requests import GetOrdersRequest, ClosePositionRequest
-from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
-from alpaca.trading.requests import GetAssetsRequest
-from alpaca.trading.enums import AssetClass
+# from alpaca.trading.requests import GetOrdersRequest, ClosePositionRequest
+# from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
+# from alpaca.trading.requests import GetAssetsRequest
+# from alpaca.trading.enums import AssetClass
 
-from alpaca.trading.requests import MarketOrderRequest, LimitOrderRequest, TakeProfitRequest, StopLossRequest
-from alpaca.trading.enums import OrderSide, TimeInForce, OrderClass
-from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
-from datetime import datetime, tzinfo, date, timezone
+# from alpaca.trading.requests import MarketOrderRequest, LimitOrderRequest, TakeProfitRequest, StopLossRequest
+# from alpaca.trading.enums import OrderSide, TimeInForce, OrderClass
+# from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
+# from datetime import datetime, tzinfo, date, timezone
 # import pytz
 # from alpaca.data.live import StockDataStream
 # import pandas as pd
 #
-from alpaca.data.historical import StockHistoricalDataClient, NewsClient
-from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeRequest, StockLatestBarRequest,\
-    StockSnapshotRequest, NewsRequest, StockBarsRequest
+# from alpaca.data.historical import StockHistoricalDataClient, NewsClient
+# from alpaca.data.requests import StockLatestQuoteRequest, StockLatestTradeRequest, StockLatestBarRequest,\
+#     StockSnapshotRequest, NewsRequest, StockBarsRequest
 #
 # import time_tools
 # import numpy as np
@@ -36,7 +133,7 @@ param = param_reader("param.txt")
 # # Request Examples
 # trading_client = TradingClient(param["alpaca_key"], param["secret_key"], paper=True)
 
-print(get_current_date()[0])
+# print(get_current_date()[0])
 #
 # hist_data_client = StockHistoricalDataClient('PKIY6QW5KN7LAQ8BKRRZ', 'za8w8gjyhg7nFLy3eQgEMbZgtODc3QUnswp2jc5V')
 #

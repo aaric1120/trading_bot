@@ -1,0 +1,442 @@
+2025-07-23 10:10:20 INFO: === Strategy started ===
+2025-07-23 10:10:20 INFO: Start collecting the current highs/lows for: RGC
+2025-07-23 10:10:21 INFO: Most recent stock data: {'RGC': {   'close': 16.31,
+    'high': 16.31,
+    'low': 16.31,
+    'open': 16.31,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 123.0,
+    'vwap': 16.31}}
+2025-07-23 10:11:21 INFO: Most recent stock data: {'RGC': {   'close': 16.21,
+    'high': 16.21,
+    'low': 16.21,
+    'open': 16.21,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.21}}
+2025-07-23 10:12:21 INFO: Most recent stock data: {'RGC': {   'close': 16.31,
+    'high': 16.4,
+    'low': 16.31,
+    'open': 16.4,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 506.0,
+    'vwap': 16.345}}
+2025-07-23 10:14:23 INFO: Most recent stock data: {'RGC': {   'close': 16.42,
+    'high': 16.42,
+    'low': 16.33,
+    'open': 16.33,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 301.0,
+    'vwap': 16.375}}
+2025-07-23 10:18:24 INFO: Most recent stock data: {'RGC': {   'close': 16.32,
+    'high': 16.4,
+    'low': 16.32,
+    'open': 16.4,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 527.0,
+    'vwap': 16.35}}
+2025-07-23 10:22:25 INFO: Most recent stock data: {'RGC': {   'close': 15.73,
+    'high': 15.87,
+    'low': 15.73,
+    'open': 15.87,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 407.0,
+    'vwap': 15.8}}
+2025-07-23 10:23:25 INFO: Most recent stock data: {'RGC': {   'close': 15.675,
+    'high': 15.695,
+    'low': 15.675,
+    'open': 15.695,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1040.0,
+    'vwap': 15.68363}}
+2025-07-23 10:24:25 INFO: Most recent stock data: {'RGC': {   'close': 15.9,
+    'high': 15.9,
+    'low': 15.9,
+    'open': 15.9,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 172.0,
+    'vwap': 15.9}}
+2025-07-23 10:25:26 INFO: Most recent stock data: {'RGC': {   'close': 16.01,
+    'high': 16.01,
+    'low': 15.875,
+    'open': 15.875,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 397.0,
+    'vwap': 15.929}}
+2025-07-23 10:27:26 INFO: Most recent stock data: {'RGC': {   'close': 16.43,
+    'high': 16.43,
+    'low': 16.43,
+    'open': 16.43,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 476.0,
+    'vwap': 16.43}}
+2025-07-23 10:28:27 INFO: Most recent stock data: {'RGC': {   'close': 16.41,
+    'high': 16.465,
+    'low': 16.41,
+    'open': 16.465,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 720.0,
+    'vwap': 16.455833}}
+2025-07-23 10:28:27 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-23 10:28:27 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-23 10:30:27 INFO: {'RGC': {   'close': 16.875,
+    'high': 16.875,
+    'low': 16.85,
+    'open': 16.85,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 742.0,
+    'vwap': 16.871418}}
+2025-07-23 10:30:27 INFO: Current resistance is: 16.465 and support is: 15.675
+2025-07-23 10:30:27 INFO: Current average volume is: 449.0
+2025-07-23 10:30:27 INFO: The Current Close 16.875 is above the resistance...
+2025-07-23 10:30:27 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:31:27 INFO: {'RGC': {   'close': 16.8,
+    'high': 16.85,
+    'low': 16.8,
+    'open': 16.85,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1349.0,
+    'vwap': 16.825}}
+2025-07-23 10:31:27 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:31:27 INFO: Current average volume is: 518.23
+2025-07-23 10:31:27 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:33:28 INFO: {'RGC': {   'close': 16.68,
+    'high': 16.69,
+    'low': 16.68,
+    'open': 16.69,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 674.0,
+    'vwap': 16.686667}}
+2025-07-23 10:33:28 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:33:28 INFO: Current average volume is: 529.36
+2025-07-23 10:33:28 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:38:28 INFO: {'RGC': {   'close': 16.87,
+    'high': 16.87,
+    'low': 16.87,
+    'open': 16.87,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 16.87}}
+2025-07-23 10:38:28 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:38:28 INFO: Current average volume is: 507.4
+2025-07-23 10:38:28 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:40:29 INFO: {'RGC': {   'close': 16.82,
+    'high': 16.82,
+    'low': 16.82,
+    'open': 16.82,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 205.0,
+    'vwap': 16.82}}
+2025-07-23 10:40:29 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:40:29 INFO: Current average volume is: 488.5
+2025-07-23 10:40:29 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:42:29 INFO: {'RGC': {   'close': 16.785,
+    'high': 16.785,
+    'low': 16.785,
+    'open': 16.785,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 400.0,
+    'vwap': 16.785}}
+2025-07-23 10:42:29 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:42:29 INFO: Current average volume is: 483.29
+2025-07-23 10:42:29 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:43:29 INFO: {'RGC': {   'close': 16.77,
+    'high': 16.78,
+    'low': 16.765,
+    'open': 16.78,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 404.0,
+    'vwap': 16.77125}}
+2025-07-23 10:43:29 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:43:29 INFO: Current average volume is: 478.89
+2025-07-23 10:43:29 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:44:29 INFO: {'RGC': {   'close': 16.83,
+    'high': 16.83,
+    'low': 16.83,
+    'open': 16.83,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.83}}
+2025-07-23 10:44:29 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:44:29 INFO: Current average volume is: 458.95
+2025-07-23 10:44:29 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:46:30 INFO: {'RGC': {   'close': 16.8,
+    'high': 16.8,
+    'low': 16.8,
+    'open': 16.8,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 161.0,
+    'vwap': 16.8}}
+2025-07-23 10:46:30 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:46:30 INFO: Current average volume is: 444.05
+2025-07-23 10:46:30 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:48:30 INFO: {'RGC': {   'close': 16.81,
+    'high': 16.81,
+    'low': 16.81,
+    'open': 16.81,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.81}}
+2025-07-23 10:48:30 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:48:30 INFO: Current average volume is: 427.67
+2025-07-23 10:48:30 INFO: Updated resistance to: 16.875 and support to: 15.675
+2025-07-23 10:50:30 INFO: {'RGC': {   'close': 17.26,
+    'high': 17.26,
+    'low': 16.88,
+    'open': 16.88,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1160.0,
+    'vwap': 17.047766}}
+2025-07-23 10:50:30 INFO: Current resistance is: 16.875 and support is: 15.675
+2025-07-23 10:50:30 INFO: Current average volume is: 460.95
+2025-07-23 10:50:30 INFO: The Current Close 17.26 is above the resistance...
+2025-07-23 10:50:30 INFO: Updated resistance to: 17.26 and support to: 15.675
+2025-07-23 10:51:01 INFO: {'RGC': {   'close': 17.29,
+    'high': 17.29,
+    'low': 17.26,
+    'open': 17.26,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 209.0,
+    'vwap': 17.275}}
+2025-07-23 10:51:01 INFO: Current resistance is: 17.26 and support is: 15.675
+2025-07-23 10:51:01 INFO: Current average volume is: 450.0
+2025-07-23 10:51:01 INFO: The current close: 17.29 is above the resistance of 17.26, but volume isn't enough...
+2025-07-23 10:51:01 INFO: Updated resistance to: 17.29 and support to: 15.675
+2025-07-23 10:52:01 INFO: {'RGC': {   'close': 17.325,
+    'high': 17.5,
+    'low': 17.2,
+    'open': 17.2,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 17.366429}}
+2025-07-23 10:52:01 INFO: Current resistance is: 17.29 and support is: 15.675
+2025-07-23 10:52:01 INFO: Current average volume is: 460.42
+2025-07-23 10:52:01 INFO: The current close: 17.325 is above the resistance of 17.29, but volume isn't enough...
+2025-07-23 10:52:01 INFO: Updated resistance to: 17.5 and support to: 15.675
+2025-07-23 10:54:02 INFO: {'RGC': {   'close': 16.845,
+    'high': 16.85,
+    'low': 16.78,
+    'open': 16.85,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 757.0,
+    'vwap': 16.838382}}
+2025-07-23 10:54:02 INFO: Current resistance is: 17.5 and support is: 15.675
+2025-07-23 10:54:02 INFO: Current average volume is: 472.28
+2025-07-23 10:54:02 INFO: Updated resistance to: 17.5 and support to: 15.675
+2025-07-23 10:59:03 INFO: {'RGC': {   'close': 16.4,
+    'high': 16.4,
+    'low': 16.36,
+    'open': 16.36,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 263.0,
+    'vwap': 16.38}}
+2025-07-23 10:59:03 INFO: Current resistance is: 17.5 and support is: 15.675
+2025-07-23 10:59:03 INFO: Current average volume is: 464.23
+2025-07-23 10:59:03 INFO: Updated resistance to: 17.5 and support to: 15.675
+2025-07-23 11:01:04 INFO: {'RGC': {   'close': 16.28,
+    'high': 16.28,
+    'low': 16.22,
+    'open': 16.22,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 601.0,
+    'vwap': 16.236667}}
+2025-07-23 11:01:04 INFO: Current resistance is: 17.5 and support is: 15.675
+2025-07-23 11:01:04 INFO: Current average volume is: 469.3
+2025-07-23 11:01:04 INFO: Updated resistance to: 17.5 and support to: 15.675
+2025-07-23 11:03:04 INFO: {'RGC': {   'close': 16.24,
+    'high': 16.24,
+    'low': 16.2,
+    'open': 16.21,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 359.0,
+    'vwap': 16.218593}}
+2025-07-23 11:03:04 INFO: Current resistance is: 17.5 and support is: 15.675
+2025-07-23 11:03:04 INFO: Current average volume is: 465.36
+2025-07-23 11:03:04 INFO: Updated resistance to: 17.5 and support to: 15.675
+2025-07-23 11:04:04 INFO: {'RGC': {   'close': 16.25,
+    'high': 16.25,
+    'low': 16.25,
+    'open': 16.25,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.25}}
+2025-07-23 11:04:04 INFO: Current resistance is: 17.5 and support is: 15.675
+2025-07-23 11:04:04 INFO: Current average volume is: 452.76
+2025-07-23 11:04:04 INFO: Updated resistance to: 17.5 and support to: 15.675
+2025-07-23 11:05:04 INFO: {'RGC': {   'close': 16.07,
+    'high': 16.07,
+    'low': 16.07,
+    'open': 16.07,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.07}}
+2025-07-23 11:05:04 INFO: Current resistance is: 17.5 and support is: 15.675
+2025-07-23 11:05:04 INFO: Current average volume is: 441.0
+2025-07-23 11:05:04 INFO: Updated resistance to: 17.5 and support to: 15.675
+2025-07-23 11:06:05 INFO: {'RGC': {   'close': 16.02,
+    'high': 16.02,
+    'low': 16.02,
+    'open': 16.02,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.02}}
+2025-07-23 11:06:05 INFO: Current resistance is: 17.5 and support is: 15.675
+2025-07-23 11:06:05 INFO: Current average volume is: 430.0
+2025-07-23 11:06:05 INFO: Updated resistance to: 17.5 and support to: 15.675
+2025-07-23 11:11:06 INFO: {'RGC': {   'close': 15.98,
+    'high': 15.98,
+    'low': 15.98,
+    'open': 15.98,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 201.0,
+    'vwap': 15.98}}
+2025-07-23 11:11:06 INFO: Current resistance is: 17.5 and support is: 15.675
+2025-07-23 11:11:06 INFO: Current average volume is: 422.84
+2025-07-23 11:11:06 INFO: Updated resistance to: 17.5 and support to: 15.675
+2025-07-23 11:15:07 INFO: {'RGC': {   'close': 15.69,
+    'high': 15.69,
+    'low': 15.65,
+    'open': 15.65,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 383.0,
+    'vwap': 15.67}}
+2025-07-23 11:15:07 INFO: Current resistance is: 17.5 and support is: 15.675
+2025-07-23 11:15:07 INFO: Current average volume is: 421.64
+2025-07-23 11:15:07 INFO: Updated resistance to: 17.5 and support to: 15.65
+2025-07-23 11:17:08 INFO: {'RGC': {   'close': 15.79,
+    'high': 15.79,
+    'low': 15.78,
+    'open': 15.78,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 15.788}}
+2025-07-23 11:17:08 INFO: Current resistance is: 17.5 and support is: 15.65
+2025-07-23 11:17:08 INFO: Current average volume is: 423.94
+2025-07-23 11:17:08 INFO: Updated resistance to: 17.5 and support to: 15.65
+2025-07-23 11:22:09 INFO: {'RGC': {   'close': 15.71,
+    'high': 15.71,
+    'low': 15.71,
+    'open': 15.71,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 15.71}}
+2025-07-23 11:22:09 INFO: Current resistance is: 17.5 and support is: 15.65
+2025-07-23 11:22:09 INFO: Current average volume is: 414.69
+2025-07-23 11:22:09 INFO: Updated resistance to: 17.5 and support to: 15.65
+2025-07-23 11:24:10 INFO: {'RGC': {   'close': 15.675,
+    'high': 15.675,
+    'low': 15.67,
+    'open': 15.67,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 15.671667}}
+2025-07-23 11:24:10 INFO: Current resistance is: 17.5 and support is: 15.65
+2025-07-23 11:24:10 INFO: Current average volume is: 411.5
+2025-07-23 11:24:10 INFO: Updated resistance to: 17.5 and support to: 15.65
+2025-07-23 11:26:11 INFO: {'RGC': {   'close': 15.65,
+    'high': 15.65,
+    'low': 15.64,
+    'open': 15.64,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 358.0,
+    'vwap': 15.645}}
+2025-07-23 11:26:11 INFO: Current resistance is: 17.5 and support is: 15.65
+2025-07-23 11:26:11 INFO: Current average volume is: 410.05
+2025-07-23 11:27:11 INFO: {'RGC': {   'close': 15.44,
+    'high': 15.44,
+    'low': 15.32,
+    'open': 15.37,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 683.0,
+    'vwap': 15.388333}}
+2025-07-23 11:27:11 INFO: Current resistance is: 17.5 and support is: 15.65
+2025-07-23 11:27:11 INFO: Current average volume is: 417.24
+2025-07-23 11:27:11 INFO: close price: 15.44 just dropped below support of 15.65...
+2025-07-23 11:29:12 INFO: {'RGC': {   'close': 15.4,
+    'high': 15.4,
+    'low': 15.4,
+    'open': 15.4,
+    'symbol': 'RGC',
+    'timestamp': datetime.datetime(2025, 7, 23, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 15.4}}
+2025-07-23 11:29:12 INFO: Current resistance is: 17.5 and support is: 15.65
+2025-07-23 11:29:12 INFO: Current average volume is: 409.1
+2025-07-23 11:29:12 INFO: Closing price: 15.4 just dropped below support 15.65 again...ending trade...

@@ -1,0 +1,855 @@
+2025-07-24 10:00:06 INFO: === Strategy started ===
+2025-07-24 10:00:06 INFO: Start collecting the current highs/lows for: SRFM
+2025-07-24 10:00:07 INFO: Most recent stock data: {'SRFM': {   'close': 5.84,
+    'high': 5.84,
+    'low': 5.755,
+    'open': 5.755,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2081.0,
+    'vwap': 5.82675}}
+2025-07-24 10:01:08 INFO: Most recent stock data: {'SRFM': {   'close': 5.89,
+    'high': 5.9,
+    'low': 5.88,
+    'open': 5.89,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 838.0,
+    'vwap': 5.892597}}
+2025-07-24 10:02:08 INFO: Most recent stock data: {'SRFM': {   'close': 5.72,
+    'high': 5.74,
+    'low': 5.72,
+    'open': 5.74,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 571.0,
+    'vwap': 5.73}}
+2025-07-24 10:03:08 INFO: Most recent stock data: {'SRFM': {   'close': 5.68,
+    'high': 5.68,
+    'low': 5.665,
+    'open': 5.665,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 305.0,
+    'vwap': 5.675}}
+2025-07-24 10:04:08 INFO: Most recent stock data: {'SRFM': {   'close': 5.67,
+    'high': 5.7,
+    'low': 5.67,
+    'open': 5.695,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1907.0,
+    'vwap': 5.692647}}
+2025-07-24 10:05:08 INFO: Most recent stock data: {'SRFM': {   'close': 5.75,
+    'high': 5.75,
+    'low': 5.75,
+    'open': 5.75,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 194.0,
+    'vwap': 5.75}}
+2025-07-24 10:06:08 INFO: Most recent stock data: {'SRFM': {   'close': 5.83,
+    'high': 5.87,
+    'low': 5.83,
+    'open': 5.84,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 905.0,
+    'vwap': 5.846667}}
+2025-07-24 10:07:09 INFO: Most recent stock data: {'SRFM': {   'close': 5.83,
+    'high': 5.83,
+    'low': 5.81,
+    'open': 5.81,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1314.0,
+    'vwap': 5.813077}}
+2025-07-24 10:10:09 INFO: Most recent stock data: {'SRFM': {   'close': 5.74,
+    'high': 5.76,
+    'low': 5.74,
+    'open': 5.76,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 599.0,
+    'vwap': 5.756}}
+2025-07-24 10:11:09 INFO: Most recent stock data: {'SRFM': {   'close': 5.57,
+    'high': 5.63,
+    'low': 5.57,
+    'open': 5.61,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 902.0,
+    'vwap': 5.61}}
+2025-07-24 10:14:09 INFO: Most recent stock data: {'SRFM': {   'close': 5.625,
+    'high': 5.625,
+    'low': 5.625,
+    'open': 5.625,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 251.0,
+    'vwap': 5.625}}
+2025-07-24 10:14:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-24 10:14:09 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-24 10:15:10 INFO: {'SRFM': {   'close': 5.655,
+    'high': 5.655,
+    'low': 5.655,
+    'open': 5.655,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 265.0,
+    'vwap': 5.655}}
+2025-07-24 10:15:10 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:15:10 INFO: Current average volume is: 670.92
+2025-07-24 10:15:10 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:16:10 INFO: {'SRFM': {   'close': 5.735,
+    'high': 5.735,
+    'low': 5.715,
+    'open': 5.715,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 990.0,
+    'vwap': 5.724726}}
+2025-07-24 10:16:10 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:16:10 INFO: Current average volume is: 695.46
+2025-07-24 10:16:10 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:17:10 INFO: {'SRFM': {   'close': 5.75,
+    'high': 5.755,
+    'low': 5.74,
+    'open': 5.74,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 2000.0,
+    'vwap': 5.743}}
+2025-07-24 10:17:10 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:17:10 INFO: Current average volume is: 788.64
+2025-07-24 10:17:10 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:19:10 INFO: {'SRFM': {   'close': 5.73,
+    'high': 5.735,
+    'low': 5.73,
+    'open': 5.735,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.732778}}
+2025-07-24 10:19:10 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:19:10 INFO: Current average volume is: 756.07
+2025-07-24 10:19:10 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:20:10 INFO: {'SRFM': {   'close': 5.68,
+    'high': 5.68,
+    'low': 5.68,
+    'open': 5.68,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.68}}
+2025-07-24 10:20:10 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:20:10 INFO: Current average volume is: 715.06
+2025-07-24 10:20:10 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:21:10 INFO: {'SRFM': {   'close': 5.69,
+    'high': 5.695,
+    'low': 5.69,
+    'open': 5.695,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 799.0,
+    'vwap': 5.691383}}
+2025-07-24 10:21:10 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:21:10 INFO: Current average volume is: 720.0
+2025-07-24 10:21:10 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:22:11 INFO: {'SRFM': {   'close': 5.65,
+    'high': 5.69,
+    'low': 5.65,
+    'open': 5.69,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 320.0,
+    'vwap': 5.663333}}
+2025-07-24 10:22:11 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:22:11 INFO: Current average volume is: 697.78
+2025-07-24 10:22:11 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:24:11 INFO: {'SRFM': {   'close': 5.66,
+    'high': 5.66,
+    'low': 5.66,
+    'open': 5.66,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 125.0,
+    'vwap': 5.66}}
+2025-07-24 10:24:11 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:24:11 INFO: Current average volume is: 667.63
+2025-07-24 10:24:11 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:25:11 INFO: {'SRFM': {   'close': 5.63,
+    'high': 5.64,
+    'low': 5.63,
+    'open': 5.64,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 303.0,
+    'vwap': 5.633333}}
+2025-07-24 10:25:11 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:25:11 INFO: Current average volume is: 649.4
+2025-07-24 10:25:11 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:26:11 INFO: {'SRFM': {   'close': 5.625,
+    'high': 5.63,
+    'low': 5.625,
+    'open': 5.63,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 741.0,
+    'vwap': 5.628077}}
+2025-07-24 10:26:11 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:26:11 INFO: Current average volume is: 653.76
+2025-07-24 10:26:11 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:28:11 INFO: {'SRFM': {   'close': 5.62,
+    'high': 5.625,
+    'low': 5.62,
+    'open': 5.625,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 441.0,
+    'vwap': 5.622429}}
+2025-07-24 10:28:11 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:28:11 INFO: Current average volume is: 644.09
+2025-07-24 10:28:11 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:29:11 INFO: {'SRFM': {   'close': 5.58,
+    'high': 5.58,
+    'low': 5.58,
+    'open': 5.58,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 126.0,
+    'vwap': 5.58}}
+2025-07-24 10:29:11 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:29:11 INFO: Current average volume is: 621.57
+2025-07-24 10:29:11 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:30:12 INFO: {'SRFM': {   'close': 5.62,
+    'high': 5.62,
+    'low': 5.61,
+    'open': 5.62,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 425.0,
+    'vwap': 5.617647}}
+2025-07-24 10:30:12 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:30:12 INFO: Current average volume is: 613.38
+2025-07-24 10:30:12 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:31:12 INFO: {'SRFM': {   'close': 5.605,
+    'high': 5.605,
+    'low': 5.605,
+    'open': 5.605,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 203.0,
+    'vwap': 5.605}}
+2025-07-24 10:31:12 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:31:12 INFO: Current average volume is: 596.96
+2025-07-24 10:31:12 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:33:12 INFO: {'SRFM': {   'close': 5.6,
+    'high': 5.62,
+    'low': 5.59,
+    'open': 5.59,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1062.0,
+    'vwap': 5.614286}}
+2025-07-24 10:33:12 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:33:12 INFO: Current average volume is: 614.85
+2025-07-24 10:33:12 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:37:12 INFO: {'SRFM': {   'close': 5.665,
+    'high': 5.665,
+    'low': 5.665,
+    'open': 5.665,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 381.0,
+    'vwap': 5.665}}
+2025-07-24 10:37:12 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:37:12 INFO: Current average volume is: 606.19
+2025-07-24 10:37:12 INFO: Updated resistance to: 5.9 and support to: 5.57
+2025-07-24 10:43:13 INFO: {'SRFM': {   'close': 5.57,
+    'high': 5.58,
+    'low': 5.57,
+    'open': 5.575,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 352.0,
+    'vwap': 5.575276}}
+2025-07-24 10:43:13 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:43:13 INFO: Current average volume is: 597.11
+2025-07-24 10:46:13 INFO: {'SRFM': {   'close': 5.54,
+    'high': 5.54,
+    'low': 5.54,
+    'open': 5.54,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.54}}
+2025-07-24 10:46:13 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:46:13 INFO: Current average volume is: 579.97
+2025-07-24 10:46:13 INFO: close price: 5.54 just dropped below support of 5.57...
+2025-07-24 10:47:14 INFO: {'SRFM': {   'close': 5.545,
+    'high': 5.545,
+    'low': 5.545,
+    'open': 5.545,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 125.0,
+    'vwap': 5.545}}
+2025-07-24 10:47:14 INFO: Current resistance is: 5.9 and support is: 5.57
+2025-07-24 10:47:14 INFO: Current average volume is: 564.8
+2025-07-24 10:47:14 INFO: Closing price: 5.545 just dropped below support 5.57 again...ending trade...
+2025-07-24 11:00:03 INFO: === Strategy started ===
+2025-07-24 11:00:03 INFO: Start collecting the current highs/lows for: SRFM
+2025-07-24 11:00:03 INFO: Most recent stock data: {'SRFM': {   'close': 5.63,
+    'high': 5.63,
+    'low': 5.63,
+    'open': 5.63,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 103.0,
+    'vwap': 5.63}}
+2025-07-24 11:01:04 INFO: Most recent stock data: {'SRFM': {   'close': 5.615,
+    'high': 5.615,
+    'low': 5.615,
+    'open': 5.615,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 5.615}}
+2025-07-24 11:04:04 INFO: Most recent stock data: {'SRFM': {   'close': 5.64,
+    'high': 5.64,
+    'low': 5.64,
+    'open': 5.64,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 300.0,
+    'vwap': 5.64}}
+2025-07-24 11:05:04 INFO: Most recent stock data: {'SRFM': {   'close': 5.625,
+    'high': 5.625,
+    'low': 5.62,
+    'open': 5.62,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 5.6225}}
+2025-07-24 11:08:04 INFO: Most recent stock data: {'SRFM': {   'close': 5.68,
+    'high': 5.68,
+    'low': 5.6,
+    'open': 5.6,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 4607.0,
+    'vwap': 5.603496}}
+2025-07-24 11:11:05 INFO: Most recent stock data: {'SRFM': {   'close': 5.7,
+    'high': 5.7,
+    'low': 5.7,
+    'open': 5.7,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 214.0,
+    'vwap': 5.7}}
+2025-07-24 11:16:05 INFO: Most recent stock data: {'SRFM': {   'close': 5.71,
+    'high': 5.71,
+    'low': 5.705,
+    'open': 5.705,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 5.708333}}
+2025-07-24 11:17:05 INFO: Most recent stock data: {'SRFM': {   'close': 5.67,
+    'high': 5.67,
+    'low': 5.67,
+    'open': 5.67,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1402.0,
+    'vwap': 5.67}}
+2025-07-24 11:20:06 INFO: Most recent stock data: {'SRFM': {   'close': 5.605,
+    'high': 5.605,
+    'low': 5.605,
+    'open': 5.605,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.605}}
+2025-07-24 11:21:06 INFO: Most recent stock data: {'SRFM': {   'close': 5.595,
+    'high': 5.595,
+    'low': 5.59,
+    'open': 5.59,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 251.0,
+    'vwap': 5.5925}}
+2025-07-24 11:23:06 INFO: Most recent stock data: {'SRFM': {   'close': 5.59,
+    'high': 5.59,
+    'low': 5.545,
+    'open': 5.545,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 414.0,
+    'vwap': 5.562308}}
+2025-07-24 11:23:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-24 11:23:06 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-24 11:26:07 INFO: {'SRFM': {   'close': 5.61,
+    'high': 5.61,
+    'low': 5.61,
+    'open': 5.61,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 253.0,
+    'vwap': 5.61}}
+2025-07-24 11:26:07 INFO: Current resistance is: 5.71 and support is: 5.545
+2025-07-24 11:26:07 INFO: Current average volume is: 711.83
+2025-07-24 11:26:07 INFO: Updated resistance to: 5.71 and support to: 5.545
+2025-07-24 11:28:07 INFO: {'SRFM': {   'close': 5.63,
+    'high': 5.63,
+    'low': 5.63,
+    'open': 5.63,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 220.0,
+    'vwap': 5.63}}
+2025-07-24 11:28:07 INFO: Current resistance is: 5.71 and support is: 5.545
+2025-07-24 11:28:07 INFO: Current average volume is: 674.0
+2025-07-24 11:28:07 INFO: Updated resistance to: 5.71 and support to: 5.545
+2025-07-24 11:29:07 INFO: {'SRFM': {   'close': 5.72,
+    'high': 5.73,
+    'low': 5.72,
+    'open': 5.73,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 354.0,
+    'vwap': 5.723571}}
+2025-07-24 11:29:07 INFO: Current resistance is: 5.71 and support is: 5.545
+2025-07-24 11:29:07 INFO: Current average volume is: 651.14
+2025-07-24 11:29:07 INFO: The Current Close 5.72 is above the resistance...
+2025-07-24 11:29:07 INFO: Updated resistance to: 5.73 and support to: 5.545
+2025-07-24 11:31:08 INFO: {'SRFM': {   'close': 5.77,
+    'high': 5.77,
+    'low': 5.77,
+    'open': 5.77,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 285.0,
+    'vwap': 5.77}}
+2025-07-24 11:31:08 INFO: Current resistance is: 5.73 and support is: 5.545
+2025-07-24 11:31:08 INFO: Current average volume is: 626.73
+2025-07-24 11:31:08 INFO: The current close: 5.77 is above the resistance of 5.73, but volume isn't enough...
+2025-07-24 11:31:08 INFO: Updated resistance to: 5.77 and support to: 5.545
+2025-07-24 11:32:08 INFO: {'SRFM': {   'close': 5.73,
+    'high': 5.75,
+    'low': 5.73,
+    'open': 5.75,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 304.0,
+    'vwap': 5.741111}}
+2025-07-24 11:32:08 INFO: Current resistance is: 5.77 and support is: 5.545
+2025-07-24 11:32:08 INFO: Current average volume is: 606.56
+2025-07-24 11:32:08 INFO: Updated resistance to: 5.77 and support to: 5.545
+2025-07-24 11:33:08 INFO: {'SRFM': {   'close': 5.715,
+    'high': 5.715,
+    'low': 5.715,
+    'open': 5.715,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 5.715}}
+2025-07-24 11:33:08 INFO: Current resistance is: 5.77 and support is: 5.545
+2025-07-24 11:33:08 INFO: Current average volume is: 594.41
+2025-07-24 11:33:08 INFO: Updated resistance to: 5.77 and support to: 5.545
+2025-07-24 11:34:08 INFO: {'SRFM': {   'close': 5.68,
+    'high': 5.68,
+    'low': 5.68,
+    'open': 5.68,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.68}}
+2025-07-24 11:34:08 INFO: Current resistance is: 5.77 and support is: 5.545
+2025-07-24 11:34:08 INFO: Current average volume is: 572.5
+2025-07-24 11:34:08 INFO: Updated resistance to: 5.77 and support to: 5.545
+2025-07-24 11:37:08 INFO: {'SRFM': {   'close': 5.6,
+    'high': 5.63,
+    'low': 5.6,
+    'open': 5.63,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 425.0,
+    'vwap': 5.608824}}
+2025-07-24 11:37:08 INFO: Current resistance is: 5.77 and support is: 5.545
+2025-07-24 11:37:08 INFO: Current average volume is: 564.74
+2025-07-24 11:37:08 INFO: Updated resistance to: 5.77 and support to: 5.545
+2025-07-24 11:40:09 INFO: {'SRFM': {   'close': 5.76,
+    'high': 5.76,
+    'low': 5.715,
+    'open': 5.715,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 302.0,
+    'vwap': 5.735}}
+2025-07-24 11:40:09 INFO: Current resistance is: 5.77 and support is: 5.545
+2025-07-24 11:40:09 INFO: Current average volume is: 551.6
+2025-07-24 11:40:09 INFO: Updated resistance to: 5.77 and support to: 5.545
+2025-07-24 11:42:09 INFO: {'SRFM': {   'close': 5.74,
+    'high': 5.75,
+    'low': 5.72,
+    'open': 5.75,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2847.0,
+    'vwap': 5.732595}}
+2025-07-24 11:42:09 INFO: Current resistance is: 5.77 and support is: 5.545
+2025-07-24 11:42:09 INFO: Current average volume is: 660.9
+2025-07-24 11:42:09 INFO: Updated resistance to: 5.77 and support to: 5.545
+2025-07-24 11:44:09 INFO: {'SRFM': {   'close': 5.73,
+    'high': 5.825,
+    'low': 5.73,
+    'open': 5.825,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1427.0,
+    'vwap': 5.760581}}
+2025-07-24 11:44:09 INFO: Current resistance is: 5.77 and support is: 5.545
+2025-07-24 11:44:09 INFO: Current average volume is: 695.73
+2025-07-24 11:44:09 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 11:45:09 INFO: {'SRFM': {   'close': 5.8,
+    'high': 5.8,
+    'low': 5.8,
+    'open': 5.8,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 128.0,
+    'vwap': 5.8}}
+2025-07-24 11:45:09 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 11:45:09 INFO: Current average volume is: 671.04
+2025-07-24 11:45:09 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 11:49:10 INFO: {'SRFM': {   'close': 5.77,
+    'high': 5.77,
+    'low': 5.77,
+    'open': 5.77,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 126.0,
+    'vwap': 5.77}}
+2025-07-24 11:49:10 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 11:49:10 INFO: Current average volume is: 648.33
+2025-07-24 11:49:10 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 11:50:10 INFO: {'SRFM': {   'close': 5.8,
+    'high': 5.8,
+    'low': 5.8,
+    'open': 5.8,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 125.0,
+    'vwap': 5.8}}
+2025-07-24 11:50:10 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 11:50:10 INFO: Current average volume is: 627.4
+2025-07-24 11:50:10 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 11:54:11 INFO: {'SRFM': {   'close': 5.78,
+    'high': 5.78,
+    'low': 5.78,
+    'open': 5.78,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.78}}
+2025-07-24 11:54:11 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 11:54:11 INFO: Current average volume is: 607.12
+2025-07-24 11:54:11 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 11:56:11 INFO: {'SRFM': {   'close': 5.7,
+    'high': 5.7,
+    'low': 5.69,
+    'open': 5.69,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 226.0,
+    'vwap': 5.694444}}
+2025-07-24 11:56:11 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 11:56:11 INFO: Current average volume is: 593.0
+2025-07-24 11:56:11 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:01:11 INFO: {'SRFM': {   'close': 5.7,
+    'high': 5.71,
+    'low': 5.7,
+    'open': 5.71,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 452.0,
+    'vwap': 5.705556}}
+2025-07-24 12:01:11 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:01:11 INFO: Current average volume is: 587.96
+2025-07-24 12:01:11 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:02:12 INFO: {'SRFM': {   'close': 5.725,
+    'high': 5.725,
+    'low': 5.725,
+    'open': 5.725,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.725}}
+2025-07-24 12:02:12 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:02:12 INFO: Current average volume is: 571.14
+2025-07-24 12:02:12 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:07:12 INFO: {'SRFM': {   'close': 5.65,
+    'high': 5.65,
+    'low': 5.65,
+    'open': 5.65,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.65}}
+2025-07-24 12:07:12 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:07:12 INFO: Current average volume is: 558.77
+2025-07-24 12:07:12 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:13:13 INFO: {'SRFM': {   'close': 5.61,
+    'high': 5.61,
+    'low': 5.61,
+    'open': 5.61,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 211.0,
+    'vwap': 5.61}}
+2025-07-24 12:13:13 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:13:13 INFO: Current average volume is: 547.55
+2025-07-24 12:13:13 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:15:13 INFO: {'SRFM': {   'close': 5.67,
+    'high': 5.67,
+    'low': 5.65,
+    'open': 5.65,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 509.0,
+    'vwap': 5.654}}
+2025-07-24 12:15:13 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:15:13 INFO: Current average volume is: 546.34
+2025-07-24 12:15:13 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:18:14 INFO: {'SRFM': {   'close': 5.685,
+    'high': 5.685,
+    'low': 5.685,
+    'open': 5.685,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 130.0,
+    'vwap': 5.685}}
+2025-07-24 12:18:14 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:18:14 INFO: Current average volume is: 533.73
+2025-07-24 12:18:14 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:19:14 INFO: {'SRFM': {   'close': 5.7,
+    'high': 5.7,
+    'low': 5.7,
+    'open': 5.7,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 204.0,
+    'vwap': 5.7}}
+2025-07-24 12:19:14 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:19:14 INFO: Current average volume is: 524.03
+2025-07-24 12:19:14 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:22:14 INFO: {'SRFM': {   'close': 5.77,
+    'high': 5.77,
+    'low': 5.74,
+    'open': 5.74,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 466.0,
+    'vwap': 5.756901}}
+2025-07-24 12:22:14 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:22:14 INFO: Current average volume is: 522.37
+2025-07-24 12:22:14 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:23:14 INFO: {'SRFM': {   'close': 5.765,
+    'high': 5.765,
+    'low': 5.765,
+    'open': 5.765,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.765}}
+2025-07-24 12:23:14 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:23:14 INFO: Current average volume is: 513.42
+2025-07-24 12:23:14 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:24:14 INFO: {'SRFM': {   'close': 5.77,
+    'high': 5.77,
+    'low': 5.77,
+    'open': 5.77,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.77}}
+2025-07-24 12:24:14 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:24:14 INFO: Current average volume is: 502.24
+2025-07-24 12:24:14 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:26:15 INFO: {'SRFM': {   'close': 5.755,
+    'high': 5.755,
+    'low': 5.755,
+    'open': 5.755,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 5.755}}
+2025-07-24 12:26:15 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:26:15 INFO: Current average volume is: 494.29
+2025-07-24 12:26:15 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:33:15 INFO: {'SRFM': {   'close': 5.765,
+    'high': 5.765,
+    'low': 5.765,
+    'open': 5.765,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 206.0,
+    'vwap': 5.765}}
+2025-07-24 12:33:15 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:33:15 INFO: Current average volume is: 486.9
+2025-07-24 12:33:15 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:37:16 INFO: {'SRFM': {   'close': 5.68,
+    'high': 5.68,
+    'low': 5.68,
+    'open': 5.68,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 5.68}}
+2025-07-24 12:37:16 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:37:16 INFO: Current average volume is: 477.25
+2025-07-24 12:37:16 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:38:16 INFO: {'SRFM': {   'close': 5.65,
+    'high': 5.65,
+    'low': 5.65,
+    'open': 5.65,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 148.0,
+    'vwap': 5.65}}
+2025-07-24 12:38:16 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:38:16 INFO: Current average volume is: 469.22
+2025-07-24 12:38:16 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:45:17 INFO: {'SRFM': {   'close': 5.63,
+    'high': 5.63,
+    'low': 5.63,
+    'open': 5.63,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 202.0,
+    'vwap': 5.63}}
+2025-07-24 12:45:17 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:45:17 INFO: Current average volume is: 462.86
+2025-07-24 12:45:17 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:46:17 INFO: {'SRFM': {   'close': 5.61,
+    'high': 5.61,
+    'low': 5.61,
+    'open': 5.61,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 424.0,
+    'vwap': 5.61}}
+2025-07-24 12:46:17 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:46:17 INFO: Current average volume is: 461.95
+2025-07-24 12:46:17 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:47:17 INFO: {'SRFM': {   'close': 5.56,
+    'high': 5.58,
+    'low': 5.56,
+    'open': 5.58,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 379.0,
+    'vwap': 5.570554}}
+2025-07-24 12:47:17 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:47:17 INFO: Current average volume is: 460.07
+2025-07-24 12:47:17 INFO: Updated resistance to: 5.825 and support to: 5.545
+2025-07-24 12:48:17 INFO: {'SRFM': {   'close': 5.37,
+    'high': 5.53,
+    'low': 5.37,
+    'open': 5.525,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1534.0,
+    'vwap': 5.459333}}
+2025-07-24 12:48:17 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:48:17 INFO: Current average volume is: 483.93
+2025-07-24 12:48:17 INFO: close price: 5.37 just dropped below support of 5.545...
+2025-07-24 12:50:18 INFO: {'SRFM': {   'close': 5.35,
+    'high': 5.35,
+    'low': 5.35,
+    'open': 5.35,
+    'symbol': 'SRFM',
+    'timestamp': datetime.datetime(2025, 7, 24, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.35}}
+2025-07-24 12:50:18 INFO: Current resistance is: 5.825 and support is: 5.545
+2025-07-24 12:50:18 INFO: Current average volume is: 477.76
+2025-07-24 12:50:18 INFO: Closing price: 5.35 just dropped below support 5.545 again...ending trade...

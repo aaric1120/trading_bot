@@ -4,6 +4,7 @@ import yfinance as yf
 import subprocess
 from random import shuffle
 
+
 def get_undervalued_stocks():
     """
     Returns a list of tickers with:
@@ -17,17 +18,17 @@ def get_undervalued_stocks():
     """
     foverview = Overview()
 
-    # filters_dict = {'Float':'Under 50M',
+    # filters_dict = {
     #                 'Price':'$1 to $20',
     #                 'Relative Volume':'Over 3',
-    #                 'Current Volume':'Over 500K',
     #                 'Average True Range':'Over 0.5',
     #                 'Beta':'Over 2'
     #                 }
 
-    filters_dict = {'Price': '$1 to $20',
+    filters_dict = {'Price': 'Over $1',
+                    'Average Volume':'Over 500K',
                     'Relative Volume': 'Over 3',
-                    'Average True Range': 'Over 0.5',
+                    'Average True Range': 'Over 1',
                     'Beta': 'Over 2'
                     }
 
@@ -63,11 +64,6 @@ def get_stock_info(ticker):
     stock_info["averageVolume10days"] = info.get("averageVolume10days", "N/A")
     stock_info["averageVolume"] = info.get("averageVolume", "N/A")
 
-    print(f"Float: {stock_info['floatShares']} shares")
-    print(f"Market Cap: ${stock_info['marketCap'] / 1e9:.2f}B")  # Convert to billions
-    print(f"10-Day Avg Volume: {stock_info['averageVolume10days']:,} shares")
-    print(f"3-Month Avg Volume: {stock_info['averageVolume']:,} shares")
-
     return stock_info
 
 
@@ -97,4 +93,6 @@ def get_stock_start(stock_list,stock_dict,process_list):
 
     return False
 
+
 # print(get_undervalued_stocks())
+# print(get_stock_info('BE'))

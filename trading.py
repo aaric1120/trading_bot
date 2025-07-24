@@ -295,7 +295,8 @@ class BaseTrade:
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         breakout, breakdown = True, False
 
-                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] > volume):
+                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] > volume
+                                                               or self.avg_vol < self.param["volume_threshold"]):
                         print(f"The current close: {close} is above the resistance of {self.resist}, but volume isn't enough...")
                         logging.info(
                             f"The current close: {close} is above the resistance of {self.resist}, but volume isn't enough...")
@@ -304,7 +305,8 @@ class BaseTrade:
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
 
                     # second bar also closes above resistance: BUY
-                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume):
+                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume) and \
+                            (self.avg_vol >= self.param["volume_threshold"]):
                         if dt.datetime.now().time() >= MARKET_DEADLINE:
                             print("The current time is past the last buy deadline...")
                             logging.info("The current time is past the last buy deadline...")
