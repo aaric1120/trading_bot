@@ -3,7 +3,8 @@ import logging
 
 import time as tm
 import numpy as np
-from TimeConstants import *
+import datetime as dt
+from TimeConstants import MARKET_CLOSE_TIME
 
 from param_reader import param_reader
 from pattern_detection import pattern_detection

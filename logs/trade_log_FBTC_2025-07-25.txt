@@ -1,0 +1,1339 @@
+2025-07-25 10:00:07 INFO: === Strategy started ===
+2025-07-25 10:00:07 INFO: Start collecting the current highs/lows for: FBTC
+2025-07-25 10:00:08 INFO: Most recent stock data: {'FBTC': {   'close': 101.38,
+    'high': 101.38,
+    'low': 101.38,
+    'open': 101.38,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.38}}
+2025-07-25 10:01:08 INFO: Most recent stock data: {'FBTC': {   'close': 101.48,
+    'high': 101.48,
+    'low': 101.48,
+    'open': 101.48,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 202.0,
+    'vwap': 101.48}}
+2025-07-25 10:03:08 INFO: Most recent stock data: {'FBTC': {   'close': 101.44,
+    'high': 101.44,
+    'low': 101.44,
+    'open': 101.44,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 424.0,
+    'vwap': 101.44}}
+2025-07-25 10:04:08 INFO: Most recent stock data: {'FBTC': {   'close': 101.33,
+    'high': 101.33,
+    'low': 101.33,
+    'open': 101.33,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.33}}
+2025-07-25 10:05:08 INFO: Most recent stock data: {'FBTC': {   'close': 101.27,
+    'high': 101.27,
+    'low': 101.25,
+    'open': 101.25,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 303.0,
+    'vwap': 101.263333}}
+2025-07-25 10:06:08 INFO: Most recent stock data: {'FBTC': {   'close': 101.125,
+    'high': 101.2,
+    'low': 101.11,
+    'open': 101.2,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1300.0,
+    'vwap': 101.141154}}
+2025-07-25 10:08:09 INFO: Most recent stock data: {'FBTC': {   'close': 101.26,
+    'high': 101.26,
+    'low': 101.15,
+    'open': 101.17,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1604.0,
+    'vwap': 101.192}}
+2025-07-25 10:09:09 INFO: Most recent stock data: {'FBTC': {   'close': 101.13,
+    'high': 101.24,
+    'low': 101.13,
+    'open': 101.23,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1735.0,
+    'vwap': 101.2}}
+2025-07-25 10:10:09 INFO: Most recent stock data: {'FBTC': {   'close': 101.23,
+    'high': 101.23,
+    'low': 101.23,
+    'open': 101.23,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.23}}
+2025-07-25 10:12:09 INFO: Most recent stock data: {'FBTC': {   'close': 101.14,
+    'high': 101.14,
+    'low': 101.14,
+    'open': 101.14,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 375.0,
+    'vwap': 101.14}}
+2025-07-25 10:13:09 INFO: Most recent stock data: {'FBTC': {   'close': 101.12,
+    'high': 101.12,
+    'low': 101.1,
+    'open': 101.1,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 101.11}}
+2025-07-25 10:13:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-25 10:13:09 INFO: Pattern matched as Ascending Triangle, starting trading strategy
+2025-07-25 10:15:09 INFO: {'FBTC': {   'close': 100.94,
+    'high': 100.94,
+    'low': 100.94,
+    'open': 100.94,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 119.0,
+    'vwap': 100.94}}
+2025-07-25 10:15:09 INFO: Current resistance is: 101.48 and support is: 101.065
+2025-07-25 10:15:09 INFO: Current average volume is: 555.17
+2025-07-25 10:15:09 INFO: close price: 100.94 just dropped below support of 101.065...
+2025-07-25 10:19:10 INFO: {'FBTC': {   'close': 100.82,
+    'high': 100.82,
+    'low': 100.75,
+    'open': 100.75,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 100.785}}
+2025-07-25 10:19:10 INFO: Current resistance is: 101.48 and support is: 101.065
+2025-07-25 10:19:10 INFO: Current average volume is: 527.85
+2025-07-25 10:19:10 INFO: Closing price: 100.82 just dropped below support 101.065 again...ending trade...
+2025-07-25 10:30:02 INFO: === Strategy started ===
+2025-07-25 10:30:02 INFO: Start collecting the current highs/lows for: FBTC
+2025-07-25 10:30:03 INFO: Most recent stock data: {'FBTC': {   'close': 100.955,
+    'high': 100.97,
+    'low': 100.91,
+    'open': 100.97,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 538.0,
+    'vwap': 100.943}}
+2025-07-25 10:31:03 INFO: Most recent stock data: {'FBTC': {   'close': 101.02,
+    'high': 101.02,
+    'low': 101.0,
+    'open': 101.0,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 275.0,
+    'vwap': 101.012727}}
+2025-07-25 10:32:03 INFO: Most recent stock data: {'FBTC': {   'close': 100.95,
+    'high': 100.95,
+    'low': 100.95,
+    'open': 100.95,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.95}}
+2025-07-25 10:33:03 INFO: Most recent stock data: {'FBTC': {   'close': 100.7,
+    'high': 100.84,
+    'low': 100.7,
+    'open': 100.83,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1332.0,
+    'vwap': 100.786667}}
+2025-07-25 10:34:03 INFO: Most recent stock data: {'FBTC': {   'close': 100.73,
+    'high': 100.73,
+    'low': 100.68,
+    'open': 100.68,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 649.0,
+    'vwap': 100.688333}}
+2025-07-25 10:35:03 INFO: Most recent stock data: {'FBTC': {   'close': 100.89,
+    'high': 100.91,
+    'low': 100.73,
+    'open': 100.73,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 100.843333}}
+2025-07-25 10:36:03 INFO: Most recent stock data: {'FBTC': {   'close': 100.82,
+    'high': 100.82,
+    'low': 100.82,
+    'open': 100.82,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.82}}
+2025-07-25 10:37:04 INFO: Most recent stock data: {'FBTC': {   'close': 100.92,
+    'high': 101.0,
+    'low': 100.92,
+    'open': 101.0,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 258.0,
+    'vwap': 100.953333}}
+2025-07-25 10:38:04 INFO: Most recent stock data: {'FBTC': {   'close': 100.88,
+    'high': 100.88,
+    'low': 100.88,
+    'open': 100.88,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.88}}
+2025-07-25 10:40:04 INFO: Most recent stock data: {'FBTC': {   'close': 100.64,
+    'high': 100.64,
+    'low': 100.64,
+    'open': 100.64,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.64}}
+2025-07-25 10:41:04 INFO: Most recent stock data: {'FBTC': {   'close': 100.66,
+    'high': 100.66,
+    'low': 100.66,
+    'open': 100.66,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 404.0,
+    'vwap': 100.66}}
+2025-07-25 10:41:04 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-25 10:41:04 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-25 10:42:04 INFO: {'FBTC': {   'close': 100.52,
+    'high': 100.6,
+    'low': 100.52,
+    'open': 100.6,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 330.0,
+    'vwap': 100.573333}}
+2025-07-25 10:42:04 INFO: Current resistance is: 101.02 and support is: 100.64
+2025-07-25 10:42:04 INFO: Current average volume is: 329.0
+2025-07-25 10:42:04 INFO: close price: 100.52 just dropped below support of 100.64...
+2025-07-25 10:44:04 INFO: {'FBTC': {   'close': 100.54,
+    'high': 100.54,
+    'low': 100.54,
+    'open': 100.54,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 100.54}}
+2025-07-25 10:44:04 INFO: Current resistance is: 101.02 and support is: 100.64
+2025-07-25 10:44:04 INFO: Current average volume is: 319.08
+2025-07-25 10:44:04 INFO: Closing price: 100.54 just dropped below support 100.64 again...ending trade...
+2025-07-25 10:45:02 INFO: === Strategy started ===
+2025-07-25 10:45:02 INFO: Start collecting the current highs/lows for: FBTC
+2025-07-25 10:45:03 INFO: Most recent stock data: {'FBTC': {   'close': 100.54,
+    'high': 100.56,
+    'low': 100.54,
+    'open': 100.56,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 260.0,
+    'vwap': 100.55}}
+2025-07-25 10:46:03 INFO: Most recent stock data: {'FBTC': {   'close': 100.53,
+    'high': 100.55,
+    'low': 100.52,
+    'open': 100.54,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 701.0,
+    'vwap': 100.534286}}
+2025-07-25 10:50:03 INFO: Most recent stock data: {'FBTC': {   'close': 100.7,
+    'high': 100.7,
+    'low': 100.7,
+    'open': 100.7,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.7}}
+2025-07-25 10:54:04 INFO: Most recent stock data: {'FBTC': {   'close': 100.58,
+    'high': 100.58,
+    'low': 100.57,
+    'open': 100.57,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 526.0,
+    'vwap': 100.5725}}
+2025-07-25 10:55:04 INFO: Most recent stock data: {'FBTC': {   'close': 100.57,
+    'high': 100.57,
+    'low': 100.54,
+    'open': 100.54,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 100.555}}
+2025-07-25 10:57:04 INFO: Most recent stock data: {'FBTC': {   'close': 100.56,
+    'high': 100.56,
+    'low': 100.56,
+    'open': 100.56,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.56}}
+2025-07-25 11:00:05 INFO: Most recent stock data: {'FBTC': {   'close': 100.45,
+    'high': 100.45,
+    'low': 100.45,
+    'open': 100.45,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 100.45}}
+2025-07-25 11:04:05 INFO: Most recent stock data: {'FBTC': {   'close': 100.65,
+    'high': 100.65,
+    'low': 100.65,
+    'open': 100.65,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.65}}
+2025-07-25 11:05:05 INFO: Most recent stock data: {'FBTC': {   'close': 100.62,
+    'high': 100.62,
+    'low': 100.62,
+    'open': 100.62,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 100.62}}
+2025-07-25 11:13:06 INFO: Most recent stock data: {'FBTC': {   'close': 100.73,
+    'high': 100.73,
+    'low': 100.73,
+    'open': 100.73,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 100.73}}
+2025-07-25 11:14:06 INFO: Most recent stock data: {'FBTC': {   'close': 100.71,
+    'high': 100.71,
+    'low': 100.71,
+    'open': 100.71,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.71}}
+2025-07-25 11:14:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-25 11:14:06 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-25 11:15:06 INFO: {'FBTC': {   'close': 100.81,
+    'high': 100.81,
+    'low': 100.81,
+    'open': 100.81,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.81}}
+2025-07-25 11:15:06 INFO: Current resistance is: 100.73 and support is: 100.45
+2025-07-25 11:15:06 INFO: Current average volume is: 218.92
+2025-07-25 11:15:06 INFO: The Current Close 100.81 is above the resistance...
+2025-07-25 11:15:06 INFO: Updated resistance to: 100.81 and support to: 100.45
+2025-07-25 11:19:08 INFO: {'FBTC': {   'close': 100.9,
+    'high': 100.9,
+    'low': 100.9,
+    'open': 100.9,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.9}}
+2025-07-25 11:19:08 INFO: Current resistance is: 100.81 and support is: 100.45
+2025-07-25 11:19:08 INFO: Current average volume is: 209.77
+2025-07-25 11:19:08 INFO: The current close: 100.9 is above the resistance of 100.81, but volume isn't enough...
+2025-07-25 11:19:08 INFO: Updated resistance to: 100.9 and support to: 100.45
+2025-07-25 11:21:08 INFO: {'FBTC': {   'close': 100.825,
+    'high': 100.825,
+    'low': 100.825,
+    'open': 100.825,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 109.0,
+    'vwap': 100.825}}
+2025-07-25 11:21:08 INFO: Current resistance is: 100.9 and support is: 100.45
+2025-07-25 11:21:08 INFO: Current average volume is: 202.57
+2025-07-25 11:21:08 INFO: Updated resistance to: 100.9 and support to: 100.45
+2025-07-25 11:22:08 INFO: {'FBTC': {   'close': 100.68,
+    'high': 100.68,
+    'low': 100.68,
+    'open': 100.68,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 100.68}}
+2025-07-25 11:22:08 INFO: Current resistance is: 100.9 and support is: 100.45
+2025-07-25 11:22:08 INFO: Current average volume is: 195.73
+2025-07-25 11:22:08 INFO: Updated resistance to: 100.9 and support to: 100.45
+2025-07-25 11:24:09 INFO: {'FBTC': {   'close': 100.94,
+    'high': 100.94,
+    'low': 100.9,
+    'open': 100.9,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 100.915}}
+2025-07-25 11:24:09 INFO: Current resistance is: 100.9 and support is: 100.45
+2025-07-25 11:24:09 INFO: Current average volume is: 208.5
+2025-07-25 11:24:09 INFO: The Current Close 100.94 is above the resistance...
+2025-07-25 11:24:09 INFO: Updated resistance to: 100.94 and support to: 100.45
+2025-07-25 11:26:09 INFO: {'FBTC': {   'close': 101.01,
+    'high': 101.01,
+    'low': 101.01,
+    'open': 101.01,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 101.01}}
+2025-07-25 11:26:09 INFO: Current resistance is: 100.94 and support is: 100.45
+2025-07-25 11:26:09 INFO: Current average volume is: 208.0
+2025-07-25 11:26:09 INFO: The current close: 101.01 is above the resistance of 100.94, but volume isn't enough...
+2025-07-25 11:26:09 INFO: Updated resistance to: 101.01 and support to: 100.45
+2025-07-25 11:27:10 INFO: {'FBTC': {   'close': 101.06,
+    'high': 101.06,
+    'low': 101.06,
+    'open': 101.06,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.06}}
+2025-07-25 11:27:10 INFO: Current resistance is: 101.01 and support is: 100.45
+2025-07-25 11:27:10 INFO: Current average volume is: 202.0
+2025-07-25 11:27:10 INFO: The current close: 101.06 is above the resistance of 101.01, but volume isn't enough...
+2025-07-25 11:27:10 INFO: Updated resistance to: 101.06 and support to: 100.45
+2025-07-25 11:39:14 INFO: {'FBTC': {   'close': 100.85,
+    'high': 100.85,
+    'low': 100.85,
+    'open': 100.85,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 430.0,
+    'vwap': 100.85}}
+2025-07-25 11:39:14 INFO: Current resistance is: 101.06 and support is: 100.45
+2025-07-25 11:39:14 INFO: Current average volume is: 214.0
+2025-07-25 11:39:14 INFO: Updated resistance to: 101.06 and support to: 100.45
+2025-07-25 11:42:14 INFO: {'FBTC': {   'close': 100.81,
+    'high': 100.81,
+    'low': 100.79,
+    'open': 100.79,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 100.796667}}
+2025-07-25 11:42:14 INFO: Current resistance is: 101.06 and support is: 100.45
+2025-07-25 11:42:14 INFO: Current average volume is: 218.3
+2025-07-25 11:42:14 INFO: Updated resistance to: 101.06 and support to: 100.45
+2025-07-25 11:49:15 INFO: {'FBTC': {   'close': 100.95,
+    'high': 100.95,
+    'low': 100.95,
+    'open': 100.95,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 100.95}}
+2025-07-25 11:49:15 INFO: Current resistance is: 101.06 and support is: 100.45
+2025-07-25 11:49:15 INFO: Current average volume is: 217.43
+2025-07-25 11:49:15 INFO: Updated resistance to: 101.06 and support to: 100.45
+2025-07-25 11:52:16 INFO: {'FBTC': {   'close': 100.96,
+    'high': 100.96,
+    'low': 100.96,
+    'open': 100.96,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 100.96}}
+2025-07-25 11:52:16 INFO: Current resistance is: 101.06 and support is: 100.45
+2025-07-25 11:52:16 INFO: Current average volume is: 217.09
+2025-07-25 11:52:16 INFO: Updated resistance to: 101.06 and support to: 100.45
+2025-07-25 11:54:16 INFO: {'FBTC': {   'close': 101.15,
+    'high': 101.15,
+    'low': 101.15,
+    'open': 101.15,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 101.15}}
+2025-07-25 11:54:16 INFO: Current resistance is: 101.06 and support is: 100.45
+2025-07-25 11:54:16 INFO: Current average volume is: 212.13
+2025-07-25 11:54:16 INFO: The Current Close 101.15 is above the resistance...
+2025-07-25 11:54:16 INFO: Updated resistance to: 101.15 and support to: 100.45
+2025-07-25 11:56:17 INFO: {'FBTC': {   'close': 101.19,
+    'high': 101.19,
+    'low': 101.19,
+    'open': 101.19,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 168.0,
+    'vwap': 101.19}}
+2025-07-25 11:56:17 INFO: Current resistance is: 101.15 and support is: 100.45
+2025-07-25 11:56:17 INFO: Current average volume is: 210.29
+2025-07-25 11:56:17 INFO: The current close: 101.19 is above the resistance of 101.15, but volume isn't enough...
+2025-07-25 11:56:17 INFO: Updated resistance to: 101.19 and support to: 100.45
+2025-07-25 12:00:18 INFO: {'FBTC': {   'close': 101.14,
+    'high': 101.14,
+    'low': 101.14,
+    'open': 101.14,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 215.0,
+    'vwap': 101.14}}
+2025-07-25 12:00:18 INFO: Current resistance is: 101.19 and support is: 100.45
+2025-07-25 12:00:18 INFO: Current average volume is: 210.48
+2025-07-25 12:00:18 INFO: Updated resistance to: 101.19 and support to: 100.45
+2025-07-25 12:01:18 INFO: {'FBTC': {   'close': 101.12,
+    'high': 101.12,
+    'low': 101.12,
+    'open': 101.12,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.12}}
+2025-07-25 12:01:18 INFO: Current resistance is: 101.19 and support is: 100.45
+2025-07-25 12:01:18 INFO: Current average volume is: 206.23
+2025-07-25 12:01:18 INFO: Updated resistance to: 101.19 and support to: 100.45
+2025-07-25 12:02:18 INFO: {'FBTC': {   'close': 101.1,
+    'high': 101.1,
+    'low': 101.1,
+    'open': 101.1,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.1}}
+2025-07-25 12:02:18 INFO: Current resistance is: 101.19 and support is: 100.45
+2025-07-25 12:02:18 INFO: Current average volume is: 202.3
+2025-07-25 12:02:18 INFO: Updated resistance to: 101.19 and support to: 100.45
+2025-07-25 12:03:19 INFO: {'FBTC': {   'close': 101.15,
+    'high': 101.15,
+    'low': 101.15,
+    'open': 101.15,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 101.15}}
+2025-07-25 12:03:19 INFO: Current resistance is: 101.19 and support is: 100.45
+2025-07-25 12:03:19 INFO: Current average volume is: 198.68
+2025-07-25 12:03:19 INFO: Updated resistance to: 101.19 and support to: 100.45
+2025-07-25 12:04:19 INFO: {'FBTC': {   'close': 101.14,
+    'high': 101.14,
+    'low': 101.14,
+    'open': 101.14,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.14}}
+2025-07-25 12:04:19 INFO: Current resistance is: 101.19 and support is: 100.45
+2025-07-25 12:04:19 INFO: Current average volume is: 195.28
+2025-07-25 12:04:19 INFO: Updated resistance to: 101.19 and support to: 100.45
+2025-07-25 12:05:19 INFO: {'FBTC': {   'close': 101.18,
+    'high': 101.205,
+    'low': 101.18,
+    'open': 101.2,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 860.0,
+    'vwap': 101.197385}}
+2025-07-25 12:05:19 INFO: Current resistance is: 101.19 and support is: 100.45
+2025-07-25 12:05:19 INFO: Current average volume is: 217.43
+2025-07-25 12:05:19 INFO: Updated resistance to: 101.205 and support to: 100.45
+2025-07-25 12:06:19 INFO: {'FBTC': {   'close': 101.17,
+    'high': 101.17,
+    'low': 101.17,
+    'open': 101.17,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 291.0,
+    'vwap': 101.17}}
+2025-07-25 12:06:19 INFO: Current resistance is: 101.205 and support is: 100.45
+2025-07-25 12:06:19 INFO: Current average volume is: 219.81
+2025-07-25 12:06:19 INFO: Updated resistance to: 101.205 and support to: 100.45
+2025-07-25 12:07:19 INFO: {'FBTC': {   'close': 101.22,
+    'high': 101.22,
+    'low': 101.21,
+    'open': 101.21,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 314.0,
+    'vwap': 101.216369}}
+2025-07-25 12:07:19 INFO: Current resistance is: 101.205 and support is: 100.45
+2025-07-25 12:07:19 INFO: Current average volume is: 222.75
+2025-07-25 12:07:19 INFO: The Current Close 101.22 is above the resistance...
+2025-07-25 12:07:19 INFO: Updated resistance to: 101.22 and support to: 100.45
+2025-07-25 12:09:20 INFO: {'FBTC': {   'close': 101.25,
+    'high': 101.33,
+    'low': 101.25,
+    'open': 101.33,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 101.29}}
+2025-07-25 12:09:20 INFO: Current resistance is: 101.22 and support is: 100.45
+2025-07-25 12:09:20 INFO: Current average volume is: 222.06
+2025-07-25 12:09:20 INFO: The current close: 101.25 is above the resistance of 101.22, but volume isn't enough...
+2025-07-25 12:09:20 INFO: Updated resistance to: 101.33 and support to: 100.45
+2025-07-25 12:20:24 INFO: {'FBTC': {   'close': 101.11,
+    'high': 101.11,
+    'low': 101.11,
+    'open': 101.11,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 110.0,
+    'vwap': 101.11}}
+2025-07-25 12:20:24 INFO: Current resistance is: 101.33 and support is: 100.45
+2025-07-25 12:20:24 INFO: Current average volume is: 218.76
+2025-07-25 12:20:24 INFO: Updated resistance to: 101.33 and support to: 100.45
+2025-07-25 12:21:24 INFO: {'FBTC': {   'close': 101.01,
+    'high': 101.01,
+    'low': 101.01,
+    'open': 101.01,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 102.0,
+    'vwap': 101.01}}
+2025-07-25 12:21:24 INFO: Current resistance is: 101.33 and support is: 100.45
+2025-07-25 12:21:24 INFO: Current average volume is: 215.43
+2025-07-25 12:21:24 INFO: Updated resistance to: 101.33 and support to: 100.45
+2025-07-25 12:25:24 INFO: {'FBTC': {   'close': 100.97,
+    'high': 100.97,
+    'low': 100.96,
+    'open': 100.96,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 410.0,
+    'vwap': 100.967561}}
+2025-07-25 12:25:24 INFO: Current resistance is: 101.33 and support is: 100.45
+2025-07-25 12:25:24 INFO: Current average volume is: 220.83
+2025-07-25 12:25:24 INFO: Updated resistance to: 101.33 and support to: 100.45
+2025-07-25 12:32:26 INFO: {'FBTC': {   'close': 101.2,
+    'high': 101.2,
+    'low': 101.2,
+    'open': 101.2,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.2}}
+2025-07-25 12:32:26 INFO: Current resistance is: 101.33 and support is: 100.45
+2025-07-25 12:32:26 INFO: Current average volume is: 217.57
+2025-07-25 12:32:26 INFO: Updated resistance to: 101.33 and support to: 100.45
+2025-07-25 12:37:26 INFO: {'FBTC': {   'close': 101.0,
+    'high': 101.0,
+    'low': 101.0,
+    'open': 101.0,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.0}}
+2025-07-25 12:37:26 INFO: Current resistance is: 101.33 and support is: 100.45
+2025-07-25 12:37:26 INFO: Current average volume is: 214.47
+2025-07-25 12:37:26 INFO: Updated resistance to: 101.33 and support to: 100.45
+2025-07-25 12:38:27 INFO: {'FBTC': {   'close': 101.04,
+    'high': 101.04,
+    'low': 101.04,
+    'open': 101.04,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.04}}
+2025-07-25 12:38:27 INFO: Current resistance is: 101.33 and support is: 100.45
+2025-07-25 12:38:27 INFO: Current average volume is: 211.54
+2025-07-25 12:38:27 INFO: Updated resistance to: 101.33 and support to: 100.45
+2025-07-25 12:46:28 INFO: {'FBTC': {   'close': 101.28,
+    'high': 101.31,
+    'low': 101.28,
+    'open': 101.31,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 210.0,
+    'vwap': 101.295714}}
+2025-07-25 12:46:28 INFO: Current resistance is: 101.33 and support is: 100.45
+2025-07-25 12:46:28 INFO: Current average volume is: 211.5
+2025-07-25 12:46:28 INFO: Updated resistance to: 101.33 and support to: 100.45
+2025-07-25 12:56:30 INFO: {'FBTC': {   'close': 101.41,
+    'high': 101.41,
+    'low': 101.41,
+    'open': 101.41,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 410.0,
+    'vwap': 101.41}}
+2025-07-25 12:56:30 INFO: Current resistance is: 101.33 and support is: 100.45
+2025-07-25 12:56:30 INFO: Current average volume is: 216.34
+2025-07-25 12:56:30 INFO: The Current Close 101.41 is above the resistance...
+2025-07-25 12:56:30 INFO: Updated resistance to: 101.41 and support to: 100.45
+2025-07-25 12:59:01 INFO: {'FBTC': {   'close': 101.56,
+    'high': 101.56,
+    'low': 101.53,
+    'open': 101.53,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 328.0,
+    'vwap': 101.550323}}
+2025-07-25 12:59:01 INFO: Current resistance is: 101.41 and support is: 100.45
+2025-07-25 12:59:01 INFO: Current average volume is: 219.0
+2025-07-25 12:59:01 INFO: The current close: 101.56 is above the resistance of 101.41, but volume isn't enough...
+2025-07-25 12:59:01 INFO: Updated resistance to: 101.56 and support to: 100.45
+2025-07-25 13:00:01 INFO: {'FBTC': {   'close': 101.52,
+    'high': 101.52,
+    'low': 101.52,
+    'open': 101.52,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.52}}
+2025-07-25 13:00:01 INFO: Current resistance is: 101.56 and support is: 100.45
+2025-07-25 13:00:01 INFO: Current average volume is: 216.23
+2025-07-25 13:00:01 INFO: Updated resistance to: 101.56 and support to: 100.45
+2025-07-25 13:03:01 INFO: {'FBTC': {   'close': 101.59,
+    'high': 101.59,
+    'low': 101.59,
+    'open': 101.59,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 143.0,
+    'vwap': 101.59}}
+2025-07-25 13:03:01 INFO: Current resistance is: 101.56 and support is: 100.45
+2025-07-25 13:03:01 INFO: Current average volume is: 214.57
+2025-07-25 13:03:01 INFO: The Current Close 101.59 is above the resistance...
+2025-07-25 13:03:01 INFO: Updated resistance to: 101.59 and support to: 100.45
+2025-07-25 13:06:02 INFO: {'FBTC': {   'close': 101.61,
+    'high': 101.61,
+    'low': 101.57,
+    'open': 101.57,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 320.0,
+    'vwap': 101.596667}}
+2025-07-25 13:06:02 INFO: Current resistance is: 101.59 and support is: 100.45
+2025-07-25 13:06:02 INFO: Current average volume is: 216.91
+2025-07-25 13:06:02 INFO: The current close: 101.61 is above the resistance of 101.59, but volume isn't enough...
+2025-07-25 13:06:02 INFO: Updated resistance to: 101.61 and support to: 100.45
+2025-07-25 13:12:04 INFO: {'FBTC': {   'close': 101.65,
+    'high': 101.67,
+    'low': 101.65,
+    'open': 101.67,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 410.0,
+    'vwap': 101.660244}}
+2025-07-25 13:12:04 INFO: Current resistance is: 101.61 and support is: 100.45
+2025-07-25 13:12:04 INFO: Current average volume is: 221.11
+2025-07-25 13:12:04 INFO: The current close: 101.65 is above the resistance of 101.61, but volume isn't enough...
+2025-07-25 13:12:04 INFO: Updated resistance to: 101.67 and support to: 100.45
+2025-07-25 13:13:05 INFO: {'FBTC': {   'close': 101.72,
+    'high': 101.72,
+    'low': 101.7,
+    'open': 101.71,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 506.0,
+    'vwap': 101.706}}
+2025-07-25 13:13:05 INFO: Current resistance is: 101.67 and support is: 100.45
+2025-07-25 13:13:05 INFO: Current average volume is: 227.17
+2025-07-25 13:13:05 INFO: The current close: 101.72 is above the resistance of 101.67, but volume isn't enough...
+2025-07-25 13:13:05 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 13:15:05 INFO: {'FBTC': {   'close': 101.66,
+    'high': 101.7,
+    'low': 101.66,
+    'open': 101.7,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 623.0,
+    'vwap': 101.686721}}
+2025-07-25 13:15:05 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 13:15:05 INFO: Current average volume is: 235.42
+2025-07-25 13:15:05 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 13:16:06 INFO: {'FBTC': {   'close': 101.64,
+    'high': 101.64,
+    'low': 101.64,
+    'open': 101.64,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.64}}
+2025-07-25 13:16:06 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 13:16:06 INFO: Current average volume is: 232.65
+2025-07-25 13:16:06 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 13:17:06 INFO: {'FBTC': {   'close': 101.625,
+    'high': 101.625,
+    'low': 101.625,
+    'open': 101.625,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 107.0,
+    'vwap': 101.625}}
+2025-07-25 13:17:06 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 13:17:06 INFO: Current average volume is: 230.14
+2025-07-25 13:17:06 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 13:18:06 INFO: {'FBTC': {   'close': 101.55,
+    'high': 101.55,
+    'low': 101.53,
+    'open': 101.53,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 239.0,
+    'vwap': 101.54}}
+2025-07-25 13:18:06 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 13:18:06 INFO: Current average volume is: 230.31
+2025-07-25 13:18:06 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 13:24:07 INFO: {'FBTC': {   'close': 101.52,
+    'high': 101.52,
+    'low': 101.52,
+    'open': 101.52,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.52}}
+2025-07-25 13:24:07 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 13:24:07 INFO: Current average volume is: 227.81
+2025-07-25 13:24:07 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 13:25:07 INFO: {'FBTC': {   'close': 101.57,
+    'high': 101.57,
+    'low': 101.56,
+    'open': 101.57,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 635.0,
+    'vwap': 101.566667}}
+2025-07-25 13:25:07 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 13:25:07 INFO: Current average volume is: 235.49
+2025-07-25 13:25:07 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 13:30:08 INFO: {'FBTC': {   'close': 101.52,
+    'high': 101.565,
+    'low': 101.52,
+    'open': 101.565,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 312.0,
+    'vwap': 101.5425}}
+2025-07-25 13:30:08 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 13:30:08 INFO: Current average volume is: 236.91
+2025-07-25 13:30:08 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 13:34:09 INFO: {'FBTC': {   'close': 101.4,
+    'high': 101.4,
+    'low': 101.4,
+    'open': 101.4,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 101.4}}
+2025-07-25 13:34:09 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 13:34:09 INFO: Current average volume is: 234.87
+2025-07-25 13:34:09 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 13:49:11 INFO: {'FBTC': {   'close': 101.56,
+    'high': 101.56,
+    'low': 101.56,
+    'open': 101.56,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 101.56}}
+2025-07-25 13:49:11 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 13:49:11 INFO: Current average volume is: 232.48
+2025-07-25 13:49:11 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 14:00:13 INFO: {'FBTC': {   'close': 101.475,
+    'high': 101.475,
+    'low': 101.475,
+    'open': 101.475,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 216.0,
+    'vwap': 101.475}}
+2025-07-25 14:00:13 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 14:00:13 INFO: Current average volume is: 232.19
+2025-07-25 14:00:13 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 14:02:13 INFO: {'FBTC': {   'close': 101.54,
+    'high': 101.54,
+    'low': 101.54,
+    'open': 101.54,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 101.54}}
+2025-07-25 14:02:13 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 14:02:13 INFO: Current average volume is: 231.64
+2025-07-25 14:02:13 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 14:03:14 INFO: {'FBTC': {   'close': 101.49,
+    'high': 101.49,
+    'low': 101.49,
+    'open': 101.49,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.49}}
+2025-07-25 14:03:14 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 14:03:14 INFO: Current average volume is: 229.41
+2025-07-25 14:03:14 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 14:07:14 INFO: {'FBTC': {   'close': 101.57,
+    'high': 101.57,
+    'low': 101.57,
+    'open': 101.57,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 101.57}}
+2025-07-25 14:07:14 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 14:07:14 INFO: Current average volume is: 230.58
+2025-07-25 14:07:14 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 14:09:15 INFO: {'FBTC': {   'close': 101.61,
+    'high': 101.61,
+    'low': 101.61,
+    'open': 101.61,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 188.0,
+    'vwap': 101.61}}
+2025-07-25 14:09:15 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 14:09:15 INFO: Current average volume is: 229.89
+2025-07-25 14:09:15 INFO: Updated resistance to: 101.72 and support to: 100.45
+2025-07-25 14:15:16 INFO: {'FBTC': {   'close': 101.78,
+    'high': 101.79,
+    'low': 101.78,
+    'open': 101.79,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 320.0,
+    'vwap': 101.786429}}
+2025-07-25 14:15:16 INFO: Current resistance is: 101.72 and support is: 100.45
+2025-07-25 14:15:16 INFO: Current average volume is: 231.34
+2025-07-25 14:15:16 INFO: The Current Close 101.78 is above the resistance...
+2025-07-25 14:15:16 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:16:16 INFO: {'FBTC': {   'close': 101.74,
+    'high': 101.74,
+    'low': 101.74,
+    'open': 101.74,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 450.0,
+    'vwap': 101.74}}
+2025-07-25 14:16:16 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:16:16 INFO: Current average volume is: 234.81
+2025-07-25 14:16:16 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:18:16 INFO: {'FBTC': {   'close': 101.71,
+    'high': 101.71,
+    'low': 101.71,
+    'open': 101.71,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.71}}
+2025-07-25 14:18:16 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:18:16 INFO: Current average volume is: 232.7
+2025-07-25 14:18:16 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:19:16 INFO: {'FBTC': {   'close': 101.69,
+    'high': 101.69,
+    'low': 101.66,
+    'open': 101.66,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 101.675}}
+2025-07-25 14:19:16 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:19:16 INFO: Current average volume is: 232.2
+2025-07-25 14:19:16 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:20:17 INFO: {'FBTC': {   'close': 101.73,
+    'high': 101.73,
+    'low': 101.73,
+    'open': 101.73,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 123.0,
+    'vwap': 101.73}}
+2025-07-25 14:20:17 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:20:17 INFO: Current average volume is: 230.55
+2025-07-25 14:20:17 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:26:18 INFO: {'FBTC': {   'close': 101.69,
+    'high': 101.7,
+    'low': 101.69,
+    'open': 101.7,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 101.695}}
+2025-07-25 14:26:18 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:26:18 INFO: Current average volume is: 230.09
+2025-07-25 14:26:18 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:27:18 INFO: {'FBTC': {   'close': 101.75,
+    'high': 101.75,
+    'low': 101.75,
+    'open': 101.75,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 226.0,
+    'vwap': 101.75}}
+2025-07-25 14:27:18 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:27:18 INFO: Current average volume is: 230.03
+2025-07-25 14:27:18 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:36:19 INFO: {'FBTC': {   'close': 101.69,
+    'high': 101.69,
+    'low': 101.69,
+    'open': 101.69,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 104.0,
+    'vwap': 101.69}}
+2025-07-25 14:36:19 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:36:19 INFO: Current average volume is: 228.2
+2025-07-25 14:36:19 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:41:20 INFO: {'FBTC': {   'close': 101.75,
+    'high': 101.75,
+    'low': 101.75,
+    'open': 101.75,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 101.75}}
+2025-07-25 14:41:20 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:41:20 INFO: Current average volume is: 227.8
+2025-07-25 14:41:20 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:42:20 INFO: {'FBTC': {   'close': 101.78,
+    'high': 101.78,
+    'low': 101.78,
+    'open': 101.78,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.78}}
+2025-07-25 14:42:20 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:42:20 INFO: Current average volume is: 226.0
+2025-07-25 14:42:20 INFO: Updated resistance to: 101.79 and support to: 100.45
+2025-07-25 14:43:20 INFO: {'FBTC': {   'close': 101.81,
+    'high': 101.81,
+    'low': 101.81,
+    'open': 101.81,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.81}}
+2025-07-25 14:43:20 INFO: Current resistance is: 101.79 and support is: 100.45
+2025-07-25 14:43:20 INFO: Current average volume is: 224.25
+2025-07-25 14:43:20 INFO: The Current Close 101.81 is above the resistance...
+2025-07-25 14:43:20 INFO: Updated resistance to: 101.81 and support to: 100.45
+2025-07-25 14:44:21 INFO: {'FBTC': {   'close': 101.82,
+    'high': 101.82,
+    'low': 101.82,
+    'open': 101.82,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.82}}
+2025-07-25 14:44:21 INFO: Current resistance is: 101.81 and support is: 100.45
+2025-07-25 14:44:21 INFO: Current average volume is: 222.55
+2025-07-25 14:44:21 INFO: The current close: 101.82 is above the resistance of 101.81, but volume isn't enough...
+2025-07-25 14:44:21 INFO: Updated resistance to: 101.82 and support to: 100.45
+2025-07-25 14:45:21 INFO: {'FBTC': {   'close': 101.83,
+    'high': 101.83,
+    'low': 101.83,
+    'open': 101.83,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 152.0,
+    'vwap': 101.83}}
+2025-07-25 14:45:21 INFO: Current resistance is: 101.82 and support is: 100.45
+2025-07-25 14:45:21 INFO: Current average volume is: 221.59
+2025-07-25 14:45:21 INFO: The current close: 101.83 is above the resistance of 101.82, but volume isn't enough...
+2025-07-25 14:45:21 INFO: Updated resistance to: 101.83 and support to: 100.45
+2025-07-25 14:46:21 INFO: {'FBTC': {   'close': 101.82,
+    'high': 101.82,
+    'low': 101.81,
+    'open': 101.81,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 379.0,
+    'vwap': 101.815}}
+2025-07-25 14:46:21 INFO: Current resistance is: 101.83 and support is: 100.45
+2025-07-25 14:46:21 INFO: Current average volume is: 223.69
+2025-07-25 14:46:21 INFO: Updated resistance to: 101.83 and support to: 100.45
+2025-07-25 15:03:25 INFO: {'FBTC': {   'close': 101.8,
+    'high': 101.8,
+    'low': 101.8,
+    'open': 101.8,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 531.0,
+    'vwap': 101.8}}
+2025-07-25 15:03:25 INFO: Current resistance is: 101.83 and support is: 100.45
+2025-07-25 15:03:25 INFO: Current average volume is: 227.74
+2025-07-25 15:03:25 INFO: Updated resistance to: 101.83 and support to: 100.45
+2025-07-25 15:05:25 INFO: {'FBTC': {   'close': 101.82,
+    'high': 101.82,
+    'low': 101.79,
+    'open': 101.79,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 582.0,
+    'vwap': 101.805769}}
+2025-07-25 15:05:25 INFO: Current resistance is: 101.83 and support is: 100.45
+2025-07-25 15:05:25 INFO: Current average volume is: 232.34
+2025-07-25 15:05:25 INFO: Updated resistance to: 101.83 and support to: 100.45
+2025-07-25 15:07:25 INFO: {'FBTC': {   'close': 101.83,
+    'high': 101.86,
+    'low': 101.83,
+    'open': 101.85,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 891.0,
+    'vwap': 101.843933}}
+2025-07-25 15:07:25 INFO: Current resistance is: 101.83 and support is: 100.45
+2025-07-25 15:07:25 INFO: Current average volume is: 240.78
+2025-07-25 15:08:25 INFO: {'FBTC': {   'close': 101.82,
+    'high': 101.82,
+    'low': 101.82,
+    'open': 101.82,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.82}}
+2025-07-25 15:08:25 INFO: Current resistance is: 101.83 and support is: 100.45
+2025-07-25 15:08:25 INFO: Current average volume is: 239.0
+2025-07-25 15:08:25 INFO: Updated resistance to: 101.83 and support to: 100.45
+2025-07-25 15:09:26 INFO: {'FBTC': {   'close': 101.87,
+    'high': 101.87,
+    'low': 101.87,
+    'open': 101.87,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.87}}
+2025-07-25 15:09:26 INFO: Current resistance is: 101.83 and support is: 100.45
+2025-07-25 15:09:26 INFO: Current average volume is: 237.26
+2025-07-25 15:09:26 INFO: The Current Close 101.87 is above the resistance...
+2025-07-25 15:09:26 INFO: Updated resistance to: 101.87 and support to: 100.45
+2025-07-25 15:14:27 INFO: {'FBTC': {   'close': 101.93,
+    'high': 101.93,
+    'low': 101.93,
+    'open': 101.93,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.93}}
+2025-07-25 15:14:27 INFO: Current resistance is: 101.87 and support is: 100.45
+2025-07-25 15:14:27 INFO: Current average volume is: 235.57
+2025-07-25 15:14:27 INFO: The current close: 101.93 is above the resistance of 101.87, but volume isn't enough...
+2025-07-25 15:14:27 INFO: Updated resistance to: 101.93 and support to: 100.45
+2025-07-25 15:16:28 INFO: {'FBTC': {   'close': 101.99,
+    'high': 101.99,
+    'low': 101.99,
+    'open': 101.99,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 217.0,
+    'vwap': 101.99}}
+2025-07-25 15:16:28 INFO: Current resistance is: 101.93 and support is: 100.45
+2025-07-25 15:16:28 INFO: Current average volume is: 235.34
+2025-07-25 15:16:28 INFO: The current close: 101.99 is above the resistance of 101.93, but volume isn't enough...
+2025-07-25 15:16:28 INFO: Updated resistance to: 101.99 and support to: 100.45
+2025-07-25 15:17:28 INFO: {'FBTC': {   'close': 102.0,
+    'high': 102.01,
+    'low': 102.0,
+    'open': 102.01,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 102.005}}
+2025-07-25 15:17:28 INFO: Current resistance is: 101.99 and support is: 100.45
+2025-07-25 15:17:28 INFO: Current average volume is: 234.92
+2025-07-25 15:17:28 INFO: The current close: 102.0 is above the resistance of 101.99, but volume isn't enough...
+2025-07-25 15:17:28 INFO: Updated resistance to: 102.01 and support to: 100.45
+2025-07-25 15:19:29 INFO: {'FBTC': {   'close': 101.93,
+    'high': 101.93,
+    'low': 101.93,
+    'open': 101.93,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 253.0,
+    'vwap': 101.93}}
+2025-07-25 15:19:29 INFO: Current resistance is: 102.01 and support is: 100.45
+2025-07-25 15:19:29 INFO: Current average volume is: 235.13
+2025-07-25 15:19:29 INFO: Updated resistance to: 102.01 and support to: 100.45
+2025-07-25 15:22:29 INFO: {'FBTC': {   'close': 101.91,
+    'high': 101.91,
+    'low': 101.91,
+    'open': 101.91,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.91}}
+2025-07-25 15:22:29 INFO: Current resistance is: 102.01 and support is: 100.45
+2025-07-25 15:22:29 INFO: Current average volume is: 233.54
+2025-07-25 15:22:29 INFO: Updated resistance to: 102.01 and support to: 100.45
+2025-07-25 15:24:30 INFO: {'FBTC': {   'close': 101.9,
+    'high': 101.9,
+    'low': 101.86,
+    'open': 101.86,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 440.0,
+    'vwap': 101.871429}}
+2025-07-25 15:24:30 INFO: Current resistance is: 102.01 and support is: 100.45
+2025-07-25 15:24:30 INFO: Current average volume is: 235.94
+2025-07-25 15:24:30 INFO: Updated resistance to: 102.01 and support to: 100.45
+2025-07-25 15:27:30 INFO: {'FBTC': {   'close': 101.94,
+    'high': 101.94,
+    'low': 101.94,
+    'open': 101.94,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 101.94}}
+2025-07-25 15:27:30 INFO: Current resistance is: 102.01 and support is: 100.45
+2025-07-25 15:27:30 INFO: Current average volume is: 235.53
+2025-07-25 15:27:30 INFO: Updated resistance to: 102.01 and support to: 100.45
+2025-07-25 15:29:31 INFO: {'FBTC': {   'close': 101.97,
+    'high': 101.97,
+    'low': 101.97,
+    'open': 101.97,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 101.97}}
+2025-07-25 15:29:31 INFO: Current resistance is: 102.01 and support is: 100.45
+2025-07-25 15:29:31 INFO: Current average volume is: 235.12
+2025-07-25 15:29:31 INFO: Updated resistance to: 102.01 and support to: 100.45
+2025-07-25 15:31:31 INFO: {'FBTC': {   'close': 101.965,
+    'high': 101.965,
+    'low': 101.965,
+    'open': 101.965,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 335.0,
+    'vwap': 101.965}}
+2025-07-25 15:31:31 INFO: Current resistance is: 102.01 and support is: 100.45
+2025-07-25 15:31:31 INFO: Current average volume is: 236.25
+2025-07-25 15:31:31 INFO: Updated resistance to: 102.01 and support to: 100.45
+2025-07-25 15:32:31 INFO: {'FBTC': {   'close': 101.97,
+    'high': 101.97,
+    'low': 101.97,
+    'open': 101.97,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.97}}
+2025-07-25 15:32:31 INFO: Current resistance is: 102.01 and support is: 100.45
+2025-07-25 15:32:31 INFO: Current average volume is: 234.73
+2025-07-25 15:32:31 INFO: Updated resistance to: 102.01 and support to: 100.45
+2025-07-25 15:35:32 INFO: {'FBTC': {   'close': 101.99,
+    'high': 101.99,
+    'low': 101.99,
+    'open': 101.99,
+    'symbol': 'FBTC',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 120.0,
+    'vwap': 101.99}}
+2025-07-25 15:35:32 INFO: Current resistance is: 102.01 and support is: 100.45
+2025-07-25 15:35:32 INFO: Current average volume is: 233.47
+2025-07-25 15:35:32 INFO: Updated resistance to: 102.01 and support to: 100.45

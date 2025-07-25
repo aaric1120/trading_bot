@@ -1,5 +1,6 @@
 import time as tm
-from TimeConstants import *
+import datetime as dt
+from TimeConstants import MARKET_DEADLINE, POST_MIDNIGHT, PRE_MIDNIGHT, MARKET_OPEN_TIME, MARKET_OPEN_TUPLE
 
 
 def get_current_date():
@@ -53,7 +54,7 @@ def sleep_til_market():
     if (MARKET_DEADLINE < dt.datetime.now().time() < PRE_MIDNIGHT
         or POST_MIDNIGHT < dt.datetime.now().time() < MARKET_OPEN_TIME) or CURR_DAY >= 5:
         print("The Market hasn't opened yet...")
-        sleep_sec = get_seconds(10, 0, 0)  # PARAM
+        sleep_sec = get_seconds(*MARKET_OPEN_TUPLE)  # PARAM
 
         # Checks the day of the week to calculate the time to wait
         if (CURR_DAY == 4 and MARKET_DEADLINE < dt.datetime.now().time() < PRE_MIDNIGHT):

@@ -12,9 +12,10 @@ from alpaca.trading.enums import OrderSide, QueryOrderStatus, OrderType
 
 import logging
 import time as tm
+import datetime as dt
 
 from TelegramBot import TelegramBot
-from TimeConstants import *
+from TimeConstants import LAST_MARKET_SELL, MARKET_CLOSE_TIME, MARKET_DEADLINE
 
 
 class BaseTrade:

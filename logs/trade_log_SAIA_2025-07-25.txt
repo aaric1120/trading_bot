@@ -1,0 +1,1586 @@
+2025-07-25 10:30:02 INFO: === Strategy started ===
+2025-07-25 10:30:02 INFO: Start collecting the current highs/lows for: SAIA
+2025-07-25 10:30:03 INFO: Most recent stock data: {'SAIA': {   'close': 341.745,
+    'high': 341.82,
+    'low': 339.5,
+    'open': 339.5,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1716.0,
+    'vwap': 340.111386}}
+2025-07-25 10:31:03 INFO: Most recent stock data: {'SAIA': {   'close': 341.75,
+    'high': 341.75,
+    'low': 341.75,
+    'open': 341.75,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 168.0,
+    'vwap': 341.75}}
+2025-07-25 10:32:03 INFO: Most recent stock data: {'SAIA': {   'close': 342.52,
+    'high': 342.52,
+    'low': 342.52,
+    'open': 342.52,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 150.0,
+    'vwap': 342.52}}
+2025-07-25 10:33:03 INFO: Most recent stock data: {'SAIA': {   'close': 341.24,
+    'high': 341.33,
+    'low': 339.83,
+    'open': 341.33,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1874.0,
+    'vwap': 340.394}}
+2025-07-25 10:34:03 INFO: Most recent stock data: {'SAIA': {   'close': 338.975,
+    'high': 338.975,
+    'low': 338.975,
+    'open': 338.975,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 326.0,
+    'vwap': 338.975}}
+2025-07-25 10:35:03 INFO: Most recent stock data: {'SAIA': {   'close': 337.97,
+    'high': 338.19,
+    'low': 337.47,
+    'open': 338.18,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 751.0,
+    'vwap': 337.983333}}
+2025-07-25 10:37:04 INFO: Most recent stock data: {'SAIA': {   'close': 338.07,
+    'high': 338.07,
+    'low': 337.1,
+    'open': 337.28,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 431.0,
+    'vwap': 337.4325}}
+2025-07-25 10:38:04 INFO: Most recent stock data: {'SAIA': {   'close': 337.975,
+    'high': 337.995,
+    'low': 337.97,
+    'open': 337.995,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 401.0,
+    'vwap': 337.97875}}
+2025-07-25 10:39:04 INFO: Most recent stock data: {'SAIA': {   'close': 336.72,
+    'high': 338.075,
+    'low': 336.71,
+    'open': 338.075,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 936.0,
+    'vwap': 337.258571}}
+2025-07-25 10:40:04 INFO: Most recent stock data: {'SAIA': {   'close': 334.0,
+    'high': 336.74,
+    'low': 334.0,
+    'open': 336.74,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1318.0,
+    'vwap': 335.575417}}
+2025-07-25 10:41:04 INFO: Most recent stock data: {'SAIA': {   'close': 332.08,
+    'high': 333.76,
+    'low': 332.08,
+    'open': 333.76,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1651.0,
+    'vwap': 332.304667}}
+2025-07-25 10:41:04 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-25 10:41:04 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-25 10:43:04 INFO: {'SAIA': {   'close': 331.78,
+    'high': 331.78,
+    'low': 331.78,
+    'open': 331.78,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 326.0,
+    'vwap': 331.78}}
+2025-07-25 10:43:04 INFO: Current resistance is: 335.872 and support is: 331.252
+2025-07-25 10:43:04 INFO: Current average volume is: 694.33
+2025-07-25 10:43:04 INFO: Updated resistance to: 334.053 and support to: 330.904
+2025-07-25 10:44:04 INFO: {'SAIA': {   'close': 330.0,
+    'high': 330.0,
+    'low': 330.0,
+    'open': 330.0,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 591.0,
+    'vwap': 330.0}}
+2025-07-25 10:44:04 INFO: Current resistance is: 334.053 and support is: 330.904
+2025-07-25 10:44:04 INFO: Current average volume is: 686.38
+2025-07-25 10:44:04 INFO: close price: 330.0 just dropped below support of 330.904...
+2025-07-25 10:45:05 INFO: {'SAIA': {   'close': 328.74,
+    'high': 328.835,
+    'low': 328.445,
+    'open': 328.835,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1234.0,
+    'vwap': 328.5435}}
+2025-07-25 10:45:05 INFO: Current resistance is: 334.053 and support is: 330.904
+2025-07-25 10:45:05 INFO: Current average volume is: 725.5
+2025-07-25 10:45:05 INFO: Closing price: 328.74 just dropped below support 330.904 again...ending trade...
+2025-07-25 11:00:02 INFO: === Strategy started ===
+2025-07-25 11:00:02 INFO: Start collecting the current highs/lows for: SAIA
+2025-07-25 11:00:03 INFO: Most recent stock data: {'SAIA': {   'close': 321.0,
+    'high': 321.255,
+    'low': 321.0,
+    'open': 321.255,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 348.0,
+    'vwap': 321.085}}
+2025-07-25 11:01:03 INFO: Most recent stock data: {'SAIA': {   'close': 321.36,
+    'high': 321.41,
+    'low': 320.955,
+    'open': 320.955,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 579.0,
+    'vwap': 321.144}}
+2025-07-25 11:02:03 INFO: Most recent stock data: {'SAIA': {   'close': 322.1,
+    'high': 322.1,
+    'low': 322.1,
+    'open': 322.1,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 322.1}}
+2025-07-25 11:03:03 INFO: Most recent stock data: {'SAIA': {   'close': 321.18,
+    'high': 321.39,
+    'low': 321.18,
+    'open': 321.39,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 765.0,
+    'vwap': 321.285}}
+2025-07-25 11:04:03 INFO: Most recent stock data: {'SAIA': {   'close': 320.975,
+    'high': 321.11,
+    'low': 320.975,
+    'open': 321.11,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 394.0,
+    'vwap': 321.0425}}
+2025-07-25 11:05:03 INFO: Most recent stock data: {'SAIA': {   'close': 319.76,
+    'high': 320.235,
+    'low': 319.76,
+    'open': 320.235,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 429.0,
+    'vwap': 319.9975}}
+2025-07-25 11:06:03 INFO: Most recent stock data: {'SAIA': {   'close': 321.08,
+    'high': 321.08,
+    'low': 321.08,
+    'open': 321.08,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 678.0,
+    'vwap': 321.08}}
+2025-07-25 11:07:04 INFO: Most recent stock data: {'SAIA': {   'close': 321.14,
+    'high': 321.14,
+    'low': 321.14,
+    'open': 321.14,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 398.0,
+    'vwap': 321.14}}
+2025-07-25 11:09:04 INFO: Most recent stock data: {'SAIA': {   'close': 320.66,
+    'high': 320.66,
+    'low': 320.66,
+    'open': 320.66,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 274.0,
+    'vwap': 320.66}}
+2025-07-25 11:10:04 INFO: Most recent stock data: {'SAIA': {   'close': 318.97,
+    'high': 318.97,
+    'low': 318.97,
+    'open': 318.97,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 236.0,
+    'vwap': 318.97}}
+2025-07-25 11:11:04 INFO: Most recent stock data: {'SAIA': {   'close': 319.01,
+    'high': 319.02,
+    'low': 319.01,
+    'open': 319.02,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 515.0,
+    'vwap': 319.016667}}
+2025-07-25 11:11:04 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-25 11:11:04 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-25 11:12:04 INFO: {'SAIA': {   'close': 318.06,
+    'high': 318.06,
+    'low': 318.06,
+    'open': 318.06,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 513.0,
+    'vwap': 318.06}}
+2025-07-25 11:12:04 INFO: Current resistance is: 319.99 and support is: 318.567
+2025-07-25 11:12:04 INFO: Current average volume is: 406.75
+2025-07-25 11:12:04 INFO: close price: 318.06 just dropped below support of 318.567...
+2025-07-25 11:13:04 INFO: {'SAIA': {   'close': 316.425,
+    'high': 318.065,
+    'low': 316.25,
+    'open': 318.06,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1321.0,
+    'vwap': 316.721116}}
+2025-07-25 11:13:04 INFO: Current resistance is: 319.99 and support is: 318.567
+2025-07-25 11:13:04 INFO: Current average volume is: 477.08
+2025-07-25 11:13:04 INFO: Closing price: 316.425 just dropped below support 318.567 again...ending trade...
+2025-07-25 11:15:03 INFO: === Strategy started ===
+2025-07-25 11:15:03 INFO: Start collecting the current highs/lows for: SAIA
+2025-07-25 11:15:03 INFO: Most recent stock data: {'SAIA': {   'close': 316.42,
+    'high': 316.42,
+    'low': 316.42,
+    'open': 316.42,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 473.0,
+    'vwap': 316.42}}
+2025-07-25 11:17:03 INFO: Most recent stock data: {'SAIA': {   'close': 318.06,
+    'high': 318.06,
+    'low': 315.155,
+    'open': 315.16,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 753.0,
+    'vwap': 316.145833}}
+2025-07-25 11:21:04 INFO: Most recent stock data: {'SAIA': {   'close': 320.465,
+    'high': 320.465,
+    'low': 319.26,
+    'open': 319.26,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1399.0,
+    'vwap': 320.2825}}
+2025-07-25 11:22:04 INFO: Most recent stock data: {'SAIA': {   'close': 319.36,
+    'high': 319.36,
+    'low': 319.36,
+    'open': 319.36,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 319.36}}
+2025-07-25 11:23:04 INFO: Most recent stock data: {'SAIA': {   'close': 319.65,
+    'high': 319.65,
+    'low': 319.65,
+    'open': 319.65,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 126.0,
+    'vwap': 319.65}}
+2025-07-25 11:27:05 INFO: Most recent stock data: {'SAIA': {   'close': 318.93,
+    'high': 318.93,
+    'low': 318.93,
+    'open': 318.93,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 201.0,
+    'vwap': 318.93}}
+2025-07-25 11:28:05 INFO: Most recent stock data: {'SAIA': {   'close': 318.915,
+    'high': 318.915,
+    'low': 318.915,
+    'open': 318.915,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 500.0,
+    'vwap': 318.915}}
+2025-07-25 11:30:06 INFO: Most recent stock data: {'SAIA': {   'close': 318.84,
+    'high': 318.84,
+    'low': 318.84,
+    'open': 318.84,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 135.0,
+    'vwap': 318.84}}
+2025-07-25 11:31:06 INFO: Most recent stock data: {'SAIA': {   'close': 318.38,
+    'high': 319.74,
+    'low': 318.38,
+    'open': 318.5,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 2996.0,
+    'vwap': 318.972845}}
+2025-07-25 11:32:06 INFO: Most recent stock data: {'SAIA': {   'close': 319.22,
+    'high': 319.22,
+    'low': 319.22,
+    'open': 319.22,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 425.0,
+    'vwap': 319.22}}
+2025-07-25 11:33:06 INFO: Most recent stock data: {'SAIA': {   'close': 319.06,
+    'high': 319.38,
+    'low': 319.06,
+    'open': 319.38,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 319.225}}
+2025-07-25 11:33:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-25 11:33:06 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-25 11:34:06 INFO: {'SAIA': {   'close': 319.2,
+    'high': 319.34,
+    'low': 319.2,
+    'open': 319.34,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 406.0,
+    'vwap': 319.235}}
+2025-07-25 11:34:06 INFO: Current resistance is: 320.465 and support is: 315.155
+2025-07-25 11:34:06 INFO: Current average volume is: 628.42
+2025-07-25 11:34:06 INFO: Updated resistance to: 320.465 and support to: 315.155
+2025-07-25 11:35:07 INFO: {'SAIA': {   'close': 319.26,
+    'high': 319.38,
+    'low': 319.08,
+    'open': 319.36,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 625.0,
+    'vwap': 319.27}}
+2025-07-25 11:35:07 INFO: Current resistance is: 320.465 and support is: 315.155
+2025-07-25 11:35:07 INFO: Current average volume is: 628.15
+2025-07-25 11:35:07 INFO: Updated resistance to: 320.465 and support to: 315.155
+2025-07-25 11:36:07 INFO: {'SAIA': {   'close': 319.0,
+    'high': 319.34,
+    'low': 319.0,
+    'open': 319.18,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 646.0,
+    'vwap': 319.18}}
+2025-07-25 11:36:07 INFO: Current resistance is: 320.465 and support is: 315.155
+2025-07-25 11:36:07 INFO: Current average volume is: 629.43
+2025-07-25 11:36:07 INFO: Updated resistance to: 320.465 and support to: 315.155
+2025-07-25 11:37:07 INFO: {'SAIA': {   'close': 319.03,
+    'high': 319.03,
+    'low': 318.94,
+    'open': 318.99,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 899.0,
+    'vwap': 318.990626}}
+2025-07-25 11:37:07 INFO: Current resistance is: 320.465 and support is: 315.155
+2025-07-25 11:37:07 INFO: Current average volume is: 647.4
+2025-07-25 11:37:07 INFO: Updated resistance to: 320.465 and support to: 315.155
+2025-07-25 11:38:07 INFO: {'SAIA': {   'close': 319.055,
+    'high': 319.055,
+    'low': 319.045,
+    'open': 319.045,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 319.051667}}
+2025-07-25 11:38:07 INFO: Current resistance is: 320.465 and support is: 315.155
+2025-07-25 11:38:07 INFO: Current average volume is: 625.69
+2025-07-25 11:38:07 INFO: Updated resistance to: 320.465 and support to: 315.155
+2025-07-25 11:39:07 INFO: {'SAIA': {   'close': 321.14,
+    'high': 321.14,
+    'low': 320.38,
+    'open': 320.38,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 466.0,
+    'vwap': 320.76}}
+2025-07-25 11:39:07 INFO: Current resistance is: 320.465 and support is: 315.155
+2025-07-25 11:39:07 INFO: Current average volume is: 616.29
+2025-07-25 11:39:07 INFO: The Current Close 321.14 is above the resistance...
+2025-07-25 11:39:07 INFO: Updated resistance to: 321.14 and support to: 315.155
+2025-07-25 11:40:08 INFO: {'SAIA': {   'close': 322.57,
+    'high': 322.57,
+    'low': 322.57,
+    'open': 322.57,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 200.0,
+    'vwap': 322.57}}
+2025-07-25 11:40:08 INFO: Current resistance is: 321.14 and support is: 315.155
+2025-07-25 11:40:08 INFO: Current average volume is: 593.17
+2025-07-25 11:40:08 INFO: The current close: 322.57 is above the resistance of 321.14, but volume isn't enough...
+2025-07-25 11:40:08 INFO: Updated resistance to: 322.57 and support to: 315.155
+2025-07-25 11:41:08 INFO: {'SAIA': {   'close': 321.375,
+    'high': 321.375,
+    'low': 321.375,
+    'open': 321.375,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 465.0,
+    'vwap': 321.375}}
+2025-07-25 11:41:08 INFO: Current resistance is: 322.57 and support is: 315.155
+2025-07-25 11:41:08 INFO: Current average volume is: 586.42
+2025-07-25 11:41:08 INFO: Updated resistance to: 322.57 and support to: 315.155
+2025-07-25 11:42:08 INFO: {'SAIA': {   'close': 322.995,
+    'high': 323.05,
+    'low': 322.165,
+    'open': 322.165,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1128.0,
+    'vwap': 322.489099}}
+2025-07-25 11:42:08 INFO: Current resistance is: 322.57 and support is: 315.155
+2025-07-25 11:42:08 INFO: Current average volume is: 613.5
+2025-07-25 11:42:08 INFO: The Current Close 322.995 is above the resistance...
+2025-07-25 11:42:08 INFO: Updated resistance to: 323.05 and support to: 315.155
+2025-07-25 11:43:08 INFO: {'SAIA': {   'close': 322.58,
+    'high': 323.53,
+    'low': 322.58,
+    'open': 323.19,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 1285.0,
+    'vwap': 323.119286}}
+2025-07-25 11:43:08 INFO: Current resistance is: 323.05 and support is: 315.155
+2025-07-25 11:43:08 INFO: Current average volume is: 645.48
+2025-07-25 11:43:08 INFO: Updated resistance to: 323.53 and support to: 315.155
+2025-07-25 11:47:09 INFO: {'SAIA': {   'close': 323.39,
+    'high': 323.39,
+    'low': 323.39,
+    'open': 323.39,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 602.0,
+    'vwap': 323.39}}
+2025-07-25 11:47:09 INFO: Current resistance is: 323.53 and support is: 315.155
+2025-07-25 11:47:09 INFO: Current average volume is: 643.5
+2025-07-25 11:47:09 INFO: Updated resistance to: 323.53 and support to: 315.155
+2025-07-25 11:50:09 INFO: {'SAIA': {   'close': 324.15,
+    'high': 325.555,
+    'low': 324.15,
+    'open': 325.555,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1163.0,
+    'vwap': 324.634167}}
+2025-07-25 11:50:09 INFO: Current resistance is: 323.53 and support is: 315.155
+2025-07-25 11:50:09 INFO: Current average volume is: 666.09
+2025-07-25 11:50:09 INFO: The Current Close 324.15 is above the resistance...
+2025-07-25 11:50:09 INFO: Updated resistance to: 325.555 and support to: 315.155
+2025-07-25 11:55:11 INFO: {'SAIA': {   'close': 327.07,
+    'high': 327.195,
+    'low': 326.82,
+    'open': 327.195,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 679.0,
+    'vwap': 327.028333}}
+2025-07-25 11:55:11 INFO: Current resistance is: 325.555 and support is: 315.155
+2025-07-25 11:55:11 INFO: Current average volume is: 666.62
+2025-07-25 11:55:11 INFO: The current close: 327.07 is above the resistance of 325.555, but volume isn't enough...
+2025-07-25 11:55:11 INFO: Updated resistance to: 327.195 and support to: 315.155
+2025-07-25 11:57:12 INFO: {'SAIA': {   'close': 326.57,
+    'high': 326.81,
+    'low': 326.57,
+    'open': 326.81,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1653.0,
+    'vwap': 326.69}}
+2025-07-25 11:57:12 INFO: Current resistance is: 327.195 and support is: 315.155
+2025-07-25 11:57:12 INFO: Current average volume is: 706.08
+2025-07-25 11:57:12 INFO: Updated resistance to: 327.195 and support to: 315.155
+2025-07-25 11:58:12 INFO: {'SAIA': {   'close': 326.77,
+    'high': 326.77,
+    'low': 326.69,
+    'open': 326.69,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 326.73}}
+2025-07-25 11:58:12 INFO: Current resistance is: 327.195 and support is: 315.155
+2025-07-25 11:58:12 INFO: Current average volume is: 690.46
+2025-07-25 11:58:12 INFO: Updated resistance to: 327.195 and support to: 315.155
+2025-07-25 12:01:12 INFO: {'SAIA': {   'close': 326.9,
+    'high': 327.07,
+    'low': 326.9,
+    'open': 327.07,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1073.0,
+    'vwap': 327.036797}}
+2025-07-25 12:01:12 INFO: Current resistance is: 327.195 and support is: 315.155
+2025-07-25 12:01:12 INFO: Current average volume is: 704.63
+2025-07-25 12:01:12 INFO: Updated resistance to: 327.195 and support to: 315.155
+2025-07-25 12:02:13 INFO: {'SAIA': {   'close': 327.53,
+    'high': 327.53,
+    'low': 327.0,
+    'open': 327.16,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 860.0,
+    'vwap': 327.167987}}
+2025-07-25 12:02:13 INFO: Current resistance is: 327.195 and support is: 315.155
+2025-07-25 12:02:13 INFO: Current average volume is: 710.18
+2025-07-25 12:02:13 INFO: The Current Close 327.53 is above the resistance...
+2025-07-25 12:02:13 INFO: Updated resistance to: 327.53 and support to: 315.155
+2025-07-25 12:03:13 INFO: {'SAIA': {   'close': 327.925,
+    'high': 328.25,
+    'low': 327.925,
+    'open': 328.155,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1591.0,
+    'vwap': 328.198476}}
+2025-07-25 12:03:13 INFO: Current resistance is: 327.53 and support is: 315.155
+2025-07-25 12:03:13 INFO: Current average volume is: 740.55
+2025-07-25 12:03:13 INFO: The current close: 327.925 is above the resistance of 327.53, but volume isn't enough...
+2025-07-25 12:03:13 INFO: Updated resistance to: 328.25 and support to: 315.155
+2025-07-25 12:04:13 INFO: {'SAIA': {   'close': 327.965,
+    'high': 327.965,
+    'low': 327.965,
+    'open': 327.965,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 327.965}}
+2025-07-25 12:04:13 INFO: Current resistance is: 328.25 and support is: 315.155
+2025-07-25 12:04:13 INFO: Current average volume is: 722.57
+2025-07-25 12:04:13 INFO: Updated resistance to: 328.25 and support to: 315.155
+2025-07-25 12:05:14 INFO: {'SAIA': {   'close': 329.51,
+    'high': 329.51,
+    'low': 329.33,
+    'open': 329.33,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 807.0,
+    'vwap': 329.4075}}
+2025-07-25 12:05:14 INFO: Current resistance is: 328.25 and support is: 315.155
+2025-07-25 12:05:14 INFO: Current average volume is: 725.29
+2025-07-25 12:05:14 INFO: The Current Close 329.51 is above the resistance...
+2025-07-25 12:05:14 INFO: Updated resistance to: 329.51 and support to: 315.155
+2025-07-25 12:06:14 INFO: {'SAIA': {   'close': 329.21,
+    'high': 329.21,
+    'low': 328.93,
+    'open': 328.93,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1669.0,
+    'vwap': 328.9725}}
+2025-07-25 12:06:14 INFO: Current resistance is: 329.51 and support is: 315.155
+2025-07-25 12:06:14 INFO: Current average volume is: 754.78
+2025-07-25 12:06:14 INFO: Updated resistance to: 329.51 and support to: 315.155
+2025-07-25 12:08:14 INFO: {'SAIA': {   'close': 329.655,
+    'high': 329.655,
+    'low': 329.655,
+    'open': 329.655,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 411.0,
+    'vwap': 329.655}}
+2025-07-25 12:08:14 INFO: Current resistance is: 329.51 and support is: 315.155
+2025-07-25 12:08:14 INFO: Current average volume is: 744.36
+2025-07-25 12:08:14 INFO: The Current Close 329.655 is above the resistance...
+2025-07-25 12:08:14 INFO: Updated resistance to: 329.655 and support to: 315.155
+2025-07-25 12:09:15 INFO: {'SAIA': {   'close': 329.9,
+    'high': 330.115,
+    'low': 329.9,
+    'open': 330.115,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 443.0,
+    'vwap': 330.041667}}
+2025-07-25 12:09:15 INFO: Current resistance is: 329.655 and support is: 315.155
+2025-07-25 12:09:15 INFO: Current average volume is: 735.5
+2025-07-25 12:09:15 INFO: The current close: 329.9 is above the resistance of 329.655, but volume isn't enough...
+2025-07-25 12:09:15 INFO: Updated resistance to: 330.115 and support to: 315.155
+2025-07-25 12:10:15 INFO: {'SAIA': {   'close': 330.135,
+    'high': 330.815,
+    'low': 330.045,
+    'open': 330.815,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2746.0,
+    'vwap': 330.651497}}
+2025-07-25 12:10:15 INFO: Current resistance is: 330.115 and support is: 315.155
+2025-07-25 12:10:15 INFO: Current average volume is: 792.94
+2025-07-25 12:10:15 INFO: The current close: 330.135 is above the resistance of 330.115, but volume isn't enough...
+2025-07-25 12:10:15 INFO: Updated resistance to: 330.815 and support to: 315.155
+2025-07-25 12:11:15 INFO: {'SAIA': {   'close': 329.975,
+    'high': 329.975,
+    'low': 329.975,
+    'open': 329.975,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 754.0,
+    'vwap': 329.975}}
+2025-07-25 12:11:15 INFO: Current resistance is: 330.815 and support is: 315.155
+2025-07-25 12:11:15 INFO: Current average volume is: 791.86
+2025-07-25 12:11:15 INFO: Updated resistance to: 330.815 and support to: 315.155
+2025-07-25 12:14:16 INFO: {'SAIA': {   'close': 331.38,
+    'high': 331.38,
+    'low': 331.38,
+    'open': 331.38,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 704.0,
+    'vwap': 331.38}}
+2025-07-25 12:14:16 INFO: Current resistance is: 330.815 and support is: 315.155
+2025-07-25 12:14:16 INFO: Current average volume is: 789.49
+2025-07-25 12:14:16 INFO: The Current Close 331.38 is above the resistance...
+2025-07-25 12:14:16 INFO: Updated resistance to: 331.38 and support to: 315.155
+2025-07-25 12:16:16 INFO: {'SAIA': {   'close': 330.97,
+    'high': 331.88,
+    'low': 330.65,
+    'open': 331.27,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 2144.0,
+    'vwap': 331.369091}}
+2025-07-25 12:16:16 INFO: Current resistance is: 331.38 and support is: 315.155
+2025-07-25 12:16:16 INFO: Current average volume is: 825.13
+2025-07-25 12:16:16 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:17:17 INFO: {'SAIA': {   'close': 330.38,
+    'high': 330.38,
+    'low': 330.38,
+    'open': 330.38,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 289.0,
+    'vwap': 330.38}}
+2025-07-25 12:17:17 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:17:17 INFO: Current average volume is: 811.38
+2025-07-25 12:17:17 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:19:17 INFO: {'SAIA': {   'close': 329.48,
+    'high': 329.88,
+    'low': 329.41,
+    'open': 329.88,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 3256.0,
+    'vwap': 329.497742}}
+2025-07-25 12:19:17 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:19:17 INFO: Current average volume is: 872.5
+2025-07-25 12:19:17 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:21:17 INFO: {'SAIA': {   'close': 328.62,
+    'high': 329.535,
+    'low': 328.055,
+    'open': 329.535,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 966.0,
+    'vwap': 329.072304}}
+2025-07-25 12:21:17 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:21:17 INFO: Current average volume is: 874.78
+2025-07-25 12:21:17 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:22:18 INFO: {'SAIA': {   'close': 328.445,
+    'high': 328.445,
+    'low': 327.8,
+    'open': 327.8,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2192.0,
+    'vwap': 328.311478}}
+2025-07-25 12:22:18 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:22:18 INFO: Current average volume is: 906.14
+2025-07-25 12:22:18 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:24:18 INFO: {'SAIA': {   'close': 328.845,
+    'high': 328.845,
+    'low': 328.43,
+    'open': 328.43,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 436.0,
+    'vwap': 328.6375}}
+2025-07-25 12:24:18 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:24:18 INFO: Current average volume is: 895.21
+2025-07-25 12:24:18 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:28:19 INFO: {'SAIA': {   'close': 329.14,
+    'high': 329.14,
+    'low': 328.62,
+    'open': 328.62,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 207.0,
+    'vwap': 328.88}}
+2025-07-25 12:28:19 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:28:19 INFO: Current average volume is: 879.57
+2025-07-25 12:28:19 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:30:19 INFO: {'SAIA': {   'close': 330.0,
+    'high': 330.0,
+    'low': 330.0,
+    'open': 330.0,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 393.0,
+    'vwap': 330.0}}
+2025-07-25 12:30:19 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:30:19 INFO: Current average volume is: 868.76
+2025-07-25 12:30:19 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:37:20 INFO: {'SAIA': {   'close': 329.47,
+    'high': 329.71,
+    'low': 329.47,
+    'open': 329.71,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 342.0,
+    'vwap': 329.55}}
+2025-07-25 12:37:20 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:37:20 INFO: Current average volume is: 857.3
+2025-07-25 12:37:20 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:39:20 INFO: {'SAIA': {   'close': 329.18,
+    'high': 329.36,
+    'low': 329.18,
+    'open': 329.36,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 760.0,
+    'vwap': 329.241667}}
+2025-07-25 12:39:20 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:39:20 INFO: Current average volume is: 855.23
+2025-07-25 12:39:20 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:41:21 INFO: {'SAIA': {   'close': 329.39,
+    'high': 329.39,
+    'low': 329.39,
+    'open': 329.39,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 329.39}}
+2025-07-25 12:41:21 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:41:21 INFO: Current average volume is: 839.5
+2025-07-25 12:41:21 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:43:21 INFO: {'SAIA': {   'close': 329.125,
+    'high': 329.125,
+    'low': 328.84,
+    'open': 328.84,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 330.0,
+    'vwap': 328.9825}}
+2025-07-25 12:43:21 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:43:21 INFO: Current average volume is: 829.1
+2025-07-25 12:43:21 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:48:22 INFO: {'SAIA': {   'close': 330.98,
+    'high': 330.98,
+    'low': 329.87,
+    'open': 329.995,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1364.0,
+    'vwap': 330.381429}}
+2025-07-25 12:48:22 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:48:22 INFO: Current average volume is: 839.8
+2025-07-25 12:48:22 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:50:22 INFO: {'SAIA': {   'close': 331.505,
+    'high': 331.505,
+    'low': 331.505,
+    'open': 331.505,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 212.0,
+    'vwap': 331.505}}
+2025-07-25 12:50:22 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:50:22 INFO: Current average volume is: 827.49
+2025-07-25 12:50:22 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:52:23 INFO: {'SAIA': {   'close': 330.74,
+    'high': 330.74,
+    'low': 330.74,
+    'open': 330.74,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 281.0,
+    'vwap': 330.74}}
+2025-07-25 12:52:23 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:52:23 INFO: Current average volume is: 816.98
+2025-07-25 12:52:23 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:53:23 INFO: {'SAIA': {   'close': 330.49,
+    'high': 330.49,
+    'low': 330.49,
+    'open': 330.49,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 275.0,
+    'vwap': 330.49}}
+2025-07-25 12:53:23 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:53:23 INFO: Current average volume is: 806.75
+2025-07-25 12:53:23 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 12:57:23 INFO: {'SAIA': {   'close': 331.1,
+    'high': 331.1,
+    'low': 331.1,
+    'open': 331.1,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 140.0,
+    'vwap': 331.1}}
+2025-07-25 12:57:23 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 12:57:23 INFO: Current average volume is: 794.41
+2025-07-25 12:57:23 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 13:00:24 INFO: {'SAIA': {   'close': 331.18,
+    'high': 331.18,
+    'low': 331.18,
+    'open': 331.18,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 331.18}}
+2025-07-25 13:00:24 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 13:00:24 INFO: Current average volume is: 781.78
+2025-07-25 13:00:24 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 13:03:24 INFO: {'SAIA': {   'close': 330.96,
+    'high': 330.96,
+    'low': 330.96,
+    'open': 330.96,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 361.0,
+    'vwap': 330.96}}
+2025-07-25 13:03:24 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 13:03:24 INFO: Current average volume is: 774.27
+2025-07-25 13:03:24 INFO: Updated resistance to: 331.88 and support to: 315.155
+2025-07-25 13:05:25 INFO: {'SAIA': {   'close': 331.955,
+    'high': 331.955,
+    'low': 331.35,
+    'open': 331.35,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 493.0,
+    'vwap': 331.558333}}
+2025-07-25 13:05:25 INFO: Current resistance is: 331.88 and support is: 315.155
+2025-07-25 13:05:25 INFO: Current average volume is: 769.33
+2025-07-25 13:05:25 INFO: The Current Close 331.955 is above the resistance...
+2025-07-25 13:05:25 INFO: Updated resistance to: 331.955 and support to: 315.155
+2025-07-25 13:08:26 INFO: {'SAIA': {   'close': 331.265,
+    'high': 331.52,
+    'low': 331.265,
+    'open': 331.52,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 656.0,
+    'vwap': 331.3925}}
+2025-07-25 13:08:26 INFO: Current resistance is: 331.955 and support is: 315.155
+2025-07-25 13:08:26 INFO: Current average volume is: 767.38
+2025-07-25 13:08:26 INFO: Updated resistance to: 331.955 and support to: 315.155
+2025-07-25 13:09:26 INFO: {'SAIA': {   'close': 331.085,
+    'high': 331.085,
+    'low': 331.085,
+    'open': 331.085,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 219.0,
+    'vwap': 331.085}}
+2025-07-25 13:09:26 INFO: Current resistance is: 331.955 and support is: 315.155
+2025-07-25 13:09:26 INFO: Current average volume is: 758.08
+2025-07-25 13:09:26 INFO: Updated resistance to: 331.955 and support to: 315.155
+2025-07-25 13:11:26 INFO: {'SAIA': {   'close': 331.55,
+    'high': 331.55,
+    'low': 331.265,
+    'open': 331.265,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 422.0,
+    'vwap': 331.4075}}
+2025-07-25 13:11:26 INFO: Current resistance is: 331.955 and support is: 315.155
+2025-07-25 13:11:26 INFO: Current average volume is: 752.48
+2025-07-25 13:11:26 INFO: Updated resistance to: 331.955 and support to: 315.155
+2025-07-25 13:12:26 INFO: {'SAIA': {   'close': 331.84,
+    'high': 332.09,
+    'low': 331.84,
+    'open': 331.93,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 971.0,
+    'vwap': 331.938906}}
+2025-07-25 13:12:26 INFO: Current resistance is: 331.955 and support is: 315.155
+2025-07-25 13:12:26 INFO: Current average volume is: 756.07
+2025-07-25 13:12:26 INFO: Updated resistance to: 332.09 and support to: 315.155
+2025-07-25 13:18:27 INFO: {'SAIA': {   'close': 331.37,
+    'high': 331.37,
+    'low': 331.37,
+    'open': 331.37,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 331.37}}
+2025-07-25 13:18:27 INFO: Current resistance is: 332.09 and support is: 315.155
+2025-07-25 13:18:27 INFO: Current average volume is: 745.48
+2025-07-25 13:18:27 INFO: Updated resistance to: 332.09 and support to: 315.155
+2025-07-25 13:21:28 INFO: {'SAIA': {   'close': 330.63,
+    'high': 330.64,
+    'low': 330.63,
+    'open': 330.64,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 338.0,
+    'vwap': 330.635}}
+2025-07-25 13:21:28 INFO: Current resistance is: 332.09 and support is: 315.155
+2025-07-25 13:21:28 INFO: Current average volume is: 739.02
+2025-07-25 13:21:28 INFO: Updated resistance to: 332.09 and support to: 315.155
+2025-07-25 13:24:28 INFO: {'SAIA': {   'close': 331.41,
+    'high': 331.41,
+    'low': 331.4,
+    'open': 331.4,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 518.0,
+    'vwap': 331.405}}
+2025-07-25 13:24:28 INFO: Current resistance is: 332.09 and support is: 315.155
+2025-07-25 13:24:28 INFO: Current average volume is: 735.56
+2025-07-25 13:24:28 INFO: Updated resistance to: 332.09 and support to: 315.155
+2025-07-25 13:25:28 INFO: {'SAIA': {   'close': 332.38,
+    'high': 332.38,
+    'low': 332.38,
+    'open': 332.38,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 114.0,
+    'vwap': 332.38}}
+2025-07-25 13:25:28 INFO: Current resistance is: 332.09 and support is: 315.155
+2025-07-25 13:25:28 INFO: Current average volume is: 726.0
+2025-07-25 13:25:28 INFO: The Current Close 332.38 is above the resistance...
+2025-07-25 13:25:28 INFO: Updated resistance to: 332.38 and support to: 315.155
+2025-07-25 13:29:30 INFO: {'SAIA': {   'close': 332.81,
+    'high': 332.81,
+    'low': 332.81,
+    'open': 332.81,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 165.0,
+    'vwap': 332.81}}
+2025-07-25 13:29:30 INFO: Current resistance is: 332.38 and support is: 315.155
+2025-07-25 13:29:30 INFO: Current average volume is: 717.5
+2025-07-25 13:29:30 INFO: The current close: 332.81 is above the resistance of 332.38, but volume isn't enough...
+2025-07-25 13:29:30 INFO: Updated resistance to: 332.81 and support to: 315.155
+2025-07-25 13:34:01 INFO: {'SAIA': {   'close': 333.14,
+    'high': 333.14,
+    'low': 333.14,
+    'open': 333.14,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 448.0,
+    'vwap': 333.14}}
+2025-07-25 13:34:01 INFO: Current resistance is: 332.81 and support is: 315.155
+2025-07-25 13:34:01 INFO: Current average volume is: 713.48
+2025-07-25 13:34:01 INFO: The current close: 333.14 is above the resistance of 332.81, but volume isn't enough...
+2025-07-25 13:34:01 INFO: Updated resistance to: 333.14 and support to: 315.155
+2025-07-25 13:36:02 INFO: {'SAIA': {   'close': 333.84,
+    'high': 333.84,
+    'low': 333.84,
+    'open': 333.84,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 255.0,
+    'vwap': 333.84}}
+2025-07-25 13:36:02 INFO: Current resistance is: 333.14 and support is: 315.155
+2025-07-25 13:36:02 INFO: Current average volume is: 706.74
+2025-07-25 13:36:02 INFO: The current close: 333.84 is above the resistance of 333.14, but volume isn't enough...
+2025-07-25 13:36:02 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 13:37:02 INFO: {'SAIA': {   'close': 333.5,
+    'high': 333.6,
+    'low': 333.5,
+    'open': 333.6,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 226.0,
+    'vwap': 333.55}}
+2025-07-25 13:37:02 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 13:37:02 INFO: Current average volume is: 699.77
+2025-07-25 13:37:02 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 13:39:03 INFO: {'SAIA': {   'close': 332.28,
+    'high': 332.28,
+    'low': 332.28,
+    'open': 332.28,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 316.0,
+    'vwap': 332.28}}
+2025-07-25 13:39:03 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 13:39:03 INFO: Current average volume is: 694.29
+2025-07-25 13:39:03 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 13:50:04 INFO: {'SAIA': {   'close': 332.6,
+    'high': 332.6,
+    'low': 332.6,
+    'open': 332.6,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 218.0,
+    'vwap': 332.6}}
+2025-07-25 13:50:04 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 13:50:04 INFO: Current average volume is: 687.58
+2025-07-25 13:50:04 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:00:06 INFO: {'SAIA': {   'close': 332.92,
+    'high': 332.92,
+    'low': 332.92,
+    'open': 332.92,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 247.0,
+    'vwap': 332.92}}
+2025-07-25 14:00:06 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:00:06 INFO: Current average volume is: 681.46
+2025-07-25 14:00:06 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:04:07 INFO: {'SAIA': {   'close': 331.865,
+    'high': 331.865,
+    'low': 331.865,
+    'open': 331.865,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 173.0,
+    'vwap': 331.865}}
+2025-07-25 14:04:07 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:04:07 INFO: Current average volume is: 674.49
+2025-07-25 14:04:07 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:05:07 INFO: {'SAIA': {   'close': 332.435,
+    'high': 332.435,
+    'low': 332.435,
+    'open': 332.435,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 118.0,
+    'vwap': 332.435}}
+2025-07-25 14:05:07 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:05:07 INFO: Current average volume is: 666.97
+2025-07-25 14:05:07 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:06:07 INFO: {'SAIA': {   'close': 331.915,
+    'high': 331.915,
+    'low': 331.915,
+    'open': 331.915,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 497.0,
+    'vwap': 331.915}}
+2025-07-25 14:06:07 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:06:07 INFO: Current average volume is: 664.71
+2025-07-25 14:06:07 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:07:07 INFO: {'SAIA': {   'close': 331.16,
+    'high': 331.37,
+    'low': 329.92,
+    'open': 330.405,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 599.0,
+    'vwap': 330.652}}
+2025-07-25 14:07:07 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:07:07 INFO: Current average volume is: 663.84
+2025-07-25 14:07:07 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:13:08 INFO: {'SAIA': {   'close': 333.68,
+    'high': 333.68,
+    'low': 333.68,
+    'open': 333.68,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 135.0,
+    'vwap': 333.68}}
+2025-07-25 14:13:08 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:13:08 INFO: Current average volume is: 656.97
+2025-07-25 14:13:08 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:16:09 INFO: {'SAIA': {   'close': 332.975,
+    'high': 332.975,
+    'low': 332.975,
+    'open': 332.975,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 332.975}}
+2025-07-25 14:16:09 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:16:09 INFO: Current average volume is: 649.87
+2025-07-25 14:16:09 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:18:09 INFO: {'SAIA': {   'close': 333.5,
+    'high': 333.63,
+    'low': 333.5,
+    'open': 333.63,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 591.0,
+    'vwap': 333.565}}
+2025-07-25 14:18:09 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:18:09 INFO: Current average volume is: 649.13
+2025-07-25 14:18:09 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:20:10 INFO: {'SAIA': {   'close': 333.455,
+    'high': 333.455,
+    'low': 333.455,
+    'open': 333.455,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 120.0,
+    'vwap': 333.455}}
+2025-07-25 14:20:10 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:20:10 INFO: Current average volume is: 642.51
+2025-07-25 14:20:10 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:23:10 INFO: {'SAIA': {   'close': 333.29,
+    'high': 333.51,
+    'low': 333.29,
+    'open': 333.51,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 546.0,
+    'vwap': 333.382258}}
+2025-07-25 14:23:10 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:23:10 INFO: Current average volume is: 641.32
+2025-07-25 14:23:10 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:25:11 INFO: {'SAIA': {   'close': 332.3,
+    'high': 332.3,
+    'low': 332.3,
+    'open': 332.3,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 454.0,
+    'vwap': 332.3}}
+2025-07-25 14:25:11 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:25:11 INFO: Current average volume is: 639.04
+2025-07-25 14:25:11 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:31:12 INFO: {'SAIA': {   'close': 330.94,
+    'high': 330.94,
+    'low': 330.94,
+    'open': 330.94,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 330.94}}
+2025-07-25 14:31:12 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:31:12 INFO: Current average volume is: 632.54
+2025-07-25 14:31:12 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:33:12 INFO: {'SAIA': {   'close': 330.975,
+    'high': 330.975,
+    'low': 330.975,
+    'open': 330.975,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 130.0,
+    'vwap': 330.975}}
+2025-07-25 14:33:12 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:33:12 INFO: Current average volume is: 626.56
+2025-07-25 14:33:12 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:40:13 INFO: {'SAIA': {   'close': 329.87,
+    'high': 330.285,
+    'low': 329.87,
+    'open': 330.285,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 478.0,
+    'vwap': 330.027236}}
+2025-07-25 14:40:13 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:40:13 INFO: Current average volume is: 624.81
+2025-07-25 14:40:13 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:41:13 INFO: {'SAIA': {   'close': 329.71,
+    'high': 329.71,
+    'low': 329.705,
+    'open': 329.705,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 329.7075}}
+2025-07-25 14:41:13 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:41:13 INFO: Current average volume is: 619.88
+2025-07-25 14:41:13 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:44:14 INFO: {'SAIA': {   'close': 328.845,
+    'high': 328.845,
+    'low': 328.845,
+    'open': 328.845,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 601.0,
+    'vwap': 328.845}}
+2025-07-25 14:44:14 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:44:14 INFO: Current average volume is: 619.67
+2025-07-25 14:44:14 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:46:14 INFO: {'SAIA': {   'close': 328.985,
+    'high': 329.48,
+    'low': 328.985,
+    'open': 329.48,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 495.0,
+    'vwap': 329.244286}}
+2025-07-25 14:46:14 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:46:14 INFO: Current average volume is: 618.25
+2025-07-25 14:46:14 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:47:14 INFO: {'SAIA': {   'close': 329.4,
+    'high': 329.4,
+    'low': 329.4,
+    'open': 329.4,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 201.0,
+    'vwap': 329.4}}
+2025-07-25 14:47:14 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:47:14 INFO: Current average volume is: 613.56
+2025-07-25 14:47:14 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:48:15 INFO: {'SAIA': {   'close': 328.96,
+    'high': 329.0,
+    'low': 328.96,
+    'open': 328.96,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 444.0,
+    'vwap': 328.973333}}
+2025-07-25 14:48:15 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:48:15 INFO: Current average volume is: 611.68
+2025-07-25 14:48:15 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:51:15 INFO: {'SAIA': {   'close': 326.51,
+    'high': 328.585,
+    'low': 326.51,
+    'open': 328.585,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 793.0,
+    'vwap': 327.670868}}
+2025-07-25 14:51:15 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:51:15 INFO: Current average volume is: 613.67
+2025-07-25 14:51:15 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:52:15 INFO: {'SAIA': {   'close': 327.92,
+    'high': 327.92,
+    'low': 327.92,
+    'open': 327.92,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 247.0,
+    'vwap': 327.92}}
+2025-07-25 14:52:15 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:52:15 INFO: Current average volume is: 609.68
+2025-07-25 14:52:15 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:56:16 INFO: {'SAIA': {   'close': 328.69,
+    'high': 328.69,
+    'low': 328.57,
+    'open': 328.57,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 630.0,
+    'vwap': 328.616667}}
+2025-07-25 14:56:16 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:56:16 INFO: Current average volume is: 609.9
+2025-07-25 14:56:16 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:57:16 INFO: {'SAIA': {   'close': 329.13,
+    'high': 329.135,
+    'low': 329.06,
+    'open': 329.135,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 377.0,
+    'vwap': 329.10911}}
+2025-07-25 14:57:16 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:57:16 INFO: Current average volume is: 607.43
+2025-07-25 14:57:16 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:58:16 INFO: {'SAIA': {   'close': 328.83,
+    'high': 328.83,
+    'low': 328.83,
+    'open': 328.83,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 215.0,
+    'vwap': 328.83}}
+2025-07-25 14:58:16 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:58:16 INFO: Current average volume is: 603.29
+2025-07-25 14:58:16 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 14:59:16 INFO: {'SAIA': {   'close': 328.93,
+    'high': 328.93,
+    'low': 328.79,
+    'open': 328.79,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 440.0,
+    'vwap': 328.86}}
+2025-07-25 14:59:16 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 14:59:16 INFO: Current average volume is: 601.59
+2025-07-25 14:59:16 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:01:17 INFO: {'SAIA': {   'close': 328.765,
+    'high': 328.765,
+    'low': 328.67,
+    'open': 328.765,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 630.0,
+    'vwap': 328.740765}}
+2025-07-25 15:01:17 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:01:17 INFO: Current average volume is: 601.89
+2025-07-25 15:01:17 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:03:17 INFO: {'SAIA': {   'close': 329.64,
+    'high': 329.64,
+    'low': 329.64,
+    'open': 329.64,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 280.0,
+    'vwap': 329.64}}
+2025-07-25 15:03:17 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:03:17 INFO: Current average volume is: 598.6
+2025-07-25 15:03:17 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:04:17 INFO: {'SAIA': {   'close': 330.49,
+    'high': 330.49,
+    'low': 330.215,
+    'open': 330.215,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 686.0,
+    'vwap': 330.358333}}
+2025-07-25 15:04:17 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:04:17 INFO: Current average volume is: 599.48
+2025-07-25 15:04:17 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:07:18 INFO: {'SAIA': {   'close': 330.64,
+    'high': 330.64,
+    'low': 330.64,
+    'open': 330.64,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 304.0,
+    'vwap': 330.64}}
+2025-07-25 15:07:18 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:07:18 INFO: Current average volume is: 596.53
+2025-07-25 15:07:18 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:08:18 INFO: {'SAIA': {   'close': 331.09,
+    'high': 331.1,
+    'low': 331.09,
+    'open': 331.1,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 513.0,
+    'vwap': 331.095}}
+2025-07-25 15:08:18 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:08:18 INFO: Current average volume is: 595.7
+2025-07-25 15:08:18 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:10:18 INFO: {'SAIA': {   'close': 330.22,
+    'high': 330.22,
+    'low': 330.11,
+    'open': 330.11,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 940.0,
+    'vwap': 330.129231}}
+2025-07-25 15:10:18 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:10:18 INFO: Current average volume is: 599.08
+2025-07-25 15:10:18 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:12:19 INFO: {'SAIA': {   'close': 329.91,
+    'high': 330.09,
+    'low': 329.91,
+    'open': 330.09,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 774.0,
+    'vwap': 329.97}}
+2025-07-25 15:12:19 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:12:19 INFO: Current average volume is: 600.78
+2025-07-25 15:12:19 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:13:19 INFO: {'SAIA': {   'close': 329.25,
+    'high': 329.255,
+    'low': 329.22,
+    'open': 329.22,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 699.0,
+    'vwap': 329.241667}}
+2025-07-25 15:13:19 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:13:19 INFO: Current average volume is: 601.72
+2025-07-25 15:13:19 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:20:20 INFO: {'SAIA': {   'close': 331.29,
+    'high': 331.29,
+    'low': 331.11,
+    'open': 331.11,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 314.0,
+    'vwap': 331.2}}
+2025-07-25 15:20:20 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:20:20 INFO: Current average volume is: 598.98
+2025-07-25 15:20:20 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:21:20 INFO: {'SAIA': {   'close': 331.42,
+    'high': 331.42,
+    'low': 331.42,
+    'open': 331.42,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 574.0,
+    'vwap': 331.42}}
+2025-07-25 15:21:20 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:21:20 INFO: Current average volume is: 598.75
+2025-07-25 15:21:20 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:22:20 INFO: {'SAIA': {   'close': 331.14,
+    'high': 331.37,
+    'low': 331.14,
+    'open': 331.37,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 513.0,
+    'vwap': 331.255}}
+2025-07-25 15:22:20 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:22:20 INFO: Current average volume is: 597.94
+2025-07-25 15:22:20 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:24:21 INFO: {'SAIA': {   'close': 330.31,
+    'high': 330.31,
+    'low': 330.31,
+    'open': 330.31,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 431.0,
+    'vwap': 330.31}}
+2025-07-25 15:24:21 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:24:21 INFO: Current average volume is: 596.4
+2025-07-25 15:24:21 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:26:21 INFO: {'SAIA': {   'close': 331.39,
+    'high': 331.39,
+    'low': 331.39,
+    'open': 331.39,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 269.0,
+    'vwap': 331.39}}
+2025-07-25 15:26:21 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:26:21 INFO: Current average volume is: 593.39
+2025-07-25 15:26:21 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:33:22 INFO: {'SAIA': {   'close': 332.03,
+    'high': 332.03,
+    'low': 332.03,
+    'open': 332.03,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 416.0,
+    'vwap': 332.03}}
+2025-07-25 15:33:22 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:33:22 INFO: Current average volume is: 591.78
+2025-07-25 15:33:22 INFO: Updated resistance to: 333.84 and support to: 315.155
+2025-07-25 15:34:22 INFO: {'SAIA': {   'close': 332.58,
+    'high': 332.58,
+    'low': 332.56,
+    'open': 332.56,
+    'symbol': 'SAIA',
+    'timestamp': datetime.datetime(2025, 7, 25, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 332.57}}
+2025-07-25 15:34:22 INFO: Current resistance is: 333.84 and support is: 315.155
+2025-07-25 15:34:22 INFO: Current average volume is: 588.25
+2025-07-25 15:34:22 INFO: Updated resistance to: 333.84 and support to: 315.155

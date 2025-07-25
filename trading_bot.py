@@ -1,4 +1,5 @@
-from TimeConstants import *
+import datetime as dt
+from TimeConstants import MARKET_CLOSE_TIME, MARKET_DEADLINE
 
 from time_tools import sleep_til_market
 from stock_screener import get_stock_start
