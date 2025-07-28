@@ -1,4 +1,5 @@
 import math
+import numpy as np
 
 from alpaca.broker import LimitOrderRequest
 from alpaca.data.historical import StockHistoricalDataClient
@@ -15,12 +16,15 @@ import time as tm
 import datetime as dt
 
 from TelegramBot import TelegramBot
+from talib import CDLENGULFING, CDLHAMMER
 from TimeConstants import LAST_MARKET_SELL, MARKET_CLOSE_TIME, MARKET_DEADLINE
 
 
 class BaseTrade:
     highs = []
     lows = []
+    opens = []
+    closes = []
     hist_client = None
     hist_request = None
     symbol = ""
@@ -31,11 +35,13 @@ class BaseTrade:
     avg_vol = 0.0
     msg_bot = TelegramBot()
 
-    def __init__(self,symbol, param, high, low, volume):
+    def __init__(self,symbol, param, high, low, opens, closes, volume):
         self.param = param
         self.symbol = symbol
         self.highs = high
         self.lows = low
+        self.opens = opens
+        self.closes = closes
         self.hist_client = StockHistoricalDataClient(self.param["alpaca_key"], self.param["secret_key"])
         self.trade_client = TradingClient(self.param["alpaca_key"], self.param["secret_key"], paper=True)
         self.hist_request = StockLatestBarRequest(symbol_or_symbols=[self.symbol])
@@ -77,6 +83,18 @@ class BaseTrade:
 
     def get_available_shares(self):
         return int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
+
+    def candle_check(self): # PARAM
+        opens = np.array(self.opens[int(self.param["candle_data"]):], dtype=float)
+        closes = np.array(self.closes[int(self.param["candle_data"]):], dtype=float)
+        highs = np.array(self.highs[int(self.param["candle_data"]):], dtype=float)
+        lows = np.array(self.lows[int(self.param["candle_data"]):], dtype=float)
+
+        # Engulf needs 2 bar to confirm
+        engulf = CDLENGULFING(opens, highs, lows, closes)[-1] + CDLENGULFING(opens, highs, lows, closes)[-2]
+        # Hammer only needs one
+        hammer = CDLHAMMER(opens, highs, lows, closes)[-1]
+        return engulf == 200 or hammer == 100
 
     def monitor_order(self, stop_loss, take_profit, init_price):
         # wait 1 minute for order to fill
@@ -307,7 +325,7 @@ class BaseTrade:
 
                     # second bar also closes above resistance: BUY
                     elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume) and \
-                            (self.avg_vol >= self.param["volume_threshold"]):
+                            (self.avg_vol >= self.param["volume_threshold"]) and self.candle_check():
                         if dt.datetime.now().time() >= MARKET_DEADLINE:
                             print("The current time is past the last buy deadline...")
                             logging.info("The current time is past the last buy deadline...")
@@ -405,8 +423,8 @@ class TriangleTrade(BaseTrade):
     high_const = 0
     low_const = 0
 
-    def __init__(self, symbol,param, high, low, volume, h_slope, h_const, l_slope, l_const):
-        super().__init__(symbol,param, high, low, volume)
+    def __init__(self, symbol,param, high, low, opens, closes, volume, h_slope, h_const, l_slope, l_const):
+        super().__init__(symbol,param, high, low, opens, closes, volume)
         self.high_slope=h_slope
         self.high_const=h_const
         self.low_slope=l_slope
@@ -429,8 +447,8 @@ class TriangleTrade(BaseTrade):
 
 class RectangleTrade(BaseTrade):
 
-    def __init__(self, symbol,param, high, low, volume, resist, support):
-        super().__init__(symbol,param, high, low, volume)
+    def __init__(self, symbol,param, high, low, opens, closes, volume, resist, support):
+        super().__init__(symbol,param, high, low, opens, closes, volume)
         self.resist = resist
         self.support = support
 

@@ -1,100 +1,125 @@
-from ibapi.client import EClient
-from ibapi.wrapper import EWrapper
-from ibapi.contract import Contract
-from ibapi.order import Order
-import threading
-import time
+import yfinance as yf
+import talib
+import numpy as np
 
+# Download Apple stock data
+data = yf.download("SBET", period="1d", interval="1m")
+# print(np.array([x[0] for x in data["Open"].values.tolist()], dtype=float))
+OPEN = np.array([x[0] for x in data["Open"].values.tolist()], dtype=float)
+HIGH = np.array([x[0] for x in data["High"].values.tolist()], dtype=float)
+LOW = np.array([x[0] for x in data["Low"].values.tolist()], dtype=float)
+CLOSE = np.array([x[0] for x in data["Close"].values.tolist()], dtype=float)
 
-class IBapi(EWrapper, EClient):
-    def __init__(self):
-        EClient.__init__(self, self)
-        self.nextValidOrderId = None
+# Detect engulfing patterns
+engulfing = talib.CDLENGULFING(OPEN,HIGH,LOW,CLOSE)
+hammer = talib.CDLHAMMER(OPEN,HIGH,LOW,CLOSE)
 
-    def nextValidId(self, orderId: int):
-        super().nextValidId(orderId)
-        self.nextValidOrderId = orderId
-        print("Next Valid Order ID:", orderId)
+# Print dates where engulfing occurred
+for i in range(len(engulfing)):
+    if engulfing[i] != 0:
+        print(f"{data.index[i].date()}:{data.index[i].time()} → {'Bullish' if engulfing[i] > 0 else 'Bearish'} Engulfing")
 
-    def orderStatus(self, orderId, status, filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId,
-                    whyHeld, mktCapPrice):
-        print(
-            f"OrderStatus. Id: {orderId}, Status: {status}, Filled: {filled}, Remaining: {remaining}, AvgFillPrice: {avgFillPrice}")
+for i in range(len(hammer)):
+    if engulfing[i] != 0:
+        print(f"{data.index[i].date()}:{data.index[i].time()} → {'Bullish' if hammer[i] > 0 else 'Bearish'} Hammer")
 
-    def openOrder(self, orderId, contract, order, orderState):
-        print(
-            f"OpenOrder. ID: {orderId}, {contract.symbol}, {contract.secType}, {contract.currency}, {order.action}, {order.orderType}, {order.totalQuantity}, {orderState.status}")
-
-    def execDetails(self, reqId, contract, execution):
-        print(
-            f"ExecDetails. {contract.symbol}, {contract.secType}, {execution.side}, {execution.shares}, {execution.price}")
-
-
-def run_loop(app):
-    app.run()
-
-
-app = IBapi()
-app.connect('127.0.0.1', 7497, 123)  # 7497 for paper trading
-
-# Start the socket in a thread
-api_thread = threading.Thread(target=run_loop, args=(app,), daemon=True)
-api_thread.start()
-
-time.sleep(1)  # Sleep interval to allow time for connection to setup
-
-if not app.isConnected():
-    print("Failed to connect")
-    exit()
-
-def create_contract(symbol, sec_type='STK', exchange='SMART', currency='USD'):
-    contract = Contract()
-    contract.symbol = symbol
-    contract.secType = sec_type
-    contract.exchange = exchange
-    contract.currency = currency
-    return contract
-
-# Example for Apple stock
-apple_contract = create_contract('AAPL')
-
-
-def create_order(action, quantity, order_type, price=None, tif='DAY'):
-    order = Order()
-    order.action = action  # 'BUY' or 'SELL'
-    order.totalQuantity = quantity
-    order.orderType = order_type  # 'MKT', 'LMT', 'STP', etc.
-    order.tif = tif  # 'DAY', 'GTC' (Good Till Canceled)
-
-    if price is not None:
-        order.lmtPrice = price  # Required for limit orders
-
-    return order
-
-
-# Market order example
-market_order = create_order('BUY', 10, 'MKT')
-
-# Limit order example
-limit_order = create_order('SELL', 5, 'LMT', 150.50)
-
-# Wait until we have the next valid order ID
-while app.nextValidOrderId is None:
-    app.nextValidId(1000)
-    time.sleep(0.1)
-
-# Place market order
-app.placeOrder(app.nextValidOrderId, apple_contract, market_order)
-print(f"Placed market order with ID: {app.nextValidOrderId}")
-app.nextValidOrderId += 1
-
-# Place limit order
-app.placeOrder(app.nextValidOrderId, apple_contract, limit_order)
-print(f"Placed limit order with ID: {app.nextValidOrderId}")
-
-# Let the order events come through
-time.sleep(3)
-app.disconnect()
+# from ibapi.client import EClient
+# from ibapi.wrapper import EWrapper
+# from ibapi.contract import Contract
+# from ibapi.order import Order
+# import threading
+# import time
+#
+#
+# class IBapi(EWrapper, EClient):
+#     def __init__(self):
+#         EClient.__init__(self, self)
+#         self.nextValidOrderId = None
+#
+#     def nextValidId(self, orderId: int):
+#         super().nextValidId(orderId)
+#         self.nextValidOrderId = orderId
+#         print("Next Valid Order ID:", orderId)
+#
+#     def orderStatus(self, orderId, status, filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId,
+#                     whyHeld, mktCapPrice):
+#         print(
+#             f"OrderStatus. Id: {orderId}, Status: {status}, Filled: {filled}, Remaining: {remaining}, AvgFillPrice: {avgFillPrice}")
+#
+#     def openOrder(self, orderId, contract, order, orderState):
+#         print(
+#             f"OpenOrder. ID: {orderId}, {contract.symbol}, {contract.secType}, {contract.currency}, {order.action}, {order.orderType}, {order.totalQuantity}, {orderState.status}")
+#
+#     def execDetails(self, reqId, contract, execution):
+#         print(
+#             f"ExecDetails. {contract.symbol}, {contract.secType}, {execution.side}, {execution.shares}, {execution.price}")
+#
+#
+# def run_loop(app):
+#     app.run()
+#
+#
+# app = IBapi()
+# app.connect('127.0.0.1', 7497, 123)  # 7497 for paper trading
+#
+# # Start the socket in a thread
+# api_thread = threading.Thread(target=run_loop, args=(app,), daemon=True)
+# api_thread.start()
+#
+# time.sleep(1)  # Sleep interval to allow time for connection to setup
+#
+# if not app.isConnected():
+#     print("Failed to connect")
+#     exit()
+#
+# def create_contract(symbol, sec_type='STK', exchange='SMART', currency='USD'):
+#     contract = Contract()
+#     contract.symbol = symbol
+#     contract.secType = sec_type
+#     contract.exchange = exchange
+#     contract.currency = currency
+#     return contract
+#
+# # Example for Apple stock
+# apple_contract = create_contract('AAPL')
+#
+#
+# def create_order(action, quantity, order_type, price=None, tif='DAY'):
+#     order = Order()
+#     order.action = action  # 'BUY' or 'SELL'
+#     order.totalQuantity = quantity
+#     order.orderType = order_type  # 'MKT', 'LMT', 'STP', etc.
+#     order.tif = tif  # 'DAY', 'GTC' (Good Till Canceled)
+#
+#     if price is not None:
+#         order.lmtPrice = price  # Required for limit orders
+#
+#     return order
+#
+#
+# # Market order example
+# market_order = create_order('BUY', 10, 'MKT')
+#
+# # Limit order example
+# limit_order = create_order('SELL', 5, 'LMT', 150.50)
+#
+# # Wait until we have the next valid order ID
+# while app.nextValidOrderId is None:
+#     app.nextValidId(1000)
+#     time.sleep(0.1)
+#
+# # Place market order
+# app.placeOrder(app.nextValidOrderId, apple_contract, market_order)
+# print(f"Placed market order with ID: {app.nextValidOrderId}")
+# app.nextValidOrderId += 1
+#
+# # Place limit order
+# app.placeOrder(app.nextValidOrderId, apple_contract, limit_order)
+# print(f"Placed limit order with ID: {app.nextValidOrderId}")
+#
+# # Let the order events come through
+# time.sleep(3)
+# app.disconnect()
 # import math
 #
 # from matplotlib import pyplot as plt
