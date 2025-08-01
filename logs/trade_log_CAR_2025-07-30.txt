@@ -1,0 +1,713 @@
+2025-07-30 10:05:02 INFO: === Strategy started ===
+2025-07-30 10:05:02 INFO: Start collecting the current highs/lows for: CAR
+2025-07-30 10:05:02 INFO: Most recent stock data: {'CAR': {   'close': 173.15,
+    'high': 173.87,
+    'low': 173.15,
+    'open': 173.87,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 559.0,
+    'vwap': 173.51}}
+2025-07-30 10:06:02 INFO: Most recent stock data: {'CAR': {   'close': 172.09,
+    'high': 172.16,
+    'low': 172.08,
+    'open': 172.16,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 573.0,
+    'vwap': 172.1}}
+2025-07-30 10:07:02 INFO: Most recent stock data: {'CAR': {   'close': 172.43,
+    'high': 172.44,
+    'low': 172.41,
+    'open': 172.44,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 304.0,
+    'vwap': 172.426678}}
+2025-07-30 10:10:02 INFO: Most recent stock data: {'CAR': {   'close': 171.56,
+    'high': 171.56,
+    'low': 171.56,
+    'open': 171.56,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 835.0,
+    'vwap': 171.56}}
+2025-07-30 10:11:03 INFO: Most recent stock data: {'CAR': {   'close': 171.74,
+    'high': 171.77,
+    'low': 171.315,
+    'open': 171.66,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1547.0,
+    'vwap': 171.441801}}
+2025-07-30 10:12:03 INFO: Most recent stock data: {'CAR': {   'close': 171.59,
+    'high': 171.59,
+    'low': 171.59,
+    'open': 171.59,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 176.0,
+    'vwap': 171.59}}
+2025-07-30 10:13:03 INFO: Most recent stock data: {'CAR': {   'close': 170.81,
+    'high': 170.92,
+    'low': 170.81,
+    'open': 170.835,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 651.0,
+    'vwap': 170.858927}}
+2025-07-30 10:14:03 INFO: Most recent stock data: {'CAR': {   'close': 170.86,
+    'high': 170.88,
+    'low': 170.7,
+    'open': 170.7,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 510.0,
+    'vwap': 170.786275}}
+2025-07-30 10:15:03 INFO: Most recent stock data: {'CAR': {   'close': 169.48,
+    'high': 170.865,
+    'low': 169.48,
+    'open': 170.865,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 848.0,
+    'vwap': 170.4125}}
+2025-07-30 10:16:03 INFO: Most recent stock data: {'CAR': {   'close': 169.405,
+    'high': 169.47,
+    'low': 168.855,
+    'open': 168.855,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1116.0,
+    'vwap': 169.274677}}
+2025-07-30 10:17:03 INFO: Most recent stock data: {'CAR': {   'close': 169.19,
+    'high': 169.22,
+    'low': 169.19,
+    'open': 169.22,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 415.0,
+    'vwap': 169.205}}
+2025-07-30 10:17:03 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-30 10:17:03 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-30 10:18:03 INFO: {'CAR': {   'close': 168.41,
+    'high': 169.28,
+    'low': 168.41,
+    'open': 169.28,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1173.0,
+    'vwap': 168.889876}}
+2025-07-30 10:18:03 INFO: Current resistance is: 169.776 and support is: 168.06
+2025-07-30 10:18:03 INFO: Current average volume is: 679.0
+2025-07-30 10:18:03 INFO: Updated resistance to: 169.483 and support to: 168.004
+2025-07-30 10:20:04 INFO: {'CAR': {   'close': 168.85,
+    'high': 168.85,
+    'low': 168.85,
+    'open': 168.85,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 471.0,
+    'vwap': 168.85}}
+2025-07-30 10:20:04 INFO: Current resistance is: 169.483 and support is: 168.004
+2025-07-30 10:20:04 INFO: Current average volume is: 663.0
+2025-07-30 10:20:04 INFO: Updated resistance to: 169.142 and support to: 167.644
+2025-07-30 10:22:04 INFO: {'CAR': {   'close': 167.705,
+    'high': 168.78,
+    'low': 167.705,
+    'open': 168.78,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1531.0,
+    'vwap': 168.251311}}
+2025-07-30 10:22:04 INFO: Current resistance is: 169.142 and support is: 167.644
+2025-07-30 10:22:04 INFO: Current average volume is: 725.0
+2025-07-30 10:22:04 INFO: Updated resistance to: 168.913 and support to: 167.315
+2025-07-30 10:23:04 INFO: {'CAR': {   'close': 167.685,
+    'high': 168.035,
+    'low': 167.68,
+    'open': 168.035,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 675.0,
+    'vwap': 167.7425}}
+2025-07-30 10:23:04 INFO: Current resistance is: 168.913 and support is: 167.315
+2025-07-30 10:23:04 INFO: Current average volume is: 721.67
+2025-07-30 10:23:04 INFO: Updated resistance to: 168.505 and support to: 167.294
+2025-07-30 10:24:04 INFO: {'CAR': {   'close': 167.95,
+    'high': 168.16,
+    'low': 167.95,
+    'open': 168.16,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 220.0,
+    'vwap': 168.055}}
+2025-07-30 10:24:04 INFO: Current resistance is: 168.505 and support is: 167.294
+2025-07-30 10:24:04 INFO: Current average volume is: 690.31
+2025-07-30 10:24:04 INFO: Updated resistance to: 168.28 and support to: 166.942
+2025-07-30 10:25:04 INFO: {'CAR': {   'close': 169.44,
+    'high': 169.44,
+    'low': 169.44,
+    'open': 169.44,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 233.0,
+    'vwap': 169.44}}
+2025-07-30 10:25:04 INFO: Current resistance is: 168.28 and support is: 166.942
+2025-07-30 10:25:04 INFO: Current average volume is: 663.41
+2025-07-30 10:25:04 INFO: The Current Close 169.44 is above the resistance...
+2025-07-30 10:25:04 INFO: Updated resistance to: 168.57 and support to: 166.719
+2025-07-30 10:27:05 INFO: {'CAR': {   'close': 169.0,
+    'high': 169.64,
+    'low': 168.71,
+    'open': 169.64,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 500.0,
+    'vwap': 169.116667}}
+2025-07-30 10:27:05 INFO: Current resistance is: 168.57 and support is: 166.719
+2025-07-30 10:27:05 INFO: Current average volume is: 654.33
+2025-07-30 10:27:05 INFO: The current close: 169.0 is above the resistance of 168.57, but volume isn't enough...
+2025-07-30 10:27:05 INFO: Updated resistance to: 168.896 and support to: 166.505
+2025-07-30 10:29:05 INFO: {'CAR': {   'close': 170.35,
+    'high': 170.535,
+    'low': 169.74,
+    'open': 169.74,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1413.0,
+    'vwap': 170.186484}}
+2025-07-30 10:29:05 INFO: Current resistance is: 168.896 and support is: 166.505
+2025-07-30 10:29:05 INFO: Current average volume is: 694.26
+2025-07-30 10:29:05 INFO: The current close: 170.35 is above the resistance of 168.896, but volume isn't enough...
+2025-07-30 10:29:05 INFO: Updated resistance to: 169.452 and support to: 166.412
+2025-07-30 10:31:06 INFO: {'CAR': {   'close': 170.96,
+    'high': 170.96,
+    'low': 170.44,
+    'open': 170.44,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1118.0,
+    'vwap': 170.6765}}
+2025-07-30 10:31:06 INFO: Current resistance is: 169.452 and support is: 166.412
+2025-07-30 10:31:06 INFO: Current average volume is: 715.45
+2025-07-30 10:31:06 INFO: The current close: 170.96 is above the resistance of 169.452, but volume isn't enough...
+2025-07-30 10:31:06 INFO: Updated resistance to: 170.046 and support to: 166.415
+2025-07-30 10:32:06 INFO: {'CAR': {   'close': 171.16,
+    'high': 171.36,
+    'low': 171.16,
+    'open': 171.36,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 369.0,
+    'vwap': 171.26}}
+2025-07-30 10:32:06 INFO: Current resistance is: 170.046 and support is: 166.415
+2025-07-30 10:32:06 INFO: Current average volume is: 698.95
+2025-07-30 10:32:06 INFO: The current close: 171.16 is above the resistance of 170.046, but volume isn't enough...
+2025-07-30 10:32:06 INFO: Updated resistance to: 170.658 and support to: 166.511
+2025-07-30 10:34:07 INFO: {'CAR': {   'close': 172.65,
+    'high': 172.65,
+    'low': 172.28,
+    'open': 172.28,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 606.0,
+    'vwap': 172.444118}}
+2025-07-30 10:34:07 INFO: Current resistance is: 170.658 and support is: 166.511
+2025-07-30 10:34:07 INFO: Current average volume is: 694.73
+2025-07-30 10:34:07 INFO: The current close: 172.65 is above the resistance of 170.658, but volume isn't enough...
+2025-07-30 10:34:07 INFO: Updated resistance to: 171.514 and support to: 166.729
+2025-07-30 10:35:07 INFO: {'CAR': {   'close': 173.09,
+    'high': 173.09,
+    'low': 173.09,
+    'open': 173.09,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 194.0,
+    'vwap': 173.09}}
+2025-07-30 10:35:07 INFO: Current resistance is: 171.514 and support is: 166.729
+2025-07-30 10:35:07 INFO: Current average volume is: 672.96
+2025-07-30 10:35:07 INFO: The current close: 173.09 is above the resistance of 171.514, but volume isn't enough...
+2025-07-30 10:35:07 INFO: Updated resistance to: 172.346 and support to: 167.03
+2025-07-30 10:36:07 INFO: {'CAR': {   'close': 172.8,
+    'high': 172.8,
+    'low': 172.74,
+    'open': 172.74,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 613.0,
+    'vwap': 172.77}}
+2025-07-30 10:36:07 INFO: Current resistance is: 172.346 and support is: 167.03
+2025-07-30 10:36:07 INFO: Current average volume is: 670.46
+2025-07-30 10:36:07 INFO: The current close: 172.8 is above the resistance of 172.346, but volume isn't enough...
+2025-07-30 10:36:07 INFO: Updated resistance to: 172.98 and support to: 167.29
+2025-07-30 10:38:08 INFO: {'CAR': {   'close': 173.51,
+    'high': 173.51,
+    'low': 172.44,
+    'open': 172.44,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 348.0,
+    'vwap': 172.877905}}
+2025-07-30 10:38:08 INFO: Current resistance is: 172.98 and support is: 167.29
+2025-07-30 10:38:08 INFO: Current average volume is: 657.56
+2025-07-30 10:38:08 INFO: The current close: 173.51 is above the resistance of 172.98, but volume isn't enough...
+2025-07-30 10:38:08 INFO: Updated resistance to: 173.684 and support to: 167.509
+2025-07-30 10:40:08 INFO: {'CAR': {   'close': 172.46,
+    'high': 172.86,
+    'low': 172.46,
+    'open': 172.73,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1410.0,
+    'vwap': 172.54}}
+2025-07-30 10:40:08 INFO: Current resistance is: 173.684 and support is: 167.509
+2025-07-30 10:40:08 INFO: Current average volume is: 686.5
+2025-07-30 10:40:08 INFO: Updated resistance to: 174.14 and support to: 167.718
+2025-07-30 10:41:08 INFO: {'CAR': {   'close': 172.255,
+    'high': 172.495,
+    'low': 172.255,
+    'open': 172.49,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 662.0,
+    'vwap': 172.406179}}
+2025-07-30 10:41:08 INFO: Current resistance is: 174.14 and support is: 167.718
+2025-07-30 10:41:08 INFO: Current average volume is: 685.59
+2025-07-30 10:41:08 INFO: Updated resistance to: 174.451 and support to: 167.893
+2025-07-30 10:45:09 INFO: {'CAR': {   'close': 171.3,
+    'high': 171.66,
+    'low': 171.3,
+    'open': 171.66,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 316.0,
+    'vwap': 171.418033}}
+2025-07-30 10:45:09 INFO: Current resistance is: 174.451 and support is: 167.893
+2025-07-30 10:45:09 INFO: Current average volume is: 672.39
+2025-07-30 10:45:09 INFO: Updated resistance to: 174.545 and support to: 167.957
+2025-07-30 10:46:09 INFO: {'CAR': {   'close': 171.455,
+    'high': 171.455,
+    'low': 171.455,
+    'open': 171.455,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 122.0,
+    'vwap': 171.455}}
+2025-07-30 10:46:09 INFO: Current resistance is: 174.545 and support is: 167.957
+2025-07-30 10:46:09 INFO: Current average volume is: 653.41
+2025-07-30 10:46:09 INFO: Updated resistance to: 174.584 and support to: 168.032
+2025-07-30 10:47:09 INFO: {'CAR': {   'close': 171.65,
+    'high': 171.65,
+    'low': 171.45,
+    'open': 171.45,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1032.0,
+    'vwap': 171.616234}}
+2025-07-30 10:47:09 INFO: Current resistance is: 174.584 and support is: 168.032
+2025-07-30 10:47:09 INFO: Current average volume is: 666.03
+2025-07-30 10:47:09 INFO: Updated resistance to: 174.655 and support to: 168.1
+2025-07-30 10:51:09 INFO: {'CAR': {   'close': 172.43,
+    'high': 172.43,
+    'low': 171.6,
+    'open': 171.6,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 586.0,
+    'vwap': 171.820745}}
+2025-07-30 10:51:09 INFO: Current resistance is: 174.655 and support is: 168.1
+2025-07-30 10:51:09 INFO: Current average volume is: 663.45
+2025-07-30 10:51:09 INFO: Updated resistance to: 174.861 and support to: 168.178
+2025-07-30 10:53:10 INFO: {'CAR': {   'close': 172.99,
+    'high': 172.99,
+    'low': 172.99,
+    'open': 172.99,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 160.0,
+    'vwap': 172.99}}
+2025-07-30 10:53:10 INFO: Current resistance is: 174.861 and support is: 168.178
+2025-07-30 10:53:10 INFO: Current average volume is: 647.72
+2025-07-30 10:53:10 INFO: Updated resistance to: 175.142 and support to: 168.392
+2025-07-30 10:54:10 INFO: {'CAR': {   'close': 172.85,
+    'high': 172.85,
+    'low': 172.85,
+    'open': 172.85,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 172.85}}
+2025-07-30 10:54:10 INFO: Current resistance is: 175.142 and support is: 168.392
+2025-07-30 10:54:10 INFO: Current average volume is: 640.21
+2025-07-30 10:54:10 INFO: Updated resistance to: 175.362 and support to: 168.574
+2025-07-30 10:57:10 INFO: {'CAR': {   'close': 173.49,
+    'high': 173.49,
+    'low': 173.24,
+    'open': 173.24,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 173.33625}}
+2025-07-30 10:57:10 INFO: Current resistance is: 175.362 and support is: 168.574
+2025-07-30 10:57:10 INFO: Current average volume is: 633.15
+2025-07-30 10:57:10 INFO: Updated resistance to: 175.665 and support to: 168.781
+2025-07-30 10:58:10 INFO: {'CAR': {   'close': 173.59,
+    'high': 173.65,
+    'low': 173.59,
+    'open': 173.61,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 173.616667}}
+2025-07-30 10:58:10 INFO: Current resistance is: 175.665 and support is: 168.781
+2025-07-30 10:58:10 INFO: Current average volume is: 623.63
+2025-07-30 10:58:10 INFO: Updated resistance to: 175.958 and support to: 169.007
+2025-07-30 10:59:10 INFO: {'CAR': {   'close': 173.345,
+    'high': 173.44,
+    'low': 173.345,
+    'open': 173.44,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 207.0,
+    'vwap': 173.3925}}
+2025-07-30 10:59:10 INFO: Current resistance is: 175.958 and support is: 169.007
+2025-07-30 10:59:10 INFO: Current average volume is: 612.06
+2025-07-30 10:59:10 INFO: Updated resistance to: 176.182 and support to: 169.19
+2025-07-30 11:09:11 INFO: {'CAR': {   'close': 172.235,
+    'high': 172.235,
+    'low': 172.235,
+    'open': 172.235,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 229.0,
+    'vwap': 172.235}}
+2025-07-30 11:09:11 INFO: Current resistance is: 176.182 and support is: 169.19
+2025-07-30 11:09:11 INFO: Current average volume is: 601.7
+2025-07-30 11:09:11 INFO: Updated resistance to: 176.189 and support to: 169.249
+2025-07-30 11:11:12 INFO: {'CAR': {   'close': 173.04,
+    'high': 173.04,
+    'low': 173.04,
+    'open': 173.04,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 188.0,
+    'vwap': 173.04}}
+2025-07-30 11:11:12 INFO: Current resistance is: 176.189 and support is: 169.249
+2025-07-30 11:11:12 INFO: Current average volume is: 590.82
+2025-07-30 11:11:12 INFO: Updated resistance to: 176.315 and support to: 169.38
+2025-07-30 11:15:12 INFO: {'CAR': {   'close': 173.33,
+    'high': 173.33,
+    'low': 173.33,
+    'open': 173.33,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 173.33}}
+2025-07-30 11:15:12 INFO: Current resistance is: 176.315 and support is: 169.38
+2025-07-30 11:15:12 INFO: Current average volume is: 578.23
+2025-07-30 11:15:12 INFO: Updated resistance to: 176.47 and support to: 169.528
+2025-07-30 11:24:13 INFO: {'CAR': {   'close': 173.68,
+    'high': 173.68,
+    'low': 173.53,
+    'open': 173.53,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 173.605}}
+2025-07-30 11:24:13 INFO: Current resistance is: 176.47 and support is: 169.528
+2025-07-30 11:24:13 INFO: Current average volume is: 568.8
+2025-07-30 11:24:13 INFO: Updated resistance to: 176.657 and support to: 169.682
+2025-07-30 11:25:13 INFO: {'CAR': {   'close': 175.775,
+    'high': 175.775,
+    'low': 174.765,
+    'open': 174.765,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 671.0,
+    'vwap': 175.493914}}
+2025-07-30 11:25:13 INFO: Current resistance is: 176.657 and support is: 169.682
+2025-07-30 11:25:13 INFO: Current average volume is: 571.29
+2025-07-30 11:25:13 INFO: Updated resistance to: 175.854 and support to: 169.941
+2025-07-30 11:27:14 INFO: {'CAR': {   'close': 176.55,
+    'high': 177.095,
+    'low': 176.5,
+    'open': 177.095,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1020.0,
+    'vwap': 176.678125}}
+2025-07-30 11:27:14 INFO: Current resistance is: 175.854 and support is: 169.941
+2025-07-30 11:27:14 INFO: Current average volume is: 581.98
+2025-07-30 11:27:14 INFO: The Current Close 176.55 is above the resistance...
+2025-07-30 11:27:14 INFO: Updated resistance to: 177.187 and support to: 170.34
+2025-07-30 11:28:14 INFO: {'CAR': {   'close': 175.92,
+    'high': 175.92,
+    'low': 175.92,
+    'open': 175.92,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 220.0,
+    'vwap': 175.92}}
+2025-07-30 11:28:14 INFO: Current resistance is: 177.187 and support is: 170.34
+2025-07-30 11:28:14 INFO: Current average volume is: 573.56
+2025-07-30 11:28:14 INFO: Updated resistance to: 177.292 and support to: 170.657
+2025-07-30 11:30:14 INFO: {'CAR': {   'close': 175.52,
+    'high': 175.52,
+    'low': 175.52,
+    'open': 175.52,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 352.0,
+    'vwap': 175.52}}
+2025-07-30 11:30:14 INFO: Current resistance is: 177.292 and support is: 170.657
+2025-07-30 11:30:14 INFO: Current average volume is: 568.52
+2025-07-30 11:30:14 INFO: Updated resistance to: 177.404 and support to: 170.913
+2025-07-30 11:31:14 INFO: {'CAR': {   'close': 176.26,
+    'high': 176.26,
+    'low': 176.26,
+    'open': 176.26,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 365.0,
+    'vwap': 176.26}}
+2025-07-30 11:31:14 INFO: Current resistance is: 177.404 and support is: 170.913
+2025-07-30 11:31:14 INFO: Current average volume is: 564.0
+2025-07-30 11:31:14 INFO: Updated resistance to: 177.529 and support to: 171.216
+2025-07-30 11:32:14 INFO: {'CAR': {   'close': 176.4,
+    'high': 176.42,
+    'low': 176.4,
+    'open': 176.42,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 327.0,
+    'vwap': 176.41}}
+2025-07-30 11:32:14 INFO: Current resistance is: 177.529 and support is: 171.216
+2025-07-30 11:32:14 INFO: Current average volume is: 558.85
+2025-07-30 11:32:14 INFO: Updated resistance to: 177.664 and support to: 171.509
+2025-07-30 11:37:15 INFO: {'CAR': {   'close': 176.14,
+    'high': 176.14,
+    'low': 176.14,
+    'open': 176.14,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 176.14}}
+2025-07-30 11:37:15 INFO: Current resistance is: 177.664 and support is: 171.509
+2025-07-30 11:37:15 INFO: Current average volume is: 549.09
+2025-07-30 11:37:15 INFO: Updated resistance to: 177.798 and support to: 171.757
+2025-07-30 11:38:15 INFO: {'CAR': {   'close': 176.12,
+    'high': 176.12,
+    'low': 176.12,
+    'open': 176.12,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 176.12}}
+2025-07-30 11:38:15 INFO: Current resistance is: 177.798 and support is: 171.757
+2025-07-30 11:38:15 INFO: Current average volume is: 539.73
+2025-07-30 11:38:15 INFO: Updated resistance to: 177.934 and support to: 171.984
+2025-07-30 11:41:15 INFO: {'CAR': {   'close': 175.91,
+    'high': 175.91,
+    'low': 175.91,
+    'open': 175.91,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 175.91}}
+2025-07-30 11:41:15 INFO: Current resistance is: 177.934 and support is: 171.984
+2025-07-30 11:41:15 INFO: Current average volume is: 530.76
+2025-07-30 11:41:15 INFO: Updated resistance to: 178.066 and support to: 172.176
+2025-07-30 11:42:16 INFO: {'CAR': {   'close': 176.75,
+    'high': 176.75,
+    'low': 176.75,
+    'open': 176.75,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 138.0,
+    'vwap': 176.75}}
+2025-07-30 11:42:16 INFO: Current resistance is: 178.066 and support is: 172.176
+2025-07-30 11:42:16 INFO: Current average volume is: 522.9
+2025-07-30 11:42:16 INFO: Updated resistance to: 178.215 and support to: 172.425
+2025-07-30 11:43:16 INFO: {'CAR': {   'close': 177.37,
+    'high': 177.37,
+    'low': 177.37,
+    'open': 177.37,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 124.0,
+    'vwap': 177.37}}
+2025-07-30 11:43:16 INFO: Current resistance is: 178.215 and support is: 172.425
+2025-07-30 11:43:16 INFO: Current average volume is: 515.08
+2025-07-30 11:43:16 INFO: Updated resistance to: 177.498 and support to: 172.707
+2025-07-30 11:53:17 INFO: {'CAR': {   'close': 176.22,
+    'high': 176.22,
+    'low': 175.97,
+    'open': 175.97,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 216.0,
+    'vwap': 176.103178}}
+2025-07-30 11:53:17 INFO: Current resistance is: 177.498 and support is: 172.707
+2025-07-30 11:53:17 INFO: Current average volume is: 509.33
+2025-07-30 11:53:17 INFO: Updated resistance to: 177.628 and support to: 172.853
+2025-07-30 11:54:17 INFO: {'CAR': {   'close': 176.48,
+    'high': 176.48,
+    'low': 176.48,
+    'open': 176.48,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 194.0,
+    'vwap': 176.48}}
+2025-07-30 11:54:17 INFO: Current resistance is: 177.628 and support is: 172.853
+2025-07-30 11:54:17 INFO: Current average volume is: 503.38
+2025-07-30 11:54:17 INFO: Updated resistance to: 177.759 and support to: 173.029
+2025-07-30 11:57:17 INFO: {'CAR': {   'close': 176.43,
+    'high': 176.43,
+    'low': 176.43,
+    'open': 176.43,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 132.0,
+    'vwap': 176.43}}
+2025-07-30 11:57:17 INFO: Current resistance is: 177.759 and support is: 173.029
+2025-07-30 11:57:17 INFO: Current average volume is: 496.5
+2025-07-30 11:57:17 INFO: Updated resistance to: 177.891 and support to: 173.187
+2025-07-30 12:00:18 INFO: {'CAR': {   'close': 176.035,
+    'high': 176.035,
+    'low': 176.035,
+    'open': 176.035,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 324.0,
+    'vwap': 176.035}}
+2025-07-30 12:00:18 INFO: Current resistance is: 177.891 and support is: 173.187
+2025-07-30 12:00:18 INFO: Current average volume is: 493.36
+2025-07-30 12:00:18 INFO: Updated resistance to: 178.017 and support to: 173.302
+2025-07-30 12:01:18 INFO: {'CAR': {   'close': 176.195,
+    'high': 176.195,
+    'low': 176.195,
+    'open': 176.195,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 130.0,
+    'vwap': 176.195}}
+2025-07-30 12:01:18 INFO: Current resistance is: 178.017 and support is: 173.302
+2025-07-30 12:01:18 INFO: Current average volume is: 486.88
+2025-07-30 12:01:18 INFO: Updated resistance to: 178.143 and support to: 173.42
+2025-07-30 12:02:18 INFO: {'CAR': {   'close': 175.97,
+    'high': 175.97,
+    'low': 175.97,
+    'open': 175.97,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 115.0,
+    'vwap': 175.97}}
+2025-07-30 12:02:18 INFO: Current resistance is: 178.143 and support is: 173.42
+2025-07-30 12:02:18 INFO: Current average volume is: 480.35
+2025-07-30 12:02:18 INFO: Updated resistance to: 178.264 and support to: 173.51
+2025-07-30 12:03:18 INFO: {'CAR': {   'close': 174.58,
+    'high': 174.58,
+    'low': 174.58,
+    'open': 174.58,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 165.0,
+    'vwap': 174.58}}
+2025-07-30 12:03:18 INFO: Current resistance is: 178.264 and support is: 173.51
+2025-07-30 12:03:18 INFO: Current average volume is: 474.91
+2025-07-30 12:03:18 INFO: Updated resistance to: 178.363 and support to: 173.486
+2025-07-30 12:06:18 INFO: {'CAR': {   'close': 173.725,
+    'high': 173.725,
+    'low': 173.725,
+    'open': 173.725,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 173.725}}
+2025-07-30 12:06:18 INFO: Current resistance is: 178.363 and support is: 173.486
+2025-07-30 12:06:18 INFO: Current average volume is: 470.25
+2025-07-30 12:06:18 INFO: Updated resistance to: 178.442 and support to: 173.395
+2025-07-30 12:10:19 INFO: {'CAR': {   'close': 173.31,
+    'high': 173.31,
+    'low': 173.31,
+    'open': 173.31,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 219.0,
+    'vwap': 173.31}}
+2025-07-30 12:10:19 INFO: Current resistance is: 178.442 and support is: 173.395
+2025-07-30 12:10:19 INFO: Current average volume is: 466.07
+2025-07-30 12:10:19 INFO: close price: 173.31 just dropped below support of 173.395...
+2025-07-30 12:12:19 INFO: {'CAR': {   'close': 173.3,
+    'high': 173.3,
+    'low': 173.3,
+    'open': 173.3,
+    'symbol': 'CAR',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 173.3}}
+2025-07-30 12:12:19 INFO: Current resistance is: 178.442 and support is: 173.395
+2025-07-30 12:12:19 INFO: Current average volume is: 460.07
+2025-07-30 12:12:19 INFO: Closing price: 173.3 just dropped below support 173.395 again...ending trade...

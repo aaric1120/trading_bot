@@ -1,0 +1,472 @@
+2025-07-31 10:20:03 INFO: === Strategy started ===
+2025-07-31 10:20:03 INFO: Start collecting the current highs/lows for: NEGG
+2025-07-31 10:20:03 INFO: Most recent stock data: {'NEGG': {   'close': 54.895,
+    'high': 54.895,
+    'low': 54.895,
+    'open': 54.895,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 54.895}}
+2025-07-31 10:25:04 INFO: Most recent stock data: {'NEGG': {   'close': 53.425,
+    'high': 53.425,
+    'low': 53.345,
+    'open': 53.345,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 53.405}}
+2025-07-31 10:27:04 INFO: Most recent stock data: {'NEGG': {   'close': 53.85,
+    'high': 53.85,
+    'low': 53.85,
+    'open': 53.85,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 53.85}}
+2025-07-31 10:28:05 INFO: Most recent stock data: {'NEGG': {   'close': 52.945,
+    'high': 52.945,
+    'low': 52.945,
+    'open': 52.945,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 107.0,
+    'vwap': 52.945}}
+2025-07-31 10:29:05 INFO: Most recent stock data: {'NEGG': {   'close': 53.225,
+    'high': 53.225,
+    'low': 53.225,
+    'open': 53.225,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 53.225}}
+2025-07-31 10:30:05 INFO: Most recent stock data: {'NEGG': {   'close': 53.44,
+    'high': 53.44,
+    'low': 53.44,
+    'open': 53.44,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 53.44}}
+2025-07-31 10:31:05 INFO: Most recent stock data: {'NEGG': {   'close': 53.985,
+    'high': 53.985,
+    'low': 53.985,
+    'open': 53.985,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 53.985}}
+2025-07-31 10:34:05 INFO: Most recent stock data: {'NEGG': {   'close': 55.89,
+    'high': 55.89,
+    'low': 55.39,
+    'open': 55.39,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 55.64}}
+2025-07-31 10:36:05 INFO: Most recent stock data: {'NEGG': {   'close': 55.93,
+    'high': 55.93,
+    'low': 55.93,
+    'open': 55.93,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 55.93}}
+2025-07-31 10:38:06 INFO: Most recent stock data: {'NEGG': {   'close': 57.52,
+    'high': 57.52,
+    'low': 57.52,
+    'open': 57.52,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 57.52}}
+2025-07-31 10:43:06 INFO: Most recent stock data: {'NEGG': {   'close': 59.26,
+    'high': 60.9,
+    'low': 59.26,
+    'open': 60.9,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 570.0,
+    'vwap': 60.086667}}
+2025-07-31 10:43:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 10:43:06 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-31 10:48:07 INFO: {'NEGG': {   'close': 59.095,
+    'high': 59.095,
+    'low': 59.095,
+    'open': 59.095,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 59.095}}
+2025-07-31 10:48:07 INFO: Current resistance is: 61.439 and support is: 56.612
+2025-07-31 10:48:07 INFO: Current average volume is: 169.75
+2025-07-31 10:48:07 INFO: Updated resistance to: 62.037 and support to: 57.574
+2025-07-31 10:49:07 INFO: {'NEGG': {   'close': 59.1,
+    'high': 59.1,
+    'low': 59.1,
+    'open': 59.1,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 107.0,
+    'vwap': 59.1}}
+2025-07-31 10:49:07 INFO: Current resistance is: 62.037 and support is: 57.574
+2025-07-31 10:49:07 INFO: Current average volume is: 164.92
+2025-07-31 10:49:07 INFO: Updated resistance to: 62.604 and support to: 58.258
+2025-07-31 10:50:07 INFO: {'NEGG': {   'close': 60.185,
+    'high': 60.185,
+    'low': 60.185,
+    'open': 60.185,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 60.185}}
+2025-07-31 10:50:07 INFO: Current resistance is: 62.604 and support is: 58.258
+2025-07-31 10:50:07 INFO: Current average volume is: 174.57
+2025-07-31 10:50:07 INFO: Updated resistance to: 63.229 and support to: 59.082
+2025-07-31 10:53:08 INFO: {'NEGG': {   'close': 57.52,
+    'high': 57.52,
+    'low': 57.52,
+    'open': 57.52,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 216.0,
+    'vwap': 57.52}}
+2025-07-31 10:53:08 INFO: Current resistance is: 63.229 and support is: 59.082
+2025-07-31 10:53:08 INFO: Current average volume is: 177.33
+2025-07-31 10:53:08 INFO: close price: 57.52 just dropped below support of 59.082...
+2025-07-31 10:54:08 INFO: {'NEGG': {   'close': 56.965,
+    'high': 56.965,
+    'low': 56.965,
+    'open': 56.965,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 400.0,
+    'vwap': 56.965}}
+2025-07-31 10:54:08 INFO: Current resistance is: 63.229 and support is: 59.082
+2025-07-31 10:54:08 INFO: Current average volume is: 191.25
+2025-07-31 10:54:08 INFO: Closing price: 56.965 just dropped below support 59.082 again...ending trade...
+2025-07-31 11:05:03 INFO: === Strategy started ===
+2025-07-31 11:05:03 INFO: Start collecting the current highs/lows for: NEGG
+2025-07-31 11:05:03 INFO: Most recent stock data: {'NEGG': {   'close': 58.92,
+    'high': 58.92,
+    'low': 58.92,
+    'open': 58.92,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.92}}
+2025-07-31 11:06:03 INFO: Most recent stock data: {'NEGG': {   'close': 58.405,
+    'high': 58.405,
+    'low': 58.405,
+    'open': 58.405,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 300.0,
+    'vwap': 58.405}}
+2025-07-31 11:08:04 INFO: Most recent stock data: {'NEGG': {   'close': 58.67,
+    'high': 58.67,
+    'low': 58.67,
+    'open': 58.67,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.67}}
+2025-07-31 11:16:05 INFO: Most recent stock data: {'NEGG': {   'close': 55.59,
+    'high': 55.59,
+    'low': 55.59,
+    'open': 55.59,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 239.0,
+    'vwap': 55.59}}
+2025-07-31 11:17:05 INFO: Most recent stock data: {'NEGG': {   'close': 55.945,
+    'high': 55.945,
+    'low': 55.945,
+    'open': 55.945,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 55.945}}
+2025-07-31 11:21:05 INFO: Most recent stock data: {'NEGG': {   'close': 57.49,
+    'high': 57.49,
+    'low': 57.49,
+    'open': 57.49,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 57.49}}
+2025-07-31 11:22:05 INFO: Most recent stock data: {'NEGG': {   'close': 58.21,
+    'high': 58.21,
+    'low': 58.21,
+    'open': 58.21,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.21}}
+2025-07-31 12:50:05 INFO: === Strategy started ===
+2025-07-31 12:50:05 INFO: Start collecting the current highs/lows for: NEGG
+2025-07-31 12:50:05 INFO: Most recent stock data: {'NEGG': {   'close': 68.5,
+    'high': 68.5,
+    'low': 67.775,
+    'open': 67.775,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 68.175}}
+2025-07-31 12:57:06 INFO: Most recent stock data: {'NEGG': {   'close': 66.55,
+    'high': 66.55,
+    'low': 66.55,
+    'open': 66.55,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 66.55}}
+2025-07-31 12:58:06 INFO: Most recent stock data: {'NEGG': {   'close': 67.26,
+    'high': 67.26,
+    'low': 67.26,
+    'open': 67.26,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 67.26}}
+2025-07-31 13:20:05 INFO: === Strategy started ===
+2025-07-31 13:20:05 INFO: Start collecting the current highs/lows for: NEGG
+2025-07-31 13:20:06 INFO: Most recent stock data: {'NEGG': {   'close': 67.26,
+    'high': 67.26,
+    'low': 67.26,
+    'open': 67.26,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 67.26}}
+2025-07-31 13:23:06 INFO: Most recent stock data: {'NEGG': {   'close': 66.34,
+    'high': 66.34,
+    'low': 66.34,
+    'open': 66.34,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 66.34}}
+2025-07-31 13:34:07 INFO: Most recent stock data: {'NEGG': {   'close': 66.49,
+    'high': 66.49,
+    'low': 66.49,
+    'open': 66.49,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 66.49}}
+2025-07-31 13:37:08 INFO: Most recent stock data: {'NEGG': {   'close': 69.49,
+    'high': 69.49,
+    'low': 69.49,
+    'open': 69.49,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 69.49}}
+2025-07-31 13:50:06 INFO: === Strategy started ===
+2025-07-31 13:50:06 INFO: Start collecting the current highs/lows for: NEGG
+2025-07-31 13:50:06 INFO: Most recent stock data: {'NEGG': {   'close': 68.19,
+    'high': 68.19,
+    'low': 68.19,
+    'open': 68.19,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 68.19}}
+2025-07-31 13:51:06 INFO: Most recent stock data: {'NEGG': {   'close': 68.965,
+    'high': 68.965,
+    'low': 68.965,
+    'open': 68.965,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 68.965}}
+2025-07-31 13:58:07 INFO: Most recent stock data: {'NEGG': {   'close': 69.35,
+    'high': 69.35,
+    'low': 69.35,
+    'open': 69.35,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 69.35}}
+2025-07-31 14:09:09 INFO: Most recent stock data: {'NEGG': {   'close': 66.87,
+    'high': 66.87,
+    'low': 66.87,
+    'open': 66.87,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 66.87}}
+2025-07-31 14:10:09 INFO: Most recent stock data: {'NEGG': {   'close': 66.155,
+    'high': 66.155,
+    'low': 66.155,
+    'open': 66.155,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 66.155}}
+2025-07-31 14:17:09 INFO: Most recent stock data: {'NEGG': {   'close': 64.18,
+    'high': 64.18,
+    'low': 64.02,
+    'open': 64.02,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 64.1}}
+2025-07-31 14:30:11 INFO: Most recent stock data: {'NEGG': {   'close': 67.865,
+    'high': 67.865,
+    'low': 67.865,
+    'open': 67.865,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 67.865}}
+2025-07-31 14:31:11 INFO: Most recent stock data: {'NEGG': {   'close': 68.48,
+    'high': 68.48,
+    'low': 68.48,
+    'open': 68.48,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 68.48}}
+2025-07-31 14:54:14 INFO: Most recent stock data: {'NEGG': {   'close': 66.11,
+    'high': 66.11,
+    'low': 66.11,
+    'open': 66.11,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 66.11}}
+2025-07-31 15:21:17 INFO: Most recent stock data: {'NEGG': {   'close': 65.84,
+    'high': 65.84,
+    'low': 65.84,
+    'open': 65.84,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 65.84}}
+2025-07-31 15:27:18 INFO: Most recent stock data: {'NEGG': {   'close': 65.14,
+    'high': 65.14,
+    'low': 65.14,
+    'open': 65.14,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 421.0,
+    'vwap': 65.14}}
+2025-07-31 15:27:18 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 15:27:18 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-31 15:34:19 INFO: {'NEGG': {   'close': 63.73,
+    'high': 63.73,
+    'low': 63.73,
+    'open': 63.73,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 163.0,
+    'vwap': 63.73}}
+2025-07-31 15:34:19 INFO: Current resistance is: 66.688 and support is: 62.245
+2025-07-31 15:34:19 INFO: Current average volume is: 140.42
+2025-07-31 15:34:19 INFO: Updated resistance to: 65.812 and support to: 63.377
+2025-07-31 15:37:19 INFO: {'NEGG': {   'close': 63.545,
+    'high': 63.545,
+    'low': 63.545,
+    'open': 63.545,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 63.545}}
+2025-07-31 15:37:19 INFO: Current resistance is: 65.812 and support is: 63.377
+2025-07-31 15:37:19 INFO: Current average volume is: 137.31
+2025-07-31 15:37:19 INFO: Updated resistance to: 65.133 and support to: 63.163
+2025-07-31 15:46:20 INFO: {'NEGG': {   'close': 63.98,
+    'high': 63.98,
+    'low': 63.98,
+    'open': 63.98,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 63.98}}
+2025-07-31 15:46:20 INFO: Current resistance is: 65.133 and support is: 63.163
+2025-07-31 15:46:20 INFO: Current average volume is: 134.64
+2025-07-31 15:46:20 INFO: Updated resistance to: 64.808 and support to: 62.79
+2025-07-31 15:51:21 INFO: {'NEGG': {   'close': 62.92,
+    'high': 62.92,
+    'low': 62.92,
+    'open': 62.92,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 62.92}}
+2025-07-31 15:51:21 INFO: Current resistance is: 64.808 and support is: 62.79
+2025-07-31 15:51:21 INFO: Current average volume is: 132.33
+2025-07-31 15:51:21 INFO: Updated resistance to: 64.249 and support to: 62.529
+2025-07-31 15:56:21 INFO: {'NEGG': {   'close': 63.13,
+    'high': 63.13,
+    'low': 63.13,
+    'open': 63.13,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 63.13}}
+2025-07-31 15:56:21 INFO: Current resistance is: 64.249 and support is: 62.529
+2025-07-31 15:56:21 INFO: Current average volume is: 130.38
+2025-07-31 15:56:21 INFO: Updated resistance to: 63.913 and support to: 62.146
+2025-07-31 15:57:22 INFO: {'NEGG': {   'close': 63.92,
+    'high': 63.92,
+    'low': 63.92,
+    'open': 63.92,
+    'symbol': 'NEGG',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 253.0,
+    'vwap': 63.92}}
+2025-07-31 15:57:22 INFO: Current resistance is: 63.913 and support is: 62.146
+2025-07-31 15:57:22 INFO: Current average volume is: 137.59
+2025-07-31 15:57:22 INFO: The Current Close 63.92 is above the resistance...
+2025-07-31 15:57:22 INFO: Updated resistance to: 63.912 and support to: 61.836
+2025-07-31 16:00:22 INFO: The Market is closed...

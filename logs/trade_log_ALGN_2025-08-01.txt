@@ -1,0 +1,1382 @@
+2025-08-01 13:29:49 INFO: === Strategy started ===
+2025-08-01 13:29:49 INFO: Start collecting the current highs/lows for: ALGN
+2025-08-01 13:29:49 INFO: Most recent stock data: {'ALGN': {   'close': 137.95,
+    'high': 137.95,
+    'low': 137.895,
+    'open': 137.91,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1329.0,
+    'vwap': 137.914167}}
+2025-08-01 13:30:50 INFO: Most recent stock data: {'ALGN': {   'close': 137.98,
+    'high': 138.005,
+    'low': 137.96,
+    'open': 137.99,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 964.0,
+    'vwap': 137.986429}}
+2025-08-01 13:31:50 INFO: Most recent stock data: {'ALGN': {   'close': 137.98,
+    'high': 138.01,
+    'low': 137.94,
+    'open': 138.01,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1392.0,
+    'vwap': 137.9775}}
+2025-08-01 13:32:50 INFO: Most recent stock data: {'ALGN': {   'close': 138.0,
+    'high': 138.03,
+    'low': 137.97,
+    'open': 138.01,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1737.0,
+    'vwap': 138.007083}}
+2025-08-01 13:34:50 INFO: Most recent stock data: {'ALGN': {   'close': 137.97,
+    'high': 137.97,
+    'low': 137.94,
+    'open': 137.95,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 1662.0,
+    'vwap': 137.95}}
+2025-08-01 13:35:50 INFO: Most recent stock data: {'ALGN': {   'close': 137.92,
+    'high': 137.955,
+    'low': 137.895,
+    'open': 137.92,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 983.0,
+    'vwap': 137.922}}
+2025-08-01 13:36:50 INFO: Most recent stock data: {'ALGN': {   'close': 137.665,
+    'high': 137.895,
+    'low': 137.665,
+    'open': 137.89,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2159.0,
+    'vwap': 137.840787}}
+2025-08-01 13:37:50 INFO: Most recent stock data: {'ALGN': {   'close': 137.26,
+    'high': 137.58,
+    'low': 136.795,
+    'open': 137.58,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1666.0,
+    'vwap': 137.241875}}
+2025-08-01 13:38:51 INFO: Most recent stock data: {'ALGN': {   'close': 137.17,
+    'high': 137.47,
+    'low': 137.17,
+    'open': 137.34,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1220.0,
+    'vwap': 137.298125}}
+2025-08-01 13:39:51 INFO: Most recent stock data: {'ALGN': {   'close': 137.24,
+    'high': 137.24,
+    'low': 137.08,
+    'open': 137.155,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 900.0,
+    'vwap': 137.14125}}
+2025-08-01 13:40:51 INFO: Most recent stock data: {'ALGN': {   'close': 136.93,
+    'high': 137.06,
+    'low': 136.92,
+    'open': 137.06,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1526.0,
+    'vwap': 136.997}}
+2025-08-01 13:40:51 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 13:40:51 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-01 13:41:51 INFO: {'ALGN': {   'close': 137.12,
+    'high': 137.12,
+    'low': 137.0,
+    'open': 137.0,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1058.0,
+    'vwap': 137.020714}}
+2025-08-01 13:41:51 INFO: Current resistance is: 137.295 and support is: 136.31
+2025-08-01 13:41:51 INFO: Current average volume is: 1272.25
+2025-08-01 13:41:51 INFO: Updated resistance to: 137.179 and support to: 136.22
+2025-08-01 13:42:51 INFO: {'ALGN': {   'close': 137.04,
+    'high': 137.08,
+    'low': 137.04,
+    'open': 137.08,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 650.0,
+    'vwap': 137.053333}}
+2025-08-01 13:42:51 INFO: Current resistance is: 137.179 and support is: 136.22
+2025-08-01 13:42:51 INFO: Current average volume is: 1224.38
+2025-08-01 13:42:51 INFO: Updated resistance to: 137.085 and support to: 136.158
+2025-08-01 13:43:51 INFO: {'ALGN': {   'close': 137.16,
+    'high': 137.16,
+    'low': 137.12,
+    'open': 137.12,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 507.0,
+    'vwap': 137.14}}
+2025-08-01 13:43:51 INFO: Current resistance is: 137.085 and support is: 136.158
+2025-08-01 13:43:51 INFO: Current average volume is: 1173.14
+2025-08-01 13:43:51 INFO: The Current Close 137.16 is above the resistance...
+2025-08-01 13:43:51 INFO: Updated resistance to: 137.047 and support to: 136.128
+2025-08-01 13:44:22 INFO: {'ALGN': {   'close': 137.33,
+    'high': 137.34,
+    'low': 137.33,
+    'open': 137.34,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1650.0,
+    'vwap': 137.330714}}
+2025-08-01 13:44:22 INFO: Current resistance is: 137.047 and support is: 136.128
+2025-08-01 13:44:22 INFO: Current average volume is: 1204.93
+2025-08-01 13:44:22 INFO: The current close: 137.33 is above the resistance of 137.047, but volume isn't enough...
+2025-08-01 13:44:22 INFO: Updated resistance to: 137.078 and support to: 136.15
+2025-08-01 13:45:22 INFO: {'ALGN': {   'close': 137.08,
+    'high': 137.16,
+    'low': 137.08,
+    'open': 137.16,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 892.0,
+    'vwap': 137.12}}
+2025-08-01 13:45:22 INFO: Current resistance is: 137.078 and support is: 136.15
+2025-08-01 13:45:22 INFO: Current average volume is: 1185.38
+2025-08-01 13:45:22 INFO: The current close: 137.08 is above the resistance of 137.078, but volume isn't enough...
+2025-08-01 13:45:22 INFO: Updated resistance to: 137.057 and support to: 136.125
+2025-08-01 13:46:22 INFO: {'ALGN': {   'close': 137.475,
+    'high': 137.475,
+    'low': 137.19,
+    'open': 137.19,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 795.0,
+    'vwap': 137.30125}}
+2025-08-01 13:46:22 INFO: Current resistance is: 137.057 and support is: 136.125
+2025-08-01 13:46:22 INFO: Current average volume is: 1162.41
+2025-08-01 13:46:22 INFO: The current close: 137.475 is above the resistance of 137.057, but volume isn't enough...
+2025-08-01 13:46:22 INFO: Updated resistance to: 137.132 and support to: 136.128
+2025-08-01 13:47:22 INFO: {'ALGN': {   'close': 137.15,
+    'high': 137.25,
+    'low': 137.15,
+    'open': 137.25,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 865.0,
+    'vwap': 137.194248}}
+2025-08-01 13:47:22 INFO: Current resistance is: 137.132 and support is: 136.128
+2025-08-01 13:47:22 INFO: Current average volume is: 1145.89
+2025-08-01 13:47:22 INFO: The current close: 137.15 is above the resistance of 137.132, but volume isn't enough...
+2025-08-01 13:47:22 INFO: Updated resistance to: 137.139 and support to: 136.127
+2025-08-01 13:48:23 INFO: {'ALGN': {   'close': 136.33,
+    'high': 136.33,
+    'low': 136.12,
+    'open': 136.12,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 460.0,
+    'vwap': 136.225}}
+2025-08-01 13:48:23 INFO: Current resistance is: 137.139 and support is: 136.127
+2025-08-01 13:48:23 INFO: Current average volume is: 1109.79
+2025-08-01 13:48:23 INFO: Updated resistance to: 136.916 and support to: 136.048
+2025-08-01 13:49:23 INFO: {'ALGN': {   'close': 136.22,
+    'high': 136.39,
+    'low': 136.22,
+    'open': 136.39,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 915.0,
+    'vwap': 136.306667}}
+2025-08-01 13:49:23 INFO: Current resistance is: 136.916 and support is: 136.048
+2025-08-01 13:49:23 INFO: Current average volume is: 1100.05
+2025-08-01 13:49:23 INFO: Updated resistance to: 136.751 and support to: 135.965
+2025-08-01 13:51:23 INFO: {'ALGN': {   'close': 136.09,
+    'high': 136.09,
+    'low': 136.09,
+    'open': 136.09,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 227.0,
+    'vwap': 136.09}}
+2025-08-01 13:51:23 INFO: Current resistance is: 136.751 and support is: 135.965
+2025-08-01 13:51:23 INFO: Current average volume is: 1058.48
+2025-08-01 13:51:23 INFO: Updated resistance to: 136.549 and support to: 136.008
+2025-08-01 13:52:23 INFO: {'ALGN': {   'close': 135.86,
+    'high': 135.99,
+    'low': 135.86,
+    'open': 135.99,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1435.0,
+    'vwap': 135.921887}}
+2025-08-01 13:52:23 INFO: Current resistance is: 136.549 and support is: 136.008
+2025-08-01 13:52:23 INFO: Current average volume is: 1075.59
+2025-08-01 13:52:23 INFO: close price: 135.86 just dropped below support of 136.008...
+2025-08-01 13:53:23 INFO: {'ALGN': {   'close': 135.88,
+    'high': 135.88,
+    'low': 135.88,
+    'open': 135.88,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 613.0,
+    'vwap': 135.88}}
+2025-08-01 13:53:23 INFO: Current resistance is: 136.549 and support is: 136.008
+2025-08-01 13:53:23 INFO: Current average volume is: 1055.48
+2025-08-01 13:53:23 INFO: Closing price: 135.88 just dropped below support 136.008 again...ending trade...
+2025-08-01 13:59:50 INFO: === Strategy started ===
+2025-08-01 13:59:50 INFO: Start collecting the current highs/lows for: ALGN
+2025-08-01 13:59:50 INFO: Most recent stock data: {'ALGN': {   'close': 136.23,
+    'high': 136.25,
+    'low': 136.18,
+    'open': 136.25,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1143.0,
+    'vwap': 136.204}}
+2025-08-01 14:00:50 INFO: Most recent stock data: {'ALGN': {   'close': 136.385,
+    'high': 136.385,
+    'low': 136.285,
+    'open': 136.285,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 442.0,
+    'vwap': 136.351667}}
+2025-08-01 14:01:50 INFO: Most recent stock data: {'ALGN': {   'close': 136.4,
+    'high': 136.4,
+    'low': 136.395,
+    'open': 136.395,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 475.0,
+    'vwap': 136.398333}}
+2025-08-01 14:02:50 INFO: Most recent stock data: {'ALGN': {   'close': 136.32,
+    'high': 136.48,
+    'low': 136.32,
+    'open': 136.48,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1404.0,
+    'vwap': 136.436667}}
+2025-08-01 14:03:50 INFO: Most recent stock data: {'ALGN': {   'close': 136.17,
+    'high': 136.18,
+    'low': 136.17,
+    'open': 136.18,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 910.0,
+    'vwap': 136.177143}}
+2025-08-01 14:04:51 INFO: Most recent stock data: {'ALGN': {   'close': 135.91,
+    'high': 136.17,
+    'low': 135.86,
+    'open': 136.17,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 1640.0,
+    'vwap': 135.955}}
+2025-08-01 14:05:51 INFO: Most recent stock data: {'ALGN': {   'close': 135.98,
+    'high': 135.98,
+    'low': 135.97,
+    'open': 135.97,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 625.0,
+    'vwap': 135.975}}
+2025-08-01 14:06:51 INFO: Most recent stock data: {'ALGN': {   'close': 135.92,
+    'high': 135.93,
+    'low': 135.92,
+    'open': 135.93,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 400.0,
+    'vwap': 135.926667}}
+2025-08-01 14:07:51 INFO: Most recent stock data: {'ALGN': {   'close': 135.9,
+    'high': 135.95,
+    'low': 135.9,
+    'open': 135.95,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 1225.0,
+    'vwap': 135.925}}
+2025-08-01 14:08:51 INFO: Most recent stock data: {'ALGN': {   'close': 135.92,
+    'high': 136.0,
+    'low': 135.92,
+    'open': 135.98,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 772.0,
+    'vwap': 135.97}}
+2025-08-01 14:09:51 INFO: Most recent stock data: {'ALGN': {   'close': 136.06,
+    'high': 136.06,
+    'low': 135.94,
+    'open': 135.94,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1276.0,
+    'vwap': 136.0025}}
+2025-08-01 14:09:51 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 14:09:51 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-01 14:10:51 INFO: {'ALGN': {   'close': 135.73,
+    'high': 136.1,
+    'low': 135.69,
+    'open': 136.09,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 4723.0,
+    'vwap': 135.913}}
+2025-08-01 14:10:51 INFO: Current resistance is: 136.106 and support is: 135.579
+2025-08-01 14:10:51 INFO: Current average volume is: 1157.67
+2025-08-01 14:10:52 INFO: Updated resistance to: 136.135 and support to: 135.639
+2025-08-01 14:11:52 INFO: {'ALGN': {   'close': 135.78,
+    'high': 135.78,
+    'low': 135.61,
+    'open': 135.61,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1643.0,
+    'vwap': 135.677692}}
+2025-08-01 14:11:52 INFO: Current resistance is: 136.135 and support is: 135.639
+2025-08-01 14:11:52 INFO: Current average volume is: 1195.0
+2025-08-01 14:11:52 INFO: Updated resistance to: 136.054 and support to: 135.556
+2025-08-01 14:14:52 INFO: {'ALGN': {   'close': 135.9,
+    'high': 135.9,
+    'low': 135.67,
+    'open': 135.68,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1738.0,
+    'vwap': 135.762}}
+2025-08-01 14:14:52 INFO: Current resistance is: 136.054 and support is: 135.556
+2025-08-01 14:14:52 INFO: Current average volume is: 1233.79
+2025-08-01 14:14:52 INFO: Updated resistance to: 136.034 and support to: 135.503
+2025-08-01 14:15:52 INFO: {'ALGN': {   'close': 135.63,
+    'high': 135.78,
+    'low': 135.63,
+    'open': 135.78,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 591.0,
+    'vwap': 135.6825}}
+2025-08-01 14:15:52 INFO: Current resistance is: 136.034 and support is: 135.503
+2025-08-01 14:15:52 INFO: Current average volume is: 1190.93
+2025-08-01 14:15:52 INFO: Updated resistance to: 135.985 and support to: 135.453
+2025-08-01 14:16:52 INFO: {'ALGN': {   'close': 135.6,
+    'high': 135.61,
+    'low': 135.51,
+    'open': 135.61,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1820.0,
+    'vwap': 135.555322}}
+2025-08-01 14:16:52 INFO: Current resistance is: 135.985 and support is: 135.453
+2025-08-01 14:16:52 INFO: Current average volume is: 1230.25
+2025-08-01 14:16:52 INFO: Updated resistance to: 135.901 and support to: 135.457
+2025-08-01 14:18:53 INFO: {'ALGN': {   'close': 135.58,
+    'high': 135.58,
+    'low': 135.53,
+    'open': 135.53,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 832.0,
+    'vwap': 135.54}}
+2025-08-01 14:18:53 INFO: Current resistance is: 135.901 and support is: 135.457
+2025-08-01 14:18:53 INFO: Current average volume is: 1206.82
+2025-08-01 14:18:53 INFO: Updated resistance to: 135.829 and support to: 135.406
+2025-08-01 14:20:53 INFO: {'ALGN': {   'close': 135.72,
+    'high': 135.72,
+    'low': 135.71,
+    'open': 135.71,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 245.0,
+    'vwap': 135.715}}
+2025-08-01 14:20:53 INFO: Current resistance is: 135.829 and support is: 135.406
+2025-08-01 14:20:53 INFO: Current average volume is: 1153.39
+2025-08-01 14:20:53 INFO: Updated resistance to: 135.81 and support to: 135.368
+2025-08-01 14:21:53 INFO: {'ALGN': {   'close': 135.73,
+    'high': 135.73,
+    'low': 135.68,
+    'open': 135.705,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1244.0,
+    'vwap': 135.711818}}
+2025-08-01 14:21:53 INFO: Current resistance is: 135.81 and support is: 135.368
+2025-08-01 14:21:53 INFO: Current average volume is: 1158.16
+2025-08-01 14:21:53 INFO: Updated resistance to: 135.801 and support to: 135.335
+2025-08-01 14:22:53 INFO: {'ALGN': {   'close': 135.75,
+    'high': 135.75,
+    'low': 135.69,
+    'open': 135.7,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 898.0,
+    'vwap': 135.71375}}
+2025-08-01 14:22:53 INFO: Current resistance is: 135.801 and support is: 135.335
+2025-08-01 14:22:53 INFO: Current average volume is: 1145.15
+2025-08-01 14:22:53 INFO: Updated resistance to: 135.801 and support to: 135.308
+2025-08-01 14:23:53 INFO: {'ALGN': {   'close': 135.705,
+    'high': 135.73,
+    'low': 135.705,
+    'open': 135.73,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 135.71}}
+2025-08-01 14:23:53 INFO: Current resistance is: 135.801 and support is: 135.308
+2025-08-01 14:23:53 INFO: Current average volume is: 1123.95
+2025-08-01 14:23:53 INFO: Updated resistance to: 135.799 and support to: 135.287
+2025-08-01 14:24:53 INFO: {'ALGN': {   'close': 135.76,
+    'high': 135.76,
+    'low': 135.66,
+    'open': 135.7,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1295.0,
+    'vwap': 135.700833}}
+2025-08-01 14:24:53 INFO: Current resistance is: 135.799 and support is: 135.287
+2025-08-01 14:24:53 INFO: Current average volume is: 1131.73
+2025-08-01 14:24:53 INFO: Updated resistance to: 135.807 and support to: 135.266
+2025-08-01 14:25:53 INFO: {'ALGN': {   'close': 135.72,
+    'high': 135.73,
+    'low': 135.67,
+    'open': 135.67,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1381.0,
+    'vwap': 135.699167}}
+2025-08-01 14:25:53 INFO: Current resistance is: 135.807 and support is: 135.266
+2025-08-01 14:25:53 INFO: Current average volume is: 1142.57
+2025-08-01 14:25:53 INFO: Updated resistance to: 135.809 and support to: 135.25
+2025-08-01 14:26:54 INFO: {'ALGN': {   'close': 135.49,
+    'high': 135.68,
+    'low': 135.49,
+    'open': 135.68,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 2972.0,
+    'vwap': 135.597797}}
+2025-08-01 14:26:54 INFO: Current resistance is: 135.809 and support is: 135.25
+2025-08-01 14:26:54 INFO: Current average volume is: 1218.79
+2025-08-01 14:26:54 INFO: Updated resistance to: 135.802 and support to: 135.458
+2025-08-01 14:27:54 INFO: {'ALGN': {   'close': 135.85,
+    'high': 135.85,
+    'low': 135.53,
+    'open': 135.53,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 2037.0,
+    'vwap': 135.719412}}
+2025-08-01 14:27:54 INFO: Current resistance is: 135.802 and support is: 135.458
+2025-08-01 14:27:54 INFO: Current average volume is: 1251.52
+2025-08-01 14:27:54 INFO: The Current Close 135.85 is above the resistance...
+2025-08-01 14:27:54 INFO: Updated resistance to: 135.833 and support to: 135.427
+2025-08-01 14:28:24 INFO: {'ALGN': {   'close': 135.93,
+    'high': 135.93,
+    'low': 135.79,
+    'open': 135.79,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 526.0,
+    'vwap': 135.847}}
+2025-08-01 14:28:24 INFO: Current resistance is: 135.833 and support is: 135.427
+2025-08-01 14:28:24 INFO: Current average volume is: 1223.62
+2025-08-01 14:28:24 INFO: The current close: 135.93 is above the resistance of 135.833, but volume isn't enough...
+2025-08-01 14:28:24 INFO: Updated resistance to: 135.877 and support to: 135.405
+2025-08-01 14:29:24 INFO: {'ALGN': {   'close': 136.04,
+    'high': 136.04,
+    'low': 136.03,
+    'open': 136.03,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 365.0,
+    'vwap': 136.035}}
+2025-08-01 14:29:24 INFO: Current resistance is: 135.877 and support is: 135.405
+2025-08-01 14:29:24 INFO: Current average volume is: 1191.81
+2025-08-01 14:29:24 INFO: The current close: 136.04 is above the resistance of 135.877, but volume isn't enough...
+2025-08-01 14:29:24 INFO: Updated resistance to: 135.937 and support to: 135.396
+2025-08-01 14:30:24 INFO: {'ALGN': {   'close': 136.16,
+    'high': 136.16,
+    'low': 136.1,
+    'open': 136.1,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 589.0,
+    'vwap': 136.1175}}
+2025-08-01 14:30:24 INFO: Current resistance is: 135.937 and support is: 135.396
+2025-08-01 14:30:24 INFO: Current average volume is: 1170.29
+2025-08-01 14:30:24 INFO: The current close: 136.16 is above the resistance of 135.937, but volume isn't enough...
+2025-08-01 14:30:24 INFO: Updated resistance to: 136.013 and support to: 135.394
+2025-08-01 14:31:25 INFO: {'ALGN': {   'close': 136.04,
+    'high': 136.125,
+    'low': 136.04,
+    'open': 136.125,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 897.0,
+    'vwap': 136.096667}}
+2025-08-01 14:31:25 INFO: Current resistance is: 136.013 and support is: 135.394
+2025-08-01 14:31:25 INFO: Current average volume is: 1160.86
+2025-08-01 14:31:25 INFO: The current close: 136.04 is above the resistance of 136.013, but volume isn't enough...
+2025-08-01 14:31:25 INFO: Updated resistance to: 136.074 and support to: 135.395
+2025-08-01 14:33:25 INFO: {'ALGN': {   'close': 136.21,
+    'high': 136.21,
+    'low': 136.055,
+    'open': 136.065,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1226.0,
+    'vwap': 136.138722}}
+2025-08-01 14:33:25 INFO: Current resistance is: 136.074 and support is: 135.395
+2025-08-01 14:33:25 INFO: Current average volume is: 1163.03
+2025-08-01 14:33:25 INFO: The current close: 136.21 is above the resistance of 136.074, but volume isn't enough...
+2025-08-01 14:33:25 INFO: Updated resistance to: 136.144 and support to: 135.399
+2025-08-01 14:34:25 INFO: {'ALGN': {   'close': 136.31,
+    'high': 136.31,
+    'low': 136.22,
+    'open': 136.22,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1204.0,
+    'vwap': 136.254406}}
+2025-08-01 14:34:25 INFO: Current resistance is: 136.144 and support is: 135.399
+2025-08-01 14:34:25 INFO: Current average volume is: 1164.35
+2025-08-01 14:34:25 INFO: The current close: 136.31 is above the resistance of 136.144, but volume isn't enough...
+2025-08-01 14:34:25 INFO: Updated resistance to: 136.222 and support to: 135.414
+2025-08-01 14:35:26 INFO: {'ALGN': {   'close': 136.76,
+    'high': 136.77,
+    'low': 136.74,
+    'open': 136.74,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 747.0,
+    'vwap': 136.756667}}
+2025-08-01 14:35:26 INFO: Current resistance is: 136.222 and support is: 135.414
+2025-08-01 14:35:26 INFO: Current average volume is: 1151.31
+2025-08-01 14:35:26 INFO: The current close: 136.76 is above the resistance of 136.222, but volume isn't enough...
+2025-08-01 14:35:26 INFO: Updated resistance to: 136.766 and support to: 135.457
+2025-08-01 14:35:54 INFO: === Strategy started ===
+2025-08-01 14:35:54 INFO: Start collecting the current highs/lows for: ALGN
+2025-08-01 14:35:54 INFO: Most recent stock data: {'ALGN': {   'close': 136.76,
+    'high': 136.77,
+    'low': 136.74,
+    'open': 136.74,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 747.0,
+    'vwap': 136.756667}}
+2025-08-01 14:36:54 INFO: Most recent stock data: {'ALGN': {   'close': 136.905,
+    'high': 136.905,
+    'low': 136.76,
+    'open': 136.76,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1028.0,
+    'vwap': 136.855625}}
+2025-08-01 14:37:55 INFO: Most recent stock data: {'ALGN': {   'close': 136.62,
+    'high': 136.9,
+    'low': 136.585,
+    'open': 136.9,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 3749.0,
+    'vwap': 136.652188}}
+2025-08-01 14:40:55 INFO: Most recent stock data: {'ALGN': {   'close': 136.52,
+    'high': 136.71,
+    'low': 136.52,
+    'open': 136.71,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 921.0,
+    'vwap': 136.59}}
+2025-08-01 14:41:55 INFO: Most recent stock data: {'ALGN': {   'close': 136.51,
+    'high': 136.52,
+    'low': 136.5,
+    'open': 136.52,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1156.0,
+    'vwap': 136.510978}}
+2025-08-01 14:42:55 INFO: Most recent stock data: {'ALGN': {   'close': 136.18,
+    'high': 136.5,
+    'low': 136.18,
+    'open': 136.5,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 1598.0,
+    'vwap': 136.307857}}
+2025-08-01 14:43:55 INFO: Most recent stock data: {'ALGN': {   'close': 136.39,
+    'high': 136.39,
+    'low': 136.3,
+    'open': 136.3,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 810.0,
+    'vwap': 136.34}}
+2025-08-01 14:45:56 INFO: Most recent stock data: {'ALGN': {   'close': 136.87,
+    'high': 136.87,
+    'low': 136.56,
+    'open': 136.56,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 972.0,
+    'vwap': 136.772222}}
+2025-08-01 14:46:56 INFO: Most recent stock data: {'ALGN': {   'close': 136.925,
+    'high': 136.95,
+    'low': 136.925,
+    'open': 136.95,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 245.0,
+    'vwap': 136.9375}}
+2025-08-01 14:47:56 INFO: Most recent stock data: {'ALGN': {   'close': 137.24,
+    'high': 137.24,
+    'low': 137.04,
+    'open': 137.04,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 315.0,
+    'vwap': 137.155}}
+2025-08-01 14:48:56 INFO: Most recent stock data: {'ALGN': {   'close': 137.25,
+    'high': 137.25,
+    'low': 137.185,
+    'open': 137.185,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 850.0,
+    'vwap': 137.221429}}
+2025-08-01 14:48:56 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 14:48:56 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-01 14:49:56 INFO: {'ALGN': {   'close': 137.67,
+    'high': 137.67,
+    'low': 137.62,
+    'open': 137.65,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 320.0,
+    'vwap': 137.646667}}
+2025-08-01 14:49:56 INFO: Current resistance is: 137.25 and support is: 136.18
+2025-08-01 14:49:56 INFO: Current average volume is: 997.0
+2025-08-01 14:49:56 INFO: The Current Close 137.67 is above the resistance...
+2025-08-01 14:49:56 INFO: Updated resistance to: 137.67 and support to: 136.18
+2025-08-01 14:51:27 INFO: {'ALGN': {   'close': 137.68,
+    'high': 137.72,
+    'low': 137.68,
+    'open': 137.72,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1257.0,
+    'vwap': 137.708}}
+2025-08-01 14:51:27 INFO: Current resistance is: 137.67 and support is: 136.18
+2025-08-01 14:51:27 INFO: Current average volume is: 1017.0
+2025-08-01 14:51:27 INFO: The current close: 137.68 is above the resistance of 137.67, but volume isn't enough...
+2025-08-01 14:51:27 INFO: Updated resistance to: 137.72 and support to: 136.18
+2025-08-01 14:52:27 INFO: {'ALGN': {   'close': 137.605,
+    'high': 137.725,
+    'low': 137.6,
+    'open': 137.725,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 4795.0,
+    'vwap': 137.617567}}
+2025-08-01 14:52:27 INFO: Current resistance is: 137.72 and support is: 136.18
+2025-08-01 14:52:27 INFO: Current average volume is: 1286.86
+2025-08-01 14:52:27 INFO: Updated resistance to: 137.725 and support to: 136.18
+2025-08-01 14:53:27 INFO: {'ALGN': {   'close': 137.87,
+    'high': 137.87,
+    'low': 137.605,
+    'open': 137.605,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 2129.0,
+    'vwap': 137.661923}}
+2025-08-01 14:53:27 INFO: Current resistance is: 137.725 and support is: 136.18
+2025-08-01 14:53:27 INFO: Current average volume is: 1343.0
+2025-08-01 14:53:27 INFO: The Current Close 137.87 is above the resistance...
+2025-08-01 14:53:27 INFO: Updated resistance to: 137.87 and support to: 136.18
+2025-08-01 14:54:27 INFO: {'ALGN': {   'close': 137.8,
+    'high': 137.81,
+    'low': 137.77,
+    'open': 137.79,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1643.0,
+    'vwap': 137.79}}
+2025-08-01 14:54:27 INFO: Current resistance is: 137.87 and support is: 136.18
+2025-08-01 14:54:27 INFO: Current average volume is: 1361.75
+2025-08-01 14:54:27 INFO: Updated resistance to: 137.87 and support to: 136.18
+2025-08-01 14:55:27 INFO: {'ALGN': {   'close': 138.19,
+    'high': 138.255,
+    'low': 137.88,
+    'open': 137.88,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2743.0,
+    'vwap': 138.127045}}
+2025-08-01 14:55:27 INFO: Current resistance is: 137.87 and support is: 136.18
+2025-08-01 14:55:27 INFO: Current average volume is: 1443.0
+2025-08-01 14:55:27 INFO: The Current Close 138.19 is above the resistance...
+2025-08-01 14:55:27 INFO: Updated resistance to: 138.255 and support to: 136.18
+2025-08-01 14:56:28 INFO: {'ALGN': {   'close': 138.23,
+    'high': 138.28,
+    'low': 138.23,
+    'open': 138.28,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 2638.0,
+    'vwap': 138.258947}}
+2025-08-01 14:56:28 INFO: Current resistance is: 138.255 and support is: 136.18
+2025-08-01 14:56:28 INFO: Current average volume is: 1509.39
+2025-08-01 14:56:28 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 14:57:28 INFO: {'ALGN': {   'close': 137.48,
+    'high': 138.25,
+    'low': 137.44,
+    'open': 138.25,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 64.0,
+    'volume': 3331.0,
+    'vwap': 137.838058}}
+2025-08-01 14:57:28 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 14:57:28 INFO: Current average volume is: 1605.26
+2025-08-01 14:57:28 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 14:58:28 INFO: {'ALGN': {   'close': 137.33,
+    'high': 137.58,
+    'low': 137.32,
+    'open': 137.45,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1215.0,
+    'vwap': 137.4125}}
+2025-08-01 14:58:28 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 14:58:28 INFO: Current average volume is: 1585.75
+2025-08-01 14:58:28 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 14:59:28 INFO: {'ALGN': {   'close': 137.21,
+    'high': 137.41,
+    'low': 137.21,
+    'open': 137.345,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 72.0,
+    'volume': 2816.0,
+    'vwap': 137.351284}}
+2025-08-01 14:59:28 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 14:59:28 INFO: Current average volume is: 1644.33
+2025-08-01 14:59:28 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:00:28 INFO: {'ALGN': {   'close': 136.98,
+    'high': 136.98,
+    'low': 136.82,
+    'open': 136.82,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 719.0,
+    'vwap': 136.873333}}
+2025-08-01 15:00:28 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:00:28 INFO: Current average volume is: 1602.27
+2025-08-01 15:00:28 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:01:28 INFO: {'ALGN': {   'close': 137.22,
+    'high': 137.22,
+    'low': 136.9,
+    'open': 136.93,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 1551.0,
+    'vwap': 137.025625}}
+2025-08-01 15:01:28 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:01:28 INFO: Current average volume is: 1600.04
+2025-08-01 15:01:28 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:02:28 INFO: {'ALGN': {   'close': 137.105,
+    'high': 137.16,
+    'low': 137.105,
+    'open': 137.14,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1580.0,
+    'vwap': 137.144091}}
+2025-08-01 15:02:28 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:02:28 INFO: Current average volume is: 1599.21
+2025-08-01 15:02:28 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:03:29 INFO: {'ALGN': {   'close': 137.37,
+    'high': 137.37,
+    'low': 137.045,
+    'open': 137.05,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1566.0,
+    'vwap': 137.135417}}
+2025-08-01 15:03:29 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:03:29 INFO: Current average volume is: 1597.88
+2025-08-01 15:03:29 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:04:29 INFO: {'ALGN': {   'close': 137.41,
+    'high': 137.41,
+    'low': 137.33,
+    'open': 137.39,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1107.0,
+    'vwap': 137.374286}}
+2025-08-01 15:04:29 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:04:29 INFO: Current average volume is: 1579.0
+2025-08-01 15:04:29 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:05:29 INFO: {'ALGN': {   'close': 137.48,
+    'high': 137.48,
+    'low': 137.37,
+    'open': 137.37,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 640.0,
+    'vwap': 137.424186}}
+2025-08-01 15:05:29 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:05:29 INFO: Current average volume is: 1544.22
+2025-08-01 15:05:29 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:06:29 INFO: {'ALGN': {   'close': 138.115,
+    'high': 138.115,
+    'low': 137.76,
+    'open': 137.8,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2398.0,
+    'vwap': 137.903266}}
+2025-08-01 15:06:29 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:06:29 INFO: Current average volume is: 1574.71
+2025-08-01 15:06:29 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:07:29 INFO: {'ALGN': {   'close': 137.73,
+    'high': 138.05,
+    'low': 137.73,
+    'open': 138.05,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 60.0,
+    'volume': 4359.0,
+    'vwap': 137.925152}}
+2025-08-01 15:07:29 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:07:29 INFO: Current average volume is: 1670.72
+2025-08-01 15:07:29 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:08:29 INFO: {'ALGN': {   'close': 137.37,
+    'high': 137.37,
+    'low': 137.2,
+    'open': 137.28,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 2669.0,
+    'vwap': 137.270377}}
+2025-08-01 15:08:29 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:08:29 INFO: Current average volume is: 1704.0
+2025-08-01 15:08:29 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:09:29 INFO: {'ALGN': {   'close': 137.26,
+    'high': 137.44,
+    'low': 137.26,
+    'open': 137.31,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1115.0,
+    'vwap': 137.305}}
+2025-08-01 15:09:29 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:09:29 INFO: Current average volume is: 1685.0
+2025-08-01 15:09:29 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:10:29 INFO: {'ALGN': {   'close': 137.19,
+    'high': 137.19,
+    'low': 137.13,
+    'open': 137.13,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 305.0,
+    'vwap': 137.16}}
+2025-08-01 15:10:29 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:10:29 INFO: Current average volume is: 1641.88
+2025-08-01 15:10:29 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:11:30 INFO: {'ALGN': {   'close': 137.335,
+    'high': 137.335,
+    'low': 137.25,
+    'open': 137.25,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1409.0,
+    'vwap': 137.300777}}
+2025-08-01 15:11:30 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:11:30 INFO: Current average volume is: 1634.82
+2025-08-01 15:11:30 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:12:30 INFO: {'ALGN': {   'close': 137.695,
+    'high': 137.72,
+    'low': 137.38,
+    'open': 137.38,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1520.0,
+    'vwap': 137.62699}}
+2025-08-01 15:12:30 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:12:30 INFO: Current average volume is: 1631.44
+2025-08-01 15:12:30 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:13:30 INFO: {'ALGN': {   'close': 137.54,
+    'high': 137.54,
+    'low': 137.54,
+    'open': 137.54,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 298.0,
+    'vwap': 137.54}}
+2025-08-01 15:13:30 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:13:30 INFO: Current average volume is: 1593.34
+2025-08-01 15:13:30 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:14:30 INFO: {'ALGN': {   'close': 137.78,
+    'high': 137.78,
+    'low': 137.62,
+    'open': 137.705,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1196.0,
+    'vwap': 137.665}}
+2025-08-01 15:14:30 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:14:30 INFO: Current average volume is: 1582.31
+2025-08-01 15:14:30 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:15:30 INFO: {'ALGN': {   'close': 137.89,
+    'high': 137.935,
+    'low': 137.89,
+    'open': 137.935,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 793.0,
+    'vwap': 137.902333}}
+2025-08-01 15:15:30 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:15:30 INFO: Current average volume is: 1560.97
+2025-08-01 15:15:30 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:16:30 INFO: {'ALGN': {   'close': 138.07,
+    'high': 138.07,
+    'low': 137.99,
+    'open': 138.02,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1590.0,
+    'vwap': 138.02885}}
+2025-08-01 15:16:30 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:16:30 INFO: Current average volume is: 1561.74
+2025-08-01 15:16:30 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:18:31 INFO: {'ALGN': {   'close': 136.76,
+    'high': 137.78,
+    'low': 136.76,
+    'open': 137.78,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 92.0,
+    'volume': 4763.0,
+    'vwap': 137.188453}}
+2025-08-01 15:18:31 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:18:31 INFO: Current average volume is: 1643.82
+2025-08-01 15:18:31 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:19:31 INFO: {'ALGN': {   'close': 137.29,
+    'high': 137.29,
+    'low': 136.755,
+    'open': 136.77,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 2409.0,
+    'vwap': 136.871101}}
+2025-08-01 15:19:31 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:19:31 INFO: Current average volume is: 1662.95
+2025-08-01 15:19:31 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:20:31 INFO: {'ALGN': {   'close': 137.6,
+    'high': 137.6,
+    'low': 137.55,
+    'open': 137.57,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 409.0,
+    'vwap': 137.58}}
+2025-08-01 15:20:31 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:20:31 INFO: Current average volume is: 1632.37
+2025-08-01 15:20:31 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:21:31 INFO: {'ALGN': {   'close': 137.12,
+    'high': 137.595,
+    'low': 137.12,
+    'open': 137.595,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1770.0,
+    'vwap': 137.325769}}
+2025-08-01 15:21:31 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:21:31 INFO: Current average volume is: 1635.64
+2025-08-01 15:21:31 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:22:31 INFO: {'ALGN': {   'close': 137.06,
+    'high': 137.11,
+    'low': 136.975,
+    'open': 137.11,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 924.0,
+    'vwap': 137.053333}}
+2025-08-01 15:22:31 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:22:31 INFO: Current average volume is: 1619.09
+2025-08-01 15:22:31 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:23:31 INFO: {'ALGN': {   'close': 136.98,
+    'high': 137.05,
+    'low': 136.98,
+    'open': 137.05,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 807.0,
+    'vwap': 137.003333}}
+2025-08-01 15:23:31 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:23:31 INFO: Current average volume is: 1600.64
+2025-08-01 15:23:31 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:24:31 INFO: {'ALGN': {   'close': 136.94,
+    'high': 137.045,
+    'low': 136.94,
+    'open': 137.045,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 739.0,
+    'vwap': 137.0025}}
+2025-08-01 15:24:31 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:24:31 INFO: Current average volume is: 1581.49
+2025-08-01 15:24:31 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:25:31 INFO: {'ALGN': {   'close': 136.685,
+    'high': 136.89,
+    'low': 136.675,
+    'open': 136.89,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1094.0,
+    'vwap': 136.747857}}
+2025-08-01 15:25:31 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:25:31 INFO: Current average volume is: 1570.89
+2025-08-01 15:25:31 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:26:32 INFO: {'ALGN': {   'close': 136.8,
+    'high': 136.92,
+    'low': 136.685,
+    'open': 136.685,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 1968.0,
+    'vwap': 136.764224}}
+2025-08-01 15:26:32 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:26:32 INFO: Current average volume is: 1579.34
+2025-08-01 15:26:32 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:27:32 INFO: {'ALGN': {   'close': 136.79,
+    'high': 136.79,
+    'low': 136.765,
+    'open': 136.765,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 497.0,
+    'vwap': 136.7775}}
+2025-08-01 15:27:32 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:27:32 INFO: Current average volume is: 1556.79
+2025-08-01 15:27:32 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:28:32 INFO: {'ALGN': {   'close': 136.87,
+    'high': 137.08,
+    'low': 136.82,
+    'open': 136.84,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 1428.0,
+    'vwap': 136.9025}}
+2025-08-01 15:28:32 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:28:32 INFO: Current average volume is: 1554.16
+2025-08-01 15:28:32 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:29:32 INFO: {'ALGN': {   'close': 137.03,
+    'high': 137.035,
+    'low': 136.96,
+    'open': 136.96,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 1302.0,
+    'vwap': 137.0125}}
+2025-08-01 15:29:32 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:29:32 INFO: Current average volume is: 1549.12
+2025-08-01 15:29:32 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:30:32 INFO: {'ALGN': {   'close': 136.92,
+    'high': 136.965,
+    'low': 136.835,
+    'open': 136.965,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1300.0,
+    'vwap': 136.905}}
+2025-08-01 15:30:32 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:30:32 INFO: Current average volume is: 1544.24
+2025-08-01 15:30:32 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:31:32 INFO: {'ALGN': {   'close': 136.83,
+    'high': 136.945,
+    'low': 136.71,
+    'open': 136.945,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 1943.0,
+    'vwap': 136.78125}}
+2025-08-01 15:31:32 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:31:32 INFO: Current average volume is: 1551.9
+2025-08-01 15:31:32 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:32:32 INFO: {'ALGN': {   'close': 136.785,
+    'high': 137.0,
+    'low': 136.75,
+    'open': 136.83,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1659.0,
+    'vwap': 136.840417}}
+2025-08-01 15:32:32 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:32:32 INFO: Current average volume is: 1553.92
+2025-08-01 15:32:32 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:33:32 INFO: {'ALGN': {   'close': 136.69,
+    'high': 137.005,
+    'low': 136.69,
+    'open': 136.91,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 2355.0,
+    'vwap': 136.880278}}
+2025-08-01 15:33:32 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:33:32 INFO: Current average volume is: 1568.76
+2025-08-01 15:33:32 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:34:33 INFO: {'ALGN': {   'close': 136.75,
+    'high': 136.75,
+    'low': 136.65,
+    'open': 136.71,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1178.0,
+    'vwap': 136.7025}}
+2025-08-01 15:34:33 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:34:33 INFO: Current average volume is: 1561.65
+2025-08-01 15:34:33 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:36:33 INFO: {'ALGN': {   'close': 136.64,
+    'high': 136.695,
+    'low': 136.4,
+    'open': 136.695,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 1866.0,
+    'vwap': 136.539816}}
+2025-08-01 15:36:33 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:36:33 INFO: Current average volume is: 1567.09
+2025-08-01 15:36:33 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:37:33 INFO: {'ALGN': {   'close': 136.32,
+    'high': 136.5,
+    'low': 136.32,
+    'open': 136.5,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1526.0,
+    'vwap': 136.405}}
+2025-08-01 15:37:33 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:37:33 INFO: Current average volume is: 1566.37
+2025-08-01 15:37:33 INFO: Updated resistance to: 138.28 and support to: 136.18
+2025-08-01 15:38:33 INFO: {'ALGN': {   'close': 136.1,
+    'high': 136.185,
+    'low': 136.05,
+    'open': 136.185,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1285.0,
+    'vwap': 136.103251}}
+2025-08-01 15:38:33 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:38:33 INFO: Current average volume is: 1561.52
+2025-08-01 15:38:33 INFO: close price: 136.1 just dropped below support of 136.18...
+2025-08-01 15:39:33 INFO: {'ALGN': {   'close': 136.25,
+    'high': 136.25,
+    'low': 136.07,
+    'open': 136.07,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 866.0,
+    'vwap': 136.208333}}
+2025-08-01 15:39:33 INFO: Current resistance is: 138.28 and support is: 136.18
+2025-08-01 15:39:33 INFO: Current average volume is: 1549.73
+2025-08-01 15:39:33 INFO: Updated resistance to: 138.28 and support to: 136.07
+2025-08-01 15:40:33 INFO: {'ALGN': {   'close': 136.375,
+    'high': 136.375,
+    'low': 136.25,
+    'open': 136.25,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 956.0,
+    'vwap': 136.33}}
+2025-08-01 15:40:33 INFO: Current resistance is: 138.28 and support is: 136.07
+2025-08-01 15:40:33 INFO: Current average volume is: 1539.83
+2025-08-01 15:40:33 INFO: Updated resistance to: 138.28 and support to: 136.07
+2025-08-01 15:41:34 INFO: {'ALGN': {   'close': 136.22,
+    'high': 136.31,
+    'low': 136.2,
+    'open': 136.31,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2011.0,
+    'vwap': 136.244667}}
+2025-08-01 15:41:34 INFO: Current resistance is: 138.28 and support is: 136.07
+2025-08-01 15:41:34 INFO: Current average volume is: 1547.56
+2025-08-01 15:41:34 INFO: Updated resistance to: 138.28 and support to: 136.07
+2025-08-01 15:42:34 INFO: {'ALGN': {   'close': 136.295,
+    'high': 136.295,
+    'low': 136.205,
+    'open': 136.205,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 1773.0,
+    'vwap': 136.243182}}
+2025-08-01 15:42:34 INFO: Current resistance is: 138.28 and support is: 136.07
+2025-08-01 15:42:34 INFO: Current average volume is: 1551.19
+2025-08-01 15:42:34 INFO: Updated resistance to: 138.28 and support to: 136.07
+2025-08-01 15:43:34 INFO: {'ALGN': {   'close': 135.965,
+    'high': 136.29,
+    'low': 135.95,
+    'open': 136.29,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 2520.0,
+    'vwap': 136.125557}}
+2025-08-01 15:43:34 INFO: Current resistance is: 138.28 and support is: 136.07
+2025-08-01 15:43:34 INFO: Current average volume is: 1566.57
+2025-08-01 15:43:34 INFO: close price: 135.965 just dropped below support of 136.07...
+2025-08-01 15:44:34 INFO: {'ALGN': {   'close': 136.13,
+    'high': 136.22,
+    'low': 135.965,
+    'open': 135.965,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 1630.0,
+    'vwap': 136.0915}}
+2025-08-01 15:44:34 INFO: Current resistance is: 138.28 and support is: 136.07
+2025-08-01 15:44:34 INFO: Current average volume is: 1567.56
+2025-08-01 15:44:34 INFO: Updated resistance to: 138.28 and support to: 135.965
+2025-08-01 15:45:34 INFO: {'ALGN': {   'close': 135.61,
+    'high': 136.105,
+    'low': 135.61,
+    'open': 136.105,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 75.0,
+    'volume': 3572.0,
+    'vwap': 135.900566}}
+2025-08-01 15:45:34 INFO: Current resistance is: 138.28 and support is: 135.965
+2025-08-01 15:45:34 INFO: Current average volume is: 1598.4
+2025-08-01 15:45:34 INFO: close price: 135.61 just dropped below support of 135.965...
+2025-08-01 15:46:34 INFO: {'ALGN': {   'close': 135.88,
+    'high': 135.88,
+    'low': 135.7,
+    'open': 135.7,
+    'symbol': 'ALGN',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 729.0,
+    'vwap': 135.76}}
+2025-08-01 15:46:34 INFO: Current resistance is: 138.28 and support is: 135.965
+2025-08-01 15:46:34 INFO: Current average volume is: 1585.23
+2025-08-01 15:46:34 INFO: Closing price: 135.88 just dropped below support 135.965 again...ending trade...

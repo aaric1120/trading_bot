@@ -1,0 +1,1782 @@
+2025-07-29 09:50:09 INFO: === Strategy started ===
+2025-07-29 09:50:09 INFO: Start collecting the current highs/lows for: RCL
+2025-07-29 09:50:09 INFO: Most recent stock data: {'RCL': {   'close': 322.64,
+    'high': 324.13,
+    'low': 322.48,
+    'open': 324.07,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1171.0,
+    'vwap': 323.531}}
+2025-07-29 09:51:09 INFO: Most recent stock data: {'RCL': {   'close': 323.05,
+    'high': 323.05,
+    'low': 322.36,
+    'open': 322.48,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 1986.0,
+    'vwap': 322.513594}}
+2025-07-29 09:52:10 INFO: Most recent stock data: {'RCL': {   'close': 321.6,
+    'high': 322.77,
+    'low': 321.6,
+    'open': 322.72,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 1892.0,
+    'vwap': 322.437273}}
+2025-07-29 09:53:10 INFO: Most recent stock data: {'RCL': {   'close': 322.515,
+    'high': 322.515,
+    'low': 322.14,
+    'open': 322.43,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1232.0,
+    'vwap': 322.31625}}
+2025-07-29 09:54:10 INFO: Most recent stock data: {'RCL': {   'close': 323.11,
+    'high': 323.17,
+    'low': 322.565,
+    'open': 322.67,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1791.0,
+    'vwap': 322.89}}
+2025-07-29 09:55:10 INFO: Most recent stock data: {'RCL': {   'close': 323.54,
+    'high': 323.565,
+    'low': 322.58,
+    'open': 323.07,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 2649.0,
+    'vwap': 323.16525}}
+2025-07-29 09:56:10 INFO: Most recent stock data: {'RCL': {   'close': 323.8,
+    'high': 324.1,
+    'low': 323.66,
+    'open': 323.85,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1352.0,
+    'vwap': 323.855556}}
+2025-07-29 09:57:10 INFO: Most recent stock data: {'RCL': {   'close': 322.885,
+    'high': 323.83,
+    'low': 322.885,
+    'open': 323.73,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1677.0,
+    'vwap': 323.523333}}
+2025-07-29 09:58:10 INFO: Most recent stock data: {'RCL': {   'close': 324.56,
+    'high': 324.77,
+    'low': 323.36,
+    'open': 323.36,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1645.0,
+    'vwap': 323.992}}
+2025-07-29 09:59:10 INFO: Most recent stock data: {'RCL': {   'close': 324.61,
+    'high': 324.67,
+    'low': 324.36,
+    'open': 324.64,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1559.0,
+    'vwap': 324.516364}}
+2025-07-29 10:00:10 INFO: Most recent stock data: {'RCL': {   'close': 324.325,
+    'high': 324.46,
+    'low': 324.29,
+    'open': 324.46,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 929.0,
+    'vwap': 324.364167}}
+2025-07-29 10:00:10 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-29 10:00:10 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-29 10:01:11 INFO: {'RCL': {   'close': 324.115,
+    'high': 325.31,
+    'low': 324.115,
+    'open': 324.8,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 2910.0,
+    'vwap': 324.758931}}
+2025-07-29 10:01:11 INFO: Current resistance is: 325.252 and support is: 323.638
+2025-07-29 10:01:11 INFO: Current average volume is: 1635.17
+2025-07-29 10:01:11 INFO: Updated resistance to: 325.494 and support to: 323.796
+2025-07-29 10:02:11 INFO: {'RCL': {   'close': 324.565,
+    'high': 325.01,
+    'low': 323.545,
+    'open': 323.93,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1734.0,
+    'vwap': 324.344375}}
+2025-07-29 10:02:11 INFO: Current resistance is: 325.494 and support is: 323.796
+2025-07-29 10:02:11 INFO: Current average volume is: 1642.77
+2025-07-29 10:02:11 INFO: Updated resistance to: 325.676 and support to: 323.684
+2025-07-29 10:03:11 INFO: {'RCL': {   'close': 325.18,
+    'high': 325.19,
+    'low': 324.705,
+    'open': 324.705,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1242.0,
+    'vwap': 325.016786}}
+2025-07-29 10:03:11 INFO: Current resistance is: 325.676 and support is: 323.684
+2025-07-29 10:03:11 INFO: Current average volume is: 1614.14
+2025-07-29 10:03:11 INFO: Updated resistance to: 325.855 and support to: 323.979
+2025-07-29 10:04:11 INFO: {'RCL': {   'close': 325.675,
+    'high': 325.675,
+    'low': 325.37,
+    'open': 325.37,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1116.0,
+    'vwap': 325.5225}}
+2025-07-29 10:04:11 INFO: Current resistance is: 325.855 and support is: 323.979
+2025-07-29 10:04:11 INFO: Current average volume is: 1580.93
+2025-07-29 10:04:11 INFO: Updated resistance to: 325.864 and support to: 324.402
+2025-07-29 10:05:11 INFO: {'RCL': {   'close': 325.74,
+    'high': 325.78,
+    'low': 325.05,
+    'open': 325.05,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1341.0,
+    'vwap': 325.417778}}
+2025-07-29 10:05:11 INFO: Current resistance is: 325.864 and support is: 324.402
+2025-07-29 10:05:11 INFO: Current average volume is: 1565.94
+2025-07-29 10:05:11 INFO: Updated resistance to: 325.971 and support to: 324.615
+2025-07-29 10:06:11 INFO: {'RCL': {   'close': 324.79,
+    'high': 324.86,
+    'low': 324.79,
+    'open': 324.86,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 410.0,
+    'vwap': 324.825}}
+2025-07-29 10:06:11 INFO: Current resistance is: 325.971 and support is: 324.615
+2025-07-29 10:06:11 INFO: Current average volume is: 1497.94
+2025-07-29 10:06:11 INFO: Updated resistance to: 326.123 and support to: 324.689
+2025-07-29 10:07:11 INFO: {'RCL': {   'close': 324.38,
+    'high': 324.38,
+    'low': 324.37,
+    'open': 324.37,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 807.0,
+    'vwap': 324.372837}}
+2025-07-29 10:07:11 INFO: Current resistance is: 326.123 and support is: 324.689
+2025-07-29 10:07:11 INFO: Current average volume is: 1459.56
+2025-07-29 10:07:11 INFO: close price: 324.38 just dropped below support of 324.689...
+2025-07-29 10:08:12 INFO: {'RCL': {   'close': 322.93,
+    'high': 323.27,
+    'low': 322.755,
+    'open': 323.205,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 2310.0,
+    'vwap': 322.931111}}
+2025-07-29 10:08:12 INFO: Current resistance is: 326.123 and support is: 324.689
+2025-07-29 10:08:12 INFO: Current average volume is: 1504.32
+2025-07-29 10:08:12 INFO: Closing price: 322.93 just dropped below support 324.689 again...ending trade...
+2025-07-29 10:20:02 INFO: === Strategy started ===
+2025-07-29 10:20:02 INFO: Start collecting the current highs/lows for: RCL
+2025-07-29 10:20:02 INFO: Most recent stock data: {'RCL': {   'close': 327.48,
+    'high': 327.48,
+    'low': 326.95,
+    'open': 326.95,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 571.0,
+    'vwap': 327.221667}}
+2025-07-29 10:21:02 INFO: Most recent stock data: {'RCL': {   'close': 328.02,
+    'high': 328.5,
+    'low': 327.78,
+    'open': 327.78,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 646.0,
+    'vwap': 328.0675}}
+2025-07-29 10:22:02 INFO: Most recent stock data: {'RCL': {   'close': 327.59,
+    'high': 327.86,
+    'low': 327.38,
+    'open': 327.86,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 809.0,
+    'vwap': 327.67}}
+2025-07-29 10:23:02 INFO: Most recent stock data: {'RCL': {   'close': 328.5,
+    'high': 328.5,
+    'low': 327.37,
+    'open': 327.46,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 876.0,
+    'vwap': 327.788}}
+2025-07-29 10:24:02 INFO: Most recent stock data: {'RCL': {   'close': 328.41,
+    'high': 328.72,
+    'low': 328.41,
+    'open': 328.49,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1579.0,
+    'vwap': 328.577778}}
+2025-07-29 10:25:03 INFO: Most recent stock data: {'RCL': {   'close': 329.18,
+    'high': 329.18,
+    'low': 328.59,
+    'open': 328.75,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 922.0,
+    'vwap': 328.877857}}
+2025-07-29 10:26:03 INFO: Most recent stock data: {'RCL': {   'close': 328.72,
+    'high': 328.72,
+    'low': 328.72,
+    'open': 328.72,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 130.0,
+    'vwap': 328.72}}
+2025-07-29 10:27:03 INFO: Most recent stock data: {'RCL': {   'close': 329.05,
+    'high': 329.05,
+    'low': 328.845,
+    'open': 328.95,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 700.0,
+    'vwap': 328.930833}}
+2025-07-29 10:28:03 INFO: Most recent stock data: {'RCL': {   'close': 328.56,
+    'high': 328.9,
+    'low': 328.51,
+    'open': 328.9,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 510.0,
+    'vwap': 328.665}}
+2025-07-29 10:29:03 INFO: Most recent stock data: {'RCL': {   'close': 328.665,
+    'high': 328.85,
+    'low': 328.665,
+    'open': 328.85,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 290.0,
+    'vwap': 328.7575}}
+2025-07-29 10:30:03 INFO: Most recent stock data: {'RCL': {   'close': 330.12,
+    'high': 330.12,
+    'low': 330.12,
+    'open': 330.12,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 170.0,
+    'vwap': 330.12}}
+2025-07-29 10:30:03 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-29 10:30:03 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-29 10:31:03 INFO: {'RCL': {   'close': 330.01,
+    'high': 330.21,
+    'low': 329.82,
+    'open': 329.82,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1354.0,
+    'vwap': 329.990714}}
+2025-07-29 10:31:03 INFO: Current resistance is: 330.291 and support is: 329.554
+2025-07-29 10:31:03 INFO: Current average volume is: 665.5
+2025-07-29 10:31:03 INFO: Updated resistance to: 330.399 and support to: 329.835
+2025-07-29 10:32:04 INFO: {'RCL': {   'close': 329.55,
+    'high': 329.66,
+    'low': 329.55,
+    'open': 329.66,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 656.0,
+    'vwap': 329.58}}
+2025-07-29 10:32:04 INFO: Current resistance is: 330.399 and support is: 329.835
+2025-07-29 10:32:04 INFO: Current average volume is: 664.77
+2025-07-29 10:32:04 INFO: close price: 329.55 just dropped below support of 329.835...
+2025-07-29 10:33:04 INFO: {'RCL': {   'close': 330.53,
+    'high': 330.53,
+    'low': 329.92,
+    'open': 329.92,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1210.0,
+    'vwap': 330.194286}}
+2025-07-29 10:33:04 INFO: Current resistance is: 330.399 and support is: 329.835
+2025-07-29 10:33:04 INFO: Current average volume is: 703.71
+2025-07-29 10:33:04 INFO: The Current Close 330.53 is above the resistance...
+2025-07-29 10:33:04 INFO: Updated resistance to: 330.717 and support to: 330.041
+2025-07-29 10:34:04 INFO: {'RCL': {   'close': 330.07,
+    'high': 330.41,
+    'low': 329.97,
+    'open': 330.41,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 806.0,
+    'vwap': 330.15}}
+2025-07-29 10:34:04 INFO: Current resistance is: 330.717 and support is: 330.041
+2025-07-29 10:34:04 INFO: Current average volume is: 710.53
+2025-07-29 10:34:04 INFO: Updated resistance to: 330.903 and support to: 330.148
+2025-07-29 10:35:04 INFO: {'RCL': {   'close': 329.7,
+    'high': 330.31,
+    'low': 329.69,
+    'open': 330.31,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 823.0,
+    'vwap': 329.99}}
+2025-07-29 10:35:04 INFO: Current resistance is: 330.903 and support is: 330.148
+2025-07-29 10:35:04 INFO: Current average volume is: 717.56
+2025-07-29 10:35:04 INFO: close price: 329.7 just dropped below support of 330.148...
+2025-07-29 10:36:04 INFO: {'RCL': {   'close': 330.465,
+    'high': 330.465,
+    'low': 330.06,
+    'open': 330.23,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1209.0,
+    'vwap': 330.264444}}
+2025-07-29 10:36:04 INFO: Current resistance is: 330.903 and support is: 330.148
+2025-07-29 10:36:04 INFO: Current average volume is: 746.47
+2025-07-29 10:36:04 INFO: Updated resistance to: 331.23 and support to: 330.175
+2025-07-29 10:37:04 INFO: {'RCL': {   'close': 329.96,
+    'high': 330.47,
+    'low': 329.96,
+    'open': 330.47,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 942.0,
+    'vwap': 330.17}}
+2025-07-29 10:37:04 INFO: Current resistance is: 331.23 and support is: 330.175
+2025-07-29 10:37:04 INFO: Current average volume is: 757.33
+2025-07-29 10:37:04 INFO: close price: 329.96 just dropped below support of 330.175...
+2025-07-29 10:38:04 INFO: {'RCL': {   'close': 328.88,
+    'high': 329.62,
+    'low': 328.88,
+    'open': 329.62,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1439.0,
+    'vwap': 329.471111}}
+2025-07-29 10:38:04 INFO: Current resistance is: 331.23 and support is: 330.175
+2025-07-29 10:38:04 INFO: Current average volume is: 793.21
+2025-07-29 10:38:04 INFO: Closing price: 328.88 just dropped below support 330.175 again...ending trade...
+2025-07-29 10:50:03 INFO: === Strategy started ===
+2025-07-29 10:50:03 INFO: Start collecting the current highs/lows for: RCL
+2025-07-29 10:50:03 INFO: Most recent stock data: {'RCL': {   'close': 333.92,
+    'high': 333.92,
+    'low': 333.37,
+    'open': 333.37,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 511.0,
+    'vwap': 333.645}}
+2025-07-29 10:51:03 INFO: Most recent stock data: {'RCL': {   'close': 334.265,
+    'high': 334.615,
+    'low': 334.0,
+    'open': 334.0,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1045.0,
+    'vwap': 334.248}}
+2025-07-29 10:52:03 INFO: Most recent stock data: {'RCL': {   'close': 334.28,
+    'high': 334.52,
+    'low': 334.155,
+    'open': 334.155,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1501.0,
+    'vwap': 334.266842}}
+2025-07-29 10:53:03 INFO: Most recent stock data: {'RCL': {   'close': 332.9,
+    'high': 334.16,
+    'low': 332.9,
+    'open': 334.13,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 825.0,
+    'vwap': 333.778571}}
+2025-07-29 10:54:03 INFO: Most recent stock data: {'RCL': {   'close': 332.18,
+    'high': 332.18,
+    'low': 332.09,
+    'open': 332.09,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 434.0,
+    'vwap': 332.135}}
+2025-07-29 10:56:04 INFO: Most recent stock data: {'RCL': {   'close': 331.93,
+    'high': 332.14,
+    'low': 331.93,
+    'open': 332.1,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 349.0,
+    'vwap': 332.056667}}
+2025-07-29 10:57:04 INFO: Most recent stock data: {'RCL': {   'close': 332.68,
+    'high': 332.68,
+    'low': 332.64,
+    'open': 332.64,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 750.0,
+    'vwap': 332.66}}
+2025-07-29 10:58:04 INFO: Most recent stock data: {'RCL': {   'close': 333.99,
+    'high': 333.99,
+    'low': 333.99,
+    'open': 333.99,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 268.0,
+    'vwap': 333.99}}
+2025-07-29 10:59:04 INFO: Most recent stock data: {'RCL': {   'close': 334.97,
+    'high': 334.97,
+    'low': 334.07,
+    'open': 334.07,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 461.0,
+    'vwap': 334.52}}
+2025-07-29 11:00:04 INFO: Most recent stock data: {'RCL': {   'close': 335.17,
+    'high': 335.17,
+    'low': 334.91,
+    'open': 334.91,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 258.0,
+    'vwap': 335.04}}
+2025-07-29 11:01:04 INFO: Most recent stock data: {'RCL': {   'close': 336.2,
+    'high': 336.2,
+    'low': 335.21,
+    'open': 335.25,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 815.0,
+    'vwap': 335.64}}
+2025-07-29 11:01:04 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-29 11:01:04 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-29 11:02:04 INFO: {'RCL': {   'close': 334.95,
+    'high': 335.99,
+    'low': 334.79,
+    'open': 335.99,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1252.0,
+    'vwap': 335.362}}
+2025-07-29 11:02:04 INFO: Current resistance is: 336.2 and support is: 331.93
+2025-07-29 11:02:04 INFO: Current average volume is: 663.17
+2025-07-29 11:02:04 INFO: Updated resistance to: 336.2 and support to: 331.93
+2025-07-29 11:03:05 INFO: {'RCL': {   'close': 335.59,
+    'high': 335.59,
+    'low': 335.39,
+    'open': 335.59,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1270.0,
+    'vwap': 335.48707}}
+2025-07-29 11:03:05 INFO: Current resistance is: 336.2 and support is: 331.93
+2025-07-29 11:03:05 INFO: Current average volume is: 709.85
+2025-07-29 11:03:05 INFO: Updated resistance to: 336.2 and support to: 331.93
+2025-07-29 11:04:05 INFO: {'RCL': {   'close': 335.65,
+    'high': 336.03,
+    'low': 335.49,
+    'open': 336.02,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1363.0,
+    'vwap': 335.649583}}
+2025-07-29 11:04:05 INFO: Current resistance is: 336.2 and support is: 331.93
+2025-07-29 11:04:05 INFO: Current average volume is: 756.5
+2025-07-29 11:04:05 INFO: Updated resistance to: 336.2 and support to: 331.93
+2025-07-29 11:05:05 INFO: {'RCL': {   'close': 335.44,
+    'high': 335.58,
+    'low': 335.315,
+    'open': 335.45,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 965.0,
+    'vwap': 335.458745}}
+2025-07-29 11:05:05 INFO: Current resistance is: 336.2 and support is: 331.93
+2025-07-29 11:05:05 INFO: Current average volume is: 770.4
+2025-07-29 11:05:05 INFO: Updated resistance to: 336.2 and support to: 331.93
+2025-07-29 11:06:05 INFO: {'RCL': {   'close': 335.54,
+    'high': 335.64,
+    'low': 335.54,
+    'open': 335.64,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 494.0,
+    'vwap': 335.60375}}
+2025-07-29 11:06:05 INFO: Current resistance is: 336.2 and support is: 331.93
+2025-07-29 11:06:05 INFO: Current average volume is: 753.12
+2025-07-29 11:06:05 INFO: Updated resistance to: 336.2 and support to: 331.93
+2025-07-29 11:07:05 INFO: {'RCL': {   'close': 336.03,
+    'high': 336.03,
+    'low': 335.52,
+    'open': 335.52,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 937.0,
+    'vwap': 335.6725}}
+2025-07-29 11:07:05 INFO: Current resistance is: 336.2 and support is: 331.93
+2025-07-29 11:07:05 INFO: Current average volume is: 763.94
+2025-07-29 11:07:05 INFO: Updated resistance to: 336.2 and support to: 331.93
+2025-07-29 11:08:05 INFO: {'RCL': {   'close': 335.95,
+    'high': 336.33,
+    'low': 335.95,
+    'open': 336.33,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 676.0,
+    'vwap': 336.235}}
+2025-07-29 11:08:05 INFO: Current resistance is: 336.2 and support is: 331.93
+2025-07-29 11:08:05 INFO: Current average volume is: 759.06
+2025-07-29 11:08:05 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:09:05 INFO: {'RCL': {   'close': 335.66,
+    'high': 336.12,
+    'low': 335.66,
+    'open': 336.12,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 340.0,
+    'vwap': 335.878333}}
+2025-07-29 11:09:05 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:09:05 INFO: Current average volume is: 737.0
+2025-07-29 11:09:05 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:10:05 INFO: {'RCL': {   'close': 335.355,
+    'high': 336.065,
+    'low': 335.355,
+    'open': 335.68,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 601.0,
+    'vwap': 335.7025}}
+2025-07-29 11:10:05 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:10:05 INFO: Current average volume is: 730.2
+2025-07-29 11:10:05 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:11:06 INFO: {'RCL': {   'close': 335.37,
+    'high': 335.48,
+    'low': 335.37,
+    'open': 335.48,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 389.0,
+    'vwap': 335.425}}
+2025-07-29 11:11:06 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:11:06 INFO: Current average volume is: 713.95
+2025-07-29 11:11:06 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:12:06 INFO: {'RCL': {   'close': 335.41,
+    'high': 335.44,
+    'low': 335.41,
+    'open': 335.44,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 400.0,
+    'vwap': 335.425}}
+2025-07-29 11:12:06 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:12:06 INFO: Current average volume is: 699.68
+2025-07-29 11:12:06 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:13:06 INFO: {'RCL': {   'close': 334.8,
+    'high': 334.8,
+    'low': 334.53,
+    'open': 334.68,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 607.0,
+    'vwap': 334.695}}
+2025-07-29 11:13:06 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:13:06 INFO: Current average volume is: 695.65
+2025-07-29 11:13:06 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:14:06 INFO: {'RCL': {   'close': 335.34,
+    'high': 335.34,
+    'low': 334.93,
+    'open': 334.93,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 465.0,
+    'vwap': 335.135}}
+2025-07-29 11:14:06 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:14:06 INFO: Current average volume is: 686.04
+2025-07-29 11:14:06 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:15:06 INFO: {'RCL': {   'close': 334.24,
+    'high': 335.055,
+    'low': 334.24,
+    'open': 335.055,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1611.0,
+    'vwap': 334.827692}}
+2025-07-29 11:15:06 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:15:06 INFO: Current average volume is: 723.04
+2025-07-29 11:15:06 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:16:06 INFO: {'RCL': {   'close': 333.48,
+    'high': 334.31,
+    'low': 333.39,
+    'open': 334.3,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1288.0,
+    'vwap': 333.864286}}
+2025-07-29 11:16:06 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:16:06 INFO: Current average volume is: 744.77
+2025-07-29 11:16:06 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:17:06 INFO: {'RCL': {   'close': 333.46,
+    'high': 333.64,
+    'low': 333.46,
+    'open': 333.52,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 457.0,
+    'vwap': 333.54}}
+2025-07-29 11:17:06 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:17:06 INFO: Current average volume is: 734.11
+2025-07-29 11:17:06 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:18:06 INFO: {'RCL': {   'close': 333.435,
+    'high': 333.435,
+    'low': 333.435,
+    'open': 333.435,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 231.0,
+    'vwap': 333.435}}
+2025-07-29 11:18:06 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:18:06 INFO: Current average volume is: 716.14
+2025-07-29 11:18:06 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:20:07 INFO: {'RCL': {   'close': 334.12,
+    'high': 334.12,
+    'low': 333.98,
+    'open': 333.98,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 334.026667}}
+2025-07-29 11:20:07 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:20:07 INFO: Current average volume is: 701.79
+2025-07-29 11:20:07 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:21:07 INFO: {'RCL': {   'close': 333.67,
+    'high': 333.79,
+    'low': 333.67,
+    'open': 333.79,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 983.0,
+    'vwap': 333.7425}}
+2025-07-29 11:21:07 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:21:07 INFO: Current average volume is: 711.17
+2025-07-29 11:21:07 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:22:07 INFO: {'RCL': {   'close': 333.82,
+    'high': 333.82,
+    'low': 333.41,
+    'open': 333.41,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 445.0,
+    'vwap': 333.68}}
+2025-07-29 11:22:07 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:22:07 INFO: Current average volume is: 702.58
+2025-07-29 11:22:07 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:23:07 INFO: {'RCL': {   'close': 334.2,
+    'high': 334.55,
+    'low': 334.2,
+    'open': 334.55,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 665.0,
+    'vwap': 334.3725}}
+2025-07-29 11:23:07 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:23:07 INFO: Current average volume is: 701.41
+2025-07-29 11:23:07 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:24:07 INFO: {'RCL': {   'close': 334.6,
+    'high': 334.6,
+    'low': 334.6,
+    'open': 334.6,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 624.0,
+    'vwap': 334.6}}
+2025-07-29 11:24:07 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:24:07 INFO: Current average volume is: 699.06
+2025-07-29 11:24:07 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:26:07 INFO: {'RCL': {   'close': 335.17,
+    'high': 335.26,
+    'low': 335.15,
+    'open': 335.15,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 360.0,
+    'vwap': 335.193333}}
+2025-07-29 11:26:07 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:26:07 INFO: Current average volume is: 689.09
+2025-07-29 11:26:07 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:27:07 INFO: {'RCL': {   'close': 335.17,
+    'high': 335.17,
+    'low': 335.17,
+    'open': 335.17,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 335.17}}
+2025-07-29 11:27:07 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:27:07 INFO: Current average volume is: 672.54
+2025-07-29 11:27:08 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:28:08 INFO: {'RCL': {   'close': 334.87,
+    'high': 335.02,
+    'low': 334.78,
+    'open': 334.78,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 2402.0,
+    'vwap': 334.885787}}
+2025-07-29 11:28:08 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:28:08 INFO: Current average volume is: 720.58
+2025-07-29 11:28:08 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:29:08 INFO: {'RCL': {   'close': 334.15,
+    'high': 334.39,
+    'low': 334.13,
+    'open': 334.39,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 792.0,
+    'vwap': 334.2025}}
+2025-07-29 11:29:08 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:29:08 INFO: Current average volume is: 722.51
+2025-07-29 11:29:08 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:30:08 INFO: {'RCL': {   'close': 333.96,
+    'high': 334.0,
+    'low': 333.86,
+    'open': 333.86,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 711.0,
+    'vwap': 333.918}}
+2025-07-29 11:30:08 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:30:08 INFO: Current average volume is: 722.21
+2025-07-29 11:30:08 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:31:08 INFO: {'RCL': {   'close': 333.93,
+    'high': 333.98,
+    'low': 333.93,
+    'open': 333.97,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 434.0,
+    'vwap': 333.9625}}
+2025-07-29 11:31:08 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:31:08 INFO: Current average volume is: 714.82
+2025-07-29 11:31:08 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:32:08 INFO: {'RCL': {   'close': 333.58,
+    'high': 333.58,
+    'low': 333.58,
+    'open': 333.58,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 195.0,
+    'vwap': 333.58}}
+2025-07-29 11:32:08 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:32:08 INFO: Current average volume is: 701.83
+2025-07-29 11:32:08 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:33:08 INFO: {'RCL': {   'close': 334.1,
+    'high': 334.1,
+    'low': 333.4,
+    'open': 333.4,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 788.0,
+    'vwap': 333.7025}}
+2025-07-29 11:33:08 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:33:08 INFO: Current average volume is: 703.93
+2025-07-29 11:33:08 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:34:08 INFO: {'RCL': {   'close': 334.05,
+    'high': 334.05,
+    'low': 334.05,
+    'open': 334.05,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 334.05}}
+2025-07-29 11:34:08 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:34:08 INFO: Current average volume is: 689.55
+2025-07-29 11:34:08 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:35:08 INFO: {'RCL': {   'close': 334.005,
+    'high': 334.005,
+    'low': 334.005,
+    'open': 334.005,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 126.0,
+    'vwap': 334.005}}
+2025-07-29 11:35:08 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:35:08 INFO: Current average volume is: 676.44
+2025-07-29 11:35:08 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:36:09 INFO: {'RCL': {   'close': 334.69,
+    'high': 334.69,
+    'low': 334.69,
+    'open': 334.69,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 190.0,
+    'vwap': 334.69}}
+2025-07-29 11:36:09 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:36:09 INFO: Current average volume is: 665.39
+2025-07-29 11:36:09 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:37:09 INFO: {'RCL': {   'close': 334.16,
+    'high': 334.26,
+    'low': 333.97,
+    'open': 334.26,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 644.0,
+    'vwap': 334.13}}
+2025-07-29 11:37:09 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:37:09 INFO: Current average volume is: 664.91
+2025-07-29 11:37:09 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:38:09 INFO: {'RCL': {   'close': 333.19,
+    'high': 333.19,
+    'low': 332.79,
+    'open': 332.79,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 575.0,
+    'vwap': 332.993333}}
+2025-07-29 11:38:09 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:38:09 INFO: Current average volume is: 662.96
+2025-07-29 11:38:09 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:39:09 INFO: {'RCL': {   'close': 333.36,
+    'high': 333.36,
+    'low': 333.36,
+    'open': 333.36,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 179.0,
+    'vwap': 333.36}}
+2025-07-29 11:39:09 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:39:09 INFO: Current average volume is: 652.66
+2025-07-29 11:39:09 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:40:09 INFO: {'RCL': {   'close': 332.77,
+    'high': 333.345,
+    'low': 332.77,
+    'open': 333.345,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 473.0,
+    'vwap': 333.153333}}
+2025-07-29 11:40:09 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:40:09 INFO: Current average volume is: 648.92
+2025-07-29 11:40:09 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:42:09 INFO: {'RCL': {   'close': 332.92,
+    'high': 332.92,
+    'low': 332.59,
+    'open': 332.59,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 321.0,
+    'vwap': 332.755}}
+2025-07-29 11:42:09 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:42:09 INFO: Current average volume is: 642.22
+2025-07-29 11:42:09 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:44:10 INFO: {'RCL': {   'close': 333.05,
+    'high': 333.05,
+    'low': 332.92,
+    'open': 332.92,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 305.0,
+    'vwap': 333.003333}}
+2025-07-29 11:44:10 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:44:10 INFO: Current average volume is: 635.48
+2025-07-29 11:44:10 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:45:10 INFO: {'RCL': {   'close': 333.36,
+    'high': 333.36,
+    'low': 333.36,
+    'open': 333.36,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 150.0,
+    'vwap': 333.36}}
+2025-07-29 11:45:10 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:45:10 INFO: Current average volume is: 625.96
+2025-07-29 11:45:10 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:46:10 INFO: {'RCL': {   'close': 333.555,
+    'high': 333.555,
+    'low': 333.555,
+    'open': 333.555,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 333.555}}
+2025-07-29 11:46:10 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:46:10 INFO: Current average volume is: 615.85
+2025-07-29 11:46:10 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:49:10 INFO: {'RCL': {   'close': 332.9,
+    'high': 332.9,
+    'low': 332.9,
+    'open': 332.9,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 102.0,
+    'vwap': 332.9}}
+2025-07-29 11:49:10 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:49:10 INFO: Current average volume is: 606.15
+2025-07-29 11:49:10 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:50:10 INFO: {'RCL': {   'close': 333.57,
+    'high': 333.8,
+    'low': 333.57,
+    'open': 333.7,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1292.0,
+    'vwap': 333.698333}}
+2025-07-29 11:50:10 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:50:10 INFO: Current average volume is: 618.85
+2025-07-29 11:50:10 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:51:10 INFO: {'RCL': {   'close': 334.2,
+    'high': 334.2,
+    'low': 333.685,
+    'open': 333.98,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 4108.0,
+    'vwap': 333.855583}}
+2025-07-29 11:51:10 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:51:10 INFO: Current average volume is: 682.29
+2025-07-29 11:51:10 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:52:11 INFO: {'RCL': {   'close': 334.7,
+    'high': 334.7,
+    'low': 334.195,
+    'open': 334.195,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 551.0,
+    'vwap': 334.478333}}
+2025-07-29 11:52:11 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:52:11 INFO: Current average volume is: 679.95
+2025-07-29 11:52:11 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:54:11 INFO: {'RCL': {   'close': 335.565,
+    'high': 335.565,
+    'low': 335.565,
+    'open': 335.565,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 132.0,
+    'vwap': 335.565}}
+2025-07-29 11:54:11 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:54:11 INFO: Current average volume is: 670.33
+2025-07-29 11:54:11 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:55:11 INFO: {'RCL': {   'close': 336.02,
+    'high': 336.02,
+    'low': 336.02,
+    'open': 336.02,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 336.02}}
+2025-07-29 11:55:11 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:55:11 INFO: Current average volume is: 660.52
+2025-07-29 11:55:11 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:56:11 INFO: {'RCL': {   'close': 336.29,
+    'high': 336.29,
+    'low': 336.29,
+    'open': 336.29,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 130.0,
+    'vwap': 336.29}}
+2025-07-29 11:56:11 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:56:11 INFO: Current average volume is: 651.53
+2025-07-29 11:56:11 INFO: Updated resistance to: 336.33 and support to: 331.93
+2025-07-29 11:57:11 INFO: {'RCL': {   'close': 336.6,
+    'high': 336.6,
+    'low': 336.6,
+    'open': 336.6,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 206.0,
+    'vwap': 336.6}}
+2025-07-29 11:57:11 INFO: Current resistance is: 336.33 and support is: 331.93
+2025-07-29 11:57:11 INFO: Current average volume is: 644.1
+2025-07-29 11:57:11 INFO: The Current Close 336.6 is above the resistance...
+2025-07-29 11:57:11 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 11:58:11 INFO: {'RCL': {   'close': 335.14,
+    'high': 335.84,
+    'low': 335.14,
+    'open': 335.84,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 874.0,
+    'vwap': 335.606667}}
+2025-07-29 11:58:11 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 11:58:11 INFO: Current average volume is: 647.87
+2025-07-29 11:58:11 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 11:59:11 INFO: {'RCL': {   'close': 335.26,
+    'high': 335.81,
+    'low': 335.26,
+    'open': 335.81,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 362.0,
+    'vwap': 335.535}}
+2025-07-29 11:59:11 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 11:59:11 INFO: Current average volume is: 643.26
+2025-07-29 11:59:11 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:00:12 INFO: {'RCL': {   'close': 334.52,
+    'high': 334.88,
+    'low': 334.52,
+    'open': 334.88,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 537.0,
+    'vwap': 334.745}}
+2025-07-29 12:00:12 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:00:12 INFO: Current average volume is: 641.57
+2025-07-29 12:00:12 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:01:12 INFO: {'RCL': {   'close': 334.44,
+    'high': 334.8,
+    'low': 334.44,
+    'open': 334.57,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 530.0,
+    'vwap': 334.634}}
+2025-07-29 12:01:12 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:01:12 INFO: Current average volume is: 639.83
+2025-07-29 12:01:12 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:02:12 INFO: {'RCL': {   'close': 334.29,
+    'high': 334.29,
+    'low': 334.29,
+    'open': 334.29,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 115.0,
+    'vwap': 334.29}}
+2025-07-29 12:02:12 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:02:12 INFO: Current average volume is: 631.75
+2025-07-29 12:02:12 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:03:12 INFO: {'RCL': {   'close': 334.365,
+    'high': 334.365,
+    'low': 334.365,
+    'open': 334.365,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 102.0,
+    'vwap': 334.365}}
+2025-07-29 12:03:12 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:03:12 INFO: Current average volume is: 623.73
+2025-07-29 12:03:12 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:04:12 INFO: {'RCL': {   'close': 334.245,
+    'high': 334.245,
+    'low': 334.245,
+    'open': 334.245,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 169.0,
+    'vwap': 334.245}}
+2025-07-29 12:04:12 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:04:12 INFO: Current average volume is: 616.94
+2025-07-29 12:04:12 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:05:12 INFO: {'RCL': {   'close': 333.95,
+    'high': 333.95,
+    'low': 333.95,
+    'open': 333.95,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 333.95}}
+2025-07-29 12:05:12 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:05:12 INFO: Current average volume is: 609.63
+2025-07-29 12:05:12 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:06:12 INFO: {'RCL': {   'close': 333.96,
+    'high': 333.96,
+    'low': 333.96,
+    'open': 333.96,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 210.0,
+    'vwap': 333.96}}
+2025-07-29 12:06:12 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:06:12 INFO: Current average volume is: 603.84
+2025-07-29 12:06:12 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:07:12 INFO: {'RCL': {   'close': 333.75,
+    'high': 333.75,
+    'low': 333.75,
+    'open': 333.75,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 168.0,
+    'vwap': 333.75}}
+2025-07-29 12:07:12 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:07:12 INFO: Current average volume is: 597.61
+2025-07-29 12:07:12 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:09:13 INFO: {'RCL': {   'close': 333.33,
+    'high': 333.33,
+    'low': 333.33,
+    'open': 333.33,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 116.0,
+    'vwap': 333.33}}
+2025-07-29 12:09:13 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:09:13 INFO: Current average volume is: 590.83
+2025-07-29 12:09:13 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:10:13 INFO: {'RCL': {   'close': 333.22,
+    'high': 333.28,
+    'low': 333.22,
+    'open': 333.28,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 491.0,
+    'vwap': 333.25}}
+2025-07-29 12:10:13 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:10:13 INFO: Current average volume is: 589.44
+2025-07-29 12:10:13 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:12:13 INFO: {'RCL': {   'close': 332.21,
+    'high': 333.0,
+    'low': 332.01,
+    'open': 333.0,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 890.0,
+    'vwap': 332.644}}
+2025-07-29 12:12:13 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:12:13 INFO: Current average volume is: 593.56
+2025-07-29 12:12:13 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:13:13 INFO: {'RCL': {   'close': 332.13,
+    'high': 332.13,
+    'low': 332.13,
+    'open': 332.13,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 321.0,
+    'vwap': 332.13}}
+2025-07-29 12:13:13 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:13:13 INFO: Current average volume is: 589.88
+2025-07-29 12:13:13 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:14:13 INFO: {'RCL': {   'close': 332.06,
+    'high': 332.08,
+    'low': 332.06,
+    'open': 332.08,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 457.0,
+    'vwap': 332.07}}
+2025-07-29 12:14:13 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:14:13 INFO: Current average volume is: 588.11
+2025-07-29 12:14:13 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:15:13 INFO: {'RCL': {   'close': 332.0,
+    'high': 332.0,
+    'low': 332.0,
+    'open': 332.0,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 217.0,
+    'vwap': 332.0}}
+2025-07-29 12:15:13 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:15:13 INFO: Current average volume is: 583.22
+2025-07-29 12:15:13 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:22:14 INFO: {'RCL': {   'close': 333.69,
+    'high': 333.69,
+    'low': 333.66,
+    'open': 333.66,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 351.0,
+    'vwap': 333.675}}
+2025-07-29 12:22:14 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:22:14 INFO: Current average volume is: 580.21
+2025-07-29 12:22:14 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:23:14 INFO: {'RCL': {   'close': 333.81,
+    'high': 333.92,
+    'low': 333.59,
+    'open': 333.74,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1066.0,
+    'vwap': 333.745714}}
+2025-07-29 12:23:14 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:23:14 INFO: Current average volume is: 586.44
+2025-07-29 12:23:14 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:24:14 INFO: {'RCL': {   'close': 333.74,
+    'high': 333.76,
+    'low': 333.51,
+    'open': 333.76,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 866.0,
+    'vwap': 333.656667}}
+2025-07-29 12:24:14 INFO: Current resistance is: 336.6 and support is: 331.93
+2025-07-29 12:24:14 INFO: Current average volume is: 589.97
+2025-07-29 12:24:14 INFO: Updated resistance to: 336.6 and support to: 331.93
+2025-07-29 12:25:17 INFO: === Strategy started ===
+2025-07-29 12:25:17 INFO: Start collecting the current highs/lows for: RCL
+2025-07-29 12:25:17 INFO: Most recent stock data: {'RCL': {   'close': 333.95,
+    'high': 333.95,
+    'low': 333.945,
+    'open': 333.945,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 333.948333}}
+2025-07-29 12:27:17 INFO: Most recent stock data: {'RCL': {   'close': 333.995,
+    'high': 333.995,
+    'low': 333.755,
+    'open': 333.755,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 230.0,
+    'vwap': 333.875}}
+2025-07-29 12:29:17 INFO: Most recent stock data: {'RCL': {   'close': 334.37,
+    'high': 334.37,
+    'low': 334.28,
+    'open': 334.28,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 385.0,
+    'vwap': 334.325}}
+2025-07-29 12:31:18 INFO: Most recent stock data: {'RCL': {   'close': 334.89,
+    'high': 335.05,
+    'low': 334.84,
+    'open': 334.84,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 575.0,
+    'vwap': 334.926667}}
+2025-07-29 12:32:18 INFO: Most recent stock data: {'RCL': {   'close': 334.69,
+    'high': 334.69,
+    'low': 334.69,
+    'open': 334.69,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 174.0,
+    'vwap': 334.69}}
+2025-07-29 12:33:18 INFO: Most recent stock data: {'RCL': {   'close': 335.27,
+    'high': 335.27,
+    'low': 334.64,
+    'open': 334.735,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 523.0,
+    'vwap': 334.881667}}
+2025-07-29 12:34:18 INFO: Most recent stock data: {'RCL': {   'close': 334.67,
+    'high': 335.12,
+    'low': 334.67,
+    'open': 335.12,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1243.0,
+    'vwap': 334.898623}}
+2025-07-29 12:35:18 INFO: Most recent stock data: {'RCL': {   'close': 334.48,
+    'high': 334.51,
+    'low': 334.46,
+    'open': 334.51,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 407.0,
+    'vwap': 334.4825}}
+2025-07-29 12:36:18 INFO: Most recent stock data: {'RCL': {   'close': 334.25,
+    'high': 334.25,
+    'low': 334.25,
+    'open': 334.25,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 142.0,
+    'vwap': 334.25}}
+2025-07-29 12:37:18 INFO: Most recent stock data: {'RCL': {   'close': 334.79,
+    'high': 334.79,
+    'low': 334.365,
+    'open': 334.365,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 268.0,
+    'vwap': 334.5775}}
+2025-07-29 12:39:19 INFO: Most recent stock data: {'RCL': {   'close': 336.035,
+    'high': 336.035,
+    'low': 336.035,
+    'open': 336.035,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 125.0,
+    'vwap': 336.035}}
+2025-07-29 12:39:19 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-29 12:39:19 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-29 12:40:19 INFO: {'RCL': {   'close': 336.23,
+    'high': 336.24,
+    'low': 336.23,
+    'open': 336.24,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 289.0,
+    'vwap': 336.235}}
+2025-07-29 12:40:19 INFO: Current resistance is: 336.15 and support is: 334.848
+2025-07-29 12:40:19 INFO: Current average volume is: 363.42
+2025-07-29 12:40:19 INFO: The Current Close 336.23 is above the resistance...
+2025-07-29 12:40:19 INFO: Updated resistance to: 336.386 and support to: 335.395
+2025-07-29 12:41:19 INFO: {'RCL': {   'close': 336.64,
+    'high': 336.64,
+    'low': 336.2,
+    'open': 336.2,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 336.42}}
+2025-07-29 12:41:19 INFO: Current resistance is: 336.386 and support is: 335.395
+2025-07-29 12:41:19 INFO: Current average volume is: 350.85
+2025-07-29 12:41:19 INFO: The current close: 336.64 is above the resistance of 336.386, but volume isn't enough...
+2025-07-29 12:41:19 INFO: Updated resistance to: 336.814 and support to: 335.762
+2025-07-29 12:43:20 INFO: {'RCL': {   'close': 336.86,
+    'high': 337.07,
+    'low': 336.86,
+    'open': 337.07,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 374.0,
+    'vwap': 336.965}}
+2025-07-29 12:43:20 INFO: Current resistance is: 336.814 and support is: 335.762
+2025-07-29 12:43:20 INFO: Current average volume is: 352.5
+2025-07-29 12:43:20 INFO: The current close: 336.86 is above the resistance of 336.814, but volume isn't enough...
+2025-07-29 12:43:20 INFO: Updated resistance to: 337.268 and support to: 336.261
+2025-07-29 12:45:20 INFO: {'RCL': {   'close': 337.2,
+    'high': 337.46,
+    'low': 337.2,
+    'open': 337.37,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 732.0,
+    'vwap': 337.378284}}
+2025-07-29 12:45:20 INFO: Current resistance is: 337.268 and support is: 336.261
+2025-07-29 12:45:20 INFO: Current average volume is: 377.8
+2025-07-29 12:45:20 INFO: Updated resistance to: 337.679 and support to: 336.737
+2025-07-29 12:46:20 INFO: {'RCL': {   'close': 337.36,
+    'high': 337.36,
+    'low': 337.36,
+    'open': 337.36,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 337.36}}
+2025-07-29 12:46:20 INFO: Current resistance is: 337.679 and support is: 336.737
+2025-07-29 12:46:20 INFO: Current average volume is: 360.44
+2025-07-29 12:46:20 INFO: Updated resistance to: 337.912 and support to: 337.136
+2025-07-29 12:47:20 INFO: {'RCL': {   'close': 337.215,
+    'high': 337.215,
+    'low': 337.215,
+    'open': 337.215,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 273.0,
+    'vwap': 337.215}}
+2025-07-29 12:47:20 INFO: Current resistance is: 337.912 and support is: 337.136
+2025-07-29 12:47:20 INFO: Current average volume is: 355.29
+2025-07-29 12:47:20 INFO: Updated resistance to: 338.13 and support to: 337.381
+2025-07-29 12:48:20 INFO: {'RCL': {   'close': 337.83,
+    'high': 337.83,
+    'low': 337.83,
+    'open': 337.83,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 380.0,
+    'vwap': 337.83}}
+2025-07-29 12:48:20 INFO: Current resistance is: 338.13 and support is: 337.381
+2025-07-29 12:48:20 INFO: Current average volume is: 356.67
+2025-07-29 12:48:20 INFO: Updated resistance to: 338.058 and support to: 337.738
+2025-07-29 12:49:21 INFO: {'RCL': {   'close': 337.93,
+    'high': 338.095,
+    'low': 337.91,
+    'open': 338.095,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 597.0,
+    'vwap': 337.959}}
+2025-07-29 12:49:21 INFO: Current resistance is: 338.058 and support is: 337.738
+2025-07-29 12:49:21 INFO: Current average volume is: 369.32
+2025-07-29 12:49:21 INFO: Updated resistance to: 338.328 and support to: 338.027
+2025-07-29 12:50:21 INFO: {'RCL': {   'close': 337.77,
+    'high': 337.93,
+    'low': 337.77,
+    'open': 337.93,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 373.0,
+    'vwap': 337.85}}
+2025-07-29 12:50:21 INFO: Current resistance is: 338.328 and support is: 338.027
+2025-07-29 12:50:21 INFO: Current average volume is: 369.5
+2025-07-29 12:50:21 INFO: close price: 337.77 just dropped below support of 338.027...
+2025-07-29 12:51:21 INFO: {'RCL': {   'close': 338.08,
+    'high': 338.08,
+    'low': 338.08,
+    'open': 338.08,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 338.08}}
+2025-07-29 12:51:21 INFO: Current resistance is: 338.328 and support is: 338.027
+2025-07-29 12:51:21 INFO: Current average volume is: 356.67
+2025-07-29 12:51:21 INFO: Updated resistance to: 338.776 and support to: 338.412
+2025-07-29 12:52:21 INFO: {'RCL': {   'close': 338.95,
+    'high': 339.05,
+    'low': 338.95,
+    'open': 339.05,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 749.0,
+    'vwap': 339.016667}}
+2025-07-29 12:52:21 INFO: Current resistance is: 338.776 and support is: 338.412
+2025-07-29 12:52:21 INFO: Current average volume is: 374.5
+2025-07-29 12:52:21 INFO: The Current Close 338.95 is above the resistance...
+2025-07-29 12:52:21 INFO: Updated resistance to: 339.284 and support to: 338.782
+2025-07-29 12:53:21 INFO: {'RCL': {   'close': 339.32,
+    'high': 339.32,
+    'low': 339.32,
+    'open': 339.32,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 117.0,
+    'vwap': 339.32}}
+2025-07-29 12:53:21 INFO: Current resistance is: 339.284 and support is: 338.782
+2025-07-29 12:53:21 INFO: Current average volume is: 363.3
+2025-07-29 12:53:21 INFO: The current close: 339.32 is above the resistance of 339.284, but volume isn't enough...
+2025-07-29 12:53:21 INFO: Updated resistance to: 339.559 and support to: 339.162
+2025-07-29 12:54:22 INFO: {'RCL': {   'close': 339.18,
+    'high': 339.3,
+    'low': 339.05,
+    'open': 339.26,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2262.0,
+    'vwap': 339.220534}}
+2025-07-29 12:54:22 INFO: Current resistance is: 339.559 and support is: 339.162
+2025-07-29 12:54:22 INFO: Current average volume is: 442.42
+2025-07-29 12:54:22 INFO: Updated resistance to: 339.801 and support to: 339.402
+2025-07-29 12:55:22 INFO: {'RCL': {   'close': 339.74,
+    'high': 339.74,
+    'low': 339.74,
+    'open': 339.74,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 281.0,
+    'vwap': 339.74}}
+2025-07-29 12:55:22 INFO: Current resistance is: 339.801 and support is: 339.402
+2025-07-29 12:55:22 INFO: Current average volume is: 435.96
+2025-07-29 12:55:22 INFO: Updated resistance to: 339.984 and support to: 339.742
+2025-07-29 12:56:22 INFO: {'RCL': {   'close': 339.86,
+    'high': 339.86,
+    'low': 339.86,
+    'open': 339.86,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 161.0,
+    'vwap': 339.86}}
+2025-07-29 12:56:22 INFO: Current resistance is: 339.984 and support is: 339.742
+2025-07-29 12:56:22 INFO: Current average volume is: 425.38
+2025-07-29 12:56:22 INFO: Updated resistance to: 340.105 and support to: 340.041
+2025-07-29 12:57:22 INFO: {'RCL': {   'close': 339.515,
+    'high': 339.74,
+    'low': 339.31,
+    'open': 339.74,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 3188.0,
+    'vwap': 339.607037}}
+2025-07-29 12:57:22 INFO: Current resistance is: 340.105 and support is: 340.041
+2025-07-29 12:57:22 INFO: Current average volume is: 527.7
+2025-07-29 12:57:22 INFO: close price: 339.515 just dropped below support of 340.041...
+2025-07-29 12:58:22 INFO: {'RCL': {   'close': 339.38,
+    'high': 339.57,
+    'low': 339.38,
+    'open': 339.53,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 425.0,
+    'vwap': 339.493333}}
+2025-07-29 12:58:22 INFO: Current resistance is: 340.105 and support is: 340.041
+2025-07-29 12:58:22 INFO: Current average volume is: 524.04
+2025-07-29 12:58:22 INFO: Closing price: 339.38 just dropped below support 340.041 again...ending trade...
+2025-07-29 13:10:17 INFO: === Strategy started ===
+2025-07-29 13:10:17 INFO: Start collecting the current highs/lows for: RCL
+2025-07-29 13:10:17 INFO: Most recent stock data: {'RCL': {   'close': 339.6,
+    'high': 339.96,
+    'low': 339.6,
+    'open': 339.96,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 289.0,
+    'vwap': 339.78}}
+2025-07-29 13:11:18 INFO: Most recent stock data: {'RCL': {   'close': 339.8,
+    'high': 339.89,
+    'low': 339.8,
+    'open': 339.89,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 252.0,
+    'vwap': 339.845}}
+2025-07-29 13:13:18 INFO: Most recent stock data: {'RCL': {   'close': 340.12,
+    'high': 340.12,
+    'low': 340.0,
+    'open': 340.0,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 401.0,
+    'vwap': 340.08}}
+2025-07-29 13:14:18 INFO: Most recent stock data: {'RCL': {   'close': 340.175,
+    'high': 340.175,
+    'low': 339.92,
+    'open': 339.92,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 438.0,
+    'vwap': 340.05875}}
+2025-07-29 13:15:18 INFO: Most recent stock data: {'RCL': {   'close': 340.225,
+    'high': 340.225,
+    'low': 340.16,
+    'open': 340.16,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 500.0,
+    'vwap': 340.1925}}
+2025-07-29 13:16:18 INFO: Most recent stock data: {'RCL': {   'close': 340.64,
+    'high': 340.64,
+    'low': 340.12,
+    'open': 340.23,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 902.0,
+    'vwap': 340.33}}
+2025-07-29 13:17:19 INFO: Most recent stock data: {'RCL': {   'close': 340.48,
+    'high': 340.61,
+    'low': 340.42,
+    'open': 340.61,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 595.0,
+    'vwap': 340.514}}
+2025-07-29 13:18:19 INFO: Most recent stock data: {'RCL': {   'close': 341.25,
+    'high': 341.25,
+    'low': 340.505,
+    'open': 340.505,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 679.0,
+    'vwap': 340.875}}
+2025-07-29 13:19:19 INFO: Most recent stock data: {'RCL': {   'close': 341.03,
+    'high': 341.05,
+    'low': 341.03,
+    'open': 341.05,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 516.0,
+    'vwap': 341.04}}
+2025-07-29 13:20:19 INFO: Most recent stock data: {'RCL': {   'close': 341.27,
+    'high': 341.43,
+    'low': 341.27,
+    'open': 341.43,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 457.0,
+    'vwap': 341.376667}}
+2025-07-29 13:22:19 INFO: Most recent stock data: {'RCL': {   'close': 340.93,
+    'high': 340.98,
+    'low': 340.93,
+    'open': 340.98,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 373.0,
+    'vwap': 340.955}}
+2025-07-29 13:22:19 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-29 13:22:19 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-29 13:24:20 INFO: {'RCL': {   'close': 340.89,
+    'high': 340.89,
+    'low': 340.89,
+    'open': 340.89,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 343.0,
+    'vwap': 340.89}}
+2025-07-29 13:24:20 INFO: Current resistance is: 341.732 and support is: 341.305
+2025-07-29 13:24:20 INFO: Current average volume is: 454.67
+2025-07-29 13:24:20 INFO: close price: 340.89 just dropped below support of 341.305...
+2025-07-29 13:26:20 INFO: {'RCL': {   'close': 341.62,
+    'high': 341.62,
+    'low': 341.62,
+    'open': 341.62,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 214.0,
+    'vwap': 341.62}}
+2025-07-29 13:26:20 INFO: Current resistance is: 341.732 and support is: 341.305
+2025-07-29 13:26:20 INFO: Current average volume is: 436.15
+2025-07-29 13:26:20 INFO: Updated resistance to: 341.754 and support to: 341.562
+2025-07-29 13:27:20 INFO: {'RCL': {   'close': 341.15,
+    'high': 341.44,
+    'low': 341.15,
+    'open': 341.44,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 891.0,
+    'vwap': 341.333333}}
+2025-07-29 13:27:20 INFO: Current resistance is: 341.754 and support is: 341.562
+2025-07-29 13:27:20 INFO: Current average volume is: 468.64
+2025-07-29 13:27:20 INFO: close price: 341.15 just dropped below support of 341.562...
+2025-07-29 13:28:20 INFO: {'RCL': {   'close': 340.43,
+    'high': 340.43,
+    'low': 340.43,
+    'open': 340.43,
+    'symbol': 'RCL',
+    'timestamp': datetime.datetime(2025, 7, 29, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 237.0,
+    'vwap': 340.43}}
+2025-07-29 13:28:20 INFO: Current resistance is: 341.754 and support is: 341.562
+2025-07-29 13:28:20 INFO: Current average volume is: 453.2
+2025-07-29 13:28:20 INFO: Closing price: 340.43 just dropped below support 341.562 again...ending trade...

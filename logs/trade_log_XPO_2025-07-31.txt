@@ -1,0 +1,411 @@
+2025-07-31 10:50:03 INFO: === Strategy started ===
+2025-07-31 10:50:03 INFO: Start collecting the current highs/lows for: XPO
+2025-07-31 10:50:03 INFO: Most recent stock data: {'XPO': {   'close': 120.58,
+    'high': 120.795,
+    'low': 120.58,
+    'open': 120.795,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 655.0,
+    'vwap': 120.614865}}
+2025-07-31 10:51:03 INFO: Most recent stock data: {'XPO': {   'close': 120.54,
+    'high': 120.74,
+    'low': 120.54,
+    'open': 120.74,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1387.0,
+    'vwap': 120.595213}}
+2025-07-31 10:52:03 INFO: Most recent stock data: {'XPO': {   'close': 120.59,
+    'high': 120.7,
+    'low': 120.59,
+    'open': 120.7,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 286.0,
+    'vwap': 120.645}}
+2025-07-31 10:53:03 INFO: Most recent stock data: {'XPO': {   'close': 120.57,
+    'high': 120.67,
+    'low': 120.53,
+    'open': 120.67,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 2827.0,
+    'vwap': 120.575074}}
+2025-07-31 10:54:04 INFO: Most recent stock data: {'XPO': {   'close': 120.58,
+    'high': 120.66,
+    'low': 120.575,
+    'open': 120.66,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 7744.0,
+    'vwap': 120.5825}}
+2025-07-31 10:55:04 INFO: Most recent stock data: {'XPO': {   'close': 120.58,
+    'high': 120.58,
+    'low': 120.58,
+    'open': 120.58,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 691.0,
+    'vwap': 120.58}}
+2025-07-31 10:56:04 INFO: Most recent stock data: {'XPO': {   'close': 120.05,
+    'high': 120.24,
+    'low': 120.05,
+    'open': 120.24,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1211.0,
+    'vwap': 120.164375}}
+2025-07-31 10:57:04 INFO: Most recent stock data: {'XPO': {   'close': 120.07,
+    'high': 120.3,
+    'low': 120.035,
+    'open': 120.105,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 3290.0,
+    'vwap': 120.139215}}
+2025-07-31 10:58:04 INFO: Most recent stock data: {'XPO': {   'close': 120.54,
+    'high': 120.54,
+    'low': 120.54,
+    'open': 120.54,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 106.0,
+    'vwap': 120.54}}
+2025-07-31 11:00:04 INFO: Most recent stock data: {'XPO': {   'close': 120.18,
+    'high': 120.59,
+    'low': 120.18,
+    'open': 120.59,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 4609.0,
+    'vwap': 120.505188}}
+2025-07-31 11:01:04 INFO: Most recent stock data: {'XPO': {   'close': 120.08,
+    'high': 120.18,
+    'low': 120.08,
+    'open': 120.18,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 120.13}}
+2025-07-31 11:01:04 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 11:01:04 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-31 11:02:05 INFO: {'XPO': {   'close': 120.5,
+    'high': 120.6,
+    'low': 120.5,
+    'open': 120.55,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 666.0,
+    'vwap': 120.535}}
+2025-07-31 11:02:05 INFO: Current resistance is: 120.264 and support is: 119.831
+2025-07-31 11:02:05 INFO: Current average volume is: 1918.08
+2025-07-31 11:02:05 INFO: The Current Close 120.5 is above the resistance...
+2025-07-31 11:02:05 INFO: Updated resistance to: 120.374 and support to: 119.86
+2025-07-31 11:03:05 INFO: {'XPO': {   'close': 120.55,
+    'high': 120.55,
+    'low': 120.54,
+    'open': 120.54,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 120.545}}
+2025-07-31 11:03:05 INFO: Current resistance is: 120.374 and support is: 119.86
+2025-07-31 11:03:05 INFO: Current average volume is: 1785.92
+2025-07-31 11:03:05 INFO: The current close: 120.55 is above the resistance of 120.374, but volume isn't enough...
+2025-07-31 11:03:05 INFO: Updated resistance to: 120.437 and support to: 119.898
+2025-07-31 11:05:05 INFO: {'XPO': {   'close': 120.32,
+    'high': 120.32,
+    'low': 120.32,
+    'open': 120.32,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 151.0,
+    'vwap': 120.32}}
+2025-07-31 11:05:05 INFO: Current resistance is: 120.437 and support is: 119.898
+2025-07-31 11:05:05 INFO: Current average volume is: 1669.14
+2025-07-31 11:05:05 INFO: Updated resistance to: 120.395 and support to: 119.89
+2025-07-31 11:06:05 INFO: {'XPO': {   'close': 120.11,
+    'high': 120.11,
+    'low': 120.11,
+    'open': 120.11,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 331.0,
+    'vwap': 120.11}}
+2025-07-31 11:06:05 INFO: Current resistance is: 120.395 and support is: 119.89
+2025-07-31 11:06:05 INFO: Current average volume is: 1579.93
+2025-07-31 11:06:05 INFO: Updated resistance to: 120.288 and support to: 119.841
+2025-07-31 11:08:06 INFO: {'XPO': {   'close': 119.655,
+    'high': 119.7,
+    'low': 119.655,
+    'open': 119.7,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 772.0,
+    'vwap': 119.662552}}
+2025-07-31 11:08:06 INFO: Current resistance is: 120.288 and support is: 119.841
+2025-07-31 11:08:06 INFO: Current average volume is: 1529.44
+2025-07-31 11:08:06 INFO: close price: 119.655 just dropped below support of 119.841...
+2025-07-31 11:09:06 INFO: {'XPO': {   'close': 119.8,
+    'high': 119.8,
+    'low': 119.8,
+    'open': 119.8,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 399.0,
+    'vwap': 119.8}}
+2025-07-31 11:09:06 INFO: Current resistance is: 120.288 and support is: 119.841
+2025-07-31 11:09:06 INFO: Current average volume is: 1462.94
+2025-07-31 11:09:06 INFO: Closing price: 119.8 just dropped below support 119.841 again...ending trade...
+2025-07-31 11:50:04 INFO: === Strategy started ===
+2025-07-31 11:50:04 INFO: Start collecting the current highs/lows for: XPO
+2025-07-31 11:50:04 INFO: Most recent stock data: {'XPO': {   'close': 120.84,
+    'high': 120.84,
+    'low': 120.84,
+    'open': 120.84,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 465.0,
+    'vwap': 120.84}}
+2025-07-31 11:51:04 INFO: Most recent stock data: {'XPO': {   'close': 120.89,
+    'high': 121.04,
+    'low': 120.89,
+    'open': 121.04,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 499.0,
+    'vwap': 120.9275}}
+2025-07-31 11:55:05 INFO: Most recent stock data: {'XPO': {   'close': 120.55,
+    'high': 120.6,
+    'low': 120.55,
+    'open': 120.6,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 341.0,
+    'vwap': 120.575}}
+2025-07-31 11:56:05 INFO: Most recent stock data: {'XPO': {   'close': 120.72,
+    'high': 120.72,
+    'low': 120.71,
+    'open': 120.71,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 800.0,
+    'vwap': 120.716}}
+2025-07-31 11:57:05 INFO: Most recent stock data: {'XPO': {   'close': 121.3,
+    'high': 121.32,
+    'low': 120.79,
+    'open': 120.79,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 932.0,
+    'vwap': 121.062857}}
+2025-07-31 11:58:05 INFO: Most recent stock data: {'XPO': {   'close': 121.05,
+    'high': 121.23,
+    'low': 121.05,
+    'open': 121.23,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 918.0,
+    'vwap': 121.082368}}
+2025-07-31 12:00:05 INFO: Most recent stock data: {'XPO': {   'close': 120.95,
+    'high': 120.95,
+    'low': 120.95,
+    'open': 120.95,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 208.0,
+    'vwap': 120.95}}
+2025-07-31 12:01:06 INFO: Most recent stock data: {'XPO': {   'close': 121.11,
+    'high': 121.11,
+    'low': 121.02,
+    'open': 121.02,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1183.0,
+    'vwap': 121.09587}}
+2025-07-31 12:02:06 INFO: Most recent stock data: {'XPO': {   'close': 121.13,
+    'high': 121.19,
+    'low': 120.97,
+    'open': 120.97,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1991.0,
+    'vwap': 121.127296}}
+2025-07-31 12:03:06 INFO: Most recent stock data: {'XPO': {   'close': 120.94,
+    'high': 120.95,
+    'low': 120.94,
+    'open': 120.94,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 650.0,
+    'vwap': 120.943205}}
+2025-07-31 12:04:06 INFO: Most recent stock data: {'XPO': {   'close': 120.86,
+    'high': 120.86,
+    'low': 120.86,
+    'open': 120.86,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 104.0,
+    'vwap': 120.86}}
+2025-07-31 12:04:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 12:04:06 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-31 12:05:06 INFO: {'XPO': {   'close': 120.7,
+    'high': 120.7,
+    'low': 120.7,
+    'open': 120.7,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 400.0,
+    'vwap': 120.7}}
+2025-07-31 12:05:06 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:05:06 INFO: Current average volume is: 668.83
+2025-07-31 12:05:06 INFO: Updated resistance to: 121.32 and support to: 120.55
+2025-07-31 12:06:06 INFO: {'XPO': {   'close': 120.65,
+    'high': 120.65,
+    'low': 120.65,
+    'open': 120.65,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 144.0,
+    'vwap': 120.65}}
+2025-07-31 12:06:06 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:06:06 INFO: Current average volume is: 628.46
+2025-07-31 12:06:06 INFO: Updated resistance to: 121.32 and support to: 120.55
+2025-07-31 12:07:06 INFO: {'XPO': {   'close': 120.55,
+    'high': 120.6,
+    'low': 120.55,
+    'open': 120.6,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 763.0,
+    'vwap': 120.580303}}
+2025-07-31 12:07:06 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:07:06 INFO: Current average volume is: 638.07
+2025-07-31 12:09:07 INFO: {'XPO': {   'close': 120.56,
+    'high': 120.56,
+    'low': 120.56,
+    'open': 120.56,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 253.0,
+    'vwap': 120.56}}
+2025-07-31 12:09:07 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:09:07 INFO: Current average volume is: 612.4
+2025-07-31 12:09:07 INFO: Updated resistance to: 121.32 and support to: 120.55
+2025-07-31 12:10:07 INFO: {'XPO': {   'close': 120.545,
+    'high': 120.545,
+    'low': 120.545,
+    'open': 120.545,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 114.0,
+    'vwap': 120.545}}
+2025-07-31 12:10:07 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:10:07 INFO: Current average volume is: 581.25
+2025-07-31 12:10:07 INFO: close price: 120.545 just dropped below support of 120.55...
+2025-07-31 12:11:07 INFO: {'XPO': {   'close': 120.655,
+    'high': 120.655,
+    'low': 120.655,
+    'open': 120.655,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 353.0,
+    'vwap': 120.655}}
+2025-07-31 12:11:07 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:11:07 INFO: Current average volume is: 567.82
+2025-07-31 12:11:07 INFO: Updated resistance to: 121.32 and support to: 120.55
+2025-07-31 12:12:07 INFO: {'XPO': {   'close': 120.565,
+    'high': 120.61,
+    'low': 120.565,
+    'open': 120.61,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 671.0,
+    'vwap': 120.5875}}
+2025-07-31 12:12:07 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:12:07 INFO: Current average volume is: 573.56
+2025-07-31 12:12:07 INFO: Updated resistance to: 121.32 and support to: 120.55
+2025-07-31 12:15:07 INFO: {'XPO': {   'close': 120.7,
+    'high': 120.7,
+    'low': 120.7,
+    'open': 120.7,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 240.0,
+    'vwap': 120.7}}
+2025-07-31 12:15:07 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:15:07 INFO: Current average volume is: 556.0
+2025-07-31 12:15:07 INFO: Updated resistance to: 121.32 and support to: 120.55
+2025-07-31 12:16:07 INFO: {'XPO': {   'close': 120.665,
+    'high': 120.71,
+    'low': 120.665,
+    'open': 120.71,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 442.0,
+    'vwap': 120.68}}
+2025-07-31 12:16:07 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:16:07 INFO: Current average volume is: 550.3
+2025-07-31 12:16:07 INFO: Updated resistance to: 121.32 and support to: 120.55
+2025-07-31 12:18:08 INFO: {'XPO': {   'close': 120.48,
+    'high': 120.48,
+    'low': 120.48,
+    'open': 120.48,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 105.0,
+    'vwap': 120.48}}
+2025-07-31 12:18:08 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:18:08 INFO: Current average volume is: 529.1
+2025-07-31 12:18:08 INFO: close price: 120.48 just dropped below support of 120.55...
+2025-07-31 12:21:08 INFO: {'XPO': {   'close': 120.24,
+    'high': 120.515,
+    'low': 120.24,
+    'open': 120.515,
+    'symbol': 'XPO',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 368.0,
+    'vwap': 120.3775}}
+2025-07-31 12:21:08 INFO: Current resistance is: 121.32 and support is: 120.55
+2025-07-31 12:21:08 INFO: Current average volume is: 521.77
+2025-07-31 12:21:08 INFO: Closing price: 120.24 just dropped below support 120.55 again...ending trade...

@@ -1,0 +1,1633 @@
+2025-07-31 10:20:03 INFO: === Strategy started ===
+2025-07-31 10:20:03 INFO: Start collecting the current highs/lows for: TMDX
+2025-07-31 10:20:03 INFO: Most recent stock data: {'TMDX': {   'close': 120.63,
+    'high': 120.63,
+    'low': 120.63,
+    'open': 120.63,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 524.0,
+    'vwap': 120.63}}
+2025-07-31 10:22:04 INFO: Most recent stock data: {'TMDX': {   'close': 120.91,
+    'high': 120.91,
+    'low': 120.91,
+    'open': 120.91,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 250.0,
+    'vwap': 120.91}}
+2025-07-31 10:23:04 INFO: Most recent stock data: {'TMDX': {   'close': 120.97,
+    'high': 120.97,
+    'low': 120.97,
+    'open': 120.97,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 245.0,
+    'vwap': 120.97}}
+2025-07-31 10:26:04 INFO: Most recent stock data: {'TMDX': {   'close': 119.93,
+    'high': 119.93,
+    'low': 119.93,
+    'open': 119.93,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 239.0,
+    'vwap': 119.93}}
+2025-07-31 10:28:05 INFO: Most recent stock data: {'TMDX': {   'close': 120.805,
+    'high': 120.805,
+    'low': 120.805,
+    'open': 120.805,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 120.805}}
+2025-07-31 10:29:05 INFO: Most recent stock data: {'TMDX': {   'close': 121.135,
+    'high': 121.135,
+    'low': 121.135,
+    'open': 121.135,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 423.0,
+    'vwap': 121.135}}
+2025-07-31 10:30:05 INFO: Most recent stock data: {'TMDX': {   'close': 120.05,
+    'high': 120.105,
+    'low': 120.05,
+    'open': 120.105,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 288.0,
+    'vwap': 120.0775}}
+2025-07-31 10:31:05 INFO: Most recent stock data: {'TMDX': {   'close': 120.19,
+    'high': 120.19,
+    'low': 120.19,
+    'open': 120.19,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 126.0,
+    'vwap': 120.19}}
+2025-07-31 10:35:05 INFO: Most recent stock data: {'TMDX': {   'close': 118.91,
+    'high': 118.91,
+    'low': 118.91,
+    'open': 118.91,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 105.0,
+    'vwap': 118.91}}
+2025-07-31 10:36:06 INFO: Most recent stock data: {'TMDX': {   'close': 119.435,
+    'high': 119.435,
+    'low': 119.435,
+    'open': 119.435,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 264.0,
+    'vwap': 119.435}}
+2025-07-31 10:37:11 INFO: Most recent stock data: {'TMDX': {   'close': 120.415,
+    'high': 120.5,
+    'low': 120.41,
+    'open': 120.41,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 771.0,
+    'vwap': 120.431}}
+2025-07-31 10:37:11 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 10:37:11 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-31 10:41:11 INFO: {'TMDX': {   'close': 118.915,
+    'high': 119.45,
+    'low': 118.915,
+    'open': 119.45,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 370.0,
+    'vwap': 119.093333}}
+2025-07-31 10:41:11 INFO: Current resistance is: 120.431 and support is: 118.544
+2025-07-31 10:41:11 INFO: Current average volume is: 269.25
+2025-07-31 10:41:11 INFO: Updated resistance to: 120.269 and support to: 118.321
+2025-07-31 10:43:12 INFO: {'TMDX': {   'close': 119.64,
+    'high': 119.64,
+    'low': 119.64,
+    'open': 119.64,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 225.0,
+    'vwap': 119.64}}
+2025-07-31 10:43:12 INFO: Current resistance is: 120.269 and support is: 118.321
+2025-07-31 10:43:12 INFO: Current average volume is: 265.85
+2025-07-31 10:43:12 INFO: Updated resistance to: 120.197 and support to: 118.24
+2025-07-31 10:47:12 INFO: {'TMDX': {   'close': 118.99,
+    'high': 118.99,
+    'low': 118.99,
+    'open': 118.99,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 495.0,
+    'vwap': 118.99}}
+2025-07-31 10:47:12 INFO: Current resistance is: 120.197 and support is: 118.24
+2025-07-31 10:47:12 INFO: Current average volume is: 282.21
+2025-07-31 10:47:12 INFO: Updated resistance to: 119.979 and support to: 118.069
+2025-07-31 10:48:12 INFO: {'TMDX': {   'close': 119.0,
+    'high': 119.0,
+    'low': 119.0,
+    'open': 119.0,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 119.0}}
+2025-07-31 10:48:12 INFO: Current resistance is: 119.979 and support is: 118.069
+2025-07-31 10:48:12 INFO: Current average volume is: 270.07
+2025-07-31 10:48:12 INFO: Updated resistance to: 119.813 and support to: 117.926
+2025-07-31 10:49:12 INFO: {'TMDX': {   'close': 119.01,
+    'high': 119.01,
+    'low': 119.01,
+    'open': 119.01,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 539.0,
+    'vwap': 119.01}}
+2025-07-31 10:49:12 INFO: Current resistance is: 119.813 and support is: 117.926
+2025-07-31 10:49:12 INFO: Current average volume is: 286.88
+2025-07-31 10:49:12 INFO: Updated resistance to: 119.688 and support to: 117.81
+2025-07-31 10:50:12 INFO: {'TMDX': {   'close': 120.095,
+    'high': 120.15,
+    'low': 120.095,
+    'open': 120.15,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 662.0,
+    'vwap': 120.11246}}
+2025-07-31 10:50:12 INFO: Current resistance is: 119.688 and support is: 117.81
+2025-07-31 10:50:12 INFO: Current average volume is: 308.94
+2025-07-31 10:50:12 INFO: The Current Close 120.095 is above the resistance...
+2025-07-31 10:50:12 INFO: Updated resistance to: 119.86 and support to: 117.907
+2025-07-31 10:57:14 INFO: {'TMDX': {   'close': 122.64,
+    'high': 122.835,
+    'low': 122.63,
+    'open': 122.66,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 1877.0,
+    'vwap': 122.742197}}
+2025-07-31 10:57:14 INFO: Current resistance is: 119.86 and support is: 117.907
+2025-07-31 10:57:14 INFO: Current average volume is: 396.06
+2025-07-31 10:57:14 INFO: The current close: 122.64 is above the resistance of 119.86, but volume isn't enough...
+2025-07-31 10:57:14 INFO: Updated resistance to: 122.796 and support to: 118.443
+2025-07-31 10:59:14 INFO: {'TMDX': {   'close': 122.53,
+    'high': 122.53,
+    'low': 122.53,
+    'open': 122.53,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 374.0,
+    'vwap': 122.53}}
+2025-07-31 10:59:14 INFO: Current resistance is: 122.796 and support is: 118.443
+2025-07-31 10:59:14 INFO: Current average volume is: 394.89
+2025-07-31 10:59:14 INFO: Updated resistance to: 122.843 and support to: 118.897
+2025-07-31 11:00:15 INFO: {'TMDX': {   'close': 121.13,
+    'high': 121.13,
+    'low': 121.13,
+    'open': 121.13,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 104.0,
+    'vwap': 121.13}}
+2025-07-31 11:00:15 INFO: Current resistance is: 122.843 and support is: 118.897
+2025-07-31 11:00:15 INFO: Current average volume is: 380.35
+2025-07-31 11:00:15 INFO: Updated resistance to: 122.882 and support to: 119.054
+2025-07-31 11:02:15 INFO: {'TMDX': {   'close': 121.095,
+    'high': 121.095,
+    'low': 121.095,
+    'open': 121.095,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 206.0,
+    'vwap': 121.095}}
+2025-07-31 11:02:15 INFO: Current resistance is: 122.882 and support is: 119.054
+2025-07-31 11:02:15 INFO: Current average volume is: 372.05
+2025-07-31 11:02:15 INFO: Updated resistance to: 122.93 and support to: 119.185
+2025-07-31 11:03:15 INFO: {'TMDX': {   'close': 121.47,
+    'high': 121.47,
+    'low': 121.47,
+    'open': 121.47,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 121.47}}
+2025-07-31 11:03:15 INFO: Current resistance is: 122.93 and support is: 119.185
+2025-07-31 11:03:15 INFO: Current average volume is: 359.73
+2025-07-31 11:03:15 INFO: Updated resistance to: 123.005 and support to: 119.361
+2025-07-31 11:04:15 INFO: {'TMDX': {   'close': 121.06,
+    'high': 121.06,
+    'low': 121.06,
+    'open': 121.06,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 265.0,
+    'vwap': 121.06}}
+2025-07-31 11:04:15 INFO: Current resistance is: 123.005 and support is: 119.361
+2025-07-31 11:04:15 INFO: Current average volume is: 355.61
+2025-07-31 11:04:15 INFO: Updated resistance to: 123.056 and support to: 119.447
+2025-07-31 11:06:15 INFO: {'TMDX': {   'close': 121.57,
+    'high': 121.57,
+    'low': 121.36,
+    'open': 121.36,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 657.0,
+    'vwap': 121.496667}}
+2025-07-31 11:06:15 INFO: Current resistance is: 123.056 and support is: 119.447
+2025-07-31 11:06:15 INFO: Current average volume is: 368.17
+2025-07-31 11:06:15 INFO: Updated resistance to: 123.142 and support to: 119.569
+2025-07-31 11:07:15 INFO: {'TMDX': {   'close': 122.295,
+    'high': 122.295,
+    'low': 121.93,
+    'open': 122.06,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 616.0,
+    'vwap': 122.08375}}
+2025-07-31 11:07:15 INFO: Current resistance is: 123.142 and support is: 119.569
+2025-07-31 11:07:15 INFO: Current average volume is: 378.08
+2025-07-31 11:07:15 INFO: Updated resistance to: 123.28 and support to: 119.765
+2025-07-31 11:09:16 INFO: {'TMDX': {   'close': 122.59,
+    'high': 122.59,
+    'low': 122.59,
+    'open': 122.59,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 252.0,
+    'vwap': 122.59}}
+2025-07-31 11:09:16 INFO: Current resistance is: 123.28 and support is: 119.765
+2025-07-31 11:09:16 INFO: Current average volume is: 373.23
+2025-07-31 11:09:16 INFO: Updated resistance to: 123.437 and support to: 120.038
+2025-07-31 11:13:16 INFO: {'TMDX': {   'close': 121.97,
+    'high': 121.97,
+    'low': 121.97,
+    'open': 121.97,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 121.97}}
+2025-07-31 11:13:16 INFO: Current resistance is: 123.437 and support is: 120.038
+2025-07-31 11:13:16 INFO: Current average volume is: 364.04
+2025-07-31 11:13:16 INFO: Updated resistance to: 123.538 and support to: 120.184
+2025-07-31 11:14:16 INFO: {'TMDX': {   'close': 122.92,
+    'high': 122.93,
+    'low': 122.81,
+    'open': 122.81,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 808.0,
+    'vwap': 122.874}}
+2025-07-31 11:14:16 INFO: Current resistance is: 123.538 and support is: 120.184
+2025-07-31 11:14:16 INFO: Current average volume is: 379.89
+2025-07-31 11:14:16 INFO: Updated resistance to: 123.01 and support to: 120.436
+2025-07-31 11:16:16 INFO: {'TMDX': {   'close': 121.905,
+    'high': 121.905,
+    'low': 121.905,
+    'open': 121.905,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 121.905}}
+2025-07-31 11:16:16 INFO: Current resistance is: 123.01 and support is: 120.436
+2025-07-31 11:16:16 INFO: Current average volume is: 370.24
+2025-07-31 11:16:16 INFO: Updated resistance to: 123.089 and support to: 120.527
+2025-07-31 11:19:17 INFO: {'TMDX': {   'close': 122.115,
+    'high': 122.115,
+    'low': 122.115,
+    'open': 122.115,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 528.0,
+    'vwap': 122.115}}
+2025-07-31 11:19:17 INFO: Current resistance is: 123.089 and support is: 120.527
+2025-07-31 11:19:17 INFO: Current average volume is: 375.5
+2025-07-31 11:19:17 INFO: Updated resistance to: 123.171 and support to: 120.635
+2025-07-31 11:20:17 INFO: {'TMDX': {   'close': 122.24,
+    'high': 122.44,
+    'low': 122.23,
+    'open': 122.31,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1556.0,
+    'vwap': 122.292}}
+2025-07-31 11:20:17 INFO: Current resistance is: 123.171 and support is: 120.635
+2025-07-31 11:20:17 INFO: Current average volume is: 413.58
+2025-07-31 11:20:17 INFO: Updated resistance to: 123.26 and support to: 120.745
+2025-07-31 11:21:17 INFO: {'TMDX': {   'close': 121.765,
+    'high': 121.87,
+    'low': 121.62,
+    'open': 121.87,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1507.0,
+    'vwap': 121.725948}}
+2025-07-31 11:21:17 INFO: Current resistance is: 123.26 and support is: 120.745
+2025-07-31 11:21:17 INFO: Current average volume is: 447.75
+2025-07-31 11:21:17 INFO: Updated resistance to: 123.333 and support to: 120.758
+2025-07-31 11:22:17 INFO: {'TMDX': {   'close': 122.52,
+    'high': 122.52,
+    'low': 122.32,
+    'open': 122.32,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 608.0,
+    'vwap': 122.446667}}
+2025-07-31 11:22:17 INFO: Current resistance is: 123.333 and support is: 120.758
+2025-07-31 11:22:17 INFO: Current average volume is: 452.61
+2025-07-31 11:22:17 INFO: Updated resistance to: 123.422 and support to: 120.86
+2025-07-31 11:24:17 INFO: {'TMDX': {   'close': 122.35,
+    'high': 122.36,
+    'low': 122.35,
+    'open': 122.36,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 290.0,
+    'vwap': 122.355}}
+2025-07-31 11:24:17 INFO: Current resistance is: 123.422 and support is: 120.86
+2025-07-31 11:24:17 INFO: Current average volume is: 447.82
+2025-07-31 11:24:17 INFO: Updated resistance to: 123.504 and support to: 120.954
+2025-07-31 11:26:18 INFO: {'TMDX': {   'close': 121.775,
+    'high': 121.775,
+    'low': 121.775,
+    'open': 121.775,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 224.0,
+    'vwap': 121.775}}
+2025-07-31 11:26:18 INFO: Current resistance is: 123.504 and support is: 120.954
+2025-07-31 11:26:18 INFO: Current average volume is: 441.43
+2025-07-31 11:26:18 INFO: Updated resistance to: 123.56 and support to: 120.962
+2025-07-31 11:29:18 INFO: {'TMDX': {   'close': 122.79,
+    'high': 122.79,
+    'low': 121.98,
+    'open': 121.98,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 831.0,
+    'vwap': 122.123333}}
+2025-07-31 11:29:18 INFO: Current resistance is: 123.56 and support is: 120.962
+2025-07-31 11:29:18 INFO: Current average volume is: 452.25
+2025-07-31 11:29:18 INFO: Updated resistance to: 123.653 and support to: 120.993
+2025-07-31 11:34:19 INFO: {'TMDX': {   'close': 122.45,
+    'high': 122.45,
+    'low': 122.45,
+    'open': 122.45,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 418.0,
+    'vwap': 122.45}}
+2025-07-31 11:34:19 INFO: Current resistance is: 123.653 and support is: 120.993
+2025-07-31 11:34:19 INFO: Current average volume is: 451.32
+2025-07-31 11:34:19 INFO: Updated resistance to: 123.728 and support to: 121.077
+2025-07-31 11:35:19 INFO: {'TMDX': {   'close': 121.6,
+    'high': 122.19,
+    'low': 121.6,
+    'open': 122.13,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 904.0,
+    'vwap': 122.025}}
+2025-07-31 11:35:19 INFO: Current resistance is: 123.728 and support is: 121.077
+2025-07-31 11:35:19 INFO: Current average volume is: 463.24
+2025-07-31 11:35:19 INFO: Updated resistance to: 123.788 and support to: 121.048
+2025-07-31 11:37:19 INFO: {'TMDX': {   'close': 120.705,
+    'high': 121.13,
+    'low': 120.41,
+    'open': 120.41,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 2084.0,
+    'vwap': 120.835081}}
+2025-07-31 11:37:19 INFO: Current resistance is: 123.788 and support is: 121.048
+2025-07-31 11:37:19 INFO: Current average volume is: 504.79
+2025-07-31 11:37:19 INFO: close price: 120.705 just dropped below support of 121.048...
+2025-07-31 11:38:19 INFO: {'TMDX': {   'close': 120.7,
+    'high': 120.7,
+    'low': 120.7,
+    'open': 120.7,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 121.0,
+    'vwap': 120.7}}
+2025-07-31 11:38:19 INFO: Current resistance is: 123.788 and support is: 121.048
+2025-07-31 11:38:19 INFO: Current average volume is: 495.2
+2025-07-31 11:38:19 INFO: Closing price: 120.7 just dropped below support 121.048 again...ending trade...
+2025-07-31 11:50:04 INFO: === Strategy started ===
+2025-07-31 11:50:04 INFO: Start collecting the current highs/lows for: TMDX
+2025-07-31 11:50:04 INFO: Most recent stock data: {'TMDX': {   'close': 121.27,
+    'high': 121.305,
+    'low': 121.27,
+    'open': 121.305,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 357.0,
+    'vwap': 121.2875}}
+2025-07-31 11:51:04 INFO: Most recent stock data: {'TMDX': {   'close': 121.255,
+    'high': 121.255,
+    'low': 121.255,
+    'open': 121.255,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 121.255}}
+2025-07-31 11:52:04 INFO: Most recent stock data: {'TMDX': {   'close': 121.41,
+    'high': 121.41,
+    'low': 121.41,
+    'open': 121.41,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 157.0,
+    'vwap': 121.41}}
+2025-07-31 11:54:05 INFO: Most recent stock data: {'TMDX': {   'close': 121.345,
+    'high': 121.365,
+    'low': 121.24,
+    'open': 121.24,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1136.0,
+    'vwap': 121.324737}}
+2025-07-31 11:57:05 INFO: Most recent stock data: {'TMDX': {   'close': 121.41,
+    'high': 121.41,
+    'low': 121.27,
+    'open': 121.27,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 574.0,
+    'vwap': 121.355455}}
+2025-07-31 11:58:05 INFO: Most recent stock data: {'TMDX': {   'close': 121.61,
+    'high': 121.61,
+    'low': 121.6,
+    'open': 121.6,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 473.0,
+    'vwap': 121.606667}}
+2025-07-31 11:59:05 INFO: Most recent stock data: {'TMDX': {   'close': 121.5,
+    'high': 121.5,
+    'low': 121.35,
+    'open': 121.35,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1093.0,
+    'vwap': 121.477143}}
+2025-07-31 12:04:06 INFO: Most recent stock data: {'TMDX': {   'close': 122.325,
+    'high': 122.325,
+    'low': 121.63,
+    'open': 121.63,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 989.0,
+    'vwap': 121.9775}}
+2025-07-31 12:09:06 INFO: Most recent stock data: {'TMDX': {   'close': 122.16,
+    'high': 122.16,
+    'low': 122.16,
+    'open': 122.16,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 102.0,
+    'vwap': 122.16}}
+2025-07-31 12:10:07 INFO: Most recent stock data: {'TMDX': {   'close': 122.45,
+    'high': 122.45,
+    'low': 122.45,
+    'open': 122.45,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 535.0,
+    'vwap': 122.45}}
+2025-07-31 12:12:07 INFO: Most recent stock data: {'TMDX': {   'close': 122.87,
+    'high': 122.87,
+    'low': 122.72,
+    'open': 122.72,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 850.0,
+    'vwap': 122.776667}}
+2025-07-31 12:12:07 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 12:12:07 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-31 12:15:07 INFO: {'TMDX': {   'close': 123.27,
+    'high': 123.27,
+    'low': 122.6,
+    'open': 122.6,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 439.0,
+    'vwap': 122.93125}}
+2025-07-31 12:15:07 INFO: Current resistance is: 123.023 and support is: 122.341
+2025-07-31 12:15:07 INFO: Current average volume is: 541.5
+2025-07-31 12:15:07 INFO: The Current Close 123.27 is above the resistance...
+2025-07-31 12:15:07 INFO: Updated resistance to: 123.445 and support to: 122.515
+2025-07-31 12:16:08 INFO: {'TMDX': {   'close': 123.11,
+    'high': 123.11,
+    'low': 123.11,
+    'open': 123.11,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 314.0,
+    'vwap': 123.11}}
+2025-07-31 12:16:08 INFO: Current resistance is: 123.445 and support is: 122.515
+2025-07-31 12:16:08 INFO: Current average volume is: 524.0
+2025-07-31 12:16:08 INFO: Updated resistance to: 123.624 and support to: 122.803
+2025-07-31 12:17:08 INFO: {'TMDX': {   'close': 123.23,
+    'high': 123.23,
+    'low': 123.23,
+    'open': 123.23,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 123.23}}
+2025-07-31 12:17:08 INFO: Current resistance is: 123.624 and support is: 122.803
+2025-07-31 12:17:08 INFO: Current average volume is: 493.71
+2025-07-31 12:17:08 INFO: Updated resistance to: 123.8 and support to: 123.049
+2025-07-31 12:18:08 INFO: {'TMDX': {   'close': 123.59,
+    'high': 123.59,
+    'low': 123.59,
+    'open': 123.59,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 319.0,
+    'vwap': 123.59}}
+2025-07-31 12:18:08 INFO: Current resistance is: 123.8 and support is: 123.049
+2025-07-31 12:18:08 INFO: Current average volume is: 482.07
+2025-07-31 12:18:08 INFO: Updated resistance to: 123.771 and support to: 123.335
+2025-07-31 12:20:08 INFO: {'TMDX': {   'close': 123.155,
+    'high': 123.485,
+    'low': 123.155,
+    'open': 123.46,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2324.0,
+    'vwap': 123.27262}}
+2025-07-31 12:20:08 INFO: Current resistance is: 123.771 and support is: 123.335
+2025-07-31 12:20:08 INFO: Current average volume is: 597.19
+2025-07-31 12:20:08 INFO: close price: 123.155 just dropped below support of 123.335...
+2025-07-31 12:21:08 INFO: {'TMDX': {   'close': 123.3,
+    'high': 123.3,
+    'low': 123.29,
+    'open': 123.29,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 316.0,
+    'vwap': 123.296764}}
+2025-07-31 12:21:08 INFO: Current resistance is: 123.771 and support is: 123.335
+2025-07-31 12:21:08 INFO: Current average volume is: 580.65
+2025-07-31 12:21:08 INFO: Closing price: 123.3 just dropped below support 123.335 again...ending trade...
+2025-07-31 12:35:05 INFO: === Strategy started ===
+2025-07-31 12:35:05 INFO: Start collecting the current highs/lows for: TMDX
+2025-07-31 12:35:05 INFO: Most recent stock data: {'TMDX': {   'close': 123.165,
+    'high': 123.24,
+    'low': 123.165,
+    'open': 123.24,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 237.0,
+    'vwap': 123.2025}}
+2025-07-31 12:39:06 INFO: Most recent stock data: {'TMDX': {   'close': 122.69,
+    'high': 122.69,
+    'low': 122.64,
+    'open': 122.68,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 384.0,
+    'vwap': 122.67}}
+2025-07-31 12:40:06 INFO: Most recent stock data: {'TMDX': {   'close': 123.21,
+    'high': 123.21,
+    'low': 122.83,
+    'open': 122.83,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1161.0,
+    'vwap': 123.017404}}
+2025-07-31 12:42:06 INFO: Most recent stock data: {'TMDX': {   'close': 123.48,
+    'high': 123.58,
+    'low': 123.245,
+    'open': 123.245,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 963.0,
+    'vwap': 123.408396}}
+2025-07-31 12:45:06 INFO: Most recent stock data: {'TMDX': {   'close': 123.3,
+    'high': 124.0,
+    'low': 123.3,
+    'open': 124.0,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 487.0,
+    'vwap': 123.65}}
+2025-07-31 12:46:06 INFO: Most recent stock data: {'TMDX': {   'close': 123.545,
+    'high': 123.545,
+    'low': 123.545,
+    'open': 123.545,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 250.0,
+    'vwap': 123.545}}
+2025-07-31 12:51:07 INFO: Most recent stock data: {'TMDX': {   'close': 123.44,
+    'high': 123.44,
+    'low': 123.38,
+    'open': 123.38,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 432.0,
+    'vwap': 123.41}}
+2025-07-31 12:55:07 INFO: Most recent stock data: {'TMDX': {   'close': 123.23,
+    'high': 123.23,
+    'low': 123.23,
+    'open': 123.23,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 503.0,
+    'vwap': 123.23}}
+2025-07-31 12:56:08 INFO: Most recent stock data: {'TMDX': {   'close': 123.48,
+    'high': 123.485,
+    'low': 123.41,
+    'open': 123.41,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 480.0,
+    'vwap': 123.46375}}
+2025-07-31 12:59:08 INFO: Most recent stock data: {'TMDX': {   'close': 123.195,
+    'high': 123.195,
+    'low': 123.195,
+    'open': 123.195,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 348.0,
+    'vwap': 123.195}}
+2025-07-31 13:01:08 INFO: Most recent stock data: {'TMDX': {   'close': 123.46,
+    'high': 123.46,
+    'low': 123.46,
+    'open': 123.46,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 457.0,
+    'vwap': 123.46}}
+2025-07-31 13:01:08 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 13:01:08 INFO: no pattern detected...collecting more data points...
+2025-07-31 13:02:08 INFO: Most recent stock data: {'TMDX': {   'close': 123.59,
+    'high': 123.59,
+    'low': 123.59,
+    'open': 123.59,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 123.59}}
+2025-07-31 13:02:08 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 13:02:08 INFO: no pattern detected...collecting more data points...
+2025-07-31 13:05:09 INFO: Most recent stock data: {'TMDX': {   'close': 123.435,
+    'high': 123.435,
+    'low': 123.435,
+    'open': 123.435,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 389.0,
+    'vwap': 123.435}}
+2025-07-31 13:05:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 13:05:09 INFO: no pattern detected...collecting more data points...
+2025-07-31 13:06:09 INFO: Most recent stock data: {'TMDX': {   'close': 123.37,
+    'high': 123.37,
+    'low': 123.37,
+    'open': 123.37,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 340.0,
+    'vwap': 123.37}}
+2025-07-31 13:06:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 13:06:09 INFO: no pattern detected...collecting more data points...
+2025-07-31 13:07:09 INFO: Most recent stock data: {'TMDX': {   'close': 123.38,
+    'high': 123.38,
+    'low': 123.34,
+    'open': 123.34,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 427.0,
+    'vwap': 123.366667}}
+2025-07-31 13:07:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 13:07:09 INFO: no pattern detected...collecting more data points...
+2025-07-31 13:08:09 INFO: Most recent stock data: {'TMDX': {   'close': 123.32,
+    'high': 123.4,
+    'low': 123.32,
+    'open': 123.4,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 819.0,
+    'vwap': 123.364}}
+2025-07-31 13:08:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 13:08:09 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-31 13:10:09 INFO: {'TMDX': {   'close': 123.145,
+    'high': 123.15,
+    'low': 123.145,
+    'open': 123.15,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 245.0,
+    'vwap': 123.1475}}
+2025-07-31 13:10:09 INFO: Current resistance is: 124.0 and support is: 122.64
+2025-07-31 13:10:09 INFO: Current average volume is: 457.94
+2025-07-31 13:10:09 INFO: Updated resistance to: 124.0 and support to: 122.64
+2025-07-31 13:13:10 INFO: {'TMDX': {   'close': 122.055,
+    'high': 122.055,
+    'low': 122.055,
+    'open': 122.055,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 224.0,
+    'vwap': 122.055}}
+2025-07-31 13:13:10 INFO: Current resistance is: 124.0 and support is: 122.64
+2025-07-31 13:13:10 INFO: Current average volume is: 444.94
+2025-07-31 13:13:10 INFO: close price: 122.055 just dropped below support of 122.64...
+2025-07-31 13:15:10 INFO: {'TMDX': {   'close': 122.5,
+    'high': 122.5,
+    'low': 121.77,
+    'open': 121.77,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 560.0,
+    'vwap': 122.156667}}
+2025-07-31 13:15:10 INFO: Current resistance is: 124.0 and support is: 122.64
+2025-07-31 13:15:10 INFO: Current average volume is: 451.0
+2025-07-31 13:15:10 INFO: Closing price: 122.5 just dropped below support 122.64 again...ending trade...
+2025-07-31 13:50:06 INFO: === Strategy started ===
+2025-07-31 13:50:06 INFO: Start collecting the current highs/lows for: TMDX
+2025-07-31 13:50:06 INFO: Most recent stock data: {'TMDX': {   'close': 121.6,
+    'high': 121.6,
+    'low': 121.6,
+    'open': 121.6,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 149.0,
+    'vwap': 121.6}}
+2025-07-31 13:51:06 INFO: Most recent stock data: {'TMDX': {   'close': 121.55,
+    'high': 121.55,
+    'low': 120.92,
+    'open': 120.92,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 930.0,
+    'vwap': 121.2025}}
+2025-07-31 13:56:07 INFO: Most recent stock data: {'TMDX': {   'close': 121.01,
+    'high': 121.21,
+    'low': 120.91,
+    'open': 121.21,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 845.0,
+    'vwap': 121.002}}
+2025-07-31 13:57:07 INFO: Most recent stock data: {'TMDX': {   'close': 120.795,
+    'high': 120.795,
+    'low': 120.795,
+    'open': 120.795,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 404.0,
+    'vwap': 120.795}}
+2025-07-31 14:01:08 INFO: Most recent stock data: {'TMDX': {   'close': 121.31,
+    'high': 121.31,
+    'low': 121.31,
+    'open': 121.31,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 281.0,
+    'vwap': 121.31}}
+2025-07-31 14:02:08 INFO: Most recent stock data: {'TMDX': {   'close': 121.45,
+    'high': 121.45,
+    'low': 121.45,
+    'open': 121.45,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 297.0,
+    'vwap': 121.45}}
+2025-07-31 14:04:08 INFO: Most recent stock data: {'TMDX': {   'close': 121.13,
+    'high': 121.13,
+    'low': 121.13,
+    'open': 121.13,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 298.0,
+    'vwap': 121.13}}
+2025-07-31 14:05:08 INFO: Most recent stock data: {'TMDX': {   'close': 120.955,
+    'high': 121.055,
+    'low': 120.955,
+    'open': 121.03,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 789.0,
+    'vwap': 120.990299}}
+2025-07-31 14:09:09 INFO: Most recent stock data: {'TMDX': {   'close': 121.44,
+    'high': 121.44,
+    'low': 121.16,
+    'open': 121.16,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 252.0,
+    'vwap': 121.3}}
+2025-07-31 14:20:07 INFO: === Strategy started ===
+2025-07-31 14:20:07 INFO: Start collecting the current highs/lows for: TMDX
+2025-07-31 14:20:07 INFO: Most recent stock data: {'TMDX': {   'close': 121.43,
+    'high': 121.43,
+    'low': 121.43,
+    'open': 121.43,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 315.0,
+    'vwap': 121.43}}
+2025-07-31 14:23:07 INFO: Most recent stock data: {'TMDX': {   'close': 121.65,
+    'high': 121.65,
+    'low': 121.65,
+    'open': 121.65,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 231.0,
+    'vwap': 121.65}}
+2025-07-31 14:24:08 INFO: Most recent stock data: {'TMDX': {   'close': 122.14,
+    'high': 122.14,
+    'low': 122.14,
+    'open': 122.14,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 300.0,
+    'vwap': 122.14}}
+2025-07-31 14:25:08 INFO: Most recent stock data: {'TMDX': {   'close': 122.07,
+    'high': 122.07,
+    'low': 122.07,
+    'open': 122.07,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 165.0,
+    'vwap': 122.07}}
+2025-07-31 14:27:08 INFO: Most recent stock data: {'TMDX': {   'close': 122.055,
+    'high': 122.055,
+    'low': 122.055,
+    'open': 122.055,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 332.0,
+    'vwap': 122.055}}
+2025-07-31 14:28:08 INFO: Most recent stock data: {'TMDX': {   'close': 121.88,
+    'high': 121.88,
+    'low': 121.81,
+    'open': 121.81,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 513.0,
+    'vwap': 121.845}}
+2025-07-31 14:33:09 INFO: Most recent stock data: {'TMDX': {   'close': 121.23,
+    'high': 121.23,
+    'low': 121.23,
+    'open': 121.23,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 169.0,
+    'vwap': 121.23}}
+2025-07-31 14:35:09 INFO: Most recent stock data: {'TMDX': {   'close': 120.32,
+    'high': 120.32,
+    'low': 120.32,
+    'open': 120.32,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 356.0,
+    'vwap': 120.32}}
+2025-07-31 14:37:09 INFO: Most recent stock data: {'TMDX': {   'close': 119.68,
+    'high': 119.68,
+    'low': 119.36,
+    'open': 119.36,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 304.0,
+    'vwap': 119.52}}
+2025-07-31 14:39:09 INFO: Most recent stock data: {'TMDX': {   'close': 119.19,
+    'high': 119.57,
+    'low': 119.19,
+    'open': 119.57,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 340.0,
+    'vwap': 119.38}}
+2025-07-31 14:40:09 INFO: Most recent stock data: {'TMDX': {   'close': 118.81,
+    'high': 118.81,
+    'low': 118.81,
+    'open': 118.81,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 564.0,
+    'vwap': 118.81}}
+2025-07-31 14:40:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-31 14:40:09 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-31 14:41:10 INFO: {'TMDX': {   'close': 118.5,
+    'high': 118.915,
+    'low': 118.5,
+    'open': 118.915,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 443.0,
+    'vwap': 118.81125}}
+2025-07-31 14:41:10 INFO: Current resistance is: 119.43 and support is: 118.486
+2025-07-31 14:41:10 INFO: Current average volume is: 309.75
+2025-07-31 14:41:10 INFO: Updated resistance to: 119.027 and support to: 118.158
+2025-07-31 14:42:10 INFO: {'TMDX': {   'close': 118.86,
+    'high': 118.86,
+    'low': 118.61,
+    'open': 118.61,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 301.0,
+    'vwap': 118.735}}
+2025-07-31 14:42:10 INFO: Current resistance is: 119.027 and support is: 118.158
+2025-07-31 14:42:10 INFO: Current average volume is: 309.08
+2025-07-31 14:42:10 INFO: Updated resistance to: 118.742 and support to: 117.824
+2025-07-31 14:44:10 INFO: {'TMDX': {   'close': 119.96,
+    'high': 119.96,
+    'low': 119.65,
+    'open': 119.65,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1093.0,
+    'vwap': 119.781121}}
+2025-07-31 14:44:10 INFO: Current resistance is: 118.742 and support is: 117.824
+2025-07-31 14:44:10 INFO: Current average volume is: 365.07
+2025-07-31 14:44:10 INFO: The Current Close 119.96 is above the resistance...
+2025-07-31 14:44:10 INFO: Updated resistance to: 118.933 and support to: 117.612
+2025-07-31 14:46:11 INFO: {'TMDX': {   'close': 120.435,
+    'high': 120.435,
+    'low': 120.435,
+    'open': 120.435,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 120.435}}
+2025-07-31 14:46:11 INFO: Current resistance is: 118.933 and support is: 117.612
+2025-07-31 14:46:11 INFO: Current average volume is: 354.07
+2025-07-31 14:46:11 INFO: The current close: 120.435 is above the resistance of 118.933, but volume isn't enough...
+2025-07-31 14:46:11 INFO: Updated resistance to: 119.26 and support to: 117.532
+2025-07-31 14:47:11 INFO: {'TMDX': {   'close': 120.11,
+    'high': 120.11,
+    'low': 120.11,
+    'open': 120.11,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 226.0,
+    'vwap': 120.11}}
+2025-07-31 14:47:11 INFO: Current resistance is: 119.26 and support is: 117.532
+2025-07-31 14:47:11 INFO: Current average volume is: 346.06
+2025-07-31 14:47:11 INFO: The current close: 120.11 is above the resistance of 119.26, but volume isn't enough...
+2025-07-31 14:47:11 INFO: Updated resistance to: 119.434 and support to: 117.463
+2025-07-31 14:54:13 INFO: {'TMDX': {   'close': 119.26,
+    'high': 119.27,
+    'low': 119.26,
+    'open': 119.27,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 305.0,
+    'vwap': 119.265}}
+2025-07-31 14:54:13 INFO: Current resistance is: 119.434 and support is: 117.463
+2025-07-31 14:54:13 INFO: Current average volume is: 343.65
+2025-07-31 14:54:13 INFO: Updated resistance to: 119.342 and support to: 117.321
+2025-07-31 14:55:13 INFO: {'TMDX': {   'close': 119.37,
+    'high': 119.37,
+    'low': 119.37,
+    'open': 119.37,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 170.0,
+    'vwap': 119.37}}
+2025-07-31 14:55:13 INFO: Current resistance is: 119.342 and support is: 117.321
+2025-07-31 14:55:13 INFO: Current average volume is: 334.0
+2025-07-31 14:55:13 INFO: The Current Close 119.37 is above the resistance...
+2025-07-31 14:55:13 INFO: Updated resistance to: 119.311 and support to: 117.217
+2025-07-31 14:56:13 INFO: {'TMDX': {   'close': 119.34,
+    'high': 119.34,
+    'low': 119.34,
+    'open': 119.34,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 394.0,
+    'vwap': 119.34}}
+2025-07-31 14:56:13 INFO: Current resistance is: 119.311 and support is: 117.217
+2025-07-31 14:56:13 INFO: Current average volume is: 337.16
+2025-07-31 14:56:13 INFO: The current close: 119.34 is above the resistance of 119.311, but volume isn't enough...
+2025-07-31 14:56:13 INFO: Updated resistance to: 119.293 and support to: 117.128
+2025-07-31 14:57:13 INFO: {'TMDX': {   'close': 120.18,
+    'high': 120.18,
+    'low': 120.18,
+    'open': 120.18,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 417.0,
+    'vwap': 120.18}}
+2025-07-31 14:57:13 INFO: Current resistance is: 119.293 and support is: 117.128
+2025-07-31 14:57:13 INFO: Current average volume is: 341.15
+2025-07-31 14:57:13 INFO: The current close: 120.18 is above the resistance of 119.293, but volume isn't enough...
+2025-07-31 14:57:13 INFO: Updated resistance to: 119.506 and support to: 117.164
+2025-07-31 15:01:14 INFO: {'TMDX': {   'close': 119.52,
+    'high': 119.52,
+    'low': 119.52,
+    'open': 119.52,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 238.0,
+    'vwap': 119.52}}
+2025-07-31 15:01:14 INFO: Current resistance is: 119.506 and support is: 117.164
+2025-07-31 15:01:14 INFO: Current average volume is: 336.24
+2025-07-31 15:01:14 INFO: The current close: 119.52 is above the resistance of 119.506, but volume isn't enough...
+2025-07-31 15:01:14 INFO: Updated resistance to: 119.531 and support to: 117.12
+2025-07-31 15:02:14 INFO: {'TMDX': {   'close': 119.74,
+    'high': 119.74,
+    'low': 119.74,
+    'open': 119.74,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 718.0,
+    'vwap': 119.74}}
+2025-07-31 15:02:14 INFO: Current resistance is: 119.531 and support is: 117.12
+2025-07-31 15:02:14 INFO: Current average volume is: 353.59
+2025-07-31 15:02:14 INFO: The current close: 119.74 is above the resistance of 119.531, but volume isn't enough...
+2025-07-31 15:02:14 INFO: Updated resistance to: 119.613 and support to: 117.115
+2025-07-31 15:03:15 INFO: {'TMDX': {   'close': 120.025,
+    'high': 120.025,
+    'low': 120.025,
+    'open': 120.025,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 190.0,
+    'vwap': 120.025}}
+2025-07-31 15:03:15 INFO: Current resistance is: 119.613 and support is: 117.115
+2025-07-31 15:03:15 INFO: Current average volume is: 346.48
+2025-07-31 15:03:15 INFO: The current close: 120.025 is above the resistance of 119.613, but volume isn't enough...
+2025-07-31 15:03:15 INFO: Updated resistance to: 119.756 and support to: 117.152
+2025-07-31 15:05:15 INFO: {'TMDX': {   'close': 119.91,
+    'high': 119.91,
+    'low': 119.91,
+    'open': 119.91,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 320.0,
+    'vwap': 119.91}}
+2025-07-31 15:05:15 INFO: Current resistance is: 119.756 and support is: 117.152
+2025-07-31 15:05:15 INFO: Current average volume is: 345.38
+2025-07-31 15:05:15 INFO: The current close: 119.91 is above the resistance of 119.756, but volume isn't enough...
+2025-07-31 15:05:15 INFO: Updated resistance to: 119.86 and support to: 117.176
+2025-07-31 15:07:16 INFO: {'TMDX': {   'close': 119.61,
+    'high': 119.61,
+    'low': 119.61,
+    'open': 119.61,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 119.61}}
+2025-07-31 15:07:16 INFO: Current resistance is: 119.86 and support is: 117.176
+2025-07-31 15:07:16 INFO: Current average volume is: 335.56
+2025-07-31 15:07:16 INFO: Updated resistance to: 119.891 and support to: 117.163
+2025-07-31 15:08:16 INFO: {'TMDX': {   'close': 119.6,
+    'high': 119.6,
+    'low': 119.6,
+    'open': 119.6,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 106.0,
+    'vwap': 119.6}}
+2025-07-31 15:08:16 INFO: Current resistance is: 119.891 and support is: 117.163
+2025-07-31 15:08:16 INFO: Current average volume is: 326.73
+2025-07-31 15:08:16 INFO: Updated resistance to: 119.922 and support to: 117.154
+2025-07-31 15:09:16 INFO: {'TMDX': {   'close': 119.62,
+    'high': 119.62,
+    'low': 119.605,
+    'open': 119.605,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 320.0,
+    'vwap': 119.6125}}
+2025-07-31 15:09:16 INFO: Current resistance is: 119.922 and support is: 117.154
+2025-07-31 15:09:16 INFO: Current average volume is: 326.48
+2025-07-31 15:09:16 INFO: Updated resistance to: 119.959 and support to: 117.148
+2025-07-31 15:11:16 INFO: {'TMDX': {   'close': 119.73,
+    'high': 119.73,
+    'low': 119.73,
+    'open': 119.73,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 283.0,
+    'vwap': 119.73}}
+2025-07-31 15:11:16 INFO: Current resistance is: 119.959 and support is: 117.148
+2025-07-31 15:11:16 INFO: Current average volume is: 324.93
+2025-07-31 15:11:16 INFO: Updated resistance to: 120.017 and support to: 117.162
+2025-07-31 15:13:16 INFO: {'TMDX': {   'close': 119.64,
+    'high': 119.64,
+    'low': 119.64,
+    'open': 119.64,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 341.0,
+    'vwap': 119.64}}
+2025-07-31 15:13:16 INFO: Current resistance is: 120.017 and support is: 117.162
+2025-07-31 15:13:16 INFO: Current average volume is: 325.48
+2025-07-31 15:13:16 INFO: Updated resistance to: 120.055 and support to: 117.166
+2025-07-31 15:14:16 INFO: {'TMDX': {   'close': 119.635,
+    'high': 119.635,
+    'low': 119.635,
+    'open': 119.635,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 497.0,
+    'vwap': 119.635}}
+2025-07-31 15:14:16 INFO: Current resistance is: 120.055 and support is: 117.166
+2025-07-31 15:14:16 INFO: Current average volume is: 331.2
+2025-07-31 15:14:16 INFO: Updated resistance to: 120.092 and support to: 117.171
+2025-07-31 15:15:17 INFO: {'TMDX': {   'close': 119.125,
+    'high': 119.125,
+    'low': 118.735,
+    'open': 118.735,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 528.0,
+    'vwap': 118.93}}
+2025-07-31 15:15:17 INFO: Current resistance is: 120.092 and support is: 117.171
+2025-07-31 15:15:17 INFO: Current average volume is: 337.55
+2025-07-31 15:15:17 INFO: Updated resistance to: 120.039 and support to: 117.069
+2025-07-31 15:17:17 INFO: {'TMDX': {   'close': 119.51,
+    'high': 119.51,
+    'low': 119.26,
+    'open': 119.26,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 576.0,
+    'vwap': 119.31}}
+2025-07-31 15:17:17 INFO: Current resistance is: 120.039 and support is: 117.069
+2025-07-31 15:17:17 INFO: Current average volume is: 345.0
+2025-07-31 15:17:17 INFO: Updated resistance to: 120.062 and support to: 117.041
+2025-07-31 15:19:17 INFO: {'TMDX': {   'close': 119.86,
+    'high': 119.86,
+    'low': 119.86,
+    'open': 119.86,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 337.0,
+    'vwap': 119.86}}
+2025-07-31 15:19:17 INFO: Current resistance is: 120.062 and support is: 117.041
+2025-07-31 15:19:17 INFO: Current average volume is: 344.76
+2025-07-31 15:19:17 INFO: Updated resistance to: 120.144 and support to: 117.088
+2025-07-31 15:20:17 INFO: {'TMDX': {   'close': 120.0,
+    'high': 120.0,
+    'low': 119.8,
+    'open': 119.8,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 250.0,
+    'vwap': 119.9}}
+2025-07-31 15:20:17 INFO: Current resistance is: 120.144 and support is: 117.088
+2025-07-31 15:20:17 INFO: Current average volume is: 341.97
+2025-07-31 15:20:17 INFO: Updated resistance to: 120.242 and support to: 117.126
+2025-07-31 15:22:17 INFO: {'TMDX': {   'close': 119.44,
+    'high': 119.84,
+    'low': 119.44,
+    'open': 119.84,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 597.0,
+    'vwap': 119.564}}
+2025-07-31 15:22:17 INFO: Current resistance is: 120.242 and support is: 117.126
+2025-07-31 15:22:17 INFO: Current average volume is: 349.26
+2025-07-31 15:22:17 INFO: Updated resistance to: 120.308 and support to: 117.121
+2025-07-31 15:26:18 INFO: {'TMDX': {   'close': 119.39,
+    'high': 119.39,
+    'low': 119.39,
+    'open': 119.39,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 201.0,
+    'vwap': 119.39}}
+2025-07-31 15:26:18 INFO: Current resistance is: 120.308 and support is: 117.121
+2025-07-31 15:26:18 INFO: Current average volume is: 345.14
+2025-07-31 15:26:18 INFO: Updated resistance to: 120.3 and support to: 117.112
+2025-07-31 15:27:18 INFO: {'TMDX': {   'close': 119.53,
+    'high': 119.535,
+    'low': 119.33,
+    'open': 119.33,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 830.0,
+    'vwap': 119.44}}
+2025-07-31 15:27:18 INFO: Current resistance is: 120.3 and support is: 117.112
+2025-07-31 15:27:18 INFO: Current average volume is: 358.24
+2025-07-31 15:27:18 INFO: Updated resistance to: 120.318 and support to: 117.099
+2025-07-31 15:28:18 INFO: {'TMDX': {   'close': 119.16,
+    'high': 119.16,
+    'low': 119.16,
+    'open': 119.16,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 110.0,
+    'vwap': 119.16}}
+2025-07-31 15:28:18 INFO: Current resistance is: 120.318 and support is: 117.099
+2025-07-31 15:28:18 INFO: Current average volume is: 351.71
+2025-07-31 15:28:18 INFO: Updated resistance to: 120.281 and support to: 117.07
+2025-07-31 15:29:18 INFO: {'TMDX': {   'close': 119.51,
+    'high': 119.51,
+    'low': 119.205,
+    'open': 119.205,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 227.0,
+    'vwap': 119.3575}}
+2025-07-31 15:29:18 INFO: Current resistance is: 120.281 and support is: 117.07
+2025-07-31 15:29:18 INFO: Current average volume is: 348.51
+2025-07-31 15:29:18 INFO: Updated resistance to: 120.301 and support to: 117.05
+2025-07-31 15:30:18 INFO: {'TMDX': {   'close': 119.34,
+    'high': 119.34,
+    'low': 119.34,
+    'open': 119.34,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 155.0,
+    'vwap': 119.34}}
+2025-07-31 15:30:18 INFO: Current resistance is: 120.301 and support is: 117.05
+2025-07-31 15:30:18 INFO: Current average volume is: 343.68
+2025-07-31 15:30:18 INFO: Updated resistance to: 120.297 and support to: 117.047
+2025-07-31 15:32:19 INFO: {'TMDX': {   'close': 119.23,
+    'high': 119.23,
+    'low': 119.145,
+    'open': 119.145,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 661.0,
+    'vwap': 119.185375}}
+2025-07-31 15:32:19 INFO: Current resistance is: 120.297 and support is: 117.047
+2025-07-31 15:32:19 INFO: Current average volume is: 351.41
+2025-07-31 15:32:19 INFO: Updated resistance to: 120.28 and support to: 117.025
+2025-07-31 15:34:19 INFO: {'TMDX': {   'close': 119.19,
+    'high': 119.19,
+    'low': 119.19,
+    'open': 119.19,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 255.0,
+    'vwap': 119.19}}
+2025-07-31 15:34:19 INFO: Current resistance is: 120.28 and support is: 117.025
+2025-07-31 15:34:19 INFO: Current average volume is: 349.12
+2025-07-31 15:34:19 INFO: Updated resistance to: 120.262 and support to: 117.011
+2025-07-31 15:35:19 INFO: {'TMDX': {   'close': 118.57,
+    'high': 119.065,
+    'low': 118.57,
+    'open': 119.065,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 649.0,
+    'vwap': 118.8825}}
+2025-07-31 15:35:19 INFO: Current resistance is: 120.262 and support is: 117.011
+2025-07-31 15:35:19 INFO: Current average volume is: 356.09
+2025-07-31 15:35:19 INFO: Updated resistance to: 120.231 and support to: 116.936
+2025-07-31 15:36:19 INFO: {'TMDX': {   'close': 118.78,
+    'high': 118.78,
+    'low': 118.77,
+    'open': 118.77,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 674.0,
+    'vwap': 118.773333}}
+2025-07-31 15:36:19 INFO: Current resistance is: 120.231 and support is: 116.936
+2025-07-31 15:36:19 INFO: Current average volume is: 363.32
+2025-07-31 15:36:19 INFO: Updated resistance to: 120.168 and support to: 116.888
+2025-07-31 15:38:19 INFO: {'TMDX': {   'close': 118.865,
+    'high': 118.865,
+    'low': 118.86,
+    'open': 118.86,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 397.0,
+    'vwap': 118.863333}}
+2025-07-31 15:38:19 INFO: Current resistance is: 120.168 and support is: 116.888
+2025-07-31 15:38:19 INFO: Current average volume is: 364.07
+2025-07-31 15:38:19 INFO: Updated resistance to: 120.123 and support to: 116.854
+2025-07-31 15:42:20 INFO: {'TMDX': {   'close': 118.61,
+    'high': 118.8,
+    'low': 118.61,
+    'open': 118.8,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1733.0,
+    'vwap': 118.705833}}
+2025-07-31 15:42:20 INFO: Current resistance is: 120.123 and support is: 116.854
+2025-07-31 15:42:20 INFO: Current average volume is: 393.83
+2025-07-31 15:42:20 INFO: Updated resistance to: 120.076 and support to: 116.799
+2025-07-31 15:43:20 INFO: {'TMDX': {   'close': 117.99,
+    'high': 118.61,
+    'low': 117.99,
+    'open': 118.61,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 794.0,
+    'vwap': 118.461667}}
+2025-07-31 15:43:20 INFO: Current resistance is: 120.076 and support is: 116.799
+2025-07-31 15:43:20 INFO: Current average volume is: 402.34
+2025-07-31 15:43:20 INFO: Updated resistance to: 120.011 and support to: 117.94
+2025-07-31 15:44:20 INFO: {'TMDX': {   'close': 118.19,
+    'high': 118.19,
+    'low': 117.845,
+    'open': 117.845,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1280.0,
+    'vwap': 118.007121}}
+2025-07-31 15:44:20 INFO: Current resistance is: 120.011 and support is: 117.94
+2025-07-31 15:44:20 INFO: Current average volume is: 420.62
+2025-07-31 15:44:20 INFO: Updated resistance to: 119.904 and support to: 117.793
+2025-07-31 15:45:20 INFO: {'TMDX': {   'close': 118.52,
+    'high': 118.52,
+    'low': 118.385,
+    'open': 118.44,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1231.0,
+    'vwap': 118.474471}}
+2025-07-31 15:45:20 INFO: Current resistance is: 119.904 and support is: 117.793
+2025-07-31 15:45:20 INFO: Current average volume is: 437.16
+2025-07-31 15:45:20 INFO: Updated resistance to: 119.846 and support to: 117.741
+2025-07-31 15:46:20 INFO: {'TMDX': {   'close': 118.95,
+    'high': 119.29,
+    'low': 118.88,
+    'open': 118.88,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 824.0,
+    'vwap': 118.960672}}
+2025-07-31 15:46:20 INFO: Current resistance is: 119.846 and support is: 117.741
+2025-07-31 15:46:20 INFO: Current average volume is: 444.9
+2025-07-31 15:46:20 INFO: Updated resistance to: 119.88 and support to: 117.692
+2025-07-31 15:47:20 INFO: {'TMDX': {   'close': 118.875,
+    'high': 118.935,
+    'low': 118.875,
+    'open': 118.935,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 492.0,
+    'vwap': 118.892446}}
+2025-07-31 15:47:20 INFO: Current resistance is: 119.88 and support is: 117.692
+2025-07-31 15:47:20 INFO: Current average volume is: 445.82
+2025-07-31 15:47:20 INFO: Updated resistance to: 119.875 and support to: 117.646
+2025-07-31 15:48:20 INFO: {'TMDX': {   'close': 118.84,
+    'high': 119.02,
+    'low': 118.82,
+    'open': 119.02,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1270.0,
+    'vwap': 118.945947}}
+2025-07-31 15:48:20 INFO: Current resistance is: 119.875 and support is: 117.646
+2025-07-31 15:48:20 INFO: Current average volume is: 461.67
+2025-07-31 15:48:20 INFO: Updated resistance to: 119.88 and support to: 117.602
+2025-07-31 15:49:21 INFO: {'TMDX': {   'close': 119.22,
+    'high': 119.23,
+    'low': 118.81,
+    'open': 118.81,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1693.0,
+    'vwap': 119.1015}}
+2025-07-31 15:49:21 INFO: Current resistance is: 119.88 and support is: 117.602
+2025-07-31 15:49:21 INFO: Current average volume is: 484.91
+2025-07-31 15:49:21 INFO: Updated resistance to: 119.909 and support to: 117.559
+2025-07-31 15:50:21 INFO: {'TMDX': {   'close': 118.995,
+    'high': 119.17,
+    'low': 118.995,
+    'open': 119.07,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1105.0,
+    'vwap': 119.073846}}
+2025-07-31 15:50:21 INFO: Current resistance is: 119.909 and support is: 117.559
+2025-07-31 15:50:21 INFO: Current average volume is: 496.39
+2025-07-31 15:50:21 INFO: Updated resistance to: 119.932 and support to: 117.521
+2025-07-31 15:51:21 INFO: {'TMDX': {   'close': 119.97,
+    'high': 119.97,
+    'low': 119.135,
+    'open': 119.23,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 1707.0,
+    'vwap': 119.600455}}
+2025-07-31 15:51:21 INFO: Current resistance is: 119.932 and support is: 117.521
+2025-07-31 15:51:21 INFO: Current average volume is: 518.4
+2025-07-31 15:51:21 INFO: The Current Close 119.97 is above the resistance...
+2025-07-31 15:51:21 INFO: Updated resistance to: 120.036 and support to: 117.488
+2025-07-31 15:52:21 INFO: {'TMDX': {   'close': 120.03,
+    'high': 120.03,
+    'low': 119.82,
+    'open': 119.89,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1527.0,
+    'vwap': 119.907273}}
+2025-07-31 15:52:21 INFO: Current resistance is: 120.036 and support is: 117.488
+2025-07-31 15:52:21 INFO: Current average volume is: 536.41
+2025-07-31 15:52:21 INFO: Updated resistance to: 120.141 and support to: 117.468
+2025-07-31 15:53:21 INFO: {'TMDX': {   'close': 119.85,
+    'high': 119.99,
+    'low': 119.635,
+    'open': 119.95,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2576.0,
+    'vwap': 119.848882}}
+2025-07-31 15:53:21 INFO: Current resistance is: 120.141 and support is: 117.468
+2025-07-31 15:53:21 INFO: Current average volume is: 572.19
+2025-07-31 15:53:21 INFO: Updated resistance to: 120.236 and support to: 117.449
+2025-07-31 15:54:21 INFO: {'TMDX': {   'close': 119.44,
+    'high': 119.44,
+    'low': 119.195,
+    'open': 119.195,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2133.0,
+    'vwap': 119.389143}}
+2025-07-31 15:54:21 INFO: Current resistance is: 120.236 and support is: 117.449
+2025-07-31 15:54:21 INFO: Current average volume is: 599.1
+2025-07-31 15:54:21 INFO: Updated resistance to: 120.272 and support to: 117.424
+2025-07-31 15:55:21 INFO: {'TMDX': {   'close': 119.86,
+    'high': 120.0,
+    'low': 119.6,
+    'open': 119.84,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2189.0,
+    'vwap': 119.740145}}
+2025-07-31 15:55:21 INFO: Current resistance is: 120.272 and support is: 117.424
+2025-07-31 15:55:21 INFO: Current average volume is: 626.05
+2025-07-31 15:55:21 INFO: Updated resistance to: 120.36 and support to: 117.409
+2025-07-31 15:57:22 INFO: {'TMDX': {   'close': 119.06,
+    'high': 119.68,
+    'low': 119.06,
+    'open': 119.605,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 2952.0,
+    'vwap': 119.52351}}
+2025-07-31 15:57:22 INFO: Current resistance is: 120.36 and support is: 117.409
+2025-07-31 15:57:22 INFO: Current average volume is: 664.82
+2025-07-31 15:57:22 INFO: Updated resistance to: 120.414 and support to: 117.385
+2025-07-31 15:58:22 INFO: {'TMDX': {   'close': 118.69,
+    'high': 119.0,
+    'low': 118.645,
+    'open': 119.0,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2235.0,
+    'vwap': 118.752623}}
+2025-07-31 15:58:22 INFO: Current resistance is: 120.414 and support is: 117.385
+2025-07-31 15:58:22 INFO: Current average volume is: 690.56
+2025-07-31 15:58:22 INFO: Updated resistance to: 120.401 and support to: 117.353
+2025-07-31 15:59:22 INFO: {'TMDX': {   'close': 118.71,
+    'high': 118.89,
+    'low': 118.71,
+    'open': 118.86,
+    'symbol': 'TMDX',
+    'timestamp': datetime.datetime(2025, 7, 31, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1256.0,
+    'vwap': 118.812941}}
+2025-07-31 15:59:22 INFO: Current resistance is: 120.401 and support is: 117.353
+2025-07-31 15:59:22 INFO: Current average volume is: 699.68
+2025-07-31 15:59:22 INFO: Updated resistance to: 120.38 and support to: 117.324
+2025-07-31 16:00:22 INFO: The Market is closed...

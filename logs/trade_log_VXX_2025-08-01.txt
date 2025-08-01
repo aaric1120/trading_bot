@@ -1,0 +1,654 @@
+2025-08-01 13:29:49 INFO: === Strategy started ===
+2025-08-01 13:29:49 INFO: Start collecting the current highs/lows for: VXX
+2025-08-01 13:29:49 INFO: Most recent stock data: {'VXX': {   'close': 46.67,
+    'high': 46.67,
+    'low': 46.67,
+    'open': 46.67,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 460.0,
+    'vwap': 46.67}}
+2025-08-01 13:31:50 INFO: Most recent stock data: {'VXX': {   'close': 46.24,
+    'high': 46.51,
+    'low': 46.2,
+    'open': 46.51,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1089.0,
+    'vwap': 46.258}}
+2025-08-01 13:32:50 INFO: Most recent stock data: {'VXX': {   'close': 46.45,
+    'high': 46.45,
+    'low': 46.33,
+    'open': 46.33,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 329.0,
+    'vwap': 46.37}}
+2025-08-01 13:34:50 INFO: Most recent stock data: {'VXX': {   'close': 46.26,
+    'high': 46.44,
+    'low': 46.26,
+    'open': 46.43,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1199.0,
+    'vwap': 46.328182}}
+2025-08-01 13:35:50 INFO: Most recent stock data: {'VXX': {   'close': 46.31,
+    'high': 46.31,
+    'low': 46.29,
+    'open': 46.31,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 474.0,
+    'vwap': 46.3}}
+2025-08-01 13:36:50 INFO: Most recent stock data: {'VXX': {   'close': 46.51,
+    'high': 46.52,
+    'low': 46.46,
+    'open': 46.46,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 46.498}}
+2025-08-01 13:37:50 INFO: Most recent stock data: {'VXX': {   'close': 46.67,
+    'high': 46.67,
+    'low': 46.56,
+    'open': 46.6,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1366.0,
+    'vwap': 46.598462}}
+2025-08-01 13:38:51 INFO: Most recent stock data: {'VXX': {   'close': 46.71,
+    'high': 46.71,
+    'low': 46.67,
+    'open': 46.7,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1160.0,
+    'vwap': 46.694545}}
+2025-08-01 13:40:51 INFO: Most recent stock data: {'VXX': {   'close': 46.73,
+    'high': 46.78,
+    'low': 46.7,
+    'open': 46.73,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1600.0,
+    'vwap': 46.723271}}
+2025-08-01 13:41:51 INFO: Most recent stock data: {'VXX': {   'close': 46.56,
+    'high': 46.73,
+    'low': 46.55,
+    'open': 46.73,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1272.0,
+    'vwap': 46.635217}}
+2025-08-01 13:42:51 INFO: Most recent stock data: {'VXX': {   'close': 46.6,
+    'high': 46.6,
+    'low': 46.6,
+    'open': 46.6,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 46.6}}
+2025-08-01 13:42:51 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 13:42:51 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-01 13:43:51 INFO: {'VXX': {   'close': 46.45,
+    'high': 46.57,
+    'low': 46.45,
+    'open': 46.57,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 741.0,
+    'vwap': 46.51}}
+2025-08-01 13:43:51 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:43:51 INFO: Current average volume is: 835.83
+2025-08-01 13:43:51 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:44:51 INFO: {'VXX': {   'close': 46.52,
+    'high': 46.52,
+    'low': 46.48,
+    'open': 46.48,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 260.0,
+    'vwap': 46.5}}
+2025-08-01 13:44:51 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:44:51 INFO: Current average volume is: 791.54
+2025-08-01 13:44:51 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:45:52 INFO: {'VXX': {   'close': 46.6,
+    'high': 46.6,
+    'low': 46.59,
+    'open': 46.6,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 937.0,
+    'vwap': 46.597778}}
+2025-08-01 13:45:52 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:45:52 INFO: Current average volume is: 801.93
+2025-08-01 13:45:52 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:46:52 INFO: {'VXX': {   'close': 46.55,
+    'high': 46.62,
+    'low': 46.52,
+    'open': 46.62,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 46.552}}
+2025-08-01 13:46:52 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:46:52 INFO: Current average volume is: 781.8
+2025-08-01 13:46:52 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:47:52 INFO: {'VXX': {   'close': 46.66,
+    'high': 46.66,
+    'low': 46.53,
+    'open': 46.53,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 46.61}}
+2025-08-01 13:47:52 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:47:52 INFO: Current average volume is: 757.94
+2025-08-01 13:47:52 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:48:52 INFO: {'VXX': {   'close': 46.73,
+    'high': 46.73,
+    'low': 46.71,
+    'open': 46.71,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 305.0,
+    'vwap': 46.72}}
+2025-08-01 13:48:52 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:48:52 INFO: Current average volume is: 731.29
+2025-08-01 13:48:52 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:49:52 INFO: {'VXX': {   'close': 46.7,
+    'high': 46.7,
+    'low': 46.7,
+    'open': 46.7,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 46.7}}
+2025-08-01 13:49:52 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:49:52 INFO: Current average volume is: 696.22
+2025-08-01 13:49:52 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:50:52 INFO: {'VXX': {   'close': 46.55,
+    'high': 46.65,
+    'low': 46.55,
+    'open': 46.65,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1026.0,
+    'vwap': 46.6}}
+2025-08-01 13:50:52 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:50:52 INFO: Current average volume is: 713.58
+2025-08-01 13:50:52 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:51:52 INFO: {'VXX': {   'close': 46.35,
+    'high': 46.5,
+    'low': 46.34,
+    'open': 46.49,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1627.0,
+    'vwap': 46.428125}}
+2025-08-01 13:51:52 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:51:52 INFO: Current average volume is: 759.25
+2025-08-01 13:51:52 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:52:52 INFO: {'VXX': {   'close': 46.4,
+    'high': 46.4,
+    'low': 46.37,
+    'open': 46.37,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 904.0,
+    'vwap': 46.386667}}
+2025-08-01 13:52:52 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:52:52 INFO: Current average volume is: 766.14
+2025-08-01 13:52:52 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:53:53 INFO: {'VXX': {   'close': 46.41,
+    'high': 46.42,
+    'low': 46.33,
+    'open': 46.36,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1401.0,
+    'vwap': 46.369231}}
+2025-08-01 13:53:53 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:53:53 INFO: Current average volume is: 795.0
+2025-08-01 13:53:53 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:54:53 INFO: {'VXX': {   'close': 46.48,
+    'high': 46.48,
+    'low': 46.42,
+    'open': 46.44,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 503.0,
+    'vwap': 46.456}}
+2025-08-01 13:54:53 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:54:53 INFO: Current average volume is: 782.3
+2025-08-01 13:54:53 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:55:53 INFO: {'VXX': {   'close': 46.51,
+    'high': 46.56,
+    'low': 46.46,
+    'open': 46.48,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1429.0,
+    'vwap': 46.502857}}
+2025-08-01 13:55:53 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:55:53 INFO: Current average volume is: 809.25
+2025-08-01 13:55:53 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:56:53 INFO: {'VXX': {   'close': 46.65,
+    'high': 46.65,
+    'low': 46.55,
+    'open': 46.55,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 636.0,
+    'vwap': 46.6}}
+2025-08-01 13:56:53 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:56:53 INFO: Current average volume is: 802.32
+2025-08-01 13:56:53 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:57:53 INFO: {'VXX': {   'close': 46.64,
+    'high': 46.68,
+    'low': 46.64,
+    'open': 46.68,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 455.0,
+    'vwap': 46.66}}
+2025-08-01 13:57:53 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:57:53 INFO: Current average volume is: 788.96
+2025-08-01 13:57:53 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:58:53 INFO: {'VXX': {   'close': 46.62,
+    'high': 46.63,
+    'low': 46.58,
+    'open': 46.63,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 950.0,
+    'vwap': 46.605714}}
+2025-08-01 13:58:53 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:58:53 INFO: Current average volume is: 794.93
+2025-08-01 13:58:53 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 13:59:53 INFO: {'VXX': {   'close': 46.6,
+    'high': 46.6,
+    'low': 46.6,
+    'open': 46.6,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 46.6}}
+2025-08-01 13:59:53 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 13:59:53 INFO: Current average volume is: 773.68
+2025-08-01 13:59:53 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 14:01:54 INFO: {'VXX': {   'close': 46.5,
+    'high': 46.55,
+    'low': 46.5,
+    'open': 46.55,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 703.0,
+    'vwap': 46.515714}}
+2025-08-01 14:01:54 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 14:01:54 INFO: Current average volume is: 771.24
+2025-08-01 14:01:54 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 14:03:54 INFO: {'VXX': {   'close': 46.63,
+    'high': 46.67,
+    'low': 46.63,
+    'open': 46.66,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 945.0,
+    'vwap': 46.651111}}
+2025-08-01 14:03:54 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 14:03:54 INFO: Current average volume is: 777.03
+2025-08-01 14:03:54 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 14:06:54 INFO: {'VXX': {   'close': 46.66,
+    'high': 46.69,
+    'low': 46.66,
+    'open': 46.69,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 46.675}}
+2025-08-01 14:06:54 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 14:06:54 INFO: Current average volume is: 758.45
+2025-08-01 14:06:54 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 14:07:54 INFO: {'VXX': {   'close': 46.58,
+    'high': 46.6,
+    'low': 46.58,
+    'open': 46.59,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 622.0,
+    'vwap': 46.59}}
+2025-08-01 14:07:54 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 14:07:54 INFO: Current average volume is: 754.19
+2025-08-01 14:07:54 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 14:08:55 INFO: {'VXX': {   'close': 46.67,
+    'high': 46.67,
+    'low': 46.59,
+    'open': 46.59,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 46.626}}
+2025-08-01 14:08:55 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 14:08:55 INFO: Current average volume is: 746.48
+2025-08-01 14:08:55 INFO: Updated resistance to: 46.78 and support to: 46.2
+2025-08-01 14:09:55 INFO: {'VXX': {   'close': 46.74,
+    'high': 46.8,
+    'low': 46.74,
+    'open': 46.74,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 678.0,
+    'vwap': 46.766667}}
+2025-08-01 14:09:55 INFO: Current resistance is: 46.78 and support is: 46.2
+2025-08-01 14:09:55 INFO: Current average volume is: 744.47
+2025-08-01 14:09:55 INFO: Updated resistance to: 46.8 and support to: 46.2
+2025-08-01 14:10:55 INFO: {'VXX': {   'close': 46.83,
+    'high': 46.93,
+    'low': 46.7,
+    'open': 46.72,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2456.0,
+    'vwap': 46.8405}}
+2025-08-01 14:10:55 INFO: Current resistance is: 46.8 and support is: 46.2
+2025-08-01 14:10:55 INFO: Current average volume is: 793.37
+2025-08-01 14:10:55 INFO: The Current Close 46.83 is above the resistance...
+2025-08-01 14:10:55 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:11:25 INFO: {'VXX': {   'close': 46.785,
+    'high': 46.83,
+    'low': 46.74,
+    'open': 46.83,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1643.0,
+    'vwap': 46.794357}}
+2025-08-01 14:11:25 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:11:25 INFO: Current average volume is: 816.97
+2025-08-01 14:11:25 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:12:25 INFO: {'VXX': {   'close': 46.84,
+    'high': 46.86,
+    'low': 46.81,
+    'open': 46.81,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 657.0,
+    'vwap': 46.829231}}
+2025-08-01 14:12:25 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:12:25 INFO: Current average volume is: 812.65
+2025-08-01 14:12:25 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:13:25 INFO: {'VXX': {   'close': 46.92,
+    'high': 46.92,
+    'low': 46.88,
+    'open': 46.88,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 946.0,
+    'vwap': 46.893333}}
+2025-08-01 14:13:25 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:13:25 INFO: Current average volume is: 816.16
+2025-08-01 14:13:25 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:14:25 INFO: {'VXX': {   'close': 46.85,
+    'high': 46.89,
+    'low': 46.85,
+    'open': 46.89,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 644.0,
+    'vwap': 46.871667}}
+2025-08-01 14:14:25 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:14:25 INFO: Current average volume is: 811.74
+2025-08-01 14:14:25 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:16:26 INFO: {'VXX': {   'close': 46.83,
+    'high': 46.9,
+    'low': 46.83,
+    'open': 46.9,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 602.0,
+    'vwap': 46.87}}
+2025-08-01 14:16:26 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:16:26 INFO: Current average volume is: 806.5
+2025-08-01 14:16:26 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:17:26 INFO: {'VXX': {   'close': 46.78,
+    'high': 46.79,
+    'low': 46.73,
+    'open': 46.77,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1750.0,
+    'vwap': 46.770588}}
+2025-08-01 14:17:26 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:17:26 INFO: Current average volume is: 829.51
+2025-08-01 14:17:26 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:18:26 INFO: {'VXX': {   'close': 46.69,
+    'high': 46.78,
+    'low': 46.69,
+    'open': 46.78,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1291.0,
+    'vwap': 46.742727}}
+2025-08-01 14:18:26 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:18:26 INFO: Current average volume is: 840.5
+2025-08-01 14:18:26 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:19:26 INFO: {'VXX': {   'close': 46.64,
+    'high': 46.7,
+    'low': 46.64,
+    'open': 46.7,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1146.0,
+    'vwap': 46.669412}}
+2025-08-01 14:19:26 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:19:26 INFO: Current average volume is: 847.6
+2025-08-01 14:19:26 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:20:26 INFO: {'VXX': {   'close': 46.61,
+    'high': 46.61,
+    'low': 46.57,
+    'open': 46.57,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1102.0,
+    'vwap': 46.586667}}
+2025-08-01 14:20:26 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:20:26 INFO: Current average volume is: 853.39
+2025-08-01 14:20:26 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:21:26 INFO: {'VXX': {   'close': 46.63,
+    'high': 46.64,
+    'low': 46.59,
+    'open': 46.62,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 800.0,
+    'vwap': 46.615}}
+2025-08-01 14:21:26 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:21:26 INFO: Current average volume is: 852.2
+2025-08-01 14:21:26 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:22:27 INFO: {'VXX': {   'close': 46.77,
+    'high': 46.78,
+    'low': 46.68,
+    'open': 46.68,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 46.735}}
+2025-08-01 14:22:27 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:22:27 INFO: Current average volume is: 842.37
+2025-08-01 14:22:27 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:23:27 INFO: {'VXX': {   'close': 46.62,
+    'high': 46.74,
+    'low': 46.62,
+    'open': 46.73,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1300.0,
+    'vwap': 46.67875}}
+2025-08-01 14:23:27 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:23:27 INFO: Current average volume is: 852.11
+2025-08-01 14:23:27 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:24:27 INFO: {'VXX': {   'close': 46.52,
+    'high': 46.63,
+    'low': 46.49,
+    'open': 46.63,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1266.0,
+    'vwap': 46.5432}}
+2025-08-01 14:24:27 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:24:27 INFO: Current average volume is: 860.73
+2025-08-01 14:24:27 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:25:27 INFO: {'VXX': {   'close': 46.44,
+    'high': 46.49,
+    'low': 46.44,
+    'open': 46.49,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 46.463333}}
+2025-08-01 14:25:27 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:25:27 INFO: Current average volume is: 849.29
+2025-08-01 14:25:27 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:26:27 INFO: {'VXX': {   'close': 46.41,
+    'high': 46.45,
+    'low': 46.41,
+    'open': 46.45,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 432.0,
+    'vwap': 46.44}}
+2025-08-01 14:26:27 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:26:27 INFO: Current average volume is: 840.94
+2025-08-01 14:26:27 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:27:27 INFO: {'VXX': {   'close': 46.31,
+    'high': 46.42,
+    'low': 46.31,
+    'open': 46.42,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1351.0,
+    'vwap': 46.38}}
+2025-08-01 14:27:27 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:27:27 INFO: Current average volume is: 850.94
+2025-08-01 14:27:27 INFO: Updated resistance to: 46.93 and support to: 46.2
+2025-08-01 14:28:27 INFO: {'VXX': {   'close': 46.2,
+    'high': 46.32,
+    'low': 46.2,
+    'open': 46.3,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2101.0,
+    'vwap': 46.302609}}
+2025-08-01 14:28:27 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:28:27 INFO: Current average volume is: 874.98
+2025-08-01 14:29:28 INFO: {'VXX': {   'close': 46.31,
+    'high': 46.31,
+    'low': 46.15,
+    'open': 46.15,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1423.0,
+    'vwap': 46.23}}
+2025-08-01 14:29:28 INFO: Current resistance is: 46.93 and support is: 46.2
+2025-08-01 14:29:28 INFO: Current average volume is: 885.32
+2025-08-01 14:29:28 INFO: Updated resistance to: 46.93 and support to: 46.15
+2025-08-01 14:30:28 INFO: {'VXX': {   'close': 46.27,
+    'high': 46.27,
+    'low': 46.27,
+    'open': 46.27,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 46.27}}
+2025-08-01 14:30:28 INFO: Current resistance is: 46.93 and support is: 46.15
+2025-08-01 14:30:28 INFO: Current average volume is: 876.33
+2025-08-01 14:30:28 INFO: Updated resistance to: 46.93 and support to: 46.15
+2025-08-01 14:31:28 INFO: {'VXX': {   'close': 46.15,
+    'high': 46.32,
+    'low': 46.15,
+    'open': 46.32,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1802.0,
+    'vwap': 46.266}}
+2025-08-01 14:31:28 INFO: Current resistance is: 46.93 and support is: 46.15
+2025-08-01 14:31:28 INFO: Current average volume is: 893.16
+2025-08-01 14:32:28 INFO: {'VXX': {   'close': 45.97,
+    'high': 46.06,
+    'low': 45.97,
+    'open': 46.06,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 909.0,
+    'vwap': 46.03}}
+2025-08-01 14:32:28 INFO: Current resistance is: 46.93 and support is: 46.15
+2025-08-01 14:32:28 INFO: Current average volume is: 893.45
+2025-08-01 14:32:28 INFO: close price: 45.97 just dropped below support of 46.15...
+2025-08-01 14:33:28 INFO: {'VXX': {   'close': 45.97,
+    'high': 45.99,
+    'low': 45.92,
+    'open': 45.99,
+    'symbol': 'VXX',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1237.0,
+    'vwap': 45.955}}
+2025-08-01 14:33:28 INFO: Current resistance is: 46.93 and support is: 46.15
+2025-08-01 14:33:28 INFO: Current average volume is: 899.47
+2025-08-01 14:33:28 INFO: Closing price: 45.97 just dropped below support 46.15 again...ending trade...

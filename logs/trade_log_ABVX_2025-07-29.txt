@@ -1,0 +1,283 @@
+2025-07-29 11:05:03 INFO: === Strategy started ===
+2025-07-29 11:05:03 INFO: Start collecting the current highs/lows for: ABVX
+2025-07-29 11:05:03 INFO: Most recent stock data: {'ABVX': {   'close': 69.405,
+    'high': 69.405,
+    'low': 69.405,
+    'open': 69.405,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 69.405}}
+2025-07-29 11:08:03 INFO: Most recent stock data: {'ABVX': {   'close': 70.015,
+    'high': 70.15,
+    'low': 69.98,
+    'open': 69.98,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 3133.0,
+    'vwap': 70.040254}}
+2025-07-29 11:09:03 INFO: Most recent stock data: {'ABVX': {   'close': 70.075,
+    'high': 70.075,
+    'low': 70.075,
+    'open': 70.075,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 982.0,
+    'vwap': 70.075}}
+2025-07-29 11:11:04 INFO: Most recent stock data: {'ABVX': {   'close': 69.965,
+    'high': 69.965,
+    'low': 69.9,
+    'open': 69.95,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 714.0,
+    'vwap': 69.94624}}
+2025-07-29 11:13:04 INFO: Most recent stock data: {'ABVX': {   'close': 69.815,
+    'high': 69.815,
+    'low': 69.815,
+    'open': 69.815,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 175.0,
+    'vwap': 69.815}}
+2025-07-29 11:16:04 INFO: Most recent stock data: {'ABVX': {   'close': 69.86,
+    'high': 69.86,
+    'low': 69.86,
+    'open': 69.86,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 69.86}}
+2025-07-29 11:17:04 INFO: Most recent stock data: {'ABVX': {   'close': 69.935,
+    'high': 69.935,
+    'low': 69.93,
+    'open': 69.93,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 341.0,
+    'vwap': 69.9325}}
+2025-07-29 11:18:04 INFO: Most recent stock data: {'ABVX': {   'close': 69.915,
+    'high': 69.915,
+    'low': 69.915,
+    'open': 69.915,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 69.915}}
+2025-07-29 11:19:05 INFO: Most recent stock data: {'ABVX': {   'close': 69.92,
+    'high': 70.055,
+    'low': 69.92,
+    'open': 70.01,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1100.0,
+    'vwap': 69.997727}}
+2025-07-29 11:20:05 INFO: Most recent stock data: {'ABVX': {   'close': 69.84,
+    'high': 69.895,
+    'low': 69.84,
+    'open': 69.895,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 69.876667}}
+2025-07-29 11:21:05 INFO: Most recent stock data: {'ABVX': {   'close': 69.83,
+    'high': 69.83,
+    'low': 69.83,
+    'open': 69.83,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 69.83}}
+2025-07-29 11:21:05 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-29 11:21:05 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-07-29 11:22:05 INFO: {'ABVX': {   'close': 69.725,
+    'high': 69.835,
+    'low': 69.725,
+    'open': 69.835,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 602.0,
+    'vwap': 69.807222}}
+2025-07-29 11:22:05 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:22:05 INFO: Current average volume is: 645.67
+2025-07-29 11:22:05 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:24:05 INFO: {'ABVX': {   'close': 69.66,
+    'high': 69.66,
+    'low': 69.56,
+    'open': 69.56,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1105.0,
+    'vwap': 69.631681}}
+2025-07-29 11:24:05 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:24:05 INFO: Current average volume is: 681.0
+2025-07-29 11:24:05 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:25:05 INFO: {'ABVX': {   'close': 69.6,
+    'high': 69.6,
+    'low': 69.52,
+    'open': 69.6,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 69.553333}}
+2025-07-29 11:25:05 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:25:05 INFO: Current average volume is: 675.21
+2025-07-29 11:25:05 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:26:05 INFO: {'ABVX': {   'close': 69.26,
+    'high': 69.545,
+    'low': 69.26,
+    'open': 69.49,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1175.0,
+    'vwap': 69.426054}}
+2025-07-29 11:26:05 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:26:05 INFO: Current average volume is: 708.53
+2025-07-29 11:26:05 INFO: close price: 69.26 just dropped below support of 69.405...
+2025-07-29 11:29:06 INFO: {'ABVX': {   'close': 69.515,
+    'high': 69.515,
+    'low': 69.5,
+    'open': 69.5,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 552.0,
+    'vwap': 69.505476}}
+2025-07-29 11:29:06 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:29:06 INFO: Current average volume is: 698.75
+2025-07-29 11:29:06 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:31:06 INFO: {'ABVX': {   'close': 69.79,
+    'high': 69.79,
+    'low': 69.64,
+    'open': 69.64,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 490.0,
+    'vwap': 69.680714}}
+2025-07-29 11:31:06 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:31:06 INFO: Current average volume is: 686.47
+2025-07-29 11:31:06 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:32:06 INFO: {'ABVX': {   'close': 69.745,
+    'high': 69.865,
+    'low': 69.74,
+    'open': 69.82,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1389.0,
+    'vwap': 69.794721}}
+2025-07-29 11:32:06 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:32:06 INFO: Current average volume is: 725.5
+2025-07-29 11:32:06 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:33:06 INFO: {'ABVX': {   'close': 69.845,
+    'high': 69.845,
+    'low': 69.845,
+    'open': 69.845,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 500.0,
+    'vwap': 69.845}}
+2025-07-29 11:33:06 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:33:06 INFO: Current average volume is: 713.63
+2025-07-29 11:33:06 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:36:07 INFO: {'ABVX': {   'close': 70.02,
+    'high': 70.02,
+    'low': 69.92,
+    'open': 69.92,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1207.0,
+    'vwap': 69.979685}}
+2025-07-29 11:36:07 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:36:07 INFO: Current average volume is: 738.3
+2025-07-29 11:36:07 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:37:07 INFO: {'ABVX': {   'close': 69.985,
+    'high': 69.985,
+    'low': 69.87,
+    'open': 69.98,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1735.0,
+    'vwap': 69.950856}}
+2025-07-29 11:37:07 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:37:07 INFO: Current average volume is: 785.76
+2025-07-29 11:37:07 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:38:07 INFO: {'ABVX': {   'close': 70.05,
+    'high': 70.05,
+    'low': 69.935,
+    'open': 69.935,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 980.0,
+    'vwap': 70.016667}}
+2025-07-29 11:38:07 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:38:07 INFO: Current average volume is: 794.59
+2025-07-29 11:38:07 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:39:07 INFO: {'ABVX': {   'close': 69.95,
+    'high': 69.95,
+    'low': 69.95,
+    'open': 69.95,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 360.0,
+    'vwap': 69.95}}
+2025-07-29 11:39:07 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:39:07 INFO: Current average volume is: 775.7
+2025-07-29 11:39:07 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:40:07 INFO: {'ABVX': {   'close': 69.765,
+    'high': 69.765,
+    'low': 69.765,
+    'open': 69.765,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 103.0,
+    'vwap': 69.765}}
+2025-07-29 11:40:07 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:40:07 INFO: Current average volume is: 747.67
+2025-07-29 11:40:07 INFO: Updated resistance to: 70.15 and support to: 69.405
+2025-07-29 11:43:08 INFO: {'ABVX': {   'close': 69.295,
+    'high': 69.68,
+    'low': 69.295,
+    'open': 69.68,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1157.0,
+    'vwap': 69.476469}}
+2025-07-29 11:43:08 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:43:08 INFO: Current average volume is: 764.04
+2025-07-29 11:43:08 INFO: close price: 69.295 just dropped below support of 69.405...
+2025-07-29 11:44:08 INFO: {'ABVX': {   'close': 68.86,
+    'high': 69.195,
+    'low': 68.86,
+    'open': 69.195,
+    'symbol': 'ABVX',
+    'timestamp': datetime.datetime(2025, 7, 29, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1017.0,
+    'vwap': 68.988583}}
+2025-07-29 11:44:08 INFO: Current resistance is: 70.15 and support is: 69.405
+2025-07-29 11:44:08 INFO: Current average volume is: 773.77
+2025-07-29 11:44:08 INFO: Closing price: 68.86 just dropped below support 69.405 again...ending trade...

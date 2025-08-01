@@ -1,0 +1,658 @@
+2025-08-01 13:29:49 INFO: === Strategy started ===
+2025-08-01 13:29:49 INFO: Start collecting the current highs/lows for: IR
+2025-08-01 13:29:49 INFO: Most recent stock data: {'IR': {   'close': 74.8,
+    'high': 74.84,
+    'low': 74.8,
+    'open': 74.84,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 369.0,
+    'vwap': 74.825}}
+2025-08-01 13:31:50 INFO: Most recent stock data: {'IR': {   'close': 74.93,
+    'high': 74.94,
+    'low': 74.855,
+    'open': 74.855,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 693.0,
+    'vwap': 74.905}}
+2025-08-01 13:32:50 INFO: Most recent stock data: {'IR': {   'close': 74.915,
+    'high': 74.915,
+    'low': 74.905,
+    'open': 74.905,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 656.0,
+    'vwap': 74.91}}
+2025-08-01 13:33:50 INFO: Most recent stock data: {'IR': {   'close': 74.98,
+    'high': 74.98,
+    'low': 74.975,
+    'open': 74.975,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 343.0,
+    'vwap': 74.9775}}
+2025-08-01 13:34:50 INFO: Most recent stock data: {'IR': {   'close': 75.07,
+    'high': 75.07,
+    'low': 74.965,
+    'open': 74.965,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 551.0,
+    'vwap': 75.02875}}
+2025-08-01 13:35:50 INFO: Most recent stock data: {'IR': {   'close': 75.28,
+    'high': 75.3,
+    'low': 75.08,
+    'open': 75.08,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1804.0,
+    'vwap': 75.261658}}
+2025-08-01 13:37:50 INFO: Most recent stock data: {'IR': {   'close': 75.24,
+    'high': 75.24,
+    'low': 75.175,
+    'open': 75.18,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1021.0,
+    'vwap': 75.191}}
+2025-08-01 13:38:51 INFO: Most recent stock data: {'IR': {   'close': 75.19,
+    'high': 75.275,
+    'low': 75.19,
+    'open': 75.25,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1420.0,
+    'vwap': 75.244519}}
+2025-08-01 13:39:51 INFO: Most recent stock data: {'IR': {   'close': 75.22,
+    'high': 75.29,
+    'low': 75.22,
+    'open': 75.23,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2162.0,
+    'vwap': 75.251341}}
+2025-08-01 13:40:51 INFO: Most recent stock data: {'IR': {   'close': 75.265,
+    'high': 75.265,
+    'low': 75.215,
+    'open': 75.215,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 776.0,
+    'vwap': 75.249}}
+2025-08-01 13:41:51 INFO: Most recent stock data: {'IR': {   'close': 75.29,
+    'high': 75.29,
+    'low': 75.205,
+    'open': 75.21,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1829.0,
+    'vwap': 75.2225}}
+2025-08-01 13:41:51 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 13:41:51 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-01 13:42:51 INFO: {'IR': {   'close': 75.3,
+    'high': 75.3,
+    'low': 75.27,
+    'open': 75.27,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 746.0,
+    'vwap': 75.282}}
+2025-08-01 13:42:51 INFO: Current resistance is: 75.596 and support is: 75.305
+2025-08-01 13:42:51 INFO: Current average volume is: 1000.08
+2025-08-01 13:42:51 INFO: close price: 75.3 just dropped below support of 75.305...
+2025-08-01 13:43:51 INFO: {'IR': {   'close': 75.155,
+    'high': 75.18,
+    'low': 75.155,
+    'open': 75.18,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 439.0,
+    'vwap': 75.171667}}
+2025-08-01 13:43:51 INFO: Current resistance is: 75.596 and support is: 75.305
+2025-08-01 13:43:51 INFO: Current average volume is: 956.92
+2025-08-01 13:43:51 INFO: Closing price: 75.155 just dropped below support 75.305 again...ending trade...
+2025-08-01 13:59:50 INFO: === Strategy started ===
+2025-08-01 13:59:50 INFO: Start collecting the current highs/lows for: IR
+2025-08-01 13:59:50 INFO: Most recent stock data: {'IR': {   'close': 75.11,
+    'high': 75.11,
+    'low': 75.095,
+    'open': 75.1,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 691.0,
+    'vwap': 75.104167}}
+2025-08-01 14:00:50 INFO: Most recent stock data: {'IR': {   'close': 75.13,
+    'high': 75.13,
+    'low': 75.115,
+    'open': 75.115,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 305.0,
+    'vwap': 75.1225}}
+2025-08-01 14:02:50 INFO: Most recent stock data: {'IR': {   'close': 75.13,
+    'high': 75.2,
+    'low': 75.13,
+    'open': 75.2,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 876.0,
+    'vwap': 75.15625}}
+2025-08-01 14:03:50 INFO: Most recent stock data: {'IR': {   'close': 75.05,
+    'high': 75.11,
+    'low': 75.05,
+    'open': 75.11,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 273.0,
+    'vwap': 75.078986}}
+2025-08-01 14:04:51 INFO: Most recent stock data: {'IR': {   'close': 74.97,
+    'high': 74.97,
+    'low': 74.97,
+    'open': 74.97,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 176.0,
+    'vwap': 74.97}}
+2025-08-01 14:05:51 INFO: Most recent stock data: {'IR': {   'close': 74.8,
+    'high': 74.88,
+    'low': 74.8,
+    'open': 74.88,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 414.0,
+    'vwap': 74.826667}}
+2025-08-01 14:06:51 INFO: Most recent stock data: {'IR': {   'close': 74.85,
+    'high': 74.85,
+    'low': 74.78,
+    'open': 74.8,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 609.0,
+    'vwap': 74.81}}
+2025-08-01 14:07:51 INFO: Most recent stock data: {'IR': {   'close': 74.75,
+    'high': 74.91,
+    'low': 74.75,
+    'open': 74.91,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 816.0,
+    'vwap': 74.845585}}
+2025-08-01 14:08:51 INFO: Most recent stock data: {'IR': {   'close': 74.66,
+    'high': 74.77,
+    'low': 74.66,
+    'open': 74.77,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 552.0,
+    'vwap': 74.7275}}
+2025-08-01 14:09:51 INFO: Most recent stock data: {'IR': {   'close': 74.715,
+    'high': 74.715,
+    'low': 74.715,
+    'open': 74.715,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 549.0,
+    'vwap': 74.715}}
+2025-08-01 14:10:51 INFO: Most recent stock data: {'IR': {   'close': 74.61,
+    'high': 74.64,
+    'low': 74.58,
+    'open': 74.64,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 899.0,
+    'vwap': 74.602}}
+2025-08-01 14:10:51 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 14:10:51 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-01 14:13:52 INFO: {'IR': {   'close': 74.545,
+    'high': 74.61,
+    'low': 74.545,
+    'open': 74.61,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 274.0,
+    'vwap': 74.5775}}
+2025-08-01 14:13:52 INFO: Current resistance is: 74.724 and support is: 74.522
+2025-08-01 14:13:52 INFO: Current average volume is: 478.58
+2025-08-01 14:13:52 INFO: Updated resistance to: 74.668 and support to: 74.488
+2025-08-01 14:14:52 INFO: {'IR': {   'close': 74.52,
+    'high': 74.55,
+    'low': 74.5,
+    'open': 74.55,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 677.0,
+    'vwap': 74.5225}}
+2025-08-01 14:14:52 INFO: Current resistance is: 74.668 and support is: 74.488
+2025-08-01 14:14:52 INFO: Current average volume is: 493.85
+2025-08-01 14:14:52 INFO: Updated resistance to: 74.61 and support to: 74.443
+2025-08-01 14:15:52 INFO: {'IR': {   'close': 74.54,
+    'high': 74.555,
+    'low': 74.54,
+    'open': 74.555,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 487.0,
+    'vwap': 74.549118}}
+2025-08-01 14:15:52 INFO: Current resistance is: 74.61 and support is: 74.443
+2025-08-01 14:15:52 INFO: Current average volume is: 493.36
+2025-08-01 14:15:52 INFO: Updated resistance to: 74.574 and support to: 74.393
+2025-08-01 14:16:52 INFO: {'IR': {   'close': 74.66,
+    'high': 74.66,
+    'low': 74.51,
+    'open': 74.53,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 2672.0,
+    'vwap': 74.543909}}
+2025-08-01 14:16:52 INFO: Current resistance is: 74.574 and support is: 74.393
+2025-08-01 14:16:52 INFO: Current average volume is: 638.6
+2025-08-01 14:16:52 INFO: The Current Close 74.66 is above the resistance...
+2025-08-01 14:16:52 INFO: Updated resistance to: 74.585 and support to: 74.348
+2025-08-01 14:17:22 INFO: {'IR': {   'close': 74.65,
+    'high': 74.65,
+    'low': 74.64,
+    'open': 74.65,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 318.0,
+    'vwap': 74.646667}}
+2025-08-01 14:17:22 INFO: Current resistance is: 74.585 and support is: 74.348
+2025-08-01 14:17:22 INFO: Current average volume is: 618.56
+2025-08-01 14:17:22 INFO: The current close: 74.65 is above the resistance of 74.585, but volume isn't enough...
+2025-08-01 14:17:22 INFO: Updated resistance to: 74.595 and support to: 74.321
+2025-08-01 14:18:23 INFO: {'IR': {   'close': 74.64,
+    'high': 74.64,
+    'low': 74.635,
+    'open': 74.635,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 254.0,
+    'vwap': 74.6375}}
+2025-08-01 14:18:23 INFO: Current resistance is: 74.595 and support is: 74.321
+2025-08-01 14:18:23 INFO: Current average volume is: 597.12
+2025-08-01 14:18:23 INFO: The current close: 74.64 is above the resistance of 74.595, but volume isn't enough...
+2025-08-01 14:18:23 INFO: Updated resistance to: 74.603 and support to: 74.3
+2025-08-01 14:19:23 INFO: {'IR': {   'close': 74.7,
+    'high': 74.7,
+    'low': 74.64,
+    'open': 74.65,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 655.0,
+    'vwap': 74.654}}
+2025-08-01 14:19:23 INFO: Current resistance is: 74.603 and support is: 74.3
+2025-08-01 14:19:23 INFO: Current average volume is: 600.33
+2025-08-01 14:19:23 INFO: The current close: 74.7 is above the resistance of 74.603, but volume isn't enough...
+2025-08-01 14:19:23 INFO: Updated resistance to: 74.63 and support to: 74.284
+2025-08-01 14:20:23 INFO: {'IR': {   'close': 74.675,
+    'high': 74.705,
+    'low': 74.675,
+    'open': 74.705,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 541.0,
+    'vwap': 74.688333}}
+2025-08-01 14:20:23 INFO: Current resistance is: 74.63 and support is: 74.284
+2025-08-01 14:20:23 INFO: Current average volume is: 597.21
+2025-08-01 14:20:23 INFO: The current close: 74.675 is above the resistance of 74.63, but volume isn't enough...
+2025-08-01 14:20:23 INFO: Updated resistance to: 74.656 and support to: 74.277
+2025-08-01 14:21:23 INFO: {'IR': {   'close': 74.695,
+    'high': 74.71,
+    'low': 74.695,
+    'open': 74.71,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 677.0,
+    'vwap': 74.707018}}
+2025-08-01 14:21:23 INFO: Current resistance is: 74.656 and support is: 74.277
+2025-08-01 14:21:23 INFO: Current average volume is: 601.2
+2025-08-01 14:21:23 INFO: The current close: 74.695 is above the resistance of 74.656, but volume isn't enough...
+2025-08-01 14:21:23 INFO: Updated resistance to: 74.681 and support to: 74.275
+2025-08-01 14:22:24 INFO: {'IR': {   'close': 74.65,
+    'high': 74.65,
+    'low': 74.65,
+    'open': 74.65,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 261.0,
+    'vwap': 74.65}}
+2025-08-01 14:22:24 INFO: Current resistance is: 74.681 and support is: 74.275
+2025-08-01 14:22:24 INFO: Current average volume is: 585.0
+2025-08-01 14:22:24 INFO: Updated resistance to: 74.689 and support to: 74.269
+2025-08-01 14:23:24 INFO: {'IR': {   'close': 74.7,
+    'high': 74.7,
+    'low': 74.69,
+    'open': 74.69,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 246.0,
+    'vwap': 74.695}}
+2025-08-01 14:23:24 INFO: Current resistance is: 74.689 and support is: 74.269
+2025-08-01 14:23:24 INFO: Current average volume is: 569.59
+2025-08-01 14:23:24 INFO: The Current Close 74.7 is above the resistance...
+2025-08-01 14:23:24 INFO: Updated resistance to: 74.709 and support to: 74.27
+2025-08-01 14:24:24 INFO: {'IR': {   'close': 74.81,
+    'high': 74.81,
+    'low': 74.78,
+    'open': 74.78,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 465.0,
+    'vwap': 74.795}}
+2025-08-01 14:24:24 INFO: Current resistance is: 74.709 and support is: 74.27
+2025-08-01 14:24:24 INFO: Current average volume is: 565.04
+2025-08-01 14:24:24 INFO: The current close: 74.81 is above the resistance of 74.709, but volume isn't enough...
+2025-08-01 14:24:24 INFO: Updated resistance to: 74.754 and support to: 74.283
+2025-08-01 14:25:24 INFO: {'IR': {   'close': 74.82,
+    'high': 74.83,
+    'low': 74.82,
+    'open': 74.83,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 219.0,
+    'vwap': 74.825}}
+2025-08-01 14:25:24 INFO: Current resistance is: 74.754 and support is: 74.283
+2025-08-01 14:25:24 INFO: Current average volume is: 550.62
+2025-08-01 14:25:24 INFO: The current close: 74.82 is above the resistance of 74.754, but volume isn't enough...
+2025-08-01 14:25:24 INFO: Updated resistance to: 74.797 and support to: 74.301
+2025-08-01 14:26:25 INFO: {'IR': {   'close': 74.84,
+    'high': 74.84,
+    'low': 74.76,
+    'open': 74.76,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 781.0,
+    'vwap': 74.81}}
+2025-08-01 14:26:25 INFO: Current resistance is: 74.797 and support is: 74.301
+2025-08-01 14:26:25 INFO: Current average volume is: 559.84
+2025-08-01 14:26:25 INFO: The current close: 74.84 is above the resistance of 74.797, but volume isn't enough...
+2025-08-01 14:26:25 INFO: Updated resistance to: 74.837 and support to: 74.31
+2025-08-01 14:27:25 INFO: {'IR': {   'close': 75.03,
+    'high': 75.03,
+    'low': 74.95,
+    'open': 74.95,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 465.0,
+    'vwap': 75.003333}}
+2025-08-01 14:27:25 INFO: Current resistance is: 74.837 and support is: 74.31
+2025-08-01 14:27:25 INFO: Current average volume is: 556.19
+2025-08-01 14:27:25 INFO: The current close: 75.03 is above the resistance of 74.837, but volume isn't enough...
+2025-08-01 14:27:25 INFO: Updated resistance to: 74.911 and support to: 74.343
+2025-08-01 14:28:25 INFO: {'IR': {   'close': 75.01,
+    'high': 75.01,
+    'low': 74.99,
+    'open': 74.99,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 688.0,
+    'vwap': 75.003333}}
+2025-08-01 14:28:25 INFO: Current resistance is: 74.911 and support is: 74.343
+2025-08-01 14:28:25 INFO: Current average volume is: 561.07
+2025-08-01 14:28:25 INFO: The current close: 75.01 is above the resistance of 74.911, but volume isn't enough...
+2025-08-01 14:28:25 INFO: Updated resistance to: 74.972 and support to: 74.377
+2025-08-01 14:29:25 INFO: {'IR': {   'close': 74.98,
+    'high': 75.02,
+    'low': 74.98,
+    'open': 75.02,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 75.0}}
+2025-08-01 14:29:25 INFO: Current resistance is: 74.972 and support is: 74.377
+2025-08-01 14:29:25 INFO: Current average volume is: 548.18
+2025-08-01 14:29:25 INFO: The current close: 74.98 is above the resistance of 74.972, but volume isn't enough...
+2025-08-01 14:29:25 INFO: Updated resistance to: 75.027 and support to: 74.408
+2025-08-01 14:30:26 INFO: {'IR': {   'close': 74.97,
+    'high': 74.97,
+    'low': 74.97,
+    'open': 74.97,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 227.0,
+    'vwap': 74.97}}
+2025-08-01 14:30:26 INFO: Current resistance is: 75.027 and support is: 74.408
+2025-08-01 14:30:26 INFO: Current average volume is: 537.1
+2025-08-01 14:30:26 INFO: Updated resistance to: 75.067 and support to: 74.435
+2025-08-01 14:32:26 INFO: {'IR': {   'close': 75.06,
+    'high': 75.06,
+    'low': 75.06,
+    'open': 75.06,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 480.0,
+    'vwap': 75.06}}
+2025-08-01 14:32:26 INFO: Current resistance is: 75.067 and support is: 74.435
+2025-08-01 14:32:26 INFO: Current average volume is: 535.2
+2025-08-01 14:32:26 INFO: Updated resistance to: 75.117 and support to: 74.47
+2025-08-01 14:33:26 INFO: {'IR': {   'close': 75.05,
+    'high': 75.05,
+    'low': 75.05,
+    'open': 75.05,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 172.0,
+    'vwap': 75.05}}
+2025-08-01 14:33:26 INFO: Current resistance is: 75.117 and support is: 74.47
+2025-08-01 14:33:26 INFO: Current average volume is: 523.48
+2025-08-01 14:33:26 INFO: Updated resistance to: 75.161 and support to: 74.502
+2025-08-01 14:35:54 INFO: === Strategy started ===
+2025-08-01 14:35:54 INFO: Start collecting the current highs/lows for: IR
+2025-08-01 14:35:54 INFO: Most recent stock data: {'IR': {   'close': 75.06,
+    'high': 75.06,
+    'low': 75.05,
+    'open': 75.05,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 498.0,
+    'vwap': 75.0575}}
+2025-08-01 14:36:54 INFO: Most recent stock data: {'IR': {   'close': 74.91,
+    'high': 74.955,
+    'low': 74.875,
+    'open': 74.95,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1067.0,
+    'vwap': 74.9175}}
+2025-08-01 14:37:55 INFO: Most recent stock data: {'IR': {   'close': 74.865,
+    'high': 74.87,
+    'low': 74.865,
+    'open': 74.865,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 337.0,
+    'vwap': 74.866667}}
+2025-08-01 14:38:55 INFO: Most recent stock data: {'IR': {   'close': 74.905,
+    'high': 74.905,
+    'low': 74.875,
+    'open': 74.875,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 546.0,
+    'vwap': 74.8825}}
+2025-08-01 14:39:55 INFO: Most recent stock data: {'IR': {   'close': 74.81,
+    'high': 74.81,
+    'low': 74.75,
+    'open': 74.78,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 792.0,
+    'vwap': 74.782}}
+2025-08-01 14:40:55 INFO: Most recent stock data: {'IR': {   'close': 74.93,
+    'high': 74.96,
+    'low': 74.89,
+    'open': 74.89,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1014.0,
+    'vwap': 74.927273}}
+2025-08-01 14:41:55 INFO: Most recent stock data: {'IR': {   'close': 74.89,
+    'high': 74.89,
+    'low': 74.88,
+    'open': 74.88,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 372.0,
+    'vwap': 74.886667}}
+2025-08-01 14:42:55 INFO: Most recent stock data: {'IR': {   'close': 74.91,
+    'high': 74.92,
+    'low': 74.86,
+    'open': 74.92,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 628.0,
+    'vwap': 74.897654}}
+2025-08-01 14:43:55 INFO: Most recent stock data: {'IR': {   'close': 75.08,
+    'high': 75.09,
+    'low': 75.02,
+    'open': 75.02,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 487.0,
+    'vwap': 75.063333}}
+2025-08-01 14:44:55 INFO: Most recent stock data: {'IR': {   'close': 75.065,
+    'high': 75.065,
+    'low': 75.065,
+    'open': 75.065,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 381.0,
+    'vwap': 75.065}}
+2025-08-01 14:45:56 INFO: Most recent stock data: {'IR': {   'close': 75.12,
+    'high': 75.12,
+    'low': 75.09,
+    'open': 75.09,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 480.0,
+    'vwap': 75.105}}
+2025-08-01 14:45:56 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 14:45:56 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-01 14:46:56 INFO: {'IR': {   'close': 74.98,
+    'high': 75.1,
+    'low': 74.98,
+    'open': 75.1,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 398.0,
+    'vwap': 75.015821}}
+2025-08-01 14:46:56 INFO: Current resistance is: 75.12 and support is: 74.75
+2025-08-01 14:46:56 INFO: Current average volume is: 541.83
+2025-08-01 14:46:56 INFO: Updated resistance to: 75.12 and support to: 74.75
+2025-08-01 14:48:56 INFO: {'IR': {   'close': 75.01,
+    'high': 75.04,
+    'low': 75.0,
+    'open': 75.04,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 611.0,
+    'vwap': 75.022}}
+2025-08-01 14:48:56 INFO: Current resistance is: 75.12 and support is: 74.75
+2025-08-01 14:48:56 INFO: Current average volume is: 547.15
+2025-08-01 14:48:56 INFO: Updated resistance to: 75.12 and support to: 74.75
+2025-08-01 14:49:56 INFO: {'IR': {   'close': 74.96,
+    'high': 74.96,
+    'low': 74.955,
+    'open': 74.96,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 438.0,
+    'vwap': 74.958333}}
+2025-08-01 14:49:56 INFO: Current resistance is: 75.12 and support is: 74.75
+2025-08-01 14:49:56 INFO: Current average volume is: 539.36
+2025-08-01 14:49:56 INFO: Updated resistance to: 75.12 and support to: 74.75
+2025-08-01 14:50:56 INFO: {'IR': {   'close': 74.89,
+    'high': 74.89,
+    'low': 74.89,
+    'open': 74.89,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 133.0,
+    'vwap': 74.89}}
+2025-08-01 14:50:56 INFO: Current resistance is: 75.12 and support is: 74.75
+2025-08-01 14:50:56 INFO: Current average volume is: 512.27
+2025-08-01 14:50:56 INFO: Updated resistance to: 75.12 and support to: 74.75
+2025-08-01 14:51:56 INFO: {'IR': {   'close': 74.72,
+    'high': 74.81,
+    'low': 74.72,
+    'open': 74.81,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 405.0,
+    'vwap': 74.78}}
+2025-08-01 14:51:56 INFO: Current resistance is: 75.12 and support is: 74.75
+2025-08-01 14:51:56 INFO: Current average volume is: 505.56
+2025-08-01 14:51:56 INFO: close price: 74.72 just dropped below support of 74.75...
+2025-08-01 14:52:57 INFO: {'IR': {   'close': 74.6,
+    'high': 74.62,
+    'low': 74.6,
+    'open': 74.62,
+    'symbol': 'IR',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 658.0,
+    'vwap': 74.615}}
+2025-08-01 14:52:57 INFO: Current resistance is: 75.12 and support is: 74.75
+2025-08-01 14:52:57 INFO: Current average volume is: 514.53
+2025-08-01 14:52:57 INFO: Closing price: 74.6 just dropped below support 74.75 again...ending trade...

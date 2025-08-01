@@ -1,0 +1,700 @@
+2025-07-30 10:20:02 INFO: === Strategy started ===
+2025-07-30 10:20:02 INFO: Start collecting the current highs/lows for: WGS
+2025-07-30 10:20:02 INFO: Most recent stock data: {'WGS': {   'close': 101.16,
+    'high': 101.18,
+    'low': 101.16,
+    'open': 101.18,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 492.0,
+    'vwap': 101.165141}}
+2025-07-30 10:21:03 INFO: Most recent stock data: {'WGS': {   'close': 101.165,
+    'high': 101.165,
+    'low': 101.145,
+    'open': 101.15,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 410.0,
+    'vwap': 101.15625}}
+2025-07-30 10:22:03 INFO: Most recent stock data: {'WGS': {   'close': 101.0,
+    'high': 101.12,
+    'low': 101.0,
+    'open': 101.12,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 407.0,
+    'vwap': 101.065}}
+2025-07-30 10:24:03 INFO: Most recent stock data: {'WGS': {   'close': 100.455,
+    'high': 100.455,
+    'low': 99.935,
+    'open': 99.935,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 330.0,
+    'vwap': 100.195}}
+2025-07-30 10:29:03 INFO: Most recent stock data: {'WGS': {   'close': 99.27,
+    'high': 99.27,
+    'low': 99.27,
+    'open': 99.27,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 150.0,
+    'vwap': 99.27}}
+2025-07-30 10:30:04 INFO: Most recent stock data: {'WGS': {   'close': 98.57,
+    'high': 99.005,
+    'low': 98.57,
+    'open': 99.005,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 275.0,
+    'vwap': 98.7875}}
+2025-07-30 10:32:04 INFO: Most recent stock data: {'WGS': {   'close': 98.88,
+    'high': 98.88,
+    'low': 98.88,
+    'open': 98.88,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 98.88}}
+2025-07-30 10:37:04 INFO: Most recent stock data: {'WGS': {   'close': 98.02,
+    'high': 98.02,
+    'low': 97.345,
+    'open': 97.345,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 925.0,
+    'vwap': 97.713112}}
+2025-07-30 10:38:05 INFO: Most recent stock data: {'WGS': {   'close': 97.875,
+    'high': 97.875,
+    'low': 97.875,
+    'open': 97.875,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 625.0,
+    'vwap': 97.875}}
+2025-07-30 10:39:05 INFO: Most recent stock data: {'WGS': {   'close': 98.19,
+    'high': 98.19,
+    'low': 97.995,
+    'open': 97.995,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 329.0,
+    'vwap': 98.0925}}
+2025-07-30 10:43:05 INFO: Most recent stock data: {'WGS': {   'close': 97.93,
+    'high': 97.93,
+    'low': 97.93,
+    'open': 97.93,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 155.0,
+    'vwap': 97.93}}
+2025-07-30 10:43:05 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-07-30 10:43:05 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-07-30 10:46:06 INFO: {'WGS': {   'close': 97.71,
+    'high': 97.71,
+    'low': 97.71,
+    'open': 97.71,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 97.71}}
+2025-07-30 10:46:06 INFO: Current resistance is: 96.866 and support is: 95.756
+2025-07-30 10:46:06 INFO: Current average volume is: 325.75
+2025-07-30 10:46:06 INFO: The Current Close 97.71 is above the resistance...
+2025-07-30 10:46:06 INFO: Updated resistance to: 96.792 and support to: 95.532
+2025-07-30 10:47:06 INFO: {'WGS': {   'close': 97.98,
+    'high': 97.98,
+    'low': 97.82,
+    'open': 97.82,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 394.0,
+    'vwap': 97.939288}}
+2025-07-30 10:47:06 INFO: Current resistance is: 96.792 and support is: 95.532
+2025-07-30 10:47:06 INFO: Current average volume is: 331.0
+2025-07-30 10:47:06 INFO: The current close: 97.98 is above the resistance of 96.792, but volume isn't enough...
+2025-07-30 10:47:06 INFO: Updated resistance to: 96.908 and support to: 95.389
+2025-07-30 10:49:06 INFO: {'WGS': {   'close': 98.47,
+    'high': 98.51,
+    'low': 98.47,
+    'open': 98.5,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 447.0,
+    'vwap': 98.492082}}
+2025-07-30 10:49:06 INFO: Current resistance is: 96.908 and support is: 95.389
+2025-07-30 10:49:06 INFO: Current average volume is: 339.29
+2025-07-30 10:49:06 INFO: The current close: 98.47 is above the resistance of 96.908, but volume isn't enough...
+2025-07-30 10:49:06 INFO: Updated resistance to: 97.249 and support to: 95.419
+2025-07-30 10:50:07 INFO: {'WGS': {   'close': 97.84,
+    'high': 97.84,
+    'low': 97.84,
+    'open': 97.84,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 262.0,
+    'vwap': 97.84}}
+2025-07-30 10:50:07 INFO: Current resistance is: 97.249 and support is: 95.419
+2025-07-30 10:50:07 INFO: Current average volume is: 334.13
+2025-07-30 10:50:07 INFO: The current close: 97.84 is above the resistance of 97.249, but volume isn't enough...
+2025-07-30 10:50:07 INFO: Updated resistance to: 97.288 and support to: 95.337
+2025-07-30 10:52:07 INFO: {'WGS': {   'close': 97.815,
+    'high': 97.815,
+    'low': 97.77,
+    'open': 97.77,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 310.0,
+    'vwap': 97.7925}}
+2025-07-30 10:52:07 INFO: Current resistance is: 97.288 and support is: 95.337
+2025-07-30 10:52:07 INFO: Current average volume is: 332.62
+2025-07-30 10:52:07 INFO: The current close: 97.815 is above the resistance of 97.288, but volume isn't enough...
+2025-07-30 10:52:07 INFO: Updated resistance to: 97.34 and support to: 95.268
+2025-07-30 10:53:07 INFO: {'WGS': {   'close': 97.76,
+    'high': 97.86,
+    'low': 97.76,
+    'open': 97.86,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 310.0,
+    'vwap': 97.826667}}
+2025-07-30 10:53:07 INFO: Current resistance is: 97.34 and support is: 95.268
+2025-07-30 10:53:07 INFO: Current average volume is: 331.29
+2025-07-30 10:53:07 INFO: The current close: 97.76 is above the resistance of 97.34, but volume isn't enough...
+2025-07-30 10:53:07 INFO: Updated resistance to: 97.422 and support to: 95.219
+2025-07-30 10:54:08 INFO: {'WGS': {   'close': 98.02,
+    'high': 98.02,
+    'low': 97.61,
+    'open': 97.61,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 267.0,
+    'vwap': 97.815}}
+2025-07-30 10:54:08 INFO: Current resistance is: 97.422 and support is: 95.219
+2025-07-30 10:54:08 INFO: Current average volume is: 327.72
+2025-07-30 10:54:08 INFO: The current close: 98.02 is above the resistance of 97.422, but volume isn't enough...
+2025-07-30 10:54:08 INFO: Updated resistance to: 97.561 and support to: 95.159
+2025-07-30 10:55:08 INFO: {'WGS': {   'close': 98.01,
+    'high': 98.01,
+    'low': 98.01,
+    'open': 98.01,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 219.0,
+    'vwap': 98.01}}
+2025-07-30 10:55:08 INFO: Current resistance is: 97.561 and support is: 95.159
+2025-07-30 10:55:08 INFO: Current average volume is: 322.0
+2025-07-30 10:55:08 INFO: The current close: 98.01 is above the resistance of 97.561, but volume isn't enough...
+2025-07-30 10:55:08 INFO: Updated resistance to: 97.688 and support to: 95.192
+2025-07-30 10:57:08 INFO: {'WGS': {   'close': 98.385,
+    'high': 98.485,
+    'low': 98.25,
+    'open': 98.25,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 401.0,
+    'vwap': 98.40125}}
+2025-07-30 10:57:08 INFO: Current resistance is: 97.688 and support is: 95.192
+2025-07-30 10:57:08 INFO: Current average volume is: 325.95
+2025-07-30 10:57:08 INFO: The current close: 98.385 is above the resistance of 97.688, but volume isn't enough...
+2025-07-30 10:57:08 INFO: Updated resistance to: 97.945 and support to: 95.274
+2025-07-30 10:58:08 INFO: {'WGS': {   'close': 99.345,
+    'high': 99.345,
+    'low': 99.345,
+    'open': 99.345,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 99.345}}
+2025-07-30 10:58:08 INFO: Current resistance is: 97.945 and support is: 95.274
+2025-07-30 10:58:08 INFO: Current average volume is: 315.67
+2025-07-30 10:58:08 INFO: The current close: 99.345 is above the resistance of 97.945, but volume isn't enough...
+2025-07-30 10:58:08 INFO: Updated resistance to: 98.405 and support to: 95.552
+2025-07-30 11:00:09 INFO: {'WGS': {   'close': 100.04,
+    'high': 100.04,
+    'low': 99.885,
+    'open': 99.885,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 206.0,
+    'vwap': 99.9625}}
+2025-07-30 11:00:09 INFO: Current resistance is: 98.405 and support is: 95.552
+2025-07-30 11:00:09 INFO: Current average volume is: 310.68
+2025-07-30 11:00:09 INFO: The current close: 100.04 is above the resistance of 98.405, but volume isn't enough...
+2025-07-30 11:00:09 INFO: Updated resistance to: 98.977 and support to: 95.893
+2025-07-30 11:02:09 INFO: {'WGS': {   'close': 100.215,
+    'high': 100.745,
+    'low': 100.215,
+    'open': 100.745,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 531.0,
+    'vwap': 100.48}}
+2025-07-30 11:02:09 INFO: Current resistance is: 98.977 and support is: 95.893
+2025-07-30 11:02:09 INFO: Current average volume is: 320.26
+2025-07-30 11:02:09 INFO: The current close: 100.215 is above the resistance of 98.977, but volume isn't enough...
+2025-07-30 11:02:09 INFO: Updated resistance to: 99.638 and support to: 96.252
+2025-07-30 11:03:10 INFO: {'WGS': {   'close': 100.34,
+    'high': 100.34,
+    'low': 100.34,
+    'open': 100.34,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 100.34}}
+2025-07-30 11:03:10 INFO: Current resistance is: 99.638 and support is: 96.252
+2025-07-30 11:03:10 INFO: Current average volume is: 311.17
+2025-07-30 11:03:10 INFO: The current close: 100.34 is above the resistance of 99.638, but volume isn't enough...
+2025-07-30 11:03:10 INFO: Updated resistance to: 100.102 and support to: 96.59
+2025-07-30 11:04:10 INFO: {'WGS': {   'close': 101.12,
+    'high': 101.12,
+    'low': 100.67,
+    'open': 100.67,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 552.0,
+    'vwap': 100.89875}}
+2025-07-30 11:04:10 INFO: Current resistance is: 100.102 and support is: 96.59
+2025-07-30 11:04:10 INFO: Current average volume is: 320.8
+2025-07-30 11:04:10 INFO: The current close: 101.12 is above the resistance of 100.102, but volume isn't enough...
+2025-07-30 11:04:10 INFO: Updated resistance to: 100.678 and support to: 96.942
+2025-07-30 11:05:10 INFO: {'WGS': {   'close': 101.615,
+    'high': 101.615,
+    'low': 101.615,
+    'open': 101.615,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 101.615}}
+2025-07-30 11:05:10 INFO: Current resistance is: 100.678 and support is: 96.942
+2025-07-30 11:05:10 INFO: Current average volume is: 312.31
+2025-07-30 11:05:10 INFO: The current close: 101.615 is above the resistance of 100.678, but volume isn't enough...
+2025-07-30 11:05:10 INFO: Updated resistance to: 101.619 and support to: 97.406
+2025-07-30 11:06:10 INFO: {'WGS': {   'close': 101.98,
+    'high': 101.98,
+    'low': 101.98,
+    'open': 101.98,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 485.0,
+    'vwap': 101.98}}
+2025-07-30 11:06:10 INFO: Current resistance is: 101.619 and support is: 97.406
+2025-07-30 11:06:10 INFO: Current average volume is: 318.7
+2025-07-30 11:06:10 INFO: The current close: 101.98 is above the resistance of 101.619, but volume isn't enough...
+2025-07-30 11:06:10 INFO: Updated resistance to: 102.006 and support to: 97.872
+2025-07-30 11:08:11 INFO: {'WGS': {   'close': 102.035,
+    'high': 102.07,
+    'low': 101.72,
+    'open': 101.72,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 659.0,
+    'vwap': 101.93875}}
+2025-07-30 11:08:11 INFO: Current resistance is: 102.006 and support is: 97.872
+2025-07-30 11:08:11 INFO: Current average volume is: 330.86
+2025-07-30 11:08:11 INFO: The current close: 102.035 is above the resistance of 102.006, but volume isn't enough...
+2025-07-30 11:08:11 INFO: Updated resistance to: 102.114 and support to: 98.244
+2025-07-30 11:09:11 INFO: {'WGS': {   'close': 101.995,
+    'high': 102.035,
+    'low': 101.995,
+    'open': 102.035,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 231.0,
+    'vwap': 102.015}}
+2025-07-30 11:09:11 INFO: Current resistance is: 102.114 and support is: 98.244
+2025-07-30 11:09:11 INFO: Current average volume is: 327.41
+2025-07-30 11:09:11 INFO: Updated resistance to: 102.185 and support to: 98.614
+2025-07-30 11:10:11 INFO: {'WGS': {   'close': 101.89,
+    'high': 101.97,
+    'low': 101.87,
+    'open': 101.97,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 445.0,
+    'vwap': 101.91}}
+2025-07-30 11:10:11 INFO: Current resistance is: 102.185 and support is: 98.614
+2025-07-30 11:10:11 INFO: Current average volume is: 331.33
+2025-07-30 11:10:11 INFO: Updated resistance to: 102.275 and support to: 98.923
+2025-07-30 11:12:12 INFO: {'WGS': {   'close': 101.65,
+    'high': 101.65,
+    'low': 101.65,
+    'open': 101.65,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 449.0,
+    'vwap': 101.65}}
+2025-07-30 11:12:12 INFO: Current resistance is: 102.275 and support is: 98.923
+2025-07-30 11:12:12 INFO: Current average volume is: 335.13
+2025-07-30 11:12:12 INFO: Updated resistance to: 102.368 and support to: 99.163
+2025-07-30 11:14:12 INFO: {'WGS': {   'close': 102.77,
+    'high': 102.77,
+    'low': 102.37,
+    'open': 102.37,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 855.0,
+    'vwap': 102.59}}
+2025-07-30 11:14:12 INFO: Current resistance is: 102.368 and support is: 99.163
+2025-07-30 11:14:12 INFO: Current average volume is: 351.38
+2025-07-30 11:14:12 INFO: The Current Close 102.77 is above the resistance...
+2025-07-30 11:14:12 INFO: Updated resistance to: 102.856 and support to: 99.479
+2025-07-30 11:19:13 INFO: {'WGS': {   'close': 103.12,
+    'high': 103.35,
+    'low': 103.12,
+    'open': 103.35,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 495.0,
+    'vwap': 103.235}}
+2025-07-30 11:19:13 INFO: Current resistance is: 102.856 and support is: 99.479
+2025-07-30 11:19:13 INFO: Current average volume is: 355.73
+2025-07-30 11:19:13 INFO: The current close: 103.12 is above the resistance of 102.856, but volume isn't enough...
+2025-07-30 11:19:13 INFO: Updated resistance to: 103.447 and support to: 99.863
+2025-07-30 11:23:14 INFO: {'WGS': {   'close': 103.415,
+    'high': 103.59,
+    'low': 103.415,
+    'open': 103.51,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 103.505}}
+2025-07-30 11:23:14 INFO: Current resistance is: 103.447 and support is: 99.863
+2025-07-30 11:23:14 INFO: Current average volume is: 354.09
+2025-07-30 11:23:14 INFO: Updated resistance to: 103.698 and support to: 100.245
+2025-07-30 11:24:14 INFO: {'WGS': {   'close': 104.045,
+    'high': 104.045,
+    'low': 103.75,
+    'open': 103.75,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 339.0,
+    'vwap': 103.898333}}
+2025-07-30 11:24:14 INFO: Current resistance is: 103.698 and support is: 100.245
+2025-07-30 11:24:14 INFO: Current average volume is: 353.66
+2025-07-30 11:24:14 INFO: The Current Close 104.045 is above the resistance...
+2025-07-30 11:24:14 INFO: Updated resistance to: 104.164 and support to: 100.631
+2025-07-30 11:27:15 INFO: {'WGS': {   'close': 104.625,
+    'high': 104.625,
+    'low': 104.625,
+    'open': 104.625,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 175.0,
+    'vwap': 104.625}}
+2025-07-30 11:27:15 INFO: Current resistance is: 104.164 and support is: 100.631
+2025-07-30 11:27:15 INFO: Current average volume is: 348.69
+2025-07-30 11:27:15 INFO: The current close: 104.625 is above the resistance of 104.164, but volume isn't enough...
+2025-07-30 11:27:15 INFO: Updated resistance to: 104.755 and support to: 101.091
+2025-07-30 11:29:15 INFO: {'WGS': {   'close': 103.99,
+    'high': 104.39,
+    'low': 103.99,
+    'open': 104.39,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1174.0,
+    'vwap': 104.2325}}
+2025-07-30 11:29:15 INFO: Current resistance is: 104.755 and support is: 101.091
+2025-07-30 11:29:15 INFO: Current average volume is: 371.0
+2025-07-30 11:29:15 INFO: Updated resistance to: 104.9 and support to: 101.422
+2025-07-30 11:30:15 INFO: {'WGS': {   'close': 103.86,
+    'high': 103.86,
+    'low': 103.86,
+    'open': 103.86,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 195.0,
+    'vwap': 103.86}}
+2025-07-30 11:30:15 INFO: Current resistance is: 104.9 and support is: 101.422
+2025-07-30 11:30:15 INFO: Current average volume is: 366.37
+2025-07-30 11:30:15 INFO: Updated resistance to: 105.049 and support to: 101.701
+2025-07-30 11:32:16 INFO: {'WGS': {   'close': 104.0,
+    'high': 104.0,
+    'low': 104.0,
+    'open': 104.0,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 122.0,
+    'vwap': 104.0}}
+2025-07-30 11:32:16 INFO: Current resistance is: 105.049 and support is: 101.701
+2025-07-30 11:32:16 INFO: Current average volume is: 360.1
+2025-07-30 11:32:16 INFO: Updated resistance to: 105.203 and support to: 101.969
+2025-07-30 11:34:16 INFO: {'WGS': {   'close': 103.645,
+    'high': 103.67,
+    'low': 103.645,
+    'open': 103.67,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 343.0,
+    'vwap': 103.658333}}
+2025-07-30 11:34:16 INFO: Current resistance is: 105.203 and support is: 101.969
+2025-07-30 11:34:16 INFO: Current average volume is: 359.68
+2025-07-30 11:34:16 INFO: Updated resistance to: 105.353 and support to: 102.165
+2025-07-30 11:36:16 INFO: {'WGS': {   'close': 103.47,
+    'high': 103.75,
+    'low': 103.405,
+    'open': 103.75,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 478.0,
+    'vwap': 103.5075}}
+2025-07-30 11:36:16 INFO: Current resistance is: 105.353 and support is: 102.165
+2025-07-30 11:36:16 INFO: Current average volume is: 362.56
+2025-07-30 11:36:16 INFO: Updated resistance to: 105.503 and support to: 102.311
+2025-07-30 11:39:17 INFO: {'WGS': {   'close': 103.455,
+    'high': 103.47,
+    'low': 103.435,
+    'open': 103.435,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 975.0,
+    'vwap': 103.454}}
+2025-07-30 11:39:17 INFO: Current resistance is: 105.503 and support is: 102.311
+2025-07-30 11:39:17 INFO: Current average volume is: 377.14
+2025-07-30 11:39:17 INFO: Updated resistance to: 105.643 and support to: 102.444
+2025-07-30 11:40:17 INFO: {'WGS': {   'close': 103.62,
+    'high': 103.89,
+    'low': 103.615,
+    'open': 103.77,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1063.0,
+    'vwap': 103.748004}}
+2025-07-30 11:40:17 INFO: Current resistance is: 105.643 and support is: 102.444
+2025-07-30 11:40:17 INFO: Current average volume is: 393.09
+2025-07-30 11:40:17 INFO: Updated resistance to: 105.79 and support to: 102.581
+2025-07-30 11:41:17 INFO: {'WGS': {   'close': 103.64,
+    'high': 103.64,
+    'low': 103.62,
+    'open': 103.62,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 103.626667}}
+2025-07-30 11:41:17 INFO: Current resistance is: 105.79 and support is: 102.581
+2025-07-30 11:41:17 INFO: Current average volume is: 390.98
+2025-07-30 11:41:17 INFO: Updated resistance to: 105.926 and support to: 102.704
+2025-07-30 11:42:17 INFO: {'WGS': {   'close': 103.7,
+    'high': 103.77,
+    'low': 103.7,
+    'open': 103.77,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 209.0,
+    'vwap': 103.735}}
+2025-07-30 11:42:17 INFO: Current resistance is: 105.926 and support is: 102.704
+2025-07-30 11:42:17 INFO: Current average volume is: 386.93
+2025-07-30 11:42:17 INFO: Updated resistance to: 106.061 and support to: 102.821
+2025-07-30 11:45:17 INFO: {'WGS': {   'close': 103.74,
+    'high': 103.74,
+    'low': 103.74,
+    'open': 103.74,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 408.0,
+    'vwap': 103.74}}
+2025-07-30 11:45:17 INFO: Current resistance is: 106.061 and support is: 102.821
+2025-07-30 11:45:17 INFO: Current average volume is: 387.39
+2025-07-30 11:45:17 INFO: Updated resistance to: 106.19 and support to: 102.929
+2025-07-30 11:46:17 INFO: {'WGS': {   'close': 103.91,
+    'high': 103.91,
+    'low': 103.66,
+    'open': 103.66,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 972.0,
+    'vwap': 103.784}}
+2025-07-30 11:46:17 INFO: Current resistance is: 106.19 and support is: 102.929
+2025-07-30 11:46:17 INFO: Current average volume is: 399.83
+2025-07-30 11:46:17 INFO: Updated resistance to: 106.32 and support to: 103.016
+2025-07-30 11:48:18 INFO: {'WGS': {   'close': 104.64,
+    'high': 104.64,
+    'low': 104.64,
+    'open': 104.64,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 104.64}}
+2025-07-30 11:48:18 INFO: Current resistance is: 106.32 and support is: 103.016
+2025-07-30 11:48:18 INFO: Current average volume is: 393.58
+2025-07-30 11:48:18 INFO: Updated resistance to: 104.782 and support to: 103.194
+2025-07-30 11:53:18 INFO: {'WGS': {   'close': 104.6,
+    'high': 104.6,
+    'low': 104.6,
+    'open': 104.6,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 104.6}}
+2025-07-30 11:53:18 INFO: Current resistance is: 104.782 and support is: 103.194
+2025-07-30 11:53:18 INFO: Current average volume is: 387.61
+2025-07-30 11:53:18 INFO: Updated resistance to: 104.924 and support to: 103.352
+2025-07-30 11:54:18 INFO: {'WGS': {   'close': 103.775,
+    'high': 103.775,
+    'low': 103.775,
+    'open': 103.775,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 325.0,
+    'vwap': 103.775}}
+2025-07-30 11:54:18 INFO: Current resistance is: 104.924 and support is: 103.352
+2025-07-30 11:54:18 INFO: Current average volume is: 386.36
+2025-07-30 11:54:18 INFO: Updated resistance to: 105.059 and support to: 103.41
+2025-07-30 11:56:19 INFO: {'WGS': {   'close': 102.99,
+    'high': 102.99,
+    'low': 102.99,
+    'open': 102.99,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 193.0,
+    'vwap': 102.99}}
+2025-07-30 11:56:19 INFO: Current resistance is: 105.059 and support is: 103.41
+2025-07-30 11:56:19 INFO: Current average volume is: 382.57
+2025-07-30 11:56:19 INFO: close price: 102.99 just dropped below support of 103.41...
+2025-07-30 12:00:19 INFO: {'WGS': {   'close': 104.11,
+    'high': 104.11,
+    'low': 104.11,
+    'open': 104.11,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 127.0,
+    'vwap': 104.11}}
+2025-07-30 12:00:19 INFO: Current resistance is: 105.059 and support is: 103.41
+2025-07-30 12:00:19 INFO: Current average volume is: 377.65
+2025-07-30 12:00:19 INFO: Updated resistance to: 105.31 and support to: 103.462
+2025-07-30 12:02:19 INFO: {'WGS': {   'close': 104.05,
+    'high': 104.05,
+    'low': 104.05,
+    'open': 104.05,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 223.0,
+    'vwap': 104.05}}
+2025-07-30 12:02:19 INFO: Current resistance is: 105.31 and support is: 103.462
+2025-07-30 12:02:19 INFO: Current average volume is: 374.74
+2025-07-30 12:02:19 INFO: Updated resistance to: 105.434 and support to: 103.526
+2025-07-30 12:05:20 INFO: {'WGS': {   'close': 104.21,
+    'high': 104.21,
+    'low': 103.66,
+    'open': 103.66,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1035.0,
+    'vwap': 103.798889}}
+2025-07-30 12:05:20 INFO: Current resistance is: 105.434 and support is: 103.526
+2025-07-30 12:05:20 INFO: Current average volume is: 386.96
+2025-07-30 12:05:20 INFO: Updated resistance to: 105.555 and support to: 103.546
+2025-07-30 12:07:20 INFO: {'WGS': {   'close': 104.74,
+    'high': 104.74,
+    'low': 104.74,
+    'open': 104.74,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 121.0,
+    'vwap': 104.74}}
+2025-07-30 12:07:20 INFO: Current resistance is: 105.555 and support is: 103.546
+2025-07-30 12:07:20 INFO: Current average volume is: 382.13
+2025-07-30 12:07:20 INFO: Updated resistance to: 104.87 and support to: 103.662
+2025-07-30 12:09:20 INFO: {'WGS': {   'close': 104.0,
+    'high': 104.54,
+    'low': 104.0,
+    'open': 104.54,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 603.0,
+    'vwap': 104.277}}
+2025-07-30 12:09:20 INFO: Current resistance is: 104.87 and support is: 103.662
+2025-07-30 12:09:20 INFO: Current average volume is: 386.07
+2025-07-30 12:09:20 INFO: Updated resistance to: 104.998 and support to: 103.698
+2025-07-30 12:10:20 INFO: {'WGS': {   'close': 103.795,
+    'high': 103.795,
+    'low': 103.795,
+    'open': 103.795,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 501.0,
+    'vwap': 103.795}}
+2025-07-30 12:10:20 INFO: Current resistance is: 104.998 and support is: 103.698
+2025-07-30 12:10:20 INFO: Current average volume is: 388.09
+2025-07-30 12:10:20 INFO: Updated resistance to: 105.12 and support to: 103.71
+2025-07-30 12:18:21 INFO: {'WGS': {   'close': 103.675,
+    'high': 103.675,
+    'low': 103.675,
+    'open': 103.675,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 403.0,
+    'vwap': 103.675}}
+2025-07-30 12:18:21 INFO: Current resistance is: 105.12 and support is: 103.71
+2025-07-30 12:18:21 INFO: Current average volume is: 388.34
+2025-07-30 12:18:21 INFO: close price: 103.675 just dropped below support of 103.71...
+2025-07-30 12:19:21 INFO: {'WGS': {   'close': 103.465,
+    'high': 103.465,
+    'low': 103.465,
+    'open': 103.465,
+    'symbol': 'WGS',
+    'timestamp': datetime.datetime(2025, 7, 30, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 116.0,
+    'vwap': 103.465}}
+2025-07-30 12:19:21 INFO: Current resistance is: 105.12 and support is: 103.71
+2025-07-30 12:19:21 INFO: Current average volume is: 383.73
+2025-07-30 12:19:21 INFO: Closing price: 103.465 just dropped below support 103.71 again...ending trade...

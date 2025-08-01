@@ -1,0 +1,848 @@
+2025-08-01 12:35:14 INFO: === Strategy started ===
+2025-08-01 12:35:14 INFO: Start collecting the current highs/lows for: RDDT
+2025-08-01 12:35:14 INFO: Most recent stock data: {'RDDT': {   'close': 194.24,
+    'high': 194.24,
+    'low': 193.71,
+    'open': 193.78,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 937.0,
+    'vwap': 193.946}}
+2025-08-01 12:36:15 INFO: Most recent stock data: {'RDDT': {   'close': 194.285,
+    'high': 194.32,
+    'low': 194.285,
+    'open': 194.32,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 383.0,
+    'vwap': 194.305169}}
+2025-08-01 12:37:15 INFO: Most recent stock data: {'RDDT': {   'close': 194.32,
+    'high': 194.325,
+    'low': 194.32,
+    'open': 194.325,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 647.0,
+    'vwap': 194.321842}}
+2025-08-01 12:40:15 INFO: Most recent stock data: {'RDDT': {   'close': 194.0,
+    'high': 194.0,
+    'low': 193.885,
+    'open': 193.89,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 758.0,
+    'vwap': 193.924426}}
+2025-08-01 12:41:15 INFO: Most recent stock data: {'RDDT': {   'close': 194.195,
+    'high': 194.195,
+    'low': 194.19,
+    'open': 194.19,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 584.0,
+    'vwap': 194.191667}}
+2025-08-01 12:42:15 INFO: Most recent stock data: {'RDDT': {   'close': 193.87,
+    'high': 194.355,
+    'low': 193.87,
+    'open': 194.335,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 699.0,
+    'vwap': 194.1325}}
+2025-08-01 12:43:16 INFO: Most recent stock data: {'RDDT': {   'close': 194.0,
+    'high': 194.06,
+    'low': 193.99,
+    'open': 193.99,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 823.0,
+    'vwap': 194.01}}
+2025-08-01 12:44:16 INFO: Most recent stock data: {'RDDT': {   'close': 193.84,
+    'high': 193.85,
+    'low': 193.71,
+    'open': 193.71,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 527.0,
+    'vwap': 193.777839}}
+2025-08-01 12:45:16 INFO: Most recent stock data: {'RDDT': {   'close': 192.925,
+    'high': 193.75,
+    'low': 192.925,
+    'open': 193.75,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 2262.0,
+    'vwap': 193.510938}}
+2025-08-01 12:46:16 INFO: Most recent stock data: {'RDDT': {   'close': 193.205,
+    'high': 193.235,
+    'low': 193.14,
+    'open': 193.14,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 898.0,
+    'vwap': 193.168125}}
+2025-08-01 12:47:16 INFO: Most recent stock data: {'RDDT': {   'close': 193.43,
+    'high': 193.47,
+    'low': 193.43,
+    'open': 193.47,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 431.0,
+    'vwap': 193.45}}
+2025-08-01 12:47:16 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 12:47:16 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-01 12:48:16 INFO: {'RDDT': {   'close': 193.465,
+    'high': 193.48,
+    'low': 193.25,
+    'open': 193.25,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1777.0,
+    'vwap': 193.382677}}
+2025-08-01 12:48:16 INFO: Current resistance is: 193.79 and support is: 192.633
+2025-08-01 12:48:16 INFO: Current average volume is: 815.75
+2025-08-01 12:48:16 INFO: Updated resistance to: 193.713 and support to: 192.545
+2025-08-01 12:49:17 INFO: {'RDDT': {   'close': 193.65,
+    'high': 193.65,
+    'low': 193.335,
+    'open': 193.425,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1407.0,
+    'vwap': 193.432}}
+2025-08-01 12:49:17 INFO: Current resistance is: 193.713 and support is: 192.545
+2025-08-01 12:49:17 INFO: Current average volume is: 861.23
+2025-08-01 12:49:17 INFO: Updated resistance to: 193.702 and support to: 192.488
+2025-08-01 12:50:17 INFO: {'RDDT': {   'close': 194.01,
+    'high': 194.01,
+    'low': 193.77,
+    'open': 193.77,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 679.0,
+    'vwap': 193.925}}
+2025-08-01 12:50:17 INFO: Current resistance is: 193.702 and support is: 192.488
+2025-08-01 12:50:17 INFO: Current average volume is: 848.21
+2025-08-01 12:50:17 INFO: The Current Close 194.01 is above the resistance...
+2025-08-01 12:50:17 INFO: Updated resistance to: 193.791 and support to: 192.518
+2025-08-01 12:51:17 INFO: {'RDDT': {   'close': 194.165,
+    'high': 194.165,
+    'low': 194.08,
+    'open': 194.12,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1805.0,
+    'vwap': 194.12485}}
+2025-08-01 12:51:17 INFO: Current resistance is: 193.791 and support is: 192.518
+2025-08-01 12:51:17 INFO: Current average volume is: 912.0
+2025-08-01 12:51:17 INFO: The current close: 194.165 is above the resistance of 193.791, but volume isn't enough...
+2025-08-01 12:51:17 INFO: Updated resistance to: 193.906 and support to: 192.606
+2025-08-01 12:52:17 INFO: {'RDDT': {   'close': 194.11,
+    'high': 194.2,
+    'low': 194.02,
+    'open': 194.2,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 771.0,
+    'vwap': 194.115}}
+2025-08-01 12:52:17 INFO: Current resistance is: 193.906 and support is: 192.606
+2025-08-01 12:52:17 INFO: Current average volume is: 903.19
+2025-08-01 12:52:17 INFO: The current close: 194.11 is above the resistance of 193.906, but volume isn't enough...
+2025-08-01 12:52:17 INFO: Updated resistance to: 194.011 and support to: 192.676
+2025-08-01 12:53:18 INFO: {'RDDT': {   'close': 193.46,
+    'high': 193.99,
+    'low': 193.46,
+    'open': 193.99,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 1860.0,
+    'vwap': 193.701733}}
+2025-08-01 12:53:18 INFO: Current resistance is: 194.011 and support is: 192.676
+2025-08-01 12:53:18 INFO: Current average volume is: 959.47
+2025-08-01 12:53:18 INFO: Updated resistance to: 194.051 and support to: 192.642
+2025-08-01 12:54:18 INFO: {'RDDT': {   'close': 193.09,
+    'high': 193.37,
+    'low': 193.09,
+    'open': 193.37,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 851.0,
+    'vwap': 193.185}}
+2025-08-01 12:54:18 INFO: Current resistance is: 194.051 and support is: 192.642
+2025-08-01 12:54:18 INFO: Current average volume is: 953.44
+2025-08-01 12:54:18 INFO: Updated resistance to: 193.943 and support to: 192.548
+2025-08-01 12:55:18 INFO: {'RDDT': {   'close': 193.01,
+    'high': 193.26,
+    'low': 193.01,
+    'open': 193.21,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 831.0,
+    'vwap': 193.085806}}
+2025-08-01 12:55:18 INFO: Current resistance is: 193.943 and support is: 192.548
+2025-08-01 12:55:18 INFO: Current average volume is: 947.0
+2025-08-01 12:55:18 INFO: Updated resistance to: 193.831 and support to: 192.454
+2025-08-01 12:56:18 INFO: {'RDDT': {   'close': 192.84,
+    'high': 192.955,
+    'low': 192.77,
+    'open': 192.955,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1099.0,
+    'vwap': 192.872}}
+2025-08-01 12:56:18 INFO: Current resistance is: 193.831 and support is: 192.454
+2025-08-01 12:56:18 INFO: Current average volume is: 954.6
+2025-08-01 12:56:18 INFO: Updated resistance to: 193.673 and support to: 192.721
+2025-08-01 12:57:18 INFO: {'RDDT': {   'close': 192.6,
+    'high': 192.99,
+    'low': 192.36,
+    'open': 192.87,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2696.0,
+    'vwap': 192.706095}}
+2025-08-01 12:57:18 INFO: Current resistance is: 193.673 and support is: 192.721
+2025-08-01 12:57:18 INFO: Current average volume is: 1037.52
+2025-08-01 12:57:18 INFO: close price: 192.6 just dropped below support of 192.721...
+2025-08-01 12:58:18 INFO: {'RDDT': {   'close': 192.63,
+    'high': 192.76,
+    'low': 192.63,
+    'open': 192.76,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 800.0,
+    'vwap': 192.695}}
+2025-08-01 12:58:18 INFO: Current resistance is: 193.673 and support is: 192.721
+2025-08-01 12:58:18 INFO: Current average volume is: 1026.73
+2025-08-01 12:58:18 INFO: Closing price: 192.63 just dropped below support 192.721 again...ending trade...
+2025-08-01 13:05:15 INFO: === Strategy started ===
+2025-08-01 13:05:15 INFO: Start collecting the current highs/lows for: RDDT
+2025-08-01 13:05:15 INFO: Most recent stock data: {'RDDT': {   'close': 193.51,
+    'high': 193.54,
+    'low': 192.91,
+    'open': 193.37,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 3088.0,
+    'vwap': 193.379286}}
+2025-08-01 13:06:15 INFO: Most recent stock data: {'RDDT': {   'close': 194.17,
+    'high': 194.17,
+    'low': 193.81,
+    'open': 193.82,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1181.0,
+    'vwap': 193.914}}
+2025-08-01 13:07:15 INFO: Most recent stock data: {'RDDT': {   'close': 194.65,
+    'high': 194.65,
+    'low': 194.23,
+    'open': 194.23,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 715.0,
+    'vwap': 194.370468}}
+2025-08-01 13:08:16 INFO: Most recent stock data: {'RDDT': {   'close': 194.55,
+    'high': 194.55,
+    'low': 194.3,
+    'open': 194.41,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 974.0,
+    'vwap': 194.388125}}
+2025-08-01 13:09:16 INFO: Most recent stock data: {'RDDT': {   'close': 195.08,
+    'high': 195.08,
+    'low': 194.77,
+    'open': 194.77,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 816.0,
+    'vwap': 194.905}}
+2025-08-01 13:10:16 INFO: Most recent stock data: {'RDDT': {   'close': 195.39,
+    'high': 195.39,
+    'low': 194.9,
+    'open': 194.98,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1317.0,
+    'vwap': 195.0415}}
+2025-08-01 13:11:16 INFO: Most recent stock data: {'RDDT': {   'close': 195.51,
+    'high': 195.51,
+    'low': 195.17,
+    'open': 195.35,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1617.0,
+    'vwap': 195.312175}}
+2025-08-01 13:12:16 INFO: Most recent stock data: {'RDDT': {   'close': 195.0,
+    'high': 195.21,
+    'low': 195.0,
+    'open': 195.21,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 605.0,
+    'vwap': 195.105}}
+2025-08-01 13:13:16 INFO: Most recent stock data: {'RDDT': {   'close': 194.9,
+    'high': 194.9,
+    'low': 194.9,
+    'open': 194.9,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 194.9}}
+2025-08-01 13:14:17 INFO: Most recent stock data: {'RDDT': {   'close': 194.88,
+    'high': 194.88,
+    'low': 194.88,
+    'open': 194.88,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 240.0,
+    'vwap': 194.88}}
+2025-08-01 13:15:17 INFO: Most recent stock data: {'RDDT': {   'close': 194.6,
+    'high': 194.79,
+    'low': 194.59,
+    'open': 194.79,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1104.0,
+    'vwap': 194.645}}
+2025-08-01 13:15:17 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 13:15:17 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-01 13:16:17 INFO: {'RDDT': {   'close': 194.625,
+    'high': 194.625,
+    'low': 194.625,
+    'open': 194.625,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 594.0,
+    'vwap': 194.625}}
+2025-08-01 13:16:17 INFO: Current resistance is: 196.037 and support is: 194.559
+2025-08-01 13:16:17 INFO: Current average volume is: 780.25
+2025-08-01 13:16:17 INFO: Updated resistance to: 195.959 and support to: 194.353
+2025-08-01 13:17:17 INFO: {'RDDT': {   'close': 194.72,
+    'high': 194.74,
+    'low': 194.43,
+    'open': 194.43,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 968.0,
+    'vwap': 194.65}}
+2025-08-01 13:17:17 INFO: Current resistance is: 195.959 and support is: 194.353
+2025-08-01 13:17:17 INFO: Current average volume is: 794.69
+2025-08-01 13:17:17 INFO: Updated resistance to: 195.913 and support to: 194.105
+2025-08-01 13:18:17 INFO: {'RDDT': {   'close': 194.37,
+    'high': 194.53,
+    'low': 194.35,
+    'open': 194.52,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1588.0,
+    'vwap': 194.414804}}
+2025-08-01 13:18:17 INFO: Current resistance is: 195.913 and support is: 194.105
+2025-08-01 13:18:17 INFO: Current average volume is: 851.36
+2025-08-01 13:18:17 INFO: Updated resistance to: 195.823 and support to: 193.879
+2025-08-01 13:19:17 INFO: {'RDDT': {   'close': 194.715,
+    'high': 194.77,
+    'low': 194.29,
+    'open': 194.29,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1029.0,
+    'vwap': 194.603183}}
+2025-08-01 13:19:17 INFO: Current resistance is: 195.823 and support is: 193.879
+2025-08-01 13:19:17 INFO: Current average volume is: 863.2
+2025-08-01 13:19:17 INFO: Updated resistance to: 195.8 and support to: 193.679
+2025-08-01 13:21:18 INFO: {'RDDT': {   'close': 194.67,
+    'high': 194.9,
+    'low': 194.2,
+    'open': 194.9,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1216.0,
+    'vwap': 194.508131}}
+2025-08-01 13:21:18 INFO: Current resistance is: 195.8 and support is: 193.679
+2025-08-01 13:21:18 INFO: Current average volume is: 885.25
+2025-08-01 13:21:18 INFO: Updated resistance to: 195.807 and support to: 193.488
+2025-08-01 13:22:18 INFO: {'RDDT': {   'close': 194.18,
+    'high': 194.2,
+    'low': 194.17,
+    'open': 194.17,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 651.0,
+    'vwap': 194.183333}}
+2025-08-01 13:22:18 INFO: Current resistance is: 195.807 and support is: 193.488
+2025-08-01 13:22:18 INFO: Current average volume is: 871.47
+2025-08-01 13:22:18 INFO: Updated resistance to: 195.661 and support to: 193.325
+2025-08-01 13:23:18 INFO: {'RDDT': {   'close': 194.515,
+    'high': 194.515,
+    'low': 194.1,
+    'open': 194.1,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1083.0,
+    'vwap': 194.3075}}
+2025-08-01 13:23:18 INFO: Current resistance is: 195.661 and support is: 193.325
+2025-08-01 13:23:18 INFO: Current average volume is: 883.22
+2025-08-01 13:23:18 INFO: Updated resistance to: 195.603 and support to: 193.172
+2025-08-01 13:24:18 INFO: {'RDDT': {   'close': 194.83,
+    'high': 194.83,
+    'low': 194.58,
+    'open': 194.58,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 261.0,
+    'vwap': 194.705}}
+2025-08-01 13:24:18 INFO: Current resistance is: 195.603 and support is: 193.172
+2025-08-01 13:24:18 INFO: Current average volume is: 850.47
+2025-08-01 13:24:18 INFO: Updated resistance to: 195.618 and support to: 193.192
+2025-08-01 13:25:18 INFO: {'RDDT': {   'close': 194.8,
+    'high': 194.895,
+    'low': 194.8,
+    'open': 194.88,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 377.0,
+    'vwap': 194.858333}}
+2025-08-01 13:25:18 INFO: Current resistance is: 195.618 and support is: 193.192
+2025-08-01 13:25:18 INFO: Current average volume is: 826.8
+2025-08-01 13:25:18 INFO: Updated resistance to: 195.644 and support to: 193.269
+2025-08-01 13:26:18 INFO: {'RDDT': {   'close': 194.495,
+    'high': 194.84,
+    'low': 194.495,
+    'open': 194.84,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 408.0,
+    'vwap': 194.658333}}
+2025-08-01 13:26:18 INFO: Current resistance is: 195.644 and support is: 193.269
+2025-08-01 13:26:18 INFO: Current average volume is: 806.86
+2025-08-01 13:26:18 INFO: Updated resistance to: 195.654 and support to: 193.248
+2025-08-01 13:27:18 INFO: {'RDDT': {   'close': 194.28,
+    'high': 194.57,
+    'low': 194.28,
+    'open': 194.57,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1365.0,
+    'vwap': 194.398657}}
+2025-08-01 13:27:18 INFO: Current resistance is: 195.654 and support is: 193.248
+2025-08-01 13:27:18 INFO: Current average volume is: 832.23
+2025-08-01 13:27:18 INFO: Updated resistance to: 195.612 and support to: 193.173
+2025-08-01 13:28:19 INFO: {'RDDT': {   'close': 193.965,
+    'high': 194.01,
+    'low': 193.965,
+    'open': 194.01,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 647.0,
+    'vwap': 193.99875}}
+2025-08-01 13:28:19 INFO: Current resistance is: 195.612 and support is: 193.173
+2025-08-01 13:28:19 INFO: Current average volume is: 824.17
+2025-08-01 13:28:19 INFO: Updated resistance to: 195.472 and support to: 193.031
+2025-08-01 13:29:19 INFO: {'RDDT': {   'close': 193.82,
+    'high': 193.98,
+    'low': 193.82,
+    'open': 193.98,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 823.0,
+    'vwap': 193.891667}}
+2025-08-01 13:29:19 INFO: Current resistance is: 195.472 and support is: 193.031
+2025-08-01 13:29:19 INFO: Current average volume is: 824.12
+2025-08-01 13:29:19 INFO: Updated resistance to: 195.345 and support to: 192.876
+2025-08-01 14:29:50 INFO: === Strategy started ===
+2025-08-01 14:29:50 INFO: Start collecting the current highs/lows for: RDDT
+2025-08-01 14:29:50 INFO: Most recent stock data: {'RDDT': {   'close': 192.3,
+    'high': 192.3,
+    'low': 192.1,
+    'open': 192.1,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 421.0,
+    'vwap': 192.2225}}
+2025-08-01 14:30:50 INFO: Most recent stock data: {'RDDT': {   'close': 192.45,
+    'high': 192.49,
+    'low': 192.45,
+    'open': 192.49,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 618.0,
+    'vwap': 192.4725}}
+2025-08-01 14:31:50 INFO: Most recent stock data: {'RDDT': {   'close': 192.0,
+    'high': 192.0,
+    'low': 192.0,
+    'open': 192.0,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 168.0,
+    'vwap': 192.0}}
+2025-08-01 14:32:50 INFO: Most recent stock data: {'RDDT': {   'close': 192.38,
+    'high': 192.38,
+    'low': 192.045,
+    'open': 192.11,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 402.0,
+    'vwap': 192.18125}}
+2025-08-01 14:33:50 INFO: Most recent stock data: {'RDDT': {   'close': 192.71,
+    'high': 192.74,
+    'low': 192.71,
+    'open': 192.74,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 502.0,
+    'vwap': 192.725}}
+2025-08-01 14:34:50 INFO: Most recent stock data: {'RDDT': {   'close': 191.8,
+    'high': 192.32,
+    'low': 191.8,
+    'open': 192.32,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 773.0,
+    'vwap': 192.178333}}
+2025-08-01 15:05:54 INFO: === Strategy started ===
+2025-08-01 15:05:54 INFO: Start collecting the current highs/lows for: RDDT
+2025-08-01 15:05:54 INFO: Most recent stock data: {'RDDT': {   'close': 187.94,
+    'high': 188.09,
+    'low': 187.83,
+    'open': 187.995,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1736.0,
+    'vwap': 187.948077}}
+2025-08-01 15:06:54 INFO: Most recent stock data: {'RDDT': {   'close': 188.35,
+    'high': 188.35,
+    'low': 187.985,
+    'open': 188.05,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2019.0,
+    'vwap': 188.169636}}
+2025-08-01 15:07:54 INFO: Most recent stock data: {'RDDT': {   'close': 188.35,
+    'high': 188.66,
+    'low': 188.33,
+    'open': 188.45,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 2405.0,
+    'vwap': 188.542667}}
+2025-08-01 15:08:54 INFO: Most recent stock data: {'RDDT': {   'close': 188.19,
+    'high': 188.41,
+    'low': 188.19,
+    'open': 188.25,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1412.0,
+    'vwap': 188.288182}}
+2025-08-01 15:09:54 INFO: Most recent stock data: {'RDDT': {   'close': 187.89,
+    'high': 188.04,
+    'low': 187.89,
+    'open': 188.0,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1316.0,
+    'vwap': 187.954545}}
+2025-08-01 15:10:55 INFO: Most recent stock data: {'RDDT': {   'close': 187.39,
+    'high': 187.56,
+    'low': 187.39,
+    'open': 187.56,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 930.0,
+    'vwap': 187.488333}}
+2025-08-01 15:11:55 INFO: Most recent stock data: {'RDDT': {   'close': 187.99,
+    'high': 188.19,
+    'low': 187.43,
+    'open': 187.43,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2795.0,
+    'vwap': 187.821847}}
+2025-08-01 15:12:55 INFO: Most recent stock data: {'RDDT': {   'close': 187.47,
+    'high': 187.47,
+    'low': 187.47,
+    'open': 187.47,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 201.0,
+    'vwap': 187.47}}
+2025-08-01 15:13:55 INFO: Most recent stock data: {'RDDT': {   'close': 187.45,
+    'high': 187.58,
+    'low': 187.35,
+    'open': 187.57,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1830.0,
+    'vwap': 187.469408}}
+2025-08-01 15:14:55 INFO: Most recent stock data: {'RDDT': {   'close': 188.09,
+    'high': 188.11,
+    'low': 187.57,
+    'open': 187.59,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 2799.0,
+    'vwap': 187.759091}}
+2025-08-01 15:15:55 INFO: Most recent stock data: {'RDDT': {   'close': 188.36,
+    'high': 188.36,
+    'low': 188.28,
+    'open': 188.28,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1066.0,
+    'vwap': 188.327807}}
+2025-08-01 15:15:55 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-01 15:15:55 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-01 15:16:55 INFO: {'RDDT': {   'close': 188.28,
+    'high': 188.39,
+    'low': 188.05,
+    'open': 188.39,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1209.0,
+    'vwap': 188.26}}
+2025-08-01 15:16:55 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:16:55 INFO: Current average volume is: 1498.5
+2025-08-01 15:16:55 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:17:56 INFO: {'RDDT': {   'close': 188.22,
+    'high': 188.26,
+    'low': 188.02,
+    'open': 188.08,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1520.0,
+    'vwap': 188.192248}}
+2025-08-01 15:17:56 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:17:56 INFO: Current average volume is: 1500.15
+2025-08-01 15:17:56 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:18:56 INFO: {'RDDT': {   'close': 187.59,
+    'high': 188.16,
+    'low': 187.59,
+    'open': 188.16,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1946.0,
+    'vwap': 187.834414}}
+2025-08-01 15:18:56 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:18:56 INFO: Current average volume is: 1532.0
+2025-08-01 15:18:56 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:19:56 INFO: {'RDDT': {   'close': 187.84,
+    'high': 187.84,
+    'low': 187.66,
+    'open': 187.66,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1950.0,
+    'vwap': 187.728333}}
+2025-08-01 15:19:56 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:19:56 INFO: Current average volume is: 1559.87
+2025-08-01 15:19:56 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:20:56 INFO: {'RDDT': {   'close': 187.95,
+    'high': 187.99,
+    'low': 187.64,
+    'open': 187.68,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 3175.0,
+    'vwap': 187.765603}}
+2025-08-01 15:20:56 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:20:56 INFO: Current average volume is: 1660.81
+2025-08-01 15:20:56 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:21:56 INFO: {'RDDT': {   'close': 188.36,
+    'high': 188.595,
+    'low': 188.05,
+    'open': 188.05,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 740.0,
+    'vwap': 188.32375}}
+2025-08-01 15:21:56 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:21:56 INFO: Current average volume is: 1606.65
+2025-08-01 15:21:56 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:22:56 INFO: {'RDDT': {   'close': 187.635,
+    'high': 187.98,
+    'low': 187.59,
+    'open': 187.92,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 907.0,
+    'vwap': 187.805833}}
+2025-08-01 15:22:56 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:22:56 INFO: Current average volume is: 1567.78
+2025-08-01 15:22:56 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:24:56 INFO: {'RDDT': {   'close': 188.03,
+    'high': 188.03,
+    'low': 187.755,
+    'open': 187.755,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1014.0,
+    'vwap': 187.858871}}
+2025-08-01 15:24:56 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:24:56 INFO: Current average volume is: 1538.63
+2025-08-01 15:24:56 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:25:57 INFO: {'RDDT': {   'close': 188.08,
+    'high': 188.08,
+    'low': 187.82,
+    'open': 187.85,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1519.0,
+    'vwap': 187.907059}}
+2025-08-01 15:25:57 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:25:57 INFO: Current average volume is: 1537.65
+2025-08-01 15:25:57 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:26:57 INFO: {'RDDT': {   'close': 188.51,
+    'high': 188.51,
+    'low': 188.28,
+    'open': 188.35,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 405.0,
+    'vwap': 188.3725}}
+2025-08-01 15:26:57 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:26:57 INFO: Current average volume is: 1483.71
+2025-08-01 15:26:57 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:27:57 INFO: {'RDDT': {   'close': 188.07,
+    'high': 188.62,
+    'low': 188.07,
+    'open': 188.62,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 631.0,
+    'vwap': 188.318}}
+2025-08-01 15:27:57 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:27:57 INFO: Current average volume is: 1444.95
+2025-08-01 15:27:57 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:28:57 INFO: {'RDDT': {   'close': 187.84,
+    'high': 187.875,
+    'low': 187.79,
+    'open': 187.875,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 983.0,
+    'vwap': 187.833125}}
+2025-08-01 15:28:57 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:28:57 INFO: Current average volume is: 1424.87
+2025-08-01 15:28:57 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:29:57 INFO: {'RDDT': {   'close': 187.72,
+    'high': 187.72,
+    'low': 187.72,
+    'open': 187.72,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 415.0,
+    'vwap': 187.72}}
+2025-08-01 15:29:57 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:29:57 INFO: Current average volume is: 1382.79
+2025-08-01 15:29:57 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:30:57 INFO: {'RDDT': {   'close': 187.47,
+    'high': 187.86,
+    'low': 187.47,
+    'open': 187.86,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 493.0,
+    'vwap': 187.665}}
+2025-08-01 15:30:57 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:30:57 INFO: Current average volume is: 1347.2
+2025-08-01 15:30:57 INFO: Updated resistance to: 188.66 and support to: 187.35
+2025-08-01 15:31:57 INFO: {'RDDT': {   'close': 187.23,
+    'high': 187.31,
+    'low': 186.89,
+    'open': 187.31,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 1688.0,
+    'vwap': 187.11262}}
+2025-08-01 15:31:57 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:31:57 INFO: Current average volume is: 1360.31
+2025-08-01 15:31:57 INFO: close price: 187.23 just dropped below support of 187.35...
+2025-08-01 15:32:58 INFO: {'RDDT': {   'close': 187.13,
+    'high': 187.54,
+    'low': 187.13,
+    'open': 187.33,
+    'symbol': 'RDDT',
+    'timestamp': datetime.datetime(2025, 8, 1, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1006.0,
+    'vwap': 187.303}}
+2025-08-01 15:32:58 INFO: Current resistance is: 188.66 and support is: 187.35
+2025-08-01 15:32:58 INFO: Current average volume is: 1347.19
+2025-08-01 15:32:58 INFO: Closing price: 187.13 just dropped below support 187.35 again...ending trade...

@@ -91,10 +91,13 @@ class BaseTrade:
         lows = np.array(self.lows[int(self.param["candle_data"]):], dtype=float)
 
         # Engulf needs 2 bar to confirm
-        engulf = CDLENGULFING(opens, highs, lows, closes)[-1] + CDLENGULFING(opens, highs, lows, closes)[-2]
+        engulf = CDLENGULFING(opens, highs, lows, closes)
+        eg_output = engulf[-1] + engulf[-2]
         # Hammer only needs one
         hammer = CDLHAMMER(opens, highs, lows, closes)[-1]
-        return engulf == 200 or hammer == 100
+        print(f"The engulfing candle pattern check is: {eg_output}. The Hammer candle pattern check is {hammer}")
+        logging.info(f"The engulfing candle pattern check is: {eg_output}. The Hammer candle pattern check is {hammer}")
+        return int(eg_output) == 200 or int(hammer) == 100
 
     def monitor_order(self, stop_loss, take_profit, init_price):
         # wait 1 minute for order to fill
@@ -277,13 +280,16 @@ class BaseTrade:
                 self.hist_client = StockHistoricalDataClient(self.param["alpaca_key"],
                                                              self.param["secret_key"])
                 latest_bar = self.hist_client.get_stock_latest_bar(self.hist_request)
-                high, low, close, volume = latest_bar[self.symbol].high, latest_bar[self.symbol].low,\
-                                           latest_bar[self.symbol].close, latest_bar[self.symbol].volume
+                high, low, close, opens, volume = latest_bar[self.symbol].high, latest_bar[self.symbol].low,\
+                                                    latest_bar[self.symbol].close, latest_bar[self.symbol].open,\
+                                                        latest_bar[self.symbol].volume
 
                 # Check if data is repeated
-                if high != self.highs[-1] and low != self.lows[-1]:
+                if high != self.highs[-1] and low != self.lows[-1] and close != self.closes[-1] and opens != self.opens[-1]:
                     self.highs.append(high)
                     self.lows.append(low)
+                    self.closes.append(close)
+                    self.opens.append(opens)
                     self.volume += volume
                     self.get_new_avg()
 
@@ -291,7 +297,9 @@ class BaseTrade:
                     print(f"Current Low asks for {self.symbol} is {self.lows[-1]}")
                     print(f"Current Close is {close}")
                     print(f"Current resistance is: {self.resist} and support is: {self.support}")
+                    print(f"Current Volume is: {volume}")
                     print(f"Current average volume is: {self.avg_vol}")
+
 
                     logging.info(latest_bar)
                     logging.info(f"Current resistance is: {self.resist} and support is: {self.support}")

@@ -26,10 +26,9 @@ def get_undervalued_stocks():
     #                 }
 
     filters_dict = {'Price': 'Over $1',
-                    'Average Volume':'Over 500K',
+                    'Average Volume':'Over 1M',
                     'Relative Volume': 'Over 3',
-                    'Average True Range': 'Over 1',
-                    'Beta': 'Over 2'
+                    'Average True Range': 'Over 1'
                     }
 
     foverview.set_filter(filters_dict=filters_dict)
@@ -94,5 +93,5 @@ def get_stock_start(stock_list,stock_dict,process_list):
     return False
 
 
-# # print(get_undervalued_stocks())
+print(get_undervalued_stocks())
 # # print(get_stock_info('BE'))
