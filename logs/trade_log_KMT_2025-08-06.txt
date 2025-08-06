@@ -1,0 +1,735 @@
+2025-08-06 10:20:09 INFO: === Strategy started ===
+2025-08-06 10:20:09 INFO: Start collecting the current highs/lows for: KMT
+2025-08-06 10:20:09 INFO: Most recent stock data: {'KMT': {   'close': 18.485,
+    'high': 18.485,
+    'low': 18.485,
+    'open': 18.485,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 238.0,
+    'vwap': 18.485}}
+2025-08-06 10:21:10 INFO: Most recent stock data: {'KMT': {   'close': 18.415,
+    'high': 18.415,
+    'low': 18.415,
+    'open': 18.415,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 449.0,
+    'vwap': 18.415}}
+2025-08-06 10:22:10 INFO: Most recent stock data: {'KMT': {   'close': 18.375,
+    'high': 18.41,
+    'low': 18.375,
+    'open': 18.41,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1122.0,
+    'vwap': 18.387048}}
+2025-08-06 10:23:10 INFO: Most recent stock data: {'KMT': {   'close': 18.535,
+    'high': 18.535,
+    'low': 18.47,
+    'open': 18.47,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 296.0,
+    'vwap': 18.5025}}
+2025-08-06 10:24:10 INFO: Most recent stock data: {'KMT': {   'close': 18.505,
+    'high': 18.51,
+    'low': 18.5,
+    'open': 18.5,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 638.0,
+    'vwap': 18.505}}
+2025-08-06 10:25:10 INFO: Most recent stock data: {'KMT': {   'close': 18.31,
+    'high': 18.38,
+    'low': 18.295,
+    'open': 18.38,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1056.0,
+    'vwap': 18.325}}
+2025-08-06 10:26:10 INFO: Most recent stock data: {'KMT': {   'close': 18.28,
+    'high': 18.315,
+    'low': 18.28,
+    'open': 18.315,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 502.0,
+    'vwap': 18.2975}}
+2025-08-06 10:29:11 INFO: Most recent stock data: {'KMT': {   'close': 18.295,
+    'high': 18.295,
+    'low': 18.295,
+    'open': 18.295,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.295}}
+2025-08-06 10:30:11 INFO: Most recent stock data: {'KMT': {   'close': 18.35,
+    'high': 18.38,
+    'low': 18.3,
+    'open': 18.3,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 906.0,
+    'vwap': 18.358571}}
+2025-08-06 10:31:11 INFO: Most recent stock data: {'KMT': {   'close': 18.495,
+    'high': 18.495,
+    'low': 18.495,
+    'open': 18.495,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 174.0,
+    'vwap': 18.495}}
+2025-08-06 10:33:11 INFO: Most recent stock data: {'KMT': {   'close': 18.43,
+    'high': 18.51,
+    'low': 18.43,
+    'open': 18.51,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 538.0,
+    'vwap': 18.45}}
+2025-08-06 10:33:11 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 10:33:11 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-06 10:34:11 INFO: {'KMT': {   'close': 18.37,
+    'high': 18.42,
+    'low': 18.37,
+    'open': 18.42,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 18.39}}
+2025-08-06 10:34:11 INFO: Current resistance is: 18.535 and support is: 18.28
+2025-08-06 10:34:11 INFO: Current average volume is: 515.08
+2025-08-06 10:34:11 INFO: Updated resistance to: 18.535 and support to: 18.28
+2025-08-06 10:36:11 INFO: {'KMT': {   'close': 18.25,
+    'high': 18.25,
+    'low': 18.25,
+    'open': 18.25,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 426.0,
+    'vwap': 18.25}}
+2025-08-06 10:36:11 INFO: Current resistance is: 18.535 and support is: 18.28
+2025-08-06 10:36:11 INFO: Current average volume is: 508.23
+2025-08-06 10:36:11 INFO: close price: 18.25 just dropped below support of 18.28...
+2025-08-06 10:37:12 INFO: {'KMT': {   'close': 18.265,
+    'high': 18.265,
+    'low': 18.265,
+    'open': 18.265,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 534.0,
+    'vwap': 18.265}}
+2025-08-06 10:37:12 INFO: Current resistance is: 18.535 and support is: 18.28
+2025-08-06 10:37:12 INFO: Current average volume is: 510.07
+2025-08-06 10:37:12 INFO: Closing price: 18.265 just dropped below support 18.28 again...ending trade...
+2025-08-06 13:16:55 INFO: === Strategy started ===
+2025-08-06 13:16:55 INFO: Start collecting the current highs/lows for: KMT
+2025-08-06 13:16:56 INFO: Most recent stock data: {'KMT': {   'close': 19.88,
+    'high': 19.935,
+    'low': 19.86,
+    'open': 19.935,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2182.0,
+    'vwap': 19.89669}}
+2025-08-06 13:18:56 INFO: Most recent stock data: {'KMT': {   'close': 19.855,
+    'high': 19.9,
+    'low': 19.855,
+    'open': 19.9,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 5710.0,
+    'vwap': 19.874581}}
+2025-08-06 13:20:56 INFO: Most recent stock data: {'KMT': {   'close': 19.885,
+    'high': 19.89,
+    'low': 19.875,
+    'open': 19.875,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1287.0,
+    'vwap': 19.885}}
+2025-08-06 13:21:56 INFO: Most recent stock data: {'KMT': {   'close': 19.895,
+    'high': 19.895,
+    'low': 19.895,
+    'open': 19.895,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 511.0,
+    'vwap': 19.895}}
+2025-08-06 13:24:57 INFO: Most recent stock data: {'KMT': {   'close': 19.875,
+    'high': 19.875,
+    'low': 19.875,
+    'open': 19.875,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 995.0,
+    'vwap': 19.875}}
+2025-08-06 13:25:57 INFO: Most recent stock data: {'KMT': {   'close': 19.905,
+    'high': 19.905,
+    'low': 19.89,
+    'open': 19.89,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 475.0,
+    'vwap': 19.90125}}
+2025-08-06 13:59:08 INFO: === Strategy started ===
+2025-08-06 13:59:08 INFO: Start collecting the current highs/lows for: KMT
+2025-08-06 13:59:08 INFO: Most recent stock data: {'KMT': {   'close': 20.235,
+    'high': 20.26,
+    'low': 20.22,
+    'open': 20.26,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 658.0,
+    'vwap': 20.234167}}
+2025-08-06 14:00:08 INFO: Most recent stock data: {'KMT': {   'close': 20.305,
+    'high': 20.305,
+    'low': 20.235,
+    'open': 20.235,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 585.0,
+    'vwap': 20.264}}
+2025-08-06 14:01:08 INFO: Most recent stock data: {'KMT': {   'close': 20.265,
+    'high': 20.265,
+    'low': 20.265,
+    'open': 20.265,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 20.265}}
+2025-08-06 14:02:08 INFO: Most recent stock data: {'KMT': {   'close': 20.275,
+    'high': 20.285,
+    'low': 20.235,
+    'open': 20.285,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1204.0,
+    'vwap': 20.26}}
+2025-08-06 14:03:08 INFO: Most recent stock data: {'KMT': {   'close': 20.265,
+    'high': 20.3,
+    'low': 20.265,
+    'open': 20.265,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1790.0,
+    'vwap': 20.272124}}
+2025-08-06 14:04:08 INFO: Most recent stock data: {'KMT': {   'close': 20.26,
+    'high': 20.26,
+    'low': 20.26,
+    'open': 20.26,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 20.26}}
+2025-08-06 14:05:09 INFO: Most recent stock data: {'KMT': {   'close': 20.285,
+    'high': 20.3,
+    'low': 20.28,
+    'open': 20.3,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 446.0,
+    'vwap': 20.2875}}
+2025-08-06 14:06:09 INFO: Most recent stock data: {'KMT': {   'close': 20.285,
+    'high': 20.35,
+    'low': 20.285,
+    'open': 20.31,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 877.0,
+    'vwap': 20.335064}}
+2025-08-06 14:07:09 INFO: Most recent stock data: {'KMT': {   'close': 20.335,
+    'high': 20.335,
+    'low': 20.335,
+    'open': 20.335,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 20.335}}
+2025-08-06 14:08:09 INFO: Most recent stock data: {'KMT': {   'close': 20.325,
+    'high': 20.33,
+    'low': 20.325,
+    'open': 20.33,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 225.0,
+    'vwap': 20.3275}}
+2025-08-06 14:09:09 INFO: Most recent stock data: {'KMT': {   'close': 20.325,
+    'high': 20.325,
+    'low': 20.32,
+    'open': 20.32,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 441.0,
+    'vwap': 20.323333}}
+2025-08-06 14:09:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 14:09:09 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-06 14:10:09 INFO: {'KMT': {   'close': 20.295,
+    'high': 20.315,
+    'low': 20.285,
+    'open': 20.315,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 3529.0,
+    'vwap': 20.295616}}
+2025-08-06 14:10:09 INFO: Current resistance is: 20.35 and support is: 20.22
+2025-08-06 14:10:09 INFO: Current average volume is: 911.6
+2025-08-06 14:10:09 INFO: Updated resistance to: 20.35 and support to: 20.22
+2025-08-06 14:13:14 INFO: {'KMT': {   'close': 20.3,
+    'high': 20.3,
+    'low': 20.3,
+    'open': 20.3,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 155.0,
+    'vwap': 20.3}}
+2025-08-06 14:13:14 INFO: Current resistance is: 20.35 and support is: 20.22
+2025-08-06 14:13:14 INFO: Current average volume is: 907.1
+2025-08-06 14:13:14 INFO: Updated resistance to: 20.35 and support to: 20.22
+2025-08-06 14:15:14 INFO: {'KMT': {   'close': 20.375,
+    'high': 20.375,
+    'low': 20.36,
+    'open': 20.36,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 674.0,
+    'vwap': 20.3675}}
+2025-08-06 14:15:14 INFO: Current resistance is: 20.35 and support is: 20.22
+2025-08-06 14:15:14 INFO: Current average volume is: 854.1
+2025-08-06 14:15:14 INFO: The Current Close 20.375 is above the resistance...
+2025-08-06 14:15:14 INFO: Updated resistance to: 20.375 and support to: 20.22
+2025-08-06 14:16:14 INFO: {'KMT': {   'close': 20.395,
+    'high': 20.395,
+    'low': 20.395,
+    'open': 20.395,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 20.395}}
+2025-08-06 14:16:14 INFO: Current resistance is: 20.375 and support is: 20.22
+2025-08-06 14:16:14 INFO: Current average volume is: 695.1
+2025-08-06 14:16:14 INFO: The current close: 20.395 is above the resistance of 20.375, but volume isn't enough...
+2025-08-06 14:16:14 INFO: Updated resistance to: 20.395 and support to: 20.22
+2025-08-06 14:17:14 INFO: {'KMT': {   'close': 20.33,
+    'high': 20.39,
+    'low': 20.33,
+    'open': 20.39,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 456.0,
+    'vwap': 20.36}}
+2025-08-06 14:17:14 INFO: Current resistance is: 20.395 and support is: 20.22
+2025-08-06 14:17:14 INFO: Current average volume is: 710.6
+2025-08-06 14:17:14 INFO: Updated resistance to: 20.395 and support to: 20.22
+2025-08-06 14:19:15 INFO: {'KMT': {   'close': 20.36,
+    'high': 20.36,
+    'low': 20.355,
+    'open': 20.36,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 700.0,
+    'vwap': 20.359167}}
+2025-08-06 14:19:15 INFO: Current resistance is: 20.395 and support is: 20.22
+2025-08-06 14:19:15 INFO: Current average volume is: 736.0
+2025-08-06 14:19:15 INFO: Updated resistance to: 20.395 and support to: 20.22
+2025-08-06 14:20:15 INFO: {'KMT': {   'close': 20.43,
+    'high': 20.43,
+    'low': 20.335,
+    'open': 20.335,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 583.0,
+    'vwap': 20.38348}}
+2025-08-06 14:20:15 INFO: Current resistance is: 20.395 and support is: 20.22
+2025-08-06 14:20:15 INFO: Current average volume is: 706.6
+2025-08-06 14:20:15 INFO: The Current Close 20.43 is above the resistance...
+2025-08-06 14:20:15 INFO: Updated resistance to: 20.43 and support to: 20.22
+2025-08-06 14:21:15 INFO: {'KMT': {   'close': 20.4,
+    'high': 20.4,
+    'low': 20.4,
+    'open': 20.4,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 138.0,
+    'vwap': 20.4}}
+2025-08-06 14:21:15 INFO: Current resistance is: 20.43 and support is: 20.22
+2025-08-06 14:21:15 INFO: Current average volume is: 710.1
+2025-08-06 14:21:15 INFO: Updated resistance to: 20.43 and support to: 20.22
+2025-08-06 14:25:15 INFO: {'KMT': {   'close': 20.38,
+    'high': 20.38,
+    'low': 20.355,
+    'open': 20.355,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 3044.0,
+    'vwap': 20.373205}}
+2025-08-06 14:25:15 INFO: Current resistance is: 20.43 and support is: 20.22
+2025-08-06 14:25:15 INFO: Current average volume is: 992.0
+2025-08-06 14:25:15 INFO: Updated resistance to: 20.43 and support to: 20.22
+2025-08-06 14:26:16 INFO: {'KMT': {   'close': 20.355,
+    'high': 20.36,
+    'low': 20.35,
+    'open': 20.35,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 20.355}}
+2025-08-06 14:26:16 INFO: Current resistance is: 20.43 and support is: 20.22
+2025-08-06 14:26:16 INFO: Current average volume is: 997.9
+2025-08-06 14:26:16 INFO: Updated resistance to: 20.43 and support to: 20.22
+2025-08-06 14:27:16 INFO: {'KMT': {   'close': 20.39,
+    'high': 20.39,
+    'low': 20.39,
+    'open': 20.39,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 530.0,
+    'vwap': 20.39}}
+2025-08-06 14:27:16 INFO: Current resistance is: 20.43 and support is: 20.22
+2025-08-06 14:27:16 INFO: Current average volume is: 698.0
+2025-08-06 14:27:16 INFO: Updated resistance to: 20.43 and support to: 20.22
+2025-08-06 14:29:16 INFO: {'KMT': {   'close': 20.405,
+    'high': 20.405,
+    'low': 20.405,
+    'open': 20.405,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 287.0,
+    'vwap': 20.405}}
+2025-08-06 14:29:16 INFO: Current resistance is: 20.43 and support is: 20.22
+2025-08-06 14:29:16 INFO: Current average volume is: 711.2
+2025-08-06 14:29:16 INFO: Updated resistance to: 20.43 and support to: 20.22
+2025-08-06 14:30:16 INFO: {'KMT': {   'close': 20.4,
+    'high': 20.425,
+    'low': 20.4,
+    'open': 20.425,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 407.0,
+    'vwap': 20.415}}
+2025-08-06 14:30:16 INFO: Current resistance is: 20.43 and support is: 20.22
+2025-08-06 14:30:16 INFO: Current average volume is: 684.5
+2025-08-06 14:30:16 INFO: Updated resistance to: 20.43 and support to: 20.22
+2025-08-06 14:31:16 INFO: {'KMT': {   'close': 20.395,
+    'high': 20.41,
+    'low': 20.395,
+    'open': 20.41,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 826.0,
+    'vwap': 20.3975}}
+2025-08-06 14:31:16 INFO: Current resistance is: 20.43 and support is: 20.22
+2025-08-06 14:31:16 INFO: Current average volume is: 747.1
+2025-08-06 14:31:16 INFO: Updated resistance to: 20.43 and support to: 20.22
+2025-08-06 14:34:16 INFO: {'KMT': {   'close': 20.41,
+    'high': 20.42,
+    'low': 20.41,
+    'open': 20.42,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 600.0,
+    'vwap': 20.412}}
+2025-08-06 14:34:16 INFO: Current resistance is: 20.43 and support is: 20.22
+2025-08-06 14:34:16 INFO: Current average volume is: 761.5
+2025-08-06 14:34:16 INFO: Updated resistance to: 20.43 and support to: 20.22
+2025-08-06 14:37:17 INFO: {'KMT': {   'close': 20.455,
+    'high': 20.455,
+    'low': 20.455,
+    'open': 20.455,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 289.0,
+    'vwap': 20.455}}
+2025-08-06 14:37:17 INFO: Current resistance is: 20.43 and support is: 20.22
+2025-08-06 14:37:17 INFO: Current average volume is: 720.4
+2025-08-06 14:37:17 INFO: The Current Close 20.455 is above the resistance...
+2025-08-06 14:37:17 INFO: Updated resistance to: 20.455 and support to: 20.22
+2025-08-06 14:38:17 INFO: {'KMT': {   'close': 20.47,
+    'high': 20.47,
+    'low': 20.47,
+    'open': 20.47,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 325.0,
+    'vwap': 20.47}}
+2025-08-06 14:38:17 INFO: Current resistance is: 20.455 and support is: 20.22
+2025-08-06 14:38:17 INFO: Current average volume is: 694.6
+2025-08-06 14:38:17 INFO: The current close: 20.47 is above the resistance of 20.455, but volume isn't enough...
+2025-08-06 14:38:17 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:40:18 INFO: {'KMT': {   'close': 20.375,
+    'high': 20.445,
+    'low': 20.375,
+    'open': 20.445,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 888.0,
+    'vwap': 20.38375}}
+2025-08-06 14:40:18 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:40:18 INFO: Current average volume is: 769.6
+2025-08-06 14:40:18 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:42:18 INFO: {'KMT': {   'close': 20.385,
+    'high': 20.385,
+    'low': 20.38,
+    'open': 20.385,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 718.0,
+    'vwap': 20.383333}}
+2025-08-06 14:42:18 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:42:18 INFO: Current average volume is: 537.0
+2025-08-06 14:42:18 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:44:18 INFO: {'KMT': {   'close': 20.345,
+    'high': 20.4,
+    'low': 20.345,
+    'open': 20.4,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 906.0,
+    'vwap': 20.357222}}
+2025-08-06 14:44:18 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:44:18 INFO: Current average volume is: 577.6
+2025-08-06 14:44:18 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:45:18 INFO: {'KMT': {   'close': 20.31,
+    'high': 20.315,
+    'low': 20.305,
+    'open': 20.315,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 2100.0,
+    'vwap': 20.31125}}
+2025-08-06 14:45:18 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:45:18 INFO: Current average volume is: 734.6
+2025-08-06 14:45:18 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:46:18 INFO: {'KMT': {   'close': 20.365,
+    'high': 20.365,
+    'low': 20.34,
+    'open': 20.36,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 926.0,
+    'vwap': 20.36}}
+2025-08-06 14:46:18 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:46:18 INFO: Current average volume is: 798.5
+2025-08-06 14:46:18 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:48:19 INFO: {'KMT': {   'close': 20.37,
+    'high': 20.375,
+    'low': 20.365,
+    'open': 20.365,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2210.0,
+    'vwap': 20.365682}}
+2025-08-06 14:48:19 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:48:19 INFO: Current average volume is: 978.8
+2025-08-06 14:48:19 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:50:19 INFO: {'KMT': {   'close': 20.4,
+    'high': 20.4,
+    'low': 20.385,
+    'open': 20.385,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 478.0,
+    'vwap': 20.3925}}
+2025-08-06 14:50:19 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:50:19 INFO: Current average volume is: 944.0
+2025-08-06 14:50:19 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:51:19 INFO: {'KMT': {   'close': 20.42,
+    'high': 20.42,
+    'low': 20.42,
+    'open': 20.42,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 480.0,
+    'vwap': 20.42}}
+2025-08-06 14:51:19 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:51:19 INFO: Current average volume is: 932.0
+2025-08-06 14:51:19 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:52:19 INFO: {'KMT': {   'close': 20.395,
+    'high': 20.415,
+    'low': 20.39,
+    'open': 20.415,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 985.0,
+    'vwap': 20.399444}}
+2025-08-06 14:52:19 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:52:19 INFO: Current average volume is: 1001.6
+2025-08-06 14:52:19 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:53:19 INFO: {'KMT': {   'close': 20.385,
+    'high': 20.39,
+    'low': 20.365,
+    'open': 20.365,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1801.0,
+    'vwap': 20.384461}}
+2025-08-06 14:53:19 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:53:19 INFO: Current average volume is: 1149.2
+2025-08-06 14:53:19 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:55:19 INFO: {'KMT': {   'close': 20.375,
+    'high': 20.385,
+    'low': 20.375,
+    'open': 20.385,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 730.0,
+    'vwap': 20.379286}}
+2025-08-06 14:55:19 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:55:19 INFO: Current average volume is: 1133.4
+2025-08-06 14:55:19 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 14:58:20 INFO: {'KMT': {   'close': 20.425,
+    'high': 20.425,
+    'low': 20.415,
+    'open': 20.415,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 20.42}}
+2025-08-06 14:58:20 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 14:58:20 INFO: Current average volume is: 1091.6
+2025-08-06 14:58:20 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 15:00:20 INFO: {'KMT': {   'close': 20.45,
+    'high': 20.45,
+    'low': 20.43,
+    'open': 20.43,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 500.0,
+    'vwap': 20.44}}
+2025-08-06 15:00:20 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 15:00:20 INFO: Current average volume is: 1051.0
+2025-08-06 15:00:20 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 15:02:20 INFO: {'KMT': {   'close': 20.31,
+    'high': 20.4,
+    'low': 20.31,
+    'open': 20.4,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1427.0,
+    'vwap': 20.36}}
+2025-08-06 15:02:20 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 15:02:20 INFO: Current average volume is: 983.7
+2025-08-06 15:02:20 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 15:03:20 INFO: {'KMT': {   'close': 20.305,
+    'high': 20.31,
+    'low': 20.305,
+    'open': 20.31,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 657.0,
+    'vwap': 20.309148}}
+2025-08-06 15:03:20 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 15:03:20 INFO: Current average volume is: 956.8
+2025-08-06 15:03:20 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 15:08:21 INFO: {'KMT': {   'close': 20.3,
+    'high': 20.3,
+    'low': 20.3,
+    'open': 20.3,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 294.0,
+    'vwap': 20.3}}
+2025-08-06 15:08:21 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 15:08:21 INFO: Current average volume is: 765.2
+2025-08-06 15:08:21 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 15:10:21 INFO: {'KMT': {   'close': 20.235,
+    'high': 20.28,
+    'low': 20.23,
+    'open': 20.28,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 529.0,
+    'vwap': 20.24375}}
+2025-08-06 15:10:21 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 15:10:21 INFO: Current average volume is: 770.3
+2025-08-06 15:10:21 INFO: Updated resistance to: 20.47 and support to: 20.22
+2025-08-06 15:11:21 INFO: {'KMT': {   'close': 20.02,
+    'high': 20.16,
+    'low': 20.02,
+    'open': 20.16,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 3401.0,
+    'vwap': 20.062782}}
+2025-08-06 15:11:21 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 15:11:21 INFO: Current average volume is: 1062.4
+2025-08-06 15:11:21 INFO: close price: 20.02 just dropped below support of 20.22...
+2025-08-06 15:13:22 INFO: {'KMT': {   'close': 20.1,
+    'high': 20.1,
+    'low': 20.075,
+    'open': 20.075,
+    'symbol': 'KMT',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 386.0,
+    'vwap': 20.085}}
+2025-08-06 15:13:22 INFO: Current resistance is: 20.47 and support is: 20.22
+2025-08-06 15:13:22 INFO: Current average volume is: 1002.5
+2025-08-06 15:13:22 INFO: Closing price: 20.1 just dropped below support 20.22 again...ending trade...

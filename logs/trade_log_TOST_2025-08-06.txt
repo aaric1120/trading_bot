@@ -1,0 +1,549 @@
+2025-08-06 09:50:12 INFO: === Strategy started ===
+2025-08-06 09:50:12 INFO: Start collecting the current highs/lows for: TOST
+2025-08-06 09:50:12 INFO: Most recent stock data: {'TOST': {   'close': 45.25,
+    'high': 45.63,
+    'low': 45.25,
+    'open': 45.63,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 56.0,
+    'volume': 8685.0,
+    'vwap': 45.432919}}
+2025-08-06 09:51:12 INFO: Most recent stock data: {'TOST': {   'close': 44.91,
+    'high': 45.22,
+    'low': 44.91,
+    'open': 45.22,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 6089.0,
+    'vwap': 45.027754}}
+2025-08-06 09:52:13 INFO: Most recent stock data: {'TOST': {   'close': 44.62,
+    'high': 44.93,
+    'low': 44.58,
+    'open': 44.93,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3866.0,
+    'vwap': 44.777392}}
+2025-08-06 09:53:13 INFO: Most recent stock data: {'TOST': {   'close': 44.46,
+    'high': 44.735,
+    'low': 44.455,
+    'open': 44.62,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 6287.0,
+    'vwap': 44.655124}}
+2025-08-06 09:54:13 INFO: Most recent stock data: {'TOST': {   'close': 44.295,
+    'high': 44.49,
+    'low': 44.295,
+    'open': 44.47,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 7544.0,
+    'vwap': 44.440729}}
+2025-08-06 09:55:13 INFO: Most recent stock data: {'TOST': {   'close': 44.5,
+    'high': 44.52,
+    'low': 44.29,
+    'open': 44.29,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 2917.0,
+    'vwap': 44.436441}}
+2025-08-06 09:56:13 INFO: Most recent stock data: {'TOST': {   'close': 44.66,
+    'high': 44.85,
+    'low': 44.535,
+    'open': 44.535,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 4280.0,
+    'vwap': 44.763144}}
+2025-08-06 09:57:13 INFO: Most recent stock data: {'TOST': {   'close': 44.615,
+    'high': 44.77,
+    'low': 44.615,
+    'open': 44.65,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1973.0,
+    'vwap': 44.693288}}
+2025-08-06 09:58:13 INFO: Most recent stock data: {'TOST': {   'close': 44.45,
+    'high': 44.6,
+    'low': 44.45,
+    'open': 44.6,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1273.0,
+    'vwap': 44.524289}}
+2025-08-06 09:59:13 INFO: Most recent stock data: {'TOST': {   'close': 44.42,
+    'high': 44.52,
+    'low': 44.42,
+    'open': 44.52,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1855.0,
+    'vwap': 44.466538}}
+2025-08-06 10:00:14 INFO: Most recent stock data: {'TOST': {   'close': 44.435,
+    'high': 44.48,
+    'low': 44.38,
+    'open': 44.48,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1592.0,
+    'vwap': 44.422461}}
+2025-08-06 10:00:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 10:00:14 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-06 10:01:14 INFO: {'TOST': {   'close': 44.355,
+    'high': 44.425,
+    'low': 44.19,
+    'open': 44.28,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 4217.0,
+    'vwap': 44.306582}}
+2025-08-06 10:01:14 INFO: Current resistance is: 44.719 and support is: 43.955
+2025-08-06 10:01:14 INFO: Current average volume is: 3491.08
+2025-08-06 10:01:14 INFO: Updated resistance to: 44.695 and support to: 44.133
+2025-08-06 10:03:14 INFO: {'TOST': {   'close': 44.25,
+    'high': 44.33,
+    'low': 44.13,
+    'open': 44.15,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 2699.0,
+    'vwap': 44.216267}}
+2025-08-06 10:03:14 INFO: Current resistance is: 44.695 and support is: 44.133
+2025-08-06 10:03:14 INFO: Current average volume is: 3430.15
+2025-08-06 10:03:14 INFO: Updated resistance to: 44.648 and support to: 44.072
+2025-08-06 10:04:14 INFO: {'TOST': {   'close': 44.29,
+    'high': 44.295,
+    'low': 44.21,
+    'open': 44.22,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1246.0,
+    'vwap': 44.251059}}
+2025-08-06 10:04:14 INFO: Current resistance is: 44.648 and support is: 44.072
+2025-08-06 10:04:14 INFO: Current average volume is: 3274.14
+2025-08-06 10:04:14 INFO: Updated resistance to: 44.61 and support to: 44.02
+2025-08-06 10:05:14 INFO: {'TOST': {   'close': 44.31,
+    'high': 44.33,
+    'low': 44.28,
+    'open': 44.33,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 780.0,
+    'vwap': 44.306}}
+2025-08-06 10:05:14 INFO: Current resistance is: 44.61 and support is: 44.02
+2025-08-06 10:05:14 INFO: Current average volume is: 3107.87
+2025-08-06 10:05:14 INFO: Updated resistance to: 44.603 and support to: 43.981
+2025-08-06 10:06:14 INFO: {'TOST': {   'close': 44.43,
+    'high': 44.43,
+    'low': 44.35,
+    'open': 44.39,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2078.0,
+    'vwap': 44.379208}}
+2025-08-06 10:06:14 INFO: Current resistance is: 44.603 and support is: 43.981
+2025-08-06 10:06:14 INFO: Current average volume is: 3043.5
+2025-08-06 10:06:14 INFO: Updated resistance to: 44.641 and support to: 43.957
+2025-08-06 10:07:14 INFO: {'TOST': {   'close': 44.15,
+    'high': 44.325,
+    'low': 44.1,
+    'open': 44.325,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1948.0,
+    'vwap': 44.17859}}
+2025-08-06 10:07:14 INFO: Current resistance is: 44.641 and support is: 43.957
+2025-08-06 10:07:14 INFO: Current average volume is: 2979.06
+2025-08-06 10:07:14 INFO: Updated resistance to: 44.643 and support to: 44.057
+2025-08-06 10:08:15 INFO: {'TOST': {   'close': 44.33,
+    'high': 44.33,
+    'low': 44.22,
+    'open': 44.22,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2615.0,
+    'vwap': 44.273537}}
+2025-08-06 10:08:15 INFO: Current resistance is: 44.643 and support is: 44.057
+2025-08-06 10:08:15 INFO: Current average volume is: 2958.83
+2025-08-06 10:08:15 INFO: Updated resistance to: 44.652 and support to: 44.02
+2025-08-06 10:10:15 INFO: {'TOST': {   'close': 44.11,
+    'high': 44.24,
+    'low': 44.03,
+    'open': 44.225,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2698.0,
+    'vwap': 44.146054}}
+2025-08-06 10:10:15 INFO: Current resistance is: 44.652 and support is: 44.02
+2025-08-06 10:10:15 INFO: Current average volume is: 2945.11
+2025-08-06 10:10:15 INFO: Updated resistance to: 44.638 and support to: 43.99
+2025-08-06 10:11:15 INFO: {'TOST': {   'close': 44.0,
+    'high': 44.12,
+    'low': 44.0,
+    'open': 44.12,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 760.0,
+    'vwap': 44.072}}
+2025-08-06 10:11:15 INFO: Current resistance is: 44.638 and support is: 43.99
+2025-08-06 10:11:15 INFO: Current average volume is: 2835.85
+2025-08-06 10:11:15 INFO: Updated resistance to: 44.597 and support to: 43.96
+2025-08-06 10:13:15 INFO: {'TOST': {   'close': 44.075,
+    'high': 44.18,
+    'low': 44.07,
+    'open': 44.13,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 74.0,
+    'volume': 6370.0,
+    'vwap': 44.112221}}
+2025-08-06 10:13:15 INFO: Current resistance is: 44.597 and support is: 43.96
+2025-08-06 10:13:15 INFO: Current average volume is: 3004.14
+2025-08-06 10:13:15 INFO: Updated resistance to: 44.584 and support to: 43.922
+2025-08-06 10:14:15 INFO: {'TOST': {   'close': 44.25,
+    'high': 44.25,
+    'low': 44.02,
+    'open': 44.03,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 3168.0,
+    'vwap': 44.126214}}
+2025-08-06 10:14:15 INFO: Current resistance is: 44.584 and support is: 43.922
+2025-08-06 10:14:15 INFO: Current average volume is: 3011.59
+2025-08-06 10:14:15 INFO: Updated resistance to: 44.597 and support to: 43.886
+2025-08-06 10:15:15 INFO: {'TOST': {   'close': 44.28,
+    'high': 44.32,
+    'low': 44.23,
+    'open': 44.25,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2226.0,
+    'vwap': 44.269856}}
+2025-08-06 10:15:15 INFO: Current resistance is: 44.597 and support is: 43.886
+2025-08-06 10:15:15 INFO: Current average volume is: 2977.43
+2025-08-06 10:15:15 INFO: Updated resistance to: 44.629 and support to: 43.862
+2025-08-06 10:16:16 INFO: {'TOST': {   'close': 44.2,
+    'high': 44.38,
+    'low': 44.195,
+    'open': 44.32,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1329.0,
+    'vwap': 44.309583}}
+2025-08-06 10:16:16 INFO: Current resistance is: 44.629 and support is: 43.862
+2025-08-06 10:16:16 INFO: Current average volume is: 2908.75
+2025-08-06 10:16:16 INFO: Updated resistance to: 44.673 and support to: 43.84
+2025-08-06 10:17:16 INFO: {'TOST': {   'close': 43.97,
+    'high': 44.145,
+    'low': 43.89,
+    'open': 44.145,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1535.0,
+    'vwap': 44.013854}}
+2025-08-06 10:17:16 INFO: Current resistance is: 44.673 and support is: 43.84
+2025-08-06 10:17:16 INFO: Current average volume is: 2853.8
+2025-08-06 10:17:16 INFO: Updated resistance to: 44.66 and support to: 43.858
+2025-08-06 10:19:16 INFO: {'TOST': {   'close': 43.83,
+    'high': 43.89,
+    'low': 43.795,
+    'open': 43.89,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2636.0,
+    'vwap': 43.830215}}
+2025-08-06 10:19:16 INFO: Current resistance is: 44.66 and support is: 43.858
+2025-08-06 10:19:16 INFO: Current average volume is: 2845.42
+2025-08-06 10:19:16 INFO: close price: 43.83 just dropped below support of 43.858...
+2025-08-06 10:20:16 INFO: {'TOST': {   'close': 43.745,
+    'high': 43.865,
+    'low': 43.73,
+    'open': 43.85,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2897.0,
+    'vwap': 43.8058}}
+2025-08-06 10:20:16 INFO: Current resistance is: 44.66 and support is: 43.858
+2025-08-06 10:20:16 INFO: Current average volume is: 2847.33
+2025-08-06 10:20:16 INFO: Closing price: 43.745 just dropped below support 43.858 again...ending trade...
+2025-08-06 13:16:55 INFO: === Strategy started ===
+2025-08-06 13:16:55 INFO: Start collecting the current highs/lows for: TOST
+2025-08-06 13:16:55 INFO: Most recent stock data: {'TOST': {   'close': 45.53,
+    'high': 45.56,
+    'low': 45.51,
+    'open': 45.55,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1060.0,
+    'vwap': 45.536766}}
+2025-08-06 13:17:56 INFO: Most recent stock data: {'TOST': {   'close': 45.5,
+    'high': 45.53,
+    'low': 45.49,
+    'open': 45.505,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 2528.0,
+    'vwap': 45.504828}}
+2025-08-06 13:19:56 INFO: Most recent stock data: {'TOST': {   'close': 45.46,
+    'high': 45.49,
+    'low': 45.46,
+    'open': 45.49,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1096.0,
+    'vwap': 45.464747}}
+2025-08-06 13:20:56 INFO: Most recent stock data: {'TOST': {   'close': 45.59,
+    'high': 45.59,
+    'low': 45.55,
+    'open': 45.55,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 721.0,
+    'vwap': 45.573607}}
+2025-08-06 13:21:56 INFO: Most recent stock data: {'TOST': {   'close': 45.59,
+    'high': 45.6,
+    'low': 45.59,
+    'open': 45.6,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 747.0,
+    'vwap': 45.595}}
+2025-08-06 13:22:56 INFO: Most recent stock data: {'TOST': {   'close': 45.57,
+    'high': 45.57,
+    'low': 45.57,
+    'open': 45.57,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 265.0,
+    'vwap': 45.57}}
+2025-08-06 13:23:56 INFO: Most recent stock data: {'TOST': {   'close': 45.61,
+    'high': 45.61,
+    'low': 45.61,
+    'open': 45.61,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 270.0,
+    'vwap': 45.61}}
+2025-08-06 13:24:56 INFO: Most recent stock data: {'TOST': {   'close': 45.6,
+    'high': 45.64,
+    'low': 45.6,
+    'open': 45.64,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 793.0,
+    'vwap': 45.615}}
+2025-08-06 13:25:57 INFO: Most recent stock data: {'TOST': {   'close': 45.74,
+    'high': 45.765,
+    'low': 45.74,
+    'open': 45.755,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 907.0,
+    'vwap': 45.757382}}
+2025-08-06 13:26:28 INFO: === Strategy started ===
+2025-08-06 13:26:28 INFO: Start collecting the current highs/lows for: TOST
+2025-08-06 13:26:28 INFO: Most recent stock data: {'TOST': {   'close': 45.76,
+    'high': 45.76,
+    'low': 45.76,
+    'open': 45.76,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 443.0,
+    'vwap': 45.76}}
+2025-08-06 13:27:28 INFO: Most recent stock data: {'TOST': {   'close': 45.71,
+    'high': 45.71,
+    'low': 45.71,
+    'open': 45.71,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 517.0,
+    'vwap': 45.71}}
+2025-08-06 13:29:08 INFO: === Strategy started ===
+2025-08-06 13:29:08 INFO: Start collecting the current highs/lows for: TOST
+2025-08-06 13:29:08 INFO: Most recent stock data: {'TOST': {   'close': 45.67,
+    'high': 45.7,
+    'low': 45.67,
+    'open': 45.7,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 468.0,
+    'vwap': 45.686667}}
+2025-08-06 13:30:09 INFO: Most recent stock data: {'TOST': {   'close': 45.605,
+    'high': 45.67,
+    'low': 45.6,
+    'open': 45.67,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2020.0,
+    'vwap': 45.625894}}
+2025-08-06 13:31:09 INFO: Most recent stock data: {'TOST': {   'close': 45.64,
+    'high': 45.65,
+    'low': 45.61,
+    'open': 45.61,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 775.0,
+    'vwap': 45.636}}
+2025-08-06 13:32:13 INFO: Most recent stock data: {'TOST': {   'close': 45.6,
+    'high': 45.6,
+    'low': 45.6,
+    'open': 45.6,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 268.0,
+    'vwap': 45.6}}
+2025-08-06 13:34:17 INFO: Most recent stock data: {'TOST': {   'close': 45.57,
+    'high': 45.57,
+    'low': 45.56,
+    'open': 45.56,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 574.0,
+    'vwap': 45.565}}
+2025-08-06 13:35:17 INFO: Most recent stock data: {'TOST': {   'close': 45.595,
+    'high': 45.595,
+    'low': 45.58,
+    'open': 45.58,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 930.0,
+    'vwap': 45.588571}}
+2025-08-06 13:37:17 INFO: Most recent stock data: {'TOST': {   'close': 45.575,
+    'high': 45.575,
+    'low': 45.56,
+    'open': 45.56,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 778.0,
+    'vwap': 45.57125}}
+2025-08-06 13:38:17 INFO: Most recent stock data: {'TOST': {   'close': 45.49,
+    'high': 45.49,
+    'low': 45.46,
+    'open': 45.46,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1402.0,
+    'vwap': 45.487273}}
+2025-08-06 13:39:17 INFO: Most recent stock data: {'TOST': {   'close': 45.48,
+    'high': 45.51,
+    'low': 45.48,
+    'open': 45.485,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 915.0,
+    'vwap': 45.491684}}
+2025-08-06 13:40:17 INFO: Most recent stock data: {'TOST': {   'close': 45.43,
+    'high': 45.47,
+    'low': 45.43,
+    'open': 45.47,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 845.0,
+    'vwap': 45.4575}}
+2025-08-06 13:42:18 INFO: Most recent stock data: {'TOST': {   'close': 45.4,
+    'high': 45.4,
+    'low': 45.39,
+    'open': 45.39,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 309.0,
+    'vwap': 45.395}}
+2025-08-06 13:42:18 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 13:42:18 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-06 13:43:18 INFO: {'TOST': {   'close': 45.48,
+    'high': 45.48,
+    'low': 45.415,
+    'open': 45.415,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 368.0,
+    'vwap': 45.4475}}
+2025-08-06 13:43:18 INFO: Current resistance is: 45.7 and support is: 45.39
+2025-08-06 13:43:18 INFO: Current average volume is: 716.4
+2025-08-06 13:43:18 INFO: Updated resistance to: 45.7 and support to: 45.39
+2025-08-06 13:44:18 INFO: {'TOST': {   'close': 45.4,
+    'high': 45.47,
+    'low': 45.4,
+    'open': 45.44,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 397.0,
+    'vwap': 45.436667}}
+2025-08-06 13:44:18 INFO: Current resistance is: 45.7 and support is: 45.39
+2025-08-06 13:44:18 INFO: Current average volume is: 678.6
+2025-08-06 13:44:18 INFO: Updated resistance to: 45.7 and support to: 45.39
+2025-08-06 13:45:18 INFO: {'TOST': {   'close': 45.37,
+    'high': 45.395,
+    'low': 45.36,
+    'open': 45.37,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1028.0,
+    'vwap': 45.380625}}
+2025-08-06 13:45:18 INFO: Current resistance is: 45.7 and support is: 45.39
+2025-08-06 13:45:18 INFO: Current average volume is: 754.6
+2025-08-06 13:45:18 INFO: close price: 45.37 just dropped below support of 45.39...
+2025-08-06 13:46:18 INFO: {'TOST': {   'close': 45.34,
+    'high': 45.365,
+    'low': 45.34,
+    'open': 45.365,
+    'symbol': 'TOST',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 566.0,
+    'vwap': 45.356694}}
+2025-08-06 13:46:18 INFO: Current resistance is: 45.7 and support is: 45.39
+2025-08-06 13:46:18 INFO: Current average volume is: 753.8
+2025-08-06 13:46:18 INFO: Closing price: 45.34 just dropped below support 45.39 again...ending trade...

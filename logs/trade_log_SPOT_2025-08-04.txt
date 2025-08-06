@@ -1,0 +1,1336 @@
+2025-08-04 10:58:53 INFO: === Strategy started ===
+2025-08-04 10:58:53 INFO: Start collecting the current highs/lows for: SPOT
+2025-08-04 10:58:53 INFO: Most recent stock data: {'SPOT': {   'close': 667.14,
+    'high': 667.14,
+    'low': 667.14,
+    'open': 667.14,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 359.0,
+    'vwap': 667.14}}
+2025-08-04 10:59:53 INFO: Most recent stock data: {'SPOT': {   'close': 666.33,
+    'high': 667.06,
+    'low': 666.22,
+    'open': 667.06,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 636.0,
+    'vwap': 666.454}}
+2025-08-04 11:00:53 INFO: Most recent stock data: {'SPOT': {   'close': 665.7,
+    'high': 666.01,
+    'low': 665.13,
+    'open': 666.01,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 463.0,
+    'vwap': 665.64}}
+2025-08-04 11:01:53 INFO: Most recent stock data: {'SPOT': {   'close': 665.49,
+    'high': 665.49,
+    'low': 665.49,
+    'open': 665.49,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 665.49}}
+2025-08-04 11:02:53 INFO: Most recent stock data: {'SPOT': {   'close': 665.45,
+    'high': 665.45,
+    'low': 665.41,
+    'open': 665.41,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 450.0,
+    'vwap': 665.42}}
+2025-08-04 11:06:54 INFO: Most recent stock data: {'SPOT': {   'close': 667.315,
+    'high': 667.315,
+    'low': 667.315,
+    'open': 667.315,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 517.0,
+    'vwap': 667.315}}
+2025-08-04 11:08:54 INFO: Most recent stock data: {'SPOT': {   'close': 667.29,
+    'high': 667.29,
+    'low': 667.06,
+    'open': 667.06,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 492.0,
+    'vwap': 667.175}}
+2025-08-04 11:09:54 INFO: Most recent stock data: {'SPOT': {   'close': 667.24,
+    'high': 667.39,
+    'low': 667.24,
+    'open': 667.39,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 340.0,
+    'vwap': 667.291667}}
+2025-08-04 11:10:54 INFO: Most recent stock data: {'SPOT': {   'close': 666.39,
+    'high': 666.495,
+    'low': 666.39,
+    'open': 666.495,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 426.0,
+    'vwap': 666.4425}}
+2025-08-04 11:11:54 INFO: Most recent stock data: {'SPOT': {   'close': 665.51,
+    'high': 665.96,
+    'low': 665.51,
+    'open': 665.955,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 841.0,
+    'vwap': 665.892143}}
+2025-08-04 11:13:55 INFO: Most recent stock data: {'SPOT': {   'close': 665.935,
+    'high': 665.935,
+    'low': 665.93,
+    'open': 665.93,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 665.9325}}
+2025-08-04 11:13:55 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-04 11:13:55 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-04 11:15:55 INFO: {'SPOT': {   'close': 667.64,
+    'high': 667.64,
+    'low': 667.23,
+    'open': 667.235,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 729.0,
+    'vwap': 667.352143}}
+2025-08-04 11:15:55 INFO: Current resistance is: 667.39 and support is: 665.13
+2025-08-04 11:15:55 INFO: Current average volume is: 433.0
+2025-08-04 11:15:55 INFO: The Current Close 667.64 is above the resistance...
+2025-08-04 11:15:55 INFO: Updated resistance to: 667.64 and support to: 665.13
+2025-08-04 11:16:25 INFO: {'SPOT': {   'close': 667.66,
+    'high': 667.66,
+    'low': 667.11,
+    'open': 667.35,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1003.0,
+    'vwap': 667.410625}}
+2025-08-04 11:16:25 INFO: Current resistance is: 667.64 and support is: 665.13
+2025-08-04 11:16:25 INFO: Current average volume is: 476.85
+2025-08-04 11:16:25 INFO: The current close: 667.66 is above the resistance of 667.64, but volume isn't enough...
+2025-08-04 11:16:25 INFO: Updated resistance to: 667.66 and support to: 665.13
+2025-08-04 11:17:26 INFO: {'SPOT': {   'close': 667.705,
+    'high': 667.705,
+    'low': 667.705,
+    'open': 667.705,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 214.0,
+    'vwap': 667.705}}
+2025-08-04 11:17:26 INFO: Current resistance is: 667.66 and support is: 665.13
+2025-08-04 11:17:26 INFO: Current average volume is: 458.07
+2025-08-04 11:17:26 INFO: The current close: 667.705 is above the resistance of 667.66, but volume isn't enough...
+2025-08-04 11:17:26 INFO: Updated resistance to: 667.705 and support to: 665.13
+2025-08-04 11:19:26 INFO: {'SPOT': {   'close': 668.0,
+    'high': 668.0,
+    'low': 667.96,
+    'open': 667.96,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 495.0,
+    'vwap': 667.98}}
+2025-08-04 11:19:26 INFO: Current resistance is: 667.705 and support is: 665.13
+2025-08-04 11:19:26 INFO: Current average volume is: 460.53
+2025-08-04 11:19:26 INFO: The current close: 668.0 is above the resistance of 667.705, but volume isn't enough...
+2025-08-04 11:19:26 INFO: Updated resistance to: 668.0 and support to: 665.13
+2025-08-04 11:22:27 INFO: {'SPOT': {   'close': 667.7,
+    'high': 668.12,
+    'low': 667.7,
+    'open': 668.12,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 667.91}}
+2025-08-04 11:22:27 INFO: Current resistance is: 668.0 and support is: 665.13
+2025-08-04 11:22:27 INFO: Current average volume is: 444.25
+2025-08-04 11:22:27 INFO: Updated resistance to: 668.12 and support to: 665.13
+2025-08-04 11:23:27 INFO: {'SPOT': {   'close': 668.09,
+    'high': 668.09,
+    'low': 668.09,
+    'open': 668.09,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 668.09}}
+2025-08-04 11:23:27 INFO: Current resistance is: 668.12 and support is: 665.13
+2025-08-04 11:23:27 INFO: Current average volume is: 424.0
+2025-08-04 11:23:27 INFO: Updated resistance to: 668.12 and support to: 665.13
+2025-08-04 11:24:27 INFO: {'SPOT': {   'close': 667.8,
+    'high': 668.17,
+    'low': 667.8,
+    'open': 668.17,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 500.0,
+    'vwap': 668.023333}}
+2025-08-04 11:24:27 INFO: Current resistance is: 668.12 and support is: 665.13
+2025-08-04 11:24:27 INFO: Current average volume is: 428.22
+2025-08-04 11:24:27 INFO: Updated resistance to: 668.17 and support to: 665.13
+2025-08-04 11:27:28 INFO: {'SPOT': {   'close': 668.135,
+    'high': 668.28,
+    'low': 667.99,
+    'open': 667.99,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 570.0,
+    'vwap': 668.14625}}
+2025-08-04 11:27:28 INFO: Current resistance is: 668.17 and support is: 665.13
+2025-08-04 11:27:28 INFO: Current average volume is: 435.68
+2025-08-04 11:27:28 INFO: Updated resistance to: 668.28 and support to: 665.13
+2025-08-04 11:28:28 INFO: {'SPOT': {   'close': 669.06,
+    'high': 669.06,
+    'low': 669.06,
+    'open': 669.06,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 143.0,
+    'vwap': 669.06}}
+2025-08-04 11:28:28 INFO: Current resistance is: 668.28 and support is: 665.13
+2025-08-04 11:28:28 INFO: Current average volume is: 421.05
+2025-08-04 11:28:28 INFO: The Current Close 669.06 is above the resistance...
+2025-08-04 11:28:28 INFO: Updated resistance to: 669.06 and support to: 665.13
+2025-08-04 11:30:28 INFO: {'SPOT': {   'close': 668.815,
+    'high': 668.815,
+    'low': 668.815,
+    'open': 668.815,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 337.0,
+    'vwap': 668.815}}
+2025-08-04 11:30:28 INFO: Current resistance is: 669.06 and support is: 665.13
+2025-08-04 11:30:28 INFO: Current average volume is: 417.05
+2025-08-04 11:30:28 INFO: Updated resistance to: 669.06 and support to: 665.13
+2025-08-04 11:31:28 INFO: {'SPOT': {   'close': 668.61,
+    'high': 668.61,
+    'low': 668.61,
+    'open': 668.61,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 348.0,
+    'vwap': 668.61}}
+2025-08-04 11:31:28 INFO: Current resistance is: 669.06 and support is: 665.13
+2025-08-04 11:31:28 INFO: Current average volume is: 413.91
+2025-08-04 11:31:28 INFO: Updated resistance to: 669.06 and support to: 665.13
+2025-08-04 11:34:29 INFO: {'SPOT': {   'close': 668.19,
+    'high': 668.19,
+    'low': 668.19,
+    'open': 668.19,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 417.0,
+    'vwap': 668.19}}
+2025-08-04 11:34:29 INFO: Current resistance is: 669.06 and support is: 665.13
+2025-08-04 11:34:29 INFO: Current average volume is: 414.04
+2025-08-04 11:34:29 INFO: Updated resistance to: 669.06 and support to: 665.13
+2025-08-04 11:35:29 INFO: {'SPOT': {   'close': 668.715,
+    'high': 668.76,
+    'low': 668.715,
+    'open': 668.76,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 240.0,
+    'vwap': 668.7375}}
+2025-08-04 11:35:29 INFO: Current resistance is: 669.06 and support is: 665.13
+2025-08-04 11:35:29 INFO: Current average volume is: 406.79
+2025-08-04 11:35:29 INFO: Updated resistance to: 669.06 and support to: 665.13
+2025-08-04 11:36:29 INFO: {'SPOT': {   'close': 669.23,
+    'high': 669.23,
+    'low': 669.23,
+    'open': 669.23,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 276.0,
+    'vwap': 669.23}}
+2025-08-04 11:36:29 INFO: Current resistance is: 669.06 and support is: 665.13
+2025-08-04 11:36:29 INFO: Current average volume is: 401.56
+2025-08-04 11:36:29 INFO: The Current Close 669.23 is above the resistance...
+2025-08-04 11:36:29 INFO: Updated resistance to: 669.23 and support to: 665.13
+2025-08-04 11:37:29 INFO: {'SPOT': {   'close': 669.3,
+    'high': 669.695,
+    'low': 669.3,
+    'open': 669.695,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 698.0,
+    'vwap': 669.595}}
+2025-08-04 11:37:29 INFO: Current resistance is: 669.23 and support is: 665.13
+2025-08-04 11:37:29 INFO: Current average volume is: 412.96
+2025-08-04 11:37:29 INFO: The current close: 669.3 is above the resistance of 669.23, but volume isn't enough...
+2025-08-04 11:37:29 INFO: Updated resistance to: 669.695 and support to: 665.13
+2025-08-04 11:38:29 INFO: {'SPOT': {   'close': 669.32,
+    'high': 669.32,
+    'low': 669.32,
+    'open': 669.32,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 284.0,
+    'vwap': 669.32}}
+2025-08-04 11:38:29 INFO: Current resistance is: 669.695 and support is: 665.13
+2025-08-04 11:38:29 INFO: Current average volume is: 408.19
+2025-08-04 11:38:29 INFO: Updated resistance to: 669.695 and support to: 665.13
+2025-08-04 11:40:30 INFO: {'SPOT': {   'close': 670.62,
+    'high': 670.62,
+    'low': 670.01,
+    'open': 670.01,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 513.0,
+    'vwap': 670.315}}
+2025-08-04 11:40:30 INFO: Current resistance is: 669.695 and support is: 665.13
+2025-08-04 11:40:30 INFO: Current average volume is: 411.93
+2025-08-04 11:40:30 INFO: The Current Close 670.62 is above the resistance...
+2025-08-04 11:40:30 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:41:30 INFO: {'SPOT': {   'close': 669.92,
+    'high': 670.575,
+    'low': 669.7,
+    'open': 670.575,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 2049.0,
+    'vwap': 669.92}}
+2025-08-04 11:41:30 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:41:30 INFO: Current average volume is: 468.38
+2025-08-04 11:41:30 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:42:30 INFO: {'SPOT': {   'close': 669.6,
+    'high': 669.74,
+    'low': 669.49,
+    'open': 669.74,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 755.0,
+    'vwap': 669.63644}}
+2025-08-04 11:42:30 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:42:30 INFO: Current average volume is: 477.93
+2025-08-04 11:42:30 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:45:31 INFO: {'SPOT': {   'close': 670.105,
+    'high': 670.42,
+    'low': 670.105,
+    'open': 670.42,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 997.0,
+    'vwap': 670.2625}}
+2025-08-04 11:45:31 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:45:31 INFO: Current average volume is: 494.68
+2025-08-04 11:45:31 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:46:31 INFO: {'SPOT': {   'close': 669.64,
+    'high': 669.64,
+    'low': 669.64,
+    'open': 669.64,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 371.0,
+    'vwap': 669.64}}
+2025-08-04 11:46:31 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:46:31 INFO: Current average volume is: 490.81
+2025-08-04 11:46:31 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:47:31 INFO: {'SPOT': {   'close': 668.58,
+    'high': 669.355,
+    'low': 668.58,
+    'open': 669.355,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 628.0,
+    'vwap': 668.960835}}
+2025-08-04 11:47:31 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:47:31 INFO: Current average volume is: 494.97
+2025-08-04 11:47:31 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:49:31 INFO: {'SPOT': {   'close': 669.41,
+    'high': 669.41,
+    'low': 669.41,
+    'open': 669.41,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 121.0,
+    'vwap': 669.41}}
+2025-08-04 11:49:31 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:49:31 INFO: Current average volume is: 483.97
+2025-08-04 11:49:31 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:50:31 INFO: {'SPOT': {   'close': 668.67,
+    'high': 669.335,
+    'low': 668.67,
+    'open': 669.335,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 474.0,
+    'vwap': 668.98}}
+2025-08-04 11:50:31 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:50:31 INFO: Current average volume is: 483.69
+2025-08-04 11:50:31 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:54:32 INFO: {'SPOT': {   'close': 669.72,
+    'high': 669.72,
+    'low': 669.72,
+    'open': 669.72,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 221.0,
+    'vwap': 669.72}}
+2025-08-04 11:54:32 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:54:32 INFO: Current average volume is: 476.39
+2025-08-04 11:54:32 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:55:32 INFO: {'SPOT': {   'close': 670.61,
+    'high': 670.62,
+    'low': 670.61,
+    'open': 670.62,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 415.0,
+    'vwap': 670.615}}
+2025-08-04 11:55:32 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:55:32 INFO: Current average volume is: 474.73
+2025-08-04 11:55:32 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:56:32 INFO: {'SPOT': {   'close': 670.48,
+    'high': 670.6,
+    'low': 670.48,
+    'open': 670.6,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 345.0,
+    'vwap': 670.54}}
+2025-08-04 11:56:32 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:56:32 INFO: Current average volume is: 471.32
+2025-08-04 11:56:32 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 11:59:32 INFO: {'SPOT': {   'close': 669.68,
+    'high': 669.89,
+    'low': 669.68,
+    'open': 669.89,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 619.0,
+    'vwap': 669.81}}
+2025-08-04 11:59:32 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 11:59:32 INFO: Current average volume is: 475.1
+2025-08-04 11:59:32 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:03:33 INFO: {'SPOT': {   'close': 669.775,
+    'high': 669.775,
+    'low': 669.775,
+    'open': 669.775,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 321.0,
+    'vwap': 669.775}}
+2025-08-04 12:03:33 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:03:33 INFO: Current average volume is: 471.25
+2025-08-04 12:03:33 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:04:33 INFO: {'SPOT': {   'close': 670.49,
+    'high': 670.49,
+    'low': 670.49,
+    'open': 670.49,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 320.0,
+    'vwap': 670.49}}
+2025-08-04 12:04:33 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:04:33 INFO: Current average volume is: 467.56
+2025-08-04 12:04:33 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:05:33 INFO: {'SPOT': {   'close': 670.36,
+    'high': 670.36,
+    'low': 670.36,
+    'open': 670.36,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 156.0,
+    'vwap': 670.36}}
+2025-08-04 12:05:33 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:05:33 INFO: Current average volume is: 460.14
+2025-08-04 12:05:33 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:06:33 INFO: {'SPOT': {   'close': 669.95,
+    'high': 669.95,
+    'low': 669.95,
+    'open': 669.95,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 212.0,
+    'vwap': 669.95}}
+2025-08-04 12:06:33 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:06:33 INFO: Current average volume is: 454.37
+2025-08-04 12:06:33 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:07:33 INFO: {'SPOT': {   'close': 670.17,
+    'high': 670.17,
+    'low': 670.17,
+    'open': 670.17,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 231.0,
+    'vwap': 670.17}}
+2025-08-04 12:07:33 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:07:33 INFO: Current average volume is: 449.3
+2025-08-04 12:07:33 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:08:34 INFO: {'SPOT': {   'close': 669.78,
+    'high': 670.165,
+    'low': 669.78,
+    'open': 670.165,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 665.0,
+    'vwap': 670.005256}}
+2025-08-04 12:08:34 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:08:34 INFO: Current average volume is: 454.09
+2025-08-04 12:08:34 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:10:34 INFO: {'SPOT': {   'close': 669.75,
+    'high': 669.91,
+    'low': 669.75,
+    'open': 669.91,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 336.0,
+    'vwap': 669.83}}
+2025-08-04 12:10:34 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:10:34 INFO: Current average volume is: 451.52
+2025-08-04 12:10:34 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:11:34 INFO: {'SPOT': {   'close': 669.595,
+    'high': 669.595,
+    'low': 669.595,
+    'open': 669.595,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 173.0,
+    'vwap': 669.595}}
+2025-08-04 12:11:34 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:11:34 INFO: Current average volume is: 445.6
+2025-08-04 12:11:34 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:12:34 INFO: {'SPOT': {   'close': 670.16,
+    'high': 670.43,
+    'low': 670.16,
+    'open': 670.43,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 806.0,
+    'vwap': 670.2975}}
+2025-08-04 12:12:34 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:12:34 INFO: Current average volume is: 453.1
+2025-08-04 12:12:34 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:17:35 INFO: {'SPOT': {   'close': 669.8,
+    'high': 669.8,
+    'low': 669.8,
+    'open': 669.8,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 236.0,
+    'vwap': 669.8}}
+2025-08-04 12:17:35 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:17:35 INFO: Current average volume is: 448.67
+2025-08-04 12:17:35 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:19:35 INFO: {'SPOT': {   'close': 670.425,
+    'high': 670.425,
+    'low': 670.425,
+    'open': 670.425,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 220.0,
+    'vwap': 670.425}}
+2025-08-04 12:19:35 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:19:35 INFO: Current average volume is: 444.1
+2025-08-04 12:19:35 INFO: Updated resistance to: 670.62 and support to: 665.13
+2025-08-04 12:23:35 INFO: {'SPOT': {   'close': 670.7,
+    'high': 670.7,
+    'low': 670.7,
+    'open': 670.7,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 339.0,
+    'vwap': 670.7}}
+2025-08-04 12:23:35 INFO: Current resistance is: 670.62 and support is: 665.13
+2025-08-04 12:23:35 INFO: Current average volume is: 442.04
+2025-08-04 12:23:35 INFO: The Current Close 670.7 is above the resistance...
+2025-08-04 12:23:35 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:24:06 INFO: {'SPOT': {   'close': 670.315,
+    'high': 670.315,
+    'low': 670.315,
+    'open': 670.315,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 270.0,
+    'vwap': 670.315}}
+2025-08-04 12:24:06 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:24:06 INFO: Current average volume is: 438.73
+2025-08-04 12:24:06 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:26:06 INFO: {'SPOT': {   'close': 669.55,
+    'high': 670.26,
+    'low': 669.55,
+    'open': 670.26,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 742.0,
+    'vwap': 669.7575}}
+2025-08-04 12:26:06 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:26:06 INFO: Current average volume is: 444.45
+2025-08-04 12:26:06 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:27:06 INFO: {'SPOT': {   'close': 668.875,
+    'high': 668.875,
+    'low': 668.8,
+    'open': 668.8,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 482.0,
+    'vwap': 668.8375}}
+2025-08-04 12:27:06 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:27:06 INFO: Current average volume is: 445.15
+2025-08-04 12:27:06 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:29:06 INFO: {'SPOT': {   'close': 669.995,
+    'high': 669.995,
+    'low': 669.92,
+    'open': 669.92,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 747.0,
+    'vwap': 669.9575}}
+2025-08-04 12:29:06 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:29:06 INFO: Current average volume is: 450.64
+2025-08-04 12:29:06 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:30:06 INFO: {'SPOT': {   'close': 669.72,
+    'high': 669.72,
+    'low': 669.72,
+    'open': 669.72,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 189.0,
+    'vwap': 669.72}}
+2025-08-04 12:30:06 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:30:06 INFO: Current average volume is: 445.96
+2025-08-04 12:30:06 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:34:07 INFO: {'SPOT': {   'close': 669.58,
+    'high': 669.68,
+    'low': 669.58,
+    'open': 669.68,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 500.0,
+    'vwap': 669.63}}
+2025-08-04 12:34:07 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:34:07 INFO: Current average volume is: 446.91
+2025-08-04 12:34:07 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:35:07 INFO: {'SPOT': {   'close': 669.425,
+    'high': 669.425,
+    'low': 669.425,
+    'open': 669.425,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 417.0,
+    'vwap': 669.425}}
+2025-08-04 12:35:07 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:35:07 INFO: Current average volume is: 446.4
+2025-08-04 12:35:07 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:38:07 INFO: {'SPOT': {   'close': 669.0,
+    'high': 669.0,
+    'low': 669.0,
+    'open': 669.0,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 470.0,
+    'vwap': 669.0}}
+2025-08-04 12:38:07 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:38:07 INFO: Current average volume is: 446.8
+2025-08-04 12:38:07 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:42:08 INFO: {'SPOT': {   'close': 669.33,
+    'high': 669.33,
+    'low': 669.33,
+    'open': 669.33,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 669.33}}
+2025-08-04 12:42:08 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:42:08 INFO: Current average volume is: 441.03
+2025-08-04 12:42:08 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:43:08 INFO: {'SPOT': {   'close': 668.96,
+    'high': 668.96,
+    'low': 668.96,
+    'open': 668.96,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 668.96}}
+2025-08-04 12:43:08 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:43:08 INFO: Current average volume is: 435.44
+2025-08-04 12:43:08 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:44:08 INFO: {'SPOT': {   'close': 668.81,
+    'high': 668.81,
+    'low': 668.81,
+    'open': 668.81,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 454.0,
+    'vwap': 668.81}}
+2025-08-04 12:44:08 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:44:08 INFO: Current average volume is: 435.74
+2025-08-04 12:44:08 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:45:08 INFO: {'SPOT': {   'close': 668.725,
+    'high': 668.9,
+    'low': 668.45,
+    'open': 668.9,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 690.0,
+    'vwap': 668.717}}
+2025-08-04 12:45:08 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:45:08 INFO: Current average volume is: 439.78
+2025-08-04 12:45:08 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:46:08 INFO: {'SPOT': {   'close': 667.56,
+    'high': 668.72,
+    'low': 667.56,
+    'open': 668.72,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 746.0,
+    'vwap': 668.14125}}
+2025-08-04 12:46:08 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:46:08 INFO: Current average volume is: 444.56
+2025-08-04 12:46:08 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:47:09 INFO: {'SPOT': {   'close': 667.54,
+    'high': 667.58,
+    'low': 667.43,
+    'open': 667.57,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 885.0,
+    'vwap': 667.496667}}
+2025-08-04 12:47:09 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:47:09 INFO: Current average volume is: 451.34
+2025-08-04 12:47:09 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:51:09 INFO: {'SPOT': {   'close': 667.365,
+    'high': 667.59,
+    'low': 667.365,
+    'open': 667.59,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 865.0,
+    'vwap': 667.446}}
+2025-08-04 12:51:09 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:51:09 INFO: Current average volume is: 457.61
+2025-08-04 12:51:09 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:52:09 INFO: {'SPOT': {   'close': 667.5,
+    'high': 667.5,
+    'low': 667.5,
+    'open': 667.5,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 204.0,
+    'vwap': 667.5}}
+2025-08-04 12:52:09 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:52:09 INFO: Current average volume is: 453.82
+2025-08-04 12:52:09 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:53:09 INFO: {'SPOT': {   'close': 666.725,
+    'high': 667.135,
+    'low': 666.725,
+    'open': 667.135,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1049.0,
+    'vwap': 666.847297}}
+2025-08-04 12:53:09 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:53:09 INFO: Current average volume is: 462.57
+2025-08-04 12:53:09 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:55:10 INFO: {'SPOT': {   'close': 666.405,
+    'high': 666.675,
+    'low': 666.405,
+    'open': 666.675,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 560.0,
+    'vwap': 666.585}}
+2025-08-04 12:55:10 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:55:10 INFO: Current average volume is: 463.99
+2025-08-04 12:55:10 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:57:10 INFO: {'SPOT': {   'close': 666.8,
+    'high': 666.8,
+    'low': 666.8,
+    'open': 666.8,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 449.0,
+    'vwap': 666.8}}
+2025-08-04 12:57:10 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:57:10 INFO: Current average volume is: 463.77
+2025-08-04 12:57:10 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 12:58:10 INFO: {'SPOT': {   'close': 667.05,
+    'high': 667.05,
+    'low': 667.05,
+    'open': 667.05,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 118.0,
+    'vwap': 667.05}}
+2025-08-04 12:58:10 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 12:58:10 INFO: Current average volume is: 458.9
+2025-08-04 12:58:10 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:01:10 INFO: {'SPOT': {   'close': 667.11,
+    'high': 667.11,
+    'low': 667.11,
+    'open': 667.11,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 638.0,
+    'vwap': 667.11}}
+2025-08-04 13:01:10 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:01:10 INFO: Current average volume is: 461.39
+2025-08-04 13:01:10 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:02:11 INFO: {'SPOT': {   'close': 667.265,
+    'high': 667.265,
+    'low': 667.265,
+    'open': 667.265,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 667.265}}
+2025-08-04 13:02:11 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:02:11 INFO: Current average volume is: 456.44
+2025-08-04 13:02:11 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:03:11 INFO: {'SPOT': {   'close': 666.755,
+    'high': 666.755,
+    'low': 666.53,
+    'open': 666.54,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 523.0,
+    'vwap': 666.608333}}
+2025-08-04 13:03:11 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:03:11 INFO: Current average volume is: 457.34
+2025-08-04 13:03:11 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:04:11 INFO: {'SPOT': {   'close': 666.39,
+    'high': 666.695,
+    'low': 666.39,
+    'open': 666.695,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 860.0,
+    'vwap': 666.525984}}
+2025-08-04 13:04:11 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:04:11 INFO: Current average volume is: 462.71
+2025-08-04 13:04:11 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:07:11 INFO: {'SPOT': {   'close': 665.79,
+    'high': 665.79,
+    'low': 665.79,
+    'open': 665.79,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 277.0,
+    'vwap': 665.79}}
+2025-08-04 13:07:11 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:07:11 INFO: Current average volume is: 460.26
+2025-08-04 13:07:11 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:09:11 INFO: {'SPOT': {   'close': 666.45,
+    'high': 666.45,
+    'low': 666.44,
+    'open': 666.44,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 213.0,
+    'vwap': 666.445}}
+2025-08-04 13:09:11 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:09:11 INFO: Current average volume is: 457.05
+2025-08-04 13:09:11 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:10:12 INFO: {'SPOT': {   'close': 666.37,
+    'high': 667.25,
+    'low': 666.37,
+    'open': 667.25,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 835.0,
+    'vwap': 666.894}}
+2025-08-04 13:10:12 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:10:12 INFO: Current average volume is: 461.9
+2025-08-04 13:10:12 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:11:12 INFO: {'SPOT': {   'close': 666.705,
+    'high': 666.705,
+    'low': 666.36,
+    'open': 666.36,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 220.0,
+    'vwap': 666.5325}}
+2025-08-04 13:11:12 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:11:12 INFO: Current average volume is: 458.84
+2025-08-04 13:11:12 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:13:12 INFO: {'SPOT': {   'close': 666.19,
+    'high': 666.505,
+    'low': 666.19,
+    'open': 666.505,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 423.0,
+    'vwap': 666.386188}}
+2025-08-04 13:13:12 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:13:12 INFO: Current average volume is: 458.39
+2025-08-04 13:13:12 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:14:12 INFO: {'SPOT': {   'close': 665.67,
+    'high': 665.67,
+    'low': 665.67,
+    'open': 665.67,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 169.0,
+    'vwap': 665.67}}
+2025-08-04 13:14:12 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:14:12 INFO: Current average volume is: 454.81
+2025-08-04 13:14:12 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:16:12 INFO: {'SPOT': {   'close': 666.1,
+    'high': 666.1,
+    'low': 666.1,
+    'open': 666.1,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 114.0,
+    'vwap': 666.1}}
+2025-08-04 13:16:12 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:16:12 INFO: Current average volume is: 450.66
+2025-08-04 13:16:12 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:17:12 INFO: {'SPOT': {   'close': 665.82,
+    'high': 665.82,
+    'low': 665.82,
+    'open': 665.82,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 235.0,
+    'vwap': 665.82}}
+2025-08-04 13:17:12 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:17:12 INFO: Current average volume is: 448.06
+2025-08-04 13:17:12 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:18:13 INFO: {'SPOT': {   'close': 665.41,
+    'high': 665.41,
+    'low': 665.41,
+    'open': 665.41,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 129.0,
+    'vwap': 665.41}}
+2025-08-04 13:18:13 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:18:13 INFO: Current average volume is: 444.26
+2025-08-04 13:18:13 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:19:13 INFO: {'SPOT': {   'close': 665.39,
+    'high': 665.39,
+    'low': 665.39,
+    'open': 665.39,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 669.0,
+    'vwap': 665.39}}
+2025-08-04 13:19:13 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:19:13 INFO: Current average volume is: 446.91
+2025-08-04 13:19:13 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:21:13 INFO: {'SPOT': {   'close': 665.51,
+    'high': 665.51,
+    'low': 665.51,
+    'open': 665.51,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 360.0,
+    'vwap': 665.51}}
+2025-08-04 13:21:13 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:21:13 INFO: Current average volume is: 445.9
+2025-08-04 13:21:13 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:23:13 INFO: {'SPOT': {   'close': 665.54,
+    'high': 665.54,
+    'low': 665.18,
+    'open': 665.18,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 309.0,
+    'vwap': 665.403333}}
+2025-08-04 13:23:13 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:23:13 INFO: Current average volume is: 444.32
+2025-08-04 13:23:13 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:26:14 INFO: {'SPOT': {   'close': 665.615,
+    'high': 665.615,
+    'low': 665.615,
+    'open': 665.615,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 279.0,
+    'vwap': 665.615}}
+2025-08-04 13:26:14 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:26:14 INFO: Current average volume is: 442.44
+2025-08-04 13:26:14 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:27:14 INFO: {'SPOT': {   'close': 665.595,
+    'high': 665.595,
+    'low': 665.595,
+    'open': 665.595,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 321.0,
+    'vwap': 665.595}}
+2025-08-04 13:27:14 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:27:14 INFO: Current average volume is: 441.08
+2025-08-04 13:27:14 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:29:14 INFO: {'SPOT': {   'close': 665.605,
+    'high': 665.61,
+    'low': 665.605,
+    'open': 665.61,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 257.0,
+    'vwap': 665.6075}}
+2025-08-04 13:29:14 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:29:14 INFO: Current average volume is: 439.03
+2025-08-04 13:29:14 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:30:14 INFO: {'SPOT': {   'close': 665.75,
+    'high': 665.805,
+    'low': 665.57,
+    'open': 665.605,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 983.0,
+    'vwap': 665.658997}}
+2025-08-04 13:30:14 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:30:14 INFO: Current average volume is: 445.01
+2025-08-04 13:30:14 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:33:15 INFO: {'SPOT': {   'close': 667.365,
+    'high': 667.365,
+    'low': 667.365,
+    'open': 667.365,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 309.0,
+    'vwap': 667.365}}
+2025-08-04 13:33:15 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:33:15 INFO: Current average volume is: 443.53
+2025-08-04 13:33:15 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:35:15 INFO: {'SPOT': {   'close': 666.97,
+    'high': 667.45,
+    'low': 666.97,
+    'open': 667.45,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 866.0,
+    'vwap': 667.345714}}
+2025-08-04 13:35:15 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:35:15 INFO: Current average volume is: 448.08
+2025-08-04 13:35:15 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:36:15 INFO: {'SPOT': {   'close': 667.405,
+    'high': 667.405,
+    'low': 667.33,
+    'open': 667.405,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 403.0,
+    'vwap': 667.38625}}
+2025-08-04 13:36:15 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:36:15 INFO: Current average volume is: 447.6
+2025-08-04 13:36:15 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:37:15 INFO: {'SPOT': {   'close': 667.195,
+    'high': 667.32,
+    'low': 667.195,
+    'open': 667.32,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1244.0,
+    'vwap': 667.215292}}
+2025-08-04 13:37:15 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:37:15 INFO: Current average volume is: 455.98
+2025-08-04 13:37:15 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:38:15 INFO: {'SPOT': {   'close': 667.375,
+    'high': 667.375,
+    'low': 667.375,
+    'open': 667.375,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 112.0,
+    'vwap': 667.375}}
+2025-08-04 13:38:15 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:38:15 INFO: Current average volume is: 452.4
+2025-08-04 13:38:15 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:40:15 INFO: {'SPOT': {   'close': 667.38,
+    'high': 667.38,
+    'low': 667.38,
+    'open': 667.38,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 667.38}}
+2025-08-04 13:40:15 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:40:15 INFO: Current average volume is: 448.77
+2025-08-04 13:40:15 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:46:16 INFO: {'SPOT': {   'close': 667.875,
+    'high': 668.03,
+    'low': 667.77,
+    'open': 668.03,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1223.0,
+    'vwap': 667.8775}}
+2025-08-04 13:46:16 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:46:16 INFO: Current average volume is: 456.67
+2025-08-04 13:46:16 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:48:16 INFO: {'SPOT': {   'close': 667.1,
+    'high': 667.1,
+    'low': 667.06,
+    'open': 667.06,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 592.0,
+    'vwap': 667.08}}
+2025-08-04 13:48:16 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:48:16 INFO: Current average volume is: 458.04
+2025-08-04 13:48:16 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:49:17 INFO: {'SPOT': {   'close': 666.99,
+    'high': 666.99,
+    'low': 666.75,
+    'open': 666.75,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 525.0,
+    'vwap': 666.896667}}
+2025-08-04 13:49:17 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:49:17 INFO: Current average volume is: 458.71
+2025-08-04 13:49:17 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:50:17 INFO: {'SPOT': {   'close': 666.96,
+    'high': 666.96,
+    'low': 666.96,
+    'open': 666.96,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 666.96}}
+2025-08-04 13:50:17 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:50:17 INFO: Current average volume is: 455.16
+2025-08-04 13:50:17 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:52:17 INFO: {'SPOT': {   'close': 667.02,
+    'high': 667.02,
+    'low': 667.02,
+    'open': 667.02,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 107.0,
+    'vwap': 667.02}}
+2025-08-04 13:52:17 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:52:17 INFO: Current average volume is: 451.75
+2025-08-04 13:52:17 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:54:17 INFO: {'SPOT': {   'close': 666.92,
+    'high': 666.945,
+    'low': 666.92,
+    'open': 666.945,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 564.0,
+    'vwap': 666.9325}}
+2025-08-04 13:54:17 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:54:17 INFO: Current average volume is: 452.83
+2025-08-04 13:54:17 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 13:56:17 INFO: {'SPOT': {   'close': 667.02,
+    'high': 667.02,
+    'low': 667.015,
+    'open': 667.015,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 311.0,
+    'vwap': 667.018333}}
+2025-08-04 13:56:17 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 13:56:17 INFO: Current average volume is: 451.47
+2025-08-04 13:56:17 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 14:00:18 INFO: {'SPOT': {   'close': 667.215,
+    'high': 667.215,
+    'low': 667.215,
+    'open': 667.215,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 181.0,
+    'vwap': 667.215}}
+2025-08-04 14:00:18 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 14:00:18 INFO: Current average volume is: 448.9
+2025-08-04 14:00:18 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 14:03:19 INFO: {'SPOT': {   'close': 667.61,
+    'high': 667.625,
+    'low': 667.61,
+    'open': 667.625,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 321.0,
+    'vwap': 667.6175}}
+2025-08-04 14:03:19 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 14:03:19 INFO: Current average volume is: 447.69
+2025-08-04 14:03:19 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 14:05:19 INFO: {'SPOT': {   'close': 667.75,
+    'high': 667.75,
+    'low': 667.75,
+    'open': 667.75,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 257.0,
+    'vwap': 667.75}}
+2025-08-04 14:05:19 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 14:05:19 INFO: Current average volume is: 445.91
+2025-08-04 14:05:19 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 14:06:19 INFO: {'SPOT': {   'close': 667.72,
+    'high': 667.72,
+    'low': 667.72,
+    'open': 667.72,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 204.0,
+    'vwap': 667.72}}
+2025-08-04 14:06:19 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 14:06:19 INFO: Current average volume is: 443.67
+2025-08-04 14:06:19 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 14:09:19 INFO: {'SPOT': {   'close': 667.965,
+    'high': 667.965,
+    'low': 667.965,
+    'open': 667.965,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 480.0,
+    'vwap': 667.965}}
+2025-08-04 14:09:19 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 14:09:19 INFO: Current average volume is: 444.0
+2025-08-04 14:09:19 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 14:12:20 INFO: {'SPOT': {   'close': 667.27,
+    'high': 667.27,
+    'low': 667.27,
+    'open': 667.27,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 207.0,
+    'vwap': 667.27}}
+2025-08-04 14:12:20 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 14:12:20 INFO: Current average volume is: 441.85
+2025-08-04 14:12:20 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 14:13:20 INFO: {'SPOT': {   'close': 666.775,
+    'high': 666.775,
+    'low': 666.775,
+    'open': 666.775,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 282.0,
+    'vwap': 666.775}}
+2025-08-04 14:13:20 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 14:13:20 INFO: Current average volume is: 440.41
+2025-08-04 14:13:20 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 14:14:20 INFO: {'SPOT': {   'close': 666.48,
+    'high': 666.58,
+    'low': 666.345,
+    'open': 666.58,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 580.0,
+    'vwap': 666.4375}}
+2025-08-04 14:14:20 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 14:14:20 INFO: Current average volume is: 441.65
+2025-08-04 14:14:20 INFO: Updated resistance to: 670.7 and support to: 665.13
+2025-08-04 14:15:20 INFO: {'SPOT': {   'close': 665.6,
+    'high': 665.6,
+    'low': 665.6,
+    'open': 665.6,
+    'symbol': 'SPOT',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 426.0,
+    'vwap': 665.6}}
+2025-08-04 14:15:20 INFO: Current resistance is: 670.7 and support is: 665.13
+2025-08-04 14:15:20 INFO: Current average volume is: 441.51
+2025-08-04 14:15:20 INFO: Updated resistance to: 670.7 and support to: 665.13

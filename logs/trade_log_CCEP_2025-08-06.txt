@@ -1,0 +1,655 @@
+2025-08-06 09:50:12 INFO: === Strategy started ===
+2025-08-06 09:50:12 INFO: Start collecting the current highs/lows for: CCEP
+2025-08-06 09:50:12 INFO: Most recent stock data: {'CCEP': {   'close': 90.175,
+    'high': 90.175,
+    'low': 90.175,
+    'open': 90.175,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 90.175}}
+2025-08-06 09:51:12 INFO: Most recent stock data: {'CCEP': {   'close': 89.975,
+    'high': 90.23,
+    'low': 89.96,
+    'open': 90.23,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 614.0,
+    'vwap': 90.02}}
+2025-08-06 09:52:13 INFO: Most recent stock data: {'CCEP': {   'close': 89.82,
+    'high': 89.92,
+    'low': 89.82,
+    'open': 89.92,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 423.0,
+    'vwap': 89.87}}
+2025-08-06 09:53:13 INFO: Most recent stock data: {'CCEP': {   'close': 89.81,
+    'high': 89.81,
+    'low': 89.81,
+    'open': 89.81,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 89.81}}
+2025-08-06 09:54:13 INFO: Most recent stock data: {'CCEP': {   'close': 89.64,
+    'high': 89.64,
+    'low': 89.64,
+    'open': 89.64,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 89.64}}
+2025-08-06 09:55:13 INFO: Most recent stock data: {'CCEP': {   'close': 89.655,
+    'high': 89.67,
+    'low': 89.655,
+    'open': 89.67,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 411.0,
+    'vwap': 89.66625}}
+2025-08-06 09:56:13 INFO: Most recent stock data: {'CCEP': {   'close': 89.485,
+    'high': 89.62,
+    'low': 89.485,
+    'open': 89.62,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 440.0,
+    'vwap': 89.5525}}
+2025-08-06 09:57:13 INFO: Most recent stock data: {'CCEP': {   'close': 89.42,
+    'high': 89.42,
+    'low': 89.41,
+    'open': 89.41,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 305.0,
+    'vwap': 89.415}}
+2025-08-06 09:58:13 INFO: Most recent stock data: {'CCEP': {   'close': 89.445,
+    'high': 89.445,
+    'low': 89.39,
+    'open': 89.39,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 683.0,
+    'vwap': 89.434}}
+2025-08-06 10:01:14 INFO: Most recent stock data: {'CCEP': {   'close': 89.77,
+    'high': 89.77,
+    'low': 89.77,
+    'open': 89.77,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 327.0,
+    'vwap': 89.77}}
+2025-08-06 10:05:14 INFO: Most recent stock data: {'CCEP': {   'close': 89.85,
+    'high': 89.85,
+    'low': 89.85,
+    'open': 89.85,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 89.85}}
+2025-08-06 10:05:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 10:05:14 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-06 10:06:14 INFO: {'CCEP': {   'close': 89.89,
+    'high': 89.89,
+    'low': 89.785,
+    'open': 89.79,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 89.821667}}
+2025-08-06 10:06:14 INFO: Current resistance is: 89.713 and support is: 89.264
+2025-08-06 10:06:14 INFO: Current average volume is: 329.5
+2025-08-06 10:06:14 INFO: The Current Close 89.89 is above the resistance...
+2025-08-06 10:06:14 INFO: Updated resistance to: 89.84 and support to: 89.27
+2025-08-06 10:08:15 INFO: {'CCEP': {   'close': 89.73,
+    'high': 89.73,
+    'low': 89.73,
+    'open': 89.73,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 113.0,
+    'vwap': 89.73}}
+2025-08-06 10:08:15 INFO: Current resistance is: 89.84 and support is: 89.27
+2025-08-06 10:08:15 INFO: Current average volume is: 312.85
+2025-08-06 10:08:15 INFO: Updated resistance to: 89.873 and support to: 89.272
+2025-08-06 10:10:15 INFO: {'CCEP': {   'close': 89.53,
+    'high': 89.53,
+    'low': 89.53,
+    'open': 89.53,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 220.0,
+    'vwap': 89.53}}
+2025-08-06 10:10:15 INFO: Current resistance is: 89.873 and support is: 89.272
+2025-08-06 10:10:15 INFO: Current average volume is: 306.21
+2025-08-06 10:10:15 INFO: Updated resistance to: 89.827 and support to: 89.243
+2025-08-06 10:11:15 INFO: {'CCEP': {   'close': 89.38,
+    'high': 89.44,
+    'low': 89.38,
+    'open': 89.44,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 89.41}}
+2025-08-06 10:11:15 INFO: Current resistance is: 89.827 and support is: 89.243
+2025-08-06 10:11:15 INFO: Current average volume is: 305.87
+2025-08-06 10:11:15 INFO: Updated resistance to: 89.764 and support to: 89.352
+2025-08-06 10:12:15 INFO: {'CCEP': {   'close': 89.42,
+    'high': 89.46,
+    'low': 89.42,
+    'open': 89.46,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 430.0,
+    'vwap': 89.44}}
+2025-08-06 10:12:15 INFO: Current resistance is: 89.764 and support is: 89.352
+2025-08-06 10:12:15 INFO: Current average volume is: 313.62
+2025-08-06 10:12:15 INFO: Updated resistance to: 89.725 and support to: 89.321
+2025-08-06 10:13:15 INFO: {'CCEP': {   'close': 89.5,
+    'high': 89.5,
+    'low': 89.235,
+    'open': 89.235,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1048.0,
+    'vwap': 89.4065}}
+2025-08-06 10:13:15 INFO: Current resistance is: 89.725 and support is: 89.321
+2025-08-06 10:13:15 INFO: Current average volume is: 356.82
+2025-08-06 10:13:15 INFO: Updated resistance to: 89.711 and support to: 89.202
+2025-08-06 10:15:16 INFO: {'CCEP': {   'close': 89.19,
+    'high': 89.41,
+    'low': 89.19,
+    'open': 89.39,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1844.0,
+    'vwap': 89.24991}}
+2025-08-06 10:15:16 INFO: Current resistance is: 89.711 and support is: 89.202
+2025-08-06 10:15:16 INFO: Current average volume is: 439.44
+2025-08-06 10:15:16 INFO: close price: 89.19 just dropped below support of 89.202...
+2025-08-06 10:16:16 INFO: {'CCEP': {   'close': 89.115,
+    'high': 89.19,
+    'low': 89.115,
+    'open': 89.19,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 745.0,
+    'vwap': 89.125854}}
+2025-08-06 10:16:16 INFO: Current resistance is: 89.711 and support is: 89.202
+2025-08-06 10:16:16 INFO: Current average volume is: 455.53
+2025-08-06 10:16:16 INFO: Closing price: 89.115 just dropped below support 89.202 again...ending trade...
+2025-08-06 10:20:09 INFO: === Strategy started ===
+2025-08-06 10:20:09 INFO: Start collecting the current highs/lows for: CCEP
+2025-08-06 10:20:10 INFO: Most recent stock data: {'CCEP': {   'close': 89.075,
+    'high': 89.075,
+    'low': 89.075,
+    'open': 89.075,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 256.0,
+    'vwap': 89.075}}
+2025-08-06 10:21:10 INFO: Most recent stock data: {'CCEP': {   'close': 89.205,
+    'high': 89.205,
+    'low': 89.12,
+    'open': 89.12,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 467.0,
+    'vwap': 89.167054}}
+2025-08-06 10:24:10 INFO: Most recent stock data: {'CCEP': {   'close': 89.28,
+    'high': 89.28,
+    'low': 89.28,
+    'open': 89.28,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 136.0,
+    'vwap': 89.28}}
+2025-08-06 10:25:10 INFO: Most recent stock data: {'CCEP': {   'close': 89.355,
+    'high': 89.355,
+    'low': 89.355,
+    'open': 89.355,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 148.0,
+    'vwap': 89.355}}
+2025-08-06 10:26:10 INFO: Most recent stock data: {'CCEP': {   'close': 89.055,
+    'high': 89.39,
+    'low': 89.055,
+    'open': 89.39,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 900.0,
+    'vwap': 89.196111}}
+2025-08-06 10:27:10 INFO: Most recent stock data: {'CCEP': {   'close': 89.05,
+    'high': 89.05,
+    'low': 89.05,
+    'open': 89.05,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 278.0,
+    'vwap': 89.05}}
+2025-08-06 10:28:11 INFO: Most recent stock data: {'CCEP': {   'close': 88.95,
+    'high': 88.95,
+    'low': 88.95,
+    'open': 88.95,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 409.0,
+    'vwap': 88.95}}
+2025-08-06 10:31:11 INFO: Most recent stock data: {'CCEP': {   'close': 88.92,
+    'high': 88.92,
+    'low': 88.865,
+    'open': 88.865,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 423.0,
+    'vwap': 88.901667}}
+2025-08-06 10:32:11 INFO: Most recent stock data: {'CCEP': {   'close': 88.835,
+    'high': 88.835,
+    'low': 88.805,
+    'open': 88.82,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 398.0,
+    'vwap': 88.82005}}
+2025-08-06 10:33:11 INFO: Most recent stock data: {'CCEP': {   'close': 88.82,
+    'high': 88.82,
+    'low': 88.82,
+    'open': 88.82,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 88.82}}
+2025-08-06 10:34:11 INFO: Most recent stock data: {'CCEP': {   'close': 88.92,
+    'high': 88.92,
+    'low': 88.92,
+    'open': 88.92,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 148.0,
+    'vwap': 88.92}}
+2025-08-06 10:34:11 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 10:34:11 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-06 10:37:12 INFO: {'CCEP': {   'close': 89.635,
+    'high': 89.635,
+    'low': 89.235,
+    'open': 89.235,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 777.0,
+    'vwap': 89.41625}}
+2025-08-06 10:37:12 INFO: Current resistance is: 89.074 and support is: 88.683
+2025-08-06 10:37:12 INFO: Current average volume is: 365.33
+2025-08-06 10:37:12 INFO: The Current Close 89.635 is above the resistance...
+2025-08-06 10:37:12 INFO: Updated resistance to: 89.622 and support to: 88.712
+2025-08-06 10:38:12 INFO: {'CCEP': {   'close': 89.68,
+    'high': 89.68,
+    'low': 89.68,
+    'open': 89.68,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 232.0,
+    'vwap': 89.68}}
+2025-08-06 10:38:12 INFO: Current resistance is: 89.622 and support is: 88.712
+2025-08-06 10:38:12 INFO: Current average volume is: 355.08
+2025-08-06 10:38:12 INFO: The current close: 89.68 is above the resistance of 89.622, but volume isn't enough...
+2025-08-06 10:38:12 INFO: Updated resistance to: 89.688 and support to: 88.818
+2025-08-06 10:39:12 INFO: {'CCEP': {   'close': 89.86,
+    'high': 89.86,
+    'low': 89.86,
+    'open': 89.86,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 89.86}}
+2025-08-06 10:39:12 INFO: Current resistance is: 89.688 and support is: 88.818
+2025-08-06 10:39:12 INFO: Current average volume is: 336.86
+2025-08-06 10:39:12 INFO: The current close: 89.86 is above the resistance of 89.688, but volume isn't enough...
+2025-08-06 10:39:12 INFO: Updated resistance to: 89.886 and support to: 88.949
+2025-08-06 10:40:12 INFO: {'CCEP': {   'close': 89.95,
+    'high': 89.95,
+    'low': 89.95,
+    'open': 89.95,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 116.0,
+    'vwap': 89.95}}
+2025-08-06 10:40:12 INFO: Current resistance is: 89.886 and support is: 88.949
+2025-08-06 10:40:12 INFO: Current average volume is: 322.13
+2025-08-06 10:40:12 INFO: The current close: 89.95 is above the resistance of 89.886, but volume isn't enough...
+2025-08-06 10:40:12 INFO: Updated resistance to: 89.99 and support to: 89.082
+2025-08-06 10:41:13 INFO: {'CCEP': {   'close': 89.805,
+    'high': 89.86,
+    'low': 89.805,
+    'open': 89.86,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 703.0,
+    'vwap': 89.837893}}
+2025-08-06 10:41:13 INFO: Current resistance is: 89.99 and support is: 89.082
+2025-08-06 10:41:13 INFO: Current average volume is: 345.94
+2025-08-06 10:41:13 INFO: Updated resistance to: 90.042 and support to: 89.172
+2025-08-06 10:42:13 INFO: {'CCEP': {   'close': 89.76,
+    'high': 89.76,
+    'low': 89.76,
+    'open': 89.76,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 89.76}}
+2025-08-06 10:42:13 INFO: Current resistance is: 90.042 and support is: 89.172
+2025-08-06 10:42:13 INFO: Current average volume is: 331.59
+2025-08-06 10:42:13 INFO: Updated resistance to: 90.092 and support to: 89.241
+2025-08-06 10:44:13 INFO: {'CCEP': {   'close': 89.57,
+    'high': 89.66,
+    'low': 89.57,
+    'open': 89.66,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 250.0,
+    'vwap': 89.615}}
+2025-08-06 10:44:13 INFO: Current resistance is: 90.092 and support is: 89.241
+2025-08-06 10:44:13 INFO: Current average volume is: 327.06
+2025-08-06 10:44:13 INFO: Updated resistance to: 90.133 and support to: 89.266
+2025-08-06 10:45:13 INFO: {'CCEP': {   'close': 89.52,
+    'high': 89.52,
+    'low': 89.52,
+    'open': 89.52,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 120.0,
+    'vwap': 89.52}}
+2025-08-06 10:45:13 INFO: Current resistance is: 90.133 and support is: 89.266
+2025-08-06 10:45:13 INFO: Current average volume is: 316.16
+2025-08-06 10:45:13 INFO: Updated resistance to: 90.159 and support to: 89.276
+2025-08-06 10:47:13 INFO: {'CCEP': {   'close': 89.58,
+    'high': 89.58,
+    'low': 89.58,
+    'open': 89.58,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 239.0,
+    'vwap': 89.58}}
+2025-08-06 10:47:13 INFO: Current resistance is: 90.159 and support is: 89.276
+2025-08-06 10:47:13 INFO: Current average volume is: 312.3
+2025-08-06 10:47:13 INFO: Updated resistance to: 90.184 and support to: 89.294
+2025-08-06 10:50:14 INFO: {'CCEP': {   'close': 89.43,
+    'high': 89.44,
+    'low': 89.43,
+    'open': 89.44,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 89.435}}
+2025-08-06 10:50:14 INFO: Current resistance is: 90.184 and support is: 89.294
+2025-08-06 10:50:14 INFO: Current average volume is: 306.95
+2025-08-06 10:50:14 INFO: Updated resistance to: 90.192 and support to: 89.282
+2025-08-06 10:55:14 INFO: {'CCEP': {   'close': 89.44,
+    'high': 89.46,
+    'low': 89.44,
+    'open': 89.46,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 322.0,
+    'vwap': 89.45}}
+2025-08-06 10:55:14 INFO: Current resistance is: 90.192 and support is: 89.282
+2025-08-06 10:55:14 INFO: Current average volume is: 307.64
+2025-08-06 10:55:14 INFO: Updated resistance to: 90.2 and support to: 89.272
+2025-08-06 10:56:14 INFO: {'CCEP': {   'close': 89.54,
+    'high': 89.54,
+    'low': 89.49,
+    'open': 89.49,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 230.0,
+    'vwap': 89.515}}
+2025-08-06 10:56:14 INFO: Current resistance is: 90.2 and support is: 89.272
+2025-08-06 10:56:14 INFO: Current average volume is: 304.26
+2025-08-06 10:56:14 INFO: Updated resistance to: 90.212 and support to: 89.27
+2025-08-06 10:59:15 INFO: {'CCEP': {   'close': 89.505,
+    'high': 89.505,
+    'low': 89.505,
+    'open': 89.505,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 654.0,
+    'vwap': 89.505}}
+2025-08-06 10:59:15 INFO: Current resistance is: 90.212 and support is: 89.27
+2025-08-06 10:59:15 INFO: Current average volume is: 318.83
+2025-08-06 10:59:15 INFO: Updated resistance to: 90.219 and support to: 89.269
+2025-08-06 11:00:15 INFO: {'CCEP': {   'close': 89.71,
+    'high': 89.72,
+    'low': 89.71,
+    'open': 89.72,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 651.0,
+    'vwap': 89.71375}}
+2025-08-06 11:00:15 INFO: Current resistance is: 90.219 and support is: 89.269
+2025-08-06 11:00:15 INFO: Current average volume is: 332.12
+2025-08-06 11:00:15 INFO: Updated resistance to: 90.245 and support to: 89.3
+2025-08-06 11:01:15 INFO: {'CCEP': {   'close': 89.56,
+    'high': 89.56,
+    'low': 89.56,
+    'open': 89.56,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 408.0,
+    'vwap': 89.56}}
+2025-08-06 11:01:15 INFO: Current resistance is: 90.245 and support is: 89.3
+2025-08-06 11:01:15 INFO: Current average volume is: 335.04
+2025-08-06 11:01:15 INFO: Updated resistance to: 90.253 and support to: 89.302
+2025-08-06 11:04:15 INFO: {'CCEP': {   'close': 89.415,
+    'high': 89.415,
+    'low': 89.365,
+    'open': 89.365,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 342.0,
+    'vwap': 89.38134}}
+2025-08-06 11:04:15 INFO: Current resistance is: 90.253 and support is: 89.302
+2025-08-06 11:04:15 INFO: Current average volume is: 335.3
+2025-08-06 11:04:15 INFO: Updated resistance to: 90.244 and support to: 89.274
+2025-08-06 11:07:16 INFO: {'CCEP': {   'close': 89.66,
+    'high': 89.66,
+    'low': 89.645,
+    'open': 89.645,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 450.0,
+    'vwap': 89.654}}
+2025-08-06 11:07:16 INFO: Current resistance is: 90.244 and support is: 89.274
+2025-08-06 11:07:16 INFO: Current average volume is: 339.39
+2025-08-06 11:07:16 INFO: Updated resistance to: 90.26 and support to: 89.29
+2025-08-06 11:09:16 INFO: {'CCEP': {   'close': 89.96,
+    'high': 90.03,
+    'low': 89.96,
+    'open': 89.985,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 337.0,
+    'vwap': 89.991667}}
+2025-08-06 11:09:16 INFO: Current resistance is: 90.26 and support is: 89.29
+2025-08-06 11:09:16 INFO: Current average volume is: 339.31
+2025-08-06 11:09:16 INFO: Updated resistance to: 90.054 and support to: 89.349
+2025-08-06 11:10:16 INFO: {'CCEP': {   'close': 89.92,
+    'high': 90.0,
+    'low': 89.92,
+    'open': 90.0,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 305.0,
+    'vwap': 89.96}}
+2025-08-06 11:10:16 INFO: Current resistance is: 90.054 and support is: 89.349
+2025-08-06 11:10:16 INFO: Current average volume is: 338.17
+2025-08-06 11:10:16 INFO: Updated resistance to: 90.081 and support to: 89.394
+2025-08-06 11:11:16 INFO: {'CCEP': {   'close': 89.97,
+    'high': 89.97,
+    'low': 89.965,
+    'open': 89.965,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 251.0,
+    'vwap': 89.968}}
+2025-08-06 11:11:16 INFO: Current resistance is: 90.081 and support is: 89.394
+2025-08-06 11:11:16 INFO: Current average volume is: 335.35
+2025-08-06 11:11:16 INFO: Updated resistance to: 90.109 and support to: 89.441
+2025-08-06 11:12:16 INFO: {'CCEP': {   'close': 89.9,
+    'high': 89.9,
+    'low': 89.88,
+    'open': 89.88,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 455.0,
+    'vwap': 89.885}}
+2025-08-06 11:12:16 INFO: Current resistance is: 90.109 and support is: 89.441
+2025-08-06 11:12:16 INFO: Current average volume is: 339.09
+2025-08-06 11:12:16 INFO: Updated resistance to: 90.135 and support to: 89.47
+2025-08-06 11:13:16 INFO: {'CCEP': {   'close': 89.87,
+    'high': 89.94,
+    'low': 89.87,
+    'open': 89.94,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 413.0,
+    'vwap': 89.89071}}
+2025-08-06 11:13:16 INFO: Current resistance is: 90.135 and support is: 89.47
+2025-08-06 11:13:16 INFO: Current average volume is: 341.33
+2025-08-06 11:13:16 INFO: Updated resistance to: 90.162 and support to: 89.494
+2025-08-06 11:14:17 INFO: {'CCEP': {   'close': 89.85,
+    'high': 89.875,
+    'low': 89.85,
+    'open': 89.875,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 450.0,
+    'vwap': 89.86}}
+2025-08-06 11:14:17 INFO: Current resistance is: 90.162 and support is: 89.494
+2025-08-06 11:14:17 INFO: Current average volume is: 344.53
+2025-08-06 11:14:17 INFO: Updated resistance to: 90.186 and support to: 89.512
+2025-08-06 11:15:17 INFO: {'CCEP': {   'close': 89.81,
+    'high': 89.82,
+    'low': 89.81,
+    'open': 89.81,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 350.0,
+    'vwap': 89.813333}}
+2025-08-06 11:15:17 INFO: Current resistance is: 90.186 and support is: 89.512
+2025-08-06 11:15:17 INFO: Current average volume is: 344.69
+2025-08-06 11:15:17 INFO: Updated resistance to: 90.207 and support to: 89.522
+2025-08-06 11:16:17 INFO: {'CCEP': {   'close': 89.72,
+    'high': 89.835,
+    'low': 89.72,
+    'open': 89.83,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 583.0,
+    'vwap': 89.81}}
+2025-08-06 11:16:17 INFO: Current resistance is: 90.207 and support is: 89.522
+2025-08-06 11:16:17 INFO: Current average volume is: 351.31
+2025-08-06 11:16:17 INFO: Updated resistance to: 90.228 and support to: 89.519
+2025-08-06 11:17:17 INFO: {'CCEP': {   'close': 89.5,
+    'high': 89.5,
+    'low': 89.5,
+    'open': 89.5,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 250.0,
+    'vwap': 89.5}}
+2025-08-06 11:17:17 INFO: Current resistance is: 90.228 and support is: 89.519
+2025-08-06 11:17:17 INFO: Current average volume is: 348.57
+2025-08-06 11:17:17 INFO: close price: 89.5 just dropped below support of 89.519...
+2025-08-06 11:19:17 INFO: {'CCEP': {   'close': 89.52,
+    'high': 89.52,
+    'low': 89.52,
+    'open': 89.52,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 250.0,
+    'vwap': 89.52}}
+2025-08-06 11:19:17 INFO: Current resistance is: 90.228 and support is: 89.519
+2025-08-06 11:19:17 INFO: Current average volume is: 345.97
+2025-08-06 11:19:17 INFO: Updated resistance to: 90.239 and support to: 89.462
+2025-08-06 11:21:17 INFO: {'CCEP': {   'close': 89.45,
+    'high': 89.48,
+    'low': 89.45,
+    'open': 89.48,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 449.0,
+    'vwap': 89.465}}
+2025-08-06 11:21:17 INFO: Current resistance is: 90.239 and support is: 89.462
+2025-08-06 11:21:17 INFO: Current average volume is: 348.62
+2025-08-06 11:21:17 INFO: close price: 89.45 just dropped below support of 89.462...
+2025-08-06 11:22:17 INFO: {'CCEP': {   'close': 89.4,
+    'high': 89.41,
+    'low': 89.4,
+    'open': 89.41,
+    'symbol': 'CCEP',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 89.405}}
+2025-08-06 11:22:17 INFO: Current resistance is: 90.239 and support is: 89.462
+2025-08-06 11:22:17 INFO: Current average volume is: 344.9
+2025-08-06 11:22:17 INFO: Closing price: 89.4 just dropped below support 89.462 again...ending trade...

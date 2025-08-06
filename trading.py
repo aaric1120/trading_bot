@@ -21,18 +21,18 @@ from TimeConstants import LAST_MARKET_SELL, MARKET_CLOSE_TIME, MARKET_DEADLINE
 
 
 class BaseTrade:
+    symbol = ""
     highs = []
     lows = []
     opens = []
     closes = []
-    hist_client = None
-    hist_request = None
-    symbol = ""
+    volume = []
     resist = 0
     support = 0
-    param = None
-    volume = 0.0
     avg_vol = 0.0
+    hist_client = None
+    hist_request = None
+    param = None
     msg_bot = TelegramBot()
 
     def __init__(self,symbol, param, high, low, opens, closes, volume):
@@ -46,7 +46,7 @@ class BaseTrade:
         self.trade_client = TradingClient(self.param["alpaca_key"], self.param["secret_key"], paper=True)
         self.hist_request = StockLatestBarRequest(symbol_or_symbols=[self.symbol])
         self.volume = volume
-        self.avg_vol = round(self.volume / len(self.highs), 2)
+        self.avg_vol = round(sum(self.volume) / len(self.volume), 2)
 
         # Configure logging
         logging.FileHandler(f"logs/trade_log_{self.symbol}_{dt.datetime.today().strftime('%Y-%m-%d')}.txt", mode="a",
@@ -62,7 +62,9 @@ class BaseTrade:
         return
 
     def get_new_avg(self):
-        self.avg_vol = round(self.volume / len(self.highs), 2)
+        if len(self.volume) > 10:
+            self.volume = self.volume[-10:]
+        self.avg_vol = round(sum(self.volume) / len(self.volume), 2)
 
     def cancel_all(self):
         # Check if all the stock are sold
@@ -290,7 +292,7 @@ class BaseTrade:
                     self.lows.append(low)
                     self.closes.append(close)
                     self.opens.append(opens)
-                    self.volume += volume
+                    self.volume.append(volume)
                     self.get_new_avg()
 
                     print(f"Current High asks for {self.symbol} is {self.highs[-1]}")

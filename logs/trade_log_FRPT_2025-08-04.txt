@@ -1,0 +1,854 @@
+2025-08-04 10:58:53 INFO: === Strategy started ===
+2025-08-04 10:58:53 INFO: Start collecting the current highs/lows for: FRPT
+2025-08-04 10:58:53 INFO: Most recent stock data: {'FRPT': {   'close': 72.225,
+    'high': 72.225,
+    'low': 72.225,
+    'open': 72.225,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 238.0,
+    'vwap': 72.225}}
+2025-08-04 11:00:53 INFO: Most recent stock data: {'FRPT': {   'close': 71.62,
+    'high': 71.71,
+    'low': 71.62,
+    'open': 71.7,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 473.0,
+    'vwap': 71.676667}}
+2025-08-04 11:01:53 INFO: Most recent stock data: {'FRPT': {   'close': 71.49,
+    'high': 71.76,
+    'low': 71.36,
+    'open': 71.71,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 891.0,
+    'vwap': 71.5475}}
+2025-08-04 11:02:53 INFO: Most recent stock data: {'FRPT': {   'close': 71.45,
+    'high': 71.45,
+    'low': 71.45,
+    'open': 71.45,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 539.0,
+    'vwap': 71.45}}
+2025-08-04 11:03:53 INFO: Most recent stock data: {'FRPT': {   'close': 71.67,
+    'high': 71.67,
+    'low': 71.67,
+    'open': 71.67,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 242.0,
+    'vwap': 71.67}}
+2025-08-04 11:06:54 INFO: Most recent stock data: {'FRPT': {   'close': 71.54,
+    'high': 71.54,
+    'low': 71.51,
+    'open': 71.51,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 222.0,
+    'vwap': 71.525}}
+2025-08-04 11:07:54 INFO: Most recent stock data: {'FRPT': {   'close': 71.16,
+    'high': 71.16,
+    'low': 71.16,
+    'open': 71.16,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 304.0,
+    'vwap': 71.16}}
+2025-08-04 11:09:54 INFO: Most recent stock data: {'FRPT': {   'close': 71.02,
+    'high': 71.025,
+    'low': 71.02,
+    'open': 71.025,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 71.023333}}
+2025-08-04 11:11:55 INFO: Most recent stock data: {'FRPT': {   'close': 70.88,
+    'high': 71.05,
+    'low': 70.84,
+    'open': 71.05,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 839.0,
+    'vwap': 70.998777}}
+2025-08-04 11:12:55 INFO: Most recent stock data: {'FRPT': {   'close': 70.83,
+    'high': 70.83,
+    'low': 70.83,
+    'open': 70.83,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 178.0,
+    'vwap': 70.83}}
+2025-08-04 11:13:55 INFO: Most recent stock data: {'FRPT': {   'close': 70.815,
+    'high': 70.815,
+    'low': 70.815,
+    'open': 70.815,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 244.0,
+    'vwap': 70.815}}
+2025-08-04 11:13:55 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-04 11:13:55 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-04 11:15:55 INFO: {'FRPT': {   'close': 70.82,
+    'high': 70.82,
+    'low': 70.82,
+    'open': 70.82,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 355.0,
+    'vwap': 70.82}}
+2025-08-04 11:15:55 INFO: Current resistance is: 70.819 and support is: 70.696
+2025-08-04 11:15:55 INFO: Current average volume is: 382.33
+2025-08-04 11:15:55 INFO: The Current Close 70.82 is above the resistance...
+2025-08-04 11:15:55 INFO: Updated resistance to: 70.784 and support to: 70.593
+2025-08-04 11:16:25 INFO: {'FRPT': {   'close': 70.79,
+    'high': 71.07,
+    'low': 70.79,
+    'open': 71.02,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 500.0,
+    'vwap': 70.981822}}
+2025-08-04 11:16:25 INFO: Current resistance is: 70.784 and support is: 70.593
+2025-08-04 11:16:25 INFO: Current average volume is: 391.38
+2025-08-04 11:16:25 INFO: The current close: 70.79 is above the resistance of 70.784, but volume isn't enough...
+2025-08-04 11:16:25 INFO: Updated resistance to: 70.884 and support to: 70.687
+2025-08-04 11:18:26 INFO: {'FRPT': {   'close': 70.68,
+    'high': 70.72,
+    'low': 70.68,
+    'open': 70.72,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 625.0,
+    'vwap': 70.696667}}
+2025-08-04 11:18:26 INFO: Current resistance is: 70.884 and support is: 70.687
+2025-08-04 11:18:26 INFO: Current average volume is: 408.07
+2025-08-04 11:18:26 INFO: close price: 70.68 just dropped below support of 70.687...
+2025-08-04 11:22:26 INFO: {'FRPT': {   'close': 71.245,
+    'high': 71.245,
+    'low': 71.245,
+    'open': 71.245,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 71.245}}
+2025-08-04 11:22:26 INFO: Current resistance is: 70.884 and support is: 70.687
+2025-08-04 11:22:26 INFO: Current average volume is: 387.87
+2025-08-04 11:22:26 INFO: The Current Close 71.245 is above the resistance...
+2025-08-04 11:22:26 INFO: Updated resistance to: 71.0 and support to: 70.522
+2025-08-04 11:23:27 INFO: {'FRPT': {   'close': 71.25,
+    'high': 71.25,
+    'low': 71.25,
+    'open': 71.25,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 71.25}}
+2025-08-04 11:23:27 INFO: Current resistance is: 71.0 and support is: 70.522
+2025-08-04 11:23:27 INFO: Current average volume is: 376.12
+2025-08-04 11:23:27 INFO: The current close: 71.25 is above the resistance of 71.0, but volume isn't enough...
+2025-08-04 11:23:27 INFO: Updated resistance to: 71.141 and support to: 70.488
+2025-08-04 11:25:27 INFO: {'FRPT': {   'close': 71.265,
+    'high': 71.265,
+    'low': 71.265,
+    'open': 71.265,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 143.0,
+    'vwap': 71.265}}
+2025-08-04 11:25:27 INFO: Current resistance is: 71.141 and support is: 70.488
+2025-08-04 11:25:27 INFO: Current average volume is: 362.41
+2025-08-04 11:25:27 INFO: The current close: 71.265 is above the resistance of 71.141, but volume isn't enough...
+2025-08-04 11:25:27 INFO: Updated resistance to: 71.263 and support to: 70.471
+2025-08-04 11:26:27 INFO: {'FRPT': {   'close': 71.46,
+    'high': 71.46,
+    'low': 71.46,
+    'open': 71.46,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 207.0,
+    'vwap': 71.46}}
+2025-08-04 11:26:27 INFO: Current resistance is: 71.263 and support is: 70.471
+2025-08-04 11:26:27 INFO: Current average volume is: 353.78
+2025-08-04 11:26:27 INFO: The current close: 71.46 is above the resistance of 71.263, but volume isn't enough...
+2025-08-04 11:26:27 INFO: Updated resistance to: 71.427 and support to: 70.482
+2025-08-04 11:27:28 INFO: {'FRPT': {   'close': 71.4,
+    'high': 71.4,
+    'low': 71.4,
+    'open': 71.4,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 274.0,
+    'vwap': 71.4}}
+2025-08-04 11:27:28 INFO: Current resistance is: 71.427 and support is: 70.482
+2025-08-04 11:27:28 INFO: Current average volume is: 349.58
+2025-08-04 11:27:28 INFO: Updated resistance to: 71.545 and support to: 70.495
+2025-08-04 11:28:28 INFO: {'FRPT': {   'close': 71.43,
+    'high': 71.43,
+    'low': 71.43,
+    'open': 71.43,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 137.0,
+    'vwap': 71.43}}
+2025-08-04 11:28:28 INFO: Current resistance is: 71.545 and support is: 70.495
+2025-08-04 11:28:28 INFO: Current average volume is: 338.95
+2025-08-04 11:28:28 INFO: Updated resistance to: 71.652 and support to: 70.515
+2025-08-04 11:30:28 INFO: {'FRPT': {   'close': 71.4,
+    'high': 71.4,
+    'low': 71.4,
+    'open': 71.4,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 71.4}}
+2025-08-04 11:30:28 INFO: Current resistance is: 71.652 and support is: 70.515
+2025-08-04 11:30:28 INFO: Current average volume is: 341.86
+2025-08-04 11:30:28 INFO: Updated resistance to: 71.734 and support to: 70.534
+2025-08-04 11:34:29 INFO: {'FRPT': {   'close': 71.28,
+    'high': 71.29,
+    'low': 71.25,
+    'open': 71.25,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 71.2675}}
+2025-08-04 11:34:29 INFO: Current resistance is: 71.734 and support is: 70.534
+2025-08-04 11:34:29 INFO: Current average volume is: 344.5
+2025-08-04 11:34:29 INFO: Updated resistance to: 71.775 and support to: 70.537
+2025-08-04 11:35:29 INFO: {'FRPT': {   'close': 71.24,
+    'high': 71.24,
+    'low': 71.12,
+    'open': 71.23,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 541.0,
+    'vwap': 71.166}}
+2025-08-04 11:35:29 INFO: Current resistance is: 71.775 and support is: 70.537
+2025-08-04 11:35:29 INFO: Current average volume is: 353.04
+2025-08-04 11:35:29 INFO: Updated resistance to: 71.799 and support to: 70.527
+2025-08-04 11:44:30 INFO: {'FRPT': {   'close': 72.005,
+    'high': 72.005,
+    'low': 71.97,
+    'open': 71.97,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 348.0,
+    'vwap': 71.9875}}
+2025-08-04 11:44:30 INFO: Current resistance is: 71.799 and support is: 70.527
+2025-08-04 11:44:30 INFO: Current average volume is: 352.83
+2025-08-04 11:44:30 INFO: The Current Close 72.005 is above the resistance...
+2025-08-04 11:44:30 INFO: Updated resistance to: 72.003 and support to: 70.612
+2025-08-04 11:46:31 INFO: {'FRPT': {   'close': 71.885,
+    'high': 71.885,
+    'low': 71.885,
+    'open': 71.885,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 297.0,
+    'vwap': 71.885}}
+2025-08-04 11:46:31 INFO: Current resistance is: 72.003 and support is: 70.612
+2025-08-04 11:46:31 INFO: Current average volume is: 350.6
+2025-08-04 11:46:31 INFO: Updated resistance to: 72.15 and support to: 70.682
+2025-08-04 11:47:31 INFO: {'FRPT': {   'close': 71.755,
+    'high': 71.755,
+    'low': 71.755,
+    'open': 71.755,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.755}}
+2025-08-04 11:47:31 INFO: Current resistance is: 72.15 and support is: 70.682
+2025-08-04 11:47:31 INFO: Current average volume is: 340.96
+2025-08-04 11:47:31 INFO: Updated resistance to: 72.246 and support to: 70.732
+2025-08-04 11:53:32 INFO: {'FRPT': {   'close': 71.42,
+    'high': 71.42,
+    'low': 71.42,
+    'open': 71.42,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 161.0,
+    'vwap': 71.42}}
+2025-08-04 11:53:32 INFO: Current resistance is: 72.246 and support is: 70.732
+2025-08-04 11:53:32 INFO: Current average volume is: 334.3
+2025-08-04 11:53:32 INFO: Updated resistance to: 72.256 and support to: 70.742
+2025-08-04 11:55:32 INFO: {'FRPT': {   'close': 71.63,
+    'high': 71.63,
+    'low': 71.63,
+    'open': 71.63,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 110.0,
+    'vwap': 71.63}}
+2025-08-04 11:55:32 INFO: Current resistance is: 72.256 and support is: 70.742
+2025-08-04 11:55:32 INFO: Current average volume is: 326.29
+2025-08-04 11:55:32 INFO: Updated resistance to: 72.309 and support to: 70.774
+2025-08-04 11:59:32 INFO: {'FRPT': {   'close': 71.665,
+    'high': 71.665,
+    'low': 71.665,
+    'open': 71.665,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 377.0,
+    'vwap': 71.665}}
+2025-08-04 11:59:32 INFO: Current resistance is: 72.309 and support is: 70.774
+2025-08-04 11:59:32 INFO: Current average volume is: 328.03
+2025-08-04 11:59:32 INFO: Updated resistance to: 72.361 and support to: 70.807
+2025-08-04 12:00:32 INFO: {'FRPT': {   'close': 71.6,
+    'high': 71.6,
+    'low': 71.6,
+    'open': 71.6,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 179.0,
+    'vwap': 71.6}}
+2025-08-04 12:00:32 INFO: Current resistance is: 72.361 and support is: 70.807
+2025-08-04 12:00:32 INFO: Current average volume is: 323.07
+2025-08-04 12:00:32 INFO: Updated resistance to: 72.393 and support to: 70.83
+2025-08-04 12:01:33 INFO: {'FRPT': {   'close': 71.58,
+    'high': 71.625,
+    'low': 71.58,
+    'open': 71.625,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 632.0,
+    'vwap': 71.61375}}
+2025-08-04 12:01:33 INFO: Current resistance is: 72.393 and support is: 70.83
+2025-08-04 12:01:33 INFO: Current average volume is: 333.03
+2025-08-04 12:01:33 INFO: Updated resistance to: 72.426 and support to: 70.849
+2025-08-04 12:04:33 INFO: {'FRPT': {   'close': 71.57,
+    'high': 71.57,
+    'low': 71.48,
+    'open': 71.48,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 643.0,
+    'vwap': 71.531176}}
+2025-08-04 12:04:33 INFO: Current resistance is: 72.426 and support is: 70.849
+2025-08-04 12:04:33 INFO: Current average volume is: 342.72
+2025-08-04 12:04:33 INFO: Updated resistance to: 72.445 and support to: 70.855
+2025-08-04 12:06:33 INFO: {'FRPT': {   'close': 71.51,
+    'high': 71.51,
+    'low': 71.51,
+    'open': 71.51,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 266.0,
+    'vwap': 71.51}}
+2025-08-04 12:06:33 INFO: Current resistance is: 72.445 and support is: 70.855
+2025-08-04 12:06:33 INFO: Current average volume is: 340.39
+2025-08-04 12:06:33 INFO: Updated resistance to: 72.45 and support to: 70.864
+2025-08-04 12:07:33 INFO: {'FRPT': {   'close': 71.39,
+    'high': 71.39,
+    'low': 71.39,
+    'open': 71.39,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 235.0,
+    'vwap': 71.39}}
+2025-08-04 12:07:33 INFO: Current resistance is: 72.45 and support is: 70.864
+2025-08-04 12:07:33 INFO: Current average volume is: 337.29
+2025-08-04 12:07:33 INFO: Updated resistance to: 72.434 and support to: 70.859
+2025-08-04 12:08:34 INFO: {'FRPT': {   'close': 71.435,
+    'high': 71.435,
+    'low': 71.435,
+    'open': 71.435,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 725.0,
+    'vwap': 71.435}}
+2025-08-04 12:08:34 INFO: Current resistance is: 72.434 and support is: 70.859
+2025-08-04 12:08:34 INFO: Current average volume is: 348.37
+2025-08-04 12:08:34 INFO: Updated resistance to: 72.426 and support to: 70.859
+2025-08-04 12:10:34 INFO: {'FRPT': {   'close': 71.42,
+    'high': 71.42,
+    'low': 71.42,
+    'open': 71.42,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 305.0,
+    'vwap': 71.42}}
+2025-08-04 12:10:34 INFO: Current resistance is: 72.426 and support is: 70.859
+2025-08-04 12:10:34 INFO: Current average volume is: 347.17
+2025-08-04 12:10:34 INFO: Updated resistance to: 72.417 and support to: 70.857
+2025-08-04 12:17:35 INFO: {'FRPT': {   'close': 71.61,
+    'high': 71.61,
+    'low': 71.61,
+    'open': 71.61,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 247.0,
+    'vwap': 71.61}}
+2025-08-04 12:17:35 INFO: Current resistance is: 72.417 and support is: 70.857
+2025-08-04 12:17:35 INFO: Current average volume is: 344.46
+2025-08-04 12:17:35 INFO: Updated resistance to: 72.439 and support to: 70.875
+2025-08-04 12:18:35 INFO: {'FRPT': {   'close': 71.5,
+    'high': 71.5,
+    'low': 71.5,
+    'open': 71.5,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 218.0,
+    'vwap': 71.5}}
+2025-08-04 12:18:35 INFO: Current resistance is: 72.439 and support is: 70.875
+2025-08-04 12:18:35 INFO: Current average volume is: 341.13
+2025-08-04 12:18:35 INFO: Updated resistance to: 72.441 and support to: 70.88
+2025-08-04 12:25:37 INFO: {'FRPT': {   'close': 71.39,
+    'high': 71.39,
+    'low': 71.39,
+    'open': 71.39,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 143.0,
+    'vwap': 71.39}}
+2025-08-04 12:25:37 INFO: Current resistance is: 72.441 and support is: 70.88
+2025-08-04 12:25:37 INFO: Current average volume is: 336.05
+2025-08-04 12:25:37 INFO: Updated resistance to: 72.426 and support to: 70.873
+2025-08-04 12:27:37 INFO: {'FRPT': {   'close': 71.49,
+    'high': 71.49,
+    'low': 71.49,
+    'open': 71.49,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.49}}
+2025-08-04 12:27:37 INFO: Current resistance is: 72.426 and support is: 70.873
+2025-08-04 12:27:37 INFO: Current average volume is: 330.15
+2025-08-04 12:27:37 INFO: Updated resistance to: 72.426 and support to: 70.877
+2025-08-04 12:28:37 INFO: {'FRPT': {   'close': 71.42,
+    'high': 71.42,
+    'low': 71.42,
+    'open': 71.42,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 263.0,
+    'vwap': 71.42}}
+2025-08-04 12:28:37 INFO: Current resistance is: 72.426 and support is: 70.877
+2025-08-04 12:28:37 INFO: Current average volume is: 328.51
+2025-08-04 12:28:37 INFO: Updated resistance to: 72.417 and support to: 70.873
+2025-08-04 12:31:38 INFO: {'FRPT': {   'close': 71.61,
+    'high': 71.61,
+    'low': 71.61,
+    'open': 71.61,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 349.0,
+    'vwap': 71.61}}
+2025-08-04 12:31:38 INFO: Current resistance is: 72.417 and support is: 70.873
+2025-08-04 12:31:38 INFO: Current average volume is: 329.0
+2025-08-04 12:31:38 INFO: Updated resistance to: 72.435 and support to: 70.887
+2025-08-04 12:32:38 INFO: {'FRPT': {   'close': 71.6,
+    'high': 71.6,
+    'low': 71.6,
+    'open': 71.6,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 332.0,
+    'vwap': 71.6}}
+2025-08-04 12:32:38 INFO: Current resistance is: 72.435 and support is: 70.887
+2025-08-04 12:32:38 INFO: Current average volume is: 329.07
+2025-08-04 12:32:38 INFO: Updated resistance to: 72.449 and support to: 70.9
+2025-08-04 12:35:38 INFO: {'FRPT': {   'close': 71.25,
+    'high': 71.285,
+    'low': 71.25,
+    'open': 71.285,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 398.0,
+    'vwap': 71.261667}}
+2025-08-04 12:35:38 INFO: Current resistance is: 72.449 and support is: 70.9
+2025-08-04 12:35:38 INFO: Current average volume is: 330.64
+2025-08-04 12:35:38 INFO: Updated resistance to: 72.42 and support to: 70.879
+2025-08-04 12:39:39 INFO: {'FRPT': {   'close': 71.2,
+    'high': 71.2,
+    'low': 71.2,
+    'open': 71.2,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.2}}
+2025-08-04 12:39:39 INFO: Current resistance is: 72.42 and support is: 70.879
+2025-08-04 12:39:39 INFO: Current average volume is: 325.51
+2025-08-04 12:39:39 INFO: Updated resistance to: 72.383 and support to: 70.854
+2025-08-04 12:44:39 INFO: {'FRPT': {   'close': 70.895,
+    'high': 70.895,
+    'low': 70.895,
+    'open': 70.895,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 203.0,
+    'vwap': 70.895}}
+2025-08-04 12:44:39 INFO: Current resistance is: 72.383 and support is: 70.854
+2025-08-04 12:44:39 INFO: Current average volume is: 322.85
+2025-08-04 12:44:39 INFO: Updated resistance to: 72.309 and support to: 70.803
+2025-08-04 12:45:39 INFO: {'FRPT': {   'close': 70.92,
+    'high': 70.92,
+    'low': 70.92,
+    'open': 70.92,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 422.0,
+    'vwap': 70.92}}
+2025-08-04 12:45:39 INFO: Current resistance is: 72.309 and support is: 70.803
+2025-08-04 12:45:39 INFO: Current average volume is: 324.96
+2025-08-04 12:45:39 INFO: Updated resistance to: 72.244 and support to: 70.757
+2025-08-04 12:46:40 INFO: {'FRPT': {   'close': 71.05,
+    'high': 71.05,
+    'low': 70.88,
+    'open': 70.88,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1033.0,
+    'vwap': 70.94}}
+2025-08-04 12:46:40 INFO: Current resistance is: 72.244 and support is: 70.757
+2025-08-04 12:46:40 INFO: Current average volume is: 339.71
+2025-08-04 12:46:40 INFO: Updated resistance to: 72.201 and support to: 70.711
+2025-08-04 12:48:40 INFO: {'FRPT': {   'close': 71.25,
+    'high': 71.25,
+    'low': 71.25,
+    'open': 71.25,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 553.0,
+    'vwap': 71.25}}
+2025-08-04 12:48:40 INFO: Current resistance is: 72.201 and support is: 70.711
+2025-08-04 12:48:40 INFO: Current average volume is: 344.06
+2025-08-04 12:48:40 INFO: Updated resistance to: 72.185 and support to: 70.701
+2025-08-04 12:49:40 INFO: {'FRPT': {   'close': 71.36,
+    'high': 71.36,
+    'low': 71.33,
+    'open': 71.33,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 339.0,
+    'vwap': 71.345}}
+2025-08-04 12:49:40 INFO: Current resistance is: 72.185 and support is: 70.701
+2025-08-04 12:49:40 INFO: Current average volume is: 343.96
+2025-08-04 12:49:40 INFO: Updated resistance to: 72.184 and support to: 70.698
+2025-08-04 12:53:45 INFO: {'FRPT': {   'close': 71.33,
+    'high': 71.595,
+    'low': 71.22,
+    'open': 71.595,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1100.0,
+    'vwap': 71.475625}}
+2025-08-04 12:53:45 INFO: Current resistance is: 72.184 and support is: 70.698
+2025-08-04 12:53:45 INFO: Current average volume is: 358.78
+2025-08-04 12:53:45 INFO: Updated resistance to: 72.209 and support to: 70.686
+2025-08-04 12:57:46 INFO: {'FRPT': {   'close': 71.45,
+    'high': 71.45,
+    'low': 71.45,
+    'open': 71.45,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 162.0,
+    'vwap': 71.45}}
+2025-08-04 12:57:46 INFO: Current resistance is: 72.209 and support is: 70.686
+2025-08-04 12:57:46 INFO: Current average volume is: 355.0
+2025-08-04 12:57:46 INFO: Updated resistance to: 72.217 and support to: 70.694
+2025-08-04 12:58:46 INFO: {'FRPT': {   'close': 71.49,
+    'high': 71.49,
+    'low': 71.49,
+    'open': 71.49,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.49}}
+2025-08-04 12:58:46 INFO: Current resistance is: 72.217 and support is: 70.694
+2025-08-04 12:58:46 INFO: Current average volume is: 350.19
+2025-08-04 12:58:46 INFO: Updated resistance to: 72.228 and support to: 70.705
+2025-08-04 12:59:46 INFO: {'FRPT': {   'close': 71.38,
+    'high': 71.485,
+    'low': 71.38,
+    'open': 71.485,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 276.0,
+    'vwap': 71.4325}}
+2025-08-04 12:59:46 INFO: Current resistance is: 72.228 and support is: 70.705
+2025-08-04 12:59:46 INFO: Current average volume is: 348.81
+2025-08-04 12:59:46 INFO: Updated resistance to: 72.238 and support to: 70.706
+2025-08-04 13:01:47 INFO: {'FRPT': {   'close': 71.79,
+    'high': 71.95,
+    'low': 71.73,
+    'open': 71.73,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1299.0,
+    'vwap': 71.829}}
+2025-08-04 13:01:47 INFO: Current resistance is: 72.238 and support is: 70.706
+2025-08-04 13:01:47 INFO: Current average volume is: 366.09
+2025-08-04 13:01:47 INFO: Updated resistance to: 72.297 and support to: 70.736
+2025-08-04 13:04:47 INFO: {'FRPT': {   'close': 71.755,
+    'high': 71.755,
+    'low': 71.755,
+    'open': 71.755,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 101.0,
+    'vwap': 71.755}}
+2025-08-04 13:04:47 INFO: Current resistance is: 72.297 and support is: 70.736
+2025-08-04 13:04:47 INFO: Current average volume is: 361.36
+2025-08-04 13:04:47 INFO: Updated resistance to: 72.331 and support to: 70.766
+2025-08-04 13:05:47 INFO: {'FRPT': {   'close': 71.75,
+    'high': 71.75,
+    'low': 71.75,
+    'open': 71.75,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 158.0,
+    'vwap': 71.75}}
+2025-08-04 13:05:47 INFO: Current resistance is: 72.331 and support is: 70.766
+2025-08-04 13:05:47 INFO: Current average volume is: 357.79
+2025-08-04 13:05:47 INFO: Updated resistance to: 72.363 and support to: 70.794
+2025-08-04 13:06:47 INFO: {'FRPT': {   'close': 71.61,
+    'high': 71.7,
+    'low': 71.61,
+    'open': 71.7,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 576.0,
+    'vwap': 71.655}}
+2025-08-04 13:06:47 INFO: Current resistance is: 72.363 and support is: 70.794
+2025-08-04 13:06:47 INFO: Current average volume is: 361.55
+2025-08-04 13:06:47 INFO: Updated resistance to: 72.387 and support to: 70.809
+2025-08-04 13:08:47 INFO: {'FRPT': {   'close': 71.755,
+    'high': 71.755,
+    'low': 71.755,
+    'open': 71.755,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.755}}
+2025-08-04 13:08:47 INFO: Current resistance is: 72.387 and support is: 70.809
+2025-08-04 13:08:47 INFO: Current average volume is: 357.12
+2025-08-04 13:08:47 INFO: Updated resistance to: 72.414 and support to: 70.835
+2025-08-04 13:10:48 INFO: {'FRPT': {   'close': 71.675,
+    'high': 71.77,
+    'low': 71.675,
+    'open': 71.77,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 628.0,
+    'vwap': 71.738333}}
+2025-08-04 13:10:48 INFO: Current resistance is: 72.414 and support is: 70.835
+2025-08-04 13:10:48 INFO: Current average volume is: 361.63
+2025-08-04 13:10:48 INFO: Updated resistance to: 72.442 and support to: 70.852
+2025-08-04 13:15:48 INFO: {'FRPT': {   'close': 71.515,
+    'high': 71.515,
+    'low': 71.51,
+    'open': 71.51,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 886.0,
+    'vwap': 71.511859}}
+2025-08-04 13:15:48 INFO: Current resistance is: 72.442 and support is: 70.852
+2025-08-04 13:15:48 INFO: Current average volume is: 370.23
+2025-08-04 13:15:48 INFO: Updated resistance to: 72.443 and support to: 70.856
+2025-08-04 13:17:49 INFO: {'FRPT': {   'close': 71.57,
+    'high': 71.57,
+    'low': 71.57,
+    'open': 71.57,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.57}}
+2025-08-04 13:17:49 INFO: Current resistance is: 72.443 and support is: 70.856
+2025-08-04 13:17:49 INFO: Current average volume is: 365.87
+2025-08-04 13:17:49 INFO: Updated resistance to: 72.449 and support to: 70.865
+2025-08-04 13:18:49 INFO: {'FRPT': {   'close': 71.62,
+    'high': 71.62,
+    'low': 71.62,
+    'open': 71.62,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 412.0,
+    'vwap': 71.62}}
+2025-08-04 13:18:49 INFO: Current resistance is: 72.449 and support is: 70.865
+2025-08-04 13:18:49 INFO: Current average volume is: 366.6
+2025-08-04 13:18:49 INFO: Updated resistance to: 72.459 and support to: 70.876
+2025-08-04 13:19:49 INFO: {'FRPT': {   'close': 71.88,
+    'high': 71.88,
+    'low': 71.88,
+    'open': 71.88,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 107.0,
+    'vwap': 71.88}}
+2025-08-04 13:19:49 INFO: Current resistance is: 72.459 and support is: 70.876
+2025-08-04 13:19:49 INFO: Current average volume is: 362.55
+2025-08-04 13:19:49 INFO: Updated resistance to: 72.492 and support to: 70.906
+2025-08-04 13:21:49 INFO: {'FRPT': {   'close': 71.85,
+    'high': 71.85,
+    'low': 71.85,
+    'open': 71.85,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 121.0,
+    'vwap': 71.85}}
+2025-08-04 13:21:49 INFO: Current resistance is: 72.492 and support is: 70.906
+2025-08-04 13:21:49 INFO: Current average volume is: 358.83
+2025-08-04 13:21:49 INFO: Updated resistance to: 72.52 and support to: 70.932
+2025-08-04 13:24:49 INFO: {'FRPT': {   'close': 72.01,
+    'high': 72.05,
+    'low': 71.87,
+    'open': 71.87,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 2337.0,
+    'vwap': 72.034477}}
+2025-08-04 13:24:49 INFO: Current resistance is: 72.52 and support is: 70.932
+2025-08-04 13:24:49 INFO: Current average volume is: 388.8
+2025-08-04 13:24:49 INFO: Updated resistance to: 72.565 and support to: 70.959
+2025-08-04 13:26:50 INFO: {'FRPT': {   'close': 71.58,
+    'high': 71.58,
+    'low': 71.57,
+    'open': 71.57,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 439.0,
+    'vwap': 71.5775}}
+2025-08-04 13:26:50 INFO: Current resistance is: 72.565 and support is: 70.959
+2025-08-04 13:26:50 INFO: Current average volume is: 389.55
+2025-08-04 13:26:50 INFO: Updated resistance to: 72.565 and support to: 70.962
+2025-08-04 13:28:50 INFO: {'FRPT': {   'close': 71.52,
+    'high': 71.52,
+    'low': 71.52,
+    'open': 71.52,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 276.0,
+    'vwap': 71.52}}
+2025-08-04 13:28:50 INFO: Current resistance is: 72.565 and support is: 70.962
+2025-08-04 13:28:50 INFO: Current average volume is: 387.88
+2025-08-04 13:28:50 INFO: Updated resistance to: 72.56 and support to: 70.961
+2025-08-04 13:31:50 INFO: {'FRPT': {   'close': 71.36,
+    'high': 71.36,
+    'low': 71.36,
+    'open': 71.36,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 208.0,
+    'vwap': 71.36}}
+2025-08-04 13:31:50 INFO: Current resistance is: 72.56 and support is: 70.961
+2025-08-04 13:31:50 INFO: Current average volume is: 385.28
+2025-08-04 13:31:50 INFO: Updated resistance to: 72.542 and support to: 70.95
+2025-08-04 13:33:51 INFO: {'FRPT': {   'close': 71.56,
+    'high': 71.56,
+    'low': 71.56,
+    'open': 71.56,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 71.56}}
+2025-08-04 13:33:51 INFO: Current resistance is: 72.542 and support is: 70.95
+2025-08-04 13:33:51 INFO: Current average volume is: 382.77
+2025-08-04 13:33:51 INFO: Updated resistance to: 72.541 and support to: 70.952
+2025-08-04 13:45:52 INFO: {'FRPT': {   'close': 71.28,
+    'high': 71.28,
+    'low': 71.28,
+    'open': 71.28,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 646.0,
+    'vwap': 71.28}}
+2025-08-04 13:45:52 INFO: Current resistance is: 72.541 and support is: 70.952
+2025-08-04 13:45:52 INFO: Current average volume is: 386.48
+2025-08-04 13:45:52 INFO: Updated resistance to: 72.517 and support to: 70.936
+2025-08-04 13:49:53 INFO: {'FRPT': {   'close': 70.82,
+    'high': 70.82,
+    'low': 70.7,
+    'open': 70.7,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 70.76}}
+2025-08-04 13:49:53 INFO: Current resistance is: 72.517 and support is: 70.936
+2025-08-04 13:49:53 INFO: Current average volume is: 383.89
+2025-08-04 13:49:53 INFO: close price: 70.82 just dropped below support of 70.936...
+2025-08-04 13:56:54 INFO: {'FRPT': {   'close': 70.69,
+    'high': 70.69,
+    'low': 70.69,
+    'open': 70.69,
+    'symbol': 'FRPT',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 216.0,
+    'vwap': 70.69}}
+2025-08-04 13:56:54 INFO: Current resistance is: 72.517 and support is: 70.936
+2025-08-04 13:56:54 INFO: Current average volume is: 381.59
+2025-08-04 13:56:54 INFO: Closing price: 70.69 just dropped below support 70.936 again...ending trade...

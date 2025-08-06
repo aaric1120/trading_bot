@@ -1,0 +1,639 @@
+2025-08-06 09:50:12 INFO: === Strategy started ===
+2025-08-06 09:50:12 INFO: Start collecting the current highs/lows for: EMR
+2025-08-06 09:50:12 INFO: Most recent stock data: {'EMR': {   'close': 123.93,
+    'high': 124.875,
+    'low': 123.93,
+    'open': 124.875,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 1701.0,
+    'vwap': 124.197138}}
+2025-08-06 09:51:12 INFO: Most recent stock data: {'EMR': {   'close': 124.23,
+    'high': 124.23,
+    'low': 123.845,
+    'open': 123.845,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1347.0,
+    'vwap': 123.99375}}
+2025-08-06 09:52:13 INFO: Most recent stock data: {'EMR': {   'close': 124.05,
+    'high': 124.05,
+    'low': 124.05,
+    'open': 124.05,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 124.05}}
+2025-08-06 09:53:13 INFO: Most recent stock data: {'EMR': {   'close': 124.38,
+    'high': 124.59,
+    'low': 124.24,
+    'open': 124.3,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 75.0,
+    'volume': 4264.0,
+    'vwap': 124.390197}}
+2025-08-06 09:54:13 INFO: Most recent stock data: {'EMR': {   'close': 124.99,
+    'high': 125.025,
+    'low': 124.64,
+    'open': 124.64,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1959.0,
+    'vwap': 124.915335}}
+2025-08-06 09:55:13 INFO: Most recent stock data: {'EMR': {   'close': 124.45,
+    'high': 125.09,
+    'low': 124.3,
+    'open': 124.9,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 3746.0,
+    'vwap': 124.633297}}
+2025-08-06 09:56:13 INFO: Most recent stock data: {'EMR': {   'close': 124.45,
+    'high': 124.45,
+    'low': 124.45,
+    'open': 124.45,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 745.0,
+    'vwap': 124.45}}
+2025-08-06 09:57:13 INFO: Most recent stock data: {'EMR': {   'close': 124.98,
+    'high': 124.98,
+    'low': 124.98,
+    'open': 124.98,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 815.0,
+    'vwap': 124.98}}
+2025-08-06 09:58:13 INFO: Most recent stock data: {'EMR': {   'close': 125.05,
+    'high': 125.29,
+    'low': 125.025,
+    'open': 125.03,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 2067.0,
+    'vwap': 125.131364}}
+2025-08-06 09:59:13 INFO: Most recent stock data: {'EMR': {   'close': 124.81,
+    'high': 125.19,
+    'low': 124.81,
+    'open': 125.09,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1401.0,
+    'vwap': 124.946145}}
+2025-08-06 10:00:14 INFO: Most recent stock data: {'EMR': {   'close': 124.935,
+    'high': 124.935,
+    'low': 124.765,
+    'open': 124.81,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1102.0,
+    'vwap': 124.842308}}
+2025-08-06 10:00:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 10:00:14 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-06 10:01:14 INFO: {'EMR': {   'close': 124.96,
+    'high': 125.47,
+    'low': 124.935,
+    'open': 124.935,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 4560.0,
+    'vwap': 125.186221}}
+2025-08-06 10:01:14 INFO: Current resistance is: 125.51 and support is: 124.959
+2025-08-06 10:01:14 INFO: Current average volume is: 1846.33
+2025-08-06 10:01:14 INFO: Updated resistance to: 125.552 and support to: 124.989
+2025-08-06 10:02:14 INFO: {'EMR': {   'close': 125.08,
+    'high': 125.105,
+    'low': 124.785,
+    'open': 124.785,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 3029.0,
+    'vwap': 124.972851}}
+2025-08-06 10:02:14 INFO: Current resistance is: 125.552 and support is: 124.989
+2025-08-06 10:02:14 INFO: Current average volume is: 1937.31
+2025-08-06 10:02:14 INFO: Updated resistance to: 125.617 and support to: 124.94
+2025-08-06 10:03:14 INFO: {'EMR': {   'close': 124.75,
+    'high': 125.24,
+    'low': 124.75,
+    'open': 125.075,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 4092.0,
+    'vwap': 125.181366}}
+2025-08-06 10:03:14 INFO: Current resistance is: 125.617 and support is: 124.94
+2025-08-06 10:03:14 INFO: Current average volume is: 2091.21
+2025-08-06 10:03:14 INFO: close price: 124.75 just dropped below support of 124.94...
+2025-08-06 10:04:14 INFO: {'EMR': {   'close': 124.56,
+    'high': 124.64,
+    'low': 124.48,
+    'open': 124.51,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1201.0,
+    'vwap': 124.574355}}
+2025-08-06 10:04:14 INFO: Current resistance is: 125.617 and support is: 124.94
+2025-08-06 10:04:14 INFO: Current average volume is: 2031.87
+2025-08-06 10:04:14 INFO: Closing price: 124.56 just dropped below support 124.94 again...ending trade...
+2025-08-06 10:50:13 INFO: === Strategy started ===
+2025-08-06 10:50:13 INFO: Start collecting the current highs/lows for: EMR
+2025-08-06 10:50:14 INFO: Most recent stock data: {'EMR': {   'close': 129.28,
+    'high': 129.32,
+    'low': 129.035,
+    'open': 129.07,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1609.0,
+    'vwap': 129.151304}}
+2025-08-06 10:51:14 INFO: Most recent stock data: {'EMR': {   'close': 129.23,
+    'high': 129.31,
+    'low': 129.205,
+    'open': 129.25,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1587.0,
+    'vwap': 129.258417}}
+2025-08-06 10:52:19 INFO: Most recent stock data: {'EMR': {   'close': 129.08,
+    'high': 129.1,
+    'low': 129.075,
+    'open': 129.1,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 1718.0,
+    'vwap': 129.083644}}
+2025-08-06 10:53:19 INFO: Most recent stock data: {'EMR': {   'close': 129.12,
+    'high': 129.185,
+    'low': 129.045,
+    'open': 129.07,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 2837.0,
+    'vwap': 129.109278}}
+2025-08-06 10:54:19 INFO: Most recent stock data: {'EMR': {   'close': 129.16,
+    'high': 129.39,
+    'low': 129.14,
+    'open': 129.14,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 3900.0,
+    'vwap': 129.264146}}
+2025-08-06 10:55:19 INFO: Most recent stock data: {'EMR': {   'close': 128.92,
+    'high': 129.16,
+    'low': 128.705,
+    'open': 129.145,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 90.0,
+    'volume': 10821.0,
+    'vwap': 128.834367}}
+2025-08-06 10:56:19 INFO: Most recent stock data: {'EMR': {   'close': 128.94,
+    'high': 129.065,
+    'low': 128.85,
+    'open': 129.01,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1879.0,
+    'vwap': 128.943882}}
+2025-08-06 10:57:20 INFO: Most recent stock data: {'EMR': {   'close': 129.29,
+    'high': 129.29,
+    'low': 128.94,
+    'open': 128.94,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1411.0,
+    'vwap': 129.0775}}
+2025-08-06 10:58:20 INFO: Most recent stock data: {'EMR': {   'close': 129.69,
+    'high': 129.88,
+    'low': 129.42,
+    'open': 129.42,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2576.0,
+    'vwap': 129.769742}}
+2025-08-06 10:59:20 INFO: Most recent stock data: {'EMR': {   'close': 129.4,
+    'high': 129.81,
+    'low': 129.33,
+    'open': 129.7,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 60.0,
+    'volume': 5447.0,
+    'vwap': 129.563049}}
+2025-08-06 11:00:20 INFO: Most recent stock data: {'EMR': {   'close': 129.57,
+    'high': 129.57,
+    'low': 129.35,
+    'open': 129.36,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1205.0,
+    'vwap': 129.403333}}
+2025-08-06 11:00:20 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 11:00:20 INFO: no pattern detected...collecting more data points...
+2025-08-06 11:01:20 INFO: Most recent stock data: {'EMR': {   'close': 129.01,
+    'high': 129.495,
+    'low': 128.9,
+    'open': 129.495,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2969.0,
+    'vwap': 129.183818}}
+2025-08-06 11:01:20 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 11:01:20 INFO: no pattern detected...collecting more data points...
+2025-08-06 11:02:20 INFO: Most recent stock data: {'EMR': {   'close': 128.43,
+    'high': 128.995,
+    'low': 128.43,
+    'open': 128.995,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 935.0,
+    'vwap': 128.639915}}
+2025-08-06 11:02:20 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 11:02:20 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-06 11:03:20 INFO: {'EMR': {   'close': 127.985,
+    'high': 128.34,
+    'low': 127.985,
+    'open': 128.28,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 53.0,
+    'volume': 3489.0,
+    'vwap': 128.170877}}
+2025-08-06 11:03:20 INFO: Current resistance is: 129.88 and support is: 128.43
+2025-08-06 11:03:20 INFO: Current average volume is: 2912.43
+2025-08-06 11:03:20 INFO: close price: 127.985 just dropped below support of 128.43...
+2025-08-06 11:04:20 INFO: {'EMR': {   'close': 127.78,
+    'high': 128.0,
+    'low': 127.73,
+    'open': 127.73,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 2661.0,
+    'vwap': 127.871119}}
+2025-08-06 11:04:20 INFO: Current resistance is: 129.88 and support is: 128.43
+2025-08-06 11:04:20 INFO: Current average volume is: 2895.67
+2025-08-06 11:04:20 INFO: Closing price: 127.78 just dropped below support 128.43 again...ending trade...
+2025-08-06 13:26:27 INFO: === Strategy started ===
+2025-08-06 13:26:27 INFO: Start collecting the current highs/lows for: EMR
+2025-08-06 13:26:28 INFO: Most recent stock data: {'EMR': {   'close': 129.48,
+    'high': 129.48,
+    'low': 129.48,
+    'open': 129.48,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 167.0,
+    'vwap': 129.48}}
+2025-08-06 13:27:28 INFO: Most recent stock data: {'EMR': {   'close': 129.38,
+    'high': 129.47,
+    'low': 129.38,
+    'open': 129.47,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 619.0,
+    'vwap': 129.413478}}
+2025-08-06 13:28:28 INFO: Most recent stock data: {'EMR': {   'close': 129.52,
+    'high': 129.52,
+    'low': 129.52,
+    'open': 129.52,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 233.0,
+    'vwap': 129.52}}
+2025-08-06 15:14:14 INFO: === Strategy started ===
+2025-08-06 15:14:14 INFO: Start collecting the current highs/lows for: EMR
+2025-08-06 15:14:14 INFO: Most recent stock data: {'EMR': {   'close': 131.77,
+    'high': 131.77,
+    'low': 131.695,
+    'open': 131.695,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1295.0,
+    'vwap': 131.73875}}
+2025-08-06 15:16:15 INFO: Most recent stock data: {'EMR': {   'close': 132.06,
+    'high': 132.06,
+    'low': 132.05,
+    'open': 132.05,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 917.0,
+    'vwap': 132.055}}
+2025-08-06 15:17:15 INFO: Most recent stock data: {'EMR': {   'close': 132.07,
+    'high': 132.07,
+    'low': 132.07,
+    'open': 132.07,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 600.0,
+    'vwap': 132.07}}
+2025-08-06 15:18:15 INFO: Most recent stock data: {'EMR': {   'close': 132.6,
+    'high': 132.6,
+    'low': 132.36,
+    'open': 132.36,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 719.0,
+    'vwap': 132.478}}
+2025-08-06 15:19:15 INFO: Most recent stock data: {'EMR': {   'close': 132.56,
+    'high': 132.62,
+    'low': 132.51,
+    'open': 132.62,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 962.0,
+    'vwap': 132.56}}
+2025-08-06 15:20:15 INFO: Most recent stock data: {'EMR': {   'close': 132.67,
+    'high': 132.68,
+    'low': 132.61,
+    'open': 132.61,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 799.0,
+    'vwap': 132.655}}
+2025-08-06 15:21:15 INFO: Most recent stock data: {'EMR': {   'close': 132.68,
+    'high': 132.78,
+    'low': 132.68,
+    'open': 132.695,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1856.0,
+    'vwap': 132.728333}}
+2025-08-06 15:22:15 INFO: Most recent stock data: {'EMR': {   'close': 132.49,
+    'high': 132.59,
+    'low': 132.49,
+    'open': 132.59,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 636.0,
+    'vwap': 132.56}}
+2025-08-06 15:23:15 INFO: Most recent stock data: {'EMR': {   'close': 132.64,
+    'high': 132.64,
+    'low': 132.48,
+    'open': 132.48,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1016.0,
+    'vwap': 132.564601}}
+2025-08-06 15:24:16 INFO: Most recent stock data: {'EMR': {   'close': 132.49,
+    'high': 132.67,
+    'low': 132.465,
+    'open': 132.64,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 55.0,
+    'volume': 5264.0,
+    'vwap': 132.551413}}
+2025-08-06 15:25:16 INFO: Most recent stock data: {'EMR': {   'close': 132.53,
+    'high': 132.57,
+    'low': 132.45,
+    'open': 132.45,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 2825.0,
+    'vwap': 132.510648}}
+2025-08-06 15:25:16 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 15:25:16 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-06 15:26:16 INFO: {'EMR': {   'close': 133.075,
+    'high': 133.075,
+    'low': 132.695,
+    'open': 132.695,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1584.0,
+    'vwap': 132.984545}}
+2025-08-06 15:26:16 INFO: Current resistance is: 133.157 and support is: 132.404
+2025-08-06 15:26:16 INFO: Current average volume is: 1626.1
+2025-08-06 15:26:16 INFO: Updated resistance to: 133.157 and support to: 132.449
+2025-08-06 15:27:16 INFO: {'EMR': {   'close': 133.22,
+    'high': 133.22,
+    'low': 133.1,
+    'open': 133.1,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2418.0,
+    'vwap': 133.157785}}
+2025-08-06 15:27:16 INFO: Current resistance is: 133.157 and support is: 132.449
+2025-08-06 15:27:16 INFO: Current average volume is: 1807.9
+2025-08-06 15:27:16 INFO: The Current Close 133.22 is above the resistance...
+2025-08-06 15:27:16 INFO: Updated resistance to: 133.308 and support to: 132.646
+2025-08-06 15:28:16 INFO: {'EMR': {   'close': 133.195,
+    'high': 133.23,
+    'low': 133.13,
+    'open': 133.23,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 2283.0,
+    'vwap': 133.176103}}
+2025-08-06 15:28:16 INFO: Current resistance is: 133.308 and support is: 132.646
+2025-08-06 15:28:16 INFO: Current average volume is: 1964.3
+2025-08-06 15:28:16 INFO: Updated resistance to: 133.319 and support to: 132.792
+2025-08-06 15:29:17 INFO: {'EMR': {   'close': 133.3,
+    'high': 133.37,
+    'low': 133.19,
+    'open': 133.225,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1755.0,
+    'vwap': 133.233667}}
+2025-08-06 15:29:17 INFO: Current resistance is: 133.319 and support is: 132.792
+2025-08-06 15:29:17 INFO: Current average volume is: 2043.6
+2025-08-06 15:29:17 INFO: Updated resistance to: 133.461 and support to: 132.915
+2025-08-06 15:30:17 INFO: {'EMR': {   'close': 133.27,
+    'high': 133.31,
+    'low': 133.225,
+    'open': 133.31,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1830.0,
+    'vwap': 133.262086}}
+2025-08-06 15:30:17 INFO: Current resistance is: 133.461 and support is: 132.915
+2025-08-06 15:30:17 INFO: Current average volume is: 2146.7
+2025-08-06 15:30:17 INFO: Updated resistance to: 133.549 and support to: 133.011
+2025-08-06 15:31:17 INFO: {'EMR': {   'close': 133.485,
+    'high': 133.485,
+    'low': 133.29,
+    'open': 133.29,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 58.0,
+    'volume': 3712.0,
+    'vwap': 133.402977}}
+2025-08-06 15:31:17 INFO: Current resistance is: 133.549 and support is: 133.011
+2025-08-06 15:31:17 INFO: Current average volume is: 2332.3
+2025-08-06 15:31:17 INFO: Updated resistance to: 133.575 and support to: 133.099
+2025-08-06 15:32:17 INFO: {'EMR': {   'close': 133.41,
+    'high': 133.61,
+    'low': 133.41,
+    'open': 133.535,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 4011.0,
+    'vwap': 133.572125}}
+2025-08-06 15:32:17 INFO: Current resistance is: 133.575 and support is: 133.099
+2025-08-06 15:32:17 INFO: Current average volume is: 2669.8
+2025-08-06 15:32:17 INFO: Updated resistance to: 133.701 and support to: 133.197
+2025-08-06 15:33:17 INFO: {'EMR': {   'close': 133.43,
+    'high': 133.49,
+    'low': 133.28,
+    'open': 133.45,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 69.0,
+    'volume': 4343.0,
+    'vwap': 133.384753}}
+2025-08-06 15:33:17 INFO: Current resistance is: 133.701 and support is: 133.197
+2025-08-06 15:33:17 INFO: Current average volume is: 3002.5
+2025-08-06 15:33:17 INFO: Updated resistance to: 133.786 and support to: 133.228
+2025-08-06 15:34:17 INFO: {'EMR': {   'close': 133.67,
+    'high': 133.68,
+    'low': 133.5,
+    'open': 133.5,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 637.0,
+    'vwap': 133.616667}}
+2025-08-06 15:34:17 INFO: Current resistance is: 133.786 and support is: 133.228
+2025-08-06 15:34:17 INFO: Current average volume is: 2539.8
+2025-08-06 15:34:17 INFO: Updated resistance to: 133.768 and support to: 133.309
+2025-08-06 15:35:17 INFO: {'EMR': {   'close': 133.82,
+    'high': 133.82,
+    'low': 133.69,
+    'open': 133.7,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 2958.0,
+    'vwap': 133.740177}}
+2025-08-06 15:35:17 INFO: Current resistance is: 133.768 and support is: 133.309
+2025-08-06 15:35:17 INFO: Current average volume is: 2553.1
+2025-08-06 15:35:17 INFO: The Current Close 133.82 is above the resistance...
+2025-08-06 15:35:17 INFO: Updated resistance to: 133.908 and support to: 133.419
+2025-08-06 15:36:18 INFO: {'EMR': {   'close': 133.995,
+    'high': 134.015,
+    'low': 133.73,
+    'open': 133.73,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 3095.0,
+    'vwap': 133.855}}
+2025-08-06 15:36:18 INFO: Current resistance is: 133.908 and support is: 133.419
+2025-08-06 15:36:18 INFO: Current average volume is: 2704.2
+2025-08-06 15:36:18 INFO: The current close: 133.995 is above the resistance of 133.908, but volume isn't enough...
+2025-08-06 15:36:18 INFO: Updated resistance to: 134.104 and support to: 133.514
+2025-08-06 15:37:18 INFO: {'EMR': {   'close': 133.945,
+    'high': 134.07,
+    'low': 133.945,
+    'open': 134.01,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 3651.0,
+    'vwap': 133.988686}}
+2025-08-06 15:37:18 INFO: Current resistance is: 134.104 and support is: 133.514
+2025-08-06 15:37:18 INFO: Current average volume is: 2827.5
+2025-08-06 15:37:18 INFO: Updated resistance to: 134.16 and support to: 133.639
+2025-08-06 15:38:18 INFO: {'EMR': {   'close': 133.92,
+    'high': 134.04,
+    'low': 133.86,
+    'open': 133.945,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 2961.0,
+    'vwap': 133.945025}}
+2025-08-06 15:38:18 INFO: Current resistance is: 134.16 and support is: 133.639
+2025-08-06 15:38:18 INFO: Current average volume is: 2895.3
+2025-08-06 15:38:18 INFO: Updated resistance to: 134.249 and support to: 133.717
+2025-08-06 15:40:18 INFO: {'EMR': {   'close': 133.79,
+    'high': 133.99,
+    'low': 133.79,
+    'open': 133.985,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 2183.0,
+    'vwap': 133.908438}}
+2025-08-06 15:40:18 INFO: Current resistance is: 134.249 and support is: 133.717
+2025-08-06 15:40:18 INFO: Current average volume is: 2938.1
+2025-08-06 15:40:18 INFO: Updated resistance to: 134.333 and support to: 133.761
+2025-08-06 15:41:18 INFO: {'EMR': {   'close': 133.82,
+    'high': 133.85,
+    'low': 133.63,
+    'open': 133.66,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 2375.0,
+    'vwap': 133.701786}}
+2025-08-06 15:41:18 INFO: Current resistance is: 134.333 and support is: 133.761
+2025-08-06 15:41:18 INFO: Current average volume is: 2992.6
+2025-08-06 15:41:18 INFO: Updated resistance to: 134.408 and support to: 133.757
+2025-08-06 15:42:18 INFO: {'EMR': {   'close': 133.46,
+    'high': 133.91,
+    'low': 133.46,
+    'open': 133.84,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 112.0,
+    'volume': 9873.0,
+    'vwap': 133.79225}}
+2025-08-06 15:42:18 INFO: Current resistance is: 134.408 and support is: 133.757
+2025-08-06 15:42:18 INFO: Current average volume is: 3608.7
+2025-08-06 15:42:18 INFO: close price: 133.46 just dropped below support of 133.757...
+2025-08-06 15:43:18 INFO: {'EMR': {   'close': 133.28,
+    'high': 133.53,
+    'low': 133.28,
+    'open': 133.49,
+    'symbol': 'EMR',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 55.0,
+    'volume': 4292.0,
+    'vwap': 133.43224}}
+2025-08-06 15:43:18 INFO: Current resistance is: 134.408 and support is: 133.757
+2025-08-06 15:43:18 INFO: Current average volume is: 3636.8
+2025-08-06 15:43:18 INFO: Closing price: 133.28 just dropped below support 133.757 again...ending trade...

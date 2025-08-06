@@ -1,0 +1,831 @@
+2025-08-04 10:58:53 INFO: === Strategy started ===
+2025-08-04 10:58:53 INFO: Start collecting the current highs/lows for: GTLS
+2025-08-04 10:58:53 INFO: Most recent stock data: {'GTLS': {   'close': 198.805,
+    'high': 198.805,
+    'low': 198.8,
+    'open': 198.8,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 407.0,
+    'vwap': 198.801667}}
+2025-08-04 11:01:53 INFO: Most recent stock data: {'GTLS': {   'close': 198.81,
+    'high': 198.81,
+    'low': 198.81,
+    'open': 198.81,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 403.0,
+    'vwap': 198.81}}
+2025-08-04 11:03:54 INFO: Most recent stock data: {'GTLS': {   'close': 198.82,
+    'high': 198.83,
+    'low': 198.8,
+    'open': 198.8,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1442.0,
+    'vwap': 198.811356}}
+2025-08-04 11:04:54 INFO: Most recent stock data: {'GTLS': {   'close': 198.82,
+    'high': 198.82,
+    'low': 198.82,
+    'open': 198.82,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 214.0,
+    'vwap': 198.82}}
+2025-08-04 11:06:54 INFO: Most recent stock data: {'GTLS': {   'close': 198.81,
+    'high': 198.81,
+    'low': 198.81,
+    'open': 198.81,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 115.0,
+    'vwap': 198.81}}
+2025-08-04 11:07:54 INFO: Most recent stock data: {'GTLS': {   'close': 198.82,
+    'high': 198.84,
+    'low': 198.82,
+    'open': 198.83,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 889.0,
+    'vwap': 198.83}}
+2025-08-04 11:09:54 INFO: Most recent stock data: {'GTLS': {   'close': 198.83,
+    'high': 198.83,
+    'low': 198.83,
+    'open': 198.83,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 141.0,
+    'vwap': 198.83}}
+2025-08-04 11:12:55 INFO: Most recent stock data: {'GTLS': {   'close': 198.825,
+    'high': 198.825,
+    'low': 198.825,
+    'open': 198.825,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 600.0,
+    'vwap': 198.825}}
+2025-08-04 11:13:55 INFO: Most recent stock data: {'GTLS': {   'close': 198.805,
+    'high': 198.81,
+    'low': 198.8,
+    'open': 198.8,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1210.0,
+    'vwap': 198.803182}}
+2025-08-04 11:15:55 INFO: Most recent stock data: {'GTLS': {   'close': 198.735,
+    'high': 198.74,
+    'low': 198.73,
+    'open': 198.73,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2062.0,
+    'vwap': 198.73798}}
+2025-08-04 11:16:55 INFO: Most recent stock data: {'GTLS': {   'close': 198.685,
+    'high': 198.72,
+    'low': 198.685,
+    'open': 198.72,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1980.0,
+    'vwap': 198.698554}}
+2025-08-04 11:16:55 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-04 11:16:55 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-04 11:17:56 INFO: {'GTLS': {   'close': 198.65,
+    'high': 198.67,
+    'low': 198.64,
+    'open': 198.67,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 3287.0,
+    'vwap': 198.648869}}
+2025-08-04 11:17:56 INFO: Current resistance is: 198.84 and support is: 198.685
+2025-08-04 11:17:56 INFO: Current average volume is: 1028.58
+2025-08-04 11:17:56 INFO: close price: 198.65 just dropped below support of 198.685...
+2025-08-04 11:20:56 INFO: {'GTLS': {   'close': 198.56,
+    'high': 198.66,
+    'low': 198.56,
+    'open': 198.66,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 713.0,
+    'vwap': 198.613846}}
+2025-08-04 11:20:56 INFO: Current resistance is: 198.84 and support is: 198.685
+2025-08-04 11:20:56 INFO: Current average volume is: 1004.31
+2025-08-04 11:20:56 INFO: Closing price: 198.56 just dropped below support 198.685 again...ending trade...
+2025-08-04 11:28:51 INFO: === Strategy started ===
+2025-08-04 11:28:51 INFO: Start collecting the current highs/lows for: GTLS
+2025-08-04 11:28:51 INFO: Most recent stock data: {'GTLS': {   'close': 198.665,
+    'high': 198.665,
+    'low': 198.64,
+    'open': 198.64,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 572.0,
+    'vwap': 198.6525}}
+2025-08-04 11:29:52 INFO: Most recent stock data: {'GTLS': {   'close': 198.63,
+    'high': 198.65,
+    'low': 198.63,
+    'open': 198.65,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2209.0,
+    'vwap': 198.637813}}
+2025-08-04 11:30:52 INFO: Most recent stock data: {'GTLS': {   'close': 198.56,
+    'high': 198.6,
+    'low': 198.56,
+    'open': 198.6,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1423.0,
+    'vwap': 198.574545}}
+2025-08-04 11:31:52 INFO: Most recent stock data: {'GTLS': {   'close': 198.55,
+    'high': 198.56,
+    'low': 198.55,
+    'open': 198.55,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1172.0,
+    'vwap': 198.551031}}
+2025-08-04 11:34:52 INFO: Most recent stock data: {'GTLS': {   'close': 198.555,
+    'high': 198.555,
+    'low': 198.555,
+    'open': 198.555,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 138.0,
+    'vwap': 198.555}}
+2025-08-04 11:35:52 INFO: Most recent stock data: {'GTLS': {   'close': 198.62,
+    'high': 198.62,
+    'low': 198.62,
+    'open': 198.62,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 174.0,
+    'vwap': 198.62}}
+2025-08-04 11:36:53 INFO: Most recent stock data: {'GTLS': {   'close': 198.61,
+    'high': 198.63,
+    'low': 198.61,
+    'open': 198.62,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 479.0,
+    'vwap': 198.6175}}
+2025-08-04 11:39:53 INFO: Most recent stock data: {'GTLS': {   'close': 198.6,
+    'high': 198.61,
+    'low': 198.6,
+    'open': 198.61,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1296.0,
+    'vwap': 198.604}}
+2025-08-04 11:40:53 INFO: Most recent stock data: {'GTLS': {   'close': 198.55,
+    'high': 198.595,
+    'low': 198.55,
+    'open': 198.595,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 627.0,
+    'vwap': 198.568}}
+2025-08-04 11:43:54 INFO: Most recent stock data: {'GTLS': {   'close': 198.535,
+    'high': 198.54,
+    'low': 198.525,
+    'open': 198.53,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1631.0,
+    'vwap': 198.5325}}
+2025-08-04 11:45:54 INFO: Most recent stock data: {'GTLS': {   'close': 198.52,
+    'high': 198.53,
+    'low': 198.52,
+    'open': 198.525,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1301.0,
+    'vwap': 198.522536}}
+2025-08-04 11:45:54 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-04 11:45:54 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-04 11:46:54 INFO: {'GTLS': {   'close': 198.525,
+    'high': 198.54,
+    'low': 198.51,
+    'open': 198.53,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 3757.0,
+    'vwap': 198.522429}}
+2025-08-04 11:46:54 INFO: Current resistance is: 198.665 and support is: 198.52
+2025-08-04 11:46:54 INFO: Current average volume is: 1183.92
+2025-08-04 11:46:54 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 11:48:54 INFO: {'GTLS': {   'close': 198.595,
+    'high': 198.6,
+    'low': 198.58,
+    'open': 198.58,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 722.0,
+    'vwap': 198.593571}}
+2025-08-04 11:48:54 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 11:48:54 INFO: Current average volume is: 1148.38
+2025-08-04 11:48:54 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 11:50:55 INFO: {'GTLS': {   'close': 198.57,
+    'high': 198.57,
+    'low': 198.57,
+    'open': 198.57,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 350.0,
+    'vwap': 198.57}}
+2025-08-04 11:50:55 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 11:50:55 INFO: Current average volume is: 1091.36
+2025-08-04 11:50:55 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 11:52:55 INFO: {'GTLS': {   'close': 198.59,
+    'high': 198.59,
+    'low': 198.59,
+    'open': 198.59,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 156.0,
+    'vwap': 198.59}}
+2025-08-04 11:52:55 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 11:52:55 INFO: Current average volume is: 1029.0
+2025-08-04 11:52:55 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 11:53:55 INFO: {'GTLS': {   'close': 198.58,
+    'high': 198.6,
+    'low': 198.58,
+    'open': 198.6,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 623.0,
+    'vwap': 198.596667}}
+2025-08-04 11:53:55 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 11:53:55 INFO: Current average volume is: 1003.62
+2025-08-04 11:53:55 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 11:54:55 INFO: {'GTLS': {   'close': 198.6,
+    'high': 198.605,
+    'low': 198.59,
+    'open': 198.59,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 836.0,
+    'vwap': 198.598125}}
+2025-08-04 11:54:55 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 11:54:55 INFO: Current average volume is: 993.76
+2025-08-04 11:54:55 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:01:56 INFO: {'GTLS': {   'close': 198.61,
+    'high': 198.62,
+    'low': 198.6,
+    'open': 198.6,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1749.0,
+    'vwap': 198.610306}}
+2025-08-04 12:01:56 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:01:56 INFO: Current average volume is: 1035.72
+2025-08-04 12:01:56 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:02:56 INFO: {'GTLS': {   'close': 198.62,
+    'high': 198.63,
+    'low': 198.62,
+    'open': 198.62,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2023.0,
+    'vwap': 198.621963}}
+2025-08-04 12:02:56 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:02:56 INFO: Current average volume is: 1087.68
+2025-08-04 12:02:56 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:03:56 INFO: {'GTLS': {   'close': 198.64,
+    'high': 198.64,
+    'low': 198.63,
+    'open': 198.63,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 582.0,
+    'vwap': 198.636667}}
+2025-08-04 12:03:56 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:03:56 INFO: Current average volume is: 1062.4
+2025-08-04 12:03:56 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:04:56 INFO: {'GTLS': {   'close': 198.595,
+    'high': 198.605,
+    'low': 198.59,
+    'open': 198.605,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1070.0,
+    'vwap': 198.598352}}
+2025-08-04 12:04:56 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:04:56 INFO: Current average volume is: 1062.76
+2025-08-04 12:04:56 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:07:57 INFO: {'GTLS': {   'close': 198.6,
+    'high': 198.6,
+    'low': 198.6,
+    'open': 198.6,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 300.0,
+    'vwap': 198.6}}
+2025-08-04 12:07:57 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:07:57 INFO: Current average volume is: 1028.09
+2025-08-04 12:07:57 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:08:57 INFO: {'GTLS': {   'close': 198.61,
+    'high': 198.61,
+    'low': 198.61,
+    'open': 198.61,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 130.0,
+    'vwap': 198.61}}
+2025-08-04 12:08:57 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:08:57 INFO: Current average volume is: 989.04
+2025-08-04 12:08:57 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:10:57 INFO: {'GTLS': {   'close': 198.605,
+    'high': 198.605,
+    'low': 198.605,
+    'open': 198.605,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 198.605}}
+2025-08-04 12:10:57 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:10:57 INFO: Current average volume is: 952.0
+2025-08-04 12:10:57 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:12:58 INFO: {'GTLS': {   'close': 198.61,
+    'high': 198.61,
+    'low': 198.59,
+    'open': 198.59,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 760.0,
+    'vwap': 198.599811}}
+2025-08-04 12:12:58 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:12:58 INFO: Current average volume is: 944.32
+2025-08-04 12:12:58 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:13:58 INFO: {'GTLS': {   'close': 198.6,
+    'high': 198.6,
+    'low': 198.6,
+    'open': 198.6,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 141.0,
+    'vwap': 198.6}}
+2025-08-04 12:13:58 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:13:58 INFO: Current average volume is: 913.42
+2025-08-04 12:13:58 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:16:58 INFO: {'GTLS': {   'close': 198.58,
+    'high': 198.59,
+    'low': 198.58,
+    'open': 198.59,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 228.0,
+    'vwap': 198.585}}
+2025-08-04 12:16:58 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:16:58 INFO: Current average volume is: 888.04
+2025-08-04 12:16:58 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:17:58 INFO: {'GTLS': {   'close': 198.57,
+    'high': 198.57,
+    'low': 198.57,
+    'open': 198.57,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 114.0,
+    'vwap': 198.57}}
+2025-08-04 12:17:58 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:17:58 INFO: Current average volume is: 860.39
+2025-08-04 12:17:58 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:23:59 INFO: {'GTLS': {   'close': 198.58,
+    'high': 198.58,
+    'low': 198.58,
+    'open': 198.58,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 152.0,
+    'vwap': 198.58}}
+2025-08-04 12:23:59 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:23:59 INFO: Current average volume is: 835.97
+2025-08-04 12:23:59 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:26:59 INFO: {'GTLS': {   'close': 198.565,
+    'high': 198.565,
+    'low': 198.565,
+    'open': 198.565,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 286.0,
+    'vwap': 198.565}}
+2025-08-04 12:26:59 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:26:59 INFO: Current average volume is: 817.63
+2025-08-04 12:26:59 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:27:59 INFO: {'GTLS': {   'close': 198.525,
+    'high': 198.525,
+    'low': 198.525,
+    'open': 198.525,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 268.0,
+    'vwap': 198.525}}
+2025-08-04 12:27:59 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:27:59 INFO: Current average volume is: 799.9
+2025-08-04 12:27:59 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:34:00 INFO: {'GTLS': {   'close': 198.56,
+    'high': 198.56,
+    'low': 198.56,
+    'open': 198.56,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 683.0,
+    'vwap': 198.56}}
+2025-08-04 12:34:00 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:34:00 INFO: Current average volume is: 796.25
+2025-08-04 12:34:00 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:39:01 INFO: {'GTLS': {   'close': 198.57,
+    'high': 198.58,
+    'low': 198.57,
+    'open': 198.58,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1146.0,
+    'vwap': 198.575}}
+2025-08-04 12:39:01 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:39:01 INFO: Current average volume is: 806.85
+2025-08-04 12:39:01 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:47:02 INFO: {'GTLS': {   'close': 198.565,
+    'high': 198.565,
+    'low': 198.565,
+    'open': 198.565,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1716.0,
+    'vwap': 198.565}}
+2025-08-04 12:47:02 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:47:02 INFO: Current average volume is: 833.59
+2025-08-04 12:47:02 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:48:02 INFO: {'GTLS': {   'close': 198.57,
+    'high': 198.57,
+    'low': 198.57,
+    'open': 198.57,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1074.0,
+    'vwap': 198.57}}
+2025-08-04 12:48:02 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:48:02 INFO: Current average volume is: 840.46
+2025-08-04 12:48:02 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:49:02 INFO: {'GTLS': {   'close': 198.6,
+    'high': 198.6,
+    'low': 198.6,
+    'open': 198.6,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 102.0,
+    'vwap': 198.6}}
+2025-08-04 12:49:02 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:49:02 INFO: Current average volume is: 819.94
+2025-08-04 12:49:02 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 12:57:03 INFO: {'GTLS': {   'close': 198.62,
+    'high': 198.62,
+    'low': 198.62,
+    'open': 198.62,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 605.0,
+    'vwap': 198.62}}
+2025-08-04 12:57:03 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 12:57:03 INFO: Current average volume is: 814.14
+2025-08-04 12:57:03 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:00:04 INFO: {'GTLS': {   'close': 198.605,
+    'high': 198.605,
+    'low': 198.605,
+    'open': 198.605,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 244.0,
+    'vwap': 198.605}}
+2025-08-04 13:00:04 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:00:04 INFO: Current average volume is: 799.13
+2025-08-04 13:00:04 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:01:04 INFO: {'GTLS': {   'close': 198.6,
+    'high': 198.61,
+    'low': 198.6,
+    'open': 198.61,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1212.0,
+    'vwap': 198.6075}}
+2025-08-04 13:01:04 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:01:04 INFO: Current average volume is: 809.72
+2025-08-04 13:01:04 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:14:05 INFO: {'GTLS': {   'close': 198.62,
+    'high': 198.62,
+    'low': 198.62,
+    'open': 198.62,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 203.0,
+    'vwap': 198.62}}
+2025-08-04 13:14:05 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:14:05 INFO: Current average volume is: 794.55
+2025-08-04 13:14:05 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:16:06 INFO: {'GTLS': {   'close': 198.59,
+    'high': 198.6,
+    'low': 198.58,
+    'open': 198.6,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 877.0,
+    'vwap': 198.591024}}
+2025-08-04 13:16:06 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:16:06 INFO: Current average volume is: 796.56
+2025-08-04 13:16:06 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:21:07 INFO: {'GTLS': {   'close': 198.605,
+    'high': 198.605,
+    'low': 198.605,
+    'open': 198.605,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 133.0,
+    'vwap': 198.605}}
+2025-08-04 13:21:07 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:21:07 INFO: Current average volume is: 780.76
+2025-08-04 13:21:07 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:23:07 INFO: {'GTLS': {   'close': 198.6,
+    'high': 198.61,
+    'low': 198.6,
+    'open': 198.6,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 353.0,
+    'vwap': 198.603333}}
+2025-08-04 13:23:07 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:23:07 INFO: Current average volume is: 770.81
+2025-08-04 13:23:07 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:24:07 INFO: {'GTLS': {   'close': 198.59,
+    'high': 198.6,
+    'low': 198.59,
+    'open': 198.59,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 545.0,
+    'vwap': 198.594}}
+2025-08-04 13:24:07 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:24:07 INFO: Current average volume is: 765.68
+2025-08-04 13:24:07 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:27:07 INFO: {'GTLS': {   'close': 198.61,
+    'high': 198.61,
+    'low': 198.61,
+    'open': 198.61,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 224.0,
+    'vwap': 198.61}}
+2025-08-04 13:27:07 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:27:07 INFO: Current average volume is: 753.64
+2025-08-04 13:27:07 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:34:08 INFO: {'GTLS': {   'close': 198.63,
+    'high': 198.63,
+    'low': 198.63,
+    'open': 198.63,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 133.0,
+    'vwap': 198.63}}
+2025-08-04 13:34:08 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:34:08 INFO: Current average volume is: 740.15
+2025-08-04 13:34:08 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:35:09 INFO: {'GTLS': {   'close': 198.61,
+    'high': 198.62,
+    'low': 198.61,
+    'open': 198.62,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 338.0,
+    'vwap': 198.616667}}
+2025-08-04 13:35:09 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:35:09 INFO: Current average volume is: 731.6
+2025-08-04 13:35:09 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:45:10 INFO: {'GTLS': {   'close': 198.63,
+    'high': 198.63,
+    'low': 198.63,
+    'open': 198.63,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 121.0,
+    'vwap': 198.63}}
+2025-08-04 13:45:10 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:45:10 INFO: Current average volume is: 718.88
+2025-08-04 13:45:10 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:50:11 INFO: {'GTLS': {   'close': 198.64,
+    'high': 198.64,
+    'low': 198.64,
+    'open': 198.64,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 354.0,
+    'vwap': 198.64}}
+2025-08-04 13:50:11 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:50:11 INFO: Current average volume is: 711.43
+2025-08-04 13:50:11 INFO: Updated resistance to: 198.665 and support to: 198.51
+2025-08-04 13:55:12 INFO: {'GTLS': {   'close': 198.665,
+    'high': 198.665,
+    'low': 198.66,
+    'open': 198.66,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 217.0,
+    'vwap': 198.6625}}
+2025-08-04 13:55:12 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:55:12 INFO: Current average volume is: 701.54
+2025-08-04 13:56:12 INFO: {'GTLS': {   'close': 198.69,
+    'high': 198.69,
+    'low': 198.67,
+    'open': 198.67,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 246.0,
+    'vwap': 198.68}}
+2025-08-04 13:56:12 INFO: Current resistance is: 198.665 and support is: 198.51
+2025-08-04 13:56:12 INFO: Current average volume is: 692.61
+2025-08-04 13:56:12 INFO: The Current Close 198.69 is above the resistance...
+2025-08-04 13:56:12 INFO: Updated resistance to: 198.69 and support to: 198.51
+2025-08-04 13:57:12 INFO: {'GTLS': {   'close': 198.7,
+    'high': 198.7,
+    'low': 198.7,
+    'open': 198.7,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 116.0,
+    'vwap': 198.7}}
+2025-08-04 13:57:12 INFO: Current resistance is: 198.69 and support is: 198.51
+2025-08-04 13:57:12 INFO: Current average volume is: 681.52
+2025-08-04 13:57:12 INFO: The current close: 198.7 is above the resistance of 198.69, but volume isn't enough...
+2025-08-04 13:57:12 INFO: Updated resistance to: 198.7 and support to: 198.51
+2025-08-04 14:01:13 INFO: {'GTLS': {   'close': 198.695,
+    'high': 198.71,
+    'low': 198.69,
+    'open': 198.69,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 404.0,
+    'vwap': 198.698333}}
+2025-08-04 14:01:13 INFO: Current resistance is: 198.7 and support is: 198.51
+2025-08-04 14:01:13 INFO: Current average volume is: 676.28
+2025-08-04 14:01:13 INFO: Updated resistance to: 198.71 and support to: 198.51
+2025-08-04 14:04:13 INFO: {'GTLS': {   'close': 198.67,
+    'high': 198.67,
+    'low': 198.67,
+    'open': 198.67,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 198.67}}
+2025-08-04 14:04:13 INFO: Current resistance is: 198.71 and support is: 198.51
+2025-08-04 14:04:13 INFO: Current average volume is: 665.61
+2025-08-04 14:04:13 INFO: Updated resistance to: 198.71 and support to: 198.51
+2025-08-04 14:05:14 INFO: {'GTLS': {   'close': 198.68,
+    'high': 198.68,
+    'low': 198.68,
+    'open': 198.68,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 198.68}}
+2025-08-04 14:05:14 INFO: Current resistance is: 198.71 and support is: 198.51
+2025-08-04 14:05:14 INFO: Current average volume is: 655.33
+2025-08-04 14:05:14 INFO: Updated resistance to: 198.71 and support to: 198.51
+2025-08-04 14:06:14 INFO: {'GTLS': {   'close': 198.62,
+    'high': 198.66,
+    'low': 198.62,
+    'open': 198.66,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 473.0,
+    'vwap': 198.635}}
+2025-08-04 14:06:14 INFO: Current resistance is: 198.71 and support is: 198.51
+2025-08-04 14:06:14 INFO: Current average volume is: 652.07
+2025-08-04 14:06:14 INFO: Updated resistance to: 198.71 and support to: 198.51
+2025-08-04 14:08:14 INFO: {'GTLS': {   'close': 198.61,
+    'high': 198.63,
+    'low': 198.61,
+    'open': 198.63,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 455.0,
+    'vwap': 198.618333}}
+2025-08-04 14:08:14 INFO: Current resistance is: 198.71 and support is: 198.51
+2025-08-04 14:08:14 INFO: Current average volume is: 648.61
+2025-08-04 14:08:14 INFO: Updated resistance to: 198.71 and support to: 198.51
+2025-08-04 14:10:14 INFO: {'GTLS': {   'close': 198.64,
+    'high': 198.65,
+    'low': 198.64,
+    'open': 198.65,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 259.0,
+    'vwap': 198.645}}
+2025-08-04 14:10:14 INFO: Current resistance is: 198.71 and support is: 198.51
+2025-08-04 14:10:14 INFO: Current average volume is: 641.9
+2025-08-04 14:10:14 INFO: Updated resistance to: 198.71 and support to: 198.51
+2025-08-04 14:12:14 INFO: {'GTLS': {   'close': 198.66,
+    'high': 198.66,
+    'low': 198.655,
+    'open': 198.655,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 241.0,
+    'vwap': 198.6575}}
+2025-08-04 14:12:14 INFO: Current resistance is: 198.71 and support is: 198.51
+2025-08-04 14:12:14 INFO: Current average volume is: 635.1
+2025-08-04 14:12:14 INFO: Updated resistance to: 198.71 and support to: 198.51
+2025-08-04 14:14:15 INFO: {'GTLS': {   'close': 198.68,
+    'high': 198.68,
+    'low': 198.68,
+    'open': 198.68,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 155.0,
+    'vwap': 198.68}}
+2025-08-04 14:14:15 INFO: Current resistance is: 198.71 and support is: 198.51
+2025-08-04 14:14:15 INFO: Current average volume is: 627.1
+2025-08-04 14:14:15 INFO: Updated resistance to: 198.71 and support to: 198.51
+2025-08-04 14:15:15 INFO: {'GTLS': {   'close': 198.67,
+    'high': 198.67,
+    'low': 198.66,
+    'open': 198.66,
+    'symbol': 'GTLS',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 296.0,
+    'vwap': 198.665}}
+2025-08-04 14:15:15 INFO: Current resistance is: 198.71 and support is: 198.51
+2025-08-04 14:15:15 INFO: Current average volume is: 621.67
+2025-08-04 14:15:15 INFO: Updated resistance to: 198.71 and support to: 198.51

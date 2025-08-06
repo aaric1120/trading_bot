@@ -1,0 +1,697 @@
+2025-08-06 10:50:13 INFO: === Strategy started ===
+2025-08-06 10:50:13 INFO: Start collecting the current highs/lows for: DEO
+2025-08-06 10:50:14 INFO: Most recent stock data: {'DEO': {   'close': 106.41,
+    'high': 106.41,
+    'low': 106.37,
+    'open': 106.37,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 470.0,
+    'vwap': 106.39}}
+2025-08-06 10:51:14 INFO: Most recent stock data: {'DEO': {   'close': 106.21,
+    'high': 106.24,
+    'low': 106.21,
+    'open': 106.24,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 106.225}}
+2025-08-06 10:52:14 INFO: Most recent stock data: {'DEO': {   'close': 106.13,
+    'high': 106.13,
+    'low': 106.13,
+    'open': 106.13,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 129.0,
+    'vwap': 106.13}}
+2025-08-06 10:53:14 INFO: Most recent stock data: {'DEO': {   'close': 105.94,
+    'high': 105.94,
+    'low': 105.94,
+    'open': 105.94,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 126.0,
+    'vwap': 105.94}}
+2025-08-06 10:54:14 INFO: Most recent stock data: {'DEO': {   'close': 105.93,
+    'high': 105.93,
+    'low': 105.93,
+    'open': 105.93,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 105.93}}
+2025-08-06 10:55:14 INFO: Most recent stock data: {'DEO': {   'close': 105.92,
+    'high': 105.92,
+    'low': 105.92,
+    'open': 105.92,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1163.0,
+    'vwap': 105.92}}
+2025-08-06 10:58:15 INFO: Most recent stock data: {'DEO': {   'close': 105.72,
+    'high': 105.72,
+    'low': 105.72,
+    'open': 105.72,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 245.0,
+    'vwap': 105.72}}
+2025-08-06 11:01:15 INFO: Most recent stock data: {'DEO': {   'close': 105.63,
+    'high': 105.63,
+    'low': 105.63,
+    'open': 105.63,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 196.0,
+    'vwap': 105.63}}
+2025-08-06 11:03:15 INFO: Most recent stock data: {'DEO': {   'close': 105.67,
+    'high': 105.67,
+    'low': 105.67,
+    'open': 105.67,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 531.0,
+    'vwap': 105.67}}
+2025-08-06 11:04:15 INFO: Most recent stock data: {'DEO': {   'close': 105.71,
+    'high': 105.71,
+    'low': 105.66,
+    'open': 105.66,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1065.0,
+    'vwap': 105.671429}}
+2025-08-06 11:07:16 INFO: Most recent stock data: {'DEO': {   'close': 105.79,
+    'high': 105.79,
+    'low': 105.78,
+    'open': 105.78,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 213.0,
+    'vwap': 105.785}}
+2025-08-06 11:07:16 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 11:07:16 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-06 11:09:16 INFO: {'DEO': {   'close': 105.89,
+    'high': 105.89,
+    'low': 105.89,
+    'open': 105.89,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 105.89}}
+2025-08-06 11:09:16 INFO: Current resistance is: 105.667 and support is: 105.362
+2025-08-06 11:09:16 INFO: Current average volume is: 339.08
+2025-08-06 11:09:16 INFO: The Current Close 105.89 is above the resistance...
+2025-08-06 11:09:16 INFO: Updated resistance to: 105.774 and support to: 105.37
+2025-08-06 11:12:17 INFO: {'DEO': {   'close': 105.82,
+    'high': 105.82,
+    'low': 105.82,
+    'open': 105.82,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 105.82}}
+2025-08-06 11:12:17 INFO: Current resistance is: 105.774 and support is: 105.37
+2025-08-06 11:12:17 INFO: Current average volume is: 321.08
+2025-08-06 11:12:17 INFO: The current close: 105.82 is above the resistance of 105.774, but volume isn't enough...
+2025-08-06 11:12:17 INFO: Updated resistance to: 105.828 and support to: 105.368
+2025-08-06 11:15:17 INFO: {'DEO': {   'close': 105.63,
+    'high': 105.63,
+    'low': 105.63,
+    'open': 105.63,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 237.0,
+    'vwap': 105.63}}
+2025-08-06 11:15:17 INFO: Current resistance is: 105.828 and support is: 105.368
+2025-08-06 11:15:17 INFO: Current average volume is: 315.07
+2025-08-06 11:15:17 INFO: Updated resistance to: 105.797 and support to: 105.332
+2025-08-06 11:17:18 INFO: {'DEO': {   'close': 105.65,
+    'high': 105.65,
+    'low': 105.65,
+    'open': 105.65,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 137.0,
+    'vwap': 105.65}}
+2025-08-06 11:17:18 INFO: Current resistance is: 105.797 and support is: 105.332
+2025-08-06 11:17:18 INFO: Current average volume is: 303.2
+2025-08-06 11:17:18 INFO: Updated resistance to: 105.788 and support to: 105.307
+2025-08-06 11:21:18 INFO: {'DEO': {   'close': 105.79,
+    'high': 105.79,
+    'low': 105.79,
+    'open': 105.79,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 105.79}}
+2025-08-06 11:21:18 INFO: Current resistance is: 105.788 and support is: 105.307
+2025-08-06 11:21:18 INFO: Current average volume is: 290.5
+2025-08-06 11:21:18 INFO: The Current Close 105.79 is above the resistance...
+2025-08-06 11:21:18 INFO: Updated resistance to: 105.834 and support to: 105.317
+2025-08-06 11:22:18 INFO: {'DEO': {   'close': 105.69,
+    'high': 105.76,
+    'low': 105.69,
+    'open': 105.76,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 105.72}}
+2025-08-06 11:22:18 INFO: Current resistance is: 105.834 and support is: 105.317
+2025-08-06 11:22:18 INFO: Current average volume is: 314.59
+2025-08-06 11:22:18 INFO: Updated resistance to: 105.865 and support to: 105.307
+2025-08-06 11:23:19 INFO: {'DEO': {   'close': 105.7,
+    'high': 105.7,
+    'low': 105.7,
+    'open': 105.7,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 107.0,
+    'vwap': 105.7}}
+2025-08-06 11:23:19 INFO: Current resistance is: 105.865 and support is: 105.307
+2025-08-06 11:23:19 INFO: Current average volume is: 303.06
+2025-08-06 11:23:19 INFO: Updated resistance to: 105.873 and support to: 105.302
+2025-08-06 11:24:19 INFO: {'DEO': {   'close': 105.73,
+    'high': 105.74,
+    'low': 105.72,
+    'open': 105.74,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 354.0,
+    'vwap': 105.73}}
+2025-08-06 11:24:19 INFO: Current resistance is: 105.873 and support is: 105.302
+2025-08-06 11:24:19 INFO: Current average volume is: 305.74
+2025-08-06 11:24:19 INFO: Updated resistance to: 105.895 and support to: 105.303
+2025-08-06 11:25:19 INFO: {'DEO': {   'close': 105.68,
+    'high': 105.68,
+    'low': 105.67,
+    'open': 105.68,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 332.0,
+    'vwap': 105.676667}}
+2025-08-06 11:25:19 INFO: Current resistance is: 105.895 and support is: 105.303
+2025-08-06 11:25:19 INFO: Current average volume is: 307.05
+2025-08-06 11:25:19 INFO: Updated resistance to: 105.898 and support to: 105.296
+2025-08-06 11:26:19 INFO: {'DEO': {   'close': 105.63,
+    'high': 105.64,
+    'low': 105.63,
+    'open': 105.64,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 296.0,
+    'vwap': 105.635}}
+2025-08-06 11:26:19 INFO: Current resistance is: 105.898 and support is: 105.296
+2025-08-06 11:26:19 INFO: Current average volume is: 306.52
+2025-08-06 11:26:19 INFO: Updated resistance to: 105.892 and support to: 105.283
+2025-08-06 11:27:19 INFO: {'DEO': {   'close': 105.6,
+    'high': 105.6,
+    'low': 105.6,
+    'open': 105.6,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 168.0,
+    'vwap': 105.6}}
+2025-08-06 11:27:19 INFO: Current resistance is: 105.892 and support is: 105.283
+2025-08-06 11:27:19 INFO: Current average volume is: 300.23
+2025-08-06 11:27:19 INFO: Updated resistance to: 105.878 and support to: 105.576
+2025-08-06 11:28:19 INFO: {'DEO': {   'close': 105.62,
+    'high': 105.69,
+    'low': 105.62,
+    'open': 105.69,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 205.0,
+    'vwap': 105.655}}
+2025-08-06 11:28:19 INFO: Current resistance is: 105.878 and support is: 105.576
+2025-08-06 11:28:19 INFO: Current average volume is: 296.09
+2025-08-06 11:28:19 INFO: Updated resistance to: 105.892 and support to: 105.554
+2025-08-06 11:29:19 INFO: {'DEO': {   'close': 105.74,
+    'high': 105.74,
+    'low': 105.64,
+    'open': 105.64,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2043.0,
+    'vwap': 105.689286}}
+2025-08-06 11:29:19 INFO: Current resistance is: 105.892 and support is: 105.554
+2025-08-06 11:29:19 INFO: Current average volume is: 368.88
+2025-08-06 11:29:19 INFO: Updated resistance to: 105.917 and support to: 105.534
+2025-08-06 11:31:19 INFO: {'DEO': {   'close': 105.86,
+    'high': 105.86,
+    'low': 105.7,
+    'open': 105.8,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 434.0,
+    'vwap': 105.785}}
+2025-08-06 11:31:19 INFO: Current resistance is: 105.917 and support is: 105.534
+2025-08-06 11:31:19 INFO: Current average volume is: 371.48
+2025-08-06 11:31:19 INFO: Updated resistance to: 105.967 and support to: 105.519
+2025-08-06 11:34:20 INFO: {'DEO': {   'close': 105.94,
+    'high': 105.94,
+    'low': 105.94,
+    'open': 105.94,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 105.94}}
+2025-08-06 11:34:20 INFO: Current resistance is: 105.967 and support is: 105.519
+2025-08-06 11:34:20 INFO: Current average volume is: 362.0
+2025-08-06 11:34:20 INFO: Updated resistance to: 106.029 and support to: 105.516
+2025-08-06 11:35:20 INFO: {'DEO': {   'close': 106.01,
+    'high': 106.01,
+    'low': 105.98,
+    'open': 105.98,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 926.0,
+    'vwap': 105.98875}}
+2025-08-06 11:35:20 INFO: Current resistance is: 106.029 and support is: 105.516
+2025-08-06 11:35:20 INFO: Current average volume is: 382.89
+2025-08-06 11:35:20 INFO: Updated resistance to: 106.098 and support to: 105.519
+2025-08-06 11:36:20 INFO: {'DEO': {   'close': 105.97,
+    'high': 105.97,
+    'low': 105.9,
+    'open': 105.9,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 396.0,
+    'vwap': 105.944286}}
+2025-08-06 11:36:20 INFO: Current resistance is: 106.098 and support is: 105.519
+2025-08-06 11:36:20 INFO: Current average volume is: 383.36
+2025-08-06 11:36:20 INFO: Updated resistance to: 106.151 and support to: 105.521
+2025-08-06 11:39:20 INFO: {'DEO': {   'close': 106.11,
+    'high': 106.11,
+    'low': 106.05,
+    'open': 106.05,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 449.0,
+    'vwap': 106.067143}}
+2025-08-06 11:39:20 INFO: Current resistance is: 106.151 and support is: 105.521
+2025-08-06 11:39:20 INFO: Current average volume is: 385.62
+2025-08-06 11:39:20 INFO: Updated resistance to: 106.225 and support to: 105.532
+2025-08-06 11:40:21 INFO: {'DEO': {   'close': 106.23,
+    'high': 106.23,
+    'low': 106.23,
+    'open': 106.23,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 188.0,
+    'vwap': 106.23}}
+2025-08-06 11:40:21 INFO: Current resistance is: 106.225 and support is: 105.532
+2025-08-06 11:40:21 INFO: Current average volume is: 379.03
+2025-08-06 11:40:21 INFO: The Current Close 106.23 is above the resistance...
+2025-08-06 11:40:21 INFO: Updated resistance to: 106.313 and support to: 105.555
+2025-08-06 11:42:21 INFO: {'DEO': {   'close': 106.29,
+    'high': 106.29,
+    'low': 106.19,
+    'open': 106.19,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 106.265}}
+2025-08-06 11:42:21 INFO: Current resistance is: 106.313 and support is: 105.555
+2025-08-06 11:42:21 INFO: Current average volume is: 379.71
+2025-08-06 11:42:21 INFO: Updated resistance to: 106.401 and support to: 105.577
+2025-08-06 11:43:21 INFO: {'DEO': {   'close': 106.325,
+    'high': 106.325,
+    'low': 106.325,
+    'open': 106.325,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 106.325}}
+2025-08-06 11:43:21 INFO: Current resistance is: 106.401 and support is: 105.577
+2025-08-06 11:43:21 INFO: Current average volume is: 371.75
+2025-08-06 11:43:21 INFO: Updated resistance to: 106.485 and support to: 105.607
+2025-08-06 11:44:21 INFO: {'DEO': {   'close': 106.42,
+    'high': 106.42,
+    'low': 106.415,
+    'open': 106.415,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 938.0,
+    'vwap': 106.418934}}
+2025-08-06 11:44:21 INFO: Current resistance is: 106.485 and support is: 105.607
+2025-08-06 11:44:21 INFO: Current average volume is: 388.91
+2025-08-06 11:44:21 INFO: Updated resistance to: 106.425 and support to: 105.643
+2025-08-06 11:45:21 INFO: {'DEO': {   'close': 106.34,
+    'high': 106.355,
+    'low': 106.33,
+    'open': 106.355,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 472.0,
+    'vwap': 106.34125}}
+2025-08-06 11:45:21 INFO: Current resistance is: 106.425 and support is: 105.643
+2025-08-06 11:45:21 INFO: Current average volume is: 391.35
+2025-08-06 11:45:21 INFO: Updated resistance to: 106.434 and support to: 105.673
+2025-08-06 11:46:21 INFO: {'DEO': {   'close': 106.28,
+    'high': 106.28,
+    'low': 106.28,
+    'open': 106.28,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 116.0,
+    'vwap': 106.28}}
+2025-08-06 11:46:21 INFO: Current resistance is: 106.434 and support is: 105.673
+2025-08-06 11:46:21 INFO: Current average volume is: 383.49
+2025-08-06 11:46:21 INFO: Updated resistance to: 106.444 and support to: 105.698
+2025-08-06 11:58:23 INFO: {'DEO': {   'close': 106.55,
+    'high': 106.55,
+    'low': 106.55,
+    'open': 106.55,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 106.55}}
+2025-08-06 11:58:23 INFO: Current resistance is: 106.444 and support is: 105.698
+2025-08-06 11:58:23 INFO: Current average volume is: 375.61
+2025-08-06 11:58:23 INFO: The Current Close 106.55 is above the resistance...
+2025-08-06 11:58:23 INFO: Updated resistance to: 106.56 and support to: 105.741
+2025-08-06 12:01:24 INFO: {'DEO': {   'close': 106.62,
+    'high': 106.74,
+    'low': 106.62,
+    'open': 106.74,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 437.0,
+    'vwap': 106.66}}
+2025-08-06 12:01:24 INFO: Current resistance is: 106.56 and support is: 105.741
+2025-08-06 12:01:24 INFO: Current average volume is: 377.27
+2025-08-06 12:01:24 INFO: The current close: 106.62 is above the resistance of 106.56, but volume isn't enough...
+2025-08-06 12:01:24 INFO: Updated resistance to: 106.753 and support to: 105.787
+2025-08-06 12:04:24 INFO: {'DEO': {   'close': 106.63,
+    'high': 106.63,
+    'low': 106.63,
+    'open': 106.63,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 530.0,
+    'vwap': 106.63}}
+2025-08-06 12:04:24 INFO: Current resistance is: 106.753 and support is: 105.787
+2025-08-06 12:04:24 INFO: Current average volume is: 381.29
+2025-08-06 12:04:24 INFO: Updated resistance to: 106.769 and support to: 105.831
+2025-08-06 12:07:25 INFO: {'DEO': {   'close': 106.67,
+    'high': 106.67,
+    'low': 106.67,
+    'open': 106.67,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 507.0,
+    'vwap': 106.67}}
+2025-08-06 12:07:25 INFO: Current resistance is: 106.769 and support is: 105.831
+2025-08-06 12:07:25 INFO: Current average volume is: 384.51
+2025-08-06 12:07:25 INFO: Updated resistance to: 106.789 and support to: 105.876
+2025-08-06 12:08:25 INFO: {'DEO': {   'close': 106.61,
+    'high': 106.62,
+    'low': 106.61,
+    'open': 106.62,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 286.0,
+    'vwap': 106.615}}
+2025-08-06 12:08:25 INFO: Current resistance is: 106.789 and support is: 105.876
+2025-08-06 12:08:25 INFO: Current average volume is: 382.05
+2025-08-06 12:08:25 INFO: Updated resistance to: 106.809 and support to: 105.915
+2025-08-06 12:09:25 INFO: {'DEO': {   'close': 106.54,
+    'high': 106.54,
+    'low': 106.54,
+    'open': 106.54,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 105.0,
+    'vwap': 106.54}}
+2025-08-06 12:09:25 INFO: Current resistance is: 106.809 and support is: 105.915
+2025-08-06 12:09:25 INFO: Current average volume is: 375.29
+2025-08-06 12:09:25 INFO: Updated resistance to: 106.829 and support to: 105.946
+2025-08-06 12:19:26 INFO: {'DEO': {   'close': 106.77,
+    'high': 106.77,
+    'low': 106.77,
+    'open': 106.77,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 106.77}}
+2025-08-06 12:19:26 INFO: Current resistance is: 106.829 and support is: 105.946
+2025-08-06 12:19:26 INFO: Current average volume is: 368.74
+2025-08-06 12:19:26 INFO: Updated resistance to: 106.789 and support to: 105.992
+2025-08-06 12:20:26 INFO: {'DEO': {   'close': 106.78,
+    'high': 106.78,
+    'low': 106.78,
+    'open': 106.78,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 148.0,
+    'vwap': 106.78}}
+2025-08-06 12:20:26 INFO: Current resistance is: 106.789 and support is: 105.992
+2025-08-06 12:20:26 INFO: Current average volume is: 363.6
+2025-08-06 12:20:26 INFO: Updated resistance to: 106.8 and support to: 106.036
+2025-08-06 12:21:27 INFO: {'DEO': {   'close': 106.62,
+    'high': 106.73,
+    'low': 106.62,
+    'open': 106.73,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1300.0,
+    'vwap': 106.69}}
+2025-08-06 12:21:27 INFO: Current resistance is: 106.8 and support is: 106.036
+2025-08-06 12:21:27 INFO: Current average volume is: 384.89
+2025-08-06 12:21:27 INFO: Updated resistance to: 106.822 and support to: 106.066
+2025-08-06 12:22:27 INFO: {'DEO': {   'close': 106.65,
+    'high': 106.65,
+    'low': 106.65,
+    'open': 106.65,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 199.0,
+    'vwap': 106.65}}
+2025-08-06 12:22:27 INFO: Current resistance is: 106.822 and support is: 106.066
+2025-08-06 12:22:27 INFO: Current average volume is: 380.76
+2025-08-06 12:22:27 INFO: Updated resistance to: 106.844 and support to: 106.096
+2025-08-06 12:24:27 INFO: {'DEO': {   'close': 106.64,
+    'high': 106.64,
+    'low': 106.64,
+    'open': 106.64,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 225.0,
+    'vwap': 106.64}}
+2025-08-06 12:24:27 INFO: Current resistance is: 106.844 and support is: 106.096
+2025-08-06 12:24:27 INFO: Current average volume is: 377.37
+2025-08-06 12:24:27 INFO: Updated resistance to: 106.865 and support to: 106.124
+2025-08-06 12:26:27 INFO: {'DEO': {   'close': 106.59,
+    'high': 106.6,
+    'low': 106.59,
+    'open': 106.6,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 106.595}}
+2025-08-06 12:26:27 INFO: Current resistance is: 106.865 and support is: 106.124
+2025-08-06 12:26:27 INFO: Current average volume is: 373.6
+2025-08-06 12:26:27 INFO: Updated resistance to: 106.887 and support to: 106.147
+2025-08-06 12:28:27 INFO: {'DEO': {   'close': 106.54,
+    'high': 106.54,
+    'low': 106.54,
+    'open': 106.54,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 501.0,
+    'vwap': 106.54}}
+2025-08-06 12:28:27 INFO: Current resistance is: 106.887 and support is: 106.147
+2025-08-06 12:28:27 INFO: Current average volume is: 376.25
+2025-08-06 12:28:27 INFO: Updated resistance to: 106.907 and support to: 106.164
+2025-08-06 12:29:27 INFO: {'DEO': {   'close': 106.6,
+    'high': 106.6,
+    'low': 106.6,
+    'open': 106.6,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 150.0,
+    'vwap': 106.6}}
+2025-08-06 12:29:27 INFO: Current resistance is: 106.907 and support is: 106.164
+2025-08-06 12:29:27 INFO: Current average volume is: 371.63
+2025-08-06 12:29:27 INFO: Updated resistance to: 106.927 and support to: 106.185
+2025-08-06 12:33:28 INFO: {'DEO': {   'close': 106.73,
+    'high': 106.73,
+    'low': 106.73,
+    'open': 106.73,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 106.73}}
+2025-08-06 12:33:28 INFO: Current resistance is: 106.927 and support is: 106.185
+2025-08-06 12:33:28 INFO: Current average volume is: 366.2
+2025-08-06 12:33:28 INFO: Updated resistance to: 106.95 and support to: 106.213
+2025-08-06 12:35:28 INFO: {'DEO': {   'close': 106.77,
+    'high': 106.77,
+    'low': 106.75,
+    'open': 106.75,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 106.76}}
+2025-08-06 12:35:28 INFO: Current resistance is: 106.95 and support is: 106.213
+2025-08-06 12:35:28 INFO: Current average volume is: 363.14
+2025-08-06 12:35:28 INFO: Updated resistance to: 106.973 and support to: 106.24
+2025-08-06 12:40:29 INFO: {'DEO': {   'close': 106.85,
+    'high': 106.86,
+    'low': 106.85,
+    'open': 106.86,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 225.0,
+    'vwap': 106.855}}
+2025-08-06 12:40:29 INFO: Current resistance is: 106.973 and support is: 106.24
+2025-08-06 12:40:29 INFO: Current average volume is: 360.48
+2025-08-06 12:40:29 INFO: Updated resistance to: 106.882 and support to: 106.272
+2025-08-06 12:41:29 INFO: {'DEO': {   'close': 106.87,
+    'high': 106.87,
+    'low': 106.87,
+    'open': 106.87,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 106.87}}
+2025-08-06 12:41:29 INFO: Current resistance is: 106.882 and support is: 106.272
+2025-08-06 12:41:29 INFO: Current average volume is: 356.51
+2025-08-06 12:41:29 INFO: Updated resistance to: 106.892 and support to: 106.304
+2025-08-06 12:48:30 INFO: {'DEO': {   'close': 106.7,
+    'high': 106.7,
+    'low': 106.7,
+    'open': 106.7,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 183.0,
+    'vwap': 106.7}}
+2025-08-06 12:48:30 INFO: Current resistance is: 106.892 and support is: 106.304
+2025-08-06 12:48:30 INFO: Current average volume is: 353.3
+2025-08-06 12:48:30 INFO: Updated resistance to: 106.914 and support to: 106.323
+2025-08-06 12:55:31 INFO: {'DEO': {   'close': 106.69,
+    'high': 106.69,
+    'low': 106.69,
+    'open': 106.69,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 106.69}}
+2025-08-06 12:55:31 INFO: Current resistance is: 106.914 and support is: 106.323
+2025-08-06 12:55:31 INFO: Current average volume is: 348.69
+2025-08-06 12:55:31 INFO: Updated resistance to: 106.935 and support to: 106.339
+2025-08-06 12:56:31 INFO: {'DEO': {   'close': 106.64,
+    'high': 106.64,
+    'low': 106.64,
+    'open': 106.64,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 106.64}}
+2025-08-06 12:56:31 INFO: Current resistance is: 106.935 and support is: 106.339
+2025-08-06 12:56:31 INFO: Current average volume is: 344.25
+2025-08-06 12:56:31 INFO: Updated resistance to: 106.955 and support to: 106.352
+2025-08-06 13:01:31 INFO: {'DEO': {   'close': 106.615,
+    'high': 106.615,
+    'low': 106.615,
+    'open': 106.615,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 226.0,
+    'vwap': 106.615}}
+2025-08-06 13:01:31 INFO: Current resistance is: 106.955 and support is: 106.352
+2025-08-06 13:01:31 INFO: Current average volume is: 342.18
+2025-08-06 13:01:31 INFO: Updated resistance to: 106.975 and support to: 106.361
+2025-08-06 13:02:31 INFO: {'DEO': {   'close': 106.63,
+    'high': 106.645,
+    'low': 106.63,
+    'open': 106.645,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 106.6375}}
+2025-08-06 13:02:31 INFO: Current resistance is: 106.975 and support is: 106.361
+2025-08-06 13:02:31 INFO: Current average volume is: 339.72
+2025-08-06 13:02:31 INFO: Updated resistance to: 106.994 and support to: 106.371
+2025-08-06 13:12:33 INFO: {'DEO': {   'close': 106.78,
+    'high': 106.84,
+    'low': 106.78,
+    'open': 106.84,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 520.0,
+    'vwap': 106.8025}}
+2025-08-06 13:12:33 INFO: Current resistance is: 106.994 and support is: 106.371
+2025-08-06 13:12:33 INFO: Current average volume is: 342.78
+2025-08-06 13:12:33 INFO: Updated resistance to: 107.015 and support to: 106.389
+2025-08-06 13:16:33 INFO: {'DEO': {   'close': 106.51,
+    'high': 106.55,
+    'low': 106.51,
+    'open': 106.55,
+    'symbol': 'DEO',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 405.0,
+    'vwap': 106.53}}
+2025-08-06 13:16:33 INFO: Current resistance is: 107.015 and support is: 106.389
+2025-08-06 13:16:33 INFO: Current average volume is: 343.82
+2025-08-06 13:16:33 INFO: Updated resistance to: 107.032 and support to: 106.389

@@ -1,0 +1,1064 @@
+2025-08-06 10:20:09 INFO: === Strategy started ===
+2025-08-06 10:20:09 INFO: Start collecting the current highs/lows for: GXO
+2025-08-06 10:20:09 INFO: Most recent stock data: {'GXO': {   'close': 46.61,
+    'high': 46.61,
+    'low': 46.575,
+    'open': 46.575,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 816.0,
+    'vwap': 46.581667}}
+2025-08-06 10:21:10 INFO: Most recent stock data: {'GXO': {   'close': 46.83,
+    'high': 46.83,
+    'low': 46.83,
+    'open': 46.83,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 327.0,
+    'vwap': 46.83}}
+2025-08-06 10:22:10 INFO: Most recent stock data: {'GXO': {   'close': 46.75,
+    'high': 46.76,
+    'low': 46.735,
+    'open': 46.735,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 9742.0,
+    'vwap': 46.751162}}
+2025-08-06 10:23:10 INFO: Most recent stock data: {'GXO': {   'close': 47.01,
+    'high': 47.01,
+    'low': 47.01,
+    'open': 47.01,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 650.0,
+    'vwap': 47.01}}
+2025-08-06 10:24:10 INFO: Most recent stock data: {'GXO': {   'close': 46.925,
+    'high': 47.09,
+    'low': 46.925,
+    'open': 47.09,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1129.0,
+    'vwap': 46.990455}}
+2025-08-06 10:26:10 INFO: Most recent stock data: {'GXO': {   'close': 47.06,
+    'high': 47.06,
+    'low': 47.06,
+    'open': 47.06,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 172.0,
+    'vwap': 47.06}}
+2025-08-06 10:27:10 INFO: Most recent stock data: {'GXO': {   'close': 46.97,
+    'high': 47.08,
+    'low': 46.97,
+    'open': 46.975,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 595.0,
+    'vwap': 46.995}}
+2025-08-06 10:28:11 INFO: Most recent stock data: {'GXO': {   'close': 46.975,
+    'high': 46.985,
+    'low': 46.975,
+    'open': 46.985,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 46.980833}}
+2025-08-06 10:29:11 INFO: Most recent stock data: {'GXO': {   'close': 46.94,
+    'high': 46.975,
+    'low': 46.935,
+    'open': 46.975,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2266.0,
+    'vwap': 46.941667}}
+2025-08-06 10:30:11 INFO: Most recent stock data: {'GXO': {   'close': 46.94,
+    'high': 46.94,
+    'low': 46.94,
+    'open': 46.94,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 111.0,
+    'vwap': 46.94}}
+2025-08-06 10:31:11 INFO: Most recent stock data: {'GXO': {   'close': 46.83,
+    'high': 46.89,
+    'low': 46.83,
+    'open': 46.89,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 435.0,
+    'vwap': 46.844925}}
+2025-08-06 10:31:11 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 10:31:11 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-06 10:33:11 INFO: {'GXO': {   'close': 47.06,
+    'high': 47.06,
+    'low': 47.06,
+    'open': 47.06,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 47.06}}
+2025-08-06 10:33:11 INFO: Current resistance is: 47.09 and support is: 46.575
+2025-08-06 10:33:11 INFO: Current average volume is: 1360.58
+2025-08-06 10:33:11 INFO: Updated resistance to: 47.09 and support to: 46.575
+2025-08-06 10:35:11 INFO: {'GXO': {   'close': 47.17,
+    'high': 47.17,
+    'low': 47.17,
+    'open': 47.17,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 145.0,
+    'vwap': 47.17}}
+2025-08-06 10:35:11 INFO: Current resistance is: 47.09 and support is: 46.575
+2025-08-06 10:35:11 INFO: Current average volume is: 1267.08
+2025-08-06 10:35:11 INFO: The Current Close 47.17 is above the resistance...
+2025-08-06 10:35:11 INFO: Updated resistance to: 47.17 and support to: 46.575
+2025-08-06 10:36:12 INFO: {'GXO': {   'close': 47.225,
+    'high': 47.225,
+    'low': 47.19,
+    'open': 47.19,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 369.0,
+    'vwap': 47.2075}}
+2025-08-06 10:36:12 INFO: Current resistance is: 47.17 and support is: 46.575
+2025-08-06 10:36:12 INFO: Current average volume is: 1202.93
+2025-08-06 10:36:12 INFO: The current close: 47.225 is above the resistance of 47.17, but volume isn't enough...
+2025-08-06 10:36:12 INFO: Updated resistance to: 47.225 and support to: 46.575
+2025-08-06 10:37:17 INFO: {'GXO': {   'close': 47.14,
+    'high': 47.14,
+    'low': 47.14,
+    'open': 47.14,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 283.0,
+    'vwap': 47.14}}
+2025-08-06 10:37:17 INFO: Current resistance is: 47.225 and support is: 46.575
+2025-08-06 10:37:17 INFO: Current average volume is: 1141.6
+2025-08-06 10:37:17 INFO: Updated resistance to: 47.225 and support to: 46.575
+2025-08-06 10:38:17 INFO: {'GXO': {   'close': 47.2,
+    'high': 47.2,
+    'low': 47.2,
+    'open': 47.2,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 194.0,
+    'vwap': 47.2}}
+2025-08-06 10:38:17 INFO: Current resistance is: 47.225 and support is: 46.575
+2025-08-06 10:38:17 INFO: Current average volume is: 1082.38
+2025-08-06 10:38:17 INFO: Updated resistance to: 47.225 and support to: 46.575
+2025-08-06 10:39:17 INFO: {'GXO': {   'close': 47.29,
+    'high': 47.29,
+    'low': 47.29,
+    'open': 47.29,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 190.0,
+    'vwap': 47.29}}
+2025-08-06 10:39:17 INFO: Current resistance is: 47.225 and support is: 46.575
+2025-08-06 10:39:17 INFO: Current average volume is: 1029.88
+2025-08-06 10:39:17 INFO: The Current Close 47.29 is above the resistance...
+2025-08-06 10:39:17 INFO: Updated resistance to: 47.29 and support to: 46.575
+2025-08-06 10:42:18 INFO: {'GXO': {   'close': 47.58,
+    'high': 47.6,
+    'low': 47.58,
+    'open': 47.6,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 669.0,
+    'vwap': 47.585}}
+2025-08-06 10:42:18 INFO: Current resistance is: 47.29 and support is: 46.575
+2025-08-06 10:42:18 INFO: Current average volume is: 1009.83
+2025-08-06 10:42:18 INFO: The current close: 47.58 is above the resistance of 47.29, but volume isn't enough...
+2025-08-06 10:42:18 INFO: Updated resistance to: 47.6 and support to: 46.575
+2025-08-06 10:44:18 INFO: {'GXO': {   'close': 47.48,
+    'high': 47.51,
+    'low': 47.48,
+    'open': 47.51,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 538.0,
+    'vwap': 47.495}}
+2025-08-06 10:44:18 INFO: Current resistance is: 47.6 and support is: 46.575
+2025-08-06 10:44:18 INFO: Current average volume is: 985.0
+2025-08-06 10:44:18 INFO: Updated resistance to: 47.6 and support to: 46.575
+2025-08-06 10:45:18 INFO: {'GXO': {   'close': 47.66,
+    'high': 47.66,
+    'low': 47.66,
+    'open': 47.66,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 363.0,
+    'vwap': 47.66}}
+2025-08-06 10:45:18 INFO: Current resistance is: 47.6 and support is: 46.575
+2025-08-06 10:45:18 INFO: Current average volume is: 953.9
+2025-08-06 10:45:18 INFO: The Current Close 47.66 is above the resistance...
+2025-08-06 10:45:18 INFO: Updated resistance to: 47.66 and support to: 46.575
+2025-08-06 10:46:19 INFO: {'GXO': {   'close': 47.97,
+    'high': 47.97,
+    'low': 47.84,
+    'open': 47.84,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 807.0,
+    'vwap': 47.931114}}
+2025-08-06 10:46:19 INFO: Current resistance is: 47.66 and support is: 46.575
+2025-08-06 10:46:19 INFO: Current average volume is: 946.9
+2025-08-06 10:46:19 INFO: The current close: 47.97 is above the resistance of 47.66, but volume isn't enough...
+2025-08-06 10:46:19 INFO: Updated resistance to: 47.97 and support to: 46.575
+2025-08-06 10:47:19 INFO: {'GXO': {   'close': 47.96,
+    'high': 47.96,
+    'low': 47.95,
+    'open': 47.95,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 235.0,
+    'vwap': 47.955}}
+2025-08-06 10:47:19 INFO: Current resistance is: 47.97 and support is: 46.575
+2025-08-06 10:47:19 INFO: Current average volume is: 914.55
+2025-08-06 10:47:19 INFO: Updated resistance to: 47.97 and support to: 46.575
+2025-08-06 10:48:19 INFO: {'GXO': {   'close': 48.14,
+    'high': 48.14,
+    'low': 48.14,
+    'open': 48.14,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 110.0,
+    'vwap': 48.14}}
+2025-08-06 10:48:19 INFO: Current resistance is: 47.97 and support is: 46.575
+2025-08-06 10:48:19 INFO: Current average volume is: 879.57
+2025-08-06 10:48:19 INFO: The Current Close 48.14 is above the resistance...
+2025-08-06 10:48:19 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 10:49:19 INFO: {'GXO': {   'close': 48.08,
+    'high': 48.1,
+    'low': 48.08,
+    'open': 48.1,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 397.0,
+    'vwap': 48.086667}}
+2025-08-06 10:49:19 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 10:49:19 INFO: Current average volume is: 859.46
+2025-08-06 10:49:19 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 10:51:20 INFO: {'GXO': {   'close': 48.005,
+    'high': 48.005,
+    'low': 48.005,
+    'open': 48.005,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 48.005}}
+2025-08-06 10:51:20 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 10:51:20 INFO: Current average volume is: 829.88
+2025-08-06 10:51:20 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 10:52:20 INFO: {'GXO': {   'close': 48.06,
+    'high': 48.06,
+    'low': 48.06,
+    'open': 48.06,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 48.06}}
+2025-08-06 10:52:20 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 10:52:20 INFO: Current average volume is: 805.65
+2025-08-06 10:52:20 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 10:54:20 INFO: {'GXO': {   'close': 47.93,
+    'high': 48.05,
+    'low': 47.93,
+    'open': 48.05,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 356.0,
+    'vwap': 47.983333}}
+2025-08-06 10:54:20 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 10:54:20 INFO: Current average volume is: 789.0
+2025-08-06 10:54:20 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 10:55:20 INFO: {'GXO': {   'close': 47.94,
+    'high': 47.94,
+    'low': 47.94,
+    'open': 47.94,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 260.0,
+    'vwap': 47.94}}
+2025-08-06 10:55:20 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 10:55:20 INFO: Current average volume is: 770.11
+2025-08-06 10:55:20 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 10:56:20 INFO: {'GXO': {   'close': 47.95,
+    'high': 48.01,
+    'low': 47.95,
+    'open': 47.95,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 469.0,
+    'vwap': 47.975}}
+2025-08-06 10:56:20 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 10:56:20 INFO: Current average volume is: 759.72
+2025-08-06 10:56:20 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 10:58:20 INFO: {'GXO': {   'close': 47.945,
+    'high': 47.945,
+    'low': 47.945,
+    'open': 47.945,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 47.945}}
+2025-08-06 10:58:20 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 10:58:20 INFO: Current average volume is: 737.73
+2025-08-06 10:58:20 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 11:03:21 INFO: {'GXO': {   'close': 47.865,
+    'high': 47.865,
+    'low': 47.865,
+    'open': 47.865,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 47.865}}
+2025-08-06 11:03:21 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 11:03:21 INFO: Current average volume is: 717.23
+2025-08-06 11:03:21 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 11:06:21 INFO: {'GXO': {   'close': 47.765,
+    'high': 47.765,
+    'low': 47.765,
+    'open': 47.765,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 47.765}}
+2025-08-06 11:06:21 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 11:06:21 INFO: Current average volume is: 701.06
+2025-08-06 11:06:21 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 11:10:22 INFO: {'GXO': {   'close': 47.76,
+    'high': 47.76,
+    'low': 47.76,
+    'open': 47.76,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 47.76}}
+2025-08-06 11:10:22 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 11:10:22 INFO: Current average volume is: 682.85
+2025-08-06 11:10:22 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 11:13:22 INFO: {'GXO': {   'close': 47.665,
+    'high': 47.665,
+    'low': 47.665,
+    'open': 47.665,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 253.0,
+    'vwap': 47.665}}
+2025-08-06 11:13:22 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 11:13:22 INFO: Current average volume is: 670.21
+2025-08-06 11:13:22 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 11:14:22 INFO: {'GXO': {   'close': 47.85,
+    'high': 47.85,
+    'low': 47.75,
+    'open': 47.75,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 344.0,
+    'vwap': 47.8}}
+2025-08-06 11:14:22 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 11:14:22 INFO: Current average volume is: 660.89
+2025-08-06 11:14:22 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 11:19:23 INFO: {'GXO': {   'close': 48.13,
+    'high': 48.13,
+    'low': 48.13,
+    'open': 48.13,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 48.13}}
+2025-08-06 11:19:23 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 11:19:23 INFO: Current average volume is: 648.08
+2025-08-06 11:19:23 INFO: Updated resistance to: 48.14 and support to: 46.575
+2025-08-06 11:20:23 INFO: {'GXO': {   'close': 48.225,
+    'high': 48.225,
+    'low': 48.225,
+    'open': 48.225,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 48.225}}
+2025-08-06 11:20:23 INFO: Current resistance is: 48.14 and support is: 46.575
+2025-08-06 11:20:23 INFO: Current average volume is: 633.81
+2025-08-06 11:20:23 INFO: The Current Close 48.225 is above the resistance...
+2025-08-06 11:20:23 INFO: Updated resistance to: 48.225 and support to: 46.575
+2025-08-06 11:21:23 INFO: {'GXO': {   'close': 48.23,
+    'high': 48.23,
+    'low': 48.23,
+    'open': 48.23,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 48.23}}
+2025-08-06 11:21:23 INFO: Current resistance is: 48.225 and support is: 46.575
+2025-08-06 11:21:23 INFO: Current average volume is: 619.76
+2025-08-06 11:21:23 INFO: The current close: 48.23 is above the resistance of 48.225, but volume isn't enough...
+2025-08-06 11:21:23 INFO: Updated resistance to: 48.23 and support to: 46.575
+2025-08-06 11:22:24 INFO: {'GXO': {   'close': 48.33,
+    'high': 48.355,
+    'low': 48.275,
+    'open': 48.275,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2783.0,
+    'vwap': 48.313017}}
+2025-08-06 11:22:24 INFO: Current resistance is: 48.23 and support is: 46.575
+2025-08-06 11:22:24 INFO: Current average volume is: 675.23
+2025-08-06 11:22:24 INFO: The current close: 48.33 is above the resistance of 48.23, but volume isn't enough...
+2025-08-06 11:22:24 INFO: Updated resistance to: 48.355 and support to: 46.575
+2025-08-06 11:24:24 INFO: {'GXO': {   'close': 48.455,
+    'high': 48.455,
+    'low': 48.455,
+    'open': 48.455,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 48.455}}
+2025-08-06 11:24:24 INFO: Current resistance is: 48.355 and support is: 46.575
+2025-08-06 11:24:24 INFO: Current average volume is: 660.85
+2025-08-06 11:24:24 INFO: The current close: 48.455 is above the resistance of 48.355, but volume isn't enough...
+2025-08-06 11:24:24 INFO: Updated resistance to: 48.455 and support to: 46.575
+2025-08-06 11:26:25 INFO: {'GXO': {   'close': 48.52,
+    'high': 48.59,
+    'low': 48.52,
+    'open': 48.59,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1020.0,
+    'vwap': 48.56925}}
+2025-08-06 11:26:25 INFO: Current resistance is: 48.455 and support is: 46.575
+2025-08-06 11:26:25 INFO: Current average volume is: 669.61
+2025-08-06 11:26:25 INFO: The current close: 48.52 is above the resistance of 48.455, but volume isn't enough...
+2025-08-06 11:26:25 INFO: Updated resistance to: 48.59 and support to: 46.575
+2025-08-06 11:28:25 INFO: {'GXO': {   'close': 48.565,
+    'high': 48.565,
+    'low': 48.565,
+    'open': 48.565,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 48.565}}
+2025-08-06 11:28:25 INFO: Current resistance is: 48.59 and support is: 46.575
+2025-08-06 11:28:25 INFO: Current average volume is: 656.17
+2025-08-06 11:28:25 INFO: Updated resistance to: 48.59 and support to: 46.575
+2025-08-06 11:30:25 INFO: {'GXO': {   'close': 48.87,
+    'high': 48.87,
+    'low': 48.87,
+    'open': 48.87,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 152.0,
+    'vwap': 48.87}}
+2025-08-06 11:30:25 INFO: Current resistance is: 48.59 and support is: 46.575
+2025-08-06 11:30:25 INFO: Current average volume is: 644.44
+2025-08-06 11:30:25 INFO: The Current Close 48.87 is above the resistance...
+2025-08-06 11:30:25 INFO: Updated resistance to: 48.87 and support to: 46.575
+2025-08-06 11:31:25 INFO: {'GXO': {   'close': 48.97,
+    'high': 48.97,
+    'low': 48.94,
+    'open': 48.94,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 291.0,
+    'vwap': 48.955}}
+2025-08-06 11:31:25 INFO: Current resistance is: 48.87 and support is: 46.575
+2025-08-06 11:31:25 INFO: Current average volume is: 636.41
+2025-08-06 11:31:25 INFO: The current close: 48.97 is above the resistance of 48.87, but volume isn't enough...
+2025-08-06 11:31:25 INFO: Updated resistance to: 48.97 and support to: 46.575
+2025-08-06 11:32:26 INFO: {'GXO': {   'close': 49.04,
+    'high': 49.04,
+    'low': 48.96,
+    'open': 48.96,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 619.0,
+    'vwap': 48.973722}}
+2025-08-06 11:32:26 INFO: Current resistance is: 48.97 and support is: 46.575
+2025-08-06 11:32:26 INFO: Current average volume is: 636.02
+2025-08-06 11:32:26 INFO: The current close: 49.04 is above the resistance of 48.97, but volume isn't enough...
+2025-08-06 11:32:26 INFO: Updated resistance to: 49.04 and support to: 46.575
+2025-08-06 11:33:26 INFO: {'GXO': {   'close': 49.06,
+    'high': 49.06,
+    'low': 49.06,
+    'open': 49.06,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 242.0,
+    'vwap': 49.06}}
+2025-08-06 11:33:26 INFO: Current resistance is: 49.04 and support is: 46.575
+2025-08-06 11:33:26 INFO: Current average volume is: 627.46
+2025-08-06 11:33:26 INFO: The current close: 49.06 is above the resistance of 49.04, but volume isn't enough...
+2025-08-06 11:33:26 INFO: Updated resistance to: 49.06 and support to: 46.575
+2025-08-06 11:34:26 INFO: {'GXO': {   'close': 49.08,
+    'high': 49.08,
+    'low': 49.08,
+    'open': 49.08,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 106.0,
+    'vwap': 49.08}}
+2025-08-06 11:34:26 INFO: Current resistance is: 49.06 and support is: 46.575
+2025-08-06 11:34:26 INFO: Current average volume is: 616.36
+2025-08-06 11:34:26 INFO: The current close: 49.08 is above the resistance of 49.06, but volume isn't enough...
+2025-08-06 11:34:26 INFO: Updated resistance to: 49.08 and support to: 46.575
+2025-08-06 11:35:26 INFO: {'GXO': {   'close': 49.095,
+    'high': 49.1,
+    'low': 49.095,
+    'open': 49.1,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 364.0,
+    'vwap': 49.0975}}
+2025-08-06 11:35:26 INFO: Current resistance is: 49.08 and support is: 46.575
+2025-08-06 11:35:26 INFO: Current average volume is: 611.1
+2025-08-06 11:35:26 INFO: The current close: 49.095 is above the resistance of 49.08, but volume isn't enough...
+2025-08-06 11:35:26 INFO: Updated resistance to: 49.1 and support to: 46.575
+2025-08-06 11:36:27 INFO: {'GXO': {   'close': 49.24,
+    'high': 49.24,
+    'low': 49.24,
+    'open': 49.24,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 294.0,
+    'vwap': 49.24}}
+2025-08-06 11:36:27 INFO: Current resistance is: 49.1 and support is: 46.575
+2025-08-06 11:36:27 INFO: Current average volume is: 604.63
+2025-08-06 11:36:27 INFO: The current close: 49.24 is above the resistance of 49.1, but volume isn't enough...
+2025-08-06 11:36:27 INFO: Updated resistance to: 49.24 and support to: 46.575
+2025-08-06 11:37:27 INFO: {'GXO': {   'close': 49.35,
+    'high': 49.35,
+    'low': 49.25,
+    'open': 49.25,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 526.0,
+    'vwap': 49.3}}
+2025-08-06 11:37:27 INFO: Current resistance is: 49.24 and support is: 46.575
+2025-08-06 11:37:27 INFO: Current average volume is: 603.06
+2025-08-06 11:37:27 INFO: The current close: 49.35 is above the resistance of 49.24, but volume isn't enough...
+2025-08-06 11:37:27 INFO: Updated resistance to: 49.35 and support to: 46.575
+2025-08-06 11:39:27 INFO: {'GXO': {   'close': 49.33,
+    'high': 49.355,
+    'low': 49.33,
+    'open': 49.355,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 344.0,
+    'vwap': 49.3425}}
+2025-08-06 11:39:27 INFO: Current resistance is: 49.35 and support is: 46.575
+2025-08-06 11:39:27 INFO: Current average volume is: 597.98
+2025-08-06 11:39:27 INFO: Updated resistance to: 49.355 and support to: 46.575
+2025-08-06 11:40:27 INFO: {'GXO': {   'close': 49.325,
+    'high': 49.33,
+    'low': 49.325,
+    'open': 49.33,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 529.0,
+    'vwap': 49.326667}}
+2025-08-06 11:40:27 INFO: Current resistance is: 49.355 and support is: 46.575
+2025-08-06 11:40:27 INFO: Current average volume is: 596.65
+2025-08-06 11:40:27 INFO: Updated resistance to: 49.355 and support to: 46.575
+2025-08-06 11:41:28 INFO: {'GXO': {   'close': 49.35,
+    'high': 49.35,
+    'low': 49.34,
+    'open': 49.34,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 49.345}}
+2025-08-06 11:41:28 INFO: Current resistance is: 49.355 and support is: 46.575
+2025-08-06 11:41:28 INFO: Current average volume is: 589.17
+2025-08-06 11:41:28 INFO: Updated resistance to: 49.355 and support to: 46.575
+2025-08-06 11:42:28 INFO: {'GXO': {   'close': 49.26,
+    'high': 49.335,
+    'low': 49.26,
+    'open': 49.33,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 495.0,
+    'vwap': 49.314644}}
+2025-08-06 11:42:28 INFO: Current resistance is: 49.355 and support is: 46.575
+2025-08-06 11:42:28 INFO: Current average volume is: 587.43
+2025-08-06 11:42:28 INFO: Updated resistance to: 49.355 and support to: 46.575
+2025-08-06 11:43:28 INFO: {'GXO': {   'close': 49.41,
+    'high': 49.41,
+    'low': 49.41,
+    'open': 49.41,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 160.0,
+    'vwap': 49.41}}
+2025-08-06 11:43:28 INFO: Current resistance is: 49.355 and support is: 46.575
+2025-08-06 11:43:28 INFO: Current average volume is: 579.65
+2025-08-06 11:43:28 INFO: The Current Close 49.41 is above the resistance...
+2025-08-06 11:43:28 INFO: Updated resistance to: 49.41 and support to: 46.575
+2025-08-06 11:45:28 INFO: {'GXO': {   'close': 49.52,
+    'high': 49.72,
+    'low': 49.52,
+    'open': 49.72,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 929.0,
+    'vwap': 49.622235}}
+2025-08-06 11:45:28 INFO: Current resistance is: 49.41 and support is: 46.575
+2025-08-06 11:45:28 INFO: Current average volume is: 585.89
+2025-08-06 11:45:28 INFO: The current close: 49.52 is above the resistance of 49.41, but volume isn't enough...
+2025-08-06 11:45:28 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 11:49:29 INFO: {'GXO': {   'close': 49.49,
+    'high': 49.49,
+    'low': 49.49,
+    'open': 49.49,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 49.49}}
+2025-08-06 11:49:29 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 11:49:29 INFO: Current average volume is: 577.37
+2025-08-06 11:49:29 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 11:52:30 INFO: {'GXO': {   'close': 49.355,
+    'high': 49.355,
+    'low': 49.355,
+    'open': 49.355,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 278.0,
+    'vwap': 49.355}}
+2025-08-06 11:52:30 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 11:52:30 INFO: Current average volume is: 572.21
+2025-08-06 11:52:30 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 11:58:30 INFO: {'GXO': {   'close': 49.45,
+    'high': 49.46,
+    'low': 49.45,
+    'open': 49.46,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 453.0,
+    'vwap': 49.455}}
+2025-08-06 11:58:30 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 11:58:30 INFO: Current average volume is: 570.19
+2025-08-06 11:58:30 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:02:31 INFO: {'GXO': {   'close': 49.15,
+    'high': 49.15,
+    'low': 49.15,
+    'open': 49.15,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 49.15}}
+2025-08-06 12:02:31 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:02:31 INFO: Current average volume is: 562.35
+2025-08-06 12:02:31 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:04:31 INFO: {'GXO': {   'close': 49.18,
+    'high': 49.18,
+    'low': 49.18,
+    'open': 49.18,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 245.0,
+    'vwap': 49.18}}
+2025-08-06 12:04:31 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:04:31 INFO: Current average volume is: 557.15
+2025-08-06 12:04:31 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:05:31 INFO: {'GXO': {   'close': 49.175,
+    'high': 49.175,
+    'low': 49.175,
+    'open': 49.175,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 170.0,
+    'vwap': 49.175}}
+2025-08-06 12:05:31 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:05:31 INFO: Current average volume is: 550.9
+2025-08-06 12:05:31 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:09:32 INFO: {'GXO': {   'close': 49.0,
+    'high': 49.0,
+    'low': 49.0,
+    'open': 49.0,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 225.0,
+    'vwap': 49.0}}
+2025-08-06 12:09:32 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:09:32 INFO: Current average volume is: 545.73
+2025-08-06 12:09:32 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:10:32 INFO: {'GXO': {   'close': 48.99,
+    'high': 48.99,
+    'low': 48.99,
+    'open': 48.99,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 176.0,
+    'vwap': 48.99}}
+2025-08-06 12:10:32 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:10:32 INFO: Current average volume is: 539.95
+2025-08-06 12:10:32 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:11:32 INFO: {'GXO': {   'close': 49.02,
+    'high': 49.02,
+    'low': 49.02,
+    'open': 49.02,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 283.0,
+    'vwap': 49.02}}
+2025-08-06 12:11:32 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:11:32 INFO: Current average volume is: 536.0
+2025-08-06 12:11:32 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:14:32 INFO: {'GXO': {   'close': 49.16,
+    'high': 49.16,
+    'low': 49.16,
+    'open': 49.16,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 49.16}}
+2025-08-06 12:14:32 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:14:32 INFO: Current average volume is: 529.42
+2025-08-06 12:14:32 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:15:32 INFO: {'GXO': {   'close': 49.13,
+    'high': 49.13,
+    'low': 49.13,
+    'open': 49.13,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 139.0,
+    'vwap': 49.13}}
+2025-08-06 12:15:32 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:15:32 INFO: Current average volume is: 523.6
+2025-08-06 12:15:32 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:19:33 INFO: {'GXO': {   'close': 49.165,
+    'high': 49.165,
+    'low': 49.165,
+    'open': 49.165,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 49.165}}
+2025-08-06 12:19:33 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:19:33 INFO: Current average volume is: 517.37
+2025-08-06 12:19:33 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:22:33 INFO: {'GXO': {   'close': 49.21,
+    'high': 49.21,
+    'low': 49.21,
+    'open': 49.21,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 148.0,
+    'vwap': 49.21}}
+2025-08-06 12:22:33 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:22:33 INFO: Current average volume is: 512.01
+2025-08-06 12:22:33 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:23:33 INFO: {'GXO': {   'close': 49.26,
+    'high': 49.26,
+    'low': 49.26,
+    'open': 49.26,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 444.0,
+    'vwap': 49.26}}
+2025-08-06 12:23:33 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:23:33 INFO: Current average volume is: 511.04
+2025-08-06 12:23:33 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:25:33 INFO: {'GXO': {   'close': 49.51,
+    'high': 49.51,
+    'low': 49.43,
+    'open': 49.43,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 234.0,
+    'vwap': 49.47}}
+2025-08-06 12:25:33 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:25:33 INFO: Current average volume is: 507.14
+2025-08-06 12:25:33 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:26:34 INFO: {'GXO': {   'close': 49.535,
+    'high': 49.535,
+    'low': 49.485,
+    'open': 49.485,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 399.0,
+    'vwap': 49.51}}
+2025-08-06 12:26:34 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:26:34 INFO: Current average volume is: 505.64
+2025-08-06 12:26:34 INFO: Updated resistance to: 49.72 and support to: 46.575
+2025-08-06 12:31:34 INFO: {'GXO': {   'close': 49.845,
+    'high': 49.845,
+    'low': 49.845,
+    'open': 49.845,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 171.0,
+    'vwap': 49.845}}
+2025-08-06 12:31:34 INFO: Current resistance is: 49.72 and support is: 46.575
+2025-08-06 12:31:34 INFO: Current average volume is: 501.05
+2025-08-06 12:31:34 INFO: The Current Close 49.845 is above the resistance...
+2025-08-06 12:31:34 INFO: Updated resistance to: 49.845 and support to: 46.575
+2025-08-06 12:34:05 INFO: {'GXO': {   'close': 49.81,
+    'high': 49.81,
+    'low': 49.81,
+    'open': 49.81,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 463.0,
+    'vwap': 49.81}}
+2025-08-06 12:34:05 INFO: Current resistance is: 49.845 and support is: 46.575
+2025-08-06 12:34:05 INFO: Current average volume is: 500.54
+2025-08-06 12:34:05 INFO: Updated resistance to: 49.845 and support to: 46.575
+2025-08-06 12:37:05 INFO: {'GXO': {   'close': 49.88,
+    'high': 49.88,
+    'low': 49.875,
+    'open': 49.875,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 453.0,
+    'vwap': 49.877273}}
+2025-08-06 12:37:05 INFO: Current resistance is: 49.845 and support is: 46.575
+2025-08-06 12:37:05 INFO: Current average volume is: 499.91
+2025-08-06 12:37:05 INFO: The Current Close 49.88 is above the resistance...
+2025-08-06 12:37:05 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:38:05 INFO: {'GXO': {   'close': 49.76,
+    'high': 49.84,
+    'low': 49.76,
+    'open': 49.835,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2016.0,
+    'vwap': 49.827}}
+2025-08-06 12:38:05 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:38:05 INFO: Current average volume is: 519.86
+2025-08-06 12:38:05 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:40:06 INFO: {'GXO': {   'close': 49.785,
+    'high': 49.785,
+    'low': 49.785,
+    'open': 49.785,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 131.0,
+    'vwap': 49.785}}
+2025-08-06 12:40:06 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:40:06 INFO: Current average volume is: 514.81
+2025-08-06 12:40:06 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:42:06 INFO: {'GXO': {   'close': 49.71,
+    'high': 49.71,
+    'low': 49.71,
+    'open': 49.71,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 49.71}}
+2025-08-06 12:42:06 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:42:06 INFO: Current average volume is: 509.49
+2025-08-06 12:42:06 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:45:06 INFO: {'GXO': {   'close': 49.69,
+    'high': 49.745,
+    'low': 49.69,
+    'open': 49.745,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 686.0,
+    'vwap': 49.725}}
+2025-08-06 12:45:06 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:45:06 INFO: Current average volume is: 511.72
+2025-08-06 12:45:06 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:47:07 INFO: {'GXO': {   'close': 49.66,
+    'high': 49.66,
+    'low': 49.66,
+    'open': 49.66,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 49.66}}
+2025-08-06 12:47:07 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:47:07 INFO: Current average volume is: 506.57
+2025-08-06 12:47:07 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:48:07 INFO: {'GXO': {   'close': 49.575,
+    'high': 49.575,
+    'low': 49.575,
+    'open': 49.575,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 49.575}}
+2025-08-06 12:48:07 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:48:07 INFO: Current average volume is: 501.56
+2025-08-06 12:48:07 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:50:07 INFO: {'GXO': {   'close': 49.59,
+    'high': 49.59,
+    'low': 49.535,
+    'open': 49.55,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 377.0,
+    'vwap': 49.556538}}
+2025-08-06 12:50:07 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:50:07 INFO: Current average volume is: 500.04
+2025-08-06 12:50:07 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:51:07 INFO: {'GXO': {   'close': 49.62,
+    'high': 49.62,
+    'low': 49.54,
+    'open': 49.54,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 875.0,
+    'vwap': 49.5889}}
+2025-08-06 12:51:07 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:51:07 INFO: Current average volume is: 504.55
+2025-08-06 12:51:07 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:55:07 INFO: {'GXO': {   'close': 49.76,
+    'high': 49.76,
+    'low': 49.72,
+    'open': 49.72,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 239.0,
+    'vwap': 49.74}}
+2025-08-06 12:55:07 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:55:07 INFO: Current average volume is: 501.39
+2025-08-06 12:55:07 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:56:08 INFO: {'GXO': {   'close': 49.79,
+    'high': 49.79,
+    'low': 49.79,
+    'open': 49.79,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 218.0,
+    'vwap': 49.79}}
+2025-08-06 12:56:08 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:56:08 INFO: Current average volume is: 498.06
+2025-08-06 12:56:08 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 12:59:08 INFO: {'GXO': {   'close': 49.85,
+    'high': 49.86,
+    'low': 49.805,
+    'open': 49.805,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 491.0,
+    'vwap': 49.833802}}
+2025-08-06 12:59:08 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 12:59:08 INFO: Current average volume is: 497.98
+2025-08-06 12:59:08 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 13:01:08 INFO: {'GXO': {   'close': 49.84,
+    'high': 49.84,
+    'low': 49.84,
+    'open': 49.84,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 318.0,
+    'vwap': 49.84}}
+2025-08-06 13:01:08 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 13:01:08 INFO: Current average volume is: 495.91
+2025-08-06 13:01:08 INFO: Updated resistance to: 49.88 and support to: 46.575
+2025-08-06 13:08:09 INFO: {'GXO': {   'close': 49.885,
+    'high': 49.885,
+    'low': 49.885,
+    'open': 49.885,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 135.0,
+    'vwap': 49.885}}
+2025-08-06 13:08:09 INFO: Current resistance is: 49.88 and support is: 46.575
+2025-08-06 13:08:09 INFO: Current average volume is: 491.81
+2025-08-06 13:08:09 INFO: The Current Close 49.885 is above the resistance...
+2025-08-06 13:08:09 INFO: Updated resistance to: 49.885 and support to: 46.575
+2025-08-06 13:14:10 INFO: {'GXO': {   'close': 49.815,
+    'high': 49.815,
+    'low': 49.815,
+    'open': 49.815,
+    'symbol': 'GXO',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 49.815}}
+2025-08-06 13:14:10 INFO: Current resistance is: 49.885 and support is: 46.575
+2025-08-06 13:14:10 INFO: Current average volume is: 487.4
+2025-08-06 13:14:10 INFO: Updated resistance to: 49.885 and support to: 46.575

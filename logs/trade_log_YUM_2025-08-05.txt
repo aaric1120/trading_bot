@@ -1,0 +1,1044 @@
+2025-08-05 10:44:38 INFO: === Strategy started ===
+2025-08-05 10:44:38 INFO: Start collecting the current highs/lows for: YUM
+2025-08-05 10:44:38 INFO: Most recent stock data: {'YUM': {   'close': 144.5,
+    'high': 144.5,
+    'low': 144.5,
+    'open': 144.5,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 144.5}}
+2025-08-05 10:46:39 INFO: Most recent stock data: {'YUM': {   'close': 144.29,
+    'high': 144.29,
+    'low': 144.29,
+    'open': 144.29,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 113.0,
+    'vwap': 144.29}}
+2025-08-05 10:48:40 INFO: Most recent stock data: {'YUM': {   'close': 144.27,
+    'high': 144.27,
+    'low': 144.27,
+    'open': 144.27,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 117.0,
+    'vwap': 144.27}}
+2025-08-05 10:49:40 INFO: Most recent stock data: {'YUM': {   'close': 144.36,
+    'high': 144.36,
+    'low': 144.36,
+    'open': 144.36,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 217.0,
+    'vwap': 144.36}}
+2025-08-05 10:51:40 INFO: Most recent stock data: {'YUM': {   'close': 144.19,
+    'high': 144.19,
+    'low': 144.19,
+    'open': 144.19,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 306.0,
+    'vwap': 144.19}}
+2025-08-05 10:52:40 INFO: Most recent stock data: {'YUM': {   'close': 144.1,
+    'high': 144.1,
+    'low': 144.1,
+    'open': 144.1,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 161.0,
+    'vwap': 144.1}}
+2025-08-05 10:54:40 INFO: Most recent stock data: {'YUM': {   'close': 143.09,
+    'high': 143.36,
+    'low': 143.09,
+    'open': 143.36,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 861.0,
+    'vwap': 143.152}}
+2025-08-05 10:56:41 INFO: Most recent stock data: {'YUM': {   'close': 142.67,
+    'high': 142.67,
+    'low': 142.67,
+    'open': 142.67,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 857.0,
+    'vwap': 142.67}}
+2025-08-05 10:57:41 INFO: Most recent stock data: {'YUM': {   'close': 142.505,
+    'high': 142.505,
+    'low': 142.505,
+    'open': 142.505,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 185.0,
+    'vwap': 142.505}}
+2025-08-05 11:00:41 INFO: Most recent stock data: {'YUM': {   'close': 142.48,
+    'high': 142.48,
+    'low': 142.46,
+    'open': 142.47,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 784.0,
+    'vwap': 142.473182}}
+2025-08-05 11:01:41 INFO: Most recent stock data: {'YUM': {   'close': 142.31,
+    'high': 142.57,
+    'low': 142.31,
+    'open': 142.57,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 371.0,
+    'vwap': 142.44}}
+2025-08-05 11:01:41 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 11:01:41 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 11:02:41 INFO: {'YUM': {   'close': 142.33,
+    'high': 142.455,
+    'low': 142.33,
+    'open': 142.45,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 650.0,
+    'vwap': 142.39375}}
+2025-08-05 11:02:41 INFO: Current resistance is: 141.86 and support is: 142.055
+2025-08-05 11:02:41 INFO: Current average volume is: 385.17
+2025-08-05 11:02:41 INFO: The Current Close 142.33 is above the resistance...
+2025-08-05 11:02:41 INFO: Updated resistance to: 141.769 and support to: 141.826
+2025-08-05 11:04:12 INFO: {'YUM': {   'close': 141.955,
+    'high': 142.085,
+    'low': 141.955,
+    'open': 142.085,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1145.0,
+    'vwap': 141.997574}}
+2025-08-05 11:04:12 INFO: Current resistance is: 141.769 and support is: 141.826
+2025-08-05 11:04:12 INFO: Current average volume is: 443.62
+2025-08-05 11:04:12 INFO: The current close: 141.955 is above the resistance of 141.769, but volume isn't enough...
+2025-08-05 11:04:12 INFO: Updated resistance to: 141.578 and support to: 141.716
+2025-08-05 11:05:12 INFO: {'YUM': {   'close': 141.81,
+    'high': 141.81,
+    'low': 141.81,
+    'open': 141.81,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 328.0,
+    'vwap': 141.81}}
+2025-08-05 11:05:12 INFO: Current resistance is: 141.578 and support is: 141.716
+2025-08-05 11:05:12 INFO: Current average volume is: 435.36
+2025-08-05 11:05:12 INFO: The current close: 141.81 is above the resistance of 141.578, but volume isn't enough...
+2025-08-05 11:05:12 INFO: Updated resistance to: 141.358 and support to: 141.576
+2025-08-05 11:06:12 INFO: {'YUM': {   'close': 142.11,
+    'high': 142.11,
+    'low': 141.865,
+    'open': 141.865,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 529.0,
+    'vwap': 141.956078}}
+2025-08-05 11:06:12 INFO: Current resistance is: 141.358 and support is: 141.576
+2025-08-05 11:06:12 INFO: Current average volume is: 441.6
+2025-08-05 11:06:12 INFO: The current close: 142.11 is above the resistance of 141.358, but volume isn't enough...
+2025-08-05 11:06:12 INFO: Updated resistance to: 141.333 and support to: 141.363
+2025-08-05 11:07:12 INFO: {'YUM': {   'close': 141.97,
+    'high': 141.97,
+    'low': 141.97,
+    'open': 141.97,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 141.97}}
+2025-08-05 11:07:12 INFO: Current resistance is: 141.333 and support is: 141.363
+2025-08-05 11:07:12 INFO: Current average volume is: 420.25
+2025-08-05 11:07:12 INFO: The current close: 141.97 is above the resistance of 141.333, but volume isn't enough...
+2025-08-05 11:07:13 INFO: Updated resistance to: 141.29 and support to: 141.183
+2025-08-05 11:08:13 INFO: {'YUM': {   'close': 141.555,
+    'high': 141.56,
+    'low': 141.555,
+    'open': 141.56,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 776.0,
+    'vwap': 141.55823}}
+2025-08-05 11:08:13 INFO: Current resistance is: 141.29 and support is: 141.183
+2025-08-05 11:08:13 INFO: Current average volume is: 441.18
+2025-08-05 11:08:13 INFO: The current close: 141.555 is above the resistance of 141.29, but volume isn't enough...
+2025-08-05 11:08:13 INFO: Updated resistance to: 141.142 and support to: 141.352
+2025-08-05 11:11:13 INFO: {'YUM': {   'close': 141.56,
+    'high': 141.61,
+    'low': 141.46,
+    'open': 141.5,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 988.0,
+    'vwap': 141.548}}
+2025-08-05 11:11:13 INFO: Current resistance is: 141.142 and support is: 141.352
+2025-08-05 11:11:13 INFO: Current average volume is: 471.56
+2025-08-05 11:11:13 INFO: The current close: 141.56 is above the resistance of 141.142, but volume isn't enough...
+2025-08-05 11:11:13 INFO: Updated resistance to: 141.062 and support to: 141.262
+2025-08-05 11:13:14 INFO: {'YUM': {   'close': 141.26,
+    'high': 141.51,
+    'low': 141.26,
+    'open': 141.51,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 725.0,
+    'vwap': 141.455}}
+2025-08-05 11:13:14 INFO: Current resistance is: 141.062 and support is: 141.262
+2025-08-05 11:13:14 INFO: Current average volume is: 484.89
+2025-08-05 11:13:14 INFO: The current close: 141.26 is above the resistance of 141.062, but volume isn't enough...
+2025-08-05 11:13:14 INFO: Updated resistance to: 140.986 and support to: 141.067
+2025-08-05 11:14:14 INFO: {'YUM': {   'close': 141.225,
+    'high': 141.225,
+    'low': 141.225,
+    'open': 141.225,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1300.0,
+    'vwap': 141.225}}
+2025-08-05 11:14:14 INFO: Current resistance is: 140.986 and support is: 141.067
+2025-08-05 11:14:14 INFO: Current average volume is: 525.65
+2025-08-05 11:14:14 INFO: The current close: 141.225 is above the resistance of 140.986, but volume isn't enough...
+2025-08-05 11:14:14 INFO: Updated resistance to: 140.862 and support to: 141.037
+2025-08-05 11:15:14 INFO: {'YUM': {   'close': 140.965,
+    'high': 141.07,
+    'low': 140.94,
+    'open': 140.94,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1032.0,
+    'vwap': 140.994545}}
+2025-08-05 11:15:14 INFO: Current resistance is: 140.862 and support is: 141.037
+2025-08-05 11:15:14 INFO: Current average volume is: 549.76
+2025-08-05 11:15:14 INFO: The current close: 140.965 is above the resistance of 140.862, but volume isn't enough...
+2025-08-05 11:15:14 INFO: Updated resistance to: 140.734 and support to: 140.755
+2025-08-05 11:16:15 INFO: {'YUM': {   'close': 140.92,
+    'high': 140.92,
+    'low': 140.88,
+    'open': 140.92,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3749.0,
+    'vwap': 140.904108}}
+2025-08-05 11:16:15 INFO: Current resistance is: 140.734 and support is: 140.755
+2025-08-05 11:16:15 INFO: Current average volume is: 695.18
+2025-08-05 11:16:15 INFO: The current close: 140.92 is above the resistance of 140.734, but volume isn't enough...
+2025-08-05 11:16:15 INFO: Updated resistance to: 140.605 and support to: 140.698
+2025-08-05 11:17:15 INFO: {'YUM': {   'close': 140.82,
+    'high': 140.82,
+    'low': 140.82,
+    'open': 140.82,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 249.0,
+    'vwap': 140.82}}
+2025-08-05 11:17:15 INFO: Current resistance is: 140.605 and support is: 140.698
+2025-08-05 11:17:15 INFO: Current average volume is: 675.78
+2025-08-05 11:17:15 INFO: The current close: 140.82 is above the resistance of 140.605, but volume isn't enough...
+2025-08-05 11:17:15 INFO: Updated resistance to: 140.487 and support to: 140.642
+2025-08-05 11:18:15 INFO: {'YUM': {   'close': 140.665,
+    'high': 140.665,
+    'low': 140.665,
+    'open': 140.665,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 704.0,
+    'vwap': 140.665}}
+2025-08-05 11:18:15 INFO: Current resistance is: 140.487 and support is: 140.642
+2025-08-05 11:18:15 INFO: Current average volume is: 676.96
+2025-08-05 11:18:15 INFO: The current close: 140.665 is above the resistance of 140.487, but volume isn't enough...
+2025-08-05 11:18:15 INFO: Updated resistance to: 140.365 and support to: 140.49
+2025-08-05 11:19:15 INFO: {'YUM': {   'close': 140.29,
+    'high': 140.52,
+    'low': 140.27,
+    'open': 140.5,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2618.0,
+    'vwap': 140.362857}}
+2025-08-05 11:19:15 INFO: Current resistance is: 140.365 and support is: 140.49
+2025-08-05 11:19:15 INFO: Current average volume is: 754.6
+2025-08-05 11:19:15 INFO: close price: 140.29 just dropped below support of 140.49...
+2025-08-05 11:20:15 INFO: {'YUM': {   'close': 140.22,
+    'high': 140.22,
+    'low': 140.22,
+    'open': 140.22,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 140.22}}
+2025-08-05 11:20:15 INFO: Current resistance is: 140.365 and support is: 140.49
+2025-08-05 11:20:15 INFO: Current average volume is: 729.42
+2025-08-05 11:20:15 INFO: Closing price: 140.22 just dropped below support 140.49 again...ending trade...
+2025-08-05 11:44:34 INFO: === Strategy started ===
+2025-08-05 11:44:34 INFO: Start collecting the current highs/lows for: YUM
+2025-08-05 11:44:34 INFO: Most recent stock data: {'YUM': {   'close': 141.565,
+    'high': 141.565,
+    'low': 141.565,
+    'open': 141.565,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 267.0,
+    'vwap': 141.565}}
+2025-08-05 11:46:34 INFO: Most recent stock data: {'YUM': {   'close': 141.36,
+    'high': 141.49,
+    'low': 141.36,
+    'open': 141.49,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 337.0,
+    'vwap': 141.425}}
+2025-08-05 11:48:35 INFO: Most recent stock data: {'YUM': {   'close': 141.57,
+    'high': 141.57,
+    'low': 141.54,
+    'open': 141.57,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 805.0,
+    'vwap': 141.56125}}
+2025-08-05 11:52:35 INFO: Most recent stock data: {'YUM': {   'close': 141.16,
+    'high': 141.16,
+    'low': 141.16,
+    'open': 141.16,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 141.16}}
+2025-08-05 11:53:35 INFO: Most recent stock data: {'YUM': {   'close': 141.255,
+    'high': 141.3,
+    'low': 141.255,
+    'open': 141.3,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 570.0,
+    'vwap': 141.264}}
+2025-08-05 11:57:36 INFO: Most recent stock data: {'YUM': {   'close': 141.29,
+    'high': 141.29,
+    'low': 141.165,
+    'open': 141.22,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 942.0,
+    'vwap': 141.213333}}
+2025-08-05 11:59:36 INFO: Most recent stock data: {'YUM': {   'close': 141.41,
+    'high': 141.46,
+    'low': 141.41,
+    'open': 141.46,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 250.0,
+    'vwap': 141.435}}
+2025-08-05 12:01:36 INFO: Most recent stock data: {'YUM': {   'close': 141.505,
+    'high': 141.505,
+    'low': 141.505,
+    'open': 141.505,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 522.0,
+    'vwap': 141.505}}
+2025-08-05 12:02:36 INFO: Most recent stock data: {'YUM': {   'close': 141.6,
+    'high': 141.6,
+    'low': 141.365,
+    'open': 141.365,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 501.0,
+    'vwap': 141.517}}
+2025-08-05 12:04:37 INFO: Most recent stock data: {'YUM': {   'close': 141.6,
+    'high': 141.64,
+    'low': 141.6,
+    'open': 141.64,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 729.0,
+    'vwap': 141.613333}}
+2025-08-05 12:05:37 INFO: Most recent stock data: {'YUM': {   'close': 141.22,
+    'high': 141.51,
+    'low': 141.22,
+    'open': 141.51,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 653.0,
+    'vwap': 141.442996}}
+2025-08-05 12:05:37 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 12:05:37 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-05 12:06:37 INFO: {'YUM': {   'close': 141.18,
+    'high': 141.18,
+    'low': 141.09,
+    'open': 141.09,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 506.0,
+    'vwap': 141.135}}
+2025-08-05 12:06:37 INFO: Current resistance is: 141.64 and support is: 141.16
+2025-08-05 12:06:37 INFO: Current average volume is: 492.92
+2025-08-05 12:06:37 INFO: Updated resistance to: 141.64 and support to: 141.09
+2025-08-05 12:07:37 INFO: {'YUM': {   'close': 141.33,
+    'high': 141.33,
+    'low': 141.27,
+    'open': 141.27,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 552.0,
+    'vwap': 141.3125}}
+2025-08-05 12:07:37 INFO: Current resistance is: 141.64 and support is: 141.09
+2025-08-05 12:07:37 INFO: Current average volume is: 497.46
+2025-08-05 12:07:37 INFO: Updated resistance to: 141.64 and support to: 141.09
+2025-08-05 12:08:37 INFO: {'YUM': {   'close': 141.81,
+    'high': 141.81,
+    'low': 141.74,
+    'open': 141.74,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 463.0,
+    'vwap': 141.775}}
+2025-08-05 12:08:37 INFO: Current resistance is: 141.64 and support is: 141.09
+2025-08-05 12:08:37 INFO: Current average volume is: 495.0
+2025-08-05 12:08:37 INFO: The Current Close 141.81 is above the resistance...
+2025-08-05 12:08:37 INFO: Updated resistance to: 141.81 and support to: 141.09
+2025-08-05 12:09:07 INFO: {'YUM': {   'close': 141.79,
+    'high': 141.79,
+    'low': 141.79,
+    'open': 141.79,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 352.0,
+    'vwap': 141.79}}
+2025-08-05 12:09:07 INFO: Current resistance is: 141.81 and support is: 141.09
+2025-08-05 12:09:07 INFO: Current average volume is: 485.47
+2025-08-05 12:09:07 INFO: Updated resistance to: 141.81 and support to: 141.09
+2025-08-05 12:10:07 INFO: {'YUM': {   'close': 141.52,
+    'high': 141.61,
+    'low': 141.52,
+    'open': 141.61,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 370.0,
+    'vwap': 141.565}}
+2025-08-05 12:10:07 INFO: Current resistance is: 141.81 and support is: 141.09
+2025-08-05 12:10:07 INFO: Current average volume is: 478.25
+2025-08-05 12:10:07 INFO: Updated resistance to: 141.81 and support to: 141.09
+2025-08-05 12:12:08 INFO: {'YUM': {   'close': 141.21,
+    'high': 141.21,
+    'low': 141.07,
+    'open': 141.09,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 747.0,
+    'vwap': 141.11}}
+2025-08-05 12:12:08 INFO: Current resistance is: 141.81 and support is: 141.09
+2025-08-05 12:12:08 INFO: Current average volume is: 494.06
+2025-08-05 12:12:08 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:13:08 INFO: {'YUM': {   'close': 141.36,
+    'high': 141.36,
+    'low': 141.17,
+    'open': 141.17,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 393.0,
+    'vwap': 141.273333}}
+2025-08-05 12:13:08 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:13:08 INFO: Current average volume is: 488.44
+2025-08-05 12:13:08 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:14:08 INFO: {'YUM': {   'close': 141.6,
+    'high': 141.6,
+    'low': 141.45,
+    'open': 141.45,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 942.0,
+    'vwap': 141.563895}}
+2025-08-05 12:14:08 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:14:08 INFO: Current average volume is: 512.32
+2025-08-05 12:14:08 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:15:08 INFO: {'YUM': {   'close': 141.585,
+    'high': 141.585,
+    'low': 141.585,
+    'open': 141.585,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 151.0,
+    'vwap': 141.585}}
+2025-08-05 12:15:08 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:15:08 INFO: Current average volume is: 494.25
+2025-08-05 12:15:08 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:17:08 INFO: {'YUM': {   'close': 141.565,
+    'high': 141.565,
+    'low': 141.495,
+    'open': 141.495,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 800.0,
+    'vwap': 141.51625}}
+2025-08-05 12:17:08 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:17:08 INFO: Current average volume is: 508.81
+2025-08-05 12:17:08 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:18:08 INFO: {'YUM': {   'close': 141.3,
+    'high': 141.485,
+    'low': 141.27,
+    'open': 141.485,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2900.0,
+    'vwap': 141.3804}}
+2025-08-05 12:18:08 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:18:08 INFO: Current average volume is: 617.5
+2025-08-05 12:18:08 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:20:09 INFO: {'YUM': {   'close': 141.55,
+    'high': 141.55,
+    'low': 141.3,
+    'open': 141.38,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 2107.0,
+    'vwap': 141.439583}}
+2025-08-05 12:20:09 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:20:09 INFO: Current average volume is: 682.26
+2025-08-05 12:20:09 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:22:09 INFO: {'YUM': {   'close': 141.425,
+    'high': 141.505,
+    'low': 141.355,
+    'open': 141.505,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 997.0,
+    'vwap': 141.430573}}
+2025-08-05 12:22:09 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:22:09 INFO: Current average volume is: 695.38
+2025-08-05 12:22:09 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:23:09 INFO: {'YUM': {   'close': 141.38,
+    'high': 141.56,
+    'low': 141.38,
+    'open': 141.45,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 861.0,
+    'vwap': 141.51}}
+2025-08-05 12:23:09 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:23:09 INFO: Current average volume is: 702.0
+2025-08-05 12:23:09 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:24:09 INFO: {'YUM': {   'close': 141.49,
+    'high': 141.59,
+    'low': 141.49,
+    'open': 141.59,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 530.0,
+    'vwap': 141.556667}}
+2025-08-05 12:24:09 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:24:09 INFO: Current average volume is: 695.38
+2025-08-05 12:24:09 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:25:09 INFO: {'YUM': {   'close': 141.47,
+    'high': 141.47,
+    'low': 141.47,
+    'open': 141.47,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 141.47}}
+2025-08-05 12:25:09 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:25:09 INFO: Current average volume is: 674.07
+2025-08-05 12:25:09 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:26:09 INFO: {'YUM': {   'close': 141.54,
+    'high': 141.54,
+    'low': 141.43,
+    'open': 141.43,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 639.0,
+    'vwap': 141.5075}}
+2025-08-05 12:26:09 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:26:09 INFO: Current average volume is: 672.82
+2025-08-05 12:26:09 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:28:10 INFO: {'YUM': {   'close': 141.8,
+    'high': 141.8,
+    'low': 141.67,
+    'open': 141.67,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1007.0,
+    'vwap': 141.771667}}
+2025-08-05 12:28:10 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:28:10 INFO: Current average volume is: 684.34
+2025-08-05 12:28:10 INFO: Updated resistance to: 141.81 and support to: 141.07
+2025-08-05 12:29:10 INFO: {'YUM': {   'close': 141.87,
+    'high': 141.87,
+    'low': 141.85,
+    'open': 141.85,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 234.0,
+    'vwap': 141.86}}
+2025-08-05 12:29:10 INFO: Current resistance is: 141.81 and support is: 141.07
+2025-08-05 12:29:10 INFO: Current average volume is: 669.33
+2025-08-05 12:29:10 INFO: The Current Close 141.87 is above the resistance...
+2025-08-05 12:29:10 INFO: Updated resistance to: 141.87 and support to: 141.07
+2025-08-05 12:34:11 INFO: {'YUM': {   'close': 142.8,
+    'high': 142.8,
+    'low': 142.42,
+    'open': 142.42,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 432.0,
+    'vwap': 142.61}}
+2025-08-05 12:34:11 INFO: Current resistance is: 141.87 and support is: 141.07
+2025-08-05 12:34:11 INFO: Current average volume is: 661.68
+2025-08-05 12:34:11 INFO: The current close: 142.8 is above the resistance of 141.87, but volume isn't enough...
+2025-08-05 12:34:11 INFO: Updated resistance to: 142.8 and support to: 141.07
+2025-08-05 12:35:11 INFO: {'YUM': {   'close': 142.75,
+    'high': 142.75,
+    'low': 142.75,
+    'open': 142.75,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 142.75}}
+2025-08-05 12:35:11 INFO: Current resistance is: 142.8 and support is: 141.07
+2025-08-05 12:35:11 INFO: Current average volume is: 644.12
+2025-08-05 12:35:11 INFO: Updated resistance to: 142.8 and support to: 141.07
+2025-08-05 12:36:11 INFO: {'YUM': {   'close': 142.59,
+    'high': 142.59,
+    'low': 142.59,
+    'open': 142.59,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 237.0,
+    'vwap': 142.59}}
+2025-08-05 12:36:11 INFO: Current resistance is: 142.8 and support is: 141.07
+2025-08-05 12:36:11 INFO: Current average volume is: 631.79
+2025-08-05 12:36:11 INFO: Updated resistance to: 142.8 and support to: 141.07
+2025-08-05 12:39:12 INFO: {'YUM': {   'close': 142.86,
+    'high': 142.86,
+    'low': 142.86,
+    'open': 142.86,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 129.0,
+    'vwap': 142.86}}
+2025-08-05 12:39:12 INFO: Current resistance is: 142.8 and support is: 141.07
+2025-08-05 12:39:12 INFO: Current average volume is: 617.0
+2025-08-05 12:39:12 INFO: The Current Close 142.86 is above the resistance...
+2025-08-05 12:39:12 INFO: Updated resistance to: 142.86 and support to: 141.07
+2025-08-05 12:42:12 INFO: {'YUM': {   'close': 142.74,
+    'high': 142.74,
+    'low': 142.74,
+    'open': 142.74,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 204.0,
+    'vwap': 142.74}}
+2025-08-05 12:42:12 INFO: Current resistance is: 142.86 and support is: 141.07
+2025-08-05 12:42:12 INFO: Current average volume is: 605.2
+2025-08-05 12:42:12 INFO: Updated resistance to: 142.86 and support to: 141.07
+2025-08-05 12:43:12 INFO: {'YUM': {   'close': 142.76,
+    'high': 142.76,
+    'low': 142.76,
+    'open': 142.76,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 124.0,
+    'vwap': 142.76}}
+2025-08-05 12:43:12 INFO: Current resistance is: 142.86 and support is: 141.07
+2025-08-05 12:43:12 INFO: Current average volume is: 591.83
+2025-08-05 12:43:12 INFO: Updated resistance to: 142.86 and support to: 141.07
+2025-08-05 12:47:13 INFO: {'YUM': {   'close': 143.16,
+    'high': 143.16,
+    'low': 143.16,
+    'open': 143.16,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 379.0,
+    'vwap': 143.16}}
+2025-08-05 12:47:13 INFO: Current resistance is: 142.86 and support is: 141.07
+2025-08-05 12:47:13 INFO: Current average volume is: 586.08
+2025-08-05 12:47:13 INFO: The Current Close 143.16 is above the resistance...
+2025-08-05 12:47:13 INFO: Updated resistance to: 143.16 and support to: 141.07
+2025-08-05 12:48:13 INFO: {'YUM': {   'close': 143.05,
+    'high': 143.05,
+    'low': 143.05,
+    'open': 143.05,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 143.05}}
+2025-08-05 12:48:13 INFO: Current resistance is: 143.16 and support is: 141.07
+2025-08-05 12:48:13 INFO: Current average volume is: 573.29
+2025-08-05 12:48:13 INFO: Updated resistance to: 143.16 and support to: 141.07
+2025-08-05 12:52:14 INFO: {'YUM': {   'close': 143.2,
+    'high': 143.2,
+    'low': 143.2,
+    'open': 143.2,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 131.0,
+    'vwap': 143.2}}
+2025-08-05 12:52:14 INFO: Current resistance is: 143.16 and support is: 141.07
+2025-08-05 12:52:14 INFO: Current average volume is: 561.95
+2025-08-05 12:52:14 INFO: The Current Close 143.2 is above the resistance...
+2025-08-05 12:52:14 INFO: Updated resistance to: 143.2 and support to: 141.07
+2025-08-05 12:54:14 INFO: {'YUM': {   'close': 143.26,
+    'high': 143.26,
+    'low': 143.26,
+    'open': 143.26,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 475.0,
+    'vwap': 143.26}}
+2025-08-05 12:54:14 INFO: Current resistance is: 143.2 and support is: 141.07
+2025-08-05 12:54:14 INFO: Current average volume is: 559.77
+2025-08-05 12:54:14 INFO: The current close: 143.26 is above the resistance of 143.2, but volume isn't enough...
+2025-08-05 12:54:14 INFO: Updated resistance to: 143.26 and support to: 141.07
+2025-08-05 12:55:14 INFO: {'YUM': {   'close': 143.17,
+    'high': 143.2,
+    'low': 143.17,
+    'open': 143.2,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 310.0,
+    'vwap': 143.186667}}
+2025-08-05 12:55:14 INFO: Current resistance is: 143.26 and support is: 141.07
+2025-08-05 12:55:14 INFO: Current average volume is: 553.68
+2025-08-05 12:55:14 INFO: Updated resistance to: 143.26 and support to: 141.07
+2025-08-05 12:57:15 INFO: {'YUM': {   'close': 143.46,
+    'high': 143.46,
+    'low': 143.46,
+    'open': 143.46,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 304.0,
+    'vwap': 143.46}}
+2025-08-05 12:57:15 INFO: Current resistance is: 143.26 and support is: 141.07
+2025-08-05 12:57:15 INFO: Current average volume is: 547.74
+2025-08-05 12:57:15 INFO: The Current Close 143.46 is above the resistance...
+2025-08-05 12:57:15 INFO: Updated resistance to: 143.46 and support to: 141.07
+2025-08-05 12:58:15 INFO: {'YUM': {   'close': 143.665,
+    'high': 143.665,
+    'low': 143.665,
+    'open': 143.665,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 307.0,
+    'vwap': 143.665}}
+2025-08-05 12:58:15 INFO: Current resistance is: 143.46 and support is: 141.07
+2025-08-05 12:58:15 INFO: Current average volume is: 542.14
+2025-08-05 12:58:15 INFO: The current close: 143.665 is above the resistance of 143.46, but volume isn't enough...
+2025-08-05 12:58:15 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 12:59:15 INFO: {'YUM': {   'close': 143.45,
+    'high': 143.46,
+    'low': 143.45,
+    'open': 143.46,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 143.455}}
+2025-08-05 12:59:15 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 12:59:15 INFO: Current average volume is: 534.59
+2025-08-05 12:59:15 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:03:16 INFO: {'YUM': {   'close': 143.125,
+    'high': 143.125,
+    'low': 143.125,
+    'open': 143.125,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 452.0,
+    'vwap': 143.125}}
+2025-08-05 13:03:16 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:03:16 INFO: Current average volume is: 532.76
+2025-08-05 13:03:16 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:04:16 INFO: {'YUM': {   'close': 143.11,
+    'high': 143.11,
+    'low': 143.11,
+    'open': 143.11,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 563.0,
+    'vwap': 143.11}}
+2025-08-05 13:04:16 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:04:16 INFO: Current average volume is: 533.41
+2025-08-05 13:04:16 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:05:16 INFO: {'YUM': {   'close': 143.01,
+    'high': 143.13,
+    'low': 143.01,
+    'open': 143.13,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 525.0,
+    'vwap': 143.071333}}
+2025-08-05 13:05:16 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:05:16 INFO: Current average volume is: 533.23
+2025-08-05 13:05:16 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:06:16 INFO: {'YUM': {   'close': 143.1,
+    'high': 143.1,
+    'low': 143.1,
+    'open': 143.1,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 366.0,
+    'vwap': 143.1}}
+2025-08-05 13:06:16 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:06:16 INFO: Current average volume is: 529.75
+2025-08-05 13:06:16 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:10:17 INFO: {'YUM': {   'close': 142.89,
+    'high': 143.13,
+    'low': 142.89,
+    'open': 143.13,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 234.0,
+    'vwap': 143.01}}
+2025-08-05 13:10:17 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:10:17 INFO: Current average volume is: 523.71
+2025-08-05 13:10:17 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:12:17 INFO: {'YUM': {   'close': 142.83,
+    'high': 142.84,
+    'low': 142.83,
+    'open': 142.84,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 271.0,
+    'vwap': 142.835}}
+2025-08-05 13:12:17 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:12:17 INFO: Current average volume is: 518.66
+2025-08-05 13:12:17 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:13:17 INFO: {'YUM': {   'close': 142.3,
+    'high': 142.48,
+    'low': 142.29,
+    'open': 142.48,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 704.0,
+    'vwap': 142.368}}
+2025-08-05 13:13:17 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:13:17 INFO: Current average volume is: 522.29
+2025-08-05 13:13:17 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:14:17 INFO: {'YUM': {   'close': 142.27,
+    'high': 142.27,
+    'low': 142.205,
+    'open': 142.21,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 701.0,
+    'vwap': 142.217977}}
+2025-08-05 13:14:17 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:14:17 INFO: Current average volume is: 525.73
+2025-08-05 13:14:17 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:18:18 INFO: {'YUM': {   'close': 142.555,
+    'high': 142.555,
+    'low': 142.555,
+    'open': 142.555,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 142.555}}
+2025-08-05 13:18:18 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:18:18 INFO: Current average volume is: 519.58
+2025-08-05 13:18:18 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:19:18 INFO: {'YUM': {   'close': 142.19,
+    'high': 142.64,
+    'low': 142.19,
+    'open': 142.57,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 848.0,
+    'vwap': 142.402}}
+2025-08-05 13:19:18 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:19:18 INFO: Current average volume is: 525.67
+2025-08-05 13:19:18 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:21:18 INFO: {'YUM': {   'close': 142.03,
+    'high': 142.03,
+    'low': 142.03,
+    'open': 142.03,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 142.03}}
+2025-08-05 13:21:18 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:21:18 INFO: Current average volume is: 519.93
+2025-08-05 13:21:18 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:22:18 INFO: {'YUM': {   'close': 141.845,
+    'high': 142.025,
+    'low': 141.845,
+    'open': 142.025,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 784.0,
+    'vwap': 141.965}}
+2025-08-05 13:22:18 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:22:18 INFO: Current average volume is: 524.64
+2025-08-05 13:22:18 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:24:18 INFO: {'YUM': {   'close': 141.32,
+    'high': 141.32,
+    'low': 141.3,
+    'open': 141.3,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 478.0,
+    'vwap': 141.310582}}
+2025-08-05 13:24:18 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:24:18 INFO: Current average volume is: 523.82
+2025-08-05 13:24:18 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:27:19 INFO: {'YUM': {   'close': 141.34,
+    'high': 141.34,
+    'low': 141.34,
+    'open': 141.34,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 141.34}}
+2025-08-05 13:27:19 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:27:19 INFO: Current average volume is: 516.52
+2025-08-05 13:27:19 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:28:19 INFO: {'YUM': {   'close': 141.415,
+    'high': 141.415,
+    'low': 141.415,
+    'open': 141.415,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 443.0,
+    'vwap': 141.415}}
+2025-08-05 13:28:19 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:28:19 INFO: Current average volume is: 515.27
+2025-08-05 13:28:19 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:29:19 INFO: {'YUM': {   'close': 141.7,
+    'high': 141.7,
+    'low': 141.7,
+    'open': 141.7,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 141.7}}
+2025-08-05 13:29:19 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:29:19 INFO: Current average volume is: 508.35
+2025-08-05 13:29:19 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:30:19 INFO: {'YUM': {   'close': 141.49,
+    'high': 141.64,
+    'low': 141.49,
+    'open': 141.64,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 392.0,
+    'vwap': 141.565}}
+2025-08-05 13:30:19 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:30:19 INFO: Current average volume is: 506.44
+2025-08-05 13:30:19 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:34:20 INFO: {'YUM': {   'close': 141.295,
+    'high': 141.295,
+    'low': 141.295,
+    'open': 141.295,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 131.0,
+    'vwap': 141.295}}
+2025-08-05 13:34:20 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:34:20 INFO: Current average volume is: 500.39
+2025-08-05 13:34:20 INFO: Updated resistance to: 143.665 and support to: 141.07
+2025-08-05 13:37:20 INFO: {'YUM': {   'close': 140.98,
+    'high': 140.98,
+    'low': 140.98,
+    'open': 140.98,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 140.98}}
+2025-08-05 13:37:20 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:37:20 INFO: Current average volume is: 494.03
+2025-08-05 13:37:20 INFO: close price: 140.98 just dropped below support of 141.07...
+2025-08-05 13:38:20 INFO: {'YUM': {   'close': 140.915,
+    'high': 140.915,
+    'low': 140.915,
+    'open': 140.915,
+    'symbol': 'YUM',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 171.0,
+    'vwap': 140.915}}
+2025-08-05 13:38:20 INFO: Current resistance is: 143.665 and support is: 141.07
+2025-08-05 13:38:20 INFO: Current average volume is: 488.98
+2025-08-05 13:38:20 INFO: Closing price: 140.915 just dropped below support 141.07 again...ending trade...

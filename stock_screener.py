@@ -3,6 +3,7 @@ import yfinance as yf
 
 import subprocess
 from random import shuffle
+from param_reader import PARAM
 
 
 def get_undervalued_stocks():
@@ -82,7 +83,7 @@ def get_stock_start(stock_list,stock_dict,process_list):
     if (watch_list is not None):
         # write into the stock
         for stock in watch_list:
-            if stock not in stock_dict and len(stock_dict) < 10: #PARAM
+            if stock not in stock_dict and len(stock_dict) < int(PARAM["stock_number"]): #PARAM
                 # HERE WOULD BE AI CLI SENTIMENT SCANNER
                 process_list.append(subprocess.Popen(['python', 'main.py', stock], shell=True)) # PARAM
                 stock_list.append(stock)
@@ -93,5 +94,5 @@ def get_stock_start(stock_list,stock_dict,process_list):
     return False
 
 
-print(get_undervalued_stocks())
+# print(get_undervalued_stocks())
 # # print(get_stock_info('BE'))

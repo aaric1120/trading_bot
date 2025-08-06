@@ -1,0 +1,1199 @@
+2025-08-06 09:50:12 INFO: === Strategy started ===
+2025-08-06 09:50:12 INFO: Start collecting the current highs/lows for: UBER
+2025-08-06 09:50:12 INFO: Most recent stock data: {'UBER': {   'close': 86.965,
+    'high': 87.44,
+    'low': 86.85,
+    'open': 87.2,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 235.0,
+    'volume': 30262.0,
+    'vwap': 87.27852}}
+2025-08-06 09:51:13 INFO: Most recent stock data: {'UBER': {   'close': 87.2,
+    'high': 87.21,
+    'low': 86.92,
+    'open': 86.92,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 178.0,
+    'volume': 12632.0,
+    'vwap': 87.067736}}
+2025-08-06 09:52:14 INFO: Most recent stock data: {'UBER': {   'close': 86.78,
+    'high': 87.3,
+    'low': 86.78,
+    'open': 87.22,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 123.0,
+    'volume': 9320.0,
+    'vwap': 86.992801}}
+2025-08-06 09:53:14 INFO: Most recent stock data: {'UBER': {   'close': 86.76,
+    'high': 87.005,
+    'low': 86.65,
+    'open': 86.78,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 158.0,
+    'volume': 13145.0,
+    'vwap': 86.847547}}
+2025-08-06 09:54:14 INFO: Most recent stock data: {'UBER': {   'close': 87.52,
+    'high': 87.55,
+    'low': 86.79,
+    'open': 86.79,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 121.0,
+    'volume': 8339.0,
+    'vwap': 87.179646}}
+2025-08-06 09:55:14 INFO: Most recent stock data: {'UBER': {   'close': 88.05,
+    'high': 88.05,
+    'low': 87.52,
+    'open': 87.53,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 4877.0,
+    'vwap': 87.907041}}
+2025-08-06 09:56:14 INFO: Most recent stock data: {'UBER': {   'close': 88.14,
+    'high': 88.26,
+    'low': 88.11,
+    'open': 88.14,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 3817.0,
+    'vwap': 88.177898}}
+2025-08-06 09:57:14 INFO: Most recent stock data: {'UBER': {   'close': 87.885,
+    'high': 88.18,
+    'low': 87.885,
+    'open': 88.15,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 54.0,
+    'volume': 4660.0,
+    'vwap': 88.068053}}
+2025-08-06 09:58:14 INFO: Most recent stock data: {'UBER': {   'close': 87.345,
+    'high': 87.87,
+    'low': 87.315,
+    'open': 87.87,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 157.0,
+    'volume': 13808.0,
+    'vwap': 87.59912}}
+2025-08-06 09:59:14 INFO: Most recent stock data: {'UBER': {   'close': 87.765,
+    'high': 87.77,
+    'low': 87.4,
+    'open': 87.4,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 4700.0,
+    'vwap': 87.5789}}
+2025-08-06 10:00:15 INFO: Most recent stock data: {'UBER': {   'close': 87.5,
+    'high': 87.92,
+    'low': 87.45,
+    'open': 87.745,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 64.0,
+    'volume': 5665.0,
+    'vwap': 87.726805}}
+2025-08-06 10:00:15 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 10:00:15 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-06 10:01:15 INFO: {'UBER': {   'close': 87.48,
+    'high': 87.48,
+    'low': 87.235,
+    'open': 87.295,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 79.0,
+    'volume': 6746.0,
+    'vwap': 87.356554}}
+2025-08-06 10:01:15 INFO: Current resistance is: 88.688 and support is: 87.4
+2025-08-06 10:01:15 INFO: Current average volume is: 7309.08
+2025-08-06 10:01:15 INFO: Updated resistance to: 88.607 and support to: 87.297
+2025-08-06 10:02:15 INFO: {'UBER': {   'close': 87.55,
+    'high': 87.69,
+    'low': 87.455,
+    'open': 87.51,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 4295.0,
+    'vwap': 87.570627}}
+2025-08-06 10:02:15 INFO: Current resistance is: 88.607 and support is: 87.297
+2025-08-06 10:02:15 INFO: Current average volume is: 7077.23
+2025-08-06 10:02:15 INFO: Updated resistance to: 88.583 and support to: 87.285
+2025-08-06 10:03:15 INFO: {'UBER': {   'close': 87.38,
+    'high': 87.68,
+    'low': 87.365,
+    'open': 87.53,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 155.0,
+    'volume': 13350.0,
+    'vwap': 87.524269}}
+2025-08-06 10:03:15 INFO: Current resistance is: 88.583 and support is: 87.285
+2025-08-06 10:03:15 INFO: Current average volume is: 7525.29
+2025-08-06 10:03:15 INFO: Updated resistance to: 88.557 and support to: 87.242
+2025-08-06 10:04:15 INFO: {'UBER': {   'close': 87.09,
+    'high': 87.4,
+    'low': 87.0,
+    'open': 87.4,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 82.0,
+    'volume': 4097.0,
+    'vwap': 87.134453}}
+2025-08-06 10:04:15 INFO: Current resistance is: 88.557 and support is: 87.242
+2025-08-06 10:04:15 INFO: Current average volume is: 7296.73
+2025-08-06 10:04:15 INFO: close price: 87.09 just dropped below support of 87.242...
+2025-08-06 10:05:15 INFO: {'UBER': {   'close': 87.18,
+    'high': 87.235,
+    'low': 87.035,
+    'open': 87.1,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 115.0,
+    'volume': 8176.0,
+    'vwap': 87.123325}}
+2025-08-06 10:05:15 INFO: Current resistance is: 88.557 and support is: 87.242
+2025-08-06 10:05:15 INFO: Current average volume is: 7351.69
+2025-08-06 10:05:15 INFO: Closing price: 87.18 just dropped below support 87.242 again...ending trade...
+2025-08-06 11:05:16 INFO: === Strategy started ===
+2025-08-06 11:05:16 INFO: Start collecting the current highs/lows for: UBER
+2025-08-06 11:05:16 INFO: Most recent stock data: {'UBER': {   'close': 87.16,
+    'high': 87.16,
+    'low': 87.13,
+    'open': 87.15,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1380.0,
+    'vwap': 87.149178}}
+2025-08-06 11:06:16 INFO: Most recent stock data: {'UBER': {   'close': 87.14,
+    'high': 87.14,
+    'low': 87.14,
+    'open': 87.14,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 341.0,
+    'vwap': 87.14}}
+2025-08-06 11:07:16 INFO: Most recent stock data: {'UBER': {   'close': 87.34,
+    'high': 87.41,
+    'low': 87.13,
+    'open': 87.13,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1933.0,
+    'vwap': 87.311643}}
+2025-08-06 11:08:17 INFO: Most recent stock data: {'UBER': {   'close': 87.035,
+    'high': 87.35,
+    'low': 86.99,
+    'open': 87.35,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 3364.0,
+    'vwap': 87.139839}}
+2025-08-06 11:09:17 INFO: Most recent stock data: {'UBER': {   'close': 87.25,
+    'high': 87.25,
+    'low': 87.08,
+    'open': 87.08,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2570.0,
+    'vwap': 87.136935}}
+2025-08-06 11:10:17 INFO: Most recent stock data: {'UBER': {   'close': 87.5,
+    'high': 87.56,
+    'low': 87.32,
+    'open': 87.32,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 4795.0,
+    'vwap': 87.519012}}
+2025-08-06 11:11:17 INFO: Most recent stock data: {'UBER': {   'close': 87.49,
+    'high': 87.6,
+    'low': 87.49,
+    'open': 87.53,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 60.0,
+    'volume': 6788.0,
+    'vwap': 87.569785}}
+2025-08-06 11:12:17 INFO: Most recent stock data: {'UBER': {   'close': 87.36,
+    'high': 87.475,
+    'low': 87.36,
+    'open': 87.475,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 665.0,
+    'vwap': 87.41875}}
+2025-08-06 11:13:17 INFO: Most recent stock data: {'UBER': {   'close': 87.19,
+    'high': 87.31,
+    'low': 87.14,
+    'open': 87.31,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 3252.0,
+    'vwap': 87.182982}}
+2025-08-06 11:14:17 INFO: Most recent stock data: {'UBER': {   'close': 87.18,
+    'high': 87.215,
+    'low': 87.08,
+    'open': 87.215,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 4507.0,
+    'vwap': 87.159657}}
+2025-08-06 11:15:17 INFO: Most recent stock data: {'UBER': {   'close': 87.325,
+    'high': 87.325,
+    'low': 87.22,
+    'open': 87.24,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 68.0,
+    'volume': 4626.0,
+    'vwap': 87.263142}}
+2025-08-06 11:15:17 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 11:15:17 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-06 11:16:18 INFO: {'UBER': {   'close': 87.355,
+    'high': 87.4,
+    'low': 87.31,
+    'open': 87.31,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 2269.0,
+    'vwap': 87.350333}}
+2025-08-06 11:16:18 INFO: Current resistance is: 87.6 and support is: 86.99
+2025-08-06 11:16:18 INFO: Current average volume is: 2925.83
+2025-08-06 11:16:18 INFO: Updated resistance to: 87.6 and support to: 86.99
+2025-08-06 11:17:18 INFO: {'UBER': {   'close': 87.53,
+    'high': 87.53,
+    'low': 87.26,
+    'open': 87.3,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1409.0,
+    'vwap': 87.3475}}
+2025-08-06 11:17:18 INFO: Current resistance is: 87.6 and support is: 86.99
+2025-08-06 11:17:18 INFO: Current average volume is: 2809.15
+2025-08-06 11:17:18 INFO: Updated resistance to: 87.6 and support to: 86.99
+2025-08-06 11:18:18 INFO: {'UBER': {   'close': 87.6,
+    'high': 87.64,
+    'low': 87.54,
+    'open': 87.54,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2460.0,
+    'vwap': 87.595648}}
+2025-08-06 11:18:18 INFO: Current resistance is: 87.6 and support is: 86.99
+2025-08-06 11:18:18 INFO: Current average volume is: 2784.21
+2025-08-06 11:19:18 INFO: {'UBER': {   'close': 87.65,
+    'high': 87.7,
+    'low': 87.52,
+    'open': 87.58,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 3239.0,
+    'vwap': 87.590412}}
+2025-08-06 11:19:18 INFO: Current resistance is: 87.6 and support is: 86.99
+2025-08-06 11:19:18 INFO: Current average volume is: 2814.53
+2025-08-06 11:19:18 INFO: The Current Close 87.65 is above the resistance...
+2025-08-06 11:19:18 INFO: Updated resistance to: 87.7 and support to: 86.99
+2025-08-06 11:20:18 INFO: {'UBER': {   'close': 87.64,
+    'high': 87.77,
+    'low': 87.64,
+    'open': 87.71,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 60.0,
+    'volume': 6102.0,
+    'vwap': 87.735887}}
+2025-08-06 11:20:18 INFO: Current resistance is: 87.7 and support is: 86.99
+2025-08-06 11:20:18 INFO: Current average volume is: 3020.0
+2025-08-06 11:20:18 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:21:18 INFO: {'UBER': {   'close': 87.6,
+    'high': 87.6,
+    'low': 87.6,
+    'open': 87.6,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 131.0,
+    'vwap': 87.6}}
+2025-08-06 11:21:18 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:21:18 INFO: Current average volume is: 2850.06
+2025-08-06 11:21:18 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:22:18 INFO: {'UBER': {   'close': 87.44,
+    'high': 87.46,
+    'low': 87.37,
+    'open': 87.44,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1215.0,
+    'vwap': 87.416667}}
+2025-08-06 11:22:18 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:22:18 INFO: Current average volume is: 2759.22
+2025-08-06 11:22:18 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:23:19 INFO: {'UBER': {   'close': 87.41,
+    'high': 87.47,
+    'low': 87.41,
+    'open': 87.47,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1884.0,
+    'vwap': 87.427222}}
+2025-08-06 11:23:19 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:23:19 INFO: Current average volume is: 2713.16
+2025-08-06 11:23:19 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:24:19 INFO: {'UBER': {   'close': 87.465,
+    'high': 87.465,
+    'low': 87.33,
+    'open': 87.33,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1005.0,
+    'vwap': 87.416667}}
+2025-08-06 11:24:19 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:24:19 INFO: Current average volume is: 2627.75
+2025-08-06 11:24:19 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:25:19 INFO: {'UBER': {   'close': 87.495,
+    'high': 87.57,
+    'low': 87.435,
+    'open': 87.46,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1906.0,
+    'vwap': 87.489688}}
+2025-08-06 11:25:19 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:25:19 INFO: Current average volume is: 2593.38
+2025-08-06 11:25:19 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:26:19 INFO: {'UBER': {   'close': 87.58,
+    'high': 87.61,
+    'low': 87.52,
+    'open': 87.52,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1031.0,
+    'vwap': 87.578077}}
+2025-08-06 11:26:19 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:26:19 INFO: Current average volume is: 2522.36
+2025-08-06 11:26:19 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:27:19 INFO: {'UBER': {   'close': 87.53,
+    'high': 87.535,
+    'low': 87.47,
+    'open': 87.535,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2508.0,
+    'vwap': 87.509731}}
+2025-08-06 11:27:19 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:27:19 INFO: Current average volume is: 2521.74
+2025-08-06 11:27:19 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:28:19 INFO: {'UBER': {   'close': 87.61,
+    'high': 87.61,
+    'low': 87.46,
+    'open': 87.53,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1064.0,
+    'vwap': 87.525556}}
+2025-08-06 11:28:19 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:28:19 INFO: Current average volume is: 2461.0
+2025-08-06 11:28:19 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:29:19 INFO: {'UBER': {   'close': 87.555,
+    'high': 87.63,
+    'low': 87.555,
+    'open': 87.63,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 782.0,
+    'vwap': 87.5775}}
+2025-08-06 11:29:19 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:29:19 INFO: Current average volume is: 2393.84
+2025-08-06 11:29:19 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:30:19 INFO: {'UBER': {   'close': 87.48,
+    'high': 87.58,
+    'low': 87.48,
+    'open': 87.58,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 1876.0,
+    'vwap': 87.54}}
+2025-08-06 11:30:19 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:30:19 INFO: Current average volume is: 2373.92
+2025-08-06 11:30:19 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:31:20 INFO: {'UBER': {   'close': 87.58,
+    'high': 87.6,
+    'low': 87.46,
+    'open': 87.46,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2622.0,
+    'vwap': 87.535919}}
+2025-08-06 11:31:20 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:31:20 INFO: Current average volume is: 2383.11
+2025-08-06 11:31:20 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:33:20 INFO: {'UBER': {   'close': 87.595,
+    'high': 87.595,
+    'low': 87.51,
+    'open': 87.54,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3344.0,
+    'vwap': 87.553939}}
+2025-08-06 11:33:20 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:33:20 INFO: Current average volume is: 2417.43
+2025-08-06 11:33:20 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:34:20 INFO: {'UBER': {   'close': 87.675,
+    'high': 87.675,
+    'low': 87.55,
+    'open': 87.59,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 4372.0,
+    'vwap': 87.572119}}
+2025-08-06 11:34:20 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:34:20 INFO: Current average volume is: 2484.83
+2025-08-06 11:34:20 INFO: Updated resistance to: 87.77 and support to: 86.99
+2025-08-06 11:35:20 INFO: {'UBER': {   'close': 87.765,
+    'high': 87.785,
+    'low': 87.725,
+    'open': 87.75,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2677.0,
+    'vwap': 87.739574}}
+2025-08-06 11:35:20 INFO: Current resistance is: 87.77 and support is: 86.99
+2025-08-06 11:35:20 INFO: Current average volume is: 2491.23
+2025-08-06 11:35:20 INFO: Updated resistance to: 87.785 and support to: 86.99
+2025-08-06 11:37:20 INFO: {'UBER': {   'close': 87.875,
+    'high': 87.875,
+    'low': 87.73,
+    'open': 87.73,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2212.0,
+    'vwap': 87.802474}}
+2025-08-06 11:37:20 INFO: Current resistance is: 87.785 and support is: 86.99
+2025-08-06 11:37:20 INFO: Current average volume is: 2482.23
+2025-08-06 11:37:20 INFO: The Current Close 87.875 is above the resistance...
+2025-08-06 11:37:20 INFO: Updated resistance to: 87.875 and support to: 86.99
+2025-08-06 11:38:20 INFO: {'UBER': {   'close': 87.82,
+    'high': 87.97,
+    'low': 87.82,
+    'open': 87.84,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2157.0,
+    'vwap': 87.891347}}
+2025-08-06 11:38:20 INFO: Current resistance is: 87.875 and support is: 86.99
+2025-08-06 11:38:20 INFO: Current average volume is: 2472.06
+2025-08-06 11:38:20 INFO: Updated resistance to: 87.97 and support to: 86.99
+2025-08-06 11:39:21 INFO: {'UBER': {   'close': 87.77,
+    'high': 87.8,
+    'low': 87.77,
+    'open': 87.8,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1116.0,
+    'vwap': 87.790617}}
+2025-08-06 11:39:21 INFO: Current resistance is: 87.97 and support is: 86.99
+2025-08-06 11:39:21 INFO: Current average volume is: 2430.97
+2025-08-06 11:39:21 INFO: Updated resistance to: 87.97 and support to: 86.99
+2025-08-06 11:40:21 INFO: {'UBER': {   'close': 87.9,
+    'high': 87.9,
+    'low': 87.87,
+    'open': 87.87,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 613.0,
+    'vwap': 87.89}}
+2025-08-06 11:40:21 INFO: Current resistance is: 87.97 and support is: 86.99
+2025-08-06 11:40:21 INFO: Current average volume is: 2377.5
+2025-08-06 11:40:21 INFO: Updated resistance to: 87.97 and support to: 86.99
+2025-08-06 11:41:21 INFO: {'UBER': {   'close': 87.83,
+    'high': 87.88,
+    'low': 87.79,
+    'open': 87.88,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1492.0,
+    'vwap': 87.850708}}
+2025-08-06 11:41:21 INFO: Current resistance is: 87.97 and support is: 86.99
+2025-08-06 11:41:21 INFO: Current average volume is: 2352.2
+2025-08-06 11:41:21 INFO: Updated resistance to: 87.97 and support to: 86.99
+2025-08-06 11:42:21 INFO: {'UBER': {   'close': 88.13,
+    'high': 88.13,
+    'low': 87.84,
+    'open': 87.84,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 2022.0,
+    'vwap': 88.053077}}
+2025-08-06 11:42:21 INFO: Current resistance is: 87.97 and support is: 86.99
+2025-08-06 11:42:21 INFO: Current average volume is: 2343.03
+2025-08-06 11:42:21 INFO: The Current Close 88.13 is above the resistance...
+2025-08-06 11:42:21 INFO: Updated resistance to: 88.13 and support to: 86.99
+2025-08-06 11:43:21 INFO: {'UBER': {   'close': 88.29,
+    'high': 88.3,
+    'low': 88.16,
+    'open': 88.16,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1429.0,
+    'vwap': 88.250338}}
+2025-08-06 11:43:21 INFO: Current resistance is: 88.13 and support is: 86.99
+2025-08-06 11:43:21 INFO: Current average volume is: 2318.32
+2025-08-06 11:43:21 INFO: The current close: 88.29 is above the resistance of 88.13, but volume isn't enough...
+2025-08-06 11:43:21 INFO: Updated resistance to: 88.3 and support to: 86.99
+2025-08-06 11:44:21 INFO: {'UBER': {   'close': 88.25,
+    'high': 88.31,
+    'low': 88.2,
+    'open': 88.31,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2008.0,
+    'vwap': 88.248961}}
+2025-08-06 11:44:21 INFO: Current resistance is: 88.3 and support is: 86.99
+2025-08-06 11:44:21 INFO: Current average volume is: 2310.16
+2025-08-06 11:44:21 INFO: Updated resistance to: 88.31 and support to: 86.99
+2025-08-06 11:45:22 INFO: {'UBER': {   'close': 88.3,
+    'high': 88.37,
+    'low': 88.245,
+    'open': 88.27,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 2945.0,
+    'vwap': 88.31898}}
+2025-08-06 11:45:22 INFO: Current resistance is: 88.31 and support is: 86.99
+2025-08-06 11:45:22 INFO: Current average volume is: 2326.44
+2025-08-06 11:45:22 INFO: Updated resistance to: 88.37 and support to: 86.99
+2025-08-06 11:46:22 INFO: {'UBER': {   'close': 88.39,
+    'high': 88.39,
+    'low': 88.26,
+    'open': 88.26,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1129.0,
+    'vwap': 88.316914}}
+2025-08-06 11:46:22 INFO: Current resistance is: 88.37 and support is: 86.99
+2025-08-06 11:46:22 INFO: Current average volume is: 2296.5
+2025-08-06 11:46:22 INFO: The Current Close 88.39 is above the resistance...
+2025-08-06 11:46:22 INFO: Updated resistance to: 88.39 and support to: 86.99
+2025-08-06 11:47:22 INFO: {'UBER': {   'close': 88.4,
+    'high': 88.4,
+    'low': 88.36,
+    'open': 88.36,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1193.0,
+    'vwap': 88.388333}}
+2025-08-06 11:47:22 INFO: Current resistance is: 88.39 and support is: 86.99
+2025-08-06 11:47:22 INFO: Current average volume is: 2269.59
+2025-08-06 11:47:22 INFO: The current close: 88.4 is above the resistance of 88.39, but volume isn't enough...
+2025-08-06 11:47:22 INFO: Updated resistance to: 88.4 and support to: 86.99
+2025-08-06 11:48:22 INFO: {'UBER': {   'close': 88.38,
+    'high': 88.38,
+    'low': 88.34,
+    'open': 88.355,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 545.0,
+    'vwap': 88.36}}
+2025-08-06 11:48:22 INFO: Current resistance is: 88.4 and support is: 86.99
+2025-08-06 11:48:22 INFO: Current average volume is: 2228.52
+2025-08-06 11:48:22 INFO: Updated resistance to: 88.4 and support to: 86.99
+2025-08-06 11:49:22 INFO: {'UBER': {   'close': 88.25,
+    'high': 88.365,
+    'low': 88.245,
+    'open': 88.365,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1727.0,
+    'vwap': 88.305689}}
+2025-08-06 11:49:22 INFO: Current resistance is: 88.4 and support is: 86.99
+2025-08-06 11:49:22 INFO: Current average volume is: 2216.86
+2025-08-06 11:49:22 INFO: Updated resistance to: 88.4 and support to: 86.99
+2025-08-06 11:50:22 INFO: {'UBER': {   'close': 88.28,
+    'high': 88.28,
+    'low': 88.24,
+    'open': 88.24,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 652.0,
+    'vwap': 88.251667}}
+2025-08-06 11:50:22 INFO: Current resistance is: 88.4 and support is: 86.99
+2025-08-06 11:50:22 INFO: Current average volume is: 2181.3
+2025-08-06 11:50:22 INFO: Updated resistance to: 88.4 and support to: 86.99
+2025-08-06 11:51:23 INFO: {'UBER': {   'close': 88.44,
+    'high': 88.44,
+    'low': 88.385,
+    'open': 88.39,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1053.0,
+    'vwap': 88.410714}}
+2025-08-06 11:51:23 INFO: Current resistance is: 88.4 and support is: 86.99
+2025-08-06 11:51:23 INFO: Current average volume is: 2156.22
+2025-08-06 11:51:23 INFO: The Current Close 88.44 is above the resistance...
+2025-08-06 11:51:23 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 11:52:23 INFO: {'UBER': {   'close': 88.26,
+    'high': 88.33,
+    'low': 88.26,
+    'open': 88.295,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 877.0,
+    'vwap': 88.281429}}
+2025-08-06 11:52:23 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 11:52:23 INFO: Current average volume is: 2128.41
+2025-08-06 11:52:23 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 11:53:23 INFO: {'UBER': {   'close': 88.12,
+    'high': 88.29,
+    'low': 88.12,
+    'open': 88.26,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1722.0,
+    'vwap': 88.185714}}
+2025-08-06 11:53:23 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 11:53:23 INFO: Current average volume is: 2119.77
+2025-08-06 11:53:23 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 11:54:23 INFO: {'UBER': {   'close': 88.11,
+    'high': 88.15,
+    'low': 88.11,
+    'open': 88.135,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2294.0,
+    'vwap': 88.1265}}
+2025-08-06 11:54:23 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 11:54:23 INFO: Current average volume is: 2123.4
+2025-08-06 11:54:23 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 11:55:23 INFO: {'UBER': {   'close': 88.02,
+    'high': 88.14,
+    'low': 88.02,
+    'open': 88.13,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 3092.0,
+    'vwap': 88.090673}}
+2025-08-06 11:55:23 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 11:55:23 INFO: Current average volume is: 2143.16
+2025-08-06 11:55:23 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 11:56:23 INFO: {'UBER': {   'close': 88.055,
+    'high': 88.06,
+    'low': 88.035,
+    'open': 88.035,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2450.0,
+    'vwap': 88.045772}}
+2025-08-06 11:56:23 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 11:56:23 INFO: Current average volume is: 2149.3
+2025-08-06 11:56:23 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 11:57:23 INFO: {'UBER': {   'close': 88.135,
+    'high': 88.14,
+    'low': 88.105,
+    'open': 88.11,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 3271.0,
+    'vwap': 88.115205}}
+2025-08-06 11:57:23 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 11:57:23 INFO: Current average volume is: 2171.29
+2025-08-06 11:57:23 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 11:58:23 INFO: {'UBER': {   'close': 88.03,
+    'high': 88.07,
+    'low': 88.02,
+    'open': 88.07,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1146.0,
+    'vwap': 88.033}}
+2025-08-06 11:58:23 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 11:58:23 INFO: Current average volume is: 2151.58
+2025-08-06 11:58:23 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 11:59:24 INFO: {'UBER': {   'close': 87.95,
+    'high': 88.04,
+    'low': 87.95,
+    'open': 88.03,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1792.0,
+    'vwap': 88.004612}}
+2025-08-06 11:59:24 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 11:59:24 INFO: Current average volume is: 2144.79
+2025-08-06 11:59:24 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:01:24 INFO: {'UBER': {   'close': 88.02,
+    'high': 88.06,
+    'low': 88.02,
+    'open': 88.06,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1235.0,
+    'vwap': 88.034375}}
+2025-08-06 12:01:24 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:01:24 INFO: Current average volume is: 2127.94
+2025-08-06 12:01:24 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:02:24 INFO: {'UBER': {   'close': 88.11,
+    'high': 88.11,
+    'low': 88.04,
+    'open': 88.04,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1377.0,
+    'vwap': 88.067917}}
+2025-08-06 12:02:24 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:02:24 INFO: Current average volume is: 2114.29
+2025-08-06 12:02:24 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:03:24 INFO: {'UBER': {   'close': 88.29,
+    'high': 88.3,
+    'low': 88.1,
+    'open': 88.1,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 846.0,
+    'vwap': 88.22}}
+2025-08-06 12:03:24 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:03:24 INFO: Current average volume is: 2091.64
+2025-08-06 12:03:24 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:05:24 INFO: {'UBER': {   'close': 88.38,
+    'high': 88.42,
+    'low': 88.285,
+    'open': 88.285,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 3039.0,
+    'vwap': 88.359051}}
+2025-08-06 12:05:24 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:05:24 INFO: Current average volume is: 2108.26
+2025-08-06 12:05:24 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:06:24 INFO: {'UBER': {   'close': 88.27,
+    'high': 88.39,
+    'low': 88.27,
+    'open': 88.385,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 3124.0,
+    'vwap': 88.368801}}
+2025-08-06 12:06:24 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:06:24 INFO: Current average volume is: 2125.78
+2025-08-06 12:06:24 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:07:25 INFO: {'UBER': {   'close': 88.34,
+    'high': 88.35,
+    'low': 88.295,
+    'open': 88.295,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2338.0,
+    'vwap': 88.308014}}
+2025-08-06 12:07:25 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:07:25 INFO: Current average volume is: 2129.37
+2025-08-06 12:07:25 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:08:25 INFO: {'UBER': {   'close': 88.24,
+    'high': 88.32,
+    'low': 88.24,
+    'open': 88.3,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1805.0,
+    'vwap': 88.292059}}
+2025-08-06 12:08:25 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:08:25 INFO: Current average volume is: 2123.97
+2025-08-06 12:08:25 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:10:25 INFO: {'UBER': {   'close': 88.23,
+    'high': 88.365,
+    'low': 88.2,
+    'open': 88.28,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 3991.0,
+    'vwap': 88.287522}}
+2025-08-06 12:10:25 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:10:25 INFO: Current average volume is: 2154.57
+2025-08-06 12:10:25 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:12:25 INFO: {'UBER': {   'close': 88.12,
+    'high': 88.205,
+    'low': 88.11,
+    'open': 88.205,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2277.0,
+    'vwap': 88.148056}}
+2025-08-06 12:12:25 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:12:25 INFO: Current average volume is: 2156.55
+2025-08-06 12:12:25 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:13:25 INFO: {'UBER': {   'close': 88.015,
+    'high': 88.08,
+    'low': 87.96,
+    'open': 88.08,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 3990.0,
+    'vwap': 88.036288}}
+2025-08-06 12:13:25 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:13:25 INFO: Current average volume is: 2185.65
+2025-08-06 12:13:25 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:14:25 INFO: {'UBER': {   'close': 87.92,
+    'high': 88.01,
+    'low': 87.91,
+    'open': 88.0,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 2201.0,
+    'vwap': 87.965205}}
+2025-08-06 12:14:25 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:14:25 INFO: Current average volume is: 2185.89
+2025-08-06 12:14:25 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:17:26 INFO: {'UBER': {   'close': 87.96,
+    'high': 87.96,
+    'low': 87.96,
+    'open': 87.96,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 746.0,
+    'vwap': 87.96}}
+2025-08-06 12:17:26 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:17:26 INFO: Current average volume is: 2163.74
+2025-08-06 12:17:26 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:18:26 INFO: {'UBER': {   'close': 87.95,
+    'high': 88.0,
+    'low': 87.94,
+    'open': 87.94,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 589.0,
+    'vwap': 87.9625}}
+2025-08-06 12:18:26 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:18:26 INFO: Current average volume is: 2139.88
+2025-08-06 12:18:26 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:19:26 INFO: {'UBER': {   'close': 87.9,
+    'high': 87.93,
+    'low': 87.89,
+    'open': 87.93,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 640.0,
+    'vwap': 87.908}}
+2025-08-06 12:19:26 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:19:26 INFO: Current average volume is: 2117.49
+2025-08-06 12:19:26 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:20:26 INFO: {'UBER': {   'close': 88.02,
+    'high': 88.135,
+    'low': 88.02,
+    'open': 88.09,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2061.0,
+    'vwap': 88.109643}}
+2025-08-06 12:20:26 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:20:26 INFO: Current average volume is: 2116.66
+2025-08-06 12:20:26 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:21:26 INFO: {'UBER': {   'close': 87.94,
+    'high': 88.04,
+    'low': 87.92,
+    'open': 88.04,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 699.0,
+    'vwap': 87.962506}}
+2025-08-06 12:21:26 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:21:26 INFO: Current average volume is: 2096.12
+2025-08-06 12:21:26 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:22:26 INFO: {'UBER': {   'close': 88.0,
+    'high': 88.0,
+    'low': 87.965,
+    'open': 87.965,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 882.0,
+    'vwap': 87.982143}}
+2025-08-06 12:22:26 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:22:26 INFO: Current average volume is: 2078.77
+2025-08-06 12:22:26 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:23:26 INFO: {'UBER': {   'close': 88.03,
+    'high': 88.03,
+    'low': 88.01,
+    'open': 88.01,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1545.0,
+    'vwap': 88.020827}}
+2025-08-06 12:23:26 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:23:26 INFO: Current average volume is: 2071.25
+2025-08-06 12:23:26 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:24:27 INFO: {'UBER': {   'close': 88.1,
+    'high': 88.11,
+    'low': 88.06,
+    'open': 88.06,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 980.0,
+    'vwap': 88.087143}}
+2025-08-06 12:24:27 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:24:27 INFO: Current average volume is: 2056.1
+2025-08-06 12:24:27 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:27:27 INFO: {'UBER': {   'close': 88.135,
+    'high': 88.135,
+    'low': 88.105,
+    'open': 88.135,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 571.0,
+    'vwap': 88.121}}
+2025-08-06 12:27:27 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:27:27 INFO: Current average volume is: 2035.75
+2025-08-06 12:27:27 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:28:27 INFO: {'UBER': {   'close': 88.0,
+    'high': 88.125,
+    'low': 87.99,
+    'open': 88.125,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1237.0,
+    'vwap': 88.051905}}
+2025-08-06 12:28:27 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:28:27 INFO: Current average volume is: 2024.96
+2025-08-06 12:28:27 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:29:27 INFO: {'UBER': {   'close': 88.2,
+    'high': 88.2,
+    'low': 88.05,
+    'open': 88.05,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 3191.0,
+    'vwap': 88.094291}}
+2025-08-06 12:29:27 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:29:27 INFO: Current average volume is: 2040.51
+2025-08-06 12:29:27 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:30:27 INFO: {'UBER': {   'close': 88.36,
+    'high': 88.36,
+    'low': 88.255,
+    'open': 88.255,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 931.0,
+    'vwap': 88.315}}
+2025-08-06 12:30:27 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:30:27 INFO: Current average volume is: 2025.91
+2025-08-06 12:30:27 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:32:28 INFO: {'UBER': {   'close': 88.25,
+    'high': 88.38,
+    'low': 88.23,
+    'open': 88.38,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1374.0,
+    'vwap': 88.256702}}
+2025-08-06 12:32:28 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:32:28 INFO: Current average volume is: 2017.44
+2025-08-06 12:32:28 INFO: Updated resistance to: 88.44 and support to: 86.99
+2025-08-06 12:33:28 INFO: {'UBER': {   'close': 88.47,
+    'high': 88.47,
+    'low': 88.265,
+    'open': 88.32,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1556.0,
+    'vwap': 88.38375}}
+2025-08-06 12:33:28 INFO: Current resistance is: 88.44 and support is: 86.99
+2025-08-06 12:33:28 INFO: Current average volume is: 2011.53
+2025-08-06 12:33:28 INFO: The Current Close 88.47 is above the resistance...
+2025-08-06 12:33:28 INFO: Updated resistance to: 88.47 and support to: 86.99
+2025-08-06 12:34:28 INFO: {'UBER': {   'close': 88.37,
+    'high': 88.41,
+    'low': 88.31,
+    'open': 88.41,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2357.0,
+    'vwap': 88.36575}}
+2025-08-06 12:34:28 INFO: Current resistance is: 88.47 and support is: 86.99
+2025-08-06 12:34:28 INFO: Current average volume is: 2015.9
+2025-08-06 12:34:28 INFO: Updated resistance to: 88.47 and support to: 86.99
+2025-08-06 12:35:28 INFO: {'UBER': {   'close': 88.43,
+    'high': 88.44,
+    'low': 88.37,
+    'open': 88.37,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2125.0,
+    'vwap': 88.393611}}
+2025-08-06 12:35:28 INFO: Current resistance is: 88.47 and support is: 86.99
+2025-08-06 12:35:28 INFO: Current average volume is: 2017.26
+2025-08-06 12:35:28 INFO: Updated resistance to: 88.47 and support to: 86.99
+2025-08-06 12:36:28 INFO: {'UBER': {   'close': 88.47,
+    'high': 88.47,
+    'low': 88.435,
+    'open': 88.45,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 794.0,
+    'vwap': 88.4475}}
+2025-08-06 12:36:28 INFO: Current resistance is: 88.47 and support is: 86.99
+2025-08-06 12:36:28 INFO: Current average volume is: 2002.16
+2025-08-06 12:37:28 INFO: {'UBER': {   'close': 88.41,
+    'high': 88.41,
+    'low': 88.4,
+    'open': 88.4,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2388.0,
+    'vwap': 88.408947}}
+2025-08-06 12:37:28 INFO: Current resistance is: 88.47 and support is: 86.99
+2025-08-06 12:37:28 INFO: Current average volume is: 2006.87
+2025-08-06 12:37:28 INFO: Updated resistance to: 88.47 and support to: 86.99
+2025-08-06 12:38:29 INFO: {'UBER': {   'close': 88.255,
+    'high': 88.35,
+    'low': 88.24,
+    'open': 88.35,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 756.0,
+    'vwap': 88.267}}
+2025-08-06 12:38:29 INFO: Current resistance is: 88.47 and support is: 86.99
+2025-08-06 12:38:29 INFO: Current average volume is: 1991.8
+2025-08-06 12:38:29 INFO: Updated resistance to: 88.47 and support to: 86.99
+2025-08-06 12:40:29 INFO: {'UBER': {   'close': 88.185,
+    'high': 88.185,
+    'low': 88.18,
+    'open': 88.18,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 613.0,
+    'vwap': 88.1825}}
+2025-08-06 12:40:29 INFO: Current resistance is: 88.47 and support is: 86.99
+2025-08-06 12:40:29 INFO: Current average volume is: 1975.38
+2025-08-06 12:40:29 INFO: Updated resistance to: 88.47 and support to: 86.99
+2025-08-06 12:41:29 INFO: {'UBER': {   'close': 88.5,
+    'high': 88.53,
+    'low': 88.32,
+    'open': 88.32,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2322.0,
+    'vwap': 88.479592}}
+2025-08-06 12:41:29 INFO: Current resistance is: 88.47 and support is: 86.99
+2025-08-06 12:41:29 INFO: Current average volume is: 1979.46
+2025-08-06 12:41:29 INFO: The Current Close 88.5 is above the resistance...
+2025-08-06 12:41:29 INFO: Updated resistance to: 88.53 and support to: 86.99
+2025-08-06 12:42:29 INFO: {'UBER': {   'close': 88.56,
+    'high': 88.56,
+    'low': 88.47,
+    'open': 88.515,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1607.0,
+    'vwap': 88.505769}}
+2025-08-06 12:42:29 INFO: Current resistance is: 88.53 and support is: 86.99
+2025-08-06 12:42:29 INFO: Current average volume is: 1975.13
+2025-08-06 12:42:29 INFO: The current close: 88.56 is above the resistance of 88.53, but volume isn't enough...
+2025-08-06 12:42:29 INFO: Updated resistance to: 88.56 and support to: 86.99
+2025-08-06 12:43:29 INFO: {'UBER': {   'close': 88.635,
+    'high': 88.64,
+    'low': 88.63,
+    'open': 88.64,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 907.0,
+    'vwap': 88.635}}
+2025-08-06 12:43:29 INFO: Current resistance is: 88.56 and support is: 86.99
+2025-08-06 12:43:29 INFO: Current average volume is: 1962.85
+2025-08-06 12:43:29 INFO: The current close: 88.635 is above the resistance of 88.56, but volume isn't enough...
+2025-08-06 12:43:29 INFO: Updated resistance to: 88.64 and support to: 86.99
+2025-08-06 12:45:30 INFO: {'UBER': {   'close': 88.68,
+    'high': 88.68,
+    'low': 88.57,
+    'open': 88.61,
+    'symbol': 'UBER',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 54.0,
+    'volume': 4716.0,
+    'vwap': 88.645983}}
+2025-08-06 12:45:30 INFO: Current resistance is: 88.64 and support is: 86.99
+2025-08-06 12:45:30 INFO: Current average volume is: 1994.14
+2025-08-06 12:45:30 ERROR: input array lengths are different

@@ -1,0 +1,948 @@
+2025-08-05 11:14:31 INFO: === Strategy started ===
+2025-08-05 11:14:31 INFO: Start collecting the current highs/lows for: VRTX
+2025-08-05 11:14:31 INFO: Most recent stock data: {'VRTX': {   'close': 389.02,
+    'high': 389.02,
+    'low': 388.78,
+    'open': 388.78,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 634.0,
+    'vwap': 388.9}}
+2025-08-05 11:15:32 INFO: Most recent stock data: {'VRTX': {   'close': 389.65,
+    'high': 389.78,
+    'low': 389.65,
+    'open': 389.78,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 720.0,
+    'vwap': 389.722}}
+2025-08-05 11:17:32 INFO: Most recent stock data: {'VRTX': {   'close': 389.17,
+    'high': 389.29,
+    'low': 389.17,
+    'open': 389.26,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 485.0,
+    'vwap': 389.24}}
+2025-08-05 11:18:32 INFO: Most recent stock data: {'VRTX': {   'close': 388.91,
+    'high': 388.98,
+    'low': 388.91,
+    'open': 388.98,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 586.0,
+    'vwap': 388.945}}
+2025-08-05 11:19:32 INFO: Most recent stock data: {'VRTX': {   'close': 390.11,
+    'high': 390.11,
+    'low': 390.11,
+    'open': 390.11,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 348.0,
+    'vwap': 390.11}}
+2025-08-05 11:20:32 INFO: Most recent stock data: {'VRTX': {   'close': 391.04,
+    'high': 391.04,
+    'low': 391.04,
+    'open': 391.04,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 225.0,
+    'vwap': 391.04}}
+2025-08-05 11:21:32 INFO: Most recent stock data: {'VRTX': {   'close': 391.8,
+    'high': 391.8,
+    'low': 391.8,
+    'open': 391.8,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 331.0,
+    'vwap': 391.8}}
+2025-08-05 11:22:32 INFO: Most recent stock data: {'VRTX': {   'close': 392.45,
+    'high': 392.45,
+    'low': 392.45,
+    'open': 392.45,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 359.0,
+    'vwap': 392.45}}
+2025-08-05 11:23:33 INFO: Most recent stock data: {'VRTX': {   'close': 392.58,
+    'high': 392.58,
+    'low': 392.43,
+    'open': 392.57,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 337.0,
+    'vwap': 392.526667}}
+2025-08-05 11:24:33 INFO: Most recent stock data: {'VRTX': {   'close': 392.53,
+    'high': 392.54,
+    'low': 392.53,
+    'open': 392.54,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 322.0,
+    'vwap': 392.535}}
+2025-08-05 11:25:33 INFO: Most recent stock data: {'VRTX': {   'close': 392.95,
+    'high': 393.59,
+    'low': 392.79,
+    'open': 392.79,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1027.0,
+    'vwap': 393.11}}
+2025-08-05 11:25:33 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 11:25:33 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 11:26:33 INFO: {'VRTX': {   'close': 392.75,
+    'high': 392.98,
+    'low': 392.75,
+    'open': 392.98,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 447.0,
+    'vwap': 392.872523}}
+2025-08-05 11:26:33 INFO: Current resistance is: 394.066 and support is: 393.792
+2025-08-05 11:26:33 INFO: Current average volume is: 432.25
+2025-08-05 11:26:33 INFO: close price: 392.75 just dropped below support of 393.792...
+2025-08-05 11:27:33 INFO: {'VRTX': {   'close': 392.52,
+    'high': 392.52,
+    'low': 392.52,
+    'open': 392.52,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 260.0,
+    'vwap': 392.52}}
+2025-08-05 11:27:33 INFO: Current resistance is: 394.066 and support is: 393.792
+2025-08-05 11:27:33 INFO: Current average volume is: 419.0
+2025-08-05 11:27:33 INFO: Closing price: 392.52 just dropped below support 393.792 again...ending trade...
+2025-08-05 11:44:34 INFO: === Strategy started ===
+2025-08-05 11:44:34 INFO: Start collecting the current highs/lows for: VRTX
+2025-08-05 11:44:34 INFO: Most recent stock data: {'VRTX': {   'close': 392.655,
+    'high': 392.655,
+    'low': 392.655,
+    'open': 392.655,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 294.0,
+    'vwap': 392.655}}
+2025-08-05 11:45:34 INFO: Most recent stock data: {'VRTX': {   'close': 393.12,
+    'high': 393.12,
+    'low': 392.93,
+    'open': 392.93,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 393.025}}
+2025-08-05 11:46:35 INFO: Most recent stock data: {'VRTX': {   'close': 393.515,
+    'high': 393.515,
+    'low': 393.41,
+    'open': 393.41,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 216.0,
+    'vwap': 393.4625}}
+2025-08-05 11:47:35 INFO: Most recent stock data: {'VRTX': {   'close': 393.95,
+    'high': 393.95,
+    'low': 393.95,
+    'open': 393.95,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 604.0,
+    'vwap': 393.95}}
+2025-08-05 11:48:35 INFO: Most recent stock data: {'VRTX': {   'close': 393.895,
+    'high': 393.895,
+    'low': 393.895,
+    'open': 393.895,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 110.0,
+    'vwap': 393.895}}
+2025-08-05 11:49:35 INFO: Most recent stock data: {'VRTX': {   'close': 393.915,
+    'high': 393.915,
+    'low': 393.915,
+    'open': 393.915,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 204.0,
+    'vwap': 393.915}}
+2025-08-05 11:50:35 INFO: Most recent stock data: {'VRTX': {   'close': 393.93,
+    'high': 393.93,
+    'low': 393.44,
+    'open': 393.71,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1277.0,
+    'vwap': 393.6285}}
+2025-08-05 11:51:35 INFO: Most recent stock data: {'VRTX': {   'close': 393.59,
+    'high': 393.59,
+    'low': 393.59,
+    'open': 393.59,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 204.0,
+    'vwap': 393.59}}
+2025-08-05 11:52:35 INFO: Most recent stock data: {'VRTX': {   'close': 393.6,
+    'high': 393.6,
+    'low': 393.035,
+    'open': 393.18,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 792.0,
+    'vwap': 393.24875}}
+2025-08-05 11:53:35 INFO: Most recent stock data: {'VRTX': {   'close': 393.715,
+    'high': 393.715,
+    'low': 393.715,
+    'open': 393.715,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 156.0,
+    'vwap': 393.715}}
+2025-08-05 11:55:36 INFO: Most recent stock data: {'VRTX': {   'close': 393.625,
+    'high': 393.66,
+    'low': 393.625,
+    'open': 393.66,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 874.0,
+    'vwap': 393.63929}}
+2025-08-05 11:55:36 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 11:55:36 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-05 11:56:36 INFO: {'VRTX': {   'close': 393.425,
+    'high': 393.425,
+    'low': 393.425,
+    'open': 393.425,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 446.0,
+    'vwap': 393.425}}
+2025-08-05 11:56:36 INFO: Current resistance is: 393.95 and support is: 392.655
+2025-08-05 11:56:36 INFO: Current average volume is: 423.67
+2025-08-05 11:56:36 INFO: Updated resistance to: 393.95 and support to: 392.655
+2025-08-05 11:57:36 INFO: {'VRTX': {   'close': 393.87,
+    'high': 393.87,
+    'low': 393.87,
+    'open': 393.87,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 244.0,
+    'vwap': 393.87}}
+2025-08-05 11:57:36 INFO: Current resistance is: 393.95 and support is: 392.655
+2025-08-05 11:57:36 INFO: Current average volume is: 409.85
+2025-08-05 11:57:36 INFO: Updated resistance to: 393.95 and support to: 392.655
+2025-08-05 11:58:36 INFO: {'VRTX': {   'close': 393.67,
+    'high': 393.735,
+    'low': 393.54,
+    'open': 393.735,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 1377.0,
+    'vwap': 393.668943}}
+2025-08-05 11:58:36 INFO: Current resistance is: 393.95 and support is: 392.655
+2025-08-05 11:58:36 INFO: Current average volume is: 478.93
+2025-08-05 11:58:36 INFO: Updated resistance to: 393.95 and support to: 392.655
+2025-08-05 11:59:36 INFO: {'VRTX': {   'close': 392.29,
+    'high': 392.29,
+    'low': 392.29,
+    'open': 392.29,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 359.0,
+    'vwap': 392.29}}
+2025-08-05 11:59:36 INFO: Current resistance is: 393.95 and support is: 392.655
+2025-08-05 11:59:36 INFO: Current average volume is: 470.93
+2025-08-05 11:59:36 INFO: close price: 392.29 just dropped below support of 392.655...
+2025-08-05 12:00:36 INFO: {'VRTX': {   'close': 390.42,
+    'high': 390.42,
+    'low': 390.18,
+    'open': 390.18,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 538.0,
+    'vwap': 390.3}}
+2025-08-05 12:00:36 INFO: Current resistance is: 393.95 and support is: 392.655
+2025-08-05 12:00:36 INFO: Current average volume is: 475.12
+2025-08-05 12:00:36 INFO: Closing price: 390.42 just dropped below support 392.655 again...ending trade...
+2025-08-05 12:29:38 INFO: === Strategy started ===
+2025-08-05 12:29:38 INFO: Start collecting the current highs/lows for: VRTX
+2025-08-05 12:29:38 INFO: Most recent stock data: {'VRTX': {   'close': 393.23,
+    'high': 393.23,
+    'low': 393.23,
+    'open': 393.23,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 145.0,
+    'vwap': 393.23}}
+2025-08-05 12:30:38 INFO: Most recent stock data: {'VRTX': {   'close': 394.0,
+    'high': 394.0,
+    'low': 394.0,
+    'open': 394.0,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 237.0,
+    'vwap': 394.0}}
+2025-08-05 12:31:38 INFO: Most recent stock data: {'VRTX': {   'close': 394.33,
+    'high': 394.33,
+    'low': 393.89,
+    'open': 393.89,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1084.0,
+    'vwap': 394.09}}
+2025-08-05 12:32:38 INFO: Most recent stock data: {'VRTX': {   'close': 395.15,
+    'high': 395.15,
+    'low': 394.4,
+    'open': 394.4,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 592.0,
+    'vwap': 394.775}}
+2025-08-05 12:33:39 INFO: Most recent stock data: {'VRTX': {   'close': 394.5,
+    'high': 395.07,
+    'low': 394.5,
+    'open': 395.07,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1044.0,
+    'vwap': 394.723333}}
+2025-08-05 12:36:39 INFO: Most recent stock data: {'VRTX': {   'close': 395.39,
+    'high': 395.39,
+    'low': 394.605,
+    'open': 394.605,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 663.0,
+    'vwap': 394.863}}
+2025-08-05 12:37:39 INFO: Most recent stock data: {'VRTX': {   'close': 395.77,
+    'high': 395.77,
+    'low': 395.59,
+    'open': 395.59,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 324.0,
+    'vwap': 395.71}}
+2025-08-05 12:38:39 INFO: Most recent stock data: {'VRTX': {   'close': 395.45,
+    'high': 395.45,
+    'low': 395.45,
+    'open': 395.45,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 253.0,
+    'vwap': 395.45}}
+2025-08-05 12:39:39 INFO: Most recent stock data: {'VRTX': {   'close': 394.82,
+    'high': 395.685,
+    'low': 394.82,
+    'open': 395.685,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1409.0,
+    'vwap': 395.12099}}
+2025-08-05 12:40:39 INFO: Most recent stock data: {'VRTX': {   'close': 395.235,
+    'high': 395.235,
+    'low': 395.235,
+    'open': 395.235,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 149.0,
+    'vwap': 395.235}}
+2025-08-05 12:41:39 INFO: Most recent stock data: {'VRTX': {   'close': 394.47,
+    'high': 394.72,
+    'low': 394.47,
+    'open': 394.72,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1152.0,
+    'vwap': 394.576316}}
+2025-08-05 12:41:39 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 12:41:39 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 12:43:40 INFO: {'VRTX': {   'close': 394.17,
+    'high': 394.27,
+    'low': 393.675,
+    'open': 393.95,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2115.0,
+    'vwap': 394.038846}}
+2025-08-05 12:43:40 INFO: Current resistance is: 396.577 and support is: 394.942
+2025-08-05 12:43:40 INFO: Current average volume is: 751.83
+2025-08-05 12:43:40 INFO: close price: 394.17 just dropped below support of 394.942...
+2025-08-05 12:44:40 INFO: {'VRTX': {   'close': 394.35,
+    'high': 394.35,
+    'low': 394.22,
+    'open': 394.26,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 658.0,
+    'vwap': 394.26625}}
+2025-08-05 12:44:40 INFO: Current resistance is: 396.577 and support is: 394.942
+2025-08-05 12:44:40 INFO: Current average volume is: 744.62
+2025-08-05 12:44:40 INFO: Closing price: 394.35 just dropped below support 394.942 again...ending trade...
+2025-08-05 12:59:41 INFO: === Strategy started ===
+2025-08-05 12:59:41 INFO: Start collecting the current highs/lows for: VRTX
+2025-08-05 12:59:41 INFO: Most recent stock data: {'VRTX': {   'close': 391.59,
+    'high': 391.59,
+    'low': 391.59,
+    'open': 391.59,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 391.59}}
+2025-08-05 13:00:42 INFO: Most recent stock data: {'VRTX': {   'close': 390.68,
+    'high': 390.85,
+    'low': 390.305,
+    'open': 390.725,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 638.0,
+    'vwap': 390.663}}
+2025-08-05 13:01:42 INFO: Most recent stock data: {'VRTX': {   'close': 390.42,
+    'high': 390.98,
+    'low': 390.42,
+    'open': 390.84,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 577.0,
+    'vwap': 390.672}}
+2025-08-05 13:03:42 INFO: Most recent stock data: {'VRTX': {   'close': 390.38,
+    'high': 390.38,
+    'low': 390.38,
+    'open': 390.38,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 231.0,
+    'vwap': 390.38}}
+2025-08-05 13:05:42 INFO: Most recent stock data: {'VRTX': {   'close': 390.4,
+    'high': 390.4,
+    'low': 390.005,
+    'open': 390.005,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 402.0,
+    'vwap': 390.141667}}
+2025-08-05 13:06:42 INFO: Most recent stock data: {'VRTX': {   'close': 390.425,
+    'high': 390.59,
+    'low': 390.425,
+    'open': 390.45,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1126.0,
+    'vwap': 390.496667}}
+2025-08-05 13:08:42 INFO: Most recent stock data: {'VRTX': {   'close': 389.91,
+    'high': 390.23,
+    'low': 389.91,
+    'open': 390.23,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 567.0,
+    'vwap': 390.07}}
+2025-08-05 13:11:43 INFO: Most recent stock data: {'VRTX': {   'close': 388.48,
+    'high': 388.48,
+    'low': 388.48,
+    'open': 388.48,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 295.0,
+    'vwap': 388.48}}
+2025-08-05 13:12:43 INFO: Most recent stock data: {'VRTX': {   'close': 388.52,
+    'high': 388.52,
+    'low': 388.52,
+    'open': 388.52,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 232.0,
+    'vwap': 388.52}}
+2025-08-05 13:13:43 INFO: Most recent stock data: {'VRTX': {   'close': 388.4,
+    'high': 388.59,
+    'low': 388.4,
+    'open': 388.59,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 365.0,
+    'vwap': 388.495}}
+2025-08-05 13:14:43 INFO: Most recent stock data: {'VRTX': {   'close': 388.26,
+    'high': 388.26,
+    'low': 388.17,
+    'open': 388.25,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 302.0,
+    'vwap': 388.226667}}
+2025-08-05 13:14:43 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 13:14:43 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 13:17:44 INFO: {'VRTX': {   'close': 388.64,
+    'high': 388.97,
+    'low': 388.64,
+    'open': 388.785,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 460.0,
+    'vwap': 388.798333}}
+2025-08-05 13:17:44 INFO: Current resistance is: 387.886 and support is: 387.858
+2025-08-05 13:17:44 INFO: Current average volume is: 432.92
+2025-08-05 13:17:44 INFO: The Current Close 388.64 is above the resistance...
+2025-08-05 13:17:44 INFO: Updated resistance to: 388.054 and support to: 387.609
+2025-08-05 13:18:14 INFO: {'VRTX': {   'close': 388.33,
+    'high': 388.52,
+    'low': 388.33,
+    'open': 388.52,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 704.0,
+    'vwap': 388.446667}}
+2025-08-05 13:18:14 INFO: Current resistance is: 388.054 and support is: 387.609
+2025-08-05 13:18:14 INFO: Current average volume is: 453.77
+2025-08-05 13:18:14 INFO: The current close: 388.33 is above the resistance of 388.054, but volume isn't enough...
+2025-08-05 13:18:14 INFO: Updated resistance to: 388.023 and support to: 387.383
+2025-08-05 13:23:15 INFO: {'VRTX': {   'close': 387.3,
+    'high': 387.345,
+    'low': 387.3,
+    'open': 387.345,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 529.0,
+    'vwap': 387.3225}}
+2025-08-05 13:23:15 INFO: Current resistance is: 388.023 and support is: 387.383
+2025-08-05 13:23:15 INFO: Current average volume is: 459.14
+2025-08-05 13:23:15 INFO: close price: 387.3 just dropped below support of 387.383...
+2025-08-05 13:24:15 INFO: {'VRTX': {   'close': 387.2,
+    'high': 387.2,
+    'low': 387.2,
+    'open': 387.2,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 542.0,
+    'vwap': 387.2}}
+2025-08-05 13:24:15 INFO: Current resistance is: 388.023 and support is: 387.383
+2025-08-05 13:24:15 INFO: Current average volume is: 464.67
+2025-08-05 13:24:15 INFO: Closing price: 387.2 just dropped below support 387.383 again...ending trade...
+2025-08-05 14:29:50 INFO: === Strategy started ===
+2025-08-05 14:29:50 INFO: Start collecting the current highs/lows for: VRTX
+2025-08-05 14:29:50 INFO: Most recent stock data: {'VRTX': {   'close': 381.675,
+    'high': 382.055,
+    'low': 381.675,
+    'open': 382.055,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 247.0,
+    'vwap': 381.865}}
+2025-08-05 14:30:50 INFO: Most recent stock data: {'VRTX': {   'close': 381.6,
+    'high': 381.61,
+    'low': 381.57,
+    'open': 381.57,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 992.0,
+    'vwap': 381.588571}}
+2025-08-05 14:31:50 INFO: Most recent stock data: {'VRTX': {   'close': 381.545,
+    'high': 381.6,
+    'low': 381.545,
+    'open': 381.57,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 381.576667}}
+2025-08-05 14:32:51 INFO: Most recent stock data: {'VRTX': {   'close': 381.43,
+    'high': 381.55,
+    'low': 381.41,
+    'open': 381.54,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1766.0,
+    'vwap': 381.496512}}
+2025-08-05 14:34:51 INFO: Most recent stock data: {'VRTX': {   'close': 381.91,
+    'high': 381.92,
+    'low': 381.62,
+    'open': 381.62,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 73.0,
+    'volume': 5378.0,
+    'vwap': 381.755422}}
+2025-08-05 14:35:51 INFO: Most recent stock data: {'VRTX': {   'close': 381.85,
+    'high': 381.87,
+    'low': 381.85,
+    'open': 381.855,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 802.0,
+    'vwap': 381.855625}}
+2025-08-05 14:36:51 INFO: Most recent stock data: {'VRTX': {   'close': 381.84,
+    'high': 381.96,
+    'low': 381.81,
+    'open': 381.85,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1348.0,
+    'vwap': 381.866364}}
+2025-08-05 14:37:51 INFO: Most recent stock data: {'VRTX': {   'close': 381.84,
+    'high': 381.925,
+    'low': 381.805,
+    'open': 381.84,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1013.0,
+    'vwap': 381.867}}
+2025-08-05 14:38:51 INFO: Most recent stock data: {'VRTX': {   'close': 382.045,
+    'high': 382.05,
+    'low': 381.89,
+    'open': 381.92,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 1835.0,
+    'vwap': 381.992727}}
+2025-08-05 14:39:51 INFO: Most recent stock data: {'VRTX': {   'close': 381.995,
+    'high': 381.995,
+    'low': 381.92,
+    'open': 381.92,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1685.0,
+    'vwap': 381.975455}}
+2025-08-05 14:40:51 INFO: Most recent stock data: {'VRTX': {   'close': 381.77,
+    'high': 382.03,
+    'low': 381.77,
+    'open': 381.99,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 1512.0,
+    'vwap': 381.903571}}
+2025-08-05 14:40:52 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 14:40:52 INFO: Pattern matched as Ascending Triangle, starting trading strategy
+2025-08-05 14:41:52 INFO: {'VRTX': {   'close': 382.42,
+    'high': 382.45,
+    'low': 381.88,
+    'open': 382.03,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 3239.0,
+    'vwap': 382.188343}}
+2025-08-05 14:41:52 INFO: Current resistance is: 382.055 and support is: 381.693
+2025-08-05 14:41:52 INFO: Current average volume is: 1680.83
+2025-08-05 14:41:52 INFO: The Current Close 382.42 is above the resistance...
+2025-08-05 14:41:52 INFO: Updated resistance to: 382.45 and support to: 381.712
+2025-08-05 14:42:22 INFO: {'VRTX': {   'close': 382.65,
+    'high': 382.65,
+    'low': 382.52,
+    'open': 382.52,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1644.0,
+    'vwap': 382.534444}}
+2025-08-05 14:42:22 INFO: Current resistance is: 382.45 and support is: 381.712
+2025-08-05 14:42:22 INFO: Current average volume is: 1678.0
+2025-08-05 14:42:22 INFO: The current close: 382.65 is above the resistance of 382.45, but volume isn't enough...
+2025-08-05 14:42:22 INFO: Updated resistance to: 382.65 and support to: 381.934
+2025-08-05 14:43:22 INFO: {'VRTX': {   'close': 380.46,
+    'high': 382.04,
+    'low': 380.46,
+    'open': 382.04,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 1409.0,
+    'vwap': 381.083889}}
+2025-08-05 14:43:22 INFO: Current resistance is: 382.65 and support is: 381.934
+2025-08-05 14:43:22 INFO: Current average volume is: 1658.79
+2025-08-05 14:43:22 INFO: close price: 380.46 just dropped below support of 381.934...
+2025-08-05 14:45:22 INFO: {'VRTX': {   'close': 380.36,
+    'high': 380.36,
+    'low': 379.91,
+    'open': 380.11,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1240.0,
+    'vwap': 380.115}}
+2025-08-05 14:45:22 INFO: Current resistance is: 382.65 and support is: 381.934
+2025-08-05 14:45:22 INFO: Current average volume is: 1630.87
+2025-08-05 14:45:22 INFO: Closing price: 380.36 just dropped below support 381.934 again...ending trade...
+2025-08-05 14:59:53 INFO: === Strategy started ===
+2025-08-05 14:59:53 INFO: Start collecting the current highs/lows for: VRTX
+2025-08-05 14:59:53 INFO: Most recent stock data: {'VRTX': {   'close': 382.62,
+    'high': 382.64,
+    'low': 382.57,
+    'open': 382.64,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 454.0,
+    'vwap': 382.6125}}
+2025-08-05 15:00:53 INFO: Most recent stock data: {'VRTX': {   'close': 382.2,
+    'high': 382.55,
+    'low': 382.2,
+    'open': 382.55,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1884.0,
+    'vwap': 382.392667}}
+2025-08-05 15:01:54 INFO: Most recent stock data: {'VRTX': {   'close': 382.44,
+    'high': 382.74,
+    'low': 382.09,
+    'open': 382.09,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1262.0,
+    'vwap': 382.431818}}
+2025-08-05 15:02:54 INFO: Most recent stock data: {'VRTX': {   'close': 381.63,
+    'high': 381.935,
+    'low': 381.63,
+    'open': 381.935,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1308.0,
+    'vwap': 381.668125}}
+2025-08-05 15:04:54 INFO: Most recent stock data: {'VRTX': {   'close': 381.9,
+    'high': 381.93,
+    'low': 381.9,
+    'open': 381.93,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 497.0,
+    'vwap': 381.91}}
+2025-08-05 15:05:54 INFO: Most recent stock data: {'VRTX': {   'close': 381.69,
+    'high': 381.69,
+    'low': 381.69,
+    'open': 381.69,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 162.0,
+    'vwap': 381.69}}
+2025-08-05 15:06:54 INFO: Most recent stock data: {'VRTX': {   'close': 381.21,
+    'high': 381.435,
+    'low': 381.21,
+    'open': 381.435,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 981.0,
+    'vwap': 381.390882}}
+2025-08-05 15:08:54 INFO: Most recent stock data: {'VRTX': {   'close': 380.75,
+    'high': 380.75,
+    'low': 380.75,
+    'open': 380.75,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 151.0,
+    'vwap': 380.75}}
+2025-08-05 15:09:54 INFO: Most recent stock data: {'VRTX': {   'close': 380.58,
+    'high': 380.58,
+    'low': 380.5,
+    'open': 380.5,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 1199.0,
+    'vwap': 380.513333}}
+2025-08-05 15:10:55 INFO: Most recent stock data: {'VRTX': {   'close': 380.83,
+    'high': 380.87,
+    'low': 380.65,
+    'open': 380.65,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 957.0,
+    'vwap': 380.7}}
+2025-08-05 15:11:55 INFO: Most recent stock data: {'VRTX': {   'close': 380.17,
+    'high': 380.17,
+    'low': 380.15,
+    'open': 380.15,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 470.0,
+    'vwap': 380.16}}
+2025-08-05 15:11:55 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 15:11:55 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 15:13:55 INFO: {'VRTX': {   'close': 379.785,
+    'high': 379.965,
+    'low': 379.785,
+    'open': 379.965,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1053.0,
+    'vwap': 379.909615}}
+2025-08-05 15:13:55 INFO: Current resistance is: 380.415 and support is: 379.918
+2025-08-05 15:13:55 INFO: Current average volume is: 827.0
+2025-08-05 15:13:55 INFO: close price: 379.785 just dropped below support of 379.918...
+2025-08-05 15:15:55 INFO: {'VRTX': {   'close': 381.0,
+    'high': 381.39,
+    'low': 380.6,
+    'open': 380.6,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1109.0,
+    'vwap': 380.985484}}
+2025-08-05 15:15:55 INFO: Current resistance is: 380.415 and support is: 379.918
+2025-08-05 15:15:55 INFO: Current average volume is: 848.69
+2025-08-05 15:15:55 INFO: The Current Close 381.0 is above the resistance...
+2025-08-05 15:15:55 INFO: Updated resistance to: 380.471 and support to: 379.364
+2025-08-05 15:16:25 INFO: {'VRTX': {   'close': 381.1,
+    'high': 381.17,
+    'low': 381.04,
+    'open': 381.17,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 788.0,
+    'vwap': 381.1025}}
+2025-08-05 15:16:25 INFO: Current resistance is: 380.471 and support is: 379.364
+2025-08-05 15:16:25 INFO: Current average volume is: 844.36
+2025-08-05 15:16:25 INFO: The current close: 381.1 is above the resistance of 380.471, but volume isn't enough...
+2025-08-05 15:16:25 INFO: Updated resistance to: 380.669 and support to: 379.265
+2025-08-05 15:17:26 INFO: {'VRTX': {   'close': 380.485,
+    'high': 381.08,
+    'low': 380.405,
+    'open': 381.08,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 1554.0,
+    'vwap': 380.723742}}
+2025-08-05 15:17:26 INFO: Current resistance is: 380.669 and support is: 379.265
+2025-08-05 15:17:26 INFO: Current average volume is: 891.67
+2025-08-05 15:17:26 INFO: Updated resistance to: 380.808 and support to: 379.142
+2025-08-05 15:18:26 INFO: {'VRTX': {   'close': 380.33,
+    'high': 380.4,
+    'low': 380.12,
+    'open': 380.4,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1388.0,
+    'vwap': 380.287941}}
+2025-08-05 15:18:26 INFO: Current resistance is: 380.808 and support is: 379.142
+2025-08-05 15:18:26 INFO: Current average volume is: 922.69
+2025-08-05 15:18:26 INFO: Updated resistance to: 380.72 and support to: 379.01
+2025-08-05 15:19:26 INFO: {'VRTX': {   'close': 380.17,
+    'high': 380.17,
+    'low': 380.17,
+    'open': 380.17,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 323.0,
+    'vwap': 380.17}}
+2025-08-05 15:19:26 INFO: Current resistance is: 380.72 and support is: 379.01
+2025-08-05 15:19:26 INFO: Current average volume is: 887.41
+2025-08-05 15:19:26 INFO: Updated resistance to: 380.595 and support to: 378.903
+2025-08-05 15:20:26 INFO: {'VRTX': {   'close': 379.84,
+    'high': 379.905,
+    'low': 379.84,
+    'open': 379.9,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 1082.0,
+    'vwap': 379.882124}}
+2025-08-05 15:20:26 INFO: Current resistance is: 380.595 and support is: 378.903
+2025-08-05 15:20:26 INFO: Current average volume is: 898.22
+2025-08-05 15:20:26 INFO: Updated resistance to: 380.432 and support to: 378.773
+2025-08-05 15:21:26 INFO: {'VRTX': {   'close': 379.475,
+    'high': 379.69,
+    'low': 379.475,
+    'open': 379.69,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 450.0,
+    'vwap': 379.546667}}
+2025-08-05 15:21:26 INFO: Current resistance is: 380.432 and support is: 378.773
+2025-08-05 15:21:26 INFO: Current average volume is: 874.63
+2025-08-05 15:21:26 INFO: Updated resistance to: 380.254 and support to: 379.329
+2025-08-05 15:22:26 INFO: {'VRTX': {   'close': 378.95,
+    'high': 379.01,
+    'low': 378.95,
+    'open': 378.98,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1008.0,
+    'vwap': 378.98}}
+2025-08-05 15:22:26 INFO: Current resistance is: 380.254 and support is: 379.329
+2025-08-05 15:22:26 INFO: Current average volume is: 881.3
+2025-08-05 15:22:26 INFO: close price: 378.95 just dropped below support of 379.329...
+2025-08-05 15:23:26 INFO: {'VRTX': {   'close': 378.89,
+    'high': 378.89,
+    'low': 378.645,
+    'open': 378.645,
+    'symbol': 'VRTX',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 454.0,
+    'vwap': 378.778333}}
+2025-08-05 15:23:26 INFO: Current resistance is: 380.254 and support is: 379.329
+2025-08-05 15:23:26 INFO: Current average volume is: 860.95
+2025-08-05 15:23:26 INFO: Closing price: 378.89 just dropped below support 379.329 again...ending trade...

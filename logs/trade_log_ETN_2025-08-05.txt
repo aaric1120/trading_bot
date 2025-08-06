@@ -1,0 +1,705 @@
+2025-08-05 11:14:31 INFO: === Strategy started ===
+2025-08-05 11:14:31 INFO: Start collecting the current highs/lows for: ETN
+2025-08-05 11:14:31 INFO: Most recent stock data: {'ETN': {   'close': 356.18,
+    'high': 356.21,
+    'low': 355.34,
+    'open': 355.36,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 931.0,
+    'vwap': 355.5775}}
+2025-08-05 11:15:32 INFO: Most recent stock data: {'ETN': {   'close': 357.0,
+    'high': 357.06,
+    'low': 356.645,
+    'open': 356.645,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 418.0,
+    'vwap': 356.93375}}
+2025-08-05 11:16:32 INFO: Most recent stock data: {'ETN': {   'close': 356.91,
+    'high': 356.915,
+    'low': 356.91,
+    'open': 356.915,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 255.0,
+    'vwap': 356.9125}}
+2025-08-05 11:17:32 INFO: Most recent stock data: {'ETN': {   'close': 357.08,
+    'high': 357.08,
+    'low': 356.79,
+    'open': 356.79,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 627.0,
+    'vwap': 356.9225}}
+2025-08-05 11:18:32 INFO: Most recent stock data: {'ETN': {   'close': 357.64,
+    'high': 357.64,
+    'low': 357.64,
+    'open': 357.64,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 296.0,
+    'vwap': 357.64}}
+2025-08-05 11:19:32 INFO: Most recent stock data: {'ETN': {   'close': 357.575,
+    'high': 357.69,
+    'low': 357.575,
+    'open': 357.65,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 691.0,
+    'vwap': 357.620089}}
+2025-08-05 11:20:32 INFO: Most recent stock data: {'ETN': {   'close': 357.23,
+    'high': 357.4,
+    'low': 357.045,
+    'open': 357.315,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1253.0,
+    'vwap': 357.229545}}
+2025-08-05 11:21:32 INFO: Most recent stock data: {'ETN': {   'close': 357.24,
+    'high': 357.44,
+    'low': 357.24,
+    'open': 357.255,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 628.0,
+    'vwap': 357.283363}}
+2025-08-05 11:22:32 INFO: Most recent stock data: {'ETN': {   'close': 358.065,
+    'high': 358.065,
+    'low': 358.065,
+    'open': 358.065,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 300.0,
+    'vwap': 358.065}}
+2025-08-05 11:23:33 INFO: Most recent stock data: {'ETN': {   'close': 357.33,
+    'high': 357.46,
+    'low': 357.29,
+    'open': 357.46,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 948.0,
+    'vwap': 357.342915}}
+2025-08-05 11:24:33 INFO: Most recent stock data: {'ETN': {   'close': 357.19,
+    'high': 357.23,
+    'low': 357.19,
+    'open': 357.23,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 379.0,
+    'vwap': 357.202945}}
+2025-08-05 11:24:33 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 11:24:33 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 11:25:33 INFO: {'ETN': {   'close': 356.54,
+    'high': 357.0,
+    'low': 356.46,
+    'open': 357.0,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 637.0,
+    'vwap': 356.616}}
+2025-08-05 11:25:33 INFO: Current resistance is: 358.355 and support is: 356.9
+2025-08-05 11:25:33 INFO: Current average volume is: 536.0
+2025-08-05 11:25:33 INFO: close price: 356.54 just dropped below support of 356.9...
+2025-08-05 11:26:33 INFO: {'ETN': {   'close': 356.47,
+    'high': 356.69,
+    'low': 356.45,
+    'open': 356.54,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1623.0,
+    'vwap': 356.536582}}
+2025-08-05 11:26:33 INFO: Current resistance is: 358.355 and support is: 356.9
+2025-08-05 11:26:33 INFO: Current average volume is: 619.62
+2025-08-05 11:26:33 INFO: Closing price: 356.47 just dropped below support 356.9 again...ending trade...
+2025-08-05 11:59:35 INFO: === Strategy started ===
+2025-08-05 11:59:35 INFO: Start collecting the current highs/lows for: ETN
+2025-08-05 11:59:35 INFO: Most recent stock data: {'ETN': {   'close': 356.24,
+    'high': 356.865,
+    'low': 356.24,
+    'open': 356.865,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 908.0,
+    'vwap': 356.618333}}
+2025-08-05 12:00:36 INFO: Most recent stock data: {'ETN': {   'close': 356.38,
+    'high': 356.38,
+    'low': 356.19,
+    'open': 356.19,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 515.0,
+    'vwap': 356.31}}
+2025-08-05 12:01:36 INFO: Most recent stock data: {'ETN': {   'close': 356.72,
+    'high': 356.72,
+    'low': 356.72,
+    'open': 356.72,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 365.0,
+    'vwap': 356.72}}
+2025-08-05 12:02:36 INFO: Most recent stock data: {'ETN': {   'close': 357.01,
+    'high': 357.01,
+    'low': 356.715,
+    'open': 356.715,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 356.8625}}
+2025-08-05 12:03:36 INFO: Most recent stock data: {'ETN': {   'close': 357.51,
+    'high': 357.51,
+    'low': 357.175,
+    'open': 357.26,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 973.0,
+    'vwap': 357.372222}}
+2025-08-05 12:04:36 INFO: Most recent stock data: {'ETN': {   'close': 357.69,
+    'high': 357.86,
+    'low': 357.69,
+    'open': 357.86,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 334.0,
+    'vwap': 357.75}}
+2025-08-05 12:06:36 INFO: Most recent stock data: {'ETN': {   'close': 359.0,
+    'high': 359.0,
+    'low': 359.0,
+    'open': 359.0,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 184.0,
+    'vwap': 359.0}}
+2025-08-05 12:07:36 INFO: Most recent stock data: {'ETN': {   'close': 359.25,
+    'high': 359.25,
+    'low': 358.97,
+    'open': 359.11,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 584.0,
+    'vwap': 359.116}}
+2025-08-05 12:08:37 INFO: Most recent stock data: {'ETN': {   'close': 359.61,
+    'high': 359.69,
+    'low': 359.6,
+    'open': 359.69,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 355.0,
+    'vwap': 359.633333}}
+2025-08-05 12:09:37 INFO: Most recent stock data: {'ETN': {   'close': 359.355,
+    'high': 359.36,
+    'low': 359.28,
+    'open': 359.28,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1104.0,
+    'vwap': 359.34248}}
+2025-08-05 12:10:37 INFO: Most recent stock data: {'ETN': {   'close': 358.365,
+    'high': 358.365,
+    'low': 358.365,
+    'open': 358.365,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 333.0,
+    'vwap': 358.365}}
+2025-08-05 12:10:37 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 12:10:37 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 12:11:37 INFO: {'ETN': {   'close': 358.2,
+    'high': 358.31,
+    'low': 357.97,
+    'open': 357.97,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3749.0,
+    'vwap': 358.047778}}
+2025-08-05 12:11:37 INFO: Current resistance is: 360.625 and support is: 359.641
+2025-08-05 12:11:37 INFO: Current average volume is: 724.67
+2025-08-05 12:11:37 INFO: close price: 358.2 just dropped below support of 359.641...
+2025-08-05 12:12:37 INFO: {'ETN': {   'close': 359.59,
+    'high': 359.91,
+    'low': 358.66,
+    'open': 358.66,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1723.0,
+    'vwap': 359.141429}}
+2025-08-05 12:12:37 INFO: Current resistance is: 360.625 and support is: 359.641
+2025-08-05 12:12:37 INFO: Current average volume is: 801.46
+2025-08-05 12:12:37 INFO: Closing price: 359.59 just dropped below support 359.641 again...ending trade...
+2025-08-05 14:29:50 INFO: === Strategy started ===
+2025-08-05 14:29:50 INFO: Start collecting the current highs/lows for: ETN
+2025-08-05 14:29:50 INFO: Most recent stock data: {'ETN': {   'close': 360.45,
+    'high': 360.45,
+    'low': 360.37,
+    'open': 360.4,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 729.0,
+    'vwap': 360.398379}}
+2025-08-05 14:30:50 INFO: Most recent stock data: {'ETN': {   'close': 360.435,
+    'high': 360.44,
+    'low': 360.345,
+    'open': 360.4,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 815.0,
+    'vwap': 360.400909}}
+2025-08-05 14:31:50 INFO: Most recent stock data: {'ETN': {   'close': 360.21,
+    'high': 360.37,
+    'low': 360.21,
+    'open': 360.365,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 983.0,
+    'vwap': 360.312051}}
+2025-08-05 14:32:51 INFO: Most recent stock data: {'ETN': {   'close': 360.245,
+    'high': 360.39,
+    'low': 360.24,
+    'open': 360.295,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 2067.0,
+    'vwap': 360.299661}}
+2025-08-05 14:34:51 INFO: Most recent stock data: {'ETN': {   'close': 360.405,
+    'high': 360.44,
+    'low': 360.38,
+    'open': 360.38,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 961.0,
+    'vwap': 360.409348}}
+2025-08-05 14:35:51 INFO: Most recent stock data: {'ETN': {   'close': 360.32,
+    'high': 360.32,
+    'low': 360.32,
+    'open': 360.32,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 226.0,
+    'vwap': 360.32}}
+2025-08-05 14:36:51 INFO: Most recent stock data: {'ETN': {   'close': 360.28,
+    'high': 360.35,
+    'low': 360.28,
+    'open': 360.35,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 825.0,
+    'vwap': 360.315}}
+2025-08-05 14:37:51 INFO: Most recent stock data: {'ETN': {   'close': 360.015,
+    'high': 360.155,
+    'low': 360.0,
+    'open': 360.065,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1989.0,
+    'vwap': 360.09059}}
+2025-08-05 14:38:51 INFO: Most recent stock data: {'ETN': {   'close': 360.32,
+    'high': 360.32,
+    'low': 360.015,
+    'open': 360.015,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 476.0,
+    'vwap': 360.14}}
+2025-08-05 14:39:51 INFO: Most recent stock data: {'ETN': {   'close': 360.61,
+    'high': 360.61,
+    'low': 360.61,
+    'open': 360.61,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 338.0,
+    'vwap': 360.61}}
+2025-08-05 14:40:52 INFO: Most recent stock data: {'ETN': {   'close': 360.82,
+    'high': 360.82,
+    'low': 360.82,
+    'open': 360.82,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 191.0,
+    'vwap': 360.82}}
+2025-08-05 14:40:52 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 14:40:52 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-05 14:41:52 INFO: {'ETN': {   'close': 360.295,
+    'high': 360.325,
+    'low': 360.295,
+    'open': 360.325,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 937.0,
+    'vwap': 360.31}}
+2025-08-05 14:41:52 INFO: Current resistance is: 360.82 and support is: 360.0
+2025-08-05 14:41:52 INFO: Current average volume is: 817.33
+2025-08-05 14:41:52 INFO: Updated resistance to: 360.82 and support to: 360.0
+2025-08-05 14:44:52 INFO: {'ETN': {   'close': 361.09,
+    'high': 361.09,
+    'low': 361.09,
+    'open': 361.09,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 361.09}}
+2025-08-05 14:44:52 INFO: Current resistance is: 360.82 and support is: 360.0
+2025-08-05 14:44:52 INFO: Current average volume is: 762.15
+2025-08-05 14:44:52 INFO: The Current Close 361.09 is above the resistance...
+2025-08-05 14:44:52 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:45:22 INFO: {'ETN': {   'close': 360.85,
+    'high': 361.02,
+    'low': 360.85,
+    'open': 361.02,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 920.0,
+    'vwap': 360.89}}
+2025-08-05 14:45:22 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:45:22 INFO: Current average volume is: 773.43
+2025-08-05 14:45:22 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:46:22 INFO: {'ETN': {   'close': 360.78,
+    'high': 360.845,
+    'low': 360.75,
+    'open': 360.805,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 850.0,
+    'vwap': 360.78}}
+2025-08-05 14:46:22 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:46:22 INFO: Current average volume is: 778.53
+2025-08-05 14:46:22 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:47:22 INFO: {'ETN': {   'close': 360.485,
+    'high': 360.92,
+    'low': 360.485,
+    'open': 360.73,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1700.0,
+    'vwap': 360.701563}}
+2025-08-05 14:47:22 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:47:22 INFO: Current average volume is: 836.12
+2025-08-05 14:47:22 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:48:23 INFO: {'ETN': {   'close': 360.39,
+    'high': 360.41,
+    'low': 360.25,
+    'open': 360.25,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 531.0,
+    'vwap': 360.335158}}
+2025-08-05 14:48:23 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:48:23 INFO: Current average volume is: 818.18
+2025-08-05 14:48:23 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:49:23 INFO: {'ETN': {   'close': 360.31,
+    'high': 360.31,
+    'low': 360.13,
+    'open': 360.16,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1214.0,
+    'vwap': 360.185455}}
+2025-08-05 14:49:23 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:49:23 INFO: Current average volume is: 840.17
+2025-08-05 14:49:23 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:50:23 INFO: {'ETN': {   'close': 360.2,
+    'high': 360.3,
+    'low': 360.19,
+    'open': 360.245,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1588.0,
+    'vwap': 360.244545}}
+2025-08-05 14:50:23 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:50:23 INFO: Current average volume is: 879.53
+2025-08-05 14:50:23 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:51:23 INFO: {'ETN': {   'close': 360.215,
+    'high': 360.29,
+    'low': 360.215,
+    'open': 360.29,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 916.0,
+    'vwap': 360.25125}}
+2025-08-05 14:51:23 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:51:23 INFO: Current average volume is: 881.35
+2025-08-05 14:51:23 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:52:23 INFO: {'ETN': {   'close': 359.97,
+    'high': 360.03,
+    'low': 359.97,
+    'open': 360.03,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 549.0,
+    'vwap': 360.0025}}
+2025-08-05 14:52:23 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:52:23 INFO: Current average volume is: 865.52
+2025-08-05 14:52:23 INFO: close price: 359.97 just dropped below support of 360.0...
+2025-08-05 14:54:23 INFO: {'ETN': {   'close': 360.07,
+    'high': 360.07,
+    'low': 360.0,
+    'open': 360.0,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 501.0,
+    'vwap': 360.035}}
+2025-08-05 14:54:23 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:54:23 INFO: Current average volume is: 848.95
+2025-08-05 14:54:23 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:55:23 INFO: {'ETN': {   'close': 360.24,
+    'high': 360.315,
+    'low': 360.24,
+    'open': 360.31,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 880.0,
+    'vwap': 360.269947}}
+2025-08-05 14:55:23 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:55:23 INFO: Current average volume is: 850.3
+2025-08-05 14:55:23 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:57:24 INFO: {'ETN': {   'close': 360.25,
+    'high': 360.25,
+    'low': 360.25,
+    'open': 360.25,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 383.0,
+    'vwap': 360.25}}
+2025-08-05 14:57:24 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:57:24 INFO: Current average volume is: 830.83
+2025-08-05 14:57:24 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 14:59:24 INFO: {'ETN': {   'close': 360.555,
+    'high': 360.65,
+    'low': 360.555,
+    'open': 360.64,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 533.0,
+    'vwap': 360.609878}}
+2025-08-05 14:59:24 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 14:59:24 INFO: Current average volume is: 818.92
+2025-08-05 14:59:24 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 15:00:24 INFO: {'ETN': {   'close': 360.295,
+    'high': 360.52,
+    'low': 360.295,
+    'open': 360.4,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1374.0,
+    'vwap': 360.396527}}
+2025-08-05 15:00:24 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 15:00:24 INFO: Current average volume is: 840.27
+2025-08-05 15:00:24 INFO: Updated resistance to: 361.09 and support to: 360.0
+2025-08-05 15:01:24 INFO: {'ETN': {   'close': 360.0,
+    'high': 360.16,
+    'low': 360.0,
+    'open': 360.16,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 1215.0,
+    'vwap': 360.12875}}
+2025-08-05 15:01:24 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 15:01:24 INFO: Current average volume is: 854.15
+2025-08-05 15:02:24 INFO: {'ETN': {   'close': 360.15,
+    'high': 360.25,
+    'low': 359.99,
+    'open': 360.0,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1893.0,
+    'vwap': 360.105385}}
+2025-08-05 15:02:24 INFO: Current resistance is: 361.09 and support is: 360.0
+2025-08-05 15:02:24 INFO: Current average volume is: 891.25
+2025-08-05 15:02:24 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:03:24 INFO: {'ETN': {   'close': 360.27,
+    'high': 360.27,
+    'low': 360.09,
+    'open': 360.16,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1151.0,
+    'vwap': 360.176}}
+2025-08-05 15:03:24 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:03:24 INFO: Current average volume is: 900.21
+2025-08-05 15:03:24 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:04:25 INFO: {'ETN': {   'close': 360.4,
+    'high': 360.41,
+    'low': 360.39,
+    'open': 360.395,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1258.0,
+    'vwap': 360.4}}
+2025-08-05 15:04:25 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:04:25 INFO: Current average volume is: 912.13
+2025-08-05 15:04:25 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:06:25 INFO: {'ETN': {   'close': 360.465,
+    'high': 360.67,
+    'low': 360.41,
+    'open': 360.56,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1355.0,
+    'vwap': 360.535574}}
+2025-08-05 15:06:25 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:06:25 INFO: Current average volume is: 926.42
+2025-08-05 15:06:25 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:07:25 INFO: {'ETN': {   'close': 360.455,
+    'high': 360.52,
+    'low': 360.455,
+    'open': 360.495,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1248.0,
+    'vwap': 360.498674}}
+2025-08-05 15:07:25 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:07:25 INFO: Current average volume is: 936.47
+2025-08-05 15:07:25 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:08:25 INFO: {'ETN': {   'close': 360.37,
+    'high': 360.515,
+    'low': 360.37,
+    'open': 360.515,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 946.0,
+    'vwap': 360.46125}}
+2025-08-05 15:08:25 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:08:25 INFO: Current average volume is: 936.76
+2025-08-05 15:08:25 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:09:25 INFO: {'ETN': {   'close': 360.155,
+    'high': 360.315,
+    'low': 360.155,
+    'open': 360.24,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 3034.0,
+    'vwap': 360.229091}}
+2025-08-05 15:09:25 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:09:25 INFO: Current average volume is: 998.44
+2025-08-05 15:09:25 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:10:25 INFO: {'ETN': {   'close': 360.325,
+    'high': 360.325,
+    'low': 360.14,
+    'open': 360.185,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1332.0,
+    'vwap': 360.205}}
+2025-08-05 15:10:25 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:10:25 INFO: Current average volume is: 1007.97
+2025-08-05 15:10:25 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:11:25 INFO: {'ETN': {   'close': 360.21,
+    'high': 360.21,
+    'low': 360.01,
+    'open': 360.01,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 643.0,
+    'vwap': 360.11}}
+2025-08-05 15:11:25 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:11:25 INFO: Current average volume is: 997.83
+2025-08-05 15:11:25 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:12:25 INFO: {'ETN': {   'close': 360.5,
+    'high': 360.5,
+    'low': 360.5,
+    'open': 360.5,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 221.0,
+    'vwap': 360.5}}
+2025-08-05 15:12:25 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:12:25 INFO: Current average volume is: 976.84
+2025-08-05 15:12:25 INFO: Updated resistance to: 361.09 and support to: 359.99
+2025-08-05 15:13:26 INFO: {'ETN': {   'close': 360.04,
+    'high': 360.49,
+    'low': 359.98,
+    'open': 360.49,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 1215.0,
+    'vwap': 360.226429}}
+2025-08-05 15:13:26 INFO: Current resistance is: 361.09 and support is: 359.99
+2025-08-05 15:13:26 INFO: Current average volume is: 983.11
+2025-08-05 15:13:26 INFO: Updated resistance to: 361.09 and support to: 359.98
+2025-08-05 15:14:26 INFO: {'ETN': {   'close': 359.48,
+    'high': 359.99,
+    'low': 359.44,
+    'open': 359.99,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1249.0,
+    'vwap': 359.715}}
+2025-08-05 15:14:26 INFO: Current resistance is: 361.09 and support is: 359.98
+2025-08-05 15:14:26 INFO: Current average volume is: 989.92
+2025-08-05 15:14:26 INFO: close price: 359.48 just dropped below support of 359.98...
+2025-08-05 15:15:26 INFO: {'ETN': {   'close': 359.6,
+    'high': 359.62,
+    'low': 359.33,
+    'open': 359.33,
+    'symbol': 'ETN',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 894.0,
+    'vwap': 359.495}}
+2025-08-05 15:15:26 INFO: Current resistance is: 361.09 and support is: 359.98
+2025-08-05 15:15:26 INFO: Current average volume is: 987.52
+2025-08-05 15:15:26 INFO: Closing price: 359.6 just dropped below support 359.98 again...ending trade...

@@ -41,7 +41,7 @@ def main():
     lows=[]
     opens=[]
     closes=[]
-    volume=0.0
+    volume=[]
     total_time = 0
 
     # Get the initial data
@@ -49,6 +49,9 @@ def main():
     logging.info(f"Most recent stock data: {get_stock_price_data}")
     highs.append(get_stock_price_data[curr_symbol].high)
     lows.append(get_stock_price_data[curr_symbol].low)
+    opens.append(get_stock_price_data[curr_symbol].open)
+    closes.append(get_stock_price_data[curr_symbol].close)
+    volume.append(get_stock_price_data[curr_symbol].volume)
 
     while(True):
         # Keep connection in loop to stop timeouts
@@ -62,7 +65,7 @@ def main():
             lows.append(get_stock_price_data[curr_symbol].low)
             opens.append(get_stock_price_data[curr_symbol].open)
             closes.append(get_stock_price_data[curr_symbol].close)
-            volume += get_stock_price_data[curr_symbol].volume
+            volume.append(get_stock_price_data[curr_symbol].volume)
             print("Current Stock is: " + curr_symbol)
             print(highs)
             print(lows)

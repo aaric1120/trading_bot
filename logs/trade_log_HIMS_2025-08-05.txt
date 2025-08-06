@@ -1,0 +1,832 @@
+2025-08-05 11:29:33 INFO: === Strategy started ===
+2025-08-05 11:29:33 INFO: Start collecting the current highs/lows for: HIMS
+2025-08-05 11:29:33 INFO: Most recent stock data: {'HIMS': {   'close': 60.035,
+    'high': 60.19,
+    'low': 60.03,
+    'open': 60.03,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3162.0,
+    'vwap': 60.140095}}
+2025-08-05 11:30:33 INFO: Most recent stock data: {'HIMS': {   'close': 59.99,
+    'high': 59.99,
+    'low': 59.755,
+    'open': 59.83,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2850.0,
+    'vwap': 59.826667}}
+2025-08-05 11:31:33 INFO: Most recent stock data: {'HIMS': {   'close': 59.605,
+    'high': 59.94,
+    'low': 59.555,
+    'open': 59.94,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 1807.0,
+    'vwap': 59.752609}}
+2025-08-05 11:32:33 INFO: Most recent stock data: {'HIMS': {   'close': 59.43,
+    'high': 59.585,
+    'low': 59.38,
+    'open': 59.585,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1712.0,
+    'vwap': 59.43}}
+2025-08-05 11:33:33 INFO: Most recent stock data: {'HIMS': {   'close': 59.31,
+    'high': 59.375,
+    'low': 59.28,
+    'open': 59.375,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1274.0,
+    'vwap': 59.318571}}
+2025-08-05 11:34:34 INFO: Most recent stock data: {'HIMS': {   'close': 59.22,
+    'high': 59.33,
+    'low': 59.11,
+    'open': 59.33,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1363.0,
+    'vwap': 59.2035}}
+2025-08-05 11:35:34 INFO: Most recent stock data: {'HIMS': {   'close': 58.94,
+    'high': 59.27,
+    'low': 58.94,
+    'open': 59.27,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 2875.0,
+    'vwap': 59.073542}}
+2025-08-05 11:36:34 INFO: Most recent stock data: {'HIMS': {   'close': 58.25,
+    'high': 58.7,
+    'low': 58.25,
+    'open': 58.7,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 4721.0,
+    'vwap': 58.582088}}
+2025-08-05 11:37:34 INFO: Most recent stock data: {'HIMS': {   'close': 58.21,
+    'high': 58.21,
+    'low': 58.03,
+    'open': 58.175,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 79.0,
+    'volume': 12796.0,
+    'vwap': 58.099959}}
+2025-08-05 11:39:34 INFO: Most recent stock data: {'HIMS': {   'close': 58.25,
+    'high': 58.32,
+    'low': 58.09,
+    'open': 58.09,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 2652.0,
+    'vwap': 58.207423}}
+2025-08-05 11:40:34 INFO: Most recent stock data: {'HIMS': {   'close': 58.58,
+    'high': 58.65,
+    'low': 58.37,
+    'open': 58.37,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1583.0,
+    'vwap': 58.486667}}
+2025-08-05 11:40:34 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 11:40:34 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 11:41:34 INFO: {'HIMS': {   'close': 58.22,
+    'high': 58.62,
+    'low': 58.055,
+    'open': 58.62,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2320.0,
+    'vwap': 58.331176}}
+2025-08-05 11:41:34 INFO: Current resistance is: 58.046 and support is: 57.426
+2025-08-05 11:41:34 INFO: Current average volume is: 2996.08
+2025-08-05 11:41:34 INFO: The Current Close 58.22 is above the resistance...
+2025-08-05 11:41:34 INFO: Updated resistance to: 58.108 and support to: 57.268
+2025-08-05 11:42:05 INFO: {'HIMS': {   'close': 58.16,
+    'high': 58.16,
+    'low': 58.0,
+    'open': 58.115,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1641.0,
+    'vwap': 58.073333}}
+2025-08-05 11:42:05 INFO: Current resistance is: 58.108 and support is: 57.268
+2025-08-05 11:42:05 INFO: Current average volume is: 2891.85
+2025-08-05 11:42:05 INFO: The current close: 58.16 is above the resistance of 58.108, but volume isn't enough...
+2025-08-05 11:42:05 INFO: Updated resistance to: 57.98 and support to: 57.821
+2025-08-05 11:43:05 INFO: {'HIMS': {   'close': 58.15,
+    'high': 58.19,
+    'low': 58.02,
+    'open': 58.02,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3405.0,
+    'vwap': 58.085167}}
+2025-08-05 11:43:05 INFO: Current resistance is: 57.98 and support is: 57.821
+2025-08-05 11:43:05 INFO: Current average volume is: 2928.5
+2025-08-05 11:43:05 INFO: The current close: 58.15 is above the resistance of 57.98, but volume isn't enough...
+2025-08-05 11:43:05 INFO: Updated resistance to: 57.92 and support to: 57.666
+2025-08-05 11:44:05 INFO: {'HIMS': {   'close': 58.28,
+    'high': 58.42,
+    'low': 57.985,
+    'open': 58.04,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 2865.0,
+    'vwap': 58.086512}}
+2025-08-05 11:44:05 INFO: Current resistance is: 57.92 and support is: 57.666
+2025-08-05 11:44:05 INFO: Current average volume is: 2924.27
+2025-08-05 11:44:05 INFO: The current close: 58.28 is above the resistance of 57.92, but volume isn't enough...
+2025-08-05 11:44:05 INFO: Updated resistance to: 57.983 and support to: 57.83
+2025-08-05 11:45:05 INFO: {'HIMS': {   'close': 58.43,
+    'high': 58.46,
+    'low': 58.23,
+    'open': 58.23,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1951.0,
+    'vwap': 58.380482}}
+2025-08-05 11:45:05 INFO: Current resistance is: 57.983 and support is: 57.83
+2025-08-05 11:45:05 INFO: Current average volume is: 2863.44
+2025-08-05 11:45:05 INFO: The current close: 58.43 is above the resistance of 57.983, but volume isn't enough...
+2025-08-05 11:45:05 INFO: Updated resistance to: 58.062 and support to: 57.707
+2025-08-05 11:46:06 INFO: {'HIMS': {   'close': 58.52,
+    'high': 58.58,
+    'low': 58.34,
+    'open': 58.39,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 73.0,
+    'volume': 5083.0,
+    'vwap': 58.480466}}
+2025-08-05 11:46:06 INFO: Current resistance is: 58.062 and support is: 57.707
+2025-08-05 11:46:06 INFO: Current average volume is: 2994.0
+2025-08-05 11:46:06 INFO: The current close: 58.52 is above the resistance of 58.062, but volume isn't enough...
+2025-08-05 11:46:06 INFO: Updated resistance to: 58.178 and support to: 57.617
+2025-08-05 11:47:06 INFO: {'HIMS': {   'close': 58.245,
+    'high': 58.51,
+    'low': 58.245,
+    'open': 58.51,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1697.0,
+    'vwap': 58.404679}}
+2025-08-05 11:47:06 INFO: Current resistance is: 58.178 and support is: 57.617
+2025-08-05 11:47:06 INFO: Current average volume is: 2921.94
+2025-08-05 11:47:06 INFO: The current close: 58.245 is above the resistance of 58.178, but volume isn't enough...
+2025-08-05 11:47:06 INFO: Updated resistance to: 58.26 and support to: 57.542
+2025-08-05 11:48:06 INFO: {'HIMS': {   'close': 58.16,
+    'high': 58.29,
+    'low': 58.065,
+    'open': 58.29,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1838.0,
+    'vwap': 58.180909}}
+2025-08-05 11:48:06 INFO: Current resistance is: 58.26 and support is: 57.542
+2025-08-05 11:48:06 INFO: Current average volume is: 2864.89
+2025-08-05 11:48:06 INFO: Updated resistance to: 58.27 and support to: 57.469
+2025-08-05 11:49:06 INFO: {'HIMS': {   'close': 58.42,
+    'high': 58.44,
+    'low': 58.11,
+    'open': 58.11,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3012.0,
+    'vwap': 58.279575}}
+2025-08-05 11:49:06 INFO: Current resistance is: 58.27 and support is: 57.469
+2025-08-05 11:49:06 INFO: Current average volume is: 2872.25
+2025-08-05 11:49:06 INFO: The Current Close 58.42 is above the resistance...
+2025-08-05 11:49:06 INFO: Updated resistance to: 58.331 and support to: 57.41
+2025-08-05 11:50:06 INFO: {'HIMS': {   'close': 58.34,
+    'high': 58.45,
+    'low': 58.28,
+    'open': 58.44,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 4976.0,
+    'vwap': 58.375113}}
+2025-08-05 11:50:06 INFO: Current resistance is: 58.331 and support is: 57.41
+2025-08-05 11:50:06 INFO: Current average volume is: 2972.43
+2025-08-05 11:50:06 INFO: The current close: 58.34 is above the resistance of 58.331, but volume isn't enough...
+2025-08-05 11:50:06 INFO: Updated resistance to: 58.392 and support to: 57.378
+2025-08-05 11:51:07 INFO: {'HIMS': {   'close': 58.2,
+    'high': 58.4,
+    'low': 58.2,
+    'open': 58.4,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1392.0,
+    'vwap': 58.311044}}
+2025-08-05 11:51:07 INFO: Current resistance is: 58.392 and support is: 57.378
+2025-08-05 11:51:07 INFO: Current average volume is: 2900.59
+2025-08-05 11:51:07 INFO: Updated resistance to: 58.437 and support to: 57.346
+2025-08-05 11:52:07 INFO: {'HIMS': {   'close': 58.29,
+    'high': 58.38,
+    'low': 58.23,
+    'open': 58.25,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2151.0,
+    'vwap': 58.267647}}
+2025-08-05 11:52:07 INFO: Current resistance is: 58.437 and support is: 57.346
+2025-08-05 11:52:07 INFO: Current average volume is: 2868.0
+2025-08-05 11:52:07 INFO: Updated resistance to: 58.476 and support to: 57.323
+2025-08-05 11:53:07 INFO: {'HIMS': {   'close': 58.35,
+    'high': 58.35,
+    'low': 58.14,
+    'open': 58.165,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1133.0,
+    'vwap': 58.234615}}
+2025-08-05 11:53:07 INFO: Current resistance is: 58.476 and support is: 57.323
+2025-08-05 11:53:07 INFO: Current average volume is: 2795.71
+2025-08-05 11:53:07 INFO: Updated resistance to: 58.507 and support to: 57.297
+2025-08-05 11:54:07 INFO: {'HIMS': {   'close': 58.13,
+    'high': 58.27,
+    'low': 58.06,
+    'open': 58.18,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 1962.0,
+    'vwap': 58.162085}}
+2025-08-05 11:54:07 INFO: Current resistance is: 58.507 and support is: 57.297
+2025-08-05 11:54:07 INFO: Current average volume is: 2762.36
+2025-08-05 11:54:07 INFO: Updated resistance to: 58.521 and support to: 57.268
+2025-08-05 11:55:07 INFO: {'HIMS': {   'close': 57.77,
+    'high': 58.07,
+    'low': 57.73,
+    'open': 58.07,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 81.0,
+    'volume': 9214.0,
+    'vwap': 57.938356}}
+2025-08-05 11:55:07 INFO: Current resistance is: 58.521 and support is: 57.268
+2025-08-05 11:55:07 INFO: Current average volume is: 3010.5
+2025-08-05 11:55:07 INFO: Updated resistance to: 58.493 and support to: 57.665
+2025-08-05 11:56:07 INFO: {'HIMS': {   'close': 58.235,
+    'high': 58.27,
+    'low': 57.78,
+    'open': 57.78,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 1888.0,
+    'vwap': 58.067407}}
+2025-08-05 11:56:07 INFO: Current resistance is: 58.493 and support is: 57.665
+2025-08-05 11:56:07 INFO: Current average volume is: 2968.93
+2025-08-05 11:56:07 INFO: Updated resistance to: 58.517 and support to: 57.604
+2025-08-05 11:57:07 INFO: {'HIMS': {   'close': 57.81,
+    'high': 57.82,
+    'low': 57.665,
+    'open': 57.69,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1780.0,
+    'vwap': 57.733447}}
+2025-08-05 11:57:07 INFO: Current resistance is: 58.517 and support is: 57.604
+2025-08-05 11:57:07 INFO: Current average volume is: 2926.46
+2025-08-05 11:57:07 INFO: Updated resistance to: 58.448 and support to: 57.602
+2025-08-05 11:58:08 INFO: {'HIMS': {   'close': 57.8,
+    'high': 57.8,
+    'low': 57.76,
+    'open': 57.78,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1853.0,
+    'vwap': 57.76938}}
+2025-08-05 11:58:08 INFO: Current resistance is: 58.448 and support is: 57.602
+2025-08-05 11:58:08 INFO: Current average volume is: 2889.45
+2025-08-05 11:58:08 INFO: Updated resistance to: 58.389 and support to: 57.543
+2025-08-05 11:59:08 INFO: {'HIMS': {   'close': 57.77,
+    'high': 57.98,
+    'low': 57.64,
+    'open': 57.79,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 2531.0,
+    'vwap': 57.798127}}
+2025-08-05 11:59:08 INFO: Current resistance is: 58.389 and support is: 57.543
+2025-08-05 11:59:08 INFO: Current average volume is: 2877.5
+2025-08-05 11:59:08 INFO: Updated resistance to: 58.376 and support to: 57.58
+2025-08-05 12:00:08 INFO: {'HIMS': {   'close': 57.735,
+    'high': 57.81,
+    'low': 57.735,
+    'open': 57.75,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1040.0,
+    'vwap': 57.765833}}
+2025-08-05 12:00:08 INFO: Current resistance is: 58.376 and support is: 57.58
+2025-08-05 12:00:08 INFO: Current average volume is: 2818.23
+2025-08-05 12:00:08 INFO: Updated resistance to: 58.337 and support to: 57.524
+2025-08-05 12:01:08 INFO: {'HIMS': {   'close': 57.71,
+    'high': 57.785,
+    'low': 57.615,
+    'open': 57.785,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 3526.0,
+    'vwap': 57.686195}}
+2025-08-05 12:01:08 INFO: Current resistance is: 58.337 and support is: 57.524
+2025-08-05 12:01:08 INFO: Current average volume is: 2840.34
+2025-08-05 12:01:08 INFO: Updated resistance to: 58.301 and support to: 57.558
+2025-08-05 12:02:08 INFO: {'HIMS': {   'close': 57.67,
+    'high': 57.82,
+    'low': 57.65,
+    'open': 57.68,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1642.0,
+    'vwap': 57.702857}}
+2025-08-05 12:02:08 INFO: Current resistance is: 58.301 and support is: 57.558
+2025-08-05 12:02:08 INFO: Current average volume is: 2804.03
+2025-08-05 12:02:08 INFO: Updated resistance to: 58.28 and support to: 57.504
+2025-08-05 12:03:08 INFO: {'HIMS': {   'close': 57.545,
+    'high': 57.73,
+    'low': 57.5,
+    'open': 57.715,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2353.0,
+    'vwap': 57.657313}}
+2025-08-05 12:03:08 INFO: Current resistance is: 58.28 and support is: 57.504
+2025-08-05 12:03:08 INFO: Current average volume is: 2790.76
+2025-08-05 12:03:08 INFO: Updated resistance to: 58.249 and support to: 57.445
+2025-08-05 12:04:08 INFO: {'HIMS': {   'close': 57.68,
+    'high': 57.7,
+    'low': 57.575,
+    'open': 57.575,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 2332.0,
+    'vwap': 57.618978}}
+2025-08-05 12:04:08 INFO: Current resistance is: 58.249 and support is: 57.445
+2025-08-05 12:04:08 INFO: Current average volume is: 2777.66
+2025-08-05 12:04:08 INFO: Updated resistance to: 58.219 and support to: 57.392
+2025-08-05 12:05:08 INFO: {'HIMS': {   'close': 57.725,
+    'high': 57.725,
+    'low': 57.6,
+    'open': 57.635,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 889.0,
+    'vwap': 57.6525}}
+2025-08-05 12:05:08 INFO: Current resistance is: 58.219 and support is: 57.392
+2025-08-05 12:05:08 INFO: Current average volume is: 2725.19
+2025-08-05 12:05:08 INFO: Updated resistance to: 58.2 and support to: 57.343
+2025-08-05 12:06:08 INFO: {'HIMS': {   'close': 57.73,
+    'high': 57.73,
+    'low': 57.635,
+    'open': 57.725,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1892.0,
+    'vwap': 57.704904}}
+2025-08-05 12:06:08 INFO: Current resistance is: 58.2 and support is: 57.343
+2025-08-05 12:06:08 INFO: Current average volume is: 2702.68
+2025-08-05 12:06:08 INFO: Updated resistance to: 58.186 and support to: 57.296
+2025-08-05 12:07:09 INFO: {'HIMS': {   'close': 57.935,
+    'high': 57.935,
+    'low': 57.73,
+    'open': 57.76,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 55.0,
+    'volume': 7632.0,
+    'vwap': 57.797892}}
+2025-08-05 12:07:09 INFO: Current resistance is: 58.186 and support is: 57.296
+2025-08-05 12:07:09 INFO: Current average volume is: 2832.39
+2025-08-05 12:07:09 INFO: Updated resistance to: 58.208 and support to: 57.255
+2025-08-05 12:08:09 INFO: {'HIMS': {   'close': 57.92,
+    'high': 58.07,
+    'low': 57.92,
+    'open': 58.07,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 766.0,
+    'vwap': 58.025}}
+2025-08-05 12:08:09 INFO: Current resistance is: 58.208 and support is: 57.255
+2025-08-05 12:08:09 INFO: Current average volume is: 2779.41
+2025-08-05 12:08:09 INFO: Updated resistance to: 58.251 and support to: 57.221
+2025-08-05 12:09:09 INFO: {'HIMS': {   'close': 58.2,
+    'high': 58.2,
+    'low': 57.985,
+    'open': 58.02,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1868.0,
+    'vwap': 58.077222}}
+2025-08-05 12:09:09 INFO: Current resistance is: 58.251 and support is: 57.221
+2025-08-05 12:09:09 INFO: Current average volume is: 2756.62
+2025-08-05 12:09:09 INFO: Updated resistance to: 58.311 and support to: 57.192
+2025-08-05 12:10:09 INFO: {'HIMS': {   'close': 58.08,
+    'high': 58.27,
+    'low': 58.08,
+    'open': 58.27,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 4345.0,
+    'vwap': 58.103156}}
+2025-08-05 12:10:09 INFO: Current resistance is: 58.311 and support is: 57.192
+2025-08-05 12:10:09 INFO: Current average volume is: 2795.37
+2025-08-05 12:10:09 INFO: Updated resistance to: 58.378 and support to: 57.17
+2025-08-05 12:11:09 INFO: {'HIMS': {   'close': 58.14,
+    'high': 58.14,
+    'low': 57.93,
+    'open': 57.94,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 989.0,
+    'vwap': 57.989283}}
+2025-08-05 12:11:09 INFO: Current resistance is: 58.378 and support is: 57.17
+2025-08-05 12:11:09 INFO: Current average volume is: 2752.36
+2025-08-05 12:11:09 INFO: Updated resistance to: 58.422 and support to: 57.146
+2025-08-05 12:12:09 INFO: {'HIMS': {   'close': 57.85,
+    'high': 58.05,
+    'low': 57.85,
+    'open': 58.05,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 806.0,
+    'vwap': 57.957692}}
+2025-08-05 12:12:09 INFO: Current resistance is: 58.422 and support is: 57.146
+2025-08-05 12:12:09 INFO: Current average volume is: 2707.09
+2025-08-05 12:12:09 INFO: Updated resistance to: 58.452 and support to: 57.123
+2025-08-05 12:13:09 INFO: {'HIMS': {   'close': 57.745,
+    'high': 57.745,
+    'low': 57.715,
+    'open': 57.74,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1270.0,
+    'vwap': 57.727727}}
+2025-08-05 12:13:09 INFO: Current resistance is: 58.452 and support is: 57.123
+2025-08-05 12:13:09 INFO: Current average volume is: 2674.43
+2025-08-05 12:13:09 INFO: Updated resistance to: 58.44 and support to: 57.097
+2025-08-05 12:14:09 INFO: {'HIMS': {   'close': 57.69,
+    'high': 57.69,
+    'low': 57.69,
+    'open': 57.69,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 254.0,
+    'vwap': 57.69}}
+2025-08-05 12:14:09 INFO: Current resistance is: 58.44 and support is: 57.097
+2025-08-05 12:14:09 INFO: Current average volume is: 2620.64
+2025-08-05 12:14:09 INFO: Updated resistance to: 58.424 and support to: 57.072
+2025-08-05 12:15:10 INFO: {'HIMS': {   'close': 57.93,
+    'high': 57.93,
+    'low': 57.82,
+    'open': 57.86,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1986.0,
+    'vwap': 57.8625}}
+2025-08-05 12:15:10 INFO: Current resistance is: 58.424 and support is: 57.072
+2025-08-05 12:15:10 INFO: Current average volume is: 2606.85
+2025-08-05 12:15:10 INFO: Updated resistance to: 58.442 and support to: 57.053
+2025-08-05 12:16:10 INFO: {'HIMS': {   'close': 58.085,
+    'high': 58.09,
+    'low': 57.88,
+    'open': 57.88,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1990.0,
+    'vwap': 58.036389}}
+2025-08-05 12:16:10 INFO: Current resistance is: 58.442 and support is: 57.053
+2025-08-05 12:16:10 INFO: Current average volume is: 2593.72
+2025-08-05 12:16:10 INFO: Updated resistance to: 58.48 and support to: 57.039
+2025-08-05 12:17:10 INFO: {'HIMS': {   'close': 57.76,
+    'high': 58.055,
+    'low': 57.76,
+    'open': 58.055,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1000.0,
+    'vwap': 57.913333}}
+2025-08-05 12:17:10 INFO: Current resistance is: 58.48 and support is: 57.039
+2025-08-05 12:17:10 INFO: Current average volume is: 2560.52
+2025-08-05 12:17:10 INFO: Updated resistance to: 58.511 and support to: 57.021
+2025-08-05 12:18:10 INFO: {'HIMS': {   'close': 57.62,
+    'high': 57.64,
+    'low': 57.315,
+    'open': 57.64,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1827.0,
+    'vwap': 57.476031}}
+2025-08-05 12:18:10 INFO: Current resistance is: 58.511 and support is: 57.021
+2025-08-05 12:18:10 INFO: Current average volume is: 2545.55
+2025-08-05 12:18:10 INFO: Updated resistance to: 58.492 and support to: 57.283
+2025-08-05 12:19:10 INFO: {'HIMS': {   'close': 57.57,
+    'high': 57.67,
+    'low': 57.53,
+    'open': 57.57,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1193.0,
+    'vwap': 57.556396}}
+2025-08-05 12:19:10 INFO: Current resistance is: 58.492 and support is: 57.283
+2025-08-05 12:19:10 INFO: Current average volume is: 2518.5
+2025-08-05 12:19:10 INFO: Updated resistance to: 58.48 and support to: 57.252
+2025-08-05 12:20:10 INFO: {'HIMS': {   'close': 57.54,
+    'high': 57.54,
+    'low': 57.5,
+    'open': 57.54,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 707.0,
+    'vwap': 57.527778}}
+2025-08-05 12:20:10 INFO: Current resistance is: 58.48 and support is: 57.252
+2025-08-05 12:20:10 INFO: Current average volume is: 2482.98
+2025-08-05 12:20:10 INFO: Updated resistance to: 58.454 and support to: 57.222
+2025-08-05 12:21:10 INFO: {'HIMS': {   'close': 57.73,
+    'high': 57.73,
+    'low': 57.51,
+    'open': 57.51,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1430.0,
+    'vwap': 57.573191}}
+2025-08-05 12:21:10 INFO: Current resistance is: 58.454 and support is: 57.222
+2025-08-05 12:21:10 INFO: Current average volume is: 2462.73
+2025-08-05 12:21:10 INFO: Updated resistance to: 58.453 and support to: 57.192
+2025-08-05 12:22:10 INFO: {'HIMS': {   'close': 58.04,
+    'high': 58.04,
+    'low': 57.73,
+    'open': 57.73,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2778.0,
+    'vwap': 57.904039}}
+2025-08-05 12:22:10 INFO: Current resistance is: 58.453 and support is: 57.192
+2025-08-05 12:22:10 INFO: Current average volume is: 2468.68
+2025-08-05 12:22:10 INFO: Updated resistance to: 58.489 and support to: 57.166
+2025-08-05 12:23:11 INFO: {'HIMS': {   'close': 57.94,
+    'high': 57.995,
+    'low': 57.8,
+    'open': 57.995,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 2061.0,
+    'vwap': 57.879644}}
+2025-08-05 12:23:11 INFO: Current resistance is: 58.489 and support is: 57.166
+2025-08-05 12:23:11 INFO: Current average volume is: 2461.13
+2025-08-05 12:23:11 INFO: Updated resistance to: 58.517 and support to: 57.143
+2025-08-05 12:24:11 INFO: {'HIMS': {   'close': 57.66,
+    'high': 57.93,
+    'low': 57.635,
+    'open': 57.93,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 575.0,
+    'vwap': 57.76}}
+2025-08-05 12:24:11 INFO: Current resistance is: 58.517 and support is: 57.143
+2025-08-05 12:24:11 INFO: Current average volume is: 2426.84
+2025-08-05 12:24:11 INFO: Updated resistance to: 58.538 and support to: 57.119
+2025-08-05 12:25:11 INFO: {'HIMS': {   'close': 57.55,
+    'high': 57.765,
+    'low': 57.55,
+    'open': 57.67,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1050.0,
+    'vwap': 57.667647}}
+2025-08-05 12:25:11 INFO: Current resistance is: 58.538 and support is: 57.119
+2025-08-05 12:25:11 INFO: Current average volume is: 2402.25
+2025-08-05 12:25:11 INFO: Updated resistance to: 58.541 and support to: 57.095
+2025-08-05 12:26:11 INFO: {'HIMS': {   'close': 57.67,
+    'high': 57.67,
+    'low': 57.56,
+    'open': 57.56,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 789.0,
+    'vwap': 57.638591}}
+2025-08-05 12:26:11 INFO: Current resistance is: 58.541 and support is: 57.095
+2025-08-05 12:26:11 INFO: Current average volume is: 2373.95
+2025-08-05 12:26:11 INFO: Updated resistance to: 58.535 and support to: 57.072
+2025-08-05 12:27:11 INFO: {'HIMS': {   'close': 57.695,
+    'high': 57.695,
+    'low': 57.65,
+    'open': 57.65,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 472.0,
+    'vwap': 57.676667}}
+2025-08-05 12:27:11 INFO: Current resistance is: 58.535 and support is: 57.072
+2025-08-05 12:27:11 INFO: Current average volume is: 2341.16
+2025-08-05 12:27:11 INFO: Updated resistance to: 58.533 and support to: 57.051
+2025-08-05 12:28:11 INFO: {'HIMS': {   'close': 57.61,
+    'high': 57.64,
+    'low': 57.605,
+    'open': 57.64,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 642.0,
+    'vwap': 57.616345}}
+2025-08-05 12:28:11 INFO: Current resistance is: 58.533 and support is: 57.051
+2025-08-05 12:28:11 INFO: Current average volume is: 2312.36
+2025-08-05 12:28:11 INFO: Updated resistance to: 58.527 and support to: 57.031
+2025-08-05 12:29:11 INFO: {'HIMS': {   'close': 57.505,
+    'high': 57.545,
+    'low': 57.43,
+    'open': 57.545,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1448.0,
+    'vwap': 57.508636}}
+2025-08-05 12:29:11 INFO: Current resistance is: 58.527 and support is: 57.031
+2025-08-05 12:29:11 INFO: Current average volume is: 2297.95
+2025-08-05 12:29:11 INFO: Updated resistance to: 58.512 and support to: 57.009
+2025-08-05 12:30:11 INFO: {'HIMS': {   'close': 57.37,
+    'high': 57.37,
+    'low': 57.29,
+    'open': 57.32,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1872.0,
+    'vwap': 57.330303}}
+2025-08-05 12:30:11 INFO: Current resistance is: 58.512 and support is: 57.009
+2025-08-05 12:30:11 INFO: Current average volume is: 2290.97
+2025-08-05 12:30:11 INFO: Updated resistance to: 58.483 and support to: 57.265
+2025-08-05 12:31:12 INFO: {'HIMS': {   'close': 57.355,
+    'high': 57.355,
+    'low': 57.34,
+    'open': 57.34,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 600.0,
+    'vwap': 57.344644}}
+2025-08-05 12:31:12 INFO: Current resistance is: 58.483 and support is: 57.265
+2025-08-05 12:31:12 INFO: Current average volume is: 2263.69
+2025-08-05 12:31:12 INFO: Updated resistance to: 58.454 and support to: 57.239
+2025-08-05 12:32:12 INFO: {'HIMS': {   'close': 57.46,
+    'high': 57.475,
+    'low': 57.38,
+    'open': 57.38,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 746.0,
+    'vwap': 57.435}}
+2025-08-05 12:32:12 INFO: Current resistance is: 58.454 and support is: 57.239
+2025-08-05 12:32:12 INFO: Current average volume is: 2239.6
+2025-08-05 12:32:12 INFO: Updated resistance to: 58.44 and support to: 57.215
+2025-08-05 12:33:12 INFO: {'HIMS': {   'close': 57.505,
+    'high': 57.51,
+    'low': 57.41,
+    'open': 57.41,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 715.0,
+    'vwap': 57.476667}}
+2025-08-05 12:33:12 INFO: Current resistance is: 58.44 and support is: 57.215
+2025-08-05 12:33:12 INFO: Current average volume is: 2215.78
+2025-08-05 12:33:12 INFO: Updated resistance to: 58.431 and support to: 57.191
+2025-08-05 12:34:12 INFO: {'HIMS': {   'close': 57.4,
+    'high': 57.52,
+    'low': 57.38,
+    'open': 57.505,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2137.0,
+    'vwap': 57.483871}}
+2025-08-05 12:34:12 INFO: Current resistance is: 58.431 and support is: 57.191
+2025-08-05 12:34:12 INFO: Current average volume is: 2214.57
+2025-08-05 12:34:12 INFO: Updated resistance to: 58.424 and support to: 57.168
+2025-08-05 12:37:12 INFO: {'HIMS': {   'close': 57.29,
+    'high': 57.37,
+    'low': 57.285,
+    'open': 57.37,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1043.0,
+    'vwap': 57.314167}}
+2025-08-05 12:37:12 INFO: Current resistance is: 58.424 and support is: 57.168
+2025-08-05 12:37:12 INFO: Current average volume is: 2196.82
+2025-08-05 12:37:12 INFO: Updated resistance to: 58.404 and support to: 57.261
+2025-08-05 12:38:12 INFO: {'HIMS': {   'close': 57.39,
+    'high': 57.44,
+    'low': 57.33,
+    'open': 57.33,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 459.0,
+    'vwap': 57.386753}}
+2025-08-05 12:38:12 INFO: Current resistance is: 58.404 and support is: 57.261
+2025-08-05 12:38:12 INFO: Current average volume is: 2170.88
+2025-08-05 12:38:12 INFO: Updated resistance to: 58.393 and support to: 57.237
+2025-08-05 12:39:12 INFO: {'HIMS': {   'close': 57.38,
+    'high': 57.51,
+    'low': 57.38,
+    'open': 57.38,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 1902.0,
+    'vwap': 57.42963}}
+2025-08-05 12:39:12 INFO: Current resistance is: 58.393 and support is: 57.237
+2025-08-05 12:39:12 INFO: Current average volume is: 2166.93
+2025-08-05 12:39:12 INFO: Updated resistance to: 58.39 and support to: 57.214
+2025-08-05 12:40:13 INFO: {'HIMS': {   'close': 57.27,
+    'high': 57.45,
+    'low': 57.265,
+    'open': 57.35,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2553.0,
+    'vwap': 57.339036}}
+2025-08-05 12:40:13 INFO: Current resistance is: 58.39 and support is: 57.214
+2025-08-05 12:40:13 INFO: Current average volume is: 2172.52
+2025-08-05 12:40:13 INFO: Updated resistance to: 58.382 and support to: 57.241
+2025-08-05 12:41:13 INFO: {'HIMS': {   'close': 56.855,
+    'high': 57.21,
+    'low': 56.855,
+    'open': 57.2,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 3608.0,
+    'vwap': 57.017665}}
+2025-08-05 12:41:13 INFO: Current resistance is: 58.382 and support is: 57.241
+2025-08-05 12:41:13 INFO: Current average volume is: 2193.03
+2025-08-05 12:41:13 INFO: close price: 56.855 just dropped below support of 57.241...
+2025-08-05 12:42:13 INFO: {'HIMS': {   'close': 57.08,
+    'high': 57.08,
+    'low': 56.78,
+    'open': 56.8,
+    'symbol': 'HIMS',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2128.0,
+    'vwap': 56.892234}}
+2025-08-05 12:42:13 INFO: Current resistance is: 58.382 and support is: 57.241
+2025-08-05 12:42:13 INFO: Current average volume is: 2192.11
+2025-08-05 12:42:13 INFO: Closing price: 57.08 just dropped below support 57.241 again...ending trade...

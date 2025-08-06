@@ -1,0 +1,578 @@
+2025-08-04 10:58:53 INFO: === Strategy started ===
+2025-08-04 10:58:53 INFO: Start collecting the current highs/lows for: YINN
+2025-08-04 10:58:53 INFO: Most recent stock data: {'YINN': {   'close': 42.23,
+    'high': 42.23,
+    'low': 42.23,
+    'open': 42.23,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.23}}
+2025-08-04 11:01:53 INFO: Most recent stock data: {'YINN': {   'close': 42.22,
+    'high': 42.22,
+    'low': 42.22,
+    'open': 42.22,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 265.0,
+    'vwap': 42.22}}
+2025-08-04 11:03:54 INFO: Most recent stock data: {'YINN': {   'close': 42.19,
+    'high': 42.23,
+    'low': 42.19,
+    'open': 42.23,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 800.0,
+    'vwap': 42.19875}}
+2025-08-04 11:04:54 INFO: Most recent stock data: {'YINN': {   'close': 42.14,
+    'high': 42.15,
+    'low': 42.14,
+    'open': 42.15,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 42.146667}}
+2025-08-04 11:05:54 INFO: Most recent stock data: {'YINN': {   'close': 42.19,
+    'high': 42.19,
+    'low': 42.19,
+    'open': 42.19,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.19}}
+2025-08-04 11:07:54 INFO: Most recent stock data: {'YINN': {   'close': 42.15,
+    'high': 42.15,
+    'low': 42.15,
+    'open': 42.15,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 411.0,
+    'vwap': 42.15}}
+2025-08-04 11:10:55 INFO: Most recent stock data: {'YINN': {   'close': 42.13,
+    'high': 42.13,
+    'low': 42.13,
+    'open': 42.13,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.13}}
+2025-08-04 11:13:55 INFO: Most recent stock data: {'YINN': {   'close': 42.22,
+    'high': 42.22,
+    'low': 42.22,
+    'open': 42.22,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.22}}
+2025-08-04 11:14:55 INFO: Most recent stock data: {'YINN': {   'close': 42.25,
+    'high': 42.25,
+    'low': 42.25,
+    'open': 42.25,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 42.25}}
+2025-08-04 11:16:55 INFO: Most recent stock data: {'YINN': {   'close': 42.23,
+    'high': 42.23,
+    'low': 42.23,
+    'open': 42.23,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 187.0,
+    'vwap': 42.23}}
+2025-08-04 11:17:56 INFO: Most recent stock data: {'YINN': {   'close': 42.2,
+    'high': 42.2,
+    'low': 42.2,
+    'open': 42.2,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.2}}
+2025-08-04 11:17:56 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-04 11:17:56 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-04 11:20:56 INFO: {'YINN': {   'close': 42.15,
+    'high': 42.15,
+    'low': 42.15,
+    'open': 42.15,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.15}}
+2025-08-04 11:20:56 INFO: Current resistance is: 42.25 and support is: 42.13
+2025-08-04 11:20:56 INFO: Current average volume is: 230.25
+2025-08-04 11:20:56 INFO: Updated resistance to: 42.25 and support to: 42.13
+2025-08-04 11:22:56 INFO: {'YINN': {   'close': 42.16,
+    'high': 42.16,
+    'low': 42.16,
+    'open': 42.16,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 42.16}}
+2025-08-04 11:22:56 INFO: Current resistance is: 42.25 and support is: 42.13
+2025-08-04 11:22:56 INFO: Current average volume is: 220.46
+2025-08-04 11:22:56 INFO: Updated resistance to: 42.25 and support to: 42.13
+2025-08-04 11:25:57 INFO: {'YINN': {   'close': 42.21,
+    'high': 42.21,
+    'low': 42.21,
+    'open': 42.21,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 228.0,
+    'vwap': 42.21}}
+2025-08-04 11:25:57 INFO: Current resistance is: 42.25 and support is: 42.13
+2025-08-04 11:25:57 INFO: Current average volume is: 221.0
+2025-08-04 11:25:57 INFO: Updated resistance to: 42.25 and support to: 42.13
+2025-08-04 11:26:57 INFO: {'YINN': {   'close': 42.23,
+    'high': 42.24,
+    'low': 42.23,
+    'open': 42.24,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.235}}
+2025-08-04 11:26:57 INFO: Current resistance is: 42.25 and support is: 42.13
+2025-08-04 11:26:57 INFO: Current average volume is: 219.6
+2025-08-04 11:26:57 INFO: Updated resistance to: 42.25 and support to: 42.13
+2025-08-04 11:34:58 INFO: {'YINN': {   'close': 42.2,
+    'high': 42.21,
+    'low': 42.18,
+    'open': 42.18,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 328.0,
+    'vwap': 42.196667}}
+2025-08-04 11:34:58 INFO: Current resistance is: 42.25 and support is: 42.13
+2025-08-04 11:34:58 INFO: Current average volume is: 226.38
+2025-08-04 11:34:58 INFO: Updated resistance to: 42.25 and support to: 42.13
+2025-08-04 11:35:58 INFO: {'YINN': {   'close': 42.22,
+    'high': 42.22,
+    'low': 42.22,
+    'open': 42.22,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 42.22}}
+2025-08-04 11:35:58 INFO: Current resistance is: 42.25 and support is: 42.13
+2025-08-04 11:35:58 INFO: Current average volume is: 230.71
+2025-08-04 11:35:58 INFO: Updated resistance to: 42.25 and support to: 42.13
+2025-08-04 11:38:58 INFO: {'YINN': {   'close': 42.31,
+    'high': 42.31,
+    'low': 42.31,
+    'open': 42.31,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.31}}
+2025-08-04 11:38:58 INFO: Current resistance is: 42.25 and support is: 42.13
+2025-08-04 11:38:58 INFO: Current average volume is: 223.44
+2025-08-04 11:38:58 INFO: The Current Close 42.31 is above the resistance...
+2025-08-04 11:38:58 INFO: Updated resistance to: 42.31 and support to: 42.13
+2025-08-04 11:43:30 INFO: {'YINN': {   'close': 42.32,
+    'high': 42.32,
+    'low': 42.32,
+    'open': 42.32,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 42.32}}
+2025-08-04 11:43:30 INFO: Current resistance is: 42.31 and support is: 42.13
+2025-08-04 11:43:30 INFO: Current average volume is: 222.32
+2025-08-04 11:43:30 INFO: The current close: 42.32 is above the resistance of 42.31, but volume isn't enough...
+2025-08-04 11:43:30 INFO: Updated resistance to: 42.32 and support to: 42.13
+2025-08-04 12:06:06 INFO: {'YINN': {   'close': 42.33,
+    'high': 42.335,
+    'low': 42.33,
+    'open': 42.335,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 42.33125}}
+2025-08-04 12:06:06 INFO: Current resistance is: 42.32 and support is: 42.13
+2025-08-04 12:06:06 INFO: Current average volume is: 231.2
+2025-08-04 12:06:06 INFO: The current close: 42.33 is above the resistance of 42.32, but volume isn't enough...
+2025-08-04 12:06:06 INFO: Updated resistance to: 42.335 and support to: 42.13
+2025-08-04 12:11:07 INFO: {'YINN': {   'close': 42.28,
+    'high': 42.28,
+    'low': 42.28,
+    'open': 42.28,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.28}}
+2025-08-04 12:11:07 INFO: Current resistance is: 42.335 and support is: 42.13
+2025-08-04 12:11:07 INFO: Current average volume is: 224.95
+2025-08-04 12:11:07 INFO: Updated resistance to: 42.335 and support to: 42.13
+2025-08-04 12:14:08 INFO: {'YINN': {   'close': 42.35,
+    'high': 42.35,
+    'low': 42.35,
+    'open': 42.35,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 181.0,
+    'vwap': 42.35}}
+2025-08-04 12:14:08 INFO: Current resistance is: 42.335 and support is: 42.13
+2025-08-04 12:14:08 INFO: Current average volume is: 222.95
+2025-08-04 12:14:08 INFO: The Current Close 42.35 is above the resistance...
+2025-08-04 12:14:08 INFO: Updated resistance to: 42.35 and support to: 42.13
+2025-08-04 12:17:08 INFO: {'YINN': {   'close': 42.39,
+    'high': 42.39,
+    'low': 42.39,
+    'open': 42.39,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.39}}
+2025-08-04 12:17:08 INFO: Current resistance is: 42.35 and support is: 42.13
+2025-08-04 12:17:08 INFO: Current average volume is: 217.61
+2025-08-04 12:17:08 INFO: The current close: 42.39 is above the resistance of 42.35, but volume isn't enough...
+2025-08-04 12:17:08 INFO: Updated resistance to: 42.39 and support to: 42.13
+2025-08-04 12:23:10 INFO: {'YINN': {   'close': 42.4,
+    'high': 42.41,
+    'low': 42.4,
+    'open': 42.41,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.405}}
+2025-08-04 12:23:10 INFO: Current resistance is: 42.39 and support is: 42.13
+2025-08-04 12:23:10 INFO: Current average volume is: 216.88
+2025-08-04 12:23:10 INFO: The current close: 42.4 is above the resistance of 42.39, but volume isn't enough...
+2025-08-04 12:23:10 INFO: Updated resistance to: 42.41 and support to: 42.13
+2025-08-04 12:33:13 INFO: {'YINN': {   'close': 42.39,
+    'high': 42.39,
+    'low': 42.39,
+    'open': 42.39,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.39}}
+2025-08-04 12:33:13 INFO: Current resistance is: 42.41 and support is: 42.13
+2025-08-04 12:33:13 INFO: Current average volume is: 212.2
+2025-08-04 12:33:13 INFO: Updated resistance to: 42.41 and support to: 42.13
+2025-08-04 12:38:14 INFO: {'YINN': {   'close': 42.42,
+    'high': 42.42,
+    'low': 42.42,
+    'open': 42.42,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 42.42}}
+2025-08-04 12:38:14 INFO: Current resistance is: 42.41 and support is: 42.13
+2025-08-04 12:38:14 INFO: Current average volume is: 211.73
+2025-08-04 12:38:14 INFO: The Current Close 42.42 is above the resistance...
+2025-08-04 12:38:14 INFO: Updated resistance to: 42.42 and support to: 42.13
+2025-08-04 12:44:15 INFO: {'YINN': {   'close': 42.43,
+    'high': 42.43,
+    'low': 42.43,
+    'open': 42.43,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 42.43}}
+2025-08-04 12:44:15 INFO: Current resistance is: 42.42 and support is: 42.13
+2025-08-04 12:44:15 INFO: Current average volume is: 211.3
+2025-08-04 12:44:15 INFO: The current close: 42.43 is above the resistance of 42.42, but volume isn't enough...
+2025-08-04 12:44:15 INFO: Updated resistance to: 42.43 and support to: 42.13
+2025-08-04 12:56:18 INFO: {'YINN': {   'close': 42.48,
+    'high': 42.51,
+    'low': 42.48,
+    'open': 42.51,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 42.495}}
+2025-08-04 12:56:18 INFO: Current resistance is: 42.43 and support is: 42.13
+2025-08-04 12:56:18 INFO: Current average volume is: 210.93
+2025-08-04 12:56:18 INFO: The current close: 42.48 is above the resistance of 42.43, but volume isn't enough...
+2025-08-04 12:56:18 INFO: Updated resistance to: 42.51 and support to: 42.13
+2025-08-04 13:03:20 INFO: {'YINN': {   'close': 42.525,
+    'high': 42.525,
+    'low': 42.525,
+    'open': 42.525,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 199.0,
+    'vwap': 42.525}}
+2025-08-04 13:03:20 INFO: Current resistance is: 42.51 and support is: 42.13
+2025-08-04 13:03:20 INFO: Current average volume is: 210.52
+2025-08-04 13:03:20 INFO: The current close: 42.525 is above the resistance of 42.51, but volume isn't enough...
+2025-08-04 13:03:20 INFO: Updated resistance to: 42.525 and support to: 42.13
+2025-08-04 13:05:20 INFO: {'YINN': {   'close': 42.54,
+    'high': 42.54,
+    'low': 42.54,
+    'open': 42.54,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 142.0,
+    'vwap': 42.54}}
+2025-08-04 13:05:20 INFO: Current resistance is: 42.525 and support is: 42.13
+2025-08-04 13:05:20 INFO: Current average volume is: 208.23
+2025-08-04 13:05:20 INFO: The current close: 42.54 is above the resistance of 42.525, but volume isn't enough...
+2025-08-04 13:05:20 INFO: Updated resistance to: 42.54 and support to: 42.13
+2025-08-04 13:09:21 INFO: {'YINN': {   'close': 42.56,
+    'high': 42.56,
+    'low': 42.56,
+    'open': 42.56,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.56}}
+2025-08-04 13:09:21 INFO: Current resistance is: 42.54 and support is: 42.13
+2025-08-04 13:09:21 INFO: Current average volume is: 204.74
+2025-08-04 13:09:21 INFO: The current close: 42.56 is above the resistance of 42.54, but volume isn't enough...
+2025-08-04 13:09:21 INFO: Updated resistance to: 42.56 and support to: 42.13
+2025-08-04 13:13:22 INFO: {'YINN': {   'close': 42.57,
+    'high': 42.57,
+    'low': 42.57,
+    'open': 42.57,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.57}}
+2025-08-04 13:13:22 INFO: Current resistance is: 42.56 and support is: 42.13
+2025-08-04 13:13:22 INFO: Current average volume is: 201.47
+2025-08-04 13:13:22 INFO: The current close: 42.57 is above the resistance of 42.56, but volume isn't enough...
+2025-08-04 13:13:22 INFO: Updated resistance to: 42.57 and support to: 42.13
+2025-08-04 13:14:23 INFO: {'YINN': {   'close': 42.605,
+    'high': 42.605,
+    'low': 42.605,
+    'open': 42.605,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.605}}
+2025-08-04 13:14:23 INFO: Current resistance is: 42.57 and support is: 42.13
+2025-08-04 13:14:23 INFO: Current average volume is: 198.39
+2025-08-04 13:14:23 INFO: The current close: 42.605 is above the resistance of 42.57, but volume isn't enough...
+2025-08-04 13:14:23 INFO: Updated resistance to: 42.605 and support to: 42.13
+2025-08-04 13:16:23 INFO: {'YINN': {   'close': 42.62,
+    'high': 42.63,
+    'low': 42.62,
+    'open': 42.63,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 226.0,
+    'vwap': 42.625}}
+2025-08-04 13:16:23 INFO: Current resistance is: 42.605 and support is: 42.13
+2025-08-04 13:16:23 INFO: Current average volume is: 199.21
+2025-08-04 13:16:23 INFO: The current close: 42.62 is above the resistance of 42.605, but volume isn't enough...
+2025-08-04 13:16:23 INFO: Updated resistance to: 42.63 and support to: 42.13
+2025-08-04 13:18:24 INFO: {'YINN': {   'close': 42.61,
+    'high': 42.62,
+    'low': 42.61,
+    'open': 42.62,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.615}}
+2025-08-04 13:18:24 INFO: Current resistance is: 42.63 and support is: 42.13
+2025-08-04 13:18:24 INFO: Current average volume is: 199.23
+2025-08-04 13:18:24 INFO: Updated resistance to: 42.63 and support to: 42.13
+2025-08-04 13:21:24 INFO: {'YINN': {   'close': 42.59,
+    'high': 42.615,
+    'low': 42.59,
+    'open': 42.615,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 42.59875}}
+2025-08-04 13:21:24 INFO: Current resistance is: 42.63 and support is: 42.13
+2025-08-04 13:21:24 INFO: Current average volume is: 204.81
+2025-08-04 13:21:24 INFO: Updated resistance to: 42.63 and support to: 42.13
+2025-08-04 13:24:25 INFO: {'YINN': {   'close': 42.64,
+    'high': 42.64,
+    'low': 42.64,
+    'open': 42.64,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 42.64}}
+2025-08-04 13:24:25 INFO: Current resistance is: 42.63 and support is: 42.13
+2025-08-04 13:24:25 INFO: Current average volume is: 202.51
+2025-08-04 13:24:25 INFO: The Current Close 42.64 is above the resistance...
+2025-08-04 13:24:25 INFO: Updated resistance to: 42.64 and support to: 42.13
+2025-08-04 13:27:25 INFO: {'YINN': {   'close': 42.65,
+    'high': 42.65,
+    'low': 42.65,
+    'open': 42.65,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 109.0,
+    'vwap': 42.65}}
+2025-08-04 13:27:25 INFO: Current resistance is: 42.64 and support is: 42.13
+2025-08-04 13:27:25 INFO: Current average volume is: 200.05
+2025-08-04 13:27:25 INFO: The current close: 42.65 is above the resistance of 42.64, but volume isn't enough...
+2025-08-04 13:27:25 INFO: Updated resistance to: 42.65 and support to: 42.13
+2025-08-04 13:38:28 INFO: {'YINN': {   'close': 42.68,
+    'high': 42.68,
+    'low': 42.68,
+    'open': 42.68,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.68}}
+2025-08-04 13:38:28 INFO: Current resistance is: 42.65 and support is: 42.13
+2025-08-04 13:38:28 INFO: Current average volume is: 197.49
+2025-08-04 13:38:28 INFO: The current close: 42.68 is above the resistance of 42.65, but volume isn't enough...
+2025-08-04 13:38:28 INFO: Updated resistance to: 42.68 and support to: 42.13
+2025-08-04 13:39:28 INFO: {'YINN': {   'close': 42.66,
+    'high': 42.66,
+    'low': 42.66,
+    'open': 42.66,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.66}}
+2025-08-04 13:39:28 INFO: Current resistance is: 42.68 and support is: 42.13
+2025-08-04 13:39:28 INFO: Current average volume is: 195.05
+2025-08-04 13:39:28 INFO: Updated resistance to: 42.68 and support to: 42.13
+2025-08-04 13:47:29 INFO: {'YINN': {   'close': 42.72,
+    'high': 42.72,
+    'low': 42.72,
+    'open': 42.72,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.72}}
+2025-08-04 13:47:29 INFO: Current resistance is: 42.68 and support is: 42.13
+2025-08-04 13:47:29 INFO: Current average volume is: 192.73
+2025-08-04 13:47:29 INFO: The Current Close 42.72 is above the resistance...
+2025-08-04 13:47:29 INFO: Updated resistance to: 42.72 and support to: 42.13
+2025-08-04 13:48:30 INFO: {'YINN': {   'close': 42.685,
+    'high': 42.715,
+    'low': 42.685,
+    'open': 42.705,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 326.0,
+    'vwap': 42.700337}}
+2025-08-04 13:48:30 INFO: Current resistance is: 42.72 and support is: 42.13
+2025-08-04 13:48:30 INFO: Current average volume is: 195.9
+2025-08-04 13:48:30 INFO: Updated resistance to: 42.72 and support to: 42.13
+2025-08-04 13:52:30 INFO: {'YINN': {   'close': 42.75,
+    'high': 42.75,
+    'low': 42.75,
+    'open': 42.75,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 152.0,
+    'vwap': 42.75}}
+2025-08-04 13:52:30 INFO: Current resistance is: 42.72 and support is: 42.13
+2025-08-04 13:52:30 INFO: Current average volume is: 194.88
+2025-08-04 13:52:30 INFO: The Current Close 42.75 is above the resistance...
+2025-08-04 13:52:30 INFO: Updated resistance to: 42.75 and support to: 42.13
+2025-08-04 13:55:01 INFO: {'YINN': {   'close': 42.73,
+    'high': 42.76,
+    'low': 42.73,
+    'open': 42.76,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 42.743333}}
+2025-08-04 13:55:01 INFO: Current resistance is: 42.75 and support is: 42.13
+2025-08-04 13:55:01 INFO: Current average volume is: 204.09
+2025-08-04 13:55:01 INFO: Updated resistance to: 42.76 and support to: 42.13
+2025-08-04 13:58:01 INFO: {'YINN': {   'close': 42.745,
+    'high': 42.745,
+    'low': 42.745,
+    'open': 42.745,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 126.0,
+    'vwap': 42.745}}
+2025-08-04 13:58:01 INFO: Current resistance is: 42.76 and support is: 42.13
+2025-08-04 13:58:01 INFO: Current average volume is: 202.36
+2025-08-04 13:58:01 INFO: Updated resistance to: 42.76 and support to: 42.13
+2025-08-04 14:00:01 INFO: {'YINN': {   'close': 42.75,
+    'high': 42.75,
+    'low': 42.75,
+    'open': 42.75,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.75}}
+2025-08-04 14:00:01 INFO: Current resistance is: 42.76 and support is: 42.13
+2025-08-04 14:00:01 INFO: Current average volume is: 202.3
+2025-08-04 14:00:01 INFO: Updated resistance to: 42.76 and support to: 42.13
+2025-08-04 14:01:02 INFO: {'YINN': {   'close': 42.76,
+    'high': 42.76,
+    'low': 42.76,
+    'open': 42.76,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.76}}
+2025-08-04 14:01:02 INFO: Current resistance is: 42.76 and support is: 42.13
+2025-08-04 14:01:02 INFO: Current average volume is: 200.13
+2025-08-04 14:03:02 INFO: {'YINN': {   'close': 42.75,
+    'high': 42.75,
+    'low': 42.75,
+    'open': 42.75,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.75}}
+2025-08-04 14:03:02 INFO: Current resistance is: 42.76 and support is: 42.13
+2025-08-04 14:03:02 INFO: Current average volume is: 198.04
+2025-08-04 14:03:02 INFO: Updated resistance to: 42.76 and support to: 42.13
+2025-08-04 14:16:03 INFO: {'YINN': {   'close': 42.665,
+    'high': 42.665,
+    'low': 42.665,
+    'open': 42.665,
+    'symbol': 'YINN',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.665}}
+2025-08-04 14:16:03 INFO: Current resistance is: 42.76 and support is: 42.13
+2025-08-04 14:16:03 INFO: Current average volume is: 196.04
+2025-08-04 14:16:03 INFO: Updated resistance to: 42.76 and support to: 42.13

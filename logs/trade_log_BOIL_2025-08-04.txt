@@ -1,0 +1,637 @@
+2025-08-04 11:28:51 INFO: === Strategy started ===
+2025-08-04 11:28:51 INFO: Start collecting the current highs/lows for: BOIL
+2025-08-04 11:28:51 INFO: Most recent stock data: {'BOIL': {   'close': 32.1,
+    'high': 32.1,
+    'low': 32.09,
+    'open': 32.09,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 32.096667}}
+2025-08-04 11:31:52 INFO: Most recent stock data: {'BOIL': {   'close': 32.01,
+    'high': 32.01,
+    'low': 32.01,
+    'open': 32.01,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 451.0,
+    'vwap': 32.01}}
+2025-08-04 11:33:52 INFO: Most recent stock data: {'BOIL': {   'close': 32.33,
+    'high': 32.33,
+    'low': 32.22,
+    'open': 32.22,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1025.0,
+    'vwap': 32.245556}}
+2025-08-04 11:36:53 INFO: Most recent stock data: {'BOIL': {   'close': 32.07,
+    'high': 32.07,
+    'low': 32.05,
+    'open': 32.05,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 511.0,
+    'vwap': 32.06}}
+2025-08-04 11:41:53 INFO: Most recent stock data: {'BOIL': {   'close': 32.11,
+    'high': 32.11,
+    'low': 32.11,
+    'open': 32.11,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 32.11}}
+2025-08-04 11:45:54 INFO: Most recent stock data: {'BOIL': {   'close': 31.96,
+    'high': 32.05,
+    'low': 31.96,
+    'open': 32.05,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 255.0,
+    'vwap': 32.005}}
+2025-08-04 11:48:54 INFO: Most recent stock data: {'BOIL': {   'close': 32.04,
+    'high': 32.04,
+    'low': 32.04,
+    'open': 32.04,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 32.04}}
+2025-08-04 11:49:54 INFO: Most recent stock data: {'BOIL': {   'close': 32.22,
+    'high': 32.22,
+    'low': 32.11,
+    'open': 32.11,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 32.165}}
+2025-08-04 11:53:55 INFO: Most recent stock data: {'BOIL': {   'close': 31.98,
+    'high': 31.98,
+    'low': 31.98,
+    'open': 31.98,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 31.98}}
+2025-08-04 11:55:55 INFO: Most recent stock data: {'BOIL': {   'close': 31.94,
+    'high': 31.94,
+    'low': 31.94,
+    'open': 31.94,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.94}}
+2025-08-04 12:00:56 INFO: Most recent stock data: {'BOIL': {   'close': 31.9,
+    'high': 31.9,
+    'low': 31.89,
+    'open': 31.89,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 282.0,
+    'vwap': 31.895}}
+2025-08-04 12:00:56 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-04 12:00:56 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-04 12:01:56 INFO: {'BOIL': {   'close': 31.88,
+    'high': 31.88,
+    'low': 31.88,
+    'open': 31.88,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 121.0,
+    'vwap': 31.88}}
+2025-08-04 12:01:56 INFO: Current resistance is: 32.33 and support is: 31.89
+2025-08-04 12:01:56 INFO: Current average volume is: 279.58
+2025-08-04 12:01:56 INFO: close price: 31.88 just dropped below support of 31.89...
+2025-08-04 12:03:56 INFO: {'BOIL': {   'close': 31.86,
+    'high': 31.86,
+    'low': 31.86,
+    'open': 31.86,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 209.0,
+    'vwap': 31.86}}
+2025-08-04 12:03:56 INFO: Current resistance is: 32.33 and support is: 31.89
+2025-08-04 12:03:56 INFO: Current average volume is: 274.15
+2025-08-04 12:03:56 INFO: Closing price: 31.86 just dropped below support 31.89 again...ending trade...
+2025-08-04 12:13:54 INFO: === Strategy started ===
+2025-08-04 12:13:54 INFO: Start collecting the current highs/lows for: BOIL
+2025-08-04 12:13:54 INFO: Most recent stock data: {'BOIL': {   'close': 31.86,
+    'high': 31.86,
+    'low': 31.83,
+    'open': 31.86,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 595.0,
+    'vwap': 31.854444}}
+2025-08-04 12:24:55 INFO: Most recent stock data: {'BOIL': {   'close': 31.79,
+    'high': 31.81,
+    'low': 31.79,
+    'open': 31.81,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 350.0,
+    'vwap': 31.796667}}
+2025-08-04 12:29:56 INFO: Most recent stock data: {'BOIL': {   'close': 31.78,
+    'high': 31.78,
+    'low': 31.78,
+    'open': 31.78,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 201.0,
+    'vwap': 31.78}}
+2025-08-04 12:43:54 INFO: === Strategy started ===
+2025-08-04 12:43:54 INFO: Start collecting the current highs/lows for: BOIL
+2025-08-04 12:43:54 INFO: Most recent stock data: {'BOIL': {   'close': 31.61,
+    'high': 31.61,
+    'low': 31.61,
+    'open': 31.61,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 31.61}}
+2025-08-04 12:44:54 INFO: Most recent stock data: {'BOIL': {   'close': 31.68,
+    'high': 31.69,
+    'low': 31.68,
+    'open': 31.69,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 653.0,
+    'vwap': 31.686667}}
+2025-08-04 12:45:54 INFO: Most recent stock data: {'BOIL': {   'close': 31.63,
+    'high': 31.63,
+    'low': 31.63,
+    'open': 31.63,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 132.0,
+    'vwap': 31.63}}
+2025-08-04 12:46:54 INFO: Most recent stock data: {'BOIL': {   'close': 31.57,
+    'high': 31.57,
+    'low': 31.57,
+    'open': 31.57,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 341.0,
+    'vwap': 31.57}}
+2025-08-04 12:48:55 INFO: Most recent stock data: {'BOIL': {   'close': 31.62,
+    'high': 31.62,
+    'low': 31.62,
+    'open': 31.62,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 31.62}}
+2025-08-04 12:49:55 INFO: Most recent stock data: {'BOIL': {   'close': 31.67,
+    'high': 31.67,
+    'low': 31.67,
+    'open': 31.67,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 225.0,
+    'vwap': 31.67}}
+2025-08-04 12:53:55 INFO: Most recent stock data: {'BOIL': {   'close': 31.56,
+    'high': 31.56,
+    'low': 31.56,
+    'open': 31.56,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 31.56}}
+2025-08-04 12:58:56 INFO: Most recent stock data: {'BOIL': {   'close': 31.51,
+    'high': 31.52,
+    'low': 31.51,
+    'open': 31.52,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 336.0,
+    'vwap': 31.513333}}
+2025-08-04 13:00:56 INFO: Most recent stock data: {'BOIL': {   'close': 31.49,
+    'high': 31.49,
+    'low': 31.49,
+    'open': 31.49,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 600.0,
+    'vwap': 31.49}}
+2025-08-04 13:03:57 INFO: Most recent stock data: {'BOIL': {   'close': 31.38,
+    'high': 31.38,
+    'low': 31.38,
+    'open': 31.38,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 400.0,
+    'vwap': 31.38}}
+2025-08-04 13:04:57 INFO: Most recent stock data: {'BOIL': {   'close': 31.39,
+    'high': 31.39,
+    'low': 31.39,
+    'open': 31.39,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 374.0,
+    'vwap': 31.39}}
+2025-08-04 13:04:57 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-04 13:04:57 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-04 13:05:57 INFO: {'BOIL': {   'close': 31.45,
+    'high': 31.45,
+    'low': 31.43,
+    'open': 31.43,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 31.44}}
+2025-08-04 13:05:57 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:05:57 INFO: Current average volume is: 305.08
+2025-08-04 13:05:57 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:07:57 INFO: {'BOIL': {   'close': 31.47,
+    'high': 31.47,
+    'low': 31.47,
+    'open': 31.47,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.47}}
+2025-08-04 13:07:57 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:07:57 INFO: Current average volume is: 289.31
+2025-08-04 13:07:57 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:11:58 INFO: {'BOIL': {   'close': 31.425,
+    'high': 31.5,
+    'low': 31.425,
+    'open': 31.5,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 31.45}}
+2025-08-04 13:11:58 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:11:58 INFO: Current average volume is: 290.07
+2025-08-04 13:11:58 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:12:58 INFO: {'BOIL': {   'close': 31.53,
+    'high': 31.53,
+    'low': 31.53,
+    'open': 31.53,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.53}}
+2025-08-04 13:12:58 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:12:58 INFO: Current average volume is: 277.4
+2025-08-04 13:12:58 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:13:58 INFO: {'BOIL': {   'close': 31.6,
+    'high': 31.6,
+    'low': 31.51,
+    'open': 31.51,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 31.555}}
+2025-08-04 13:13:58 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:13:58 INFO: Current average volume is: 272.56
+2025-08-04 13:13:58 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:16:59 INFO: {'BOIL': {   'close': 31.58,
+    'high': 31.58,
+    'low': 31.58,
+    'open': 31.58,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.58}}
+2025-08-04 13:16:59 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:16:59 INFO: Current average volume is: 262.41
+2025-08-04 13:16:59 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:17:59 INFO: {'BOIL': {   'close': 31.66,
+    'high': 31.66,
+    'low': 31.66,
+    'open': 31.66,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.66}}
+2025-08-04 13:17:59 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:17:59 INFO: Current average volume is: 253.39
+2025-08-04 13:17:59 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:20:00 INFO: {'BOIL': {   'close': 31.59,
+    'high': 31.59,
+    'low': 31.59,
+    'open': 31.59,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 600.0,
+    'vwap': 31.59}}
+2025-08-04 13:20:00 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:20:00 INFO: Current average volume is: 271.63
+2025-08-04 13:20:00 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:21:00 INFO: {'BOIL': {   'close': 31.56,
+    'high': 31.57,
+    'low': 31.56,
+    'open': 31.57,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 31.565}}
+2025-08-04 13:21:00 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:21:00 INFO: Current average volume is: 268.05
+2025-08-04 13:21:00 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:23:00 INFO: {'BOIL': {   'close': 31.54,
+    'high': 31.54,
+    'low': 31.53,
+    'open': 31.53,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 31.535}}
+2025-08-04 13:23:00 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:23:00 INFO: Current average volume is: 264.81
+2025-08-04 13:23:00 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:34:02 INFO: {'BOIL': {   'close': 31.58,
+    'high': 31.58,
+    'low': 31.58,
+    'open': 31.58,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.58}}
+2025-08-04 13:34:02 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:34:02 INFO: Current average volume is: 257.32
+2025-08-04 13:34:02 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:36:02 INFO: {'BOIL': {   'close': 31.57,
+    'high': 31.57,
+    'low': 31.57,
+    'open': 31.57,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.57}}
+2025-08-04 13:36:02 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:36:02 INFO: Current average volume is: 250.48
+2025-08-04 13:36:02 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:38:02 INFO: {'BOIL': {   'close': 31.54,
+    'high': 31.54,
+    'low': 31.54,
+    'open': 31.54,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 31.54}}
+2025-08-04 13:38:02 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:38:02 INFO: Current average volume is: 248.38
+2025-08-04 13:38:02 INFO: Updated resistance to: 31.69 and support to: 31.38
+2025-08-04 13:44:03 INFO: {'BOIL': {   'close': 31.72,
+    'high': 31.72,
+    'low': 31.57,
+    'open': 31.57,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 31.645}}
+2025-08-04 13:44:03 INFO: Current resistance is: 31.69 and support is: 31.38
+2025-08-04 13:44:03 INFO: Current average volume is: 246.84
+2025-08-04 13:44:03 INFO: The Current Close 31.72 is above the resistance...
+2025-08-04 13:44:03 INFO: Updated resistance to: 31.72 and support to: 31.38
+2025-08-04 13:51:05 INFO: {'BOIL': {   'close': 31.75,
+    'high': 31.75,
+    'low': 31.75,
+    'open': 31.75,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 159.0,
+    'vwap': 31.75}}
+2025-08-04 13:51:05 INFO: Current resistance is: 31.72 and support is: 31.38
+2025-08-04 13:51:05 INFO: Current average volume is: 243.46
+2025-08-04 13:51:05 INFO: The current close: 31.75 is above the resistance of 31.72, but volume isn't enough...
+2025-08-04 13:51:05 INFO: Updated resistance to: 31.75 and support to: 31.38
+2025-08-04 13:55:06 INFO: {'BOIL': {   'close': 31.62,
+    'high': 31.62,
+    'low': 31.62,
+    'open': 31.62,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.62}}
+2025-08-04 13:55:06 INFO: Current resistance is: 31.75 and support is: 31.38
+2025-08-04 13:55:06 INFO: Current average volume is: 238.15
+2025-08-04 13:55:06 INFO: Updated resistance to: 31.75 and support to: 31.38
+2025-08-04 13:56:06 INFO: {'BOIL': {   'close': 31.65,
+    'high': 31.65,
+    'low': 31.65,
+    'open': 31.65,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.65}}
+2025-08-04 13:56:06 INFO: Current resistance is: 31.75 and support is: 31.38
+2025-08-04 13:56:06 INFO: Current average volume is: 233.21
+2025-08-04 13:56:06 INFO: Updated resistance to: 31.75 and support to: 31.38
+2025-08-04 13:58:06 INFO: {'BOIL': {   'close': 31.71,
+    'high': 31.71,
+    'low': 31.71,
+    'open': 31.71,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.71}}
+2025-08-04 13:58:06 INFO: Current resistance is: 31.75 and support is: 31.38
+2025-08-04 13:58:06 INFO: Current average volume is: 228.62
+2025-08-04 13:58:06 INFO: Updated resistance to: 31.75 and support to: 31.38
+2025-08-04 13:59:06 INFO: {'BOIL': {   'close': 31.77,
+    'high': 31.77,
+    'low': 31.77,
+    'open': 31.77,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.77}}
+2025-08-04 13:59:06 INFO: Current resistance is: 31.75 and support is: 31.38
+2025-08-04 13:59:06 INFO: Current average volume is: 224.33
+2025-08-04 13:59:06 INFO: The Current Close 31.77 is above the resistance...
+2025-08-04 13:59:06 INFO: Updated resistance to: 31.77 and support to: 31.38
+2025-08-04 14:00:06 INFO: {'BOIL': {   'close': 31.83,
+    'high': 31.83,
+    'low': 31.83,
+    'open': 31.83,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 485.0,
+    'vwap': 31.83}}
+2025-08-04 14:00:06 INFO: Current resistance is: 31.77 and support is: 31.38
+2025-08-04 14:00:06 INFO: Current average volume is: 232.74
+2025-08-04 14:00:06 INFO: The current close: 31.83 is above the resistance of 31.77, but volume isn't enough...
+2025-08-04 14:00:06 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:02:07 INFO: {'BOIL': {   'close': 31.73,
+    'high': 31.76,
+    'low': 31.73,
+    'open': 31.76,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 320.0,
+    'vwap': 31.745}}
+2025-08-04 14:02:07 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:02:07 INFO: Current average volume is: 235.47
+2025-08-04 14:02:07 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:03:07 INFO: {'BOIL': {   'close': 31.7,
+    'high': 31.78,
+    'low': 31.7,
+    'open': 31.78,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 608.0,
+    'vwap': 31.737981}}
+2025-08-04 14:03:07 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:03:07 INFO: Current average volume is: 246.76
+2025-08-04 14:03:07 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:04:07 INFO: {'BOIL': {   'close': 31.62,
+    'high': 31.7,
+    'low': 31.62,
+    'open': 31.7,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 316.0,
+    'vwap': 31.67193}}
+2025-08-04 14:04:07 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:04:07 INFO: Current average volume is: 248.79
+2025-08-04 14:04:07 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:05:07 INFO: {'BOIL': {   'close': 31.64,
+    'high': 31.64,
+    'low': 31.64,
+    'open': 31.64,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.64}}
+2025-08-04 14:05:07 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:05:07 INFO: Current average volume is: 244.54
+2025-08-04 14:05:07 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:06:07 INFO: {'BOIL': {   'close': 31.615,
+    'high': 31.63,
+    'low': 31.615,
+    'open': 31.63,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 416.0,
+    'vwap': 31.622009}}
+2025-08-04 14:06:07 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:06:07 INFO: Current average volume is: 249.31
+2025-08-04 14:06:07 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:07:07 INFO: {'BOIL': {   'close': 31.65,
+    'high': 31.65,
+    'low': 31.65,
+    'open': 31.65,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.65}}
+2025-08-04 14:07:07 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:07:07 INFO: Current average volume is: 245.27
+2025-08-04 14:07:07 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:08:08 INFO: {'BOIL': {   'close': 31.62,
+    'high': 31.62,
+    'low': 31.62,
+    'open': 31.62,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 31.62}}
+2025-08-04 14:08:08 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:08:08 INFO: Current average volume is: 244.08
+2025-08-04 14:08:08 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:10:08 INFO: {'BOIL': {   'close': 31.81,
+    'high': 31.81,
+    'low': 31.59,
+    'open': 31.59,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 367.0,
+    'vwap': 31.690109}}
+2025-08-04 14:10:08 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:10:08 INFO: Current average volume is: 247.23
+2025-08-04 14:10:08 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:11:08 INFO: {'BOIL': {   'close': 31.78,
+    'high': 31.8,
+    'low': 31.78,
+    'open': 31.8,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 322.0,
+    'vwap': 31.786667}}
+2025-08-04 14:11:08 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:11:08 INFO: Current average volume is: 249.1
+2025-08-04 14:11:08 INFO: Updated resistance to: 31.83 and support to: 31.38
+2025-08-04 14:12:08 INFO: {'BOIL': {   'close': 31.85,
+    'high': 31.85,
+    'low': 31.85,
+    'open': 31.85,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.85}}
+2025-08-04 14:12:08 INFO: Current resistance is: 31.83 and support is: 31.38
+2025-08-04 14:12:08 INFO: Current average volume is: 245.46
+2025-08-04 14:12:08 INFO: The Current Close 31.85 is above the resistance...
+2025-08-04 14:12:08 INFO: Updated resistance to: 31.85 and support to: 31.38
+2025-08-04 14:16:09 INFO: {'BOIL': {   'close': 31.97,
+    'high': 31.97,
+    'low': 31.97,
+    'open': 31.97,
+    'symbol': 'BOIL',
+    'timestamp': datetime.datetime(2025, 8, 4, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 400.0,
+    'vwap': 31.97}}
+2025-08-04 14:16:09 INFO: Current resistance is: 31.85 and support is: 31.38
+2025-08-04 14:16:09 INFO: Current average volume is: 249.14
+2025-08-04 14:16:09 INFO: The current close: 31.97 is above the resistance of 31.85, but volume isn't enough...
+2025-08-04 14:16:09 INFO: Updated resistance to: 31.97 and support to: 31.38

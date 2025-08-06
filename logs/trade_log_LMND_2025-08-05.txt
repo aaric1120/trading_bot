@@ -1,0 +1,763 @@
+2025-08-05 11:59:35 INFO: === Strategy started ===
+2025-08-05 11:59:35 INFO: Start collecting the current highs/lows for: LMND
+2025-08-05 11:59:35 INFO: Most recent stock data: {'LMND': {   'close': 46.65,
+    'high': 46.655,
+    'low': 46.65,
+    'open': 46.655,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 238.0,
+    'vwap': 46.6525}}
+2025-08-05 12:01:36 INFO: Most recent stock data: {'LMND': {   'close': 46.585,
+    'high': 46.585,
+    'low': 46.585,
+    'open': 46.585,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 306.0,
+    'vwap': 46.585}}
+2025-08-05 12:02:36 INFO: Most recent stock data: {'LMND': {   'close': 46.555,
+    'high': 46.56,
+    'low': 46.555,
+    'open': 46.56,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 276.0,
+    'vwap': 46.5575}}
+2025-08-05 12:03:36 INFO: Most recent stock data: {'LMND': {   'close': 46.57,
+    'high': 46.57,
+    'low': 46.57,
+    'open': 46.57,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 119.0,
+    'vwap': 46.57}}
+2025-08-05 12:04:36 INFO: Most recent stock data: {'LMND': {   'close': 46.555,
+    'high': 46.62,
+    'low': 46.52,
+    'open': 46.52,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 341.0,
+    'vwap': 46.565}}
+2025-08-05 12:06:36 INFO: Most recent stock data: {'LMND': {   'close': 46.835,
+    'high': 46.835,
+    'low': 46.665,
+    'open': 46.755,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 774.0,
+    'vwap': 46.717}}
+2025-08-05 12:08:37 INFO: Most recent stock data: {'LMND': {   'close': 47.38,
+    'high': 47.38,
+    'low': 47.2,
+    'open': 47.21,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 417.0,
+    'vwap': 47.263333}}
+2025-08-05 12:09:37 INFO: Most recent stock data: {'LMND': {   'close': 47.35,
+    'high': 47.435,
+    'low': 47.35,
+    'open': 47.38,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 841.0,
+    'vwap': 47.4025}}
+2025-08-05 12:10:37 INFO: Most recent stock data: {'LMND': {   'close': 47.23,
+    'high': 47.34,
+    'low': 47.23,
+    'open': 47.27,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1101.0,
+    'vwap': 47.255}}
+2025-08-05 12:11:37 INFO: Most recent stock data: {'LMND': {   'close': 47.22,
+    'high': 47.22,
+    'low': 47.22,
+    'open': 47.22,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 298.0,
+    'vwap': 47.22}}
+2025-08-05 12:12:37 INFO: Most recent stock data: {'LMND': {   'close': 47.26,
+    'high': 47.26,
+    'low': 47.23,
+    'open': 47.23,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 258.0,
+    'vwap': 47.245}}
+2025-08-05 12:12:37 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 12:12:37 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 12:13:37 INFO: {'LMND': {   'close': 47.25,
+    'high': 47.36,
+    'low': 47.25,
+    'open': 47.36,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 802.0,
+    'vwap': 47.305}}
+2025-08-05 12:13:37 INFO: Current resistance is: 47.813 and support is: 47.138
+2025-08-05 12:13:37 INFO: Current average volume is: 461.08
+2025-08-05 12:13:37 INFO: Updated resistance to: 47.877 and support to: 47.174
+2025-08-05 12:16:38 INFO: {'LMND': {   'close': 47.48,
+    'high': 47.48,
+    'low': 47.48,
+    'open': 47.48,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 201.0,
+    'vwap': 47.48}}
+2025-08-05 12:16:38 INFO: Current resistance is: 47.877 and support is: 47.174
+2025-08-05 12:16:38 INFO: Current average volume is: 441.08
+2025-08-05 12:16:38 INFO: Updated resistance to: 47.566 and support to: 47.265
+2025-08-05 12:18:38 INFO: {'LMND': {   'close': 47.71,
+    'high': 47.71,
+    'low': 47.47,
+    'open': 47.5,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1213.0,
+    'vwap': 47.546022}}
+2025-08-05 12:18:38 INFO: Current resistance is: 47.566 and support is: 47.265
+2025-08-05 12:18:38 INFO: Current average volume is: 496.21
+2025-08-05 12:18:38 INFO: The Current Close 47.71 is above the resistance...
+2025-08-05 12:18:38 INFO: Updated resistance to: 47.798 and support to: 47.327
+2025-08-05 12:22:09 INFO: {'LMND': {   'close': 47.745,
+    'high': 47.745,
+    'low': 47.745,
+    'open': 47.745,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 138.0,
+    'vwap': 47.745}}
+2025-08-05 12:22:09 INFO: Current resistance is: 47.798 and support is: 47.327
+2025-08-05 12:22:09 INFO: Current average volume is: 472.33
+2025-08-05 12:22:09 INFO: Updated resistance to: 47.834 and support to: 47.447
+2025-08-05 12:24:09 INFO: {'LMND': {   'close': 47.61,
+    'high': 47.61,
+    'low': 47.61,
+    'open': 47.61,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 47.61}}
+2025-08-05 12:24:09 INFO: Current resistance is: 47.834 and support is: 47.447
+2025-08-05 12:24:09 INFO: Current average volume is: 452.19
+2025-08-05 12:24:09 INFO: Updated resistance to: 47.913 and support to: 47.501
+2025-08-05 12:25:09 INFO: {'LMND': {   'close': 47.4,
+    'high': 47.4,
+    'low': 47.4,
+    'open': 47.4,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 314.0,
+    'vwap': 47.4}}
+2025-08-05 12:25:09 INFO: Current resistance is: 47.913 and support is: 47.501
+2025-08-05 12:25:09 INFO: Current average volume is: 444.06
+2025-08-05 12:25:09 INFO: close price: 47.4 just dropped below support of 47.501...
+2025-08-05 12:26:09 INFO: {'LMND': {   'close': 47.33,
+    'high': 47.385,
+    'low': 47.33,
+    'open': 47.385,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 308.0,
+    'vwap': 47.3575}}
+2025-08-05 12:26:09 INFO: Current resistance is: 47.913 and support is: 47.501
+2025-08-05 12:26:09 INFO: Current average volume is: 436.5
+2025-08-05 12:26:09 INFO: Closing price: 47.33 just dropped below support 47.501 again...ending trade...
+2025-08-05 13:44:45 INFO: === Strategy started ===
+2025-08-05 13:44:45 INFO: Start collecting the current highs/lows for: LMND
+2025-08-05 13:44:45 INFO: Most recent stock data: {'LMND': {   'close': 47.725,
+    'high': 47.725,
+    'low': 47.725,
+    'open': 47.725,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 300.0,
+    'vwap': 47.725}}
+2025-08-05 13:45:45 INFO: Most recent stock data: {'LMND': {   'close': 47.83,
+    'high': 47.83,
+    'low': 47.83,
+    'open': 47.83,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 206.0,
+    'vwap': 47.83}}
+2025-08-05 13:47:46 INFO: Most recent stock data: {'LMND': {   'close': 47.71,
+    'high': 47.71,
+    'low': 47.71,
+    'open': 47.71,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 226.0,
+    'vwap': 47.71}}
+2025-08-05 13:51:46 INFO: Most recent stock data: {'LMND': {   'close': 47.54,
+    'high': 47.675,
+    'low': 47.54,
+    'open': 47.675,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 47.6075}}
+2025-08-05 13:52:46 INFO: Most recent stock data: {'LMND': {   'close': 47.42,
+    'high': 47.42,
+    'low': 47.38,
+    'open': 47.38,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 484.0,
+    'vwap': 47.4}}
+2025-08-05 13:54:46 INFO: Most recent stock data: {'LMND': {   'close': 47.56,
+    'high': 47.56,
+    'low': 47.56,
+    'open': 47.56,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 246.0,
+    'vwap': 47.56}}
+2025-08-05 13:55:46 INFO: Most recent stock data: {'LMND': {   'close': 47.59,
+    'high': 47.59,
+    'low': 47.59,
+    'open': 47.59,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 47.59}}
+2025-08-05 13:57:47 INFO: Most recent stock data: {'LMND': {   'close': 47.66,
+    'high': 47.66,
+    'low': 47.66,
+    'open': 47.66,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 161.0,
+    'vwap': 47.66}}
+2025-08-05 13:58:47 INFO: Most recent stock data: {'LMND': {   'close': 47.52,
+    'high': 47.54,
+    'low': 47.52,
+    'open': 47.54,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 208.0,
+    'vwap': 47.53}}
+2025-08-05 14:00:47 INFO: Most recent stock data: {'LMND': {   'close': 47.66,
+    'high': 47.68,
+    'low': 47.66,
+    'open': 47.68,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 251.0,
+    'vwap': 47.67}}
+2025-08-05 14:01:47 INFO: Most recent stock data: {'LMND': {   'close': 47.41,
+    'high': 47.44,
+    'low': 47.41,
+    'open': 47.44,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 295.0,
+    'vwap': 47.425}}
+2025-08-05 14:01:47 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 14:01:47 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-05 14:02:47 INFO: {'LMND': {   'close': 47.43,
+    'high': 47.46,
+    'low': 47.43,
+    'open': 47.43,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 464.0,
+    'vwap': 47.44}}
+2025-08-05 14:02:47 INFO: Current resistance is: 47.83 and support is: 47.38
+2025-08-05 14:02:47 INFO: Current average volume is: 245.08
+2025-08-05 14:02:47 INFO: Updated resistance to: 47.83 and support to: 47.38
+2025-08-05 14:07:48 INFO: {'LMND': {   'close': 47.585,
+    'high': 47.585,
+    'low': 47.585,
+    'open': 47.585,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 180.0,
+    'vwap': 47.585}}
+2025-08-05 14:07:48 INFO: Current resistance is: 47.83 and support is: 47.38
+2025-08-05 14:07:48 INFO: Current average volume is: 240.08
+2025-08-05 14:07:48 INFO: Updated resistance to: 47.83 and support to: 47.38
+2025-08-05 14:08:48 INFO: {'LMND': {   'close': 47.52,
+    'high': 47.52,
+    'low': 47.52,
+    'open': 47.52,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 263.0,
+    'vwap': 47.52}}
+2025-08-05 14:08:48 INFO: Current resistance is: 47.83 and support is: 47.38
+2025-08-05 14:08:48 INFO: Current average volume is: 241.71
+2025-08-05 14:08:48 INFO: Updated resistance to: 47.83 and support to: 47.38
+2025-08-05 14:10:48 INFO: {'LMND': {   'close': 47.57,
+    'high': 47.61,
+    'low': 47.55,
+    'open': 47.61,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 47.574444}}
+2025-08-05 14:10:48 INFO: Current resistance is: 47.83 and support is: 47.38
+2025-08-05 14:10:48 INFO: Current average volume is: 258.93
+2025-08-05 14:10:48 INFO: Updated resistance to: 47.83 and support to: 47.38
+2025-08-05 14:11:48 INFO: {'LMND': {   'close': 47.565,
+    'high': 47.565,
+    'low': 47.565,
+    'open': 47.565,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 47.565}}
+2025-08-05 14:11:48 INFO: Current resistance is: 47.83 and support is: 47.38
+2025-08-05 14:11:48 INFO: Current average volume is: 249.19
+2025-08-05 14:11:48 INFO: Updated resistance to: 47.83 and support to: 47.38
+2025-08-05 14:16:49 INFO: {'LMND': {   'close': 47.35,
+    'high': 47.475,
+    'low': 47.295,
+    'open': 47.475,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 485.0,
+    'vwap': 47.36625}}
+2025-08-05 14:16:49 INFO: Current resistance is: 47.83 and support is: 47.38
+2025-08-05 14:16:49 INFO: Current average volume is: 263.06
+2025-08-05 14:16:49 INFO: close price: 47.35 just dropped below support of 47.38...
+2025-08-05 14:18:49 INFO: {'LMND': {   'close': 47.185,
+    'high': 47.185,
+    'low': 47.185,
+    'open': 47.185,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 47.185}}
+2025-08-05 14:18:49 INFO: Current resistance is: 47.83 and support is: 47.38
+2025-08-05 14:18:49 INFO: Current average volume is: 256.78
+2025-08-05 14:18:49 INFO: Closing price: 47.185 just dropped below support 47.38 again...ending trade...
+2025-08-05 14:59:53 INFO: === Strategy started ===
+2025-08-05 14:59:53 INFO: Start collecting the current highs/lows for: LMND
+2025-08-05 14:59:53 INFO: Most recent stock data: {'LMND': {   'close': 47.22,
+    'high': 47.22,
+    'low': 47.22,
+    'open': 47.22,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 161.0,
+    'vwap': 47.22}}
+2025-08-05 15:00:53 INFO: Most recent stock data: {'LMND': {   'close': 47.3,
+    'high': 47.3,
+    'low': 47.3,
+    'open': 47.3,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 47.3}}
+2025-08-05 15:01:53 INFO: Most recent stock data: {'LMND': {   'close': 47.345,
+    'high': 47.345,
+    'low': 47.345,
+    'open': 47.345,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 47.345}}
+2025-08-05 15:04:54 INFO: Most recent stock data: {'LMND': {   'close': 47.265,
+    'high': 47.35,
+    'low': 47.265,
+    'open': 47.35,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 343.0,
+    'vwap': 47.311667}}
+2025-08-05 15:08:54 INFO: Most recent stock data: {'LMND': {   'close': 47.32,
+    'high': 47.32,
+    'low': 47.31,
+    'open': 47.32,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 575.0,
+    'vwap': 47.315}}
+2025-08-05 15:09:54 INFO: Most recent stock data: {'LMND': {   'close': 47.59,
+    'high': 47.59,
+    'low': 47.56,
+    'open': 47.56,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 403.0,
+    'vwap': 47.58}}
+2025-08-05 15:10:54 INFO: Most recent stock data: {'LMND': {   'close': 47.7,
+    'high': 47.7,
+    'low': 47.65,
+    'open': 47.65,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 408.0,
+    'vwap': 47.675}}
+2025-08-05 15:11:55 INFO: Most recent stock data: {'LMND': {   'close': 47.59,
+    'high': 47.59,
+    'low': 47.59,
+    'open': 47.59,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 214.0,
+    'vwap': 47.59}}
+2025-08-05 15:14:55 INFO: Most recent stock data: {'LMND': {   'close': 47.66,
+    'high': 47.69,
+    'low': 47.66,
+    'open': 47.69,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 309.0,
+    'vwap': 47.675}}
+2025-08-05 15:15:55 INFO: Most recent stock data: {'LMND': {   'close': 47.58,
+    'high': 47.59,
+    'low': 47.49,
+    'open': 47.49,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 47.553333}}
+2025-08-05 15:16:55 INFO: Most recent stock data: {'LMND': {   'close': 47.615,
+    'high': 47.615,
+    'low': 47.6,
+    'open': 47.6,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 47.61}}
+2025-08-05 15:16:55 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 15:16:55 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-05 15:17:55 INFO: {'LMND': {   'close': 47.58,
+    'high': 47.58,
+    'low': 47.58,
+    'open': 47.58,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 239.0,
+    'vwap': 47.58}}
+2025-08-05 15:17:55 INFO: Current resistance is: 47.929 and support is: 47.68
+2025-08-05 15:17:55 INFO: Current average volume is: 274.33
+2025-08-05 15:17:55 INFO: close price: 47.58 just dropped below support of 47.68...
+2025-08-05 15:19:56 INFO: {'LMND': {   'close': 47.585,
+    'high': 47.585,
+    'low': 47.55,
+    'open': 47.565,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 455.0,
+    'vwap': 47.565}}
+2025-08-05 15:19:56 INFO: Current resistance is: 47.929 and support is: 47.68
+2025-08-05 15:19:56 INFO: Current average volume is: 288.23
+2025-08-05 15:19:56 INFO: Closing price: 47.585 just dropped below support 47.68 again...ending trade...
+2025-08-05 15:29:53 INFO: === Strategy started ===
+2025-08-05 15:29:53 INFO: Start collecting the current highs/lows for: LMND
+2025-08-05 15:29:53 INFO: Most recent stock data: {'LMND': {   'close': 47.94,
+    'high': 47.94,
+    'low': 47.89,
+    'open': 47.89,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 469.0,
+    'vwap': 47.915}}
+2025-08-05 15:30:53 INFO: Most recent stock data: {'LMND': {   'close': 47.77,
+    'high': 47.77,
+    'low': 47.77,
+    'open': 47.77,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 387.0,
+    'vwap': 47.77}}
+2025-08-05 15:32:53 INFO: Most recent stock data: {'LMND': {   'close': 47.85,
+    'high': 47.91,
+    'low': 47.845,
+    'open': 47.91,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 684.0,
+    'vwap': 47.883898}}
+2025-08-05 15:34:53 INFO: Most recent stock data: {'LMND': {   'close': 48.03,
+    'high': 48.03,
+    'low': 47.96,
+    'open': 47.96,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 410.0,
+    'vwap': 47.996667}}
+2025-08-05 15:35:53 INFO: Most recent stock data: {'LMND': {   'close': 47.93,
+    'high': 47.93,
+    'low': 47.93,
+    'open': 47.93,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 315.0,
+    'vwap': 47.93}}
+2025-08-05 15:36:54 INFO: Most recent stock data: {'LMND': {   'close': 47.89,
+    'high': 47.89,
+    'low': 47.89,
+    'open': 47.89,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 405.0,
+    'vwap': 47.89}}
+2025-08-05 15:38:54 INFO: Most recent stock data: {'LMND': {   'close': 47.85,
+    'high': 47.85,
+    'low': 47.83,
+    'open': 47.83,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 485.0,
+    'vwap': 47.84}}
+2025-08-05 15:39:54 INFO: Most recent stock data: {'LMND': {   'close': 47.79,
+    'high': 47.79,
+    'low': 47.685,
+    'open': 47.79,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1341.0,
+    'vwap': 47.759451}}
+2025-08-05 15:41:54 INFO: Most recent stock data: {'LMND': {   'close': 47.99,
+    'high': 47.99,
+    'low': 47.99,
+    'open': 47.99,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 428.0,
+    'vwap': 47.99}}
+2025-08-05 15:42:54 INFO: Most recent stock data: {'LMND': {   'close': 48.075,
+    'high': 48.08,
+    'low': 48.075,
+    'open': 48.08,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 265.0,
+    'vwap': 48.0775}}
+2025-08-05 15:45:55 INFO: Most recent stock data: {'LMND': {   'close': 47.95,
+    'high': 47.98,
+    'low': 47.9,
+    'open': 47.92,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2448.0,
+    'vwap': 47.954925}}
+2025-08-05 15:45:55 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-05 15:45:55 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-05 15:46:55 INFO: {'LMND': {   'close': 48.06,
+    'high': 48.06,
+    'low': 48.05,
+    'open': 48.05,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 895.0,
+    'vwap': 48.056667}}
+2025-08-05 15:46:55 INFO: Current resistance is: 48.08 and support is: 47.685
+2025-08-05 15:46:55 INFO: Current average volume is: 671.92
+2025-08-05 15:46:55 INFO: Updated resistance to: 48.08 and support to: 47.685
+2025-08-05 15:47:55 INFO: {'LMND': {   'close': 47.995,
+    'high': 48.02,
+    'low': 47.98,
+    'open': 48.02,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 494.0,
+    'vwap': 47.998333}}
+2025-08-05 15:47:55 INFO: Current resistance is: 48.08 and support is: 47.685
+2025-08-05 15:47:55 INFO: Current average volume is: 658.23
+2025-08-05 15:47:55 INFO: Updated resistance to: 48.08 and support to: 47.685
+2025-08-05 15:48:55 INFO: {'LMND': {   'close': 48.07,
+    'high': 48.07,
+    'low': 48.05,
+    'open': 48.05,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 804.0,
+    'vwap': 48.064465}}
+2025-08-05 15:48:55 INFO: Current resistance is: 48.08 and support is: 47.685
+2025-08-05 15:48:55 INFO: Current average volume is: 668.64
+2025-08-05 15:48:55 INFO: Updated resistance to: 48.08 and support to: 47.685
+2025-08-05 15:49:55 INFO: {'LMND': {   'close': 48.0,
+    'high': 48.02,
+    'low': 48.0,
+    'open': 48.02,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 448.0,
+    'vwap': 48.01}}
+2025-08-05 15:49:55 INFO: Current resistance is: 48.08 and support is: 47.685
+2025-08-05 15:49:55 INFO: Current average volume is: 653.93
+2025-08-05 15:49:55 INFO: Updated resistance to: 48.08 and support to: 47.685
+2025-08-05 15:50:55 INFO: {'LMND': {   'close': 47.97,
+    'high': 47.985,
+    'low': 47.96,
+    'open': 47.985,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 578.0,
+    'vwap': 47.971667}}
+2025-08-05 15:50:55 INFO: Current resistance is: 48.08 and support is: 47.685
+2025-08-05 15:50:55 INFO: Current average volume is: 649.19
+2025-08-05 15:50:55 INFO: Updated resistance to: 48.08 and support to: 47.685
+2025-08-05 15:51:55 INFO: {'LMND': {   'close': 47.95,
+    'high': 48.02,
+    'low': 47.94,
+    'open': 48.02,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1417.0,
+    'vwap': 47.954967}}
+2025-08-05 15:51:55 INFO: Current resistance is: 48.08 and support is: 47.685
+2025-08-05 15:51:55 INFO: Current average volume is: 694.35
+2025-08-05 15:51:55 INFO: Updated resistance to: 48.08 and support to: 47.685
+2025-08-05 15:52:56 INFO: {'LMND': {   'close': 48.04,
+    'high': 48.05,
+    'low': 48.0,
+    'open': 48.05,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 555.0,
+    'vwap': 48.03}}
+2025-08-05 15:52:56 INFO: Current resistance is: 48.08 and support is: 47.685
+2025-08-05 15:52:56 INFO: Current average volume is: 686.61
+2025-08-05 15:52:56 INFO: Updated resistance to: 48.08 and support to: 47.685
+2025-08-05 15:53:56 INFO: {'LMND': {   'close': 48.03,
+    'high': 48.11,
+    'low': 48.03,
+    'open': 48.03,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1435.0,
+    'vwap': 48.044545}}
+2025-08-05 15:53:56 INFO: Current resistance is: 48.08 and support is: 47.685
+2025-08-05 15:53:56 INFO: Current average volume is: 726.0
+2025-08-05 15:53:56 INFO: Updated resistance to: 48.11 and support to: 47.685
+2025-08-05 15:54:56 INFO: {'LMND': {   'close': 48.07,
+    'high': 48.14,
+    'low': 48.07,
+    'open': 48.075,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 915.0,
+    'vwap': 48.101875}}
+2025-08-05 15:54:56 INFO: Current resistance is: 48.11 and support is: 47.685
+2025-08-05 15:54:56 INFO: Current average volume is: 735.45
+2025-08-05 15:54:56 INFO: Updated resistance to: 48.14 and support to: 47.685
+2025-08-05 15:56:56 INFO: {'LMND': {   'close': 47.995,
+    'high': 48.02,
+    'low': 47.85,
+    'open': 47.85,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 946.0,
+    'vwap': 47.926429}}
+2025-08-05 15:56:56 INFO: Current resistance is: 48.14 and support is: 47.685
+2025-08-05 15:56:56 INFO: Current average volume is: 745.48
+2025-08-05 15:56:56 INFO: Updated resistance to: 48.14 and support to: 47.685
+2025-08-05 15:57:56 INFO: {'LMND': {   'close': 48.02,
+    'high': 48.09,
+    'low': 47.99,
+    'open': 48.09,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2748.0,
+    'vwap': 48.02923}}
+2025-08-05 15:57:56 INFO: Current resistance is: 48.14 and support is: 47.685
+2025-08-05 15:57:56 INFO: Current average volume is: 836.5
+2025-08-05 15:57:56 INFO: Updated resistance to: 48.14 and support to: 47.685
+2025-08-05 15:58:56 INFO: {'LMND': {   'close': 48.04,
+    'high': 48.07,
+    'low': 48.015,
+    'open': 48.07,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1389.0,
+    'vwap': 48.033889}}
+2025-08-05 15:58:56 INFO: Current resistance is: 48.14 and support is: 47.685
+2025-08-05 15:58:56 INFO: Current average volume is: 860.52
+2025-08-05 15:58:56 INFO: Updated resistance to: 48.14 and support to: 47.685
+2025-08-05 15:59:56 INFO: {'LMND': {   'close': 48.155,
+    'high': 48.205,
+    'low': 48.05,
+    'open': 48.05,
+    'symbol': 'LMND',
+    'timestamp': datetime.datetime(2025, 8, 5, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 56.0,
+    'volume': 3264.0,
+    'vwap': 48.150862}}
+2025-08-05 15:59:56 INFO: Current resistance is: 48.14 and support is: 47.685
+2025-08-05 15:59:56 INFO: Current average volume is: 960.67
+2025-08-05 15:59:56 INFO: The Current Close 48.155 is above the resistance...
+2025-08-05 15:59:56 INFO: Updated resistance to: 48.205 and support to: 47.685
+2025-08-05 16:00:26 INFO: The Market is closed...

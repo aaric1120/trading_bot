@@ -1,0 +1,2604 @@
+2025-08-06 09:50:12 INFO: === Strategy started ===
+2025-08-06 09:50:12 INFO: Start collecting the current highs/lows for: RNG
+2025-08-06 09:50:12 INFO: Most recent stock data: {'RNG': {   'close': 28.8,
+    'high': 28.8,
+    'low': 28.77,
+    'open': 28.77,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 317.0,
+    'vwap': 28.780345}}
+2025-08-06 09:51:13 INFO: Most recent stock data: {'RNG': {   'close': 28.725,
+    'high': 28.725,
+    'low': 28.66,
+    'open': 28.66,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 589.0,
+    'vwap': 28.703261}}
+2025-08-06 09:52:14 INFO: Most recent stock data: {'RNG': {   'close': 28.805,
+    'high': 28.805,
+    'low': 28.675,
+    'open': 28.675,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1196.0,
+    'vwap': 28.753989}}
+2025-08-06 09:53:14 INFO: Most recent stock data: {'RNG': {   'close': 28.765,
+    'high': 28.765,
+    'low': 28.765,
+    'open': 28.765,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 587.0,
+    'vwap': 28.765}}
+2025-08-06 09:54:14 INFO: Most recent stock data: {'RNG': {   'close': 28.925,
+    'high': 28.925,
+    'low': 28.78,
+    'open': 28.78,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 973.0,
+    'vwap': 28.840435}}
+2025-08-06 09:55:14 INFO: Most recent stock data: {'RNG': {   'close': 28.96,
+    'high': 28.96,
+    'low': 28.915,
+    'open': 28.915,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 474.0,
+    'vwap': 28.926278}}
+2025-08-06 09:56:14 INFO: Most recent stock data: {'RNG': {   'close': 28.94,
+    'high': 28.94,
+    'low': 28.94,
+    'open': 28.94,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 433.0,
+    'vwap': 28.94}}
+2025-08-06 09:57:14 INFO: Most recent stock data: {'RNG': {   'close': 29.09,
+    'high': 29.09,
+    'low': 28.96,
+    'open': 28.96,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1217.0,
+    'vwap': 29.045412}}
+2025-08-06 09:58:14 INFO: Most recent stock data: {'RNG': {   'close': 29.04,
+    'high': 29.125,
+    'low': 28.995,
+    'open': 29.125,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1025.0,
+    'vwap': 29.075309}}
+2025-08-06 09:59:14 INFO: Most recent stock data: {'RNG': {   'close': 29.2,
+    'high': 29.22,
+    'low': 29.14,
+    'open': 29.14,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 3228.0,
+    'vwap': 29.164723}}
+2025-08-06 10:00:15 INFO: Most recent stock data: {'RNG': {   'close': 29.12,
+    'high': 29.195,
+    'low': 29.09,
+    'open': 29.195,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1436.0,
+    'vwap': 29.14212}}
+2025-08-06 10:00:15 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 10:00:15 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-06 10:01:15 INFO: {'RNG': {   'close': 29.06,
+    'high': 29.115,
+    'low': 29.06,
+    'open': 29.085,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 978.0,
+    'vwap': 29.091241}}
+2025-08-06 10:01:15 INFO: Current resistance is: 29.321 and support is: 29.117
+2025-08-06 10:01:15 INFO: Current average volume is: 1011.33
+2025-08-06 10:01:15 INFO: close price: 29.06 just dropped below support of 29.117...
+2025-08-06 10:02:15 INFO: {'RNG': {   'close': 29.445,
+    'high': 29.445,
+    'low': 29.09,
+    'open': 29.09,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 491.0,
+    'vwap': 29.2675}}
+2025-08-06 10:02:15 INFO: Current resistance is: 29.321 and support is: 29.117
+2025-08-06 10:02:15 INFO: Current average volume is: 971.31
+2025-08-06 10:02:15 INFO: The Current Close 29.445 is above the resistance...
+2025-08-06 10:02:15 INFO: Updated resistance to: 29.496 and support to: 29.133
+2025-08-06 10:03:15 INFO: {'RNG': {   'close': 29.57,
+    'high': 29.57,
+    'low': 29.52,
+    'open': 29.52,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 353.0,
+    'vwap': 29.545}}
+2025-08-06 10:03:15 INFO: Current resistance is: 29.496 and support is: 29.133
+2025-08-06 10:03:15 INFO: Current average volume is: 927.14
+2025-08-06 10:03:15 INFO: The current close: 29.57 is above the resistance of 29.496, but volume isn't enough...
+2025-08-06 10:03:15 INFO: Updated resistance to: 29.627 and support to: 29.297
+2025-08-06 10:04:15 INFO: {'RNG': {   'close': 29.56,
+    'high': 29.61,
+    'low': 29.54,
+    'open': 29.54,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 987.0,
+    'vwap': 29.576667}}
+2025-08-06 10:04:15 INFO: Current resistance is: 29.627 and support is: 29.297
+2025-08-06 10:04:15 INFO: Current average volume is: 931.13
+2025-08-06 10:04:15 INFO: Updated resistance to: 29.67 and support to: 29.422
+2025-08-06 10:05:15 INFO: {'RNG': {   'close': 29.48,
+    'high': 29.48,
+    'low': 29.47,
+    'open': 29.47,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 612.0,
+    'vwap': 29.474292}}
+2025-08-06 10:05:15 INFO: Current resistance is: 29.67 and support is: 29.422
+2025-08-06 10:05:15 INFO: Current average volume is: 911.19
+2025-08-06 10:05:15 INFO: Updated resistance to: 29.727 and support to: 29.49
+2025-08-06 10:06:16 INFO: {'RNG': {   'close': 29.585,
+    'high': 29.59,
+    'low': 29.56,
+    'open': 29.56,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 680.0,
+    'vwap': 29.575}}
+2025-08-06 10:06:16 INFO: Current resistance is: 29.727 and support is: 29.49
+2025-08-06 10:06:16 INFO: Current average volume is: 897.59
+2025-08-06 10:06:16 INFO: Updated resistance to: 29.784 and support to: 29.566
+2025-08-06 10:07:16 INFO: {'RNG': {   'close': 29.955,
+    'high': 29.955,
+    'low': 29.55,
+    'open': 29.55,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1666.0,
+    'vwap': 29.788333}}
+2025-08-06 10:07:16 INFO: Current resistance is: 29.784 and support is: 29.566
+2025-08-06 10:07:16 INFO: Current average volume is: 940.28
+2025-08-06 10:07:16 INFO: The Current Close 29.955 is above the resistance...
+2025-08-06 10:07:16 INFO: Updated resistance to: 30.018 and support to: 29.619
+2025-08-06 10:08:16 INFO: {'RNG': {   'close': 29.89,
+    'high': 29.89,
+    'low': 29.76,
+    'open': 29.88,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1834.0,
+    'vwap': 29.838385}}
+2025-08-06 10:08:16 INFO: Current resistance is: 30.018 and support is: 29.619
+2025-08-06 10:08:16 INFO: Current average volume is: 987.32
+2025-08-06 10:08:16 INFO: Updated resistance to: 30.085 and support to: 29.715
+2025-08-06 10:10:16 INFO: {'RNG': {   'close': 29.975,
+    'high': 29.975,
+    'low': 29.95,
+    'open': 29.95,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 931.0,
+    'vwap': 29.964056}}
+2025-08-06 10:10:16 INFO: Current resistance is: 30.085 and support is: 29.715
+2025-08-06 10:10:16 INFO: Current average volume is: 984.5
+2025-08-06 10:10:16 INFO: Updated resistance to: 30.041 and support to: 29.841
+2025-08-06 10:11:16 INFO: {'RNG': {   'close': 29.815,
+    'high': 29.97,
+    'low': 29.815,
+    'open': 29.97,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 791.0,
+    'vwap': 29.881519}}
+2025-08-06 10:11:16 INFO: Current resistance is: 30.041 and support is: 29.841
+2025-08-06 10:11:16 INFO: Current average volume is: 975.29
+2025-08-06 10:11:16 INFO: close price: 29.815 just dropped below support of 29.841...
+2025-08-06 10:12:16 INFO: {'RNG': {   'close': 29.695,
+    'high': 29.695,
+    'low': 29.695,
+    'open': 29.695,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 104.0,
+    'vwap': 29.695}}
+2025-08-06 10:12:16 INFO: Current resistance is: 30.041 and support is: 29.841
+2025-08-06 10:12:16 INFO: Current average volume is: 935.68
+2025-08-06 10:12:16 INFO: Closing price: 29.695 just dropped below support 29.841 again...ending trade...
+2025-08-06 10:20:09 INFO: === Strategy started ===
+2025-08-06 10:20:09 INFO: Start collecting the current highs/lows for: RNG
+2025-08-06 10:20:09 INFO: Most recent stock data: {'RNG': {   'close': 30.38,
+    'high': 30.445,
+    'low': 30.37,
+    'open': 30.445,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 982.0,
+    'vwap': 30.392102}}
+2025-08-06 10:21:10 INFO: Most recent stock data: {'RNG': {   'close': 30.435,
+    'high': 30.435,
+    'low': 30.435,
+    'open': 30.435,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 370.0,
+    'vwap': 30.435}}
+2025-08-06 10:22:10 INFO: Most recent stock data: {'RNG': {   'close': 30.405,
+    'high': 30.405,
+    'low': 30.405,
+    'open': 30.405,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 283.0,
+    'vwap': 30.405}}
+2025-08-06 10:23:10 INFO: Most recent stock data: {'RNG': {   'close': 30.5,
+    'high': 30.565,
+    'low': 30.49,
+    'open': 30.5,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1500.0,
+    'vwap': 30.512651}}
+2025-08-06 10:24:10 INFO: Most recent stock data: {'RNG': {   'close': 30.51,
+    'high': 30.515,
+    'low': 30.51,
+    'open': 30.515,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 496.0,
+    'vwap': 30.511667}}
+2025-08-06 10:25:10 INFO: Most recent stock data: {'RNG': {   'close': 30.055,
+    'high': 30.055,
+    'low': 29.975,
+    'open': 29.975,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 582.0,
+    'vwap': 30.0125}}
+2025-08-06 10:26:10 INFO: Most recent stock data: {'RNG': {   'close': 30.05,
+    'high': 30.105,
+    'low': 30.05,
+    'open': 30.105,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1329.0,
+    'vwap': 30.09173}}
+2025-08-06 10:27:10 INFO: Most recent stock data: {'RNG': {   'close': 30.15,
+    'high': 30.15,
+    'low': 30.02,
+    'open': 30.02,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 882.0,
+    'vwap': 30.077401}}
+2025-08-06 10:28:10 INFO: Most recent stock data: {'RNG': {   'close': 30.18,
+    'high': 30.18,
+    'low': 30.1,
+    'open': 30.1,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 635.0,
+    'vwap': 30.146667}}
+2025-08-06 10:29:11 INFO: Most recent stock data: {'RNG': {   'close': 30.24,
+    'high': 30.25,
+    'low': 30.14,
+    'open': 30.14,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 600.0,
+    'vwap': 30.2025}}
+2025-08-06 10:31:11 INFO: Most recent stock data: {'RNG': {   'close': 29.955,
+    'high': 30.3,
+    'low': 29.94,
+    'open': 30.3,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2912.0,
+    'vwap': 30.211873}}
+2025-08-06 10:31:11 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 10:31:11 INFO: Pattern matched as Ascending Triangle, starting trading strategy
+2025-08-06 10:33:11 INFO: {'RNG': {   'close': 29.92,
+    'high': 29.92,
+    'low': 29.895,
+    'open': 29.895,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 708.0,
+    'vwap': 29.899902}}
+2025-08-06 10:33:11 INFO: Current resistance is: 30.565 and support is: 29.889
+2025-08-06 10:33:11 INFO: Current average volume is: 858.08
+2025-08-06 10:33:11 INFO: Updated resistance to: 30.565 and support to: 29.843
+2025-08-06 10:34:11 INFO: {'RNG': {   'close': 29.845,
+    'high': 29.845,
+    'low': 29.845,
+    'open': 29.845,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 317.0,
+    'vwap': 29.845}}
+2025-08-06 10:34:11 INFO: Current resistance is: 30.565 and support is: 29.843
+2025-08-06 10:34:11 INFO: Current average volume is: 816.46
+2025-08-06 10:34:11 INFO: Updated resistance to: 30.565 and support to: 29.793
+2025-08-06 10:36:12 INFO: {'RNG': {   'close': 30.105,
+    'high': 30.105,
+    'low': 30.105,
+    'open': 30.105,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 105.0,
+    'vwap': 30.105}}
+2025-08-06 10:36:12 INFO: Current resistance is: 30.565 and support is: 29.793
+2025-08-06 10:36:12 INFO: Current average volume is: 765.64
+2025-08-06 10:36:12 INFO: Updated resistance to: 30.565 and support to: 29.758
+2025-08-06 10:37:12 INFO: {'RNG': {   'close': 30.235,
+    'high': 30.285,
+    'low': 30.235,
+    'open': 30.285,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 617.0,
+    'vwap': 30.256645}}
+2025-08-06 10:37:12 INFO: Current resistance is: 30.565 and support is: 29.758
+2025-08-06 10:37:12 INFO: Current average volume is: 755.73
+2025-08-06 10:37:12 INFO: Updated resistance to: 30.565 and support to: 29.744
+2025-08-06 10:38:12 INFO: {'RNG': {   'close': 30.05,
+    'high': 30.215,
+    'low': 30.05,
+    'open': 30.215,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 610.0,
+    'vwap': 30.147}}
+2025-08-06 10:38:12 INFO: Current resistance is: 30.565 and support is: 29.744
+2025-08-06 10:38:12 INFO: Current average volume is: 746.62
+2025-08-06 10:38:12 INFO: Updated resistance to: 30.565 and support to: 29.724
+2025-08-06 10:39:12 INFO: {'RNG': {   'close': 29.955,
+    'high': 29.955,
+    'low': 29.92,
+    'open': 29.94,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 569.0,
+    'vwap': 29.938778}}
+2025-08-06 10:39:12 INFO: Current resistance is: 30.565 and support is: 29.724
+2025-08-06 10:39:12 INFO: Current average volume is: 736.18
+2025-08-06 10:39:12 INFO: Updated resistance to: 30.565 and support to: 29.695
+2025-08-06 10:43:12 INFO: {'RNG': {   'close': 29.885,
+    'high': 29.945,
+    'low': 29.885,
+    'open': 29.93,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 555.0,
+    'vwap': 29.92}}
+2025-08-06 10:43:12 INFO: Current resistance is: 30.565 and support is: 29.695
+2025-08-06 10:43:12 INFO: Current average volume is: 726.11
+2025-08-06 10:43:12 INFO: Updated resistance to: 30.565 and support to: 29.666
+2025-08-06 10:44:12 INFO: {'RNG': {   'close': 29.92,
+    'high': 29.92,
+    'low': 29.92,
+    'open': 29.92,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 169.0,
+    'vwap': 29.92}}
+2025-08-06 10:44:12 INFO: Current resistance is: 30.565 and support is: 29.666
+2025-08-06 10:44:12 INFO: Current average volume is: 696.79
+2025-08-06 10:44:12 INFO: Updated resistance to: 30.565 and support to: 29.644
+2025-08-06 10:45:13 INFO: {'RNG': {   'close': 29.925,
+    'high': 29.925,
+    'low': 29.925,
+    'open': 29.925,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 214.0,
+    'vwap': 29.925}}
+2025-08-06 10:45:13 INFO: Current resistance is: 30.565 and support is: 29.644
+2025-08-06 10:45:13 INFO: Current average volume is: 672.65
+2025-08-06 10:45:13 INFO: Updated resistance to: 30.565 and support to: 29.626
+2025-08-06 10:46:13 INFO: {'RNG': {   'close': 29.955,
+    'high': 29.955,
+    'low': 29.955,
+    'open': 29.955,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 128.0,
+    'vwap': 29.955}}
+2025-08-06 10:46:13 INFO: Current resistance is: 30.565 and support is: 29.626
+2025-08-06 10:46:13 INFO: Current average volume is: 646.71
+2025-08-06 10:46:13 INFO: Updated resistance to: 30.565 and support to: 29.614
+2025-08-06 10:47:13 INFO: {'RNG': {   'close': 29.975,
+    'high': 30.005,
+    'low': 29.975,
+    'open': 30.005,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 878.0,
+    'vwap': 29.992697}}
+2025-08-06 10:47:13 INFO: Current resistance is: 30.565 and support is: 29.614
+2025-08-06 10:47:13 INFO: Current average volume is: 657.23
+2025-08-06 10:47:13 INFO: Updated resistance to: 30.565 and support to: 29.606
+2025-08-06 10:48:13 INFO: {'RNG': {   'close': 29.92,
+    'high': 29.92,
+    'low': 29.92,
+    'open': 29.92,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 29.92}}
+2025-08-06 10:48:13 INFO: Current resistance is: 30.565 and support is: 29.606
+2025-08-06 10:48:13 INFO: Current average volume is: 635.17
+2025-08-06 10:48:13 INFO: Updated resistance to: 30.565 and support to: 29.594
+2025-08-06 10:50:13 INFO: {'RNG': {   'close': 29.895,
+    'high': 29.895,
+    'low': 29.875,
+    'open': 29.875,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 290.0,
+    'vwap': 29.885}}
+2025-08-06 10:50:13 INFO: Current resistance is: 30.565 and support is: 29.594
+2025-08-06 10:50:13 INFO: Current average volume is: 620.79
+2025-08-06 10:50:13 INFO: Updated resistance to: 30.565 and support to: 29.578
+2025-08-06 10:51:13 INFO: {'RNG': {   'close': 29.655,
+    'high': 29.845,
+    'low': 29.655,
+    'open': 29.84,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 454.0,
+    'vwap': 29.783955}}
+2025-08-06 10:51:13 INFO: Current resistance is: 30.565 and support is: 29.578
+2025-08-06 10:51:13 INFO: Current average volume is: 614.12
+2025-08-06 10:51:13 INFO: Updated resistance to: 30.565 and support to: 29.631
+2025-08-06 10:52:18 INFO: {'RNG': {   'close': 29.66,
+    'high': 29.69,
+    'low': 29.66,
+    'open': 29.68,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 651.0,
+    'vwap': 29.677992}}
+2025-08-06 10:52:18 INFO: Current resistance is: 30.565 and support is: 29.631
+2025-08-06 10:52:18 INFO: Current average volume is: 615.54
+2025-08-06 10:52:18 INFO: Updated resistance to: 30.565 and support to: 29.606
+2025-08-06 10:53:18 INFO: {'RNG': {   'close': 29.59,
+    'high': 29.61,
+    'low': 29.59,
+    'open': 29.61,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 356.0,
+    'vwap': 29.6}}
+2025-08-06 10:53:18 INFO: Current resistance is: 30.565 and support is: 29.606
+2025-08-06 10:53:18 INFO: Current average volume is: 605.93
+2025-08-06 10:53:18 INFO: close price: 29.59 just dropped below support of 29.606...
+2025-08-06 10:54:19 INFO: {'RNG': {   'close': 29.72,
+    'high': 29.72,
+    'low': 29.72,
+    'open': 29.72,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 149.0,
+    'vwap': 29.72}}
+2025-08-06 10:54:19 INFO: Current resistance is: 30.565 and support is: 29.606
+2025-08-06 10:54:19 INFO: Current average volume is: 589.61
+2025-08-06 10:54:19 INFO: Updated resistance to: 30.565 and support to: 29.54
+2025-08-06 10:56:19 INFO: {'RNG': {   'close': 29.88,
+    'high': 29.9,
+    'low': 29.86,
+    'open': 29.89,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 759.0,
+    'vwap': 29.880977}}
+2025-08-06 10:56:19 INFO: Current resistance is: 30.565 and support is: 29.54
+2025-08-06 10:56:19 INFO: Current average volume is: 595.45
+2025-08-06 10:56:19 INFO: Updated resistance to: 30.565 and support to: 29.519
+2025-08-06 10:59:19 INFO: {'RNG': {   'close': 29.82,
+    'high': 29.835,
+    'low': 29.82,
+    'open': 29.835,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 474.0,
+    'vwap': 29.825245}}
+2025-08-06 10:59:19 INFO: Current resistance is: 30.565 and support is: 29.519
+2025-08-06 10:59:19 INFO: Current average volume is: 591.4
+2025-08-06 10:59:19 INFO: Updated resistance to: 30.565 and support to: 29.499
+2025-08-06 11:00:19 INFO: {'RNG': {   'close': 29.66,
+    'high': 29.77,
+    'low': 29.66,
+    'open': 29.77,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1133.0,
+    'vwap': 29.742155}}
+2025-08-06 11:00:19 INFO: Current resistance is: 30.565 and support is: 29.499
+2025-08-06 11:00:19 INFO: Current average volume is: 608.87
+2025-08-06 11:00:19 INFO: Updated resistance to: 30.565 and support to: 29.477
+2025-08-06 11:01:19 INFO: {'RNG': {   'close': 29.67,
+    'high': 29.745,
+    'low': 29.67,
+    'open': 29.745,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 677.0,
+    'vwap': 29.71}}
+2025-08-06 11:01:19 INFO: Current resistance is: 30.565 and support is: 29.477
+2025-08-06 11:01:19 INFO: Current average volume is: 611.0
+2025-08-06 11:01:19 INFO: Updated resistance to: 30.565 and support to: 29.455
+2025-08-06 11:03:20 INFO: {'RNG': {   'close': 29.86,
+    'high': 29.86,
+    'low': 29.75,
+    'open': 29.75,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 425.0,
+    'vwap': 29.805}}
+2025-08-06 11:03:20 INFO: Current resistance is: 30.565 and support is: 29.455
+2025-08-06 11:03:20 INFO: Current average volume is: 605.36
+2025-08-06 11:03:20 INFO: Updated resistance to: 30.565 and support to: 29.438
+2025-08-06 11:05:20 INFO: {'RNG': {   'close': 29.88,
+    'high': 29.88,
+    'low': 29.82,
+    'open': 29.82,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 666.0,
+    'vwap': 29.856667}}
+2025-08-06 11:05:20 INFO: Current resistance is: 30.565 and support is: 29.438
+2025-08-06 11:05:20 INFO: Current average volume is: 607.15
+2025-08-06 11:05:20 INFO: Updated resistance to: 30.565 and support to: 29.425
+2025-08-06 11:06:20 INFO: {'RNG': {   'close': 29.935,
+    'high': 29.935,
+    'low': 29.88,
+    'open': 29.88,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 557.0,
+    'vwap': 29.89875}}
+2025-08-06 11:06:20 INFO: Current resistance is: 30.565 and support is: 29.425
+2025-08-06 11:06:20 INFO: Current average volume is: 605.71
+2025-08-06 11:06:20 INFO: Updated resistance to: 30.565 and support to: 29.415
+2025-08-06 11:07:20 INFO: {'RNG': {   'close': 30.08,
+    'high': 30.08,
+    'low': 29.975,
+    'open': 29.99,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2002.0,
+    'vwap': 29.993529}}
+2025-08-06 11:07:20 INFO: Current resistance is: 30.565 and support is: 29.415
+2025-08-06 11:07:20 INFO: Current average volume is: 644.5
+2025-08-06 11:07:20 INFO: Updated resistance to: 30.565 and support to: 29.412
+2025-08-06 11:08:20 INFO: {'RNG': {   'close': 30.07,
+    'high': 30.125,
+    'low': 30.07,
+    'open': 30.125,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 327.0,
+    'vwap': 30.098333}}
+2025-08-06 11:08:20 INFO: Current resistance is: 30.565 and support is: 29.412
+2025-08-06 11:08:20 INFO: Current average volume is: 635.92
+2025-08-06 11:08:20 INFO: Updated resistance to: 30.565 and support to: 29.414
+2025-08-06 11:09:20 INFO: {'RNG': {   'close': 30.03,
+    'high': 30.03,
+    'low': 30.03,
+    'open': 30.03,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.03}}
+2025-08-06 11:09:20 INFO: Current resistance is: 30.565 and support is: 29.414
+2025-08-06 11:09:20 INFO: Current average volume is: 621.82
+2025-08-06 11:09:20 INFO: Updated resistance to: 30.565 and support to: 29.416
+2025-08-06 11:11:21 INFO: {'RNG': {   'close': 29.99,
+    'high': 30.025,
+    'low': 29.99,
+    'open': 30.025,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 366.0,
+    'vwap': 30.008333}}
+2025-08-06 11:11:21 INFO: Current resistance is: 30.565 and support is: 29.416
+2025-08-06 11:11:21 INFO: Current average volume is: 615.26
+2025-08-06 11:11:21 INFO: Updated resistance to: 30.565 and support to: 29.416
+2025-08-06 11:12:21 INFO: {'RNG': {   'close': 29.92,
+    'high': 29.92,
+    'low': 29.92,
+    'open': 29.92,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 356.0,
+    'vwap': 29.92}}
+2025-08-06 11:12:21 INFO: Current resistance is: 30.565 and support is: 29.416
+2025-08-06 11:12:21 INFO: Current average volume is: 608.77
+2025-08-06 11:12:21 INFO: Updated resistance to: 30.565 and support to: 29.413
+2025-08-06 11:14:21 INFO: {'RNG': {   'close': 29.73,
+    'high': 29.835,
+    'low': 29.73,
+    'open': 29.835,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 435.0,
+    'vwap': 29.785}}
+2025-08-06 11:14:21 INFO: Current resistance is: 30.565 and support is: 29.413
+2025-08-06 11:14:21 INFO: Current average volume is: 604.54
+2025-08-06 11:14:21 INFO: Updated resistance to: 30.565 and support to: 29.401
+2025-08-06 11:15:21 INFO: {'RNG': {   'close': 29.72,
+    'high': 29.72,
+    'low': 29.72,
+    'open': 29.72,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 275.0,
+    'vwap': 29.72}}
+2025-08-06 11:15:21 INFO: Current resistance is: 30.565 and support is: 29.401
+2025-08-06 11:15:21 INFO: Current average volume is: 596.69
+2025-08-06 11:15:21 INFO: Updated resistance to: 30.565 and support to: 29.39
+2025-08-06 11:16:21 INFO: {'RNG': {   'close': 29.68,
+    'high': 29.68,
+    'low': 29.68,
+    'open': 29.68,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 502.0,
+    'vwap': 29.68}}
+2025-08-06 11:16:21 INFO: Current resistance is: 30.565 and support is: 29.39
+2025-08-06 11:16:21 INFO: Current average volume is: 594.49
+2025-08-06 11:16:21 INFO: Updated resistance to: 30.565 and support to: 29.376
+2025-08-06 11:17:21 INFO: {'RNG': {   'close': 29.595,
+    'high': 29.66,
+    'low': 29.595,
+    'open': 29.66,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 29.6125}}
+2025-08-06 11:17:21 INFO: Current resistance is: 30.565 and support is: 29.376
+2025-08-06 11:17:21 INFO: Current average volume is: 590.07
+2025-08-06 11:17:21 INFO: Updated resistance to: 30.565 and support to: 29.359
+2025-08-06 11:18:22 INFO: {'RNG': {   'close': 29.55,
+    'high': 29.6,
+    'low': 29.55,
+    'open': 29.6,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 29.575}}
+2025-08-06 11:18:22 INFO: Current resistance is: 30.565 and support is: 29.359
+2025-08-06 11:18:22 INFO: Current average volume is: 583.62
+2025-08-06 11:18:22 INFO: Updated resistance to: 30.565 and support to: 29.537
+2025-08-06 11:20:22 INFO: {'RNG': {   'close': 29.48,
+    'high': 29.48,
+    'low': 29.45,
+    'open': 29.45,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 350.0,
+    'vwap': 29.465}}
+2025-08-06 11:20:22 INFO: Current resistance is: 30.565 and support is: 29.537
+2025-08-06 11:20:22 INFO: Current average volume is: 578.54
+2025-08-06 11:20:22 INFO: close price: 29.48 just dropped below support of 29.537...
+2025-08-06 11:21:22 INFO: {'RNG': {   'close': 29.485,
+    'high': 29.55,
+    'low': 29.485,
+    'open': 29.55,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 500.0,
+    'vwap': 29.528333}}
+2025-08-06 11:21:22 INFO: Current resistance is: 30.565 and support is: 29.537
+2025-08-06 11:21:22 INFO: Current average volume is: 576.87
+2025-08-06 11:21:22 INFO: Closing price: 29.485 just dropped below support 29.537 again...ending trade...
+2025-08-06 11:35:25 INFO: === Strategy started ===
+2025-08-06 11:35:25 INFO: Start collecting the current highs/lows for: RNG
+2025-08-06 11:35:25 INFO: Most recent stock data: {'RNG': {   'close': 29.32,
+    'high': 29.36,
+    'low': 29.32,
+    'open': 29.36,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 413.0,
+    'vwap': 29.333793}}
+2025-08-06 11:36:25 INFO: Most recent stock data: {'RNG': {   'close': 29.31,
+    'high': 29.38,
+    'low': 29.31,
+    'open': 29.31,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 781.0,
+    'vwap': 29.341949}}
+2025-08-06 11:37:25 INFO: Most recent stock data: {'RNG': {   'close': 29.25,
+    'high': 29.32,
+    'low': 29.25,
+    'open': 29.32,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 562.0,
+    'vwap': 29.288835}}
+2025-08-06 11:39:25 INFO: Most recent stock data: {'RNG': {   'close': 29.29,
+    'high': 29.29,
+    'low': 29.29,
+    'open': 29.29,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 239.0,
+    'vwap': 29.29}}
+2025-08-06 11:41:26 INFO: Most recent stock data: {'RNG': {   'close': 29.25,
+    'high': 29.25,
+    'low': 29.25,
+    'open': 29.25,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.25}}
+2025-08-06 11:42:26 INFO: Most recent stock data: {'RNG': {   'close': 29.23,
+    'high': 29.245,
+    'low': 29.23,
+    'open': 29.245,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 270.0,
+    'vwap': 29.2375}}
+2025-08-06 11:43:26 INFO: Most recent stock data: {'RNG': {   'close': 29.26,
+    'high': 29.26,
+    'low': 29.235,
+    'open': 29.235,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 326.0,
+    'vwap': 29.2475}}
+2025-08-06 11:44:26 INFO: Most recent stock data: {'RNG': {   'close': 29.26,
+    'high': 29.3,
+    'low': 29.25,
+    'open': 29.27,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1810.0,
+    'vwap': 29.274539}}
+2025-08-06 11:45:26 INFO: Most recent stock data: {'RNG': {   'close': 29.24,
+    'high': 29.24,
+    'low': 29.24,
+    'open': 29.24,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.24}}
+2025-08-06 11:46:26 INFO: Most recent stock data: {'RNG': {   'close': 29.26,
+    'high': 29.265,
+    'low': 29.26,
+    'open': 29.265,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 610.0,
+    'vwap': 29.263387}}
+2025-08-06 11:47:26 INFO: Most recent stock data: {'RNG': {   'close': 29.285,
+    'high': 29.285,
+    'low': 29.285,
+    'open': 29.285,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 220.0,
+    'vwap': 29.285}}
+2025-08-06 11:47:26 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 11:47:26 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-06 11:50:27 INFO: {'RNG': {   'close': 29.29,
+    'high': 29.29,
+    'low': 29.24,
+    'open': 29.24,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 761.0,
+    'vwap': 29.265}}
+2025-08-06 11:50:27 INFO: Current resistance is: 29.38 and support is: 29.23
+2025-08-06 11:50:27 INFO: Current average volume is: 481.58
+2025-08-06 11:50:27 INFO: Updated resistance to: 29.38 and support to: 29.23
+2025-08-06 11:51:27 INFO: {'RNG': {   'close': 29.24,
+    'high': 29.255,
+    'low': 29.23,
+    'open': 29.255,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1140.0,
+    'vwap': 29.241441}}
+2025-08-06 11:51:27 INFO: Current resistance is: 29.38 and support is: 29.23
+2025-08-06 11:51:27 INFO: Current average volume is: 532.23
+2025-08-06 11:51:27 INFO: Updated resistance to: 29.38 and support to: 29.23
+2025-08-06 11:53:27 INFO: {'RNG': {   'close': 29.31,
+    'high': 29.31,
+    'low': 29.31,
+    'open': 29.31,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 302.0,
+    'vwap': 29.31}}
+2025-08-06 11:53:27 INFO: Current resistance is: 29.38 and support is: 29.23
+2025-08-06 11:53:27 INFO: Current average volume is: 515.79
+2025-08-06 11:53:27 INFO: Updated resistance to: 29.38 and support to: 29.23
+2025-08-06 11:54:27 INFO: {'RNG': {   'close': 29.3,
+    'high': 29.33,
+    'low': 29.3,
+    'open': 29.33,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 589.0,
+    'vwap': 29.315}}
+2025-08-06 11:54:27 INFO: Current resistance is: 29.38 and support is: 29.23
+2025-08-06 11:54:27 INFO: Current average volume is: 520.67
+2025-08-06 11:54:27 INFO: Updated resistance to: 29.38 and support to: 29.23
+2025-08-06 11:56:27 INFO: {'RNG': {   'close': 29.36,
+    'high': 29.36,
+    'low': 29.36,
+    'open': 29.36,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 211.0,
+    'vwap': 29.36}}
+2025-08-06 11:56:27 INFO: Current resistance is: 29.38 and support is: 29.23
+2025-08-06 11:56:27 INFO: Current average volume is: 501.31
+2025-08-06 11:56:27 INFO: Updated resistance to: 29.38 and support to: 29.23
+2025-08-06 11:57:28 INFO: {'RNG': {   'close': 29.46,
+    'high': 29.46,
+    'low': 29.42,
+    'open': 29.42,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 542.0,
+    'vwap': 29.446667}}
+2025-08-06 11:57:28 INFO: Current resistance is: 29.38 and support is: 29.23
+2025-08-06 11:57:28 INFO: Current average volume is: 503.71
+2025-08-06 11:57:28 INFO: The Current Close 29.46 is above the resistance...
+2025-08-06 11:57:28 INFO: Updated resistance to: 29.46 and support to: 29.23
+2025-08-06 11:58:28 INFO: {'RNG': {   'close': 29.49,
+    'high': 29.49,
+    'low': 29.49,
+    'open': 29.49,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 173.0,
+    'vwap': 29.49}}
+2025-08-06 11:58:28 INFO: Current resistance is: 29.46 and support is: 29.23
+2025-08-06 11:58:28 INFO: Current average volume is: 485.33
+2025-08-06 11:58:28 INFO: The current close: 29.49 is above the resistance of 29.46, but volume isn't enough...
+2025-08-06 11:58:28 INFO: Updated resistance to: 29.49 and support to: 29.23
+2025-08-06 11:59:28 INFO: {'RNG': {   'close': 29.6,
+    'high': 29.62,
+    'low': 29.6,
+    'open': 29.62,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 334.0,
+    'vwap': 29.61}}
+2025-08-06 11:59:28 INFO: Current resistance is: 29.49 and support is: 29.23
+2025-08-06 11:59:28 INFO: Current average volume is: 477.37
+2025-08-06 11:59:28 INFO: The current close: 29.6 is above the resistance of 29.49, but volume isn't enough...
+2025-08-06 11:59:28 INFO: Updated resistance to: 29.62 and support to: 29.23
+2025-08-06 12:00:28 INFO: {'RNG': {   'close': 29.59,
+    'high': 29.59,
+    'low': 29.59,
+    'open': 29.59,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 440.0,
+    'vwap': 29.59}}
+2025-08-06 12:00:28 INFO: Current resistance is: 29.62 and support is: 29.23
+2025-08-06 12:00:28 INFO: Current average volume is: 475.5
+2025-08-06 12:00:28 INFO: Updated resistance to: 29.62 and support to: 29.23
+2025-08-06 12:01:28 INFO: {'RNG': {   'close': 29.62,
+    'high': 29.62,
+    'low': 29.62,
+    'open': 29.62,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 175.0,
+    'vwap': 29.62}}
+2025-08-06 12:01:28 INFO: Current resistance is: 29.62 and support is: 29.23
+2025-08-06 12:01:28 INFO: Current average volume is: 461.19
+2025-08-06 12:02:29 INFO: {'RNG': {   'close': 29.58,
+    'high': 29.58,
+    'low': 29.58,
+    'open': 29.58,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 533.0,
+    'vwap': 29.58}}
+2025-08-06 12:02:29 INFO: Current resistance is: 29.62 and support is: 29.23
+2025-08-06 12:02:29 INFO: Current average volume is: 464.45
+2025-08-06 12:02:29 INFO: Updated resistance to: 29.62 and support to: 29.23
+2025-08-06 12:03:29 INFO: {'RNG': {   'close': 29.62,
+    'high': 29.62,
+    'low': 29.55,
+    'open': 29.55,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 237.0,
+    'vwap': 29.585}}
+2025-08-06 12:03:29 INFO: Current resistance is: 29.62 and support is: 29.23
+2025-08-06 12:03:29 INFO: Current average volume is: 454.57
+2025-08-06 12:06:29 INFO: {'RNG': {   'close': 29.64,
+    'high': 29.64,
+    'low': 29.64,
+    'open': 29.64,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 263.0,
+    'vwap': 29.64}}
+2025-08-06 12:06:29 INFO: Current resistance is: 29.62 and support is: 29.23
+2025-08-06 12:06:29 INFO: Current average volume is: 446.58
+2025-08-06 12:06:29 INFO: The Current Close 29.64 is above the resistance...
+2025-08-06 12:06:29 INFO: Updated resistance to: 29.64 and support to: 29.23
+2025-08-06 12:08:29 INFO: {'RNG': {   'close': 29.67,
+    'high': 29.67,
+    'low': 29.67,
+    'open': 29.67,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 189.0,
+    'vwap': 29.67}}
+2025-08-06 12:08:29 INFO: Current resistance is: 29.64 and support is: 29.23
+2025-08-06 12:08:29 INFO: Current average volume is: 436.28
+2025-08-06 12:08:29 INFO: The current close: 29.67 is above the resistance of 29.64, but volume isn't enough...
+2025-08-06 12:08:29 INFO: Updated resistance to: 29.67 and support to: 29.23
+2025-08-06 12:10:30 INFO: {'RNG': {   'close': 29.66,
+    'high': 29.7,
+    'low': 29.66,
+    'open': 29.7,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 456.0,
+    'vwap': 29.680392}}
+2025-08-06 12:10:30 INFO: Current resistance is: 29.67 and support is: 29.23
+2025-08-06 12:10:30 INFO: Current average volume is: 437.04
+2025-08-06 12:10:30 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:11:30 INFO: {'RNG': {   'close': 29.63,
+    'high': 29.63,
+    'low': 29.63,
+    'open': 29.63,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 369.0,
+    'vwap': 29.63}}
+2025-08-06 12:11:30 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:11:30 INFO: Current average volume is: 434.52
+2025-08-06 12:11:30 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:13:30 INFO: {'RNG': {   'close': 29.52,
+    'high': 29.52,
+    'low': 29.49,
+    'open': 29.52,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 506.0,
+    'vwap': 29.51}}
+2025-08-06 12:13:30 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:13:30 INFO: Current average volume is: 437.07
+2025-08-06 12:13:30 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:17:31 INFO: {'RNG': {   'close': 29.44,
+    'high': 29.44,
+    'low': 29.42,
+    'open': 29.42,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 285.0,
+    'vwap': 29.43}}
+2025-08-06 12:17:31 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:17:31 INFO: Current average volume is: 431.83
+2025-08-06 12:17:31 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:22:31 INFO: {'RNG': {   'close': 29.59,
+    'high': 29.59,
+    'low': 29.58,
+    'open': 29.58,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 360.0,
+    'vwap': 29.584082}}
+2025-08-06 12:22:31 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:22:31 INFO: Current average volume is: 429.43
+2025-08-06 12:22:31 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:23:32 INFO: {'RNG': {   'close': 29.61,
+    'high': 29.61,
+    'low': 29.61,
+    'open': 29.61,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 130.0,
+    'vwap': 29.61}}
+2025-08-06 12:23:32 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:23:32 INFO: Current average volume is: 419.77
+2025-08-06 12:23:32 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:24:32 INFO: {'RNG': {   'close': 29.505,
+    'high': 29.59,
+    'low': 29.505,
+    'open': 29.59,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 964.0,
+    'vwap': 29.5425}}
+2025-08-06 12:24:32 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:24:32 INFO: Current average volume is: 436.78
+2025-08-06 12:24:32 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:25:32 INFO: {'RNG': {   'close': 29.49,
+    'high': 29.49,
+    'low': 29.49,
+    'open': 29.49,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 407.0,
+    'vwap': 29.49}}
+2025-08-06 12:25:32 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:25:32 INFO: Current average volume is: 435.88
+2025-08-06 12:25:32 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:26:32 INFO: {'RNG': {   'close': 29.545,
+    'high': 29.545,
+    'low': 29.545,
+    'open': 29.545,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 29.545}}
+2025-08-06 12:26:32 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:26:32 INFO: Current average volume is: 426.59
+2025-08-06 12:26:32 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:28:32 INFO: {'RNG': {   'close': 29.57,
+    'high': 29.59,
+    'low': 29.57,
+    'open': 29.59,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 517.0,
+    'vwap': 29.58}}
+2025-08-06 12:28:32 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:28:32 INFO: Current average volume is: 429.17
+2025-08-06 12:28:32 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:31:32 INFO: {'RNG': {   'close': 29.55,
+    'high': 29.55,
+    'low': 29.55,
+    'open': 29.55,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 163.0,
+    'vwap': 29.55}}
+2025-08-06 12:31:32 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:31:32 INFO: Current average volume is: 421.78
+2025-08-06 12:31:32 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:37:33 INFO: {'RNG': {   'close': 29.58,
+    'high': 29.58,
+    'low': 29.58,
+    'open': 29.58,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 256.0,
+    'vwap': 29.58}}
+2025-08-06 12:37:33 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:37:33 INFO: Current average volume is: 417.3
+2025-08-06 12:37:33 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:40:34 INFO: {'RNG': {   'close': 29.59,
+    'high': 29.59,
+    'low': 29.59,
+    'open': 29.59,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 220.0,
+    'vwap': 29.59}}
+2025-08-06 12:40:34 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:40:34 INFO: Current average volume is: 412.11
+2025-08-06 12:40:34 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:43:34 INFO: {'RNG': {   'close': 29.555,
+    'high': 29.6,
+    'low': 29.555,
+    'open': 29.6,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1026.0,
+    'vwap': 29.5825}}
+2025-08-06 12:43:34 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:43:34 INFO: Current average volume is: 427.85
+2025-08-06 12:43:34 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:44:34 INFO: {'RNG': {   'close': 29.45,
+    'high': 29.55,
+    'low': 29.45,
+    'open': 29.55,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1012.0,
+    'vwap': 29.493853}}
+2025-08-06 12:44:34 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:44:34 INFO: Current average volume is: 442.45
+2025-08-06 12:44:34 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:45:34 INFO: {'RNG': {   'close': 29.47,
+    'high': 29.48,
+    'low': 29.445,
+    'open': 29.445,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 582.0,
+    'vwap': 29.462146}}
+2025-08-06 12:45:34 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:45:34 INFO: Current average volume is: 445.85
+2025-08-06 12:45:34 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:46:34 INFO: {'RNG': {   'close': 29.44,
+    'high': 29.45,
+    'low': 29.44,
+    'open': 29.45,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 643.0,
+    'vwap': 29.443425}}
+2025-08-06 12:46:34 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:46:34 INFO: Current average volume is: 450.55
+2025-08-06 12:46:34 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:47:34 INFO: {'RNG': {   'close': 29.305,
+    'high': 29.42,
+    'low': 29.305,
+    'open': 29.42,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 330.0,
+    'vwap': 29.3625}}
+2025-08-06 12:47:34 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:47:34 INFO: Current average volume is: 447.74
+2025-08-06 12:47:34 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:49:35 INFO: {'RNG': {   'close': 29.435,
+    'high': 29.435,
+    'low': 29.41,
+    'open': 29.41,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 420.0,
+    'vwap': 29.429048}}
+2025-08-06 12:49:35 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:49:35 INFO: Current average volume is: 447.11
+2025-08-06 12:49:35 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:50:35 INFO: {'RNG': {   'close': 29.43,
+    'high': 29.43,
+    'low': 29.43,
+    'open': 29.43,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 139.0,
+    'vwap': 29.43}}
+2025-08-06 12:50:35 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:50:35 INFO: Current average volume is: 440.27
+2025-08-06 12:50:35 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:51:35 INFO: {'RNG': {   'close': 29.44,
+    'high': 29.47,
+    'low': 29.42,
+    'open': 29.42,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 784.0,
+    'vwap': 29.455207}}
+2025-08-06 12:51:35 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:51:35 INFO: Current average volume is: 447.74
+2025-08-06 12:51:35 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 12:54:35 INFO: {'RNG': {   'close': 29.435,
+    'high': 29.435,
+    'low': 29.41,
+    'open': 29.41,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 205.0,
+    'vwap': 29.4225}}
+2025-08-06 12:54:35 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 12:54:35 INFO: Current average volume is: 442.57
+2025-08-06 12:54:35 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 13:02:36 INFO: {'RNG': {   'close': 29.66,
+    'high': 29.66,
+    'low': 29.66,
+    'open': 29.66,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 254.0,
+    'vwap': 29.66}}
+2025-08-06 13:02:36 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 13:02:36 INFO: Current average volume is: 438.65
+2025-08-06 13:02:36 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 13:03:36 INFO: {'RNG': {   'close': 29.565,
+    'high': 29.64,
+    'low': 29.565,
+    'open': 29.64,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 498.0,
+    'vwap': 29.591667}}
+2025-08-06 13:03:36 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 13:03:36 INFO: Current average volume is: 439.86
+2025-08-06 13:03:36 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 13:06:37 INFO: {'RNG': {   'close': 29.605,
+    'high': 29.605,
+    'low': 29.605,
+    'open': 29.605,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 171.0,
+    'vwap': 29.605}}
+2025-08-06 13:06:37 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 13:06:37 INFO: Current average volume is: 434.48
+2025-08-06 13:06:37 INFO: Updated resistance to: 29.7 and support to: 29.23
+2025-08-06 13:08:37 INFO: {'RNG': {   'close': 29.735,
+    'high': 29.735,
+    'low': 29.735,
+    'open': 29.735,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 246.0,
+    'vwap': 29.735}}
+2025-08-06 13:08:37 INFO: Current resistance is: 29.7 and support is: 29.23
+2025-08-06 13:08:37 INFO: Current average volume is: 430.78
+2025-08-06 13:08:37 INFO: The Current Close 29.735 is above the resistance...
+2025-08-06 13:08:37 INFO: Updated resistance to: 29.735 and support to: 29.23
+2025-08-06 13:09:07 INFO: {'RNG': {   'close': 29.7,
+    'high': 29.7,
+    'low': 29.7,
+    'open': 29.7,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 347.0,
+    'vwap': 29.7}}
+2025-08-06 13:09:07 INFO: Current resistance is: 29.735 and support is: 29.23
+2025-08-06 13:09:07 INFO: Current average volume is: 429.17
+2025-08-06 13:09:07 INFO: Updated resistance to: 29.735 and support to: 29.23
+2025-08-06 13:11:07 INFO: {'RNG': {   'close': 29.57,
+    'high': 29.69,
+    'low': 29.57,
+    'open': 29.69,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 209.0,
+    'vwap': 29.63}}
+2025-08-06 13:11:07 INFO: Current resistance is: 29.735 and support is: 29.23
+2025-08-06 13:11:07 INFO: Current average volume is: 425.02
+2025-08-06 13:11:07 INFO: Updated resistance to: 29.735 and support to: 29.23
+2025-08-06 13:12:07 INFO: {'RNG': {   'close': 29.49,
+    'high': 29.49,
+    'low': 29.49,
+    'open': 29.49,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 575.0,
+    'vwap': 29.49}}
+2025-08-06 13:12:07 INFO: Current resistance is: 29.735 and support is: 29.23
+2025-08-06 13:12:07 INFO: Current average volume is: 427.8
+2025-08-06 13:12:07 INFO: Updated resistance to: 29.735 and support to: 29.23
+2025-08-06 13:13:07 INFO: {'RNG': {   'close': 29.465,
+    'high': 29.465,
+    'low': 29.455,
+    'open': 29.455,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 817.0,
+    'vwap': 29.458226}}
+2025-08-06 13:13:07 INFO: Current resistance is: 29.735 and support is: 29.23
+2025-08-06 13:13:07 INFO: Current average volume is: 434.87
+2025-08-06 13:13:07 INFO: Updated resistance to: 29.735 and support to: 29.23
+2025-08-06 13:14:08 INFO: {'RNG': {   'close': 29.415,
+    'high': 29.46,
+    'low': 29.415,
+    'open': 29.44,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1048.0,
+    'vwap': 29.441386}}
+2025-08-06 13:14:08 INFO: Current resistance is: 29.735 and support is: 29.23
+2025-08-06 13:14:08 INFO: Current average volume is: 445.82
+2025-08-06 13:14:08 INFO: Updated resistance to: 29.735 and support to: 29.23
+2025-08-06 13:15:08 INFO: {'RNG': {   'close': 29.39,
+    'high': 29.415,
+    'low': 29.39,
+    'open': 29.415,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 450.0,
+    'vwap': 29.399227}}
+2025-08-06 13:15:08 INFO: Current resistance is: 29.735 and support is: 29.23
+2025-08-06 13:15:08 INFO: Current average volume is: 445.89
+2025-08-06 13:15:08 INFO: Updated resistance to: 29.735 and support to: 29.23
+2025-08-06 13:16:55 INFO: === Strategy started ===
+2025-08-06 13:16:55 INFO: Start collecting the current highs/lows for: RNG
+2025-08-06 13:16:55 INFO: Most recent stock data: {'RNG': {   'close': 29.39,
+    'high': 29.415,
+    'low': 29.39,
+    'open': 29.415,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 450.0,
+    'vwap': 29.399227}}
+2025-08-06 13:17:56 INFO: Most recent stock data: {'RNG': {   'close': 29.455,
+    'high': 29.455,
+    'low': 29.45,
+    'open': 29.45,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 753.0,
+    'vwap': 29.45119}}
+2025-08-06 13:19:56 INFO: Most recent stock data: {'RNG': {   'close': 29.4,
+    'high': 29.44,
+    'low': 29.4,
+    'open': 29.44,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 290.0,
+    'vwap': 29.42}}
+2025-08-06 13:20:56 INFO: Most recent stock data: {'RNG': {   'close': 29.325,
+    'high': 29.325,
+    'low': 29.325,
+    'open': 29.325,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 117.0,
+    'vwap': 29.325}}
+2025-08-06 13:21:56 INFO: Most recent stock data: {'RNG': {   'close': 29.31,
+    'high': 29.31,
+    'low': 29.31,
+    'open': 29.31,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 249.0,
+    'vwap': 29.31}}
+2025-08-06 13:24:57 INFO: Most recent stock data: {'RNG': {   'close': 29.355,
+    'high': 29.355,
+    'low': 29.355,
+    'open': 29.355,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.355}}
+2025-08-06 13:26:29 INFO: === Strategy started ===
+2025-08-06 13:26:29 INFO: Start collecting the current highs/lows for: RNG
+2025-08-06 13:26:29 INFO: Most recent stock data: {'RNG': {   'close': 29.35,
+    'high': 29.35,
+    'low': 29.35,
+    'open': 29.35,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 175.0,
+    'vwap': 29.35}}
+2025-08-06 13:27:29 INFO: Most recent stock data: {'RNG': {   'close': 29.305,
+    'high': 29.305,
+    'low': 29.305,
+    'open': 29.305,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 234.0,
+    'vwap': 29.305}}
+2025-08-06 13:28:29 INFO: Most recent stock data: {'RNG': {   'close': 29.35,
+    'high': 29.35,
+    'low': 29.34,
+    'open': 29.34,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 335.0,
+    'vwap': 29.345}}
+2025-08-06 13:29:09 INFO: === Strategy started ===
+2025-08-06 13:29:09 INFO: Start collecting the current highs/lows for: RNG
+2025-08-06 13:29:09 INFO: Most recent stock data: {'RNG': {   'close': 29.33,
+    'high': 29.355,
+    'low': 29.33,
+    'open': 29.34,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1546.0,
+    'vwap': 29.349531}}
+2025-08-06 13:30:09 INFO: Most recent stock data: {'RNG': {   'close': 29.28,
+    'high': 29.38,
+    'low': 29.28,
+    'open': 29.36,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 801.0,
+    'vwap': 29.342}}
+2025-08-06 13:31:09 INFO: Most recent stock data: {'RNG': {   'close': 29.315,
+    'high': 29.315,
+    'low': 29.315,
+    'open': 29.315,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 262.0,
+    'vwap': 29.315}}
+2025-08-06 13:32:10 INFO: Most recent stock data: {'RNG': {   'close': 29.19,
+    'high': 29.19,
+    'low': 29.19,
+    'open': 29.19,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 235.0,
+    'vwap': 29.19}}
+2025-08-06 13:35:11 INFO: Most recent stock data: {'RNG': {   'close': 29.12,
+    'high': 29.12,
+    'low': 29.12,
+    'open': 29.12,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 428.0,
+    'vwap': 29.12}}
+2025-08-06 13:36:11 INFO: Most recent stock data: {'RNG': {   'close': 29.17,
+    'high': 29.17,
+    'low': 29.17,
+    'open': 29.17,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 210.0,
+    'vwap': 29.17}}
+2025-08-06 13:37:11 INFO: Most recent stock data: {'RNG': {   'close': 29.27,
+    'high': 29.27,
+    'low': 29.26,
+    'open': 29.26,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 29.265}}
+2025-08-06 13:39:11 INFO: Most recent stock data: {'RNG': {   'close': 29.19,
+    'high': 29.19,
+    'low': 29.19,
+    'open': 29.19,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 29.19}}
+2025-08-06 13:42:12 INFO: Most recent stock data: {'RNG': {   'close': 29.195,
+    'high': 29.26,
+    'low': 29.195,
+    'open': 29.26,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 436.0,
+    'vwap': 29.215}}
+2025-08-06 13:43:12 INFO: Most recent stock data: {'RNG': {   'close': 29.23,
+    'high': 29.23,
+    'low': 29.23,
+    'open': 29.23,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 531.0,
+    'vwap': 29.23}}
+2025-08-06 13:44:12 INFO: Most recent stock data: {'RNG': {   'close': 29.31,
+    'high': 29.31,
+    'low': 29.25,
+    'open': 29.25,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 406.0,
+    'vwap': 29.2725}}
+2025-08-06 13:44:12 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-06 13:44:12 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-06 13:50:13 INFO: {'RNG': {   'close': 29.275,
+    'high': 29.275,
+    'low': 29.275,
+    'open': 29.275,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 532.0,
+    'vwap': 29.275}}
+2025-08-06 13:50:13 INFO: Current resistance is: 29.38 and support is: 29.12
+2025-08-06 13:50:13 INFO: Current average volume is: 345.0
+2025-08-06 13:50:13 INFO: Updated resistance to: 29.38 and support to: 29.12
+2025-08-06 13:51:13 INFO: {'RNG': {   'close': 29.31,
+    'high': 29.31,
+    'low': 29.26,
+    'open': 29.26,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 630.0,
+    'vwap': 29.293019}}
+2025-08-06 13:51:13 INFO: Current resistance is: 29.38 and support is: 29.12
+2025-08-06 13:51:13 INFO: Current average volume is: 381.8
+2025-08-06 13:51:13 INFO: Updated resistance to: 29.38 and support to: 29.12
+2025-08-06 13:52:13 INFO: {'RNG': {   'close': 29.29,
+    'high': 29.29,
+    'low': 29.29,
+    'open': 29.29,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 173.0,
+    'vwap': 29.29}}
+2025-08-06 13:52:13 INFO: Current resistance is: 29.38 and support is: 29.12
+2025-08-06 13:52:13 INFO: Current average volume is: 375.6
+2025-08-06 13:52:13 INFO: Updated resistance to: 29.38 and support to: 29.12
+2025-08-06 13:54:13 INFO: {'RNG': {   'close': 29.31,
+    'high': 29.31,
+    'low': 29.31,
+    'open': 29.31,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 288.0,
+    'vwap': 29.31}}
+2025-08-06 13:54:13 INFO: Current resistance is: 29.38 and support is: 29.12
+2025-08-06 13:54:13 INFO: Current average volume is: 361.6
+2025-08-06 13:54:13 INFO: Updated resistance to: 29.38 and support to: 29.12
+2025-08-06 13:55:14 INFO: {'RNG': {   'close': 29.36,
+    'high': 29.36,
+    'low': 29.36,
+    'open': 29.36,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 224.0,
+    'vwap': 29.36}}
+2025-08-06 13:55:14 INFO: Current resistance is: 29.38 and support is: 29.12
+2025-08-06 13:55:14 INFO: Current average volume is: 363.0
+2025-08-06 13:55:14 INFO: Updated resistance to: 29.38 and support to: 29.12
+2025-08-06 13:56:14 INFO: {'RNG': {   'close': 29.37,
+    'high': 29.37,
+    'low': 29.37,
+    'open': 29.37,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.37}}
+2025-08-06 13:56:14 INFO: Current resistance is: 29.38 and support is: 29.12
+2025-08-06 13:56:14 INFO: Current average volume is: 352.0
+2025-08-06 13:56:14 INFO: Updated resistance to: 29.38 and support to: 29.12
+2025-08-06 13:57:15 INFO: {'RNG': {   'close': 29.51,
+    'high': 29.51,
+    'low': 29.505,
+    'open': 29.505,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1010.0,
+    'vwap': 29.5075}}
+2025-08-06 13:57:15 INFO: Current resistance is: 29.38 and support is: 29.12
+2025-08-06 13:57:15 INFO: Current average volume is: 433.0
+2025-08-06 13:57:15 INFO: The Current Close 29.51 is above the resistance...
+2025-08-06 13:57:15 INFO: Updated resistance to: 29.51 and support to: 29.12
+2025-08-06 13:59:15 INFO: {'RNG': {   'close': 29.445,
+    'high': 29.53,
+    'low': 29.445,
+    'open': 29.53,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 727.0,
+    'vwap': 29.482326}}
+2025-08-06 13:59:15 INFO: Current resistance is: 29.51 and support is: 29.12
+2025-08-06 13:59:15 INFO: Current average volume is: 462.1
+2025-08-06 13:59:15 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:02:15 INFO: {'RNG': {   'close': 29.33,
+    'high': 29.33,
+    'low': 29.33,
+    'open': 29.33,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 475.0,
+    'vwap': 29.33}}
+2025-08-06 14:02:15 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:02:15 INFO: Current average volume is: 456.5
+2025-08-06 14:02:15 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:03:16 INFO: {'RNG': {   'close': 29.39,
+    'high': 29.39,
+    'low': 29.32,
+    'open': 29.32,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1890.0,
+    'vwap': 29.352982}}
+2025-08-06 14:03:16 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:03:16 INFO: Current average volume is: 604.9
+2025-08-06 14:03:16 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:04:16 INFO: {'RNG': {   'close': 29.42,
+    'high': 29.42,
+    'low': 29.42,
+    'open': 29.42,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 29.42}}
+2025-08-06 14:04:16 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:04:16 INFO: Current average volume is: 564.2
+2025-08-06 14:04:16 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:07:16 INFO: {'RNG': {   'close': 29.4,
+    'high': 29.4,
+    'low': 29.37,
+    'open': 29.38,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 29.383333}}
+2025-08-06 14:07:16 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:07:16 INFO: Current average volume is: 531.2
+2025-08-06 14:07:16 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:08:16 INFO: {'RNG': {   'close': 29.41,
+    'high': 29.44,
+    'low': 29.41,
+    'open': 29.44,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1128.0,
+    'vwap': 29.428403}}
+2025-08-06 14:08:16 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:08:16 INFO: Current average volume is: 626.7
+2025-08-06 14:08:16 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:09:16 INFO: {'RNG': {   'close': 29.435,
+    'high': 29.435,
+    'low': 29.435,
+    'open': 29.435,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.435}}
+2025-08-06 14:09:16 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:09:16 INFO: Current average volume is: 607.9
+2025-08-06 14:09:16 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:10:16 INFO: {'RNG': {   'close': 29.42,
+    'high': 29.42,
+    'low': 29.42,
+    'open': 29.42,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 335.0,
+    'vwap': 29.42}}
+2025-08-06 14:10:16 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:10:16 INFO: Current average volume is: 619.0
+2025-08-06 14:10:16 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:11:16 INFO: {'RNG': {   'close': 29.505,
+    'high': 29.505,
+    'low': 29.45,
+    'open': 29.45,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 801.0,
+    'vwap': 29.493753}}
+2025-08-06 14:11:16 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:11:16 INFO: Current average volume is: 689.1
+2025-08-06 14:11:16 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:12:17 INFO: {'RNG': {   'close': 29.47,
+    'high': 29.47,
+    'low': 29.47,
+    'open': 29.47,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 269.0,
+    'vwap': 29.47}}
+2025-08-06 14:12:17 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:12:17 INFO: Current average volume is: 615.0
+2025-08-06 14:12:17 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:16:17 INFO: {'RNG': {   'close': 29.465,
+    'high': 29.465,
+    'low': 29.465,
+    'open': 29.465,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 248.0,
+    'vwap': 29.465}}
+2025-08-06 14:16:17 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:16:17 INFO: Current average volume is: 567.1
+2025-08-06 14:16:17 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:17:17 INFO: {'RNG': {   'close': 29.4,
+    'high': 29.405,
+    'low': 29.4,
+    'open': 29.405,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 610.0,
+    'vwap': 29.401515}}
+2025-08-06 14:17:17 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:17:17 INFO: Current average volume is: 580.6
+2025-08-06 14:17:17 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:21:18 INFO: {'RNG': {   'close': 29.39,
+    'high': 29.42,
+    'low': 29.39,
+    'open': 29.4,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 794.0,
+    'vwap': 29.4025}}
+2025-08-06 14:21:18 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:21:18 INFO: Current average volume is: 471.0
+2025-08-06 14:21:18 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:23:18 INFO: {'RNG': {   'close': 29.42,
+    'high': 29.43,
+    'low': 29.42,
+    'open': 29.43,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 405.0,
+    'vwap': 29.425}}
+2025-08-06 14:23:18 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:23:18 INFO: Current average volume is: 499.0
+2025-08-06 14:23:18 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:30:19 INFO: {'RNG': {   'close': 29.4,
+    'high': 29.4,
+    'low': 29.4,
+    'open': 29.4,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 770.0,
+    'vwap': 29.4}}
+2025-08-06 14:30:19 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:30:19 INFO: Current average volume is: 546.0
+2025-08-06 14:30:19 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:34:19 INFO: {'RNG': {   'close': 29.41,
+    'high': 29.41,
+    'low': 29.395,
+    'open': 29.395,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 473.0,
+    'vwap': 29.405}}
+2025-08-06 14:34:19 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:34:19 INFO: Current average volume is: 480.5
+2025-08-06 14:34:19 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:39:20 INFO: {'RNG': {   'close': 29.44,
+    'high': 29.44,
+    'low': 29.44,
+    'open': 29.44,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 340.0,
+    'vwap': 29.44}}
+2025-08-06 14:39:20 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:39:20 INFO: Current average volume is: 504.5
+2025-08-06 14:39:20 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:41:20 INFO: {'RNG': {   'close': 29.46,
+    'high': 29.46,
+    'low': 29.46,
+    'open': 29.46,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 302.0,
+    'vwap': 29.46}}
+2025-08-06 14:41:20 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:41:20 INFO: Current average volume is: 501.2
+2025-08-06 14:41:20 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:42:20 INFO: {'RNG': {   'close': 29.485,
+    'high': 29.5,
+    'low': 29.485,
+    'open': 29.5,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 450.0,
+    'vwap': 29.493333}}
+2025-08-06 14:42:20 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:42:20 INFO: Current average volume is: 466.1
+2025-08-06 14:42:20 INFO: Updated resistance to: 29.53 and support to: 29.12
+2025-08-06 14:43:20 INFO: {'RNG': {   'close': 29.56,
+    'high': 29.56,
+    'low': 29.52,
+    'open': 29.52,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 396.0,
+    'vwap': 29.546667}}
+2025-08-06 14:43:20 INFO: Current resistance is: 29.53 and support is: 29.12
+2025-08-06 14:43:20 INFO: Current average volume is: 478.8
+2025-08-06 14:43:20 INFO: The Current Close 29.56 is above the resistance...
+2025-08-06 14:43:20 INFO: Updated resistance to: 29.56 and support to: 29.12
+2025-08-06 14:44:20 INFO: {'RNG': {   'close': 29.63,
+    'high': 29.63,
+    'low': 29.54,
+    'open': 29.54,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 472.0,
+    'vwap': 29.57}}
+2025-08-06 14:44:20 INFO: Current resistance is: 29.56 and support is: 29.12
+2025-08-06 14:44:20 INFO: Current average volume is: 501.2
+2025-08-06 14:44:20 INFO: The current close: 29.63 is above the resistance of 29.56, but volume isn't enough...
+2025-08-06 14:44:20 INFO: Updated resistance to: 29.63 and support to: 29.12
+2025-08-06 14:45:21 INFO: {'RNG': {   'close': 29.62,
+    'high': 29.62,
+    'low': 29.62,
+    'open': 29.62,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 423.0,
+    'vwap': 29.62}}
+2025-08-06 14:45:21 INFO: Current resistance is: 29.63 and support is: 29.12
+2025-08-06 14:45:21 INFO: Current average volume is: 482.5
+2025-08-06 14:45:21 INFO: Updated resistance to: 29.63 and support to: 29.12
+2025-08-06 14:46:21 INFO: {'RNG': {   'close': 29.67,
+    'high': 29.67,
+    'low': 29.67,
+    'open': 29.67,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 143.0,
+    'vwap': 29.67}}
+2025-08-06 14:46:21 INFO: Current resistance is: 29.63 and support is: 29.12
+2025-08-06 14:46:21 INFO: Current average volume is: 417.4
+2025-08-06 14:46:21 INFO: The Current Close 29.67 is above the resistance...
+2025-08-06 14:46:21 INFO: Updated resistance to: 29.67 and support to: 29.12
+2025-08-06 14:49:22 INFO: {'RNG': {   'close': 29.64,
+    'high': 29.65,
+    'low': 29.64,
+    'open': 29.65,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 842.0,
+    'vwap': 29.643067}}
+2025-08-06 14:49:22 INFO: Current resistance is: 29.67 and support is: 29.12
+2025-08-06 14:49:22 INFO: Current average volume is: 461.1
+2025-08-06 14:49:22 INFO: Updated resistance to: 29.67 and support to: 29.12
+2025-08-06 14:54:22 INFO: {'RNG': {   'close': 29.7,
+    'high': 29.74,
+    'low': 29.7,
+    'open': 29.74,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 432.0,
+    'vwap': 29.72}}
+2025-08-06 14:54:22 INFO: Current resistance is: 29.67 and support is: 29.12
+2025-08-06 14:54:22 INFO: Current average volume is: 427.3
+2025-08-06 14:54:22 INFO: The Current Close 29.7 is above the resistance...
+2025-08-06 14:54:22 INFO: Updated resistance to: 29.74 and support to: 29.12
+2025-08-06 14:56:23 INFO: {'RNG': {   'close': 29.66,
+    'high': 29.66,
+    'low': 29.66,
+    'open': 29.66,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 700.0,
+    'vwap': 29.66}}
+2025-08-06 14:56:23 INFO: Current resistance is: 29.74 and support is: 29.12
+2025-08-06 14:56:23 INFO: Current average volume is: 450.0
+2025-08-06 14:56:23 INFO: Updated resistance to: 29.74 and support to: 29.12
+2025-08-06 14:58:23 INFO: {'RNG': {   'close': 29.665,
+    'high': 29.67,
+    'low': 29.665,
+    'open': 29.67,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 244.0,
+    'vwap': 29.6675}}
+2025-08-06 14:58:23 INFO: Current resistance is: 29.74 and support is: 29.12
+2025-08-06 14:58:23 INFO: Current average volume is: 440.4
+2025-08-06 14:58:23 INFO: Updated resistance to: 29.74 and support to: 29.12
+2025-08-06 14:59:23 INFO: {'RNG': {   'close': 29.6,
+    'high': 29.605,
+    'low': 29.6,
+    'open': 29.6,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 875.0,
+    'vwap': 29.601351}}
+2025-08-06 14:59:23 INFO: Current resistance is: 29.74 and support is: 29.12
+2025-08-06 14:59:23 INFO: Current average volume is: 497.7
+2025-08-06 14:59:23 INFO: Updated resistance to: 29.74 and support to: 29.12
+2025-08-06 15:00:23 INFO: {'RNG': {   'close': 29.77,
+    'high': 29.77,
+    'low': 29.59,
+    'open': 29.59,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1766.0,
+    'vwap': 29.632354}}
+2025-08-06 15:00:23 INFO: Current resistance is: 29.74 and support is: 29.12
+2025-08-06 15:00:23 INFO: Current average volume is: 629.3
+2025-08-06 15:00:23 INFO: The Current Close 29.77 is above the resistance...
+2025-08-06 15:00:23 INFO: Updated resistance to: 29.77 and support to: 29.12
+2025-08-06 15:01:23 INFO: {'RNG': {   'close': 29.72,
+    'high': 29.775,
+    'low': 29.72,
+    'open': 29.775,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1052.0,
+    'vwap': 29.756667}}
+2025-08-06 15:01:23 INFO: Current resistance is: 29.77 and support is: 29.12
+2025-08-06 15:01:23 INFO: Current average volume is: 694.9
+2025-08-06 15:01:23 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:02:23 INFO: {'RNG': {   'close': 29.58,
+    'high': 29.58,
+    'low': 29.58,
+    'open': 29.58,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 182.0,
+    'vwap': 29.58}}
+2025-08-06 15:02:23 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:02:23 INFO: Current average volume is: 665.9
+2025-08-06 15:02:23 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:03:24 INFO: {'RNG': {   'close': 29.615,
+    'high': 29.655,
+    'low': 29.61,
+    'open': 29.655,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 923.0,
+    'vwap': 29.625535}}
+2025-08-06 15:03:24 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:03:24 INFO: Current average volume is: 715.9
+2025-08-06 15:03:24 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:04:24 INFO: {'RNG': {   'close': 29.605,
+    'high': 29.605,
+    'low': 29.58,
+    'open': 29.58,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 551.0,
+    'vwap': 29.590731}}
+2025-08-06 15:04:24 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:04:24 INFO: Current average volume is: 756.7
+2025-08-06 15:04:24 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:06:24 INFO: {'RNG': {   'close': 29.56,
+    'high': 29.56,
+    'low': 29.545,
+    'open': 29.545,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 600.0,
+    'vwap': 29.549167}}
+2025-08-06 15:06:24 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:06:24 INFO: Current average volume is: 732.5
+2025-08-06 15:06:24 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:07:24 INFO: {'RNG': {   'close': 29.62,
+    'high': 29.62,
+    'low': 29.61,
+    'open': 29.61,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 520.0,
+    'vwap': 29.615}}
+2025-08-06 15:07:24 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:07:24 INFO: Current average volume is: 741.3
+2025-08-06 15:07:24 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:08:24 INFO: {'RNG': {   'close': 29.63,
+    'high': 29.64,
+    'low': 29.63,
+    'open': 29.64,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 301.0,
+    'vwap': 29.635}}
+2025-08-06 15:08:24 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:08:24 INFO: Current average volume is: 701.4
+2025-08-06 15:08:24 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:10:24 INFO: {'RNG': {   'close': 29.57,
+    'high': 29.6,
+    'low': 29.57,
+    'open': 29.6,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 29.585}}
+2025-08-06 15:10:24 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:10:24 INFO: Current average volume is: 697.0
+2025-08-06 15:10:24 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:12:25 INFO: {'RNG': {   'close': 29.55,
+    'high': 29.56,
+    'low': 29.55,
+    'open': 29.56,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1013.0,
+    'vwap': 29.556667}}
+2025-08-06 15:12:25 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:12:25 INFO: Current average volume is: 710.8
+2025-08-06 15:12:25 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:13:25 INFO: {'RNG': {   'close': 29.51,
+    'high': 29.54,
+    'low': 29.51,
+    'open': 29.54,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 855.0,
+    'vwap': 29.525}}
+2025-08-06 15:13:25 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:13:25 INFO: Current average volume is: 619.7
+2025-08-06 15:13:25 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:16:25 INFO: {'RNG': {   'close': 29.56,
+    'high': 29.59,
+    'low': 29.56,
+    'open': 29.59,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1026.0,
+    'vwap': 29.574}}
+2025-08-06 15:16:25 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:16:25 INFO: Current average volume is: 617.1
+2025-08-06 15:16:25 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:17:25 INFO: {'RNG': {   'close': 29.53,
+    'high': 29.53,
+    'low': 29.51,
+    'open': 29.53,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1188.0,
+    'vwap': 29.526203}}
+2025-08-06 15:17:25 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:17:25 INFO: Current average volume is: 717.7
+2025-08-06 15:17:25 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:19:26 INFO: {'RNG': {   'close': 29.6,
+    'high': 29.605,
+    'low': 29.6,
+    'open': 29.605,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 482.0,
+    'vwap': 29.601667}}
+2025-08-06 15:19:26 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:19:26 INFO: Current average volume is: 673.6
+2025-08-06 15:19:26 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:21:26 INFO: {'RNG': {   'close': 29.565,
+    'high': 29.6,
+    'low': 29.565,
+    'open': 29.6,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 891.0,
+    'vwap': 29.5775}}
+2025-08-06 15:21:26 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:21:26 INFO: Current average volume is: 707.6
+2025-08-06 15:21:26 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:22:26 INFO: {'RNG': {   'close': 29.585,
+    'high': 29.585,
+    'low': 29.51,
+    'open': 29.51,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 832.0,
+    'vwap': 29.541667}}
+2025-08-06 15:22:26 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:22:26 INFO: Current average volume is: 730.8
+2025-08-06 15:22:26 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:24:26 INFO: {'RNG': {   'close': 29.71,
+    'high': 29.71,
+    'low': 29.67,
+    'open': 29.67,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 688.0,
+    'vwap': 29.683333}}
+2025-08-06 15:24:26 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:24:26 INFO: Current average volume is: 747.6
+2025-08-06 15:24:26 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:25:26 INFO: {'RNG': {   'close': 29.64,
+    'high': 29.64,
+    'low': 29.63,
+    'open': 29.63,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 830.0,
+    'vwap': 29.633333}}
+2025-08-06 15:25:26 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:25:26 INFO: Current average volume is: 800.5
+2025-08-06 15:25:26 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:26:26 INFO: {'RNG': {   'close': 29.68,
+    'high': 29.68,
+    'low': 29.655,
+    'open': 29.655,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 627.0,
+    'vwap': 29.665}}
+2025-08-06 15:26:26 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:26:26 INFO: Current average volume is: 843.2
+2025-08-06 15:26:26 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:27:26 INFO: {'RNG': {   'close': 29.62,
+    'high': 29.67,
+    'low': 29.62,
+    'open': 29.67,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 608.0,
+    'vwap': 29.645}}
+2025-08-06 15:27:26 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:27:26 INFO: Current average volume is: 802.7
+2025-08-06 15:27:26 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:28:27 INFO: {'RNG': {   'close': 29.6,
+    'high': 29.6,
+    'low': 29.6,
+    'open': 29.6,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 570.0,
+    'vwap': 29.6}}
+2025-08-06 15:28:27 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:28:27 INFO: Current average volume is: 774.2
+2025-08-06 15:28:27 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:30:27 INFO: {'RNG': {   'close': 29.64,
+    'high': 29.64,
+    'low': 29.61,
+    'open': 29.61,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 425.0,
+    'vwap': 29.620309}}
+2025-08-06 15:30:27 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:30:27 INFO: Current average volume is: 714.1
+2025-08-06 15:30:27 INFO: Updated resistance to: 29.775 and support to: 29.12
+2025-08-06 15:31:27 INFO: {'RNG': {   'close': 29.78,
+    'high': 29.78,
+    'low': 29.77,
+    'open': 29.78,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 875.0,
+    'vwap': 29.775}}
+2025-08-06 15:31:27 INFO: Current resistance is: 29.775 and support is: 29.12
+2025-08-06 15:31:27 INFO: Current average volume is: 682.8
+2025-08-06 15:31:27 INFO: The Current Close 29.78 is above the resistance...
+2025-08-06 15:31:27 INFO: Updated resistance to: 29.78 and support to: 29.12
+2025-08-06 15:33:27 INFO: {'RNG': {   'close': 29.8,
+    'high': 29.8,
+    'low': 29.74,
+    'open': 29.74,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 467.0,
+    'vwap': 29.77}}
+2025-08-06 15:33:27 INFO: Current resistance is: 29.78 and support is: 29.12
+2025-08-06 15:33:27 INFO: Current average volume is: 681.3
+2025-08-06 15:33:27 INFO: The current close: 29.8 is above the resistance of 29.78, but volume isn't enough...
+2025-08-06 15:33:27 INFO: Updated resistance to: 29.8 and support to: 29.12
+2025-08-06 15:34:28 INFO: {'RNG': {   'close': 29.85,
+    'high': 29.85,
+    'low': 29.825,
+    'open': 29.825,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 29.83375}}
+2025-08-06 15:34:28 INFO: Current resistance is: 29.8 and support is: 29.12
+2025-08-06 15:34:28 INFO: Current average volume is: 632.2
+2025-08-06 15:34:28 INFO: The current close: 29.85 is above the resistance of 29.8, but volume isn't enough...
+2025-08-06 15:34:28 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:35:28 INFO: {'RNG': {   'close': 29.84,
+    'high': 29.84,
+    'low': 29.83,
+    'open': 29.83,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 611.0,
+    'vwap': 29.836923}}
+2025-08-06 15:35:28 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:35:28 INFO: Current average volume is: 610.1
+2025-08-06 15:35:28 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:36:28 INFO: {'RNG': {   'close': 29.79,
+    'high': 29.82,
+    'low': 29.79,
+    'open': 29.82,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 675.0,
+    'vwap': 29.805}}
+2025-08-06 15:36:28 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:36:28 INFO: Current average volume is: 608.8
+2025-08-06 15:36:28 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:37:28 INFO: {'RNG': {   'close': 29.755,
+    'high': 29.76,
+    'low': 29.74,
+    'open': 29.74,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1819.0,
+    'vwap': 29.755266}}
+2025-08-06 15:37:28 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:37:28 INFO: Current average volume is: 707.7
+2025-08-06 15:37:28 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:38:28 INFO: {'RNG': {   'close': 29.71,
+    'high': 29.73,
+    'low': 29.71,
+    'open': 29.73,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 603.0,
+    'vwap': 29.72}}
+2025-08-06 15:38:28 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:38:28 INFO: Current average volume is: 705.3
+2025-08-06 15:38:28 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:39:28 INFO: {'RNG': {   'close': 29.725,
+    'high': 29.75,
+    'low': 29.69,
+    'open': 29.72,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2563.0,
+    'vwap': 29.71762}}
+2025-08-06 15:39:28 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:39:28 INFO: Current average volume is: 900.8
+2025-08-06 15:39:28 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:41:29 INFO: {'RNG': {   'close': 29.71,
+    'high': 29.71,
+    'low': 29.71,
+    'open': 29.71,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 949.0,
+    'vwap': 29.71}}
+2025-08-06 15:41:29 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:41:29 INFO: Current average volume is: 938.7
+2025-08-06 15:41:29 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:43:29 INFO: {'RNG': {   'close': 29.67,
+    'high': 29.74,
+    'low': 29.67,
+    'open': 29.74,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1838.0,
+    'vwap': 29.7}}
+2025-08-06 15:43:29 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:43:29 INFO: Current average volume is: 1080.0
+2025-08-06 15:43:29 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:44:29 INFO: {'RNG': {   'close': 29.665,
+    'high': 29.665,
+    'low': 29.665,
+    'open': 29.665,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 301.0,
+    'vwap': 29.665}}
+2025-08-06 15:44:29 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:44:29 INFO: Current average volume is: 1022.6
+2025-08-06 15:44:29 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:45:29 INFO: {'RNG': {   'close': 29.64,
+    'high': 29.645,
+    'low': 29.635,
+    'open': 29.645,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1852.0,
+    'vwap': 29.643429}}
+2025-08-06 15:45:29 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:45:29 INFO: Current average volume is: 1161.1
+2025-08-06 15:45:29 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:46:29 INFO: {'RNG': {   'close': 29.62,
+    'high': 29.625,
+    'low': 29.61,
+    'open': 29.62,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1235.0,
+    'vwap': 29.619286}}
+2025-08-06 15:46:29 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:46:29 INFO: Current average volume is: 1244.6
+2025-08-06 15:46:29 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:47:29 INFO: {'RNG': {   'close': 29.595,
+    'high': 29.615,
+    'low': 29.59,
+    'open': 29.61,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1715.0,
+    'vwap': 29.603421}}
+2025-08-06 15:47:29 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:47:29 INFO: Current average volume is: 1355.0
+2025-08-06 15:47:29 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:48:29 INFO: {'RNG': {   'close': 29.69,
+    'high': 29.7,
+    'low': 29.65,
+    'open': 29.65,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1353.0,
+    'vwap': 29.685238}}
+2025-08-06 15:48:29 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:48:29 INFO: Current average volume is: 1422.8
+2025-08-06 15:48:29 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:49:29 INFO: {'RNG': {   'close': 29.68,
+    'high': 29.73,
+    'low': 29.67,
+    'open': 29.73,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1693.0,
+    'vwap': 29.688}}
+2025-08-06 15:49:29 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:49:29 INFO: Current average volume is: 1410.2
+2025-08-06 15:49:29 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:51:30 INFO: {'RNG': {   'close': 29.755,
+    'high': 29.755,
+    'low': 29.68,
+    'open': 29.68,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1234.0,
+    'vwap': 29.735357}}
+2025-08-06 15:51:30 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:51:30 INFO: Current average volume is: 1473.3
+2025-08-06 15:51:30 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:52:30 INFO: {'RNG': {   'close': 29.74,
+    'high': 29.75,
+    'low': 29.74,
+    'open': 29.75,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1541.0,
+    'vwap': 29.745}}
+2025-08-06 15:52:30 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:52:30 INFO: Current average volume is: 1371.1
+2025-08-06 15:52:30 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:53:30 INFO: {'RNG': {   'close': 29.81,
+    'high': 29.81,
+    'low': 29.78,
+    'open': 29.78,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1651.0,
+    'vwap': 29.797222}}
+2025-08-06 15:53:30 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:53:30 INFO: Current average volume is: 1441.3
+2025-08-06 15:53:30 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:54:30 INFO: {'RNG': {   'close': 29.84,
+    'high': 29.84,
+    'low': 29.815,
+    'open': 29.815,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1406.0,
+    'vwap': 29.826}}
+2025-08-06 15:54:30 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:54:30 INFO: Current average volume is: 1398.1
+2025-08-06 15:54:30 INFO: Updated resistance to: 29.85 and support to: 29.12
+2025-08-06 15:55:30 INFO: {'RNG': {   'close': 29.875,
+    'high': 29.875,
+    'low': 29.83,
+    'open': 29.87,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2327.0,
+    'vwap': 29.857064}}
+2025-08-06 15:55:30 INFO: Current resistance is: 29.85 and support is: 29.12
+2025-08-06 15:55:30 INFO: Current average volume is: 1600.7
+2025-08-06 15:55:30 INFO: The Current Close 29.875 is above the resistance...
+2025-08-06 15:55:30 INFO: Updated resistance to: 29.875 and support to: 29.12
+2025-08-06 15:57:01 INFO: {'RNG': {   'close': 29.935,
+    'high': 29.935,
+    'low': 29.91,
+    'open': 29.91,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1008.0,
+    'vwap': 29.9175}}
+2025-08-06 15:57:01 INFO: Current resistance is: 29.875 and support is: 29.12
+2025-08-06 15:57:01 INFO: Current average volume is: 1516.3
+2025-08-06 15:57:01 INFO: The current close: 29.935 is above the resistance of 29.875, but volume isn't enough...
+2025-08-06 15:57:01 INFO: Updated resistance to: 29.935 and support to: 29.12
+2025-08-06 15:58:01 INFO: {'RNG': {   'close': 29.99,
+    'high': 29.99,
+    'low': 29.95,
+    'open': 29.95,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 82.0,
+    'volume': 2502.0,
+    'vwap': 29.967274}}
+2025-08-06 15:58:01 INFO: Current resistance is: 29.935 and support is: 29.12
+2025-08-06 15:58:01 INFO: Current average volume is: 1643.0
+2025-08-06 15:58:01 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-06 15:59:01 INFO: {'RNG': {   'close': 30.0,
+    'high': 30.045,
+    'low': 29.98,
+    'open': 29.985,
+    'symbol': 'RNG',
+    'timestamp': datetime.datetime(2025, 8, 6, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 76.0,
+    'volume': 4003.0,
+    'vwap': 30.010932}}
+2025-08-06 15:59:01 INFO: Current resistance is: 29.935 and support is: 29.12
+2025-08-06 15:59:01 INFO: Current average volume is: 1871.8
+2025-08-06 15:59:01 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-06 16:00:01 INFO: The Market is closed...

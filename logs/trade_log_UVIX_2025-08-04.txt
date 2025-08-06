@@ -1,0 +1,390 @@
+2025-08-04 10:58:53 INFO: === Strategy started ===
+2025-08-04 10:58:53 INFO: Start collecting the current highs/lows for: UVIX
+2025-08-04 10:58:53 INFO: Most recent stock data: {'UVIX': {   'close': 18.15,
+    'high': 18.15,
+    'low': 18.15,
+    'open': 18.15,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 207.0,
+    'vwap': 18.15}}
+2025-08-04 10:59:53 INFO: Most recent stock data: {'UVIX': {   'close': 18.23,
+    'high': 18.23,
+    'low': 18.23,
+    'open': 18.23,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 185.0,
+    'vwap': 18.23}}
+2025-08-04 11:00:53 INFO: Most recent stock data: {'UVIX': {   'close': 18.22,
+    'high': 18.22,
+    'low': 18.22,
+    'open': 18.22,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 18.22}}
+2025-08-04 11:01:53 INFO: Most recent stock data: {'UVIX': {   'close': 18.32,
+    'high': 18.32,
+    'low': 18.32,
+    'open': 18.32,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 302.0,
+    'vwap': 18.32}}
+2025-08-04 11:02:53 INFO: Most recent stock data: {'UVIX': {   'close': 18.23,
+    'high': 18.31,
+    'low': 18.23,
+    'open': 18.31,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 18.27}}
+2025-08-04 11:03:54 INFO: Most recent stock data: {'UVIX': {   'close': 18.17,
+    'high': 18.2,
+    'low': 18.17,
+    'open': 18.2,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 764.0,
+    'vwap': 18.19}}
+2025-08-04 11:04:54 INFO: Most recent stock data: {'UVIX': {   'close': 18.11,
+    'high': 18.11,
+    'low': 18.11,
+    'open': 18.11,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.11}}
+2025-08-04 11:06:54 INFO: Most recent stock data: {'UVIX': {   'close': 18.21,
+    'high': 18.21,
+    'low': 18.21,
+    'open': 18.21,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 213.0,
+    'vwap': 18.21}}
+2025-08-04 11:08:54 INFO: Most recent stock data: {'UVIX': {   'close': 18.22,
+    'high': 18.22,
+    'low': 18.22,
+    'open': 18.22,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 284.0,
+    'vwap': 18.22}}
+2025-08-04 11:09:54 INFO: Most recent stock data: {'UVIX': {   'close': 18.19,
+    'high': 18.19,
+    'low': 18.19,
+    'open': 18.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 114.0,
+    'vwap': 18.19}}
+2025-08-04 11:13:55 INFO: Most recent stock data: {'UVIX': {   'close': 18.17,
+    'high': 18.17,
+    'low': 18.17,
+    'open': 18.17,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.17}}
+2025-08-04 11:13:55 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-04 11:13:55 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-04 11:16:55 INFO: {'UVIX': {   'close': 18.19,
+    'high': 18.19,
+    'low': 18.19,
+    'open': 18.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.19}}
+2025-08-04 11:16:55 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:16:55 INFO: Current average volume is: 213.5
+2025-08-04 11:16:55 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:17:56 INFO: {'UVIX': {   'close': 18.25,
+    'high': 18.25,
+    'low': 18.25,
+    'open': 18.25,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 122.0,
+    'vwap': 18.25}}
+2025-08-04 11:17:56 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:17:56 INFO: Current average volume is: 206.46
+2025-08-04 11:17:56 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:19:56 INFO: {'UVIX': {   'close': 18.2,
+    'high': 18.2,
+    'low': 18.2,
+    'open': 18.2,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 18.2}}
+2025-08-04 11:19:56 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:19:56 INFO: Current average volume is: 206.0
+2025-08-04 11:19:56 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:21:56 INFO: {'UVIX': {   'close': 18.21,
+    'high': 18.21,
+    'low': 18.21,
+    'open': 18.21,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 224.0,
+    'vwap': 18.21}}
+2025-08-04 11:21:56 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:21:56 INFO: Current average volume is: 207.2
+2025-08-04 11:21:56 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:22:56 INFO: {'UVIX': {   'close': 18.31,
+    'high': 18.31,
+    'low': 18.3,
+    'open': 18.3,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 18.3075}}
+2025-08-04 11:22:56 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:22:56 INFO: Current average volume is: 219.25
+2025-08-04 11:22:56 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:23:56 INFO: {'UVIX': {   'close': 18.27,
+    'high': 18.27,
+    'low': 18.27,
+    'open': 18.27,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.27}}
+2025-08-04 11:23:56 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:23:56 INFO: Current average volume is: 212.24
+2025-08-04 11:23:56 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:26:57 INFO: {'UVIX': {   'close': 18.19,
+    'high': 18.19,
+    'low': 18.19,
+    'open': 18.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 144.0,
+    'vwap': 18.19}}
+2025-08-04 11:26:57 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:26:57 INFO: Current average volume is: 208.44
+2025-08-04 11:26:57 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:27:57 INFO: {'UVIX': {   'close': 18.225,
+    'high': 18.225,
+    'low': 18.225,
+    'open': 18.225,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.225}}
+2025-08-04 11:27:57 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:27:57 INFO: Current average volume is: 202.74
+2025-08-04 11:27:57 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:29:57 INFO: {'UVIX': {   'close': 18.17,
+    'high': 18.17,
+    'low': 18.17,
+    'open': 18.17,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.17}}
+2025-08-04 11:29:57 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:29:57 INFO: Current average volume is: 197.6
+2025-08-04 11:29:57 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:30:57 INFO: {'UVIX': {   'close': 18.19,
+    'high': 18.19,
+    'low': 18.19,
+    'open': 18.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 611.0,
+    'vwap': 18.19}}
+2025-08-04 11:30:57 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:30:57 INFO: Current average volume is: 217.29
+2025-08-04 11:30:57 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:33:58 INFO: {'UVIX': {   'close': 18.17,
+    'high': 18.17,
+    'low': 18.17,
+    'open': 18.17,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 171.0,
+    'vwap': 18.17}}
+2025-08-04 11:33:58 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:33:58 INFO: Current average volume is: 215.18
+2025-08-04 11:33:58 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:34:58 INFO: {'UVIX': {   'close': 18.12,
+    'high': 18.12,
+    'low': 18.12,
+    'open': 18.12,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 18.12}}
+2025-08-04 11:34:58 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:34:58 INFO: Current average volume is: 214.52
+2025-08-04 11:34:58 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:36:58 INFO: {'UVIX': {   'close': 18.1,
+    'high': 18.1,
+    'low': 18.1,
+    'open': 18.1,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 354.0,
+    'vwap': 18.1}}
+2025-08-04 11:36:58 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:36:58 INFO: Current average volume is: 220.33
+2025-08-04 11:36:58 INFO: close price: 18.1 just dropped below support of 18.11...
+2025-08-04 11:39:58 INFO: {'UVIX': {   'close': 18.12,
+    'high': 18.12,
+    'low': 18.12,
+    'open': 18.12,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 18.12}}
+2025-08-04 11:39:58 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:39:58 INFO: Current average volume is: 219.52
+2025-08-04 11:39:58 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:40:59 INFO: {'UVIX': {   'close': 18.14,
+    'high': 18.14,
+    'low': 18.135,
+    'open': 18.135,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 18.1375}}
+2025-08-04 11:40:59 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:40:59 INFO: Current average volume is: 218.77
+2025-08-04 11:40:59 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:41:59 INFO: {'UVIX': {   'close': 18.17,
+    'high': 18.17,
+    'low': 18.11,
+    'open': 18.11,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 510.0,
+    'vwap': 18.158235}}
+2025-08-04 11:41:59 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:41:59 INFO: Current average volume is: 229.56
+2025-08-04 11:41:59 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:42:59 INFO: {'UVIX': {   'close': 18.18,
+    'high': 18.18,
+    'low': 18.17,
+    'open': 18.18,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 710.0,
+    'vwap': 18.177143}}
+2025-08-04 11:42:59 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:42:59 INFO: Current average volume is: 246.71
+2025-08-04 11:42:59 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:46:59 INFO: {'UVIX': {   'close': 18.19,
+    'high': 18.19,
+    'low': 18.19,
+    'open': 18.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 18.19}}
+2025-08-04 11:46:59 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:46:59 INFO: Current average volume is: 245.1
+2025-08-04 11:46:59 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:52:00 INFO: {'UVIX': {   'close': 18.17,
+    'high': 18.17,
+    'low': 18.17,
+    'open': 18.17,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.17}}
+2025-08-04 11:52:00 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:52:00 INFO: Current average volume is: 240.27
+2025-08-04 11:52:00 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 11:56:01 INFO: {'UVIX': {   'close': 18.14,
+    'high': 18.14,
+    'low': 18.135,
+    'open': 18.135,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 572.0,
+    'vwap': 18.138497}}
+2025-08-04 11:56:01 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 11:56:01 INFO: Current average volume is: 250.97
+2025-08-04 11:56:01 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 12:00:01 INFO: {'UVIX': {   'close': 18.15,
+    'high': 18.15,
+    'low': 18.15,
+    'open': 18.15,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 18.15}}
+2025-08-04 12:00:01 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 12:00:01 INFO: Current average volume is: 255.62
+2025-08-04 12:00:01 INFO: Updated resistance to: 18.32 and support to: 18.11
+2025-08-04 12:02:01 INFO: {'UVIX': {   'close': 18.11,
+    'high': 18.11,
+    'low': 18.11,
+    'open': 18.11,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.11}}
+2025-08-04 12:02:01 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 12:02:01 INFO: Current average volume is: 250.91
+2025-08-04 12:06:02 INFO: {'UVIX': {   'close': 18.09,
+    'high': 18.09,
+    'low': 18.09,
+    'open': 18.09,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 110.0,
+    'vwap': 18.09}}
+2025-08-04 12:06:02 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 12:06:02 INFO: Current average volume is: 246.76
+2025-08-04 12:06:02 INFO: close price: 18.09 just dropped below support of 18.11...
+2025-08-04 12:07:02 INFO: {'UVIX': {   'close': 18.1,
+    'high': 18.1,
+    'low': 18.1,
+    'open': 18.1,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 4, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 294.0,
+    'vwap': 18.1}}
+2025-08-04 12:07:02 INFO: Current resistance is: 18.32 and support is: 18.11
+2025-08-04 12:07:02 INFO: Current average volume is: 248.11
+2025-08-04 12:07:02 INFO: Closing price: 18.1 just dropped below support 18.11 again...ending trade...
