@@ -1,0 +1,262 @@
+2025-08-07 09:50:14 INFO: === Strategy started ===
+2025-08-07 09:50:14 INFO: Start collecting the current highs/lows for: SMCX
+2025-08-07 09:50:15 INFO: Most recent stock data: {'SMCX': {   'close': 43.15,
+    'high': 43.15,
+    'low': 43.04,
+    'open': 43.07,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 741.0,
+    'vwap': 43.078333}}
+2025-08-07 09:51:15 INFO: Most recent stock data: {'SMCX': {   'close': 43.12,
+    'high': 43.12,
+    'low': 43.12,
+    'open': 43.12,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 137.0,
+    'vwap': 43.12}}
+2025-08-07 09:52:15 INFO: Most recent stock data: {'SMCX': {   'close': 43.19,
+    'high': 43.39,
+    'low': 43.19,
+    'open': 43.39,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 204.0,
+    'vwap': 43.29}}
+2025-08-07 09:53:16 INFO: Most recent stock data: {'SMCX': {   'close': 42.73,
+    'high': 42.97,
+    'low': 42.73,
+    'open': 42.97,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 935.0,
+    'vwap': 42.825833}}
+2025-08-07 09:54:16 INFO: Most recent stock data: {'SMCX': {   'close': 42.69,
+    'high': 42.82,
+    'low': 42.69,
+    'open': 42.73,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 427.0,
+    'vwap': 42.7425}}
+2025-08-07 09:55:16 INFO: Most recent stock data: {'SMCX': {   'close': 42.86,
+    'high': 42.86,
+    'low': 42.86,
+    'open': 42.86,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 112.0,
+    'vwap': 42.86}}
+2025-08-07 09:56:17 INFO: Most recent stock data: {'SMCX': {   'close': 42.95,
+    'high': 42.95,
+    'low': 42.82,
+    'open': 42.82,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 905.0,
+    'vwap': 42.844444}}
+2025-08-07 09:57:18 INFO: Most recent stock data: {'SMCX': {   'close': 42.93,
+    'high': 42.93,
+    'low': 42.83,
+    'open': 42.85,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 600.0,
+    'vwap': 42.862}}
+2025-08-07 09:58:18 INFO: Most recent stock data: {'SMCX': {   'close': 42.57,
+    'high': 42.6,
+    'low': 42.53,
+    'open': 42.59,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 42.563333}}
+2025-08-07 09:59:19 INFO: Most recent stock data: {'SMCX': {   'close': 42.35,
+    'high': 42.35,
+    'low': 42.29,
+    'open': 42.35,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 591.0,
+    'vwap': 42.328}}
+2025-08-07 10:00:19 INFO: Most recent stock data: {'SMCX': {   'close': 42.37,
+    'high': 42.37,
+    'low': 42.37,
+    'open': 42.37,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 42.37}}
+2025-08-07 10:00:19 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 10:00:19 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-07 10:01:19 INFO: {'SMCX': {   'close': 43.04,
+    'high': 43.04,
+    'low': 42.98,
+    'open': 42.98,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 312.0,
+    'vwap': 43.01}}
+2025-08-07 10:01:19 INFO: Current resistance is: 42.629 and support is: 42.139
+2025-08-07 10:01:19 INFO: Current average volume is: 479.6
+2025-08-07 10:01:19 INFO: The Current Close 43.04 is above the resistance...
+2025-08-07 10:01:19 INFO: Updated resistance to: 42.807 and support to: 42.14
+2025-08-07 10:03:20 INFO: {'SMCX': {   'close': 42.3,
+    'high': 42.3,
+    'low': 42.28,
+    'open': 42.28,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.29}}
+2025-08-07 10:03:20 INFO: Current resistance is: 42.807 and support is: 42.14
+2025-08-07 10:03:20 INFO: Current average volume is: 479.2
+2025-08-07 10:03:20 INFO: Updated resistance to: 42.676 and support to: 42.224
+2025-08-07 10:04:20 INFO: {'SMCX': {   'close': 42.41,
+    'high': 42.41,
+    'low': 42.41,
+    'open': 42.41,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 42.41}}
+2025-08-07 10:04:20 INFO: Current resistance is: 42.676 and support is: 42.224
+2025-08-07 10:04:20 INFO: Current average volume is: 405.7
+2025-08-07 10:04:20 INFO: Updated resistance to: 42.621 and support to: 42.171
+2025-08-07 10:07:21 INFO: {'SMCX': {   'close': 42.47,
+    'high': 42.47,
+    'low': 42.38,
+    'open': 42.45,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1213.0,
+    'vwap': 42.402321}}
+2025-08-07 10:07:21 INFO: Current resistance is: 42.621 and support is: 42.171
+2025-08-07 10:07:21 INFO: Current average volume is: 484.3
+2025-08-07 10:07:21 INFO: Updated resistance to: 42.605 and support to: 42.121
+2025-08-07 10:08:21 INFO: {'SMCX': {   'close': 42.62,
+    'high': 42.62,
+    'low': 42.62,
+    'open': 42.62,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.62}}
+2025-08-07 10:08:21 INFO: Current resistance is: 42.605 and support is: 42.121
+2025-08-07 10:08:21 INFO: Current average volume is: 493.1
+2025-08-07 10:08:21 INFO: The Current Close 42.62 is above the resistance...
+2025-08-07 10:08:21 INFO: Updated resistance to: 42.644 and support to: 42.098
+2025-08-07 10:11:22 INFO: {'SMCX': {   'close': 42.46,
+    'high': 42.46,
+    'low': 42.4,
+    'open': 42.4,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 42.436667}}
+2025-08-07 10:11:22 INFO: Current resistance is: 42.644 and support is: 42.098
+2025-08-07 10:11:22 INFO: Current average volume is: 432.6
+2025-08-07 10:11:22 INFO: Updated resistance to: 42.632 and support to: 42.062
+2025-08-07 10:12:23 INFO: {'SMCX': {   'close': 42.47,
+    'high': 42.47,
+    'low': 42.31,
+    'open': 42.31,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 42.4075}}
+2025-08-07 10:12:23 INFO: Current resistance is: 42.632 and support is: 42.062
+2025-08-07 10:12:23 INFO: Current average volume is: 422.6
+2025-08-07 10:12:23 INFO: Updated resistance to: 42.629 and support to: 42.021
+2025-08-07 10:13:23 INFO: {'SMCX': {   'close': 42.7,
+    'high': 42.73,
+    'low': 42.7,
+    'open': 42.71,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 42.708333}}
+2025-08-07 10:13:23 INFO: Current resistance is: 42.629 and support is: 42.021
+2025-08-07 10:13:23 INFO: Current average volume is: 422.6
+2025-08-07 10:13:23 INFO: The Current Close 42.7 is above the resistance...
+2025-08-07 10:13:23 INFO: Updated resistance to: 42.701 and support to: 42.028
+2025-08-07 10:17:25 INFO: {'SMCX': {   'close': 42.01,
+    'high': 42.01,
+    'low': 42.01,
+    'open': 42.01,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 128.0,
+    'vwap': 42.01}}
+2025-08-07 10:17:25 INFO: Current resistance is: 42.701 and support is: 42.028
+2025-08-07 10:17:25 INFO: Current average volume is: 376.3
+2025-08-07 10:17:25 INFO: close price: 42.01 just dropped below support of 42.028...
+2025-08-07 10:18:25 INFO: {'SMCX': {   'close': 42.07,
+    'high': 42.07,
+    'low': 42.07,
+    'open': 42.07,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 160.0,
+    'vwap': 42.07}}
+2025-08-07 10:18:25 INFO: Current resistance is: 42.701 and support is: 42.028
+2025-08-07 10:18:25 INFO: Current average volume is: 381.3
+2025-08-07 10:18:25 INFO: Updated resistance to: 42.494 and support to: 41.926
+2025-08-07 10:21:26 INFO: {'SMCX': {   'close': 42.01,
+    'high': 42.01,
+    'low': 42.01,
+    'open': 42.01,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 297.0,
+    'vwap': 42.01}}
+2025-08-07 10:21:26 INFO: Current resistance is: 42.494 and support is: 41.926
+2025-08-07 10:21:26 INFO: Current average volume is: 379.8
+2025-08-07 10:21:26 INFO: Updated resistance to: 42.413 and support to: 41.879
+2025-08-07 10:23:26 INFO: {'SMCX': {   'close': 41.62,
+    'high': 41.62,
+    'low': 41.62,
+    'open': 41.62,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 41.62}}
+2025-08-07 10:23:26 INFO: Current resistance is: 42.413 and support is: 41.879
+2025-08-07 10:23:26 INFO: Current average volume is: 369.8
+2025-08-07 10:23:26 INFO: close price: 41.62 just dropped below support of 41.879...
+2025-08-07 10:24:26 INFO: {'SMCX': {   'close': 41.61,
+    'high': 41.67,
+    'low': 41.61,
+    'open': 41.67,
+    'symbol': 'SMCX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 41.6525}}
+2025-08-07 10:24:26 INFO: Current resistance is: 42.413 and support is: 41.879
+2025-08-07 10:24:26 INFO: Current average volume is: 389.8
+2025-08-07 10:24:26 INFO: Closing price: 41.61 just dropped below support 41.879 again...ending trade...

@@ -1,0 +1,2078 @@
+2025-08-07 10:20:13 INFO: === Strategy started ===
+2025-08-07 10:20:13 INFO: Start collecting the current highs/lows for: VKTX
+2025-08-07 10:20:14 INFO: Most recent stock data: {'VKTX': {   'close': 33.59,
+    'high': 33.59,
+    'low': 33.59,
+    'open': 33.59,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 172.0,
+    'vwap': 33.59}}
+2025-08-07 10:21:14 INFO: Most recent stock data: {'VKTX': {   'close': 33.64,
+    'high': 33.64,
+    'low': 33.54,
+    'open': 33.54,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 372.0,
+    'vwap': 33.59}}
+2025-08-07 10:23:15 INFO: Most recent stock data: {'VKTX': {   'close': 33.515,
+    'high': 33.515,
+    'low': 33.515,
+    'open': 33.515,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 210.0,
+    'vwap': 33.515}}
+2025-08-07 10:24:15 INFO: Most recent stock data: {'VKTX': {   'close': 33.325,
+    'high': 33.325,
+    'low': 33.325,
+    'open': 33.325,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 178.0,
+    'vwap': 33.325}}
+2025-08-07 10:25:15 INFO: Most recent stock data: {'VKTX': {   'close': 33.28,
+    'high': 33.315,
+    'low': 33.28,
+    'open': 33.315,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1136.0,
+    'vwap': 33.3005}}
+2025-08-07 10:26:15 INFO: Most recent stock data: {'VKTX': {   'close': 33.225,
+    'high': 33.29,
+    'low': 33.225,
+    'open': 33.29,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 450.0,
+    'vwap': 33.253889}}
+2025-08-07 10:27:15 INFO: Most recent stock data: {'VKTX': {   'close': 33.34,
+    'high': 33.41,
+    'low': 33.21,
+    'open': 33.21,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 913.0,
+    'vwap': 33.350544}}
+2025-08-07 10:28:15 INFO: Most recent stock data: {'VKTX': {   'close': 33.355,
+    'high': 33.355,
+    'low': 33.29,
+    'open': 33.34,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 334.0,
+    'vwap': 33.328333}}
+2025-08-07 10:29:16 INFO: Most recent stock data: {'VKTX': {   'close': 33.24,
+    'high': 33.24,
+    'low': 33.24,
+    'open': 33.24,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 175.0,
+    'vwap': 33.24}}
+2025-08-07 10:31:16 INFO: Most recent stock data: {'VKTX': {   'close': 33.17,
+    'high': 33.17,
+    'low': 33.17,
+    'open': 33.17,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 191.0,
+    'vwap': 33.17}}
+2025-08-07 10:33:16 INFO: Most recent stock data: {'VKTX': {   'close': 33.15,
+    'high': 33.15,
+    'low': 32.985,
+    'open': 32.985,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1272.0,
+    'vwap': 33.050693}}
+2025-08-07 10:33:16 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 10:33:16 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-07 10:34:17 INFO: {'VKTX': {   'close': 33.125,
+    'high': 33.125,
+    'low': 33.125,
+    'open': 33.125,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 200.0,
+    'vwap': 33.125}}
+2025-08-07 10:34:17 INFO: Current resistance is: 33.208 and support is: 32.935
+2025-08-07 10:34:17 INFO: Current average volume is: 505.9
+2025-08-07 10:34:17 INFO: Updated resistance to: 33.174 and support to: 32.895
+2025-08-07 10:35:17 INFO: {'VKTX': {   'close': 33.15,
+    'high': 33.15,
+    'low': 33.15,
+    'open': 33.15,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 352.0,
+    'vwap': 33.15}}
+2025-08-07 10:35:17 INFO: Current resistance is: 33.174 and support is: 32.895
+2025-08-07 10:35:17 INFO: Current average volume is: 520.1
+2025-08-07 10:35:17 INFO: Updated resistance to: 33.164 and support to: 32.864
+2025-08-07 10:37:17 INFO: {'VKTX': {   'close': 33.18,
+    'high': 33.18,
+    'low': 33.18,
+    'open': 33.18,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 598.0,
+    'vwap': 33.18}}
+2025-08-07 10:37:17 INFO: Current resistance is: 33.164 and support is: 32.864
+2025-08-07 10:37:17 INFO: Current average volume is: 562.1
+2025-08-07 10:37:17 INFO: The Current Close 33.18 is above the resistance...
+2025-08-07 10:37:17 INFO: Updated resistance to: 33.172 and support to: 32.845
+2025-08-07 10:39:18 INFO: {'VKTX': {   'close': 33.175,
+    'high': 33.175,
+    'low': 33.175,
+    'open': 33.175,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 216.0,
+    'vwap': 33.175}}
+2025-08-07 10:39:18 INFO: Current resistance is: 33.172 and support is: 32.845
+2025-08-07 10:39:18 INFO: Current average volume is: 470.1
+2025-08-07 10:39:18 INFO: The current close: 33.175 is above the resistance of 33.172, but volume isn't enough...
+2025-08-07 10:39:18 INFO: Updated resistance to: 33.18 and support to: 32.83
+2025-08-07 10:40:19 INFO: {'VKTX': {   'close': 33.33,
+    'high': 33.33,
+    'low': 33.32,
+    'open': 33.325,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 350.0,
+    'vwap': 33.325}}
+2025-08-07 10:40:19 INFO: Current resistance is: 33.18 and support is: 32.83
+2025-08-07 10:40:19 INFO: Current average volume is: 460.1
+2025-08-07 10:40:19 INFO: The current close: 33.33 is above the resistance of 33.18, but volume isn't enough...
+2025-08-07 10:40:19 INFO: Updated resistance to: 33.241 and support to: 32.839
+2025-08-07 10:41:19 INFO: {'VKTX': {   'close': 33.44,
+    'high': 33.44,
+    'low': 33.33,
+    'open': 33.33,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 309.0,
+    'vwap': 33.385}}
+2025-08-07 10:41:19 INFO: Current resistance is: 33.241 and support is: 32.839
+2025-08-07 10:41:19 INFO: Current average volume is: 399.7
+2025-08-07 10:41:19 INFO: The current close: 33.44 is above the resistance of 33.241, but volume isn't enough...
+2025-08-07 10:41:19 INFO: Updated resistance to: 33.326 and support to: 32.852
+2025-08-07 10:42:19 INFO: {'VKTX': {   'close': 33.45,
+    'high': 33.45,
+    'low': 33.45,
+    'open': 33.45,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 33.45}}
+2025-08-07 10:42:19 INFO: Current resistance is: 33.326 and support is: 32.852
+2025-08-07 10:42:19 INFO: Current average volume is: 376.3
+2025-08-07 10:42:19 INFO: The current close: 33.45 is above the resistance of 33.326, but volume isn't enough...
+2025-08-07 10:42:19 INFO: Updated resistance to: 33.399 and support to: 32.881
+2025-08-07 10:45:21 INFO: {'VKTX': {   'close': 33.055,
+    'high': 33.355,
+    'low': 32.995,
+    'open': 33.355,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 72.0,
+    'volume': 5726.0,
+    'vwap': 33.086869}}
+2025-08-07 10:45:21 INFO: Current resistance is: 33.399 and support is: 32.881
+2025-08-07 10:45:21 INFO: Current average volume is: 931.4
+2025-08-07 10:45:21 INFO: Updated resistance to: 33.432 and support to: 32.845
+2025-08-07 10:46:22 INFO: {'VKTX': {   'close': 33.29,
+    'high': 33.29,
+    'low': 33.19,
+    'open': 33.19,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 306.0,
+    'vwap': 33.256667}}
+2025-08-07 10:46:22 INFO: Current resistance is: 33.432 and support is: 32.845
+2025-08-07 10:46:22 INFO: Current average volume is: 942.9
+2025-08-07 10:46:22 INFO: Updated resistance to: 33.442 and support to: 32.84
+2025-08-07 10:47:22 INFO: {'VKTX': {   'close': 33.25,
+    'high': 33.33,
+    'low': 33.24,
+    'open': 33.29,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 528.0,
+    'vwap': 33.2775}}
+2025-08-07 10:47:22 INFO: Current resistance is: 33.442 and support is: 32.84
+2025-08-07 10:47:22 INFO: Current average volume is: 868.5
+2025-08-07 10:47:22 INFO: Updated resistance to: 33.461 and support to: 32.844
+2025-08-07 10:48:25 INFO: === Strategy started ===
+2025-08-07 10:48:25 INFO: Start collecting the current highs/lows for: VKTX
+2025-08-07 10:48:25 INFO: Most recent stock data: {'VKTX': {   'close': 33.15,
+    'high': 33.235,
+    'low': 33.15,
+    'open': 33.23,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 903.0,
+    'vwap': 33.211846}}
+2025-08-07 10:49:25 INFO: Most recent stock data: {'VKTX': {   'close': 33.08,
+    'high': 33.08,
+    'low': 32.98,
+    'open': 33.05,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 766.0,
+    'vwap': 33.046}}
+2025-08-07 10:50:26 INFO: Most recent stock data: {'VKTX': {   'close': 33.18,
+    'high': 33.18,
+    'low': 33.16,
+    'open': 33.16,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 375.0,
+    'vwap': 33.17}}
+2025-08-07 10:52:26 INFO: Most recent stock data: {'VKTX': {   'close': 33.05,
+    'high': 33.145,
+    'low': 33.01,
+    'open': 33.145,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2751.0,
+    'vwap': 33.066358}}
+2025-08-07 10:54:27 INFO: Most recent stock data: {'VKTX': {   'close': 33.125,
+    'high': 33.125,
+    'low': 33.125,
+    'open': 33.125,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 268.0,
+    'vwap': 33.125}}
+2025-08-07 10:56:28 INFO: Most recent stock data: {'VKTX': {   'close': 33.045,
+    'high': 33.07,
+    'low': 33.045,
+    'open': 33.07,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 560.0,
+    'vwap': 33.05125}}
+2025-08-07 11:00:31 INFO: Most recent stock data: {'VKTX': {   'close': 33.11,
+    'high': 33.11,
+    'low': 33.11,
+    'open': 33.11,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 272.0,
+    'vwap': 33.11}}
+2025-08-07 11:01:31 INFO: Most recent stock data: {'VKTX': {   'close': 33.255,
+    'high': 33.255,
+    'low': 33.23,
+    'open': 33.23,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 264.0,
+    'vwap': 33.2425}}
+2025-08-07 11:02:31 INFO: Most recent stock data: {'VKTX': {   'close': 33.3,
+    'high': 33.3,
+    'low': 33.3,
+    'open': 33.3,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 164.0,
+    'vwap': 33.3}}
+2025-08-07 11:18:29 INFO: === Strategy started ===
+2025-08-07 11:18:29 INFO: Start collecting the current highs/lows for: VKTX
+2025-08-07 11:18:29 INFO: Most recent stock data: {'VKTX': {   'close': 33.24,
+    'high': 33.24,
+    'low': 33.21,
+    'open': 33.21,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 212.0,
+    'vwap': 33.225}}
+2025-08-07 11:21:30 INFO: Most recent stock data: {'VKTX': {   'close': 33.63,
+    'high': 33.63,
+    'low': 33.63,
+    'open': 33.63,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 218.0,
+    'vwap': 33.63}}
+2025-08-07 11:22:31 INFO: Most recent stock data: {'VKTX': {   'close': 33.65,
+    'high': 33.67,
+    'low': 33.65,
+    'open': 33.67,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 269.0,
+    'vwap': 33.66}}
+2025-08-07 11:23:31 INFO: Most recent stock data: {'VKTX': {   'close': 33.65,
+    'high': 33.65,
+    'low': 33.62,
+    'open': 33.62,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 402.0,
+    'vwap': 33.635}}
+2025-08-07 11:26:32 INFO: Most recent stock data: {'VKTX': {   'close': 33.725,
+    'high': 33.725,
+    'low': 33.725,
+    'open': 33.725,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 335.0,
+    'vwap': 33.725}}
+2025-08-07 11:27:32 INFO: Most recent stock data: {'VKTX': {   'close': 33.615,
+    'high': 33.615,
+    'low': 33.615,
+    'open': 33.615,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 198.0,
+    'vwap': 33.615}}
+2025-08-07 11:28:32 INFO: Most recent stock data: {'VKTX': {   'close': 33.63,
+    'high': 33.63,
+    'low': 33.63,
+    'open': 33.63,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 140.0,
+    'vwap': 33.63}}
+2025-08-07 11:33:35 INFO: Most recent stock data: {'VKTX': {   'close': 33.585,
+    'high': 33.585,
+    'low': 33.575,
+    'open': 33.58,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2506.0,
+    'vwap': 33.580735}}
+2025-08-07 11:35:36 INFO: Most recent stock data: {'VKTX': {   'close': 33.55,
+    'high': 33.55,
+    'low': 33.55,
+    'open': 33.55,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 199.0,
+    'vwap': 33.55}}
+2025-08-07 11:36:41 INFO: Most recent stock data: {'VKTX': {   'close': 33.5,
+    'high': 33.5,
+    'low': 33.5,
+    'open': 33.5,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 230.0,
+    'vwap': 33.5}}
+2025-08-07 11:37:44 INFO: Most recent stock data: {'VKTX': {   'close': 33.72,
+    'high': 33.72,
+    'low': 33.46,
+    'open': 33.47,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1093.0,
+    'vwap': 33.560361}}
+2025-08-07 11:37:44 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 11:37:44 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-07 11:38:49 INFO: {'VKTX': {   'close': 33.85,
+    'high': 33.85,
+    'low': 33.745,
+    'open': 33.745,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 311.0,
+    'vwap': 33.782634}}
+2025-08-07 11:38:49 INFO: Current resistance is: 33.725 and support is: 33.21
+2025-08-07 11:38:49 INFO: Current average volume is: 568.3
+2025-08-07 11:38:49 INFO: The Current Close 33.85 is above the resistance...
+2025-08-07 11:38:49 INFO: Updated resistance to: 33.85 and support to: 33.21
+2025-08-07 11:40:24 INFO: {'VKTX': {   'close': 34.065,
+    'high': 34.065,
+    'low': 33.925,
+    'open': 33.925,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 686.0,
+    'vwap': 34.002368}}
+2025-08-07 11:40:24 INFO: Current resistance is: 33.85 and support is: 33.21
+2025-08-07 11:40:24 INFO: Current average volume is: 610.0
+2025-08-07 11:40:24 INFO: The current close: 34.065 is above the resistance of 33.85, but volume isn't enough...
+2025-08-07 11:40:24 INFO: Updated resistance to: 34.065 and support to: 33.21
+2025-08-07 11:41:36 INFO: {'VKTX': {   'close': 34.22,
+    'high': 34.22,
+    'low': 34.11,
+    'open': 34.11,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 570.0,
+    'vwap': 34.154}}
+2025-08-07 11:41:36 INFO: Current resistance is: 34.065 and support is: 33.21
+2025-08-07 11:41:36 INFO: Current average volume is: 626.8
+2025-08-07 11:41:36 INFO: The current close: 34.22 is above the resistance of 34.065, but volume isn't enough...
+2025-08-07 11:41:36 INFO: Updated resistance to: 34.22 and support to: 33.21
+2025-08-07 11:43:19 INFO: {'VKTX': {   'close': 34.525,
+    'high': 34.525,
+    'low': 34.42,
+    'open': 34.42,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 234.0,
+    'vwap': 34.4725}}
+2025-08-07 11:43:19 INFO: Current resistance is: 34.22 and support is: 33.21
+2025-08-07 11:43:19 INFO: Current average volume is: 616.7
+2025-08-07 11:43:19 INFO: The current close: 34.525 is above the resistance of 34.22, but volume isn't enough...
+2025-08-07 11:43:19 INFO: Updated resistance to: 34.525 and support to: 33.21
+2025-08-07 11:44:27 INFO: {'VKTX': {   'close': 34.59,
+    'high': 34.59,
+    'low': 34.59,
+    'open': 34.59,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 249.0,
+    'vwap': 34.59}}
+2025-08-07 11:44:27 INFO: Current resistance is: 34.525 and support is: 33.21
+2025-08-07 11:44:27 INFO: Current average volume is: 621.8
+2025-08-07 11:44:27 INFO: The current close: 34.59 is above the resistance of 34.525, but volume isn't enough...
+2025-08-07 11:44:27 INFO: Updated resistance to: 34.59 and support to: 33.21
+2025-08-07 11:45:54 INFO: {'VKTX': {   'close': 34.5,
+    'high': 34.595,
+    'low': 34.5,
+    'open': 34.595,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1658.0,
+    'vwap': 34.565546}}
+2025-08-07 11:45:54 INFO: Current resistance is: 34.59 and support is: 33.21
+2025-08-07 11:45:54 INFO: Current average volume is: 773.6
+2025-08-07 11:45:54 INFO: Updated resistance to: 34.595 and support to: 33.21
+2025-08-07 11:46:55 INFO: {'VKTX': {   'close': 34.43,
+    'high': 34.45,
+    'low': 34.43,
+    'open': 34.45,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 427.0,
+    'vwap': 34.439756}}
+2025-08-07 11:46:55 INFO: Current resistance is: 34.595 and support is: 33.21
+2025-08-07 11:46:55 INFO: Current average volume is: 565.7
+2025-08-07 11:46:55 INFO: Updated resistance to: 34.595 and support to: 33.21
+2025-08-07 11:47:55 INFO: {'VKTX': {   'close': 34.62,
+    'high': 34.62,
+    'low': 34.465,
+    'open': 34.465,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 634.0,
+    'vwap': 34.494808}}
+2025-08-07 11:47:55 INFO: Current resistance is: 34.595 and support is: 33.21
+2025-08-07 11:47:55 INFO: Current average volume is: 609.2
+2025-08-07 11:47:55 INFO: The Current Close 34.62 is above the resistance...
+2025-08-07 11:47:55 INFO: Updated resistance to: 34.62 and support to: 33.21
+2025-08-07 11:48:25 INFO: {'VKTX': {   'close': 34.67,
+    'high': 34.745,
+    'low': 34.61,
+    'open': 34.65,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1513.0,
+    'vwap': 34.681706}}
+2025-08-07 11:48:25 INFO: Current resistance is: 34.62 and support is: 33.21
+2025-08-07 11:48:25 INFO: Current average volume is: 737.5
+2025-08-07 11:48:25 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-07 11:49:26 INFO: {'VKTX': {   'close': 34.82,
+    'high': 34.82,
+    'low': 34.68,
+    'open': 34.685,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1774.0,
+    'vwap': 34.787308}}
+2025-08-07 11:49:26 INFO: Current resistance is: 34.62 and support is: 33.21
+2025-08-07 11:49:26 INFO: Current average volume is: 805.6
+2025-08-07 11:49:26 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-07 11:50:27 INFO: {'VKTX': {   'close': 34.91,
+    'high': 34.97,
+    'low': 34.77,
+    'open': 34.845,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1776.0,
+    'vwap': 34.888309}}
+2025-08-07 11:50:27 INFO: Current resistance is: 34.62 and support is: 33.21
+2025-08-07 11:50:27 INFO: Current average volume is: 952.1
+2025-08-07 11:50:27 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-07 11:52:28 INFO: {'VKTX': {   'close': 34.745,
+    'high': 34.745,
+    'low': 34.745,
+    'open': 34.745,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 283.0,
+    'vwap': 34.745}}
+2025-08-07 11:52:28 INFO: Current resistance is: 34.62 and support is: 33.21
+2025-08-07 11:52:28 INFO: Current average volume is: 911.8
+2025-08-07 11:52:28 INFO: The current close: 34.745 is above the resistance of 34.62, but volume isn't enough...
+2025-08-07 11:52:28 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 11:53:28 INFO: {'VKTX': {   'close': 34.7,
+    'high': 34.7,
+    'low': 34.7,
+    'open': 34.7,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 161.0,
+    'vwap': 34.7}}
+2025-08-07 11:53:28 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 11:53:28 INFO: Current average volume is: 870.9
+2025-08-07 11:53:28 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 11:54:28 INFO: {'VKTX': {   'close': 34.45,
+    'high': 34.5,
+    'low': 34.44,
+    'open': 34.5,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 824.0,
+    'vwap': 34.45875}}
+2025-08-07 11:54:28 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 11:54:28 INFO: Current average volume is: 929.9
+2025-08-07 11:54:28 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 11:55:28 INFO: {'VKTX': {   'close': 34.52,
+    'high': 34.52,
+    'low': 34.52,
+    'open': 34.52,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 212.0,
+    'vwap': 34.52}}
+2025-08-07 11:55:28 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 11:55:28 INFO: Current average volume is: 926.2
+2025-08-07 11:55:28 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 11:56:29 INFO: {'VKTX': {   'close': 34.33,
+    'high': 34.535,
+    'low': 34.33,
+    'open': 34.535,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 487.0,
+    'vwap': 34.446707}}
+2025-08-07 11:56:29 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 11:56:29 INFO: Current average volume is: 809.1
+2025-08-07 11:56:29 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 11:59:29 INFO: {'VKTX': {   'close': 34.28,
+    'high': 34.28,
+    'low': 34.28,
+    'open': 34.28,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 247.0,
+    'vwap': 34.28}}
+2025-08-07 11:59:29 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 11:59:29 INFO: Current average volume is: 791.1
+2025-08-07 11:59:29 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:00:30 INFO: {'VKTX': {   'close': 34.27,
+    'high': 34.27,
+    'low': 34.27,
+    'open': 34.27,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 333.0,
+    'vwap': 34.27}}
+2025-08-07 12:00:30 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:00:30 INFO: Current average volume is: 761.0
+2025-08-07 12:00:30 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:01:30 INFO: {'VKTX': {   'close': 34.295,
+    'high': 34.295,
+    'low': 34.295,
+    'open': 34.295,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 125.0,
+    'vwap': 34.295}}
+2025-08-07 12:01:30 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:01:30 INFO: Current average volume is: 622.2
+2025-08-07 12:01:30 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:03:30 INFO: {'VKTX': {   'close': 34.135,
+    'high': 34.135,
+    'low': 34.135,
+    'open': 34.135,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 117.0,
+    'vwap': 34.135}}
+2025-08-07 12:03:30 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:03:30 INFO: Current average volume is: 456.5
+2025-08-07 12:03:30 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:07:32 INFO: {'VKTX': {   'close': 34.0,
+    'high': 34.0,
+    'low': 34.0,
+    'open': 34.0,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.0}}
+2025-08-07 12:07:32 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:07:32 INFO: Current average volume is: 288.9
+2025-08-07 12:07:32 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:14:33 INFO: {'VKTX': {   'close': 34.04,
+    'high': 34.08,
+    'low': 34.04,
+    'open': 34.08,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 344.0,
+    'vwap': 34.064}}
+2025-08-07 12:14:33 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:14:33 INFO: Current average volume is: 295.0
+2025-08-07 12:14:33 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:17:34 INFO: {'VKTX': {   'close': 34.05,
+    'high': 34.05,
+    'low': 34.05,
+    'open': 34.05,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.05}}
+2025-08-07 12:17:34 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:17:34 INFO: Current average volume is: 288.9
+2025-08-07 12:17:34 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:18:34 INFO: {'VKTX': {   'close': 33.97,
+    'high': 33.97,
+    'low': 33.97,
+    'open': 33.97,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 166.0,
+    'vwap': 33.97}}
+2025-08-07 12:18:34 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:18:34 INFO: Current average volume is: 223.1
+2025-08-07 12:18:34 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:19:34 INFO: {'VKTX': {   'close': 33.995,
+    'high': 34.0,
+    'low': 33.995,
+    'open': 34.0,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 33.9975}}
+2025-08-07 12:19:34 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:19:34 INFO: Current average volume is: 221.9
+2025-08-07 12:19:34 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:23:35 INFO: {'VKTX': {   'close': 34.085,
+    'high': 34.085,
+    'low': 34.085,
+    'open': 34.085,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 421.0,
+    'vwap': 34.085}}
+2025-08-07 12:23:35 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:23:35 INFO: Current average volume is: 215.3
+2025-08-07 12:23:35 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:25:35 INFO: {'VKTX': {   'close': 34.35,
+    'high': 34.35,
+    'low': 34.27,
+    'open': 34.27,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 879.0,
+    'vwap': 34.325}}
+2025-08-07 12:25:35 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:25:35 INFO: Current average volume is: 278.5
+2025-08-07 12:25:35 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:26:36 INFO: {'VKTX': {   'close': 34.46,
+    'high': 34.46,
+    'low': 34.405,
+    'open': 34.415,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1464.0,
+    'vwap': 34.423038}}
+2025-08-07 12:26:36 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:26:36 INFO: Current average volume is: 391.6
+2025-08-07 12:26:36 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:29:37 INFO: {'VKTX': {   'close': 34.29,
+    'high': 34.29,
+    'low': 34.27,
+    'open': 34.27,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 230.0,
+    'vwap': 34.28}}
+2025-08-07 12:29:37 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:29:37 INFO: Current average volume is: 402.1
+2025-08-07 12:29:37 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:32:37 INFO: {'VKTX': {   'close': 34.45,
+    'high': 34.45,
+    'low': 34.41,
+    'open': 34.41,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 820.0,
+    'vwap': 34.422}}
+2025-08-07 12:32:37 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:32:37 INFO: Current average volume is: 472.4
+2025-08-07 12:32:37 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:33:37 INFO: {'VKTX': {   'close': 34.27,
+    'high': 34.35,
+    'low': 34.27,
+    'open': 34.35,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 854.0,
+    'vwap': 34.301475}}
+2025-08-07 12:33:37 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:33:37 INFO: Current average volume is: 547.8
+2025-08-07 12:33:37 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:38:39 INFO: {'VKTX': {   'close': 34.15,
+    'high': 34.15,
+    'low': 34.15,
+    'open': 34.15,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 136.0,
+    'vwap': 34.15}}
+2025-08-07 12:38:39 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:38:39 INFO: Current average volume is: 527.0
+2025-08-07 12:38:39 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:39:39 INFO: {'VKTX': {   'close': 34.19,
+    'high': 34.19,
+    'low': 34.19,
+    'open': 34.19,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 34.19}}
+2025-08-07 12:39:39 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:39:39 INFO: Current average volume is: 528.0
+2025-08-07 12:39:39 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:40:39 INFO: {'VKTX': {   'close': 34.185,
+    'high': 34.185,
+    'low': 34.185,
+    'open': 34.185,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 34.185}}
+2025-08-07 12:40:39 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:40:39 INFO: Current average volume is: 521.5
+2025-08-07 12:40:39 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:41:39 INFO: {'VKTX': {   'close': 34.22,
+    'high': 34.22,
+    'low': 34.22,
+    'open': 34.22,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 128.0,
+    'vwap': 34.22}}
+2025-08-07 12:41:39 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:41:39 INFO: Current average volume is: 514.3
+2025-08-07 12:41:39 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:45:41 INFO: {'VKTX': {   'close': 34.24,
+    'high': 34.28,
+    'low': 34.15,
+    'open': 34.28,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 771.0,
+    'vwap': 34.208333}}
+2025-08-07 12:45:41 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:45:41 INFO: Current average volume is: 549.3
+2025-08-07 12:45:41 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:46:41 INFO: {'VKTX': {   'close': 34.26,
+    'high': 34.26,
+    'low': 34.26,
+    'open': 34.26,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 204.0,
+    'vwap': 34.26}}
+2025-08-07 12:46:41 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:46:41 INFO: Current average volume is: 481.8
+2025-08-07 12:46:41 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:47:41 INFO: {'VKTX': {   'close': 34.0,
+    'high': 34.17,
+    'low': 34.0,
+    'open': 34.17,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 536.0,
+    'vwap': 34.10625}}
+2025-08-07 12:47:41 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:47:41 INFO: Current average volume is: 389.0
+2025-08-07 12:47:41 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:48:42 INFO: {'VKTX': {   'close': 34.055,
+    'high': 34.07,
+    'low': 34.055,
+    'open': 34.06,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 529.0,
+    'vwap': 34.061429}}
+2025-08-07 12:48:42 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:48:42 INFO: Current average volume is: 418.9
+2025-08-07 12:48:42 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:49:42 INFO: {'VKTX': {   'close': 33.995,
+    'high': 33.995,
+    'low': 33.93,
+    'open': 33.99,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3059.0,
+    'vwap': 33.987329}}
+2025-08-07 12:49:42 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:49:42 INFO: Current average volume is: 642.8
+2025-08-07 12:49:42 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:51:42 INFO: {'VKTX': {   'close': 34.355,
+    'high': 34.355,
+    'low': 34.26,
+    'open': 34.26,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1280.0,
+    'vwap': 34.30644}}
+2025-08-07 12:51:42 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:51:42 INFO: Current average volume is: 685.4
+2025-08-07 12:51:42 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:52:42 INFO: {'VKTX': {   'close': 34.44,
+    'high': 34.44,
+    'low': 34.37,
+    'open': 34.37,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 436.0,
+    'vwap': 34.4025}}
+2025-08-07 12:52:42 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:52:42 INFO: Current average volume is: 715.4
+2025-08-07 12:52:42 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:53:43 INFO: {'VKTX': {   'close': 34.49,
+    'high': 34.49,
+    'low': 34.445,
+    'open': 34.47,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1260.0,
+    'vwap': 34.458208}}
+2025-08-07 12:53:43 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:53:43 INFO: Current average volume is: 830.4
+2025-08-07 12:53:43 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:54:43 INFO: {'VKTX': {   'close': 34.46,
+    'high': 34.46,
+    'low': 34.46,
+    'open': 34.46,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.46}}
+2025-08-07 12:54:43 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:54:43 INFO: Current average volume is: 830.3
+2025-08-07 12:54:43 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 12:55:43 INFO: {'VKTX': {   'close': 34.385,
+    'high': 34.385,
+    'low': 34.385,
+    'open': 34.385,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 636.0,
+    'vwap': 34.385}}
+2025-08-07 12:55:43 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 12:55:43 INFO: Current average volume is: 881.1
+2025-08-07 12:55:43 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 13:00:44 INFO: {'VKTX': {   'close': 34.435,
+    'high': 34.435,
+    'low': 34.425,
+    'open': 34.425,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 554.0,
+    'vwap': 34.433148}}
+2025-08-07 13:00:44 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 13:00:44 INFO: Current average volume is: 859.4
+2025-08-07 13:00:44 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 13:01:44 INFO: {'VKTX': {   'close': 34.615,
+    'high': 34.615,
+    'low': 34.515,
+    'open': 34.515,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 460.0,
+    'vwap': 34.581667}}
+2025-08-07 13:01:44 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 13:01:44 INFO: Current average volume is: 885.0
+2025-08-07 13:01:44 INFO: Updated resistance to: 34.745 and support to: 33.21
+2025-08-07 13:02:44 INFO: {'VKTX': {   'close': 34.76,
+    'high': 34.76,
+    'low': 34.63,
+    'open': 34.63,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 482.0,
+    'vwap': 34.716667}}
+2025-08-07 13:02:44 INFO: Current resistance is: 34.745 and support is: 33.21
+2025-08-07 13:02:44 INFO: Current average volume is: 879.6
+2025-08-07 13:02:44 INFO: The Current Close 34.76 is above the resistance...
+2025-08-07 13:02:44 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:04:15 INFO: {'VKTX': {   'close': 34.6,
+    'high': 34.62,
+    'low': 34.6,
+    'open': 34.62,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1075.0,
+    'vwap': 34.609136}}
+2025-08-07 13:04:15 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:04:15 INFO: Current average volume is: 934.2
+2025-08-07 13:04:15 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:08:16 INFO: {'VKTX': {   'close': 34.49,
+    'high': 34.49,
+    'low': 34.4,
+    'open': 34.45,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1037.0,
+    'vwap': 34.438889}}
+2025-08-07 13:08:16 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:08:16 INFO: Current average volume is: 732.0
+2025-08-07 13:08:16 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:09:16 INFO: {'VKTX': {   'close': 34.44,
+    'high': 34.44,
+    'low': 34.44,
+    'open': 34.44,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 148.0,
+    'vwap': 34.44}}
+2025-08-07 13:09:16 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:09:16 INFO: Current average volume is: 618.8
+2025-08-07 13:09:16 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:11:17 INFO: {'VKTX': {   'close': 34.2,
+    'high': 34.2,
+    'low': 34.2,
+    'open': 34.2,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 555.0,
+    'vwap': 34.2}}
+2025-08-07 13:11:17 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:11:17 INFO: Current average volume is: 630.7
+2025-08-07 13:11:17 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:14:17 INFO: {'VKTX': {   'close': 34.24,
+    'high': 34.24,
+    'low': 34.185,
+    'open': 34.185,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 34.196}}
+2025-08-07 13:14:17 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:14:17 INFO: Current average volume is: 564.7
+2025-08-07 13:14:17 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:15:18 INFO: {'VKTX': {   'close': 34.245,
+    'high': 34.245,
+    'low': 34.245,
+    'open': 34.245,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 495.0,
+    'vwap': 34.245}}
+2025-08-07 13:15:18 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:15:18 INFO: Current average volume is: 604.2
+2025-08-07 13:15:18 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:16:18 INFO: {'VKTX': {   'close': 34.145,
+    'high': 34.145,
+    'low': 34.145,
+    'open': 34.145,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 611.0,
+    'vwap': 34.145}}
+2025-08-07 13:16:18 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:16:18 INFO: Current average volume is: 601.7
+2025-08-07 13:16:18 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:17:18 INFO: {'VKTX': {   'close': 34.18,
+    'high': 34.18,
+    'low': 34.18,
+    'open': 34.18,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 250.0,
+    'vwap': 34.18}}
+2025-08-07 13:17:18 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:17:18 INFO: Current average volume is: 571.3
+2025-08-07 13:17:18 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:18:18 INFO: {'VKTX': {   'close': 34.23,
+    'high': 34.23,
+    'low': 34.23,
+    'open': 34.23,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 34.23}}
+2025-08-07 13:18:18 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:18:18 INFO: Current average volume is: 545.3
+2025-08-07 13:18:18 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:23:19 INFO: {'VKTX': {   'close': 34.26,
+    'high': 34.26,
+    'low': 34.26,
+    'open': 34.26,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 119.0,
+    'vwap': 34.26}}
+2025-08-07 13:23:19 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:23:19 INFO: Current average volume is: 509.0
+2025-08-07 13:23:19 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:25:20 INFO: {'VKTX': {   'close': 34.14,
+    'high': 34.14,
+    'low': 34.14,
+    'open': 34.14,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 34.14}}
+2025-08-07 13:25:20 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:25:20 INFO: Current average volume is: 411.6
+2025-08-07 13:25:20 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:28:20 INFO: {'VKTX': {   'close': 34.1,
+    'high': 34.1,
+    'low': 34.1,
+    'open': 34.1,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 34.1}}
+2025-08-07 13:28:20 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:28:20 INFO: Current average volume is: 318.9
+2025-08-07 13:28:20 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:31:21 INFO: {'VKTX': {   'close': 34.035,
+    'high': 34.035,
+    'low': 34.035,
+    'open': 34.035,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 466.0,
+    'vwap': 34.035}}
+2025-08-07 13:31:21 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:31:21 INFO: Current average volume is: 350.7
+2025-08-07 13:31:21 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:35:22 INFO: {'VKTX': {   'close': 34.03,
+    'high': 34.03,
+    'low': 34.03,
+    'open': 34.03,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 165.0,
+    'vwap': 34.03}}
+2025-08-07 13:35:22 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:35:22 INFO: Current average volume is: 311.7
+2025-08-07 13:35:22 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:36:22 INFO: {'VKTX': {   'close': 34.18,
+    'high': 34.18,
+    'low': 34.14,
+    'open': 34.14,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 587.0,
+    'vwap': 34.17}}
+2025-08-07 13:36:22 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:36:22 INFO: Current average volume is: 310.4
+2025-08-07 13:36:22 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:37:23 INFO: {'VKTX': {   'close': 34.35,
+    'high': 34.35,
+    'low': 34.195,
+    'open': 34.195,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1241.0,
+    'vwap': 34.281727}}
+2025-08-07 13:37:23 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:37:23 INFO: Current average volume is: 385.0
+2025-08-07 13:37:23 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:39:23 INFO: {'VKTX': {   'close': 34.39,
+    'high': 34.39,
+    'low': 34.39,
+    'open': 34.39,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 34.39}}
+2025-08-07 13:39:23 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:39:23 INFO: Current average volume is: 343.9
+2025-08-07 13:39:23 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:40:23 INFO: {'VKTX': {   'close': 34.47,
+    'high': 34.47,
+    'low': 34.47,
+    'open': 34.47,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.47}}
+2025-08-07 13:40:23 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:40:23 INFO: Current average volume is: 328.9
+2025-08-07 13:40:23 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:41:23 INFO: {'VKTX': {   'close': 34.42,
+    'high': 34.42,
+    'low': 34.405,
+    'open': 34.405,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 733.0,
+    'vwap': 34.41}}
+2025-08-07 13:41:23 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:41:23 INFO: Current average volume is: 382.2
+2025-08-07 13:41:23 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:42:25 INFO: {'VKTX': {   'close': 34.48,
+    'high': 34.48,
+    'low': 34.48,
+    'open': 34.48,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 505.0,
+    'vwap': 34.48}}
+2025-08-07 13:42:25 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:42:25 INFO: Current average volume is: 420.8
+2025-08-07 13:42:25 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:43:25 INFO: {'VKTX': {   'close': 34.575,
+    'high': 34.575,
+    'low': 34.52,
+    'open': 34.54,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 437.0,
+    'vwap': 34.54125}}
+2025-08-07 13:43:25 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:43:25 INFO: Current average volume is: 454.4
+2025-08-07 13:43:25 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:44:26 INFO: {'VKTX': {   'close': 34.625,
+    'high': 34.625,
+    'low': 34.625,
+    'open': 34.625,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 144.0,
+    'vwap': 34.625}}
+2025-08-07 13:44:26 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:44:26 INFO: Current average volume is: 457.8
+2025-08-07 13:44:26 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:47:28 INFO: {'VKTX': {   'close': 34.56,
+    'high': 34.56,
+    'low': 34.56,
+    'open': 34.56,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 115.0,
+    'vwap': 34.56}}
+2025-08-07 13:47:28 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:47:28 INFO: Current average volume is: 422.7
+2025-08-07 13:47:28 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:48:28 INFO: {'VKTX': {   'close': 34.49,
+    'high': 34.49,
+    'low': 34.49,
+    'open': 34.49,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 343.0,
+    'vwap': 34.49}}
+2025-08-07 13:48:28 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:48:28 INFO: Current average volume is: 440.5
+2025-08-07 13:48:28 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:50:28 INFO: {'VKTX': {   'close': 34.58,
+    'high': 34.58,
+    'low': 34.58,
+    'open': 34.58,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 111.0,
+    'vwap': 34.58}}
+2025-08-07 13:50:28 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:50:28 INFO: Current average volume is: 392.9
+2025-08-07 13:50:28 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:51:29 INFO: {'VKTX': {   'close': 34.645,
+    'high': 34.645,
+    'low': 34.645,
+    'open': 34.645,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 244.0,
+    'vwap': 34.645}}
+2025-08-07 13:51:29 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:51:29 INFO: Current average volume is: 293.2
+2025-08-07 13:51:29 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:55:30 INFO: {'VKTX': {   'close': 34.695,
+    'high': 34.695,
+    'low': 34.695,
+    'open': 34.695,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 441.0,
+    'vwap': 34.695}}
+2025-08-07 13:55:30 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:55:30 INFO: Current average volume is: 317.3
+2025-08-07 13:55:30 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 13:56:30 INFO: {'VKTX': {   'close': 34.67,
+    'high': 34.69,
+    'low': 34.67,
+    'open': 34.69,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 378.0,
+    'vwap': 34.676667}}
+2025-08-07 13:56:30 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 13:56:30 INFO: Current average volume is: 345.1
+2025-08-07 13:56:30 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:00:31 INFO: {'VKTX': {   'close': 34.52,
+    'high': 34.52,
+    'low': 34.52,
+    'open': 34.52,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 214.0,
+    'vwap': 34.52}}
+2025-08-07 14:00:31 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:00:31 INFO: Current average volume is: 293.2
+2025-08-07 14:00:31 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:01:31 INFO: {'VKTX': {   'close': 34.54,
+    'high': 34.54,
+    'low': 34.54,
+    'open': 34.54,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 268.0,
+    'vwap': 34.54}}
+2025-08-07 14:01:31 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:01:31 INFO: Current average volume is: 269.5
+2025-08-07 14:01:31 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:02:31 INFO: {'VKTX': {   'close': 34.59,
+    'high': 34.59,
+    'low': 34.59,
+    'open': 34.59,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 180.0,
+    'vwap': 34.59}}
+2025-08-07 14:02:31 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:02:31 INFO: Current average volume is: 243.8
+2025-08-07 14:02:31 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:03:31 INFO: {'VKTX': {   'close': 34.39,
+    'high': 34.395,
+    'low': 34.39,
+    'open': 34.395,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 302.0,
+    'vwap': 34.393258}}
+2025-08-07 14:03:31 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:03:31 INFO: Current average volume is: 259.6
+2025-08-07 14:03:31 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:05:32 INFO: {'VKTX': {   'close': 34.505,
+    'high': 34.505,
+    'low': 34.505,
+    'open': 34.505,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 34.505}}
+2025-08-07 14:05:32 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:05:32 INFO: Current average volume is: 298.1
+2025-08-07 14:05:32 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:07:32 INFO: {'VKTX': {   'close': 34.47,
+    'high': 34.47,
+    'low': 34.47,
+    'open': 34.47,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 247.0,
+    'vwap': 34.47}}
+2025-08-07 14:07:32 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:07:32 INFO: Current average volume is: 288.5
+2025-08-07 14:07:32 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:08:33 INFO: {'VKTX': {   'close': 34.5,
+    'high': 34.5,
+    'low': 34.5,
+    'open': 34.5,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 173.0,
+    'vwap': 34.5}}
+2025-08-07 14:08:33 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:08:33 INFO: Current average volume is: 294.7
+2025-08-07 14:08:33 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:09:33 INFO: {'VKTX': {   'close': 34.46,
+    'high': 34.46,
+    'low': 34.46,
+    'open': 34.46,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 111.0,
+    'vwap': 34.46}}
+2025-08-07 14:09:33 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:09:33 INFO: Current average volume is: 281.4
+2025-08-07 14:09:33 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:10:33 INFO: {'VKTX': {   'close': 34.425,
+    'high': 34.5,
+    'low': 34.425,
+    'open': 34.5,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 612.0,
+    'vwap': 34.47}}
+2025-08-07 14:10:33 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:10:33 INFO: Current average volume is: 298.5
+2025-08-07 14:10:33 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:11:33 INFO: {'VKTX': {   'close': 34.515,
+    'high': 34.515,
+    'low': 34.44,
+    'open': 34.44,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 558.0,
+    'vwap': 34.4775}}
+2025-08-07 14:11:33 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:11:33 INFO: Current average volume is: 316.5
+2025-08-07 14:11:33 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:14:34 INFO: {'VKTX': {   'close': 34.505,
+    'high': 34.51,
+    'low': 34.5,
+    'open': 34.51,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 719.0,
+    'vwap': 34.505}}
+2025-08-07 14:14:34 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:14:34 INFO: Current average volume is: 367.0
+2025-08-07 14:14:34 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:15:34 INFO: {'VKTX': {   'close': 34.535,
+    'high': 34.535,
+    'low': 34.535,
+    'open': 34.535,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 777.0,
+    'vwap': 34.535}}
+2025-08-07 14:15:34 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:15:34 INFO: Current average volume is: 417.9
+2025-08-07 14:15:34 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:17:35 INFO: {'VKTX': {   'close': 34.38,
+    'high': 34.51,
+    'low': 34.38,
+    'open': 34.51,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1359.0,
+    'vwap': 34.491638}}
+2025-08-07 14:17:35 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:17:35 INFO: Current average volume is: 535.8
+2025-08-07 14:17:35 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:19:35 INFO: {'VKTX': {   'close': 34.33,
+    'high': 34.335,
+    'low': 34.33,
+    'open': 34.335,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 727.0,
+    'vwap': 34.332913}}
+2025-08-07 14:19:35 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:19:35 INFO: Current average volume is: 578.3
+2025-08-07 14:19:35 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:20:35 INFO: {'VKTX': {   'close': 34.2,
+    'high': 34.2,
+    'low': 34.2,
+    'open': 34.2,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.2}}
+2025-08-07 14:20:35 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:20:35 INFO: Current average volume is: 538.3
+2025-08-07 14:20:35 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:21:35 INFO: {'VKTX': {   'close': 34.24,
+    'high': 34.24,
+    'low': 34.185,
+    'open': 34.185,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 930.0,
+    'vwap': 34.204516}}
+2025-08-07 14:21:35 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:21:35 INFO: Current average volume is: 606.6
+2025-08-07 14:21:35 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:23:36 INFO: {'VKTX': {   'close': 34.08,
+    'high': 34.18,
+    'low': 34.08,
+    'open': 34.18,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 333.0,
+    'vwap': 34.113333}}
+2025-08-07 14:23:36 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:23:36 INFO: Current average volume is: 622.6
+2025-08-07 14:23:36 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:25:36 INFO: {'VKTX': {   'close': 34.085,
+    'high': 34.085,
+    'low': 34.085,
+    'open': 34.085,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 129.0,
+    'vwap': 34.085}}
+2025-08-07 14:25:36 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:25:36 INFO: Current average volume is: 624.4
+2025-08-07 14:25:36 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:26:37 INFO: {'VKTX': {   'close': 34.205,
+    'high': 34.205,
+    'low': 34.14,
+    'open': 34.15,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 960.0,
+    'vwap': 34.166}}
+2025-08-07 14:26:37 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:26:37 INFO: Current average volume is: 659.2
+2025-08-07 14:26:37 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:27:37 INFO: {'VKTX': {   'close': 34.31,
+    'high': 34.31,
+    'low': 34.25,
+    'open': 34.25,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 259.0,
+    'vwap': 34.28}}
+2025-08-07 14:27:37 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:27:37 INFO: Current average volume is: 629.3
+2025-08-07 14:27:37 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:28:37 INFO: {'VKTX': {   'close': 34.45,
+    'high': 34.45,
+    'low': 34.45,
+    'open': 34.45,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 256.0,
+    'vwap': 34.45}}
+2025-08-07 14:28:37 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:28:37 INFO: Current average volume is: 583.0
+2025-08-07 14:28:37 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:29:37 INFO: {'VKTX': {   'close': 34.31,
+    'high': 34.47,
+    'low': 34.31,
+    'open': 34.47,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 906.0,
+    'vwap': 34.38125}}
+2025-08-07 14:29:37 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:29:37 INFO: Current average volume is: 595.9
+2025-08-07 14:29:37 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:30:38 INFO: {'VKTX': {   'close': 34.535,
+    'high': 34.535,
+    'low': 34.535,
+    'open': 34.535,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.535}}
+2025-08-07 14:30:38 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:30:38 INFO: Current average volume is: 470.0
+2025-08-07 14:30:38 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:32:38 INFO: {'VKTX': {   'close': 34.605,
+    'high': 34.605,
+    'low': 34.58,
+    'open': 34.58,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 642.0,
+    'vwap': 34.589375}}
+2025-08-07 14:32:38 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:32:38 INFO: Current average volume is: 461.5
+2025-08-07 14:32:38 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:35:38 INFO: {'VKTX': {   'close': 34.645,
+    'high': 34.71,
+    'low': 34.62,
+    'open': 34.685,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 706.0,
+    'vwap': 34.665129}}
+2025-08-07 14:35:38 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:35:38 INFO: Current average volume is: 522.1
+2025-08-07 14:35:38 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:36:39 INFO: {'VKTX': {   'close': 34.63,
+    'high': 34.67,
+    'low': 34.63,
+    'open': 34.67,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 359.0,
+    'vwap': 34.65}}
+2025-08-07 14:36:39 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:36:39 INFO: Current average volume is: 465.0
+2025-08-07 14:36:39 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:37:39 INFO: {'VKTX': {   'close': 34.65,
+    'high': 34.65,
+    'low': 34.65,
+    'open': 34.65,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 121.0,
+    'vwap': 34.65}}
+2025-08-07 14:37:39 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:37:39 INFO: Current average volume is: 443.8
+2025-08-07 14:37:39 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:38:39 INFO: {'VKTX': {   'close': 34.73,
+    'high': 34.73,
+    'low': 34.69,
+    'open': 34.69,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 624.0,
+    'vwap': 34.701667}}
+2025-08-07 14:38:39 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:38:39 INFO: Current average volume is: 493.3
+2025-08-07 14:38:39 INFO: Updated resistance to: 34.76 and support to: 33.21
+2025-08-07 14:39:39 INFO: {'VKTX': {   'close': 34.85,
+    'high': 34.85,
+    'low': 34.785,
+    'open': 34.785,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 497.0,
+    'vwap': 34.8175}}
+2025-08-07 14:39:39 INFO: Current resistance is: 34.76 and support is: 33.21
+2025-08-07 14:39:39 INFO: Current average volume is: 447.0
+2025-08-07 14:39:39 INFO: The Current Close 34.85 is above the resistance...
+2025-08-07 14:39:39 INFO: Updated resistance to: 34.85 and support to: 33.21
+2025-08-07 14:40:09 INFO: {'VKTX': {   'close': 34.78,
+    'high': 34.805,
+    'low': 34.78,
+    'open': 34.805,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 463.0,
+    'vwap': 34.7925}}
+2025-08-07 14:40:09 INFO: Current resistance is: 34.85 and support is: 33.21
+2025-08-07 14:40:09 INFO: Current average volume is: 467.4
+2025-08-07 14:40:09 INFO: Updated resistance to: 34.85 and support to: 33.21
+2025-08-07 14:42:10 INFO: {'VKTX': {   'close': 34.67,
+    'high': 34.67,
+    'low': 34.67,
+    'open': 34.67,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 716.0,
+    'vwap': 34.67}}
+2025-08-07 14:42:10 INFO: Current resistance is: 34.85 and support is: 33.21
+2025-08-07 14:42:10 INFO: Current average volume is: 513.4
+2025-08-07 14:42:10 INFO: Updated resistance to: 34.85 and support to: 33.21
+2025-08-07 14:44:10 INFO: {'VKTX': {   'close': 34.82,
+    'high': 34.82,
+    'low': 34.8,
+    'open': 34.8,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 601.0,
+    'vwap': 34.816}}
+2025-08-07 14:44:10 INFO: Current resistance is: 34.85 and support is: 33.21
+2025-08-07 14:44:10 INFO: Current average volume is: 482.9
+2025-08-07 14:44:10 INFO: Updated resistance to: 34.85 and support to: 33.21
+2025-08-07 14:46:11 INFO: {'VKTX': {   'close': 35.005,
+    'high': 35.03,
+    'low': 34.89,
+    'open': 34.89,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 3379.0,
+    'vwap': 34.999091}}
+2025-08-07 14:46:11 INFO: Current resistance is: 34.85 and support is: 33.21
+2025-08-07 14:46:11 INFO: Current average volume is: 810.8
+2025-08-07 14:46:11 INFO: The Current Close 35.005 is above the resistance...
+2025-08-07 14:46:11 INFO: Updated resistance to: 35.03 and support to: 33.21
+2025-08-07 14:47:11 INFO: {'VKTX': {   'close': 34.92,
+    'high': 35.0,
+    'low': 34.92,
+    'open': 35.0,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1518.0,
+    'vwap': 34.966296}}
+2025-08-07 14:47:11 INFO: Current resistance is: 35.03 and support is: 33.21
+2025-08-07 14:47:11 INFO: Current average volume is: 898.4
+2025-08-07 14:47:11 INFO: Updated resistance to: 35.03 and support to: 33.21
+2025-08-07 14:49:11 INFO: {'VKTX': {   'close': 34.905,
+    'high': 34.91,
+    'low': 34.905,
+    'open': 34.91,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 763.0,
+    'vwap': 34.906136}}
+2025-08-07 14:49:11 INFO: Current resistance is: 35.03 and support is: 33.21
+2025-08-07 14:49:11 INFO: Current average volume is: 904.1
+2025-08-07 14:49:11 INFO: Updated resistance to: 35.03 and support to: 33.21
+2025-08-07 14:50:11 INFO: {'VKTX': {   'close': 34.98,
+    'high': 34.98,
+    'low': 34.975,
+    'open': 34.975,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 899.0,
+    'vwap': 34.975833}}
+2025-08-07 14:50:11 INFO: Current resistance is: 35.03 and support is: 33.21
+2025-08-07 14:50:11 INFO: Current average volume is: 958.1
+2025-08-07 14:50:11 INFO: Updated resistance to: 35.03 and support to: 33.21
+2025-08-07 14:51:12 INFO: {'VKTX': {   'close': 34.87,
+    'high': 34.87,
+    'low': 34.87,
+    'open': 34.87,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 287.0,
+    'vwap': 34.87}}
+2025-08-07 14:51:12 INFO: Current resistance is: 35.03 and support is: 33.21
+2025-08-07 14:51:12 INFO: Current average volume is: 974.7
+2025-08-07 14:51:12 INFO: Updated resistance to: 35.03 and support to: 33.21
+2025-08-07 14:52:12 INFO: {'VKTX': {   'close': 35.125,
+    'high': 35.125,
+    'low': 34.965,
+    'open': 34.965,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 625.0,
+    'vwap': 35.038}}
+2025-08-07 14:52:12 INFO: Current resistance is: 35.03 and support is: 33.21
+2025-08-07 14:52:12 INFO: Current average volume is: 974.8
+2025-08-07 14:52:12 INFO: The Current Close 35.125 is above the resistance...
+2025-08-07 14:52:12 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 14:53:12 INFO: {'VKTX': {   'close': 34.96,
+    'high': 34.96,
+    'low': 34.885,
+    'open': 34.95,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1622.0,
+    'vwap': 34.92375}}
+2025-08-07 14:53:12 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 14:53:12 INFO: Current average volume is: 1087.3
+2025-08-07 14:53:12 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 14:54:13 INFO: {'VKTX': {   'close': 34.97,
+    'high': 34.97,
+    'low': 34.93,
+    'open': 34.93,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 477.0,
+    'vwap': 34.950676}}
+2025-08-07 14:54:13 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 14:54:13 INFO: Current average volume is: 1088.7
+2025-08-07 14:54:13 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 14:55:13 INFO: {'VKTX': {   'close': 35.04,
+    'high': 35.04,
+    'low': 35.015,
+    'open': 35.015,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 350.0,
+    'vwap': 35.0275}}
+2025-08-07 14:55:13 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 14:55:13 INFO: Current average volume is: 1052.1
+2025-08-07 14:55:13 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 14:56:13 INFO: {'VKTX': {   'close': 34.8,
+    'high': 34.8,
+    'low': 34.8,
+    'open': 34.8,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 216.0,
+    'vwap': 34.8}}
+2025-08-07 14:56:13 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 14:56:13 INFO: Current average volume is: 1013.6
+2025-08-07 14:56:13 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 14:57:13 INFO: {'VKTX': {   'close': 34.72,
+    'high': 34.72,
+    'low': 34.72,
+    'open': 34.72,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 150.0,
+    'vwap': 34.72}}
+2025-08-07 14:57:13 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 14:57:13 INFO: Current average volume is: 690.7
+2025-08-07 14:57:13 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 14:58:13 INFO: {'VKTX': {   'close': 34.5,
+    'high': 34.51,
+    'low': 34.5,
+    'open': 34.51,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 253.0,
+    'vwap': 34.505}}
+2025-08-07 14:58:13 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 14:58:13 INFO: Current average volume is: 564.2
+2025-08-07 14:58:13 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 14:59:14 INFO: {'VKTX': {   'close': 34.61,
+    'high': 34.61,
+    'low': 34.555,
+    'open': 34.555,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 377.0,
+    'vwap': 34.588333}}
+2025-08-07 14:59:14 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 14:59:14 INFO: Current average volume is: 525.6
+2025-08-07 14:59:14 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:01:14 INFO: {'VKTX': {   'close': 34.585,
+    'high': 34.585,
+    'low': 34.585,
+    'open': 34.585,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 774.0,
+    'vwap': 34.585}}
+2025-08-07 15:01:14 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:01:14 INFO: Current average volume is: 513.1
+2025-08-07 15:01:14 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:03:15 INFO: {'VKTX': {   'close': 34.74,
+    'high': 34.77,
+    'low': 34.74,
+    'open': 34.77,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 486.0,
+    'vwap': 34.757143}}
+2025-08-07 15:03:15 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:03:15 INFO: Current average volume is: 533.0
+2025-08-07 15:03:15 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:04:15 INFO: {'VKTX': {   'close': 34.71,
+    'high': 34.71,
+    'low': 34.71,
+    'open': 34.71,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 156.0,
+    'vwap': 34.71}}
+2025-08-07 15:04:15 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:04:15 INFO: Current average volume is: 486.1
+2025-08-07 15:04:15 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:05:15 INFO: {'VKTX': {   'close': 34.635,
+    'high': 34.635,
+    'low': 34.6,
+    'open': 34.6,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 851.0,
+    'vwap': 34.611824}}
+2025-08-07 15:05:15 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:05:15 INFO: Current average volume is: 409.0
+2025-08-07 15:05:15 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:06:16 INFO: {'VKTX': {   'close': 34.565,
+    'high': 34.59,
+    'low': 34.565,
+    'open': 34.59,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1209.0,
+    'vwap': 34.582017}}
+2025-08-07 15:06:16 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:06:16 INFO: Current average volume is: 482.2
+2025-08-07 15:06:16 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:07:16 INFO: {'VKTX': {   'close': 34.53,
+    'high': 34.555,
+    'low': 34.53,
+    'open': 34.555,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 639.0,
+    'vwap': 34.538333}}
+2025-08-07 15:07:16 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:07:16 INFO: Current average volume is: 511.1
+2025-08-07 15:07:16 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:10:17 INFO: {'VKTX': {   'close': 34.88,
+    'high': 34.88,
+    'low': 34.73,
+    'open': 34.73,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 342.0,
+    'vwap': 34.813333}}
+2025-08-07 15:10:17 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:10:17 INFO: Current average volume is: 523.7
+2025-08-07 15:10:17 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:11:17 INFO: {'VKTX': {   'close': 34.85,
+    'high': 34.85,
+    'low': 34.85,
+    'open': 34.85,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 112.0,
+    'vwap': 34.85}}
+2025-08-07 15:11:17 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:11:17 INFO: Current average volume is: 519.9
+2025-08-07 15:11:17 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:12:17 INFO: {'VKTX': {   'close': 34.93,
+    'high': 34.93,
+    'low': 34.93,
+    'open': 34.93,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 34.93}}
+2025-08-07 15:12:17 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:12:17 INFO: Current average volume is: 504.7
+2025-08-07 15:12:17 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:13:17 INFO: {'VKTX': {   'close': 35.01,
+    'high': 35.04,
+    'low': 35.01,
+    'open': 35.035,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 965.0,
+    'vwap': 35.030625}}
+2025-08-07 15:13:17 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:13:17 INFO: Current average volume is: 563.5
+2025-08-07 15:13:17 INFO: Updated resistance to: 35.125 and support to: 33.21
+2025-08-07 15:16:18 INFO: {'VKTX': {   'close': 35.15,
+    'high': 35.15,
+    'low': 35.035,
+    'open': 35.05,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 812.0,
+    'vwap': 35.074167}}
+2025-08-07 15:16:18 INFO: Current resistance is: 35.125 and support is: 33.21
+2025-08-07 15:16:18 INFO: Current average volume is: 567.3
+2025-08-07 15:16:18 INFO: The Current Close 35.15 is above the resistance...
+2025-08-07 15:16:18 INFO: Updated resistance to: 35.15 and support to: 33.21
+2025-08-07 15:17:18 INFO: {'VKTX': {   'close': 35.145,
+    'high': 35.145,
+    'low': 35.08,
+    'open': 35.08,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 410.0,
+    'vwap': 35.105}}
+2025-08-07 15:17:18 INFO: Current resistance is: 35.15 and support is: 33.21
+2025-08-07 15:17:18 INFO: Current average volume is: 559.7
+2025-08-07 15:17:18 INFO: Updated resistance to: 35.15 and support to: 33.21
+2025-08-07 15:18:19 INFO: {'VKTX': {   'close': 35.25,
+    'high': 35.26,
+    'low': 35.17,
+    'open': 35.17,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2044.0,
+    'vwap': 35.244263}}
+2025-08-07 15:18:19 INFO: Current resistance is: 35.15 and support is: 33.21
+2025-08-07 15:18:19 INFO: Current average volume is: 748.5
+2025-08-07 15:18:19 INFO: The Current Close 35.25 is above the resistance...
+2025-08-07 15:18:19 INFO: Updated resistance to: 35.26 and support to: 33.21
+2025-08-07 15:19:19 INFO: {'VKTX': {   'close': 35.345,
+    'high': 35.345,
+    'low': 35.23,
+    'open': 35.235,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2780.0,
+    'vwap': 35.279955}}
+2025-08-07 15:19:19 INFO: Current resistance is: 35.26 and support is: 33.21
+2025-08-07 15:19:19 INFO: Current average volume is: 941.4
+2025-08-07 15:19:19 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-07 15:20:19 INFO: {'VKTX': {   'close': 35.35,
+    'high': 35.36,
+    'low': 35.35,
+    'open': 35.35,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1868.0,
+    'vwap': 35.35056}}
+2025-08-07 15:20:19 INFO: Current resistance is: 35.26 and support is: 33.21
+2025-08-07 15:20:19 INFO: Current average volume is: 1007.3
+2025-08-07 15:20:19 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-07 15:21:20 INFO: {'VKTX': {   'close': 35.28,
+    'high': 35.325,
+    'low': 35.17,
+    'open': 35.325,
+    'symbol': 'VKTX',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2744.0,
+    'vwap': 35.255222}}
+2025-08-07 15:21:20 INFO: Current resistance is: 35.26 and support is: 33.21
+2025-08-07 15:21:20 INFO: Current average volume is: 1217.8
+2025-08-07 15:21:20 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 100
+2025-08-07 15:21:20 INFO: The current close: 35.28 is above the resistance of 35.26. Placing Order...
+2025-08-07 15:21:20 INFO: The current volume: 2744.0 is higher than the average volume: 1217.8 by required factor
+2025-08-07 15:21:21 INFO: ORDER INFO:
+2025-08-07 15:21:21 INFO: id=UUID('3272a35b-7dbc-4127-b154-9ac0fff7cc07') client_order_id='87e510e3-a124-421b-9424-7f8a06a4c5ba' created_at=datetime.datetime(2025, 8, 7, 19, 21, 19, 544906, tzinfo=TzInfo(UTC)) updated_at=datetime.datetime(2025, 8, 7, 19, 21, 19, 545757, tzinfo=TzInfo(UTC)) submitted_at=datetime.datetime(2025, 8, 7, 19, 21, 19, 544906, tzinfo=TzInfo(UTC)) filled_at=None expired_at=None expires_at=datetime.datetime(2025, 8, 7, 20, 0, tzinfo=TzInfo(UTC)) canceled_at=None failed_at=None replaced_at=None replaced_by=None replaces=None asset_id=UUID('75cd8059-f067-4e29-9882-b061fe6f532f') symbol='VKTX' asset_class=<AssetClass.US_EQUITY: 'us_equity'> notional=None qty='3603' filled_qty='0' filled_avg_price=None order_class=<OrderClass.SIMPLE: 'simple'> order_type=<OrderType.LIMIT: 'limit'> type=<OrderType.LIMIT: 'limit'> side=<OrderSide.BUY: 'buy'> time_in_force=<TimeInForce.DAY: 'day'> limit_price='35.28' stop_price=None status=<OrderStatus.PENDING_NEW: 'pending_new'> extended_hours=False legs=None trail_percent=None trail_price=None hwm=None position_intent=<PositionIntent.BUY_TO_OPEN: 'buy_to_open'> ratio_qty=None
+2025-08-07 15:21:22 INFO: Starting the monitoring of VKTX, the current take profit is: 35.46, the current stop loss is: 34.91
+2025-08-07 15:22:22 INFO: {"code":40410000,"message":"position does not exist"}
+2025-08-07 15:22:22 INFO: ====ClOSING TRADE====

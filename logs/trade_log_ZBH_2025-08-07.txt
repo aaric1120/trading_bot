@@ -1,0 +1,476 @@
+2025-08-07 10:20:14 INFO: === Strategy started ===
+2025-08-07 10:20:14 INFO: Start collecting the current highs/lows for: ZBH
+2025-08-07 10:20:14 INFO: Most recent stock data: {'ZBH': {   'close': 97.21,
+    'high': 97.21,
+    'low': 97.21,
+    'open': 97.21,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 616.0,
+    'vwap': 97.21}}
+2025-08-07 10:22:15 INFO: Most recent stock data: {'ZBH': {   'close': 97.09,
+    'high': 97.18,
+    'low': 96.92,
+    'open': 97.18,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1742.0,
+    'vwap': 96.988178}}
+2025-08-07 10:23:15 INFO: Most recent stock data: {'ZBH': {   'close': 96.71,
+    'high': 96.96,
+    'low': 96.645,
+    'open': 96.92,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 2604.0,
+    'vwap': 96.785}}
+2025-08-07 10:25:15 INFO: Most recent stock data: {'ZBH': {   'close': 96.79,
+    'high': 96.9,
+    'low': 96.79,
+    'open': 96.89,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1244.0,
+    'vwap': 96.863175}}
+2025-08-07 10:26:15 INFO: Most recent stock data: {'ZBH': {   'close': 96.75,
+    'high': 96.79,
+    'low': 96.75,
+    'open': 96.79,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 96.77}}
+2025-08-07 10:27:16 INFO: Most recent stock data: {'ZBH': {   'close': 96.73,
+    'high': 96.78,
+    'low': 96.73,
+    'open': 96.78,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1428.0,
+    'vwap': 96.755556}}
+2025-08-07 10:29:16 INFO: Most recent stock data: {'ZBH': {   'close': 96.54,
+    'high': 96.605,
+    'low': 96.46,
+    'open': 96.605,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1031.0,
+    'vwap': 96.566921}}
+2025-08-07 10:30:16 INFO: Most recent stock data: {'ZBH': {   'close': 96.77,
+    'high': 96.77,
+    'low': 96.71,
+    'open': 96.71,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 576.0,
+    'vwap': 96.75}}
+2025-08-07 10:31:16 INFO: Most recent stock data: {'ZBH': {   'close': 96.6,
+    'high': 96.65,
+    'low': 96.6,
+    'open': 96.65,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 280.0,
+    'vwap': 96.625}}
+2025-08-07 10:33:17 INFO: Most recent stock data: {'ZBH': {   'close': 96.655,
+    'high': 96.67,
+    'low': 96.56,
+    'open': 96.56,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1196.0,
+    'vwap': 96.581399}}
+2025-08-07 10:37:18 INFO: Most recent stock data: {'ZBH': {   'close': 96.4,
+    'high': 96.4,
+    'low': 96.31,
+    'open': 96.31,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1445.0,
+    'vwap': 96.391863}}
+2025-08-07 10:37:18 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 10:37:18 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-07 10:40:18 INFO: {'ZBH': {   'close': 96.84,
+    'high': 96.84,
+    'low': 96.405,
+    'open': 96.405,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 544.0,
+    'vwap': 96.616}}
+2025-08-07 10:40:18 INFO: Current resistance is: 96.464 and support is: 96.251
+2025-08-07 10:40:18 INFO: Current average volume is: 1054.8
+2025-08-07 10:40:18 INFO: The Current Close 96.84 is above the resistance...
+2025-08-07 10:40:18 INFO: Updated resistance to: 96.597 and support to: 96.196
+2025-08-07 10:41:19 INFO: {'ZBH': {   'close': 96.82,
+    'high': 96.88,
+    'low': 96.82,
+    'open': 96.82,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 502.0,
+    'vwap': 96.844}}
+2025-08-07 10:41:19 INFO: Current resistance is: 96.597 and support is: 96.196
+2025-08-07 10:41:19 INFO: Current average volume is: 844.6
+2025-08-07 10:41:19 INFO: The current close: 96.82 is above the resistance of 96.597, but volume isn't enough...
+2025-08-07 10:41:19 INFO: Updated resistance to: 96.717 and support to: 96.19
+2025-08-07 10:42:19 INFO: {'ZBH': {   'close': 96.89,
+    'high': 96.945,
+    'low': 96.88,
+    'open': 96.88,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 604.0,
+    'vwap': 96.910616}}
+2025-08-07 10:42:19 INFO: Current resistance is: 96.717 and support is: 96.19
+2025-08-07 10:42:19 INFO: Current average volume is: 780.6
+2025-08-07 10:42:19 INFO: The current close: 96.89 is above the resistance of 96.717, but volume isn't enough...
+2025-08-07 10:42:19 INFO: Updated resistance to: 96.836 and support to: 96.205
+2025-08-07 10:43:19 INFO: {'ZBH': {   'close': 97.245,
+    'high': 97.245,
+    'low': 97.245,
+    'open': 97.245,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 97.245}}
+2025-08-07 10:43:19 INFO: Current resistance is: 96.836 and support is: 96.205
+2025-08-07 10:43:19 INFO: Current average volume is: 800.6
+2025-08-07 10:43:19 INFO: The current close: 97.245 is above the resistance of 96.836, but volume isn't enough...
+2025-08-07 10:43:19 INFO: Updated resistance to: 97.234 and support to: 96.271
+2025-08-07 10:45:20 INFO: {'ZBH': {   'close': 97.35,
+    'high': 97.515,
+    'low': 97.28,
+    'open': 97.29,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2030.0,
+    'vwap': 97.367124}}
+2025-08-07 10:45:20 INFO: Current resistance is: 97.234 and support is: 96.271
+2025-08-07 10:45:20 INFO: Current average volume is: 860.8
+2025-08-07 10:45:20 INFO: The current close: 97.35 is above the resistance of 97.234, but volume isn't enough...
+2025-08-07 10:45:20 INFO: Updated resistance to: 97.52 and support to: 96.344
+2025-08-07 10:46:21 INFO: {'ZBH': {   'close': 97.37,
+    'high': 97.45,
+    'low': 97.37,
+    'open': 97.37,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 977.0,
+    'vwap': 97.4275}}
+2025-08-07 10:46:21 INFO: Current resistance is: 97.52 and support is: 96.344
+2025-08-07 10:46:21 INFO: Current average volume is: 855.4
+2025-08-07 10:46:21 INFO: Updated resistance to: 97.546 and support to: 96.425
+2025-08-07 10:47:21 INFO: {'ZBH': {   'close': 97.255,
+    'high': 97.255,
+    'low': 97.255,
+    'open': 97.255,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 97.255}}
+2025-08-07 10:47:21 INFO: Current resistance is: 97.546 and support is: 96.425
+2025-08-07 10:47:21 INFO: Current average volume is: 817.8
+2025-08-07 10:47:21 INFO: Updated resistance to: 97.571 and support to: 96.484
+2025-08-07 10:48:25 INFO: === Strategy started ===
+2025-08-07 10:48:25 INFO: Start collecting the current highs/lows for: ZBH
+2025-08-07 10:48:25 INFO: Most recent stock data: {'ZBH': {   'close': 97.62,
+    'high': 97.62,
+    'low': 97.24,
+    'open': 97.24,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1055.0,
+    'vwap': 97.429444}}
+2025-08-07 10:49:25 INFO: Most recent stock data: {'ZBH': {   'close': 97.77,
+    'high': 97.77,
+    'low': 97.65,
+    'open': 97.65,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 728.0,
+    'vwap': 97.742}}
+2025-08-07 10:50:26 INFO: Most recent stock data: {'ZBH': {   'close': 97.98,
+    'high': 97.99,
+    'low': 97.935,
+    'open': 97.94,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 704.0,
+    'vwap': 97.957857}}
+2025-08-07 10:51:26 INFO: Most recent stock data: {'ZBH': {   'close': 97.85,
+    'high': 97.86,
+    'low': 97.72,
+    'open': 97.72,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 886.0,
+    'vwap': 97.828}}
+2025-08-07 10:53:27 INFO: Most recent stock data: {'ZBH': {   'close': 97.85,
+    'high': 97.865,
+    'low': 97.775,
+    'open': 97.85,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 642.0,
+    'vwap': 97.83}}
+2025-08-07 10:55:27 INFO: Most recent stock data: {'ZBH': {   'close': 97.32,
+    'high': 97.645,
+    'low': 97.32,
+    'open': 97.645,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2338.0,
+    'vwap': 97.4581}}
+2025-08-07 10:56:27 INFO: Most recent stock data: {'ZBH': {   'close': 97.29,
+    'high': 97.29,
+    'low': 97.215,
+    'open': 97.29,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 4711.0,
+    'vwap': 97.232283}}
+2025-08-07 10:57:30 INFO: Most recent stock data: {'ZBH': {   'close': 97.2,
+    'high': 97.2,
+    'low': 97.065,
+    'open': 97.065,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 97.1325}}
+2025-08-07 10:59:31 INFO: Most recent stock data: {'ZBH': {   'close': 97.1,
+    'high': 97.21,
+    'low': 97.1,
+    'open': 97.21,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 435.0,
+    'vwap': 97.155}}
+2025-08-07 11:00:31 INFO: Most recent stock data: {'ZBH': {   'close': 97.145,
+    'high': 97.15,
+    'low': 97.145,
+    'open': 97.15,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 842.0,
+    'vwap': 97.149375}}
+2025-08-07 11:01:31 INFO: Most recent stock data: {'ZBH': {   'close': 97.69,
+    'high': 97.69,
+    'low': 97.2,
+    'open': 97.2,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 3379.0,
+    'vwap': 97.412552}}
+2025-08-07 11:01:31 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 11:01:31 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-07 11:02:31 INFO: {'ZBH': {   'close': 97.47,
+    'high': 97.78,
+    'low': 97.44,
+    'open': 97.75,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2059.0,
+    'vwap': 97.637563}}
+2025-08-07 11:02:31 INFO: Current resistance is: 97.469 and support is: 96.825
+2025-08-07 11:02:31 INFO: Current average volume is: 1659.6
+2025-08-07 11:02:31 INFO: The Current Close 97.47 is above the resistance...
+2025-08-07 11:02:31 INFO: Updated resistance to: 97.625 and support to: 96.843
+2025-08-07 11:03:02 INFO: {'ZBH': {   'close': 97.05,
+    'high': 97.205,
+    'low': 97.05,
+    'open': 97.205,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 406.0,
+    'vwap': 97.157685}}
+2025-08-07 11:03:02 INFO: Current resistance is: 97.625 and support is: 96.843
+2025-08-07 11:03:02 INFO: Current average volume is: 1629.8
+2025-08-07 11:03:02 INFO: Updated resistance to: 97.535 and support to: 97.004
+2025-08-07 11:04:02 INFO: {'ZBH': {   'close': 97.335,
+    'high': 97.345,
+    'low': 97.12,
+    'open': 97.12,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 451.0,
+    'vwap': 97.266667}}
+2025-08-07 11:04:02 INFO: Current resistance is: 97.535 and support is: 97.004
+2025-08-07 11:04:02 INFO: Current average volume is: 1586.3
+2025-08-07 11:04:02 INFO: Updated resistance to: 97.519 and support to: 96.961
+2025-08-07 11:05:03 INFO: {'ZBH': {   'close': 97.3,
+    'high': 97.3,
+    'low': 97.3,
+    'open': 97.3,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 97.3}}
+2025-08-07 11:05:03 INFO: Current resistance is: 97.519 and support is: 96.961
+2025-08-07 11:05:03 INFO: Current average volume is: 1532.1
+2025-08-07 11:05:03 INFO: Updated resistance to: 97.496 and support to: 96.938
+2025-08-07 11:07:03 INFO: {'ZBH': {   'close': 97.11,
+    'high': 97.11,
+    'low': 97.11,
+    'open': 97.11,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 153.0,
+    'vwap': 97.11}}
+2025-08-07 11:07:03 INFO: Current resistance is: 97.496 and support is: 96.938
+2025-08-07 11:07:03 INFO: Current average volume is: 1313.6
+2025-08-07 11:07:03 INFO: Updated resistance to: 97.423 and support to: 96.905
+2025-08-07 11:09:03 INFO: {'ZBH': {   'close': 97.315,
+    'high': 97.39,
+    'low': 97.31,
+    'open': 97.39,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 516.0,
+    'vwap': 97.358}}
+2025-08-07 11:09:03 INFO: Current resistance is: 97.423 and support is: 96.905
+2025-08-07 11:09:03 INFO: Current average volume is: 894.1
+2025-08-07 11:09:03 INFO: Updated resistance to: 97.451 and support to: 96.897
+2025-08-07 11:11:04 INFO: {'ZBH': {   'close': 97.23,
+    'high': 97.23,
+    'low': 97.23,
+    'open': 97.23,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 310.0,
+    'vwap': 97.23}}
+2025-08-07 11:11:04 INFO: Current resistance is: 97.451 and support is: 96.897
+2025-08-07 11:11:04 INFO: Current average volume is: 865.1
+2025-08-07 11:11:04 INFO: Updated resistance to: 97.431 and support to: 96.884
+2025-08-07 11:12:04 INFO: {'ZBH': {   'close': 97.34,
+    'high': 97.34,
+    'low': 97.34,
+    'open': 97.34,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 517.0,
+    'vwap': 97.34}}
+2025-08-07 11:12:04 INFO: Current resistance is: 97.431 and support is: 96.884
+2025-08-07 11:12:04 INFO: Current average volume is: 873.3
+2025-08-07 11:12:04 INFO: Updated resistance to: 97.448 and support to: 96.886
+2025-08-07 11:13:05 INFO: {'ZBH': {   'close': 97.28,
+    'high': 97.28,
+    'low': 97.28,
+    'open': 97.28,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 279.0,
+    'vwap': 97.28}}
+2025-08-07 11:13:05 INFO: Current resistance is: 97.448 and support is: 96.886
+2025-08-07 11:13:05 INFO: Current average volume is: 817.0
+2025-08-07 11:13:05 INFO: Updated resistance to: 97.448 and support to: 96.884
+2025-08-07 11:14:05 INFO: {'ZBH': {   'close': 97.15,
+    'high': 97.31,
+    'low': 97.09,
+    'open': 97.285,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1312.0,
+    'vwap': 97.238286}}
+2025-08-07 11:14:05 INFO: Current resistance is: 97.448 and support is: 96.884
+2025-08-07 11:14:05 INFO: Current average volume is: 610.3
+2025-08-07 11:14:05 INFO: Updated resistance to: 97.458 and support to: 96.861
+2025-08-07 11:16:05 INFO: {'ZBH': {   'close': 97.16,
+    'high': 97.16,
+    'low': 97.125,
+    'open': 97.125,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 286.0,
+    'vwap': 97.1425}}
+2025-08-07 11:16:05 INFO: Current resistance is: 97.458 and support is: 96.861
+2025-08-07 11:16:05 INFO: Current average volume is: 433.0
+2025-08-07 11:16:05 INFO: Updated resistance to: 97.433 and support to: 96.845
+2025-08-07 11:17:06 INFO: {'ZBH': {   'close': 97.045,
+    'high': 97.15,
+    'low': 97.045,
+    'open': 97.15,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 744.0,
+    'vwap': 97.123176}}
+2025-08-07 11:17:06 INFO: Current resistance is: 97.433 and support is: 96.845
+2025-08-07 11:17:06 INFO: Current average volume is: 466.8
+2025-08-07 11:17:06 INFO: Updated resistance to: 97.411 and support to: 97.024
+2025-08-07 11:18:06 INFO: {'ZBH': {   'close': 97.09,
+    'high': 97.09,
+    'low': 97.09,
+    'open': 97.09,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 97.09}}
+2025-08-07 11:18:06 INFO: Current resistance is: 97.411 and support is: 97.024
+2025-08-07 11:18:06 INFO: Current average volume is: 461.7
+2025-08-07 11:18:06 INFO: Updated resistance to: 97.382 and support to: 97.004
+2025-08-07 11:19:06 INFO: {'ZBH': {   'close': 96.9,
+    'high': 97.01,
+    'low': 96.9,
+    'open': 97.01,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 638.0,
+    'vwap': 96.948}}
+2025-08-07 11:19:06 INFO: Current resistance is: 97.382 and support is: 97.004
+2025-08-07 11:19:06 INFO: Current average volume is: 515.5
+2025-08-07 11:19:06 INFO: close price: 96.9 just dropped below support of 97.004...
+2025-08-07 11:20:07 INFO: {'ZBH': {   'close': 96.705,
+    'high': 96.87,
+    'low': 96.705,
+    'open': 96.87,
+    'symbol': 'ZBH',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1117.0,
+    'vwap': 96.751073}}
+2025-08-07 11:20:07 INFO: Current resistance is: 97.382 and support is: 97.004
+2025-08-07 11:20:07 INFO: Current average volume is: 611.9
+2025-08-07 11:20:07 INFO: Closing price: 96.705 just dropped below support 97.004 again...ending trade...

@@ -1,0 +1,800 @@
+2025-08-07 09:50:14 INFO: === Strategy started ===
+2025-08-07 09:50:14 INFO: Start collecting the current highs/lows for: AMRZ
+2025-08-07 09:50:15 INFO: Most recent stock data: {'AMRZ': {   'close': 45.69,
+    'high': 45.93,
+    'low': 45.675,
+    'open': 45.87,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 5900.0,
+    'vwap': 45.72725}}
+2025-08-07 09:51:15 INFO: Most recent stock data: {'AMRZ': {   'close': 45.83,
+    'high': 46.0,
+    'low': 45.83,
+    'open': 45.93,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1424.0,
+    'vwap': 45.93}}
+2025-08-07 09:52:16 INFO: Most recent stock data: {'AMRZ': {   'close': 45.845,
+    'high': 45.845,
+    'low': 45.82,
+    'open': 45.82,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 596.0,
+    'vwap': 45.84}}
+2025-08-07 09:53:16 INFO: Most recent stock data: {'AMRZ': {   'close': 45.93,
+    'high': 45.97,
+    'low': 45.84,
+    'open': 45.84,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1170.0,
+    'vwap': 45.901818}}
+2025-08-07 09:54:16 INFO: Most recent stock data: {'AMRZ': {   'close': 45.99,
+    'high': 46.05,
+    'low': 45.9,
+    'open': 45.9,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1744.0,
+    'vwap': 45.959942}}
+2025-08-07 09:55:17 INFO: Most recent stock data: {'AMRZ': {   'close': 45.98,
+    'high': 45.98,
+    'low': 45.98,
+    'open': 45.98,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 238.0,
+    'vwap': 45.98}}
+2025-08-07 09:56:17 INFO: Most recent stock data: {'AMRZ': {   'close': 46.13,
+    'high': 46.13,
+    'low': 46.045,
+    'open': 46.045,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 928.0,
+    'vwap': 46.099167}}
+2025-08-07 09:58:17 INFO: Most recent stock data: {'AMRZ': {   'close': 46.24,
+    'high': 46.27,
+    'low': 46.24,
+    'open': 46.27,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1638.0,
+    'vwap': 46.258933}}
+2025-08-07 09:59:18 INFO: Most recent stock data: {'AMRZ': {   'close': 46.37,
+    'high': 46.37,
+    'low': 46.285,
+    'open': 46.285,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1244.0,
+    'vwap': 46.305455}}
+2025-08-07 10:00:18 INFO: Most recent stock data: {'AMRZ': {   'close': 46.405,
+    'high': 46.435,
+    'low': 46.4,
+    'open': 46.435,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1078.0,
+    'vwap': 46.418163}}
+2025-08-07 10:01:18 INFO: Most recent stock data: {'AMRZ': {   'close': 46.415,
+    'high': 46.415,
+    'low': 46.39,
+    'open': 46.39,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 774.0,
+    'vwap': 46.410247}}
+2025-08-07 10:01:18 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 10:01:18 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-07 10:02:19 INFO: {'AMRZ': {   'close': 46.36,
+    'high': 46.44,
+    'low': 46.29,
+    'open': 46.44,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 6294.0,
+    'vwap': 46.390091}}
+2025-08-07 10:02:19 INFO: Current resistance is: 46.552 and support is: 46.494
+2025-08-07 10:02:19 INFO: Current average volume is: 1570.4
+2025-08-07 10:02:19 INFO: close price: 46.36 just dropped below support of 46.494...
+2025-08-07 10:03:19 INFO: {'AMRZ': {   'close': 46.2,
+    'high': 46.275,
+    'low': 46.155,
+    'open': 46.275,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1771.0,
+    'vwap': 46.204696}}
+2025-08-07 10:03:19 INFO: Current resistance is: 46.552 and support is: 46.494
+2025-08-07 10:03:19 INFO: Current average volume is: 1687.9
+2025-08-07 10:03:19 INFO: Closing price: 46.2 just dropped below support 46.494 again...ending trade...
+2025-08-07 10:35:18 INFO: === Strategy started ===
+2025-08-07 10:35:18 INFO: Start collecting the current highs/lows for: AMRZ
+2025-08-07 10:35:18 INFO: Most recent stock data: {'AMRZ': {   'close': 46.58,
+    'high': 46.58,
+    'low': 46.565,
+    'open': 46.565,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 402.0,
+    'vwap': 46.5725}}
+2025-08-07 10:37:19 INFO: Most recent stock data: {'AMRZ': {   'close': 46.46,
+    'high': 46.46,
+    'low': 46.46,
+    'open': 46.46,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 326.0,
+    'vwap': 46.46}}
+2025-08-07 10:38:19 INFO: Most recent stock data: {'AMRZ': {   'close': 46.6,
+    'high': 46.6,
+    'low': 46.54,
+    'open': 46.54,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 46.56}}
+2025-08-07 10:39:19 INFO: Most recent stock data: {'AMRZ': {   'close': 46.605,
+    'high': 46.605,
+    'low': 46.605,
+    'open': 46.605,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 46.605}}
+2025-08-07 10:40:20 INFO: Most recent stock data: {'AMRZ': {   'close': 46.71,
+    'high': 46.71,
+    'low': 46.71,
+    'open': 46.71,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 46.71}}
+2025-08-07 10:41:20 INFO: Most recent stock data: {'AMRZ': {   'close': 46.95,
+    'high': 46.95,
+    'low': 46.95,
+    'open': 46.95,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 129.0,
+    'vwap': 46.95}}
+2025-08-07 10:42:20 INFO: Most recent stock data: {'AMRZ': {   'close': 46.94,
+    'high': 46.94,
+    'low': 46.94,
+    'open': 46.94,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 190.0,
+    'vwap': 46.94}}
+2025-08-07 10:43:21 INFO: Most recent stock data: {'AMRZ': {   'close': 46.95,
+    'high': 46.95,
+    'low': 46.945,
+    'open': 46.95,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 869.0,
+    'vwap': 46.947132}}
+2025-08-07 10:45:21 INFO: Most recent stock data: {'AMRZ': {   'close': 46.84,
+    'high': 46.875,
+    'low': 46.84,
+    'open': 46.875,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1328.0,
+    'vwap': 46.860385}}
+2025-08-07 10:46:21 INFO: Most recent stock data: {'AMRZ': {   'close': 46.87,
+    'high': 46.87,
+    'low': 46.87,
+    'open': 46.87,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 46.87}}
+2025-08-07 10:47:22 INFO: Most recent stock data: {'AMRZ': {   'close': 46.895,
+    'high': 46.91,
+    'low': 46.875,
+    'open': 46.875,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 586.0,
+    'vwap': 46.889}}
+2025-08-07 10:47:22 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 10:47:22 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-07 10:48:24 INFO: === Strategy started ===
+2025-08-07 10:48:24 INFO: Start collecting the current highs/lows for: AMRZ
+2025-08-07 10:48:25 INFO: Most recent stock data: {'AMRZ': {   'close': 46.86,
+    'high': 46.895,
+    'low': 46.86,
+    'open': 46.895,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1152.0,
+    'vwap': 46.873353}}
+2025-08-07 10:49:25 INFO: Most recent stock data: {'AMRZ': {   'close': 46.885,
+    'high': 46.885,
+    'low': 46.885,
+    'open': 46.885,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 46.885}}
+2025-08-07 10:50:26 INFO: Most recent stock data: {'AMRZ': {   'close': 46.875,
+    'high': 46.875,
+    'low': 46.875,
+    'open': 46.875,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 263.0,
+    'vwap': 46.875}}
+2025-08-07 10:52:26 INFO: Most recent stock data: {'AMRZ': {   'close': 46.845,
+    'high': 46.9,
+    'low': 46.845,
+    'open': 46.9,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1221.0,
+    'vwap': 46.855833}}
+2025-08-07 10:54:27 INFO: Most recent stock data: {'AMRZ': {   'close': 46.85,
+    'high': 46.85,
+    'low': 46.85,
+    'open': 46.85,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 320.0,
+    'vwap': 46.85}}
+2025-08-07 10:55:27 INFO: Most recent stock data: {'AMRZ': {   'close': 46.845,
+    'high': 46.845,
+    'low': 46.845,
+    'open': 46.845,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 405.0,
+    'vwap': 46.845}}
+2025-08-07 10:57:30 INFO: Most recent stock data: {'AMRZ': {   'close': 46.905,
+    'high': 46.94,
+    'low': 46.9,
+    'open': 46.91,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1405.0,
+    'vwap': 46.9125}}
+2025-08-07 10:58:30 INFO: Most recent stock data: {'AMRZ': {   'close': 46.89,
+    'high': 46.905,
+    'low': 46.875,
+    'open': 46.905,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 607.0,
+    'vwap': 46.8925}}
+2025-08-07 10:59:30 INFO: Most recent stock data: {'AMRZ': {   'close': 46.86,
+    'high': 46.86,
+    'low': 46.86,
+    'open': 46.86,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 46.86}}
+2025-08-07 11:01:31 INFO: Most recent stock data: {'AMRZ': {   'close': 47.155,
+    'high': 47.155,
+    'low': 47.13,
+    'open': 47.13,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 47.148}}
+2025-08-07 11:02:31 INFO: Most recent stock data: {'AMRZ': {   'close': 47.225,
+    'high': 47.225,
+    'low': 47.225,
+    'open': 47.225,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 247.0,
+    'vwap': 47.225}}
+2025-08-07 11:02:31 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 11:02:31 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-07 11:03:31 INFO: {'AMRZ': {   'close': 47.16,
+    'high': 47.16,
+    'low': 47.16,
+    'open': 47.16,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 47.16}}
+2025-08-07 11:03:31 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:03:31 INFO: Current average volume is: 548.8
+2025-08-07 11:03:31 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:04:31 INFO: {'AMRZ': {   'close': 47.125,
+    'high': 47.15,
+    'low': 47.125,
+    'open': 47.15,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 420.0,
+    'vwap': 47.13125}}
+2025-08-07 11:04:31 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:04:31 INFO: Current average volume is: 564.5
+2025-08-07 11:04:31 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:05:31 INFO: {'AMRZ': {   'close': 46.93,
+    'high': 46.93,
+    'low': 46.93,
+    'open': 46.93,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 320.0,
+    'vwap': 46.93}}
+2025-08-07 11:05:31 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:05:31 INFO: Current average volume is: 474.4
+2025-08-07 11:05:31 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:09:32 INFO: {'AMRZ': {   'close': 46.965,
+    'high': 47.015,
+    'low': 46.965,
+    'open': 47.015,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 46.972857}}
+2025-08-07 11:09:32 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:09:32 INFO: Current average volume is: 512.4
+2025-08-07 11:09:32 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:11:33 INFO: {'AMRZ': {   'close': 46.83,
+    'high': 46.925,
+    'low': 46.83,
+    'open': 46.925,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3393.0,
+    'vwap': 46.862805}}
+2025-08-07 11:11:33 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:11:33 INFO: Current average volume is: 811.2
+2025-08-07 11:11:33 INFO: close price: 46.83 just dropped below support of 46.845...
+2025-08-07 11:12:34 INFO: {'AMRZ': {   'close': 46.88,
+    'high': 46.88,
+    'low': 46.88,
+    'open': 46.88,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 46.88}}
+2025-08-07 11:12:34 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:12:34 INFO: Current average volume is: 680.7
+2025-08-07 11:12:34 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:14:34 INFO: {'AMRZ': {   'close': 46.885,
+    'high': 46.905,
+    'low': 46.885,
+    'open': 46.905,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 522.0,
+    'vwap': 46.895}}
+2025-08-07 11:14:34 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:14:34 INFO: Current average volume is: 672.2
+2025-08-07 11:14:34 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:15:35 INFO: {'AMRZ': {   'close': 46.9,
+    'high': 46.9,
+    'low': 46.88,
+    'open': 46.88,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 470.0,
+    'vwap': 46.890811}}
+2025-08-07 11:15:35 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:15:35 INFO: Current average volume is: 707.2
+2025-08-07 11:15:35 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:17:35 INFO: {'AMRZ': {   'close': 46.92,
+    'high': 46.92,
+    'low': 46.91,
+    'open': 46.91,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 46.915}}
+2025-08-07 11:17:35 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:17:35 INFO: Current average volume is: 667.2
+2025-08-07 11:17:35 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:19:36 INFO: {'AMRZ': {   'close': 46.93,
+    'high': 46.93,
+    'low': 46.93,
+    'open': 46.93,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 46.93}}
+2025-08-07 11:19:36 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:19:36 INFO: Current average volume is: 652.5
+2025-08-07 11:19:36 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:21:36 INFO: {'AMRZ': {   'close': 46.99,
+    'high': 46.99,
+    'low': 46.99,
+    'open': 46.99,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 130.0,
+    'vwap': 46.99}}
+2025-08-07 11:21:36 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:21:36 INFO: Current average volume is: 635.5
+2025-08-07 11:21:36 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:22:37 INFO: {'AMRZ': {   'close': 46.935,
+    'high': 46.935,
+    'low': 46.92,
+    'open': 46.93,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1457.0,
+    'vwap': 46.930417}}
+2025-08-07 11:22:37 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:22:37 INFO: Current average volume is: 739.2
+2025-08-07 11:22:37 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:25:38 INFO: {'AMRZ': {   'close': 46.905,
+    'high': 46.925,
+    'low': 46.905,
+    'open': 46.925,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 800.0,
+    'vwap': 46.916875}}
+2025-08-07 11:25:38 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:25:38 INFO: Current average volume is: 787.2
+2025-08-07 11:25:38 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:26:38 INFO: {'AMRZ': {   'close': 46.885,
+    'high': 46.91,
+    'low': 46.885,
+    'open': 46.9,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 800.0,
+    'vwap': 46.89375}}
+2025-08-07 11:26:38 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:26:38 INFO: Current average volume is: 797.2
+2025-08-07 11:26:38 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:27:38 INFO: {'AMRZ': {   'close': 46.875,
+    'high': 46.885,
+    'low': 46.875,
+    'open': 46.885,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 408.0,
+    'vwap': 46.881667}}
+2025-08-07 11:27:38 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:27:38 INFO: Current average volume is: 498.7
+2025-08-07 11:27:38 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:28:38 INFO: {'AMRZ': {   'close': 46.995,
+    'high': 46.995,
+    'low': 46.85,
+    'open': 46.855,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1118.0,
+    'vwap': 46.870909}}
+2025-08-07 11:28:38 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:28:38 INFO: Current average volume is: 600.5
+2025-08-07 11:28:38 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:29:39 INFO: {'AMRZ': {   'close': 46.97,
+    'high': 46.985,
+    'low': 46.97,
+    'open': 46.985,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 650.0,
+    'vwap': 46.9775}}
+2025-08-07 11:29:39 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:29:39 INFO: Current average volume is: 613.3
+2025-08-07 11:29:39 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:30:39 INFO: {'AMRZ': {   'close': 46.865,
+    'high': 46.97,
+    'low': 46.865,
+    'open': 46.97,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 46.9175}}
+2025-08-07 11:30:39 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:30:39 INFO: Current average volume is: 596.3
+2025-08-07 11:30:39 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:31:39 INFO: {'AMRZ': {   'close': 47.13,
+    'high': 47.13,
+    'low': 47.02,
+    'open': 47.02,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 47.075}}
+2025-08-07 11:31:39 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:31:39 INFO: Current average volume is: 606.3
+2025-08-07 11:31:39 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:32:40 INFO: {'AMRZ': {   'close': 47.11,
+    'high': 47.11,
+    'low': 47.11,
+    'open': 47.11,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 47.11}}
+2025-08-07 11:32:40 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:32:40 INFO: Current average volume is: 606.3
+2025-08-07 11:32:40 INFO: Updated resistance to: 47.225 and support to: 46.845
+2025-08-07 11:33:40 INFO: {'AMRZ': {   'close': 47.32,
+    'high': 47.32,
+    'low': 47.22,
+    'open': 47.22,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 867.0,
+    'vwap': 47.294286}}
+2025-08-07 11:33:40 INFO: Current resistance is: 47.225 and support is: 46.845
+2025-08-07 11:33:40 INFO: Current average volume is: 680.0
+2025-08-07 11:33:40 INFO: The Current Close 47.32 is above the resistance...
+2025-08-07 11:33:40 INFO: Updated resistance to: 47.32 and support to: 46.845
+2025-08-07 11:34:10 INFO: {'AMRZ': {   'close': 47.225,
+    'high': 47.245,
+    'low': 47.225,
+    'open': 47.245,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 727.0,
+    'vwap': 47.240714}}
+2025-08-07 11:34:10 INFO: Current resistance is: 47.32 and support is: 46.845
+2025-08-07 11:34:10 INFO: Current average volume is: 607.0
+2025-08-07 11:34:10 INFO: Updated resistance to: 47.32 and support to: 46.845
+2025-08-07 11:35:10 INFO: {'AMRZ': {   'close': 47.295,
+    'high': 47.305,
+    'low': 47.29,
+    'open': 47.29,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 782.0,
+    'vwap': 47.296918}}
+2025-08-07 11:35:10 INFO: Current resistance is: 47.32 and support is: 46.845
+2025-08-07 11:35:10 INFO: Current average volume is: 605.2
+2025-08-07 11:35:10 INFO: Updated resistance to: 47.32 and support to: 46.845
+2025-08-07 11:36:11 INFO: {'AMRZ': {   'close': 47.205,
+    'high': 47.28,
+    'low': 47.205,
+    'open': 47.28,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 600.0,
+    'vwap': 47.2175}}
+2025-08-07 11:36:11 INFO: Current resistance is: 47.32 and support is: 46.845
+2025-08-07 11:36:11 INFO: Current average volume is: 585.2
+2025-08-07 11:36:11 INFO: Updated resistance to: 47.32 and support to: 46.845
+2025-08-07 11:37:13 INFO: {'AMRZ': {   'close': 47.38,
+    'high': 47.38,
+    'low': 47.235,
+    'open': 47.235,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 47.3075}}
+2025-08-07 11:37:13 INFO: Current resistance is: 47.32 and support is: 46.845
+2025-08-07 11:37:13 INFO: Current average volume is: 574.4
+2025-08-07 11:37:13 INFO: The Current Close 47.38 is above the resistance...
+2025-08-07 11:37:13 INFO: Updated resistance to: 47.38 and support to: 46.845
+2025-08-07 11:39:32 INFO: {'AMRZ': {   'close': 47.63,
+    'high': 47.63,
+    'low': 47.47,
+    'open': 47.47,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 765.0,
+    'vwap': 47.507387}}
+2025-08-07 11:39:32 INFO: Current resistance is: 47.38 and support is: 46.845
+2025-08-07 11:39:32 INFO: Current average volume is: 539.1
+2025-08-07 11:39:32 INFO: The current close: 47.63 is above the resistance of 47.38, but volume isn't enough...
+2025-08-07 11:39:32 INFO: Updated resistance to: 47.63 and support to: 46.845
+2025-08-07 11:40:04 INFO: {'AMRZ': {   'close': 47.745,
+    'high': 47.745,
+    'low': 47.59,
+    'open': 47.61,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1897.0,
+    'vwap': 47.658611}}
+2025-08-07 11:40:04 INFO: Current resistance is: 47.63 and support is: 46.845
+2025-08-07 11:40:04 INFO: Current average volume is: 663.8
+2025-08-07 11:40:04 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-07 11:41:13 INFO: {'AMRZ': {   'close': 47.435,
+    'high': 47.79,
+    'low': 47.435,
+    'open': 47.74,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 5710.0,
+    'vwap': 47.713903}}
+2025-08-07 11:41:13 INFO: Current resistance is: 47.63 and support is: 46.845
+2025-08-07 11:41:13 INFO: Current average volume is: 1204.8
+2025-08-07 11:41:13 INFO: Updated resistance to: 47.79 and support to: 46.845
+2025-08-07 11:42:34 ERROR: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/bars/latest?symbols=AMRZ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001DDFF992CC0>, 'Connection to data.alpaca.markets timed out. (connect timeout=None)'))
+2025-08-07 14:33:51 INFO: === Strategy started ===
+2025-08-07 14:33:51 INFO: Start collecting the current highs/lows for: AMRZ
+2025-08-07 14:33:51 INFO: Most recent stock data: {'AMRZ': {   'close': 47.415,
+    'high': 47.44,
+    'low': 47.415,
+    'open': 47.44,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 757.0,
+    'vwap': 47.419167}}
+2025-08-07 14:39:53 INFO: Most recent stock data: {'AMRZ': {   'close': 47.45,
+    'high': 47.465,
+    'low': 47.45,
+    'open': 47.465,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1135.0,
+    'vwap': 47.460056}}
+2025-08-07 14:40:53 INFO: Most recent stock data: {'AMRZ': {   'close': 47.435,
+    'high': 47.435,
+    'low': 47.435,
+    'open': 47.435,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 831.0,
+    'vwap': 47.435}}
+2025-08-07 14:42:54 INFO: Most recent stock data: {'AMRZ': {   'close': 47.37,
+    'high': 47.415,
+    'low': 47.36,
+    'open': 47.415,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1645.0,
+    'vwap': 47.406667}}
+2025-08-07 14:43:54 INFO: Most recent stock data: {'AMRZ': {   'close': 47.36,
+    'high': 47.38,
+    'low': 47.33,
+    'open': 47.38,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2103.0,
+    'vwap': 47.360026}}
+2025-08-07 14:44:55 INFO: Most recent stock data: {'AMRZ': {   'close': 47.34,
+    'high': 47.36,
+    'low': 47.34,
+    'open': 47.36,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 750.0,
+    'vwap': 47.351667}}
+2025-08-07 14:45:55 INFO: Most recent stock data: {'AMRZ': {   'close': 47.36,
+    'high': 47.38,
+    'low': 47.36,
+    'open': 47.36,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1599.0,
+    'vwap': 47.364444}}
+2025-08-07 14:46:55 INFO: Most recent stock data: {'AMRZ': {   'close': 47.35,
+    'high': 47.35,
+    'low': 47.35,
+    'open': 47.35,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 47.35}}
+2025-08-07 14:49:55 INFO: Most recent stock data: {'AMRZ': {   'close': 47.355,
+    'high': 47.355,
+    'low': 47.355,
+    'open': 47.355,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 260.0,
+    'vwap': 47.355}}
+2025-08-07 14:50:56 INFO: Most recent stock data: {'AMRZ': {   'close': 47.335,
+    'high': 47.335,
+    'low': 47.335,
+    'open': 47.335,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 932.0,
+    'vwap': 47.335}}
+2025-08-07 14:51:56 INFO: Most recent stock data: {'AMRZ': {   'close': 47.29,
+    'high': 47.33,
+    'low': 47.29,
+    'open': 47.33,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 281.0,
+    'vwap': 47.31}}
+2025-08-07 14:51:56 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 14:51:56 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-07 14:52:56 INFO: {'AMRZ': {   'close': 47.26,
+    'high': 47.26,
+    'low': 47.25,
+    'open': 47.25,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 299.0,
+    'vwap': 47.255}}
+2025-08-07 14:52:56 INFO: Current resistance is: 47.465 and support is: 47.29
+2025-08-07 14:52:56 INFO: Current average volume is: 880.0
+2025-08-07 14:52:56 INFO: close price: 47.26 just dropped below support of 47.29...
+2025-08-07 14:53:56 INFO: {'AMRZ': {   'close': 47.17,
+    'high': 47.17,
+    'low': 47.17,
+    'open': 47.17,
+    'symbol': 'AMRZ',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 486.0,
+    'vwap': 47.17}}
+2025-08-07 14:53:56 INFO: Current resistance is: 47.465 and support is: 47.29
+2025-08-07 14:53:56 INFO: Current average volume is: 845.5
+2025-08-07 14:53:56 INFO: Closing price: 47.17 just dropped below support 47.29 again...ending trade...

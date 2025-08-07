@@ -1,0 +1,483 @@
+2025-08-07 10:48:25 INFO: === Strategy started ===
+2025-08-07 10:48:25 INFO: Start collecting the current highs/lows for: AMD
+2025-08-07 10:48:25 INFO: Most recent stock data: {'AMD': {   'close': 171.97,
+    'high': 171.97,
+    'low': 171.89,
+    'open': 171.89,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1249.0,
+    'vwap': 171.914468}}
+2025-08-07 10:49:26 INFO: Most recent stock data: {'AMD': {   'close': 172.27,
+    'high': 172.27,
+    'low': 171.855,
+    'open': 171.89,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2299.0,
+    'vwap': 172.019208}}
+2025-08-07 10:50:26 INFO: Most recent stock data: {'AMD': {   'close': 172.37,
+    'high': 172.49,
+    'low': 172.22,
+    'open': 172.22,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2434.0,
+    'vwap': 172.377568}}
+2025-08-07 10:51:27 INFO: Most recent stock data: {'AMD': {   'close': 172.34,
+    'high': 172.39,
+    'low': 172.26,
+    'open': 172.34,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 2456.0,
+    'vwap': 172.306667}}
+2025-08-07 10:52:27 INFO: Most recent stock data: {'AMD': {   'close': 172.04,
+    'high': 172.32,
+    'low': 172.03,
+    'open': 172.305,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 2408.0,
+    'vwap': 172.132}}
+2025-08-07 10:53:27 INFO: Most recent stock data: {'AMD': {   'close': 172.385,
+    'high': 172.385,
+    'low': 172.0,
+    'open': 172.0,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1864.0,
+    'vwap': 172.256923}}
+2025-08-07 10:54:28 INFO: Most recent stock data: {'AMD': {   'close': 172.06,
+    'high': 172.29,
+    'low': 171.96,
+    'open': 172.29,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2649.0,
+    'vwap': 172.087917}}
+2025-08-07 10:55:28 INFO: Most recent stock data: {'AMD': {   'close': 172.06,
+    'high': 172.06,
+    'low': 171.7,
+    'open': 172.06,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 50.0,
+    'volume': 3710.0,
+    'vwap': 171.893485}}
+2025-08-07 10:56:28 INFO: Most recent stock data: {'AMD': {   'close': 171.64,
+    'high': 172.0,
+    'low': 171.52,
+    'open': 171.97,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 70.0,
+    'volume': 4079.0,
+    'vwap': 171.689182}}
+2025-08-07 10:57:28 INFO: Most recent stock data: {'AMD': {   'close': 171.97,
+    'high': 171.97,
+    'low': 171.44,
+    'open': 171.48,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2313.0,
+    'vwap': 171.655}}
+2025-08-07 10:58:28 INFO: Most recent stock data: {'AMD': {   'close': 171.74,
+    'high': 171.985,
+    'low': 171.74,
+    'open': 171.88,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 80.0,
+    'volume': 5361.0,
+    'vwap': 171.875648}}
+2025-08-07 10:58:28 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 10:58:28 INFO: no pattern detected...collecting more data points...
+2025-08-07 10:59:29 INFO: Most recent stock data: {'AMD': {   'close': 171.59,
+    'high': 171.73,
+    'low': 171.51,
+    'open': 171.66,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2345.0,
+    'vwap': 171.610263}}
+2025-08-07 10:59:29 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 10:59:29 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-07 11:00:31 INFO: {'AMD': {   'close': 171.83,
+    'high': 171.83,
+    'low': 171.49,
+    'open': 171.62,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 6320.0,
+    'vwap': 171.727457}}
+2025-08-07 11:00:31 INFO: Current resistance is: 172.082 and support is: 171.278
+2025-08-07 11:00:31 INFO: Current average volume is: 3350.5
+2025-08-07 11:00:31 INFO: Updated resistance to: 172.019 and support to: 171.224
+2025-08-07 11:01:31 INFO: {'AMD': {   'close': 172.17,
+    'high': 172.27,
+    'low': 171.76,
+    'open': 171.76,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 3629.0,
+    'vwap': 172.114451}}
+2025-08-07 11:01:31 INFO: Current resistance is: 172.019 and support is: 171.224
+2025-08-07 11:01:31 INFO: Current average volume is: 3467.8
+2025-08-07 11:01:31 INFO: The Current Close 172.17 is above the resistance...
+2025-08-07 11:01:31 INFO: Updated resistance to: 172.127 and support to: 171.216
+2025-08-07 11:02:32 INFO: {'AMD': {   'close': 172.46,
+    'high': 172.485,
+    'low': 172.1,
+    'open': 172.1,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1963.0,
+    'vwap': 172.328517}}
+2025-08-07 11:02:32 INFO: Current resistance is: 172.127 and support is: 171.216
+2025-08-07 11:02:32 INFO: Current average volume is: 3423.3
+2025-08-07 11:02:32 INFO: The current close: 172.46 is above the resistance of 172.127, but volume isn't enough...
+2025-08-07 11:02:32 INFO: Updated resistance to: 172.283 and support to: 171.265
+2025-08-07 11:03:02 INFO: {'AMD': {   'close': 172.26,
+    'high': 172.5,
+    'low': 172.26,
+    'open': 172.45,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 59.0,
+    'volume': 3651.0,
+    'vwap': 172.445715}}
+2025-08-07 11:03:02 INFO: Current resistance is: 172.283 and support is: 171.265
+2025-08-07 11:03:02 INFO: Current average volume is: 3602.0
+2025-08-07 11:03:02 INFO: Updated resistance to: 172.494 and support to: 171.338
+2025-08-07 11:04:02 INFO: {'AMD': {   'close': 172.05,
+    'high': 172.185,
+    'low': 172.01,
+    'open': 172.185,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 1711.0,
+    'vwap': 172.104581}}
+2025-08-07 11:04:02 INFO: Current resistance is: 172.494 and support is: 171.338
+2025-08-07 11:04:02 INFO: Current average volume is: 3508.2
+2025-08-07 11:04:02 INFO: Updated resistance to: 172.491 and support to: 171.366
+2025-08-07 11:05:03 INFO: {'AMD': {   'close': 172.14,
+    'high': 172.22,
+    'low': 171.95,
+    'open': 172.08,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 3843.0,
+    'vwap': 172.135397}}
+2025-08-07 11:05:03 INFO: Current resistance is: 172.491 and support is: 171.366
+2025-08-07 11:05:03 INFO: Current average volume is: 3521.5
+2025-08-07 11:05:03 INFO: Updated resistance to: 172.49 and support to: 171.383
+2025-08-07 11:06:03 INFO: {'AMD': {   'close': 172.6,
+    'high': 172.6,
+    'low': 172.21,
+    'open': 172.21,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1419.0,
+    'vwap': 172.4375}}
+2025-08-07 11:06:03 INFO: Current resistance is: 172.49 and support is: 171.383
+2025-08-07 11:06:03 INFO: Current average volume is: 3255.5
+2025-08-07 11:06:03 INFO: The Current Close 172.6 is above the resistance...
+2025-08-07 11:06:03 INFO: Updated resistance to: 172.604 and support to: 171.44
+2025-08-07 11:07:04 INFO: {'AMD': {   'close': 172.535,
+    'high': 172.63,
+    'low': 172.52,
+    'open': 172.59,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 2090.0,
+    'vwap': 172.556296}}
+2025-08-07 11:07:04 INFO: Current resistance is: 172.604 and support is: 171.44
+2025-08-07 11:07:04 INFO: Current average volume is: 3233.2
+2025-08-07 11:07:04 INFO: Updated resistance to: 172.639 and support to: 171.539
+2025-08-07 11:08:04 INFO: {'AMD': {   'close': 172.31,
+    'high': 172.31,
+    'low': 172.31,
+    'open': 172.31,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 618.0,
+    'vwap': 172.31}}
+2025-08-07 11:08:04 INFO: Current resistance is: 172.639 and support is: 171.539
+2025-08-07 11:08:04 INFO: Current average volume is: 2758.9
+2025-08-07 11:08:04 INFO: Updated resistance to: 172.648 and support to: 171.594
+2025-08-07 11:09:04 INFO: {'AMD': {   'close': 172.745,
+    'high': 172.8,
+    'low': 172.49,
+    'open': 172.585,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 2980.0,
+    'vwap': 172.664096}}
+2025-08-07 11:09:04 INFO: Current resistance is: 172.648 and support is: 171.594
+2025-08-07 11:09:04 INFO: Current average volume is: 2822.4
+2025-08-07 11:09:04 INFO: The Current Close 172.745 is above the resistance...
+2025-08-07 11:09:04 INFO: Updated resistance to: 172.815 and support to: 171.67
+2025-08-07 11:10:05 INFO: {'AMD': {   'close': 173.29,
+    'high': 173.4,
+    'low': 172.79,
+    'open': 172.79,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 94.0,
+    'volume': 8480.0,
+    'vwap': 173.161435}}
+2025-08-07 11:10:05 INFO: Current resistance is: 172.815 and support is: 171.67
+2025-08-07 11:10:05 INFO: Current average volume is: 3038.4
+2025-08-07 11:10:05 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-07 11:11:05 INFO: {'AMD': {   'close': 173.235,
+    'high': 173.56,
+    'low': 173.23,
+    'open': 173.33,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 67.0,
+    'volume': 4217.0,
+    'vwap': 173.383906}}
+2025-08-07 11:11:05 INFO: Current resistance is: 172.815 and support is: 171.67
+2025-08-07 11:11:05 INFO: Current average volume is: 3097.2
+2025-08-07 11:11:05 INFO: The current close: 173.235 is above the resistance of 172.815, but volume isn't enough...
+2025-08-07 11:11:05 INFO: Updated resistance to: 173.595 and support to: 171.947
+2025-08-07 11:12:06 INFO: {'AMD': {   'close': 173.36,
+    'high': 173.44,
+    'low': 173.2,
+    'open': 173.27,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 78.0,
+    'volume': 5421.0,
+    'vwap': 173.335137}}
+2025-08-07 11:12:06 INFO: Current resistance is: 173.595 and support is: 171.947
+2025-08-07 11:12:06 INFO: Current average volume is: 3443.0
+2025-08-07 11:12:06 INFO: Updated resistance to: 173.641 and support to: 172.088
+2025-08-07 11:13:06 INFO: {'AMD': {   'close': 173.54,
+    'high': 173.665,
+    'low': 173.355,
+    'open': 173.365,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 63.0,
+    'volume': 3604.0,
+    'vwap': 173.5164}}
+2025-08-07 11:13:06 INFO: Current resistance is: 173.641 and support is: 172.088
+2025-08-07 11:13:06 INFO: Current average volume is: 3438.3
+2025-08-07 11:13:06 INFO: Updated resistance to: 173.712 and support to: 172.234
+2025-08-07 11:14:06 INFO: {'AMD': {   'close': 173.585,
+    'high': 173.69,
+    'low': 173.48,
+    'open': 173.6,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 64.0,
+    'volume': 3985.0,
+    'vwap': 173.577113}}
+2025-08-07 11:14:06 INFO: Current resistance is: 173.712 and support is: 172.234
+2025-08-07 11:14:06 INFO: Current average volume is: 3665.7
+2025-08-07 11:14:06 INFO: Updated resistance to: 173.742 and support to: 172.382
+2025-08-07 11:15:06 INFO: {'AMD': {   'close': 173.94,
+    'high': 173.94,
+    'low': 173.54,
+    'open': 173.56,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 54.0,
+    'volume': 3484.0,
+    'vwap': 173.777679}}
+2025-08-07 11:15:06 INFO: Current resistance is: 173.742 and support is: 172.382
+2025-08-07 11:15:06 INFO: Current average volume is: 3629.8
+2025-08-07 11:15:06 INFO: The Current Close 173.94 is above the resistance...
+2025-08-07 11:15:06 INFO: Updated resistance to: 173.997 and support to: 172.52
+2025-08-07 11:16:07 INFO: {'AMD': {   'close': 173.77,
+    'high': 174.03,
+    'low': 173.77,
+    'open': 173.92,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 103.0,
+    'volume': 7634.0,
+    'vwap': 173.918307}}
+2025-08-07 11:16:07 INFO: Current resistance is: 173.997 and support is: 172.52
+2025-08-07 11:16:07 INFO: Current average volume is: 4251.3
+2025-08-07 11:16:07 INFO: Updated resistance to: 174.091 and support to: 172.674
+2025-08-07 11:17:07 INFO: {'AMD': {   'close': 174.61,
+    'high': 174.61,
+    'low': 173.86,
+    'open': 173.87,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 103.0,
+    'volume': 8936.0,
+    'vwap': 174.331022}}
+2025-08-07 11:17:07 INFO: Current resistance is: 174.091 and support is: 172.674
+2025-08-07 11:17:07 INFO: Current average volume is: 4935.9
+2025-08-07 11:17:07 INFO: The Current Close 174.61 is above the resistance...
+2025-08-07 11:17:07 INFO: Updated resistance to: 174.679 and support to: 172.822
+2025-08-07 11:18:07 INFO: {'AMD': {   'close': 174.93,
+    'high': 174.965,
+    'low': 174.61,
+    'open': 174.64,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 98.0,
+    'volume': 8515.0,
+    'vwap': 174.824177}}
+2025-08-07 11:18:07 INFO: Current resistance is: 174.679 and support is: 172.822
+2025-08-07 11:18:07 INFO: Current average volume is: 5725.6
+2025-08-07 11:18:07 INFO: The current close: 174.93 is above the resistance of 174.679, but volume isn't enough...
+2025-08-07 11:18:07 INFO: Updated resistance to: 175.041 and support to: 173.053
+2025-08-07 11:19:08 INFO: {'AMD': {   'close': 174.65,
+    'high': 175.145,
+    'low': 174.65,
+    'open': 174.925,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 119.0,
+    'volume': 9385.0,
+    'vwap': 174.917438}}
+2025-08-07 11:19:08 INFO: Current resistance is: 175.041 and support is: 173.053
+2025-08-07 11:19:08 INFO: Current average volume is: 6366.1
+2025-08-07 11:19:08 INFO: Updated resistance to: 175.228 and support to: 173.264
+2025-08-07 11:21:08 INFO: {'AMD': {   'close': 175.16,
+    'high': 175.16,
+    'low': 174.6,
+    'open': 174.6,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 108.0,
+    'volume': 9268.0,
+    'vwap': 174.979193}}
+2025-08-07 11:21:08 INFO: Current resistance is: 175.228 and support is: 173.264
+2025-08-07 11:21:08 INFO: Current average volume is: 6444.9
+2025-08-07 11:21:08 INFO: Updated resistance to: 175.248 and support to: 173.446
+2025-08-07 11:22:08 INFO: {'AMD': {   'close': 175.68,
+    'high': 175.68,
+    'low': 175.11,
+    'open': 175.11,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 128.0,
+    'volume': 10969.0,
+    'vwap': 175.314828}}
+2025-08-07 11:22:08 INFO: Current resistance is: 175.248 and support is: 173.446
+2025-08-07 11:22:08 INFO: Current average volume is: 7120.1
+2025-08-07 11:22:08 INFO: The Current Close 175.68 is above the resistance...
+2025-08-07 11:22:08 INFO: Updated resistance to: 175.775 and support to: 173.673
+2025-08-07 11:23:09 INFO: {'AMD': {   'close': 175.145,
+    'high': 175.75,
+    'low': 175.1,
+    'open': 175.63,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 181.0,
+    'volume': 14626.0,
+    'vwap': 175.40386}}
+2025-08-07 11:23:09 INFO: Current resistance is: 175.775 and support is: 173.673
+2025-08-07 11:23:09 INFO: Current average volume is: 8040.6
+2025-08-07 11:23:09 INFO: Updated resistance to: 175.85 and support to: 173.874
+2025-08-07 11:24:09 INFO: {'AMD': {   'close': 175.125,
+    'high': 175.29,
+    'low': 174.99,
+    'open': 175.19,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 108.0,
+    'volume': 8196.0,
+    'vwap': 175.104196}}
+2025-08-07 11:24:09 INFO: Current resistance is: 175.85 and support is: 173.874
+2025-08-07 11:24:09 INFO: Current average volume is: 8499.8
+2025-08-07 11:24:09 INFO: Updated resistance to: 175.954 and support to: 174.041
+2025-08-07 11:25:09 INFO: {'AMD': {   'close': 175.03,
+    'high': 175.16,
+    'low': 175.01,
+    'open': 175.1,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 5739.0,
+    'vwap': 175.084059}}
+2025-08-07 11:25:09 INFO: Current resistance is: 175.954 and support is: 174.041
+2025-08-07 11:25:09 INFO: Current average volume is: 8675.2
+2025-08-07 11:25:09 INFO: Updated resistance to: 176.058 and support to: 174.193
+2025-08-07 11:26:10 INFO: {'AMD': {   'close': 174.53,
+    'high': 174.96,
+    'low': 174.51,
+    'open': 174.93,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 97.0,
+    'volume': 9277.0,
+    'vwap': 174.703286}}
+2025-08-07 11:26:10 INFO: Current resistance is: 176.058 and support is: 174.193
+2025-08-07 11:26:10 INFO: Current average volume is: 9254.5
+2025-08-07 11:26:10 INFO: Updated resistance to: 176.158 and support to: 174.27
+2025-08-07 11:28:10 INFO: {'AMD': {   'close': 174.205,
+    'high': 174.55,
+    'low': 174.19,
+    'open': 174.54,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 66.0,
+    'volume': 5023.0,
+    'vwap': 174.424073}}
+2025-08-07 11:28:10 INFO: Current resistance is: 176.158 and support is: 174.27
+2025-08-07 11:28:10 INFO: Current average volume is: 8993.4
+2025-08-07 11:28:10 INFO: close price: 174.205 just dropped below support of 174.27...
+2025-08-07 11:29:10 INFO: {'AMD': {   'close': 174.37,
+    'high': 174.46,
+    'low': 174.1,
+    'open': 174.19,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 2726.0,
+    'vwap': 174.248333}}
+2025-08-07 11:29:10 INFO: Current resistance is: 176.158 and support is: 174.27
+2025-08-07 11:29:10 INFO: Current average volume is: 8372.4
+2025-08-07 11:29:10 INFO: Updated resistance to: 176.329 and support to: 174.315
+2025-08-07 11:30:10 INFO: {'AMD': {   'close': 173.89,
+    'high': 174.25,
+    'low': 173.72,
+    'open': 174.25,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 121.0,
+    'volume': 16763.0,
+    'vwap': 173.865303}}
+2025-08-07 11:30:10 INFO: Current resistance is: 176.329 and support is: 174.315
+2025-08-07 11:30:10 INFO: Current average volume is: 9197.2
+2025-08-07 11:30:10 INFO: close price: 173.89 just dropped below support of 174.315...
+2025-08-07 11:31:11 INFO: {'AMD': {   'close': 174.0,
+    'high': 174.075,
+    'low': 173.82,
+    'open': 173.83,
+    'symbol': 'AMD',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 93.0,
+    'volume': 7663.0,
+    'vwap': 173.947953}}
+2025-08-07 11:31:11 INFO: Current resistance is: 176.329 and support is: 174.315
+2025-08-07 11:31:11 INFO: Current average volume is: 9025.0
+2025-08-07 11:31:11 INFO: Closing price: 174.0 just dropped below support 174.315 again...ending trade...

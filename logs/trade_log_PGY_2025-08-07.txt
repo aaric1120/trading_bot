@@ -1,0 +1,1391 @@
+2025-08-07 11:33:29 INFO: === Strategy started ===
+2025-08-07 11:33:29 INFO: Start collecting the current highs/lows for: PGY
+2025-08-07 11:33:29 INFO: Most recent stock data: {'PGY': {   'close': 33.12,
+    'high': 33.12,
+    'low': 33.12,
+    'open': 33.12,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 319.0,
+    'vwap': 33.12}}
+2025-08-07 11:35:30 INFO: Most recent stock data: {'PGY': {   'close': 32.93,
+    'high': 32.93,
+    'low': 32.93,
+    'open': 32.93,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 309.0,
+    'vwap': 32.93}}
+2025-08-07 11:36:30 INFO: Most recent stock data: {'PGY': {   'close': 32.5,
+    'high': 32.81,
+    'low': 32.5,
+    'open': 32.81,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 682.0,
+    'vwap': 32.603333}}
+2025-08-07 11:37:35 INFO: Most recent stock data: {'PGY': {   'close': 32.45,
+    'high': 32.45,
+    'low': 32.45,
+    'open': 32.45,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 841.0,
+    'vwap': 32.45}}
+2025-08-07 11:42:46 INFO: Most recent stock data: {'PGY': {   'close': 32.03,
+    'high': 32.03,
+    'low': 31.89,
+    'open': 31.99,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 947.0,
+    'vwap': 31.959412}}
+2025-08-07 11:43:48 INFO: Most recent stock data: {'PGY': {   'close': 32.04,
+    'high': 32.04,
+    'low': 31.995,
+    'open': 32.01,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 329.0,
+    'vwap': 32.015}}
+2025-08-07 11:44:55 INFO: Most recent stock data: {'PGY': {   'close': 32.13,
+    'high': 32.13,
+    'low': 31.825,
+    'open': 31.825,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 330.0,
+    'vwap': 31.9775}}
+2025-08-07 11:48:03 INFO: Most recent stock data: {'PGY': {   'close': 31.605,
+    'high': 31.96,
+    'low': 31.605,
+    'open': 31.96,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1597.0,
+    'vwap': 31.798405}}
+2025-08-07 11:49:03 INFO: Most recent stock data: {'PGY': {   'close': 31.655,
+    'high': 31.68,
+    'low': 31.655,
+    'open': 31.68,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1058.0,
+    'vwap': 31.67152}}
+2025-08-07 11:50:06 INFO: Most recent stock data: {'PGY': {   'close': 31.555,
+    'high': 31.61,
+    'low': 31.535,
+    'open': 31.535,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1120.0,
+    'vwap': 31.560095}}
+2025-08-07 11:51:06 INFO: Most recent stock data: {'PGY': {   'close': 31.64,
+    'high': 31.64,
+    'low': 31.46,
+    'open': 31.47,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1105.0,
+    'vwap': 31.583519}}
+2025-08-07 11:51:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 11:51:06 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-07 11:52:07 INFO: {'PGY': {   'close': 31.86,
+    'high': 31.96,
+    'low': 31.75,
+    'open': 31.75,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1870.0,
+    'vwap': 31.845253}}
+2025-08-07 11:52:07 INFO: Current resistance is: 31.425 and support is: 31.295
+2025-08-07 11:52:07 INFO: Current average volume is: 987.9
+2025-08-07 11:52:07 INFO: The Current Close 31.86 is above the resistance...
+2025-08-07 11:52:07 INFO: Updated resistance to: 31.578 and support to: 31.18
+2025-08-07 11:53:07 INFO: {'PGY': {   'close': 32.18,
+    'high': 32.18,
+    'low': 32.085,
+    'open': 32.085,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 993.0,
+    'vwap': 32.112926}}
+2025-08-07 11:53:07 INFO: Current resistance is: 31.578 and support is: 31.18
+2025-08-07 11:53:07 INFO: Current average volume is: 1019.0
+2025-08-07 11:53:07 INFO: The current close: 32.18 is above the resistance of 31.578, but volume isn't enough...
+2025-08-07 11:53:07 INFO: Updated resistance to: 31.801 and support to: 31.132
+2025-08-07 11:54:08 INFO: {'PGY': {   'close': 31.98,
+    'high': 32.14,
+    'low': 31.98,
+    'open': 32.14,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 270.0,
+    'vwap': 32.06}}
+2025-08-07 11:54:08 INFO: Current resistance is: 31.801 and support is: 31.132
+2025-08-07 11:54:08 INFO: Current average volume is: 961.9
+2025-08-07 11:54:08 INFO: The current close: 31.98 is above the resistance of 31.801, but volume isn't enough...
+2025-08-07 11:54:08 INFO: Updated resistance to: 31.961 and support to: 31.101
+2025-08-07 11:55:08 INFO: {'PGY': {   'close': 32.12,
+    'high': 32.12,
+    'low': 32.08,
+    'open': 32.08,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 258.0,
+    'vwap': 32.1}}
+2025-08-07 11:55:08 INFO: Current resistance is: 31.961 and support is: 31.101
+2025-08-07 11:55:08 INFO: Current average volume is: 893.0
+2025-08-07 11:55:08 INFO: The current close: 32.12 is above the resistance of 31.961, but volume isn't enough...
+2025-08-07 11:55:08 INFO: Updated resistance to: 32.084 and support to: 31.099
+2025-08-07 11:56:09 INFO: {'PGY': {   'close': 32.14,
+    'high': 32.14,
+    'low': 32.05,
+    'open': 32.05,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1091.0,
+    'vwap': 32.075294}}
+2025-08-07 11:56:09 INFO: Current resistance is: 32.084 and support is: 31.099
+2025-08-07 11:56:09 INFO: Current average volume is: 969.2
+2025-08-07 11:56:09 INFO: The current close: 32.14 is above the resistance of 32.084, but volume isn't enough...
+2025-08-07 11:56:09 INFO: Updated resistance to: 32.194 and support to: 31.102
+2025-08-07 11:57:09 INFO: {'PGY': {   'close': 32.035,
+    'high': 32.035,
+    'low': 32.035,
+    'open': 32.035,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 171.0,
+    'vwap': 32.035}}
+2025-08-07 11:57:09 INFO: Current resistance is: 32.194 and support is: 31.102
+2025-08-07 11:57:09 INFO: Current average volume is: 953.3
+2025-08-07 11:57:09 INFO: Updated resistance to: 32.25 and support to: 31.109
+2025-08-07 11:58:10 INFO: {'PGY': {   'close': 32.055,
+    'high': 32.055,
+    'low': 32.055,
+    'open': 32.055,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 532.0,
+    'vwap': 32.055}}
+2025-08-07 11:58:10 INFO: Current resistance is: 32.25 and support is: 31.109
+2025-08-07 11:58:10 INFO: Current average volume is: 846.8
+2025-08-07 11:58:10 INFO: Updated resistance to: 32.307 and support to: 31.122
+2025-08-07 11:59:10 INFO: {'PGY': {   'close': 32.045,
+    'high': 32.125,
+    'low': 32.02,
+    'open': 32.125,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1360.0,
+    'vwap': 32.064533}}
+2025-08-07 11:59:10 INFO: Current resistance is: 32.307 and support is: 31.122
+2025-08-07 11:59:10 INFO: Current average volume is: 877.0
+2025-08-07 11:59:10 INFO: Updated resistance to: 32.377 and support to: 31.132
+2025-08-07 12:00:10 INFO: {'PGY': {   'close': 32.11,
+    'high': 32.11,
+    'low': 32.07,
+    'open': 32.07,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 531.0,
+    'vwap': 32.086}}
+2025-08-07 12:00:10 INFO: Current resistance is: 32.377 and support is: 31.132
+2025-08-07 12:00:10 INFO: Current average volume is: 818.1
+2025-08-07 12:00:10 INFO: Updated resistance to: 32.434 and support to: 31.15
+2025-08-07 12:01:10 INFO: {'PGY': {   'close': 32.18,
+    'high': 32.18,
+    'low': 32.105,
+    'open': 32.105,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1635.0,
+    'vwap': 32.161127}}
+2025-08-07 12:01:10 INFO: Current resistance is: 32.434 and support is: 31.15
+2025-08-07 12:01:10 INFO: Current average volume is: 871.1
+2025-08-07 12:01:10 INFO: Updated resistance to: 32.502 and support to: 31.172
+2025-08-07 12:02:11 INFO: {'PGY': {   'close': 32.13,
+    'high': 32.13,
+    'low': 32.08,
+    'open': 32.08,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1003.0,
+    'vwap': 32.101208}}
+2025-08-07 12:02:11 INFO: Current resistance is: 32.502 and support is: 31.172
+2025-08-07 12:02:11 INFO: Current average volume is: 784.4
+2025-08-07 12:02:11 INFO: Updated resistance to: 32.549 and support to: 31.19
+2025-08-07 12:03:11 INFO: {'PGY': {   'close': 32.255,
+    'high': 32.255,
+    'low': 32.255,
+    'open': 32.255,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 345.0,
+    'vwap': 32.255}}
+2025-08-07 12:03:11 INFO: Current resistance is: 32.549 and support is: 31.19
+2025-08-07 12:03:11 INFO: Current average volume is: 719.6
+2025-08-07 12:03:11 INFO: Updated resistance to: 32.62 and support to: 31.232
+2025-08-07 12:04:11 INFO: {'PGY': {   'close': 32.33,
+    'high': 32.33,
+    'low': 32.21,
+    'open': 32.21,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 226.0,
+    'vwap': 32.27}}
+2025-08-07 12:04:11 INFO: Current resistance is: 32.62 and support is: 31.232
+2025-08-07 12:04:11 INFO: Current average volume is: 715.2
+2025-08-07 12:04:11 INFO: Updated resistance to: 32.7 and support to: 31.264
+2025-08-07 12:05:12 INFO: {'PGY': {   'close': 32.37,
+    'high': 32.37,
+    'low': 32.3,
+    'open': 32.3,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 566.0,
+    'vwap': 32.356}}
+2025-08-07 12:05:12 INFO: Current resistance is: 32.7 and support is: 31.264
+2025-08-07 12:05:12 INFO: Current average volume is: 746.0
+2025-08-07 12:05:12 INFO: Updated resistance to: 32.779 and support to: 31.306
+2025-08-07 12:06:13 INFO: {'PGY': {   'close': 32.42,
+    'high': 32.42,
+    'low': 32.42,
+    'open': 32.42,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 328.0,
+    'vwap': 32.42}}
+2025-08-07 12:06:13 INFO: Current resistance is: 32.779 and support is: 31.306
+2025-08-07 12:06:13 INFO: Current average volume is: 669.7
+2025-08-07 12:06:13 INFO: Updated resistance to: 32.858 and support to: 31.36
+2025-08-07 12:08:13 INFO: {'PGY': {   'close': 32.26,
+    'high': 32.26,
+    'low': 32.26,
+    'open': 32.26,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 179.0,
+    'vwap': 32.26}}
+2025-08-07 12:08:13 INFO: Current resistance is: 32.858 and support is: 31.36
+2025-08-07 12:08:13 INFO: Current average volume is: 670.5
+2025-08-07 12:08:13 INFO: Updated resistance to: 32.892 and support to: 31.388
+2025-08-07 12:09:13 INFO: {'PGY': {   'close': 32.42,
+    'high': 32.42,
+    'low': 32.29,
+    'open': 32.29,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 419.0,
+    'vwap': 32.376667}}
+2025-08-07 12:09:13 INFO: Current resistance is: 32.892 and support is: 31.388
+2025-08-07 12:09:13 INFO: Current average volume is: 659.2
+2025-08-07 12:09:13 INFO: Updated resistance to: 32.955 and support to: 31.417
+2025-08-07 12:11:14 INFO: {'PGY': {   'close': 32.37,
+    'high': 32.37,
+    'low': 32.37,
+    'open': 32.37,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 32.37}}
+2025-08-07 12:11:14 INFO: Current resistance is: 32.955 and support is: 31.417
+2025-08-07 12:11:14 INFO: Current average volume is: 533.3
+2025-08-07 12:11:14 INFO: Updated resistance to: 33.0 and support to: 31.453
+2025-08-07 12:12:15 INFO: {'PGY': {   'close': 32.24,
+    'high': 32.29,
+    'low': 32.24,
+    'open': 32.29,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 507.0,
+    'vwap': 32.271153}}
+2025-08-07 12:12:15 INFO: Current resistance is: 33.0 and support is: 31.453
+2025-08-07 12:12:15 INFO: Current average volume is: 530.9
+2025-08-07 12:12:15 INFO: Updated resistance to: 33.024 and support to: 31.469
+2025-08-07 12:14:16 INFO: {'PGY': {   'close': 32.36,
+    'high': 32.405,
+    'low': 32.315,
+    'open': 32.315,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 816.0,
+    'vwap': 32.365833}}
+2025-08-07 12:14:16 INFO: Current resistance is: 33.024 and support is: 31.469
+2025-08-07 12:14:16 INFO: Current average volume is: 449.0
+2025-08-07 12:14:16 INFO: Updated resistance to: 33.066 and support to: 31.494
+2025-08-07 12:17:17 INFO: {'PGY': {   'close': 32.12,
+    'high': 32.12,
+    'low': 32.12,
+    'open': 32.12,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 32.12}}
+2025-08-07 12:17:17 INFO: Current resistance is: 33.066 and support is: 31.494
+2025-08-07 12:17:17 INFO: Current average volume is: 358.7
+2025-08-07 12:17:17 INFO: Updated resistance to: 33.052 and support to: 31.491
+2025-08-07 12:19:17 INFO: {'PGY': {   'close': 31.93,
+    'high': 31.985,
+    'low': 31.93,
+    'open': 31.985,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 915.0,
+    'vwap': 31.975161}}
+2025-08-07 12:19:17 INFO: Current resistance is: 33.052 and support is: 31.491
+2025-08-07 12:19:17 INFO: Current average volume is: 415.7
+2025-08-07 12:19:17 INFO: Updated resistance to: 33.016 and support to: 31.466
+2025-08-07 12:20:18 INFO: {'PGY': {   'close': 31.9,
+    'high': 31.9,
+    'low': 31.9,
+    'open': 31.9,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 132.0,
+    'vwap': 31.9}}
+2025-08-07 12:20:18 INFO: Current resistance is: 33.016 and support is: 31.466
+2025-08-07 12:20:18 INFO: Current average volume is: 406.3
+2025-08-07 12:20:18 INFO: Updated resistance to: 32.97 and support to: 31.439
+2025-08-07 12:21:18 INFO: {'PGY': {   'close': 31.945,
+    'high': 31.945,
+    'low': 31.945,
+    'open': 31.945,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 301.0,
+    'vwap': 31.945}}
+2025-08-07 12:21:18 INFO: Current resistance is: 32.97 and support is: 31.439
+2025-08-07 12:21:18 INFO: Current average volume is: 379.8
+2025-08-07 12:21:18 INFO: Updated resistance to: 32.936 and support to: 31.419
+2025-08-07 12:22:18 INFO: {'PGY': {   'close': 31.93,
+    'high': 31.93,
+    'low': 31.93,
+    'open': 31.93,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 112.0,
+    'vwap': 31.93}}
+2025-08-07 12:22:18 INFO: Current resistance is: 32.936 and support is: 31.419
+2025-08-07 12:22:18 INFO: Current average volume is: 358.2
+2025-08-07 12:22:18 INFO: Updated resistance to: 32.904 and support to: 31.4
+2025-08-07 12:28:20 INFO: {'PGY': {   'close': 31.585,
+    'high': 31.59,
+    'low': 31.585,
+    'open': 31.59,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 497.0,
+    'vwap': 31.5875}}
+2025-08-07 12:28:20 INFO: Current resistance is: 32.904 and support is: 31.4
+2025-08-07 12:28:20 INFO: Current average volume is: 390.0
+2025-08-07 12:28:20 INFO: Updated resistance to: 32.822 and support to: 31.343
+2025-08-07 12:29:20 INFO: {'PGY': {   'close': 31.79,
+    'high': 31.79,
+    'low': 31.79,
+    'open': 31.79,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 500.0,
+    'vwap': 31.79}}
+2025-08-07 12:29:20 INFO: Current resistance is: 32.822 and support is: 31.343
+2025-08-07 12:29:20 INFO: Current average volume is: 398.1
+2025-08-07 12:29:20 INFO: Updated resistance to: 32.78 and support to: 31.314
+2025-08-07 12:31:21 INFO: {'PGY': {   'close': 31.76,
+    'high': 31.76,
+    'low': 31.76,
+    'open': 31.76,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 228.0,
+    'vwap': 31.76}}
+2025-08-07 12:31:21 INFO: Current resistance is: 32.78 and support is: 31.314
+2025-08-07 12:31:21 INFO: Current average volume is: 410.8
+2025-08-07 12:31:21 INFO: Updated resistance to: 32.737 and support to: 31.284
+2025-08-07 12:32:21 INFO: {'PGY': {   'close': 31.8,
+    'high': 31.8,
+    'low': 31.62,
+    'open': 31.62,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 214.0,
+    'vwap': 31.71}}
+2025-08-07 12:32:21 INFO: Current resistance is: 32.737 and support is: 31.284
+2025-08-07 12:32:21 INFO: Current average volume is: 381.5
+2025-08-07 12:32:21 INFO: Updated resistance to: 32.705 and support to: 31.241
+2025-08-07 12:34:22 INFO: {'PGY': {   'close': 31.555,
+    'high': 31.555,
+    'low': 31.555,
+    'open': 31.555,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.555}}
+2025-08-07 12:34:22 INFO: Current resistance is: 32.705 and support is: 31.241
+2025-08-07 12:34:22 INFO: Current average volume is: 309.9
+2025-08-07 12:34:22 INFO: Updated resistance to: 32.642 and support to: 31.195
+2025-08-07 12:35:22 INFO: {'PGY': {   'close': 31.47,
+    'high': 31.47,
+    'low': 31.47,
+    'open': 31.47,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.47}}
+2025-08-07 12:35:22 INFO: Current resistance is: 32.642 and support is: 31.195
+2025-08-07 12:35:22 INFO: Current average volume is: 309.9
+2025-08-07 12:35:22 INFO: Updated resistance to: 32.573 and support to: 31.144
+2025-08-07 12:36:22 INFO: {'PGY': {   'close': 31.19,
+    'high': 31.38,
+    'low': 31.19,
+    'open': 31.38,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 328.0,
+    'vwap': 31.285}}
+2025-08-07 12:36:22 INFO: Current resistance is: 32.573 and support is: 31.144
+2025-08-07 12:36:22 INFO: Current average volume is: 251.2
+2025-08-07 12:36:22 INFO: Updated resistance to: 32.499 and support to: 31.178
+2025-08-07 12:37:23 INFO: {'PGY': {   'close': 31.245,
+    'high': 31.245,
+    'low': 31.245,
+    'open': 31.245,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 31.245}}
+2025-08-07 12:37:23 INFO: Current resistance is: 32.499 and support is: 31.178
+2025-08-07 12:37:23 INFO: Current average volume is: 248.1
+2025-08-07 12:37:23 INFO: Updated resistance to: 32.414 and support to: 31.163
+2025-08-07 12:38:23 INFO: {'PGY': {   'close': 31.15,
+    'high': 31.15,
+    'low': 31.09,
+    'open': 31.09,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 31.11}}
+2025-08-07 12:38:23 INFO: Current resistance is: 32.414 and support is: 31.163
+2025-08-07 12:38:23 INFO: Current average volume is: 248.0
+2025-08-07 12:38:23 INFO: close price: 31.15 just dropped below support of 31.163...
+2025-08-07 12:39:23 INFO: {'PGY': {   'close': 30.99,
+    'high': 30.99,
+    'low': 30.97,
+    'open': 30.97,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 397.0,
+    'vwap': 30.98}}
+2025-08-07 12:39:23 INFO: Current resistance is: 32.414 and support is: 31.163
+2025-08-07 12:39:23 INFO: Current average volume is: 276.5
+2025-08-07 12:39:23 INFO: Closing price: 30.99 just dropped below support 31.163 again...ending trade...
+2025-08-07 12:48:39 INFO: === Strategy started ===
+2025-08-07 12:48:39 INFO: Start collecting the current highs/lows for: PGY
+2025-08-07 12:48:39 INFO: Most recent stock data: {'PGY': {   'close': 30.825,
+    'high': 30.825,
+    'low': 30.76,
+    'open': 30.76,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 401.0,
+    'vwap': 30.807667}}
+2025-08-07 12:50:40 INFO: Most recent stock data: {'PGY': {   'close': 31.05,
+    'high': 31.05,
+    'low': 31.03,
+    'open': 31.03,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 731.0,
+    'vwap': 31.047143}}
+2025-08-07 12:51:40 INFO: Most recent stock data: {'PGY': {   'close': 31.15,
+    'high': 31.16,
+    'low': 31.12,
+    'open': 31.15,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 776.0,
+    'vwap': 31.140714}}
+2025-08-07 12:53:41 INFO: Most recent stock data: {'PGY': {   'close': 31.06,
+    'high': 31.06,
+    'low': 31.06,
+    'open': 31.06,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 261.0,
+    'vwap': 31.06}}
+2025-08-07 12:55:41 INFO: Most recent stock data: {'PGY': {   'close': 30.945,
+    'high': 30.965,
+    'low': 30.945,
+    'open': 30.96,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 380.0,
+    'vwap': 30.956667}}
+2025-08-07 12:57:42 INFO: Most recent stock data: {'PGY': {   'close': 31.0,
+    'high': 31.0,
+    'low': 30.94,
+    'open': 30.94,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 209.0,
+    'vwap': 30.97}}
+2025-08-07 12:58:42 INFO: Most recent stock data: {'PGY': {   'close': 31.035,
+    'high': 31.035,
+    'low': 31.035,
+    'open': 31.035,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 293.0,
+    'vwap': 31.035}}
+2025-08-07 12:59:42 INFO: Most recent stock data: {'PGY': {   'close': 30.95,
+    'high': 30.95,
+    'low': 30.93,
+    'open': 30.93,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 231.0,
+    'vwap': 30.94}}
+2025-08-07 13:00:42 INFO: Most recent stock data: {'PGY': {   'close': 30.97,
+    'high': 30.97,
+    'low': 30.97,
+    'open': 30.97,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.97}}
+2025-08-07 13:01:43 INFO: Most recent stock data: {'PGY': {   'close': 30.985,
+    'high': 30.985,
+    'low': 30.985,
+    'open': 30.985,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.985}}
+2025-08-07 13:02:43 INFO: Most recent stock data: {'PGY': {   'close': 30.955,
+    'high': 30.955,
+    'low': 30.955,
+    'open': 30.955,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 30.955}}
+2025-08-07 13:02:43 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 13:02:43 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-07 13:03:44 INFO: {'PGY': {   'close': 30.75,
+    'high': 30.87,
+    'low': 30.75,
+    'open': 30.87,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 254.0,
+    'vwap': 30.81}}
+2025-08-07 13:03:44 INFO: Current resistance is: 31.16 and support is: 30.76
+2025-08-07 13:03:44 INFO: Current average volume is: 270.5
+2025-08-07 13:03:44 INFO: close price: 30.75 just dropped below support of 30.76...
+2025-08-07 13:04:44 INFO: {'PGY': {   'close': 30.76,
+    'high': 30.76,
+    'low': 30.76,
+    'open': 30.76,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 30.76}}
+2025-08-07 13:04:44 INFO: Current resistance is: 31.16 and support is: 30.76
+2025-08-07 13:04:44 INFO: Current average volume is: 203.0
+2025-08-07 13:05:44 INFO: {'PGY': {   'close': 30.62,
+    'high': 30.62,
+    'low': 30.62,
+    'open': 30.62,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 30.62}}
+2025-08-07 13:05:44 INFO: Current resistance is: 31.16 and support is: 30.76
+2025-08-07 13:05:44 INFO: Current average volume is: 197.0
+2025-08-07 13:05:44 INFO: Closing price: 30.62 just dropped below support 30.76 again...ending trade...
+2025-08-07 14:03:47 INFO: === Strategy started ===
+2025-08-07 14:03:47 INFO: Start collecting the current highs/lows for: PGY
+2025-08-07 14:03:47 INFO: Most recent stock data: {'PGY': {   'close': 30.56,
+    'high': 30.56,
+    'low': 30.56,
+    'open': 30.56,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 170.0,
+    'vwap': 30.56}}
+2025-08-07 14:04:48 INFO: Most recent stock data: {'PGY': {   'close': 30.58,
+    'high': 30.58,
+    'low': 30.58,
+    'open': 30.58,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 30.58}}
+2025-08-07 14:05:48 INFO: Most recent stock data: {'PGY': {   'close': 30.62,
+    'high': 30.62,
+    'low': 30.405,
+    'open': 30.405,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2302.0,
+    'vwap': 30.52}}
+2025-08-07 14:06:49 INFO: Most recent stock data: {'PGY': {   'close': 30.55,
+    'high': 30.55,
+    'low': 30.495,
+    'open': 30.495,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 401.0,
+    'vwap': 30.53375}}
+2025-08-07 14:11:50 INFO: Most recent stock data: {'PGY': {   'close': 30.28,
+    'high': 30.28,
+    'low': 30.28,
+    'open': 30.28,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.28}}
+2025-08-07 14:12:50 INFO: Most recent stock data: {'PGY': {   'close': 30.2,
+    'high': 30.2,
+    'low': 30.2,
+    'open': 30.2,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 216.0,
+    'vwap': 30.2}}
+2025-08-07 14:15:51 INFO: Most recent stock data: {'PGY': {   'close': 30.16,
+    'high': 30.16,
+    'low': 30.08,
+    'open': 30.08,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 559.0,
+    'vwap': 30.1175}}
+2025-08-07 14:16:52 INFO: Most recent stock data: {'PGY': {   'close': 30.15,
+    'high': 30.15,
+    'low': 30.15,
+    'open': 30.15,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 200.0,
+    'vwap': 30.15}}
+2025-08-07 14:17:52 INFO: Most recent stock data: {'PGY': {   'close': 30.03,
+    'high': 30.06,
+    'low': 30.03,
+    'open': 30.05,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1072.0,
+    'vwap': 30.052}}
+2025-08-07 14:19:52 INFO: Most recent stock data: {'PGY': {   'close': 30.13,
+    'high': 30.13,
+    'low': 30.13,
+    'open': 30.13,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.13}}
+2025-08-07 14:21:52 INFO: Most recent stock data: {'PGY': {   'close': 30.09,
+    'high': 30.09,
+    'low': 30.09,
+    'open': 30.09,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.09}}
+2025-08-07 14:21:52 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-07 14:21:52 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-07 14:23:53 INFO: {'PGY': {   'close': 30.06,
+    'high': 30.06,
+    'low': 30.06,
+    'open': 30.06,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 543.0,
+    'vwap': 30.06}}
+2025-08-07 14:23:53 INFO: Current resistance is: 30.068 and support is: 29.862
+2025-08-07 14:23:53 INFO: Current average volume is: 559.3
+2025-08-07 14:23:53 INFO: Updated resistance to: 30.053 and support to: 29.825
+2025-08-07 14:25:53 INFO: {'PGY': {   'close': 30.17,
+    'high': 30.17,
+    'low': 30.11,
+    'open': 30.11,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 493.0,
+    'vwap': 30.133333}}
+2025-08-07 14:25:53 INFO: Current resistance is: 30.053 and support is: 29.825
+2025-08-07 14:25:53 INFO: Current average volume is: 378.4
+2025-08-07 14:25:53 INFO: The Current Close 30.17 is above the resistance...
+2025-08-07 14:25:53 INFO: Updated resistance to: 30.088 and support to: 29.805
+2025-08-07 14:30:25 INFO: {'PGY': {   'close': 30.28,
+    'high': 30.28,
+    'low': 30.28,
+    'open': 30.28,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 216.0,
+    'vwap': 30.28}}
+2025-08-07 14:30:25 INFO: Current resistance is: 30.088 and support is: 29.805
+2025-08-07 14:30:25 INFO: Current average volume is: 359.9
+2025-08-07 14:30:25 INFO: The current close: 30.28 is above the resistance of 30.088, but volume isn't enough...
+2025-08-07 14:30:25 INFO: Updated resistance to: 30.156 and support to: 29.82
+2025-08-07 14:31:26 INFO: {'PGY': {   'close': 30.25,
+    'high': 30.25,
+    'low': 30.25,
+    'open': 30.25,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 240.0,
+    'vwap': 30.25}}
+2025-08-07 14:31:26 INFO: Current resistance is: 30.156 and support is: 29.82
+2025-08-07 14:31:26 INFO: Current average volume is: 373.9
+2025-08-07 14:31:26 INFO: The current close: 30.25 is above the resistance of 30.156, but volume isn't enough...
+2025-08-07 14:31:26 INFO: Updated resistance to: 30.203 and support to: 29.831
+2025-08-07 14:35:28 INFO: {'PGY': {   'close': 30.45,
+    'high': 30.45,
+    'low': 30.36,
+    'open': 30.36,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 855.0,
+    'vwap': 30.415293}}
+2025-08-07 14:35:28 INFO: Current resistance is: 30.203 and support is: 29.831
+2025-08-07 14:35:28 INFO: Current average volume is: 437.8
+2025-08-07 14:35:28 INFO: The current close: 30.45 is above the resistance of 30.203, but volume isn't enough...
+2025-08-07 14:35:28 INFO: Updated resistance to: 30.304 and support to: 29.863
+2025-08-07 14:37:29 INFO: {'PGY': {   'close': 30.42,
+    'high': 30.42,
+    'low': 30.42,
+    'open': 30.42,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 242.0,
+    'vwap': 30.42}}
+2025-08-07 14:37:29 INFO: Current resistance is: 30.304 and support is: 29.863
+2025-08-07 14:37:29 INFO: Current average volume is: 406.1
+2025-08-07 14:37:29 INFO: The current close: 30.42 is above the resistance of 30.304, but volume isn't enough...
+2025-08-07 14:37:29 INFO: Updated resistance to: 30.377 and support to: 29.903
+2025-08-07 14:43:02 INFO: {'PGY': {   'close': 30.415,
+    'high': 30.415,
+    'low': 30.415,
+    'open': 30.415,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 250.0,
+    'vwap': 30.415}}
+2025-08-07 14:43:02 INFO: Current resistance is: 30.377 and support is: 29.903
+2025-08-07 14:43:02 INFO: Current average volume is: 411.1
+2025-08-07 14:43:02 INFO: The current close: 30.415 is above the resistance of 30.377, but volume isn't enough...
+2025-08-07 14:43:02 INFO: Updated resistance to: 30.435 and support to: 29.938
+2025-08-07 14:51:07 INFO: {'PGY': {   'close': 30.46,
+    'high': 30.465,
+    'low': 30.46,
+    'open': 30.465,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 428.0,
+    'vwap': 30.461724}}
+2025-08-07 14:51:07 INFO: Current resistance is: 30.435 and support is: 29.938
+2025-08-07 14:51:07 INFO: Current average volume is: 346.7
+2025-08-07 14:51:07 INFO: The current close: 30.46 is above the resistance of 30.435, but volume isn't enough...
+2025-08-07 14:51:07 INFO: Updated resistance to: 30.497 and support to: 29.976
+2025-08-07 14:53:08 INFO: {'PGY': {   'close': 30.8,
+    'high': 30.8,
+    'low': 30.8,
+    'open': 30.8,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 700.0,
+    'vwap': 30.8}}
+2025-08-07 14:53:08 INFO: Current resistance is: 30.497 and support is: 29.976
+2025-08-07 14:53:08 INFO: Current average volume is: 406.7
+2025-08-07 14:53:08 INFO: The current close: 30.8 is above the resistance of 30.497, but volume isn't enough...
+2025-08-07 14:53:08 INFO: Updated resistance to: 30.801 and support to: 30.069
+2025-08-07 14:54:09 INFO: {'PGY': {   'close': 30.73,
+    'high': 30.73,
+    'low': 30.64,
+    'open': 30.64,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 829.0,
+    'vwap': 30.7075}}
+2025-08-07 14:54:09 INFO: Current resistance is: 30.801 and support is: 30.069
+2025-08-07 14:54:09 INFO: Current average volume is: 479.6
+2025-08-07 14:54:09 INFO: Updated resistance to: 30.812 and support to: 30.122
+2025-08-07 14:56:10 INFO: {'PGY': {   'close': 30.98,
+    'high': 30.98,
+    'low': 30.86,
+    'open': 30.86,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 758.0,
+    'vwap': 30.921667}}
+2025-08-07 14:56:10 INFO: Current resistance is: 30.812 and support is: 30.122
+2025-08-07 14:56:10 INFO: Current average volume is: 501.1
+2025-08-07 14:56:10 INFO: The Current Close 30.98 is above the resistance...
+2025-08-07 14:56:10 INFO: Updated resistance to: 30.992 and support to: 30.205
+2025-08-07 14:58:10 INFO: {'PGY': {   'close': 30.79,
+    'high': 30.79,
+    'low': 30.74,
+    'open': 30.74,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1315.0,
+    'vwap': 30.778462}}
+2025-08-07 14:58:10 INFO: Current resistance is: 30.992 and support is: 30.205
+2025-08-07 14:58:10 INFO: Current average volume is: 583.3
+2025-08-07 14:58:10 INFO: Updated resistance to: 31.011 and support to: 30.258
+2025-08-07 14:59:11 INFO: {'PGY': {   'close': 30.655,
+    'high': 30.665,
+    'low': 30.585,
+    'open': 30.585,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 510.0,
+    'vwap': 30.6425}}
+2025-08-07 14:59:11 INFO: Current resistance is: 31.011 and support is: 30.258
+2025-08-07 14:59:11 INFO: Current average volume is: 612.7
+2025-08-07 14:59:11 INFO: Updated resistance to: 31.029 and support to: 30.28
+2025-08-07 15:00:11 INFO: {'PGY': {   'close': 30.69,
+    'high': 30.69,
+    'low': 30.69,
+    'open': 30.69,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 103.0,
+    'vwap': 30.69}}
+2025-08-07 15:00:11 INFO: Current resistance is: 31.029 and support is: 30.28
+2025-08-07 15:00:11 INFO: Current average volume is: 599.0
+2025-08-07 15:00:11 INFO: Updated resistance to: 31.048 and support to: 30.314
+2025-08-07 15:01:11 INFO: {'PGY': {   'close': 30.58,
+    'high': 30.58,
+    'low': 30.58,
+    'open': 30.58,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 30.58}}
+2025-08-07 15:01:11 INFO: Current resistance is: 31.048 and support is: 30.314
+2025-08-07 15:01:11 INFO: Current average volume is: 534.5
+2025-08-07 15:01:11 INFO: Updated resistance to: 31.062 and support to: 30.327
+2025-08-07 15:02:11 INFO: {'PGY': {   'close': 30.67,
+    'high': 30.71,
+    'low': 30.605,
+    'open': 30.605,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 940.0,
+    'vwap': 30.660833}}
+2025-08-07 15:02:11 INFO: Current resistance is: 31.062 and support is: 30.327
+2025-08-07 15:02:11 INFO: Current average volume is: 604.3
+2025-08-07 15:02:11 INFO: Updated resistance to: 31.081 and support to: 30.342
+2025-08-07 15:03:11 INFO: {'PGY': {   'close': 30.455,
+    'high': 30.455,
+    'low': 30.455,
+    'open': 30.455,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 103.0,
+    'vwap': 30.455}}
+2025-08-07 15:03:11 INFO: Current resistance is: 31.081 and support is: 30.342
+2025-08-07 15:03:11 INFO: Current average volume is: 589.6
+2025-08-07 15:03:11 INFO: Updated resistance to: 31.087 and support to: 30.332
+2025-08-07 15:05:12 INFO: {'PGY': {   'close': 30.52,
+    'high': 30.52,
+    'low': 30.49,
+    'open': 30.49,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 565.0,
+    'vwap': 30.505}}
+2025-08-07 15:05:12 INFO: Current resistance is: 31.087 and support is: 30.332
+2025-08-07 15:05:12 INFO: Current average volume is: 603.3
+2025-08-07 15:05:12 INFO: Updated resistance to: 31.094 and support to: 30.328
+2025-08-07 15:08:12 INFO: {'PGY': {   'close': 30.6,
+    'high': 30.6,
+    'low': 30.6,
+    'open': 30.6,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 133.0,
+    'vwap': 30.6}}
+2025-08-07 15:08:12 INFO: Current resistance is: 31.094 and support is: 30.328
+2025-08-07 15:08:12 INFO: Current average volume is: 546.6
+2025-08-07 15:08:12 INFO: Updated resistance to: 31.105 and support to: 30.339
+2025-08-07 15:09:13 INFO: {'PGY': {   'close': 30.63,
+    'high': 30.63,
+    'low': 30.63,
+    'open': 30.63,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 400.0,
+    'vwap': 30.63}}
+2025-08-07 15:09:13 INFO: Current resistance is: 31.105 and support is: 30.339
+2025-08-07 15:09:13 INFO: Current average volume is: 503.7
+2025-08-07 15:09:13 INFO: Updated resistance to: 31.117 and support to: 30.353
+2025-08-07 15:11:13 INFO: {'PGY': {   'close': 30.66,
+    'high': 30.66,
+    'low': 30.54,
+    'open': 30.54,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 577.0,
+    'vwap': 30.57}}
+2025-08-07 15:11:13 INFO: Current resistance is: 31.117 and support is: 30.353
+2025-08-07 15:11:13 INFO: Current average volume is: 485.6
+2025-08-07 15:11:13 INFO: Updated resistance to: 31.13 and support to: 30.353
+2025-08-07 15:13:14 INFO: {'PGY': {   'close': 30.71,
+    'high': 30.74,
+    'low': 30.71,
+    'open': 30.74,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 307.0,
+    'vwap': 30.725}}
+2025-08-07 15:13:14 INFO: Current resistance is: 31.13 and support is: 30.353
+2025-08-07 15:13:14 INFO: Current average volume is: 384.8
+2025-08-07 15:13:14 INFO: Updated resistance to: 31.147 and support to: 30.375
+2025-08-07 15:15:14 INFO: {'PGY': {   'close': 30.85,
+    'high': 30.85,
+    'low': 30.85,
+    'open': 30.85,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 136.0,
+    'vwap': 30.85}}
+2025-08-07 15:15:14 INFO: Current resistance is: 31.147 and support is: 30.375
+2025-08-07 15:15:14 INFO: Current average volume is: 347.4
+2025-08-07 15:15:14 INFO: Updated resistance to: 31.171 and support to: 30.413
+2025-08-07 15:21:15 INFO: {'PGY': {   'close': 30.56,
+    'high': 30.56,
+    'low': 30.56,
+    'open': 30.56,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.56}}
+2025-08-07 15:21:15 INFO: Current resistance is: 31.171 and support is: 30.413
+2025-08-07 15:21:15 INFO: Current average volume is: 347.1
+2025-08-07 15:21:15 INFO: Updated resistance to: 31.174 and support to: 30.409
+2025-08-07 15:23:16 INFO: {'PGY': {   'close': 30.47,
+    'high': 30.535,
+    'low': 30.47,
+    'open': 30.51,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 443.0,
+    'vwap': 30.5125}}
+2025-08-07 15:23:16 INFO: Current resistance is: 31.174 and support is: 30.409
+2025-08-07 15:23:16 INFO: Current average volume is: 370.4
+2025-08-07 15:23:16 INFO: Updated resistance to: 31.174 and support to: 30.394
+2025-08-07 15:25:16 INFO: {'PGY': {   'close': 30.29,
+    'high': 30.29,
+    'low': 30.29,
+    'open': 30.29,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 111.0,
+    'vwap': 30.29}}
+2025-08-07 15:25:16 INFO: Current resistance is: 31.174 and support is: 30.394
+2025-08-07 15:25:16 INFO: Current average volume is: 287.5
+2025-08-07 15:25:16 INFO: close price: 30.29 just dropped below support of 30.394...
+2025-08-07 15:29:17 INFO: {'PGY': {   'close': 30.47,
+    'high': 30.47,
+    'low': 30.27,
+    'open': 30.27,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1034.0,
+    'vwap': 30.358987}}
+2025-08-07 15:29:17 INFO: Current resistance is: 31.174 and support is: 30.394
+2025-08-07 15:29:17 INFO: Current average volume is: 380.6
+2025-08-07 15:29:17 INFO: Updated resistance to: 31.154 and support to: 30.322
+2025-08-07 15:32:18 INFO: {'PGY': {   'close': 30.54,
+    'high': 30.59,
+    'low': 30.54,
+    'open': 30.59,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 236.0,
+    'vwap': 30.565}}
+2025-08-07 15:32:18 INFO: Current resistance is: 31.154 and support is: 30.322
+2025-08-07 15:32:18 INFO: Current average volume is: 347.7
+2025-08-07 15:32:18 INFO: Updated resistance to: 31.158 and support to: 30.321
+2025-08-07 15:33:18 INFO: {'PGY': {   'close': 30.44,
+    'high': 30.505,
+    'low': 30.44,
+    'open': 30.505,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 231.0,
+    'vwap': 30.4725}}
+2025-08-07 15:33:18 INFO: Current resistance is: 31.158 and support is: 30.321
+2025-08-07 15:33:18 INFO: Current average volume is: 357.5
+2025-08-07 15:33:18 INFO: Updated resistance to: 31.156 and support to: 30.308
+2025-08-07 15:34:18 INFO: {'PGY': {   'close': 30.36,
+    'high': 30.365,
+    'low': 30.36,
+    'open': 30.365,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 333.0,
+    'vwap': 30.361667}}
+2025-08-07 15:34:18 INFO: Current resistance is: 31.156 and support is: 30.308
+2025-08-07 15:34:18 INFO: Current average volume is: 350.8
+2025-08-07 15:34:18 INFO: Updated resistance to: 31.144 and support to: 30.286
+2025-08-07 15:35:19 INFO: {'PGY': {   'close': 30.28,
+    'high': 30.315,
+    'low': 30.28,
+    'open': 30.315,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 30.2975}}
+2025-08-07 15:35:19 INFO: Current resistance is: 31.144 and support is: 30.286
+2025-08-07 15:35:19 INFO: Current average volume is: 313.2
+2025-08-07 15:35:19 INFO: close price: 30.28 just dropped below support of 30.286...
+2025-08-07 15:36:19 INFO: {'PGY': {   'close': 30.32,
+    'high': 30.32,
+    'low': 30.32,
+    'open': 30.32,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 171.0,
+    'vwap': 30.32}}
+2025-08-07 15:36:19 INFO: Current resistance is: 31.144 and support is: 30.286
+2025-08-07 15:36:19 INFO: Current average volume is: 299.6
+2025-08-07 15:36:19 INFO: Updated resistance to: 31.114 and support to: 30.235
+2025-08-07 15:37:19 INFO: {'PGY': {   'close': 30.36,
+    'high': 30.36,
+    'low': 30.33,
+    'open': 30.33,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 627.0,
+    'vwap': 30.354286}}
+2025-08-07 15:37:19 INFO: Current resistance is: 31.114 and support is: 30.235
+2025-08-07 15:37:19 INFO: Current average volume is: 348.7
+2025-08-07 15:37:19 INFO: Updated resistance to: 31.103 and support to: 30.216
+2025-08-07 15:38:19 INFO: {'PGY': {   'close': 30.425,
+    'high': 30.425,
+    'low': 30.425,
+    'open': 30.425,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 190.0,
+    'vwap': 30.425}}
+2025-08-07 15:38:19 INFO: Current resistance is: 31.103 and support is: 30.216
+2025-08-07 15:38:19 INFO: Current average volume is: 357.7
+2025-08-07 15:38:19 INFO: Updated resistance to: 31.097 and support to: 30.208
+2025-08-07 15:39:19 INFO: {'PGY': {   'close': 30.4,
+    'high': 30.4,
+    'low': 30.4,
+    'open': 30.4,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.4}}
+2025-08-07 15:39:19 INFO: Current resistance is: 31.097 and support is: 30.208
+2025-08-07 15:39:19 INFO: Current average volume is: 323.4
+2025-08-07 15:39:19 INFO: Updated resistance to: 31.09 and support to: 30.198
+2025-08-07 15:41:20 INFO: {'PGY': {   'close': 30.335,
+    'high': 30.335,
+    'low': 30.335,
+    'open': 30.335,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 345.0,
+    'vwap': 30.335}}
+2025-08-07 15:41:20 INFO: Current resistance is: 31.09 and support is: 30.198
+2025-08-07 15:41:20 INFO: Current average volume is: 346.8
+2025-08-07 15:41:20 INFO: Updated resistance to: 31.078 and support to: 30.181
+2025-08-07 15:42:20 INFO: {'PGY': {   'close': 30.36,
+    'high': 30.36,
+    'low': 30.36,
+    'open': 30.36,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 507.0,
+    'vwap': 30.36}}
+2025-08-07 15:42:20 INFO: Current resistance is: 31.078 and support is: 30.181
+2025-08-07 15:42:20 INFO: Current average volume is: 294.1
+2025-08-07 15:42:20 INFO: Updated resistance to: 31.068 and support to: 30.169
+2025-08-07 15:44:20 INFO: {'PGY': {   'close': 30.26,
+    'high': 30.32,
+    'low': 30.26,
+    'open': 30.32,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 310.0,
+    'vwap': 30.29}}
+2025-08-07 15:44:20 INFO: Current resistance is: 31.068 and support is: 30.169
+2025-08-07 15:44:20 INFO: Current average volume is: 301.5
+2025-08-07 15:44:20 INFO: Updated resistance to: 31.056 and support to: 30.147
+2025-08-07 15:45:21 INFO: {'PGY': {   'close': 30.285,
+    'high': 30.285,
+    'low': 30.285,
+    'open': 30.285,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 231.0,
+    'vwap': 30.285}}
+2025-08-07 15:45:21 INFO: Current resistance is: 31.056 and support is: 30.147
+2025-08-07 15:45:21 INFO: Current average volume is: 301.5
+2025-08-07 15:45:21 INFO: Updated resistance to: 31.043 and support to: 30.129
+2025-08-07 15:47:21 INFO: {'PGY': {   'close': 30.32,
+    'high': 30.32,
+    'low': 30.3,
+    'open': 30.3,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 234.0,
+    'vwap': 30.31}}
+2025-08-07 15:47:21 INFO: Current resistance is: 31.043 and support is: 30.129
+2025-08-07 15:47:21 INFO: Current average volume is: 291.6
+2025-08-07 15:47:21 INFO: Updated resistance to: 31.032 and support to: 30.114
+2025-08-07 15:48:21 INFO: {'PGY': {   'close': 30.48,
+    'high': 30.48,
+    'low': 30.35,
+    'open': 30.35,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1453.0,
+    'vwap': 30.399179}}
+2025-08-07 15:48:21 INFO: Current resistance is: 31.032 and support is: 30.114
+2025-08-07 15:48:21 INFO: Current average volume is: 416.8
+2025-08-07 15:48:21 INFO: Updated resistance to: 31.033 and support to: 30.104
+2025-08-07 15:49:23 INFO: {'PGY': {   'close': 30.6,
+    'high': 30.71,
+    'low': 30.545,
+    'open': 30.545,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1357.0,
+    'vwap': 30.625}}
+2025-08-07 15:49:23 INFO: Current resistance is: 31.033 and support is: 30.104
+2025-08-07 15:49:23 INFO: Current average volume is: 535.4
+2025-08-07 15:49:23 INFO: Updated resistance to: 31.049 and support to: 30.114
+2025-08-07 15:50:24 INFO: {'PGY': {   'close': 30.59,
+    'high': 30.62,
+    'low': 30.58,
+    'open': 30.58,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 842.0,
+    'vwap': 30.589286}}
+2025-08-07 15:50:24 INFO: Current resistance is: 31.049 and support is: 30.114
+2025-08-07 15:50:24 INFO: Current average volume is: 556.9
+2025-08-07 15:50:24 INFO: Updated resistance to: 31.058 and support to: 30.126
+2025-08-07 15:51:24 INFO: {'PGY': {   'close': 30.555,
+    'high': 30.69,
+    'low': 30.555,
+    'open': 30.69,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 784.0,
+    'vwap': 30.6}}
+2025-08-07 15:51:24 INFO: Current resistance is: 31.058 and support is: 30.126
+2025-08-07 15:51:24 INFO: Current average volume is: 616.3
+2025-08-07 15:51:24 INFO: Updated resistance to: 31.071 and support to: 30.135
+2025-08-07 15:52:24 INFO: {'PGY': {   'close': 30.46,
+    'high': 30.46,
+    'low': 30.46,
+    'open': 30.46,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 279.0,
+    'vwap': 30.46}}
+2025-08-07 15:52:24 INFO: Current resistance is: 31.071 and support is: 30.135
+2025-08-07 15:52:24 INFO: Current average volume is: 634.2
+2025-08-07 15:52:24 INFO: Updated resistance to: 31.068 and support to: 30.135
+2025-08-07 15:53:25 INFO: {'PGY': {   'close': 30.41,
+    'high': 30.44,
+    'low': 30.41,
+    'open': 30.44,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 701.0,
+    'vwap': 30.43}}
+2025-08-07 15:53:25 INFO: Current resistance is: 31.068 and support is: 30.135
+2025-08-07 15:53:25 INFO: Current average volume is: 669.8
+2025-08-07 15:53:25 INFO: Updated resistance to: 31.065 and support to: 30.13
+2025-08-07 15:54:25 INFO: {'PGY': {   'close': 30.42,
+    'high': 30.43,
+    'low': 30.4,
+    'open': 30.41,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 567.0,
+    'vwap': 30.412}}
+2025-08-07 15:54:25 INFO: Current resistance is: 31.065 and support is: 30.13
+2025-08-07 15:54:25 INFO: Current average volume is: 675.8
+2025-08-07 15:54:25 INFO: Updated resistance to: 31.06 and support to: 30.124
+2025-08-07 15:56:25 INFO: {'PGY': {   'close': 30.49,
+    'high': 30.495,
+    'low': 30.34,
+    'open': 30.39,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2568.0,
+    'vwap': 30.394748}}
+2025-08-07 15:56:25 INFO: Current resistance is: 31.06 and support is: 30.124
+2025-08-07 15:56:25 INFO: Current average volume is: 901.6
+2025-08-07 15:56:25 INFO: Updated resistance to: 31.06 and support to: 30.114
+2025-08-07 15:57:26 INFO: {'PGY': {   'close': 30.5,
+    'high': 30.5,
+    'low': 30.46,
+    'open': 30.5,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1917.0,
+    'vwap': 30.490769}}
+2025-08-07 15:57:26 INFO: Current resistance is: 31.06 and support is: 30.114
+2025-08-07 15:57:26 INFO: Current average volume is: 1070.2
+2025-08-07 15:57:26 INFO: Updated resistance to: 31.061 and support to: 30.115
+2025-08-07 15:58:26 INFO: {'PGY': {   'close': 30.68,
+    'high': 30.69,
+    'low': 30.51,
+    'open': 30.51,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 1979.0,
+    'vwap': 30.655}}
+2025-08-07 15:58:26 INFO: Current resistance is: 31.061 and support is: 30.115
+2025-08-07 15:58:26 INFO: Current average volume is: 1244.7
+2025-08-07 15:58:26 INFO: Updated resistance to: 31.073 and support to: 30.119
+2025-08-07 15:59:26 INFO: {'PGY': {   'close': 30.655,
+    'high': 30.665,
+    'low': 30.63,
+    'open': 30.665,
+    'symbol': 'PGY',
+    'timestamp': datetime.datetime(2025, 8, 7, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 2252.0,
+    'vwap': 30.643125}}
+2025-08-07 15:59:26 INFO: Current resistance is: 31.073 and support is: 30.119
+2025-08-07 15:59:26 INFO: Current average volume is: 1324.6
+2025-08-07 15:59:26 INFO: Updated resistance to: 31.083 and support to: 30.134
+2025-08-07 16:00:26 INFO: The Market is closed...
