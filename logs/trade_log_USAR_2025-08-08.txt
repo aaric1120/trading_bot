@@ -1,0 +1,1613 @@
+2025-08-08 10:32:47 INFO: === Strategy started ===
+2025-08-08 10:32:47 INFO: Start collecting the current highs/lows for: USAR
+2025-08-08 10:32:47 INFO: Most recent stock data: {'USAR': {   'close': 16.315,
+    'high': 16.46,
+    'low': 16.315,
+    'open': 16.46,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 741.0,
+    'vwap': 16.38869}}
+2025-08-08 10:33:48 INFO: Most recent stock data: {'USAR': {   'close': 16.25,
+    'high': 16.25,
+    'low': 16.25,
+    'open': 16.25,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 250.0,
+    'vwap': 16.25}}
+2025-08-08 10:34:49 INFO: Most recent stock data: {'USAR': {   'close': 16.42,
+    'high': 16.42,
+    'low': 16.42,
+    'open': 16.42,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 195.0,
+    'vwap': 16.42}}
+2025-08-08 10:35:49 INFO: Most recent stock data: {'USAR': {   'close': 16.545,
+    'high': 16.635,
+    'low': 16.54,
+    'open': 16.58,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 961.0,
+    'vwap': 16.586471}}
+2025-08-08 10:36:49 INFO: Most recent stock data: {'USAR': {   'close': 16.38,
+    'high': 16.535,
+    'low': 16.38,
+    'open': 16.535,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 800.0,
+    'vwap': 16.450625}}
+2025-08-08 10:37:50 INFO: Most recent stock data: {'USAR': {   'close': 16.335,
+    'high': 16.37,
+    'low': 16.315,
+    'open': 16.365,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1006.0,
+    'vwap': 16.352311}}
+2025-08-08 10:38:50 INFO: Most recent stock data: {'USAR': {   'close': 16.355,
+    'high': 16.355,
+    'low': 16.355,
+    'open': 16.355,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.355}}
+2025-08-08 10:39:51 INFO: Most recent stock data: {'USAR': {   'close': 16.345,
+    'high': 16.37,
+    'low': 16.29,
+    'open': 16.35,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 970.0,
+    'vwap': 16.327474}}
+2025-08-08 10:40:51 INFO: Most recent stock data: {'USAR': {   'close': 16.33,
+    'high': 16.35,
+    'low': 16.33,
+    'open': 16.35,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 16.34}}
+2025-08-08 10:41:51 INFO: Most recent stock data: {'USAR': {   'close': 16.3,
+    'high': 16.3,
+    'low': 16.28,
+    'open': 16.28,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 346.0,
+    'vwap': 16.286667}}
+2025-08-08 10:42:52 INFO: Most recent stock data: {'USAR': {   'close': 16.29,
+    'high': 16.29,
+    'low': 16.29,
+    'open': 16.29,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 114.0,
+    'vwap': 16.29}}
+2025-08-08 10:42:52 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 10:42:52 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-08 10:43:53 INFO: {'USAR': {   'close': 16.2,
+    'high': 16.24,
+    'low': 16.17,
+    'open': 16.24,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 613.0,
+    'vwap': 16.206667}}
+2025-08-08 10:43:53 INFO: Current resistance is: 16.635 and support is: 16.25
+2025-08-08 10:43:53 INFO: Current average volume is: 530.5
+2025-08-08 10:43:53 INFO: close price: 16.2 just dropped below support of 16.25...
+2025-08-08 10:44:53 INFO: {'USAR': {   'close': 16.225,
+    'high': 16.225,
+    'low': 16.225,
+    'open': 16.225,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 280.0,
+    'vwap': 16.225}}
+2025-08-08 10:44:53 INFO: Current resistance is: 16.635 and support is: 16.25
+2025-08-08 10:44:53 INFO: Current average volume is: 539.0
+2025-08-08 10:44:53 INFO: Closing price: 16.225 just dropped below support 16.25 again...ending trade...
+2025-08-08 11:32:49 INFO: === Strategy started ===
+2025-08-08 11:32:49 INFO: Start collecting the current highs/lows for: USAR
+2025-08-08 11:32:49 INFO: Most recent stock data: {'USAR': {   'close': 15.93,
+    'high': 15.93,
+    'low': 15.915,
+    'open': 15.915,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 15.9225}}
+2025-08-08 11:33:50 INFO: Most recent stock data: {'USAR': {   'close': 15.995,
+    'high': 15.995,
+    'low': 15.995,
+    'open': 15.995,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 203.0,
+    'vwap': 15.995}}
+2025-08-08 11:36:51 INFO: Most recent stock data: {'USAR': {   'close': 16.0,
+    'high': 16.0,
+    'low': 16.0,
+    'open': 16.0,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 16.0}}
+2025-08-08 11:37:52 INFO: Most recent stock data: {'USAR': {   'close': 15.995,
+    'high': 15.995,
+    'low': 15.995,
+    'open': 15.995,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 238.0,
+    'vwap': 15.995}}
+2025-08-08 11:38:52 INFO: Most recent stock data: {'USAR': {   'close': 16.085,
+    'high': 16.1,
+    'low': 16.085,
+    'open': 16.1,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 425.0,
+    'vwap': 16.08875}}
+2025-08-08 11:39:53 INFO: Most recent stock data: {'USAR': {   'close': 16.025,
+    'high': 16.035,
+    'low': 16.025,
+    'open': 16.035,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 218.0,
+    'vwap': 16.03}}
+2025-08-08 11:40:53 INFO: Most recent stock data: {'USAR': {   'close': 15.95,
+    'high': 15.955,
+    'low': 15.95,
+    'open': 15.955,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 15.953333}}
+2025-08-08 11:42:54 INFO: Most recent stock data: {'USAR': {   'close': 15.825,
+    'high': 15.935,
+    'low': 15.825,
+    'open': 15.935,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 271.0,
+    'vwap': 15.880545}}
+2025-08-08 11:45:55 INFO: Most recent stock data: {'USAR': {   'close': 15.93,
+    'high': 15.93,
+    'low': 15.865,
+    'open': 15.865,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 759.0,
+    'vwap': 15.891429}}
+2025-08-08 11:47:56 INFO: Most recent stock data: {'USAR': {   'close': 15.85,
+    'high': 15.885,
+    'low': 15.85,
+    'open': 15.885,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 460.0,
+    'vwap': 15.873333}}
+2025-08-08 11:48:56 INFO: Most recent stock data: {'USAR': {   'close': 15.935,
+    'high': 15.935,
+    'low': 15.935,
+    'open': 15.935,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 302.0,
+    'vwap': 15.935}}
+2025-08-08 11:48:56 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 11:48:56 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-08 11:49:57 INFO: {'USAR': {   'close': 15.98,
+    'high': 15.98,
+    'low': 15.98,
+    'open': 15.98,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 15.98}}
+2025-08-08 11:49:57 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 11:49:57 INFO: Current average volume is: 317.4
+2025-08-08 11:49:57 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 11:50:58 INFO: {'USAR': {   'close': 15.945,
+    'high': 15.945,
+    'low': 15.945,
+    'open': 15.945,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 183.0,
+    'vwap': 15.945}}
+2025-08-08 11:50:58 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 11:50:58 INFO: Current average volume is: 325.6
+2025-08-08 11:50:58 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 11:51:58 INFO: {'USAR': {   'close': 15.9,
+    'high': 15.925,
+    'low': 15.9,
+    'open': 15.925,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 294.0,
+    'vwap': 15.9125}}
+2025-08-08 11:51:58 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 11:51:58 INFO: Current average volume is: 331.2
+2025-08-08 11:51:58 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 11:54:59 INFO: {'USAR': {   'close': 15.94,
+    'high': 15.94,
+    'low': 15.94,
+    'open': 15.94,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 15.94}}
+2025-08-08 11:54:59 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 11:54:59 INFO: Current average volume is: 308.7
+2025-08-08 11:54:59 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 11:57:00 INFO: {'USAR': {   'close': 15.93,
+    'high': 15.93,
+    'low': 15.93,
+    'open': 15.93,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 130.0,
+    'vwap': 15.93}}
+2025-08-08 11:57:00 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 11:57:00 INFO: Current average volume is: 299.9
+2025-08-08 11:57:00 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 11:58:01 INFO: {'USAR': {   'close': 15.975,
+    'high': 15.975,
+    'low': 15.975,
+    'open': 15.975,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 171.0,
+    'vwap': 15.975}}
+2025-08-08 11:58:01 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 11:58:01 INFO: Current average volume is: 287.0
+2025-08-08 11:58:01 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 11:59:01 INFO: {'USAR': {   'close': 15.945,
+    'high': 15.945,
+    'low': 15.93,
+    'open': 15.93,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 15.9375}}
+2025-08-08 11:59:01 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 11:59:01 INFO: Current average volume is: 280.9
+2025-08-08 11:59:01 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:01:02 INFO: {'USAR': {   'close': 15.905,
+    'high': 15.905,
+    'low': 15.905,
+    'open': 15.905,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 15.905}}
+2025-08-08 12:01:02 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:01:02 INFO: Current average volume is: 215.0
+2025-08-08 12:01:02 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:02:02 INFO: {'USAR': {   'close': 15.97,
+    'high': 15.98,
+    'low': 15.97,
+    'open': 15.98,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 15.976667}}
+2025-08-08 12:02:02 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:02:02 INFO: Current average volume is: 199.0
+2025-08-08 12:02:02 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:03:02 INFO: {'USAR': {   'close': 16.0,
+    'high': 16.0,
+    'low': 15.98,
+    'open': 15.99,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 392.0,
+    'vwap': 15.99}}
+2025-08-08 12:03:02 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:03:02 INFO: Current average volume is: 208.0
+2025-08-08 12:03:02 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:04:03 INFO: {'USAR': {   'close': 16.02,
+    'high': 16.02,
+    'low': 16.01,
+    'open': 16.02,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 16.016667}}
+2025-08-08 12:04:03 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:04:03 INFO: Current average volume is: 228.0
+2025-08-08 12:04:03 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:06:04 INFO: {'USAR': {   'close': 15.96,
+    'high': 15.96,
+    'low': 15.96,
+    'open': 15.96,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 422.0,
+    'vwap': 15.96}}
+2025-08-08 12:06:04 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:06:04 INFO: Current average volume is: 251.9
+2025-08-08 12:06:04 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:09:05 INFO: {'USAR': {   'close': 15.97,
+    'high': 15.97,
+    'low': 15.97,
+    'open': 15.97,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 15.97}}
+2025-08-08 12:09:05 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:09:05 INFO: Current average volume is: 232.5
+2025-08-08 12:09:05 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:10:06 INFO: {'USAR': {   'close': 16.05,
+    'high': 16.05,
+    'low': 16.05,
+    'open': 16.05,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 16.05}}
+2025-08-08 12:10:06 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:10:06 INFO: Current average volume is: 222.6
+2025-08-08 12:10:06 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:12:06 INFO: {'USAR': {   'close': 16.01,
+    'high': 16.01,
+    'low': 16.01,
+    'open': 16.01,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.01}}
+2025-08-08 12:12:06 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:12:06 INFO: Current average volume is: 219.6
+2025-08-08 12:12:06 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:16:08 INFO: {'USAR': {   'close': 15.965,
+    'high': 15.965,
+    'low': 15.965,
+    'open': 15.965,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 15.965}}
+2025-08-08 12:16:08 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:16:08 INFO: Current average volume is: 232.5
+2025-08-08 12:16:08 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:17:09 INFO: {'USAR': {   'close': 15.97,
+    'high': 15.97,
+    'low': 15.97,
+    'open': 15.97,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 437.0,
+    'vwap': 15.97}}
+2025-08-08 12:17:09 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:17:09 INFO: Current average volume is: 255.2
+2025-08-08 12:17:09 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:24:11 INFO: {'USAR': {   'close': 15.945,
+    'high': 15.945,
+    'low': 15.945,
+    'open': 15.945,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 15.945}}
+2025-08-08 12:24:11 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:24:11 INFO: Current average volume is: 255.3
+2025-08-08 12:24:11 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:25:12 INFO: {'USAR': {   'close': 15.98,
+    'high': 15.985,
+    'low': 15.97,
+    'open': 15.97,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1581.0,
+    'vwap': 15.979032}}
+2025-08-08 12:25:12 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:25:12 INFO: Current average volume is: 383.4
+2025-08-08 12:25:12 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:28:13 INFO: {'USAR': {   'close': 16.06,
+    'high': 16.06,
+    'low': 16.04,
+    'open': 16.05,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 424.0,
+    'vwap': 16.052857}}
+2025-08-08 12:28:13 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:28:13 INFO: Current average volume is: 386.6
+2025-08-08 12:28:13 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:32:15 INFO: {'USAR': {   'close': 15.96,
+    'high': 15.96,
+    'low': 15.96,
+    'open': 15.96,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 198.0,
+    'vwap': 15.96}}
+2025-08-08 12:32:15 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:32:15 INFO: Current average volume is: 376.4
+2025-08-08 12:32:15 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:36:16 INFO: {'USAR': {   'close': 15.99,
+    'high': 15.99,
+    'low': 15.99,
+    'open': 15.99,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 15.99}}
+2025-08-08 12:36:16 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:36:16 INFO: Current average volume is: 344.2
+2025-08-08 12:36:16 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:38:17 INFO: {'USAR': {   'close': 16.05,
+    'high': 16.055,
+    'low': 16.02,
+    'open': 16.02,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 520.0,
+    'vwap': 16.0425}}
+2025-08-08 12:38:17 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:38:17 INFO: Current average volume is: 386.2
+2025-08-08 12:38:17 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:40:18 INFO: {'USAR': {   'close': 16.04,
+    'high': 16.04,
+    'low': 16.04,
+    'open': 16.04,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 402.0,
+    'vwap': 16.04}}
+2025-08-08 12:40:18 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:40:18 INFO: Current average volume is: 416.3
+2025-08-08 12:40:18 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:41:18 INFO: {'USAR': {   'close': 16.045,
+    'high': 16.045,
+    'low': 16.045,
+    'open': 16.045,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 501.0,
+    'vwap': 16.045}}
+2025-08-08 12:41:18 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:41:18 INFO: Current average volume is: 456.4
+2025-08-08 12:41:18 INFO: Updated resistance to: 16.1 and support to: 15.825
+2025-08-08 12:42:19 INFO: {'USAR': {   'close': 16.13,
+    'high': 16.13,
+    'low': 16.13,
+    'open': 16.13,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.13}}
+2025-08-08 12:42:19 INFO: Current resistance is: 16.1 and support is: 15.825
+2025-08-08 12:42:19 INFO: Current average volume is: 436.4
+2025-08-08 12:42:19 INFO: The Current Close 16.13 is above the resistance...
+2025-08-08 12:42:19 INFO: Updated resistance to: 16.13 and support to: 15.825
+2025-08-08 12:43:20 INFO: {'USAR': {   'close': 16.135,
+    'high': 16.15,
+    'low': 16.135,
+    'open': 16.15,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 16.1425}}
+2025-08-08 12:43:20 INFO: Current resistance is: 16.13 and support is: 15.825
+2025-08-08 12:43:20 INFO: Current average volume is: 412.7
+2025-08-08 12:43:20 INFO: The current close: 16.135 is above the resistance of 16.13, but volume isn't enough...
+2025-08-08 12:43:20 INFO: Updated resistance to: 16.15 and support to: 15.825
+2025-08-08 12:44:21 INFO: {'USAR': {   'close': 16.18,
+    'high': 16.18,
+    'low': 16.18,
+    'open': 16.18,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 303.0,
+    'vwap': 16.18}}
+2025-08-08 12:44:21 INFO: Current resistance is: 16.15 and support is: 15.825
+2025-08-08 12:44:21 INFO: Current average volume is: 432.9
+2025-08-08 12:44:21 INFO: The current close: 16.18 is above the resistance of 16.15, but volume isn't enough...
+2025-08-08 12:44:21 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 12:46:22 INFO: {'USAR': {   'close': 16.08,
+    'high': 16.13,
+    'low': 16.06,
+    'open': 16.12,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 614.0,
+    'vwap': 16.100183}}
+2025-08-08 12:46:22 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 12:46:22 INFO: Current average volume is: 336.2
+2025-08-08 12:46:22 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 12:47:22 INFO: {'USAR': {   'close': 16.045,
+    'high': 16.045,
+    'low': 16.045,
+    'open': 16.045,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 325.0,
+    'vwap': 16.045}}
+2025-08-08 12:47:22 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 12:47:22 INFO: Current average volume is: 326.3
+2025-08-08 12:47:22 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 12:48:23 INFO: {'USAR': {   'close': 16.04,
+    'high': 16.04,
+    'low': 16.04,
+    'open': 16.04,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 185.0,
+    'vwap': 16.04}}
+2025-08-08 12:48:23 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 12:48:23 INFO: Current average volume is: 325.0
+2025-08-08 12:48:23 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 12:49:23 INFO: {'USAR': {   'close': 15.96,
+    'high': 15.96,
+    'low': 15.96,
+    'open': 15.96,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 153.0,
+    'vwap': 15.96}}
+2025-08-08 12:49:23 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 12:49:23 INFO: Current average volume is: 330.3
+2025-08-08 12:49:23 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 12:51:24 INFO: {'USAR': {   'close': 15.925,
+    'high': 15.925,
+    'low': 15.925,
+    'open': 15.925,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 107.0,
+    'vwap': 15.925}}
+2025-08-08 12:51:24 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 12:51:24 INFO: Current average volume is: 289.0
+2025-08-08 12:51:24 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 12:54:26 INFO: {'USAR': {   'close': 15.91,
+    'high': 15.91,
+    'low': 15.91,
+    'open': 15.91,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 173.0,
+    'vwap': 15.91}}
+2025-08-08 12:54:26 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 12:54:26 INFO: Current average volume is: 266.1
+2025-08-08 12:54:26 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 12:55:26 INFO: {'USAR': {   'close': 15.92,
+    'high': 15.925,
+    'low': 15.92,
+    'open': 15.92,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 804.0,
+    'vwap': 15.921447}}
+2025-08-08 12:55:26 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 12:55:26 INFO: Current average volume is: 296.4
+2025-08-08 12:55:26 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 12:57:27 INFO: {'USAR': {   'close': 15.99,
+    'high': 15.99,
+    'low': 15.975,
+    'open': 15.985,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 346.0,
+    'vwap': 15.983197}}
+2025-08-08 12:57:27 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 12:57:27 INFO: Current average volume is: 321.0
+2025-08-08 12:57:27 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 13:01:28 INFO: {'USAR': {   'close': 15.855,
+    'high': 15.855,
+    'low': 15.855,
+    'open': 15.855,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 146.0,
+    'vwap': 15.855}}
+2025-08-08 13:01:28 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:01:28 INFO: Current average volume is: 315.6
+2025-08-08 13:01:28 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 13:03:29 INFO: {'USAR': {   'close': 15.74,
+    'high': 15.85,
+    'low': 15.74,
+    'open': 15.85,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 989.0,
+    'vwap': 15.771691}}
+2025-08-08 13:03:29 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:03:29 INFO: Current average volume is: 384.2
+2025-08-08 13:03:29 INFO: close price: 15.74 just dropped below support of 15.825...
+2025-08-08 13:05:30 INFO: {'USAR': {   'close': 15.83,
+    'high': 15.86,
+    'low': 15.83,
+    'open': 15.86,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 362.0,
+    'vwap': 15.845}}
+2025-08-08 13:05:30 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:05:30 INFO: Current average volume is: 359.0
+2025-08-08 13:05:30 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 13:06:31 INFO: {'USAR': {   'close': 15.89,
+    'high': 15.89,
+    'low': 15.84,
+    'open': 15.84,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 994.0,
+    'vwap': 15.876905}}
+2025-08-08 13:06:31 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:06:31 INFO: Current average volume is: 425.9
+2025-08-08 13:06:31 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 13:08:31 INFO: {'USAR': {   'close': 15.92,
+    'high': 15.92,
+    'low': 15.91,
+    'open': 15.91,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 545.0,
+    'vwap': 15.917253}}
+2025-08-08 13:08:31 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:08:31 INFO: Current average volume is: 461.9
+2025-08-08 13:08:31 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 13:11:32 INFO: {'USAR': {   'close': 15.925,
+    'high': 15.925,
+    'low': 15.915,
+    'open': 15.915,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 410.0,
+    'vwap': 15.922312}}
+2025-08-08 13:11:32 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:11:32 INFO: Current average volume is: 487.6
+2025-08-08 13:11:32 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 13:12:33 INFO: {'USAR': {   'close': 15.87,
+    'high': 15.87,
+    'low': 15.87,
+    'open': 15.87,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 15.87}}
+2025-08-08 13:12:33 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:12:33 INFO: Current average volume is: 486.9
+2025-08-08 13:12:33 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 13:15:35 INFO: {'USAR': {   'close': 15.86,
+    'high': 15.86,
+    'low': 15.86,
+    'open': 15.86,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 266.0,
+    'vwap': 15.86}}
+2025-08-08 13:15:35 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:15:35 INFO: Current average volume is: 496.2
+2025-08-08 13:15:35 INFO: Updated resistance to: 16.18 and support to: 15.825
+2025-08-08 13:16:35 INFO: {'USAR': {   'close': 15.75,
+    'high': 15.75,
+    'low': 15.75,
+    'open': 15.75,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 405.0,
+    'vwap': 15.75}}
+2025-08-08 13:16:35 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:16:35 INFO: Current average volume is: 456.3
+2025-08-08 13:16:35 INFO: close price: 15.75 just dropped below support of 15.825...
+2025-08-08 13:17:36 INFO: {'USAR': {   'close': 15.765,
+    'high': 15.765,
+    'low': 15.765,
+    'open': 15.765,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 15.765}}
+2025-08-08 13:17:36 INFO: Current resistance is: 16.18 and support is: 15.825
+2025-08-08 13:17:36 INFO: Current average volume is: 432.2
+2025-08-08 13:17:36 INFO: Closing price: 15.765 just dropped below support 15.825 again...ending trade...
+2025-08-08 14:02:56 INFO: === Strategy started ===
+2025-08-08 14:02:56 INFO: Start collecting the current highs/lows for: USAR
+2025-08-08 14:02:57 INFO: Most recent stock data: {'USAR': {   'close': 16.025,
+    'high': 16.025,
+    'low': 16.0,
+    'open': 16.0,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 771.0,
+    'vwap': 16.008442}}
+2025-08-08 14:03:57 INFO: Most recent stock data: {'USAR': {   'close': 16.03,
+    'high': 16.03,
+    'low': 16.01,
+    'open': 16.03,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 557.0,
+    'vwap': 16.022}}
+2025-08-08 14:04:58 INFO: Most recent stock data: {'USAR': {   'close': 16.12,
+    'high': 16.12,
+    'low': 16.09,
+    'open': 16.09,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 250.0,
+    'vwap': 16.108}}
+2025-08-08 14:05:59 INFO: Most recent stock data: {'USAR': {   'close': 16.13,
+    'high': 16.16,
+    'low': 16.13,
+    'open': 16.16,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 16.145}}
+2025-08-08 14:09:00 INFO: Most recent stock data: {'USAR': {   'close': 16.1,
+    'high': 16.1,
+    'low': 16.1,
+    'open': 16.1,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.1}}
+2025-08-08 14:13:02 INFO: Most recent stock data: {'USAR': {   'close': 16.14,
+    'high': 16.145,
+    'low': 16.14,
+    'open': 16.145,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 383.0,
+    'vwap': 16.141667}}
+2025-08-08 14:14:02 INFO: Most recent stock data: {'USAR': {   'close': 16.175,
+    'high': 16.175,
+    'low': 16.17,
+    'open': 16.17,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 16.1725}}
+2025-08-08 14:17:04 INFO: Most recent stock data: {'USAR': {   'close': 16.14,
+    'high': 16.17,
+    'low': 16.14,
+    'open': 16.17,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 350.0,
+    'vwap': 16.15}}
+2025-08-08 14:18:04 INFO: Most recent stock data: {'USAR': {   'close': 16.065,
+    'high': 16.08,
+    'low': 16.065,
+    'open': 16.08,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 543.0,
+    'vwap': 16.0725}}
+2025-08-08 14:19:04 INFO: Most recent stock data: {'USAR': {   'close': 16.1,
+    'high': 16.125,
+    'low': 16.1,
+    'open': 16.125,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 16.1125}}
+2025-08-08 14:22:06 INFO: Most recent stock data: {'USAR': {   'close': 16.09,
+    'high': 16.09,
+    'low': 16.09,
+    'open': 16.09,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 201.0,
+    'vwap': 16.09}}
+2025-08-08 14:22:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 14:22:06 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-08 14:23:06 INFO: {'USAR': {   'close': 16.075,
+    'high': 16.075,
+    'low': 16.075,
+    'open': 16.075,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.075}}
+2025-08-08 14:23:06 INFO: Current resistance is: 16.175 and support is: 16.0
+2025-08-08 14:23:06 INFO: Current average volume is: 272.8
+2025-08-08 14:23:06 INFO: Updated resistance to: 16.175 and support to: 16.0
+2025-08-08 14:24:07 INFO: {'USAR': {   'close': 16.19,
+    'high': 16.19,
+    'low': 16.19,
+    'open': 16.19,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 103.0,
+    'vwap': 16.19}}
+2025-08-08 14:24:07 INFO: Current resistance is: 16.175 and support is: 16.0
+2025-08-08 14:24:07 INFO: Current average volume is: 258.1
+2025-08-08 14:24:07 INFO: The Current Close 16.19 is above the resistance...
+2025-08-08 14:24:07 INFO: Updated resistance to: 16.19 and support to: 16.0
+2025-08-08 14:33:15 INFO: {'USAR': {   'close': 16.59,
+    'high': 16.59,
+    'low': 16.55,
+    'open': 16.55,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 359.0,
+    'vwap': 16.563333}}
+2025-08-08 14:33:15 INFO: Current resistance is: 16.19 and support is: 16.0
+2025-08-08 14:33:15 INFO: Current average volume is: 274.0
+2025-08-08 14:33:15 INFO: The current close: 16.59 is above the resistance of 16.19, but volume isn't enough...
+2025-08-08 14:33:15 INFO: Updated resistance to: 16.59 and support to: 16.0
+2025-08-08 14:34:16 INFO: {'USAR': {   'close': 16.62,
+    'high': 16.62,
+    'low': 16.6,
+    'open': 16.6,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 262.0,
+    'vwap': 16.61}}
+2025-08-08 14:34:16 INFO: Current resistance is: 16.59 and support is: 16.0
+2025-08-08 14:34:16 INFO: Current average volume is: 290.2
+2025-08-08 14:34:16 INFO: The current close: 16.62 is above the resistance of 16.59, but volume isn't enough...
+2025-08-08 14:34:16 INFO: Updated resistance to: 16.62 and support to: 16.0
+2025-08-08 14:35:17 INFO: {'USAR': {   'close': 16.7,
+    'high': 16.7,
+    'low': 16.695,
+    'open': 16.695,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 507.0,
+    'vwap': 16.696667}}
+2025-08-08 14:35:17 INFO: Current resistance is: 16.62 and support is: 16.0
+2025-08-08 14:35:17 INFO: Current average volume is: 302.6
+2025-08-08 14:35:17 INFO: The current close: 16.7 is above the resistance of 16.62, but volume isn't enough...
+2025-08-08 14:35:17 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:36:18 INFO: {'USAR': {   'close': 16.65,
+    'high': 16.66,
+    'low': 16.65,
+    'open': 16.66,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 244.0,
+    'vwap': 16.655}}
+2025-08-08 14:36:18 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:36:18 INFO: Current average volume is: 306.9
+2025-08-08 14:36:18 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:37:18 INFO: {'USAR': {   'close': 16.605,
+    'high': 16.605,
+    'low': 16.6,
+    'open': 16.6,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 292.0,
+    'vwap': 16.6025}}
+2025-08-08 14:37:18 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:37:18 INFO: Current average volume is: 301.1
+2025-08-08 14:37:18 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:39:19 INFO: {'USAR': {   'close': 16.56,
+    'high': 16.56,
+    'low': 16.545,
+    'open': 16.545,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 16.5525}}
+2025-08-08 14:39:19 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:39:19 INFO: Current average volume is: 266.8
+2025-08-08 14:39:19 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:40:19 INFO: {'USAR': {   'close': 16.57,
+    'high': 16.57,
+    'low': 16.57,
+    'open': 16.57,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 16.57}}
+2025-08-08 14:40:19 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:40:19 INFO: Current average volume is: 241.8
+2025-08-08 14:40:19 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:42:20 INFO: {'USAR': {   'close': 16.62,
+    'high': 16.62,
+    'low': 16.62,
+    'open': 16.62,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 439.0,
+    'vwap': 16.62}}
+2025-08-08 14:42:20 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:42:20 INFO: Current average volume is: 265.6
+2025-08-08 14:42:20 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:43:21 INFO: {'USAR': {   'close': 16.63,
+    'high': 16.63,
+    'low': 16.63,
+    'open': 16.63,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 247.0,
+    'vwap': 16.63}}
+2025-08-08 14:43:21 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:43:21 INFO: Current average volume is: 280.3
+2025-08-08 14:43:21 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:44:21 INFO: {'USAR': {   'close': 16.625,
+    'high': 16.625,
+    'low': 16.62,
+    'open': 16.62,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 16.624375}}
+2025-08-08 14:44:21 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:44:21 INFO: Current average volume is: 350.0
+2025-08-08 14:44:21 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:46:22 INFO: {'USAR': {   'close': 16.53,
+    'high': 16.53,
+    'low': 16.53,
+    'open': 16.53,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 235.0,
+    'vwap': 16.53}}
+2025-08-08 14:46:22 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:46:22 INFO: Current average volume is: 337.6
+2025-08-08 14:46:22 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:47:22 INFO: {'USAR': {   'close': 16.43,
+    'high': 16.44,
+    'low': 16.38,
+    'open': 16.44,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 614.0,
+    'vwap': 16.405424}}
+2025-08-08 14:47:22 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:47:22 INFO: Current average volume is: 372.8
+2025-08-08 14:47:22 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:49:23 INFO: {'USAR': {   'close': 16.45,
+    'high': 16.45,
+    'low': 16.45,
+    'open': 16.45,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 150.0,
+    'vwap': 16.45}}
+2025-08-08 14:49:23 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:49:23 INFO: Current average volume is: 337.1
+2025-08-08 14:49:23 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:50:23 INFO: {'USAR': {   'close': 16.365,
+    'high': 16.37,
+    'low': 16.345,
+    'open': 16.345,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 16.36}}
+2025-08-08 14:50:23 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:50:23 INFO: Current average volume is: 342.8
+2025-08-08 14:50:23 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:51:24 INFO: {'USAR': {   'close': 16.38,
+    'high': 16.38,
+    'low': 16.36,
+    'open': 16.38,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 16.373333}}
+2025-08-08 14:51:24 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:51:24 INFO: Current average volume is: 343.6
+2025-08-08 14:51:24 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:52:24 INFO: {'USAR': {   'close': 16.415,
+    'high': 16.415,
+    'low': 16.405,
+    'open': 16.405,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1280.0,
+    'vwap': 16.413438}}
+2025-08-08 14:52:24 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:52:24 INFO: Current average volume is: 451.6
+2025-08-08 14:52:24 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:53:24 INFO: {'USAR': {   'close': 16.45,
+    'high': 16.49,
+    'low': 16.425,
+    'open': 16.425,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1450.0,
+    'vwap': 16.448966}}
+2025-08-08 14:53:24 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:53:24 INFO: Current average volume is: 581.6
+2025-08-08 14:53:24 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:54:25 INFO: {'USAR': {   'close': 16.455,
+    'high': 16.515,
+    'low': 16.455,
+    'open': 16.5,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1336.0,
+    'vwap': 16.5025}}
+2025-08-08 14:54:25 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:54:25 INFO: Current average volume is: 671.3
+2025-08-08 14:54:25 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:56:26 INFO: {'USAR': {   'close': 16.35,
+    'high': 16.365,
+    'low': 16.31,
+    'open': 16.31,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 864.0,
+    'vwap': 16.353843}}
+2025-08-08 14:56:26 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:56:26 INFO: Current average volume is: 733.0
+2025-08-08 14:56:26 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:57:26 INFO: {'USAR': {   'close': 16.39,
+    'high': 16.39,
+    'low': 16.39,
+    'open': 16.39,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 197.0,
+    'vwap': 16.39}}
+2025-08-08 14:57:26 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:57:26 INFO: Current average volume is: 672.7
+2025-08-08 14:57:26 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:58:26 INFO: {'USAR': {   'close': 16.365,
+    'high': 16.44,
+    'low': 16.365,
+    'open': 16.41,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1016.0,
+    'vwap': 16.401253}}
+2025-08-08 14:58:26 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:58:26 INFO: Current average volume is: 750.8
+2025-08-08 14:58:26 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 14:59:27 INFO: {'USAR': {   'close': 16.32,
+    'high': 16.32,
+    'low': 16.32,
+    'open': 16.32,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 303.0,
+    'vwap': 16.32}}
+2025-08-08 14:59:27 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 14:59:27 INFO: Current average volume is: 719.7
+2025-08-08 14:59:27 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:00:28 INFO: {'USAR': {   'close': 16.33,
+    'high': 16.345,
+    'low': 16.33,
+    'open': 16.33,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 56.0,
+    'volume': 7036.0,
+    'vwap': 16.342265}}
+2025-08-08 15:00:28 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:00:28 INFO: Current average volume is: 1408.3
+2025-08-08 15:00:28 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:02:30 INFO: {'USAR': {   'close': 16.43,
+    'high': 16.43,
+    'low': 16.37,
+    'open': 16.37,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 492.0,
+    'vwap': 16.398889}}
+2025-08-08 15:02:30 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:02:30 INFO: Current average volume is: 1427.4
+2025-08-08 15:02:30 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:05:33 INFO: {'USAR': {   'close': 16.31,
+    'high': 16.32,
+    'low': 16.31,
+    'open': 16.32,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 16.3125}}
+2025-08-08 15:05:33 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:05:33 INFO: Current average volume is: 1437.4
+2025-08-08 15:05:33 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:07:33 INFO: {'USAR': {   'close': 16.36,
+    'high': 16.36,
+    'low': 16.36,
+    'open': 16.36,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 244.0,
+    'vwap': 16.36}}
+2025-08-08 15:07:33 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:07:33 INFO: Current average volume is: 1333.8
+2025-08-08 15:07:33 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:10:34 INFO: {'USAR': {   'close': 16.375,
+    'high': 16.38,
+    'low': 16.37,
+    'open': 16.37,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 457.0,
+    'vwap': 16.375}}
+2025-08-08 15:10:34 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:10:34 INFO: Current average volume is: 1234.5
+2025-08-08 15:10:34 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:11:35 INFO: {'USAR': {   'close': 16.35,
+    'high': 16.35,
+    'low': 16.35,
+    'open': 16.35,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 114.0,
+    'vwap': 16.35}}
+2025-08-08 15:11:35 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:11:35 INFO: Current average volume is: 1112.3
+2025-08-08 15:11:35 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:12:35 INFO: {'USAR': {   'close': 16.37,
+    'high': 16.37,
+    'low': 16.355,
+    'open': 16.355,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 16.3625}}
+2025-08-08 15:12:35 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:12:35 INFO: Current average volume is: 1045.9
+2025-08-08 15:12:35 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:14:36 INFO: {'USAR': {   'close': 16.335,
+    'high': 16.36,
+    'low': 16.335,
+    'open': 16.36,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 454.0,
+    'vwap': 16.351667}}
+2025-08-08 15:14:36 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:14:36 INFO: Current average volume is: 1071.6
+2025-08-08 15:14:36 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:15:36 INFO: {'USAR': {   'close': 16.37,
+    'high': 16.37,
+    'low': 16.37,
+    'open': 16.37,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 16.37}}
+2025-08-08 15:15:36 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:15:36 INFO: Current average volume is: 990.1
+2025-08-08 15:15:36 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:16:37 INFO: {'USAR': {   'close': 16.33,
+    'high': 16.33,
+    'low': 16.33,
+    'open': 16.33,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 16.33}}
+2025-08-08 15:16:37 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:16:37 INFO: Current average volume is: 974.8
+2025-08-08 15:16:37 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:17:37 INFO: {'USAR': {   'close': 16.36,
+    'high': 16.36,
+    'low': 16.36,
+    'open': 16.36,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 16.36}}
+2025-08-08 15:17:37 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:17:37 INFO: Current average volume is: 281.2
+2025-08-08 15:17:37 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:18:38 INFO: {'USAR': {   'close': 16.35,
+    'high': 16.35,
+    'low': 16.32,
+    'open': 16.32,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 378.0,
+    'vwap': 16.332646}}
+2025-08-08 15:18:38 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:18:38 INFO: Current average volume is: 269.8
+2025-08-08 15:18:38 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:21:39 INFO: {'USAR': {   'close': 16.29,
+    'high': 16.33,
+    'low': 16.29,
+    'open': 16.33,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 705.0,
+    'vwap': 16.314297}}
+2025-08-08 15:21:39 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:21:39 INFO: Current average volume is: 300.3
+2025-08-08 15:21:39 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:26:42 INFO: {'USAR': {   'close': 16.32,
+    'high': 16.32,
+    'low': 16.3,
+    'open': 16.3,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 541.0,
+    'vwap': 16.304878}}
+2025-08-08 15:26:42 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:26:42 INFO: Current average volume is: 330.0
+2025-08-08 15:26:42 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:27:42 INFO: {'USAR': {   'close': 16.385,
+    'high': 16.385,
+    'low': 16.31,
+    'open': 16.31,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 205.0,
+    'vwap': 16.3475}}
+2025-08-08 15:27:42 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:27:42 INFO: Current average volume is: 304.8
+2025-08-08 15:27:42 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:28:42 INFO: {'USAR': {   'close': 16.37,
+    'high': 16.37,
+    'low': 16.36,
+    'open': 16.36,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 16.366667}}
+2025-08-08 15:28:42 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:28:42 INFO: Current average volume is: 333.4
+2025-08-08 15:28:42 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:30:43 INFO: {'USAR': {   'close': 16.335,
+    'high': 16.34,
+    'low': 16.335,
+    'open': 16.34,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 446.0,
+    'vwap': 16.33619}}
+2025-08-08 15:30:43 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:30:43 INFO: Current average volume is: 358.0
+2025-08-08 15:30:43 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:31:44 INFO: {'USAR': {   'close': 16.34,
+    'high': 16.36,
+    'low': 16.34,
+    'open': 16.35,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 481.0,
+    'vwap': 16.3525}}
+2025-08-08 15:31:44 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:31:44 INFO: Current average volume is: 360.7
+2025-08-08 15:31:44 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:32:44 INFO: {'USAR': {   'close': 16.26,
+    'high': 16.33,
+    'low': 16.26,
+    'open': 16.33,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 470.0,
+    'vwap': 16.297838}}
+2025-08-08 15:32:44 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:32:44 INFO: Current average volume is: 387.6
+2025-08-08 15:32:44 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:35:45 INFO: {'USAR': {   'close': 16.315,
+    'high': 16.315,
+    'low': 16.31,
+    'open': 16.31,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 409.0,
+    'vwap': 16.312488}}
+2025-08-08 15:35:45 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:35:45 INFO: Current average volume is: 413.5
+2025-08-08 15:35:45 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:38:46 INFO: {'USAR': {   'close': 16.35,
+    'high': 16.35,
+    'low': 16.325,
+    'open': 16.325,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 16.3375}}
+2025-08-08 15:38:46 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:38:46 INFO: Current average volume is: 423.5
+2025-08-08 15:38:46 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:39:47 INFO: {'USAR': {   'close': 16.32,
+    'high': 16.36,
+    'low': 16.32,
+    'open': 16.35,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1160.0,
+    'vwap': 16.327865}}
+2025-08-08 15:39:47 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:39:47 INFO: Current average volume is: 501.7
+2025-08-08 15:39:47 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:41:48 INFO: {'USAR': {   'close': 16.28,
+    'high': 16.325,
+    'low': 16.265,
+    'open': 16.325,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1103.0,
+    'vwap': 16.280979}}
+2025-08-08 15:41:48 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:41:48 INFO: Current average volume is: 541.5
+2025-08-08 15:41:48 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:43:49 INFO: {'USAR': {   'close': 16.265,
+    'high': 16.29,
+    'low': 16.26,
+    'open': 16.28,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1204.0,
+    'vwap': 16.276231}}
+2025-08-08 15:43:49 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:43:49 INFO: Current average volume is: 607.8
+2025-08-08 15:43:49 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:44:49 INFO: {'USAR': {   'close': 16.25,
+    'high': 16.26,
+    'low': 16.25,
+    'open': 16.25,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 660.0,
+    'vwap': 16.252198}}
+2025-08-08 15:44:49 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:44:49 INFO: Current average volume is: 653.3
+2025-08-08 15:44:49 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:48:50 INFO: {'USAR': {   'close': 16.245,
+    'high': 16.29,
+    'low': 16.24,
+    'open': 16.29,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1166.0,
+    'vwap': 16.260952}}
+2025-08-08 15:48:50 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:48:50 INFO: Current average volume is: 729.9
+2025-08-08 15:48:50 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:49:51 INFO: {'USAR': {   'close': 16.24,
+    'high': 16.24,
+    'low': 16.235,
+    'open': 16.235,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 314.0,
+    'vwap': 16.237854}}
+2025-08-08 15:49:51 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:49:51 INFO: Current average volume is: 716.7
+2025-08-08 15:49:51 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:50:51 INFO: {'USAR': {   'close': 16.26,
+    'high': 16.26,
+    'low': 16.26,
+    'open': 16.26,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 258.0,
+    'vwap': 16.26}}
+2025-08-08 15:50:51 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:50:51 INFO: Current average volume is: 694.4
+2025-08-08 15:50:51 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:51:52 INFO: {'USAR': {   'close': 16.285,
+    'high': 16.285,
+    'low': 16.23,
+    'open': 16.255,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2578.0,
+    'vwap': 16.263739}}
+2025-08-08 15:51:52 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:51:52 INFO: Current average volume is: 905.2
+2025-08-08 15:51:52 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:52:52 INFO: {'USAR': {   'close': 16.33,
+    'high': 16.33,
+    'low': 16.27,
+    'open': 16.27,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 760.0,
+    'vwap': 16.29248}}
+2025-08-08 15:52:52 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:52:52 INFO: Current average volume is: 940.3
+2025-08-08 15:52:52 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:53:53 INFO: {'USAR': {   'close': 16.285,
+    'high': 16.31,
+    'low': 16.285,
+    'open': 16.31,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1222.0,
+    'vwap': 16.299675}}
+2025-08-08 15:53:53 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:53:53 INFO: Current average volume is: 1042.5
+2025-08-08 15:53:53 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:54:53 INFO: {'USAR': {   'close': 16.265,
+    'high': 16.285,
+    'low': 16.265,
+    'open': 16.28,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1286.0,
+    'vwap': 16.281667}}
+2025-08-08 15:54:53 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:54:53 INFO: Current average volume is: 1055.1
+2025-08-08 15:54:53 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:55:53 INFO: {'USAR': {   'close': 16.24,
+    'high': 16.3,
+    'low': 16.24,
+    'open': 16.26,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1146.0,
+    'vwap': 16.269474}}
+2025-08-08 15:55:53 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:55:53 INFO: Current average volume is: 1059.4
+2025-08-08 15:55:53 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:56:54 INFO: {'USAR': {   'close': 16.26,
+    'high': 16.285,
+    'low': 16.225,
+    'open': 16.27,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1654.0,
+    'vwap': 16.247405}}
+2025-08-08 15:56:54 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:56:54 INFO: Current average volume is: 1104.4
+2025-08-08 15:56:54 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:58:54 INFO: {'USAR': {   'close': 16.27,
+    'high': 16.28,
+    'low': 16.24,
+    'open': 16.245,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 940.0,
+    'vwap': 16.253989}}
+2025-08-08 15:58:54 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:58:54 INFO: Current average volume is: 1132.4
+2025-08-08 15:58:54 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 15:59:55 INFO: {'USAR': {   'close': 16.285,
+    'high': 16.29,
+    'low': 16.285,
+    'open': 16.29,
+    'symbol': 'USAR',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 577.0,
+    'vwap': 16.288333}}
+2025-08-08 15:59:55 INFO: Current resistance is: 16.7 and support is: 16.0
+2025-08-08 15:59:55 INFO: Current average volume is: 1073.5
+2025-08-08 15:59:55 INFO: Updated resistance to: 16.7 and support to: 16.0
+2025-08-08 16:00:55 INFO: The Market is closed...

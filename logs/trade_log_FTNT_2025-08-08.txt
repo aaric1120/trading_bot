@@ -1,0 +1,855 @@
+2025-08-08 10:32:47 INFO: === Strategy started ===
+2025-08-08 10:32:47 INFO: Start collecting the current highs/lows for: FTNT
+2025-08-08 10:32:47 INFO: Most recent stock data: {'FTNT': {   'close': 73.8,
+    'high': 73.805,
+    'low': 73.74,
+    'open': 73.775,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1556.0,
+    'vwap': 73.78383}}
+2025-08-08 10:33:48 INFO: Most recent stock data: {'FTNT': {   'close': 73.92,
+    'high': 73.92,
+    'low': 73.76,
+    'open': 73.77,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1223.0,
+    'vwap': 73.798889}}
+2025-08-08 10:34:48 INFO: Most recent stock data: {'FTNT': {   'close': 73.97,
+    'high': 73.99,
+    'low': 73.87,
+    'open': 73.87,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 745.0,
+    'vwap': 73.95}}
+2025-08-08 10:35:49 INFO: Most recent stock data: {'FTNT': {   'close': 73.985,
+    'high': 73.985,
+    'low': 73.95,
+    'open': 73.96,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1325.0,
+    'vwap': 73.959375}}
+2025-08-08 10:38:50 INFO: Most recent stock data: {'FTNT': {   'close': 73.96,
+    'high': 73.99,
+    'low': 73.915,
+    'open': 73.915,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 771.0,
+    'vwap': 73.955}}
+2025-08-08 10:39:51 INFO: Most recent stock data: {'FTNT': {   'close': 73.985,
+    'high': 73.985,
+    'low': 73.89,
+    'open': 73.89,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 729.0,
+    'vwap': 73.943}}
+2025-08-08 10:41:52 INFO: Most recent stock data: {'FTNT': {   'close': 74.42,
+    'high': 74.42,
+    'low': 74.02,
+    'open': 74.02,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 63.0,
+    'volume': 2638.0,
+    'vwap': 74.217857}}
+2025-08-08 10:42:52 INFO: Most recent stock data: {'FTNT': {   'close': 74.1,
+    'high': 74.34,
+    'low': 74.1,
+    'open': 74.34,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 726.0,
+    'vwap': 74.22}}
+2025-08-08 10:43:53 INFO: Most recent stock data: {'FTNT': {   'close': 74.32,
+    'high': 74.32,
+    'low': 74.2,
+    'open': 74.2,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 814.0,
+    'vwap': 74.24076}}
+2025-08-08 10:44:53 INFO: Most recent stock data: {'FTNT': {   'close': 74.39,
+    'high': 74.4,
+    'low': 74.39,
+    'open': 74.39,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 355.0,
+    'vwap': 74.393333}}
+2025-08-08 10:46:54 INFO: Most recent stock data: {'FTNT': {   'close': 74.57,
+    'high': 74.58,
+    'low': 74.5,
+    'open': 74.5,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1745.0,
+    'vwap': 74.551364}}
+2025-08-08 10:46:54 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 10:46:54 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-08 10:47:55 INFO: {'FTNT': {   'close': 74.575,
+    'high': 74.61,
+    'low': 74.515,
+    'open': 74.58,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1636.0,
+    'vwap': 74.579583}}
+2025-08-08 10:47:55 INFO: Current resistance is: 74.652 and support is: 74.512
+2025-08-08 10:47:55 INFO: Current average volume is: 1148.4
+2025-08-08 10:47:55 INFO: Updated resistance to: 74.683 and support to: 74.611
+2025-08-08 10:48:55 INFO: {'FTNT': {   'close': 74.495,
+    'high': 74.59,
+    'low': 74.48,
+    'open': 74.59,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 693.0,
+    'vwap': 74.534167}}
+2025-08-08 10:48:55 INFO: Current resistance is: 74.683 and support is: 74.611
+2025-08-08 10:48:55 INFO: Current average volume is: 1143.2
+2025-08-08 10:48:55 INFO: close price: 74.495 just dropped below support of 74.611...
+2025-08-08 10:49:55 INFO: {'FTNT': {   'close': 74.38,
+    'high': 74.47,
+    'low': 74.38,
+    'open': 74.47,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1807.0,
+    'vwap': 74.429545}}
+2025-08-08 10:49:55 INFO: Current resistance is: 74.683 and support is: 74.611
+2025-08-08 10:49:55 INFO: Current average volume is: 1191.4
+2025-08-08 10:49:55 INFO: Closing price: 74.38 just dropped below support 74.611 again...ending trade...
+2025-08-08 11:02:47 INFO: === Strategy started ===
+2025-08-08 11:02:47 INFO: Start collecting the current highs/lows for: FTNT
+2025-08-08 11:02:48 INFO: Most recent stock data: {'FTNT': {   'close': 74.18,
+    'high': 74.21,
+    'low': 74.18,
+    'open': 74.21,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 998.0,
+    'vwap': 74.195625}}
+2025-08-08 11:03:49 INFO: Most recent stock data: {'FTNT': {   'close': 74.34,
+    'high': 74.365,
+    'low': 74.22,
+    'open': 74.22,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2066.0,
+    'vwap': 74.280333}}
+2025-08-08 11:04:49 INFO: Most recent stock data: {'FTNT': {   'close': 74.28,
+    'high': 74.44,
+    'low': 74.28,
+    'open': 74.35,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1447.0,
+    'vwap': 74.3565}}
+2025-08-08 11:05:49 INFO: Most recent stock data: {'FTNT': {   'close': 74.275,
+    'high': 74.275,
+    'low': 74.12,
+    'open': 74.21,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1966.0,
+    'vwap': 74.214354}}
+2025-08-08 11:06:50 INFO: Most recent stock data: {'FTNT': {   'close': 74.29,
+    'high': 74.32,
+    'low': 74.26,
+    'open': 74.32,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1512.0,
+    'vwap': 74.27375}}
+2025-08-08 11:07:50 INFO: Most recent stock data: {'FTNT': {   'close': 74.525,
+    'high': 74.555,
+    'low': 74.34,
+    'open': 74.345,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3406.0,
+    'vwap': 74.4462}}
+2025-08-08 11:08:51 INFO: Most recent stock data: {'FTNT': {   'close': 74.525,
+    'high': 74.57,
+    'low': 74.46,
+    'open': 74.48,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1184.0,
+    'vwap': 74.507222}}
+2025-08-08 11:11:52 INFO: Most recent stock data: {'FTNT': {   'close': 74.53,
+    'high': 74.58,
+    'low': 74.53,
+    'open': 74.58,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 703.0,
+    'vwap': 74.5475}}
+2025-08-08 11:12:53 INFO: Most recent stock data: {'FTNT': {   'close': 74.475,
+    'high': 74.505,
+    'low': 74.43,
+    'open': 74.505,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1765.0,
+    'vwap': 74.474106}}
+2025-08-08 11:13:54 INFO: Most recent stock data: {'FTNT': {   'close': 74.56,
+    'high': 74.58,
+    'low': 74.485,
+    'open': 74.485,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1227.0,
+    'vwap': 74.54875}}
+2025-08-08 11:14:54 INFO: Most recent stock data: {'FTNT': {   'close': 74.61,
+    'high': 74.61,
+    'low': 74.535,
+    'open': 74.535,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1207.0,
+    'vwap': 74.562143}}
+2025-08-08 11:14:54 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 11:14:54 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-08 11:15:55 INFO: {'FTNT': {   'close': 74.485,
+    'high': 74.5,
+    'low': 74.46,
+    'open': 74.475,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2454.0,
+    'vwap': 74.471675}}
+2025-08-08 11:15:55 INFO: Current resistance is: 74.646 and support is: 74.433
+2025-08-08 11:15:55 INFO: Current average volume is: 1687.1
+2025-08-08 11:15:55 INFO: Updated resistance to: 74.668 and support to: 74.429
+2025-08-08 11:16:56 INFO: {'FTNT': {   'close': 74.53,
+    'high': 74.53,
+    'low': 74.48,
+    'open': 74.5,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1063.0,
+    'vwap': 74.4975}}
+2025-08-08 11:16:56 INFO: Current resistance is: 74.668 and support is: 74.429
+2025-08-08 11:16:56 INFO: Current average volume is: 1648.7
+2025-08-08 11:16:56 INFO: Updated resistance to: 74.686 and support to: 74.43
+2025-08-08 11:17:56 INFO: {'FTNT': {   'close': 74.41,
+    'high': 74.5,
+    'low': 74.41,
+    'open': 74.49,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1715.0,
+    'vwap': 74.476289}}
+2025-08-08 11:17:56 INFO: Current resistance is: 74.686 and support is: 74.43
+2025-08-08 11:17:56 INFO: Current average volume is: 1623.6
+2025-08-08 11:17:56 INFO: close price: 74.41 just dropped below support of 74.43...
+2025-08-08 11:18:57 INFO: {'FTNT': {   'close': 74.32,
+    'high': 74.395,
+    'low': 74.32,
+    'open': 74.395,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1001.0,
+    'vwap': 74.35}}
+2025-08-08 11:18:57 INFO: Current resistance is: 74.686 and support is: 74.43
+2025-08-08 11:18:57 INFO: Current average volume is: 1572.5
+2025-08-08 11:18:57 INFO: Closing price: 74.32 just dropped below support 74.43 again...ending trade...
+2025-08-08 15:02:58 INFO: === Strategy started ===
+2025-08-08 15:02:58 INFO: Start collecting the current highs/lows for: FTNT
+2025-08-08 15:02:58 INFO: Most recent stock data: {'FTNT': {   'close': 73.75,
+    'high': 73.82,
+    'low': 73.75,
+    'open': 73.82,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 646.0,
+    'vwap': 73.8}}
+2025-08-08 15:05:02 INFO: Most recent stock data: {'FTNT': {   'close': 73.87,
+    'high': 73.87,
+    'low': 73.835,
+    'open': 73.835,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 680.0,
+    'vwap': 73.848333}}
+2025-08-08 15:06:02 INFO: Most recent stock data: {'FTNT': {   'close': 73.705,
+    'high': 73.79,
+    'low': 73.705,
+    'open': 73.79,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1669.0,
+    'vwap': 73.748}}
+2025-08-08 15:07:02 INFO: Most recent stock data: {'FTNT': {   'close': 73.72,
+    'high': 73.72,
+    'low': 73.63,
+    'open': 73.69,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 1756.0,
+    'vwap': 73.686364}}
+2025-08-08 15:08:03 INFO: Most recent stock data: {'FTNT': {   'close': 73.79,
+    'high': 73.83,
+    'low': 73.79,
+    'open': 73.825,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 846.0,
+    'vwap': 73.816667}}
+2025-08-08 15:09:03 INFO: Most recent stock data: {'FTNT': {   'close': 73.75,
+    'high': 73.75,
+    'low': 73.705,
+    'open': 73.705,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 632.0,
+    'vwap': 73.729452}}
+2025-08-08 15:10:04 INFO: Most recent stock data: {'FTNT': {   'close': 73.8,
+    'high': 73.81,
+    'low': 73.78,
+    'open': 73.78,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 492.0,
+    'vwap': 73.7975}}
+2025-08-08 15:12:05 INFO: Most recent stock data: {'FTNT': {   'close': 73.735,
+    'high': 73.75,
+    'low': 73.735,
+    'open': 73.75,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 387.0,
+    'vwap': 73.7425}}
+2025-08-08 15:13:05 INFO: Most recent stock data: {'FTNT': {   'close': 73.74,
+    'high': 73.74,
+    'low': 73.74,
+    'open': 73.74,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 436.0,
+    'vwap': 73.74}}
+2025-08-08 15:14:05 INFO: Most recent stock data: {'FTNT': {   'close': 73.885,
+    'high': 73.885,
+    'low': 73.835,
+    'open': 73.835,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 420.0,
+    'vwap': 73.855}}
+2025-08-08 15:15:06 INFO: Most recent stock data: {'FTNT': {   'close': 73.865,
+    'high': 73.89,
+    'low': 73.865,
+    'open': 73.89,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 774.0,
+    'vwap': 73.87375}}
+2025-08-08 15:15:06 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 15:15:06 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-08 15:16:07 INFO: {'FTNT': {   'close': 73.88,
+    'high': 73.92,
+    'low': 73.88,
+    'open': 73.9,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1012.0,
+    'vwap': 73.9}}
+2025-08-08 15:16:07 INFO: Current resistance is: 73.89 and support is: 73.63
+2025-08-08 15:16:07 INFO: Current average volume is: 842.4
+2025-08-08 15:16:07 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:17:07 INFO: {'FTNT': {   'close': 73.8,
+    'high': 73.905,
+    'low': 73.8,
+    'open': 73.905,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1461.0,
+    'vwap': 73.854444}}
+2025-08-08 15:17:07 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:17:07 INFO: Current average volume is: 821.6
+2025-08-08 15:17:07 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:18:07 INFO: {'FTNT': {   'close': 73.745,
+    'high': 73.745,
+    'low': 73.74,
+    'open': 73.74,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 343.0,
+    'vwap': 73.7425}}
+2025-08-08 15:18:07 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:18:07 INFO: Current average volume is: 680.3
+2025-08-08 15:18:07 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:19:08 INFO: {'FTNT': {   'close': 73.8,
+    'high': 73.805,
+    'low': 73.77,
+    'open': 73.77,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1143.0,
+    'vwap': 73.79}}
+2025-08-08 15:19:08 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:19:08 INFO: Current average volume is: 710.0
+2025-08-08 15:19:08 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:20:08 INFO: {'FTNT': {   'close': 73.815,
+    'high': 73.82,
+    'low': 73.8,
+    'open': 73.805,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1336.0,
+    'vwap': 73.808125}}
+2025-08-08 15:20:08 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:20:08 INFO: Current average volume is: 780.4
+2025-08-08 15:20:08 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:21:09 INFO: {'FTNT': {   'close': 73.785,
+    'high': 73.84,
+    'low': 73.785,
+    'open': 73.83,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1057.0,
+    'vwap': 73.814}}
+2025-08-08 15:21:09 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:21:09 INFO: Current average volume is: 836.9
+2025-08-08 15:21:09 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:22:09 INFO: {'FTNT': {   'close': 73.765,
+    'high': 73.775,
+    'low': 73.735,
+    'open': 73.775,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1273.0,
+    'vwap': 73.755}}
+2025-08-08 15:22:09 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:22:09 INFO: Current average volume is: 925.5
+2025-08-08 15:22:09 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:23:10 INFO: {'FTNT': {   'close': 73.76,
+    'high': 73.765,
+    'low': 73.76,
+    'open': 73.765,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 578.0,
+    'vwap': 73.76125}}
+2025-08-08 15:23:10 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:23:10 INFO: Current average volume is: 939.7
+2025-08-08 15:23:10 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:25:10 INFO: {'FTNT': {   'close': 73.77,
+    'high': 73.77,
+    'low': 73.75,
+    'open': 73.75,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 885.0,
+    'vwap': 73.757857}}
+2025-08-08 15:25:10 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:25:10 INFO: Current average volume is: 986.2
+2025-08-08 15:25:10 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:26:11 INFO: {'FTNT': {   'close': 73.74,
+    'high': 73.74,
+    'low': 73.74,
+    'open': 73.74,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 464.0,
+    'vwap': 73.74}}
+2025-08-08 15:26:11 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:26:11 INFO: Current average volume is: 955.2
+2025-08-08 15:26:11 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:27:11 INFO: {'FTNT': {   'close': 73.76,
+    'high': 73.76,
+    'low': 73.73,
+    'open': 73.755,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 907.0,
+    'vwap': 73.743333}}
+2025-08-08 15:27:11 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:27:11 INFO: Current average volume is: 944.7
+2025-08-08 15:27:11 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:29:12 INFO: {'FTNT': {   'close': 73.66,
+    'high': 73.69,
+    'low': 73.66,
+    'open': 73.69,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 516.0,
+    'vwap': 73.67}}
+2025-08-08 15:29:12 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:29:12 INFO: Current average volume is: 850.2
+2025-08-08 15:29:12 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:30:13 INFO: {'FTNT': {   'close': 73.72,
+    'high': 73.72,
+    'low': 73.67,
+    'open': 73.68,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1242.0,
+    'vwap': 73.684444}}
+2025-08-08 15:30:13 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:30:13 INFO: Current average volume is: 940.1
+2025-08-08 15:30:13 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:32:13 INFO: {'FTNT': {   'close': 73.83,
+    'high': 73.88,
+    'low': 73.83,
+    'open': 73.88,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1197.0,
+    'vwap': 73.845}}
+2025-08-08 15:32:13 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:32:13 INFO: Current average volume is: 945.5
+2025-08-08 15:32:13 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:33:14 INFO: {'FTNT': {   'close': 73.755,
+    'high': 73.82,
+    'low': 73.755,
+    'open': 73.82,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1174.0,
+    'vwap': 73.794444}}
+2025-08-08 15:33:14 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:33:14 INFO: Current average volume is: 929.3
+2025-08-08 15:33:14 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:34:14 INFO: {'FTNT': {   'close': 73.8,
+    'high': 73.8,
+    'low': 73.76,
+    'open': 73.77,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 891.0,
+    'vwap': 73.78}}
+2025-08-08 15:34:14 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:34:14 INFO: Current average volume is: 912.7
+2025-08-08 15:34:14 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:36:15 INFO: {'FTNT': {   'close': 73.745,
+    'high': 73.78,
+    'low': 73.74,
+    'open': 73.78,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1282.0,
+    'vwap': 73.753214}}
+2025-08-08 15:36:15 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:36:15 INFO: Current average volume is: 913.6
+2025-08-08 15:36:15 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:37:21 INFO: {'FTNT': {   'close': 73.755,
+    'high': 73.755,
+    'low': 73.745,
+    'open': 73.745,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 788.0,
+    'vwap': 73.75}}
+2025-08-08 15:37:21 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:37:21 INFO: Current average volume is: 934.6
+2025-08-08 15:37:21 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:38:21 INFO: {'FTNT': {   'close': 73.79,
+    'high': 73.79,
+    'low': 73.77,
+    'open': 73.77,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 719.0,
+    'vwap': 73.77875}}
+2025-08-08 15:38:21 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:38:21 INFO: Current average volume is: 918.0
+2025-08-08 15:38:21 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:39:21 INFO: {'FTNT': {   'close': 73.82,
+    'high': 73.82,
+    'low': 73.785,
+    'open': 73.785,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1027.0,
+    'vwap': 73.8025}}
+2025-08-08 15:39:21 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:39:21 INFO: Current average volume is: 974.3
+2025-08-08 15:39:21 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:41:23 INFO: {'FTNT': {   'close': 73.74,
+    'high': 73.775,
+    'low': 73.7,
+    'open': 73.775,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1409.0,
+    'vwap': 73.742224}}
+2025-08-08 15:41:23 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:41:23 INFO: Current average volume is: 1024.5
+2025-08-08 15:41:23 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:43:24 INFO: {'FTNT': {   'close': 73.76,
+    'high': 73.77,
+    'low': 73.725,
+    'open': 73.725,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1703.0,
+    'vwap': 73.75625}}
+2025-08-08 15:43:24 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:43:24 INFO: Current average volume is: 1143.2
+2025-08-08 15:43:24 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:44:25 INFO: {'FTNT': {   'close': 73.805,
+    'high': 73.855,
+    'low': 73.745,
+    'open': 73.755,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2573.0,
+    'vwap': 73.795163}}
+2025-08-08 15:44:25 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:44:25 INFO: Current average volume is: 1276.3
+2025-08-08 15:44:25 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:45:25 INFO: {'FTNT': {   'close': 73.715,
+    'high': 73.805,
+    'low': 73.715,
+    'open': 73.805,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1677.0,
+    'vwap': 73.762727}}
+2025-08-08 15:45:25 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:45:25 INFO: Current average volume is: 1324.3
+2025-08-08 15:45:25 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:46:25 INFO: {'FTNT': {   'close': 73.83,
+    'high': 73.83,
+    'low': 73.685,
+    'open': 73.7,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3684.0,
+    'vwap': 73.724244}}
+2025-08-08 15:46:25 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:46:25 INFO: Current average volume is: 1575.3
+2025-08-08 15:46:25 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:47:26 INFO: {'FTNT': {   'close': 73.8,
+    'high': 73.82,
+    'low': 73.79,
+    'open': 73.82,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1312.0,
+    'vwap': 73.799422}}
+2025-08-08 15:47:26 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:47:26 INFO: Current average volume is: 1617.4
+2025-08-08 15:47:26 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:48:26 INFO: {'FTNT': {   'close': 73.915,
+    'high': 73.915,
+    'low': 73.795,
+    'open': 73.795,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2863.0,
+    'vwap': 73.833395}}
+2025-08-08 15:48:26 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:48:26 INFO: Current average volume is: 1775.5
+2025-08-08 15:48:26 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:49:27 INFO: {'FTNT': {   'close': 73.885,
+    'high': 73.91,
+    'low': 73.845,
+    'open': 73.905,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 53.0,
+    'volume': 2990.0,
+    'vwap': 73.892537}}
+2025-08-08 15:49:27 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:49:27 INFO: Current average volume is: 1995.7
+2025-08-08 15:49:27 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:50:27 INFO: {'FTNT': {   'close': 73.89,
+    'high': 73.89,
+    'low': 73.785,
+    'open': 73.83,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2221.0,
+    'vwap': 73.830625}}
+2025-08-08 15:50:27 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:50:27 INFO: Current average volume is: 2145.9
+2025-08-08 15:50:27 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:51:27 INFO: {'FTNT': {   'close': 73.81,
+    'high': 73.9,
+    'low': 73.75,
+    'open': 73.89,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 95.0,
+    'volume': 7240.0,
+    'vwap': 73.816937}}
+2025-08-08 15:51:27 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:51:27 INFO: Current average volume is: 2767.2
+2025-08-08 15:51:27 INFO: Updated resistance to: 73.92 and support to: 73.63
+2025-08-08 15:52:28 INFO: {'FTNT': {   'close': 74.035,
+    'high': 74.09,
+    'low': 73.86,
+    'open': 73.86,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 5195.0,
+    'vwap': 73.988204}}
+2025-08-08 15:52:28 INFO: Current resistance is: 73.92 and support is: 73.63
+2025-08-08 15:52:28 INFO: Current average volume is: 3145.8
+2025-08-08 15:52:28 INFO: The Current Close 74.035 is above the resistance...
+2025-08-08 15:52:28 INFO: Updated resistance to: 74.09 and support to: 73.63
+2025-08-08 15:53:29 INFO: {'FTNT': {   'close': 74.11,
+    'high': 74.115,
+    'low': 74.0,
+    'open': 74.03,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 3129.0,
+    'vwap': 74.079406}}
+2025-08-08 15:53:29 INFO: Current resistance is: 74.09 and support is: 73.63
+2025-08-08 15:53:29 INFO: Current average volume is: 3288.4
+2025-08-08 15:53:29 INFO: The current close: 74.11 is above the resistance of 74.09, but volume isn't enough...
+2025-08-08 15:53:29 INFO: Updated resistance to: 74.115 and support to: 73.63
+2025-08-08 15:54:29 INFO: {'FTNT': {   'close': 73.94,
+    'high': 74.1,
+    'low': 73.94,
+    'open': 74.1,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 75.0,
+    'volume': 3095.0,
+    'vwap': 74.032045}}
+2025-08-08 15:54:29 INFO: Current resistance is: 74.115 and support is: 73.63
+2025-08-08 15:54:29 INFO: Current average volume is: 3340.6
+2025-08-08 15:54:29 INFO: Updated resistance to: 74.115 and support to: 73.63
+2025-08-08 15:55:30 INFO: {'FTNT': {   'close': 74.005,
+    'high': 74.005,
+    'low': 73.87,
+    'open': 73.905,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 4069.0,
+    'vwap': 73.935901}}
+2025-08-08 15:55:30 INFO: Current resistance is: 74.115 and support is: 73.63
+2025-08-08 15:55:30 INFO: Current average volume is: 3579.8
+2025-08-08 15:55:30 INFO: Updated resistance to: 74.115 and support to: 73.63
+2025-08-08 15:56:30 INFO: {'FTNT': {   'close': 74.06,
+    'high': 74.06,
+    'low': 73.965,
+    'open': 73.995,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 3158.0,
+    'vwap': 73.991806}}
+2025-08-08 15:56:30 INFO: Current resistance is: 74.115 and support is: 73.63
+2025-08-08 15:56:30 INFO: Current average volume is: 3527.2
+2025-08-08 15:56:30 INFO: Updated resistance to: 74.115 and support to: 73.63
+2025-08-08 15:57:31 INFO: {'FTNT': {   'close': 74.125,
+    'high': 74.14,
+    'low': 74.06,
+    'open': 74.095,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 3514.0,
+    'vwap': 74.101068}}
+2025-08-08 15:57:31 INFO: Current resistance is: 74.115 and support is: 73.63
+2025-08-08 15:57:31 INFO: Current average volume is: 3747.4
+2025-08-08 15:57:31 INFO: The Current Close 74.125 is above the resistance...
+2025-08-08 15:57:31 INFO: Updated resistance to: 74.14 and support to: 73.63
+2025-08-08 15:58:01 INFO: {'FTNT': {   'close': 74.295,
+    'high': 74.295,
+    'low': 74.125,
+    'open': 74.125,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 66.0,
+    'volume': 4620.0,
+    'vwap': 74.217566}}
+2025-08-08 15:58:01 INFO: Current resistance is: 74.14 and support is: 73.63
+2025-08-08 15:58:01 INFO: Current average volume is: 3923.1
+2025-08-08 15:58:01 INFO: The current close: 74.295 is above the resistance of 74.14, but volume isn't enough...
+2025-08-08 15:58:01 INFO: Updated resistance to: 74.295 and support to: 73.63
+2025-08-08 15:59:02 INFO: {'FTNT': {   'close': 74.435,
+    'high': 74.44,
+    'low': 74.275,
+    'open': 74.275,
+    'symbol': 'FTNT',
+    'timestamp': datetime.datetime(2025, 8, 8, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 102.0,
+    'volume': 5574.0,
+    'vwap': 74.34869}}
+2025-08-08 15:59:02 INFO: Current resistance is: 74.295 and support is: 73.63
+2025-08-08 15:59:02 INFO: Current average volume is: 4181.5
+2025-08-08 15:59:02 INFO: The current close: 74.435 is above the resistance of 74.295, but volume isn't enough...
+2025-08-08 15:59:02 INFO: Updated resistance to: 74.44 and support to: 73.63
+2025-08-08 16:00:02 INFO: The Market is closed...

@@ -1,0 +1,756 @@
+2025-08-08 11:02:47 INFO: === Strategy started ===
+2025-08-08 11:02:47 INFO: Start collecting the current highs/lows for: LLY
+2025-08-08 11:02:47 INFO: Most recent stock data: {'LLY': {   'close': 630.9,
+    'high': 631.78,
+    'low': 629.78,
+    'open': 629.78,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 92.0,
+    'volume': 3343.0,
+    'vwap': 630.719674}}
+2025-08-08 11:03:48 INFO: Most recent stock data: {'LLY': {   'close': 630.86,
+    'high': 630.95,
+    'low': 630.66,
+    'open': 630.89,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 1683.0,
+    'vwap': 630.816818}}
+2025-08-08 11:04:49 INFO: Most recent stock data: {'LLY': {   'close': 631.795,
+    'high': 632.415,
+    'low': 630.84,
+    'open': 630.84,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 133.0,
+    'volume': 11036.0,
+    'vwap': 631.249671}}
+2025-08-08 11:05:49 INFO: Most recent stock data: {'LLY': {   'close': 631.98,
+    'high': 632.09,
+    'low': 631.345,
+    'open': 631.345,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 1853.0,
+    'vwap': 631.792796}}
+2025-08-08 11:06:49 INFO: Most recent stock data: {'LLY': {   'close': 632.02,
+    'high': 632.44,
+    'low': 631.89,
+    'open': 632.08,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 2318.0,
+    'vwap': 632.222647}}
+2025-08-08 11:07:50 INFO: Most recent stock data: {'LLY': {   'close': 630.01,
+    'high': 630.665,
+    'low': 630.0,
+    'open': 630.665,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 611.0,
+    'vwap': 630.209}}
+2025-08-08 11:08:50 INFO: Most recent stock data: {'LLY': {   'close': 633.78,
+    'high': 633.78,
+    'low': 630.49,
+    'open': 630.49,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 1810.0,
+    'vwap': 632.064231}}
+2025-08-08 11:09:50 INFO: Most recent stock data: {'LLY': {   'close': 634.32,
+    'high': 634.32,
+    'low': 634.18,
+    'open': 634.18,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 586.0,
+    'vwap': 634.25}}
+2025-08-08 11:10:51 INFO: Most recent stock data: {'LLY': {   'close': 633.07,
+    'high': 633.86,
+    'low': 633.07,
+    'open': 633.86,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1150.0,
+    'vwap': 633.291875}}
+2025-08-08 11:11:51 INFO: Most recent stock data: {'LLY': {   'close': 633.28,
+    'high': 633.895,
+    'low': 633.28,
+    'open': 633.895,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1237.0,
+    'vwap': 633.714167}}
+2025-08-08 11:12:52 INFO: Most recent stock data: {'LLY': {   'close': 633.0,
+    'high': 633.16,
+    'low': 633.0,
+    'open': 633.16,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 599.0,
+    'vwap': 633.110617}}
+2025-08-08 11:12:52 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 11:12:52 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-08 11:13:52 INFO: {'LLY': {   'close': 633.2,
+    'high': 633.2,
+    'low': 632.405,
+    'open': 632.405,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 784.0,
+    'vwap': 632.82625}}
+2025-08-08 11:13:52 INFO: Current resistance is: 635.368 and support is: 633.534
+2025-08-08 11:13:52 INFO: Current average volume is: 2198.4
+2025-08-08 11:13:52 INFO: close price: 633.2 just dropped below support of 633.534...
+2025-08-08 11:14:53 INFO: {'LLY': {   'close': 633.0,
+    'high': 633.15,
+    'low': 632.98,
+    'open': 633.01,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1780.0,
+    'vwap': 633.055}}
+2025-08-08 11:14:53 INFO: Current resistance is: 635.368 and support is: 633.534
+2025-08-08 11:14:53 INFO: Current average volume is: 1272.8
+2025-08-08 11:14:53 INFO: Closing price: 633.0 just dropped below support 633.534 again...ending trade...
+2025-08-08 12:32:56 INFO: === Strategy started ===
+2025-08-08 12:32:56 INFO: Start collecting the current highs/lows for: LLY
+2025-08-08 12:32:56 INFO: Most recent stock data: {'LLY': {   'close': 631.83,
+    'high': 631.83,
+    'low': 631.58,
+    'open': 631.58,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1395.0,
+    'vwap': 631.714677}}
+2025-08-08 12:33:57 INFO: Most recent stock data: {'LLY': {   'close': 632.28,
+    'high': 632.41,
+    'low': 632.22,
+    'open': 632.22,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 956.0,
+    'vwap': 632.32125}}
+2025-08-08 12:34:57 INFO: Most recent stock data: {'LLY': {   'close': 632.37,
+    'high': 632.405,
+    'low': 632.37,
+    'open': 632.405,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 728.0,
+    'vwap': 632.39625}}
+2025-08-08 12:35:58 INFO: Most recent stock data: {'LLY': {   'close': 632.24,
+    'high': 632.24,
+    'low': 632.225,
+    'open': 632.225,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 960.0,
+    'vwap': 632.236875}}
+2025-08-08 12:36:58 INFO: Most recent stock data: {'LLY': {   'close': 631.66,
+    'high': 632.21,
+    'low': 631.66,
+    'open': 632.21,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1822.0,
+    'vwap': 631.919362}}
+2025-08-08 12:37:59 INFO: Most recent stock data: {'LLY': {   'close': 631.48,
+    'high': 631.81,
+    'low': 631.42,
+    'open': 631.81,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1269.0,
+    'vwap': 631.704286}}
+2025-08-08 12:38:59 INFO: Most recent stock data: {'LLY': {   'close': 631.45,
+    'high': 631.46,
+    'low': 631.35,
+    'open': 631.375,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1023.0,
+    'vwap': 631.416429}}
+2025-08-08 12:40:00 INFO: Most recent stock data: {'LLY': {   'close': 631.845,
+    'high': 632.05,
+    'low': 631.82,
+    'open': 631.82,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1759.0,
+    'vwap': 631.882273}}
+2025-08-08 12:41:00 INFO: Most recent stock data: {'LLY': {   'close': 632.6,
+    'high': 632.6,
+    'low': 631.845,
+    'open': 631.845,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1860.0,
+    'vwap': 631.960769}}
+2025-08-08 12:42:00 INFO: Most recent stock data: {'LLY': {   'close': 633.685,
+    'high': 633.685,
+    'low': 633.685,
+    'open': 633.685,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 170.0,
+    'vwap': 633.685}}
+2025-08-08 12:44:01 INFO: Most recent stock data: {'LLY': {   'close': 633.665,
+    'high': 633.69,
+    'low': 633.655,
+    'open': 633.69,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 368.0,
+    'vwap': 633.67}}
+2025-08-08 12:44:01 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 12:44:01 INFO: no pattern detected...collecting more data points...
+2025-08-08 12:45:02 INFO: Most recent stock data: {'LLY': {   'close': 633.51,
+    'high': 633.51,
+    'low': 633.165,
+    'open': 633.165,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 2116.0,
+    'vwap': 633.237647}}
+2025-08-08 12:45:02 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 12:45:02 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-08 12:47:03 INFO: {'LLY': {   'close': 633.78,
+    'high': 633.92,
+    'low': 633.78,
+    'open': 633.86,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 947.0,
+    'vwap': 633.853333}}
+2025-08-08 12:47:03 INFO: Current resistance is: 633.969 and support is: 632.149
+2025-08-08 12:47:03 INFO: Current average volume is: 1229.4
+2025-08-08 12:47:03 INFO: Updated resistance to: 634.077 and support to: 632.435
+2025-08-08 12:49:04 INFO: {'LLY': {   'close': 634.29,
+    'high': 634.44,
+    'low': 634.29,
+    'open': 634.44,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1074.0,
+    'vwap': 634.361553}}
+2025-08-08 12:49:04 INFO: Current resistance is: 634.077 and support is: 632.435
+2025-08-08 12:49:04 INFO: Current average volume is: 1240.8
+2025-08-08 12:49:04 INFO: The Current Close 634.29 is above the resistance...
+2025-08-08 12:49:04 INFO: Updated resistance to: 634.618 and support to: 632.782
+2025-08-08 12:50:04 INFO: {'LLY': {   'close': 633.605,
+    'high': 633.9,
+    'low': 633.605,
+    'open': 633.815,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1063.0,
+    'vwap': 633.845355}}
+2025-08-08 12:50:04 INFO: Current resistance is: 634.618 and support is: 632.782
+2025-08-08 12:50:04 INFO: Current average volume is: 1164.9
+2025-08-08 12:50:04 INFO: Updated resistance to: 634.788 and support to: 632.906
+2025-08-08 12:51:05 INFO: {'LLY': {   'close': 633.6,
+    'high': 633.6,
+    'low': 633.6,
+    'open': 633.6,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 1310.0,
+    'vwap': 633.6}}
+2025-08-08 12:51:05 INFO: Current resistance is: 634.788 and support is: 632.906
+2025-08-08 12:51:05 INFO: Current average volume is: 1169.0
+2025-08-08 12:51:05 INFO: Updated resistance to: 634.922 and support to: 632.999
+2025-08-08 12:52:05 INFO: {'LLY': {   'close': 633.92,
+    'high': 634.04,
+    'low': 633.92,
+    'open': 634.04,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 1108.0,
+    'vwap': 633.98}}
+2025-08-08 12:52:05 INFO: Current resistance is: 634.922 and support is: 632.999
+2025-08-08 12:52:05 INFO: Current average volume is: 1177.5
+2025-08-08 12:52:05 INFO: Updated resistance to: 635.068 and support to: 633.138
+2025-08-08 12:53:06 INFO: {'LLY': {   'close': 633.34,
+    'high': 634.21,
+    'low': 633.34,
+    'open': 633.99,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 1498.0,
+    'vwap': 633.7145}}
+2025-08-08 12:53:06 INFO: Current resistance is: 635.068 and support is: 633.138
+2025-08-08 12:53:06 INFO: Current average volume is: 1151.4
+2025-08-08 12:53:06 INFO: Updated resistance to: 635.213 and support to: 633.123
+2025-08-08 12:54:06 INFO: {'LLY': {   'close': 634.14,
+    'high': 634.14,
+    'low': 634.14,
+    'open': 634.14,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 888.0,
+    'vwap': 634.14}}
+2025-08-08 12:54:06 INFO: Current resistance is: 635.213 and support is: 633.123
+2025-08-08 12:54:06 INFO: Current average volume is: 1054.2
+2025-08-08 12:54:06 INFO: Updated resistance to: 635.336 and support to: 633.268
+2025-08-08 12:56:07 INFO: {'LLY': {   'close': 634.565,
+    'high': 634.565,
+    'low': 634.2,
+    'open': 634.2,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 775.0,
+    'vwap': 634.3825}}
+2025-08-08 12:56:07 INFO: Current resistance is: 635.336 and support is: 633.268
+2025-08-08 12:56:07 INFO: Current average volume is: 1114.7
+2025-08-08 12:56:07 INFO: Updated resistance to: 634.715 and support to: 633.395
+2025-08-08 12:57:07 INFO: {'LLY': {   'close': 634.42,
+    'high': 634.62,
+    'low': 634.25,
+    'open': 634.62,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 123.0,
+    'volume': 5931.0,
+    'vwap': 634.426365}}
+2025-08-08 12:57:07 INFO: Current resistance is: 634.715 and support is: 633.395
+2025-08-08 12:57:07 INFO: Current average volume is: 1671.0
+2025-08-08 12:57:07 INFO: Updated resistance to: 634.768 and support to: 633.507
+2025-08-08 12:58:08 INFO: {'LLY': {   'close': 634.61,
+    'high': 634.61,
+    'low': 634.4,
+    'open': 634.4,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 860.0,
+    'vwap': 634.444}}
+2025-08-08 12:58:08 INFO: Current resistance is: 634.768 and support is: 633.507
+2025-08-08 12:58:08 INFO: Current average volume is: 1545.4
+2025-08-08 12:58:08 INFO: Updated resistance to: 634.911 and support to: 633.624
+2025-08-08 12:59:08 INFO: {'LLY': {   'close': 634.855,
+    'high': 634.855,
+    'low': 634.855,
+    'open': 634.855,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 312.0,
+    'vwap': 634.855}}
+2025-08-08 12:59:08 INFO: Current resistance is: 634.911 and support is: 633.624
+2025-08-08 12:59:08 INFO: Current average volume is: 1481.9
+2025-08-08 12:59:08 INFO: Updated resistance to: 635.0 and support to: 633.803
+2025-08-08 13:00:08 INFO: {'LLY': {   'close': 635.04,
+    'high': 635.04,
+    'low': 635.01,
+    'open': 635.01,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 79.0,
+    'volume': 946.0,
+    'vwap': 635.025}}
+2025-08-08 13:00:08 INFO: Current resistance is: 635.0 and support is: 633.803
+2025-08-08 13:00:08 INFO: Current average volume is: 1469.1
+2025-08-08 13:00:08 INFO: The Current Close 635.04 is above the resistance...
+2025-08-08 13:00:08 INFO: Updated resistance to: 635.184 and support to: 633.979
+2025-08-08 13:01:10 INFO: {'LLY': {   'close': 634.7,
+    'high': 634.7,
+    'low': 634.54,
+    'open': 634.665,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1064.0,
+    'vwap': 634.6425}}
+2025-08-08 13:01:10 INFO: Current resistance is: 635.184 and support is: 633.979
+2025-08-08 13:01:10 INFO: Current average volume is: 1469.2
+2025-08-08 13:01:10 INFO: Updated resistance to: 635.319 and support to: 634.043
+2025-08-08 13:02:11 INFO: {'LLY': {   'close': 634.93,
+    'high': 635.31,
+    'low': 634.93,
+    'open': 634.94,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 764.0,
+    'vwap': 635.0575}}
+2025-08-08 13:02:11 INFO: Current resistance is: 635.319 and support is: 634.043
+2025-08-08 13:02:11 INFO: Current average volume is: 1414.6
+2025-08-08 13:02:11 INFO: Updated resistance to: 635.45 and support to: 634.159
+2025-08-08 13:03:11 INFO: {'LLY': {   'close': 635.37,
+    'high': 635.37,
+    'low': 635.37,
+    'open': 635.37,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 543.0,
+    'vwap': 635.37}}
+2025-08-08 13:03:11 INFO: Current resistance is: 635.45 and support is: 634.159
+2025-08-08 13:03:11 INFO: Current average volume is: 1358.1
+2025-08-08 13:03:11 INFO: Updated resistance to: 635.509 and support to: 634.328
+2025-08-08 13:04:12 INFO: {'LLY': {   'close': 636.105,
+    'high': 636.15,
+    'low': 635.77,
+    'open': 635.77,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1449.0,
+    'vwap': 635.983333}}
+2025-08-08 13:04:12 INFO: Current resistance is: 635.509 and support is: 634.328
+2025-08-08 13:04:12 INFO: Current average volume is: 1353.2
+2025-08-08 13:04:12 INFO: The Current Close 636.105 is above the resistance...
+2025-08-08 13:04:12 INFO: Updated resistance to: 636.294 and support to: 634.536
+2025-08-08 13:05:12 INFO: {'LLY': {   'close': 635.88,
+    'high': 635.88,
+    'low': 635.845,
+    'open': 635.845,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 338.0,
+    'vwap': 635.8625}}
+2025-08-08 13:05:12 INFO: Current resistance is: 636.294 and support is: 634.536
+2025-08-08 13:05:12 INFO: Current average volume is: 1298.2
+2025-08-08 13:05:12 INFO: Updated resistance to: 636.439 and support to: 634.725
+2025-08-08 13:06:13 INFO: {'LLY': {   'close': 636.045,
+    'high': 636.05,
+    'low': 635.975,
+    'open': 635.975,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1131.0,
+    'vwap': 636.0225}}
+2025-08-08 13:06:13 INFO: Current resistance is: 636.439 and support is: 634.725
+2025-08-08 13:06:13 INFO: Current average volume is: 1333.8
+2025-08-08 13:06:13 INFO: Updated resistance to: 636.586 and support to: 634.907
+2025-08-08 13:07:13 INFO: {'LLY': {   'close': 635.76,
+    'high': 635.85,
+    'low': 635.76,
+    'open': 635.85,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 429.0,
+    'vwap': 635.805}}
+2025-08-08 13:07:13 INFO: Current resistance is: 636.586 and support is: 634.907
+2025-08-08 13:07:13 INFO: Current average volume is: 783.6
+2025-08-08 13:07:13 INFO: Updated resistance to: 636.725 and support to: 635.03
+2025-08-08 13:08:13 INFO: {'LLY': {   'close': 635.725,
+    'high': 635.725,
+    'low': 635.61,
+    'open': 635.61,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 433.0,
+    'vwap': 635.648333}}
+2025-08-08 13:08:13 INFO: Current resistance is: 636.725 and support is: 635.03
+2025-08-08 13:08:13 INFO: Current average volume is: 740.9
+2025-08-08 13:08:13 INFO: Updated resistance to: 636.855 and support to: 635.112
+2025-08-08 13:09:14 INFO: {'LLY': {   'close': 635.915,
+    'high': 635.915,
+    'low': 635.915,
+    'open': 635.915,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 266.0,
+    'vwap': 635.915}}
+2025-08-08 13:09:14 INFO: Current resistance is: 636.855 and support is: 635.112
+2025-08-08 13:09:14 INFO: Current average volume is: 736.3
+2025-08-08 13:09:14 INFO: Updated resistance to: 636.984 and support to: 635.224
+2025-08-08 13:15:16 INFO: {'LLY': {   'close': 637.24,
+    'high': 637.24,
+    'low': 637.24,
+    'open': 637.24,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 682.0,
+    'vwap': 637.24}}
+2025-08-08 13:15:16 INFO: Current resistance is: 636.984 and support is: 635.224
+2025-08-08 13:15:16 INFO: Current average volume is: 709.9
+2025-08-08 13:15:16 INFO: The Current Close 637.24 is above the resistance...
+2025-08-08 13:15:16 INFO: Updated resistance to: 637.383 and support to: 635.506
+2025-08-08 13:16:17 INFO: {'LLY': {   'close': 636.875,
+    'high': 636.875,
+    'low': 636.875,
+    'open': 636.875,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 370.0,
+    'vwap': 636.875}}
+2025-08-08 13:16:17 INFO: Current resistance is: 637.383 and support is: 635.506
+2025-08-08 13:16:17 INFO: Current average volume is: 640.5
+2025-08-08 13:16:17 INFO: Updated resistance to: 637.529 and support to: 635.703
+2025-08-08 13:17:17 INFO: {'LLY': {   'close': 637.2,
+    'high': 637.32,
+    'low': 637.2,
+    'open': 637.26,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 12930.0,
+    'vwap': 637.206313}}
+2025-08-08 13:17:17 INFO: Current resistance is: 637.529 and support is: 635.703
+2025-08-08 13:17:17 INFO: Current average volume is: 1857.1
+2025-08-08 13:17:17 INFO: Updated resistance to: 637.467 and support to: 635.92
+2025-08-08 13:18:18 INFO: {'LLY': {   'close': 636.83,
+    'high': 636.83,
+    'low': 636.83,
+    'open': 636.83,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 350.0,
+    'vwap': 636.83}}
+2025-08-08 13:18:18 INFO: Current resistance is: 637.467 and support is: 635.92
+2025-08-08 13:18:18 INFO: Current average volume is: 1837.8
+2025-08-08 13:18:18 INFO: Updated resistance to: 637.612 and support to: 636.061
+2025-08-08 13:19:18 INFO: {'LLY': {   'close': 637.01,
+    'high': 637.01,
+    'low': 637.01,
+    'open': 637.01,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 384.0,
+    'vwap': 637.01}}
+2025-08-08 13:19:18 INFO: Current resistance is: 637.612 and support is: 636.061
+2025-08-08 13:19:18 INFO: Current average volume is: 1731.3
+2025-08-08 13:19:18 INFO: Updated resistance to: 637.757 and support to: 636.207
+2025-08-08 13:20:19 INFO: {'LLY': {   'close': 636.6,
+    'high': 636.98,
+    'low': 636.6,
+    'open': 636.98,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 687.0,
+    'vwap': 636.676}}
+2025-08-08 13:20:19 INFO: Current resistance is: 637.757 and support is: 636.207
+2025-08-08 13:20:19 INFO: Current average volume is: 1766.2
+2025-08-08 13:20:19 INFO: Updated resistance to: 637.898 and support to: 636.283
+2025-08-08 13:22:19 INFO: {'LLY': {   'close': 636.9,
+    'high': 636.9,
+    'low': 636.9,
+    'open': 636.9,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 267.0,
+    'vwap': 636.9}}
+2025-08-08 13:22:19 INFO: Current resistance is: 637.898 and support is: 636.283
+2025-08-08 13:22:19 INFO: Current average volume is: 1679.8
+2025-08-08 13:22:19 INFO: Updated resistance to: 638.034 and support to: 636.383
+2025-08-08 13:24:20 INFO: {'LLY': {   'close': 637.5,
+    'high': 637.5,
+    'low': 637.425,
+    'open': 637.425,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1220.0,
+    'vwap': 637.459722}}
+2025-08-08 13:24:20 INFO: Current resistance is: 638.034 and support is: 636.383
+2025-08-08 13:24:20 INFO: Current average volume is: 1758.9
+2025-08-08 13:24:20 INFO: Updated resistance to: 637.643 and support to: 636.534
+2025-08-08 13:25:20 INFO: {'LLY': {   'close': 637.395,
+    'high': 637.635,
+    'low': 637.28,
+    'open': 637.635,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1059.0,
+    'vwap': 637.495833}}
+2025-08-08 13:25:20 INFO: Current resistance is: 637.643 and support is: 636.534
+2025-08-08 13:25:20 INFO: Current average volume is: 1821.5
+2025-08-08 13:25:20 INFO: Updated resistance to: 637.778 and support to: 636.649
+2025-08-08 13:28:21 INFO: {'LLY': {   'close': 635.37,
+    'high': 635.7,
+    'low': 635.3,
+    'open': 635.7,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 884.0,
+    'vwap': 635.548138}}
+2025-08-08 13:28:21 INFO: Current resistance is: 637.778 and support is: 636.649
+2025-08-08 13:28:21 INFO: Current average volume is: 1883.3
+2025-08-08 13:28:21 INFO: close price: 635.37 just dropped below support of 636.649...
+2025-08-08 13:29:22 INFO: {'LLY': {   'close': 635.305,
+    'high': 635.305,
+    'low': 635.305,
+    'open': 635.305,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 142.0,
+    'vwap': 635.305}}
+2025-08-08 13:29:22 INFO: Current resistance is: 637.778 and support is: 636.649
+2025-08-08 13:29:22 INFO: Current average volume is: 1829.3
+2025-08-08 13:29:22 INFO: Closing price: 635.305 just dropped below support 636.649 again...ending trade...
+2025-08-08 13:32:54 INFO: === Strategy started ===
+2025-08-08 13:32:54 INFO: Start collecting the current highs/lows for: LLY
+2025-08-08 13:32:55 INFO: Most recent stock data: {'LLY': {   'close': 635.56,
+    'high': 635.56,
+    'low': 635.56,
+    'open': 635.56,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 200.0,
+    'vwap': 635.56}}
+2025-08-08 13:33:56 INFO: Most recent stock data: {'LLY': {   'close': 635.83,
+    'high': 635.83,
+    'low': 635.625,
+    'open': 635.625,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 940.0,
+    'vwap': 635.748494}}
+2025-08-08 13:34:56 INFO: Most recent stock data: {'LLY': {   'close': 635.64,
+    'high': 635.64,
+    'low': 635.64,
+    'open': 635.64,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 257.0,
+    'vwap': 635.64}}
+2025-08-08 13:35:57 INFO: Most recent stock data: {'LLY': {   'close': 635.6,
+    'high': 635.6,
+    'low': 635.6,
+    'open': 635.6,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 424.0,
+    'vwap': 635.6}}
+2025-08-08 13:36:57 INFO: Most recent stock data: {'LLY': {   'close': 635.9,
+    'high': 635.9,
+    'low': 635.9,
+    'open': 635.9,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 626.0,
+    'vwap': 635.9}}
+2025-08-08 13:37:57 INFO: Most recent stock data: {'LLY': {   'close': 636.735,
+    'high': 636.735,
+    'low': 636.735,
+    'open': 636.735,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 303.0,
+    'vwap': 636.735}}
+2025-08-08 13:39:59 INFO: Most recent stock data: {'LLY': {   'close': 635.585,
+    'high': 635.62,
+    'low': 635.585,
+    'open': 635.62,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 386.0,
+    'vwap': 635.608333}}
+2025-08-08 13:40:59 INFO: Most recent stock data: {'LLY': {   'close': 635.33,
+    'high': 635.33,
+    'low': 635.33,
+    'open': 635.33,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 326.0,
+    'vwap': 635.33}}
+2025-08-08 13:42:00 INFO: Most recent stock data: {'LLY': {   'close': 634.83,
+    'high': 635.255,
+    'low': 634.83,
+    'open': 635.255,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 937.0,
+    'vwap': 635.0325}}
+2025-08-08 13:43:00 INFO: Most recent stock data: {'LLY': {   'close': 634.085,
+    'high': 634.085,
+    'low': 634.085,
+    'open': 634.085,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 308.0,
+    'vwap': 634.085}}
+2025-08-08 13:44:01 INFO: Most recent stock data: {'LLY': {   'close': 634.07,
+    'high': 634.07,
+    'low': 634.07,
+    'open': 634.07,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 291.0,
+    'vwap': 634.07}}
+2025-08-08 13:44:01 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 13:44:01 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-08 13:45:02 INFO: {'LLY': {   'close': 633.915,
+    'high': 633.915,
+    'low': 633.91,
+    'open': 633.91,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 403.0,
+    'vwap': 633.9125}}
+2025-08-08 13:45:02 INFO: Current resistance is: 635.84 and support is: 633.916
+2025-08-08 13:45:02 INFO: Current average volume is: 426.1
+2025-08-08 13:45:02 INFO: close price: 633.915 just dropped below support of 633.916...
+2025-08-08 13:46:02 INFO: {'LLY': {   'close': 633.77,
+    'high': 633.77,
+    'low': 633.57,
+    'open': 633.57,
+    'symbol': 'LLY',
+    'timestamp': datetime.datetime(2025, 8, 8, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 399.0,
+    'vwap': 633.675}}
+2025-08-08 13:46:02 INFO: Current resistance is: 635.84 and support is: 633.916
+2025-08-08 13:46:02 INFO: Current average volume is: 440.3
+2025-08-08 13:46:02 INFO: Closing price: 633.77 just dropped below support 633.916 again...ending trade...

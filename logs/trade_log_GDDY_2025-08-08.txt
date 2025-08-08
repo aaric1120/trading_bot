@@ -1,0 +1,706 @@
+2025-08-08 09:59:17 INFO: === Strategy started ===
+2025-08-08 09:59:17 INFO: Start collecting the current highs/lows for: GDDY
+2025-08-08 10:02:48 INFO: === Strategy started ===
+2025-08-08 10:02:48 INFO: Start collecting the current highs/lows for: GDDY
+2025-08-08 10:02:49 INFO: Most recent stock data: {'GDDY': {   'close': 141.72,
+    'high': 141.72,
+    'low': 141.72,
+    'open': 141.72,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 297.0,
+    'vwap': 141.72}}
+2025-08-08 10:04:49 INFO: Most recent stock data: {'GDDY': {   'close': 141.62,
+    'high': 141.62,
+    'low': 141.45,
+    'open': 141.45,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1127.0,
+    'vwap': 141.510797}}
+2025-08-08 10:05:50 INFO: Most recent stock data: {'GDDY': {   'close': 140.905,
+    'high': 141.57,
+    'low': 140.905,
+    'open': 141.57,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1011.0,
+    'vwap': 141.199583}}
+2025-08-08 10:06:50 INFO: Most recent stock data: {'GDDY': {   'close': 141.21,
+    'high': 141.21,
+    'low': 140.63,
+    'open': 140.63,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1374.0,
+    'vwap': 140.902778}}
+2025-08-08 10:07:51 INFO: Most recent stock data: {'GDDY': {   'close': 141.42,
+    'high': 141.42,
+    'low': 141.15,
+    'open': 141.15,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 420.0,
+    'vwap': 141.24}}
+2025-08-08 10:08:51 INFO: Most recent stock data: {'GDDY': {   'close': 141.18,
+    'high': 141.25,
+    'low': 141.18,
+    'open': 141.25,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 281.0,
+    'vwap': 141.215}}
+2025-08-08 10:09:52 INFO: Most recent stock data: {'GDDY': {   'close': 140.815,
+    'high': 141.01,
+    'low': 140.815,
+    'open': 141.01,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 590.0,
+    'vwap': 140.882039}}
+2025-08-08 10:10:52 INFO: Most recent stock data: {'GDDY': {   'close': 140.17,
+    'high': 140.52,
+    'low': 140.04,
+    'open': 140.52,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 823.0,
+    'vwap': 140.219}}
+2025-08-08 10:11:52 INFO: Most recent stock data: {'GDDY': {   'close': 140.46,
+    'high': 140.46,
+    'low': 140.09,
+    'open': 140.09,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1119.0,
+    'vwap': 140.236089}}
+2025-08-08 10:12:52 INFO: Most recent stock data: {'GDDY': {   'close': 140.73,
+    'high': 140.81,
+    'low': 140.45,
+    'open': 140.45,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2028.0,
+    'vwap': 140.628234}}
+2025-08-08 10:13:53 INFO: Most recent stock data: {'GDDY': {   'close': 140.3,
+    'high': 140.935,
+    'low': 140.215,
+    'open': 140.73,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 2893.0,
+    'vwap': 140.647727}}
+2025-08-08 10:13:53 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 10:13:53 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-08 10:14:54 INFO: {'GDDY': {   'close': 140.23,
+    'high': 140.33,
+    'low': 139.895,
+    'open': 139.895,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 1631.0,
+    'vwap': 140.158571}}
+2025-08-08 10:14:54 INFO: Current resistance is: 140.492 and support is: 139.477
+2025-08-08 10:14:54 INFO: Current average volume is: 1217.0
+2025-08-08 10:14:54 INFO: Updated resistance to: 140.316 and support to: 139.752
+2025-08-08 10:15:54 INFO: {'GDDY': {   'close': 140.71,
+    'high': 140.85,
+    'low': 140.27,
+    'open': 140.38,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 4309.0,
+    'vwap': 140.62283}}
+2025-08-08 10:15:54 INFO: Current resistance is: 140.316 and support is: 139.752
+2025-08-08 10:15:54 INFO: Current average volume is: 1546.8
+2025-08-08 10:15:54 INFO: The Current Close 140.71 is above the resistance...
+2025-08-08 10:15:54 INFO: Updated resistance to: 140.43 and support to: 139.642
+2025-08-08 10:16:25 INFO: {'GDDY': {   'close': 141.905,
+    'high': 141.905,
+    'low': 140.905,
+    'open': 140.905,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 2463.0,
+    'vwap': 141.358947}}
+2025-08-08 10:16:25 INFO: Current resistance is: 140.43 and support is: 139.642
+2025-08-08 10:16:25 INFO: Current average volume is: 1655.7
+2025-08-08 10:16:25 INFO: The current close: 141.905 is above the resistance of 140.43, but volume isn't enough...
+2025-08-08 10:16:25 INFO: Updated resistance to: 141.85 and support to: 139.611
+2025-08-08 10:18:26 INFO: {'GDDY': {   'close': 141.59,
+    'high': 142.16,
+    'low': 141.59,
+    'open': 142.16,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 2369.0,
+    'vwap': 141.913557}}
+2025-08-08 10:18:26 INFO: Current resistance is: 141.85 and support is: 139.611
+2025-08-08 10:18:26 INFO: Current average volume is: 1850.6
+2025-08-08 10:18:26 INFO: Updated resistance to: 142.141 and support to: 139.677
+2025-08-08 10:19:27 INFO: {'GDDY': {   'close': 140.89,
+    'high': 141.18,
+    'low': 140.89,
+    'open': 141.18,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 554.0,
+    'vwap': 141.05}}
+2025-08-08 10:19:27 INFO: Current resistance is: 142.141 and support is: 139.677
+2025-08-08 10:19:27 INFO: Current average volume is: 1877.9
+2025-08-08 10:19:27 INFO: Updated resistance to: 142.129 and support to: 139.685
+2025-08-08 10:20:27 INFO: {'GDDY': {   'close': 140.835,
+    'high': 140.885,
+    'low': 140.82,
+    'open': 140.82,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 779.0,
+    'vwap': 140.852}}
+2025-08-08 10:20:27 INFO: Current resistance is: 142.129 and support is: 139.685
+2025-08-08 10:20:27 INFO: Current average volume is: 1896.8
+2025-08-08 10:20:27 INFO: Updated resistance to: 142.104 and support to: 139.692
+2025-08-08 10:21:28 INFO: {'GDDY': {   'close': 141.03,
+    'high': 141.11,
+    'low': 140.67,
+    'open': 140.67,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1213.0,
+    'vwap': 140.877354}}
+2025-08-08 10:21:28 INFO: Current resistance is: 142.104 and support is: 139.692
+2025-08-08 10:21:28 INFO: Current average volume is: 1935.8
+2025-08-08 10:21:28 INFO: Updated resistance to: 142.093 and support to: 139.684
+2025-08-08 10:22:28 INFO: {'GDDY': {   'close': 140.85,
+    'high': 140.915,
+    'low': 140.85,
+    'open': 140.915,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 419.0,
+    'vwap': 140.893333}}
+2025-08-08 10:22:28 INFO: Current resistance is: 142.093 and support is: 139.684
+2025-08-08 10:22:28 INFO: Current average volume is: 1865.8
+2025-08-08 10:22:28 INFO: Updated resistance to: 142.069 and support to: 139.701
+2025-08-08 10:23:28 INFO: {'GDDY': {   'close': 140.98,
+    'high': 140.98,
+    'low': 140.94,
+    'open': 140.94,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 825.0,
+    'vwap': 140.966667}}
+2025-08-08 10:23:28 INFO: Current resistance is: 142.069 and support is: 139.701
+2025-08-08 10:23:28 INFO: Current average volume is: 1745.5
+2025-08-08 10:23:28 INFO: Updated resistance to: 142.052 and support to: 139.731
+2025-08-08 10:24:29 INFO: {'GDDY': {   'close': 141.83,
+    'high': 141.83,
+    'low': 141.61,
+    'open': 141.61,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 850.0,
+    'vwap': 141.712}}
+2025-08-08 10:24:29 INFO: Current resistance is: 142.052 and support is: 139.731
+2025-08-08 10:24:29 INFO: Current average volume is: 1541.2
+2025-08-08 10:24:29 INFO: Updated resistance to: 142.114 and support to: 139.846
+2025-08-08 10:25:29 INFO: {'GDDY': {   'close': 142.11,
+    'high': 142.11,
+    'low': 141.285,
+    'open': 141.285,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 510.0,
+    'vwap': 141.765}}
+2025-08-08 10:25:29 INFO: Current resistance is: 142.114 and support is: 139.846
+2025-08-08 10:25:29 INFO: Current average volume is: 1429.1
+2025-08-08 10:25:29 INFO: Updated resistance to: 142.203 and support to: 139.91
+2025-08-08 10:26:30 INFO: {'GDDY': {   'close': 141.97,
+    'high': 141.97,
+    'low': 141.955,
+    'open': 141.955,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 434.0,
+    'vwap': 141.966}}
+2025-08-08 10:26:30 INFO: Current resistance is: 142.203 and support is: 139.91
+2025-08-08 10:26:30 INFO: Current average volume is: 1041.6
+2025-08-08 10:26:30 INFO: Updated resistance to: 142.276 and support to: 140.055
+2025-08-08 10:27:30 INFO: {'GDDY': {   'close': 141.7,
+    'high': 141.7,
+    'low': 141.7,
+    'open': 141.7,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 255.0,
+    'vwap': 141.7}}
+2025-08-08 10:27:30 INFO: Current resistance is: 142.276 and support is: 140.055
+2025-08-08 10:27:30 INFO: Current average volume is: 820.8
+2025-08-08 10:27:30 INFO: Updated resistance to: 142.318 and support to: 140.154
+2025-08-08 10:28:30 INFO: {'GDDY': {   'close': 141.27,
+    'high': 141.35,
+    'low': 141.27,
+    'open': 141.35,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 485.0,
+    'vwap': 141.31}}
+2025-08-08 10:28:30 INFO: Current resistance is: 142.318 and support is: 140.154
+2025-08-08 10:28:30 INFO: Current average volume is: 632.4
+2025-08-08 10:28:30 INFO: Updated resistance to: 142.322 and support to: 140.187
+2025-08-08 10:29:31 INFO: {'GDDY': {   'close': 141.145,
+    'high': 141.23,
+    'low': 141.0,
+    'open': 141.0,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 571.0,
+    'vwap': 141.13}}
+2025-08-08 10:29:31 INFO: Current resistance is: 142.322 and support is: 140.187
+2025-08-08 10:29:31 INFO: Current average volume is: 634.1
+2025-08-08 10:29:31 INFO: Updated resistance to: 142.313 and support to: 140.182
+2025-08-08 10:30:31 INFO: {'GDDY': {   'close': 141.56,
+    'high': 141.56,
+    'low': 141.365,
+    'open': 141.49,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1093.0,
+    'vwap': 141.435625}}
+2025-08-08 10:30:31 INFO: Current resistance is: 142.313 and support is: 140.182
+2025-08-08 10:30:31 INFO: Current average volume is: 665.5
+2025-08-08 10:30:31 INFO: Updated resistance to: 142.338 and support to: 140.223
+2025-08-08 10:31:32 INFO: {'GDDY': {   'close': 141.82,
+    'high': 142.08,
+    'low': 141.82,
+    'open': 142.01,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1397.0,
+    'vwap': 141.9405}}
+2025-08-08 10:31:32 INFO: Current resistance is: 142.338 and support is: 140.223
+2025-08-08 10:31:32 INFO: Current average volume is: 683.9
+2025-08-08 10:31:32 INFO: Updated resistance to: 142.414 and support to: 140.316
+2025-08-08 10:32:32 INFO: {'GDDY': {   'close': 142.8,
+    'high': 142.8,
+    'low': 142.17,
+    'open': 142.22,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 60.0,
+    'volume': 2326.0,
+    'vwap': 142.425833}}
+2025-08-08 10:32:32 INFO: Current resistance is: 142.414 and support is: 140.316
+2025-08-08 10:32:32 INFO: Current average volume is: 874.6
+2025-08-08 10:32:32 INFO: The Current Close 142.8 is above the resistance...
+2025-08-08 10:32:32 INFO: Updated resistance to: 142.827 and support to: 140.444
+2025-08-08 10:33:03 INFO: {'GDDY': {   'close': 143.04,
+    'high': 143.12,
+    'low': 142.81,
+    'open': 142.81,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 924.0,
+    'vwap': 142.967963}}
+2025-08-08 10:33:03 INFO: Current resistance is: 142.827 and support is: 140.444
+2025-08-08 10:33:03 INFO: Current average volume is: 884.5
+2025-08-08 10:33:03 INFO: The current close: 143.04 is above the resistance of 142.827, but volume isn't enough...
+2025-08-08 10:33:03 INFO: Updated resistance to: 143.155 and support to: 140.638
+2025-08-08 10:34:04 INFO: {'GDDY': {   'close': 143.03,
+    'high': 143.03,
+    'low': 142.56,
+    'open': 142.92,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 60.0,
+    'volume': 2540.0,
+    'vwap': 142.705909}}
+2025-08-08 10:34:04 INFO: Current resistance is: 143.155 and support is: 140.638
+2025-08-08 10:34:04 INFO: Current average volume is: 1053.5
+2025-08-08 10:34:04 INFO: Updated resistance to: 143.204 and support to: 140.782
+2025-08-08 10:35:04 INFO: {'GDDY': {   'close': 142.72,
+    'high': 142.72,
+    'low': 142.72,
+    'open': 142.72,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 177.0,
+    'vwap': 142.72}}
+2025-08-08 10:35:04 INFO: Current resistance is: 143.204 and support is: 140.782
+2025-08-08 10:35:04 INFO: Current average volume is: 1020.2
+2025-08-08 10:35:04 INFO: Updated resistance to: 143.255 and support to: 140.932
+2025-08-08 10:36:04 INFO: {'GDDY': {   'close': 142.055,
+    'high': 142.52,
+    'low': 142.045,
+    'open': 142.52,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 2053.0,
+    'vwap': 142.264063}}
+2025-08-08 10:36:04 INFO: Current resistance is: 143.255 and support is: 140.932
+2025-08-08 10:36:04 INFO: Current average volume is: 1182.1
+2025-08-08 10:36:04 INFO: Updated resistance to: 143.306 and support to: 140.987
+2025-08-08 10:37:05 INFO: {'GDDY': {   'close': 142.01,
+    'high': 142.1,
+    'low': 142.01,
+    'open': 142.1,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1533.0,
+    'vwap': 142.045}}
+2025-08-08 10:37:05 INFO: Current resistance is: 143.306 and support is: 140.987
+2025-08-08 10:37:05 INFO: Current average volume is: 1309.9
+2025-08-08 10:37:05 INFO: Updated resistance to: 143.347 and support to: 141.032
+2025-08-08 10:38:05 INFO: {'GDDY': {   'close': 141.5,
+    'high': 141.5,
+    'low': 141.375,
+    'open': 141.375,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 355.0,
+    'vwap': 141.458333}}
+2025-08-08 10:38:05 INFO: Current resistance is: 143.347 and support is: 141.032
+2025-08-08 10:38:05 INFO: Current average volume is: 1296.9
+2025-08-08 10:38:05 INFO: Updated resistance to: 143.368 and support to: 140.999
+2025-08-08 10:39:06 INFO: {'GDDY': {   'close': 141.37,
+    'high': 141.4,
+    'low': 141.365,
+    'open': 141.365,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 566.0,
+    'vwap': 141.375}}
+2025-08-08 10:39:06 INFO: Current resistance is: 143.368 and support is: 140.999
+2025-08-08 10:39:06 INFO: Current average volume is: 1296.4
+2025-08-08 10:39:06 INFO: Updated resistance to: 143.381 and support to: 140.967
+2025-08-08 10:41:07 INFO: {'GDDY': {   'close': 141.3,
+    'high': 141.31,
+    'low': 141.22,
+    'open': 141.31,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 450.0,
+    'vwap': 141.285}}
+2025-08-08 10:41:07 INFO: Current resistance is: 143.381 and support is: 140.967
+2025-08-08 10:41:07 INFO: Current average volume is: 1232.1
+2025-08-08 10:41:07 INFO: Updated resistance to: 143.386 and support to: 140.92
+2025-08-08 10:43:07 INFO: {'GDDY': {   'close': 141.01,
+    'high': 141.01,
+    'low': 140.88,
+    'open': 140.88,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 656.0,
+    'vwap': 140.93625}}
+2025-08-08 10:43:07 INFO: Current resistance is: 143.386 and support is: 140.92
+2025-08-08 10:43:07 INFO: Current average volume is: 1158.0
+2025-08-08 10:43:07 INFO: Updated resistance to: 143.377 and support to: 140.838
+2025-08-08 10:44:08 INFO: {'GDDY': {   'close': 141.44,
+    'high': 141.44,
+    'low': 141.3,
+    'open': 141.33,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 630.0,
+    'vwap': 141.356667}}
+2025-08-08 10:44:08 INFO: Current resistance is: 143.377 and support is: 140.838
+2025-08-08 10:44:08 INFO: Current average volume is: 988.4
+2025-08-08 10:44:08 INFO: Updated resistance to: 143.381 and support to: 140.808
+2025-08-08 10:45:08 INFO: {'GDDY': {   'close': 141.2,
+    'high': 141.21,
+    'low': 141.2,
+    'open': 141.21,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 427.0,
+    'vwap': 141.203333}}
+2025-08-08 10:45:08 INFO: Current resistance is: 143.381 and support is: 140.808
+2025-08-08 10:45:08 INFO: Current average volume is: 938.7
+2025-08-08 10:45:08 INFO: Updated resistance to: 143.373 and support to: 140.768
+2025-08-08 10:46:09 INFO: {'GDDY': {   'close': 141.21,
+    'high': 141.3,
+    'low': 141.21,
+    'open': 141.3,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 783.0,
+    'vwap': 141.261111}}
+2025-08-08 10:46:09 INFO: Current resistance is: 143.373 and support is: 140.768
+2025-08-08 10:46:09 INFO: Current average volume is: 763.0
+2025-08-08 10:46:09 INFO: Updated resistance to: 143.367 and support to: 140.732
+2025-08-08 10:47:09 INFO: {'GDDY': {   'close': 140.965,
+    'high': 140.99,
+    'low': 140.965,
+    'open': 140.99,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 437.0,
+    'vwap': 140.9775}}
+2025-08-08 10:47:09 INFO: Current resistance is: 143.367 and support is: 140.732
+2025-08-08 10:47:09 INFO: Current average volume is: 789.0
+2025-08-08 10:47:09 INFO: Updated resistance to: 143.346 and support to: 140.672
+2025-08-08 10:49:10 INFO: {'GDDY': {   'close': 141.16,
+    'high': 141.16,
+    'low': 140.83,
+    'open': 140.83,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 540.0,
+    'vwap': 140.976667}}
+2025-08-08 10:49:10 INFO: Current resistance is: 143.346 and support is: 140.672
+2025-08-08 10:49:10 INFO: Current average volume is: 637.7
+2025-08-08 10:49:10 INFO: Updated resistance to: 143.332 and support to: 140.603
+2025-08-08 10:50:10 INFO: {'GDDY': {   'close': 140.98,
+    'high': 140.98,
+    'low': 140.94,
+    'open': 140.94,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 520.0,
+    'vwap': 140.96}}
+2025-08-08 10:50:10 INFO: Current resistance is: 143.332 and support is: 140.603
+2025-08-08 10:50:10 INFO: Current average volume is: 536.4
+2025-08-08 10:50:10 INFO: Updated resistance to: 143.308 and support to: 140.549
+2025-08-08 10:51:11 INFO: {'GDDY': {   'close': 140.95,
+    'high': 141.0,
+    'low': 140.95,
+    'open': 141.0,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 660.0,
+    'vwap': 140.962}}
+2025-08-08 10:51:11 INFO: Current resistance is: 143.308 and support is: 140.549
+2025-08-08 10:51:11 INFO: Current average volume is: 566.9
+2025-08-08 10:51:11 INFO: Updated resistance to: 143.285 and support to: 140.5
+2025-08-08 10:53:11 INFO: {'GDDY': {   'close': 140.3,
+    'high': 140.3,
+    'low': 140.3,
+    'open': 140.3,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 366.0,
+    'vwap': 140.3}}
+2025-08-08 10:53:11 INFO: Current resistance is: 143.285 and support is: 140.5
+2025-08-08 10:53:11 INFO: Current average volume is: 546.9
+2025-08-08 10:53:11 INFO: close price: 140.3 just dropped below support of 140.5...
+2025-08-08 10:54:12 INFO: {'GDDY': {   'close': 140.17,
+    'high': 140.17,
+    'low': 140.0,
+    'open': 140.0,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 774.0,
+    'vwap': 140.102}}
+2025-08-08 10:54:12 INFO: Current resistance is: 143.285 and support is: 140.5
+2025-08-08 10:54:12 INFO: Current average volume is: 579.3
+2025-08-08 10:54:12 INFO: Closing price: 140.17 just dropped below support 140.5 again...ending trade...
+2025-08-08 11:02:47 INFO: === Strategy started ===
+2025-08-08 11:02:47 INFO: Start collecting the current highs/lows for: GDDY
+2025-08-08 11:02:48 INFO: Most recent stock data: {'GDDY': {   'close': 140.02,
+    'high': 140.02,
+    'low': 140.02,
+    'open': 140.02,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 594.0,
+    'vwap': 140.02}}
+2025-08-08 11:03:48 INFO: Most recent stock data: {'GDDY': {   'close': 139.47,
+    'high': 139.47,
+    'low': 139.28,
+    'open': 139.465,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 1504.0,
+    'vwap': 139.396174}}
+2025-08-08 11:04:49 INFO: Most recent stock data: {'GDDY': {   'close': 139.27,
+    'high': 139.41,
+    'low': 139.27,
+    'open': 139.36,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 983.0,
+    'vwap': 139.3725}}
+2025-08-08 11:05:49 INFO: Most recent stock data: {'GDDY': {   'close': 139.16,
+    'high': 139.54,
+    'low': 139.13,
+    'open': 139.355,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1805.0,
+    'vwap': 139.26}}
+2025-08-08 11:06:49 INFO: Most recent stock data: {'GDDY': {   'close': 138.74,
+    'high': 138.76,
+    'low': 138.74,
+    'open': 138.76,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 333.0,
+    'vwap': 138.75}}
+2025-08-08 11:08:50 INFO: Most recent stock data: {'GDDY': {   'close': 138.545,
+    'high': 138.545,
+    'low': 138.54,
+    'open': 138.54,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 351.0,
+    'vwap': 138.5425}}
+2025-08-08 11:09:51 INFO: Most recent stock data: {'GDDY': {   'close': 138.21,
+    'high': 138.75,
+    'low': 138.21,
+    'open': 138.55,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 831.0,
+    'vwap': 138.481667}}
+2025-08-08 11:10:51 INFO: Most recent stock data: {'GDDY': {   'close': 138.18,
+    'high': 138.23,
+    'low': 138.18,
+    'open': 138.2,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1738.0,
+    'vwap': 138.200791}}
+2025-08-08 11:11:52 INFO: Most recent stock data: {'GDDY': {   'close': 138.11,
+    'high': 138.11,
+    'low': 138.07,
+    'open': 138.07,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 625.0,
+    'vwap': 138.09}}
+2025-08-08 11:12:52 INFO: Most recent stock data: {'GDDY': {   'close': 138.09,
+    'high': 138.09,
+    'low': 138.09,
+    'open': 138.09,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 519.0,
+    'vwap': 138.09}}
+2025-08-08 11:13:53 INFO: Most recent stock data: {'GDDY': {   'close': 138.69,
+    'high': 138.69,
+    'low': 138.12,
+    'open': 138.12,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 231.0,
+    'vwap': 138.405}}
+2025-08-08 11:13:53 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-08 11:13:53 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-08 11:14:54 INFO: {'GDDY': {   'close': 138.81,
+    'high': 138.81,
+    'low': 138.81,
+    'open': 138.81,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 127.0,
+    'vwap': 138.81}}
+2025-08-08 11:14:54 INFO: Current resistance is: 138.15 and support is: 137.517
+2025-08-08 11:14:54 INFO: Current average volume is: 754.3
+2025-08-08 11:14:54 INFO: The Current Close 138.81 is above the resistance...
+2025-08-08 11:14:54 INFO: Updated resistance to: 138.421 and support to: 137.52
+2025-08-08 11:16:25 INFO: {'GDDY': {   'close': 138.69,
+    'high': 138.76,
+    'low': 138.69,
+    'open': 138.76,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 500.0,
+    'vwap': 138.73}}
+2025-08-08 11:16:25 INFO: Current resistance is: 138.421 and support is: 137.52
+2025-08-08 11:16:25 INFO: Current average volume is: 706.0
+2025-08-08 11:16:25 INFO: The current close: 138.69 is above the resistance of 138.421, but volume isn't enough...
+2025-08-08 11:16:25 INFO: Updated resistance to: 138.612 and support to: 137.527
+2025-08-08 11:17:26 INFO: {'GDDY': {   'close': 138.02,
+    'high': 138.14,
+    'low': 138.02,
+    'open': 138.14,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 458.0,
+    'vwap': 138.08}}
+2025-08-08 11:17:26 INFO: Current resistance is: 138.612 and support is: 137.527
+2025-08-08 11:17:26 INFO: Current average volume is: 571.3
+2025-08-08 11:17:26 INFO: Updated resistance to: 138.519 and support to: 137.914
+2025-08-08 11:18:26 INFO: {'GDDY': {   'close': 137.5,
+    'high': 137.74,
+    'low': 137.5,
+    'open': 137.74,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 906.0,
+    'vwap': 137.563476}}
+2025-08-08 11:18:26 INFO: Current resistance is: 138.519 and support is: 137.914
+2025-08-08 11:18:26 INFO: Current average volume is: 628.6
+2025-08-08 11:18:26 INFO: close price: 137.5 just dropped below support of 137.914...
+2025-08-08 11:19:27 INFO: {'GDDY': {   'close': 137.35,
+    'high': 137.47,
+    'low': 137.35,
+    'open': 137.39,
+    'symbol': 'GDDY',
+    'timestamp': datetime.datetime(2025, 8, 8, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 517.0,
+    'vwap': 137.403333}}
+2025-08-08 11:19:27 INFO: Current resistance is: 138.519 and support is: 137.914
+2025-08-08 11:19:27 INFO: Current average volume is: 645.2
+2025-08-08 11:19:27 INFO: Closing price: 137.35 just dropped below support 137.914 again...ending trade...
