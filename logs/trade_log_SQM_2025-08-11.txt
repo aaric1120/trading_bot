@@ -1,0 +1,1663 @@
+2025-08-11 10:35:15 INFO: === Strategy started ===
+2025-08-11 10:35:15 INFO: Start collecting the current highs/lows for: SQM
+2025-08-11 10:35:16 INFO: Most recent stock data: {'SQM': {   'close': 45.0,
+    'high': 45.0,
+    'low': 45.0,
+    'open': 45.0,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 538.0,
+    'vwap': 45.0}}
+2025-08-11 10:37:16 INFO: Most recent stock data: {'SQM': {   'close': 44.93,
+    'high': 44.97,
+    'low': 44.93,
+    'open': 44.97,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 419.0,
+    'vwap': 44.952857}}
+2025-08-11 10:38:17 INFO: Most recent stock data: {'SQM': {   'close': 45.03,
+    'high': 45.06,
+    'low': 45.02,
+    'open': 45.02,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 503.0,
+    'vwap': 45.04}}
+2025-08-11 10:39:17 INFO: Most recent stock data: {'SQM': {   'close': 45.04,
+    'high': 45.04,
+    'low': 45.04,
+    'open': 45.04,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 453.0,
+    'vwap': 45.04}}
+2025-08-11 10:40:17 INFO: Most recent stock data: {'SQM': {   'close': 45.15,
+    'high': 45.15,
+    'low': 45.15,
+    'open': 45.15,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 181.0,
+    'vwap': 45.15}}
+2025-08-11 10:41:18 INFO: Most recent stock data: {'SQM': {   'close': 45.29,
+    'high': 45.29,
+    'low': 45.16,
+    'open': 45.16,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 820.0,
+    'vwap': 45.21145}}
+2025-08-11 10:42:18 INFO: Most recent stock data: {'SQM': {   'close': 45.34,
+    'high': 45.34,
+    'low': 45.34,
+    'open': 45.34,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 260.0,
+    'vwap': 45.34}}
+2025-08-11 10:43:18 INFO: Most recent stock data: {'SQM': {   'close': 45.41,
+    'high': 45.43,
+    'low': 45.41,
+    'open': 45.43,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 790.0,
+    'vwap': 45.42}}
+2025-08-11 10:44:19 INFO: Most recent stock data: {'SQM': {   'close': 45.36,
+    'high': 45.46,
+    'low': 45.36,
+    'open': 45.46,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1785.0,
+    'vwap': 45.383394}}
+2025-08-11 10:47:20 INFO: Most recent stock data: {'SQM': {   'close': 45.305,
+    'high': 45.36,
+    'low': 45.305,
+    'open': 45.36,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 613.0,
+    'vwap': 45.316957}}
+2025-08-11 10:48:20 INFO: Most recent stock data: {'SQM': {   'close': 45.195,
+    'high': 45.3,
+    'low': 45.195,
+    'open': 45.3,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 491.0,
+    'vwap': 45.235281}}
+2025-08-11 10:48:20 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 10:48:20 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-11 10:49:21 INFO: {'SQM': {   'close': 45.13,
+    'high': 45.13,
+    'low': 45.1,
+    'open': 45.1,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 630.0,
+    'vwap': 45.116667}}
+2025-08-11 10:49:21 INFO: Current resistance is: 45.603 and support is: 45.332
+2025-08-11 10:49:21 INFO: Current average volume is: 652.6
+2025-08-11 10:49:21 INFO: close price: 45.13 just dropped below support of 45.332...
+2025-08-11 10:50:21 INFO: {'SQM': {   'close': 45.155,
+    'high': 45.155,
+    'low': 45.125,
+    'open': 45.14,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1786.0,
+    'vwap': 45.140695}}
+2025-08-11 10:50:21 INFO: Current resistance is: 45.603 and support is: 45.332
+2025-08-11 10:50:21 INFO: Current average volume is: 780.9
+2025-08-11 10:50:21 INFO: Closing price: 45.155 just dropped below support 45.332 again...ending trade...
+2025-08-11 11:35:23 INFO: === Strategy started ===
+2025-08-11 11:35:23 INFO: Start collecting the current highs/lows for: SQM
+2025-08-11 11:35:23 INFO: Most recent stock data: {'SQM': {   'close': 45.49,
+    'high': 45.49,
+    'low': 45.49,
+    'open': 45.49,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 281.0,
+    'vwap': 45.49}}
+2025-08-11 11:36:24 INFO: Most recent stock data: {'SQM': {   'close': 45.485,
+    'high': 45.485,
+    'low': 45.485,
+    'open': 45.485,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.485}}
+2025-08-11 11:37:24 INFO: Most recent stock data: {'SQM': {   'close': 45.44,
+    'high': 45.46,
+    'low': 45.44,
+    'open': 45.46,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 554.0,
+    'vwap': 45.455556}}
+2025-08-11 11:39:25 INFO: Most recent stock data: {'SQM': {   'close': 45.455,
+    'high': 45.455,
+    'low': 45.455,
+    'open': 45.455,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 400.0,
+    'vwap': 45.455}}
+2025-08-11 11:42:26 INFO: Most recent stock data: {'SQM': {   'close': 45.42,
+    'high': 45.42,
+    'low': 45.42,
+    'open': 45.42,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 500.0,
+    'vwap': 45.42}}
+2025-08-11 11:43:26 INFO: Most recent stock data: {'SQM': {   'close': 45.44,
+    'high': 45.44,
+    'low': 45.44,
+    'open': 45.44,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 186.0,
+    'vwap': 45.44}}
+2025-08-11 11:45:26 INFO: Most recent stock data: {'SQM': {   'close': 45.625,
+    'high': 45.625,
+    'low': 45.625,
+    'open': 45.625,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 340.0,
+    'vwap': 45.625}}
+2025-08-11 11:47:27 INFO: Most recent stock data: {'SQM': {   'close': 45.74,
+    'high': 45.74,
+    'low': 45.74,
+    'open': 45.74,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 481.0,
+    'vwap': 45.74}}
+2025-08-11 11:49:28 INFO: Most recent stock data: {'SQM': {   'close': 45.695,
+    'high': 45.695,
+    'low': 45.695,
+    'open': 45.695,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 45.695}}
+2025-08-11 11:50:28 INFO: Most recent stock data: {'SQM': {   'close': 45.655,
+    'high': 45.72,
+    'low': 45.65,
+    'open': 45.72,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1565.0,
+    'vwap': 45.702661}}
+2025-08-11 11:53:29 INFO: Most recent stock data: {'SQM': {   'close': 45.75,
+    'high': 45.79,
+    'low': 45.75,
+    'open': 45.79,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 379.0,
+    'vwap': 45.763333}}
+2025-08-11 11:53:29 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 11:54:29 INFO: Most recent stock data: {'SQM': {   'close': 45.795,
+    'high': 45.795,
+    'low': 45.795,
+    'open': 45.795,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 176.0,
+    'vwap': 45.795}}
+2025-08-11 11:54:29 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 11:55:30 INFO: Most recent stock data: {'SQM': {   'close': 45.74,
+    'high': 45.78,
+    'low': 45.74,
+    'open': 45.78,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1871.0,
+    'vwap': 45.770588}}
+2025-08-11 11:55:30 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 11:55:30 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-11 11:57:31 INFO: {'SQM': {   'close': 45.84,
+    'high': 45.84,
+    'low': 45.84,
+    'open': 45.84,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 45.84}}
+2025-08-11 11:57:31 INFO: Current resistance is: 45.795 and support is: 45.42
+2025-08-11 11:57:31 INFO: Current average volume is: 575.3
+2025-08-11 11:57:31 INFO: The Current Close 45.84 is above the resistance...
+2025-08-11 11:57:31 INFO: Updated resistance to: 45.84 and support to: 45.42
+2025-08-11 12:01:02 INFO: {'SQM': {   'close': 45.73,
+    'high': 45.77,
+    'low': 45.72,
+    'open': 45.76,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2539.0,
+    'vwap': 45.756409}}
+2025-08-11 12:01:02 INFO: Current resistance is: 45.84 and support is: 45.42
+2025-08-11 12:01:02 INFO: Current average volume is: 779.2
+2025-08-11 12:01:02 INFO: Updated resistance to: 45.84 and support to: 45.42
+2025-08-11 12:03:03 INFO: {'SQM': {   'close': 45.74,
+    'high': 45.755,
+    'low': 45.74,
+    'open': 45.755,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 45.7475}}
+2025-08-11 12:03:03 INFO: Current resistance is: 45.84 and support is: 45.42
+2025-08-11 12:03:03 INFO: Current average volume is: 840.6
+2025-08-11 12:03:03 INFO: Updated resistance to: 45.84 and support to: 45.42
+2025-08-11 12:04:03 INFO: {'SQM': {   'close': 45.77,
+    'high': 45.77,
+    'low': 45.77,
+    'open': 45.77,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 400.0,
+    'vwap': 45.77}}
+2025-08-11 12:04:03 INFO: Current resistance is: 45.84 and support is: 45.42
+2025-08-11 12:04:03 INFO: Current average volume is: 846.6
+2025-08-11 12:04:03 INFO: Updated resistance to: 45.84 and support to: 45.42
+2025-08-11 12:05:03 INFO: {'SQM': {   'close': 45.78,
+    'high': 45.78,
+    'low': 45.78,
+    'open': 45.78,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 105.0,
+    'vwap': 45.78}}
+2025-08-11 12:05:03 INFO: Current resistance is: 45.84 and support is: 45.42
+2025-08-11 12:05:03 INFO: Current average volume is: 809.0
+2025-08-11 12:05:03 INFO: Updated resistance to: 45.84 and support to: 45.42
+2025-08-11 12:07:04 INFO: {'SQM': {   'close': 45.865,
+    'high': 45.865,
+    'low': 45.865,
+    'open': 45.865,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 400.0,
+    'vwap': 45.865}}
+2025-08-11 12:07:04 INFO: Current resistance is: 45.84 and support is: 45.42
+2025-08-11 12:07:04 INFO: Current average volume is: 838.5
+2025-08-11 12:07:04 INFO: The Current Close 45.865 is above the resistance...
+2025-08-11 12:07:04 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:08:05 INFO: {'SQM': {   'close': 45.77,
+    'high': 45.85,
+    'low': 45.77,
+    'open': 45.85,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 558.0,
+    'vwap': 45.8}}
+2025-08-11 12:08:05 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:08:05 INFO: Current average volume is: 737.8
+2025-08-11 12:08:05 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:09:05 INFO: {'SQM': {   'close': 45.78,
+    'high': 45.78,
+    'low': 45.78,
+    'open': 45.78,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 268.0,
+    'vwap': 45.78}}
+2025-08-11 12:09:05 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:09:05 INFO: Current average volume is: 726.7
+2025-08-11 12:09:05 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:10:06 INFO: {'SQM': {   'close': 45.775,
+    'high': 45.775,
+    'low': 45.775,
+    'open': 45.775,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 128.0,
+    'vwap': 45.775}}
+2025-08-11 12:10:06 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:10:06 INFO: Current average volume is: 721.9
+2025-08-11 12:10:06 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:12:06 INFO: {'SQM': {   'close': 45.75,
+    'high': 45.75,
+    'low': 45.75,
+    'open': 45.75,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.75}}
+2025-08-11 12:12:06 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:12:06 INFO: Current average volume is: 544.8
+2025-08-11 12:12:06 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:14:07 INFO: {'SQM': {   'close': 45.77,
+    'high': 45.77,
+    'low': 45.77,
+    'open': 45.77,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 102.0,
+    'vwap': 45.77}}
+2025-08-11 12:14:07 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:14:07 INFO: Current average volume is: 540.0
+2025-08-11 12:14:07 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:17:07 INFO: {'SQM': {   'close': 45.765,
+    'high': 45.765,
+    'low': 45.745,
+    'open': 45.745,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 432.0,
+    'vwap': 45.755}}
+2025-08-11 12:17:07 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:17:07 INFO: Current average volume is: 329.3
+2025-08-11 12:17:07 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:18:08 INFO: {'SQM': {   'close': 45.79,
+    'high': 45.79,
+    'low': 45.79,
+    'open': 45.79,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 45.79}}
+2025-08-11 12:18:08 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:18:08 INFO: Current average volume is: 259.4
+2025-08-11 12:18:08 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:20:08 INFO: {'SQM': {   'close': 45.835,
+    'high': 45.835,
+    'low': 45.835,
+    'open': 45.835,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1244.0,
+    'vwap': 45.835}}
+2025-08-11 12:20:08 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:20:08 INFO: Current average volume is: 343.8
+2025-08-11 12:20:08 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:21:09 INFO: {'SQM': {   'close': 45.84,
+    'high': 45.84,
+    'low': 45.84,
+    'open': 45.84,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 204.0,
+    'vwap': 45.84}}
+2025-08-11 12:21:09 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:21:09 INFO: Current average volume is: 353.7
+2025-08-11 12:21:09 INFO: Updated resistance to: 45.865 and support to: 45.42
+2025-08-11 12:22:09 INFO: {'SQM': {   'close': 45.91,
+    'high': 45.915,
+    'low': 45.91,
+    'open': 45.915,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 430.0,
+    'vwap': 45.9125}}
+2025-08-11 12:22:09 INFO: Current resistance is: 45.865 and support is: 45.42
+2025-08-11 12:22:09 INFO: Current average volume is: 356.7
+2025-08-11 12:22:09 INFO: The Current Close 45.91 is above the resistance...
+2025-08-11 12:22:09 INFO: Updated resistance to: 45.915 and support to: 45.42
+2025-08-11 12:23:09 INFO: {'SQM': {   'close': 45.93,
+    'high': 45.93,
+    'low': 45.93,
+    'open': 45.93,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 537.0,
+    'vwap': 45.93}}
+2025-08-11 12:23:09 INFO: Current resistance is: 45.915 and support is: 45.42
+2025-08-11 12:23:09 INFO: Current average volume is: 354.6
+2025-08-11 12:23:09 INFO: The current close: 45.93 is above the resistance of 45.915, but volume isn't enough...
+2025-08-11 12:23:09 INFO: Updated resistance to: 45.93 and support to: 45.42
+2025-08-11 12:25:11 INFO: {'SQM': {   'close': 45.89,
+    'high': 45.89,
+    'low': 45.89,
+    'open': 45.89,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 204.0,
+    'vwap': 45.89}}
+2025-08-11 12:25:11 INFO: Current resistance is: 45.93 and support is: 45.42
+2025-08-11 12:25:11 INFO: Current average volume is: 348.2
+2025-08-11 12:25:11 INFO: Updated resistance to: 45.93 and support to: 45.42
+2025-08-11 12:27:11 INFO: {'SQM': {   'close': 45.92,
+    'high': 45.93,
+    'low': 45.92,
+    'open': 45.93,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 338.0,
+    'vwap': 45.925}}
+2025-08-11 12:27:11 INFO: Current resistance is: 45.93 and support is: 45.42
+2025-08-11 12:27:11 INFO: Current average volume is: 369.2
+2025-08-11 12:27:11 INFO: Updated resistance to: 45.93 and support to: 45.42
+2025-08-11 12:30:12 INFO: {'SQM': {   'close': 45.9,
+    'high': 45.9,
+    'low': 45.9,
+    'open': 45.9,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 45.9}}
+2025-08-11 12:30:12 INFO: Current resistance is: 45.93 and support is: 45.42
+2025-08-11 12:30:12 INFO: Current average volume is: 369.3
+2025-08-11 12:30:12 INFO: Updated resistance to: 45.93 and support to: 45.42
+2025-08-11 12:31:13 INFO: {'SQM': {   'close': 45.91,
+    'high': 45.91,
+    'low': 45.91,
+    'open': 45.91,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 258.0,
+    'vwap': 45.91}}
+2025-08-11 12:31:13 INFO: Current resistance is: 45.93 and support is: 45.42
+2025-08-11 12:31:13 INFO: Current average volume is: 384.9
+2025-08-11 12:31:13 INFO: Updated resistance to: 45.93 and support to: 45.42
+2025-08-11 12:32:13 INFO: {'SQM': {   'close': 45.85,
+    'high': 45.85,
+    'low': 45.85,
+    'open': 45.85,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 102.0,
+    'vwap': 45.85}}
+2025-08-11 12:32:13 INFO: Current resistance is: 45.93 and support is: 45.42
+2025-08-11 12:32:13 INFO: Current average volume is: 351.9
+2025-08-11 12:32:13 INFO: Updated resistance to: 45.93 and support to: 45.42
+2025-08-11 12:38:19 INFO: {'SQM': {   'close': 45.86,
+    'high': 45.86,
+    'low': 45.86,
+    'open': 45.86,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 107.0,
+    'vwap': 45.86}}
+2025-08-11 12:38:19 INFO: Current resistance is: 45.93 and support is: 45.42
+2025-08-11 12:38:19 INFO: Current average volume is: 352.5
+2025-08-11 12:38:19 INFO: Updated resistance to: 45.93 and support to: 45.42
+2025-08-11 12:39:20 INFO: {'SQM': {   'close': 45.91,
+    'high': 45.95,
+    'low': 45.91,
+    'open': 45.91,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 582.0,
+    'vwap': 45.924}}
+2025-08-11 12:39:20 INFO: Current resistance is: 45.93 and support is: 45.42
+2025-08-11 12:39:20 INFO: Current average volume is: 286.3
+2025-08-11 12:39:20 INFO: Updated resistance to: 45.95 and support to: 45.42
+2025-08-11 12:42:20 INFO: {'SQM': {   'close': 45.81,
+    'high': 45.81,
+    'low': 45.8,
+    'open': 45.81,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 381.0,
+    'vwap': 45.805714}}
+2025-08-11 12:42:20 INFO: Current resistance is: 45.95 and support is: 45.42
+2025-08-11 12:42:20 INFO: Current average volume is: 304.0
+2025-08-11 12:42:20 INFO: Updated resistance to: 45.95 and support to: 45.42
+2025-08-11 12:44:21 INFO: {'SQM': {   'close': 45.885,
+    'high': 45.885,
+    'low': 45.885,
+    'open': 45.885,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 186.0,
+    'vwap': 45.885}}
+2025-08-11 12:44:21 INFO: Current resistance is: 45.95 and support is: 45.42
+2025-08-11 12:44:21 INFO: Current average volume is: 279.6
+2025-08-11 12:44:21 INFO: Updated resistance to: 45.95 and support to: 45.42
+2025-08-11 12:45:21 INFO: {'SQM': {   'close': 45.8,
+    'high': 45.8,
+    'low': 45.8,
+    'open': 45.8,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 580.0,
+    'vwap': 45.8}}
+2025-08-11 12:45:21 INFO: Current resistance is: 45.95 and support is: 45.42
+2025-08-11 12:45:21 INFO: Current average volume is: 283.9
+2025-08-11 12:45:21 INFO: Updated resistance to: 45.95 and support to: 45.42
+2025-08-11 12:48:22 INFO: {'SQM': {   'close': 45.85,
+    'high': 45.85,
+    'low': 45.83,
+    'open': 45.83,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 45.84}}
+2025-08-11 12:48:22 INFO: Current resistance is: 45.95 and support is: 45.42
+2025-08-11 12:48:22 INFO: Current average volume is: 293.5
+2025-08-11 12:48:22 INFO: Updated resistance to: 45.95 and support to: 45.42
+2025-08-11 12:51:23 INFO: {'SQM': {   'close': 45.9,
+    'high': 45.9,
+    'low': 45.9,
+    'open': 45.9,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 212.0,
+    'vwap': 45.9}}
+2025-08-11 12:51:23 INFO: Current resistance is: 45.95 and support is: 45.42
+2025-08-11 12:51:23 INFO: Current average volume is: 280.9
+2025-08-11 12:51:23 INFO: Updated resistance to: 45.95 and support to: 45.42
+2025-08-11 12:52:23 INFO: {'SQM': {   'close': 45.93,
+    'high': 45.93,
+    'low': 45.925,
+    'open': 45.925,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 605.0,
+    'vwap': 45.926667}}
+2025-08-11 12:52:23 INFO: Current resistance is: 45.95 and support is: 45.42
+2025-08-11 12:52:23 INFO: Current average volume is: 331.3
+2025-08-11 12:52:23 INFO: Updated resistance to: 45.95 and support to: 45.42
+2025-08-11 12:57:24 INFO: {'SQM': {   'close': 45.92,
+    'high': 45.92,
+    'low': 45.88,
+    'open': 45.88,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 802.0,
+    'vwap': 45.912143}}
+2025-08-11 12:57:24 INFO: Current resistance is: 45.95 and support is: 45.42
+2025-08-11 12:57:24 INFO: Current average volume is: 385.7
+2025-08-11 12:57:24 INFO: Updated resistance to: 45.95 and support to: 45.42
+2025-08-11 13:01:26 INFO: {'SQM': {   'close': 45.955,
+    'high': 45.955,
+    'low': 45.955,
+    'open': 45.955,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 45.955}}
+2025-08-11 13:01:26 INFO: Current resistance is: 45.95 and support is: 45.42
+2025-08-11 13:01:26 INFO: Current average volume is: 385.6
+2025-08-11 13:01:26 INFO: The Current Close 45.955 is above the resistance...
+2025-08-11 13:01:26 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:02:26 INFO: {'SQM': {   'close': 45.95,
+    'high': 45.95,
+    'low': 45.89,
+    'open': 45.95,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2501.0,
+    'vwap': 45.945581}}
+2025-08-11 13:02:26 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:02:26 INFO: Current average volume is: 625.0
+2025-08-11 13:02:26 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:05:27 INFO: {'SQM': {   'close': 45.9,
+    'high': 45.9,
+    'low': 45.9,
+    'open': 45.9,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 252.0,
+    'vwap': 45.9}}
+2025-08-11 13:05:27 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:05:27 INFO: Current average volume is: 592.0
+2025-08-11 13:05:27 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:07:27 INFO: {'SQM': {   'close': 45.8,
+    'high': 45.85,
+    'low': 45.8,
+    'open': 45.85,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 350.0,
+    'vwap': 45.818333}}
+2025-08-11 13:07:27 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:07:27 INFO: Current average volume is: 588.9
+2025-08-11 13:07:27 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:11:28 INFO: {'SQM': {   'close': 45.835,
+    'high': 45.835,
+    'low': 45.835,
+    'open': 45.835,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 45.835}}
+2025-08-11 13:11:28 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:11:28 INFO: Current average volume is: 580.5
+2025-08-11 13:11:28 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:12:29 INFO: {'SQM': {   'close': 45.81,
+    'high': 45.81,
+    'low': 45.81,
+    'open': 45.81,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.81}}
+2025-08-11 13:12:29 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:12:29 INFO: Current average volume is: 532.5
+2025-08-11 13:12:29 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:13:29 INFO: {'SQM': {   'close': 45.77,
+    'high': 45.815,
+    'low': 45.77,
+    'open': 45.815,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 868.0,
+    'vwap': 45.7925}}
+2025-08-11 13:13:29 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:13:29 INFO: Current average volume is: 589.3
+2025-08-11 13:13:29 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:16:30 INFO: {'SQM': {   'close': 45.775,
+    'high': 45.775,
+    'low': 45.775,
+    'open': 45.775,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.775}}
+2025-08-11 13:16:30 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:16:30 INFO: Current average volume is: 578.1
+2025-08-11 13:16:30 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:17:30 INFO: {'SQM': {   'close': 45.78,
+    'high': 45.795,
+    'low': 45.78,
+    'open': 45.795,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 994.0,
+    'vwap': 45.787622}}
+2025-08-11 13:17:30 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:17:30 INFO: Current average volume is: 617.0
+2025-08-11 13:17:30 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:19:31 INFO: {'SQM': {   'close': 45.77,
+    'high': 45.77,
+    'low': 45.77,
+    'open': 45.77,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.77}}
+2025-08-11 13:19:31 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:19:31 INFO: Current average volume is: 546.8
+2025-08-11 13:19:31 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:20:31 INFO: {'SQM': {   'close': 45.725,
+    'high': 45.725,
+    'low': 45.725,
+    'open': 45.725,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 200.0,
+    'vwap': 45.725}}
+2025-08-11 13:20:31 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:20:31 INFO: Current average volume is: 556.7
+2025-08-11 13:20:31 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:22:32 INFO: {'SQM': {   'close': 45.735,
+    'high': 45.74,
+    'low': 45.735,
+    'open': 45.74,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 638.0,
+    'vwap': 45.738333}}
+2025-08-11 13:22:32 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:22:32 INFO: Current average volume is: 370.4
+2025-08-11 13:22:32 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:25:33 INFO: {'SQM': {   'close': 45.71,
+    'high': 45.77,
+    'low': 45.71,
+    'open': 45.77,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 45.74}}
+2025-08-11 13:25:33 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:25:33 INFO: Current average volume is: 365.2
+2025-08-11 13:25:33 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:27:33 INFO: {'SQM': {   'close': 45.76,
+    'high': 45.76,
+    'low': 45.74,
+    'open': 45.74,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 45.75}}
+2025-08-11 13:27:33 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:27:33 INFO: Current average volume is: 350.2
+2025-08-11 13:27:33 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:28:33 INFO: {'SQM': {   'close': 45.79,
+    'high': 45.8,
+    'low': 45.79,
+    'open': 45.8,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 233.0,
+    'vwap': 45.795}}
+2025-08-11 13:28:33 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:28:33 INFO: Current average volume is: 363.3
+2025-08-11 13:28:33 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:30:34 INFO: {'SQM': {   'close': 45.74,
+    'high': 45.79,
+    'low': 45.74,
+    'open': 45.79,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 600.0,
+    'vwap': 45.781667}}
+2025-08-11 13:30:34 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:30:34 INFO: Current average volume is: 413.3
+2025-08-11 13:30:34 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:31:34 INFO: {'SQM': {   'close': 45.77,
+    'high': 45.77,
+    'low': 45.77,
+    'open': 45.77,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.77}}
+2025-08-11 13:31:34 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:31:34 INFO: Current average volume is: 336.5
+2025-08-11 13:31:34 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:32:34 INFO: {'SQM': {   'close': 45.79,
+    'high': 45.79,
+    'low': 45.79,
+    'open': 45.79,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 154.0,
+    'vwap': 45.79}}
+2025-08-11 13:32:34 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:32:34 INFO: Current average volume is: 341.9
+2025-08-11 13:32:34 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:35:35 INFO: {'SQM': {   'close': 45.77,
+    'high': 45.77,
+    'low': 45.77,
+    'open': 45.77,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 45.77}}
+2025-08-11 13:35:35 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:35:35 INFO: Current average volume is: 257.5
+2025-08-11 13:35:35 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:37:36 INFO: {'SQM': {   'close': 45.75,
+    'high': 45.75,
+    'low': 45.75,
+    'open': 45.75,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 388.0,
+    'vwap': 45.75}}
+2025-08-11 13:37:36 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:37:36 INFO: Current average volume is: 286.3
+2025-08-11 13:37:36 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:39:43 INFO: {'SQM': {   'close': 45.65,
+    'high': 45.7,
+    'low': 45.65,
+    'open': 45.7,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 930.0,
+    'vwap': 45.688333}}
+2025-08-11 13:39:43 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:39:43 INFO: Current average volume is: 359.3
+2025-08-11 13:39:43 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:40:44 INFO: {'SQM': {   'close': 45.67,
+    'high': 45.67,
+    'low': 45.67,
+    'open': 45.67,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 222.0,
+    'vwap': 45.67}}
+2025-08-11 13:40:44 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:40:44 INFO: Current average volume is: 317.7
+2025-08-11 13:40:44 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:41:44 INFO: {'SQM': {   'close': 45.585,
+    'high': 45.62,
+    'low': 45.585,
+    'open': 45.62,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 460.0,
+    'vwap': 45.5975}}
+2025-08-11 13:41:44 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:41:44 INFO: Current average volume is: 343.7
+2025-08-11 13:41:44 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:44:45 INFO: {'SQM': {   'close': 45.61,
+    'high': 45.61,
+    'low': 45.61,
+    'open': 45.61,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 200.0,
+    'vwap': 45.61}}
+2025-08-11 13:44:45 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:44:45 INFO: Current average volume is: 343.7
+2025-08-11 13:44:45 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:45:45 INFO: {'SQM': {   'close': 45.64,
+    'high': 45.64,
+    'low': 45.635,
+    'open': 45.635,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 701.0,
+    'vwap': 45.636134}}
+2025-08-11 13:45:45 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:45:45 INFO: Current average volume is: 390.5
+2025-08-11 13:45:45 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:46:45 INFO: {'SQM': {   'close': 45.655,
+    'high': 45.655,
+    'low': 45.655,
+    'open': 45.655,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 441.0,
+    'vwap': 45.655}}
+2025-08-11 13:46:45 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:46:45 INFO: Current average volume is: 374.6
+2025-08-11 13:46:45 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:49:46 INFO: {'SQM': {   'close': 45.64,
+    'high': 45.64,
+    'low': 45.64,
+    'open': 45.64,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 250.0,
+    'vwap': 45.64}}
+2025-08-11 13:49:46 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:49:46 INFO: Current average volume is: 389.6
+2025-08-11 13:49:46 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:50:46 INFO: {'SQM': {   'close': 45.67,
+    'high': 45.67,
+    'low': 45.65,
+    'open': 45.65,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 45.66}}
+2025-08-11 13:50:46 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:50:46 INFO: Current average volume is: 424.2
+2025-08-11 13:50:46 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:51:46 INFO: {'SQM': {   'close': 45.66,
+    'high': 45.66,
+    'low': 45.66,
+    'open': 45.66,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 231.0,
+    'vwap': 45.66}}
+2025-08-11 13:51:46 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:51:46 INFO: Current average volume is: 432.3
+2025-08-11 13:51:46 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:52:47 INFO: {'SQM': {   'close': 45.56,
+    'high': 45.65,
+    'low': 45.56,
+    'open': 45.65,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 45.605}}
+2025-08-11 13:52:47 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:52:47 INFO: Current average volume is: 413.5
+2025-08-11 13:52:47 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:53:47 INFO: {'SQM': {   'close': 45.48,
+    'high': 45.52,
+    'low': 45.48,
+    'open': 45.52,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 45.506667}}
+2025-08-11 13:53:47 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:53:47 INFO: Current average volume is: 350.6
+2025-08-11 13:53:47 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 13:57:48 INFO: {'SQM': {   'close': 45.41,
+    'high': 45.49,
+    'low': 45.41,
+    'open': 45.49,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 945.0,
+    'vwap': 45.46}}
+2025-08-11 13:57:48 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 13:57:48 INFO: Current average volume is: 422.9
+2025-08-11 13:57:48 INFO: close price: 45.41 just dropped below support of 45.42...
+2025-08-11 14:00:49 INFO: {'SQM': {   'close': 45.48,
+    'high': 45.48,
+    'low': 45.48,
+    'open': 45.48,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 263.0,
+    'vwap': 45.48}}
+2025-08-11 14:00:49 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 14:00:49 INFO: Current average volume is: 403.2
+2025-08-11 14:00:49 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 14:01:49 INFO: {'SQM': {   'close': 45.46,
+    'high': 45.46,
+    'low': 45.46,
+    'open': 45.46,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 115.0,
+    'vwap': 45.46}}
+2025-08-11 14:01:49 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 14:01:49 INFO: Current average volume is: 394.7
+2025-08-11 14:01:49 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 14:02:50 INFO: {'SQM': {   'close': 45.44,
+    'high': 45.44,
+    'low': 45.44,
+    'open': 45.44,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 171.0,
+    'vwap': 45.44}}
+2025-08-11 14:02:50 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 14:02:50 INFO: Current average volume is: 341.7
+2025-08-11 14:02:50 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 14:04:50 INFO: {'SQM': {   'close': 45.37,
+    'high': 45.37,
+    'low': 45.37,
+    'open': 45.37,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 45.37}}
+2025-08-11 14:04:50 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 14:04:50 INFO: Current average volume is: 307.7
+2025-08-11 14:04:50 INFO: close price: 45.37 just dropped below support of 45.42...
+2025-08-11 14:06:51 INFO: {'SQM': {   'close': 45.43,
+    'high': 45.43,
+    'low': 45.43,
+    'open': 45.43,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 112.0,
+    'vwap': 45.43}}
+2025-08-11 14:06:51 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 14:06:51 INFO: Current average volume is: 293.9
+2025-08-11 14:06:51 INFO: Updated resistance to: 45.955 and support to: 45.42
+2025-08-11 14:07:51 INFO: {'SQM': {   'close': 45.41,
+    'high': 45.41,
+    'low': 45.405,
+    'open': 45.405,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1080.0,
+    'vwap': 45.407843}}
+2025-08-11 14:07:51 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 14:07:51 INFO: Current average volume is: 351.9
+2025-08-11 14:07:51 INFO: close price: 45.41 just dropped below support of 45.42...
+2025-08-11 14:09:52 INFO: {'SQM': {   'close': 45.37,
+    'high': 45.37,
+    'low': 45.37,
+    'open': 45.37,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.37}}
+2025-08-11 14:09:52 INFO: Current resistance is: 45.955 and support is: 45.42
+2025-08-11 14:09:52 INFO: Current average volume is: 338.8
+2025-08-11 14:09:52 INFO: Closing price: 45.37 just dropped below support 45.42 again...ending trade...
+2025-08-11 14:20:29 INFO: === Strategy started ===
+2025-08-11 14:20:29 INFO: Start collecting the current highs/lows for: SQM
+2025-08-11 14:20:29 INFO: Most recent stock data: {'SQM': {   'close': 45.32,
+    'high': 45.32,
+    'low': 45.32,
+    'open': 45.32,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 225.0,
+    'vwap': 45.32}}
+2025-08-11 14:23:31 INFO: Most recent stock data: {'SQM': {   'close': 45.35,
+    'high': 45.35,
+    'low': 45.33,
+    'open': 45.33,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 45.34}}
+2025-08-11 14:24:31 INFO: Most recent stock data: {'SQM': {   'close': 45.42,
+    'high': 45.44,
+    'low': 45.42,
+    'open': 45.44,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 450.0,
+    'vwap': 45.433333}}
+2025-08-11 14:25:31 INFO: Most recent stock data: {'SQM': {   'close': 45.43,
+    'high': 45.43,
+    'low': 45.43,
+    'open': 45.43,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 934.0,
+    'vwap': 45.43}}
+2025-08-11 14:29:32 INFO: Most recent stock data: {'SQM': {   'close': 45.4,
+    'high': 45.4,
+    'low': 45.4,
+    'open': 45.4,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 243.0,
+    'vwap': 45.4}}
+2025-08-11 14:32:33 INFO: Most recent stock data: {'SQM': {   'close': 45.36,
+    'high': 45.36,
+    'low': 45.36,
+    'open': 45.36,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 510.0,
+    'vwap': 45.36}}
+2025-08-11 14:33:33 INFO: Most recent stock data: {'SQM': {   'close': 45.355,
+    'high': 45.355,
+    'low': 45.355,
+    'open': 45.355,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 45.355}}
+2025-08-11 14:35:34 INFO: Most recent stock data: {'SQM': {   'close': 45.33,
+    'high': 45.35,
+    'low': 45.33,
+    'open': 45.35,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 45.334}}
+2025-08-11 14:36:34 INFO: Most recent stock data: {'SQM': {   'close': 45.29,
+    'high': 45.29,
+    'low': 45.29,
+    'open': 45.29,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 200.0,
+    'vwap': 45.29}}
+2025-08-11 14:50:30 INFO: === Strategy started ===
+2025-08-11 14:50:30 INFO: Start collecting the current highs/lows for: SQM
+2025-08-11 14:50:30 INFO: Most recent stock data: {'SQM': {   'close': 45.425,
+    'high': 45.425,
+    'low': 45.425,
+    'open': 45.425,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 160.0,
+    'vwap': 45.425}}
+2025-08-11 14:51:31 INFO: Most recent stock data: {'SQM': {   'close': 45.415,
+    'high': 45.415,
+    'low': 45.415,
+    'open': 45.415,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 45.415}}
+2025-08-11 14:52:31 INFO: Most recent stock data: {'SQM': {   'close': 45.43,
+    'high': 45.43,
+    'low': 45.43,
+    'open': 45.43,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.43}}
+2025-08-11 14:56:33 INFO: Most recent stock data: {'SQM': {   'close': 45.425,
+    'high': 45.425,
+    'low': 45.425,
+    'open': 45.425,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 45.425}}
+2025-08-11 14:57:33 INFO: Most recent stock data: {'SQM': {   'close': 45.44,
+    'high': 45.44,
+    'low': 45.44,
+    'open': 45.44,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 45.44}}
+2025-08-11 14:58:33 INFO: Most recent stock data: {'SQM': {   'close': 45.46,
+    'high': 45.46,
+    'low': 45.46,
+    'open': 45.46,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 45.46}}
+2025-08-11 15:00:34 INFO: Most recent stock data: {'SQM': {   'close': 45.4,
+    'high': 45.445,
+    'low': 45.4,
+    'open': 45.445,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 542.0,
+    'vwap': 45.4225}}
+2025-08-11 15:01:34 INFO: Most recent stock data: {'SQM': {   'close': 45.445,
+    'high': 45.47,
+    'low': 45.445,
+    'open': 45.47,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 318.0,
+    'vwap': 45.4575}}
+2025-08-11 15:02:34 INFO: Most recent stock data: {'SQM': {   'close': 45.43,
+    'high': 45.43,
+    'low': 45.43,
+    'open': 45.43,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.43}}
+2025-08-11 15:03:34 INFO: Most recent stock data: {'SQM': {   'close': 45.435,
+    'high': 45.435,
+    'low': 45.435,
+    'open': 45.435,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.435}}
+2025-08-11 15:05:35 INFO: Most recent stock data: {'SQM': {   'close': 45.45,
+    'high': 45.45,
+    'low': 45.45,
+    'open': 45.45,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 228.0,
+    'vwap': 45.45}}
+2025-08-11 15:05:35 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 15:05:35 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-11 15:07:36 INFO: {'SQM': {   'close': 45.5,
+    'high': 45.5,
+    'low': 45.485,
+    'open': 45.485,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 434.0,
+    'vwap': 45.491667}}
+2025-08-11 15:07:36 INFO: Current resistance is: 45.47 and support is: 45.4
+2025-08-11 15:07:36 INFO: Current average volume is: 272.2
+2025-08-11 15:07:36 INFO: The Current Close 45.5 is above the resistance...
+2025-08-11 15:07:36 INFO: Updated resistance to: 45.5 and support to: 45.4
+2025-08-11 15:08:07 INFO: {'SQM': {   'close': 45.53,
+    'high': 45.53,
+    'low': 45.5,
+    'open': 45.5,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 2115.0,
+    'vwap': 45.506569}}
+2025-08-11 15:08:07 INFO: Current resistance is: 45.5 and support is: 45.4
+2025-08-11 15:08:07 INFO: Current average volume is: 473.7
+2025-08-11 15:08:07 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-11 15:09:07 INFO: {'SQM': {   'close': 45.58,
+    'high': 45.58,
+    'low': 45.52,
+    'open': 45.52,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 401.0,
+    'vwap': 45.565}}
+2025-08-11 15:09:07 INFO: Current resistance is: 45.5 and support is: 45.4
+2025-08-11 15:09:07 INFO: Current average volume is: 483.8
+2025-08-11 15:09:07 INFO: The current close: 45.58 is above the resistance of 45.5, but volume isn't enough...
+2025-08-11 15:09:07 INFO: Updated resistance to: 45.58 and support to: 45.4
+2025-08-11 15:10:08 INFO: {'SQM': {   'close': 45.56,
+    'high': 45.57,
+    'low': 45.56,
+    'open': 45.57,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1326.0,
+    'vwap': 45.564367}}
+2025-08-11 15:10:08 INFO: Current resistance is: 45.58 and support is: 45.4
+2025-08-11 15:10:08 INFO: Current average volume is: 576.4
+2025-08-11 15:10:08 INFO: Updated resistance to: 45.58 and support to: 45.4
+2025-08-11 15:11:08 INFO: {'SQM': {   'close': 45.54,
+    'high': 45.54,
+    'low': 45.54,
+    'open': 45.54,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 406.0,
+    'vwap': 45.54}}
+2025-08-11 15:11:08 INFO: Current resistance is: 45.58 and support is: 45.4
+2025-08-11 15:11:08 INFO: Current average volume is: 597.0
+2025-08-11 15:11:08 INFO: Updated resistance to: 45.58 and support to: 45.4
+2025-08-11 15:12:08 INFO: {'SQM': {   'close': 45.52,
+    'high': 45.535,
+    'low': 45.52,
+    'open': 45.52,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 926.0,
+    'vwap': 45.527264}}
+2025-08-11 15:12:08 INFO: Current resistance is: 45.58 and support is: 45.4
+2025-08-11 15:12:08 INFO: Current average volume is: 635.4
+2025-08-11 15:12:08 INFO: Updated resistance to: 45.58 and support to: 45.4
+2025-08-11 15:13:09 INFO: {'SQM': {   'close': 45.55,
+    'high': 45.55,
+    'low': 45.545,
+    'open': 45.545,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 431.0,
+    'vwap': 45.546163}}
+2025-08-11 15:13:09 INFO: Current resistance is: 45.58 and support is: 45.4
+2025-08-11 15:13:09 INFO: Current average volume is: 646.7
+2025-08-11 15:13:09 INFO: Updated resistance to: 45.58 and support to: 45.4
+2025-08-11 15:14:09 INFO: {'SQM': {   'close': 45.57,
+    'high': 45.57,
+    'low': 45.57,
+    'open': 45.57,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 175.0,
+    'vwap': 45.57}}
+2025-08-11 15:14:09 INFO: Current resistance is: 45.58 and support is: 45.4
+2025-08-11 15:14:09 INFO: Current average volume is: 654.2
+2025-08-11 15:14:09 INFO: Updated resistance to: 45.58 and support to: 45.4
+2025-08-11 15:18:10 INFO: {'SQM': {   'close': 45.56,
+    'high': 45.56,
+    'low': 45.56,
+    'open': 45.56,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.56}}
+2025-08-11 15:18:10 INFO: Current resistance is: 45.58 and support is: 45.4
+2025-08-11 15:18:10 INFO: Current average volume is: 654.2
+2025-08-11 15:18:10 INFO: Updated resistance to: 45.58 and support to: 45.4
+2025-08-11 15:21:11 INFO: {'SQM': {   'close': 45.595,
+    'high': 45.595,
+    'low': 45.585,
+    'open': 45.585,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 433.0,
+    'vwap': 45.591667}}
+2025-08-11 15:21:11 INFO: Current resistance is: 45.58 and support is: 45.4
+2025-08-11 15:21:11 INFO: Current average volume is: 674.7
+2025-08-11 15:21:11 INFO: The Current Close 45.595 is above the resistance...
+2025-08-11 15:21:11 INFO: Updated resistance to: 45.595 and support to: 45.4
+2025-08-11 15:22:12 INFO: {'SQM': {   'close': 45.59,
+    'high': 45.59,
+    'low': 45.59,
+    'open': 45.59,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 456.0,
+    'vwap': 45.59}}
+2025-08-11 15:22:12 INFO: Current resistance is: 45.595 and support is: 45.4
+2025-08-11 15:22:12 INFO: Current average volume is: 676.9
+2025-08-11 15:22:12 INFO: Updated resistance to: 45.595 and support to: 45.4
+2025-08-11 15:24:12 INFO: {'SQM': {   'close': 45.6,
+    'high': 45.6,
+    'low': 45.6,
+    'open': 45.6,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 45.6}}
+2025-08-11 15:24:12 INFO: Current resistance is: 45.595 and support is: 45.4
+2025-08-11 15:24:12 INFO: Current average volume is: 525.4
+2025-08-11 15:24:12 INFO: The Current Close 45.6 is above the resistance...
+2025-08-11 15:24:12 INFO: Updated resistance to: 45.6 and support to: 45.4
+2025-08-11 15:27:14 INFO: {'SQM': {   'close': 45.59,
+    'high': 45.59,
+    'low': 45.59,
+    'open': 45.59,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 45.59}}
+2025-08-11 15:27:14 INFO: Current resistance is: 45.6 and support is: 45.4
+2025-08-11 15:27:14 INFO: Current average volume is: 505.3
+2025-08-11 15:27:14 INFO: Updated resistance to: 45.6 and support to: 45.4
+2025-08-11 15:29:14 INFO: {'SQM': {   'close': 45.6,
+    'high': 45.6,
+    'low': 45.6,
+    'open': 45.6,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 45.6}}
+2025-08-11 15:29:14 INFO: Current resistance is: 45.6 and support is: 45.4
+2025-08-11 15:29:14 INFO: Current average volume is: 382.7
+2025-08-11 15:32:15 INFO: {'SQM': {   'close': 45.69,
+    'high': 45.69,
+    'low': 45.68,
+    'open': 45.68,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 276.0,
+    'vwap': 45.686364}}
+2025-08-11 15:32:15 INFO: Current resistance is: 45.6 and support is: 45.4
+2025-08-11 15:32:15 INFO: Current average volume is: 369.7
+2025-08-11 15:32:15 INFO: The Current Close 45.69 is above the resistance...
+2025-08-11 15:32:15 INFO: Updated resistance to: 45.69 and support to: 45.4
+2025-08-11 15:35:17 INFO: {'SQM': {   'close': 45.715,
+    'high': 45.715,
+    'low': 45.7,
+    'open': 45.7,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 509.0,
+    'vwap': 45.708333}}
+2025-08-11 15:35:17 INFO: Current resistance is: 45.69 and support is: 45.4
+2025-08-11 15:35:17 INFO: Current average volume is: 328.0
+2025-08-11 15:35:17 INFO: The current close: 45.715 is above the resistance of 45.69, but volume isn't enough...
+2025-08-11 15:35:17 INFO: Updated resistance to: 45.715 and support to: 45.4
+2025-08-11 15:36:18 INFO: {'SQM': {   'close': 45.71,
+    'high': 45.72,
+    'low': 45.71,
+    'open': 45.72,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 376.0,
+    'vwap': 45.715}}
+2025-08-11 15:36:18 INFO: Current resistance is: 45.715 and support is: 45.4
+2025-08-11 15:36:18 INFO: Current average volume is: 322.5
+2025-08-11 15:36:18 INFO: Updated resistance to: 45.72 and support to: 45.4
+2025-08-11 15:39:19 INFO: {'SQM': {   'close': 45.715,
+    'high': 45.715,
+    'low': 45.7,
+    'open': 45.7,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 490.0,
+    'vwap': 45.7075}}
+2025-08-11 15:39:19 INFO: Current resistance is: 45.72 and support is: 45.4
+2025-08-11 15:39:19 INFO: Current average volume is: 354.0
+2025-08-11 15:39:19 INFO: Updated resistance to: 45.72 and support to: 45.4
+2025-08-11 15:40:19 INFO: {'SQM': {   'close': 45.705,
+    'high': 45.705,
+    'low': 45.705,
+    'open': 45.705,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 138.0,
+    'vwap': 45.705}}
+2025-08-11 15:40:19 INFO: Current resistance is: 45.72 and support is: 45.4
+2025-08-11 15:40:19 INFO: Current average volume is: 357.8
+2025-08-11 15:40:19 INFO: Updated resistance to: 45.72 and support to: 45.4
+2025-08-11 15:41:20 INFO: {'SQM': {   'close': 45.71,
+    'high': 45.715,
+    'low': 45.71,
+    'open': 45.715,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1727.0,
+    'vwap': 45.713043}}
+2025-08-11 15:41:20 INFO: Current resistance is: 45.72 and support is: 45.4
+2025-08-11 15:41:20 INFO: Current average volume is: 487.2
+2025-08-11 15:41:20 INFO: Updated resistance to: 45.72 and support to: 45.4
+2025-08-11 15:44:20 INFO: {'SQM': {   'close': 45.735,
+    'high': 45.745,
+    'low': 45.73,
+    'open': 45.73,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1733.0,
+    'vwap': 45.73706}}
+2025-08-11 15:44:20 INFO: Current resistance is: 45.72 and support is: 45.4
+2025-08-11 15:44:20 INFO: Current average volume is: 614.9
+2025-08-11 15:44:20 INFO: The Current Close 45.735 is above the resistance...
+2025-08-11 15:44:20 INFO: Updated resistance to: 45.745 and support to: 45.4
+2025-08-11 15:47:23 INFO: {'SQM': {   'close': 45.53,
+    'high': 45.67,
+    'low': 45.52,
+    'open': 45.67,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1523.0,
+    'vwap': 45.562632}}
+2025-08-11 15:47:23 INFO: Current resistance is: 45.745 and support is: 45.4
+2025-08-11 15:47:23 INFO: Current average volume is: 707.2
+2025-08-11 15:47:23 INFO: Updated resistance to: 45.745 and support to: 45.4
+2025-08-11 15:48:23 INFO: {'SQM': {   'close': 45.57,
+    'high': 45.57,
+    'low': 45.57,
+    'open': 45.57,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 372.0,
+    'vwap': 45.57}}
+2025-08-11 15:48:23 INFO: Current resistance is: 45.745 and support is: 45.4
+2025-08-11 15:48:23 INFO: Current average volume is: 724.4
+2025-08-11 15:48:23 INFO: Updated resistance to: 45.745 and support to: 45.4
+2025-08-11 15:49:23 INFO: {'SQM': {   'close': 45.62,
+    'high': 45.62,
+    'low': 45.61,
+    'open': 45.61,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 827.0,
+    'vwap': 45.618095}}
+2025-08-11 15:49:23 INFO: Current resistance is: 45.745 and support is: 45.4
+2025-08-11 15:49:23 INFO: Current average volume is: 797.1
+2025-08-11 15:49:23 INFO: Updated resistance to: 45.745 and support to: 45.4
+2025-08-11 15:50:24 INFO: {'SQM': {   'close': 45.675,
+    'high': 45.675,
+    'low': 45.63,
+    'open': 45.635,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 758.0,
+    'vwap': 45.657979}}
+2025-08-11 15:50:24 INFO: Current resistance is: 45.745 and support is: 45.4
+2025-08-11 15:50:24 INFO: Current average volume is: 845.3
+2025-08-11 15:50:24 INFO: Updated resistance to: 45.745 and support to: 45.4
+2025-08-11 15:52:24 INFO: {'SQM': {   'close': 45.66,
+    'high': 45.66,
+    'low': 45.61,
+    'open': 45.66,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 910.0,
+    'vwap': 45.652636}}
+2025-08-11 15:52:24 INFO: Current resistance is: 45.745 and support is: 45.4
+2025-08-11 15:52:24 INFO: Current average volume is: 885.4
+2025-08-11 15:52:24 INFO: Updated resistance to: 45.745 and support to: 45.4
+2025-08-11 15:54:25 INFO: {'SQM': {   'close': 45.52,
+    'high': 45.595,
+    'low': 45.52,
+    'open': 45.595,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1092.0,
+    'vwap': 45.565}}
+2025-08-11 15:54:25 INFO: Current resistance is: 45.745 and support is: 45.4
+2025-08-11 15:54:25 INFO: Current average volume is: 957.0
+2025-08-11 15:54:25 INFO: Updated resistance to: 45.745 and support to: 45.4
+2025-08-11 15:56:26 INFO: {'SQM': {   'close': 45.76,
+    'high': 45.76,
+    'low': 45.59,
+    'open': 45.59,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2979.0,
+    'vwap': 45.68666}}
+2025-08-11 15:56:26 INFO: Current resistance is: 45.745 and support is: 45.4
+2025-08-11 15:56:26 INFO: Current average volume is: 1205.9
+2025-08-11 15:56:26 INFO: The Current Close 45.76 is above the resistance...
+2025-08-11 15:56:26 INFO: Updated resistance to: 45.76 and support to: 45.4
+2025-08-11 15:57:27 INFO: {'SQM': {   'close': 45.81,
+    'high': 45.81,
+    'low': 45.705,
+    'open': 45.705,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 965.0,
+    'vwap': 45.769624}}
+2025-08-11 15:57:27 INFO: Current resistance is: 45.76 and support is: 45.4
+2025-08-11 15:57:27 INFO: Current average volume is: 1288.6
+2025-08-11 15:57:27 INFO: The current close: 45.81 is above the resistance of 45.76, but volume isn't enough...
+2025-08-11 15:57:27 INFO: Updated resistance to: 45.81 and support to: 45.4
+2025-08-11 15:58:27 INFO: {'SQM': {   'close': 45.84,
+    'high': 45.89,
+    'low': 45.81,
+    'open': 45.81,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2287.0,
+    'vwap': 45.856531}}
+2025-08-11 15:58:27 INFO: Current resistance is: 45.81 and support is: 45.4
+2025-08-11 15:58:27 INFO: Current average volume is: 1344.6
+2025-08-11 15:58:27 INFO: The current close: 45.84 is above the resistance of 45.81, but volume isn't enough...
+2025-08-11 15:58:27 INFO: Updated resistance to: 45.89 and support to: 45.4
+2025-08-11 15:59:28 INFO: {'SQM': {   'close': 45.86,
+    'high': 45.9,
+    'low': 45.79,
+    'open': 45.87,
+    'symbol': 'SQM',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 60.0,
+    'volume': 4684.0,
+    'vwap': 45.871053}}
+2025-08-11 15:59:28 INFO: Current resistance is: 45.89 and support is: 45.4
+2025-08-11 15:59:28 INFO: Current average volume is: 1639.7
+2025-08-11 15:59:28 INFO: Updated resistance to: 45.9 and support to: 45.4
+2025-08-11 16:00:28 INFO: The Market is closed...

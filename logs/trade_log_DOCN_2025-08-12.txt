@@ -1,0 +1,705 @@
+2025-08-12 14:20:52 INFO: === Strategy started ===
+2025-08-12 14:20:52 INFO: Start collecting the current highs/lows for: DOCN
+2025-08-12 14:20:52 INFO: Most recent stock data: {'DOCN': {   'close': 30.055,
+    'high': 30.06,
+    'low': 30.055,
+    'open': 30.06,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 30.0575}}
+2025-08-12 14:22:54 INFO: Most recent stock data: {'DOCN': {   'close': 30.07,
+    'high': 30.07,
+    'low': 30.07,
+    'open': 30.07,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.07}}
+2025-08-12 14:26:55 INFO: Most recent stock data: {'DOCN': {   'close': 29.97,
+    'high': 29.97,
+    'low': 29.97,
+    'open': 29.97,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 211.0,
+    'vwap': 29.97}}
+2025-08-12 14:27:55 INFO: Most recent stock data: {'DOCN': {   'close': 30.0,
+    'high': 30.0,
+    'low': 30.0,
+    'open': 30.0,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 774.0,
+    'vwap': 30.0}}
+2025-08-12 14:28:56 INFO: Most recent stock data: {'DOCN': {   'close': 30.08,
+    'high': 30.08,
+    'low': 30.02,
+    'open': 30.02,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 30.056667}}
+2025-08-12 14:32:57 INFO: Most recent stock data: {'DOCN': {   'close': 30.075,
+    'high': 30.075,
+    'low': 30.075,
+    'open': 30.075,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.075}}
+2025-08-12 14:33:57 INFO: Most recent stock data: {'DOCN': {   'close': 30.08,
+    'high': 30.08,
+    'low': 30.08,
+    'open': 30.08,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.08}}
+2025-08-12 14:34:58 INFO: Most recent stock data: {'DOCN': {   'close': 30.13,
+    'high': 30.13,
+    'low': 30.13,
+    'open': 30.13,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 218.0,
+    'vwap': 30.13}}
+2025-08-12 14:35:58 INFO: Most recent stock data: {'DOCN': {   'close': 30.12,
+    'high': 30.12,
+    'low': 30.12,
+    'open': 30.12,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 171.0,
+    'vwap': 30.12}}
+2025-08-12 14:41:00 INFO: Most recent stock data: {'DOCN': {   'close': 30.195,
+    'high': 30.195,
+    'low': 30.195,
+    'open': 30.195,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.195}}
+2025-08-12 14:47:02 INFO: Most recent stock data: {'DOCN': {   'close': 30.25,
+    'high': 30.25,
+    'low': 30.25,
+    'open': 30.25,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 234.0,
+    'vwap': 30.25}}
+2025-08-12 14:47:02 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 14:47:02 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-12 14:48:02 INFO: {'DOCN': {   'close': 30.18,
+    'high': 30.18,
+    'low': 30.18,
+    'open': 30.18,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 376.0,
+    'vwap': 30.18}}
+2025-08-12 14:48:02 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 14:48:02 INFO: Current average volume is: 258.4
+2025-08-12 14:48:02 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 14:51:04 INFO: {'DOCN': {   'close': 30.2,
+    'high': 30.2,
+    'low': 30.2,
+    'open': 30.2,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 256.0,
+    'vwap': 30.2}}
+2025-08-12 14:51:04 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 14:51:04 INFO: Current average volume is: 262.9
+2025-08-12 14:51:04 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 14:52:04 INFO: {'DOCN': {   'close': 30.135,
+    'high': 30.135,
+    'low': 30.135,
+    'open': 30.135,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 121.0,
+    'vwap': 30.135}}
+2025-08-12 14:52:04 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 14:52:04 INFO: Current average volume is: 197.6
+2025-08-12 14:52:04 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 14:55:05 INFO: {'DOCN': {   'close': 30.105,
+    'high': 30.105,
+    'low': 30.1,
+    'open': 30.1,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 485.0,
+    'vwap': 30.102455}}
+2025-08-12 14:55:05 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 14:55:05 INFO: Current average volume is: 216.1
+2025-08-12 14:55:05 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 14:56:05 INFO: {'DOCN': {   'close': 30.15,
+    'high': 30.15,
+    'low': 30.15,
+    'open': 30.15,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 189.0,
+    'vwap': 30.15}}
+2025-08-12 14:56:05 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 14:56:05 INFO: Current average volume is: 225.0
+2025-08-12 14:56:05 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 14:57:06 INFO: {'DOCN': {   'close': 30.16,
+    'high': 30.16,
+    'low': 30.16,
+    'open': 30.16,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 379.0,
+    'vwap': 30.16}}
+2025-08-12 14:57:06 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 14:57:06 INFO: Current average volume is: 252.9
+2025-08-12 14:57:06 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:00:07 INFO: {'DOCN': {   'close': 30.12,
+    'high': 30.12,
+    'low': 30.12,
+    'open': 30.12,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 119.0,
+    'vwap': 30.12}}
+2025-08-12 15:00:07 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:00:07 INFO: Current average volume is: 243.0
+2025-08-12 15:00:07 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:01:07 INFO: {'DOCN': {   'close': 30.08,
+    'high': 30.08,
+    'low': 30.08,
+    'open': 30.08,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 30.08}}
+2025-08-12 15:01:07 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:01:07 INFO: Current average volume is: 236.0
+2025-08-12 15:01:07 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:02:07 INFO: {'DOCN': {   'close': 30.145,
+    'high': 30.145,
+    'low': 30.145,
+    'open': 30.145,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 239.0,
+    'vwap': 30.145}}
+2025-08-12 15:02:07 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:02:07 INFO: Current average volume is: 249.9
+2025-08-12 15:02:07 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:04:08 INFO: {'DOCN': {   'close': 30.12,
+    'high': 30.14,
+    'low': 30.12,
+    'open': 30.14,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 30.13}}
+2025-08-12 15:04:08 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:04:08 INFO: Current average volume is: 286.5
+2025-08-12 15:04:08 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:05:08 INFO: {'DOCN': {   'close': 30.05,
+    'high': 30.05,
+    'low': 30.05,
+    'open': 30.05,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 327.0,
+    'vwap': 30.05}}
+2025-08-12 15:05:08 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:05:08 INFO: Current average volume is: 281.6
+2025-08-12 15:05:08 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:07:09 INFO: {'DOCN': {   'close': 30.045,
+    'high': 30.045,
+    'low': 30.045,
+    'open': 30.045,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 286.0,
+    'vwap': 30.045}}
+2025-08-12 15:07:09 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:07:09 INFO: Current average volume is: 284.6
+2025-08-12 15:07:09 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:08:09 INFO: {'DOCN': {   'close': 30.05,
+    'high': 30.05,
+    'low': 30.05,
+    'open': 30.05,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 128.0,
+    'vwap': 30.05}}
+2025-08-12 15:08:09 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:08:09 INFO: Current average volume is: 285.3
+2025-08-12 15:08:09 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:09:10 INFO: {'DOCN': {   'close': 30.07,
+    'high': 30.07,
+    'low': 30.045,
+    'open': 30.045,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 517.0,
+    'vwap': 30.054785}}
+2025-08-12 15:09:10 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:09:10 INFO: Current average volume is: 288.5
+2025-08-12 15:09:10 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:10:10 INFO: {'DOCN': {   'close': 30.08,
+    'high': 30.08,
+    'low': 30.065,
+    'open': 30.065,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 517.0,
+    'vwap': 30.077}}
+2025-08-12 15:10:10 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:10:10 INFO: Current average volume is: 321.3
+2025-08-12 15:10:10 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:11:11 INFO: {'DOCN': {   'close': 30.075,
+    'high': 30.075,
+    'low': 30.075,
+    'open': 30.075,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 157.0,
+    'vwap': 30.075}}
+2025-08-12 15:11:11 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:11:11 INFO: Current average volume is: 299.1
+2025-08-12 15:11:11 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:13:11 INFO: {'DOCN': {   'close': 30.105,
+    'high': 30.105,
+    'low': 30.105,
+    'open': 30.105,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 494.0,
+    'vwap': 30.105}}
+2025-08-12 15:13:11 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:13:11 INFO: Current average volume is: 336.6
+2025-08-12 15:13:11 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:14:12 INFO: {'DOCN': {   'close': 30.095,
+    'high': 30.1,
+    'low': 30.09,
+    'open': 30.09,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 436.0,
+    'vwap': 30.09375}}
+2025-08-12 15:14:12 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:14:12 INFO: Current average volume is: 370.1
+2025-08-12 15:14:12 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:16:13 INFO: {'DOCN': {   'close': 30.17,
+    'high': 30.17,
+    'low': 30.1,
+    'open': 30.1,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 3805.0,
+    'vwap': 30.13527}}
+2025-08-12 15:16:13 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:16:13 INFO: Current average volume is: 726.7
+2025-08-12 15:16:13 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:17:13 INFO: {'DOCN': {   'close': 30.14,
+    'high': 30.14,
+    'low': 30.14,
+    'open': 30.14,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 293.0,
+    'vwap': 30.14}}
+2025-08-12 15:17:13 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:17:13 INFO: Current average volume is: 696.0
+2025-08-12 15:17:13 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:19:13 INFO: {'DOCN': {   'close': 30.18,
+    'high': 30.2,
+    'low': 30.18,
+    'open': 30.18,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1200.0,
+    'vwap': 30.190909}}
+2025-08-12 15:19:13 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:19:13 INFO: Current average volume is: 783.3
+2025-08-12 15:19:13 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:20:14 INFO: {'DOCN': {   'close': 30.205,
+    'high': 30.225,
+    'low': 30.205,
+    'open': 30.225,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 802.0,
+    'vwap': 30.215}}
+2025-08-12 15:20:14 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:20:14 INFO: Current average volume is: 834.9
+2025-08-12 15:20:14 INFO: Updated resistance to: 30.25 and support to: 29.97
+2025-08-12 15:22:14 INFO: {'DOCN': {   'close': 30.27,
+    'high': 30.27,
+    'low': 30.25,
+    'open': 30.25,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1837.0,
+    'vwap': 30.255293}}
+2025-08-12 15:22:14 INFO: Current resistance is: 30.25 and support is: 29.97
+2025-08-12 15:22:14 INFO: Current average volume is: 1005.8
+2025-08-12 15:22:14 INFO: The Current Close 30.27 is above the resistance...
+2025-08-12 15:22:14 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:23:15 INFO: {'DOCN': {   'close': 30.24,
+    'high': 30.24,
+    'low': 30.24,
+    'open': 30.24,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 238.0,
+    'vwap': 30.24}}
+2025-08-12 15:23:15 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:23:15 INFO: Current average volume is: 977.9
+2025-08-12 15:23:15 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:26:16 INFO: {'DOCN': {   'close': 30.18,
+    'high': 30.18,
+    'low': 30.18,
+    'open': 30.18,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 173.0,
+    'vwap': 30.18}}
+2025-08-12 15:26:16 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:26:16 INFO: Current average volume is: 943.5
+2025-08-12 15:26:16 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:28:18 INFO: {'DOCN': {   'close': 30.2,
+    'high': 30.2,
+    'low': 30.185,
+    'open': 30.185,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 387.0,
+    'vwap': 30.189732}}
+2025-08-12 15:28:18 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:28:18 INFO: Current average volume is: 966.5
+2025-08-12 15:28:18 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:29:18 INFO: {'DOCN': {   'close': 30.205,
+    'high': 30.205,
+    'low': 30.205,
+    'open': 30.205,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 389.0,
+    'vwap': 30.205}}
+2025-08-12 15:29:18 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:29:18 INFO: Current average volume is: 956.0
+2025-08-12 15:29:18 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:30:19 INFO: {'DOCN': {   'close': 30.22,
+    'high': 30.22,
+    'low': 30.2,
+    'open': 30.2,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 927.0,
+    'vwap': 30.211}}
+2025-08-12 15:30:19 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:30:19 INFO: Current average volume is: 1005.1
+2025-08-12 15:30:19 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:33:20 INFO: {'DOCN': {   'close': 30.17,
+    'high': 30.17,
+    'low': 30.17,
+    'open': 30.17,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 309.0,
+    'vwap': 30.17}}
+2025-08-12 15:33:20 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:33:20 INFO: Current average volume is: 655.5
+2025-08-12 15:33:20 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:34:20 INFO: {'DOCN': {   'close': 30.18,
+    'high': 30.19,
+    'low': 30.18,
+    'open': 30.19,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 865.0,
+    'vwap': 30.183333}}
+2025-08-12 15:34:20 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:34:20 INFO: Current average volume is: 712.7
+2025-08-12 15:34:20 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:35:20 INFO: {'DOCN': {   'close': 30.2,
+    'high': 30.2,
+    'low': 30.175,
+    'open': 30.175,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 757.0,
+    'vwap': 30.185}}
+2025-08-12 15:35:20 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:35:20 INFO: Current average volume is: 668.4
+2025-08-12 15:35:20 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:36:21 INFO: {'DOCN': {   'close': 30.155,
+    'high': 30.195,
+    'low': 30.155,
+    'open': 30.195,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1086.0,
+    'vwap': 30.171722}}
+2025-08-12 15:36:21 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:36:21 INFO: Current average volume is: 696.8
+2025-08-12 15:36:21 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:37:21 INFO: {'DOCN': {   'close': 30.165,
+    'high': 30.17,
+    'low': 30.165,
+    'open': 30.17,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 743.0,
+    'vwap': 30.165951}}
+2025-08-12 15:37:21 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:37:21 INFO: Current average volume is: 587.4
+2025-08-12 15:37:21 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:39:22 INFO: {'DOCN': {   'close': 30.125,
+    'high': 30.155,
+    'low': 30.125,
+    'open': 30.155,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 800.0,
+    'vwap': 30.13354}}
+2025-08-12 15:39:22 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:39:22 INFO: Current average volume is: 643.6
+2025-08-12 15:39:22 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:40:22 INFO: {'DOCN': {   'close': 30.115,
+    'high': 30.115,
+    'low': 30.105,
+    'open': 30.115,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1457.0,
+    'vwap': 30.111633}}
+2025-08-12 15:40:22 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:40:22 INFO: Current average volume is: 772.0
+2025-08-12 15:40:22 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:41:23 INFO: {'DOCN': {   'close': 30.085,
+    'high': 30.085,
+    'low': 30.025,
+    'open': 30.025,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 916.0,
+    'vwap': 30.072644}}
+2025-08-12 15:41:23 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:41:23 INFO: Current average volume is: 824.9
+2025-08-12 15:41:23 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:42:23 INFO: {'DOCN': {   'close': 30.08,
+    'high': 30.08,
+    'low': 30.065,
+    'open': 30.065,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 603.0,
+    'vwap': 30.07}}
+2025-08-12 15:42:23 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:42:23 INFO: Current average volume is: 846.3
+2025-08-12 15:42:23 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:43:23 INFO: {'DOCN': {   'close': 30.1,
+    'high': 30.16,
+    'low': 30.1,
+    'open': 30.1,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 583.0,
+    'vwap': 30.12625}}
+2025-08-12 15:43:23 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:43:23 INFO: Current average volume is: 811.9
+2025-08-12 15:43:23 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:44:24 INFO: {'DOCN': {   'close': 30.07,
+    'high': 30.07,
+    'low': 30.06,
+    'open': 30.06,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1160.0,
+    'vwap': 30.068621}}
+2025-08-12 15:44:24 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:44:24 INFO: Current average volume is: 897.0
+2025-08-12 15:44:24 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:45:24 INFO: {'DOCN': {   'close': 30.11,
+    'high': 30.11,
+    'low': 30.11,
+    'open': 30.11,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 512.0,
+    'vwap': 30.11}}
+2025-08-12 15:45:24 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:45:24 INFO: Current average volume is: 861.7
+2025-08-12 15:45:24 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:46:24 INFO: {'DOCN': {   'close': 30.095,
+    'high': 30.095,
+    'low': 30.095,
+    'open': 30.095,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 372.0,
+    'vwap': 30.095}}
+2025-08-12 15:46:24 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:46:24 INFO: Current average volume is: 823.2
+2025-08-12 15:46:24 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:48:25 INFO: {'DOCN': {   'close': 30.105,
+    'high': 30.165,
+    'low': 30.105,
+    'open': 30.165,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 509.0,
+    'vwap': 30.143495}}
+2025-08-12 15:48:25 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:48:25 INFO: Current average volume is: 765.5
+2025-08-12 15:48:25 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:49:25 INFO: {'DOCN': {   'close': 30.125,
+    'high': 30.125,
+    'low': 30.11,
+    'open': 30.11,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 305.0,
+    'vwap': 30.1175}}
+2025-08-12 15:49:25 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:49:25 INFO: Current average volume is: 721.7
+2025-08-12 15:49:25 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:52:27 INFO: {'DOCN': {   'close': 30.09,
+    'high': 30.09,
+    'low': 30.04,
+    'open': 30.04,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 531.0,
+    'vwap': 30.065}}
+2025-08-12 15:52:27 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:52:27 INFO: Current average volume is: 694.8
+2025-08-12 15:52:27 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:54:27 INFO: {'DOCN': {   'close': 30.095,
+    'high': 30.095,
+    'low': 30.08,
+    'open': 30.085,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 576.0,
+    'vwap': 30.085}}
+2025-08-12 15:54:27 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:54:27 INFO: Current average volume is: 606.7
+2025-08-12 15:54:27 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:55:28 INFO: {'DOCN': {   'close': 30.1,
+    'high': 30.1,
+    'low': 30.1,
+    'open': 30.1,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 436.0,
+    'vwap': 30.1}}
+2025-08-12 15:55:28 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:55:28 INFO: Current average volume is: 558.7
+2025-08-12 15:55:28 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:56:28 INFO: {'DOCN': {   'close': 30.115,
+    'high': 30.13,
+    'low': 30.085,
+    'open': 30.09,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1992.0,
+    'vwap': 30.108596}}
+2025-08-12 15:56:28 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:56:28 INFO: Current average volume is: 697.6
+2025-08-12 15:56:28 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:57:29 INFO: {'DOCN': {   'close': 30.075,
+    'high': 30.085,
+    'low': 30.075,
+    'open': 30.085,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1190.0,
+    'vwap': 30.079826}}
+2025-08-12 15:57:29 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:57:29 INFO: Current average volume is: 758.3
+2025-08-12 15:57:29 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:58:29 INFO: {'DOCN': {   'close': 30.045,
+    'high': 30.09,
+    'low': 30.045,
+    'open': 30.075,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 1947.0,
+    'vwap': 30.074026}}
+2025-08-12 15:58:29 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:58:29 INFO: Current average volume is: 837.0
+2025-08-12 15:58:29 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 15:59:30 INFO: {'DOCN': {   'close': 30.005,
+    'high': 30.025,
+    'low': 30.0,
+    'open': 30.025,
+    'symbol': 'DOCN',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2032.0,
+    'vwap': 30.020167}}
+2025-08-12 15:59:30 INFO: Current resistance is: 30.27 and support is: 29.97
+2025-08-12 15:59:30 INFO: Current average volume is: 989.0
+2025-08-12 15:59:30 INFO: Updated resistance to: 30.27 and support to: 29.97
+2025-08-12 16:00:30 INFO: The Market is closed...

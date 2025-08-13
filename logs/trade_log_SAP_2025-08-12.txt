@@ -1,0 +1,674 @@
+2025-08-12 14:05:50 INFO: === Strategy started ===
+2025-08-12 14:05:51 INFO: Start collecting the current highs/lows for: SAP
+2025-08-12 14:05:51 INFO: Most recent stock data: {'SAP': {   'close': 274.565,
+    'high': 274.565,
+    'low': 274.565,
+    'open': 274.565,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 274.565}}
+2025-08-12 14:07:52 INFO: Most recent stock data: {'SAP': {   'close': 275.13,
+    'high': 275.13,
+    'low': 275.13,
+    'open': 275.13,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 275.13}}
+2025-08-12 14:10:53 INFO: Most recent stock data: {'SAP': {   'close': 274.805,
+    'high': 274.93,
+    'low': 274.805,
+    'open': 274.93,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 274.8675}}
+2025-08-12 14:13:55 INFO: Most recent stock data: {'SAP': {   'close': 274.58,
+    'high': 274.58,
+    'low': 274.58,
+    'open': 274.58,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 107.0,
+    'vwap': 274.58}}
+2025-08-12 14:15:55 INFO: Most recent stock data: {'SAP': {   'close': 274.49,
+    'high': 274.67,
+    'low': 274.49,
+    'open': 274.67,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 330.0,
+    'vwap': 274.61}}
+2025-08-12 14:17:56 INFO: Most recent stock data: {'SAP': {   'close': 274.505,
+    'high': 274.52,
+    'low': 274.505,
+    'open': 274.52,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 277.0,
+    'vwap': 274.5125}}
+2025-08-12 14:18:56 INFO: Most recent stock data: {'SAP': {   'close': 274.26,
+    'high': 274.26,
+    'low': 274.26,
+    'open': 274.26,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 164.0,
+    'vwap': 274.26}}
+2025-08-12 14:20:57 INFO: Most recent stock data: {'SAP': {   'close': 274.27,
+    'high': 274.27,
+    'low': 274.27,
+    'open': 274.27,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 238.0,
+    'vwap': 274.27}}
+2025-08-12 14:21:57 INFO: Most recent stock data: {'SAP': {   'close': 274.42,
+    'high': 274.42,
+    'low': 274.42,
+    'open': 274.42,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 274.42}}
+2025-08-12 14:23:58 INFO: Most recent stock data: {'SAP': {   'close': 274.3,
+    'high': 274.3,
+    'low': 274.3,
+    'open': 274.3,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 215.0,
+    'vwap': 274.3}}
+2025-08-12 14:26:59 INFO: Most recent stock data: {'SAP': {   'close': 274.04,
+    'high': 274.23,
+    'low': 274.04,
+    'open': 274.22,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 401.0,
+    'vwap': 274.153846}}
+2025-08-12 14:26:59 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 14:26:59 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-12 14:29:00 INFO: {'SAP': {   'close': 274.03,
+    'high': 274.14,
+    'low': 274.03,
+    'open': 274.045,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 6515.0,
+    'vwap': 274.046255}}
+2025-08-12 14:29:00 INFO: Current resistance is: 274.443 and support is: 273.968
+2025-08-12 14:29:00 INFO: Current average volume is: 854.7
+2025-08-12 14:29:00 INFO: Updated resistance to: 274.382 and support to: 273.957
+2025-08-12 14:30:00 INFO: {'SAP': {   'close': 274.17,
+    'high': 274.19,
+    'low': 274.04,
+    'open': 274.04,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 911.0,
+    'vwap': 274.103816}}
+2025-08-12 14:30:00 INFO: Current resistance is: 274.382 and support is: 273.957
+2025-08-12 14:30:00 INFO: Current average volume is: 925.8
+2025-08-12 14:30:00 INFO: Updated resistance to: 274.366 and support to: 273.888
+2025-08-12 14:32:01 INFO: {'SAP': {   'close': 273.89,
+    'high': 273.89,
+    'low': 273.69,
+    'open': 273.69,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 416.0,
+    'vwap': 273.76125}}
+2025-08-12 14:32:01 INFO: Current resistance is: 274.366 and support is: 273.888
+2025-08-12 14:32:01 INFO: Current average volume is: 956.7
+2025-08-12 14:32:01 INFO: Updated resistance to: 274.25 and support to: 273.612
+2025-08-12 14:36:03 INFO: {'SAP': {   'close': 274.18,
+    'high': 274.18,
+    'low': 273.985,
+    'open': 273.985,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 722.0,
+    'vwap': 274.024}}
+2025-08-12 14:36:03 INFO: Current resistance is: 274.25 and support is: 273.612
+2025-08-12 14:36:03 INFO: Current average volume is: 995.9
+2025-08-12 14:36:03 INFO: Updated resistance to: 274.27 and support to: 273.545
+2025-08-12 14:38:03 INFO: {'SAP': {   'close': 274.5,
+    'high': 274.5,
+    'low': 274.5,
+    'open': 274.5,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 133.0,
+    'vwap': 274.5}}
+2025-08-12 14:38:03 INFO: Current resistance is: 274.27 and support is: 273.545
+2025-08-12 14:38:03 INFO: Current average volume is: 981.5
+2025-08-12 14:38:03 INFO: The Current Close 274.5 is above the resistance...
+2025-08-12 14:38:03 INFO: Updated resistance to: 274.398 and support to: 273.521
+2025-08-12 14:39:04 INFO: {'SAP': {   'close': 274.315,
+    'high': 274.315,
+    'low': 274.315,
+    'open': 274.315,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 264.0,
+    'vwap': 274.315}}
+2025-08-12 14:39:04 INFO: Current resistance is: 274.398 and support is: 273.521
+2025-08-12 14:39:04 INFO: Current average volume is: 991.5
+2025-08-12 14:39:04 INFO: Updated resistance to: 274.446 and support to: 273.5
+2025-08-12 14:43:05 INFO: {'SAP': {   'close': 274.04,
+    'high': 274.04,
+    'low': 274.04,
+    'open': 274.04,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 168.0,
+    'vwap': 274.04}}
+2025-08-12 14:43:05 INFO: Current resistance is: 274.446 and support is: 273.5
+2025-08-12 14:43:05 INFO: Current average volume is: 984.5
+2025-08-12 14:43:05 INFO: Updated resistance to: 274.405 and support to: 273.463
+2025-08-12 14:46:06 INFO: {'SAP': {   'close': 274.2,
+    'high': 274.21,
+    'low': 274.12,
+    'open': 274.13,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1517.0,
+    'vwap': 274.172143}}
+2025-08-12 14:46:06 INFO: Current resistance is: 274.405 and support is: 273.463
+2025-08-12 14:46:06 INFO: Current average volume is: 1126.2
+2025-08-12 14:46:06 INFO: Updated resistance to: 274.425 and support to: 273.438
+2025-08-12 14:49:08 INFO: {'SAP': {   'close': 274.16,
+    'high': 274.16,
+    'low': 274.16,
+    'open': 274.16,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 106.0,
+    'vwap': 274.16}}
+2025-08-12 14:49:08 INFO: Current resistance is: 274.425 and support is: 273.438
+2025-08-12 14:49:08 INFO: Current average volume is: 1115.3
+2025-08-12 14:49:08 INFO: Updated resistance to: 274.431 and support to: 273.422
+2025-08-12 14:51:08 INFO: {'SAP': {   'close': 274.3,
+    'high': 274.3,
+    'low': 274.3,
+    'open': 274.3,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 181.0,
+    'vwap': 274.3}}
+2025-08-12 14:51:08 INFO: Current resistance is: 274.431 and support is: 273.422
+2025-08-12 14:51:08 INFO: Current average volume is: 1093.3
+2025-08-12 14:51:08 INFO: Updated resistance to: 274.475 and support to: 273.424
+2025-08-12 14:52:09 INFO: {'SAP': {   'close': 274.15,
+    'high': 274.285,
+    'low': 274.15,
+    'open': 274.285,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 999.0,
+    'vwap': 274.268333}}
+2025-08-12 14:52:09 INFO: Current resistance is: 274.475 and support is: 273.424
+2025-08-12 14:52:09 INFO: Current average volume is: 541.7
+2025-08-12 14:52:09 INFO: Updated resistance to: 274.51 and support to: 273.413
+2025-08-12 14:56:10 INFO: {'SAP': {   'close': 274.19,
+    'high': 274.235,
+    'low': 274.19,
+    'open': 274.235,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 318.0,
+    'vwap': 274.216557}}
+2025-08-12 14:56:10 INFO: Current resistance is: 274.51 and support is: 273.413
+2025-08-12 14:56:10 INFO: Current average volume is: 482.4
+2025-08-12 14:56:10 INFO: Updated resistance to: 274.53 and support to: 273.408
+2025-08-12 14:57:10 INFO: {'SAP': {   'close': 274.41,
+    'high': 274.42,
+    'low': 274.37,
+    'open': 274.37,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 380.0,
+    'vwap': 274.4}}
+2025-08-12 14:57:10 INFO: Current resistance is: 274.53 and support is: 273.408
+2025-08-12 14:57:10 INFO: Current average volume is: 478.8
+2025-08-12 14:57:10 INFO: Updated resistance to: 274.592 and support to: 273.425
+2025-08-12 14:58:11 INFO: {'SAP': {   'close': 274.24,
+    'high': 274.395,
+    'low': 274.24,
+    'open': 274.395,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 448.0,
+    'vwap': 274.314879}}
+2025-08-12 14:58:11 INFO: Current resistance is: 274.592 and support is: 273.425
+2025-08-12 14:58:11 INFO: Current average volume is: 451.4
+2025-08-12 14:58:11 INFO: Updated resistance to: 274.64 and support to: 273.427
+2025-08-12 14:59:11 INFO: {'SAP': {   'close': 274.2,
+    'high': 274.245,
+    'low': 274.2,
+    'open': 274.245,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 244.0,
+    'vwap': 274.221429}}
+2025-08-12 14:59:11 INFO: Current resistance is: 274.64 and support is: 273.427
+2025-08-12 14:59:11 INFO: Current average volume is: 462.5
+2025-08-12 14:59:11 INFO: Updated resistance to: 274.65 and support to: 273.426
+2025-08-12 15:00:11 INFO: {'SAP': {   'close': 274.125,
+    'high': 274.125,
+    'low': 274.125,
+    'open': 274.125,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 325.0,
+    'vwap': 274.125}}
+2025-08-12 15:00:11 INFO: Current resistance is: 274.65 and support is: 273.426
+2025-08-12 15:00:11 INFO: Current average volume is: 468.6
+2025-08-12 15:00:11 INFO: Updated resistance to: 274.636 and support to: 273.417
+2025-08-12 15:03:12 INFO: {'SAP': {   'close': 274.235,
+    'high': 274.235,
+    'low': 274.235,
+    'open': 274.235,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 190.0,
+    'vwap': 274.235}}
+2025-08-12 15:03:12 INFO: Current resistance is: 274.636 and support is: 273.417
+2025-08-12 15:03:12 INFO: Current average volume is: 470.8
+2025-08-12 15:03:12 INFO: Updated resistance to: 274.647 and support to: 273.422
+2025-08-12 15:09:15 INFO: {'SAP': {   'close': 274.67,
+    'high': 274.67,
+    'low': 274.67,
+    'open': 274.67,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 274.67}}
+2025-08-12 15:09:15 INFO: Current resistance is: 274.647 and support is: 273.422
+2025-08-12 15:09:15 INFO: Current average volume is: 329.1
+2025-08-12 15:09:15 INFO: The Current Close 274.67 is above the resistance...
+2025-08-12 15:09:15 INFO: Updated resistance to: 274.741 and support to: 273.475
+2025-08-12 15:10:16 INFO: {'SAP': {   'close': 274.79,
+    'high': 274.79,
+    'low': 274.79,
+    'open': 274.79,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 274.79}}
+2025-08-12 15:10:16 INFO: Current resistance is: 274.741 and support is: 273.475
+2025-08-12 15:10:16 INFO: Current average volume is: 328.6
+2025-08-12 15:10:16 INFO: The current close: 274.79 is above the resistance of 274.741, but volume isn't enough...
+2025-08-12 15:10:16 INFO: Updated resistance to: 274.847 and support to: 273.537
+2025-08-12 15:13:18 INFO: {'SAP': {   'close': 274.63,
+    'high': 274.68,
+    'low': 274.63,
+    'open': 274.68,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 312.0,
+    'vwap': 274.646129}}
+2025-08-12 15:13:18 INFO: Current resistance is: 274.847 and support is: 273.537
+2025-08-12 15:13:18 INFO: Current average volume is: 341.7
+2025-08-12 15:13:18 INFO: Updated resistance to: 274.92 and support to: 273.577
+2025-08-12 15:15:19 INFO: {'SAP': {   'close': 274.675,
+    'high': 274.675,
+    'low': 274.675,
+    'open': 274.675,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 274.675}}
+2025-08-12 15:15:19 INFO: Current resistance is: 274.92 and support is: 273.577
+2025-08-12 15:15:19 INFO: Current average volume is: 261.8
+2025-08-12 15:15:19 INFO: Updated resistance to: 274.984 and support to: 273.619
+2025-08-12 15:18:21 INFO: {'SAP': {   'close': 275.065,
+    'high': 275.065,
+    'low': 275.065,
+    'open': 275.065,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 360.0,
+    'vwap': 275.065}}
+2025-08-12 15:18:21 INFO: Current resistance is: 274.984 and support is: 273.619
+2025-08-12 15:18:21 INFO: Current average volume is: 266.0
+2025-08-12 15:18:21 INFO: The Current Close 275.065 is above the resistance...
+2025-08-12 15:18:21 INFO: Updated resistance to: 275.108 and support to: 273.7
+2025-08-12 15:19:22 INFO: {'SAP': {   'close': 274.9,
+    'high': 274.9,
+    'low': 274.9,
+    'open': 274.9,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 274.9}}
+2025-08-12 15:19:22 INFO: Current resistance is: 275.108 and support is: 273.7
+2025-08-12 15:19:22 INFO: Current average volume is: 243.0
+2025-08-12 15:19:22 INFO: Updated resistance to: 275.19 and support to: 273.757
+2025-08-12 15:20:22 INFO: {'SAP': {   'close': 274.93,
+    'high': 274.93,
+    'low': 274.93,
+    'open': 274.93,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 300.0,
+    'vwap': 274.93}}
+2025-08-12 15:20:22 INFO: Current resistance is: 275.19 and support is: 273.757
+2025-08-12 15:20:22 INFO: Current average volume is: 228.2
+2025-08-12 15:20:22 INFO: Updated resistance to: 275.268 and support to: 273.812
+2025-08-12 15:23:23 INFO: {'SAP': {   'close': 274.9,
+    'high': 274.9,
+    'low': 274.9,
+    'open': 274.9,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 242.0,
+    'vwap': 274.9}}
+2025-08-12 15:23:23 INFO: Current resistance is: 275.268 and support is: 273.812
+2025-08-12 15:23:23 INFO: Current average volume is: 228.0
+2025-08-12 15:23:23 INFO: Updated resistance to: 275.333 and support to: 273.86
+2025-08-12 15:26:24 INFO: {'SAP': {   'close': 275.57,
+    'high': 275.57,
+    'low': 275.57,
+    'open': 275.57,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 401.0,
+    'vwap': 275.57}}
+2025-08-12 15:26:24 INFO: Current resistance is: 275.333 and support is: 273.86
+2025-08-12 15:26:24 INFO: Current average volume is: 235.6
+2025-08-12 15:26:24 INFO: The Current Close 275.57 is above the resistance...
+2025-08-12 15:26:24 INFO: Updated resistance to: 275.58 and support to: 273.972
+2025-08-12 15:33:29 INFO: {'SAP': {   'close': 275.47,
+    'high': 275.51,
+    'low': 275.47,
+    'open': 275.51,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 519.0,
+    'vwap': 275.49}}
+2025-08-12 15:33:29 INFO: Current resistance is: 275.58 and support is: 273.972
+2025-08-12 15:33:29 INFO: Current average volume is: 268.5
+2025-08-12 15:33:29 INFO: Updated resistance to: 275.597 and support to: 274.066
+2025-08-12 15:34:29 INFO: {'SAP': {   'close': 275.4,
+    'high': 275.4,
+    'low': 275.4,
+    'open': 275.4,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 172.0,
+    'vwap': 275.4}}
+2025-08-12 15:34:29 INFO: Current resistance is: 275.597 and support is: 274.066
+2025-08-12 15:34:29 INFO: Current average volume is: 275.7
+2025-08-12 15:34:29 INFO: Updated resistance to: 275.618 and support to: 274.145
+2025-08-12 15:35:29 INFO: {'SAP': {   'close': 275.435,
+    'high': 275.435,
+    'low': 275.435,
+    'open': 275.435,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 158.0,
+    'vwap': 275.435}}
+2025-08-12 15:35:29 INFO: Current resistance is: 275.618 and support is: 274.145
+2025-08-12 15:35:29 INFO: Current average volume is: 281.4
+2025-08-12 15:35:29 INFO: Updated resistance to: 275.642 and support to: 274.222
+2025-08-12 15:37:30 INFO: {'SAP': {   'close': 275.82,
+    'high': 275.82,
+    'low': 275.82,
+    'open': 275.82,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 227.0,
+    'vwap': 275.82}}
+2025-08-12 15:37:30 INFO: Current resistance is: 275.642 and support is: 274.222
+2025-08-12 15:37:30 INFO: Current average volume is: 272.9
+2025-08-12 15:37:30 INFO: The Current Close 275.82 is above the resistance...
+2025-08-12 15:37:30 INFO: Updated resistance to: 275.841 and support to: 274.33
+2025-08-12 15:39:01 INFO: {'SAP': {   'close': 275.725,
+    'high': 275.725,
+    'low': 275.725,
+    'open': 275.725,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 207.0,
+    'vwap': 275.725}}
+2025-08-12 15:39:01 INFO: Current resistance is: 275.841 and support is: 274.33
+2025-08-12 15:39:01 INFO: Current average volume is: 273.6
+2025-08-12 15:39:01 INFO: Updated resistance to: 275.867 and support to: 274.42
+2025-08-12 15:40:01 INFO: {'SAP': {   'close': 275.71,
+    'high': 275.71,
+    'low': 275.71,
+    'open': 275.71,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 305.0,
+    'vwap': 275.71}}
+2025-08-12 15:40:01 INFO: Current resistance is: 275.867 and support is: 274.42
+2025-08-12 15:40:01 INFO: Current average volume is: 268.1
+2025-08-12 15:40:01 INFO: Updated resistance to: 275.896 and support to: 274.502
+2025-08-12 15:41:02 INFO: {'SAP': {   'close': 275.635,
+    'high': 275.635,
+    'low': 275.535,
+    'open': 275.55,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 702.0,
+    'vwap': 275.588556}}
+2025-08-12 15:41:02 INFO: Current resistance is: 275.896 and support is: 274.502
+2025-08-12 15:41:02 INFO: Current average volume is: 323.3
+2025-08-12 15:41:02 INFO: Updated resistance to: 275.927 and support to: 274.561
+2025-08-12 15:42:03 INFO: {'SAP': {   'close': 275.69,
+    'high': 275.845,
+    'low': 275.69,
+    'open': 275.79,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 560.0,
+    'vwap': 275.75375}}
+2025-08-12 15:42:03 INFO: Current resistance is: 275.927 and support is: 274.561
+2025-08-12 15:42:03 INFO: Current average volume is: 349.3
+2025-08-12 15:42:03 INFO: Updated resistance to: 275.873 and support to: 274.63
+2025-08-12 15:43:03 INFO: {'SAP': {   'close': 275.51,
+    'high': 275.51,
+    'low': 275.51,
+    'open': 275.51,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 157.0,
+    'vwap': 275.51}}
+2025-08-12 15:43:03 INFO: Current resistance is: 275.873 and support is: 274.63
+2025-08-12 15:43:03 INFO: Current average volume is: 340.8
+2025-08-12 15:43:03 INFO: Updated resistance to: 275.903 and support to: 274.677
+2025-08-12 15:45:04 INFO: {'SAP': {   'close': 275.29,
+    'high': 275.29,
+    'low': 275.235,
+    'open': 275.235,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 385.0,
+    'vwap': 275.259745}}
+2025-08-12 15:45:04 INFO: Current resistance is: 275.903 and support is: 274.677
+2025-08-12 15:45:04 INFO: Current average volume is: 339.2
+2025-08-12 15:45:04 INFO: Updated resistance to: 275.931 and support to: 274.695
+2025-08-12 15:49:06 INFO: {'SAP': {   'close': 274.92,
+    'high': 274.99,
+    'low': 274.915,
+    'open': 274.99,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 457.0,
+    'vwap': 274.941667}}
+2025-08-12 15:49:06 INFO: Current resistance is: 275.931 and support is: 274.695
+2025-08-12 15:49:06 INFO: Current average volume is: 333.0
+2025-08-12 15:49:06 INFO: Updated resistance to: 275.955 and support to: 274.682
+2025-08-12 15:50:06 INFO: {'SAP': {   'close': 274.85,
+    'high': 274.89,
+    'low': 274.79,
+    'open': 274.89,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 435.0,
+    'vwap': 274.843333}}
+2025-08-12 15:50:06 INFO: Current resistance is: 275.955 and support is: 274.682
+2025-08-12 15:50:06 INFO: Current average volume is: 359.3
+2025-08-12 15:50:06 INFO: Updated resistance to: 275.976 and support to: 274.659
+2025-08-12 15:51:06 INFO: {'SAP': {   'close': 275.82,
+    'high': 275.82,
+    'low': 275.335,
+    'open': 275.335,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 402.0,
+    'vwap': 275.5775}}
+2025-08-12 15:51:06 INFO: Current resistance is: 275.976 and support is: 274.659
+2025-08-12 15:51:06 INFO: Current average volume is: 383.7
+2025-08-12 15:51:06 INFO: Updated resistance to: 276.009 and support to: 274.684
+2025-08-12 15:52:07 INFO: {'SAP': {   'close': 275.75,
+    'high': 275.75,
+    'low': 275.75,
+    'open': 275.75,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 266.0,
+    'vwap': 275.75}}
+2025-08-12 15:52:07 INFO: Current resistance is: 276.009 and support is: 274.684
+2025-08-12 15:52:07 INFO: Current average volume is: 387.6
+2025-08-12 15:52:07 INFO: Updated resistance to: 276.041 and support to: 274.743
+2025-08-12 15:53:08 INFO: {'SAP': {   'close': 275.94,
+    'high': 275.94,
+    'low': 275.79,
+    'open': 275.79,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 459.0,
+    'vwap': 275.8625}}
+2025-08-12 15:53:08 INFO: Current resistance is: 276.041 and support is: 274.743
+2025-08-12 15:53:08 INFO: Current average volume is: 412.8
+2025-08-12 15:53:08 INFO: Updated resistance to: 275.969 and support to: 274.801
+2025-08-12 15:54:08 INFO: {'SAP': {   'close': 275.93,
+    'high': 275.955,
+    'low': 275.87,
+    'open': 275.87,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 547.0,
+    'vwap': 275.918333}}
+2025-08-12 15:54:08 INFO: Current resistance is: 275.969 and support is: 274.801
+2025-08-12 15:54:08 INFO: Current average volume is: 437.0
+2025-08-12 15:54:08 INFO: Updated resistance to: 275.985 and support to: 274.861
+2025-08-12 15:55:08 INFO: {'SAP': {   'close': 275.7,
+    'high': 275.91,
+    'low': 275.695,
+    'open': 275.91,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1025.0,
+    'vwap': 275.755781}}
+2025-08-12 15:55:08 INFO: Current resistance is: 275.985 and support is: 274.861
+2025-08-12 15:55:08 INFO: Current average volume is: 469.3
+2025-08-12 15:55:08 INFO: Updated resistance to: 276.016 and support to: 274.902
+2025-08-12 15:56:08 INFO: {'SAP': {   'close': 275.63,
+    'high': 275.69,
+    'low': 275.53,
+    'open': 275.69,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2590.0,
+    'vwap': 275.634167}}
+2025-08-12 15:56:08 INFO: Current resistance is: 276.016 and support is: 274.902
+2025-08-12 15:56:08 INFO: Current average volume is: 672.3
+2025-08-12 15:56:08 INFO: Updated resistance to: 276.046 and support to: 274.927
+2025-08-12 15:57:09 INFO: {'SAP': {   'close': 275.785,
+    'high': 275.81,
+    'low': 275.7,
+    'open': 275.7,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 840.0,
+    'vwap': 275.773}}
+2025-08-12 15:57:09 INFO: Current resistance is: 276.046 and support is: 274.927
+2025-08-12 15:57:09 INFO: Current average volume is: 740.6
+2025-08-12 15:57:09 INFO: Updated resistance to: 276.077 and support to: 274.964
+2025-08-12 15:58:09 INFO: {'SAP': {   'close': 276.03,
+    'high': 276.1,
+    'low': 275.94,
+    'open': 275.975,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 1905.0,
+    'vwap': 276.0195}}
+2025-08-12 15:58:09 INFO: Current resistance is: 276.077 and support is: 274.964
+2025-08-12 15:58:09 INFO: Current average volume is: 892.6
+2025-08-12 15:58:09 INFO: Updated resistance to: 276.131 and support to: 275.017
+2025-08-12 15:59:10 INFO: {'SAP': {   'close': 276.06,
+    'high': 276.09,
+    'low': 275.91,
+    'open': 276.02,
+    'symbol': 'SAP',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 75.0,
+    'volume': 3239.0,
+    'vwap': 276.036669}}
+2025-08-12 15:59:10 INFO: Current resistance is: 276.131 and support is: 275.017
+2025-08-12 15:59:10 INFO: Current average volume is: 1170.8
+2025-08-12 15:59:10 INFO: Updated resistance to: 276.164 and support to: 275.063
+2025-08-12 16:00:10 INFO: The Market is closed...

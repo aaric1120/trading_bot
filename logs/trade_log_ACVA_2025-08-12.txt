@@ -1,0 +1,963 @@
+2025-08-12 13:35:46 INFO: === Strategy started ===
+2025-08-12 13:35:46 INFO: Start collecting the current highs/lows for: ACVA
+2025-08-12 13:35:47 INFO: Most recent stock data: {'ACVA': {   'close': 11.01,
+    'high': 11.015,
+    'low': 11.0,
+    'open': 11.0,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 3449.0,
+    'vwap': 11.008873}}
+2025-08-12 13:36:48 INFO: Most recent stock data: {'ACVA': {   'close': 10.98,
+    'high': 11.005,
+    'low': 10.98,
+    'open': 11.005,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 311.0,
+    'vwap': 10.996667}}
+2025-08-12 13:37:48 INFO: Most recent stock data: {'ACVA': {   'close': 10.96,
+    'high': 10.975,
+    'low': 10.96,
+    'open': 10.975,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1179.0,
+    'vwap': 10.969065}}
+2025-08-12 13:40:49 INFO: Most recent stock data: {'ACVA': {   'close': 10.955,
+    'high': 10.96,
+    'low': 10.955,
+    'open': 10.96,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1203.0,
+    'vwap': 10.959521}}
+2025-08-12 13:41:49 INFO: Most recent stock data: {'ACVA': {   'close': 10.965,
+    'high': 10.965,
+    'low': 10.96,
+    'open': 10.96,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 684.0,
+    'vwap': 10.964256}}
+2025-08-12 13:42:50 INFO: Most recent stock data: {'ACVA': {   'close': 10.97,
+    'high': 10.97,
+    'low': 10.97,
+    'open': 10.97,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 116.0,
+    'vwap': 10.97}}
+2025-08-12 13:43:50 INFO: Most recent stock data: {'ACVA': {   'close': 10.98,
+    'high': 10.985,
+    'low': 10.98,
+    'open': 10.985,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1207.0,
+    'vwap': 10.982439}}
+2025-08-12 13:45:51 INFO: Most recent stock data: {'ACVA': {   'close': 10.97,
+    'high': 10.975,
+    'low': 10.97,
+    'open': 10.975,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1257.0,
+    'vwap': 10.972901}}
+2025-08-12 13:46:51 INFO: Most recent stock data: {'ACVA': {   'close': 10.965,
+    'high': 10.965,
+    'low': 10.96,
+    'open': 10.96,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 790.0,
+    'vwap': 10.963734}}
+2025-08-12 13:48:52 INFO: Most recent stock data: {'ACVA': {   'close': 10.98,
+    'high': 10.99,
+    'low': 10.965,
+    'open': 10.965,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2109.0,
+    'vwap': 10.983947}}
+2025-08-12 13:49:52 INFO: Most recent stock data: {'ACVA': {   'close': 11.02,
+    'high': 11.02,
+    'low': 10.98,
+    'open': 10.98,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 3414.0,
+    'vwap': 10.997178}}
+2025-08-12 13:49:52 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 13:49:52 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-12 13:50:53 INFO: {'ACVA': {   'close': 11.04,
+    'high': 11.085,
+    'low': 10.995,
+    'open': 11.01,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 5626.0,
+    'vwap': 11.019877}}
+2025-08-12 13:50:53 INFO: Current resistance is: 11.02 and support is: 10.955
+2025-08-12 13:50:53 INFO: Current average volume is: 1758.5
+2025-08-12 13:50:53 INFO: The Current Close 11.04 is above the resistance...
+2025-08-12 13:50:53 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 13:52:24 INFO: {'ACVA': {   'close': 11.025,
+    'high': 11.03,
+    'low': 11.0,
+    'open': 11.03,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 3448.0,
+    'vwap': 11.008953}}
+2025-08-12 13:52:24 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 13:52:24 INFO: Current average volume is: 1985.4
+2025-08-12 13:52:24 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 13:53:25 INFO: {'ACVA': {   'close': 11.02,
+    'high': 11.02,
+    'low': 11.02,
+    'open': 11.02,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 691.0,
+    'vwap': 11.02}}
+2025-08-12 13:53:25 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 13:53:25 INFO: Current average volume is: 1934.2
+2025-08-12 13:53:25 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 13:57:28 INFO: {'ACVA': {   'close': 10.995,
+    'high': 11.01,
+    'low': 10.995,
+    'open': 11.01,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1210.0,
+    'vwap': 10.997273}}
+2025-08-12 13:57:28 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 13:57:28 INFO: Current average volume is: 1986.8
+2025-08-12 13:57:28 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 13:58:28 INFO: {'ACVA': {   'close': 10.985,
+    'high': 11.005,
+    'low': 10.985,
+    'open': 10.995,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2484.0,
+    'vwap': 11.001858}}
+2025-08-12 13:58:28 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 13:58:28 INFO: Current average volume is: 2223.6
+2025-08-12 13:58:28 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:01:29 INFO: {'ACVA': {   'close': 11.03,
+    'high': 11.03,
+    'low': 11.03,
+    'open': 11.03,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 590.0,
+    'vwap': 11.03}}
+2025-08-12 14:01:29 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:01:29 INFO: Current average volume is: 2161.9
+2025-08-12 14:01:29 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:03:30 INFO: {'ACVA': {   'close': 11.025,
+    'high': 11.025,
+    'low': 11.02,
+    'open': 11.02,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 870.0,
+    'vwap': 11.023734}}
+2025-08-12 14:03:30 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:03:30 INFO: Current average volume is: 2123.2
+2025-08-12 14:03:30 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:04:30 INFO: {'ACVA': {   'close': 11.03,
+    'high': 11.04,
+    'low': 11.015,
+    'open': 11.025,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2746.0,
+    'vwap': 11.019231}}
+2025-08-12 14:04:30 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:04:30 INFO: Current average volume is: 2318.8
+2025-08-12 14:04:30 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:05:30 INFO: {'ACVA': {   'close': 11.035,
+    'high': 11.035,
+    'low': 11.035,
+    'open': 11.035,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1710.0,
+    'vwap': 11.035}}
+2025-08-12 14:05:30 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:05:30 INFO: Current average volume is: 2278.9
+2025-08-12 14:05:30 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:09:32 INFO: {'ACVA': {   'close': 11.045,
+    'high': 11.045,
+    'low': 11.04,
+    'open': 11.04,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 690.0,
+    'vwap': 11.044275}}
+2025-08-12 14:09:32 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:09:32 INFO: Current average volume is: 2006.5
+2025-08-12 14:09:32 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:11:32 INFO: {'ACVA': {   'close': 11.03,
+    'high': 11.03,
+    'low': 11.03,
+    'open': 11.03,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1605.0,
+    'vwap': 11.03}}
+2025-08-12 14:11:32 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:11:32 INFO: Current average volume is: 1604.4
+2025-08-12 14:11:32 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:15:33 INFO: {'ACVA': {   'close': 11.07,
+    'high': 11.08,
+    'low': 11.035,
+    'open': 11.035,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2144.0,
+    'vwap': 11.058391}}
+2025-08-12 14:15:33 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:15:33 INFO: Current average volume is: 1474.0
+2025-08-12 14:15:33 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:16:34 INFO: {'ACVA': {   'close': 11.03,
+    'high': 11.07,
+    'low': 11.03,
+    'open': 11.07,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2557.0,
+    'vwap': 11.048606}}
+2025-08-12 14:16:34 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:16:34 INFO: Current average volume is: 1660.6
+2025-08-12 14:16:34 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:17:34 INFO: {'ACVA': {   'close': 10.985,
+    'high': 11.015,
+    'low': 10.985,
+    'open': 11.015,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 3452.0,
+    'vwap': 10.994351}}
+2025-08-12 14:17:34 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:17:34 INFO: Current average volume is: 1884.8
+2025-08-12 14:17:34 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:18:34 INFO: {'ACVA': {   'close': 10.98,
+    'high': 10.98,
+    'low': 10.98,
+    'open': 10.98,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 220.0,
+    'vwap': 10.98}}
+2025-08-12 14:18:34 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:18:34 INFO: Current average volume is: 1658.4
+2025-08-12 14:18:34 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:20:35 INFO: {'ACVA': {   'close': 11.01,
+    'high': 11.02,
+    'low': 10.985,
+    'open': 10.985,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 3223.0,
+    'vwap': 11.012593}}
+2025-08-12 14:20:35 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:20:35 INFO: Current average volume is: 1921.7
+2025-08-12 14:20:35 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:22:36 INFO: {'ACVA': {   'close': 11.035,
+    'high': 11.035,
+    'low': 11.02,
+    'open': 11.02,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2728.0,
+    'vwap': 11.029136}}
+2025-08-12 14:22:36 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:22:36 INFO: Current average volume is: 2107.5
+2025-08-12 14:22:36 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:25:37 INFO: {'ACVA': {   'close': 11.015,
+    'high': 11.015,
+    'low': 11.0,
+    'open': 11.005,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1203.0,
+    'vwap': 11.00375}}
+2025-08-12 14:25:37 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:25:37 INFO: Current average volume is: 1953.2
+2025-08-12 14:25:37 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:26:37 INFO: {'ACVA': {   'close': 11.025,
+    'high': 11.025,
+    'low': 11.01,
+    'open': 11.015,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2207.0,
+    'vwap': 11.021936}}
+2025-08-12 14:26:37 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:26:37 INFO: Current average volume is: 2002.9
+2025-08-12 14:26:37 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:27:38 INFO: {'ACVA': {   'close': 10.995,
+    'high': 11.005,
+    'low': 10.995,
+    'open': 11.005,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 984.0,
+    'vwap': 11.003839}}
+2025-08-12 14:27:38 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:27:38 INFO: Current average volume is: 2032.3
+2025-08-12 14:27:38 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:28:38 INFO: {'ACVA': {   'close': 10.985,
+    'high': 10.995,
+    'low': 10.985,
+    'open': 10.995,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 582.0,
+    'vwap': 10.989}}
+2025-08-12 14:28:38 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:28:38 INFO: Current average volume is: 1930.0
+2025-08-12 14:28:38 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:32:39 INFO: {'ACVA': {   'close': 11.025,
+    'high': 11.025,
+    'low': 11.02,
+    'open': 11.02,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2238.0,
+    'vwap': 11.024508}}
+2025-08-12 14:32:39 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:32:39 INFO: Current average volume is: 1939.4
+2025-08-12 14:32:39 INFO: Updated resistance to: 11.085 and support to: 10.955
+2025-08-12 14:34:40 INFO: {'ACVA': {   'close': 11.09,
+    'high': 11.09,
+    'low': 11.035,
+    'open': 11.035,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 4072.0,
+    'vwap': 11.058181}}
+2025-08-12 14:34:40 INFO: Current resistance is: 11.085 and support is: 10.955
+2025-08-12 14:34:40 INFO: Current average volume is: 2090.9
+2025-08-12 14:34:40 INFO: The Current Close 11.09 is above the resistance...
+2025-08-12 14:34:40 INFO: Updated resistance to: 11.09 and support to: 10.955
+2025-08-12 14:35:10 INFO: {'ACVA': {   'close': 11.135,
+    'high': 11.135,
+    'low': 11.08,
+    'open': 11.09,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 4708.0,
+    'vwap': 11.116185}}
+2025-08-12 14:35:10 INFO: Current resistance is: 11.09 and support is: 10.955
+2025-08-12 14:35:10 INFO: Current average volume is: 2216.5
+2025-08-12 14:35:10 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-12 14:36:11 INFO: {'ACVA': {   'close': 11.15,
+    'high': 11.16,
+    'low': 11.14,
+    'open': 11.15,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2638.0,
+    'vwap': 11.1548}}
+2025-08-12 14:36:11 INFO: Current resistance is: 11.09 and support is: 10.955
+2025-08-12 14:36:11 INFO: Current average volume is: 2458.3
+2025-08-12 14:36:11 INFO: The current close: 11.15 is above the resistance of 11.09, but volume isn't enough...
+2025-08-12 14:36:11 INFO: Updated resistance to: 11.16 and support to: 10.955
+2025-08-12 14:39:13 INFO: {'ACVA': {   'close': 11.235,
+    'high': 11.235,
+    'low': 11.21,
+    'open': 11.215,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 983.0,
+    'vwap': 11.226377}}
+2025-08-12 14:39:13 INFO: Current resistance is: 11.16 and support is: 10.955
+2025-08-12 14:39:13 INFO: Current average volume is: 2234.3
+2025-08-12 14:39:13 INFO: The current close: 11.235 is above the resistance of 11.16, but volume isn't enough...
+2025-08-12 14:39:13 INFO: Updated resistance to: 11.235 and support to: 10.955
+2025-08-12 14:40:14 INFO: {'ACVA': {   'close': 11.28,
+    'high': 11.285,
+    'low': 11.23,
+    'open': 11.24,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 3771.0,
+    'vwap': 11.27015}}
+2025-08-12 14:40:14 INFO: Current resistance is: 11.235 and support is: 10.955
+2025-08-12 14:40:14 INFO: Current average volume is: 2338.6
+2025-08-12 14:40:14 INFO: The current close: 11.28 is above the resistance of 11.235, but volume isn't enough...
+2025-08-12 14:40:14 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:41:15 INFO: {'ACVA': {   'close': 11.235,
+    'high': 11.28,
+    'low': 11.235,
+    'open': 11.28,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1613.0,
+    'vwap': 11.261594}}
+2025-08-12 14:41:15 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:41:15 INFO: Current average volume is: 2379.6
+2025-08-12 14:41:15 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:42:15 INFO: {'ACVA': {   'close': 11.24,
+    'high': 11.26,
+    'low': 11.24,
+    'open': 11.26,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 8659.0,
+    'vwap': 11.246412}}
+2025-08-12 14:42:15 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:42:15 INFO: Current average volume is: 3024.8
+2025-08-12 14:42:15 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:43:15 INFO: {'ACVA': {   'close': 11.185,
+    'high': 11.185,
+    'low': 11.185,
+    'open': 11.185,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 164.0,
+    'vwap': 11.185}}
+2025-08-12 14:43:15 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:43:15 INFO: Current average volume is: 2942.8
+2025-08-12 14:43:15 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:45:16 INFO: {'ACVA': {   'close': 11.18,
+    'high': 11.18,
+    'low': 11.18,
+    'open': 11.18,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2815.0,
+    'vwap': 11.18}}
+2025-08-12 14:45:16 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:45:16 INFO: Current average volume is: 3166.1
+2025-08-12 14:45:16 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:46:17 INFO: {'ACVA': {   'close': 11.24,
+    'high': 11.24,
+    'low': 11.24,
+    'open': 11.24,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 119.0,
+    'vwap': 11.24}}
+2025-08-12 14:46:17 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:46:17 INFO: Current average volume is: 2954.2
+2025-08-12 14:46:17 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:48:17 INFO: {'ACVA': {   'close': 11.23,
+    'high': 11.26,
+    'low': 11.23,
+    'open': 11.26,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 4013.0,
+    'vwap': 11.253474}}
+2025-08-12 14:48:17 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:48:17 INFO: Current average volume is: 2948.3
+2025-08-12 14:48:17 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:49:18 INFO: {'ACVA': {   'close': 11.205,
+    'high': 11.21,
+    'low': 11.205,
+    'open': 11.21,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 690.0,
+    'vwap': 11.205762}}
+2025-08-12 14:49:18 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:49:18 INFO: Current average volume is: 2546.5
+2025-08-12 14:49:18 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:51:18 INFO: {'ACVA': {   'close': 11.215,
+    'high': 11.215,
+    'low': 11.215,
+    'open': 11.215,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1543.0,
+    'vwap': 11.215}}
+2025-08-12 14:51:18 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:51:18 INFO: Current average volume is: 2437.0
+2025-08-12 14:51:18 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:56:21 INFO: {'ACVA': {   'close': 11.205,
+    'high': 11.205,
+    'low': 11.205,
+    'open': 11.205,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 767.0,
+    'vwap': 11.205}}
+2025-08-12 14:56:21 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:56:21 INFO: Current average volume is: 2415.4
+2025-08-12 14:56:21 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:57:21 INFO: {'ACVA': {   'close': 11.195,
+    'high': 11.2,
+    'low': 11.195,
+    'open': 11.2,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1306.0,
+    'vwap': 11.197713}}
+2025-08-12 14:57:21 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:57:21 INFO: Current average volume is: 2168.9
+2025-08-12 14:57:21 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:58:21 INFO: {'ACVA': {   'close': 11.19,
+    'high': 11.19,
+    'low': 11.19,
+    'open': 11.19,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 832.0,
+    'vwap': 11.19}}
+2025-08-12 14:58:21 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:58:21 INFO: Current average volume is: 2090.8
+2025-08-12 14:58:21 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 14:59:22 INFO: {'ACVA': {   'close': 11.21,
+    'high': 11.225,
+    'low': 11.2,
+    'open': 11.2,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 6200.0,
+    'vwap': 11.216411}}
+2025-08-12 14:59:22 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 14:59:22 INFO: Current average volume is: 1844.9
+2025-08-12 14:59:22 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 15:00:22 INFO: {'ACVA': {   'close': 11.205,
+    'high': 11.205,
+    'low': 11.205,
+    'open': 11.205,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 824.0,
+    'vwap': 11.205}}
+2025-08-12 15:00:22 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 15:00:22 INFO: Current average volume is: 1910.9
+2025-08-12 15:00:22 INFO: Updated resistance to: 11.285 and support to: 10.955
+2025-08-12 15:01:23 INFO: {'ACVA': {   'close': 11.3,
+    'high': 11.3,
+    'low': 11.2,
+    'open': 11.2,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 3525.0,
+    'vwap': 11.227685}}
+2025-08-12 15:01:23 INFO: Current resistance is: 11.285 and support is: 10.955
+2025-08-12 15:01:23 INFO: Current average volume is: 1981.9
+2025-08-12 15:01:23 INFO: The Current Close 11.3 is above the resistance...
+2025-08-12 15:01:23 INFO: Updated resistance to: 11.3 and support to: 10.955
+2025-08-12 15:02:23 INFO: {'ACVA': {   'close': 11.33,
+    'high': 11.335,
+    'low': 11.325,
+    'open': 11.33,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 81.0,
+    'volume': 7569.0,
+    'vwap': 11.331045}}
+2025-08-12 15:02:23 INFO: Current resistance is: 11.3 and support is: 10.955
+2025-08-12 15:02:23 INFO: Current average volume is: 2726.9
+2025-08-12 15:02:23 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-12 15:04:25 INFO: {'ACVA': {   'close': 11.305,
+    'high': 11.325,
+    'low': 11.3,
+    'open': 11.325,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 3279.0,
+    'vwap': 11.314397}}
+2025-08-12 15:04:25 INFO: Current resistance is: 11.3 and support is: 10.955
+2025-08-12 15:04:25 INFO: Current average volume is: 2653.5
+2025-08-12 15:04:25 INFO: The current close: 11.305 is above the resistance of 11.3, but volume isn't enough...
+2025-08-12 15:04:25 INFO: Updated resistance to: 11.325 and support to: 10.955
+2025-08-12 15:07:27 INFO: {'ACVA': {   'close': 11.275,
+    'high': 11.33,
+    'low': 11.275,
+    'open': 11.305,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 5987.0,
+    'vwap': 11.307245}}
+2025-08-12 15:07:27 INFO: Current resistance is: 11.325 and support is: 10.955
+2025-08-12 15:07:27 INFO: Current average volume is: 3183.2
+2025-08-12 15:07:27 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:08:28 INFO: {'ACVA': {   'close': 11.245,
+    'high': 11.255,
+    'low': 11.245,
+    'open': 11.255,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1777.0,
+    'vwap': 11.248604}}
+2025-08-12 15:08:28 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:08:28 INFO: Current average volume is: 3206.6
+2025-08-12 15:08:28 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:14:30 INFO: {'ACVA': {   'close': 11.265,
+    'high': 11.265,
+    'low': 11.265,
+    'open': 11.265,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1120.0,
+    'vwap': 11.265}}
+2025-08-12 15:14:30 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:14:30 INFO: Current average volume is: 3241.9
+2025-08-12 15:14:30 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:16:31 INFO: {'ACVA': {   'close': 11.25,
+    'high': 11.295,
+    'low': 11.25,
+    'open': 11.295,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 6370.0,
+    'vwap': 11.276081}}
+2025-08-12 15:16:31 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:16:31 INFO: Current average volume is: 3748.3
+2025-08-12 15:16:31 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:17:31 INFO: {'ACVA': {   'close': 11.255,
+    'high': 11.255,
+    'low': 11.255,
+    'open': 11.255,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 534.0,
+    'vwap': 11.255}}
+2025-08-12 15:17:31 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:17:31 INFO: Current average volume is: 3718.5
+2025-08-12 15:17:31 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:20:32 INFO: {'ACVA': {   'close': 11.215,
+    'high': 11.22,
+    'low': 11.215,
+    'open': 11.22,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1548.0,
+    'vwap': 11.217442}}
+2025-08-12 15:20:32 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:20:32 INFO: Current average volume is: 3253.3
+2025-08-12 15:20:32 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:21:32 INFO: {'ACVA': {   'close': 11.235,
+    'high': 11.235,
+    'low': 11.205,
+    'open': 11.205,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1943.0,
+    'vwap': 11.211403}}
+2025-08-12 15:21:32 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:21:32 INFO: Current average volume is: 3365.2
+2025-08-12 15:21:32 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:26:34 INFO: {'ACVA': {   'close': 11.245,
+    'high': 11.25,
+    'low': 11.225,
+    'open': 11.225,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 792.0,
+    'vwap': 11.240714}}
+2025-08-12 15:26:34 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:26:34 INFO: Current average volume is: 3091.9
+2025-08-12 15:26:34 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:27:34 INFO: {'ACVA': {   'close': 11.265,
+    'high': 11.27,
+    'low': 11.265,
+    'open': 11.265,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1673.0,
+    'vwap': 11.265381}}
+2025-08-12 15:27:34 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:27:34 INFO: Current average volume is: 2502.3
+2025-08-12 15:27:34 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:28:34 INFO: {'ACVA': {   'close': 11.285,
+    'high': 11.285,
+    'low': 11.26,
+    'open': 11.26,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2460.0,
+    'vwap': 11.264208}}
+2025-08-12 15:28:34 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:28:34 INFO: Current average volume is: 2420.4
+2025-08-12 15:28:34 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:29:35 INFO: {'ACVA': {   'close': 11.32,
+    'high': 11.325,
+    'low': 11.32,
+    'open': 11.325,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 946.0,
+    'vwap': 11.323571}}
+2025-08-12 15:29:35 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:29:35 INFO: Current average volume is: 1916.3
+2025-08-12 15:29:35 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:30:35 INFO: {'ACVA': {   'close': 11.27,
+    'high': 11.3,
+    'low': 11.27,
+    'open': 11.285,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 4370.0,
+    'vwap': 11.278677}}
+2025-08-12 15:30:35 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:30:35 INFO: Current average volume is: 2175.6
+2025-08-12 15:30:35 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:31:35 INFO: {'ACVA': {   'close': 11.265,
+    'high': 11.265,
+    'low': 11.265,
+    'open': 11.265,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 597.0,
+    'vwap': 11.265}}
+2025-08-12 15:31:35 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:31:35 INFO: Current average volume is: 2123.3
+2025-08-12 15:31:35 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:36:38 INFO: {'ACVA': {   'close': 11.225,
+    'high': 11.245,
+    'low': 11.225,
+    'open': 11.245,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 5320.0,
+    'vwap': 11.232954}}
+2025-08-12 15:36:38 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:36:38 INFO: Current average volume is: 2018.3
+2025-08-12 15:36:38 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:37:38 INFO: {'ACVA': {   'close': 11.195,
+    'high': 11.225,
+    'low': 11.195,
+    'open': 11.225,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 16933.0,
+    'vwap': 11.213807}}
+2025-08-12 15:37:38 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:37:38 INFO: Current average volume is: 3658.2
+2025-08-12 15:37:38 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:38:38 INFO: {'ACVA': {   'close': 11.185,
+    'high': 11.195,
+    'low': 11.18,
+    'open': 11.195,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3964.0,
+    'vwap': 11.186799}}
+2025-08-12 15:38:38 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:38:38 INFO: Current average volume is: 3899.8
+2025-08-12 15:38:38 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:39:39 INFO: {'ACVA': {   'close': 11.155,
+    'high': 11.185,
+    'low': 11.15,
+    'open': 11.18,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 11849.0,
+    'vwap': 11.166661}}
+2025-08-12 15:39:39 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:39:39 INFO: Current average volume is: 4890.4
+2025-08-12 15:39:39 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:40:39 INFO: {'ACVA': {   'close': 11.125,
+    'high': 11.18,
+    'low': 11.125,
+    'open': 11.155,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 80.0,
+    'volume': 16210.0,
+    'vwap': 11.145474}}
+2025-08-12 15:40:39 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:40:39 INFO: Current average volume is: 6432.2
+2025-08-12 15:40:39 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:42:40 INFO: {'ACVA': {   'close': 11.145,
+    'high': 11.17,
+    'low': 11.145,
+    'open': 11.145,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 9146.0,
+    'vwap': 11.15259}}
+2025-08-12 15:42:40 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:42:40 INFO: Current average volume is: 7179.5
+2025-08-12 15:42:40 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:46:41 INFO: {'ACVA': {   'close': 11.11,
+    'high': 11.15,
+    'low': 11.085,
+    'open': 11.15,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 5137.0,
+    'vwap': 11.102542}}
+2025-08-12 15:46:41 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:46:41 INFO: Current average volume is: 7447.2
+2025-08-12 15:46:41 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:47:41 INFO: {'ACVA': {   'close': 11.155,
+    'high': 11.155,
+    'low': 11.125,
+    'open': 11.135,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 3563.0,
+    'vwap': 11.131033}}
+2025-08-12 15:47:41 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:47:41 INFO: Current average volume is: 7708.9
+2025-08-12 15:47:41 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:48:42 INFO: {'ACVA': {   'close': 11.145,
+    'high': 11.16,
+    'low': 11.14,
+    'open': 11.155,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2130.0,
+    'vwap': 11.14957}}
+2025-08-12 15:48:42 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:48:42 INFO: Current average volume is: 7484.9
+2025-08-12 15:48:42 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:49:43 INFO: {'ACVA': {   'close': 11.135,
+    'high': 11.155,
+    'low': 11.135,
+    'open': 11.145,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 4790.0,
+    'vwap': 11.144616}}
+2025-08-12 15:49:43 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:49:43 INFO: Current average volume is: 7904.2
+2025-08-12 15:49:43 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:51:43 INFO: {'ACVA': {   'close': 11.23,
+    'high': 11.24,
+    'low': 11.175,
+    'open': 11.175,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 5498.0,
+    'vwap': 11.20619}}
+2025-08-12 15:51:43 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:51:43 INFO: Current average volume is: 7922.0
+2025-08-12 15:51:43 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:52:44 INFO: {'ACVA': {   'close': 11.215,
+    'high': 11.225,
+    'low': 11.205,
+    'open': 11.225,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 3587.0,
+    'vwap': 11.210947}}
+2025-08-12 15:52:44 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:52:44 INFO: Current average volume is: 6587.4
+2025-08-12 15:52:44 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:53:44 INFO: {'ACVA': {   'close': 11.235,
+    'high': 11.24,
+    'low': 11.235,
+    'open': 11.235,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 970.0,
+    'vwap': 11.236667}}
+2025-08-12 15:53:44 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:53:44 INFO: Current average volume is: 6288.0
+2025-08-12 15:53:44 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:55:45 INFO: {'ACVA': {   'close': 11.215,
+    'high': 11.22,
+    'low': 11.215,
+    'open': 11.215,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2675.0,
+    'vwap': 11.215833}}
+2025-08-12 15:55:45 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:55:45 INFO: Current average volume is: 5370.6
+2025-08-12 15:55:45 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 15:58:46 INFO: {'ACVA': {   'close': 11.19,
+    'high': 11.19,
+    'low': 11.17,
+    'open': 11.185,
+    'symbol': 'ACVA',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 87.0,
+    'volume': 10481.0,
+    'vwap': 11.182618}}
+2025-08-12 15:58:46 INFO: Current resistance is: 11.33 and support is: 10.955
+2025-08-12 15:58:46 INFO: Current average volume is: 4797.7
+2025-08-12 15:58:46 INFO: Updated resistance to: 11.33 and support to: 10.955
+2025-08-12 16:00:46 INFO: The Market is closed...

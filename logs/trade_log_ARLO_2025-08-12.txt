@@ -1,0 +1,396 @@
+2025-08-12 12:50:41 INFO: === Strategy started ===
+2025-08-12 12:50:41 INFO: Start collecting the current highs/lows for: ARLO
+2025-08-12 12:50:41 INFO: Most recent stock data: {'ARLO': {   'close': 18.27,
+    'high': 18.27,
+    'low': 18.27,
+    'open': 18.27,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 286.0,
+    'vwap': 18.27}}
+2025-08-12 12:54:43 INFO: Most recent stock data: {'ARLO': {   'close': 18.28,
+    'high': 18.28,
+    'low': 18.265,
+    'open': 18.27,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1500.0,
+    'vwap': 18.274286}}
+2025-08-12 12:58:44 INFO: Most recent stock data: {'ARLO': {   'close': 18.26,
+    'high': 18.26,
+    'low': 18.26,
+    'open': 18.26,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 440.0,
+    'vwap': 18.26}}
+2025-08-12 12:59:44 INFO: Most recent stock data: {'ARLO': {   'close': 18.25,
+    'high': 18.25,
+    'low': 18.25,
+    'open': 18.25,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 18.25}}
+2025-08-12 13:00:45 INFO: Most recent stock data: {'ARLO': {   'close': 18.22,
+    'high': 18.245,
+    'low': 18.22,
+    'open': 18.245,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 466.0,
+    'vwap': 18.228333}}
+2025-08-12 13:01:45 INFO: Most recent stock data: {'ARLO': {   'close': 18.28,
+    'high': 18.28,
+    'low': 18.28,
+    'open': 18.28,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 204.0,
+    'vwap': 18.28}}
+2025-08-12 13:02:45 INFO: Most recent stock data: {'ARLO': {   'close': 18.345,
+    'high': 18.345,
+    'low': 18.3,
+    'open': 18.3,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 370.0,
+    'vwap': 18.321613}}
+2025-08-12 13:03:46 INFO: Most recent stock data: {'ARLO': {   'close': 18.36,
+    'high': 18.37,
+    'low': 18.31,
+    'open': 18.37,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1225.0,
+    'vwap': 18.328752}}
+2025-08-12 13:04:46 INFO: Most recent stock data: {'ARLO': {   'close': 18.32,
+    'high': 18.32,
+    'low': 18.32,
+    'open': 18.32,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 148.0,
+    'vwap': 18.32}}
+2025-08-12 13:05:46 INFO: Most recent stock data: {'ARLO': {   'close': 18.34,
+    'high': 18.355,
+    'low': 18.34,
+    'open': 18.355,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 530.0,
+    'vwap': 18.346217}}
+2025-08-12 13:06:46 INFO: Most recent stock data: {'ARLO': {   'close': 18.33,
+    'high': 18.33,
+    'low': 18.33,
+    'open': 18.33,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 254.0,
+    'vwap': 18.33}}
+2025-08-12 13:06:46 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 13:06:46 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-12 13:07:47 INFO: {'ARLO': {   'close': 18.26,
+    'high': 18.28,
+    'low': 18.26,
+    'open': 18.28,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 18.276}}
+2025-08-12 13:07:47 INFO: Current resistance is: 18.37 and support is: 18.22
+2025-08-12 13:07:47 INFO: Current average volume is: 425.7
+2025-08-12 13:07:47 INFO: Updated resistance to: 18.37 and support to: 18.22
+2025-08-12 13:08:48 INFO: {'ARLO': {   'close': 18.3,
+    'high': 18.3,
+    'low': 18.3,
+    'open': 18.3,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 135.0,
+    'vwap': 18.3}}
+2025-08-12 13:08:48 INFO: Current resistance is: 18.37 and support is: 18.22
+2025-08-12 13:08:48 INFO: Current average volume is: 395.2
+2025-08-12 13:08:48 INFO: Updated resistance to: 18.37 and support to: 18.22
+2025-08-12 13:10:48 INFO: {'ARLO': {   'close': 18.29,
+    'high': 18.29,
+    'low': 18.29,
+    'open': 18.29,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 281.0,
+    'vwap': 18.29}}
+2025-08-12 13:10:48 INFO: Current resistance is: 18.37 and support is: 18.22
+2025-08-12 13:10:48 INFO: Current average volume is: 411.3
+2025-08-12 13:10:48 INFO: Updated resistance to: 18.37 and support to: 18.22
+2025-08-12 13:13:50 INFO: {'ARLO': {   'close': 18.27,
+    'high': 18.27,
+    'low': 18.27,
+    'open': 18.27,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 313.0,
+    'vwap': 18.27}}
+2025-08-12 13:13:50 INFO: Current resistance is: 18.37 and support is: 18.22
+2025-08-12 13:13:50 INFO: Current average volume is: 396.0
+2025-08-12 13:13:50 INFO: Updated resistance to: 18.37 and support to: 18.22
+2025-08-12 13:14:50 INFO: {'ARLO': {   'close': 18.25,
+    'high': 18.25,
+    'low': 18.25,
+    'open': 18.25,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 113.0,
+    'vwap': 18.25}}
+2025-08-12 13:14:50 INFO: Current resistance is: 18.37 and support is: 18.22
+2025-08-12 13:14:50 INFO: Current average volume is: 386.9
+2025-08-12 13:14:50 INFO: Updated resistance to: 18.37 and support to: 18.22
+2025-08-12 13:15:51 INFO: {'ARLO': {   'close': 18.27,
+    'high': 18.27,
+    'low': 18.27,
+    'open': 18.27,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 353.0,
+    'vwap': 18.27}}
+2025-08-12 13:15:51 INFO: Current resistance is: 18.37 and support is: 18.22
+2025-08-12 13:15:51 INFO: Current average volume is: 385.2
+2025-08-12 13:15:51 INFO: Updated resistance to: 18.37 and support to: 18.22
+2025-08-12 13:16:51 INFO: {'ARLO': {   'close': 18.31,
+    'high': 18.31,
+    'low': 18.31,
+    'open': 18.31,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 18.31}}
+2025-08-12 13:16:51 INFO: Current resistance is: 18.37 and support is: 18.22
+2025-08-12 13:16:51 INFO: Current average volume is: 282.7
+2025-08-12 13:16:51 INFO: Updated resistance to: 18.37 and support to: 18.22
+2025-08-12 13:19:52 INFO: {'ARLO': {   'close': 18.42,
+    'high': 18.42,
+    'low': 18.42,
+    'open': 18.42,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 18.42}}
+2025-08-12 13:19:52 INFO: Current resistance is: 18.37 and support is: 18.22
+2025-08-12 13:19:52 INFO: Current average volume is: 297.9
+2025-08-12 13:19:52 INFO: The Current Close 18.42 is above the resistance...
+2025-08-12 13:19:52 INFO: Updated resistance to: 18.42 and support to: 18.22
+2025-08-12 13:20:23 INFO: {'ARLO': {   'close': 18.4,
+    'high': 18.4,
+    'low': 18.4,
+    'open': 18.4,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.4}}
+2025-08-12 13:20:23 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:20:23 INFO: Current average volume is: 254.9
+2025-08-12 13:20:23 INFO: Updated resistance to: 18.42 and support to: 18.22
+2025-08-12 13:21:23 INFO: {'ARLO': {   'close': 18.38,
+    'high': 18.38,
+    'low': 18.38,
+    'open': 18.38,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 18.38}}
+2025-08-12 13:21:23 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:21:23 INFO: Current average volume is: 239.6
+2025-08-12 13:21:23 INFO: Updated resistance to: 18.42 and support to: 18.22
+2025-08-12 13:23:24 INFO: {'ARLO': {   'close': 18.4,
+    'high': 18.4,
+    'low': 18.4,
+    'open': 18.4,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 203.0,
+    'vwap': 18.4}}
+2025-08-12 13:23:24 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:23:24 INFO: Current average volume is: 209.9
+2025-08-12 13:23:24 INFO: Updated resistance to: 18.42 and support to: 18.22
+2025-08-12 13:24:25 INFO: {'ARLO': {   'close': 18.35,
+    'high': 18.38,
+    'low': 18.35,
+    'open': 18.38,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 682.0,
+    'vwap': 18.366364}}
+2025-08-12 13:24:25 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:24:25 INFO: Current average volume is: 264.6
+2025-08-12 13:24:25 INFO: Updated resistance to: 18.42 and support to: 18.22
+2025-08-12 13:28:27 INFO: {'ARLO': {   'close': 18.33,
+    'high': 18.33,
+    'low': 18.33,
+    'open': 18.33,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 402.0,
+    'vwap': 18.33}}
+2025-08-12 13:28:27 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:28:27 INFO: Current average volume is: 276.7
+2025-08-12 13:28:27 INFO: Updated resistance to: 18.42 and support to: 18.22
+2025-08-12 13:29:27 INFO: {'ARLO': {   'close': 18.22,
+    'high': 18.23,
+    'low': 18.22,
+    'open': 18.23,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 626.0,
+    'vwap': 18.223333}}
+2025-08-12 13:29:27 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:29:27 INFO: Current average volume is: 308.0
+2025-08-12 13:30:28 INFO: {'ARLO': {   'close': 18.26,
+    'high': 18.26,
+    'low': 18.26,
+    'open': 18.26,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 470.0,
+    'vwap': 18.26}}
+2025-08-12 13:30:28 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:30:28 INFO: Current average volume is: 343.7
+2025-08-12 13:30:28 INFO: Updated resistance to: 18.42 and support to: 18.22
+2025-08-12 13:31:28 INFO: {'ARLO': {   'close': 18.21,
+    'high': 18.23,
+    'low': 18.21,
+    'open': 18.23,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 656.0,
+    'vwap': 18.226667}}
+2025-08-12 13:31:28 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:31:28 INFO: Current average volume is: 374.0
+2025-08-12 13:31:28 INFO: close price: 18.21 just dropped below support of 18.22...
+2025-08-12 13:32:28 INFO: {'ARLO': {   'close': 18.265,
+    'high': 18.27,
+    'low': 18.265,
+    'open': 18.27,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 343.0,
+    'vwap': 18.2675}}
+2025-08-12 13:32:28 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:32:28 INFO: Current average volume is: 388.3
+2025-08-12 13:32:28 INFO: Updated resistance to: 18.42 and support to: 18.22
+2025-08-12 13:38:31 INFO: {'ARLO': {   'close': 18.17,
+    'high': 18.23,
+    'low': 18.17,
+    'open': 18.23,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 506.0,
+    'vwap': 18.21}}
+2025-08-12 13:38:31 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:38:31 INFO: Current average volume is: 408.9
+2025-08-12 13:38:31 INFO: close price: 18.17 just dropped below support of 18.22...
+2025-08-12 13:39:31 INFO: {'ARLO': {   'close': 18.2,
+    'high': 18.2,
+    'low': 18.2,
+    'open': 18.2,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 418.0,
+    'vwap': 18.2}}
+2025-08-12 13:39:31 INFO: Current resistance is: 18.42 and support is: 18.22
+2025-08-12 13:39:31 INFO: Current average volume is: 440.7
+2025-08-12 13:39:31 INFO: Closing price: 18.2 just dropped below support 18.22 again...ending trade...
+2025-08-12 14:20:52 INFO: === Strategy started ===
+2025-08-12 14:20:52 INFO: Start collecting the current highs/lows for: ARLO
+2025-08-12 14:20:52 INFO: Most recent stock data: {'ARLO': {   'close': 18.155,
+    'high': 18.175,
+    'low': 18.145,
+    'open': 18.145,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 639.0,
+    'vwap': 18.153654}}
+2025-08-12 14:21:53 INFO: Most recent stock data: {'ARLO': {   'close': 18.155,
+    'high': 18.155,
+    'low': 18.155,
+    'open': 18.155,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.155}}
+2025-08-12 14:24:54 INFO: Most recent stock data: {'ARLO': {   'close': 18.17,
+    'high': 18.17,
+    'low': 18.17,
+    'open': 18.17,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 287.0,
+    'vwap': 18.17}}
+2025-08-12 14:26:55 INFO: Most recent stock data: {'ARLO': {   'close': 18.26,
+    'high': 18.26,
+    'low': 18.26,
+    'open': 18.26,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 274.0,
+    'vwap': 18.26}}
+2025-08-12 14:29:55 INFO: Most recent stock data: {'ARLO': {   'close': 18.255,
+    'high': 18.255,
+    'low': 18.255,
+    'open': 18.255,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 202.0,
+    'vwap': 18.255}}
+2025-08-12 14:34:57 INFO: Most recent stock data: {'ARLO': {   'close': 18.24,
+    'high': 18.24,
+    'low': 18.23,
+    'open': 18.235,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 682.0,
+    'vwap': 18.235}}
+2025-08-12 14:38:59 INFO: Most recent stock data: {'ARLO': {   'close': 18.21,
+    'high': 18.215,
+    'low': 18.21,
+    'open': 18.215,
+    'symbol': 'ARLO',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 293.0,
+    'vwap': 18.212727}}

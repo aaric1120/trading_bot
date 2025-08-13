@@ -1,0 +1,962 @@
+2025-08-12 09:50:14 INFO: === Strategy started ===
+2025-08-12 09:50:14 INFO: Start collecting the current highs/lows for: REZI
+2025-08-12 09:50:15 INFO: Most recent stock data: {'REZI': {   'close': 30.35,
+    'high': 30.395,
+    'low': 30.35,
+    'open': 30.35,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 687.0,
+    'vwap': 30.375349}}
+2025-08-12 09:51:15 INFO: Most recent stock data: {'REZI': {   'close': 30.43,
+    'high': 30.545,
+    'low': 30.43,
+    'open': 30.545,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 620.0,
+    'vwap': 30.453}}
+2025-08-12 09:52:16 INFO: Most recent stock data: {'REZI': {   'close': 30.405,
+    'high': 30.405,
+    'low': 30.405,
+    'open': 30.405,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 300.0,
+    'vwap': 30.405}}
+2025-08-12 09:53:16 INFO: Most recent stock data: {'REZI': {   'close': 30.51,
+    'high': 30.51,
+    'low': 30.51,
+    'open': 30.51,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 112.0,
+    'vwap': 30.51}}
+2025-08-12 09:54:18 INFO: Most recent stock data: {'REZI': {   'close': 30.525,
+    'high': 30.54,
+    'low': 30.45,
+    'open': 30.45,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1258.0,
+    'vwap': 30.507778}}
+2025-08-12 09:55:19 INFO: Most recent stock data: {'REZI': {   'close': 30.57,
+    'high': 30.575,
+    'low': 30.525,
+    'open': 30.525,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 708.0,
+    'vwap': 30.558333}}
+2025-08-12 09:56:19 INFO: Most recent stock data: {'REZI': {   'close': 30.695,
+    'high': 30.695,
+    'low': 30.605,
+    'open': 30.62,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 2444.0,
+    'vwap': 30.682295}}
+2025-08-12 09:58:20 INFO: Most recent stock data: {'REZI': {   'close': 30.665,
+    'high': 30.665,
+    'low': 30.665,
+    'open': 30.665,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 30.665}}
+2025-08-12 09:59:20 INFO: Most recent stock data: {'REZI': {   'close': 30.755,
+    'high': 30.755,
+    'low': 30.67,
+    'open': 30.67,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1551.0,
+    'vwap': 30.686412}}
+2025-08-12 10:00:21 INFO: Most recent stock data: {'REZI': {   'close': 30.82,
+    'high': 30.82,
+    'low': 30.74,
+    'open': 30.74,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 30.771667}}
+2025-08-12 10:01:21 INFO: Most recent stock data: {'REZI': {   'close': 30.74,
+    'high': 30.8,
+    'low': 30.71,
+    'open': 30.785,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3122.0,
+    'vwap': 30.761882}}
+2025-08-12 10:01:21 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 10:01:21 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-12 10:02:21 INFO: {'REZI': {   'close': 31.09,
+    'high': 31.09,
+    'low': 30.89,
+    'open': 30.89,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 505.0,
+    'vwap': 30.94}}
+2025-08-12 10:02:21 INFO: Current resistance is: 30.904 and support is: 30.78
+2025-08-12 10:02:21 INFO: Current average volume is: 1041.0
+2025-08-12 10:02:21 INFO: The Current Close 31.09 is above the resistance...
+2025-08-12 10:02:21 INFO: Updated resistance to: 31.141 and support to: 30.867
+2025-08-12 10:03:22 INFO: {'REZI': {   'close': 30.995,
+    'high': 31.105,
+    'low': 30.995,
+    'open': 31.065,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1223.0,
+    'vwap': 31.035579}}
+2025-08-12 10:03:22 INFO: Current resistance is: 31.141 and support is: 30.867
+2025-08-12 10:03:22 INFO: Current average volume is: 1133.3
+2025-08-12 10:03:22 INFO: Updated resistance to: 31.16 and support to: 30.969
+2025-08-12 10:04:22 INFO: {'REZI': {   'close': 30.915,
+    'high': 31.03,
+    'low': 30.915,
+    'open': 31.03,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 394.0,
+    'vwap': 30.944639}}
+2025-08-12 10:04:22 INFO: Current resistance is: 31.16 and support is: 30.969
+2025-08-12 10:04:22 INFO: Current average volume is: 1161.5
+2025-08-12 10:04:22 INFO: close price: 30.915 just dropped below support of 30.969...
+2025-08-12 10:05:23 INFO: {'REZI': {   'close': 30.985,
+    'high': 30.985,
+    'low': 30.965,
+    'open': 30.965,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 847.0,
+    'vwap': 30.974906}}
+2025-08-12 10:05:23 INFO: Current resistance is: 31.16 and support is: 30.969
+2025-08-12 10:05:23 INFO: Current average volume is: 1120.4
+2025-08-12 10:05:23 INFO: Updated resistance to: 31.257 and support to: 31.044
+2025-08-12 10:06:23 INFO: {'REZI': {   'close': 31.17,
+    'high': 31.26,
+    'low': 31.0,
+    'open': 31.005,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 4647.0,
+    'vwap': 31.177713}}
+2025-08-12 10:06:23 INFO: Current resistance is: 31.257 and support is: 31.044
+2025-08-12 10:06:23 INFO: Current average volume is: 1514.3
+2025-08-12 10:06:23 INFO: Updated resistance to: 31.313 and support to: 31.082
+2025-08-12 10:07:24 INFO: {'REZI': {   'close': 31.205,
+    'high': 31.205,
+    'low': 31.06,
+    'open': 31.12,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 5864.0,
+    'vwap': 31.127813}}
+2025-08-12 10:07:24 INFO: Current resistance is: 31.313 and support is: 31.082
+2025-08-12 10:07:24 INFO: Current average volume is: 1856.3
+2025-08-12 10:07:24 INFO: Updated resistance to: 31.367 and support to: 31.126
+2025-08-12 10:08:24 INFO: {'REZI': {   'close': 31.255,
+    'high': 31.275,
+    'low': 31.245,
+    'open': 31.245,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 711.0,
+    'vwap': 31.257857}}
+2025-08-12 10:08:24 INFO: Current resistance is: 31.367 and support is: 31.126
+2025-08-12 10:08:24 INFO: Current average volume is: 1916.4
+2025-08-12 10:08:24 INFO: Updated resistance to: 31.328 and support to: 31.214
+2025-08-12 10:09:25 INFO: {'REZI': {   'close': 31.22,
+    'high': 31.27,
+    'low': 31.22,
+    'open': 31.27,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2297.0,
+    'vwap': 31.246082}}
+2025-08-12 10:09:25 INFO: Current resistance is: 31.328 and support is: 31.214
+2025-08-12 10:09:25 INFO: Current average volume is: 1991.0
+2025-08-12 10:09:25 INFO: Updated resistance to: 31.38 and support to: 31.272
+2025-08-12 10:10:25 INFO: {'REZI': {   'close': 31.21,
+    'high': 31.23,
+    'low': 31.21,
+    'open': 31.21,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 835.0,
+    'vwap': 31.222}}
+2025-08-12 10:10:25 INFO: Current resistance is: 31.38 and support is: 31.272
+2025-08-12 10:10:25 INFO: Current average volume is: 2044.5
+2025-08-12 10:10:25 INFO: close price: 31.21 just dropped below support of 31.272...
+2025-08-12 10:11:25 INFO: {'REZI': {   'close': 31.32,
+    'high': 31.32,
+    'low': 31.3,
+    'open': 31.315,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2933.0,
+    'vwap': 31.310723}}
+2025-08-12 10:11:25 INFO: Current resistance is: 31.38 and support is: 31.272
+2025-08-12 10:11:25 INFO: Current average volume is: 2025.6
+2025-08-12 10:11:25 INFO: Updated resistance to: 31.37 and support to: 31.365
+2025-08-12 10:13:26 INFO: {'REZI': {   'close': 31.15,
+    'high': 31.35,
+    'low': 31.15,
+    'open': 31.35,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1730.0,
+    'vwap': 31.289085}}
+2025-08-12 10:13:26 INFO: Current resistance is: 31.37 and support is: 31.365
+2025-08-12 10:13:26 INFO: Current average volume is: 2148.1
+2025-08-12 10:13:26 INFO: close price: 31.15 just dropped below support of 31.365...
+2025-08-12 10:14:26 INFO: {'REZI': {   'close': 31.32,
+    'high': 31.32,
+    'low': 31.23,
+    'open': 31.23,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 887.0,
+    'vwap': 31.262683}}
+2025-08-12 10:14:26 INFO: Current resistance is: 31.37 and support is: 31.365
+2025-08-12 10:14:26 INFO: Current average volume is: 2114.5
+2025-08-12 10:14:26 INFO: Closing price: 31.32 just dropped below support 31.365 again...ending trade...
+2025-08-12 10:50:25 INFO: === Strategy started ===
+2025-08-12 10:50:25 INFO: Start collecting the current highs/lows for: REZI
+2025-08-12 10:50:25 INFO: Most recent stock data: {'REZI': {   'close': 31.01,
+    'high': 31.01,
+    'low': 31.01,
+    'open': 31.01,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 479.0,
+    'vwap': 31.01}}
+2025-08-12 10:51:26 INFO: Most recent stock data: {'REZI': {   'close': 30.97,
+    'high': 30.97,
+    'low': 30.97,
+    'open': 30.97,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 335.0,
+    'vwap': 30.97}}
+2025-08-12 10:52:27 INFO: Most recent stock data: {'REZI': {   'close': 30.945,
+    'high': 30.945,
+    'low': 30.945,
+    'open': 30.945,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 527.0,
+    'vwap': 30.945}}
+2025-08-12 10:53:27 INFO: Most recent stock data: {'REZI': {   'close': 31.03,
+    'high': 31.04,
+    'low': 31.03,
+    'open': 31.04,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 937.0,
+    'vwap': 31.03452}}
+2025-08-12 10:54:27 INFO: Most recent stock data: {'REZI': {   'close': 31.09,
+    'high': 31.12,
+    'low': 31.09,
+    'open': 31.1,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 637.0,
+    'vwap': 31.09708}}
+2025-08-12 10:55:27 INFO: Most recent stock data: {'REZI': {   'close': 31.1,
+    'high': 31.145,
+    'low': 31.1,
+    'open': 31.13,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 302.0,
+    'vwap': 31.125}}
+2025-08-12 10:57:28 INFO: Most recent stock data: {'REZI': {   'close': 30.95,
+    'high': 31.03,
+    'low': 30.95,
+    'open': 31.03,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 260.0,
+    'vwap': 30.986364}}
+2025-08-12 10:58:28 INFO: Most recent stock data: {'REZI': {   'close': 30.915,
+    'high': 30.94,
+    'low': 30.915,
+    'open': 30.94,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 604.0,
+    'vwap': 30.920507}}
+2025-08-12 11:00:29 INFO: Most recent stock data: {'REZI': {   'close': 30.955,
+    'high': 30.98,
+    'low': 30.955,
+    'open': 30.98,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 347.0,
+    'vwap': 30.9675}}
+2025-08-12 11:01:29 INFO: Most recent stock data: {'REZI': {   'close': 30.885,
+    'high': 30.92,
+    'low': 30.885,
+    'open': 30.92,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 495.0,
+    'vwap': 30.902759}}
+2025-08-12 11:02:30 INFO: Most recent stock data: {'REZI': {   'close': 30.97,
+    'high': 30.97,
+    'low': 30.87,
+    'open': 30.89,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 790.0,
+    'vwap': 30.912}}
+2025-08-12 11:02:30 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 11:02:30 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-12 11:03:30 INFO: {'REZI': {   'close': 30.945,
+    'high': 30.965,
+    'low': 30.945,
+    'open': 30.965,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 255.0,
+    'vwap': 30.955}}
+2025-08-12 11:03:30 INFO: Current resistance is: 31.145 and support is: 30.87
+2025-08-12 11:03:30 INFO: Current average volume is: 515.4
+2025-08-12 11:03:30 INFO: Updated resistance to: 31.145 and support to: 30.87
+2025-08-12 11:04:31 INFO: {'REZI': {   'close': 30.96,
+    'high': 30.96,
+    'low': 30.96,
+    'open': 30.96,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 204.0,
+    'vwap': 30.96}}
+2025-08-12 11:04:31 INFO: Current resistance is: 31.145 and support is: 30.87
+2025-08-12 11:04:31 INFO: Current average volume is: 483.1
+2025-08-12 11:04:31 INFO: Updated resistance to: 31.145 and support to: 30.87
+2025-08-12 11:06:32 INFO: {'REZI': {   'close': 30.85,
+    'high': 30.905,
+    'low': 30.85,
+    'open': 30.905,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 384.0,
+    'vwap': 30.876667}}
+2025-08-12 11:06:32 INFO: Current resistance is: 31.145 and support is: 30.87
+2025-08-12 11:06:32 INFO: Current average volume is: 427.8
+2025-08-12 11:06:32 INFO: close price: 30.85 just dropped below support of 30.87...
+2025-08-12 11:10:34 INFO: {'REZI': {   'close': 30.855,
+    'high': 30.855,
+    'low': 30.855,
+    'open': 30.855,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 269.0,
+    'vwap': 30.855}}
+2025-08-12 11:10:34 INFO: Current resistance is: 31.145 and support is: 30.87
+2025-08-12 11:10:34 INFO: Current average volume is: 391.0
+2025-08-12 11:10:34 INFO: Closing price: 30.855 just dropped below support 30.87 again...ending trade...
+2025-08-12 12:05:35 INFO: === Strategy started ===
+2025-08-12 12:05:35 INFO: Start collecting the current highs/lows for: REZI
+2025-08-12 12:05:35 INFO: Most recent stock data: {'REZI': {   'close': 31.28,
+    'high': 31.325,
+    'low': 31.28,
+    'open': 31.325,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 556.0,
+    'vwap': 31.31511}}
+2025-08-12 12:10:37 INFO: Most recent stock data: {'REZI': {   'close': 31.24,
+    'high': 31.24,
+    'low': 31.23,
+    'open': 31.23,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 286.0,
+    'vwap': 31.235}}
+2025-08-12 12:11:38 INFO: Most recent stock data: {'REZI': {   'close': 31.2,
+    'high': 31.2,
+    'low': 31.185,
+    'open': 31.185,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 218.0,
+    'vwap': 31.1925}}
+2025-08-12 12:12:38 INFO: Most recent stock data: {'REZI': {   'close': 31.175,
+    'high': 31.175,
+    'low': 31.175,
+    'open': 31.175,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 251.0,
+    'vwap': 31.175}}
+2025-08-12 12:13:39 INFO: Most recent stock data: {'REZI': {   'close': 31.15,
+    'high': 31.185,
+    'low': 31.15,
+    'open': 31.185,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1434.0,
+    'vwap': 31.180833}}
+2025-08-12 12:18:41 INFO: Most recent stock data: {'REZI': {   'close': 31.16,
+    'high': 31.16,
+    'low': 31.16,
+    'open': 31.16,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 182.0,
+    'vwap': 31.16}}
+2025-08-12 12:19:41 INFO: Most recent stock data: {'REZI': {   'close': 31.17,
+    'high': 31.17,
+    'low': 31.17,
+    'open': 31.17,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 118.0,
+    'vwap': 31.17}}
+2025-08-12 12:21:42 INFO: Most recent stock data: {'REZI': {   'close': 31.225,
+    'high': 31.225,
+    'low': 31.225,
+    'open': 31.225,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 504.0,
+    'vwap': 31.225}}
+2025-08-12 12:23:43 INFO: Most recent stock data: {'REZI': {   'close': 31.28,
+    'high': 31.28,
+    'low': 31.24,
+    'open': 31.24,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 304.0,
+    'vwap': 31.26}}
+2025-08-12 12:24:43 INFO: Most recent stock data: {'REZI': {   'close': 31.3,
+    'high': 31.3,
+    'low': 31.29,
+    'open': 31.29,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 516.0,
+    'vwap': 31.296923}}
+2025-08-12 12:26:44 INFO: Most recent stock data: {'REZI': {   'close': 31.31,
+    'high': 31.33,
+    'low': 31.31,
+    'open': 31.33,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 604.0,
+    'vwap': 31.323333}}
+2025-08-12 12:26:44 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 12:26:44 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-12 12:28:45 INFO: {'REZI': {   'close': 31.28,
+    'high': 31.28,
+    'low': 31.275,
+    'open': 31.275,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 442.0,
+    'vwap': 31.276738}}
+2025-08-12 12:28:45 INFO: Current resistance is: 31.33 and support is: 31.15
+2025-08-12 12:28:45 INFO: Current average volume is: 457.3
+2025-08-12 12:28:45 INFO: Updated resistance to: 31.33 and support to: 31.15
+2025-08-12 12:31:46 INFO: {'REZI': {   'close': 31.245,
+    'high': 31.245,
+    'low': 31.245,
+    'open': 31.245,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 31.245}}
+2025-08-12 12:31:46 INFO: Current resistance is: 31.33 and support is: 31.15
+2025-08-12 12:31:46 INFO: Current average volume is: 455.5
+2025-08-12 12:31:46 INFO: Updated resistance to: 31.33 and support to: 31.15
+2025-08-12 12:32:46 INFO: {'REZI': {   'close': 31.32,
+    'high': 31.32,
+    'low': 31.28,
+    'open': 31.28,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 243.0,
+    'vwap': 31.3}}
+2025-08-12 12:32:46 INFO: Current resistance is: 31.33 and support is: 31.15
+2025-08-12 12:32:46 INFO: Current average volume is: 454.7
+2025-08-12 12:32:46 INFO: Updated resistance to: 31.33 and support to: 31.15
+2025-08-12 12:33:46 INFO: {'REZI': {   'close': 31.35,
+    'high': 31.35,
+    'low': 31.35,
+    'open': 31.35,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.35}}
+2025-08-12 12:33:46 INFO: Current resistance is: 31.33 and support is: 31.15
+2025-08-12 12:33:46 INFO: Current average volume is: 321.3
+2025-08-12 12:33:46 INFO: The Current Close 31.35 is above the resistance...
+2025-08-12 12:33:46 INFO: Updated resistance to: 31.35 and support to: 31.15
+2025-08-12 12:39:21 INFO: {'REZI': {   'close': 31.32,
+    'high': 31.32,
+    'low': 31.32,
+    'open': 31.32,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.32}}
+2025-08-12 12:39:21 INFO: Current resistance is: 31.35 and support is: 31.15
+2025-08-12 12:39:21 INFO: Current average volume is: 313.1
+2025-08-12 12:39:21 INFO: Updated resistance to: 31.35 and support to: 31.15
+2025-08-12 12:40:21 INFO: {'REZI': {   'close': 31.31,
+    'high': 31.31,
+    'low': 31.31,
+    'open': 31.31,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 118.0,
+    'vwap': 31.31}}
+2025-08-12 12:40:21 INFO: Current resistance is: 31.35 and support is: 31.15
+2025-08-12 12:40:21 INFO: Current average volume is: 313.1
+2025-08-12 12:40:21 INFO: Updated resistance to: 31.35 and support to: 31.15
+2025-08-12 12:41:21 INFO: {'REZI': {   'close': 31.335,
+    'high': 31.335,
+    'low': 31.33,
+    'open': 31.33,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 596.0,
+    'vwap': 31.3325}}
+2025-08-12 12:41:21 INFO: Current resistance is: 31.35 and support is: 31.15
+2025-08-12 12:41:21 INFO: Current average volume is: 322.3
+2025-08-12 12:41:21 INFO: Updated resistance to: 31.35 and support to: 31.15
+2025-08-12 12:45:23 INFO: {'REZI': {   'close': 31.38,
+    'high': 31.38,
+    'low': 31.37,
+    'open': 31.38,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 492.0,
+    'vwap': 31.3775}}
+2025-08-12 12:45:23 INFO: Current resistance is: 31.35 and support is: 31.15
+2025-08-12 12:45:23 INFO: Current average volume is: 341.1
+2025-08-12 12:45:23 INFO: The Current Close 31.38 is above the resistance...
+2025-08-12 12:45:23 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 12:46:23 INFO: {'REZI': {   'close': 31.35,
+    'high': 31.35,
+    'low': 31.35,
+    'open': 31.35,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 691.0,
+    'vwap': 31.35}}
+2025-08-12 12:46:23 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 12:46:23 INFO: Current average volume is: 358.6
+2025-08-12 12:46:23 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 12:48:24 INFO: {'REZI': {   'close': 31.34,
+    'high': 31.34,
+    'low': 31.34,
+    'open': 31.34,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 131.0,
+    'vwap': 31.34}}
+2025-08-12 12:48:24 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 12:48:24 INFO: Current average volume is: 311.3
+2025-08-12 12:48:24 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 12:49:25 INFO: {'REZI': {   'close': 31.35,
+    'high': 31.35,
+    'low': 31.35,
+    'open': 31.35,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 115.0,
+    'vwap': 31.35}}
+2025-08-12 12:49:25 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 12:49:25 INFO: Current average volume is: 278.6
+2025-08-12 12:49:25 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 12:53:26 INFO: {'REZI': {   'close': 31.3,
+    'high': 31.3,
+    'low': 31.3,
+    'open': 31.3,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 205.0,
+    'vwap': 31.3}}
+2025-08-12 12:53:26 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 12:53:26 INFO: Current average volume is: 279.1
+2025-08-12 12:53:26 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 12:54:27 INFO: {'REZI': {   'close': 31.31,
+    'high': 31.31,
+    'low': 31.31,
+    'open': 31.31,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 31.31}}
+2025-08-12 12:54:27 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 12:54:27 INFO: Current average volume is: 274.8
+2025-08-12 12:54:27 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 12:56:27 INFO: {'REZI': {   'close': 31.315,
+    'high': 31.315,
+    'low': 31.315,
+    'open': 31.315,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 155.0,
+    'vwap': 31.315}}
+2025-08-12 12:56:27 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 12:56:27 INFO: Current average volume is: 280.3
+2025-08-12 12:56:27 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 12:57:28 INFO: {'REZI': {   'close': 31.26,
+    'high': 31.295,
+    'low': 31.26,
+    'open': 31.295,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 568.0,
+    'vwap': 31.283333}}
+2025-08-12 12:57:28 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 12:57:28 INFO: Current average volume is: 327.1
+2025-08-12 12:57:28 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 12:58:28 INFO: {'REZI': {   'close': 31.24,
+    'high': 31.24,
+    'low': 31.23,
+    'open': 31.23,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 275.0,
+    'vwap': 31.235}}
+2025-08-12 12:58:28 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 12:58:28 INFO: Current average volume is: 342.8
+2025-08-12 12:58:28 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:02:30 INFO: {'REZI': {   'close': 31.205,
+    'high': 31.205,
+    'low': 31.205,
+    'open': 31.205,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 160.0,
+    'vwap': 31.205}}
+2025-08-12 13:02:30 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:02:30 INFO: Current average volume is: 299.2
+2025-08-12 13:02:30 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:03:30 INFO: {'REZI': {   'close': 31.255,
+    'high': 31.255,
+    'low': 31.24,
+    'open': 31.24,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 757.0,
+    'vwap': 31.252}}
+2025-08-12 13:03:30 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:03:30 INFO: Current average volume is: 325.7
+2025-08-12 13:03:30 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:06:32 INFO: {'REZI': {   'close': 31.29,
+    'high': 31.29,
+    'low': 31.29,
+    'open': 31.29,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 162.0,
+    'vwap': 31.29}}
+2025-08-12 13:06:32 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:06:32 INFO: Current average volume is: 272.8
+2025-08-12 13:06:32 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:12:34 INFO: {'REZI': {   'close': 31.27,
+    'high': 31.27,
+    'low': 31.27,
+    'open': 31.27,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 293.0,
+    'vwap': 31.27}}
+2025-08-12 13:12:34 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:12:34 INFO: Current average volume is: 289.0
+2025-08-12 13:12:34 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:13:34 INFO: {'REZI': {   'close': 31.315,
+    'high': 31.325,
+    'low': 31.31,
+    'open': 31.325,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 581.0,
+    'vwap': 31.31875}}
+2025-08-12 13:13:34 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:13:34 INFO: Current average volume is: 335.6
+2025-08-12 13:13:34 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:15:35 INFO: {'REZI': {   'close': 31.32,
+    'high': 31.32,
+    'low': 31.32,
+    'open': 31.32,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 332.0,
+    'vwap': 31.32}}
+2025-08-12 13:15:35 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:15:35 INFO: Current average volume is: 348.3
+2025-08-12 13:15:35 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:16:35 INFO: {'REZI': {   'close': 31.29,
+    'high': 31.29,
+    'low': 31.29,
+    'open': 31.29,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 132.0,
+    'vwap': 31.29}}
+2025-08-12 13:16:35 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:16:35 INFO: Current average volume is: 341.5
+2025-08-12 13:16:35 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:21:37 INFO: {'REZI': {   'close': 31.24,
+    'high': 31.24,
+    'low': 31.24,
+    'open': 31.24,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 205.0,
+    'vwap': 31.24}}
+2025-08-12 13:21:37 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:21:37 INFO: Current average volume is: 346.5
+2025-08-12 13:21:37 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:22:38 INFO: {'REZI': {   'close': 31.255,
+    'high': 31.27,
+    'low': 31.255,
+    'open': 31.27,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 777.0,
+    'vwap': 31.260576}}
+2025-08-12 13:22:38 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:22:38 INFO: Current average volume is: 367.4
+2025-08-12 13:22:38 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:23:38 INFO: {'REZI': {   'close': 31.21,
+    'high': 31.21,
+    'low': 31.21,
+    'open': 31.21,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 303.0,
+    'vwap': 31.21}}
+2025-08-12 13:23:38 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:23:38 INFO: Current average volume is: 370.2
+2025-08-12 13:23:38 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:24:38 INFO: {'REZI': {   'close': 31.2,
+    'high': 31.2,
+    'low': 31.2,
+    'open': 31.2,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 208.0,
+    'vwap': 31.2}}
+2025-08-12 13:24:38 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:24:38 INFO: Current average volume is: 375.0
+2025-08-12 13:24:38 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:25:39 INFO: {'REZI': {   'close': 31.19,
+    'high': 31.19,
+    'low': 31.19,
+    'open': 31.19,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 361.0,
+    'vwap': 31.19}}
+2025-08-12 13:25:39 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:25:39 INFO: Current average volume is: 335.4
+2025-08-12 13:25:39 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:26:39 INFO: {'REZI': {   'close': 31.22,
+    'high': 31.22,
+    'low': 31.22,
+    'open': 31.22,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 128.0,
+    'vwap': 31.22}}
+2025-08-12 13:26:39 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:26:39 INFO: Current average volume is: 332.0
+2025-08-12 13:26:39 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:27:39 INFO: {'REZI': {   'close': 31.17,
+    'high': 31.19,
+    'low': 31.16,
+    'open': 31.19,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 428.0,
+    'vwap': 31.172336}}
+2025-08-12 13:27:39 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:27:39 INFO: Current average volume is: 345.5
+2025-08-12 13:27:39 INFO: Updated resistance to: 31.38 and support to: 31.15
+2025-08-12 13:29:40 INFO: {'REZI': {   'close': 31.05,
+    'high': 31.14,
+    'low': 31.05,
+    'open': 31.12,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1738.0,
+    'vwap': 31.10854}}
+2025-08-12 13:29:40 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:29:40 INFO: Current average volume is: 461.2
+2025-08-12 13:29:40 INFO: close price: 31.05 just dropped below support of 31.15...
+2025-08-12 13:31:41 INFO: {'REZI': {   'close': 31.03,
+    'high': 31.05,
+    'low': 31.03,
+    'open': 31.04,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 850.0,
+    'vwap': 31.034286}}
+2025-08-12 13:31:41 INFO: Current resistance is: 31.38 and support is: 31.15
+2025-08-12 13:31:41 INFO: Current average volume is: 513.0
+2025-08-12 13:31:41 INFO: Closing price: 31.03 just dropped below support 31.15 again...ending trade...
+2025-08-12 13:50:48 INFO: === Strategy started ===
+2025-08-12 13:50:48 INFO: Start collecting the current highs/lows for: REZI
+2025-08-12 13:50:48 INFO: Most recent stock data: {'REZI': {   'close': 31.33,
+    'high': 31.33,
+    'low': 31.32,
+    'open': 31.32,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 218.0,
+    'vwap': 31.325}}
+2025-08-12 13:54:50 INFO: Most recent stock data: {'REZI': {   'close': 31.315,
+    'high': 31.315,
+    'low': 31.305,
+    'open': 31.305,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 605.0,
+    'vwap': 31.306667}}
+2025-08-12 13:55:51 INFO: Most recent stock data: {'REZI': {   'close': 31.33,
+    'high': 31.33,
+    'low': 31.33,
+    'open': 31.33,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 449.0,
+    'vwap': 31.33}}
+2025-08-12 14:02:54 INFO: Most recent stock data: {'REZI': {   'close': 31.365,
+    'high': 31.365,
+    'low': 31.365,
+    'open': 31.365,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 411.0,
+    'vwap': 31.365}}
+2025-08-12 14:03:54 INFO: Most recent stock data: {'REZI': {   'close': 31.38,
+    'high': 31.38,
+    'low': 31.35,
+    'open': 31.35,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1054.0,
+    'vwap': 31.3725}}
+2025-08-12 14:04:54 INFO: Most recent stock data: {'REZI': {   'close': 31.39,
+    'high': 31.39,
+    'low': 31.39,
+    'open': 31.39,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 600.0,
+    'vwap': 31.39}}
+2025-08-12 14:07:56 INFO: Most recent stock data: {'REZI': {   'close': 31.42,
+    'high': 31.42,
+    'low': 31.42,
+    'open': 31.42,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 556.0,
+    'vwap': 31.42}}
+2025-08-12 14:08:56 INFO: Most recent stock data: {'REZI': {   'close': 31.43,
+    'high': 31.43,
+    'low': 31.41,
+    'open': 31.41,
+    'symbol': 'REZI',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 556.0,
+    'vwap': 31.42}}

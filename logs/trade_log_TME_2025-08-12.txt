@@ -1,0 +1,445 @@
+2025-08-12 09:50:14 INFO: === Strategy started ===
+2025-08-12 09:50:14 INFO: Start collecting the current highs/lows for: TME
+2025-08-12 09:50:15 INFO: Most recent stock data: {'TME': {   'close': 24.93,
+    'high': 25.03,
+    'low': 24.93,
+    'open': 25.03,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1477.0,
+    'vwap': 24.978636}}
+2025-08-12 09:51:15 INFO: Most recent stock data: {'TME': {   'close': 25.02,
+    'high': 25.02,
+    'low': 24.945,
+    'open': 24.945,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 900.0,
+    'vwap': 24.96}}
+2025-08-12 09:52:16 INFO: Most recent stock data: {'TME': {   'close': 24.915,
+    'high': 24.95,
+    'low': 24.88,
+    'open': 24.95,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3210.0,
+    'vwap': 24.902}}
+2025-08-12 09:53:17 INFO: Most recent stock data: {'TME': {   'close': 24.9,
+    'high': 24.92,
+    'low': 24.85,
+    'open': 24.92,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3431.0,
+    'vwap': 24.886129}}
+2025-08-12 09:54:21 INFO: Most recent stock data: {'TME': {   'close': 24.94,
+    'high': 24.96,
+    'low': 24.865,
+    'open': 24.89,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3190.0,
+    'vwap': 24.895833}}
+2025-08-12 09:55:21 INFO: Most recent stock data: {'TME': {   'close': 24.905,
+    'high': 24.99,
+    'low': 24.905,
+    'open': 24.96,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 5110.0,
+    'vwap': 24.951368}}
+2025-08-12 09:56:22 INFO: Most recent stock data: {'TME': {   'close': 24.935,
+    'high': 24.935,
+    'low': 24.84,
+    'open': 24.865,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 7025.0,
+    'vwap': 24.904295}}
+2025-08-12 09:57:22 INFO: Most recent stock data: {'TME': {   'close': 24.91,
+    'high': 24.97,
+    'low': 24.9,
+    'open': 24.97,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 5396.0,
+    'vwap': 24.927097}}
+2025-08-12 09:58:22 INFO: Most recent stock data: {'TME': {   'close': 24.88,
+    'high': 24.9,
+    'low': 24.88,
+    'open': 24.88,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2864.0,
+    'vwap': 24.892044}}
+2025-08-12 09:59:22 INFO: Most recent stock data: {'TME': {   'close': 24.825,
+    'high': 24.895,
+    'low': 24.82,
+    'open': 24.895,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1571.0,
+    'vwap': 24.829231}}
+2025-08-12 10:00:23 INFO: Most recent stock data: {'TME': {   'close': 24.85,
+    'high': 24.85,
+    'low': 24.825,
+    'open': 24.825,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 845.0,
+    'vwap': 24.832528}}
+2025-08-12 10:00:23 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 10:00:23 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-12 10:01:24 INFO: {'TME': {   'close': 24.86,
+    'high': 24.915,
+    'low': 24.83,
+    'open': 24.85,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 5285.0,
+    'vwap': 24.878281}}
+2025-08-12 10:01:24 INFO: Current resistance is: 25.03 and support is: 24.82
+2025-08-12 10:01:24 INFO: Current average volume is: 3792.7
+2025-08-12 10:01:24 INFO: Updated resistance to: 25.03 and support to: 24.82
+2025-08-12 10:02:24 INFO: {'TME': {   'close': 24.85,
+    'high': 24.885,
+    'low': 24.84,
+    'open': 24.885,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 806.0,
+    'vwap': 24.860333}}
+2025-08-12 10:02:24 INFO: Current resistance is: 25.03 and support is: 24.82
+2025-08-12 10:02:24 INFO: Current average volume is: 3552.3
+2025-08-12 10:02:24 INFO: Updated resistance to: 25.03 and support to: 24.82
+2025-08-12 10:03:25 INFO: {'TME': {   'close': 24.88,
+    'high': 24.9,
+    'low': 24.86,
+    'open': 24.86,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 613.0,
+    'vwap': 24.873667}}
+2025-08-12 10:03:25 INFO: Current resistance is: 25.03 and support is: 24.82
+2025-08-12 10:03:25 INFO: Current average volume is: 3270.5
+2025-08-12 10:03:25 INFO: Updated resistance to: 25.03 and support to: 24.82
+2025-08-12 10:04:26 INFO: {'TME': {   'close': 24.87,
+    'high': 24.87,
+    'low': 24.85,
+    'open': 24.85,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 424.0,
+    'vwap': 24.8625}}
+2025-08-12 10:04:26 INFO: Current resistance is: 25.03 and support is: 24.82
+2025-08-12 10:04:26 INFO: Current average volume is: 2993.9
+2025-08-12 10:04:26 INFO: Updated resistance to: 25.03 and support to: 24.82
+2025-08-12 10:05:27 INFO: {'TME': {   'close': 24.9,
+    'high': 24.9,
+    'low': 24.84,
+    'open': 24.845,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 478.0,
+    'vwap': 24.86125}}
+2025-08-12 10:05:27 INFO: Current resistance is: 25.03 and support is: 24.82
+2025-08-12 10:05:27 INFO: Current average volume is: 2530.7
+2025-08-12 10:05:27 INFO: Updated resistance to: 25.03 and support to: 24.82
+2025-08-12 10:06:27 INFO: {'TME': {   'close': 24.915,
+    'high': 24.925,
+    'low': 24.87,
+    'open': 24.92,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 3182.0,
+    'vwap': 24.911018}}
+2025-08-12 10:06:27 INFO: Current resistance is: 25.03 and support is: 24.82
+2025-08-12 10:06:27 INFO: Current average volume is: 2146.4
+2025-08-12 10:06:27 INFO: Updated resistance to: 25.03 and support to: 24.82
+2025-08-12 10:07:28 INFO: {'TME': {   'close': 24.66,
+    'high': 24.835,
+    'low': 24.66,
+    'open': 24.835,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1490.0,
+    'vwap': 24.770714}}
+2025-08-12 10:07:28 INFO: Current resistance is: 25.03 and support is: 24.82
+2025-08-12 10:07:28 INFO: Current average volume is: 1755.8
+2025-08-12 10:07:28 INFO: close price: 24.66 just dropped below support of 24.82...
+2025-08-12 10:08:28 INFO: {'TME': {   'close': 24.705,
+    'high': 24.705,
+    'low': 24.67,
+    'open': 24.67,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 3210.0,
+    'vwap': 24.689833}}
+2025-08-12 10:08:28 INFO: Current resistance is: 25.03 and support is: 24.82
+2025-08-12 10:08:28 INFO: Current average volume is: 1790.4
+2025-08-12 10:08:28 INFO: Closing price: 24.705 just dropped below support 24.82 again...ending trade...
+2025-08-12 12:20:37 INFO: === Strategy started ===
+2025-08-12 12:20:37 INFO: Start collecting the current highs/lows for: TME
+2025-08-12 12:20:37 INFO: Most recent stock data: {'TME': {   'close': 25.39,
+    'high': 25.4,
+    'low': 25.39,
+    'open': 25.4,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 465.0,
+    'vwap': 25.395}}
+2025-08-12 12:21:38 INFO: Most recent stock data: {'TME': {   'close': 25.39,
+    'high': 25.39,
+    'low': 25.38,
+    'open': 25.38,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 733.0,
+    'vwap': 25.383407}}
+2025-08-12 12:22:38 INFO: Most recent stock data: {'TME': {   'close': 25.36,
+    'high': 25.375,
+    'low': 25.36,
+    'open': 25.375,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 833.0,
+    'vwap': 25.366667}}
+2025-08-12 12:24:39 INFO: Most recent stock data: {'TME': {   'close': 25.39,
+    'high': 25.39,
+    'low': 25.39,
+    'open': 25.39,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 297.0,
+    'vwap': 25.39}}
+2025-08-12 12:25:39 INFO: Most recent stock data: {'TME': {   'close': 25.415,
+    'high': 25.415,
+    'low': 25.415,
+    'open': 25.415,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 106.0,
+    'vwap': 25.415}}
+2025-08-12 12:27:40 INFO: Most recent stock data: {'TME': {   'close': 25.4,
+    'high': 25.4,
+    'low': 25.4,
+    'open': 25.4,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 25.4}}
+2025-08-12 12:28:40 INFO: Most recent stock data: {'TME': {   'close': 25.415,
+    'high': 25.415,
+    'low': 25.415,
+    'open': 25.415,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 400.0,
+    'vwap': 25.415}}
+2025-08-12 12:29:40 INFO: Most recent stock data: {'TME': {   'close': 25.42,
+    'high': 25.42,
+    'low': 25.42,
+    'open': 25.42,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 25.42}}
+2025-08-12 12:30:41 INFO: Most recent stock data: {'TME': {   'close': 25.425,
+    'high': 25.425,
+    'low': 25.415,
+    'open': 25.415,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 568.0,
+    'vwap': 25.422653}}
+2025-08-12 12:31:41 INFO: Most recent stock data: {'TME': {   'close': 25.39,
+    'high': 25.39,
+    'low': 25.39,
+    'open': 25.39,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 25.39}}
+2025-08-12 12:35:43 INFO: Most recent stock data: {'TME': {   'close': 25.36,
+    'high': 25.36,
+    'low': 25.36,
+    'open': 25.36,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 295.0,
+    'vwap': 25.36}}
+2025-08-12 12:35:43 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 12:35:43 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-12 12:37:45 INFO: {'TME': {   'close': 25.39,
+    'high': 25.39,
+    'low': 25.39,
+    'open': 25.39,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 25.39}}
+2025-08-12 12:37:45 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:37:45 INFO: Current average volume is: 320.1
+2025-08-12 12:37:45 INFO: Updated resistance to: 25.425 and support to: 25.36
+2025-08-12 12:38:45 INFO: {'TME': {   'close': 25.385,
+    'high': 25.4,
+    'low': 25.38,
+    'open': 25.4,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 25.3875}}
+2025-08-12 12:38:45 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:38:45 INFO: Current average volume is: 286.8
+2025-08-12 12:38:45 INFO: Updated resistance to: 25.425 and support to: 25.36
+2025-08-12 12:42:47 INFO: {'TME': {   'close': 25.39,
+    'high': 25.39,
+    'low': 25.385,
+    'open': 25.39,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 490.0,
+    'vwap': 25.388333}}
+2025-08-12 12:42:47 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:42:47 INFO: Current average volume is: 306.1
+2025-08-12 12:42:47 INFO: Updated resistance to: 25.425 and support to: 25.36
+2025-08-12 12:43:48 INFO: {'TME': {   'close': 25.405,
+    'high': 25.405,
+    'low': 25.405,
+    'open': 25.405,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 161.0,
+    'vwap': 25.405}}
+2025-08-12 12:43:48 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:43:48 INFO: Current average volume is: 311.6
+2025-08-12 12:43:48 INFO: Updated resistance to: 25.425 and support to: 25.36
+2025-08-12 12:44:48 INFO: {'TME': {   'close': 25.39,
+    'high': 25.39,
+    'low': 25.39,
+    'open': 25.39,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 25.39}}
+2025-08-12 12:44:48 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:44:48 INFO: Current average volume is: 301.4
+2025-08-12 12:44:48 INFO: Updated resistance to: 25.425 and support to: 25.36
+2025-08-12 12:47:49 INFO: {'TME': {   'close': 25.4,
+    'high': 25.4,
+    'low': 25.4,
+    'open': 25.4,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 25.4}}
+2025-08-12 12:47:49 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:47:49 INFO: Current average volume is: 271.9
+2025-08-12 12:47:49 INFO: Updated resistance to: 25.425 and support to: 25.36
+2025-08-12 12:51:51 INFO: {'TME': {   'close': 25.355,
+    'high': 25.355,
+    'low': 25.355,
+    'open': 25.355,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 126.0,
+    'vwap': 25.355}}
+2025-08-12 12:51:51 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:51:51 INFO: Current average volume is: 274.5
+2025-08-12 12:51:51 INFO: close price: 25.355 just dropped below support of 25.36...
+2025-08-12 12:52:51 INFO: {'TME': {   'close': 25.36,
+    'high': 25.36,
+    'low': 25.36,
+    'open': 25.36,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 403.0,
+    'vwap': 25.36}}
+2025-08-12 12:52:51 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:52:51 INFO: Current average volume is: 258.0
+2025-08-12 12:53:52 INFO: {'TME': {   'close': 25.39,
+    'high': 25.39,
+    'low': 25.375,
+    'open': 25.375,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1061.0,
+    'vwap': 25.380655}}
+2025-08-12 12:53:52 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:53:52 INFO: Current average volume is: 334.1
+2025-08-12 12:53:52 INFO: Updated resistance to: 25.425 and support to: 25.36
+2025-08-12 12:57:53 INFO: {'TME': {   'close': 25.38,
+    'high': 25.38,
+    'low': 25.38,
+    'open': 25.38,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 25.38}}
+2025-08-12 12:57:53 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:57:53 INFO: Current average volume is: 314.6
+2025-08-12 12:57:53 INFO: Updated resistance to: 25.425 and support to: 25.36
+2025-08-12 12:59:55 INFO: {'TME': {   'close': 25.31,
+    'high': 25.33,
+    'low': 25.31,
+    'open': 25.33,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 246.0,
+    'vwap': 25.32}}
+2025-08-12 12:59:55 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 12:59:55 INFO: Current average volume is: 329.2
+2025-08-12 12:59:55 INFO: close price: 25.31 just dropped below support of 25.36...
+2025-08-12 13:00:55 INFO: {'TME': {   'close': 25.34,
+    'high': 25.34,
+    'low': 25.34,
+    'open': 25.34,
+    'symbol': 'TME',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 458.0,
+    'vwap': 25.34}}
+2025-08-12 13:00:55 INFO: Current resistance is: 25.425 and support is: 25.36
+2025-08-12 13:00:55 INFO: Current average volume is: 325.0
+2025-08-12 13:00:55 INFO: Closing price: 25.34 just dropped below support 25.36 again...ending trade...

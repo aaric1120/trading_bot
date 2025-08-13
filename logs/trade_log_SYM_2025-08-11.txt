@@ -1,0 +1,445 @@
+2025-08-11 09:50:16 INFO: === Strategy started ===
+2025-08-11 09:50:16 INFO: Start collecting the current highs/lows for: SYM
+2025-08-11 09:50:17 INFO: Most recent stock data: {'SYM': {   'close': 54.1,
+    'high': 54.1,
+    'low': 54.1,
+    'open': 54.1,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 330.0,
+    'vwap': 54.1}}
+2025-08-11 09:56:19 INFO: Most recent stock data: {'SYM': {   'close': 53.245,
+    'high': 53.245,
+    'low': 53.245,
+    'open': 53.245,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 134.0,
+    'vwap': 53.245}}
+2025-08-11 09:58:20 INFO: Most recent stock data: {'SYM': {   'close': 53.635,
+    'high': 53.635,
+    'low': 53.635,
+    'open': 53.635,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 182.0,
+    'vwap': 53.635}}
+2025-08-11 10:01:22 INFO: Most recent stock data: {'SYM': {   'close': 53.54,
+    'high': 53.54,
+    'low': 53.54,
+    'open': 53.54,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 225.0,
+    'vwap': 53.54}}
+2025-08-11 10:05:23 INFO: Most recent stock data: {'SYM': {   'close': 53.03,
+    'high': 53.03,
+    'low': 53.03,
+    'open': 53.03,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 173.0,
+    'vwap': 53.03}}
+2025-08-11 10:08:24 INFO: Most recent stock data: {'SYM': {   'close': 53.0,
+    'high': 53.0,
+    'low': 53.0,
+    'open': 53.0,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 53.0}}
+2025-08-11 10:10:25 INFO: Most recent stock data: {'SYM': {   'close': 53.065,
+    'high': 53.065,
+    'low': 53.065,
+    'open': 53.065,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 53.065}}
+2025-08-11 10:11:25 INFO: Most recent stock data: {'SYM': {   'close': 53.285,
+    'high': 53.285,
+    'low': 53.285,
+    'open': 53.285,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 207.0,
+    'vwap': 53.285}}
+2025-08-11 10:12:26 INFO: Most recent stock data: {'SYM': {   'close': 53.29,
+    'high': 53.29,
+    'low': 53.29,
+    'open': 53.29,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 152.0,
+    'vwap': 53.29}}
+2025-08-11 10:14:26 INFO: Most recent stock data: {'SYM': {   'close': 53.05,
+    'high': 53.05,
+    'low': 53.05,
+    'open': 53.05,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 104.0,
+    'vwap': 53.05}}
+2025-08-11 10:17:27 INFO: Most recent stock data: {'SYM': {   'close': 52.62,
+    'high': 52.62,
+    'low': 52.62,
+    'open': 52.62,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 155.0,
+    'vwap': 52.62}}
+2025-08-11 10:17:27 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 10:17:27 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-11 10:18:28 INFO: {'SYM': {   'close': 52.48,
+    'high': 52.48,
+    'low': 52.35,
+    'open': 52.35,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 546.0,
+    'vwap': 52.436667}}
+2025-08-11 10:18:28 INFO: Current resistance is: 53.131 and support is: 52.532
+2025-08-11 10:18:28 INFO: Current average volume is: 194.4
+2025-08-11 10:18:28 INFO: close price: 52.48 just dropped below support of 52.532...
+2025-08-11 10:19:28 INFO: {'SYM': {   'close': 52.6,
+    'high': 52.6,
+    'low': 52.6,
+    'open': 52.6,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 52.6}}
+2025-08-11 10:19:28 INFO: Current resistance is: 53.131 and support is: 52.532
+2025-08-11 10:19:28 INFO: Current average volume is: 191.2
+2025-08-11 10:19:28 INFO: Updated resistance to: 52.846 and support to: 52.15
+2025-08-11 10:22:30 INFO: {'SYM': {   'close': 52.49,
+    'high': 52.49,
+    'low': 52.49,
+    'open': 52.49,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 550.0,
+    'vwap': 52.49}}
+2025-08-11 10:22:30 INFO: Current resistance is: 52.846 and support is: 52.15
+2025-08-11 10:22:30 INFO: Current average volume is: 223.7
+2025-08-11 10:22:30 INFO: Updated resistance to: 52.756 and support to: 52.054
+2025-08-11 10:27:32 INFO: {'SYM': {   'close': 52.22,
+    'high': 52.22,
+    'low': 52.22,
+    'open': 52.22,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 140.0,
+    'vwap': 52.22}}
+2025-08-11 10:27:32 INFO: Current resistance is: 52.756 and support is: 52.054
+2025-08-11 10:27:32 INFO: Current average volume is: 220.4
+2025-08-11 10:27:32 INFO: Updated resistance to: 52.599 and support to: 52.118
+2025-08-11 10:36:34 INFO: {'SYM': {   'close': 52.15,
+    'high': 52.15,
+    'low': 52.15,
+    'open': 52.15,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 108.0,
+    'vwap': 52.15}}
+2025-08-11 10:36:34 INFO: Current resistance is: 52.599 and support is: 52.118
+2025-08-11 10:36:34 INFO: Current average volume is: 221.2
+2025-08-11 10:36:34 INFO: Updated resistance to: 52.467 and support to: 52.047
+2025-08-11 10:37:35 INFO: {'SYM': {   'close': 52.49,
+    'high': 52.49,
+    'low': 52.49,
+    'open': 52.49,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 180.0,
+    'vwap': 52.49}}
+2025-08-11 10:37:35 INFO: Current resistance is: 52.467 and support is: 52.047
+2025-08-11 10:37:35 INFO: Current average volume is: 229.2
+2025-08-11 10:37:35 INFO: The Current Close 52.49 is above the resistance...
+2025-08-11 10:37:35 INFO: Updated resistance to: 52.488 and support to: 51.958
+2025-08-11 10:43:08 INFO: {'SYM': {   'close': 52.74,
+    'high': 52.74,
+    'low': 52.74,
+    'open': 52.74,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 348.0,
+    'vwap': 52.74}}
+2025-08-11 10:43:08 INFO: Current resistance is: 52.488 and support is: 51.958
+2025-08-11 10:43:08 INFO: Current average volume is: 243.3
+2025-08-11 10:43:08 INFO: The current close: 52.74 is above the resistance of 52.488, but volume isn't enough...
+2025-08-11 10:43:08 INFO: Updated resistance to: 52.594 and support to: 51.897
+2025-08-11 10:49:12 INFO: {'SYM': {   'close': 52.73,
+    'high': 52.73,
+    'low': 52.73,
+    'open': 52.73,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 52.73}}
+2025-08-11 10:49:12 INFO: Current resistance is: 52.594 and support is: 51.897
+2025-08-11 10:49:12 INFO: Current average volume is: 248.1
+2025-08-11 10:49:12 INFO: The current close: 52.73 is above the resistance of 52.594, but volume isn't enough...
+2025-08-11 10:49:12 INFO: Updated resistance to: 52.684 and support to: 51.85
+2025-08-11 10:51:13 INFO: {'SYM': {   'close': 52.905,
+    'high': 52.905,
+    'low': 52.89,
+    'open': 52.89,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 413.0,
+    'vwap': 52.898023}}
+2025-08-11 10:51:13 INFO: Current resistance is: 52.684 and support is: 51.85
+2025-08-11 10:51:13 INFO: Current average volume is: 279.0
+2025-08-11 10:51:13 INFO: The current close: 52.905 is above the resistance of 52.684, but volume isn't enough...
+2025-08-11 10:51:13 INFO: Updated resistance to: 52.814 and support to: 51.826
+2025-08-11 10:54:14 INFO: {'SYM': {   'close': 52.95,
+    'high': 52.95,
+    'low': 52.95,
+    'open': 52.95,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 52.95}}
+2025-08-11 10:54:14 INFO: Current resistance is: 52.814 and support is: 51.826
+2025-08-11 10:54:14 INFO: Current average volume is: 273.5
+2025-08-11 10:54:14 INFO: The current close: 52.95 is above the resistance of 52.814, but volume isn't enough...
+2025-08-11 10:54:14 INFO: Updated resistance to: 52.938 and support to: 51.816
+2025-08-11 10:55:15 INFO: {'SYM': {   'close': 53.01,
+    'high': 53.01,
+    'low': 53.01,
+    'open': 53.01,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 53.01}}
+2025-08-11 10:55:15 INFO: Current resistance is: 52.938 and support is: 51.816
+2025-08-11 10:55:15 INFO: Current average volume is: 228.9
+2025-08-11 10:55:15 INFO: The current close: 53.01 is above the resistance of 52.938, but volume isn't enough...
+2025-08-11 10:55:15 INFO: Updated resistance to: 53.061 and support to: 51.818
+2025-08-11 11:00:18 INFO: {'SYM': {   'close': 52.865,
+    'high': 52.865,
+    'low': 52.865,
+    'open': 52.865,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 312.0,
+    'vwap': 52.865}}
+2025-08-11 11:00:18 INFO: Current resistance is: 53.061 and support is: 51.818
+2025-08-11 11:00:18 INFO: Current average volume is: 245.1
+2025-08-11 11:00:18 INFO: Updated resistance to: 53.132 and support to: 51.812
+2025-08-11 11:02:18 INFO: {'SYM': {   'close': 52.71,
+    'high': 52.73,
+    'low': 52.71,
+    'open': 52.73,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 278.0,
+    'vwap': 52.72}}
+2025-08-11 11:02:18 INFO: Current resistance is: 53.132 and support is: 51.812
+2025-08-11 11:02:18 INFO: Current average volume is: 217.9
+2025-08-11 11:02:18 INFO: Updated resistance to: 53.162 and support to: 51.796
+2025-08-11 11:06:19 INFO: {'SYM': {   'close': 52.64,
+    'high': 52.64,
+    'low': 52.64,
+    'open': 52.64,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 130.0,
+    'vwap': 52.64}}
+2025-08-11 11:06:19 INFO: Current resistance is: 53.162 and support is: 51.796
+2025-08-11 11:06:19 INFO: Current average volume is: 216.9
+2025-08-11 11:06:19 INFO: Updated resistance to: 53.17 and support to: 51.776
+2025-08-11 11:11:23 INFO: {'SYM': {   'close': 52.47,
+    'high': 52.47,
+    'low': 52.47,
+    'open': 52.47,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 228.0,
+    'vwap': 52.47}}
+2025-08-11 11:11:23 INFO: Current resistance is: 53.17 and support is: 51.776
+2025-08-11 11:11:23 INFO: Current average volume is: 228.9
+2025-08-11 11:11:23 INFO: Updated resistance to: 53.141 and support to: 51.743
+2025-08-11 11:21:26 INFO: {'SYM': {   'close': 52.41,
+    'high': 52.41,
+    'low': 52.41,
+    'open': 52.41,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 52.41}}
+2025-08-11 11:21:26 INFO: Current resistance is: 53.141 and support is: 51.743
+2025-08-11 11:21:26 INFO: Current average volume is: 223.4
+2025-08-11 11:21:26 INFO: Updated resistance to: 53.106 and support to: 51.708
+2025-08-11 11:23:27 INFO: {'SYM': {   'close': 52.355,
+    'high': 52.355,
+    'low': 52.355,
+    'open': 52.355,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 188.0,
+    'vwap': 52.355}}
+2025-08-11 11:23:27 INFO: Current resistance is: 53.106 and support is: 51.708
+2025-08-11 11:23:27 INFO: Current average volume is: 207.4
+2025-08-11 11:23:27 INFO: Updated resistance to: 53.068 and support to: 51.671
+2025-08-11 11:24:27 INFO: {'SYM': {   'close': 52.32,
+    'high': 52.32,
+    'low': 52.32,
+    'open': 52.32,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 52.32}}
+2025-08-11 11:24:27 INFO: Current resistance is: 53.068 and support is: 51.671
+2025-08-11 11:24:27 INFO: Current average volume is: 197.4
+2025-08-11 11:24:27 INFO: Updated resistance to: 53.03 and support to: 51.634
+2025-08-11 11:25:27 INFO: {'SYM': {   'close': 52.25,
+    'high': 52.25,
+    'low': 52.25,
+    'open': 52.25,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 197.0,
+    'vwap': 52.25}}
+2025-08-11 11:25:27 INFO: Current resistance is: 53.03 and support is: 51.634
+2025-08-11 11:25:27 INFO: Current average volume is: 175.8
+2025-08-11 11:25:27 INFO: Updated resistance to: 52.985 and support to: 51.594
+2025-08-11 11:27:28 INFO: {'SYM': {   'close': 52.39,
+    'high': 52.39,
+    'low': 52.39,
+    'open': 52.39,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 176.0,
+    'vwap': 52.39}}
+2025-08-11 11:27:28 INFO: Current resistance is: 52.985 and support is: 51.594
+2025-08-11 11:27:28 INFO: Current average volume is: 183.4
+2025-08-11 11:27:28 INFO: Updated resistance to: 52.975 and support to: 51.571
+2025-08-11 11:35:30 INFO: {'SYM': {   'close': 52.31,
+    'high': 52.31,
+    'low': 52.31,
+    'open': 52.31,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 52.31}}
+2025-08-11 11:35:30 INFO: Current resistance is: 52.975 and support is: 51.571
+2025-08-11 11:35:30 INFO: Current average volume is: 185.9
+2025-08-11 11:35:30 INFO: Updated resistance to: 52.954 and support to: 51.544
+2025-08-11 11:38:30 INFO: {'SYM': {   'close': 52.35,
+    'high': 52.35,
+    'low': 52.35,
+    'open': 52.35,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 126.0,
+    'vwap': 52.35}}
+2025-08-11 11:38:30 INFO: Current resistance is: 52.954 and support is: 51.544
+2025-08-11 11:38:30 INFO: Current average volume is: 167.3
+2025-08-11 11:38:30 INFO: Updated resistance to: 52.944 and support to: 51.522
+2025-08-11 11:39:30 INFO: {'SYM': {   'close': 52.25,
+    'high': 52.25,
+    'low': 52.25,
+    'open': 52.25,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 219.0,
+    'vwap': 52.25}}
+2025-08-11 11:39:30 INFO: Current resistance is: 52.944 and support is: 51.522
+2025-08-11 11:39:30 INFO: Current average volume is: 161.4
+2025-08-11 11:39:30 INFO: Updated resistance to: 52.921 and support to: 51.494
+2025-08-11 11:44:32 INFO: {'SYM': {   'close': 52.19,
+    'high': 52.19,
+    'low': 52.19,
+    'open': 52.19,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 123.0,
+    'vwap': 52.19}}
+2025-08-11 11:44:32 INFO: Current resistance is: 52.921 and support is: 51.494
+2025-08-11 11:44:32 INFO: Current average volume is: 160.7
+2025-08-11 11:44:32 INFO: Updated resistance to: 52.891 and support to: 51.463
+2025-08-11 11:46:33 INFO: {'SYM': {   'close': 52.15,
+    'high': 52.15,
+    'low': 52.15,
+    'open': 52.15,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 110.0,
+    'vwap': 52.15}}
+2025-08-11 11:46:33 INFO: Current resistance is: 52.891 and support is: 51.463
+2025-08-11 11:46:33 INFO: Current average volume is: 148.9
+2025-08-11 11:46:33 INFO: Updated resistance to: 52.861 and support to: 51.431
+2025-08-11 11:51:34 INFO: {'SYM': {   'close': 51.79,
+    'high': 51.79,
+    'low': 51.78,
+    'open': 51.78,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 51.785}}
+2025-08-11 11:51:34 INFO: Current resistance is: 52.861 and support is: 51.431
+2025-08-11 11:51:34 INFO: Current average volume is: 156.4
+2025-08-11 11:51:34 INFO: Updated resistance to: 52.778 and support to: 51.744
+2025-08-11 11:56:35 INFO: {'SYM': {   'close': 51.565,
+    'high': 51.565,
+    'low': 51.565,
+    'open': 51.565,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 205.0,
+    'vwap': 51.565}}
+2025-08-11 11:56:35 INFO: Current resistance is: 52.778 and support is: 51.744
+2025-08-11 11:56:35 INFO: Current average volume is: 158.1
+2025-08-11 11:56:35 INFO: close price: 51.565 just dropped below support of 51.744...
+2025-08-11 11:58:36 INFO: {'SYM': {   'close': 51.74,
+    'high': 51.74,
+    'low': 51.66,
+    'open': 51.66,
+    'symbol': 'SYM',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 364.0,
+    'vwap': 51.713333}}
+2025-08-11 11:58:36 INFO: Current resistance is: 52.778 and support is: 51.744
+2025-08-11 11:58:36 INFO: Current average volume is: 184.5
+2025-08-11 11:58:36 INFO: Closing price: 51.74 just dropped below support 51.744 again...ending trade...

@@ -1,0 +1,779 @@
+2025-08-12 09:50:14 INFO: === Strategy started ===
+2025-08-12 09:50:14 INFO: Start collecting the current highs/lows for: OKLL
+2025-08-12 09:50:15 INFO: Most recent stock data: {'OKLL': {   'close': 29.89,
+    'high': 29.89,
+    'low': 29.85,
+    'open': 29.85,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 521.0,
+    'vwap': 29.866}}
+2025-08-12 09:51:16 INFO: Most recent stock data: {'OKLL': {   'close': 29.89,
+    'high': 30.16,
+    'low': 29.89,
+    'open': 30.16,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 30.07}}
+2025-08-12 09:52:16 INFO: Most recent stock data: {'OKLL': {   'close': 30.29,
+    'high': 30.29,
+    'low': 30.29,
+    'open': 30.29,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.29}}
+2025-08-12 09:54:18 INFO: Most recent stock data: {'OKLL': {   'close': 30.38,
+    'high': 30.38,
+    'low': 30.38,
+    'open': 30.38,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 226.0,
+    'vwap': 30.38}}
+2025-08-12 09:58:20 INFO: Most recent stock data: {'OKLL': {   'close': 29.76,
+    'high': 29.76,
+    'low': 29.76,
+    'open': 29.76,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.76}}
+2025-08-12 09:59:20 INFO: Most recent stock data: {'OKLL': {   'close': 29.57,
+    'high': 29.57,
+    'low': 29.57,
+    'open': 29.57,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 29.57}}
+2025-08-12 10:01:21 INFO: Most recent stock data: {'OKLL': {   'close': 29.85,
+    'high': 29.85,
+    'low': 29.85,
+    'open': 29.85,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.85}}
+2025-08-12 10:02:21 INFO: Most recent stock data: {'OKLL': {   'close': 30.07,
+    'high': 30.07,
+    'low': 29.97,
+    'open': 29.99,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 323.0,
+    'vwap': 30.007152}}
+2025-08-12 10:04:22 INFO: Most recent stock data: {'OKLL': {   'close': 30.61,
+    'high': 30.7,
+    'low': 30.61,
+    'open': 30.7,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 339.0,
+    'vwap': 30.646903}}
+2025-08-12 10:05:22 INFO: Most recent stock data: {'OKLL': {   'close': 30.49,
+    'high': 30.59,
+    'low': 30.49,
+    'open': 30.52,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 825.0,
+    'vwap': 30.5325}}
+2025-08-12 10:10:24 INFO: Most recent stock data: {'OKLL': {   'close': 30.56,
+    'high': 30.56,
+    'low': 30.56,
+    'open': 30.56,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 30.56}}
+2025-08-12 10:10:24 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 10:10:24 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-12 10:11:25 INFO: {'OKLL': {   'close': 30.04,
+    'high': 30.21,
+    'low': 30.04,
+    'open': 30.21,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 30.125}}
+2025-08-12 10:11:25 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:11:25 INFO: Current average volume is: 261.3
+2025-08-12 10:11:25 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:13:25 INFO: {'OKLL': {   'close': 30.15,
+    'high': 30.15,
+    'low': 30.15,
+    'open': 30.15,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.15}}
+2025-08-12 10:13:25 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:13:25 INFO: Current average volume is: 261.3
+2025-08-12 10:13:25 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:17:27 INFO: {'OKLL': {   'close': 30.08,
+    'high': 30.08,
+    'low': 30.08,
+    'open': 30.08,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 30.08}}
+2025-08-12 10:17:27 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:17:27 INFO: Current average volume is: 258.7
+2025-08-12 10:17:27 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:20:28 INFO: {'OKLL': {   'close': 29.9,
+    'high': 29.9,
+    'low': 29.8,
+    'open': 29.8,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 221.0,
+    'vwap': 29.854751}}
+2025-08-12 10:20:28 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:20:28 INFO: Current average volume is: 270.8
+2025-08-12 10:20:28 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:22:29 INFO: {'OKLL': {   'close': 29.73,
+    'high': 29.73,
+    'low': 29.73,
+    'open': 29.73,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.73}}
+2025-08-12 10:22:29 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:22:29 INFO: Current average volume is: 260.8
+2025-08-12 10:22:29 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:31:32 INFO: {'OKLL': {   'close': 30.49,
+    'high': 30.59,
+    'low': 30.41,
+    'open': 30.41,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 30.513333}}
+2025-08-12 10:31:32 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:31:32 INFO: Current average volume is: 310.8
+2025-08-12 10:31:32 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:34:34 INFO: {'OKLL': {   'close': 30.68,
+    'high': 30.68,
+    'low': 30.68,
+    'open': 30.68,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 200.0,
+    'vwap': 30.68}}
+2025-08-12 10:34:34 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:34:34 INFO: Current average volume is: 298.5
+2025-08-12 10:34:34 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:37:35 INFO: {'OKLL': {   'close': 30.59,
+    'high': 30.59,
+    'low': 30.59,
+    'open': 30.59,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.59}}
+2025-08-12 10:37:35 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:37:35 INFO: Current average volume is: 274.6
+2025-08-12 10:37:35 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:41:36 INFO: {'OKLL': {   'close': 30.41,
+    'high': 30.41,
+    'low': 30.41,
+    'open': 30.41,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.41}}
+2025-08-12 10:41:36 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:41:36 INFO: Current average volume is: 202.1
+2025-08-12 10:41:36 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:43:37 INFO: {'OKLL': {   'close': 30.43,
+    'high': 30.43,
+    'low': 30.43,
+    'open': 30.43,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 30.43}}
+2025-08-12 10:43:37 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:43:37 INFO: Current average volume is: 192.1
+2025-08-12 10:43:37 INFO: Updated resistance to: 30.7 and support to: 29.57
+2025-08-12 10:45:37 INFO: {'OKLL': {   'close': 31.25,
+    'high': 31.25,
+    'low': 31.25,
+    'open': 31.25,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.25}}
+2025-08-12 10:45:37 INFO: Current resistance is: 30.7 and support is: 29.57
+2025-08-12 10:45:37 INFO: Current average volume is: 182.1
+2025-08-12 10:45:37 INFO: The Current Close 31.25 is above the resistance...
+2025-08-12 10:45:37 INFO: Updated resistance to: 31.25 and support to: 29.57
+2025-08-12 10:49:10 INFO: {'OKLL': {   'close': 31.54,
+    'high': 31.54,
+    'low': 31.39,
+    'open': 31.39,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 31.446}}
+2025-08-12 10:49:10 INFO: Current resistance is: 31.25 and support is: 29.57
+2025-08-12 10:49:10 INFO: Current average volume is: 222.1
+2025-08-12 10:49:10 INFO: The current close: 31.54 is above the resistance of 31.25, but volume isn't enough...
+2025-08-12 10:49:10 INFO: Updated resistance to: 31.54 and support to: 29.57
+2025-08-12 10:50:11 INFO: {'OKLL': {   'close': 31.23,
+    'high': 31.24,
+    'low': 31.15,
+    'open': 31.15,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 704.0,
+    'vwap': 31.21}}
+2025-08-12 10:50:11 INFO: Current resistance is: 31.54 and support is: 29.57
+2025-08-12 10:50:11 INFO: Current average volume is: 272.5
+2025-08-12 10:50:11 INFO: Updated resistance to: 31.54 and support to: 29.57
+2025-08-12 10:53:12 INFO: {'OKLL': {   'close': 31.85,
+    'high': 31.85,
+    'low': 31.85,
+    'open': 31.85,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 600.0,
+    'vwap': 31.85}}
+2025-08-12 10:53:12 INFO: Current resistance is: 31.54 and support is: 29.57
+2025-08-12 10:53:12 INFO: Current average volume is: 310.4
+2025-08-12 10:53:12 INFO: The Current Close 31.85 is above the resistance...
+2025-08-12 10:53:12 INFO: Updated resistance to: 31.85 and support to: 29.57
+2025-08-12 10:55:15 INFO: {'OKLL': {   'close': 31.7,
+    'high': 31.7,
+    'low': 31.7,
+    'open': 31.7,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.7}}
+2025-08-12 10:55:15 INFO: Current resistance is: 31.85 and support is: 29.57
+2025-08-12 10:55:15 INFO: Current average volume is: 310.4
+2025-08-12 10:55:15 INFO: Updated resistance to: 31.85 and support to: 29.57
+2025-08-12 10:57:15 INFO: {'OKLL': {   'close': 31.49,
+    'high': 31.56,
+    'low': 31.49,
+    'open': 31.56,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 604.0,
+    'vwap': 31.535033}}
+2025-08-12 10:57:15 INFO: Current resistance is: 31.85 and support is: 29.57
+2025-08-12 10:57:15 INFO: Current average volume is: 310.8
+2025-08-12 10:57:15 INFO: Updated resistance to: 31.85 and support to: 29.57
+2025-08-12 11:02:18 INFO: {'OKLL': {   'close': 31.75,
+    'high': 31.75,
+    'low': 31.75,
+    'open': 31.75,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.75}}
+2025-08-12 11:02:18 INFO: Current resistance is: 31.85 and support is: 29.57
+2025-08-12 11:02:18 INFO: Current average volume is: 300.8
+2025-08-12 11:02:18 INFO: Updated resistance to: 31.85 and support to: 29.57
+2025-08-12 11:04:19 INFO: {'OKLL': {   'close': 31.99,
+    'high': 31.99,
+    'low': 31.99,
+    'open': 31.99,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 31.99}}
+2025-08-12 11:04:19 INFO: Current resistance is: 31.85 and support is: 29.57
+2025-08-12 11:04:19 INFO: Current average volume is: 300.8
+2025-08-12 11:04:19 INFO: The Current Close 31.99 is above the resistance...
+2025-08-12 11:04:19 INFO: Updated resistance to: 31.99 and support to: 29.57
+2025-08-12 11:10:27 INFO: {'OKLL': {   'close': 31.97,
+    'high': 31.97,
+    'low': 31.77,
+    'open': 31.86,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 363.0,
+    'vwap': 31.86551}}
+2025-08-12 11:10:27 INFO: Current resistance is: 31.99 and support is: 29.57
+2025-08-12 11:10:27 INFO: Current average volume is: 327.1
+2025-08-12 11:10:27 INFO: Updated resistance to: 31.99 and support to: 29.57
+2025-08-12 11:11:27 INFO: {'OKLL': {   'close': 31.87,
+    'high': 31.87,
+    'low': 31.87,
+    'open': 31.87,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 300.0,
+    'vwap': 31.87}}
+2025-08-12 11:11:27 INFO: Current resistance is: 31.99 and support is: 29.57
+2025-08-12 11:11:27 INFO: Current average volume is: 347.1
+2025-08-12 11:11:27 INFO: Updated resistance to: 31.99 and support to: 29.57
+2025-08-12 11:28:34 INFO: {'OKLL': {   'close': 32.87,
+    'high': 32.87,
+    'low': 32.87,
+    'open': 32.87,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 32.87}}
+2025-08-12 11:28:34 INFO: Current resistance is: 31.99 and support is: 29.57
+2025-08-12 11:28:34 INFO: Current average volume is: 347.1
+2025-08-12 11:28:34 INFO: The Current Close 32.87 is above the resistance...
+2025-08-12 11:28:34 INFO: Updated resistance to: 32.87 and support to: 29.57
+2025-08-12 11:32:06 INFO: {'OKLL': {   'close': 32.75,
+    'high': 32.75,
+    'low': 32.75,
+    'open': 32.75,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 32.75}}
+2025-08-12 11:32:06 INFO: Current resistance is: 32.87 and support is: 29.57
+2025-08-12 11:32:06 INFO: Current average volume is: 307.1
+2025-08-12 11:32:06 INFO: Updated resistance to: 32.87 and support to: 29.57
+2025-08-12 11:35:07 INFO: {'OKLL': {   'close': 33.65,
+    'high': 33.65,
+    'low': 33.37,
+    'open': 33.4,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 407.0,
+    'vwap': 33.4475}}
+2025-08-12 11:35:07 INFO: Current resistance is: 32.87 and support is: 29.57
+2025-08-12 11:35:07 INFO: Current average volume is: 277.4
+2025-08-12 11:35:07 INFO: The Current Close 33.65 is above the resistance...
+2025-08-12 11:35:07 INFO: Updated resistance to: 33.65 and support to: 29.57
+2025-08-12 11:38:10 INFO: {'OKLL': {   'close': 33.27,
+    'high': 33.27,
+    'low': 33.27,
+    'open': 33.27,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 33.27}}
+2025-08-12 11:38:10 INFO: Current resistance is: 33.65 and support is: 29.57
+2025-08-12 11:38:10 INFO: Current average volume is: 227.4
+2025-08-12 11:38:10 INFO: Updated resistance to: 33.65 and support to: 29.57
+2025-08-12 11:45:12 INFO: {'OKLL': {   'close': 33.13,
+    'high': 33.13,
+    'low': 33.13,
+    'open': 33.13,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 33.13}}
+2025-08-12 11:45:12 INFO: Current resistance is: 33.65 and support is: 29.57
+2025-08-12 11:45:12 INFO: Current average volume is: 237.4
+2025-08-12 11:45:12 INFO: Updated resistance to: 33.65 and support to: 29.57
+2025-08-12 11:57:17 INFO: {'OKLL': {   'close': 32.58,
+    'high': 32.58,
+    'low': 32.58,
+    'open': 32.58,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 32.58}}
+2025-08-12 11:57:17 INFO: Current resistance is: 33.65 and support is: 29.57
+2025-08-12 11:57:17 INFO: Current average volume is: 187.0
+2025-08-12 11:57:17 INFO: Updated resistance to: 33.65 and support to: 29.57
+2025-08-12 12:44:33 INFO: {'OKLL': {   'close': 32.74,
+    'high': 32.74,
+    'low': 32.74,
+    'open': 32.74,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 32.74}}
+2025-08-12 12:44:33 INFO: Current resistance is: 33.65 and support is: 29.57
+2025-08-12 12:44:33 INFO: Current average volume is: 187.0
+2025-08-12 12:44:33 INFO: Updated resistance to: 33.65 and support to: 29.57
+2025-08-12 12:45:34 INFO: {'OKLL': {   'close': 33.39,
+    'high': 33.39,
+    'low': 33.31,
+    'open': 33.31,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 700.0,
+    'vwap': 33.36}}
+2025-08-12 12:45:34 INFO: Current resistance is: 33.65 and support is: 29.57
+2025-08-12 12:45:34 INFO: Current average volume is: 247.0
+2025-08-12 12:45:34 INFO: Updated resistance to: 33.65 and support to: 29.57
+2025-08-12 12:46:34 INFO: {'OKLL': {   'close': 33.23,
+    'high': 33.24,
+    'low': 33.23,
+    'open': 33.24,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 439.0,
+    'vwap': 33.2375}}
+2025-08-12 12:46:34 INFO: Current resistance is: 33.65 and support is: 29.57
+2025-08-12 12:46:34 INFO: Current average volume is: 254.6
+2025-08-12 12:46:34 INFO: Updated resistance to: 33.65 and support to: 29.57
+2025-08-12 12:59:39 INFO: {'OKLL': {   'close': 33.6,
+    'high': 33.6,
+    'low': 33.6,
+    'open': 33.6,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 33.6}}
+2025-08-12 12:59:39 INFO: Current resistance is: 33.65 and support is: 29.57
+2025-08-12 12:59:39 INFO: Current average volume is: 234.6
+2025-08-12 12:59:39 INFO: Updated resistance to: 33.65 and support to: 29.57
+2025-08-12 13:06:42 INFO: {'OKLL': {   'close': 33.27,
+    'high': 33.38,
+    'low': 33.27,
+    'open': 33.38,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 33.325}}
+2025-08-12 13:06:42 INFO: Current resistance is: 33.65 and support is: 29.57
+2025-08-12 13:06:42 INFO: Current average volume is: 244.6
+2025-08-12 13:06:42 INFO: Updated resistance to: 33.65 and support to: 29.57
+2025-08-12 13:10:43 INFO: {'OKLL': {   'close': 33.79,
+    'high': 33.79,
+    'low': 33.79,
+    'open': 33.79,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 33.79}}
+2025-08-12 13:10:43 INFO: Current resistance is: 33.65 and support is: 29.57
+2025-08-12 13:10:43 INFO: Current average volume is: 244.6
+2025-08-12 13:10:43 INFO: The Current Close 33.79 is above the resistance...
+2025-08-12 13:10:43 INFO: Updated resistance to: 33.79 and support to: 29.57
+2025-08-12 13:18:19 INFO: {'OKLL': {   'close': 34.44,
+    'high': 34.44,
+    'low': 34.44,
+    'open': 34.44,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 130.0,
+    'vwap': 34.44}}
+2025-08-12 13:18:19 INFO: Current resistance is: 33.79 and support is: 29.57
+2025-08-12 13:18:19 INFO: Current average volume is: 216.9
+2025-08-12 13:18:19 INFO: The current close: 34.44 is above the resistance of 33.79, but volume isn't enough...
+2025-08-12 13:18:19 INFO: Updated resistance to: 34.44 and support to: 29.57
+2025-08-12 13:26:26 INFO: {'OKLL': {   'close': 34.48,
+    'high': 34.48,
+    'low': 34.48,
+    'open': 34.48,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.48}}
+2025-08-12 13:26:26 INFO: Current resistance is: 34.44 and support is: 29.57
+2025-08-12 13:26:26 INFO: Current average volume is: 216.9
+2025-08-12 13:26:26 INFO: The current close: 34.48 is above the resistance of 34.44, but volume isn't enough...
+2025-08-12 13:26:26 INFO: Updated resistance to: 34.48 and support to: 29.57
+2025-08-12 13:48:12 INFO: {'OKLL': {   'close': 34.62,
+    'high': 34.62,
+    'low': 34.49,
+    'open': 34.49,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 34.57}}
+2025-08-12 13:48:12 INFO: Current resistance is: 34.48 and support is: 29.57
+2025-08-12 13:48:12 INFO: Current average volume is: 226.9
+2025-08-12 13:48:12 INFO: The current close: 34.62 is above the resistance of 34.48, but volume isn't enough...
+2025-08-12 13:48:12 INFO: Updated resistance to: 34.62 and support to: 29.57
+2025-08-12 14:00:21 INFO: {'OKLL': {   'close': 34.61,
+    'high': 34.61,
+    'low': 34.61,
+    'open': 34.61,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 150.0,
+    'vwap': 34.61}}
+2025-08-12 14:00:21 INFO: Current resistance is: 34.62 and support is: 29.57
+2025-08-12 14:00:21 INFO: Current average volume is: 231.9
+2025-08-12 14:00:21 INFO: Updated resistance to: 34.62 and support to: 29.57
+2025-08-12 14:01:21 INFO: {'OKLL': {   'close': 34.5,
+    'high': 34.5,
+    'low': 34.5,
+    'open': 34.5,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 34.5}}
+2025-08-12 14:01:21 INFO: Current resistance is: 34.62 and support is: 29.57
+2025-08-12 14:01:21 INFO: Current average volume is: 271.9
+2025-08-12 14:01:21 INFO: Updated resistance to: 34.62 and support to: 29.57
+2025-08-12 14:02:21 INFO: {'OKLL': {   'close': 34.51,
+    'high': 34.51,
+    'low': 34.51,
+    'open': 34.51,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.51}}
+2025-08-12 14:02:21 INFO: Current resistance is: 34.62 and support is: 29.57
+2025-08-12 14:02:21 INFO: Current average volume is: 211.9
+2025-08-12 14:02:21 INFO: Updated resistance to: 34.62 and support to: 29.57
+2025-08-12 14:05:22 INFO: {'OKLL': {   'close': 34.31,
+    'high': 34.31,
+    'low': 34.31,
+    'open': 34.31,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.31}}
+2025-08-12 14:05:22 INFO: Current resistance is: 34.62 and support is: 29.57
+2025-08-12 14:05:22 INFO: Current average volume is: 178.0
+2025-08-12 14:05:22 INFO: Updated resistance to: 34.62 and support to: 29.57
+2025-08-12 14:08:24 INFO: {'OKLL': {   'close': 34.06,
+    'high': 34.06,
+    'low': 34.06,
+    'open': 34.06,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 34.06}}
+2025-08-12 14:08:24 INFO: Current resistance is: 34.62 and support is: 29.57
+2025-08-12 14:08:24 INFO: Current average volume is: 188.0
+2025-08-12 14:08:24 INFO: Updated resistance to: 34.62 and support to: 29.57
+2025-08-12 14:22:29 INFO: {'OKLL': {   'close': 34.46,
+    'high': 34.46,
+    'low': 34.46,
+    'open': 34.46,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 34.46}}
+2025-08-12 14:22:29 INFO: Current resistance is: 34.62 and support is: 29.57
+2025-08-12 14:22:29 INFO: Current average volume is: 188.0
+2025-08-12 14:22:29 INFO: Updated resistance to: 34.62 and support to: 29.57
+2025-08-12 14:58:41 INFO: {'OKLL': {   'close': 34.51,
+    'high': 34.51,
+    'low': 34.51,
+    'open': 34.51,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.51}}
+2025-08-12 14:58:41 INFO: Current resistance is: 34.62 and support is: 29.57
+2025-08-12 14:58:41 INFO: Current average volume is: 188.0
+2025-08-12 14:58:41 INFO: Updated resistance to: 34.62 and support to: 29.57
+2025-08-12 14:59:41 INFO: {'OKLL': {   'close': 34.38,
+    'high': 34.38,
+    'low': 34.38,
+    'open': 34.38,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.38}}
+2025-08-12 14:59:41 INFO: Current resistance is: 34.62 and support is: 29.57
+2025-08-12 14:59:41 INFO: Current average volume is: 185.0
+2025-08-12 14:59:41 INFO: Updated resistance to: 34.62 and support to: 29.57
+2025-08-12 15:02:42 INFO: {'OKLL': {   'close': 34.68,
+    'high': 34.68,
+    'low': 34.68,
+    'open': 34.68,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.68}}
+2025-08-12 15:02:42 INFO: Current resistance is: 34.62 and support is: 29.57
+2025-08-12 15:02:42 INFO: Current average volume is: 185.0
+2025-08-12 15:02:42 INFO: The Current Close 34.68 is above the resistance...
+2025-08-12 15:02:42 INFO: Updated resistance to: 34.68 and support to: 29.57
+2025-08-12 15:03:12 INFO: {'OKLL': {   'close': 34.75,
+    'high': 34.75,
+    'low': 34.75,
+    'open': 34.75,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 34.75}}
+2025-08-12 15:03:12 INFO: Current resistance is: 34.68 and support is: 29.57
+2025-08-12 15:03:12 INFO: Current average volume is: 175.0
+2025-08-12 15:03:12 INFO: The current close: 34.75 is above the resistance of 34.68, but volume isn't enough...
+2025-08-12 15:03:12 INFO: Updated resistance to: 34.75 and support to: 29.57
+2025-08-12 15:08:16 INFO: {'OKLL': {   'close': 34.72,
+    'high': 34.72,
+    'low': 34.72,
+    'open': 34.72,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 34.72}}
+2025-08-12 15:08:16 INFO: Current resistance is: 34.75 and support is: 29.57
+2025-08-12 15:08:16 INFO: Current average volume is: 180.0
+2025-08-12 15:08:16 INFO: Updated resistance to: 34.75 and support to: 29.57
+2025-08-12 15:21:21 INFO: {'OKLL': {   'close': 34.57,
+    'high': 34.57,
+    'low': 34.57,
+    'open': 34.57,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.57}}
+2025-08-12 15:21:21 INFO: Current resistance is: 34.75 and support is: 29.57
+2025-08-12 15:21:21 INFO: Current average volume is: 140.0
+2025-08-12 15:21:21 INFO: Updated resistance to: 34.75 and support to: 29.57
+2025-08-12 15:25:23 INFO: {'OKLL': {   'close': 34.84,
+    'high': 34.84,
+    'low': 34.84,
+    'open': 34.84,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.84}}
+2025-08-12 15:25:23 INFO: Current resistance is: 34.75 and support is: 29.57
+2025-08-12 15:25:23 INFO: Current average volume is: 140.0
+2025-08-12 15:25:23 INFO: The Current Close 34.84 is above the resistance...
+2025-08-12 15:25:23 INFO: Updated resistance to: 34.84 and support to: 29.57
+2025-08-12 15:29:26 INFO: {'OKLL': {   'close': 34.78,
+    'high': 34.78,
+    'low': 34.78,
+    'open': 34.78,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.78}}
+2025-08-12 15:29:26 INFO: Current resistance is: 34.84 and support is: 29.57
+2025-08-12 15:29:26 INFO: Current average volume is: 140.0
+2025-08-12 15:29:26 INFO: Updated resistance to: 34.84 and support to: 29.57
+2025-08-12 15:37:29 INFO: {'OKLL': {   'close': 34.96,
+    'high': 34.96,
+    'low': 34.96,
+    'open': 34.96,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 34.96}}
+2025-08-12 15:37:29 INFO: Current resistance is: 34.84 and support is: 29.57
+2025-08-12 15:37:29 INFO: Current average volume is: 140.0
+2025-08-12 15:37:29 INFO: The Current Close 34.96 is above the resistance...
+2025-08-12 15:37:29 INFO: Updated resistance to: 34.96 and support to: 29.57
+2025-08-12 15:40:01 INFO: {'OKLL': {   'close': 34.81,
+    'high': 34.81,
+    'low': 34.81,
+    'open': 34.81,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 34.81}}
+2025-08-12 15:40:01 INFO: Current resistance is: 34.96 and support is: 29.57
+2025-08-12 15:40:01 INFO: Current average volume is: 140.0
+2025-08-12 15:40:01 INFO: Updated resistance to: 34.96 and support to: 29.57
+2025-08-12 15:41:02 INFO: {'OKLL': {   'close': 34.79,
+    'high': 34.8,
+    'low': 34.79,
+    'open': 34.8,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 34.795}}
+2025-08-12 15:41:02 INFO: Current resistance is: 34.96 and support is: 29.57
+2025-08-12 15:41:02 INFO: Current average volume is: 150.0
+2025-08-12 15:41:02 INFO: Updated resistance to: 34.96 and support to: 29.57
+2025-08-12 15:51:06 INFO: {'OKLL': {   'close': 34.95,
+    'high': 34.95,
+    'low': 34.95,
+    'open': 34.95,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.95}}
+2025-08-12 15:51:06 INFO: Current resistance is: 34.96 and support is: 29.57
+2025-08-12 15:51:06 INFO: Current average volume is: 150.0
+2025-08-12 15:51:06 INFO: Updated resistance to: 34.96 and support to: 29.57
+2025-08-12 15:52:07 INFO: {'OKLL': {   'close': 34.94,
+    'high': 34.94,
+    'low': 34.94,
+    'open': 34.94,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 115.0,
+    'vwap': 34.94}}
+2025-08-12 15:52:07 INFO: Current resistance is: 34.96 and support is: 29.57
+2025-08-12 15:52:07 INFO: Current average volume is: 151.5
+2025-08-12 15:52:07 INFO: Updated resistance to: 34.96 and support to: 29.57
+2025-08-12 15:59:10 INFO: {'OKLL': {   'close': 35.16,
+    'high': 35.26,
+    'low': 35.16,
+    'open': 35.26,
+    'symbol': 'OKLL',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 35.1875}}
+2025-08-12 15:59:10 INFO: Current resistance is: 34.96 and support is: 29.57
+2025-08-12 15:59:10 INFO: Current average volume is: 171.5
+2025-08-12 15:59:10 INFO: The Current Close 35.16 is above the resistance...
+2025-08-12 15:59:10 INFO: Updated resistance to: 35.26 and support to: 29.57
+2025-08-12 16:00:10 INFO: The Market is closed...

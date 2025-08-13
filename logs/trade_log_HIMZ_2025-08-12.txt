@@ -1,0 +1,823 @@
+2025-08-12 09:50:14 INFO: === Strategy started ===
+2025-08-12 09:50:14 INFO: Start collecting the current highs/lows for: HIMZ
+2025-08-12 09:50:15 INFO: Most recent stock data: {'HIMZ': {   'close': 17.95,
+    'high': 17.95,
+    'low': 17.95,
+    'open': 17.95,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 147.0,
+    'vwap': 17.95}}
+2025-08-12 09:51:15 INFO: Most recent stock data: {'HIMZ': {   'close': 17.83,
+    'high': 17.83,
+    'low': 17.83,
+    'open': 17.83,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 152.0,
+    'vwap': 17.83}}
+2025-08-12 09:52:16 INFO: Most recent stock data: {'HIMZ': {   'close': 17.76,
+    'high': 17.76,
+    'low': 17.76,
+    'open': 17.76,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.76}}
+2025-08-12 09:55:18 INFO: Most recent stock data: {'HIMZ': {   'close': 17.74,
+    'high': 17.74,
+    'low': 17.74,
+    'open': 17.74,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 226.0,
+    'vwap': 17.74}}
+2025-08-12 09:57:19 INFO: Most recent stock data: {'HIMZ': {   'close': 17.69,
+    'high': 17.69,
+    'low': 17.69,
+    'open': 17.69,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 150.0,
+    'vwap': 17.69}}
+2025-08-12 10:01:20 INFO: Most recent stock data: {'HIMZ': {   'close': 17.53,
+    'high': 17.59,
+    'low': 17.53,
+    'open': 17.59,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 816.0,
+    'vwap': 17.562451}}
+2025-08-12 10:02:20 INFO: Most recent stock data: {'HIMZ': {   'close': 17.51,
+    'high': 17.51,
+    'low': 17.51,
+    'open': 17.51,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 166.0,
+    'vwap': 17.51}}
+2025-08-12 10:04:21 INFO: Most recent stock data: {'HIMZ': {   'close': 17.44,
+    'high': 17.44,
+    'low': 17.44,
+    'open': 17.44,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 150.0,
+    'vwap': 17.44}}
+2025-08-12 10:05:22 INFO: Most recent stock data: {'HIMZ': {   'close': 17.375,
+    'high': 17.375,
+    'low': 17.375,
+    'open': 17.375,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 17.375}}
+2025-08-12 10:09:23 INFO: Most recent stock data: {'HIMZ': {   'close': 17.65,
+    'high': 17.65,
+    'low': 17.65,
+    'open': 17.65,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.65}}
+2025-08-12 10:10:24 INFO: Most recent stock data: {'HIMZ': {   'close': 17.56,
+    'high': 17.56,
+    'low': 17.56,
+    'open': 17.56,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.56}}
+2025-08-12 10:10:24 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-12 10:10:24 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-12 10:11:24 INFO: {'HIMZ': {   'close': 17.57,
+    'high': 17.57,
+    'low': 17.57,
+    'open': 17.57,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 17.57}}
+2025-08-12 10:11:24 INFO: Current resistance is: 17.49 and support is: 17.249
+2025-08-12 10:11:24 INFO: Current average volume is: 220.8
+2025-08-12 10:11:24 INFO: The Current Close 17.57 is above the resistance...
+2025-08-12 10:11:24 INFO: Updated resistance to: 17.529 and support to: 17.235
+2025-08-12 10:15:29 INFO: {'HIMZ': {   'close': 17.56,
+    'high': 17.56,
+    'low': 17.56,
+    'open': 17.56,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.56}}
+2025-08-12 10:15:29 INFO: Current resistance is: 17.529 and support is: 17.235
+2025-08-12 10:15:29 INFO: Current average volume is: 220.8
+2025-08-12 10:15:29 INFO: The current close: 17.56 is above the resistance of 17.529, but volume isn't enough...
+2025-08-12 10:15:29 INFO: Updated resistance to: 17.558 and support to: 17.226
+2025-08-12 10:16:30 INFO: {'HIMZ': {   'close': 17.58,
+    'high': 17.58,
+    'low': 17.58,
+    'open': 17.58,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.58}}
+2025-08-12 10:16:30 INFO: Current resistance is: 17.558 and support is: 17.226
+2025-08-12 10:16:30 INFO: Current average volume is: 208.2
+2025-08-12 10:16:30 INFO: The current close: 17.58 is above the resistance of 17.558, but volume isn't enough...
+2025-08-12 10:16:30 INFO: Updated resistance to: 17.591 and support to: 17.224
+2025-08-12 10:19:02 INFO: {'HIMZ': {   'close': 17.49,
+    'high': 17.49,
+    'low': 17.49,
+    'open': 17.49,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 750.0,
+    'vwap': 17.49}}
+2025-08-12 10:19:02 INFO: Current resistance is: 17.591 and support is: 17.224
+2025-08-12 10:19:02 INFO: Current average volume is: 268.2
+2025-08-12 10:19:02 INFO: Updated resistance to: 17.585 and support to: 17.208
+2025-08-12 10:26:04 INFO: {'HIMZ': {   'close': 17.72,
+    'high': 17.72,
+    'low': 17.72,
+    'open': 17.72,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.72}}
+2025-08-12 10:26:04 INFO: Current resistance is: 17.585 and support is: 17.208
+2025-08-12 10:26:04 INFO: Current average volume is: 196.6
+2025-08-12 10:26:04 INFO: The Current Close 17.72 is above the resistance...
+2025-08-12 10:26:04 INFO: Updated resistance to: 17.665 and support to: 17.236
+2025-08-12 10:27:05 INFO: {'HIMZ': {   'close': 17.57,
+    'high': 17.57,
+    'low': 17.57,
+    'open': 17.57,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 537.0,
+    'vwap': 17.57}}
+2025-08-12 10:27:05 INFO: Current resistance is: 17.665 and support is: 17.236
+2025-08-12 10:27:05 INFO: Current average volume is: 233.7
+2025-08-12 10:27:05 INFO: Updated resistance to: 17.679 and support to: 17.236
+2025-08-12 10:28:05 INFO: {'HIMZ': {   'close': 17.6,
+    'high': 17.6,
+    'low': 17.6,
+    'open': 17.6,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.6}}
+2025-08-12 10:28:05 INFO: Current resistance is: 17.679 and support is: 17.236
+2025-08-12 10:28:05 INFO: Current average volume is: 228.7
+2025-08-12 10:28:05 INFO: Updated resistance to: 17.701 and support to: 17.241
+2025-08-12 10:31:06 INFO: {'HIMZ': {   'close': 17.57,
+    'high': 17.57,
+    'low': 17.57,
+    'open': 17.57,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.57}}
+2025-08-12 10:31:06 INFO: Current resistance is: 17.701 and support is: 17.241
+2025-08-12 10:31:06 INFO: Current average volume is: 218.7
+2025-08-12 10:31:06 INFO: Updated resistance to: 17.712 and support to: 17.242
+2025-08-12 10:32:06 INFO: {'HIMZ': {   'close': 17.59,
+    'high': 17.59,
+    'low': 17.5,
+    'open': 17.5,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1992.0,
+    'vwap': 17.504656}}
+2025-08-12 10:32:06 INFO: Current resistance is: 17.712 and support is: 17.242
+2025-08-12 10:32:06 INFO: Current average volume is: 407.9
+2025-08-12 10:32:06 INFO: Updated resistance to: 17.727 and support to: 17.23
+2025-08-12 10:40:10 INFO: {'HIMZ': {   'close': 17.44,
+    'high': 17.44,
+    'low': 17.44,
+    'open': 17.44,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.44}}
+2025-08-12 10:40:10 INFO: Current resistance is: 17.727 and support is: 17.23
+2025-08-12 10:40:10 INFO: Current average volume is: 407.9
+2025-08-12 10:40:10 INFO: Updated resistance to: 17.699 and support to: 17.211
+2025-08-12 10:44:11 INFO: {'HIMZ': {   'close': 17.47,
+    'high': 17.47,
+    'low': 17.46,
+    'open': 17.46,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 17.466667}}
+2025-08-12 10:44:11 INFO: Current resistance is: 17.699 and support is: 17.211
+2025-08-12 10:44:11 INFO: Current average volume is: 417.9
+2025-08-12 10:44:11 INFO: Updated resistance to: 17.685 and support to: 17.198
+2025-08-12 10:45:12 INFO: {'HIMZ': {   'close': 17.45,
+    'high': 17.45,
+    'low': 17.45,
+    'open': 17.45,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 253.0,
+    'vwap': 17.45}}
+2025-08-12 10:45:12 INFO: Current resistance is: 17.685 and support is: 17.198
+2025-08-12 10:45:12 INFO: Current average volume is: 433.2
+2025-08-12 10:45:12 INFO: Updated resistance to: 17.67 and support to: 17.185
+2025-08-12 10:53:15 INFO: {'HIMZ': {   'close': 17.35,
+    'high': 17.35,
+    'low': 17.32,
+    'open': 17.32,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 17.335}}
+2025-08-12 10:53:15 INFO: Current resistance is: 17.67 and support is: 17.185
+2025-08-12 10:53:15 INFO: Current average volume is: 443.2
+2025-08-12 10:53:15 INFO: Updated resistance to: 17.634 and support to: 17.306
+2025-08-12 10:55:16 INFO: {'HIMZ': {   'close': 17.44,
+    'high': 17.44,
+    'low': 17.44,
+    'open': 17.44,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.44}}
+2025-08-12 10:55:16 INFO: Current resistance is: 17.634 and support is: 17.306
+2025-08-12 10:55:16 INFO: Current average volume is: 378.2
+2025-08-12 10:55:16 INFO: Updated resistance to: 17.625 and support to: 17.293
+2025-08-12 10:57:17 INFO: {'HIMZ': {   'close': 17.43,
+    'high': 17.45,
+    'low': 17.43,
+    'open': 17.45,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 700.0,
+    'vwap': 17.432857}}
+2025-08-12 10:57:17 INFO: Current resistance is: 17.625 and support is: 17.293
+2025-08-12 10:57:17 INFO: Current average volume is: 438.2
+2025-08-12 10:57:17 INFO: Updated resistance to: 17.621 and support to: 17.28
+2025-08-12 10:59:18 INFO: {'HIMZ': {   'close': 17.38,
+    'high': 17.38,
+    'low': 17.38,
+    'open': 17.38,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 17.38}}
+2025-08-12 10:59:18 INFO: Current resistance is: 17.621 and support is: 17.28
+2025-08-12 10:59:18 INFO: Current average volume is: 395.5
+2025-08-12 10:59:18 INFO: Updated resistance to: 17.603 and support to: 17.267
+2025-08-12 11:05:20 INFO: {'HIMZ': {   'close': 17.75,
+    'high': 17.75,
+    'low': 17.74,
+    'open': 17.74,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 450.0,
+    'vwap': 17.746667}}
+2025-08-12 11:05:20 INFO: Current resistance is: 17.603 and support is: 17.267
+2025-08-12 11:05:20 INFO: Current average volume is: 430.5
+2025-08-12 11:05:20 INFO: The Current Close 17.75 is above the resistance...
+2025-08-12 11:05:20 INFO: Updated resistance to: 17.665 and support to: 17.267
+2025-08-12 11:07:22 INFO: {'HIMZ': {   'close': 17.65,
+    'high': 17.65,
+    'low': 17.65,
+    'open': 17.65,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.65}}
+2025-08-12 11:07:22 INFO: Current resistance is: 17.665 and support is: 17.267
+2025-08-12 11:07:22 INFO: Current average volume is: 430.5
+2025-08-12 11:07:22 INFO: Updated resistance to: 17.699 and support to: 17.266
+2025-08-12 11:08:22 INFO: {'HIMZ': {   'close': 17.61,
+    'high': 17.61,
+    'low': 17.61,
+    'open': 17.61,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.61}}
+2025-08-12 11:08:22 INFO: Current resistance is: 17.699 and support is: 17.266
+2025-08-12 11:08:22 INFO: Current average volume is: 241.3
+2025-08-12 11:08:22 INFO: Updated resistance to: 17.722 and support to: 17.265
+2025-08-12 11:09:22 INFO: {'HIMZ': {   'close': 17.6,
+    'high': 17.6,
+    'low': 17.6,
+    'open': 17.6,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.6}}
+2025-08-12 11:09:22 INFO: Current resistance is: 17.722 and support is: 17.265
+2025-08-12 11:09:22 INFO: Current average volume is: 241.3
+2025-08-12 11:09:22 INFO: Updated resistance to: 17.741 and support to: 17.265
+2025-08-12 11:12:24 INFO: {'HIMZ': {   'close': 17.66,
+    'high': 17.66,
+    'low': 17.66,
+    'open': 17.66,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 17.66}}
+2025-08-12 11:12:24 INFO: Current resistance is: 17.741 and support is: 17.265
+2025-08-12 11:12:24 INFO: Current average volume is: 231.3
+2025-08-12 11:12:24 INFO: Updated resistance to: 17.769 and support to: 17.268
+2025-08-12 11:23:29 INFO: {'HIMZ': {   'close': 17.89,
+    'high': 17.89,
+    'low': 17.89,
+    'open': 17.89,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.89}}
+2025-08-12 11:23:29 INFO: Current resistance is: 17.769 and support is: 17.268
+2025-08-12 11:23:29 INFO: Current average volume is: 216.0
+2025-08-12 11:23:29 INFO: The Current Close 17.89 is above the resistance...
+2025-08-12 11:23:29 INFO: Updated resistance to: 17.834 and support to: 17.284
+2025-08-12 11:28:03 INFO: {'HIMZ': {   'close': 17.71,
+    'high': 17.71,
+    'low': 17.71,
+    'open': 17.71,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.71}}
+2025-08-12 11:28:03 INFO: Current resistance is: 17.834 and support is: 17.284
+2025-08-12 11:28:03 INFO: Current average volume is: 206.0
+2025-08-12 11:28:03 INFO: Updated resistance to: 17.861 and support to: 17.291
+2025-08-12 11:33:04 INFO: {'HIMZ': {   'close': 17.58,
+    'high': 17.58,
+    'low': 17.56,
+    'open': 17.56,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 250.0,
+    'vwap': 17.56939}}
+2025-08-12 11:33:04 INFO: Current resistance is: 17.861 and support is: 17.291
+2025-08-12 11:33:04 INFO: Current average volume is: 221.0
+2025-08-12 11:33:04 INFO: Updated resistance to: 17.864 and support to: 17.29
+2025-08-12 11:35:05 INFO: {'HIMZ': {   'close': 17.65,
+    'high': 17.65,
+    'low': 17.65,
+    'open': 17.65,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.65}}
+2025-08-12 11:35:05 INFO: Current resistance is: 17.864 and support is: 17.29
+2025-08-12 11:35:05 INFO: Current average volume is: 161.0
+2025-08-12 11:35:05 INFO: Updated resistance to: 17.878 and support to: 17.293
+2025-08-12 11:36:06 INFO: {'HIMZ': {   'close': 17.63,
+    'high': 17.63,
+    'low': 17.63,
+    'open': 17.63,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.63}}
+2025-08-12 11:36:06 INFO: Current resistance is: 17.878 and support is: 17.293
+2025-08-12 11:36:06 INFO: Current average volume is: 160.0
+2025-08-12 11:36:06 INFO: Updated resistance to: 17.887 and support to: 17.296
+2025-08-12 11:40:07 INFO: {'HIMZ': {   'close': 17.67,
+    'high': 17.67,
+    'low': 17.67,
+    'open': 17.67,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.67}}
+2025-08-12 11:40:07 INFO: Current resistance is: 17.887 and support is: 17.296
+2025-08-12 11:40:07 INFO: Current average volume is: 125.0
+2025-08-12 11:40:07 INFO: Updated resistance to: 17.902 and support to: 17.301
+2025-08-12 11:56:14 INFO: {'HIMZ': {   'close': 17.53,
+    'high': 17.55,
+    'low': 17.53,
+    'open': 17.55,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 552.0,
+    'vwap': 17.546364}}
+2025-08-12 11:56:14 INFO: Current resistance is: 17.902 and support is: 17.301
+2025-08-12 11:56:14 INFO: Current average volume is: 170.2
+2025-08-12 11:56:14 INFO: Updated resistance to: 17.897 and support to: 17.298
+2025-08-12 12:12:20 INFO: {'HIMZ': {   'close': 17.47,
+    'high': 17.47,
+    'low': 17.47,
+    'open': 17.47,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 17.47}}
+2025-08-12 12:12:20 INFO: Current resistance is: 17.897 and support is: 17.298
+2025-08-12 12:12:20 INFO: Current average volume is: 180.2
+2025-08-12 12:12:20 INFO: Updated resistance to: 17.881 and support to: 17.291
+2025-08-12 12:18:22 INFO: {'HIMZ': {   'close': 17.52,
+    'high': 17.52,
+    'low': 17.52,
+    'open': 17.52,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1000.0,
+    'vwap': 17.52}}
+2025-08-12 12:18:22 INFO: Current resistance is: 17.881 and support is: 17.291
+2025-08-12 12:18:22 INFO: Current average volume is: 270.2
+2025-08-12 12:18:22 INFO: Updated resistance to: 17.874 and support to: 17.287
+2025-08-12 12:24:24 INFO: {'HIMZ': {   'close': 17.75,
+    'high': 17.75,
+    'low': 17.75,
+    'open': 17.75,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.75}}
+2025-08-12 12:24:24 INFO: Current resistance is: 17.874 and support is: 17.287
+2025-08-12 12:24:24 INFO: Current average volume is: 260.2
+2025-08-12 12:24:24 INFO: Updated resistance to: 17.9 and support to: 17.298
+2025-08-12 12:40:30 INFO: {'HIMZ': {   'close': 17.93,
+    'high': 17.93,
+    'low': 17.93,
+    'open': 17.93,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.93}}
+2025-08-12 12:40:30 INFO: Current resistance is: 17.9 and support is: 17.298
+2025-08-12 12:40:30 INFO: Current average volume is: 260.2
+2025-08-12 12:40:30 INFO: The Current Close 17.93 is above the resistance...
+2025-08-12 12:40:30 INFO: Updated resistance to: 17.947 and support to: 17.32
+2025-08-12 12:43:02 INFO: {'HIMZ': {   'close': 17.9,
+    'high': 17.9,
+    'low': 17.9,
+    'open': 17.9,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 17.9}}
+2025-08-12 12:43:02 INFO: Current resistance is: 17.947 and support is: 17.32
+2025-08-12 12:43:02 INFO: Current average volume is: 290.2
+2025-08-12 12:43:02 INFO: Updated resistance to: 17.987 and support to: 17.339
+2025-08-12 12:48:04 INFO: {'HIMZ': {   'close': 17.86,
+    'high': 17.86,
+    'low': 17.86,
+    'open': 17.86,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.86}}
+2025-08-12 12:48:04 INFO: Current resistance is: 17.987 and support is: 17.339
+2025-08-12 12:48:04 INFO: Current average volume is: 275.2
+2025-08-12 12:48:04 INFO: Updated resistance to: 18.018 and support to: 17.355
+2025-08-12 12:50:05 INFO: {'HIMZ': {   'close': 17.83,
+    'high': 17.83,
+    'low': 17.75,
+    'open': 17.75,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 17.776667}}
+2025-08-12 12:50:05 INFO: Current resistance is: 18.018 and support is: 17.355
+2025-08-12 12:50:05 INFO: Current average volume is: 295.2
+2025-08-12 12:50:05 INFO: Updated resistance to: 18.042 and support to: 17.363
+2025-08-12 12:59:10 INFO: {'HIMZ': {   'close': 17.86,
+    'high': 17.86,
+    'low': 17.86,
+    'open': 17.86,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 600.0,
+    'vwap': 17.86}}
+2025-08-12 12:59:10 INFO: Current resistance is: 18.042 and support is: 17.363
+2025-08-12 12:59:10 INFO: Current average volume is: 345.2
+2025-08-12 12:59:10 INFO: Updated resistance to: 18.069 and support to: 17.378
+2025-08-12 13:02:11 INFO: {'HIMZ': {   'close': 17.97,
+    'high': 17.97,
+    'low': 17.97,
+    'open': 17.97,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.97}}
+2025-08-12 13:02:11 INFO: Current resistance is: 18.069 and support is: 17.378
+2025-08-12 13:02:11 INFO: Current average volume is: 345.2
+2025-08-12 13:02:11 INFO: Updated resistance to: 17.973 and support to: 17.399
+2025-08-12 13:07:13 INFO: {'HIMZ': {   'close': 17.95,
+    'high': 17.95,
+    'low': 17.94,
+    'open': 17.95,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 17.946667}}
+2025-08-12 13:07:13 INFO: Current resistance is: 17.973 and support is: 17.399
+2025-08-12 13:07:13 INFO: Current average volume is: 320.0
+2025-08-12 13:07:13 INFO: Updated resistance to: 17.978 and support to: 17.417
+2025-08-12 13:14:15 INFO: {'HIMZ': {   'close': 18.11,
+    'high': 18.11,
+    'low': 18.11,
+    'open': 18.11,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.11}}
+2025-08-12 13:14:15 INFO: Current resistance is: 17.978 and support is: 17.417
+2025-08-12 13:14:15 INFO: Current average volume is: 310.0
+2025-08-12 13:14:15 INFO: The Current Close 18.11 is above the resistance...
+2025-08-12 13:14:15 INFO: Updated resistance to: 18.115 and support to: 17.446
+2025-08-12 13:24:24 INFO: {'HIMZ': {   'close': 18.22,
+    'high': 18.22,
+    'low': 18.22,
+    'open': 18.22,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.22}}
+2025-08-12 13:24:24 INFO: Current resistance is: 18.115 and support is: 17.446
+2025-08-12 13:24:24 INFO: Current average volume is: 220.0
+2025-08-12 13:24:24 INFO: The current close: 18.22 is above the resistance of 18.115, but volume isn't enough...
+2025-08-12 13:24:24 INFO: Updated resistance to: 18.226 and support to: 17.479
+2025-08-12 13:26:26 INFO: {'HIMZ': {   'close': 18.29,
+    'high': 18.29,
+    'low': 18.29,
+    'open': 18.29,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.29}}
+2025-08-12 13:26:26 INFO: Current resistance is: 18.226 and support is: 17.479
+2025-08-12 13:26:26 INFO: Current average volume is: 220.0
+2025-08-12 13:26:26 INFO: The current close: 18.29 is above the resistance of 18.226, but volume isn't enough...
+2025-08-12 13:26:26 INFO: Updated resistance to: 18.297 and support to: 17.516
+2025-08-12 13:27:27 INFO: {'HIMZ': {   'close': 18.27,
+    'high': 18.27,
+    'low': 18.27,
+    'open': 18.27,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 243.0,
+    'vwap': 18.27}}
+2025-08-12 13:27:27 INFO: Current resistance is: 18.297 and support is: 17.516
+2025-08-12 13:27:27 INFO: Current average volume is: 234.3
+2025-08-12 13:27:27 INFO: Updated resistance to: 18.305 and support to: 17.55
+2025-08-12 13:44:35 INFO: {'HIMZ': {   'close': 18.16,
+    'high': 18.16,
+    'low': 18.16,
+    'open': 18.16,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 113.0,
+    'vwap': 18.16}}
+2025-08-12 13:44:35 INFO: Current resistance is: 18.305 and support is: 17.55
+2025-08-12 13:44:35 INFO: Current average volume is: 205.6
+2025-08-12 13:44:35 INFO: Updated resistance to: 18.315 and support to: 17.575
+2025-08-12 13:49:37 INFO: {'HIMZ': {   'close': 18.37,
+    'high': 18.37,
+    'low': 18.37,
+    'open': 18.37,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.37}}
+2025-08-12 13:49:37 INFO: Current resistance is: 18.315 and support is: 17.575
+2025-08-12 13:49:37 INFO: Current average volume is: 205.6
+2025-08-12 13:49:37 INFO: The Current Close 18.37 is above the resistance...
+2025-08-12 13:49:37 INFO: Updated resistance to: 18.379 and support to: 17.611
+2025-08-12 13:59:14 INFO: {'HIMZ': {   'close': 18.25,
+    'high': 18.25,
+    'low': 18.25,
+    'open': 18.25,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.25}}
+2025-08-12 13:59:14 INFO: Current resistance is: 18.379 and support is: 17.611
+2025-08-12 13:59:14 INFO: Current average volume is: 185.6
+2025-08-12 13:59:14 INFO: Updated resistance to: 18.389 and support to: 17.639
+2025-08-12 14:04:15 INFO: {'HIMZ': {   'close': 18.09,
+    'high': 18.09,
+    'low': 18.09,
+    'open': 18.09,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.09}}
+2025-08-12 14:04:15 INFO: Current resistance is: 18.389 and support is: 17.639
+2025-08-12 14:04:15 INFO: Current average volume is: 135.6
+2025-08-12 14:04:15 INFO: Updated resistance to: 18.399 and support to: 17.655
+2025-08-12 14:06:16 INFO: {'HIMZ': {   'close': 18.05,
+    'high': 18.05,
+    'low': 18.05,
+    'open': 18.05,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.05}}
+2025-08-12 14:06:16 INFO: Current resistance is: 18.399 and support is: 17.655
+2025-08-12 14:06:16 INFO: Current average volume is: 135.6
+2025-08-12 14:06:16 INFO: Updated resistance to: 18.41 and support to: 17.668
+2025-08-12 14:07:17 INFO: {'HIMZ': {   'close': 18.04,
+    'high': 18.04,
+    'low': 18.04,
+    'open': 18.04,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.04}}
+2025-08-12 14:07:17 INFO: Current resistance is: 18.41 and support is: 17.668
+2025-08-12 14:07:17 INFO: Current average volume is: 115.6
+2025-08-12 14:07:17 INFO: Updated resistance to: 18.42 and support to: 17.68
+2025-08-12 14:08:17 INFO: {'HIMZ': {   'close': 18.01,
+    'high': 18.01,
+    'low': 18.01,
+    'open': 18.01,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.01}}
+2025-08-12 14:08:17 INFO: Current resistance is: 18.42 and support is: 17.68
+2025-08-12 14:08:17 INFO: Current average volume is: 115.6
+2025-08-12 14:08:17 INFO: Updated resistance to: 18.429 and support to: 17.689
+2025-08-12 14:58:35 INFO: {'HIMZ': {   'close': 18.1,
+    'high': 18.12,
+    'low': 18.1,
+    'open': 18.12,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 18.113333}}
+2025-08-12 14:58:35 INFO: Current resistance is: 18.429 and support is: 17.689
+2025-08-12 14:58:35 INFO: Current average volume is: 135.6
+2025-08-12 14:58:35 INFO: Updated resistance to: 18.44 and support to: 17.703
+2025-08-12 15:06:37 INFO: {'HIMZ': {   'close': 17.98,
+    'high': 17.98,
+    'low': 17.98,
+    'open': 17.98,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.98}}
+2025-08-12 15:06:37 INFO: Current resistance is: 18.44 and support is: 17.703
+2025-08-12 15:06:37 INFO: Current average volume is: 135.6
+2025-08-12 15:06:37 INFO: Updated resistance to: 18.449 and support to: 17.709
+2025-08-12 15:07:38 INFO: {'HIMZ': {   'close': 18.15,
+    'high': 18.15,
+    'low': 18.15,
+    'open': 18.15,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 107.0,
+    'vwap': 18.15}}
+2025-08-12 15:07:38 INFO: Current resistance is: 18.449 and support is: 17.709
+2025-08-12 15:07:38 INFO: Current average volume is: 122.0
+2025-08-12 15:07:38 INFO: Updated resistance to: 18.46 and support to: 17.724
+2025-08-12 15:15:40 INFO: {'HIMZ': {   'close': 18.07,
+    'high': 18.07,
+    'low': 18.07,
+    'open': 18.07,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.07}}
+2025-08-12 15:15:40 INFO: Current resistance is: 18.46 and support is: 17.724
+2025-08-12 15:15:40 INFO: Current average volume is: 120.7
+2025-08-12 15:15:40 INFO: Updated resistance to: 18.47 and support to: 17.734
+2025-08-12 15:16:41 INFO: {'HIMZ': {   'close': 17.98,
+    'high': 17.98,
+    'low': 17.98,
+    'open': 17.98,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.98}}
+2025-08-12 15:16:41 INFO: Current resistance is: 18.47 and support is: 17.734
+2025-08-12 15:16:41 INFO: Current average volume is: 120.7
+2025-08-12 15:16:41 INFO: Updated resistance to: 18.479 and support to: 17.738
+2025-08-12 15:35:47 INFO: {'HIMZ': {   'close': 18.02,
+    'high': 18.02,
+    'low': 18.02,
+    'open': 18.02,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 18.02}}
+2025-08-12 15:35:47 INFO: Current resistance is: 18.479 and support is: 17.738
+2025-08-12 15:35:47 INFO: Current average volume is: 120.7
+2025-08-12 15:35:47 INFO: Updated resistance to: 18.488 and support to: 17.745
+2025-08-12 15:44:52 INFO: {'HIMZ': {   'close': 17.99,
+    'high': 17.99,
+    'low': 17.99,
+    'open': 17.99,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 17.99}}
+2025-08-12 15:44:52 INFO: Current resistance is: 18.488 and support is: 17.745
+2025-08-12 15:44:52 INFO: Current average volume is: 120.8
+2025-08-12 15:44:52 INFO: Updated resistance to: 18.496 and support to: 17.749
+2025-08-12 15:52:55 INFO: {'HIMZ': {   'close': 17.85,
+    'high': 17.85,
+    'low': 17.85,
+    'open': 17.85,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.85}}
+2025-08-12 15:52:55 INFO: Current resistance is: 18.496 and support is: 17.749
+2025-08-12 15:52:55 INFO: Current average volume is: 120.8
+2025-08-12 15:52:55 INFO: Updated resistance to: 18.501 and support to: 17.744
+2025-08-12 15:58:58 INFO: {'HIMZ': {   'close': 17.8,
+    'high': 17.8,
+    'low': 17.8,
+    'open': 17.8,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.8}}
+2025-08-12 15:58:58 INFO: Current resistance is: 18.501 and support is: 17.744
+2025-08-12 15:58:58 INFO: Current average volume is: 120.8
+2025-08-12 15:58:58 INFO: Updated resistance to: 18.505 and support to: 17.737
+2025-08-12 15:59:58 INFO: {'HIMZ': {   'close': 17.77,
+    'high': 17.77,
+    'low': 17.77,
+    'open': 17.77,
+    'symbol': 'HIMZ',
+    'timestamp': datetime.datetime(2025, 8, 12, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 150.0,
+    'vwap': 17.77}}
+2025-08-12 15:59:58 INFO: Current resistance is: 18.505 and support is: 17.737
+2025-08-12 15:59:58 INFO: Current average volume is: 125.8
+2025-08-12 15:59:58 INFO: Updated resistance to: 18.508 and support to: 17.729
+2025-08-12 16:00:58 INFO: The Market is closed...

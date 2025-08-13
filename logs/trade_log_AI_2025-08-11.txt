@@ -1,0 +1,1605 @@
+2025-08-11 09:50:16 INFO: === Strategy started ===
+2025-08-11 09:50:16 INFO: Start collecting the current highs/lows for: AI
+2025-08-11 09:50:16 INFO: Most recent stock data: {'AI': {   'close': 15.775,
+    'high': 15.79,
+    'low': 15.66,
+    'open': 15.73,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 91.0,
+    'volume': 11386.0,
+    'vwap': 15.732664}}
+2025-08-11 09:51:17 INFO: Most recent stock data: {'AI': {   'close': 15.935,
+    'high': 15.935,
+    'low': 15.795,
+    'open': 15.83,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 56.0,
+    'volume': 6350.0,
+    'vwap': 15.857477}}
+2025-08-11 09:52:17 INFO: Most recent stock data: {'AI': {   'close': 15.95,
+    'high': 15.98,
+    'low': 15.915,
+    'open': 15.96,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 76.0,
+    'volume': 7000.0,
+    'vwap': 15.951476}}
+2025-08-11 09:53:18 INFO: Most recent stock data: {'AI': {   'close': 16.09,
+    'high': 16.09,
+    'low': 15.945,
+    'open': 15.945,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 84.0,
+    'volume': 9198.0,
+    'vwap': 16.015084}}
+2025-08-11 09:54:18 INFO: Most recent stock data: {'AI': {   'close': 16.245,
+    'high': 16.25,
+    'low': 16.125,
+    'open': 16.13,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 79.0,
+    'volume': 7287.0,
+    'vwap': 16.183177}}
+2025-08-11 09:55:18 INFO: Most recent stock data: {'AI': {   'close': 16.36,
+    'high': 16.38,
+    'low': 16.225,
+    'open': 16.255,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 97.0,
+    'volume': 12660.0,
+    'vwap': 16.295048}}
+2025-08-11 09:56:19 INFO: Most recent stock data: {'AI': {   'close': 16.425,
+    'high': 16.455,
+    'low': 16.34,
+    'open': 16.355,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 151.0,
+    'volume': 14683.0,
+    'vwap': 16.419947}}
+2025-08-11 09:57:19 INFO: Most recent stock data: {'AI': {   'close': 16.47,
+    'high': 16.56,
+    'low': 16.425,
+    'open': 16.44,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 142.0,
+    'volume': 15094.0,
+    'vwap': 16.491175}}
+2025-08-11 09:59:20 INFO: Most recent stock data: {'AI': {   'close': 16.56,
+    'high': 16.59,
+    'low': 16.52,
+    'open': 16.545,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 86.0,
+    'volume': 7873.0,
+    'vwap': 16.552002}}
+2025-08-11 10:01:21 INFO: Most recent stock data: {'AI': {   'close': 16.38,
+    'high': 16.775,
+    'low': 16.355,
+    'open': 16.755,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 104.0,
+    'volume': 13350.0,
+    'vwap': 16.543837}}
+2025-08-11 10:02:21 INFO: Most recent stock data: {'AI': {   'close': 16.43,
+    'high': 16.43,
+    'low': 16.3,
+    'open': 16.34,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 118.0,
+    'volume': 8741.0,
+    'vwap': 16.340037}}
+2025-08-11 10:02:21 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 10:02:21 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-11 10:03:22 INFO: {'AI': {   'close': 16.44,
+    'high': 16.555,
+    'low': 16.44,
+    'open': 16.48,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 70.0,
+    'volume': 7821.0,
+    'vwap': 16.512161}}
+2025-08-11 10:03:22 INFO: Current resistance is: 16.948 and support is: 16.503
+2025-08-11 10:03:22 INFO: Current average volume is: 10370.7
+2025-08-11 10:03:22 INFO: close price: 16.44 just dropped below support of 16.503...
+2025-08-11 10:04:22 INFO: {'AI': {   'close': 16.545,
+    'high': 16.57,
+    'low': 16.46,
+    'open': 16.46,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 3067.0,
+    'vwap': 16.514975}}
+2025-08-11 10:04:22 INFO: Current resistance is: 16.948 and support is: 16.503
+2025-08-11 10:04:22 INFO: Current average volume is: 9977.4
+2025-08-11 10:04:22 INFO: Updated resistance to: 17.05 and support to: 16.502
+2025-08-11 10:05:22 INFO: {'AI': {   'close': 16.635,
+    'high': 16.645,
+    'low': 16.51,
+    'open': 16.525,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 59.0,
+    'volume': 8900.0,
+    'vwap': 16.554048}}
+2025-08-11 10:05:22 INFO: Current resistance is: 17.05 and support is: 16.502
+2025-08-11 10:05:22 INFO: Current average volume is: 9947.6
+2025-08-11 10:05:22 INFO: Updated resistance to: 17.094 and support to: 16.512
+2025-08-11 10:06:23 INFO: {'AI': {   'close': 16.72,
+    'high': 16.745,
+    'low': 16.64,
+    'open': 16.64,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 4882.0,
+    'vwap': 16.702543}}
+2025-08-11 10:06:23 INFO: Current resistance is: 17.094 and support is: 16.512
+2025-08-11 10:06:23 INFO: Current average volume is: 9707.1
+2025-08-11 10:06:23 INFO: Updated resistance to: 17.144 and support to: 16.561
+2025-08-11 10:07:23 INFO: {'AI': {   'close': 16.625,
+    'high': 16.765,
+    'low': 16.625,
+    'open': 16.725,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 85.0,
+    'volume': 8724.0,
+    'vwap': 16.710974}}
+2025-08-11 10:07:23 INFO: Current resistance is: 17.144 and support is: 16.561
+2025-08-11 10:07:23 INFO: Current average volume is: 9313.5
+2025-08-11 10:07:23 INFO: Updated resistance to: 17.188 and support to: 16.586
+2025-08-11 10:08:24 INFO: {'AI': {   'close': 16.545,
+    'high': 16.665,
+    'low': 16.455,
+    'open': 16.625,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 99.0,
+    'volume': 9819.0,
+    'vwap': 16.550668}}
+2025-08-11 10:08:24 INFO: Current resistance is: 17.188 and support is: 16.586
+2025-08-11 10:08:24 INFO: Current average volume is: 8827.1
+2025-08-11 10:08:24 INFO: close price: 16.545 just dropped below support of 16.586...
+2025-08-11 10:09:24 INFO: {'AI': {   'close': 16.585,
+    'high': 16.6,
+    'low': 16.5,
+    'open': 16.525,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 94.0,
+    'volume': 11604.0,
+    'vwap': 16.568254}}
+2025-08-11 10:09:24 INFO: Current resistance is: 17.188 and support is: 16.586
+2025-08-11 10:09:24 INFO: Current average volume is: 8478.1
+2025-08-11 10:09:24 INFO: Closing price: 16.585 just dropped below support 16.586 again...ending trade...
+2025-08-11 10:20:13 INFO: === Strategy started ===
+2025-08-11 10:20:13 INFO: Start collecting the current highs/lows for: AI
+2025-08-11 10:20:13 INFO: Most recent stock data: {'AI': {   'close': 16.795,
+    'high': 16.885,
+    'low': 16.735,
+    'open': 16.88,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 64.0,
+    'volume': 9079.0,
+    'vwap': 16.773947}}
+2025-08-11 10:21:14 INFO: Most recent stock data: {'AI': {   'close': 16.715,
+    'high': 16.815,
+    'low': 16.715,
+    'open': 16.785,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 3760.0,
+    'vwap': 16.753558}}
+2025-08-11 10:22:15 INFO: Most recent stock data: {'AI': {   'close': 17.05,
+    'high': 17.07,
+    'low': 16.705,
+    'open': 16.705,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 73.0,
+    'volume': 7819.0,
+    'vwap': 16.895494}}
+2025-08-11 10:23:15 INFO: Most recent stock data: {'AI': {   'close': 17.015,
+    'high': 17.04,
+    'low': 16.98,
+    'open': 17.04,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 61.0,
+    'volume': 11491.0,
+    'vwap': 16.999667}}
+2025-08-11 10:24:15 INFO: Most recent stock data: {'AI': {   'close': 17.075,
+    'high': 17.17,
+    'low': 17.02,
+    'open': 17.02,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 89.0,
+    'volume': 9222.0,
+    'vwap': 17.10217}}
+2025-08-11 10:25:15 INFO: Most recent stock data: {'AI': {   'close': 17.04,
+    'high': 17.145,
+    'low': 17.0,
+    'open': 17.07,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 6708.0,
+    'vwap': 17.04343}}
+2025-08-11 10:26:16 INFO: Most recent stock data: {'AI': {   'close': 17.055,
+    'high': 17.16,
+    'low': 17.045,
+    'open': 17.05,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 5826.0,
+    'vwap': 17.106108}}
+2025-08-11 10:27:16 INFO: Most recent stock data: {'AI': {   'close': 17.07,
+    'high': 17.185,
+    'low': 17.07,
+    'open': 17.09,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 7971.0,
+    'vwap': 17.112398}}
+2025-08-11 10:28:16 INFO: Most recent stock data: {'AI': {   'close': 17.105,
+    'high': 17.125,
+    'low': 17.0,
+    'open': 17.02,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 6119.0,
+    'vwap': 17.025465}}
+2025-08-11 10:29:17 INFO: Most recent stock data: {'AI': {   'close': 17.185,
+    'high': 17.185,
+    'low': 17.09,
+    'open': 17.125,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2535.0,
+    'vwap': 17.133833}}
+2025-08-11 10:30:17 INFO: Most recent stock data: {'AI': {   'close': 17.22,
+    'high': 17.22,
+    'low': 17.13,
+    'open': 17.145,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 8312.0,
+    'vwap': 17.149026}}
+2025-08-11 10:30:17 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 10:30:17 INFO: Pattern matched as Ascending Triangle, starting trading strategy
+2025-08-11 10:31:17 INFO: {'AI': {   'close': 17.115,
+    'high': 17.19,
+    'low': 17.06,
+    'open': 17.19,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 4573.0,
+    'vwap': 17.108892}}
+2025-08-11 10:31:17 INFO: Current resistance is: 17.22 and support is: 17.078
+2025-08-11 10:31:17 INFO: Current average volume is: 7057.6
+2025-08-11 10:31:17 INFO: Updated resistance to: 17.22 and support to: 17.065
+2025-08-11 10:32:18 INFO: {'AI': {   'close': 17.105,
+    'high': 17.17,
+    'low': 17.085,
+    'open': 17.105,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 4603.0,
+    'vwap': 17.121759}}
+2025-08-11 10:32:18 INFO: Current resistance is: 17.22 and support is: 17.065
+2025-08-11 10:32:18 INFO: Current average volume is: 6736.0
+2025-08-11 10:32:18 INFO: Updated resistance to: 17.22 and support to: 17.061
+2025-08-11 10:33:18 INFO: {'AI': {   'close': 17.135,
+    'high': 17.175,
+    'low': 17.05,
+    'open': 17.095,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 3955.0,
+    'vwap': 17.113183}}
+2025-08-11 10:33:18 INFO: Current resistance is: 17.22 and support is: 17.061
+2025-08-11 10:33:18 INFO: Current average volume is: 5982.4
+2025-08-11 10:33:18 INFO: Updated resistance to: 17.22 and support to: 17.042
+2025-08-11 10:34:18 INFO: {'AI': {   'close': 17.0,
+    'high': 17.115,
+    'low': 17.0,
+    'open': 17.115,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2850.0,
+    'vwap': 17.046853}}
+2025-08-11 10:34:18 INFO: Current resistance is: 17.22 and support is: 17.042
+2025-08-11 10:34:18 INFO: Current average volume is: 5345.2
+2025-08-11 10:34:18 INFO: close price: 17.0 just dropped below support of 17.042...
+2025-08-11 10:35:19 INFO: {'AI': {   'close': 16.975,
+    'high': 17.04,
+    'low': 16.94,
+    'open': 17.005,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 4092.0,
+    'vwap': 16.997937}}
+2025-08-11 10:35:19 INFO: Current resistance is: 17.22 and support is: 17.042
+2025-08-11 10:35:19 INFO: Current average volume is: 5083.6
+2025-08-11 10:35:19 INFO: Closing price: 16.975 just dropped below support 17.042 again...ending trade...
+2025-08-11 11:20:22 INFO: === Strategy started ===
+2025-08-11 11:20:22 INFO: Start collecting the current highs/lows for: AI
+2025-08-11 11:20:22 INFO: Most recent stock data: {'AI': {   'close': 17.105,
+    'high': 17.105,
+    'low': 17.085,
+    'open': 17.09,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2191.0,
+    'vwap': 17.097517}}
+2025-08-11 11:22:23 INFO: Most recent stock data: {'AI': {   'close': 17.07,
+    'high': 17.09,
+    'low': 17.065,
+    'open': 17.075,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1487.0,
+    'vwap': 17.077793}}
+2025-08-11 11:23:23 INFO: Most recent stock data: {'AI': {   'close': 17.075,
+    'high': 17.085,
+    'low': 17.055,
+    'open': 17.075,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1904.0,
+    'vwap': 17.072143}}
+2025-08-11 11:24:24 INFO: Most recent stock data: {'AI': {   'close': 16.985,
+    'high': 17.065,
+    'low': 16.985,
+    'open': 17.065,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2852.0,
+    'vwap': 17.036}}
+2025-08-11 11:25:24 INFO: Most recent stock data: {'AI': {   'close': 17.0,
+    'high': 17.03,
+    'low': 16.98,
+    'open': 16.98,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 4163.0,
+    'vwap': 16.997144}}
+2025-08-11 11:27:25 INFO: Most recent stock data: {'AI': {   'close': 17.055,
+    'high': 17.055,
+    'low': 17.015,
+    'open': 17.015,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 933.0,
+    'vwap': 17.036547}}
+2025-08-11 11:28:25 INFO: Most recent stock data: {'AI': {   'close': 17.05,
+    'high': 17.08,
+    'low': 17.045,
+    'open': 17.075,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1111.0,
+    'vwap': 17.0665}}
+2025-08-11 11:29:25 INFO: Most recent stock data: {'AI': {   'close': 17.05,
+    'high': 17.065,
+    'low': 17.04,
+    'open': 17.055,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2956.0,
+    'vwap': 17.050741}}
+2025-08-11 11:30:25 INFO: Most recent stock data: {'AI': {   'close': 17.205,
+    'high': 17.22,
+    'low': 17.045,
+    'open': 17.05,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 69.0,
+    'volume': 8461.0,
+    'vwap': 17.149485}}
+2025-08-11 11:31:26 INFO: Most recent stock data: {'AI': {   'close': 16.97,
+    'high': 17.16,
+    'low': 16.965,
+    'open': 17.155,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 3655.0,
+    'vwap': 17.108556}}
+2025-08-11 11:32:26 INFO: Most recent stock data: {'AI': {   'close': 16.915,
+    'high': 16.93,
+    'low': 16.885,
+    'open': 16.93,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 979.0,
+    'vwap': 16.913}}
+2025-08-11 11:32:26 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 11:32:26 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-11 11:33:27 INFO: {'AI': {   'close': 16.85,
+    'high': 16.86,
+    'low': 16.825,
+    'open': 16.825,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1397.0,
+    'vwap': 16.849375}}
+2025-08-11 11:33:27 INFO: Current resistance is: 17.22 and support is: 16.885
+2025-08-11 11:33:27 INFO: Current average volume is: 2841.1
+2025-08-11 11:33:27 INFO: close price: 16.85 just dropped below support of 16.885...
+2025-08-11 11:34:27 INFO: {'AI': {   'close': 16.84,
+    'high': 16.845,
+    'low': 16.805,
+    'open': 16.845,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2369.0,
+    'vwap': 16.833258}}
+2025-08-11 11:34:27 INFO: Current resistance is: 17.22 and support is: 16.885
+2025-08-11 11:34:27 INFO: Current average volume is: 2887.6
+2025-08-11 11:34:27 INFO: Closing price: 16.84 just dropped below support 16.885 again...ending trade...
+2025-08-11 12:35:26 INFO: === Strategy started ===
+2025-08-11 12:35:26 INFO: Start collecting the current highs/lows for: AI
+2025-08-11 12:35:26 INFO: Most recent stock data: {'AI': {   'close': 17.08,
+    'high': 17.09,
+    'low': 17.07,
+    'open': 17.09,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 494.0,
+    'vwap': 17.08}}
+2025-08-11 12:36:26 INFO: Most recent stock data: {'AI': {   'close': 17.07,
+    'high': 17.075,
+    'low': 17.065,
+    'open': 17.075,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 706.0,
+    'vwap': 17.068}}
+2025-08-11 12:37:27 INFO: Most recent stock data: {'AI': {   'close': 17.12,
+    'high': 17.13,
+    'low': 17.09,
+    'open': 17.095,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 3629.0,
+    'vwap': 17.107772}}
+2025-08-11 12:38:28 INFO: Most recent stock data: {'AI': {   'close': 17.17,
+    'high': 17.17,
+    'low': 17.14,
+    'open': 17.14,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 801.0,
+    'vwap': 17.147143}}
+2025-08-11 12:39:28 INFO: Most recent stock data: {'AI': {   'close': 17.07,
+    'high': 17.07,
+    'low': 17.07,
+    'open': 17.07,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 154.0,
+    'vwap': 17.07}}
+2025-08-11 12:40:28 INFO: Most recent stock data: {'AI': {   'close': 17.09,
+    'high': 17.09,
+    'low': 17.09,
+    'open': 17.09,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.09}}
+2025-08-11 12:41:29 INFO: Most recent stock data: {'AI': {   'close': 17.08,
+    'high': 17.08,
+    'low': 17.075,
+    'open': 17.075,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 535.0,
+    'vwap': 17.078239}}
+2025-08-11 12:42:29 INFO: Most recent stock data: {'AI': {   'close': 17.045,
+    'high': 17.07,
+    'low': 17.035,
+    'open': 17.035,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1910.0,
+    'vwap': 17.059814}}
+2025-08-11 12:43:29 INFO: Most recent stock data: {'AI': {   'close': 17.07,
+    'high': 17.08,
+    'low': 17.04,
+    'open': 17.045,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2403.0,
+    'vwap': 17.06785}}
+2025-08-11 12:45:30 INFO: Most recent stock data: {'AI': {   'close': 17.035,
+    'high': 17.035,
+    'low': 17.015,
+    'open': 17.03,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2113.0,
+    'vwap': 17.026035}}
+2025-08-11 12:46:30 INFO: Most recent stock data: {'AI': {   'close': 17.035,
+    'high': 17.045,
+    'low': 17.035,
+    'open': 17.04,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1000.0,
+    'vwap': 17.041111}}
+2025-08-11 12:46:30 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 12:46:30 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-11 12:47:30 INFO: {'AI': {   'close': 17.005,
+    'high': 17.02,
+    'low': 16.985,
+    'open': 17.02,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 4307.0,
+    'vwap': 17.006071}}
+2025-08-11 12:47:30 INFO: Current resistance is: 17.17 and support is: 17.015
+2025-08-11 12:47:30 INFO: Current average volume is: 1695.2
+2025-08-11 12:47:30 INFO: close price: 17.005 just dropped below support of 17.015...
+2025-08-11 12:48:30 INFO: {'AI': {   'close': 17.03,
+    'high': 17.04,
+    'low': 17.03,
+    'open': 17.04,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1060.0,
+    'vwap': 17.03375}}
+2025-08-11 12:48:30 INFO: Current resistance is: 17.17 and support is: 17.015
+2025-08-11 12:48:30 INFO: Current average volume is: 1438.3
+2025-08-11 12:48:30 INFO: Updated resistance to: 17.17 and support to: 17.015
+2025-08-11 12:49:31 INFO: {'AI': {   'close': 17.005,
+    'high': 17.035,
+    'low': 17.0,
+    'open': 17.035,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 796.0,
+    'vwap': 17.012}}
+2025-08-11 12:49:31 INFO: Current resistance is: 17.17 and support is: 17.015
+2025-08-11 12:49:31 INFO: Current average volume is: 1437.8
+2025-08-11 12:49:31 INFO: close price: 17.005 just dropped below support of 17.015...
+2025-08-11 12:50:31 INFO: {'AI': {   'close': 16.99,
+    'high': 16.99,
+    'low': 16.98,
+    'open': 16.98,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1227.0,
+    'vwap': 16.985}}
+2025-08-11 12:50:31 INFO: Current resistance is: 17.17 and support is: 17.015
+2025-08-11 12:50:31 INFO: Current average volume is: 1545.1
+2025-08-11 12:50:31 INFO: Closing price: 16.99 just dropped below support 17.015 again...ending trade...
+2025-08-11 13:05:27 INFO: === Strategy started ===
+2025-08-11 13:05:27 INFO: Start collecting the current highs/lows for: AI
+2025-08-11 13:05:27 INFO: Most recent stock data: {'AI': {   'close': 16.94,
+    'high': 16.94,
+    'low': 16.94,
+    'open': 16.94,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 369.0,
+    'vwap': 16.94}}
+2025-08-11 13:06:28 INFO: Most recent stock data: {'AI': {   'close': 16.97,
+    'high': 16.97,
+    'low': 16.96,
+    'open': 16.965,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 445.0,
+    'vwap': 16.96625}}
+2025-08-11 13:07:28 INFO: Most recent stock data: {'AI': {   'close': 17.0,
+    'high': 17.0,
+    'low': 16.98,
+    'open': 16.98,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 682.0,
+    'vwap': 16.992308}}
+2025-08-11 13:08:29 INFO: Most recent stock data: {'AI': {   'close': 17.01,
+    'high': 17.02,
+    'low': 16.995,
+    'open': 17.02,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 583.0,
+    'vwap': 17.01}}
+2025-08-11 13:09:29 INFO: Most recent stock data: {'AI': {   'close': 17.025,
+    'high': 17.025,
+    'low': 17.025,
+    'open': 17.025,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 17.025}}
+2025-08-11 13:10:29 INFO: Most recent stock data: {'AI': {   'close': 17.0,
+    'high': 17.0,
+    'low': 17.0,
+    'open': 17.0,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 228.0,
+    'vwap': 17.0}}
+2025-08-11 13:11:30 INFO: Most recent stock data: {'AI': {   'close': 17.05,
+    'high': 17.05,
+    'low': 17.05,
+    'open': 17.05,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 480.0,
+    'vwap': 17.05}}
+2025-08-11 13:12:30 INFO: Most recent stock data: {'AI': {   'close': 17.02,
+    'high': 17.045,
+    'low': 17.015,
+    'open': 17.045,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1120.0,
+    'vwap': 17.033121}}
+2025-08-11 13:14:30 INFO: Most recent stock data: {'AI': {   'close': 17.05,
+    'high': 17.05,
+    'low': 17.0,
+    'open': 17.0,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 575.0,
+    'vwap': 17.02875}}
+2025-08-11 13:15:31 INFO: Most recent stock data: {'AI': {   'close': 17.055,
+    'high': 17.055,
+    'low': 17.04,
+    'open': 17.04,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1062.0,
+    'vwap': 17.050599}}
+2025-08-11 13:17:31 INFO: Most recent stock data: {'AI': {   'close': 17.045,
+    'high': 17.05,
+    'low': 17.02,
+    'open': 17.02,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1112.0,
+    'vwap': 17.035714}}
+2025-08-11 13:17:31 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 13:17:31 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-11 13:18:32 INFO: {'AI': {   'close': 17.015,
+    'high': 17.025,
+    'low': 17.015,
+    'open': 17.025,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 600.0,
+    'vwap': 17.019}}
+2025-08-11 13:18:32 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:18:32 INFO: Current average volume is: 654.2
+2025-08-11 13:18:32 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:19:32 INFO: {'AI': {   'close': 17.005,
+    'high': 17.02,
+    'low': 17.005,
+    'open': 17.01,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1560.0,
+    'vwap': 17.008333}}
+2025-08-11 13:19:32 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:19:32 INFO: Current average volume is: 742.0
+2025-08-11 13:19:32 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:20:33 INFO: {'AI': {   'close': 17.03,
+    'high': 17.03,
+    'low': 17.0,
+    'open': 17.0,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 451.0,
+    'vwap': 17.011667}}
+2025-08-11 13:20:33 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:20:33 INFO: Current average volume is: 728.8
+2025-08-11 13:20:33 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:22:33 INFO: {'AI': {   'close': 17.005,
+    'high': 17.01,
+    'low': 17.005,
+    'open': 17.01,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 764.0,
+    'vwap': 17.007}}
+2025-08-11 13:22:33 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:22:33 INFO: Current average volume is: 795.2
+2025-08-11 13:22:33 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:24:34 INFO: {'AI': {   'close': 17.04,
+    'high': 17.04,
+    'low': 17.03,
+    'open': 17.03,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 451.0,
+    'vwap': 17.035}}
+2025-08-11 13:24:34 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:24:34 INFO: Current average volume is: 817.5
+2025-08-11 13:24:34 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:25:34 INFO: {'AI': {   'close': 17.045,
+    'high': 17.05,
+    'low': 17.04,
+    'open': 17.04,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1094.0,
+    'vwap': 17.044}}
+2025-08-11 13:25:34 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:25:34 INFO: Current average volume is: 878.9
+2025-08-11 13:25:34 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:26:34 INFO: {'AI': {   'close': 17.02,
+    'high': 17.035,
+    'low': 17.02,
+    'open': 17.035,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 524.0,
+    'vwap': 17.026667}}
+2025-08-11 13:26:34 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:26:34 INFO: Current average volume is: 819.3
+2025-08-11 13:26:34 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:27:34 INFO: {'AI': {   'close': 17.005,
+    'high': 17.02,
+    'low': 17.005,
+    'open': 17.02,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 806.0,
+    'vwap': 17.013333}}
+2025-08-11 13:27:34 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:27:34 INFO: Current average volume is: 842.4
+2025-08-11 13:27:34 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:29:35 INFO: {'AI': {   'close': 17.0,
+    'high': 17.0,
+    'low': 16.995,
+    'open': 16.995,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1402.0,
+    'vwap': 16.995427}}
+2025-08-11 13:29:35 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:29:35 INFO: Current average volume is: 876.4
+2025-08-11 13:29:35 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:32:36 INFO: {'AI': {   'close': 16.99,
+    'high': 16.995,
+    'low': 16.965,
+    'open': 16.97,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 710.0,
+    'vwap': 16.979286}}
+2025-08-11 13:32:36 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:32:36 INFO: Current average volume is: 836.2
+2025-08-11 13:32:36 INFO: Updated resistance to: 17.055 and support to: 16.94
+2025-08-11 13:34:37 INFO: {'AI': {   'close': 16.925,
+    'high': 16.965,
+    'low': 16.925,
+    'open': 16.965,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 282.0,
+    'vwap': 16.945}}
+2025-08-11 13:34:37 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:34:37 INFO: Current average volume is: 804.4
+2025-08-11 13:34:37 INFO: close price: 16.925 just dropped below support of 16.94...
+2025-08-11 13:35:37 INFO: {'AI': {   'close': 16.9,
+    'high': 16.93,
+    'low': 16.9,
+    'open': 16.93,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 568.0,
+    'vwap': 16.915}}
+2025-08-11 13:35:37 INFO: Current resistance is: 17.055 and support is: 16.94
+2025-08-11 13:35:37 INFO: Current average volume is: 705.2
+2025-08-11 13:35:37 INFO: Closing price: 16.9 just dropped below support 16.94 again...ending trade...
+2025-08-11 13:50:29 INFO: === Strategy started ===
+2025-08-11 13:50:29 INFO: Start collecting the current highs/lows for: AI
+2025-08-11 13:50:30 INFO: Most recent stock data: {'AI': {   'close': 16.785,
+    'high': 16.86,
+    'low': 16.785,
+    'open': 16.86,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 843.0,
+    'vwap': 16.80625}}
+2025-08-11 13:51:30 INFO: Most recent stock data: {'AI': {   'close': 16.725,
+    'high': 16.77,
+    'low': 16.725,
+    'open': 16.77,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1363.0,
+    'vwap': 16.750385}}
+2025-08-11 13:53:31 INFO: Most recent stock data: {'AI': {   'close': 16.71,
+    'high': 16.73,
+    'low': 16.7,
+    'open': 16.73,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3044.0,
+    'vwap': 16.708755}}
+2025-08-11 13:54:31 INFO: Most recent stock data: {'AI': {   'close': 16.705,
+    'high': 16.715,
+    'low': 16.705,
+    'open': 16.715,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2877.0,
+    'vwap': 16.710488}}
+2025-08-11 13:55:32 INFO: Most recent stock data: {'AI': {   'close': 16.725,
+    'high': 16.725,
+    'low': 16.71,
+    'open': 16.715,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2131.0,
+    'vwap': 16.721053}}
+2025-08-11 13:56:32 INFO: Most recent stock data: {'AI': {   'close': 16.76,
+    'high': 16.76,
+    'low': 16.74,
+    'open': 16.74,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 470.0,
+    'vwap': 16.75}}
+2025-08-11 13:58:33 INFO: Most recent stock data: {'AI': {   'close': 16.68,
+    'high': 16.72,
+    'low': 16.68,
+    'open': 16.72,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 978.0,
+    'vwap': 16.708134}}
+2025-08-11 13:59:33 INFO: Most recent stock data: {'AI': {   'close': 16.71,
+    'high': 16.71,
+    'low': 16.695,
+    'open': 16.7,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2596.0,
+    'vwap': 16.703098}}
+2025-08-11 14:00:34 INFO: Most recent stock data: {'AI': {   'close': 16.73,
+    'high': 16.73,
+    'low': 16.71,
+    'open': 16.71,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2280.0,
+    'vwap': 16.724595}}
+2025-08-11 14:01:34 INFO: Most recent stock data: {'AI': {   'close': 16.7,
+    'high': 16.7,
+    'low': 16.7,
+    'open': 16.7,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 303.0,
+    'vwap': 16.7}}
+2025-08-11 14:02:34 INFO: Most recent stock data: {'AI': {   'close': 16.62,
+    'high': 16.67,
+    'low': 16.6,
+    'open': 16.67,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2521.0,
+    'vwap': 16.617333}}
+2025-08-11 14:02:34 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 14:02:34 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-11 14:03:35 INFO: {'AI': {   'close': 16.645,
+    'high': 16.645,
+    'low': 16.62,
+    'open': 16.64,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 757.0,
+    'vwap': 16.63476}}
+2025-08-11 14:03:35 INFO: Current resistance is: 16.86 and support is: 16.6
+2025-08-11 14:03:35 INFO: Current average volume is: 1795.7
+2025-08-11 14:03:35 INFO: Updated resistance to: 16.86 and support to: 16.6
+2025-08-11 14:04:35 INFO: {'AI': {   'close': 16.64,
+    'high': 16.64,
+    'low': 16.63,
+    'open': 16.63,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 868.0,
+    'vwap': 16.634292}}
+2025-08-11 14:04:35 INFO: Current resistance is: 16.86 and support is: 16.6
+2025-08-11 14:04:35 INFO: Current average volume is: 1578.1
+2025-08-11 14:04:35 INFO: Updated resistance to: 16.86 and support to: 16.6
+2025-08-11 14:05:35 INFO: {'AI': {   'close': 16.595,
+    'high': 16.61,
+    'low': 16.595,
+    'open': 16.61,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1071.0,
+    'vwap': 16.603165}}
+2025-08-11 14:05:35 INFO: Current resistance is: 16.86 and support is: 16.6
+2025-08-11 14:05:35 INFO: Current average volume is: 1397.5
+2025-08-11 14:05:35 INFO: close price: 16.595 just dropped below support of 16.6...
+2025-08-11 14:06:36 INFO: {'AI': {   'close': 16.58,
+    'high': 16.605,
+    'low': 16.57,
+    'open': 16.595,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2529.0,
+    'vwap': 16.597273}}
+2025-08-11 14:06:36 INFO: Current resistance is: 16.86 and support is: 16.6
+2025-08-11 14:06:36 INFO: Current average volume is: 1437.3
+2025-08-11 14:06:36 INFO: Closing price: 16.58 just dropped below support 16.6 again...ending trade...
+2025-08-11 14:20:29 INFO: === Strategy started ===
+2025-08-11 14:20:29 INFO: Start collecting the current highs/lows for: AI
+2025-08-11 14:20:29 INFO: Most recent stock data: {'AI': {   'close': 16.55,
+    'high': 16.57,
+    'low': 16.55,
+    'open': 16.56,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1164.0,
+    'vwap': 16.55751}}
+2025-08-11 14:23:31 INFO: Most recent stock data: {'AI': {   'close': 16.52,
+    'high': 16.52,
+    'low': 16.52,
+    'open': 16.52,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 806.0,
+    'vwap': 16.52}}
+2025-08-11 14:24:31 INFO: Most recent stock data: {'AI': {   'close': 16.5,
+    'high': 16.51,
+    'low': 16.47,
+    'open': 16.51,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 50.0,
+    'volume': 6507.0,
+    'vwap': 16.493795}}
+2025-08-11 14:25:31 INFO: Most recent stock data: {'AI': {   'close': 16.535,
+    'high': 16.535,
+    'low': 16.5,
+    'open': 16.505,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 3400.0,
+    'vwap': 16.506204}}
+2025-08-11 14:26:32 INFO: Most recent stock data: {'AI': {   'close': 16.575,
+    'high': 16.575,
+    'low': 16.54,
+    'open': 16.54,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1487.0,
+    'vwap': 16.560821}}
+2025-08-11 14:27:32 INFO: Most recent stock data: {'AI': {   'close': 16.61,
+    'high': 16.635,
+    'low': 16.605,
+    'open': 16.605,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2308.0,
+    'vwap': 16.621087}}
+2025-08-11 14:28:32 INFO: Most recent stock data: {'AI': {   'close': 16.575,
+    'high': 16.605,
+    'low': 16.57,
+    'open': 16.605,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1164.0,
+    'vwap': 16.5825}}
+2025-08-11 14:29:32 INFO: Most recent stock data: {'AI': {   'close': 16.53,
+    'high': 16.57,
+    'low': 16.525,
+    'open': 16.57,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 984.0,
+    'vwap': 16.535137}}
+2025-08-11 14:31:33 INFO: Most recent stock data: {'AI': {   'close': 16.555,
+    'high': 16.565,
+    'low': 16.555,
+    'open': 16.565,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 966.0,
+    'vwap': 16.561094}}
+2025-08-11 14:32:33 INFO: Most recent stock data: {'AI': {   'close': 16.52,
+    'high': 16.525,
+    'low': 16.52,
+    'open': 16.525,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 903.0,
+    'vwap': 16.522696}}
+2025-08-11 14:34:34 INFO: Most recent stock data: {'AI': {   'close': 16.46,
+    'high': 16.52,
+    'low': 16.46,
+    'open': 16.52,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 3298.0,
+    'vwap': 16.483213}}
+2025-08-11 14:34:34 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 14:34:34 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-11 14:36:35 INFO: {'AI': {   'close': 16.475,
+    'high': 16.49,
+    'low': 16.475,
+    'open': 16.49,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 390.0,
+    'vwap': 16.485}}
+2025-08-11 14:36:35 INFO: Current resistance is: 16.635 and support is: 16.46
+2025-08-11 14:36:35 INFO: Current average volume is: 2140.7
+2025-08-11 14:36:35 INFO: Updated resistance to: 16.635 and support to: 16.46
+2025-08-11 14:37:35 INFO: {'AI': {   'close': 16.48,
+    'high': 16.48,
+    'low': 16.46,
+    'open': 16.47,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 692.0,
+    'vwap': 16.468333}}
+2025-08-11 14:37:35 INFO: Current resistance is: 16.635 and support is: 16.46
+2025-08-11 14:37:35 INFO: Current average volume is: 1559.2
+2025-08-11 14:37:35 INFO: Updated resistance to: 16.635 and support to: 16.46
+2025-08-11 14:38:35 INFO: {'AI': {   'close': 16.49,
+    'high': 16.495,
+    'low': 16.485,
+    'open': 16.485,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 521.0,
+    'vwap': 16.49}}
+2025-08-11 14:38:35 INFO: Current resistance is: 16.635 and support is: 16.46
+2025-08-11 14:38:35 INFO: Current average volume is: 1271.3
+2025-08-11 14:38:35 INFO: Updated resistance to: 16.635 and support to: 16.46
+2025-08-11 14:40:36 INFO: {'AI': {   'close': 16.5,
+    'high': 16.51,
+    'low': 16.49,
+    'open': 16.5,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1447.0,
+    'vwap': 16.500489}}
+2025-08-11 14:40:36 INFO: Current resistance is: 16.635 and support is: 16.46
+2025-08-11 14:40:36 INFO: Current average volume is: 1267.3
+2025-08-11 14:40:36 INFO: Updated resistance to: 16.635 and support to: 16.46
+2025-08-11 14:44:37 INFO: {'AI': {   'close': 16.475,
+    'high': 16.48,
+    'low': 16.475,
+    'open': 16.48,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 591.0,
+    'vwap': 16.479}}
+2025-08-11 14:44:37 INFO: Current resistance is: 16.635 and support is: 16.46
+2025-08-11 14:44:37 INFO: Current average volume is: 1095.6
+2025-08-11 14:44:37 INFO: Updated resistance to: 16.635 and support to: 16.46
+2025-08-11 14:45:37 INFO: {'AI': {   'close': 16.455,
+    'high': 16.475,
+    'low': 16.455,
+    'open': 16.475,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2499.0,
+    'vwap': 16.462976}}
+2025-08-11 14:45:37 INFO: Current resistance is: 16.635 and support is: 16.46
+2025-08-11 14:45:37 INFO: Current average volume is: 1229.1
+2025-08-11 14:45:37 INFO: close price: 16.455 just dropped below support of 16.46...
+2025-08-11 14:46:37 INFO: {'AI': {   'close': 16.49,
+    'high': 16.49,
+    'low': 16.435,
+    'open': 16.44,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2363.0,
+    'vwap': 16.454167}}
+2025-08-11 14:46:37 INFO: Current resistance is: 16.635 and support is: 16.46
+2025-08-11 14:46:37 INFO: Current average volume is: 1367.0
+2025-08-11 14:46:37 INFO: Updated resistance to: 16.635 and support to: 16.435
+2025-08-11 14:49:38 INFO: {'AI': {   'close': 16.46,
+    'high': 16.46,
+    'low': 16.46,
+    'open': 16.46,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 295.0,
+    'vwap': 16.46}}
+2025-08-11 14:49:38 INFO: Current resistance is: 16.635 and support is: 16.435
+2025-08-11 14:49:38 INFO: Current average volume is: 1299.9
+2025-08-11 14:49:38 INFO: Updated resistance to: 16.635 and support to: 16.435
+2025-08-11 14:50:39 INFO: {'AI': {   'close': 16.43,
+    'high': 16.44,
+    'low': 16.42,
+    'open': 16.44,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1228.0,
+    'vwap': 16.429444}}
+2025-08-11 14:50:39 INFO: Current resistance is: 16.635 and support is: 16.435
+2025-08-11 14:50:39 INFO: Current average volume is: 1332.4
+2025-08-11 14:50:39 INFO: close price: 16.43 just dropped below support of 16.435...
+2025-08-11 14:51:39 INFO: {'AI': {   'close': 16.41,
+    'high': 16.435,
+    'low': 16.41,
+    'open': 16.425,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 1859.0,
+    'vwap': 16.424}}
+2025-08-11 14:51:39 INFO: Current resistance is: 16.635 and support is: 16.435
+2025-08-11 14:51:39 INFO: Current average volume is: 1188.5
+2025-08-11 14:51:39 INFO: Closing price: 16.41 just dropped below support 16.435 again...ending trade...
+2025-08-11 15:05:30 INFO: === Strategy started ===
+2025-08-11 15:05:30 INFO: Start collecting the current highs/lows for: AI
+2025-08-11 15:05:31 INFO: Most recent stock data: {'AI': {   'close': 16.325,
+    'high': 16.33,
+    'low': 16.3,
+    'open': 16.3,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 811.0,
+    'vwap': 16.321667}}
+2025-08-11 15:06:31 INFO: Most recent stock data: {'AI': {   'close': 16.32,
+    'high': 16.32,
+    'low': 16.315,
+    'open': 16.315,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 857.0,
+    'vwap': 16.319375}}
+2025-08-11 15:08:32 INFO: Most recent stock data: {'AI': {   'close': 16.29,
+    'high': 16.31,
+    'low': 16.29,
+    'open': 16.31,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1472.0,
+    'vwap': 16.2995}}
+2025-08-11 15:10:32 INFO: Most recent stock data: {'AI': {   'close': 16.37,
+    'high': 16.37,
+    'low': 16.295,
+    'open': 16.3,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1620.0,
+    'vwap': 16.314333}}
+2025-08-11 15:11:33 INFO: Most recent stock data: {'AI': {   'close': 16.35,
+    'high': 16.375,
+    'low': 16.35,
+    'open': 16.375,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1338.0,
+    'vwap': 16.37}}
+2025-08-11 15:12:33 INFO: Most recent stock data: {'AI': {   'close': 16.325,
+    'high': 16.35,
+    'low': 16.32,
+    'open': 16.35,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1715.0,
+    'vwap': 16.327813}}
+2025-08-11 15:13:33 INFO: Most recent stock data: {'AI': {   'close': 16.32,
+    'high': 16.32,
+    'low': 16.315,
+    'open': 16.32,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 740.0,
+    'vwap': 16.318571}}
+2025-08-11 15:15:34 INFO: Most recent stock data: {'AI': {   'close': 16.355,
+    'high': 16.355,
+    'low': 16.355,
+    'open': 16.355,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 597.0,
+    'vwap': 16.355}}
+2025-08-11 15:18:35 INFO: Most recent stock data: {'AI': {   'close': 16.45,
+    'high': 16.45,
+    'low': 16.41,
+    'open': 16.42,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1605.0,
+    'vwap': 16.43125}}
+2025-08-11 15:19:35 INFO: Most recent stock data: {'AI': {   'close': 16.46,
+    'high': 16.47,
+    'low': 16.46,
+    'open': 16.46,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 673.0,
+    'vwap': 16.4625}}
+2025-08-11 15:20:35 INFO: Most recent stock data: {'AI': {   'close': 16.465,
+    'high': 16.495,
+    'low': 16.465,
+    'open': 16.465,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2308.0,
+    'vwap': 16.481}}
+2025-08-11 15:20:35 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 15:20:35 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-11 15:21:36 INFO: {'AI': {   'close': 16.47,
+    'high': 16.47,
+    'low': 16.45,
+    'open': 16.47,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 3110.0,
+    'vwap': 16.459833}}
+2025-08-11 15:21:36 INFO: Current resistance is: 16.495 and support is: 16.29
+2025-08-11 15:21:36 INFO: Current average volume is: 1517.8
+2025-08-11 15:21:36 INFO: Updated resistance to: 16.495 and support to: 16.29
+2025-08-11 15:23:36 INFO: {'AI': {   'close': 16.49,
+    'high': 16.52,
+    'low': 16.49,
+    'open': 16.52,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2755.0,
+    'vwap': 16.513858}}
+2025-08-11 15:23:36 INFO: Current resistance is: 16.495 and support is: 16.29
+2025-08-11 15:23:36 INFO: Current average volume is: 1646.1
+2025-08-11 15:23:36 INFO: Updated resistance to: 16.52 and support to: 16.29
+2025-08-11 15:24:37 INFO: {'AI': {   'close': 16.56,
+    'high': 16.56,
+    'low': 16.5,
+    'open': 16.5,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1234.0,
+    'vwap': 16.544311}}
+2025-08-11 15:24:37 INFO: Current resistance is: 16.52 and support is: 16.29
+2025-08-11 15:24:37 INFO: Current average volume is: 1607.5
+2025-08-11 15:24:37 INFO: The Current Close 16.56 is above the resistance...
+2025-08-11 15:24:37 INFO: Updated resistance to: 16.56 and support to: 16.29
+2025-08-11 15:25:07 INFO: {'AI': {   'close': 16.55,
+    'high': 16.57,
+    'low': 16.55,
+    'open': 16.55,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1652.0,
+    'vwap': 16.559221}}
+2025-08-11 15:25:07 INFO: Current resistance is: 16.56 and support is: 16.29
+2025-08-11 15:25:07 INFO: Current average volume is: 1638.9
+2025-08-11 15:25:07 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:26:07 INFO: {'AI': {   'close': 16.51,
+    'high': 16.54,
+    'low': 16.495,
+    'open': 16.54,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1764.0,
+    'vwap': 16.514749}}
+2025-08-11 15:26:07 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:26:07 INFO: Current average volume is: 1643.8
+2025-08-11 15:26:07 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:27:07 INFO: {'AI': {   'close': 16.505,
+    'high': 16.525,
+    'low': 16.505,
+    'open': 16.51,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1142.0,
+    'vwap': 16.508503}}
+2025-08-11 15:27:07 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:27:07 INFO: Current average volume is: 1684.0
+2025-08-11 15:27:07 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:28:08 INFO: {'AI': {   'close': 16.5,
+    'high': 16.54,
+    'low': 16.495,
+    'open': 16.5,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2036.0,
+    'vwap': 16.512222}}
+2025-08-11 15:28:08 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:28:08 INFO: Current average volume is: 1827.9
+2025-08-11 15:28:08 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:29:08 INFO: {'AI': {   'close': 16.47,
+    'high': 16.495,
+    'low': 16.47,
+    'open': 16.495,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1136.0,
+    'vwap': 16.480902}}
+2025-08-11 15:29:08 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:29:08 INFO: Current average volume is: 1781.0
+2025-08-11 15:29:08 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:30:08 INFO: {'AI': {   'close': 16.46,
+    'high': 16.49,
+    'low': 16.445,
+    'open': 16.465,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 3568.0,
+    'vwap': 16.468864}}
+2025-08-11 15:30:08 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:30:08 INFO: Current average volume is: 2070.5
+2025-08-11 15:30:08 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:31:09 INFO: {'AI': {   'close': 16.395,
+    'high': 16.465,
+    'low': 16.395,
+    'open': 16.46,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1989.0,
+    'vwap': 16.443438}}
+2025-08-11 15:31:09 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:31:09 INFO: Current average volume is: 2038.6
+2025-08-11 15:31:09 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:32:09 INFO: {'AI': {   'close': 16.36,
+    'high': 16.39,
+    'low': 16.355,
+    'open': 16.39,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2028.0,
+    'vwap': 16.366}}
+2025-08-11 15:32:09 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:32:09 INFO: Current average volume is: 1930.4
+2025-08-11 15:32:09 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:33:09 INFO: {'AI': {   'close': 16.345,
+    'high': 16.38,
+    'low': 16.335,
+    'open': 16.37,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2510.0,
+    'vwap': 16.351926}}
+2025-08-11 15:33:09 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:33:09 INFO: Current average volume is: 1905.9
+2025-08-11 15:33:09 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:35:10 INFO: {'AI': {   'close': 16.38,
+    'high': 16.4,
+    'low': 16.355,
+    'open': 16.355,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2489.0,
+    'vwap': 16.376643}}
+2025-08-11 15:35:10 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:35:10 INFO: Current average volume is: 2031.4
+2025-08-11 15:35:10 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:36:10 INFO: {'AI': {   'close': 16.43,
+    'high': 16.43,
+    'low': 16.35,
+    'open': 16.37,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 5790.0,
+    'vwap': 16.379164}}
+2025-08-11 15:36:10 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:36:10 INFO: Current average volume is: 2445.2
+2025-08-11 15:36:10 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:37:10 INFO: {'AI': {   'close': 16.405,
+    'high': 16.44,
+    'low': 16.405,
+    'open': 16.44,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 819.0,
+    'vwap': 16.422528}}
+2025-08-11 15:37:10 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:37:10 INFO: Current average volume is: 2350.7
+2025-08-11 15:37:10 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:38:11 INFO: {'AI': {   'close': 16.42,
+    'high': 16.455,
+    'low': 16.41,
+    'open': 16.41,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1476.0,
+    'vwap': 16.438267}}
+2025-08-11 15:38:11 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:38:11 INFO: Current average volume is: 2384.1
+2025-08-11 15:38:11 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:39:11 INFO: {'AI': {   'close': 16.365,
+    'high': 16.44,
+    'low': 16.365,
+    'open': 16.43,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 2865.0,
+    'vwap': 16.419733}}
+2025-08-11 15:39:11 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:39:11 INFO: Current average volume is: 2467.0
+2025-08-11 15:39:11 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:40:11 INFO: {'AI': {   'close': 16.345,
+    'high': 16.345,
+    'low': 16.345,
+    'open': 16.345,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 173.0,
+    'vwap': 16.345}}
+2025-08-11 15:40:11 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:40:11 INFO: Current average volume is: 2370.7
+2025-08-11 15:40:11 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:41:12 INFO: {'AI': {   'close': 16.32,
+    'high': 16.32,
+    'low': 16.32,
+    'open': 16.32,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 109.0,
+    'vwap': 16.32}}
+2025-08-11 15:41:12 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:41:12 INFO: Current average volume is: 2024.8
+2025-08-11 15:41:12 INFO: Updated resistance to: 16.57 and support to: 16.29
+2025-08-11 15:42:12 INFO: {'AI': {   'close': 16.265,
+    'high': 16.3,
+    'low': 16.265,
+    'open': 16.3,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1110.0,
+    'vwap': 16.280909}}
+2025-08-11 15:42:12 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:42:12 INFO: Current average volume is: 1936.9
+2025-08-11 15:42:12 INFO: close price: 16.265 just dropped below support of 16.29...
+2025-08-11 15:44:13 INFO: {'AI': {   'close': 16.27,
+    'high': 16.29,
+    'low': 16.27,
+    'open': 16.29,
+    'symbol': 'AI',
+    'timestamp': datetime.datetime(2025, 8, 11, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 711.0,
+    'vwap': 16.278571}}
+2025-08-11 15:44:13 INFO: Current resistance is: 16.57 and support is: 16.29
+2025-08-11 15:44:13 INFO: Current average volume is: 1805.2
+2025-08-11 15:44:13 INFO: Closing price: 16.27 just dropped below support 16.29 again...ending trade...

@@ -1,0 +1,658 @@
+2025-08-11 09:50:16 INFO: === Strategy started ===
+2025-08-11 09:50:16 INFO: Start collecting the current highs/lows for: MU
+2025-08-11 09:50:16 INFO: Most recent stock data: {'MU': {   'close': 124.02,
+    'high': 124.4,
+    'low': 123.83,
+    'open': 124.4,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 111.0,
+    'volume': 12830.0,
+    'vwap': 123.97969}}
+2025-08-11 09:51:17 INFO: Most recent stock data: {'MU': {   'close': 123.83,
+    'high': 124.01,
+    'low': 123.735,
+    'open': 124.005,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 68.0,
+    'volume': 6355.0,
+    'vwap': 123.873172}}
+2025-08-11 09:52:17 INFO: Most recent stock data: {'MU': {   'close': 123.45,
+    'high': 123.865,
+    'low': 123.34,
+    'open': 123.865,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 87.0,
+    'volume': 8471.0,
+    'vwap': 123.621766}}
+2025-08-11 09:53:17 INFO: Most recent stock data: {'MU': {   'close': 123.91,
+    'high': 123.94,
+    'low': 123.45,
+    'open': 123.48,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 5687.0,
+    'vwap': 123.736374}}
+2025-08-11 09:54:18 INFO: Most recent stock data: {'MU': {   'close': 123.43,
+    'high': 123.97,
+    'low': 123.43,
+    'open': 123.855,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 67.0,
+    'volume': 5216.0,
+    'vwap': 123.826706}}
+2025-08-11 09:55:18 INFO: Most recent stock data: {'MU': {   'close': 123.61,
+    'high': 123.61,
+    'low': 123.25,
+    'open': 123.37,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 54.0,
+    'volume': 2704.0,
+    'vwap': 123.385687}}
+2025-08-11 09:56:18 INFO: Most recent stock data: {'MU': {   'close': 123.81,
+    'high': 124.0,
+    'low': 123.66,
+    'open': 123.66,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2740.0,
+    'vwap': 123.832735}}
+2025-08-11 09:57:18 INFO: Most recent stock data: {'MU': {   'close': 123.95,
+    'high': 123.95,
+    'low': 123.505,
+    'open': 123.8,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 76.0,
+    'volume': 6335.0,
+    'vwap': 123.692258}}
+2025-08-11 09:58:19 INFO: Most recent stock data: {'MU': {   'close': 123.91,
+    'high': 124.12,
+    'low': 123.88,
+    'open': 123.88,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 50.0,
+    'volume': 3443.0,
+    'vwap': 123.975667}}
+2025-08-11 09:59:19 INFO: Most recent stock data: {'MU': {   'close': 123.75,
+    'high': 123.84,
+    'low': 123.75,
+    'open': 123.83,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1342.0,
+    'vwap': 123.792968}}
+2025-08-11 10:00:20 INFO: Most recent stock data: {'MU': {   'close': 123.69,
+    'high': 123.69,
+    'low': 123.56,
+    'open': 123.56,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 882.0,
+    'vwap': 123.634286}}
+2025-08-11 10:00:20 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 10:00:20 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-11 10:01:20 INFO: {'MU': {   'close': 123.42,
+    'high': 123.735,
+    'low': 123.35,
+    'open': 123.735,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2881.0,
+    'vwap': 123.58}}
+2025-08-11 10:01:20 INFO: Current resistance is: 124.4 and support is: 123.25
+2025-08-11 10:01:20 INFO: Current average volume is: 3970.1
+2025-08-11 10:01:20 INFO: Updated resistance to: 124.4 and support to: 123.25
+2025-08-11 10:02:20 INFO: {'MU': {   'close': 123.58,
+    'high': 123.58,
+    'low': 123.23,
+    'open': 123.53,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3315.0,
+    'vwap': 123.369374}}
+2025-08-11 10:02:20 INFO: Current resistance is: 124.4 and support is: 123.25
+2025-08-11 10:02:20 INFO: Current average volume is: 3454.5
+2025-08-11 10:02:20 INFO: Updated resistance to: 124.4 and support to: 123.23
+2025-08-11 10:03:21 INFO: {'MU': {   'close': 123.99,
+    'high': 123.99,
+    'low': 123.79,
+    'open': 123.8,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2338.0,
+    'vwap': 123.876064}}
+2025-08-11 10:03:21 INFO: Current resistance is: 124.4 and support is: 123.23
+2025-08-11 10:03:21 INFO: Current average volume is: 3119.6
+2025-08-11 10:03:21 INFO: Updated resistance to: 124.4 and support to: 123.23
+2025-08-11 10:05:21 INFO: {'MU': {   'close': 123.91,
+    'high': 124.005,
+    'low': 123.895,
+    'open': 123.895,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1931.0,
+    'vwap': 123.923214}}
+2025-08-11 10:05:21 INFO: Current resistance is: 124.4 and support is: 123.23
+2025-08-11 10:05:21 INFO: Current average volume is: 2791.1
+2025-08-11 10:05:21 INFO: Updated resistance to: 124.4 and support to: 123.23
+2025-08-11 10:07:22 INFO: {'MU': {   'close': 123.99,
+    'high': 124.0,
+    'low': 123.87,
+    'open': 123.91,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1692.0,
+    'vwap': 123.951397}}
+2025-08-11 10:07:22 INFO: Current resistance is: 124.4 and support is: 123.23
+2025-08-11 10:07:22 INFO: Current average volume is: 2689.9
+2025-08-11 10:07:22 INFO: Updated resistance to: 124.4 and support to: 123.23
+2025-08-11 10:08:23 INFO: {'MU': {   'close': 124.29,
+    'high': 124.32,
+    'low': 124.09,
+    'open': 124.12,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 2160.0,
+    'vwap': 124.23129}}
+2025-08-11 10:08:23 INFO: Current resistance is: 124.4 and support is: 123.23
+2025-08-11 10:08:23 INFO: Current average volume is: 2631.9
+2025-08-11 10:08:23 INFO: Updated resistance to: 124.4 and support to: 123.23
+2025-08-11 10:09:23 INFO: {'MU': {   'close': 124.34,
+    'high': 124.4,
+    'low': 124.27,
+    'open': 124.33,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2046.0,
+    'vwap': 124.327273}}
+2025-08-11 10:09:23 INFO: Current resistance is: 124.4 and support is: 123.23
+2025-08-11 10:09:23 INFO: Current average volume is: 2203.0
+2025-08-11 10:09:23 INFO: Updated resistance to: 124.4 and support to: 123.23
+2025-08-11 10:11:23 INFO: {'MU': {   'close': 124.63,
+    'high': 124.63,
+    'low': 124.2,
+    'open': 124.2,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 2945.0,
+    'vwap': 124.40898}}
+2025-08-11 10:11:23 INFO: Current resistance is: 124.4 and support is: 123.23
+2025-08-11 10:11:23 INFO: Current average volume is: 2153.2
+2025-08-11 10:11:23 INFO: The Current Close 124.63 is above the resistance...
+2025-08-11 10:11:23 INFO: Updated resistance to: 124.63 and support to: 123.23
+2025-08-11 10:12:24 INFO: {'MU': {   'close': 124.67,
+    'high': 124.72,
+    'low': 124.47,
+    'open': 124.695,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 2483.0,
+    'vwap': 124.6225}}
+2025-08-11 10:12:24 INFO: Current resistance is: 124.63 and support is: 123.23
+2025-08-11 10:12:24 INFO: Current average volume is: 2267.3
+2025-08-11 10:12:24 INFO: The current close: 124.67 is above the resistance of 124.63, but volume isn't enough...
+2025-08-11 10:12:24 INFO: Updated resistance to: 124.72 and support to: 123.23
+2025-08-11 10:13:25 INFO: {'MU': {   'close': 124.58,
+    'high': 124.91,
+    'low': 124.58,
+    'open': 124.71,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 5277.0,
+    'vwap': 124.805692}}
+2025-08-11 10:13:25 INFO: Current resistance is: 124.72 and support is: 123.23
+2025-08-11 10:13:25 INFO: Current average volume is: 2706.8
+2025-08-11 10:13:25 INFO: Updated resistance to: 124.91 and support to: 123.23
+2025-08-11 10:14:25 INFO: {'MU': {   'close': 124.86,
+    'high': 124.86,
+    'low': 124.61,
+    'open': 124.61,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 3477.0,
+    'vwap': 124.763592}}
+2025-08-11 10:14:25 INFO: Current resistance is: 124.91 and support is: 123.23
+2025-08-11 10:14:25 INFO: Current average volume is: 2766.4
+2025-08-11 10:14:25 INFO: Updated resistance to: 124.91 and support to: 123.23
+2025-08-11 10:15:25 INFO: {'MU': {   'close': 124.83,
+    'high': 124.9,
+    'low': 124.76,
+    'open': 124.88,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 64.0,
+    'volume': 5713.0,
+    'vwap': 124.835532}}
+2025-08-11 10:15:25 INFO: Current resistance is: 124.91 and support is: 123.23
+2025-08-11 10:15:25 INFO: Current average volume is: 3006.2
+2025-08-11 10:15:25 INFO: Updated resistance to: 124.91 and support to: 123.23
+2025-08-11 10:16:26 INFO: {'MU': {   'close': 125.02,
+    'high': 125.05,
+    'low': 124.7,
+    'open': 124.82,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 3525.0,
+    'vwap': 124.906895}}
+2025-08-11 10:16:26 INFO: Current resistance is: 124.91 and support is: 123.23
+2025-08-11 10:16:26 INFO: Current average volume is: 3124.9
+2025-08-11 10:16:26 INFO: The Current Close 125.02 is above the resistance...
+2025-08-11 10:16:26 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:17:26 INFO: {'MU': {   'close': 124.72,
+    'high': 124.99,
+    'low': 124.68,
+    'open': 124.99,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 3780.0,
+    'vwap': 124.800311}}
+2025-08-11 10:17:26 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:17:26 INFO: Current average volume is: 3309.8
+2025-08-11 10:17:26 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:18:27 INFO: {'MU': {   'close': 124.96,
+    'high': 125.02,
+    'low': 124.72,
+    'open': 124.72,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 55.0,
+    'volume': 5285.0,
+    'vwap': 124.902953}}
+2025-08-11 10:18:27 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:18:27 INFO: Current average volume is: 3669.1
+2025-08-11 10:18:27 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:19:27 INFO: {'MU': {   'close': 124.63,
+    'high': 124.95,
+    'low': 124.63,
+    'open': 124.95,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 2814.0,
+    'vwap': 124.780152}}
+2025-08-11 10:19:27 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:19:27 INFO: Current average volume is: 3734.5
+2025-08-11 10:19:27 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:20:27 INFO: {'MU': {   'close': 124.73,
+    'high': 124.73,
+    'low': 124.47,
+    'open': 124.61,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 2714.0,
+    'vwap': 124.591983}}
+2025-08-11 10:20:27 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:20:27 INFO: Current average volume is: 3801.3
+2025-08-11 10:20:27 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:21:28 INFO: {'MU': {   'close': 124.25,
+    'high': 124.67,
+    'low': 124.23,
+    'open': 124.67,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 2038.0,
+    'vwap': 124.479667}}
+2025-08-11 10:21:28 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:21:28 INFO: Current average volume is: 3710.6
+2025-08-11 10:21:28 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:22:28 INFO: {'MU': {   'close': 124.035,
+    'high': 124.15,
+    'low': 124.035,
+    'open': 124.14,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 4037.0,
+    'vwap': 124.076197}}
+2025-08-11 10:22:28 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:22:28 INFO: Current average volume is: 3866.0
+2025-08-11 10:22:28 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:23:28 INFO: {'MU': {   'close': 124.44,
+    'high': 124.44,
+    'low': 123.995,
+    'open': 124.03,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 90.0,
+    'volume': 9644.0,
+    'vwap': 124.112038}}
+2025-08-11 10:23:28 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:23:28 INFO: Current average volume is: 4302.7
+2025-08-11 10:23:28 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:24:29 INFO: {'MU': {   'close': 124.45,
+    'high': 124.52,
+    'low': 124.45,
+    'open': 124.45,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 511.0,
+    'vwap': 124.473333}}
+2025-08-11 10:24:29 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:24:29 INFO: Current average volume is: 4006.1
+2025-08-11 10:24:29 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:25:29 INFO: {'MU': {   'close': 124.58,
+    'high': 124.58,
+    'low': 124.48,
+    'open': 124.51,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2115.0,
+    'vwap': 124.532547}}
+2025-08-11 10:25:29 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:25:29 INFO: Current average volume is: 3646.3
+2025-08-11 10:25:29 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:26:29 INFO: {'MU': {   'close': 124.8,
+    'high': 124.82,
+    'low': 124.49,
+    'open': 124.49,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 2527.0,
+    'vwap': 124.701575}}
+2025-08-11 10:26:29 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:26:29 INFO: Current average volume is: 3546.5
+2025-08-11 10:26:29 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:27:29 INFO: {'MU': {   'close': 124.79,
+    'high': 124.905,
+    'low': 124.71,
+    'open': 124.805,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 2684.0,
+    'vwap': 124.787537}}
+2025-08-11 10:27:29 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:27:29 INFO: Current average volume is: 3436.9
+2025-08-11 10:27:29 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:28:30 INFO: {'MU': {   'close': 124.93,
+    'high': 124.96,
+    'low': 124.7,
+    'open': 124.71,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1862.0,
+    'vwap': 124.768314}}
+2025-08-11 10:28:30 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:28:30 INFO: Current average volume is: 3094.6
+2025-08-11 10:28:30 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:29:31 INFO: {'MU': {   'close': 124.86,
+    'high': 124.9,
+    'low': 124.81,
+    'open': 124.89,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1207.0,
+    'vwap': 124.8635}}
+2025-08-11 10:29:31 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:29:31 INFO: Current average volume is: 2933.9
+2025-08-11 10:29:31 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:30:31 INFO: {'MU': {   'close': 124.82,
+    'high': 124.86,
+    'low': 124.76,
+    'open': 124.86,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 1795.0,
+    'vwap': 124.80556}}
+2025-08-11 10:30:31 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:30:31 INFO: Current average volume is: 2842.0
+2025-08-11 10:30:31 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:31:31 INFO: {'MU': {   'close': 124.895,
+    'high': 124.96,
+    'low': 124.81,
+    'open': 124.81,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2154.0,
+    'vwap': 124.878226}}
+2025-08-11 10:31:31 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:31:31 INFO: Current average volume is: 2853.6
+2025-08-11 10:31:31 INFO: Updated resistance to: 125.05 and support to: 123.23
+2025-08-11 10:32:32 INFO: {'MU': {   'close': 124.885,
+    'high': 125.065,
+    'low': 124.885,
+    'open': 124.975,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1914.0,
+    'vwap': 124.997353}}
+2025-08-11 10:32:32 INFO: Current resistance is: 125.05 and support is: 123.23
+2025-08-11 10:32:32 INFO: Current average volume is: 2641.3
+2025-08-11 10:32:32 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:33:32 INFO: {'MU': {   'close': 124.61,
+    'high': 124.87,
+    'low': 124.61,
+    'open': 124.85,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 3343.0,
+    'vwap': 124.723193}}
+2025-08-11 10:33:32 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:33:32 INFO: Current average volume is: 2011.2
+2025-08-11 10:33:32 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:34:32 INFO: {'MU': {   'close': 124.315,
+    'high': 124.57,
+    'low': 124.315,
+    'open': 124.565,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1418.0,
+    'vwap': 124.485}}
+2025-08-11 10:34:32 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:34:32 INFO: Current average volume is: 2101.9
+2025-08-11 10:34:32 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:35:32 INFO: {'MU': {   'close': 124.235,
+    'high': 124.34,
+    'low': 124.21,
+    'open': 124.34,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1582.0,
+    'vwap': 124.256505}}
+2025-08-11 10:35:32 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:35:32 INFO: Current average volume is: 2048.6
+2025-08-11 10:35:32 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:36:32 INFO: {'MU': {   'close': 123.94,
+    'high': 124.16,
+    'low': 123.87,
+    'open': 124.11,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2834.0,
+    'vwap': 124.027559}}
+2025-08-11 10:36:32 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:36:32 INFO: Current average volume is: 2079.3
+2025-08-11 10:36:32 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:37:33 INFO: {'MU': {   'close': 123.77,
+    'high': 123.865,
+    'low': 123.72,
+    'open': 123.865,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 2010.0,
+    'vwap': 123.802059}}
+2025-08-11 10:37:33 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:37:33 INFO: Current average volume is: 2011.9
+2025-08-11 10:37:33 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:38:33 INFO: {'MU': {   'close': 123.81,
+    'high': 123.84,
+    'low': 123.675,
+    'open': 123.72,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2089.0,
+    'vwap': 123.740313}}
+2025-08-11 10:38:33 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:38:33 INFO: Current average volume is: 2034.6
+2025-08-11 10:38:33 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:40:34 INFO: {'MU': {   'close': 123.955,
+    'high': 124.02,
+    'low': 123.955,
+    'open': 124.01,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1259.0,
+    'vwap': 123.985263}}
+2025-08-11 10:40:34 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:40:34 INFO: Current average volume is: 2039.8
+2025-08-11 10:40:34 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:41:34 INFO: {'MU': {   'close': 124.07,
+    'high': 124.07,
+    'low': 123.96,
+    'open': 124.015,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2360.0,
+    'vwap': 123.996686}}
+2025-08-11 10:41:34 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:41:34 INFO: Current average volume is: 2096.3
+2025-08-11 10:41:34 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:42:34 INFO: {'MU': {   'close': 124.145,
+    'high': 124.145,
+    'low': 124.04,
+    'open': 124.12,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1400.0,
+    'vwap': 124.090517}}
+2025-08-11 10:42:34 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:42:34 INFO: Current average volume is: 2020.9
+2025-08-11 10:42:34 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:43:34 INFO: {'MU': {   'close': 124.08,
+    'high': 124.23,
+    'low': 124.03,
+    'open': 124.23,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1352.0,
+    'vwap': 124.089545}}
+2025-08-11 10:43:34 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:43:34 INFO: Current average volume is: 1964.7
+2025-08-11 10:43:34 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:44:35 INFO: {'MU': {   'close': 124.015,
+    'high': 124.1,
+    'low': 124.015,
+    'open': 124.1,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1071.0,
+    'vwap': 124.071765}}
+2025-08-11 10:44:35 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:44:35 INFO: Current average volume is: 1737.5
+2025-08-11 10:44:35 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:45:35 INFO: {'MU': {   'close': 123.86,
+    'high': 124.03,
+    'low': 123.86,
+    'open': 124.03,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1247.0,
+    'vwap': 123.955882}}
+2025-08-11 10:45:35 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:45:35 INFO: Current average volume is: 1720.4
+2025-08-11 10:45:35 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:46:35 INFO: {'MU': {   'close': 123.54,
+    'high': 123.905,
+    'low': 123.54,
+    'open': 123.905,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 2443.0,
+    'vwap': 123.789858}}
+2025-08-11 10:46:35 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:46:35 INFO: Current average volume is: 1806.5
+2025-08-11 10:46:35 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:47:35 INFO: {'MU': {   'close': 123.39,
+    'high': 123.58,
+    'low': 123.39,
+    'open': 123.58,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1796.0,
+    'vwap': 123.506187}}
+2025-08-11 10:47:35 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:47:35 INFO: Current average volume is: 1702.7
+2025-08-11 10:47:35 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:48:36 INFO: {'MU': {   'close': 123.31,
+    'high': 123.485,
+    'low': 123.31,
+    'open': 123.39,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1957.0,
+    'vwap': 123.393861}}
+2025-08-11 10:48:36 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:48:36 INFO: Current average volume is: 1697.4
+2025-08-11 10:48:36 INFO: Updated resistance to: 125.065 and support to: 123.23
+2025-08-11 10:49:36 INFO: {'MU': {   'close': 123.14,
+    'high': 123.26,
+    'low': 123.1,
+    'open': 123.25,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1764.0,
+    'vwap': 123.187241}}
+2025-08-11 10:49:36 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:49:36 INFO: Current average volume is: 1664.9
+2025-08-11 10:49:36 INFO: close price: 123.14 just dropped below support of 123.23...
+2025-08-11 10:50:36 INFO: {'MU': {   'close': 123.12,
+    'high': 123.34,
+    'low': 123.12,
+    'open': 123.13,
+    'symbol': 'MU',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1772.0,
+    'vwap': 123.222015}}
+2025-08-11 10:50:36 INFO: Current resistance is: 125.065 and support is: 123.23
+2025-08-11 10:50:36 INFO: Current average volume is: 1716.2
+2025-08-11 10:50:36 INFO: Closing price: 123.12 just dropped below support 123.23 again...ending trade...

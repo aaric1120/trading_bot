@@ -1,0 +1,847 @@
+2025-08-11 10:50:18 INFO: === Strategy started ===
+2025-08-11 10:50:18 INFO: Start collecting the current highs/lows for: ELF
+2025-08-11 10:50:18 INFO: Most recent stock data: {'ELF': {   'close': 110.385,
+    'high': 110.385,
+    'low': 110.385,
+    'open': 110.385,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 110.385}}
+2025-08-11 10:54:20 INFO: Most recent stock data: {'ELF': {   'close': 110.57,
+    'high': 110.57,
+    'low': 110.57,
+    'open': 110.57,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 110.57}}
+2025-08-11 10:55:20 INFO: Most recent stock data: {'ELF': {   'close': 110.26,
+    'high': 110.45,
+    'low': 110.26,
+    'open': 110.45,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2351.0,
+    'vwap': 110.376108}}
+2025-08-11 10:56:21 INFO: Most recent stock data: {'ELF': {   'close': 110.245,
+    'high': 110.245,
+    'low': 110.245,
+    'open': 110.245,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 435.0,
+    'vwap': 110.245}}
+2025-08-11 10:57:21 INFO: Most recent stock data: {'ELF': {   'close': 108.99,
+    'high': 108.99,
+    'low': 108.99,
+    'open': 108.99,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 251.0,
+    'vwap': 108.99}}
+2025-08-11 10:58:21 INFO: Most recent stock data: {'ELF': {   'close': 109.32,
+    'high': 109.32,
+    'low': 109.32,
+    'open': 109.32,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 363.0,
+    'vwap': 109.32}}
+2025-08-11 11:00:22 INFO: Most recent stock data: {'ELF': {   'close': 109.33,
+    'high': 109.33,
+    'low': 109.3,
+    'open': 109.3,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 596.0,
+    'vwap': 109.3225}}
+2025-08-11 11:02:23 INFO: Most recent stock data: {'ELF': {   'close': 108.95,
+    'high': 109.42,
+    'low': 108.95,
+    'open': 109.305,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1731.0,
+    'vwap': 109.188419}}
+2025-08-11 11:04:23 INFO: Most recent stock data: {'ELF': {   'close': 109.15,
+    'high': 109.15,
+    'low': 109.14,
+    'open': 109.14,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 109.146}}
+2025-08-11 11:05:27 INFO: Most recent stock data: {'ELF': {   'close': 109.05,
+    'high': 109.27,
+    'low': 109.05,
+    'open': 109.155,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 686.0,
+    'vwap': 109.158333}}
+2025-08-11 11:06:27 INFO: Most recent stock data: {'ELF': {   'close': 109.25,
+    'high': 109.25,
+    'low': 109.24,
+    'open': 109.24,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 469.0,
+    'vwap': 109.245}}
+2025-08-11 11:06:27 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-11 11:06:27 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-11 11:08:28 INFO: {'ELF': {   'close': 109.41,
+    'high': 109.41,
+    'low': 109.4,
+    'open': 109.4,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 422.0,
+    'vwap': 109.406667}}
+2025-08-11 11:08:28 INFO: Current resistance is: 109.108 and support is: 108.316
+2025-08-11 11:08:28 INFO: Current average volume is: 780.4
+2025-08-11 11:08:28 INFO: The Current Close 109.41 is above the resistance...
+2025-08-11 11:08:28 INFO: Updated resistance to: 109.222 and support to: 108.304
+2025-08-11 11:09:28 INFO: {'ELF': {   'close': 109.77,
+    'high': 109.77,
+    'low': 109.77,
+    'open': 109.77,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 180.0,
+    'vwap': 109.77}}
+2025-08-11 11:09:28 INFO: Current resistance is: 109.222 and support is: 108.304
+2025-08-11 11:09:28 INFO: Current average volume is: 563.3
+2025-08-11 11:09:28 INFO: The current close: 109.77 is above the resistance of 109.222, but volume isn't enough...
+2025-08-11 11:09:28 INFO: Updated resistance to: 109.463 and support to: 108.38
+2025-08-11 11:10:29 INFO: {'ELF': {   'close': 109.73,
+    'high': 109.75,
+    'low': 109.73,
+    'open': 109.75,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 109.742}}
+2025-08-11 11:10:29 INFO: Current resistance is: 109.463 and support is: 108.38
+2025-08-11 11:10:29 INFO: Current average volume is: 549.8
+2025-08-11 11:10:29 INFO: The current close: 109.73 is above the resistance of 109.463, but volume isn't enough...
+2025-08-11 11:10:29 INFO: Updated resistance to: 109.644 and support to: 108.447
+2025-08-11 11:11:30 INFO: {'ELF': {   'close': 109.355,
+    'high': 109.355,
+    'low': 109.355,
+    'open': 109.355,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 108.0,
+    'vwap': 109.355}}
+2025-08-11 11:11:30 INFO: Current resistance is: 109.644 and support is: 108.447
+2025-08-11 11:11:30 INFO: Current average volume is: 535.5
+2025-08-11 11:11:30 INFO: Updated resistance to: 109.652 and support to: 108.435
+2025-08-11 11:12:30 INFO: {'ELF': {   'close': 109.19,
+    'high': 109.19,
+    'low': 109.19,
+    'open': 109.19,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 250.0,
+    'vwap': 109.19}}
+2025-08-11 11:12:30 INFO: Current resistance is: 109.652 and support is: 108.435
+2025-08-11 11:12:30 INFO: Current average volume is: 524.2
+2025-08-11 11:12:30 INFO: Updated resistance to: 109.609 and support to: 108.395
+2025-08-11 11:14:30 INFO: {'ELF': {   'close': 109.28,
+    'high': 109.29,
+    'low': 109.28,
+    'open': 109.29,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 404.0,
+    'vwap': 109.285}}
+2025-08-11 11:14:30 INFO: Current resistance is: 109.609 and support is: 108.395
+2025-08-11 11:14:30 INFO: Current average volume is: 505.0
+2025-08-11 11:14:30 INFO: Updated resistance to: 109.614 and support to: 108.382
+2025-08-11 11:15:31 INFO: {'ELF': {   'close': 109.37,
+    'high': 109.37,
+    'low': 109.37,
+    'open': 109.37,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 114.0,
+    'vwap': 109.37}}
+2025-08-11 11:15:31 INFO: Current resistance is: 109.614 and support is: 108.382
+2025-08-11 11:15:31 INFO: Current average volume is: 343.3
+2025-08-11 11:15:31 INFO: Updated resistance to: 109.647 and support to: 108.391
+2025-08-11 11:16:31 INFO: {'ELF': {   'close': 109.71,
+    'high': 109.71,
+    'low': 109.71,
+    'open': 109.71,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 109.71}}
+2025-08-11 11:16:31 INFO: Current resistance is: 109.647 and support is: 108.391
+2025-08-11 11:16:31 INFO: Current average volume is: 305.3
+2025-08-11 11:16:31 INFO: The Current Close 109.71 is above the resistance...
+2025-08-11 11:16:31 INFO: Updated resistance to: 109.775 and support to: 108.466
+2025-08-11 11:18:02 INFO: {'ELF': {   'close': 109.65,
+    'high': 109.65,
+    'low': 109.65,
+    'open': 109.65,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 111.0,
+    'vwap': 109.65}}
+2025-08-11 11:18:02 INFO: Current resistance is: 109.775 and support is: 108.466
+2025-08-11 11:18:02 INFO: Current average volume is: 247.8
+2025-08-11 11:18:02 INFO: Updated resistance to: 109.867 and support to: 108.521
+2025-08-11 11:19:02 INFO: {'ELF': {   'close': 109.64,
+    'high': 109.64,
+    'low': 109.64,
+    'open': 109.64,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 222.0,
+    'vwap': 109.64}}
+2025-08-11 11:19:02 INFO: Current resistance is: 109.867 and support is: 108.521
+2025-08-11 11:19:02 INFO: Current average volume is: 223.1
+2025-08-11 11:19:02 INFO: Updated resistance to: 109.943 and support to: 108.568
+2025-08-11 11:20:03 INFO: {'ELF': {   'close': 109.625,
+    'high': 109.65,
+    'low': 109.625,
+    'open': 109.65,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 407.0,
+    'vwap': 109.635163}}
+2025-08-11 11:20:03 INFO: Current resistance is: 109.943 and support is: 108.568
+2025-08-11 11:20:03 INFO: Current average volume is: 221.6
+2025-08-11 11:20:03 INFO: Updated resistance to: 110.011 and support to: 108.608
+2025-08-11 11:21:03 INFO: {'ELF': {   'close': 109.81,
+    'high': 109.81,
+    'low': 109.81,
+    'open': 109.81,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 109.81}}
+2025-08-11 11:21:03 INFO: Current resistance is: 110.011 and support is: 108.608
+2025-08-11 11:21:03 INFO: Current average volume is: 223.6
+2025-08-11 11:21:03 INFO: Updated resistance to: 110.108 and support to: 108.675
+2025-08-11 11:24:04 INFO: {'ELF': {   'close': 110.17,
+    'high': 110.17,
+    'low': 109.91,
+    'open': 109.91,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 817.0,
+    'vwap': 110.045}}
+2025-08-11 11:24:04 INFO: Current resistance is: 110.108 and support is: 108.675
+2025-08-11 11:24:04 INFO: Current average volume is: 275.3
+2025-08-11 11:24:04 INFO: The Current Close 110.17 is above the resistance...
+2025-08-11 11:24:04 INFO: Updated resistance to: 110.274 and support to: 108.752
+2025-08-11 11:25:04 INFO: {'ELF': {   'close': 110.055,
+    'high': 110.08,
+    'low': 110.055,
+    'open': 110.08,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 409.0,
+    'vwap': 110.063333}}
+2025-08-11 11:25:04 INFO: Current resistance is: 110.274 and support is: 108.752
+2025-08-11 11:25:04 INFO: Current average volume is: 305.4
+2025-08-11 11:25:04 INFO: Updated resistance to: 110.396 and support to: 108.844
+2025-08-11 11:26:04 INFO: {'ELF': {   'close': 110.06,
+    'high': 110.06,
+    'low': 109.97,
+    'open': 109.97,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1048.0,
+    'vwap': 110.008333}}
+2025-08-11 11:26:04 INFO: Current resistance is: 110.396 and support is: 108.844
+2025-08-11 11:26:04 INFO: Current average volume is: 385.2
+2025-08-11 11:26:04 INFO: Updated resistance to: 110.497 and support to: 108.911
+2025-08-11 11:28:05 INFO: {'ELF': {   'close': 110.19,
+    'high': 110.19,
+    'low': 110.19,
+    'open': 110.19,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 245.0,
+    'vwap': 110.19}}
+2025-08-11 11:28:05 INFO: Current resistance is: 110.497 and support is: 108.911
+2025-08-11 11:28:05 INFO: Current average volume is: 369.3
+2025-08-11 11:28:05 INFO: Updated resistance to: 110.611 and support to: 109.005
+2025-08-11 11:30:05 INFO: {'ELF': {   'close': 110.1,
+    'high': 110.11,
+    'low': 110.09,
+    'open': 110.11,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 550.0,
+    'vwap': 110.1}}
+2025-08-11 11:30:05 INFO: Current resistance is: 110.611 and support is: 109.005
+2025-08-11 11:30:05 INFO: Current average volume is: 412.9
+2025-08-11 11:30:05 INFO: Updated resistance to: 110.693 and support to: 109.072
+2025-08-11 11:34:07 INFO: {'ELF': {   'close': 110.295,
+    'high': 110.3,
+    'low': 110.25,
+    'open': 110.3,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 800.0,
+    'vwap': 110.286429}}
+2025-08-11 11:34:07 INFO: Current resistance is: 110.693 and support is: 109.072
+2025-08-11 11:34:07 INFO: Current average volume is: 480.9
+2025-08-11 11:34:07 INFO: Updated resistance to: 110.801 and support to: 109.156
+2025-08-11 11:36:08 INFO: {'ELF': {   'close': 110.87,
+    'high': 110.87,
+    'low': 110.42,
+    'open': 110.42,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1207.0,
+    'vwap': 110.507863}}
+2025-08-11 11:36:08 INFO: Current resistance is: 110.801 and support is: 109.156
+2025-08-11 11:36:08 INFO: Current average volume is: 590.5
+2025-08-11 11:36:08 INFO: The Current Close 110.87 is above the resistance...
+2025-08-11 11:36:08 INFO: Updated resistance to: 110.885 and support to: 109.256
+2025-08-11 11:37:08 INFO: {'ELF': {   'close': 110.925,
+    'high': 111.055,
+    'low': 110.925,
+    'open': 111.055,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1642.0,
+    'vwap': 110.982333}}
+2025-08-11 11:37:08 INFO: Current resistance is: 110.885 and support is: 109.256
+2025-08-11 11:37:08 INFO: Current average volume is: 732.5
+2025-08-11 11:37:08 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-11 11:38:09 INFO: {'ELF': {   'close': 110.975,
+    'high': 111.0,
+    'low': 110.975,
+    'open': 111.0,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 110.983333}}
+2025-08-11 11:38:09 INFO: Current resistance is: 110.885 and support is: 109.256
+2025-08-11 11:38:09 INFO: Current average volume is: 731.8
+2025-08-11 11:38:09 INFO: The current close: 110.975 is above the resistance of 110.885, but volume isn't enough...
+2025-08-11 11:38:09 INFO: Updated resistance to: 111.107 and support to: 109.569
+2025-08-11 11:39:09 INFO: {'ELF': {   'close': 110.935,
+    'high': 110.99,
+    'low': 110.935,
+    'open': 110.975,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1076.0,
+    'vwap': 110.96}}
+2025-08-11 11:39:09 INFO: Current resistance is: 111.107 and support is: 109.569
+2025-08-11 11:39:09 INFO: Current average volume is: 819.4
+2025-08-11 11:39:09 INFO: Updated resistance to: 111.145 and support to: 109.699
+2025-08-11 11:42:11 INFO: {'ELF': {   'close': 111.235,
+    'high': 111.235,
+    'low': 111.235,
+    'open': 111.235,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 838.0,
+    'vwap': 111.235}}
+2025-08-11 11:42:11 INFO: Current resistance is: 111.145 and support is: 109.699
+2025-08-11 11:42:11 INFO: Current average volume is: 821.5
+2025-08-11 11:42:11 INFO: The Current Close 111.235 is above the resistance...
+2025-08-11 11:42:11 INFO: Updated resistance to: 111.269 and support to: 109.855
+2025-08-11 11:43:11 INFO: {'ELF': {   'close': 111.45,
+    'high': 111.45,
+    'low': 111.32,
+    'open': 111.32,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1005.0,
+    'vwap': 111.398571}}
+2025-08-11 11:43:11 INFO: Current resistance is: 111.269 and support is: 109.855
+2025-08-11 11:43:11 INFO: Current average volume is: 881.1
+2025-08-11 11:43:11 INFO: The current close: 111.45 is above the resistance of 111.269, but volume isn't enough...
+2025-08-11 11:43:11 INFO: Updated resistance to: 111.489 and support to: 110.006
+2025-08-11 11:44:12 INFO: {'ELF': {   'close': 111.49,
+    'high': 111.61,
+    'low': 111.49,
+    'open': 111.49,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1292.0,
+    'vwap': 111.525714}}
+2025-08-11 11:44:12 INFO: Current resistance is: 111.489 and support is: 110.006
+2025-08-11 11:44:12 INFO: Current average volume is: 905.5
+2025-08-11 11:44:12 INFO: The current close: 111.49 is above the resistance of 111.489, but volume isn't enough...
+2025-08-11 11:44:12 INFO: Updated resistance to: 111.653 and support to: 110.164
+2025-08-11 11:45:13 INFO: {'ELF': {   'close': 111.17,
+    'high': 111.365,
+    'low': 111.11,
+    'open': 111.365,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 652.0,
+    'vwap': 111.236}}
+2025-08-11 11:45:13 INFO: Current resistance is: 111.653 and support is: 110.164
+2025-08-11 11:45:13 INFO: Current average volume is: 946.2
+2025-08-11 11:45:13 INFO: Updated resistance to: 111.701 and support to: 110.257
+2025-08-11 11:46:13 INFO: {'ELF': {   'close': 111.0,
+    'high': 111.065,
+    'low': 111.0,
+    'open': 111.05,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 612.0,
+    'vwap': 111.038333}}
+2025-08-11 11:46:13 INFO: Current resistance is: 111.701 and support is: 110.257
+2025-08-11 11:46:13 INFO: Current average volume is: 952.4
+2025-08-11 11:46:13 INFO: Updated resistance to: 111.748 and support to: 110.326
+2025-08-11 11:47:13 INFO: {'ELF': {   'close': 111.49,
+    'high': 111.49,
+    'low': 110.99,
+    'open': 111.0,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 469.0,
+    'vwap': 111.2425}}
+2025-08-11 11:47:13 INFO: Current resistance is: 111.748 and support is: 110.326
+2025-08-11 11:47:13 INFO: Current average volume is: 919.3
+2025-08-11 11:47:13 INFO: Updated resistance to: 111.803 and support to: 110.386
+2025-08-11 11:48:14 INFO: {'ELF': {   'close': 111.12,
+    'high': 111.14,
+    'low': 111.12,
+    'open': 111.14,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 252.0,
+    'vwap': 111.128}}
+2025-08-11 11:48:14 INFO: Current resistance is: 111.803 and support is: 110.386
+2025-08-11 11:48:14 INFO: Current average volume is: 823.8
+2025-08-11 11:48:14 INFO: Updated resistance to: 111.852 and support to: 110.455
+2025-08-11 11:49:14 INFO: {'ELF': {   'close': 110.8,
+    'high': 110.91,
+    'low': 110.8,
+    'open': 110.91,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1059.0,
+    'vwap': 110.833846}}
+2025-08-11 11:49:14 INFO: Current resistance is: 111.852 and support is: 110.455
+2025-08-11 11:49:14 INFO: Current average volume is: 765.5
+2025-08-11 11:49:14 INFO: Updated resistance to: 111.896 and support to: 110.479
+2025-08-11 11:50:14 INFO: {'ELF': {   'close': 110.835,
+    'high': 110.84,
+    'low': 110.835,
+    'open': 110.84,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 502.0,
+    'vwap': 110.8375}}
+2025-08-11 11:50:14 INFO: Current resistance is: 111.896 and support is: 110.479
+2025-08-11 11:50:14 INFO: Current average volume is: 775.7
+2025-08-11 11:50:14 INFO: Updated resistance to: 111.937 and support to: 110.503
+2025-08-11 11:51:15 INFO: {'ELF': {   'close': 111.145,
+    'high': 111.145,
+    'low': 110.97,
+    'open': 110.97,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 387.0,
+    'vwap': 111.0575}}
+2025-08-11 11:51:15 INFO: Current resistance is: 111.937 and support is: 110.503
+2025-08-11 11:51:15 INFO: Current average volume is: 706.8
+2025-08-11 11:51:15 INFO: Updated resistance to: 111.983 and support to: 110.54
+2025-08-11 11:52:15 INFO: {'ELF': {   'close': 111.08,
+    'high': 111.08,
+    'low': 111.08,
+    'open': 111.08,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 277.0,
+    'vwap': 111.08}}
+2025-08-11 11:52:15 INFO: Current resistance is: 111.983 and support is: 110.54
+2025-08-11 11:52:15 INFO: Current average volume is: 650.7
+2025-08-11 11:52:15 INFO: Updated resistance to: 112.026 and support to: 110.584
+2025-08-11 11:54:16 INFO: {'ELF': {   'close': 111.015,
+    'high': 111.02,
+    'low': 111.015,
+    'open': 111.02,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 288.0,
+    'vwap': 111.0175}}
+2025-08-11 11:54:16 INFO: Current resistance is: 112.026 and support is: 110.584
+2025-08-11 11:54:16 INFO: Current average volume is: 579.0
+2025-08-11 11:54:16 INFO: Updated resistance to: 112.065 and support to: 110.616
+2025-08-11 11:55:16 INFO: {'ELF': {   'close': 110.955,
+    'high': 111.04,
+    'low': 110.955,
+    'open': 111.03,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 673.0,
+    'vwap': 110.992842}}
+2025-08-11 11:55:16 INFO: Current resistance is: 112.065 and support is: 110.616
+2025-08-11 11:55:16 INFO: Current average volume is: 517.1
+2025-08-11 11:55:16 INFO: Updated resistance to: 112.104 and support to: 110.638
+2025-08-11 11:56:16 INFO: {'ELF': {   'close': 110.98,
+    'high': 110.98,
+    'low': 110.98,
+    'open': 110.98,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 330.0,
+    'vwap': 110.98}}
+2025-08-11 11:56:16 INFO: Current resistance is: 112.104 and support is: 110.638
+2025-08-11 11:56:16 INFO: Current average volume is: 484.9
+2025-08-11 11:56:16 INFO: Updated resistance to: 112.139 and support to: 110.66
+2025-08-11 11:57:17 INFO: {'ELF': {   'close': 111.01,
+    'high': 111.01,
+    'low': 111.01,
+    'open': 111.01,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 601.0,
+    'vwap': 111.01}}
+2025-08-11 11:57:17 INFO: Current resistance is: 112.139 and support is: 110.66
+2025-08-11 11:57:17 INFO: Current average volume is: 483.8
+2025-08-11 11:57:17 INFO: Updated resistance to: 112.172 and support to: 110.682
+2025-08-11 11:58:17 INFO: {'ELF': {   'close': 111.22,
+    'high': 111.22,
+    'low': 110.99,
+    'open': 111.02,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1085.0,
+    'vwap': 111.08125}}
+2025-08-11 11:58:17 INFO: Current resistance is: 112.172 and support is: 110.682
+2025-08-11 11:58:17 INFO: Current average volume is: 545.4
+2025-08-11 11:58:17 INFO: Updated resistance to: 112.212 and support to: 110.699
+2025-08-11 11:59:17 INFO: {'ELF': {   'close': 111.3,
+    'high': 111.3,
+    'low': 111.3,
+    'open': 111.3,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 111.3}}
+2025-08-11 11:59:17 INFO: Current resistance is: 112.212 and support is: 110.699
+2025-08-11 11:59:17 INFO: Current average volume is: 540.2
+2025-08-11 11:59:17 INFO: Updated resistance to: 112.252 and support to: 110.745
+2025-08-11 12:00:18 INFO: {'ELF': {   'close': 111.2,
+    'high': 111.4,
+    'low': 111.2,
+    'open': 111.4,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 539.0,
+    'vwap': 111.276}}
+2025-08-11 12:00:18 INFO: Current resistance is: 112.252 and support is: 110.745
+2025-08-11 12:00:18 INFO: Current average volume is: 488.2
+2025-08-11 12:00:18 INFO: Updated resistance to: 112.295 and support to: 110.777
+2025-08-11 12:01:20 INFO: {'ELF': {   'close': 111.115,
+    'high': 111.115,
+    'low': 111.115,
+    'open': 111.115,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 330.0,
+    'vwap': 111.115}}
+2025-08-11 12:01:20 INFO: Current resistance is: 112.295 and support is: 110.777
+2025-08-11 12:01:20 INFO: Current average volume is: 471.0
+2025-08-11 12:01:20 INFO: Updated resistance to: 112.325 and support to: 110.796
+2025-08-11 12:02:20 INFO: {'ELF': {   'close': 111.12,
+    'high': 111.12,
+    'low': 111.12,
+    'open': 111.12,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 160.0,
+    'vwap': 111.12}}
+2025-08-11 12:02:20 INFO: Current resistance is: 112.325 and support is: 110.796
+2025-08-11 12:02:20 INFO: Current average volume is: 448.3
+2025-08-11 12:02:20 INFO: Updated resistance to: 112.354 and support to: 110.814
+2025-08-11 12:03:21 INFO: {'ELF': {   'close': 111.22,
+    'high': 111.22,
+    'low': 111.22,
+    'open': 111.22,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 250.0,
+    'vwap': 111.22}}
+2025-08-11 12:03:21 INFO: Current resistance is: 112.354 and support is: 110.814
+2025-08-11 12:03:21 INFO: Current average volume is: 445.6
+2025-08-11 12:03:21 INFO: Updated resistance to: 112.386 and support to: 110.839
+2025-08-11 12:06:22 INFO: {'ELF': {   'close': 111.535,
+    'high': 111.535,
+    'low': 111.52,
+    'open': 111.52,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 277.0,
+    'vwap': 111.5275}}
+2025-08-11 12:06:22 INFO: Current resistance is: 112.386 and support is: 110.839
+2025-08-11 12:06:22 INFO: Current average volume is: 444.5
+2025-08-11 12:06:22 INFO: Updated resistance to: 112.428 and support to: 110.889
+2025-08-11 12:08:22 INFO: {'ELF': {   'close': 111.53,
+    'high': 111.53,
+    'low': 111.53,
+    'open': 111.53,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 241.0,
+    'vwap': 111.53}}
+2025-08-11 12:08:22 INFO: Current resistance is: 112.428 and support is: 110.889
+2025-08-11 12:08:22 INFO: Current average volume is: 401.3
+2025-08-11 12:08:22 INFO: Updated resistance to: 112.468 and support to: 110.936
+2025-08-11 12:10:23 INFO: {'ELF': {   'close': 112.03,
+    'high': 112.03,
+    'low': 112.03,
+    'open': 112.03,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 143.0,
+    'vwap': 112.03}}
+2025-08-11 12:10:23 INFO: Current resistance is: 112.468 and support is: 110.936
+2025-08-11 12:10:23 INFO: Current average volume is: 382.6
+2025-08-11 12:10:23 INFO: Updated resistance to: 112.072 and support to: 111.024
+2025-08-11 12:11:23 INFO: {'ELF': {   'close': 111.975,
+    'high': 112.065,
+    'low': 111.975,
+    'open': 112.065,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 470.0,
+    'vwap': 112.006667}}
+2025-08-11 12:11:23 INFO: Current resistance is: 112.072 and support is: 111.024
+2025-08-11 12:11:23 INFO: Current average volume is: 369.5
+2025-08-11 12:11:23 INFO: Updated resistance to: 112.107 and support to: 111.101
+2025-08-11 12:13:24 INFO: {'ELF': {   'close': 111.85,
+    'high': 111.85,
+    'low': 111.85,
+    'open': 111.85,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 150.0,
+    'vwap': 111.85}}
+2025-08-11 12:13:24 INFO: Current resistance is: 112.107 and support is: 111.101
+2025-08-11 12:13:24 INFO: Current average volume is: 276.0
+2025-08-11 12:13:24 INFO: Updated resistance to: 112.15 and support to: 111.161
+2025-08-11 12:15:24 INFO: {'ELF': {   'close': 112.38,
+    'high': 112.38,
+    'low': 111.995,
+    'open': 111.995,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 655.0,
+    'vwap': 112.265833}}
+2025-08-11 12:15:24 INFO: Current resistance is: 112.15 and support is: 111.161
+2025-08-11 12:15:24 INFO: Current average volume is: 321.5
+2025-08-11 12:15:24 INFO: The Current Close 112.38 is above the resistance...
+2025-08-11 12:15:24 INFO: Updated resistance to: 112.424 and support to: 111.228
+2025-08-11 12:16:25 INFO: {'ELF': {   'close': 112.52,
+    'high': 112.52,
+    'low': 112.45,
+    'open': 112.45,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 324.0,
+    'vwap': 112.485}}
+2025-08-11 12:16:25 INFO: Current resistance is: 112.424 and support is: 111.228
+2025-08-11 12:16:25 INFO: Current average volume is: 300.0
+2025-08-11 12:16:25 INFO: The current close: 112.52 is above the resistance of 112.424, but volume isn't enough...
+2025-08-11 12:16:25 INFO: Updated resistance to: 112.565 and support to: 111.33
+2025-08-11 12:18:26 INFO: {'ELF': {   'close': 112.42,
+    'high': 112.53,
+    'low': 112.42,
+    'open': 112.51,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1396.0,
+    'vwap': 112.504918}}
+2025-08-11 12:18:26 INFO: Current resistance is: 112.565 and support is: 111.33
+2025-08-11 12:18:26 INFO: Current average volume is: 406.6
+2025-08-11 12:18:26 INFO: Updated resistance to: 112.576 and support to: 111.421
+2025-08-11 12:19:26 INFO: {'ELF': {   'close': 112.52,
+    'high': 112.52,
+    'low': 112.46,
+    'open': 112.49,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1065.0,
+    'vwap': 112.502393}}
+2025-08-11 12:19:26 INFO: Current resistance is: 112.576 and support is: 111.421
+2025-08-11 12:19:26 INFO: Current average volume is: 497.1
+2025-08-11 12:19:26 INFO: Updated resistance to: 112.622 and support to: 111.51
+2025-08-11 12:22:27 INFO: {'ELF': {   'close': 111.795,
+    'high': 112.42,
+    'low': 111.75,
+    'open': 112.42,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1044.0,
+    'vwap': 112.086111}}
+2025-08-11 12:22:27 INFO: Current resistance is: 112.622 and support is: 111.51
+2025-08-11 12:22:27 INFO: Current average volume is: 576.5
+2025-08-11 12:22:27 INFO: Updated resistance to: 112.67 and support to: 111.534
+2025-08-11 12:23:28 INFO: {'ELF': {   'close': 111.77,
+    'high': 111.77,
+    'low': 111.77,
+    'open': 111.77,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 178.0,
+    'vwap': 111.77}}
+2025-08-11 12:23:28 INFO: Current resistance is: 112.67 and support is: 111.534
+2025-08-11 12:23:28 INFO: Current average volume is: 566.6
+2025-08-11 12:23:28 INFO: Updated resistance to: 112.715 and support to: 111.557
+2025-08-11 12:24:28 INFO: {'ELF': {   'close': 111.935,
+    'high': 112.015,
+    'low': 111.81,
+    'open': 111.81,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1469.0,
+    'vwap': 111.977917}}
+2025-08-11 12:24:28 INFO: Current resistance is: 112.715 and support is: 111.557
+2025-08-11 12:24:28 INFO: Current average volume is: 689.4
+2025-08-11 12:24:28 INFO: Updated resistance to: 112.759 and support to: 111.581
+2025-08-11 12:26:29 INFO: {'ELF': {   'close': 112.35,
+    'high': 112.35,
+    'low': 112.29,
+    'open': 112.3,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 761.0,
+    'vwap': 112.31}}
+2025-08-11 12:26:29 INFO: Current resistance is: 112.759 and support is: 111.581
+2025-08-11 12:26:29 INFO: Current average volume is: 751.2
+2025-08-11 12:26:29 INFO: Updated resistance to: 112.806 and support to: 111.64
+2025-08-11 12:27:29 INFO: {'ELF': {   'close': 112.625,
+    'high': 112.625,
+    'low': 112.43,
+    'open': 112.43,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 452.0,
+    'vwap': 112.56}}
+2025-08-11 12:27:29 INFO: Current resistance is: 112.806 and support is: 111.64
+2025-08-11 12:27:29 INFO: Current average volume is: 749.4
+2025-08-11 12:27:29 INFO: Updated resistance to: 112.671 and support to: 111.706
+2025-08-11 12:30:30 INFO: {'ELF': {   'close': 112.03,
+    'high': 112.03,
+    'low': 112.03,
+    'open': 112.03,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 181.0,
+    'vwap': 112.03}}
+2025-08-11 12:30:30 INFO: Current resistance is: 112.671 and support is: 111.706
+2025-08-11 12:30:30 INFO: Current average volume is: 752.5
+2025-08-11 12:30:30 INFO: Updated resistance to: 112.717 and support to: 111.737
+2025-08-11 12:33:32 INFO: {'ELF': {   'close': 111.85,
+    'high': 111.85,
+    'low': 111.62,
+    'open': 111.62,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 376.0,
+    'vwap': 111.696667}}
+2025-08-11 12:33:32 INFO: Current resistance is: 112.717 and support is: 111.737
+2025-08-11 12:33:32 INFO: Current average volume is: 724.6
+2025-08-11 12:33:32 INFO: Updated resistance to: 112.761 and support to: 111.734
+2025-08-11 12:37:33 INFO: {'ELF': {   'close': 111.44,
+    'high': 111.59,
+    'low': 111.44,
+    'open': 111.59,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 338.0,
+    'vwap': 111.538333}}
+2025-08-11 12:37:33 INFO: Current resistance is: 112.761 and support is: 111.734
+2025-08-11 12:37:33 INFO: Current average volume is: 726.0
+2025-08-11 12:37:33 INFO: close price: 111.44 just dropped below support of 111.734...
+2025-08-11 12:38:33 INFO: {'ELF': {   'close': 111.29,
+    'high': 111.47,
+    'low': 111.29,
+    'open': 111.46,
+    'symbol': 'ELF',
+    'timestamp': datetime.datetime(2025, 8, 11, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 582.0,
+    'vwap': 111.4225}}
+2025-08-11 12:38:33 INFO: Current resistance is: 112.761 and support is: 111.734
+2025-08-11 12:38:33 INFO: Current average volume is: 644.6
+2025-08-11 12:38:33 INFO: Closing price: 111.29 just dropped below support 111.734 again...ending trade...

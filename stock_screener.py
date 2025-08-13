@@ -29,7 +29,7 @@ def get_undervalued_stocks():
     filters_dict = {'Price': 'Over $1',
                     'Average Volume':'Over 1M',
                     'Relative Volume': 'Over 3',
-                    'Average True Range': 'Over 1'
+                    'Average True Range': 'Over 0.5'
                     }
 
     foverview.set_filter(filters_dict=filters_dict)
