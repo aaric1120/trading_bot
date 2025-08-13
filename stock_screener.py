@@ -34,15 +34,12 @@ def get_undervalued_stocks():
 
     foverview.set_filter(filters_dict=filters_dict)
     df_overview = foverview.screener_view()
-    # if not os.path.exists('out'):  # ensures you have an 'out' folder ready
-    #     os.makedirs('out')
-    # df_overview.to_csv('out/Overview.csv', index=False)
+
     if (df_overview is not None):
         tickers = df_overview['Ticker'].to_list()
         shuffle(tickers)
         return tickers
-    # print("Current list of valid stocks...")
-    # print(tickers)
+
     return None
 
 
