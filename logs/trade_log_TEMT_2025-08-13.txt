@@ -1,0 +1,562 @@
+2025-08-13 09:55:15 INFO: === Strategy started ===
+2025-08-13 09:55:15 INFO: Start collecting the current highs/lows for: TEMT
+2025-08-13 09:55:15 INFO: Most recent stock data: {'TEMT': {   'close': 24.935,
+    'high': 24.935,
+    'low': 24.935,
+    'open': 24.935,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 24.935}}
+2025-08-13 09:57:15 INFO: Most recent stock data: {'TEMT': {   'close': 24.48,
+    'high': 24.48,
+    'low': 24.48,
+    'open': 24.48,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.48}}
+2025-08-13 09:58:16 INFO: Most recent stock data: {'TEMT': {   'close': 24.35,
+    'high': 24.35,
+    'low': 24.35,
+    'open': 24.35,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 24.35}}
+2025-08-13 09:59:16 INFO: Most recent stock data: {'TEMT': {   'close': 24.33,
+    'high': 24.33,
+    'low': 24.33,
+    'open': 24.33,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.33}}
+2025-08-13 10:01:16 INFO: Most recent stock data: {'TEMT': {   'close': 24.25,
+    'high': 24.25,
+    'low': 24.25,
+    'open': 24.25,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 24.25}}
+2025-08-13 10:02:16 INFO: Most recent stock data: {'TEMT': {   'close': 24.17,
+    'high': 24.17,
+    'low': 24.15,
+    'open': 24.15,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 24.16}}
+2025-08-13 10:08:18 INFO: Most recent stock data: {'TEMT': {   'close': 24.8,
+    'high': 24.8,
+    'low': 24.79,
+    'open': 24.79,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 24.795}}
+2025-08-13 10:09:18 INFO: Most recent stock data: {'TEMT': {   'close': 24.83,
+    'high': 24.83,
+    'low': 24.69,
+    'open': 24.69,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 250.0,
+    'vwap': 24.746}}
+2025-08-13 10:10:18 INFO: Most recent stock data: {'TEMT': {   'close': 24.74,
+    'high': 24.74,
+    'low': 24.74,
+    'open': 24.74,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.74}}
+2025-08-13 10:13:19 INFO: Most recent stock data: {'TEMT': {   'close': 24.16,
+    'high': 24.16,
+    'low': 24.16,
+    'open': 24.16,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 320.0,
+    'vwap': 24.16}}
+2025-08-13 10:14:19 INFO: Most recent stock data: {'TEMT': {   'close': 24.32,
+    'high': 24.34,
+    'low': 24.32,
+    'open': 24.34,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 250.0,
+    'vwap': 24.332}}
+2025-08-13 10:14:19 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 10:14:19 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-13 10:16:19 INFO: {'TEMT': {   'close': 24.56,
+    'high': 24.59,
+    'low': 24.55,
+    'open': 24.59,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 350.0,
+    'vwap': 24.57}}
+2025-08-13 10:16:19 INFO: Current resistance is: 24.935 and support is: 24.15
+2025-08-13 10:16:19 INFO: Current average volume is: 218.0
+2025-08-13 10:16:19 INFO: Updated resistance to: 24.935 and support to: 24.15
+2025-08-13 10:17:20 INFO: {'TEMT': {   'close': 24.5,
+    'high': 24.5,
+    'low': 24.5,
+    'open': 24.5,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 150.0,
+    'vwap': 24.5}}
+2025-08-13 10:17:20 INFO: Current resistance is: 24.935 and support is: 24.15
+2025-08-13 10:17:20 INFO: Current average volume is: 213.0
+2025-08-13 10:17:20 INFO: Updated resistance to: 24.935 and support to: 24.15
+2025-08-13 10:22:21 INFO: {'TEMT': {   'close': 25.08,
+    'high': 25.08,
+    'low': 25.08,
+    'open': 25.08,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 25.08}}
+2025-08-13 10:22:21 INFO: Current resistance is: 24.935 and support is: 24.15
+2025-08-13 10:22:21 INFO: Current average volume is: 233.0
+2025-08-13 10:22:21 INFO: The Current Close 25.08 is above the resistance...
+2025-08-13 10:22:21 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 10:25:22 INFO: {'TEMT': {   'close': 24.94,
+    'high': 24.94,
+    'low': 24.94,
+    'open': 24.94,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 24.94}}
+2025-08-13 10:25:22 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 10:25:22 INFO: Current average volume is: 242.0
+2025-08-13 10:25:22 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 10:31:23 INFO: {'TEMT': {   'close': 25.05,
+    'high': 25.05,
+    'low': 25.05,
+    'open': 25.05,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 150.0,
+    'vwap': 25.05}}
+2025-08-13 10:31:23 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 10:31:23 INFO: Current average volume is: 227.0
+2025-08-13 10:31:23 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 10:32:23 INFO: {'TEMT': {   'close': 25.02,
+    'high': 25.02,
+    'low': 25.02,
+    'open': 25.02,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 231.0,
+    'vwap': 25.02}}
+2025-08-13 10:32:23 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 10:32:23 INFO: Current average volume is: 230.1
+2025-08-13 10:32:23 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 10:33:23 INFO: {'TEMT': {   'close': 25.06,
+    'high': 25.06,
+    'low': 25.06,
+    'open': 25.06,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 25.06}}
+2025-08-13 10:33:23 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 10:33:23 INFO: Current average volume is: 215.1
+2025-08-13 10:33:23 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 10:36:24 INFO: {'TEMT': {   'close': 24.86,
+    'high': 24.86,
+    'low': 24.86,
+    'open': 24.86,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.86}}
+2025-08-13 10:36:24 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 10:36:24 INFO: Current average volume is: 215.1
+2025-08-13 10:36:24 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 10:42:25 INFO: {'TEMT': {   'close': 24.9,
+    'high': 24.9,
+    'low': 24.9,
+    'open': 24.9,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 120.0,
+    'vwap': 24.9}}
+2025-08-13 10:42:25 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 10:42:25 INFO: Current average volume is: 195.1
+2025-08-13 10:42:25 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 10:46:26 INFO: {'TEMT': {   'close': 24.69,
+    'high': 24.69,
+    'low': 24.69,
+    'open': 24.69,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 24.69}}
+2025-08-13 10:46:26 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 10:46:26 INFO: Current average volume is: 190.1
+2025-08-13 10:46:26 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 10:54:27 INFO: {'TEMT': {   'close': 24.58,
+    'high': 24.6,
+    'low': 24.58,
+    'open': 24.6,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1070.0,
+    'vwap': 24.597526}}
+2025-08-13 10:54:27 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 10:54:27 INFO: Current average volume is: 262.1
+2025-08-13 10:54:27 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 11:07:30 INFO: {'TEMT': {   'close': 24.43,
+    'high': 24.43,
+    'low': 24.43,
+    'open': 24.43,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 24.43}}
+2025-08-13 11:07:30 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 11:07:30 INFO: Current average volume is: 267.1
+2025-08-13 11:07:30 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 11:08:30 INFO: {'TEMT': {   'close': 24.37,
+    'high': 24.37,
+    'low': 24.37,
+    'open': 24.37,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.37}}
+2025-08-13 11:08:30 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 11:08:30 INFO: Current average volume is: 247.1
+2025-08-13 11:08:30 INFO: Updated resistance to: 25.08 and support to: 24.15
+2025-08-13 11:18:32 INFO: {'TEMT': {   'close': 24.01,
+    'high': 24.01,
+    'low': 23.82,
+    'open': 23.82,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 23.925}}
+2025-08-13 11:18:32 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 11:18:32 INFO: Current average volume is: 277.1
+2025-08-13 11:18:32 INFO: close price: 24.01 just dropped below support of 24.15...
+2025-08-13 11:19:32 INFO: {'TEMT': {   'close': 24.16,
+    'high': 24.16,
+    'low': 24.11,
+    'open': 24.11,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 24.14}}
+2025-08-13 11:19:32 INFO: Current resistance is: 25.08 and support is: 24.15
+2025-08-13 11:19:32 INFO: Current average volume is: 292.1
+2025-08-13 11:19:32 INFO: Updated resistance to: 25.08 and support to: 24.11
+2025-08-13 11:26:33 INFO: {'TEMT': {   'close': 24.98,
+    'high': 24.98,
+    'low': 24.98,
+    'open': 24.98,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 270.0,
+    'vwap': 24.98}}
+2025-08-13 11:26:33 INFO: Current resistance is: 25.08 and support is: 24.11
+2025-08-13 11:26:33 INFO: Current average volume is: 296.0
+2025-08-13 11:26:33 INFO: Updated resistance to: 25.08 and support to: 24.11
+2025-08-13 11:27:33 INFO: {'TEMT': {   'close': 24.83,
+    'high': 24.83,
+    'low': 24.83,
+    'open': 24.83,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 24.83}}
+2025-08-13 11:27:33 INFO: Current resistance is: 25.08 and support is: 24.11
+2025-08-13 11:27:33 INFO: Current average volume is: 306.0
+2025-08-13 11:27:33 INFO: Updated resistance to: 25.08 and support to: 24.11
+2025-08-13 11:30:34 INFO: {'TEMT': {   'close': 24.91,
+    'high': 24.91,
+    'low': 24.91,
+    'open': 24.91,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.91}}
+2025-08-13 11:30:34 INFO: Current resistance is: 25.08 and support is: 24.11
+2025-08-13 11:30:34 INFO: Current average volume is: 306.0
+2025-08-13 11:30:34 INFO: Updated resistance to: 25.08 and support to: 24.11
+2025-08-13 11:34:35 INFO: {'TEMT': {   'close': 24.73,
+    'high': 24.73,
+    'low': 24.73,
+    'open': 24.73,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.73}}
+2025-08-13 11:34:35 INFO: Current resistance is: 25.08 and support is: 24.11
+2025-08-13 11:34:35 INFO: Current average volume is: 304.0
+2025-08-13 11:34:35 INFO: Updated resistance to: 25.08 and support to: 24.11
+2025-08-13 11:38:35 INFO: {'TEMT': {   'close': 24.88,
+    'high': 24.88,
+    'low': 24.88,
+    'open': 24.88,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 120.0,
+    'vwap': 24.88}}
+2025-08-13 11:38:35 INFO: Current resistance is: 25.08 and support is: 24.11
+2025-08-13 11:38:35 INFO: Current average volume is: 296.0
+2025-08-13 11:38:35 INFO: Updated resistance to: 25.08 and support to: 24.11
+2025-08-13 11:42:36 INFO: {'TEMT': {   'close': 25.72,
+    'high': 25.72,
+    'low': 25.71,
+    'open': 25.71,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 25.715}}
+2025-08-13 11:42:36 INFO: Current resistance is: 25.08 and support is: 24.11
+2025-08-13 11:42:36 INFO: Current average volume is: 209.0
+2025-08-13 11:42:36 INFO: The Current Close 25.72 is above the resistance...
+2025-08-13 11:42:36 INFO: Updated resistance to: 25.72 and support to: 24.11
+2025-08-13 11:45:07 INFO: {'TEMT': {   'close': 26.01,
+    'high': 26.01,
+    'low': 26.01,
+    'open': 26.01,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 120.0,
+    'vwap': 26.01}}
+2025-08-13 11:45:07 INFO: Current resistance is: 25.72 and support is: 24.11
+2025-08-13 11:45:07 INFO: Current average volume is: 201.0
+2025-08-13 11:45:07 INFO: The current close: 26.01 is above the resistance of 25.72, but volume isn't enough...
+2025-08-13 11:45:07 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 11:47:08 INFO: {'TEMT': {   'close': 25.78,
+    'high': 25.78,
+    'low': 25.78,
+    'open': 25.78,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 25.78}}
+2025-08-13 11:47:08 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 11:47:08 INFO: Current average volume is: 211.0
+2025-08-13 11:47:08 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 11:48:08 INFO: {'TEMT': {   'close': 25.96,
+    'high': 25.96,
+    'low': 25.96,
+    'open': 25.96,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 25.96}}
+2025-08-13 11:48:08 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 11:48:08 INFO: Current average volume is: 171.0
+2025-08-13 11:48:08 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 11:49:08 INFO: {'TEMT': {   'close': 25.91,
+    'high': 25.91,
+    'low': 25.91,
+    'open': 25.91,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 25.91}}
+2025-08-13 11:49:08 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 11:49:08 INFO: Current average volume is: 151.0
+2025-08-13 11:49:08 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 11:56:10 INFO: {'TEMT': {   'close': 25.415,
+    'high': 25.425,
+    'low': 25.37,
+    'open': 25.37,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 440.0,
+    'vwap': 25.405047}}
+2025-08-13 11:56:10 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 11:56:10 INFO: Current average volume is: 168.0
+2025-08-13 11:56:10 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 12:00:10 INFO: {'TEMT': {   'close': 25.67,
+    'high': 25.67,
+    'low': 25.67,
+    'open': 25.67,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 25.67}}
+2025-08-13 12:00:10 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 12:00:10 INFO: Current average volume is: 158.0
+2025-08-13 12:00:10 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 12:11:12 INFO: {'TEMT': {   'close': 24.89,
+    'high': 24.89,
+    'low': 24.89,
+    'open': 24.89,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.89}}
+2025-08-13 12:11:12 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 12:11:12 INFO: Current average volume is: 158.0
+2025-08-13 12:11:12 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 12:14:13 INFO: {'TEMT': {   'close': 25.22,
+    'high': 25.22,
+    'low': 25.22,
+    'open': 25.22,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 25.22}}
+2025-08-13 12:14:13 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 12:14:13 INFO: Current average volume is: 158.0
+2025-08-13 12:14:13 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 12:22:14 INFO: {'TEMT': {   'close': 24.98,
+    'high': 24.98,
+    'low': 24.98,
+    'open': 24.98,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.98}}
+2025-08-13 12:22:14 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 12:22:14 INFO: Current average volume is: 156.0
+2025-08-13 12:22:14 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 12:25:15 INFO: {'TEMT': {   'close': 25.03,
+    'high': 25.03,
+    'low': 25.03,
+    'open': 25.03,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 199.0,
+    'vwap': 25.03}}
+2025-08-13 12:25:15 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 12:25:15 INFO: Current average volume is: 155.9
+2025-08-13 12:25:15 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 12:36:17 INFO: {'TEMT': {   'close': 24.77,
+    'high': 24.77,
+    'low': 24.77,
+    'open': 24.77,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 24.77}}
+2025-08-13 12:36:17 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 12:36:17 INFO: Current average volume is: 173.9
+2025-08-13 12:36:17 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 12:44:18 INFO: {'TEMT': {   'close': 24.73,
+    'high': 24.73,
+    'low': 24.73,
+    'open': 24.73,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 24.73}}
+2025-08-13 12:44:18 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 12:44:18 INFO: Current average volume is: 173.9
+2025-08-13 12:44:18 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 12:51:20 INFO: {'TEMT': {   'close': 24.665,
+    'high': 24.665,
+    'low': 24.665,
+    'open': 24.665,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 24.665}}
+2025-08-13 12:51:20 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 12:51:20 INFO: Current average volume is: 183.9
+2025-08-13 12:51:20 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 13:04:22 INFO: {'TEMT': {   'close': 24.76,
+    'high': 24.76,
+    'low': 24.76,
+    'open': 24.76,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.76}}
+2025-08-13 13:04:22 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 13:04:22 INFO: Current average volume is: 183.9
+2025-08-13 13:04:22 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 13:08:23 INFO: {'TEMT': {   'close': 24.68,
+    'high': 24.68,
+    'low': 24.68,
+    'open': 24.68,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.68}}
+2025-08-13 13:08:23 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 13:08:23 INFO: Current average volume is: 149.9
+2025-08-13 13:08:23 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 13:11:24 INFO: {'TEMT': {   'close': 24.77,
+    'high': 24.77,
+    'low': 24.77,
+    'open': 24.77,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.77}}
+2025-08-13 13:11:24 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 13:11:24 INFO: Current average volume is: 149.9
+2025-08-13 13:11:24 INFO: Updated resistance to: 26.01 and support to: 24.11
+2025-08-13 13:22:26 INFO: {'TEMT': {   'close': 24.48,
+    'high': 24.48,
+    'low': 24.48,
+    'open': 24.48,
+    'symbol': 'TEMT',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 24.48}}
+2025-08-13 13:22:26 INFO: Current resistance is: 26.01 and support is: 24.11
+2025-08-13 13:22:26 INFO: Current average volume is: 149.9
+2025-08-13 13:22:26 INFO: Updated resistance to: 26.01 and support to: 24.11

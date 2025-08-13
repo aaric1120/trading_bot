@@ -1,0 +1,599 @@
+2025-08-13 13:55:07 INFO: === Strategy started ===
+2025-08-13 13:55:07 INFO: Start collecting the current highs/lows for: SMPL
+2025-08-13 13:55:07 INFO: Most recent stock data: {'SMPL': {   'close': 29.66,
+    'high': 29.66,
+    'low': 29.66,
+    'open': 29.66,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 29.66}}
+2025-08-13 14:00:08 INFO: Most recent stock data: {'SMPL': {   'close': 29.59,
+    'high': 29.59,
+    'low': 29.59,
+    'open': 29.59,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 475.0,
+    'vwap': 29.59}}
+2025-08-13 14:02:08 INFO: Most recent stock data: {'SMPL': {   'close': 29.62,
+    'high': 29.62,
+    'low': 29.62,
+    'open': 29.62,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 120.0,
+    'vwap': 29.62}}
+2025-08-13 14:03:09 INFO: Most recent stock data: {'SMPL': {   'close': 29.61,
+    'high': 29.61,
+    'low': 29.61,
+    'open': 29.61,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 225.0,
+    'vwap': 29.61}}
+2025-08-13 14:04:09 INFO: Most recent stock data: {'SMPL': {   'close': 29.62,
+    'high': 29.64,
+    'low': 29.62,
+    'open': 29.64,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 205.0,
+    'vwap': 29.63}}
+2025-08-13 14:07:09 INFO: Most recent stock data: {'SMPL': {   'close': 29.63,
+    'high': 29.63,
+    'low': 29.63,
+    'open': 29.63,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 107.0,
+    'vwap': 29.63}}
+2025-08-13 14:08:10 INFO: Most recent stock data: {'SMPL': {   'close': 29.635,
+    'high': 29.635,
+    'low': 29.635,
+    'open': 29.635,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 115.0,
+    'vwap': 29.635}}
+2025-08-13 14:12:10 INFO: Most recent stock data: {'SMPL': {   'close': 29.64,
+    'high': 29.64,
+    'low': 29.64,
+    'open': 29.64,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 148.0,
+    'vwap': 29.64}}
+2025-08-13 14:15:11 INFO: Most recent stock data: {'SMPL': {   'close': 29.59,
+    'high': 29.59,
+    'low': 29.59,
+    'open': 29.59,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 29.59}}
+2025-08-13 14:22:12 INFO: Most recent stock data: {'SMPL': {   'close': 29.62,
+    'high': 29.62,
+    'low': 29.62,
+    'open': 29.62,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.62}}
+2025-08-13 14:24:13 INFO: Most recent stock data: {'SMPL': {   'close': 29.63,
+    'high': 29.63,
+    'low': 29.63,
+    'open': 29.63,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 315.0,
+    'vwap': 29.63}}
+2025-08-13 14:24:13 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 14:24:13 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-13 14:26:13 INFO: {'SMPL': {   'close': 29.62,
+    'high': 29.62,
+    'low': 29.62,
+    'open': 29.62,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.62}}
+2025-08-13 14:26:13 INFO: Current resistance is: 29.66 and support is: 29.59
+2025-08-13 14:26:13 INFO: Current average volume is: 163.5
+2025-08-13 14:26:13 INFO: Updated resistance to: 29.66 and support to: 29.59
+2025-08-13 14:27:14 INFO: {'SMPL': {   'close': 29.63,
+    'high': 29.63,
+    'low': 29.63,
+    'open': 29.63,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 180.0,
+    'vwap': 29.63}}
+2025-08-13 14:27:14 INFO: Current resistance is: 29.66 and support is: 29.59
+2025-08-13 14:27:14 INFO: Current average volume is: 169.5
+2025-08-13 14:27:14 INFO: Updated resistance to: 29.66 and support to: 29.59
+2025-08-13 14:31:14 INFO: {'SMPL': {   'close': 29.64,
+    'high': 29.64,
+    'low': 29.64,
+    'open': 29.64,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 274.0,
+    'vwap': 29.64}}
+2025-08-13 14:31:14 INFO: Current resistance is: 29.66 and support is: 29.59
+2025-08-13 14:31:14 INFO: Current average volume is: 174.4
+2025-08-13 14:31:14 INFO: Updated resistance to: 29.66 and support to: 29.59
+2025-08-13 14:33:15 INFO: {'SMPL': {   'close': 29.63,
+    'high': 29.63,
+    'low': 29.63,
+    'open': 29.63,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 220.0,
+    'vwap': 29.63}}
+2025-08-13 14:33:15 INFO: Current resistance is: 29.66 and support is: 29.59
+2025-08-13 14:33:15 INFO: Current average volume is: 175.9
+2025-08-13 14:33:15 INFO: Updated resistance to: 29.66 and support to: 29.59
+2025-08-13 14:38:16 INFO: {'SMPL': {   'close': 29.66,
+    'high': 29.66,
+    'low': 29.66,
+    'open': 29.66,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 147.0,
+    'vwap': 29.66}}
+2025-08-13 14:38:16 INFO: Current resistance is: 29.66 and support is: 29.59
+2025-08-13 14:38:16 INFO: Current average volume is: 179.9
+2025-08-13 14:45:17 INFO: {'SMPL': {   'close': 29.62,
+    'high': 29.62,
+    'low': 29.62,
+    'open': 29.62,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 374.0,
+    'vwap': 29.62}}
+2025-08-13 14:45:17 INFO: Current resistance is: 29.66 and support is: 29.59
+2025-08-13 14:45:17 INFO: Current average volume is: 205.8
+2025-08-13 14:45:17 INFO: Updated resistance to: 29.66 and support to: 29.59
+2025-08-13 14:46:17 INFO: {'SMPL': {   'close': 29.64,
+    'high': 29.65,
+    'low': 29.64,
+    'open': 29.65,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 830.0,
+    'vwap': 29.645714}}
+2025-08-13 14:46:17 INFO: Current resistance is: 29.66 and support is: 29.59
+2025-08-13 14:46:17 INFO: Current average volume is: 274.0
+2025-08-13 14:46:17 INFO: Updated resistance to: 29.66 and support to: 29.59
+2025-08-13 14:53:18 INFO: {'SMPL': {   'close': 29.66,
+    'high': 29.66,
+    'low': 29.66,
+    'open': 29.66,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.66}}
+2025-08-13 14:53:18 INFO: Current resistance is: 29.66 and support is: 29.59
+2025-08-13 14:53:18 INFO: Current average volume is: 264.0
+2025-08-13 14:58:19 INFO: {'SMPL': {   'close': 29.7,
+    'high': 29.7,
+    'low': 29.7,
+    'open': 29.7,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.7}}
+2025-08-13 14:58:19 INFO: Current resistance is: 29.66 and support is: 29.59
+2025-08-13 14:58:19 INFO: Current average volume is: 264.0
+2025-08-13 14:58:19 INFO: The Current Close 29.7 is above the resistance...
+2025-08-13 14:58:19 INFO: Updated resistance to: 29.7 and support to: 29.59
+2025-08-13 15:00:20 INFO: {'SMPL': {   'close': 29.67,
+    'high': 29.67,
+    'low': 29.67,
+    'open': 29.67,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 681.0,
+    'vwap': 29.67}}
+2025-08-13 15:00:20 INFO: Current resistance is: 29.7 and support is: 29.59
+2025-08-13 15:00:20 INFO: Current average volume is: 300.6
+2025-08-13 15:00:20 INFO: Updated resistance to: 29.7 and support to: 29.59
+2025-08-13 15:02:21 INFO: {'SMPL': {   'close': 29.66,
+    'high': 29.66,
+    'low': 29.66,
+    'open': 29.66,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 115.0,
+    'vwap': 29.66}}
+2025-08-13 15:02:21 INFO: Current resistance is: 29.7 and support is: 29.59
+2025-08-13 15:02:21 INFO: Current average volume is: 302.1
+2025-08-13 15:02:21 INFO: Updated resistance to: 29.7 and support to: 29.59
+2025-08-13 15:03:21 INFO: {'SMPL': {   'close': 29.68,
+    'high': 29.68,
+    'low': 29.68,
+    'open': 29.68,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 29.68}}
+2025-08-13 15:03:21 INFO: Current resistance is: 29.7 and support is: 29.59
+2025-08-13 15:03:21 INFO: Current average volume is: 294.2
+2025-08-13 15:03:21 INFO: Updated resistance to: 29.7 and support to: 29.59
+2025-08-13 15:06:21 INFO: {'SMPL': {   'close': 29.73,
+    'high': 29.73,
+    'low': 29.73,
+    'open': 29.73,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 108.0,
+    'vwap': 29.73}}
+2025-08-13 15:06:21 INFO: Current resistance is: 29.7 and support is: 29.59
+2025-08-13 15:06:21 INFO: Current average volume is: 277.6
+2025-08-13 15:06:21 INFO: The Current Close 29.73 is above the resistance...
+2025-08-13 15:06:21 INFO: Updated resistance to: 29.73 and support to: 29.59
+2025-08-13 15:24:28 INFO: {'SMPL': {   'close': 29.66,
+    'high': 29.66,
+    'low': 29.64,
+    'open': 29.64,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 305.0,
+    'vwap': 29.646667}}
+2025-08-13 15:24:28 INFO: Current resistance is: 29.73 and support is: 29.59
+2025-08-13 15:24:28 INFO: Current average volume is: 286.1
+2025-08-13 15:24:28 INFO: Updated resistance to: 29.73 and support to: 29.59
+2025-08-13 15:25:28 INFO: {'SMPL': {   'close': 29.665,
+    'high': 29.665,
+    'low': 29.665,
+    'open': 29.665,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 203.0,
+    'vwap': 29.665}}
+2025-08-13 15:25:28 INFO: Current resistance is: 29.73 and support is: 29.59
+2025-08-13 15:25:28 INFO: Current average volume is: 291.7
+2025-08-13 15:25:28 INFO: Updated resistance to: 29.73 and support to: 29.59
+2025-08-13 15:28:29 INFO: {'SMPL': {   'close': 29.68,
+    'high': 29.68,
+    'low': 29.68,
+    'open': 29.68,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.68}}
+2025-08-13 15:28:29 INFO: Current resistance is: 29.73 and support is: 29.59
+2025-08-13 15:28:29 INFO: Current average volume is: 264.3
+2025-08-13 15:28:29 INFO: Updated resistance to: 29.73 and support to: 29.59
+2025-08-13 15:29:29 INFO: {'SMPL': {   'close': 29.69,
+    'high': 29.69,
+    'low': 29.69,
+    'open': 29.69,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 29.69}}
+2025-08-13 15:29:29 INFO: Current resistance is: 29.73 and support is: 29.59
+2025-08-13 15:29:29 INFO: Current average volume is: 191.3
+2025-08-13 15:29:29 INFO: Updated resistance to: 29.73 and support to: 29.59
+2025-08-13 15:33:30 INFO: {'SMPL': {   'close': 29.72,
+    'high': 29.72,
+    'low': 29.72,
+    'open': 29.72,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 105.0,
+    'vwap': 29.72}}
+2025-08-13 15:33:30 INFO: Current resistance is: 29.73 and support is: 29.59
+2025-08-13 15:33:30 INFO: Current average volume is: 191.8
+2025-08-13 15:33:30 INFO: Updated resistance to: 29.73 and support to: 29.59
+2025-08-13 15:34:30 INFO: {'SMPL': {   'close': 29.7,
+    'high': 29.7,
+    'low': 29.7,
+    'open': 29.7,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 297.0,
+    'vwap': 29.7}}
+2025-08-13 15:34:30 INFO: Current resistance is: 29.73 and support is: 29.59
+2025-08-13 15:34:30 INFO: Current average volume is: 211.5
+2025-08-13 15:34:30 INFO: Updated resistance to: 29.73 and support to: 29.59
+2025-08-13 15:35:30 INFO: {'SMPL': {   'close': 29.725,
+    'high': 29.725,
+    'low': 29.725,
+    'open': 29.725,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 225.0,
+    'vwap': 29.725}}
+2025-08-13 15:35:30 INFO: Current resistance is: 29.73 and support is: 29.59
+2025-08-13 15:35:30 INFO: Current average volume is: 165.9
+2025-08-13 15:35:30 INFO: Updated resistance to: 29.73 and support to: 29.59
+2025-08-13 15:36:31 INFO: {'SMPL': {   'close': 29.74,
+    'high': 29.74,
+    'low': 29.74,
+    'open': 29.74,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 306.0,
+    'vwap': 29.74}}
+2025-08-13 15:36:31 INFO: Current resistance is: 29.73 and support is: 29.59
+2025-08-13 15:36:31 INFO: Current average volume is: 185.0
+2025-08-13 15:36:31 INFO: The Current Close 29.74 is above the resistance...
+2025-08-13 15:36:31 INFO: Updated resistance to: 29.74 and support to: 29.59
+2025-08-13 15:38:01 INFO: {'SMPL': {   'close': 29.73,
+    'high': 29.73,
+    'low': 29.73,
+    'open': 29.73,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 247.0,
+    'vwap': 29.73}}
+2025-08-13 15:38:01 INFO: Current resistance is: 29.74 and support is: 29.59
+2025-08-13 15:38:01 INFO: Current average volume is: 199.6
+2025-08-13 15:38:01 INFO: Updated resistance to: 29.74 and support to: 29.59
+2025-08-13 15:39:01 INFO: {'SMPL': {   'close': 29.72,
+    'high': 29.72,
+    'low': 29.72,
+    'open': 29.72,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 151.0,
+    'vwap': 29.72}}
+2025-08-13 15:39:01 INFO: Current resistance is: 29.74 and support is: 29.59
+2025-08-13 15:39:01 INFO: Current average volume is: 203.9
+2025-08-13 15:39:01 INFO: Updated resistance to: 29.74 and support to: 29.59
+2025-08-13 15:40:02 INFO: {'SMPL': {   'close': 29.76,
+    'high': 29.76,
+    'low': 29.745,
+    'open': 29.745,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 360.0,
+    'vwap': 29.7525}}
+2025-08-13 15:40:02 INFO: Current resistance is: 29.74 and support is: 29.59
+2025-08-13 15:40:02 INFO: Current average volume is: 209.4
+2025-08-13 15:40:02 INFO: The Current Close 29.76 is above the resistance...
+2025-08-13 15:40:02 INFO: Updated resistance to: 29.76 and support to: 29.59
+2025-08-13 15:42:02 INFO: {'SMPL': {   'close': 29.755,
+    'high': 29.755,
+    'low': 29.755,
+    'open': 29.755,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 184.0,
+    'vwap': 29.755}}
+2025-08-13 15:42:02 INFO: Current resistance is: 29.76 and support is: 29.59
+2025-08-13 15:42:02 INFO: Current average volume is: 207.5
+2025-08-13 15:42:02 INFO: Updated resistance to: 29.76 and support to: 29.59
+2025-08-13 15:43:03 INFO: {'SMPL': {   'close': 29.76,
+    'high': 29.76,
+    'low': 29.735,
+    'open': 29.735,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 473.0,
+    'vwap': 29.746667}}
+2025-08-13 15:43:03 INFO: Current resistance is: 29.76 and support is: 29.59
+2025-08-13 15:43:03 INFO: Current average volume is: 244.8
+2025-08-13 15:44:03 INFO: {'SMPL': {   'close': 29.765,
+    'high': 29.765,
+    'low': 29.755,
+    'open': 29.755,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 29.76}}
+2025-08-13 15:44:03 INFO: Current resistance is: 29.76 and support is: 29.59
+2025-08-13 15:44:03 INFO: Current average volume is: 264.8
+2025-08-13 15:44:03 INFO: The Current Close 29.765 is above the resistance...
+2025-08-13 15:44:03 INFO: Updated resistance to: 29.765 and support to: 29.59
+2025-08-13 15:45:03 INFO: {'SMPL': {   'close': 29.75,
+    'high': 29.75,
+    'low': 29.75,
+    'open': 29.75,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 352.0,
+    'vwap': 29.75}}
+2025-08-13 15:45:03 INFO: Current resistance is: 29.765 and support is: 29.59
+2025-08-13 15:45:03 INFO: Current average volume is: 289.5
+2025-08-13 15:45:03 INFO: Updated resistance to: 29.765 and support to: 29.59
+2025-08-13 15:46:03 INFO: {'SMPL': {   'close': 29.765,
+    'high': 29.765,
+    'low': 29.745,
+    'open': 29.745,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 730.0,
+    'vwap': 29.753571}}
+2025-08-13 15:46:03 INFO: Current resistance is: 29.765 and support is: 29.59
+2025-08-13 15:46:03 INFO: Current average volume is: 332.8
+2025-08-13 15:47:04 INFO: {'SMPL': {   'close': 29.775,
+    'high': 29.775,
+    'low': 29.76,
+    'open': 29.77,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 734.0,
+    'vwap': 29.76875}}
+2025-08-13 15:47:04 INFO: Current resistance is: 29.765 and support is: 29.59
+2025-08-13 15:47:04 INFO: Current average volume is: 383.7
+2025-08-13 15:47:04 INFO: The Current Close 29.775 is above the resistance...
+2025-08-13 15:47:04 INFO: Updated resistance to: 29.775 and support to: 29.59
+2025-08-13 15:48:04 INFO: {'SMPL': {   'close': 29.805,
+    'high': 29.805,
+    'low': 29.805,
+    'open': 29.805,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 305.0,
+    'vwap': 29.805}}
+2025-08-13 15:48:04 INFO: Current resistance is: 29.775 and support is: 29.59
+2025-08-13 15:48:04 INFO: Current average volume is: 383.6
+2025-08-13 15:48:04 INFO: The current close: 29.805 is above the resistance of 29.775, but volume isn't enough...
+2025-08-13 15:48:04 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:49:04 INFO: {'SMPL': {   'close': 29.79,
+    'high': 29.79,
+    'low': 29.785,
+    'open': 29.79,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 487.0,
+    'vwap': 29.788333}}
+2025-08-13 15:49:04 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:49:04 INFO: Current average volume is: 407.6
+2025-08-13 15:49:04 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:50:05 INFO: {'SMPL': {   'close': 29.78,
+    'high': 29.78,
+    'low': 29.78,
+    'open': 29.78,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 407.0,
+    'vwap': 29.78}}
+2025-08-13 15:50:05 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:50:05 INFO: Current average volume is: 433.2
+2025-08-13 15:50:05 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:51:05 INFO: {'SMPL': {   'close': 29.74,
+    'high': 29.74,
+    'low': 29.74,
+    'open': 29.74,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 324.0,
+    'vwap': 29.74}}
+2025-08-13 15:51:05 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:51:05 INFO: Current average volume is: 429.6
+2025-08-13 15:51:05 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:52:05 INFO: {'SMPL': {   'close': 29.72,
+    'high': 29.735,
+    'low': 29.72,
+    'open': 29.735,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 459.0,
+    'vwap': 29.729828}}
+2025-08-13 15:52:05 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:52:05 INFO: Current average volume is: 457.1
+2025-08-13 15:52:05 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:53:05 INFO: {'SMPL': {   'close': 29.725,
+    'high': 29.725,
+    'low': 29.725,
+    'open': 29.725,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 735.0,
+    'vwap': 29.725}}
+2025-08-13 15:53:05 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:53:05 INFO: Current average volume is: 483.3
+2025-08-13 15:53:05 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:54:05 INFO: {'SMPL': {   'close': 29.72,
+    'high': 29.72,
+    'low': 29.72,
+    'open': 29.72,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 633.0,
+    'vwap': 29.72}}
+2025-08-13 15:54:05 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:54:05 INFO: Current average volume is: 516.6
+2025-08-13 15:54:05 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:55:05 INFO: {'SMPL': {   'close': 29.695,
+    'high': 29.7,
+    'low': 29.68,
+    'open': 29.68,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1702.0,
+    'vwap': 29.691911}}
+2025-08-13 15:55:05 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:55:05 INFO: Current average volume is: 651.6
+2025-08-13 15:55:05 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:56:06 INFO: {'SMPL': {   'close': 29.715,
+    'high': 29.74,
+    'low': 29.715,
+    'open': 29.72,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1367.0,
+    'vwap': 29.732248}}
+2025-08-13 15:56:06 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:56:06 INFO: Current average volume is: 715.3
+2025-08-13 15:56:06 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:57:06 INFO: {'SMPL': {   'close': 29.69,
+    'high': 29.715,
+    'low': 29.69,
+    'open': 29.715,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1727.0,
+    'vwap': 29.703017}}
+2025-08-13 15:57:06 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:57:06 INFO: Current average volume is: 814.6
+2025-08-13 15:57:06 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 15:59:06 INFO: {'SMPL': {   'close': 29.685,
+    'high': 29.705,
+    'low': 29.675,
+    'open': 29.705,
+    'symbol': 'SMPL',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1757.0,
+    'vwap': 29.687034}}
+2025-08-13 15:59:06 INFO: Current resistance is: 29.805 and support is: 29.59
+2025-08-13 15:59:06 INFO: Current average volume is: 959.8
+2025-08-13 15:59:06 INFO: Updated resistance to: 29.805 and support to: 29.59
+2025-08-13 16:00:06 INFO: The Market is closed...

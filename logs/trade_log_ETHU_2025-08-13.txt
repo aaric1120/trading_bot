@@ -1,0 +1,620 @@
+2025-08-13 09:55:15 INFO: === Strategy started ===
+2025-08-13 09:55:15 INFO: Start collecting the current highs/lows for: ETHU
+2025-08-13 09:55:15 INFO: Most recent stock data: {'ETHU': {   'close': 181.77,
+    'high': 182.24,
+    'low': 181.47,
+    'open': 182.24,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 610.0,
+    'vwap': 181.943333}}
+2025-08-13 09:56:15 INFO: Most recent stock data: {'ETHU': {   'close': 180.5,
+    'high': 181.41,
+    'low': 180.5,
+    'open': 181.41,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1537.0,
+    'vwap': 180.863}}
+2025-08-13 09:57:15 INFO: Most recent stock data: {'ETHU': {   'close': 179.68,
+    'high': 180.43,
+    'low': 178.73,
+    'open': 180.43,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 3810.0,
+    'vwap': 179.89229}}
+2025-08-13 09:58:16 INFO: Most recent stock data: {'ETHU': {   'close': 180.28,
+    'high': 180.28,
+    'low': 179.47,
+    'open': 179.47,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 472.0,
+    'vwap': 179.727222}}
+2025-08-13 09:59:16 INFO: Most recent stock data: {'ETHU': {   'close': 179.99,
+    'high': 180.1,
+    'low': 179.69,
+    'open': 179.9,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2065.0,
+    'vwap': 179.865183}}
+2025-08-13 10:00:16 INFO: Most recent stock data: {'ETHU': {   'close': 180.05,
+    'high': 180.05,
+    'low': 180.05,
+    'open': 180.05,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 180.05}}
+2025-08-13 10:01:16 INFO: Most recent stock data: {'ETHU': {   'close': 181.04,
+    'high': 181.11,
+    'low': 180.81,
+    'open': 180.82,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 997.0,
+    'vwap': 180.95995}}
+2025-08-13 10:02:16 INFO: Most recent stock data: {'ETHU': {   'close': 180.51,
+    'high': 180.52,
+    'low': 180.1,
+    'open': 180.21,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1605.0,
+    'vwap': 180.210383}}
+2025-08-13 10:03:17 INFO: Most recent stock data: {'ETHU': {   'close': 180.33,
+    'high': 180.33,
+    'low': 179.66,
+    'open': 179.84,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1194.0,
+    'vwap': 179.965}}
+2025-08-13 10:07:17 INFO: Most recent stock data: {'ETHU': {   'close': 181.57,
+    'high': 181.57,
+    'low': 180.95,
+    'open': 180.95,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 414.0,
+    'vwap': 181.300435}}
+2025-08-13 10:10:18 INFO: Most recent stock data: {'ETHU': {   'close': 181.59,
+    'high': 181.66,
+    'low': 181.59,
+    'open': 181.66,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 282.0,
+    'vwap': 181.625}}
+2025-08-13 10:10:18 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 10:10:18 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-13 10:11:18 INFO: {'ETHU': {   'close': 181.4,
+    'high': 181.73,
+    'low': 181.4,
+    'open': 181.73,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 582.0,
+    'vwap': 181.568}}
+2025-08-13 10:11:18 INFO: Current resistance is: 182.24 and support is: 178.73
+2025-08-13 10:11:18 INFO: Current average volume is: 1152.1
+2025-08-13 10:11:18 INFO: Updated resistance to: 182.24 and support to: 178.73
+2025-08-13 10:12:19 INFO: {'ETHU': {   'close': 180.72,
+    'high': 180.73,
+    'low': 180.72,
+    'open': 180.72,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 554.0,
+    'vwap': 180.7225}}
+2025-08-13 10:12:19 INFO: Current resistance is: 182.24 and support is: 178.73
+2025-08-13 10:12:19 INFO: Current average volume is: 826.5
+2025-08-13 10:12:19 INFO: Updated resistance to: 182.24 and support to: 178.73
+2025-08-13 10:13:19 INFO: {'ETHU': {   'close': 180.15,
+    'high': 180.34,
+    'low': 179.9,
+    'open': 180.24,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1557.0,
+    'vwap': 180.107857}}
+2025-08-13 10:13:19 INFO: Current resistance is: 182.24 and support is: 178.73
+2025-08-13 10:13:19 INFO: Current average volume is: 935.0
+2025-08-13 10:13:19 INFO: Updated resistance to: 182.24 and support to: 178.73
+2025-08-13 10:14:19 INFO: {'ETHU': {   'close': 179.61,
+    'high': 179.64,
+    'low': 179.61,
+    'open': 179.64,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 547.0,
+    'vwap': 179.622}}
+2025-08-13 10:14:19 INFO: Current resistance is: 182.24 and support is: 178.73
+2025-08-13 10:14:19 INFO: Current average volume is: 783.2
+2025-08-13 10:14:19 INFO: Updated resistance to: 182.24 and support to: 178.73
+2025-08-13 10:15:19 INFO: {'ETHU': {   'close': 179.86,
+    'high': 179.87,
+    'low': 179.46,
+    'open': 179.72,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 179.71}}
+2025-08-13 10:15:19 INFO: Current resistance is: 182.24 and support is: 178.73
+2025-08-13 10:15:19 INFO: Current average volume is: 843.2
+2025-08-13 10:15:19 INFO: Updated resistance to: 182.24 and support to: 178.73
+2025-08-13 10:16:19 INFO: {'ETHU': {   'close': 179.08,
+    'high': 179.08,
+    'low': 179.02,
+    'open': 179.02,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 525.0,
+    'vwap': 179.044}}
+2025-08-13 10:16:19 INFO: Current resistance is: 182.24 and support is: 178.73
+2025-08-13 10:16:19 INFO: Current average volume is: 796.0
+2025-08-13 10:16:19 INFO: Updated resistance to: 182.24 and support to: 178.73
+2025-08-13 10:17:20 INFO: {'ETHU': {   'close': 179.24,
+    'high': 179.39,
+    'low': 178.71,
+    'open': 178.82,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2754.0,
+    'vwap': 178.93664}}
+2025-08-13 10:17:20 INFO: Current resistance is: 182.24 and support is: 178.73
+2025-08-13 10:17:20 INFO: Current average volume is: 910.9
+2025-08-13 10:17:20 INFO: Updated resistance to: 182.24 and support to: 178.71
+2025-08-13 10:18:20 INFO: {'ETHU': {   'close': 178.3,
+    'high': 178.74,
+    'low': 178.11,
+    'open': 178.61,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1700.0,
+    'vwap': 178.336429}}
+2025-08-13 10:18:20 INFO: Current resistance is: 182.24 and support is: 178.71
+2025-08-13 10:18:20 INFO: Current average volume is: 961.5
+2025-08-13 10:18:20 INFO: close price: 178.3 just dropped below support of 178.71...
+2025-08-13 10:19:20 INFO: {'ETHU': {   'close': 178.75,
+    'high': 178.92,
+    'low': 177.7,
+    'open': 178.38,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 922.0,
+    'vwap': 178.516667}}
+2025-08-13 10:19:20 INFO: Current resistance is: 182.24 and support is: 178.71
+2025-08-13 10:19:20 INFO: Current average volume is: 1012.3
+2025-08-13 10:19:20 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:20:20 INFO: {'ETHU': {   'close': 180.06,
+    'high': 180.06,
+    'low': 178.61,
+    'open': 178.61,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1250.0,
+    'vwap': 179.687273}}
+2025-08-13 10:20:20 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:20:20 INFO: Current average volume is: 1109.1
+2025-08-13 10:20:20 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:21:20 INFO: {'ETHU': {   'close': 180.42,
+    'high': 180.52,
+    'low': 180.03,
+    'open': 180.03,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1250.0,
+    'vwap': 180.448261}}
+2025-08-13 10:21:20 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:21:20 INFO: Current average volume is: 1175.9
+2025-08-13 10:21:20 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:22:21 INFO: {'ETHU': {   'close': 179.94,
+    'high': 180.5,
+    'low': 179.94,
+    'open': 180.5,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 458.0,
+    'vwap': 180.264324}}
+2025-08-13 10:22:21 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:22:21 INFO: Current average volume is: 1166.3
+2025-08-13 10:22:21 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:23:21 INFO: {'ETHU': {   'close': 179.5,
+    'high': 179.85,
+    'low': 179.5,
+    'open': 179.85,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 179.595}}
+2025-08-13 10:23:21 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:23:21 INFO: Current average volume is: 1050.6
+2025-08-13 10:23:21 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:24:21 INFO: {'ETHU': {   'close': 179.34,
+    'high': 179.67,
+    'low': 179.34,
+    'open': 179.425,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1369.0,
+    'vwap': 179.580769}}
+2025-08-13 10:24:21 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:24:21 INFO: Current average volume is: 1132.8
+2025-08-13 10:24:21 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:25:21 INFO: {'ETHU': {   'close': 179.24,
+    'high': 179.24,
+    'low': 179.24,
+    'open': 179.24,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 617.0,
+    'vwap': 179.24}}
+2025-08-13 10:25:21 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:25:21 INFO: Current average volume is: 1124.5
+2025-08-13 10:25:21 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:26:21 INFO: {'ETHU': {   'close': 180.26,
+    'high': 180.26,
+    'low': 179.5,
+    'open': 179.5,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1071.0,
+    'vwap': 179.650376}}
+2025-08-13 10:26:21 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:26:21 INFO: Current average volume is: 1179.1
+2025-08-13 10:26:21 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:27:22 INFO: {'ETHU': {   'close': 180.16,
+    'high': 180.16,
+    'low': 180.0,
+    'open': 180.03,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 639.0,
+    'vwap': 180.071818}}
+2025-08-13 10:27:22 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:27:22 INFO: Current average volume is: 967.6
+2025-08-13 10:27:22 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:28:22 INFO: {'ETHU': {   'close': 181.1,
+    'high': 181.1,
+    'low': 181.09,
+    'open': 181.09,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 500.0,
+    'vwap': 181.095455}}
+2025-08-13 10:28:22 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:28:22 INFO: Current average volume is: 847.6
+2025-08-13 10:28:22 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:29:22 INFO: {'ETHU': {   'close': 180.99,
+    'high': 180.99,
+    'low': 180.62,
+    'open': 180.66,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1250.0,
+    'vwap': 180.794545}}
+2025-08-13 10:29:22 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:29:22 INFO: Current average volume is: 880.4
+2025-08-13 10:29:22 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:30:22 INFO: {'ETHU': {   'close': 180.65,
+    'high': 180.65,
+    'low': 180.65,
+    'open': 180.65,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 180.65}}
+2025-08-13 10:30:22 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:30:22 INFO: Current average volume is: 765.4
+2025-08-13 10:30:22 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:33:23 INFO: {'ETHU': {   'close': 180.06,
+    'high': 180.06,
+    'low': 179.88,
+    'open': 180.01,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 657.0,
+    'vwap': 179.996538}}
+2025-08-13 10:33:23 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:33:23 INFO: Current average volume is: 706.1
+2025-08-13 10:33:23 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:35:23 INFO: {'ETHU': {   'close': 179.73,
+    'high': 179.73,
+    'low': 179.73,
+    'open': 179.73,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 179.73}}
+2025-08-13 10:35:23 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:35:23 INFO: Current average volume is: 670.3
+2025-08-13 10:35:23 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:36:23 INFO: {'ETHU': {   'close': 180.0,
+    'high': 180.0,
+    'low': 179.69,
+    'open': 179.69,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 179.845}}
+2025-08-13 10:36:23 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:36:23 INFO: Current average volume is: 650.3
+2025-08-13 10:36:23 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:39:24 INFO: {'ETHU': {   'close': 179.41,
+    'high': 179.46,
+    'low': 179.41,
+    'open': 179.46,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 179.425}}
+2025-08-13 10:39:24 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:39:24 INFO: Current average volume is: 553.4
+2025-08-13 10:39:24 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:43:25 INFO: {'ETHU': {   'close': 181.02,
+    'high': 181.02,
+    'low': 180.21,
+    'open': 180.21,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 684.0,
+    'vwap': 180.751667}}
+2025-08-13 10:43:25 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:43:25 INFO: Current average volume is: 560.1
+2025-08-13 10:43:25 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:44:25 INFO: {'ETHU': {   'close': 181.19,
+    'high': 181.19,
+    'low': 181.19,
+    'open': 181.19,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 181.19}}
+2025-08-13 10:44:25 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:44:25 INFO: Current average volume is: 473.0
+2025-08-13 10:44:25 INFO: Updated resistance to: 182.24 and support to: 177.7
+2025-08-13 10:45:25 INFO: {'ETHU': {   'close': 182.77,
+    'high': 182.77,
+    'low': 181.98,
+    'open': 181.98,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 182.401667}}
+2025-08-13 10:45:25 INFO: Current resistance is: 182.24 and support is: 177.7
+2025-08-13 10:45:25 INFO: Current average volume is: 469.1
+2025-08-13 10:45:25 INFO: The Current Close 182.77 is above the resistance...
+2025-08-13 10:45:25 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 10:46:25 INFO: {'ETHU': {   'close': 182.5,
+    'high': 182.5,
+    'low': 182.5,
+    'open': 182.5,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 182.0,
+    'vwap': 182.5}}
+2025-08-13 10:46:25 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 10:46:25 INFO: Current average volume is: 437.3
+2025-08-13 10:46:25 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 10:47:26 INFO: {'ETHU': {   'close': 181.86,
+    'high': 181.86,
+    'low': 181.85,
+    'open': 181.85,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 482.0,
+    'vwap': 181.855}}
+2025-08-13 10:47:26 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 10:47:26 INFO: Current average volume is: 360.5
+2025-08-13 10:47:26 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 10:48:26 INFO: {'ETHU': {   'close': 181.05,
+    'high': 181.05,
+    'low': 181.02,
+    'open': 181.02,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 181.0425}}
+2025-08-13 10:48:26 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 10:48:26 INFO: Current average volume is: 390.5
+2025-08-13 10:48:26 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 10:49:26 INFO: {'ETHU': {   'close': 180.72,
+    'high': 180.72,
+    'low': 180.72,
+    'open': 180.72,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 180.72}}
+2025-08-13 10:49:26 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 10:49:26 INFO: Current average volume is: 344.8
+2025-08-13 10:49:26 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 10:50:26 INFO: {'ETHU': {   'close': 181.34,
+    'high': 181.34,
+    'low': 181.34,
+    'open': 181.34,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 158.0,
+    'vwap': 181.34}}
+2025-08-13 10:50:26 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 10:50:26 INFO: Current average volume is: 350.6
+2025-08-13 10:50:26 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 10:52:26 INFO: {'ETHU': {   'close': 179.75,
+    'high': 179.75,
+    'low': 179.75,
+    'open': 179.75,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 179.75}}
+2025-08-13 10:52:26 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 10:52:26 INFO: Current average volume is: 340.6
+2025-08-13 10:52:26 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 10:53:27 INFO: {'ETHU': {   'close': 179.1,
+    'high': 179.1,
+    'low': 178.84,
+    'open': 178.89,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 682.0,
+    'vwap': 178.951667}}
+2025-08-13 10:53:27 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 10:53:27 INFO: Current average volume is: 368.8
+2025-08-13 10:53:27 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 10:54:27 INFO: {'ETHU': {   'close': 179.22,
+    'high': 179.43,
+    'low': 179.22,
+    'open': 179.43,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 179.29}}
+2025-08-13 10:54:27 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 10:54:27 INFO: Current average volume is: 330.4
+2025-08-13 10:54:27 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 10:59:28 INFO: {'ETHU': {   'close': 179.07,
+    'high': 179.07,
+    'low': 179.07,
+    'open': 179.07,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 145.0,
+    'vwap': 179.07}}
+2025-08-13 10:59:28 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 10:59:28 INFO: Current average volume is: 324.9
+2025-08-13 10:59:28 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 11:00:28 INFO: {'ETHU': {   'close': 178.68,
+    'high': 178.68,
+    'low': 178.68,
+    'open': 178.68,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 325.0,
+    'vwap': 178.68}}
+2025-08-13 11:00:28 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 11:00:28 INFO: Current average volume is: 297.4
+2025-08-13 11:00:28 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 11:01:28 INFO: {'ETHU': {   'close': 179.09,
+    'high': 179.09,
+    'low': 179.09,
+    'open': 179.09,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 179.09}}
+2025-08-13 11:01:28 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 11:01:28 INFO: Current average volume is: 289.2
+2025-08-13 11:01:28 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 11:04:29 INFO: {'ETHU': {   'close': 178.45,
+    'high': 178.51,
+    'low': 178.45,
+    'open': 178.51,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 178.48}}
+2025-08-13 11:04:29 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 11:04:29 INFO: Current average volume is: 261.0
+2025-08-13 11:04:29 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 11:05:29 INFO: {'ETHU': {   'close': 177.97,
+    'high': 178.12,
+    'low': 177.84,
+    'open': 178.11,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 178.01}}
+2025-08-13 11:05:29 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 11:05:29 INFO: Current average volume is: 261.0
+2025-08-13 11:05:29 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 11:06:29 INFO: {'ETHU': {   'close': 178.52,
+    'high': 178.64,
+    'low': 178.52,
+    'open': 178.64,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 178.56}}
+2025-08-13 11:06:29 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 11:06:29 INFO: Current average volume is: 271.0
+2025-08-13 11:06:29 INFO: Updated resistance to: 182.77 and support to: 177.7
+2025-08-13 11:09:30 INFO: {'ETHU': {   'close': 177.66,
+    'high': 177.96,
+    'low': 177.58,
+    'open': 177.96,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1485.0,
+    'vwap': 177.655714}}
+2025-08-13 11:09:30 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 11:09:30 INFO: Current average volume is: 403.7
+2025-08-13 11:09:30 INFO: close price: 177.66 just dropped below support of 177.7...
+2025-08-13 11:10:30 INFO: {'ETHU': {   'close': 177.15,
+    'high': 177.15,
+    'low': 176.85,
+    'open': 176.87,
+    'symbol': 'ETHU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1755.0,
+    'vwap': 177.030986}}
+2025-08-13 11:10:30 INFO: Current resistance is: 182.77 and support is: 177.7
+2025-08-13 11:10:30 INFO: Current average volume is: 569.2
+2025-08-13 11:10:30 INFO: Closing price: 177.15 just dropped below support 177.7 again...ending trade...

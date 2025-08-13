@@ -87,19 +87,18 @@ class BaseTrade:
         return int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
 
     def candle_check(self): # PARAM
-        opens = np.array(self.opens[int(self.param["candle_data"]):], dtype=float)
-        closes = np.array(self.closes[int(self.param["candle_data"]):], dtype=float)
-        highs = np.array(self.highs[int(self.param["candle_data"]):], dtype=float)
-        lows = np.array(self.lows[int(self.param["candle_data"]):], dtype=float)
+        opens = np.array(self.opens[-int(self.param["candle_data"]):], dtype=float)
+        closes = np.array(self.closes[-int(self.param["candle_data"]):], dtype=float)
+        highs = np.array(self.highs[-int(self.param["candle_data"]):], dtype=float)
+        lows = np.array(self.lows[-int(self.param["candle_data"]):], dtype=float)
 
         # Engulf needs 2 bar to confirm
-        engulf = CDLENGULFING(opens, highs, lows, closes)
-        eg_output = engulf[-1] + engulf[-2]
+        engulf = CDLENGULFING(opens, highs, lows, closes)[-1]
         # Hammer only needs one
         hammer = CDLHAMMER(opens, highs, lows, closes)[-1]
-        print(f"The engulfing candle pattern check is: {eg_output}. The Hammer candle pattern check is {hammer}")
-        logging.info(f"The engulfing candle pattern check is: {eg_output}. The Hammer candle pattern check is {hammer}")
-        return int(eg_output) == 200 or int(hammer) == 100
+        print(f"The engulfing candle pattern check is: {engulf}. The Hammer candle pattern check is {hammer}")
+        logging.info(f"The engulfing candle pattern check is: {engulf}. The Hammer candle pattern check is {hammer}")
+        return int(engulf) == 100 or int(hammer) == 100
 
     def monitor_order(self, stop_loss, take_profit, init_price):
         # wait 1 minute for order to fill

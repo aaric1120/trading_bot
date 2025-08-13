@@ -1,0 +1,634 @@
+2025-08-13 11:25:33 INFO: === Strategy started ===
+2025-08-13 11:25:33 INFO: Start collecting the current highs/lows for: BSLK
+2025-08-13 11:25:33 INFO: Most recent stock data: {'BSLK': {   'close': 6.5,
+    'high': 6.86,
+    'low': 6.5,
+    'open': 6.86,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 4002.0,
+    'vwap': 6.517895}}
+2025-08-13 11:26:33 INFO: Most recent stock data: {'BSLK': {   'close': 6.59,
+    'high': 6.595,
+    'low': 6.59,
+    'open': 6.595,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 529.0,
+    'vwap': 6.591}}
+2025-08-13 11:27:34 INFO: Most recent stock data: {'BSLK': {   'close': 7.33,
+    'high': 7.33,
+    'low': 6.98,
+    'open': 6.98,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1261.0,
+    'vwap': 7.131}}
+2025-08-13 11:28:34 INFO: Most recent stock data: {'BSLK': {   'close': 7.82,
+    'high': 7.855,
+    'low': 7.22,
+    'open': 7.22,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 832.0,
+    'vwap': 7.73}}
+2025-08-13 11:29:34 INFO: Most recent stock data: {'BSLK': {   'close': 8.39,
+    'high': 8.44,
+    'low': 7.78,
+    'open': 7.78,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1700.0,
+    'vwap': 8.233125}}
+2025-08-13 11:30:34 INFO: Most recent stock data: {'BSLK': {   'close': 8.14,
+    'high': 8.86,
+    'low': 8.12,
+    'open': 8.54,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 4932.0,
+    'vwap': 8.506751}}
+2025-08-13 11:31:34 INFO: Most recent stock data: {'BSLK': {   'close': 8.17,
+    'high': 8.17,
+    'low': 7.835,
+    'open': 7.85,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3122.0,
+    'vwap': 7.918543}}
+2025-08-13 11:32:35 INFO: Most recent stock data: {'BSLK': {   'close': 8.015,
+    'high': 8.015,
+    'low': 7.9,
+    'open': 7.9,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 351.0,
+    'vwap': 7.938333}}
+2025-08-13 11:33:35 INFO: Most recent stock data: {'BSLK': {   'close': 8.32,
+    'high': 8.32,
+    'low': 8.09,
+    'open': 8.09,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 501.0,
+    'vwap': 8.1475}}
+2025-08-13 11:34:35 INFO: Most recent stock data: {'BSLK': {   'close': 7.595,
+    'high': 7.93,
+    'low': 7.55,
+    'open': 7.93,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 4762.0,
+    'vwap': 7.612702}}
+2025-08-13 11:35:35 INFO: Most recent stock data: {'BSLK': {   'close': 7.765,
+    'high': 7.78,
+    'low': 7.69,
+    'open': 7.69,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 451.0,
+    'vwap': 7.75}}
+2025-08-13 11:35:35 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 11:35:35 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-13 11:36:36 INFO: {'BSLK': {   'close': 7.63,
+    'high': 7.69,
+    'low': 7.58,
+    'open': 7.595,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 2705.0,
+    'vwap': 7.622103}}
+2025-08-13 11:36:36 INFO: Current resistance is: 9.567 and support is: 7.954
+2025-08-13 11:36:36 INFO: Current average volume is: 2061.7
+2025-08-13 11:36:36 INFO: close price: 7.63 just dropped below support of 7.954...
+2025-08-13 11:37:36 INFO: {'BSLK': {   'close': 7.635,
+    'high': 7.635,
+    'low': 7.635,
+    'open': 7.635,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 287.0,
+    'vwap': 7.635}}
+2025-08-13 11:37:36 INFO: Current resistance is: 9.567 and support is: 7.954
+2025-08-13 11:37:36 INFO: Current average volume is: 1964.3
+2025-08-13 11:37:36 INFO: Closing price: 7.635 just dropped below support 7.954 again...ending trade...
+2025-08-13 14:40:10 INFO: === Strategy started ===
+2025-08-13 14:40:10 INFO: Start collecting the current highs/lows for: BSLK
+2025-08-13 14:40:10 INFO: Most recent stock data: {'BSLK': {   'close': 14.73,
+    'high': 15.33,
+    'low': 14.54,
+    'open': 15.33,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2214.0,
+    'vwap': 14.684762}}
+2025-08-13 14:41:10 INFO: Most recent stock data: {'BSLK': {   'close': 14.59,
+    'high': 14.955,
+    'low': 14.59,
+    'open': 14.94,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 2040.0,
+    'vwap': 14.904513}}
+2025-08-13 14:42:11 INFO: Most recent stock data: {'BSLK': {   'close': 14.75,
+    'high': 14.75,
+    'low': 14.75,
+    'open': 14.75,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 251.0,
+    'vwap': 14.75}}
+2025-08-13 14:43:11 INFO: Most recent stock data: {'BSLK': {   'close': 14.11,
+    'high': 14.22,
+    'low': 14.11,
+    'open': 14.15,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1305.0,
+    'vwap': 14.160833}}
+2025-08-13 14:45:11 INFO: Most recent stock data: {'BSLK': {   'close': 13.6,
+    'high': 13.76,
+    'low': 13.51,
+    'open': 13.76,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 358.0,
+    'vwap': 13.623333}}
+2025-08-13 14:46:11 INFO: Most recent stock data: {'BSLK': {   'close': 14.26,
+    'high': 14.26,
+    'low': 13.71,
+    'open': 13.765,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 638.0,
+    'vwap': 13.831688}}
+2025-08-13 14:47:11 INFO: Most recent stock data: {'BSLK': {   'close': 14.15,
+    'high': 14.45,
+    'low': 14.12,
+    'open': 14.45,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 355.0,
+    'vwap': 14.227143}}
+2025-08-13 14:48:12 INFO: Most recent stock data: {'BSLK': {   'close': 14.24,
+    'high': 14.26,
+    'low': 14.24,
+    'open': 14.26,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 732.0,
+    'vwap': 14.245714}}
+2025-08-13 14:49:12 INFO: Most recent stock data: {'BSLK': {   'close': 13.93,
+    'high': 14.14,
+    'low': 13.85,
+    'open': 14.06,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3067.0,
+    'vwap': 13.943103}}
+2025-08-13 14:51:12 INFO: Most recent stock data: {'BSLK': {   'close': 14.19,
+    'high': 14.19,
+    'low': 14.06,
+    'open': 14.06,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 409.0,
+    'vwap': 14.1275}}
+2025-08-13 14:52:12 INFO: Most recent stock data: {'BSLK': {   'close': 13.935,
+    'high': 13.99,
+    'low': 13.745,
+    'open': 13.91,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1694.0,
+    'vwap': 13.859375}}
+2025-08-13 14:52:12 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 14:52:12 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-13 14:54:13 INFO: {'BSLK': {   'close': 13.76,
+    'high': 13.76,
+    'low': 13.75,
+    'open': 13.75,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 726.0,
+    'vwap': 13.755714}}
+2025-08-13 14:54:13 INFO: Current resistance is: 14.248 and support is: 13.006
+2025-08-13 14:54:13 INFO: Current average volume is: 953.5
+2025-08-13 14:54:13 INFO: Updated resistance to: 14.131 and support to: 12.955
+2025-08-13 14:55:13 INFO: {'BSLK': {   'close': 13.55,
+    'high': 13.77,
+    'low': 13.22,
+    'open': 13.22,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 707.0,
+    'vwap': 13.41}}
+2025-08-13 14:55:13 INFO: Current resistance is: 14.131 and support is: 12.955
+2025-08-13 14:55:13 INFO: Current average volume is: 999.1
+2025-08-13 14:55:13 INFO: Updated resistance to: 14.065 and support to: 13.137
+2025-08-13 14:56:13 INFO: {'BSLK': {   'close': 13.12,
+    'high': 13.5,
+    'low': 13.12,
+    'open': 13.5,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 603.0,
+    'vwap': 13.284}}
+2025-08-13 14:56:13 INFO: Current resistance is: 14.065 and support is: 13.137
+2025-08-13 14:56:13 INFO: Current average volume is: 928.9
+2025-08-13 14:56:13 INFO: close price: 13.12 just dropped below support of 13.137...
+2025-08-13 14:57:14 INFO: {'BSLK': {   'close': 12.79,
+    'high': 12.83,
+    'low': 12.42,
+    'open': 12.67,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2041.0,
+    'vwap': 12.713}}
+2025-08-13 14:57:14 INFO: Current resistance is: 14.065 and support is: 13.137
+2025-08-13 14:57:14 INFO: Current average volume is: 1097.2
+2025-08-13 14:57:14 INFO: Closing price: 12.79 just dropped below support 13.137 again...ending trade...
+2025-08-13 15:25:15 INFO: === Strategy started ===
+2025-08-13 15:25:15 INFO: Start collecting the current highs/lows for: BSLK
+2025-08-13 15:25:15 INFO: Most recent stock data: {'BSLK': {   'close': 13.19,
+    'high': 13.19,
+    'low': 13.17,
+    'open': 13.17,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 605.0,
+    'vwap': 13.18}}
+2025-08-13 15:26:16 INFO: Most recent stock data: {'BSLK': {   'close': 13.16,
+    'high': 13.16,
+    'low': 12.77,
+    'open': 12.82,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 2100.0,
+    'vwap': 12.884101}}
+2025-08-13 15:27:16 INFO: Most recent stock data: {'BSLK': {   'close': 13.55,
+    'high': 13.6,
+    'low': 13.39,
+    'open': 13.39,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1306.0,
+    'vwap': 13.430769}}
+2025-08-13 15:28:16 INFO: Most recent stock data: {'BSLK': {   'close': 13.7,
+    'high': 13.7,
+    'low': 13.56,
+    'open': 13.56,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1106.0,
+    'vwap': 13.586364}}
+2025-08-13 15:29:16 INFO: Most recent stock data: {'BSLK': {   'close': 13.95,
+    'high': 14.13,
+    'low': 13.95,
+    'open': 14.0,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 452.0,
+    'vwap': 14.02}}
+2025-08-13 15:30:17 INFO: Most recent stock data: {'BSLK': {   'close': 13.89,
+    'high': 14.115,
+    'low': 13.82,
+    'open': 14.115,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1495.0,
+    'vwap': 13.901786}}
+2025-08-13 15:31:17 INFO: Most recent stock data: {'BSLK': {   'close': 13.62,
+    'high': 13.9,
+    'low': 13.62,
+    'open': 13.84,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 442.0,
+    'vwap': 13.7575}}
+2025-08-13 15:33:17 INFO: Most recent stock data: {'BSLK': {   'close': 13.43,
+    'high': 13.64,
+    'low': 13.43,
+    'open': 13.64,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 386.0,
+    'vwap': 13.506667}}
+2025-08-13 15:34:17 INFO: Most recent stock data: {'BSLK': {   'close': 13.41,
+    'high': 13.41,
+    'low': 13.41,
+    'open': 13.41,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 555.0,
+    'vwap': 13.41}}
+2025-08-13 15:35:17 INFO: Most recent stock data: {'BSLK': {   'close': 13.47,
+    'high': 13.47,
+    'low': 13.11,
+    'open': 13.11,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1242.0,
+    'vwap': 13.36}}
+2025-08-13 15:36:18 INFO: Most recent stock data: {'BSLK': {   'close': 13.7,
+    'high': 13.7,
+    'low': 13.39,
+    'open': 13.44,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 5679.0,
+    'vwap': 13.542496}}
+2025-08-13 15:36:18 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 15:36:18 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-13 15:37:18 INFO: {'BSLK': {   'close': 13.57,
+    'high': 13.57,
+    'low': 13.46,
+    'open': 13.46,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 803.0,
+    'vwap': 13.505}}
+2025-08-13 15:37:18 INFO: Current resistance is: 14.13 and support is: 12.77
+2025-08-13 15:37:18 INFO: Current average volume is: 1346.6
+2025-08-13 15:37:18 INFO: Updated resistance to: 14.13 and support to: 12.77
+2025-08-13 15:38:18 INFO: {'BSLK': {   'close': 13.975,
+    'high': 14.28,
+    'low': 13.69,
+    'open': 13.69,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 4442.0,
+    'vwap': 13.991136}}
+2025-08-13 15:38:18 INFO: Current resistance is: 14.13 and support is: 12.77
+2025-08-13 15:38:18 INFO: Current average volume is: 1660.2
+2025-08-13 15:38:18 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:39:18 INFO: {'BSLK': {   'close': 14.01,
+    'high': 14.01,
+    'low': 14.01,
+    'open': 14.01,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 105.0,
+    'vwap': 14.01}}
+2025-08-13 15:39:18 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:39:18 INFO: Current average volume is: 1560.1
+2025-08-13 15:39:18 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:40:19 INFO: {'BSLK': {   'close': 13.68,
+    'high': 13.68,
+    'low': 13.68,
+    'open': 13.68,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 108.0,
+    'vwap': 13.68}}
+2025-08-13 15:40:19 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:40:19 INFO: Current average volume is: 1525.7
+2025-08-13 15:40:19 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:41:19 INFO: {'BSLK': {   'close': 13.51,
+    'high': 13.51,
+    'low': 13.49,
+    'open': 13.49,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 223.0,
+    'vwap': 13.5}}
+2025-08-13 15:41:19 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:41:19 INFO: Current average volume is: 1398.5
+2025-08-13 15:41:19 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:42:19 INFO: {'BSLK': {   'close': 13.55,
+    'high': 13.55,
+    'low': 13.26,
+    'open': 13.36,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 987.0,
+    'vwap': 13.337222}}
+2025-08-13 15:42:19 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:42:19 INFO: Current average volume is: 1453.0
+2025-08-13 15:42:19 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:43:19 INFO: {'BSLK': {   'close': 13.465,
+    'high': 13.465,
+    'low': 13.465,
+    'open': 13.465,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 149.0,
+    'vwap': 13.465}}
+2025-08-13 15:43:19 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:43:19 INFO: Current average volume is: 1429.3
+2025-08-13 15:43:19 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:44:19 INFO: {'BSLK': {   'close': 13.41,
+    'high': 13.41,
+    'low': 13.41,
+    'open': 13.41,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 500.0,
+    'vwap': 13.41}}
+2025-08-13 15:44:19 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:44:19 INFO: Current average volume is: 1423.8
+2025-08-13 15:44:19 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:45:20 INFO: {'BSLK': {   'close': 13.48,
+    'high': 13.48,
+    'low': 13.48,
+    'open': 13.48,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 120.0,
+    'vwap': 13.48}}
+2025-08-13 15:45:20 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:45:20 INFO: Current average volume is: 1311.6
+2025-08-13 15:45:20 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:47:20 INFO: {'BSLK': {   'close': 13.76,
+    'high': 13.76,
+    'low': 13.62,
+    'open': 13.62,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 567.0,
+    'vwap': 13.725}}
+2025-08-13 15:47:20 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:47:20 INFO: Current average volume is: 800.4
+2025-08-13 15:47:20 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:48:20 INFO: {'BSLK': {   'close': 14.11,
+    'high': 14.11,
+    'low': 13.925,
+    'open': 13.925,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 250.0,
+    'vwap': 14.0175}}
+2025-08-13 15:48:20 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:48:20 INFO: Current average volume is: 745.1
+2025-08-13 15:48:20 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:49:20 INFO: {'BSLK': {   'close': 13.62,
+    'high': 13.86,
+    'low': 13.59,
+    'open': 13.86,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 3657.0,
+    'vwap': 13.716111}}
+2025-08-13 15:49:20 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:49:20 INFO: Current average volume is: 666.6
+2025-08-13 15:49:20 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:50:21 INFO: {'BSLK': {   'close': 13.54,
+    'high': 13.76,
+    'low': 13.54,
+    'open': 13.66,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 343.0,
+    'vwap': 13.653333}}
+2025-08-13 15:50:21 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:50:21 INFO: Current average volume is: 690.4
+2025-08-13 15:50:21 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:51:21 INFO: {'BSLK': {   'close': 13.68,
+    'high': 13.75,
+    'low': 13.6,
+    'open': 13.6,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 13.676}}
+2025-08-13 15:51:21 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:51:21 INFO: Current average volume is: 729.6
+2025-08-13 15:51:21 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:53:21 INFO: {'BSLK': {   'close': 13.69,
+    'high': 13.81,
+    'low': 13.69,
+    'open': 13.81,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 550.0,
+    'vwap': 13.755455}}
+2025-08-13 15:53:21 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:53:21 INFO: Current average volume is: 762.3
+2025-08-13 15:53:21 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:54:21 INFO: {'BSLK': {   'close': 14.09,
+    'high': 14.09,
+    'low': 13.8,
+    'open': 13.8,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 279.0,
+    'vwap': 13.945}}
+2025-08-13 15:54:21 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:54:21 INFO: Current average volume is: 691.5
+2025-08-13 15:54:21 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:55:21 INFO: {'BSLK': {   'close': 12.16,
+    'high': 14.38,
+    'low': 12.0,
+    'open': 14.34,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 6563.0,
+    'vwap': 13.224385}}
+2025-08-13 15:55:21 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:55:21 INFO: Current average volume is: 1332.9
+2025-08-13 15:55:21 INFO: close price: 12.16 just dropped below support of 12.77...
+2025-08-13 15:56:22 INFO: {'BSLK': {   'close': 13.42,
+    'high': 13.42,
+    'low': 12.92,
+    'open': 12.92,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1387.0,
+    'vwap': 13.055635}}
+2025-08-13 15:56:22 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:56:22 INFO: Current average volume is: 1421.6
+2025-08-13 15:56:22 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:57:22 INFO: {'BSLK': {   'close': 13.38,
+    'high': 13.38,
+    'low': 13.13,
+    'open': 13.13,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 13.1925}}
+2025-08-13 15:57:22 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:57:22 INFO: Current average volume is: 1449.6
+2025-08-13 15:57:22 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:58:22 INFO: {'BSLK': {   'close': 13.49,
+    'high': 13.49,
+    'low': 13.34,
+    'open': 13.45,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 13.41}}
+2025-08-13 15:58:22 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:58:22 INFO: Current average volume is: 1442.9
+2025-08-13 15:58:22 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 15:59:22 INFO: {'BSLK': {   'close': 13.78,
+    'high': 13.78,
+    'low': 13.65,
+    'open': 13.69,
+    'symbol': 'BSLK',
+    'timestamp': datetime.datetime(2025, 8, 13, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 900.0,
+    'vwap': 13.718889}}
+2025-08-13 15:59:22 INFO: Current resistance is: 14.28 and support is: 12.77
+2025-08-13 15:59:22 INFO: Current average volume is: 1507.9
+2025-08-13 15:59:22 INFO: Updated resistance to: 14.28 and support to: 12.77
+2025-08-13 16:00:22 INFO: The Market is closed...

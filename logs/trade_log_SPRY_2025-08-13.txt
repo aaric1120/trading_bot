@@ -1,0 +1,411 @@
+2025-08-13 09:55:15 INFO: === Strategy started ===
+2025-08-13 09:55:15 INFO: Start collecting the current highs/lows for: SPRY
+2025-08-13 09:55:15 INFO: Most recent stock data: {'SPRY': {   'close': 14.78,
+    'high': 14.78,
+    'low': 14.78,
+    'open': 14.78,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 430.0,
+    'vwap': 14.78}}
+2025-08-13 09:56:16 INFO: Most recent stock data: {'SPRY': {   'close': 14.98,
+    'high': 14.98,
+    'low': 14.74,
+    'open': 14.74,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1249.0,
+    'vwap': 14.853}}
+2025-08-13 09:59:17 INFO: Most recent stock data: {'SPRY': {   'close': 15.01,
+    'high': 15.025,
+    'low': 15.0,
+    'open': 15.025,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1710.0,
+    'vwap': 15.022333}}
+2025-08-13 10:02:17 INFO: Most recent stock data: {'SPRY': {   'close': 15.06,
+    'high': 15.06,
+    'low': 15.05,
+    'open': 15.05,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 455.0,
+    'vwap': 15.055}}
+2025-08-13 10:04:18 INFO: Most recent stock data: {'SPRY': {   'close': 15.02,
+    'high': 15.09,
+    'low': 15.02,
+    'open': 15.09,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 635.0,
+    'vwap': 15.04625}}
+2025-08-13 10:05:18 INFO: Most recent stock data: {'SPRY': {   'close': 15.12,
+    'high': 15.12,
+    'low': 15.12,
+    'open': 15.12,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 146.0,
+    'vwap': 15.12}}
+2025-08-13 10:06:18 INFO: Most recent stock data: {'SPRY': {   'close': 15.21,
+    'high': 15.21,
+    'low': 15.15,
+    'open': 15.15,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 413.0,
+    'vwap': 15.182481}}
+2025-08-13 10:07:18 INFO: Most recent stock data: {'SPRY': {   'close': 15.27,
+    'high': 15.27,
+    'low': 15.27,
+    'open': 15.27,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 161.0,
+    'vwap': 15.27}}
+2025-08-13 10:08:19 INFO: Most recent stock data: {'SPRY': {   'close': 15.24,
+    'high': 15.24,
+    'low': 15.24,
+    'open': 15.24,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 228.0,
+    'vwap': 15.24}}
+2025-08-13 10:09:19 INFO: Most recent stock data: {'SPRY': {   'close': 15.2,
+    'high': 15.2,
+    'low': 15.2,
+    'open': 15.2,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 804.0,
+    'vwap': 15.2}}
+2025-08-13 10:10:19 INFO: Most recent stock data: {'SPRY': {   'close': 15.315,
+    'high': 15.39,
+    'low': 15.31,
+    'open': 15.39,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 497.0,
+    'vwap': 15.335433}}
+2025-08-13 10:10:19 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 10:10:19 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-13 10:11:19 INFO: {'SPRY': {   'close': 15.53,
+    'high': 15.58,
+    'low': 15.53,
+    'open': 15.58,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 550.0,
+    'vwap': 15.541818}}
+2025-08-13 10:11:19 INFO: Current resistance is: 15.436 and support is: 15.265
+2025-08-13 10:11:19 INFO: Current average volume is: 559.9
+2025-08-13 10:11:19 INFO: The Current Close 15.53 is above the resistance...
+2025-08-13 10:11:19 INFO: Updated resistance to: 15.633 and support to: 15.375
+2025-08-13 10:12:20 INFO: {'SPRY': {   'close': 15.47,
+    'high': 15.47,
+    'low': 15.47,
+    'open': 15.47,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 195.0,
+    'vwap': 15.47}}
+2025-08-13 10:12:20 INFO: Current resistance is: 15.633 and support is: 15.375
+2025-08-13 10:12:20 INFO: Current average volume is: 408.4
+2025-08-13 10:12:20 INFO: Updated resistance to: 15.684 and support to: 15.424
+2025-08-13 10:13:20 INFO: {'SPRY': {   'close': 15.52,
+    'high': 15.52,
+    'low': 15.44,
+    'open': 15.44,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1378.0,
+    'vwap': 15.502941}}
+2025-08-13 10:13:20 INFO: Current resistance is: 15.684 and support is: 15.424
+2025-08-13 10:13:20 INFO: Current average volume is: 500.7
+2025-08-13 10:13:20 INFO: Updated resistance to: 15.734 and support to: 15.442
+2025-08-13 10:14:20 INFO: {'SPRY': {   'close': 15.56,
+    'high': 15.56,
+    'low': 15.52,
+    'open': 15.52,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 306.0,
+    'vwap': 15.54}}
+2025-08-13 10:14:20 INFO: Current resistance is: 15.734 and support is: 15.442
+2025-08-13 10:14:20 INFO: Current average volume is: 467.8
+2025-08-13 10:14:20 INFO: Updated resistance to: 15.781 and support to: 15.478
+2025-08-13 10:15:20 INFO: {'SPRY': {   'close': 15.55,
+    'high': 15.55,
+    'low': 15.55,
+    'open': 15.55,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 335.0,
+    'vwap': 15.55}}
+2025-08-13 10:15:20 INFO: Current resistance is: 15.781 and support is: 15.478
+2025-08-13 10:15:20 INFO: Current average volume is: 486.7
+2025-08-13 10:15:20 INFO: Updated resistance to: 15.822 and support to: 15.511
+2025-08-13 10:16:20 INFO: {'SPRY': {   'close': 15.405,
+    'high': 15.495,
+    'low': 15.405,
+    'open': 15.495,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 376.0,
+    'vwap': 15.436667}}
+2025-08-13 10:16:20 INFO: Current resistance is: 15.822 and support is: 15.511
+2025-08-13 10:16:20 INFO: Current average volume is: 483.0
+2025-08-13 10:16:20 INFO: close price: 15.405 just dropped below support of 15.511...
+2025-08-13 10:17:21 INFO: {'SPRY': {   'close': 15.44,
+    'high': 15.45,
+    'low': 15.44,
+    'open': 15.445,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1759.0,
+    'vwap': 15.44492}}
+2025-08-13 10:17:21 INFO: Current resistance is: 15.822 and support is: 15.511
+2025-08-13 10:17:21 INFO: Current average volume is: 642.8
+2025-08-13 10:17:21 INFO: Closing price: 15.44 just dropped below support 15.511 again...ending trade...
+2025-08-13 11:25:33 INFO: === Strategy started ===
+2025-08-13 11:25:33 INFO: Start collecting the current highs/lows for: SPRY
+2025-08-13 11:25:33 INFO: Most recent stock data: {'SPRY': {   'close': 15.56,
+    'high': 15.56,
+    'low': 15.52,
+    'open': 15.52,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 236.0,
+    'vwap': 15.54}}
+2025-08-13 11:27:34 INFO: Most recent stock data: {'SPRY': {   'close': 15.5,
+    'high': 15.5,
+    'low': 15.455,
+    'open': 15.455,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 248.0,
+    'vwap': 15.4775}}
+2025-08-13 11:28:34 INFO: Most recent stock data: {'SPRY': {   'close': 15.52,
+    'high': 15.52,
+    'low': 15.465,
+    'open': 15.465,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 666.0,
+    'vwap': 15.510305}}
+2025-08-13 11:31:35 INFO: Most recent stock data: {'SPRY': {   'close': 15.52,
+    'high': 15.54,
+    'low': 15.52,
+    'open': 15.535,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 512.0,
+    'vwap': 15.53375}}
+2025-08-13 11:33:35 INFO: Most recent stock data: {'SPRY': {   'close': 15.505,
+    'high': 15.505,
+    'low': 15.505,
+    'open': 15.505,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 114.0,
+    'vwap': 15.505}}
+2025-08-13 11:34:35 INFO: Most recent stock data: {'SPRY': {   'close': 15.52,
+    'high': 15.52,
+    'low': 15.52,
+    'open': 15.52,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 15.52}}
+2025-08-13 11:36:35 INFO: Most recent stock data: {'SPRY': {   'close': 15.555,
+    'high': 15.555,
+    'low': 15.54,
+    'open': 15.545,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 328.0,
+    'vwap': 15.546667}}
+2025-08-13 11:37:36 INFO: Most recent stock data: {'SPRY': {   'close': 15.65,
+    'high': 15.65,
+    'low': 15.65,
+    'open': 15.65,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 321.0,
+    'vwap': 15.65}}
+2025-08-13 11:40:36 INFO: Most recent stock data: {'SPRY': {   'close': 15.625,
+    'high': 15.625,
+    'low': 15.625,
+    'open': 15.625,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 132.0,
+    'vwap': 15.625}}
+2025-08-13 11:43:37 INFO: Most recent stock data: {'SPRY': {   'close': 15.63,
+    'high': 15.63,
+    'low': 15.63,
+    'open': 15.63,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 141.0,
+    'vwap': 15.63}}
+2025-08-13 11:45:37 INFO: Most recent stock data: {'SPRY': {   'close': 15.65,
+    'high': 15.65,
+    'low': 15.65,
+    'open': 15.65,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 140.0,
+    'vwap': 15.65}}
+2025-08-13 11:45:37 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 11:45:37 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-13 11:48:38 INFO: {'SPRY': {   'close': 15.645,
+    'high': 15.645,
+    'low': 15.645,
+    'open': 15.645,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1338.0,
+    'vwap': 15.645}}
+2025-08-13 11:48:38 INFO: Current resistance is: 15.65 and support is: 15.455
+2025-08-13 11:48:38 INFO: Current average volume is: 389.2
+2025-08-13 11:48:38 INFO: Updated resistance to: 15.65 and support to: 15.455
+2025-08-13 11:49:38 INFO: {'SPRY': {   'close': 15.56,
+    'high': 15.68,
+    'low': 15.56,
+    'open': 15.68,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1395.0,
+    'vwap': 15.596667}}
+2025-08-13 11:49:38 INFO: Current resistance is: 15.65 and support is: 15.455
+2025-08-13 11:49:38 INFO: Current average volume is: 462.1
+2025-08-13 11:49:38 INFO: Updated resistance to: 15.68 and support to: 15.455
+2025-08-13 11:50:38 INFO: {'SPRY': {   'close': 15.555,
+    'high': 15.555,
+    'low': 15.555,
+    'open': 15.555,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1158.0,
+    'vwap': 15.555}}
+2025-08-13 11:50:38 INFO: Current resistance is: 15.68 and support is: 15.455
+2025-08-13 11:50:38 INFO: Current average volume is: 526.7
+2025-08-13 11:50:38 INFO: Updated resistance to: 15.68 and support to: 15.455
+2025-08-13 11:51:38 INFO: {'SPRY': {   'close': 15.51,
+    'high': 15.55,
+    'low': 15.505,
+    'open': 15.55,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 834.0,
+    'vwap': 15.515}}
+2025-08-13 11:51:38 INFO: Current resistance is: 15.68 and support is: 15.455
+2025-08-13 11:51:38 INFO: Current average volume is: 598.7
+2025-08-13 11:51:38 INFO: Updated resistance to: 15.68 and support to: 15.455
+2025-08-13 11:54:39 INFO: {'SPRY': {   'close': 15.63,
+    'high': 15.65,
+    'low': 15.63,
+    'open': 15.65,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 287.0,
+    'vwap': 15.64}}
+2025-08-13 11:54:39 INFO: Current resistance is: 15.68 and support is: 15.455
+2025-08-13 11:54:39 INFO: Current average volume is: 607.4
+2025-08-13 11:54:39 INFO: Updated resistance to: 15.68 and support to: 15.455
+2025-08-13 11:55:39 INFO: {'SPRY': {   'close': 15.615,
+    'high': 15.615,
+    'low': 15.6,
+    'open': 15.6,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 270.0,
+    'vwap': 15.60875}}
+2025-08-13 11:55:39 INFO: Current resistance is: 15.68 and support is: 15.455
+2025-08-13 11:55:39 INFO: Current average volume is: 601.6
+2025-08-13 11:55:39 INFO: Updated resistance to: 15.68 and support to: 15.455
+2025-08-13 11:56:39 INFO: {'SPRY': {   'close': 15.62,
+    'high': 15.62,
+    'low': 15.62,
+    'open': 15.62,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 181.0,
+    'vwap': 15.62}}
+2025-08-13 11:56:39 INFO: Current resistance is: 15.68 and support is: 15.455
+2025-08-13 11:56:39 INFO: Current average volume is: 587.6
+2025-08-13 11:56:39 INFO: Updated resistance to: 15.68 and support to: 15.455
+2025-08-13 11:57:40 INFO: {'SPRY': {   'close': 15.585,
+    'high': 15.585,
+    'low': 15.585,
+    'open': 15.585,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 243.0,
+    'vwap': 15.585}}
+2025-08-13 11:57:40 INFO: Current resistance is: 15.68 and support is: 15.455
+2025-08-13 11:57:40 INFO: Current average volume is: 598.7
+2025-08-13 11:57:40 INFO: Updated resistance to: 15.68 and support to: 15.455
+2025-08-13 11:58:40 INFO: {'SPRY': {   'close': 15.45,
+    'high': 15.58,
+    'low': 15.45,
+    'open': 15.58,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1864.0,
+    'vwap': 15.526875}}
+2025-08-13 11:58:40 INFO: Current resistance is: 15.68 and support is: 15.455
+2025-08-13 11:58:40 INFO: Current average volume is: 771.0
+2025-08-13 11:58:40 INFO: close price: 15.45 just dropped below support of 15.455...
+2025-08-13 11:59:40 INFO: {'SPRY': {   'close': 15.435,
+    'high': 15.46,
+    'low': 15.435,
+    'open': 15.46,
+    'symbol': 'SPRY',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1358.0,
+    'vwap': 15.447302}}
+2025-08-13 11:59:40 INFO: Current resistance is: 15.68 and support is: 15.455
+2025-08-13 11:59:40 INFO: Current average volume is: 892.8
+2025-08-13 11:59:40 INFO: Closing price: 15.435 just dropped below support 15.455 again...ending trade...

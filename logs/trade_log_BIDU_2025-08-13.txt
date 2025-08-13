@@ -1,0 +1,589 @@
+2025-08-13 09:55:15 INFO: === Strategy started ===
+2025-08-13 09:55:15 INFO: Start collecting the current highs/lows for: BIDU
+2025-08-13 09:55:15 INFO: Most recent stock data: {'BIDU': {   'close': 90.765,
+    'high': 90.765,
+    'low': 90.66,
+    'open': 90.66,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 991.0,
+    'vwap': 90.702154}}
+2025-08-13 09:56:16 INFO: Most recent stock data: {'BIDU': {   'close': 90.78,
+    'high': 90.78,
+    'low': 90.76,
+    'open': 90.76,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 544.0,
+    'vwap': 90.769091}}
+2025-08-13 09:57:17 INFO: Most recent stock data: {'BIDU': {   'close': 90.82,
+    'high': 90.9,
+    'low': 90.82,
+    'open': 90.85,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2605.0,
+    'vwap': 90.832185}}
+2025-08-13 09:59:17 INFO: Most recent stock data: {'BIDU': {   'close': 90.74,
+    'high': 90.75,
+    'low': 90.705,
+    'open': 90.75,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 799.0,
+    'vwap': 90.730682}}
+2025-08-13 10:00:17 INFO: Most recent stock data: {'BIDU': {   'close': 90.83,
+    'high': 90.87,
+    'low': 90.83,
+    'open': 90.87,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 410.0,
+    'vwap': 90.85}}
+2025-08-13 10:01:17 INFO: Most recent stock data: {'BIDU': {   'close': 90.82,
+    'high': 90.82,
+    'low': 90.82,
+    'open': 90.82,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 242.0,
+    'vwap': 90.82}}
+2025-08-13 10:02:17 INFO: Most recent stock data: {'BIDU': {   'close': 90.83,
+    'high': 90.83,
+    'low': 90.83,
+    'open': 90.83,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 90.83}}
+2025-08-13 10:03:18 INFO: Most recent stock data: {'BIDU': {   'close': 90.82,
+    'high': 90.82,
+    'low': 90.79,
+    'open': 90.82,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 430.0,
+    'vwap': 90.8125}}
+2025-08-13 10:04:18 INFO: Most recent stock data: {'BIDU': {   'close': 91.0,
+    'high': 91.0,
+    'low': 90.91,
+    'open': 90.91,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 779.0,
+    'vwap': 90.956667}}
+2025-08-13 10:05:18 INFO: Most recent stock data: {'BIDU': {   'close': 91.02,
+    'high': 91.02,
+    'low': 91.02,
+    'open': 91.02,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 174.0,
+    'vwap': 91.02}}
+2025-08-13 10:10:19 INFO: Most recent stock data: {'BIDU': {   'close': 90.83,
+    'high': 90.83,
+    'low': 90.83,
+    'open': 90.83,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 90.83}}
+2025-08-13 10:10:19 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 10:10:19 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-13 10:12:20 INFO: {'BIDU': {   'close': 90.79,
+    'high': 90.79,
+    'low': 90.79,
+    'open': 90.79,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 90.79}}
+2025-08-13 10:12:20 INFO: Current resistance is: 91.02 and support is: 90.66
+2025-08-13 10:12:20 INFO: Current average volume is: 574.4
+2025-08-13 10:12:20 INFO: Updated resistance to: 91.02 and support to: 90.66
+2025-08-13 10:14:20 INFO: {'BIDU': {   'close': 90.69,
+    'high': 90.69,
+    'low': 90.69,
+    'open': 90.69,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 318.0,
+    'vwap': 90.69}}
+2025-08-13 10:14:20 INFO: Current resistance is: 91.02 and support is: 90.66
+2025-08-13 10:14:20 INFO: Current average volume is: 345.7
+2025-08-13 10:14:20 INFO: Updated resistance to: 91.02 and support to: 90.66
+2025-08-13 10:15:20 INFO: {'BIDU': {   'close': 90.76,
+    'high': 90.76,
+    'low': 90.76,
+    'open': 90.76,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 113.0,
+    'vwap': 90.76}}
+2025-08-13 10:15:20 INFO: Current resistance is: 91.02 and support is: 90.66
+2025-08-13 10:15:20 INFO: Current average volume is: 277.1
+2025-08-13 10:15:20 INFO: Updated resistance to: 91.02 and support to: 90.66
+2025-08-13 10:16:20 INFO: {'BIDU': {   'close': 90.95,
+    'high': 90.95,
+    'low': 90.83,
+    'open': 90.83,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 353.0,
+    'vwap': 90.876154}}
+2025-08-13 10:16:20 INFO: Current resistance is: 91.02 and support is: 90.66
+2025-08-13 10:16:20 INFO: Current average volume is: 271.4
+2025-08-13 10:16:20 INFO: Updated resistance to: 91.02 and support to: 90.66
+2025-08-13 10:17:21 INFO: {'BIDU': {   'close': 91.05,
+    'high': 91.05,
+    'low': 91.03,
+    'open': 91.03,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 360.0,
+    'vwap': 91.04}}
+2025-08-13 10:17:21 INFO: Current resistance is: 91.02 and support is: 90.66
+2025-08-13 10:17:21 INFO: Current average volume is: 283.2
+2025-08-13 10:17:21 INFO: The Current Close 91.05 is above the resistance...
+2025-08-13 10:17:21 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:18:21 INFO: {'BIDU': {   'close': 91.26,
+    'high': 91.26,
+    'low': 91.13,
+    'open': 91.13,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1395.0,
+    'vwap': 91.192099}}
+2025-08-13 10:18:21 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:18:21 INFO: Current average volume is: 412.7
+2025-08-13 10:18:21 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-13 10:19:21 INFO: {'BIDU': {   'close': 91.075,
+    'high': 91.235,
+    'low': 91.075,
+    'open': 91.235,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1049.0,
+    'vwap': 91.153822}}
+2025-08-13 10:19:21 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:19:21 INFO: Current average volume is: 474.6
+2025-08-13 10:19:21 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-13 10:20:22 INFO: {'BIDU': {   'close': 90.91,
+    'high': 91.01,
+    'low': 90.89,
+    'open': 91.01,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1235.0,
+    'vwap': 90.919556}}
+2025-08-13 10:20:22 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:20:22 INFO: Current average volume is: 520.2
+2025-08-13 10:20:22 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:24:22 INFO: {'BIDU': {   'close': 90.935,
+    'high': 90.935,
+    'low': 90.935,
+    'open': 90.935,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 322.0,
+    'vwap': 90.935}}
+2025-08-13 10:24:22 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:24:22 INFO: Current average volume is: 535.0
+2025-08-13 10:24:22 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:26:23 INFO: {'BIDU': {   'close': 90.815,
+    'high': 90.815,
+    'low': 90.815,
+    'open': 90.815,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 186.0,
+    'vwap': 90.815}}
+2025-08-13 10:26:23 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:26:23 INFO: Current average volume is: 543.6
+2025-08-13 10:26:23 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:27:23 INFO: {'BIDU': {   'close': 90.85,
+    'high': 90.915,
+    'low': 90.85,
+    'open': 90.915,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 622.0,
+    'vwap': 90.903455}}
+2025-08-13 10:27:23 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:27:23 INFO: Current average volume is: 595.3
+2025-08-13 10:27:23 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:28:23 INFO: {'BIDU': {   'close': 90.95,
+    'high': 90.95,
+    'low': 90.88,
+    'open': 90.88,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 755.0,
+    'vwap': 90.925044}}
+2025-08-13 10:28:23 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:28:23 INFO: Current average volume is: 639.0
+2025-08-13 10:28:23 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:29:23 INFO: {'BIDU': {   'close': 90.97,
+    'high': 91.03,
+    'low': 90.97,
+    'open': 91.03,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 470.0,
+    'vwap': 91.000588}}
+2025-08-13 10:29:23 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:29:23 INFO: Current average volume is: 674.7
+2025-08-13 10:29:23 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:32:24 INFO: {'BIDU': {   'close': 90.98,
+    'high': 90.98,
+    'low': 90.98,
+    'open': 90.98,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 290.0,
+    'vwap': 90.98}}
+2025-08-13 10:32:24 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:32:24 INFO: Current average volume is: 668.4
+2025-08-13 10:32:24 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:35:25 INFO: {'BIDU': {   'close': 90.87,
+    'high': 90.87,
+    'low': 90.87,
+    'open': 90.87,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 507.0,
+    'vwap': 90.87}}
+2025-08-13 10:35:25 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:35:25 INFO: Current average volume is: 683.1
+2025-08-13 10:35:25 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:36:25 INFO: {'BIDU': {   'close': 90.865,
+    'high': 90.865,
+    'low': 90.865,
+    'open': 90.865,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 212.0,
+    'vwap': 90.865}}
+2025-08-13 10:36:25 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:36:25 INFO: Current average volume is: 564.8
+2025-08-13 10:36:25 INFO: Updated resistance to: 91.05 and support to: 90.66
+2025-08-13 10:40:25 INFO: {'BIDU': {   'close': 91.18,
+    'high': 91.18,
+    'low': 91.18,
+    'open': 91.18,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 167.0,
+    'vwap': 91.18}}
+2025-08-13 10:40:25 INFO: Current resistance is: 91.05 and support is: 90.66
+2025-08-13 10:40:25 INFO: Current average volume is: 476.6
+2025-08-13 10:40:25 INFO: The Current Close 91.18 is above the resistance...
+2025-08-13 10:40:25 INFO: Updated resistance to: 91.18 and support to: 90.66
+2025-08-13 10:41:26 INFO: {'BIDU': {   'close': 91.19,
+    'high': 91.19,
+    'low': 91.19,
+    'open': 91.19,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 91.19}}
+2025-08-13 10:41:26 INFO: Current resistance is: 91.18 and support is: 90.66
+2025-08-13 10:41:26 INFO: Current average volume is: 363.1
+2025-08-13 10:41:26 INFO: The current close: 91.19 is above the resistance of 91.18, but volume isn't enough...
+2025-08-13 10:41:26 INFO: Updated resistance to: 91.19 and support to: 90.66
+2025-08-13 10:42:26 INFO: {'BIDU': {   'close': 91.29,
+    'high': 91.29,
+    'low': 91.29,
+    'open': 91.29,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 353.0,
+    'vwap': 91.29}}
+2025-08-13 10:42:26 INFO: Current resistance is: 91.19 and support is: 90.66
+2025-08-13 10:42:26 INFO: Current average volume is: 366.2
+2025-08-13 10:42:26 INFO: The current close: 91.29 is above the resistance of 91.19, but volume isn't enough...
+2025-08-13 10:42:26 INFO: Updated resistance to: 91.29 and support to: 90.66
+2025-08-13 10:43:27 INFO: {'BIDU': {   'close': 91.35,
+    'high': 91.35,
+    'low': 91.34,
+    'open': 91.34,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 363.0,
+    'vwap': 91.345}}
+2025-08-13 10:43:27 INFO: Current resistance is: 91.29 and support is: 90.66
+2025-08-13 10:43:27 INFO: Current average volume is: 383.9
+2025-08-13 10:43:27 INFO: The current close: 91.35 is above the resistance of 91.29, but volume isn't enough...
+2025-08-13 10:43:27 INFO: Updated resistance to: 91.35 and support to: 90.66
+2025-08-13 10:44:27 INFO: {'BIDU': {   'close': 91.43,
+    'high': 91.45,
+    'low': 91.35,
+    'open': 91.35,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 685.0,
+    'vwap': 91.421969}}
+2025-08-13 10:44:27 INFO: Current resistance is: 91.35 and support is: 90.66
+2025-08-13 10:44:27 INFO: Current average volume is: 390.2
+2025-08-13 10:44:27 INFO: The current close: 91.43 is above the resistance of 91.35, but volume isn't enough...
+2025-08-13 10:44:27 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 10:45:27 INFO: {'BIDU': {   'close': 91.26,
+    'high': 91.3,
+    'low': 91.26,
+    'open': 91.295,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 845.0,
+    'vwap': 91.291441}}
+2025-08-13 10:45:27 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 10:45:27 INFO: Current average volume is: 399.2
+2025-08-13 10:45:27 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 10:47:28 INFO: {'BIDU': {   'close': 91.12,
+    'high': 91.12,
+    'low': 91.12,
+    'open': 91.12,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 91.12}}
+2025-08-13 10:47:28 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 10:47:28 INFO: Current average volume is: 362.7
+2025-08-13 10:47:28 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 10:48:28 INFO: {'BIDU': {   'close': 91.075,
+    'high': 91.075,
+    'low': 91.075,
+    'open': 91.075,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 281.0,
+    'vwap': 91.075}}
+2025-08-13 10:48:28 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 10:48:28 INFO: Current average volume is: 361.8
+2025-08-13 10:48:28 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 10:50:28 INFO: {'BIDU': {   'close': 91.06,
+    'high': 91.06,
+    'low': 91.06,
+    'open': 91.06,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 238.0,
+    'vwap': 91.06}}
+2025-08-13 10:50:28 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 10:50:28 INFO: Current average volume is: 334.9
+2025-08-13 10:50:28 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 10:52:29 INFO: {'BIDU': {   'close': 91.03,
+    'high': 91.03,
+    'low': 91.03,
+    'open': 91.03,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 199.0,
+    'vwap': 91.03}}
+2025-08-13 10:52:29 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 10:52:29 INFO: Current average volume is: 333.6
+2025-08-13 10:52:29 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 10:53:29 INFO: {'BIDU': {   'close': 91.02,
+    'high': 91.02,
+    'low': 91.02,
+    'open': 91.02,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 169.0,
+    'vwap': 91.02}}
+2025-08-13 10:53:29 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 10:53:29 INFO: Current average volume is: 333.8
+2025-08-13 10:53:29 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 10:55:29 INFO: {'BIDU': {   'close': 90.965,
+    'high': 91.11,
+    'low': 90.965,
+    'open': 91.11,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 366.0,
+    'vwap': 91.045}}
+2025-08-13 10:55:29 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 10:55:29 INFO: Current average volume is: 360.4
+2025-08-13 10:55:29 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 10:57:30 INFO: {'BIDU': {   'close': 90.865,
+    'high': 90.87,
+    'low': 90.865,
+    'open': 90.865,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 786.0,
+    'vwap': 90.86625}}
+2025-08-13 10:57:30 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 10:57:30 INFO: Current average volume is: 403.7
+2025-08-13 10:57:30 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 10:58:30 INFO: {'BIDU': {   'close': 90.89,
+    'high': 90.89,
+    'low': 90.89,
+    'open': 90.89,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 554.0,
+    'vwap': 90.89}}
+2025-08-13 10:58:30 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 10:58:30 INFO: Current average volume is: 422.8
+2025-08-13 10:58:30 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 11:00:30 INFO: {'BIDU': {   'close': 90.85,
+    'high': 90.85,
+    'low': 90.84,
+    'open': 90.84,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 464.0,
+    'vwap': 90.846979}}
+2025-08-13 11:00:30 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:00:30 INFO: Current average volume is: 400.7
+2025-08-13 11:00:30 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 11:01:30 INFO: {'BIDU': {   'close': 90.83,
+    'high': 90.83,
+    'low': 90.83,
+    'open': 90.83,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 90.83}}
+2025-08-13 11:01:30 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:01:30 INFO: Current average volume is: 327.2
+2025-08-13 11:01:30 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 11:02:31 INFO: {'BIDU': {   'close': 90.82,
+    'high': 90.82,
+    'low': 90.8,
+    'open': 90.8,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 294.0,
+    'vwap': 90.81}}
+2025-08-13 11:02:31 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:02:31 INFO: Current average volume is: 346.1
+2025-08-13 11:02:31 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 11:03:31 INFO: {'BIDU': {   'close': 90.835,
+    'high': 90.835,
+    'low': 90.835,
+    'open': 90.835,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 249.0,
+    'vwap': 90.835}}
+2025-08-13 11:03:31 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:03:31 INFO: Current average volume is: 342.9
+2025-08-13 11:03:31 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 11:04:31 INFO: {'BIDU': {   'close': 90.855,
+    'high': 90.855,
+    'low': 90.85,
+    'open': 90.85,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 670.0,
+    'vwap': 90.853}}
+2025-08-13 11:04:31 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:04:31 INFO: Current average volume is: 386.1
+2025-08-13 11:04:31 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 11:07:32 INFO: {'BIDU': {   'close': 90.89,
+    'high': 90.89,
+    'low': 90.83,
+    'open': 90.83,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 475.0,
+    'vwap': 90.86}}
+2025-08-13 11:07:32 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:07:32 INFO: Current average volume is: 413.7
+2025-08-13 11:07:32 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 11:08:32 INFO: {'BIDU': {   'close': 90.8,
+    'high': 90.8,
+    'low': 90.8,
+    'open': 90.8,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 298.0,
+    'vwap': 90.8}}
+2025-08-13 11:08:32 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:08:32 INFO: Current average volume is: 426.6
+2025-08-13 11:08:32 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 11:09:32 INFO: {'BIDU': {   'close': 90.685,
+    'high': 90.76,
+    'low': 90.685,
+    'open': 90.76,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 90.7225}}
+2025-08-13 11:09:32 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:09:32 INFO: Current average volume is: 410.0
+2025-08-13 11:09:32 INFO: Updated resistance to: 91.45 and support to: 90.66
+2025-08-13 11:10:32 INFO: {'BIDU': {   'close': 90.57,
+    'high': 90.58,
+    'low': 90.57,
+    'open': 90.58,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 518.0,
+    'vwap': 90.575}}
+2025-08-13 11:10:32 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:10:32 INFO: Current average volume is: 383.2
+2025-08-13 11:10:32 INFO: close price: 90.57 just dropped below support of 90.66...
+2025-08-13 11:11:32 INFO: {'BIDU': {   'close': 90.515,
+    'high': 90.56,
+    'low': 90.5,
+    'open': 90.54,
+    'symbol': 'BIDU',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 920.0,
+    'vwap': 90.526731}}
+2025-08-13 11:11:32 INFO: Current resistance is: 91.45 and support is: 90.66
+2025-08-13 11:11:32 INFO: Current average volume is: 419.8
+2025-08-13 11:11:32 INFO: Closing price: 90.515 just dropped below support 90.66 again...ending trade...

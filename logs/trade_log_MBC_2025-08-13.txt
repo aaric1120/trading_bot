@@ -1,0 +1,794 @@
+2025-08-13 10:40:21 INFO: === Strategy started ===
+2025-08-13 10:40:21 INFO: Start collecting the current highs/lows for: MBC
+2025-08-13 10:40:22 INFO: Most recent stock data: {'MBC': {   'close': 12.83,
+    'high': 12.83,
+    'low': 12.83,
+    'open': 12.83,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 442.0,
+    'vwap': 12.83}}
+2025-08-13 10:41:22 INFO: Most recent stock data: {'MBC': {   'close': 12.88,
+    'high': 12.88,
+    'low': 12.88,
+    'open': 12.88,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 418.0,
+    'vwap': 12.88}}
+2025-08-13 10:43:22 INFO: Most recent stock data: {'MBC': {   'close': 12.91,
+    'high': 12.91,
+    'low': 12.9,
+    'open': 12.9,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1038.0,
+    'vwap': 12.904792}}
+2025-08-13 10:46:23 INFO: Most recent stock data: {'MBC': {   'close': 12.97,
+    'high': 12.97,
+    'low': 12.97,
+    'open': 12.97,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.97}}
+2025-08-13 10:48:23 INFO: Most recent stock data: {'MBC': {   'close': 12.93,
+    'high': 12.965,
+    'low': 12.92,
+    'open': 12.965,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1454.0,
+    'vwap': 12.9375}}
+2025-08-13 10:50:24 INFO: Most recent stock data: {'MBC': {   'close': 12.9,
+    'high': 12.9,
+    'low': 12.9,
+    'open': 12.9,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 634.0,
+    'vwap': 12.9}}
+2025-08-13 10:51:24 INFO: Most recent stock data: {'MBC': {   'close': 12.91,
+    'high': 12.91,
+    'low': 12.905,
+    'open': 12.905,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 662.0,
+    'vwap': 12.909167}}
+2025-08-13 10:52:24 INFO: Most recent stock data: {'MBC': {   'close': 12.9,
+    'high': 12.9,
+    'low': 12.9,
+    'open': 12.9,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 12.9}}
+2025-08-13 10:53:24 INFO: Most recent stock data: {'MBC': {   'close': 12.925,
+    'high': 12.925,
+    'low': 12.91,
+    'open': 12.91,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 601.0,
+    'vwap': 12.913}}
+2025-08-13 10:56:25 INFO: Most recent stock data: {'MBC': {   'close': 12.96,
+    'high': 12.96,
+    'low': 12.94,
+    'open': 12.94,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1445.0,
+    'vwap': 12.950076}}
+2025-08-13 10:57:25 INFO: Most recent stock data: {'MBC': {   'close': 12.965,
+    'high': 12.97,
+    'low': 12.96,
+    'open': 12.97,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1255.0,
+    'vwap': 12.965417}}
+2025-08-13 10:57:25 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 10:57:25 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-13 10:59:25 INFO: {'MBC': {   'close': 12.95,
+    'high': 12.96,
+    'low': 12.95,
+    'open': 12.95,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1299.0,
+    'vwap': 12.951667}}
+2025-08-13 10:59:25 INFO: Current resistance is: 12.97 and support is: 12.83
+2025-08-13 10:59:25 INFO: Current average volume is: 860.8
+2025-08-13 10:59:25 INFO: Updated resistance to: 12.97 and support to: 12.83
+2025-08-13 11:00:26 INFO: {'MBC': {   'close': 12.96,
+    'high': 12.965,
+    'low': 12.96,
+    'open': 12.965,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 637.0,
+    'vwap': 12.960871}}
+2025-08-13 11:00:26 INFO: Current resistance is: 12.97 and support is: 12.83
+2025-08-13 11:00:26 INFO: Current average volume is: 820.7
+2025-08-13 11:00:26 INFO: Updated resistance to: 12.97 and support to: 12.83
+2025-08-13 11:03:26 INFO: {'MBC': {   'close': 12.98,
+    'high': 12.98,
+    'low': 12.98,
+    'open': 12.98,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 123.0,
+    'vwap': 12.98}}
+2025-08-13 11:03:26 INFO: Current resistance is: 12.97 and support is: 12.83
+2025-08-13 11:03:26 INFO: Current average volume is: 823.0
+2025-08-13 11:03:26 INFO: The Current Close 12.98 is above the resistance...
+2025-08-13 11:03:26 INFO: Updated resistance to: 12.98 and support to: 12.83
+2025-08-13 11:04:27 INFO: {'MBC': {   'close': 13.0,
+    'high': 13.0,
+    'low': 13.0,
+    'open': 13.0,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 575.0,
+    'vwap': 13.0}}
+2025-08-13 11:04:27 INFO: Current resistance is: 12.98 and support is: 12.83
+2025-08-13 11:04:27 INFO: Current average volume is: 735.1
+2025-08-13 11:04:27 INFO: The current close: 13.0 is above the resistance of 12.98, but volume isn't enough...
+2025-08-13 11:04:27 INFO: Updated resistance to: 13.0 and support to: 12.83
+2025-08-13 11:07:28 INFO: {'MBC': {   'close': 13.02,
+    'high': 13.02,
+    'low': 13.01,
+    'open': 13.01,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 748.0,
+    'vwap': 13.018571}}
+2025-08-13 11:07:28 INFO: Current resistance is: 13.0 and support is: 12.83
+2025-08-13 11:07:28 INFO: Current average volume is: 746.5
+2025-08-13 11:07:28 INFO: The current close: 13.02 is above the resistance of 13.0, but volume isn't enough...
+2025-08-13 11:07:28 INFO: Updated resistance to: 13.02 and support to: 12.83
+2025-08-13 11:11:29 INFO: {'MBC': {   'close': 13.04,
+    'high': 13.04,
+    'low': 13.03,
+    'open': 13.03,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 859.0,
+    'vwap': 13.033167}}
+2025-08-13 11:11:29 INFO: Current resistance is: 13.02 and support is: 12.83
+2025-08-13 11:11:29 INFO: Current average volume is: 766.2
+2025-08-13 11:11:29 INFO: The current close: 13.04 is above the resistance of 13.02, but volume isn't enough...
+2025-08-13 11:11:29 INFO: Updated resistance to: 13.04 and support to: 12.83
+2025-08-13 11:13:30 INFO: {'MBC': {   'close': 13.02,
+    'high': 13.02,
+    'low': 13.02,
+    'open': 13.02,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 237.0,
+    'vwap': 13.02}}
+2025-08-13 11:13:30 INFO: Current resistance is: 13.04 and support is: 12.83
+2025-08-13 11:13:30 INFO: Current average volume is: 777.9
+2025-08-13 11:13:30 INFO: Updated resistance to: 13.04 and support to: 12.83
+2025-08-13 11:17:31 INFO: {'MBC': {   'close': 13.07,
+    'high': 13.07,
+    'low': 13.04,
+    'open': 13.04,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 905.0,
+    'vwap': 13.048889}}
+2025-08-13 11:17:31 INFO: Current resistance is: 13.04 and support is: 12.83
+2025-08-13 11:17:31 INFO: Current average volume is: 808.3
+2025-08-13 11:17:31 INFO: The Current Close 13.07 is above the resistance...
+2025-08-13 11:17:31 INFO: Updated resistance to: 13.07 and support to: 12.83
+2025-08-13 11:19:02 INFO: {'MBC': {   'close': 13.1,
+    'high': 13.1,
+    'low': 13.1,
+    'open': 13.1,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 456.0,
+    'vwap': 13.1}}
+2025-08-13 11:19:02 INFO: Current resistance is: 13.07 and support is: 12.83
+2025-08-13 11:19:02 INFO: Current average volume is: 709.4
+2025-08-13 11:19:02 INFO: The current close: 13.1 is above the resistance of 13.07, but volume isn't enough...
+2025-08-13 11:19:02 INFO: Updated resistance to: 13.1 and support to: 12.83
+2025-08-13 11:21:02 INFO: {'MBC': {   'close': 13.08,
+    'high': 13.08,
+    'low': 13.08,
+    'open': 13.08,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 121.0,
+    'vwap': 13.08}}
+2025-08-13 11:21:02 INFO: Current resistance is: 13.1 and support is: 12.83
+2025-08-13 11:21:02 INFO: Current average volume is: 596.0
+2025-08-13 11:21:02 INFO: Updated resistance to: 13.1 and support to: 12.83
+2025-08-13 11:23:03 INFO: {'MBC': {   'close': 13.115,
+    'high': 13.115,
+    'low': 13.1,
+    'open': 13.1,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1120.0,
+    'vwap': 13.11}}
+2025-08-13 11:23:03 INFO: Current resistance is: 13.1 and support is: 12.83
+2025-08-13 11:23:03 INFO: Current average volume is: 578.1
+2025-08-13 11:23:03 INFO: The Current Close 13.115 is above the resistance...
+2025-08-13 11:23:03 INFO: Updated resistance to: 13.115 and support to: 12.83
+2025-08-13 11:24:03 INFO: {'MBC': {   'close': 13.085,
+    'high': 13.12,
+    'low': 13.085,
+    'open': 13.12,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1543.0,
+    'vwap': 13.103214}}
+2025-08-13 11:24:03 INFO: Current resistance is: 13.115 and support is: 12.83
+2025-08-13 11:24:03 INFO: Current average volume is: 668.7
+2025-08-13 11:24:03 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:25:03 INFO: {'MBC': {   'close': 13.07,
+    'high': 13.07,
+    'low': 13.06,
+    'open': 13.06,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 972.0,
+    'vwap': 13.067778}}
+2025-08-13 11:25:03 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:25:03 INFO: Current average volume is: 753.6
+2025-08-13 11:25:03 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:31:04 INFO: {'MBC': {   'close': 13.02,
+    'high': 13.08,
+    'low': 13.02,
+    'open': 13.08,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1916.0,
+    'vwap': 13.049888}}
+2025-08-13 11:31:04 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:31:04 INFO: Current average volume is: 887.7
+2025-08-13 11:31:04 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:33:05 INFO: {'MBC': {   'close': 13.01,
+    'high': 13.01,
+    'low': 13.01,
+    'open': 13.01,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 13.01}}
+2025-08-13 11:33:05 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:33:05 INFO: Current average volume is: 822.9
+2025-08-13 11:33:05 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:36:05 INFO: {'MBC': {   'close': 13.05,
+    'high': 13.05,
+    'low': 13.05,
+    'open': 13.05,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1700.0,
+    'vwap': 13.05}}
+2025-08-13 11:36:05 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:36:05 INFO: Current average volume is: 907.0
+2025-08-13 11:36:05 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:38:06 INFO: {'MBC': {   'close': 13.015,
+    'high': 13.015,
+    'low': 13.015,
+    'open': 13.015,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 521.0,
+    'vwap': 13.015}}
+2025-08-13 11:38:06 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:38:06 INFO: Current average volume is: 935.4
+2025-08-13 11:38:06 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:39:06 INFO: {'MBC': {   'close': 13.04,
+    'high': 13.04,
+    'low': 13.025,
+    'open': 13.025,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 269.0,
+    'vwap': 13.0325}}
+2025-08-13 11:39:06 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:39:06 INFO: Current average volume is: 871.8
+2025-08-13 11:39:06 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:42:07 INFO: {'MBC': {   'close': 12.99,
+    'high': 13.03,
+    'low': 12.99,
+    'open': 13.03,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2995.0,
+    'vwap': 13.005776}}
+2025-08-13 11:42:07 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:42:07 INFO: Current average volume is: 1125.7
+2025-08-13 11:42:07 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:43:07 INFO: {'MBC': {   'close': 13.02,
+    'high': 13.02,
+    'low': 13.0,
+    'open': 13.0,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 675.0,
+    'vwap': 13.015798}}
+2025-08-13 11:43:07 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:43:07 INFO: Current average volume is: 1181.1
+2025-08-13 11:43:07 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:44:07 INFO: {'MBC': {   'close': 13.01,
+    'high': 13.03,
+    'low': 13.01,
+    'open': 13.015,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2539.0,
+    'vwap': 13.021042}}
+2025-08-13 11:44:07 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:44:07 INFO: Current average volume is: 1323.0
+2025-08-13 11:44:07 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:47:08 INFO: {'MBC': {   'close': 13.04,
+    'high': 13.04,
+    'low': 13.04,
+    'open': 13.04,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 516.0,
+    'vwap': 13.04}}
+2025-08-13 11:47:08 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:47:08 INFO: Current average volume is: 1220.3
+2025-08-13 11:47:08 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:48:08 INFO: {'MBC': {   'close': 13.09,
+    'high': 13.1,
+    'low': 13.07,
+    'open': 13.07,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 615.0,
+    'vwap': 13.088}}
+2025-08-13 11:48:08 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:48:08 INFO: Current average volume is: 1184.6
+2025-08-13 11:48:08 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:50:08 INFO: {'MBC': {   'close': 13.045,
+    'high': 13.06,
+    'low': 13.03,
+    'open': 13.06,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 928.0,
+    'vwap': 13.053125}}
+2025-08-13 11:50:08 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:50:08 INFO: Current average volume is: 1085.8
+2025-08-13 11:50:08 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:52:09 INFO: {'MBC': {   'close': 13.05,
+    'high': 13.05,
+    'low': 13.045,
+    'open': 13.045,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 605.0,
+    'vwap': 13.049}}
+2025-08-13 11:52:09 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:52:09 INFO: Current average volume is: 1136.3
+2025-08-13 11:52:09 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:56:09 INFO: {'MBC': {   'close': 13.01,
+    'high': 13.02,
+    'low': 13.01,
+    'open': 13.02,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 734.0,
+    'vwap': 13.01431}}
+2025-08-13 11:56:09 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:56:09 INFO: Current average volume is: 1039.7
+2025-08-13 11:56:09 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 11:59:10 INFO: {'MBC': {   'close': 13.0,
+    'high': 13.0,
+    'low': 13.0,
+    'open': 13.0,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 104.0,
+    'vwap': 13.0}}
+2025-08-13 11:59:10 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 11:59:10 INFO: Current average volume is: 998.0
+2025-08-13 11:59:10 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:05:11 INFO: {'MBC': {   'close': 13.04,
+    'high': 13.04,
+    'low': 13.04,
+    'open': 13.04,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 526.0,
+    'vwap': 13.04}}
+2025-08-13 12:05:11 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:05:11 INFO: Current average volume is: 1023.7
+2025-08-13 12:05:11 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:10:12 INFO: {'MBC': {   'close': 13.05,
+    'high': 13.05,
+    'low': 13.05,
+    'open': 13.05,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 338.0,
+    'vwap': 13.05}}
+2025-08-13 12:10:12 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:10:12 INFO: Current average volume is: 758.0
+2025-08-13 12:10:12 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:11:12 INFO: {'MBC': {   'close': 13.045,
+    'high': 13.045,
+    'low': 13.045,
+    'open': 13.045,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 378.0,
+    'vwap': 13.045}}
+2025-08-13 12:11:12 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:11:12 INFO: Current average volume is: 728.3
+2025-08-13 12:11:12 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:13:13 INFO: {'MBC': {   'close': 13.05,
+    'high': 13.05,
+    'low': 13.04,
+    'open': 13.04,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 867.0,
+    'vwap': 13.041563}}
+2025-08-13 12:13:13 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:13:13 INFO: Current average volume is: 561.1
+2025-08-13 12:13:13 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:18:14 INFO: {'MBC': {   'close': 13.08,
+    'high': 13.08,
+    'low': 13.08,
+    'open': 13.08,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 582.0,
+    'vwap': 13.08}}
+2025-08-13 12:18:14 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:18:14 INFO: Current average volume is: 567.7
+2025-08-13 12:18:14 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:20:14 INFO: {'MBC': {   'close': 13.04,
+    'high': 13.07,
+    'low': 13.04,
+    'open': 13.07,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 979.0,
+    'vwap': 13.055556}}
+2025-08-13 12:20:14 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:20:14 INFO: Current average volume is: 604.1
+2025-08-13 12:20:14 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:21:14 INFO: {'MBC': {   'close': 13.03,
+    'high': 13.04,
+    'low': 13.03,
+    'open': 13.04,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 662.0,
+    'vwap': 13.03655}}
+2025-08-13 12:21:14 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:21:14 INFO: Current average volume is: 577.5
+2025-08-13 12:21:14 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:24:15 INFO: {'MBC': {   'close': 13.025,
+    'high': 13.025,
+    'low': 13.025,
+    'open': 13.025,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 13.025}}
+2025-08-13 12:24:15 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:24:15 INFO: Current average volume is: 527.5
+2025-08-13 12:24:15 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:26:15 INFO: {'MBC': {   'close': 13.0,
+    'high': 13.0,
+    'low': 13.0,
+    'open': 13.0,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 419.0,
+    'vwap': 13.0}}
+2025-08-13 12:26:15 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:26:15 INFO: Current average volume is: 496.0
+2025-08-13 12:26:15 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:28:15 INFO: {'MBC': {   'close': 12.99,
+    'high': 12.99,
+    'low': 12.99,
+    'open': 12.99,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 622.0,
+    'vwap': 12.99}}
+2025-08-13 12:28:15 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:28:15 INFO: Current average volume is: 547.8
+2025-08-13 12:28:15 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:29:16 INFO: {'MBC': {   'close': 13.0,
+    'high': 13.0,
+    'low': 13.0,
+    'open': 13.0,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 347.0,
+    'vwap': 13.0}}
+2025-08-13 12:29:16 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:29:16 INFO: Current average volume is: 529.9
+2025-08-13 12:29:16 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:35:17 INFO: {'MBC': {   'close': 13.02,
+    'high': 13.02,
+    'low': 13.02,
+    'open': 13.02,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 217.0,
+    'vwap': 13.02}}
+2025-08-13 12:35:17 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:35:17 INFO: Current average volume is: 517.8
+2025-08-13 12:35:17 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:38:17 INFO: {'MBC': {   'close': 13.01,
+    'high': 13.01,
+    'low': 13.01,
+    'open': 13.01,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 108.0,
+    'vwap': 13.01}}
+2025-08-13 12:38:17 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:38:17 INFO: Current average volume is: 490.8
+2025-08-13 12:38:17 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:39:18 INFO: {'MBC': {   'close': 13.0,
+    'high': 13.02,
+    'low': 13.0,
+    'open': 13.02,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1247.0,
+    'vwap': 13.010815}}
+2025-08-13 12:39:18 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:39:18 INFO: Current average volume is: 528.8
+2025-08-13 12:39:18 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:42:18 INFO: {'MBC': {   'close': 13.06,
+    'high': 13.06,
+    'low': 13.06,
+    'open': 13.06,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 119.0,
+    'vwap': 13.06}}
+2025-08-13 12:42:18 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:42:18 INFO: Current average volume is: 482.5
+2025-08-13 12:42:18 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:46:19 INFO: {'MBC': {   'close': 13.055,
+    'high': 13.055,
+    'low': 13.055,
+    'open': 13.055,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 106.0,
+    'vwap': 13.055}}
+2025-08-13 12:46:19 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:46:19 INFO: Current average volume is: 395.2
+2025-08-13 12:46:19 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:48:19 INFO: {'MBC': {   'close': 13.02,
+    'high': 13.05,
+    'low': 12.98,
+    'open': 13.045,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2547.0,
+    'vwap': 13.02475}}
+2025-08-13 12:48:19 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:48:19 INFO: Current average volume is: 583.7
+2025-08-13 12:48:19 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:50:20 INFO: {'MBC': {   'close': 12.98,
+    'high': 12.99,
+    'low': 12.97,
+    'open': 12.99,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2482.0,
+    'vwap': 12.981042}}
+2025-08-13 12:50:20 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:50:20 INFO: Current average volume is: 821.4
+2025-08-13 12:50:20 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 12:56:21 INFO: {'MBC': {   'close': 12.95,
+    'high': 12.96,
+    'low': 12.95,
+    'open': 12.96,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1258.0,
+    'vwap': 12.955149}}
+2025-08-13 12:56:21 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 12:56:21 INFO: Current average volume is: 905.3
+2025-08-13 12:56:21 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:01:22 INFO: {'MBC': {   'close': 12.94,
+    'high': 12.95,
+    'low': 12.94,
+    'open': 12.95,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1720.0,
+    'vwap': 12.9475}}
+2025-08-13 13:01:22 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:01:22 INFO: Current average volume is: 1015.1
+2025-08-13 13:01:22 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:02:22 INFO: {'MBC': {   'close': 12.92,
+    'high': 12.93,
+    'low': 12.92,
+    'open': 12.93,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 406.0,
+    'vwap': 12.925}}
+2025-08-13 13:02:22 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:02:22 INFO: Current average volume is: 1021.0
+2025-08-13 13:02:22 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:03:22 INFO: {'MBC': {   'close': 12.88,
+    'high': 12.92,
+    'low': 12.88,
+    'open': 12.92,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 3187.0,
+    'vwap': 12.888332}}
+2025-08-13 13:03:22 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:03:22 INFO: Current average volume is: 1318.0
+2025-08-13 13:03:22 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:04:22 INFO: {'MBC': {   'close': 12.9,
+    'high': 12.9,
+    'low': 12.9,
+    'open': 12.9,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1250.0,
+    'vwap': 12.9}}
+2025-08-13 13:04:22 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:04:22 INFO: Current average volume is: 1432.2
+2025-08-13 13:04:22 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:08:23 INFO: {'MBC': {   'close': 12.88,
+    'high': 12.88,
+    'low': 12.88,
+    'open': 12.88,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 414.0,
+    'vwap': 12.88}}
+2025-08-13 13:08:23 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:08:23 INFO: Current average volume is: 1348.9
+2025-08-13 13:08:23 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:12:24 INFO: {'MBC': {   'close': 12.86,
+    'high': 12.86,
+    'low': 12.86,
+    'open': 12.86,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 930.0,
+    'vwap': 12.86}}
+2025-08-13 13:12:24 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:12:24 INFO: Current average volume is: 1430.0
+2025-08-13 13:12:24 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:14:24 INFO: {'MBC': {   'close': 12.85,
+    'high': 12.85,
+    'low': 12.85,
+    'open': 12.85,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 292.0,
+    'vwap': 12.85}}
+2025-08-13 13:14:24 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:14:24 INFO: Current average volume is: 1448.6
+2025-08-13 13:14:24 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:19:25 INFO: {'MBC': {   'close': 12.87,
+    'high': 12.87,
+    'low': 12.865,
+    'open': 12.865,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 813.0,
+    'vwap': 12.869283}}
+2025-08-13 13:19:25 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:19:25 INFO: Current average volume is: 1275.2
+2025-08-13 13:19:25 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:20:25 INFO: {'MBC': {   'close': 12.89,
+    'high': 12.89,
+    'low': 12.88,
+    'open': 12.88,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 409.0,
+    'vwap': 12.8875}}
+2025-08-13 13:20:25 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:20:25 INFO: Current average volume is: 1067.9
+2025-08-13 13:20:25 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:21:26 INFO: {'MBC': {   'close': 12.91,
+    'high': 12.91,
+    'low': 12.9,
+    'open': 12.9,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1743.0,
+    'vwap': 12.900794}}
+2025-08-13 13:21:26 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:21:26 INFO: Current average volume is: 1116.4
+2025-08-13 13:21:26 INFO: Updated resistance to: 13.12 and support to: 12.83
+2025-08-13 13:24:26 INFO: {'MBC': {   'close': 12.88,
+    'high': 12.88,
+    'low': 12.88,
+    'open': 12.88,
+    'symbol': 'MBC',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 205.0,
+    'vwap': 12.88}}
+2025-08-13 13:24:26 INFO: Current resistance is: 13.12 and support is: 12.83
+2025-08-13 13:24:26 INFO: Current average volume is: 964.9
+2025-08-13 13:24:26 INFO: Updated resistance to: 13.12 and support to: 12.83

@@ -1,0 +1,970 @@
+2025-08-13 11:25:33 INFO: === Strategy started ===
+2025-08-13 11:25:33 INFO: Start collecting the current highs/lows for: ONON
+2025-08-13 11:25:33 INFO: Most recent stock data: {'ONON': {   'close': 48.07,
+    'high': 48.07,
+    'low': 48.07,
+    'open': 48.07,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 374.0,
+    'vwap': 48.07}}
+2025-08-13 11:26:33 INFO: Most recent stock data: {'ONON': {   'close': 48.09,
+    'high': 48.09,
+    'low': 48.09,
+    'open': 48.09,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 349.0,
+    'vwap': 48.09}}
+2025-08-13 11:27:34 INFO: Most recent stock data: {'ONON': {   'close': 47.94,
+    'high': 47.94,
+    'low': 47.94,
+    'open': 47.94,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 329.0,
+    'vwap': 47.94}}
+2025-08-13 11:29:34 INFO: Most recent stock data: {'ONON': {   'close': 47.845,
+    'high': 47.97,
+    'low': 47.83,
+    'open': 47.96,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2457.0,
+    'vwap': 47.875037}}
+2025-08-13 11:30:34 INFO: Most recent stock data: {'ONON': {   'close': 47.9,
+    'high': 47.9,
+    'low': 47.9,
+    'open': 47.9,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 319.0,
+    'vwap': 47.9}}
+2025-08-13 11:31:34 INFO: Most recent stock data: {'ONON': {   'close': 47.99,
+    'high': 48.01,
+    'low': 47.92,
+    'open': 47.96,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 4006.0,
+    'vwap': 47.970582}}
+2025-08-13 11:32:35 INFO: Most recent stock data: {'ONON': {   'close': 48.045,
+    'high': 48.045,
+    'low': 48.025,
+    'open': 48.025,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 969.0,
+    'vwap': 48.036007}}
+2025-08-13 11:33:35 INFO: Most recent stock data: {'ONON': {   'close': 48.17,
+    'high': 48.19,
+    'low': 48.095,
+    'open': 48.095,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 4192.0,
+    'vwap': 48.167161}}
+2025-08-13 11:34:35 INFO: Most recent stock data: {'ONON': {   'close': 48.16,
+    'high': 48.22,
+    'low': 48.13,
+    'open': 48.145,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 53.0,
+    'volume': 3413.0,
+    'vwap': 48.161935}}
+2025-08-13 11:35:35 INFO: Most recent stock data: {'ONON': {   'close': 48.175,
+    'high': 48.2,
+    'low': 48.16,
+    'open': 48.16,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 3761.0,
+    'vwap': 48.180933}}
+2025-08-13 11:37:36 INFO: Most recent stock data: {'ONON': {   'close': 48.11,
+    'high': 48.16,
+    'low': 48.11,
+    'open': 48.15,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 948.0,
+    'vwap': 48.13571}}
+2025-08-13 11:37:36 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 11:37:36 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-13 11:38:36 INFO: {'ONON': {   'close': 47.96,
+    'high': 48.07,
+    'low': 47.96,
+    'open': 48.07,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1545.0,
+    'vwap': 48.013071}}
+2025-08-13 11:38:36 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:38:36 INFO: Current average volume is: 2193.9
+2025-08-13 11:38:36 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:39:36 INFO: {'ONON': {   'close': 48.0,
+    'high': 48.0,
+    'low': 48.0,
+    'open': 48.0,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 48.0}}
+2025-08-13 11:39:36 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:39:36 INFO: Current average volume is: 2181.0
+2025-08-13 11:39:36 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:40:36 INFO: {'ONON': {   'close': 48.08,
+    'high': 48.08,
+    'low': 48.03,
+    'open': 48.03,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 321.0,
+    'vwap': 48.055}}
+2025-08-13 11:40:36 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:40:36 INFO: Current average volume is: 1967.4
+2025-08-13 11:40:36 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:41:37 INFO: {'ONON': {   'close': 48.04,
+    'high': 48.11,
+    'low': 48.04,
+    'open': 48.11,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 575.0,
+    'vwap': 48.06}}
+2025-08-13 11:41:37 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:41:37 INFO: Current average volume is: 1993.0
+2025-08-13 11:41:37 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:42:37 INFO: {'ONON': {   'close': 48.02,
+    'high': 48.07,
+    'low': 48.02,
+    'open': 48.07,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 760.0,
+    'vwap': 48.028333}}
+2025-08-13 11:42:37 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:42:37 INFO: Current average volume is: 1668.4
+2025-08-13 11:42:37 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:43:37 INFO: {'ONON': {   'close': 48.055,
+    'high': 48.055,
+    'low': 48.01,
+    'open': 48.01,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 210.0,
+    'vwap': 48.0325}}
+2025-08-13 11:43:37 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:43:37 INFO: Current average volume is: 1592.5
+2025-08-13 11:43:37 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:44:37 INFO: {'ONON': {   'close': 48.08,
+    'high': 48.08,
+    'low': 48.055,
+    'open': 48.055,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 489.0,
+    'vwap': 48.06875}}
+2025-08-13 11:44:37 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:44:37 INFO: Current average volume is: 1222.2
+2025-08-13 11:44:37 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:45:37 INFO: {'ONON': {   'close': 48.05,
+    'high': 48.07,
+    'low': 48.05,
+    'open': 48.07,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 48.06}}
+2025-08-13 11:45:37 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:45:37 INFO: Current average volume is: 901.1
+2025-08-13 11:45:37 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:46:37 INFO: {'ONON': {   'close': 48.06,
+    'high': 48.09,
+    'low': 48.06,
+    'open': 48.09,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 259.0,
+    'vwap': 48.075}}
+2025-08-13 11:46:37 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:46:37 INFO: Current average volume is: 550.9
+2025-08-13 11:46:37 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:47:38 INFO: {'ONON': {   'close': 48.09,
+    'high': 48.105,
+    'low': 48.07,
+    'open': 48.07,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 436.0,
+    'vwap': 48.088333}}
+2025-08-13 11:47:38 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:47:38 INFO: Current average volume is: 499.7
+2025-08-13 11:47:38 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:48:38 INFO: {'ONON': {   'close': 48.085,
+    'high': 48.085,
+    'low': 48.085,
+    'open': 48.085,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 48.085}}
+2025-08-13 11:48:38 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:48:38 INFO: Current average volume is: 355.2
+2025-08-13 11:48:38 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:49:38 INFO: {'ONON': {   'close': 48.08,
+    'high': 48.08,
+    'low': 48.07,
+    'open': 48.07,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 405.0,
+    'vwap': 48.075}}
+2025-08-13 11:49:38 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:49:38 INFO: Current average volume is: 375.7
+2025-08-13 11:49:38 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:52:39 INFO: {'ONON': {   'close': 48.13,
+    'high': 48.14,
+    'low': 48.13,
+    'open': 48.13,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 833.0,
+    'vwap': 48.132725}}
+2025-08-13 11:52:39 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:52:39 INFO: Current average volume is: 426.9
+2025-08-13 11:52:39 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:54:39 INFO: {'ONON': {   'close': 48.07,
+    'high': 48.07,
+    'low': 48.07,
+    'open': 48.07,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1118.0,
+    'vwap': 48.07}}
+2025-08-13 11:54:39 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:54:39 INFO: Current average volume is: 481.2
+2025-08-13 11:54:39 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:56:39 INFO: {'ONON': {   'close': 48.06,
+    'high': 48.08,
+    'low': 48.035,
+    'open': 48.035,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1053.0,
+    'vwap': 48.0634}}
+2025-08-13 11:56:39 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:56:39 INFO: Current average volume is: 510.5
+2025-08-13 11:56:39 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:57:40 INFO: {'ONON': {   'close': 48.07,
+    'high': 48.075,
+    'low': 48.06,
+    'open': 48.06,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1611.0,
+    'vwap': 48.065517}}
+2025-08-13 11:57:40 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:57:40 INFO: Current average volume is: 650.6
+2025-08-13 11:57:40 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:58:40 INFO: {'ONON': {   'close': 48.06,
+    'high': 48.06,
+    'low': 48.01,
+    'open': 48.01,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 705.0,
+    'vwap': 48.024286}}
+2025-08-13 11:58:40 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:58:40 INFO: Current average volume is: 672.2
+2025-08-13 11:58:40 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 11:59:40 INFO: {'ONON': {   'close': 48.13,
+    'high': 48.13,
+    'low': 48.08,
+    'open': 48.08,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 960.0,
+    'vwap': 48.112708}}
+2025-08-13 11:59:40 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 11:59:40 INFO: Current average volume is: 748.0
+2025-08-13 11:59:40 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 12:00:40 INFO: {'ONON': {   'close': 48.05,
+    'high': 48.11,
+    'low': 48.05,
+    'open': 48.11,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1407.0,
+    'vwap': 48.091416}}
+2025-08-13 12:00:40 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 12:00:40 INFO: Current average volume is: 862.8
+2025-08-13 12:00:40 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 12:01:40 INFO: {'ONON': {   'close': 48.16,
+    'high': 48.17,
+    'low': 48.06,
+    'open': 48.06,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1009.0,
+    'vwap': 48.131869}}
+2025-08-13 12:01:40 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 12:01:40 INFO: Current average volume is: 920.1
+2025-08-13 12:01:40 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 12:02:41 INFO: {'ONON': {   'close': 48.13,
+    'high': 48.145,
+    'low': 48.1,
+    'open': 48.145,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 762.0,
+    'vwap': 48.127143}}
+2025-08-13 12:02:41 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 12:02:41 INFO: Current average volume is: 986.3
+2025-08-13 12:02:41 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 12:03:41 INFO: {'ONON': {   'close': 48.19,
+    'high': 48.19,
+    'low': 48.13,
+    'open': 48.13,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 316.0,
+    'vwap': 48.15}}
+2025-08-13 12:03:41 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 12:03:41 INFO: Current average volume is: 977.4
+2025-08-13 12:03:41 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 12:04:41 INFO: {'ONON': {   'close': 48.18,
+    'high': 48.18,
+    'low': 48.18,
+    'open': 48.18,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 351.0,
+    'vwap': 48.18}}
+2025-08-13 12:04:41 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 12:04:41 INFO: Current average volume is: 929.2
+2025-08-13 12:04:41 INFO: Updated resistance to: 48.22 and support to: 47.83
+2025-08-13 12:05:41 INFO: {'ONON': {   'close': 48.22,
+    'high': 48.22,
+    'low': 48.21,
+    'open': 48.21,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 250.0,
+    'vwap': 48.215}}
+2025-08-13 12:05:41 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 12:05:41 INFO: Current average volume is: 842.4
+2025-08-13 12:07:41 INFO: {'ONON': {   'close': 48.28,
+    'high': 48.28,
+    'low': 48.28,
+    'open': 48.28,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 48.28}}
+2025-08-13 12:07:41 INFO: Current resistance is: 48.22 and support is: 47.83
+2025-08-13 12:07:41 INFO: Current average volume is: 747.1
+2025-08-13 12:07:41 INFO: The Current Close 48.28 is above the resistance...
+2025-08-13 12:07:41 INFO: Updated resistance to: 48.28 and support to: 47.83
+2025-08-13 12:08:12 INFO: {'ONON': {   'close': 48.35,
+    'high': 48.35,
+    'low': 48.35,
+    'open': 48.35,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 371.0,
+    'vwap': 48.35}}
+2025-08-13 12:08:12 INFO: Current resistance is: 48.28 and support is: 47.83
+2025-08-13 12:08:12 INFO: Current average volume is: 623.1
+2025-08-13 12:08:12 INFO: The current close: 48.35 is above the resistance of 48.28, but volume isn't enough...
+2025-08-13 12:08:12 INFO: Updated resistance to: 48.35 and support to: 47.83
+2025-08-13 12:09:12 INFO: {'ONON': {   'close': 48.34,
+    'high': 48.37,
+    'low': 48.33,
+    'open': 48.36,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1367.0,
+    'vwap': 48.348}}
+2025-08-13 12:09:12 INFO: Current resistance is: 48.35 and support is: 47.83
+2025-08-13 12:09:12 INFO: Current average volume is: 689.3
+2025-08-13 12:09:12 INFO: Updated resistance to: 48.37 and support to: 47.83
+2025-08-13 12:11:12 INFO: {'ONON': {   'close': 48.36,
+    'high': 48.36,
+    'low': 48.32,
+    'open': 48.34,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1139.0,
+    'vwap': 48.336}}
+2025-08-13 12:11:12 INFO: Current resistance is: 48.37 and support is: 47.83
+2025-08-13 12:11:12 INFO: Current average volume is: 707.2
+2025-08-13 12:11:12 INFO: Updated resistance to: 48.37 and support to: 47.83
+2025-08-13 12:12:13 INFO: {'ONON': {   'close': 48.38,
+    'high': 48.4,
+    'low': 48.38,
+    'open': 48.4,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 439.0,
+    'vwap': 48.39}}
+2025-08-13 12:12:13 INFO: Current resistance is: 48.37 and support is: 47.83
+2025-08-13 12:12:13 INFO: Current average volume is: 610.4
+2025-08-13 12:12:13 INFO: The Current Close 48.38 is above the resistance...
+2025-08-13 12:12:13 INFO: Updated resistance to: 48.4 and support to: 47.83
+2025-08-13 12:13:13 INFO: {'ONON': {   'close': 48.49,
+    'high': 48.535,
+    'low': 48.49,
+    'open': 48.51,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1132.0,
+    'vwap': 48.512271}}
+2025-08-13 12:13:13 INFO: Current resistance is: 48.4 and support is: 47.83
+2025-08-13 12:13:13 INFO: Current average volume is: 622.7
+2025-08-13 12:13:13 INFO: The current close: 48.49 is above the resistance of 48.4, but volume isn't enough...
+2025-08-13 12:13:13 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:14:13 INFO: {'ONON': {   'close': 48.39,
+    'high': 48.5,
+    'low': 48.39,
+    'open': 48.5,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 958.0,
+    'vwap': 48.454827}}
+2025-08-13 12:14:13 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:14:13 INFO: Current average volume is: 642.3
+2025-08-13 12:14:13 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:15:13 INFO: {'ONON': {   'close': 48.38,
+    'high': 48.39,
+    'low': 48.36,
+    'open': 48.36,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 402.0,
+    'vwap': 48.3725}}
+2025-08-13 12:15:13 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:15:13 INFO: Current average volume is: 650.9
+2025-08-13 12:15:13 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:16:14 INFO: {'ONON': {   'close': 48.41,
+    'high': 48.41,
+    'low': 48.41,
+    'open': 48.41,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 596.0,
+    'vwap': 48.41}}
+2025-08-13 12:16:14 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:16:14 INFO: Current average volume is: 675.4
+2025-08-13 12:16:14 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:17:14 INFO: {'ONON': {   'close': 48.39,
+    'high': 48.39,
+    'low': 48.39,
+    'open': 48.39,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 205.0,
+    'vwap': 48.39}}
+2025-08-13 12:17:14 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:17:14 INFO: Current average volume is: 670.9
+2025-08-13 12:17:14 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:19:14 INFO: {'ONON': {   'close': 48.42,
+    'high': 48.42,
+    'low': 48.4,
+    'open': 48.405,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1410.0,
+    'vwap': 48.413755}}
+2025-08-13 12:19:14 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:19:14 INFO: Current average volume is: 801.9
+2025-08-13 12:19:14 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:24:15 INFO: {'ONON': {   'close': 48.44,
+    'high': 48.44,
+    'low': 48.44,
+    'open': 48.44,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 297.0,
+    'vwap': 48.44}}
+2025-08-13 12:24:15 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:24:15 INFO: Current average volume is: 794.5
+2025-08-13 12:24:15 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:25:15 INFO: {'ONON': {   'close': 48.43,
+    'high': 48.43,
+    'low': 48.43,
+    'open': 48.43,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 249.0,
+    'vwap': 48.43}}
+2025-08-13 12:25:15 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:25:15 INFO: Current average volume is: 682.7
+2025-08-13 12:25:15 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:26:16 INFO: {'ONON': {   'close': 48.41,
+    'high': 48.42,
+    'low': 48.41,
+    'open': 48.42,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 922.0,
+    'vwap': 48.414}}
+2025-08-13 12:26:16 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:26:16 INFO: Current average volume is: 661.0
+2025-08-13 12:26:16 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:27:16 INFO: {'ONON': {   'close': 48.37,
+    'high': 48.37,
+    'low': 48.37,
+    'open': 48.37,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 112.0,
+    'vwap': 48.37}}
+2025-08-13 12:27:16 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:27:16 INFO: Current average volume is: 628.3
+2025-08-13 12:27:16 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:28:16 INFO: {'ONON': {   'close': 48.4,
+    'high': 48.4,
+    'low': 48.4,
+    'open': 48.4,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 48.4}}
+2025-08-13 12:28:16 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:28:16 INFO: Current average volume is: 525.1
+2025-08-13 12:28:16 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:29:16 INFO: {'ONON': {   'close': 48.49,
+    'high': 48.505,
+    'low': 48.485,
+    'open': 48.485,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 604.0,
+    'vwap': 48.494}}
+2025-08-13 12:29:16 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:29:16 INFO: Current average volume is: 489.7
+2025-08-13 12:29:16 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:30:16 INFO: {'ONON': {   'close': 48.39,
+    'high': 48.39,
+    'low': 48.39,
+    'open': 48.39,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 433.0,
+    'vwap': 48.39}}
+2025-08-13 12:30:16 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:30:16 INFO: Current average volume is: 492.8
+2025-08-13 12:30:16 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:31:16 INFO: {'ONON': {   'close': 48.38,
+    'high': 48.38,
+    'low': 48.38,
+    'open': 48.38,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 852.0,
+    'vwap': 48.38}}
+2025-08-13 12:31:16 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:31:16 INFO: Current average volume is: 518.4
+2025-08-13 12:31:16 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:32:17 INFO: {'ONON': {   'close': 48.4,
+    'high': 48.4,
+    'low': 48.4,
+    'open': 48.4,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 48.4}}
+2025-08-13 12:32:17 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:32:17 INFO: Current average volume is: 508.1
+2025-08-13 12:32:17 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:33:17 INFO: {'ONON': {   'close': 48.39,
+    'high': 48.39,
+    'low': 48.39,
+    'open': 48.39,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 48.39}}
+2025-08-13 12:33:17 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:33:17 INFO: Current average volume is: 377.1
+2025-08-13 12:33:17 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:34:17 INFO: {'ONON': {   'close': 48.37,
+    'high': 48.37,
+    'low': 48.37,
+    'open': 48.37,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 457.0,
+    'vwap': 48.37}}
+2025-08-13 12:34:17 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:34:17 INFO: Current average volume is: 393.1
+2025-08-13 12:34:17 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:35:17 INFO: {'ONON': {   'close': 48.38,
+    'high': 48.38,
+    'low': 48.38,
+    'open': 48.38,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 112.0,
+    'vwap': 48.38}}
+2025-08-13 12:35:17 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:35:17 INFO: Current average volume is: 379.4
+2025-08-13 12:35:17 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:36:17 INFO: {'ONON': {   'close': 48.37,
+    'high': 48.41,
+    'low': 48.37,
+    'open': 48.41,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 750.0,
+    'vwap': 48.389808}}
+2025-08-13 12:36:17 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:36:17 INFO: Current average volume is: 362.2
+2025-08-13 12:36:17 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:37:18 INFO: {'ONON': {   'close': 48.4,
+    'high': 48.405,
+    'low': 48.39,
+    'open': 48.39,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 498.0,
+    'vwap': 48.39875}}
+2025-08-13 12:37:18 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:37:18 INFO: Current average volume is: 400.8
+2025-08-13 12:37:18 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:39:18 INFO: {'ONON': {   'close': 48.47,
+    'high': 48.47,
+    'low': 48.47,
+    'open': 48.47,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 48.47}}
+2025-08-13 12:39:18 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:39:18 INFO: Current average volume is: 401.3
+2025-08-13 12:39:18 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:43:19 INFO: {'ONON': {   'close': 48.38,
+    'high': 48.38,
+    'low': 48.38,
+    'open': 48.38,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 48.38}}
+2025-08-13 12:43:19 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:43:19 INFO: Current average volume is: 350.9
+2025-08-13 12:43:19 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:45:19 INFO: {'ONON': {   'close': 48.4,
+    'high': 48.4,
+    'low': 48.4,
+    'open': 48.4,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 271.0,
+    'vwap': 48.4}}
+2025-08-13 12:45:19 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:45:19 INFO: Current average volume is: 334.7
+2025-08-13 12:45:19 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:50:20 INFO: {'ONON': {   'close': 48.38,
+    'high': 48.38,
+    'low': 48.37,
+    'open': 48.38,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1750.0,
+    'vwap': 48.379429}}
+2025-08-13 12:50:20 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:50:20 INFO: Current average volume is: 424.5
+2025-08-13 12:50:20 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:51:20 INFO: {'ONON': {   'close': 48.41,
+    'high': 48.42,
+    'low': 48.41,
+    'open': 48.42,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 423.0,
+    'vwap': 48.415}}
+2025-08-13 12:51:20 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:51:20 INFO: Current average volume is: 456.6
+2025-08-13 12:51:20 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:53:21 INFO: {'ONON': {   'close': 48.45,
+    'high': 48.45,
+    'low': 48.44,
+    'open': 48.44,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 415.0,
+    'vwap': 48.4475}}
+2025-08-13 12:53:21 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:53:21 INFO: Current average volume is: 488.1
+2025-08-13 12:53:21 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:56:21 INFO: {'ONON': {   'close': 48.43,
+    'high': 48.43,
+    'low': 48.43,
+    'open': 48.43,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 360.0,
+    'vwap': 48.43}}
+2025-08-13 12:56:21 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:56:21 INFO: Current average volume is: 478.4
+2025-08-13 12:56:21 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:58:21 INFO: {'ONON': {   'close': 48.51,
+    'high': 48.51,
+    'low': 48.47,
+    'open': 48.47,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 933.0,
+    'vwap': 48.496094}}
+2025-08-13 12:58:21 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:58:21 INFO: Current average volume is: 560.5
+2025-08-13 12:58:21 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 12:59:22 INFO: {'ONON': {   'close': 48.49,
+    'high': 48.53,
+    'low': 48.49,
+    'open': 48.52,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 48.515}}
+2025-08-13 12:59:22 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 12:59:22 INFO: Current average volume is: 545.5
+2025-08-13 12:59:22 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:00:22 INFO: {'ONON': {   'close': 48.52,
+    'high': 48.52,
+    'low': 48.5,
+    'open': 48.5,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 48.512}}
+2025-08-13 13:00:22 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:00:22 INFO: Current average volume is: 545.7
+2025-08-13 13:00:22 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:10:24 INFO: {'ONON': {   'close': 48.48,
+    'high': 48.48,
+    'low': 48.48,
+    'open': 48.48,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 48.48}}
+2025-08-13 13:10:24 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:10:24 INFO: Current average volume is: 556.2
+2025-08-13 13:10:24 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:11:24 INFO: {'ONON': {   'close': 48.49,
+    'high': 48.5,
+    'low': 48.49,
+    'open': 48.5,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 451.0,
+    'vwap': 48.4925}}
+2025-08-13 13:11:24 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:11:24 INFO: Current average volume is: 591.3
+2025-08-13 13:11:24 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:12:24 INFO: {'ONON': {   'close': 48.5,
+    'high': 48.53,
+    'low': 48.495,
+    'open': 48.53,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 512.0,
+    'vwap': 48.505}}
+2025-08-13 13:12:24 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:12:24 INFO: Current average volume is: 615.4
+2025-08-13 13:12:24 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:14:25 INFO: {'ONON': {   'close': 48.49,
+    'high': 48.49,
+    'low': 48.49,
+    'open': 48.49,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 246.0,
+    'vwap': 48.49}}
+2025-08-13 13:14:25 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:14:25 INFO: Current average volume is: 465.0
+2025-08-13 13:14:25 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:15:25 INFO: {'ONON': {   'close': 48.405,
+    'high': 48.41,
+    'low': 48.405,
+    'open': 48.41,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 332.0,
+    'vwap': 48.4075}}
+2025-08-13 13:15:25 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:15:25 INFO: Current average volume is: 455.9
+2025-08-13 13:15:25 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:16:25 INFO: {'ONON': {   'close': 48.39,
+    'high': 48.39,
+    'low': 48.39,
+    'open': 48.39,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 246.0,
+    'vwap': 48.39}}
+2025-08-13 13:16:25 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:16:25 INFO: Current average volume is: 439.0
+2025-08-13 13:16:25 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:17:25 INFO: {'ONON': {   'close': 48.4,
+    'high': 48.405,
+    'low': 48.4,
+    'open': 48.405,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 296.0,
+    'vwap': 48.4025}}
+2025-08-13 13:17:25 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:17:25 INFO: Current average volume is: 432.6
+2025-08-13 13:17:25 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:19:25 INFO: {'ONON': {   'close': 48.37,
+    'high': 48.375,
+    'low': 48.37,
+    'open': 48.375,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 745.0,
+    'vwap': 48.372}}
+2025-08-13 13:19:25 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:19:25 INFO: Current average volume is: 413.8
+2025-08-13 13:19:25 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:20:26 INFO: {'ONON': {   'close': 48.41,
+    'high': 48.41,
+    'low': 48.35,
+    'open': 48.35,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 429.0,
+    'vwap': 48.3825}}
+2025-08-13 13:20:26 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:20:26 INFO: Current average volume is: 396.7
+2025-08-13 13:20:26 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:21:26 INFO: {'ONON': {   'close': 48.49,
+    'high': 48.49,
+    'low': 48.45,
+    'open': 48.45,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 370.0,
+    'vwap': 48.47}}
+2025-08-13 13:21:26 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:21:26 INFO: Current average volume is: 383.7
+2025-08-13 13:21:26 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:22:26 INFO: {'ONON': {   'close': 48.51,
+    'high': 48.51,
+    'low': 48.495,
+    'open': 48.5,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 661.0,
+    'vwap': 48.502203}}
+2025-08-13 13:22:26 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:22:26 INFO: Current average volume is: 428.8
+2025-08-13 13:22:26 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:23:26 INFO: {'ONON': {   'close': 48.525,
+    'high': 48.525,
+    'low': 48.52,
+    'open': 48.52,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 310.0,
+    'vwap': 48.5225}}
+2025-08-13 13:23:26 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:23:26 INFO: Current average volume is: 414.7
+2025-08-13 13:23:26 INFO: Updated resistance to: 48.535 and support to: 47.83
+2025-08-13 13:24:26 INFO: {'ONON': {   'close': 48.48,
+    'high': 48.48,
+    'low': 48.48,
+    'open': 48.48,
+    'symbol': 'ONON',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 113.0,
+    'vwap': 48.48}}
+2025-08-13 13:24:26 INFO: Current resistance is: 48.535 and support is: 47.83
+2025-08-13 13:24:26 INFO: Current average volume is: 374.8
+2025-08-13 13:24:26 INFO: Updated resistance to: 48.535 and support to: 47.83

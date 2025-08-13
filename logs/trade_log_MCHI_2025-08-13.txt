@@ -1,0 +1,466 @@
+2025-08-13 11:55:37 INFO: === Strategy started ===
+2025-08-13 11:55:37 INFO: Start collecting the current highs/lows for: MCHI
+2025-08-13 11:55:37 INFO: Most recent stock data: {'MCHI': {   'close': 60.3,
+    'high': 60.3,
+    'low': 60.3,
+    'open': 60.3,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 597.0,
+    'vwap': 60.3}}
+2025-08-13 11:57:37 INFO: Most recent stock data: {'MCHI': {   'close': 60.33,
+    'high': 60.33,
+    'low': 60.31,
+    'open': 60.31,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2416.0,
+    'vwap': 60.313725}}
+2025-08-13 11:59:38 INFO: Most recent stock data: {'MCHI': {   'close': 60.34,
+    'high': 60.345,
+    'low': 60.34,
+    'open': 60.34,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2171.0,
+    'vwap': 60.340248}}
+2025-08-13 12:03:39 INFO: Most recent stock data: {'MCHI': {   'close': 60.37,
+    'high': 60.37,
+    'low': 60.365,
+    'open': 60.365,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 602.0,
+    'vwap': 60.369167}}
+2025-08-13 12:05:39 INFO: Most recent stock data: {'MCHI': {   'close': 60.36,
+    'high': 60.36,
+    'low': 60.36,
+    'open': 60.36,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 700.0,
+    'vwap': 60.36}}
+2025-08-13 12:07:39 INFO: Most recent stock data: {'MCHI': {   'close': 60.37,
+    'high': 60.37,
+    'low': 60.37,
+    'open': 60.37,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 60.37}}
+2025-08-13 12:08:40 INFO: Most recent stock data: {'MCHI': {   'close': 60.355,
+    'high': 60.365,
+    'low': 60.355,
+    'open': 60.365,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 60.36}}
+2025-08-13 12:09:40 INFO: Most recent stock data: {'MCHI': {   'close': 60.38,
+    'high': 60.38,
+    'low': 60.36,
+    'open': 60.36,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1422.0,
+    'vwap': 60.37211}}
+2025-08-13 12:10:40 INFO: Most recent stock data: {'MCHI': {   'close': 60.395,
+    'high': 60.395,
+    'low': 60.395,
+    'open': 60.395,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 60.395}}
+2025-08-13 12:11:40 INFO: Most recent stock data: {'MCHI': {   'close': 60.375,
+    'high': 60.39,
+    'low': 60.37,
+    'open': 60.39,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 780.0,
+    'vwap': 60.384286}}
+2025-08-13 12:12:40 INFO: Most recent stock data: {'MCHI': {   'close': 60.385,
+    'high': 60.385,
+    'low': 60.38,
+    'open': 60.38,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 999.0,
+    'vwap': 60.380556}}
+2025-08-13 12:12:40 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-13 12:12:40 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-13 12:15:41 INFO: {'MCHI': {   'close': 60.39,
+    'high': 60.39,
+    'low': 60.385,
+    'open': 60.385,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 900.0,
+    'vwap': 60.387841}}
+2025-08-13 12:15:41 INFO: Current resistance is: 60.395 and support is: 60.3
+2025-08-13 12:15:41 INFO: Current average volume is: 847.4
+2025-08-13 12:15:41 INFO: Updated resistance to: 60.395 and support to: 60.3
+2025-08-13 12:16:41 INFO: {'MCHI': {   'close': 60.405,
+    'high': 60.405,
+    'low': 60.4,
+    'open': 60.4,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 600.0,
+    'vwap': 60.404167}}
+2025-08-13 12:16:41 INFO: Current resistance is: 60.395 and support is: 60.3
+2025-08-13 12:16:41 INFO: Current average volume is: 690.3
+2025-08-13 12:16:41 INFO: The Current Close 60.405 is above the resistance...
+2025-08-13 12:16:41 INFO: Updated resistance to: 60.405 and support to: 60.3
+2025-08-13 12:20:13 INFO: {'MCHI': {   'close': 60.395,
+    'high': 60.395,
+    'low': 60.395,
+    'open': 60.395,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 207.0,
+    'vwap': 60.395}}
+2025-08-13 12:20:13 INFO: Current resistance is: 60.405 and support is: 60.3
+2025-08-13 12:20:13 INFO: Current average volume is: 650.8
+2025-08-13 12:20:13 INFO: Updated resistance to: 60.405 and support to: 60.3
+2025-08-13 12:21:13 INFO: {'MCHI': {   'close': 60.39,
+    'high': 60.39,
+    'low': 60.39,
+    'open': 60.39,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 60.39}}
+2025-08-13 12:21:13 INFO: Current resistance is: 60.405 and support is: 60.3
+2025-08-13 12:21:13 INFO: Current average volume is: 590.8
+2025-08-13 12:21:13 INFO: Updated resistance to: 60.405 and support to: 60.3
+2025-08-13 12:23:13 INFO: {'MCHI': {   'close': 60.405,
+    'high': 60.405,
+    'low': 60.4,
+    'open': 60.4,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 501.0,
+    'vwap': 60.403936}}
+2025-08-13 12:23:13 INFO: Current resistance is: 60.405 and support is: 60.3
+2025-08-13 12:23:13 INFO: Current average volume is: 630.9
+2025-08-13 12:24:13 INFO: {'MCHI': {   'close': 60.43,
+    'high': 60.435,
+    'low': 60.42,
+    'open': 60.42,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 999.0,
+    'vwap': 60.43125}}
+2025-08-13 12:24:13 INFO: Current resistance is: 60.405 and support is: 60.3
+2025-08-13 12:24:13 INFO: Current average volume is: 690.8
+2025-08-13 12:24:13 INFO: The Current Close 60.43 is above the resistance...
+2025-08-13 12:24:13 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:27:15 INFO: {'MCHI': {   'close': 60.425,
+    'high': 60.43,
+    'low': 60.425,
+    'open': 60.43,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 540.0,
+    'vwap': 60.429}}
+2025-08-13 12:27:15 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:27:15 INFO: Current average volume is: 602.6
+2025-08-13 12:27:15 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:31:15 INFO: {'MCHI': {   'close': 60.4,
+    'high': 60.41,
+    'low': 60.39,
+    'open': 60.41,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3300.0,
+    'vwap': 60.397502}}
+2025-08-13 12:31:15 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:31:15 INFO: Current average volume is: 892.6
+2025-08-13 12:31:15 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:32:15 INFO: {'MCHI': {   'close': 60.395,
+    'high': 60.395,
+    'low': 60.395,
+    'open': 60.395,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 60.395}}
+2025-08-13 12:32:15 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:32:15 INFO: Current average volume is: 824.7
+2025-08-13 12:32:15 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:33:16 INFO: {'MCHI': {   'close': 60.4,
+    'high': 60.4,
+    'low': 60.4,
+    'open': 60.4,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 900.0,
+    'vwap': 60.4}}
+2025-08-13 12:33:16 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:33:16 INFO: Current average volume is: 814.8
+2025-08-13 12:33:16 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:35:16 INFO: {'MCHI': {   'close': 60.415,
+    'high': 60.415,
+    'low': 60.41,
+    'open': 60.41,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 640.0,
+    'vwap': 60.413039}}
+2025-08-13 12:35:16 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:35:16 INFO: Current average volume is: 788.8
+2025-08-13 12:35:16 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:39:17 INFO: {'MCHI': {   'close': 60.42,
+    'high': 60.42,
+    'low': 60.42,
+    'open': 60.42,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 60.42}}
+2025-08-13 12:39:17 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:39:17 INFO: Current average volume is: 758.8
+2025-08-13 12:39:17 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:43:18 INFO: {'MCHI': {   'close': 60.4,
+    'high': 60.4,
+    'low': 60.39,
+    'open': 60.39,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1123.0,
+    'vwap': 60.392727}}
+2025-08-13 12:43:18 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:43:18 INFO: Current average volume is: 850.4
+2025-08-13 12:43:18 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:47:18 INFO: {'MCHI': {   'close': 60.37,
+    'high': 60.38,
+    'low': 60.37,
+    'open': 60.38,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 60.375}}
+2025-08-13 12:47:18 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:47:18 INFO: Current average volume is: 880.4
+2025-08-13 12:47:18 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:54:20 INFO: {'MCHI': {   'close': 60.415,
+    'high': 60.415,
+    'low': 60.415,
+    'open': 60.415,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 110.0,
+    'vwap': 60.415}}
+2025-08-13 12:54:20 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:54:20 INFO: Current average volume is: 841.3
+2025-08-13 12:54:20 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:55:20 INFO: {'MCHI': {   'close': 60.42,
+    'high': 60.42,
+    'low': 60.42,
+    'open': 60.42,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 60.42}}
+2025-08-13 12:55:20 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:55:20 INFO: Current average volume is: 791.4
+2025-08-13 12:55:20 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:58:21 INFO: {'MCHI': {   'close': 60.43,
+    'high': 60.43,
+    'low': 60.43,
+    'open': 60.43,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 60.43}}
+2025-08-13 12:58:21 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:58:21 INFO: Current average volume is: 747.4
+2025-08-13 12:58:21 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 12:59:21 INFO: {'MCHI': {   'close': 60.42,
+    'high': 60.425,
+    'low': 60.42,
+    'open': 60.425,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 515.0,
+    'vwap': 60.421942}}
+2025-08-13 12:59:21 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 12:59:21 INFO: Current average volume is: 468.9
+2025-08-13 12:59:21 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 13:01:21 INFO: {'MCHI': {   'close': 60.43,
+    'high': 60.435,
+    'low': 60.43,
+    'open': 60.435,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1115.0,
+    'vwap': 60.430909}}
+2025-08-13 13:01:21 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 13:01:21 INFO: Current average volume is: 570.3
+2025-08-13 13:01:21 INFO: Updated resistance to: 60.435 and support to: 60.3
+2025-08-13 13:02:21 INFO: {'MCHI': {   'close': 60.45,
+    'high': 60.455,
+    'low': 60.445,
+    'open': 60.445,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2900.0,
+    'vwap': 60.448793}}
+2025-08-13 13:02:21 INFO: Current resistance is: 60.435 and support is: 60.3
+2025-08-13 13:02:21 INFO: Current average volume is: 770.3
+2025-08-13 13:02:21 INFO: The Current Close 60.45 is above the resistance...
+2025-08-13 13:02:21 INFO: Updated resistance to: 60.455 and support to: 60.3
+2025-08-13 13:04:22 INFO: {'MCHI': {   'close': 60.44,
+    'high': 60.45,
+    'low': 60.44,
+    'open': 60.45,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1900.0,
+    'vwap': 60.446053}}
+2025-08-13 13:04:22 INFO: Current resistance is: 60.455 and support is: 60.3
+2025-08-13 13:04:22 INFO: Current average volume is: 896.3
+2025-08-13 13:04:22 INFO: Updated resistance to: 60.455 and support to: 60.3
+2025-08-13 13:05:22 INFO: {'MCHI': {   'close': 60.445,
+    'high': 60.445,
+    'low': 60.435,
+    'open': 60.435,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 60.44}}
+2025-08-13 13:05:22 INFO: Current resistance is: 60.455 and support is: 60.3
+2025-08-13 13:05:22 INFO: Current average volume is: 886.3
+2025-08-13 13:05:22 INFO: Updated resistance to: 60.455 and support to: 60.3
+2025-08-13 13:07:23 INFO: {'MCHI': {   'close': 60.455,
+    'high': 60.455,
+    'low': 60.455,
+    'open': 60.455,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 60.455}}
+2025-08-13 13:07:23 INFO: Current resistance is: 60.455 and support is: 60.3
+2025-08-13 13:07:23 INFO: Current average volume is: 784.0
+2025-08-13 13:10:23 INFO: {'MCHI': {   'close': 60.465,
+    'high': 60.465,
+    'low': 60.46,
+    'open': 60.465,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1941.0,
+    'vwap': 60.463119}}
+2025-08-13 13:10:23 INFO: Current resistance is: 60.455 and support is: 60.3
+2025-08-13 13:10:23 INFO: Current average volume is: 938.1
+2025-08-13 13:10:23 INFO: The Current Close 60.465 is above the resistance...
+2025-08-13 13:10:23 INFO: Updated resistance to: 60.465 and support to: 60.3
+2025-08-13 13:15:25 INFO: {'MCHI': {   'close': 60.45,
+    'high': 60.45,
+    'low': 60.45,
+    'open': 60.45,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 60.45}}
+2025-08-13 13:15:25 INFO: Current resistance is: 60.465 and support is: 60.3
+2025-08-13 13:15:25 INFO: Current average volume is: 947.1
+2025-08-13 13:15:25 INFO: Updated resistance to: 60.465 and support to: 60.3
+2025-08-13 13:16:25 INFO: {'MCHI': {   'close': 60.43,
+    'high': 60.43,
+    'low': 60.43,
+    'open': 60.43,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 461.0,
+    'vwap': 60.43}}
+2025-08-13 13:16:25 INFO: Current resistance is: 60.465 and support is: 60.3
+2025-08-13 13:16:25 INFO: Current average volume is: 943.2
+2025-08-13 13:16:25 INFO: Updated resistance to: 60.465 and support to: 60.3
+2025-08-13 13:18:26 INFO: {'MCHI': {   'close': 60.455,
+    'high': 60.455,
+    'low': 60.44,
+    'open': 60.44,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 60.443}}
+2025-08-13 13:18:26 INFO: Current resistance is: 60.465 and support is: 60.3
+2025-08-13 13:18:26 INFO: Current average volume is: 983.2
+2025-08-13 13:18:26 INFO: Updated resistance to: 60.465 and support to: 60.3
+2025-08-13 13:20:26 INFO: {'MCHI': {   'close': 60.45,
+    'high': 60.45,
+    'low': 60.445,
+    'open': 60.45,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 615.0,
+    'vwap': 60.449187}}
+2025-08-13 13:20:26 INFO: Current resistance is: 60.465 and support is: 60.3
+2025-08-13 13:20:26 INFO: Current average volume is: 993.2
+2025-08-13 13:20:26 INFO: Updated resistance to: 60.465 and support to: 60.3
+2025-08-13 13:22:26 INFO: {'MCHI': {   'close': 60.485,
+    'high': 60.485,
+    'low': 60.485,
+    'open': 60.485,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 60.485}}
+2025-08-13 13:22:26 INFO: Current resistance is: 60.465 and support is: 60.3
+2025-08-13 13:22:26 INFO: Current average volume is: 891.7
+2025-08-13 13:22:26 INFO: The Current Close 60.485 is above the resistance...
+2025-08-13 13:22:26 INFO: Updated resistance to: 60.485 and support to: 60.3
+2025-08-13 13:24:27 INFO: {'MCHI': {   'close': 60.47,
+    'high': 60.48,
+    'low': 60.47,
+    'open': 60.48,
+    'symbol': 'MCHI',
+    'timestamp': datetime.datetime(2025, 8, 13, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 60.4725}}
+2025-08-13 13:24:27 INFO: Current resistance is: 60.485 and support is: 60.3
+2025-08-13 13:24:27 INFO: Current average volume is: 641.7
+2025-08-13 13:24:27 INFO: Updated resistance to: 60.485 and support to: 60.3
