@@ -16,7 +16,7 @@ import time as tm
 import datetime as dt
 
 from TelegramBot import TelegramBot
-from talib import CDLENGULFING, CDLHAMMER
+from talib import CDLENGULFING, CDLHAMMER, CDLMARUBOZU, CDL3WHITESOLDIERS, CDLCLOSINGMARUBOZU, CDLBELTHOLD
 from TimeConstants import LAST_MARKET_SELL, MARKET_CLOSE_TIME, MARKET_DEADLINE
 
 
@@ -86,7 +86,25 @@ class BaseTrade:
     def get_available_shares(self):
         return int(self.trade_client.get_open_position(symbol_or_asset_id=self.symbol).qty_available)
 
-    def candle_check(self): # PARAM
+    def breakout_candle_check(self): # PARAM
+        opens = np.array(self.opens[-int(self.param["candle_data"]):], dtype=float)
+        closes = np.array(self.closes[-int(self.param["candle_data"]):], dtype=float)
+        highs = np.array(self.highs[-int(self.param["candle_data"]):], dtype=float)
+        lows = np.array(self.lows[-int(self.param["candle_data"]):], dtype=float)
+
+        # candles for breakouts
+        marubozu = CDLMARUBOZU(opens, highs, lows, closes)[-1]
+        three_white = CDL3WHITESOLDIERS(opens, highs, lows, closes)[-1]
+        closing_maru = CDLCLOSINGMARUBOZU(opens, highs, lows, closes)[-1]
+        belthold = CDLBELTHOLD(opens, highs, lows, closes)[-1]
+
+        print(f"The marubozu candle pattern check is: {marubozu}. The three_white candle pattern check is {three_white}."
+              f" The closing_maru candle pattern check is {closing_maru}. The belthold candle pattern check is {belthold}")
+        logging.info(f"The marubozu candle pattern check is: {marubozu}. The three_white candle pattern check is {three_white}."
+                     f" The closing_maru candle pattern check is {closing_maru}. The belthold candle pattern check is {belthold}")
+        return int(marubozu) == 100 or int(three_white) == 100 or int(closing_maru) == 100 or int(belthold) == 100
+
+    def reverse_candle_check(self): # PARAM
         opens = np.array(self.opens[-int(self.param["candle_data"]):], dtype=float)
         closes = np.array(self.closes[-int(self.param["candle_data"]):], dtype=float)
         highs = np.array(self.highs[-int(self.param["candle_data"]):], dtype=float)
@@ -99,6 +117,60 @@ class BaseTrade:
         print(f"The engulfing candle pattern check is: {engulf}. The Hammer candle pattern check is {hammer}")
         logging.info(f"The engulfing candle pattern check is: {engulf}. The Hammer candle pattern check is {hammer}")
         return int(engulf) == 100 or int(hammer) == 100
+
+    def place_order(self, price, stop_loss, take_profit, close, volume):
+        if dt.datetime.now().time() >= MARKET_DEADLINE:
+            print("The current time is past the last buy deadline...")
+            logging.info("The current time is past the last buy deadline...")
+            logging.info("====ClOSING TRADE====")
+            return
+
+        print(
+            f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
+        logging.info(
+            f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
+
+        quantity = math.floor(float(self.trade_client.get_account().cash) / price)
+
+        if quantity < 1:
+            print("insufficient funds to make purchase...ending trade ")
+            logging.info("insufficient funds to make purchase...ending trade ")
+            logging.info("====ClOSING TRADE====")
+            return
+
+        # do the buy
+        limit_order_data = LimitOrderRequest(
+            symbol=self.symbol,
+            qty=quantity,
+            limit_price=price,
+            side=OrderSide.BUY,
+            type=OrderType.LIMIT,
+            time_in_force=TimeInForce.DAY)
+
+        print(limit_order_data)
+
+        # place the order
+        self.trade_client = TradingClient(self.param["alpaca_key"],
+                                          self.param["secret_key"], paper=True)
+
+        limit_order = self.trade_client.submit_order(order_data=limit_order_data)
+        print(limit_order)
+        logging.info("ORDER INFO:")
+        logging.info(limit_order)
+
+        # Send a notification
+        self.msg_bot.send_message("BUY IN", self.symbol, "BUY", price, quantity,
+                                  dt.datetime.now())
+
+        # Start the monitoring of the order
+        print(
+            f"Starting the monitoring of {self.symbol}, the current take profit is: {take_profit}, the current stop loss is: {stop_loss}")
+        logging.info(
+            f"Starting the monitoring of {self.symbol}, the current take profit is: {take_profit}, the current stop loss is: {stop_loss}")
+        self.monitor_order(stop_loss, take_profit, close)
+
+        logging.info("====ClOSING TRADE====")
+        return
 
     def monitor_order(self, stop_loss, take_profit, init_price):
         # wait 1 minute for order to fill
@@ -301,7 +373,6 @@ class BaseTrade:
                     print(f"Current Volume is: {volume}")
                     print(f"Current average volume is: {self.avg_vol}")
 
-
                     logging.info(latest_bar)
                     logging.info(f"Current resistance is: {self.resist} and support is: {self.support}")
                     logging.info(f"Current average volume is: {self.avg_vol}")
@@ -311,7 +382,26 @@ class BaseTrade:
                         self.get_new_lines()
                         print(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
-                        breakout, breakdown = False, False
+
+                        # Check for reversal
+                        if breakdown and self.reverse_candle_check() and \
+                                (self.avg_vol*self.param["volume_mult"] <= volume) and \
+                                (volume >= self.param["volume_threshold"]):
+                            print(f"Reversal conditions met, buying for reversal...")
+                            logging.info(f"Reversal conditions met, buying for reversal...")
+
+                            # Set stop loss at just below current close
+                            stop_loss = round(close * self.param["stop_loss"], 2)
+
+                            price = round(close * self.param["price"], 2)
+
+                            take_profit = round(price * self.param["take_profit"], 2)
+
+                            self.place_order(price, stop_loss, take_profit, close, volume)
+                            return
+
+                        else:
+                            breakout, breakdown = False, False
 
                     # if resistance is broken initially
                     elif close > self.resist and not breakout:
@@ -334,18 +424,7 @@ class BaseTrade:
 
                     # second bar also closes above resistance: BUY
                     elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume) and \
-                            (volume >= self.param["volume_threshold"]) and self.candle_check():
-                        if dt.datetime.now().time() >= MARKET_DEADLINE:
-                            print("The current time is past the last buy deadline...")
-                            logging.info("The current time is past the last buy deadline...")
-                            logging.info("====ClOSING TRADE====")
-                            return
-
-                        print(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
-                        logging.info(f"The current close: {close} is above the resistance of {self.resist}. Placing Order...")
-                        print(f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
-                        logging.info(
-                            f"The current volume: {volume} is higher than the average volume: {self.avg_vol} by required factor")
+                            (volume >= self.param["volume_threshold"]) and self.breakout_candle_check():
 
                         # Set stop loss at just below resistance
                         stop_loss = round(self.resist * self.param["stop_loss"], 2)
@@ -354,45 +433,7 @@ class BaseTrade:
 
                         take_profit = round(price * self.param["take_profit"], 2)
 
-                        quantity = math.floor(float(self.trade_client.get_account().cash) / price)
-
-                        if quantity < 1:
-                            print("insufficient funds to make purchase...ending trade ")
-                            logging.info("insufficient funds to make purchase...ending trade ")
-                            logging.info("====ClOSING TRADE====")
-                            return
-
-                        # do the buy
-                        limit_order_data = LimitOrderRequest(
-                                                        symbol=self.symbol,
-                                                        qty=quantity,
-                                                        limit_price=price,
-                                                        side=OrderSide.BUY,
-                                                        type=OrderType.LIMIT,
-                                                        time_in_force=TimeInForce.DAY)
-
-                        print(limit_order_data)
-
-                        # place the order
-                        self.trade_client = TradingClient(self.param["alpaca_key"],
-                                                          self.param["secret_key"], paper=True)
-
-                        limit_order = self.trade_client.submit_order(order_data=limit_order_data)
-                        print(limit_order)
-                        logging.info("ORDER INFO:")
-                        logging.info(limit_order)
-
-                        # Send a notification
-                        self.msg_bot.send_message("BUY IN", self.symbol, "BUY", price, quantity,
-                                                  dt.datetime.now())
-
-                        # Start the monitoring of the order
-                        print(f"Starting the monitoring of {self.symbol}, the current take profit is: {take_profit}, the current stop loss is: {stop_loss}")
-                        logging.info(
-                            f"Starting the monitoring of {self.symbol}, the current take profit is: {take_profit}, the current stop loss is: {stop_loss}")
-                        self.monitor_order(stop_loss,take_profit,close)
-
-                        logging.info("====ClOSING TRADE====")
+                        self.place_order(price, stop_loss, take_profit, close, volume)
                         return
 
                     elif close < self.support and not breakdown:
