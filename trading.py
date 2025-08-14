@@ -413,6 +413,7 @@ class BaseTrade:
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         breakout, breakdown = True, False
 
+                    # If close above resistance, but volume isnt enough
                     elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] > volume
                                                                or volume < self.param["volume_threshold"]):
                         print(f"The current close: {close} is above the resistance of {self.resist}, but volume isn't enough...")
@@ -436,11 +437,13 @@ class BaseTrade:
                         self.place_order(price, stop_loss, take_profit, close, volume)
                         return
 
+                    # if intially breaking through the support
                     elif close < self.support and not breakdown:
                         print(f"close price: {close} just dropped below support of {self.support}...")
                         logging.info(f"close price: {close} just dropped below support of {self.support}...")
                         breakdown, breakout = True, False
 
+                    # if breaks through the support a second time, end the trade
                     elif close < self.support and breakdown:
                         print(f"Closing price: {close} just dropped below support {self.support} again...ending trade...")
                         logging.info(
