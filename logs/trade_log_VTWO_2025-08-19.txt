@@ -1,0 +1,392 @@
+2025-08-19 10:55:12 INFO: === Strategy started ===
+2025-08-19 10:55:12 INFO: Start collecting the current highs/lows for: VTWO
+2025-08-19 10:55:12 INFO: Most recent stock data: {'VTWO': {   'close': 92.1,
+    'high': 92.1,
+    'low': 92.1,
+    'open': 92.1,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 92.1}}
+2025-08-19 10:56:12 INFO: Most recent stock data: {'VTWO': {   'close': 92.07,
+    'high': 92.07,
+    'low': 92.07,
+    'open': 92.07,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 92.07}}
+2025-08-19 10:57:12 INFO: Most recent stock data: {'VTWO': {   'close': 92.08,
+    'high': 92.09,
+    'low': 92.08,
+    'open': 92.09,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 92.0825}}
+2025-08-19 10:58:13 INFO: Most recent stock data: {'VTWO': {   'close': 92.05,
+    'high': 92.07,
+    'low': 92.05,
+    'open': 92.07,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 92.06}}
+2025-08-19 10:59:13 INFO: Most recent stock data: {'VTWO': {   'close': 92.03,
+    'high': 92.03,
+    'low': 92.0,
+    'open': 92.0,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 92.02}}
+2025-08-19 11:00:13 INFO: Most recent stock data: {'VTWO': {   'close': 91.92,
+    'high': 91.97,
+    'low': 91.92,
+    'open': 91.97,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 900.0,
+    'vwap': 91.93}}
+2025-08-19 11:01:13 INFO: Most recent stock data: {'VTWO': {   'close': 91.83,
+    'high': 91.91,
+    'low': 91.83,
+    'open': 91.91,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1100.0,
+    'vwap': 91.851818}}
+2025-08-19 11:02:13 INFO: Most recent stock data: {'VTWO': {   'close': 91.85,
+    'high': 91.85,
+    'low': 91.8,
+    'open': 91.83,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 900.0,
+    'vwap': 91.824444}}
+2025-08-19 11:03:13 INFO: Most recent stock data: {'VTWO': {   'close': 91.91,
+    'high': 91.91,
+    'low': 91.9,
+    'open': 91.9,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 600.0,
+    'vwap': 91.903333}}
+2025-08-19 11:04:13 INFO: Most recent stock data: {'VTWO': {   'close': 91.92,
+    'high': 91.92,
+    'low': 91.92,
+    'open': 91.92,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 91.92}}
+2025-08-19 11:05:13 INFO: Most recent stock data: {'VTWO': {   'close': 91.97,
+    'high': 91.98,
+    'low': 91.97,
+    'open': 91.97,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 700.0,
+    'vwap': 91.973333}}
+2025-08-19 11:05:13 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 11:05:13 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 11:07:14 INFO: {'VTWO': {   'close': 91.93,
+    'high': 91.96,
+    'low': 91.93,
+    'open': 91.96,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1306.0,
+    'vwap': 91.936172}}
+2025-08-19 11:07:14 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:07:14 INFO: Current average volume is: 690.6
+2025-08-19 11:07:14 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:11:14 INFO: {'VTWO': {   'close': 91.9,
+    'high': 91.91,
+    'low': 91.9,
+    'open': 91.91,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 700.0,
+    'vwap': 91.901429}}
+2025-08-19 11:11:14 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:11:14 INFO: Current average volume is: 720.6
+2025-08-19 11:11:14 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:12:14 INFO: {'VTWO': {   'close': 91.89,
+    'high': 91.9,
+    'low': 91.89,
+    'open': 91.9,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 307.0,
+    'vwap': 91.896667}}
+2025-08-19 11:12:14 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:12:14 INFO: Current average volume is: 711.3
+2025-08-19 11:12:14 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:15:15 INFO: {'VTWO': {   'close': 91.925,
+    'high': 91.935,
+    'low': 91.925,
+    'open': 91.935,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 800.0,
+    'vwap': 91.93125}}
+2025-08-19 11:15:15 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:15:15 INFO: Current average volume is: 741.3
+2025-08-19 11:15:15 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:16:15 INFO: {'VTWO': {   'close': 91.92,
+    'high': 91.92,
+    'low': 91.92,
+    'open': 91.92,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 201.0,
+    'vwap': 91.92}}
+2025-08-19 11:16:15 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:16:15 INFO: Current average volume is: 671.4
+2025-08-19 11:16:15 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:17:15 INFO: {'VTWO': {   'close': 91.9,
+    'high': 91.9,
+    'low': 91.9,
+    'open': 91.9,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 91.9}}
+2025-08-19 11:17:15 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:17:15 INFO: Current average volume is: 571.4
+2025-08-19 11:17:15 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:18:15 INFO: {'VTWO': {   'close': 91.92,
+    'high': 91.92,
+    'low': 91.92,
+    'open': 91.92,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 91.92}}
+2025-08-19 11:18:15 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:18:15 INFO: Current average volume is: 521.4
+2025-08-19 11:18:15 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:19:15 INFO: {'VTWO': {   'close': 91.94,
+    'high': 91.94,
+    'low': 91.94,
+    'open': 91.94,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 91.94}}
+2025-08-19 11:19:15 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:19:15 INFO: Current average volume is: 491.4
+2025-08-19 11:19:15 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:20:15 INFO: {'VTWO': {   'close': 91.93,
+    'high': 91.93,
+    'low': 91.93,
+    'open': 91.93,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 91.93}}
+2025-08-19 11:20:15 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:20:15 INFO: Current average volume is: 501.4
+2025-08-19 11:20:15 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:21:16 INFO: {'VTWO': {   'close': 91.925,
+    'high': 91.925,
+    'low': 91.925,
+    'open': 91.925,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 91.925}}
+2025-08-19 11:21:16 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:21:16 INFO: Current average volume is: 451.4
+2025-08-19 11:21:16 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:22:16 INFO: {'VTWO': {   'close': 91.91,
+    'high': 91.91,
+    'low': 91.91,
+    'open': 91.91,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 310.0,
+    'vwap': 91.91}}
+2025-08-19 11:22:16 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:22:16 INFO: Current average volume is: 351.8
+2025-08-19 11:22:16 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:23:16 INFO: {'VTWO': {   'close': 91.86,
+    'high': 91.86,
+    'low': 91.86,
+    'open': 91.86,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 91.86}}
+2025-08-19 11:23:16 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:23:16 INFO: Current average volume is: 291.8
+2025-08-19 11:23:16 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:25:16 INFO: {'VTWO': {   'close': 91.85,
+    'high': 91.85,
+    'low': 91.85,
+    'open': 91.85,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 91.85}}
+2025-08-19 11:25:16 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:25:16 INFO: Current average volume is: 271.1
+2025-08-19 11:25:16 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:26:16 INFO: {'VTWO': {   'close': 91.86,
+    'high': 91.86,
+    'low': 91.86,
+    'open': 91.86,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 91.86}}
+2025-08-19 11:26:16 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:26:16 INFO: Current average volume is: 221.1
+2025-08-19 11:26:16 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:29:16 INFO: {'VTWO': {   'close': 91.9,
+    'high': 91.9,
+    'low': 91.9,
+    'open': 91.9,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 91.9}}
+2025-08-19 11:29:16 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:29:16 INFO: Current average volume is: 221.0
+2025-08-19 11:29:16 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:31:17 INFO: {'VTWO': {   'close': 91.87,
+    'high': 91.87,
+    'low': 91.87,
+    'open': 91.87,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 91.87}}
+2025-08-19 11:31:17 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:31:17 INFO: Current average volume is: 231.0
+2025-08-19 11:31:17 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:32:17 INFO: {'VTWO': {   'close': 91.92,
+    'high': 91.92,
+    'low': 91.92,
+    'open': 91.92,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 91.92}}
+2025-08-19 11:32:17 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:32:17 INFO: Current average volume is: 211.0
+2025-08-19 11:32:17 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:33:17 INFO: {'VTWO': {   'close': 91.93,
+    'high': 91.93,
+    'low': 91.93,
+    'open': 91.93,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 91.93}}
+2025-08-19 11:33:17 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:33:17 INFO: Current average volume is: 201.0
+2025-08-19 11:33:17 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:34:17 INFO: {'VTWO': {   'close': 91.9,
+    'high': 91.9,
+    'low': 91.9,
+    'open': 91.9,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 91.9}}
+2025-08-19 11:34:17 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:34:17 INFO: Current average volume is: 201.0
+2025-08-19 11:34:17 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:36:17 INFO: {'VTWO': {   'close': 91.92,
+    'high': 91.925,
+    'low': 91.92,
+    'open': 91.925,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 91.921667}}
+2025-08-19 11:36:17 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:36:17 INFO: Current average volume is: 211.0
+2025-08-19 11:36:17 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:37:17 INFO: {'VTWO': {   'close': 91.78,
+    'high': 91.86,
+    'low': 91.78,
+    'open': 91.86,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 700.0,
+    'vwap': 91.82}}
+2025-08-19 11:37:17 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:37:17 INFO: Current average volume is: 250.0
+2025-08-19 11:37:17 INFO: close price: 91.78 just dropped below support of 91.8...
+2025-08-19 11:38:18 INFO: {'VTWO': {   'close': 91.82,
+    'high': 91.82,
+    'low': 91.8,
+    'open': 91.8,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 800.0,
+    'vwap': 91.805}}
+2025-08-19 11:38:18 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:38:18 INFO: Current average volume is: 320.0
+2025-08-19 11:38:18 INFO: Updated resistance to: 92.1 and support to: 91.8
+2025-08-19 11:38:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-19 11:39:18 INFO: {'VTWO': {   'close': 91.79,
+    'high': 91.79,
+    'low': 91.79,
+    'open': 91.79,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 91.79}}
+2025-08-19 11:39:18 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:39:18 INFO: Current average volume is: 320.0
+2025-08-19 11:39:18 INFO: close price: 91.79 just dropped below support of 91.8...
+2025-08-19 11:41:18 INFO: {'VTWO': {   'close': 91.74,
+    'high': 91.74,
+    'low': 91.74,
+    'open': 91.74,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 184.0,
+    'vwap': 91.74}}
+2025-08-19 11:41:18 INFO: Current resistance is: 92.1 and support is: 91.8
+2025-08-19 11:41:18 INFO: Current average volume is: 308.4
+2025-08-19 11:41:18 INFO: Closing price: 91.74 just dropped below support 91.8 again...ending trade...

@@ -1,0 +1,464 @@
+2025-08-14 09:55:17 INFO: === Strategy started ===
+2025-08-14 09:55:17 INFO: Start collecting the current highs/lows for: UVIX
+2025-08-14 09:55:18 INFO: Most recent stock data: {'UVIX': {   'close': 14.56,
+    'high': 14.56,
+    'low': 14.51,
+    'open': 14.55,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2170.0,
+    'vwap': 14.536135}}
+2025-08-14 09:56:18 INFO: Most recent stock data: {'UVIX': {   'close': 14.55,
+    'high': 14.55,
+    'low': 14.55,
+    'open': 14.55,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 210.0,
+    'vwap': 14.55}}
+2025-08-14 09:57:18 INFO: Most recent stock data: {'UVIX': {   'close': 14.56,
+    'high': 14.63,
+    'low': 14.56,
+    'open': 14.63,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1730.0,
+    'vwap': 14.621908}}
+2025-08-14 09:59:18 INFO: Most recent stock data: {'UVIX': {   'close': 14.55,
+    'high': 14.55,
+    'low': 14.55,
+    'open': 14.55,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 998.0,
+    'vwap': 14.55}}
+2025-08-14 10:01:18 INFO: Most recent stock data: {'UVIX': {   'close': 14.5,
+    'high': 14.5,
+    'low': 14.5,
+    'open': 14.5,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1000.0,
+    'vwap': 14.5}}
+2025-08-14 10:03:19 INFO: Most recent stock data: {'UVIX': {   'close': 14.48,
+    'high': 14.52,
+    'low': 14.48,
+    'open': 14.52,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1065.0,
+    'vwap': 14.492863}}
+2025-08-14 10:04:19 INFO: Most recent stock data: {'UVIX': {   'close': 14.46,
+    'high': 14.46,
+    'low': 14.46,
+    'open': 14.46,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 150.0,
+    'vwap': 14.46}}
+2025-08-14 10:05:19 INFO: Most recent stock data: {'UVIX': {   'close': 14.47,
+    'high': 14.47,
+    'low': 14.43,
+    'open': 14.44,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1189.0,
+    'vwap': 14.444197}}
+2025-08-14 10:06:19 INFO: Most recent stock data: {'UVIX': {   'close': 14.45,
+    'high': 14.45,
+    'low': 14.45,
+    'open': 14.45,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 224.0,
+    'vwap': 14.45}}
+2025-08-14 10:08:19 INFO: Most recent stock data: {'UVIX': {   'close': 14.41,
+    'high': 14.41,
+    'low': 14.4,
+    'open': 14.4,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 797.0,
+    'vwap': 14.404981}}
+2025-08-14 10:10:20 INFO: Most recent stock data: {'UVIX': {   'close': 14.46,
+    'high': 14.46,
+    'low': 14.44,
+    'open': 14.44,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 877.0,
+    'vwap': 14.452366}}
+2025-08-14 10:10:20 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 10:10:20 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 10:11:20 INFO: {'UVIX': {   'close': 14.42,
+    'high': 14.42,
+    'low': 14.42,
+    'open': 14.42,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 14.42}}
+2025-08-14 10:11:20 INFO: Current resistance is: 14.63 and support is: 14.4
+2025-08-14 10:11:20 INFO: Current average volume is: 823.0
+2025-08-14 10:11:20 INFO: Updated resistance to: 14.63 and support to: 14.4
+2025-08-14 10:12:20 INFO: {'UVIX': {   'close': 14.48,
+    'high': 14.48,
+    'low': 14.48,
+    'open': 14.48,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 212.0,
+    'vwap': 14.48}}
+2025-08-14 10:12:20 INFO: Current resistance is: 14.63 and support is: 14.4
+2025-08-14 10:12:20 INFO: Current average volume is: 671.2
+2025-08-14 10:12:20 INFO: Updated resistance to: 14.63 and support to: 14.4
+2025-08-14 10:13:20 INFO: {'UVIX': {   'close': 14.5,
+    'high': 14.5,
+    'low': 14.47,
+    'open': 14.47,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 14.488}}
+2025-08-14 10:13:20 INFO: Current resistance is: 14.63 and support is: 14.4
+2025-08-14 10:13:20 INFO: Current average volume is: 621.4
+2025-08-14 10:13:20 INFO: Updated resistance to: 14.63 and support to: 14.4
+2025-08-14 10:15:20 INFO: {'UVIX': {   'close': 14.45,
+    'high': 14.45,
+    'low': 14.44,
+    'open': 14.44,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1502.0,
+    'vwap': 14.446626}}
+2025-08-14 10:15:20 INFO: Current resistance is: 14.63 and support is: 14.4
+2025-08-14 10:15:20 INFO: Current average volume is: 671.6
+2025-08-14 10:15:20 INFO: Updated resistance to: 14.63 and support to: 14.4
+2025-08-14 10:17:20 INFO: {'UVIX': {   'close': 14.37,
+    'high': 14.38,
+    'low': 14.36,
+    'open': 14.38,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2389.0,
+    'vwap': 14.369251}}
+2025-08-14 10:17:20 INFO: Current resistance is: 14.63 and support is: 14.4
+2025-08-14 10:17:20 INFO: Current average volume is: 804.0
+2025-08-14 10:17:20 INFO: close price: 14.37 just dropped below support of 14.4...
+2025-08-14 10:18:21 INFO: {'UVIX': {   'close': 14.35,
+    'high': 14.35,
+    'low': 14.35,
+    'open': 14.35,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 14.35}}
+2025-08-14 10:18:21 INFO: Current resistance is: 14.63 and support is: 14.4
+2025-08-14 10:18:21 INFO: Current average volume is: 819.0
+2025-08-14 10:18:21 INFO: Closing price: 14.35 just dropped below support 14.4 again...ending trade...
+2025-08-14 12:10:36 INFO: === Strategy started ===
+2025-08-14 12:10:36 INFO: Start collecting the current highs/lows for: UVIX
+2025-08-14 12:10:36 INFO: Most recent stock data: {'UVIX': {   'close': 14.62,
+    'high': 14.62,
+    'low': 14.62,
+    'open': 14.62,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 14.62}}
+2025-08-14 12:11:36 INFO: Most recent stock data: {'UVIX': {   'close': 14.64,
+    'high': 14.64,
+    'low': 14.64,
+    'open': 14.64,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 700.0,
+    'vwap': 14.64}}
+2025-08-14 12:12:36 INFO: Most recent stock data: {'UVIX': {   'close': 14.7,
+    'high': 14.7,
+    'low': 14.67,
+    'open': 14.67,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1516.0,
+    'vwap': 14.672296}}
+2025-08-14 12:13:36 INFO: Most recent stock data: {'UVIX': {   'close': 14.74,
+    'high': 14.77,
+    'low': 14.715,
+    'open': 14.715,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2280.0,
+    'vwap': 14.742434}}
+2025-08-14 12:14:36 INFO: Most recent stock data: {'UVIX': {   'close': 14.75,
+    'high': 14.75,
+    'low': 14.75,
+    'open': 14.75,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1100.0,
+    'vwap': 14.75}}
+2025-08-14 12:15:37 INFO: Most recent stock data: {'UVIX': {   'close': 14.77,
+    'high': 14.77,
+    'low': 14.72,
+    'open': 14.72,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1463.0,
+    'vwap': 14.763165}}
+2025-08-14 12:16:37 INFO: Most recent stock data: {'UVIX': {   'close': 14.76,
+    'high': 14.79,
+    'low': 14.76,
+    'open': 14.79,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1234.0,
+    'vwap': 14.778333}}
+2025-08-14 12:17:37 INFO: Most recent stock data: {'UVIX': {   'close': 14.71,
+    'high': 14.75,
+    'low': 14.71,
+    'open': 14.75,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 800.0,
+    'vwap': 14.715}}
+2025-08-14 12:18:37 INFO: Most recent stock data: {'UVIX': {   'close': 14.67,
+    'high': 14.68,
+    'low': 14.67,
+    'open': 14.68,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 394.0,
+    'vwap': 14.674924}}
+2025-08-14 12:19:37 INFO: Most recent stock data: {'UVIX': {   'close': 14.66,
+    'high': 14.66,
+    'low': 14.64,
+    'open': 14.64,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 14.65}}
+2025-08-14 12:21:37 INFO: Most recent stock data: {'UVIX': {   'close': 14.69,
+    'high': 14.69,
+    'low': 14.69,
+    'open': 14.69,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 14.69}}
+2025-08-14 12:21:37 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 12:21:37 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 12:22:37 INFO: {'UVIX': {   'close': 14.6,
+    'high': 14.65,
+    'low': 14.6,
+    'open': 14.65,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 410.0,
+    'vwap': 14.616667}}
+2025-08-14 12:22:37 INFO: Current resistance is: 14.79 and support is: 14.62
+2025-08-14 12:22:37 INFO: Current average volume is: 959.7
+2025-08-14 12:22:37 INFO: close price: 14.6 just dropped below support of 14.62...
+2025-08-14 12:23:38 INFO: {'UVIX': {   'close': 14.58,
+    'high': 14.6,
+    'low': 14.58,
+    'open': 14.6,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 486.0,
+    'vwap': 14.59}}
+2025-08-14 12:23:38 INFO: Current resistance is: 14.79 and support is: 14.62
+2025-08-14 12:23:38 INFO: Current average volume is: 856.7
+2025-08-14 12:23:38 INFO: Closing price: 14.58 just dropped below support 14.62 again...ending trade...
+2025-08-14 12:25:37 INFO: === Strategy started ===
+2025-08-14 12:25:37 INFO: Start collecting the current highs/lows for: UVIX
+2025-08-14 12:25:37 INFO: Most recent stock data: {'UVIX': {   'close': 14.6,
+    'high': 14.61,
+    'low': 14.6,
+    'open': 14.61,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1110.0,
+    'vwap': 14.601802}}
+2025-08-14 12:27:38 INFO: Most recent stock data: {'UVIX': {   'close': 14.55,
+    'high': 14.58,
+    'low': 14.55,
+    'open': 14.58,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 765.0,
+    'vwap': 14.557143}}
+2025-08-14 12:28:38 INFO: Most recent stock data: {'UVIX': {   'close': 14.61,
+    'high': 14.63,
+    'low': 14.58,
+    'open': 14.58,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1610.0,
+    'vwap': 14.604026}}
+2025-08-14 12:29:38 INFO: Most recent stock data: {'UVIX': {   'close': 14.66,
+    'high': 14.66,
+    'low': 14.62,
+    'open': 14.62,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1300.0,
+    'vwap': 14.641543}}
+2025-08-14 12:31:38 INFO: Most recent stock data: {'UVIX': {   'close': 14.65,
+    'high': 14.65,
+    'low': 14.65,
+    'open': 14.65,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 219.0,
+    'vwap': 14.65}}
+2025-08-14 12:32:38 INFO: Most recent stock data: {'UVIX': {   'close': 14.62,
+    'high': 14.63,
+    'low': 14.62,
+    'open': 14.63,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 567.0,
+    'vwap': 14.623527}}
+2025-08-14 12:33:38 INFO: Most recent stock data: {'UVIX': {   'close': 14.59,
+    'high': 14.6,
+    'low': 14.59,
+    'open': 14.6,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 14.595}}
+2025-08-14 12:35:38 INFO: Most recent stock data: {'UVIX': {   'close': 14.58,
+    'high': 14.58,
+    'low': 14.58,
+    'open': 14.58,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 581.0,
+    'vwap': 14.58}}
+2025-08-14 12:36:39 INFO: Most recent stock data: {'UVIX': {   'close': 14.54,
+    'high': 14.54,
+    'low': 14.54,
+    'open': 14.54,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 157.0,
+    'vwap': 14.54}}
+2025-08-14 12:37:39 INFO: Most recent stock data: {'UVIX': {   'close': 14.6,
+    'high': 14.6,
+    'low': 14.53,
+    'open': 14.53,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1764.0,
+    'vwap': 14.575323}}
+2025-08-14 12:38:39 INFO: Most recent stock data: {'UVIX': {   'close': 14.55,
+    'high': 14.56,
+    'low': 14.55,
+    'open': 14.555,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 14.55375}}
+2025-08-14 12:38:39 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 12:38:39 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 12:40:39 INFO: {'UVIX': {   'close': 14.53,
+    'high': 14.53,
+    'low': 14.52,
+    'open': 14.52,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 633.0,
+    'vwap': 14.521667}}
+2025-08-14 12:40:39 INFO: Current resistance is: 14.66 and support is: 14.53
+2025-08-14 12:40:39 INFO: Current average volume is: 763.1
+2025-08-14 12:42:39 INFO: {'UVIX': {   'close': 14.56,
+    'high': 14.57,
+    'low': 14.53,
+    'open': 14.53,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1410.0,
+    'vwap': 14.540851}}
+2025-08-14 12:42:39 INFO: Current resistance is: 14.66 and support is: 14.53
+2025-08-14 12:42:39 INFO: Current average volume is: 743.1
+2025-08-14 12:42:39 INFO: Updated resistance to: 14.66 and support to: 14.53
+2025-08-14 12:43:40 INFO: {'UVIX': {   'close': 14.59,
+    'high': 14.59,
+    'low': 14.54,
+    'open': 14.54,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1559.0,
+    'vwap': 14.562681}}
+2025-08-14 12:43:40 INFO: Current resistance is: 14.66 and support is: 14.53
+2025-08-14 12:43:40 INFO: Current average volume is: 769.0
+2025-08-14 12:43:40 INFO: Updated resistance to: 14.66 and support to: 14.53
+2025-08-14 12:47:40 INFO: {'UVIX': {   'close': 14.48,
+    'high': 14.5,
+    'low': 14.48,
+    'open': 14.5,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1329.0,
+    'vwap': 14.486154}}
+2025-08-14 12:47:40 INFO: Current resistance is: 14.66 and support is: 14.53
+2025-08-14 12:47:40 INFO: Current average volume is: 880.0
+2025-08-14 12:47:40 INFO: close price: 14.48 just dropped below support of 14.53...
+2025-08-14 12:48:40 INFO: {'UVIX': {   'close': 14.47,
+    'high': 14.49,
+    'low': 14.47,
+    'open': 14.48,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1124.0,
+    'vwap': 14.483636}}
+2025-08-14 12:48:40 INFO: Current resistance is: 14.66 and support is: 14.53
+2025-08-14 12:48:40 INFO: Current average volume is: 935.7
+2025-08-14 12:48:40 INFO: Closing price: 14.47 just dropped below support 14.53 again...ending trade...

@@ -1,0 +1,900 @@
+2025-08-19 10:40:13 INFO: === Strategy started ===
+2025-08-19 10:40:13 INFO: Start collecting the current highs/lows for: PLTZ
+2025-08-19 10:40:13 INFO: Most recent stock data: {'PLTZ': {   'close': 9.51,
+    'high': 9.51,
+    'low': 9.51,
+    'open': 9.51,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 1400.0,
+    'vwap': 9.51}}
+2025-08-19 10:42:14 INFO: Most recent stock data: {'PLTZ': {   'close': 9.5,
+    'high': 9.5,
+    'low': 9.49,
+    'open': 9.49,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.495}}
+2025-08-19 10:44:14 INFO: Most recent stock data: {'PLTZ': {   'close': 9.56,
+    'high': 9.56,
+    'low': 9.54,
+    'open': 9.54,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 9.55}}
+2025-08-19 10:45:14 INFO: Most recent stock data: {'PLTZ': {   'close': 9.58,
+    'high': 9.58,
+    'low': 9.57,
+    'open': 9.57,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 304.0,
+    'vwap': 9.576711}}
+2025-08-19 10:46:14 INFO: Most recent stock data: {'PLTZ': {   'close': 9.52,
+    'high': 9.52,
+    'low': 9.52,
+    'open': 9.52,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1622.0,
+    'vwap': 9.52}}
+2025-08-19 10:50:15 INFO: Most recent stock data: {'PLTZ': {   'close': 9.47,
+    'high': 9.48,
+    'low': 9.47,
+    'open': 9.48,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1509.0,
+    'vwap': 9.471413}}
+2025-08-19 10:51:15 INFO: Most recent stock data: {'PLTZ': {   'close': 9.43,
+    'high': 9.43,
+    'low': 9.43,
+    'open': 9.43,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 9.43}}
+2025-08-19 10:53:15 INFO: Most recent stock data: {'PLTZ': {   'close': 9.42,
+    'high': 9.44,
+    'low': 9.42,
+    'open': 9.44,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 283.0,
+    'vwap': 9.43}}
+2025-08-19 10:54:15 INFO: Most recent stock data: {'PLTZ': {   'close': 9.42,
+    'high': 9.42,
+    'low': 9.41,
+    'open': 9.42,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 787.0,
+    'vwap': 9.413812}}
+2025-08-19 10:55:15 INFO: Most recent stock data: {'PLTZ': {   'close': 9.4,
+    'high': 9.4,
+    'low': 9.4,
+    'open': 9.4,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.4}}
+2025-08-19 10:58:16 INFO: Most recent stock data: {'PLTZ': {   'close': 9.43,
+    'high': 9.43,
+    'low': 9.43,
+    'open': 9.43,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1195.0,
+    'vwap': 9.43}}
+2025-08-19 10:58:16 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 10:58:16 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 10:59:16 INFO: {'PLTZ': {   'close': 9.44,
+    'high': 9.45,
+    'low': 9.44,
+    'open': 9.44,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 9.443333}}
+2025-08-19 10:59:16 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 10:59:16 INFO: Current average volume is: 700.0
+2025-08-19 10:59:16 INFO: Updated resistance to: 9.58 and support to: 9.4
+2025-08-19 11:01:16 INFO: {'PLTZ': {   'close': 9.48,
+    'high': 9.48,
+    'low': 9.48,
+    'open': 9.48,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 2196.0,
+    'vwap': 9.48}}
+2025-08-19 11:01:16 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 11:01:16 INFO: Current average volume is: 869.6
+2025-08-19 11:01:16 INFO: Updated resistance to: 9.58 and support to: 9.4
+2025-08-19 11:02:16 INFO: {'PLTZ': {   'close': 9.45,
+    'high': 9.45,
+    'low': 9.45,
+    'open': 9.45,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.45}}
+2025-08-19 11:02:16 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 11:02:16 INFO: Current average volume is: 849.2
+2025-08-19 11:02:16 INFO: Updated resistance to: 9.58 and support to: 9.4
+2025-08-19 11:03:16 INFO: {'PLTZ': {   'close': 9.49,
+    'high': 9.49,
+    'low': 9.49,
+    'open': 9.49,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 8100.0,
+    'vwap': 9.49}}
+2025-08-19 11:03:16 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 11:03:16 INFO: Current average volume is: 1497.0
+2025-08-19 11:03:16 INFO: Updated resistance to: 9.58 and support to: 9.4
+2025-08-19 11:04:16 INFO: {'PLTZ': {   'close': 9.46,
+    'high': 9.46,
+    'low': 9.46,
+    'open': 9.46,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.46}}
+2025-08-19 11:04:16 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 11:04:16 INFO: Current average volume is: 1356.1
+2025-08-19 11:04:16 INFO: Updated resistance to: 9.58 and support to: 9.4
+2025-08-19 11:07:17 INFO: {'PLTZ': {   'close': 9.44,
+    'high': 9.44,
+    'low': 9.44,
+    'open': 9.44,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 240.0,
+    'vwap': 9.44}}
+2025-08-19 11:07:17 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 11:07:17 INFO: Current average volume is: 1350.1
+2025-08-19 11:07:17 INFO: Updated resistance to: 9.58 and support to: 9.4
+2025-08-19 11:08:17 INFO: {'PLTZ': {   'close': 9.43,
+    'high': 9.43,
+    'low': 9.43,
+    'open': 9.43,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.43}}
+2025-08-19 11:08:17 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 11:08:17 INFO: Current average volume is: 1331.8
+2025-08-19 11:08:17 INFO: Updated resistance to: 9.58 and support to: 9.4
+2025-08-19 11:11:17 INFO: {'PLTZ': {   'close': 9.42,
+    'high': 9.42,
+    'low': 9.42,
+    'open': 9.42,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 9.42}}
+2025-08-19 11:11:17 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 11:11:17 INFO: Current average volume is: 1268.1
+2025-08-19 11:11:17 INFO: Updated resistance to: 9.58 and support to: 9.4
+2025-08-19 11:14:18 INFO: {'PLTZ': {   'close': 9.36,
+    'high': 9.38,
+    'low': 9.36,
+    'open': 9.38,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 374.0,
+    'vwap': 9.365348}}
+2025-08-19 11:14:18 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 11:14:18 INFO: Current average volume is: 1285.5
+2025-08-19 11:14:18 INFO: close price: 9.36 just dropped below support of 9.4...
+2025-08-19 11:15:18 INFO: {'PLTZ': {   'close': 9.33,
+    'high': 9.36,
+    'low': 9.33,
+    'open': 9.36,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 842.0,
+    'vwap': 9.349311}}
+2025-08-19 11:15:18 INFO: Current resistance is: 9.58 and support is: 9.4
+2025-08-19 11:15:18 INFO: Current average volume is: 1250.2
+2025-08-19 11:15:18 INFO: Closing price: 9.33 just dropped below support 9.4 again...ending trade...
+2025-08-19 12:25:20 INFO: === Strategy started ===
+2025-08-19 12:25:20 INFO: Start collecting the current highs/lows for: PLTZ
+2025-08-19 12:25:21 INFO: Most recent stock data: {'PLTZ': {   'close': 9.48,
+    'high': 9.48,
+    'low': 9.48,
+    'open': 9.48,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.48}}
+2025-08-19 12:26:21 INFO: Most recent stock data: {'PLTZ': {   'close': 9.47,
+    'high': 9.47,
+    'low': 9.47,
+    'open': 9.47,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 168.0,
+    'vwap': 9.47}}
+2025-08-19 12:35:22 INFO: Most recent stock data: {'PLTZ': {   'close': 9.55,
+    'high': 9.55,
+    'low': 9.55,
+    'open': 9.55,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 9.55}}
+2025-08-19 12:38:22 INFO: Most recent stock data: {'PLTZ': {   'close': 9.67,
+    'high': 9.67,
+    'low': 9.57,
+    'open': 9.57,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 2800.0,
+    'vwap': 9.602143}}
+2025-08-19 12:39:22 INFO: Most recent stock data: {'PLTZ': {   'close': 9.59,
+    'high': 9.59,
+    'low': 9.59,
+    'open': 9.59,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 163.0,
+    'vwap': 9.59}}
+2025-08-19 12:42:23 INFO: Most recent stock data: {'PLTZ': {   'close': 9.67,
+    'high': 9.67,
+    'low': 9.67,
+    'open': 9.67,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 9.67}}
+2025-08-19 12:45:23 INFO: Most recent stock data: {'PLTZ': {   'close': 9.73,
+    'high': 9.73,
+    'low': 9.73,
+    'open': 9.73,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.73}}
+2025-08-19 12:47:23 INFO: Most recent stock data: {'PLTZ': {   'close': 9.75,
+    'high': 9.75,
+    'low': 9.75,
+    'open': 9.75,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 164.0,
+    'vwap': 9.75}}
+2025-08-19 12:49:24 INFO: Most recent stock data: {'PLTZ': {   'close': 9.76,
+    'high': 9.76,
+    'low': 9.74,
+    'open': 9.74,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.75}}
+2025-08-19 12:51:24 INFO: Most recent stock data: {'PLTZ': {   'close': 9.69,
+    'high': 9.69,
+    'low': 9.69,
+    'open': 9.69,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 255.0,
+    'vwap': 9.69}}
+2025-08-19 12:52:24 INFO: Most recent stock data: {'PLTZ': {   'close': 9.7,
+    'high': 9.7,
+    'low': 9.7,
+    'open': 9.7,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 9.7}}
+2025-08-19 12:52:24 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 12:52:24 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 12:55:25 INFO: {'PLTZ': {   'close': 9.75,
+    'high': 9.75,
+    'low': 9.75,
+    'open': 9.75,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 291.0,
+    'vwap': 9.75}}
+2025-08-19 12:55:25 INFO: Current resistance is: 9.76 and support is: 9.47
+2025-08-19 12:55:25 INFO: Current average volume is: 507.5
+2025-08-19 12:55:25 INFO: Updated resistance to: 9.76 and support to: 9.47
+2025-08-19 12:57:25 INFO: {'PLTZ': {   'close': 9.79,
+    'high': 9.79,
+    'low': 9.78,
+    'open': 9.78,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 550.0,
+    'vwap': 9.786364}}
+2025-08-19 12:57:25 INFO: Current resistance is: 9.76 and support is: 9.47
+2025-08-19 12:57:25 INFO: Current average volume is: 532.5
+2025-08-19 12:57:25 INFO: The Current Close 9.79 is above the resistance...
+2025-08-19 12:57:25 INFO: Updated resistance to: 9.79 and support to: 9.47
+2025-08-19 12:59:25 INFO: {'PLTZ': {   'close': 9.8,
+    'high': 9.8,
+    'low': 9.8,
+    'open': 9.8,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.8}}
+2025-08-19 12:59:25 INFO: Current resistance is: 9.79 and support is: 9.47
+2025-08-19 12:59:25 INFO: Current average volume is: 272.5
+2025-08-19 12:59:25 INFO: The current close: 9.8 is above the resistance of 9.79, but volume isn't enough...
+2025-08-19 12:59:25 INFO: Updated resistance to: 9.8 and support to: 9.47
+2025-08-19 13:01:26 INFO: {'PLTZ': {   'close': 9.73,
+    'high': 9.77,
+    'low': 9.73,
+    'open': 9.77,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 800.0,
+    'vwap': 9.75}}
+2025-08-19 13:01:26 INFO: Current resistance is: 9.8 and support is: 9.47
+2025-08-19 13:01:26 INFO: Current average volume is: 336.2
+2025-08-19 13:01:26 INFO: Updated resistance to: 9.8 and support to: 9.47
+2025-08-19 13:02:26 INFO: {'PLTZ': {   'close': 9.79,
+    'high': 9.8,
+    'low': 9.76,
+    'open': 9.76,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 664.0,
+    'vwap': 9.78}}
+2025-08-19 13:02:26 INFO: Current resistance is: 9.8 and support is: 9.47
+2025-08-19 13:02:26 INFO: Current average volume is: 382.4
+2025-08-19 13:02:26 INFO: Updated resistance to: 9.8 and support to: 9.47
+2025-08-19 13:08:27 INFO: {'PLTZ': {   'close': 9.83,
+    'high': 9.83,
+    'low': 9.83,
+    'open': 9.83,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 2790.0,
+    'vwap': 9.83}}
+2025-08-19 13:08:27 INFO: Current resistance is: 9.8 and support is: 9.47
+2025-08-19 13:08:27 INFO: Current average volume is: 651.4
+2025-08-19 13:08:27 INFO: The Current Close 9.83 is above the resistance...
+2025-08-19 13:08:27 INFO: Updated resistance to: 9.83 and support to: 9.47
+2025-08-19 13:13:28 INFO: {'PLTZ': {   'close': 9.84,
+    'high': 9.86,
+    'low': 9.84,
+    'open': 9.86,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 785.0,
+    'vwap': 9.852958}}
+2025-08-19 13:13:28 INFO: Current resistance is: 9.83 and support is: 9.47
+2025-08-19 13:13:28 INFO: Current average volume is: 713.5
+2025-08-19 13:13:28 INFO: The current close: 9.84 is above the resistance of 9.83, but volume isn't enough...
+2025-08-19 13:13:28 INFO: Updated resistance to: 9.86 and support to: 9.47
+2025-08-19 13:15:28 INFO: {'PLTZ': {   'close': 9.79,
+    'high': 9.8,
+    'low': 9.79,
+    'open': 9.8,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1700.0,
+    'vwap': 9.792941}}
+2025-08-19 13:15:28 INFO: Current resistance is: 9.86 and support is: 9.47
+2025-08-19 13:15:28 INFO: Current average volume is: 863.5
+2025-08-19 13:15:28 INFO: Updated resistance to: 9.86 and support to: 9.47
+2025-08-19 13:16:29 INFO: {'PLTZ': {   'close': 9.81,
+    'high': 9.81,
+    'low': 9.77,
+    'open': 9.77,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 6297.0,
+    'vwap': 9.806129}}
+2025-08-19 13:16:29 INFO: Current resistance is: 9.86 and support is: 9.47
+2025-08-19 13:16:29 INFO: Current average volume is: 1467.7
+2025-08-19 13:16:29 INFO: Updated resistance to: 9.86 and support to: 9.47
+2025-08-19 13:18:29 INFO: {'PLTZ': {   'close': 9.83,
+    'high': 9.83,
+    'low': 9.83,
+    'open': 9.83,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 140.0,
+    'vwap': 9.83}}
+2025-08-19 13:18:29 INFO: Current resistance is: 9.86 and support is: 9.47
+2025-08-19 13:18:29 INFO: Current average volume is: 1421.7
+2025-08-19 13:18:29 INFO: Updated resistance to: 9.86 and support to: 9.47
+2025-08-19 13:19:29 INFO: {'PLTZ': {   'close': 9.86,
+    'high': 9.86,
+    'low': 9.86,
+    'open': 9.86,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 9.86}}
+2025-08-19 13:19:29 INFO: Current resistance is: 9.86 and support is: 9.47
+2025-08-19 13:19:29 INFO: Current average volume is: 1402.8
+2025-08-19 13:19:29 INFO: Updated resistance to: 9.86 and support to: 9.47
+2025-08-19 13:20:29 INFO: {'PLTZ': {   'close': 9.88,
+    'high': 9.88,
+    'low': 9.87,
+    'open': 9.87,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 4600.0,
+    'vwap': 9.879783}}
+2025-08-19 13:20:29 INFO: Current resistance is: 9.86 and support is: 9.47
+2025-08-19 13:20:29 INFO: Current average volume is: 1807.8
+2025-08-19 13:20:29 INFO: The Current Close 9.88 is above the resistance...
+2025-08-19 13:20:29 INFO: Updated resistance to: 9.88 and support to: 9.47
+2025-08-19 13:21:29 INFO: {'PLTZ': {   'close': 9.86,
+    'high': 9.86,
+    'low': 9.86,
+    'open': 9.86,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 9.86}}
+2025-08-19 13:21:29 INFO: Current resistance is: 9.88 and support is: 9.47
+2025-08-19 13:21:29 INFO: Current average volume is: 1817.8
+2025-08-19 13:21:29 INFO: Updated resistance to: 9.88 and support to: 9.47
+2025-08-19 13:22:29 INFO: {'PLTZ': {   'close': 9.83,
+    'high': 9.83,
+    'low': 9.83,
+    'open': 9.83,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 507.0,
+    'vwap': 9.83}}
+2025-08-19 13:22:29 INFO: Current resistance is: 9.88 and support is: 9.47
+2025-08-19 13:22:29 INFO: Current average volume is: 1788.5
+2025-08-19 13:22:29 INFO: Updated resistance to: 9.88 and support to: 9.47
+2025-08-19 13:29:30 INFO: {'PLTZ': {   'close': 9.77,
+    'high': 9.77,
+    'low': 9.77,
+    'open': 9.77,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 256.0,
+    'vwap': 9.77}}
+2025-08-19 13:29:30 INFO: Current resistance is: 9.88 and support is: 9.47
+2025-08-19 13:29:30 INFO: Current average volume is: 1747.7
+2025-08-19 13:29:30 INFO: Updated resistance to: 9.88 and support to: 9.47
+2025-08-19 13:33:31 INFO: {'PLTZ': {   'close': 9.72,
+    'high': 9.72,
+    'low': 9.72,
+    'open': 9.72,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 383.0,
+    'vwap': 9.72}}
+2025-08-19 13:33:31 INFO: Current resistance is: 9.88 and support is: 9.47
+2025-08-19 13:33:31 INFO: Current average volume is: 1507.0
+2025-08-19 13:33:31 INFO: Updated resistance to: 9.88 and support to: 9.47
+2025-08-19 13:47:33 INFO: {'PLTZ': {   'close': 9.81,
+    'high': 9.81,
+    'low': 9.81,
+    'open': 9.81,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.81}}
+2025-08-19 13:47:33 INFO: Current resistance is: 9.88 and support is: 9.47
+2025-08-19 13:47:33 INFO: Current average volume is: 1438.5
+2025-08-19 13:47:33 INFO: Updated resistance to: 9.88 and support to: 9.47
+2025-08-19 13:52:33 INFO: {'PLTZ': {   'close': 9.84,
+    'high': 9.84,
+    'low': 9.84,
+    'open': 9.84,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 608.0,
+    'vwap': 9.84}}
+2025-08-19 13:52:33 INFO: Current resistance is: 9.88 and support is: 9.47
+2025-08-19 13:52:33 INFO: Current average volume is: 1329.3
+2025-08-19 13:52:33 INFO: Updated resistance to: 9.88 and support to: 9.47
+2025-08-19 14:00:34 INFO: {'PLTZ': {   'close': 9.82,
+    'high': 9.82,
+    'low': 9.82,
+    'open': 9.82,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 600.0,
+    'vwap': 9.82}}
+2025-08-19 14:00:34 INFO: Current resistance is: 9.88 and support is: 9.47
+2025-08-19 14:00:34 INFO: Current average volume is: 759.6
+2025-08-19 14:00:34 INFO: Updated resistance to: 9.88 and support to: 9.47
+2025-08-19 14:05:35 INFO: {'PLTZ': {   'close': 9.9,
+    'high': 9.9,
+    'low': 9.9,
+    'open': 9.9,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1856.0,
+    'vwap': 9.9}}
+2025-08-19 14:05:35 INFO: Current resistance is: 9.88 and support is: 9.47
+2025-08-19 14:05:35 INFO: Current average volume is: 931.2
+2025-08-19 14:05:35 INFO: The Current Close 9.9 is above the resistance...
+2025-08-19 14:05:35 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 14:11:06 INFO: {'PLTZ': {   'close': 9.85,
+    'high': 9.85,
+    'low': 9.85,
+    'open': 9.85,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1309.0,
+    'vwap': 9.85}}
+2025-08-19 14:11:06 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 14:11:06 INFO: Current average volume is: 1051.9
+2025-08-19 14:11:06 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 14:28:08 INFO: {'PLTZ': {   'close': 9.88,
+    'high': 9.88,
+    'low': 9.88,
+    'open': 9.88,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 9.88}}
+2025-08-19 14:28:08 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 14:28:08 INFO: Current average volume is: 602.4
+2025-08-19 14:28:08 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 14:29:08 INFO: {'PLTZ': {   'close': 9.85,
+    'high': 9.85,
+    'low': 9.85,
+    'open': 9.85,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 3100.0,
+    'vwap': 9.85}}
+2025-08-19 14:29:08 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 14:29:08 INFO: Current average volume is: 882.4
+2025-08-19 14:29:08 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 14:35:09 INFO: {'PLTZ': {   'close': 9.87,
+    'high': 9.87,
+    'low': 9.87,
+    'open': 9.87,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.87}}
+2025-08-19 14:35:09 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 14:35:09 INFO: Current average volume is: 841.7
+2025-08-19 14:35:09 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 14:40:10 INFO: {'PLTZ': {   'close': 9.88,
+    'high': 9.88,
+    'low': 9.88,
+    'open': 9.88,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 683.0,
+    'vwap': 9.88}}
+2025-08-19 14:40:10 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 14:40:10 INFO: Current average volume is: 884.4
+2025-08-19 14:40:10 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 14:41:10 INFO: {'PLTZ': {   'close': 9.9,
+    'high': 9.9,
+    'low': 9.9,
+    'open': 9.9,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 133.0,
+    'vwap': 9.9}}
+2025-08-19 14:41:10 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 14:41:10 INFO: Current average volume is: 859.4
+2025-08-19 14:41:10 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 14:44:10 INFO: {'PLTZ': {   'close': 9.84,
+    'high': 9.84,
+    'low': 9.84,
+    'open': 9.84,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 500.0,
+    'vwap': 9.84}}
+2025-08-19 14:44:10 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 14:44:10 INFO: Current average volume is: 899.4
+2025-08-19 14:44:10 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 14:52:11 INFO: {'PLTZ': {   'close': 9.88,
+    'high': 9.88,
+    'low': 9.88,
+    'open': 9.88,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 2000.0,
+    'vwap': 9.88}}
+2025-08-19 14:52:11 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 14:52:11 INFO: Current average volume is: 1038.6
+2025-08-19 14:52:11 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 15:00:12 INFO: {'PLTZ': {   'close': 9.87,
+    'high': 9.87,
+    'low': 9.87,
+    'open': 9.87,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.87}}
+2025-08-19 15:00:12 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 15:00:12 INFO: Current average volume is: 988.6
+2025-08-19 15:00:12 INFO: Updated resistance to: 9.9 and support to: 9.47
+2025-08-19 15:01:12 INFO: {'PLTZ': {   'close': 9.93,
+    'high': 9.93,
+    'low': 9.88,
+    'open': 9.88,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 9.91}}
+2025-08-19 15:01:12 INFO: Current resistance is: 9.9 and support is: 9.47
+2025-08-19 15:01:12 INFO: Current average volume is: 863.0
+2025-08-19 15:01:12 INFO: The Current Close 9.93 is above the resistance...
+2025-08-19 15:01:12 INFO: Updated resistance to: 9.93 and support to: 9.47
+2025-08-19 15:04:13 INFO: {'PLTZ': {   'close': 9.91,
+    'high': 9.91,
+    'low': 9.91,
+    'open': 9.91,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.91}}
+2025-08-19 15:04:13 INFO: Current resistance is: 9.93 and support is: 9.47
+2025-08-19 15:04:13 INFO: Current average volume is: 742.1
+2025-08-19 15:04:13 INFO: Updated resistance to: 9.93 and support to: 9.47
+2025-08-19 15:08:13 INFO: {'PLTZ': {   'close': 9.96,
+    'high': 9.96,
+    'low': 9.96,
+    'open': 9.96,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 821.0,
+    'vwap': 9.96}}
+2025-08-19 15:08:13 INFO: Current resistance is: 9.93 and support is: 9.47
+2025-08-19 15:08:13 INFO: Current average volume is: 813.7
+2025-08-19 15:08:13 INFO: The Current Close 9.96 is above the resistance...
+2025-08-19 15:08:13 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:10:14 INFO: {'PLTZ': {   'close': 9.94,
+    'high': 9.94,
+    'low': 9.94,
+    'open': 9.94,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 600.0,
+    'vwap': 9.94}}
+2025-08-19 15:10:14 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:10:14 INFO: Current average volume is: 563.7
+2025-08-19 15:10:14 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:13:14 INFO: {'PLTZ': {   'close': 9.89,
+    'high': 9.91,
+    'low': 9.89,
+    'open': 9.91,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1448.0,
+    'vwap': 9.908596}}
+2025-08-19 15:13:14 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:13:14 INFO: Current average volume is: 698.5
+2025-08-19 15:13:14 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:17:15 INFO: {'PLTZ': {   'close': 9.87,
+    'high': 9.87,
+    'low': 9.87,
+    'open': 9.87,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 606.0,
+    'vwap': 9.87}}
+2025-08-19 15:17:15 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:17:15 INFO: Current average volume is: 690.8
+2025-08-19 15:17:15 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:21:15 INFO: {'PLTZ': {   'close': 9.91,
+    'high': 9.91,
+    'low': 9.9,
+    'open': 9.9,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 414.0,
+    'vwap': 9.902564}}
+2025-08-19 15:21:15 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:21:15 INFO: Current average volume is: 718.9
+2025-08-19 15:21:15 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:22:15 INFO: {'PLTZ': {   'close': 9.87,
+    'high': 9.87,
+    'low': 9.87,
+    'open': 9.87,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 118.0,
+    'vwap': 9.87}}
+2025-08-19 15:22:15 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:22:15 INFO: Current average volume is: 680.7
+2025-08-19 15:22:15 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:35:17 INFO: {'PLTZ': {   'close': 9.85,
+    'high': 9.85,
+    'low': 9.85,
+    'open': 9.85,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 264.0,
+    'vwap': 9.85}}
+2025-08-19 15:35:17 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:35:17 INFO: Current average volume is: 507.1
+2025-08-19 15:35:17 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:40:18 INFO: {'PLTZ': {   'close': 9.86,
+    'high': 9.86,
+    'low': 9.86,
+    'open': 9.86,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.86}}
+2025-08-19 15:40:18 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:40:18 INFO: Current average volume is: 507.1
+2025-08-19 15:40:18 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:42:18 INFO: {'PLTZ': {   'close': 9.89,
+    'high': 9.89,
+    'low': 9.89,
+    'open': 9.89,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 9.89}}
+2025-08-19 15:42:18 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:42:18 INFO: Current average volume is: 487.1
+2025-08-19 15:42:18 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:43:18 INFO: {'PLTZ': {   'close': 9.88,
+    'high': 9.88,
+    'low': 9.88,
+    'open': 9.88,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 930.0,
+    'vwap': 9.88}}
+2025-08-19 15:43:18 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:43:18 INFO: Current average volume is: 570.1
+2025-08-19 15:43:18 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:47:19 INFO: {'PLTZ': {   'close': 9.9,
+    'high': 9.9,
+    'low': 9.9,
+    'open': 9.9,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 810.0,
+    'vwap': 9.9}}
+2025-08-19 15:47:19 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:47:19 INFO: Current average volume is: 569.0
+2025-08-19 15:47:19 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:49:19 INFO: {'PLTZ': {   'close': 9.93,
+    'high': 9.93,
+    'low': 9.93,
+    'open': 9.93,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.93}}
+2025-08-19 15:49:19 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:49:19 INFO: Current average volume is: 519.0
+2025-08-19 15:49:19 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:51:19 INFO: {'PLTZ': {   'close': 9.95,
+    'high': 9.95,
+    'low': 9.94,
+    'open': 9.94,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.945}}
+2025-08-19 15:51:19 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:51:19 INFO: Current average volume is: 394.2
+2025-08-19 15:51:19 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:52:19 INFO: {'PLTZ': {   'close': 9.96,
+    'high': 9.96,
+    'low': 9.96,
+    'open': 9.96,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.96}}
+2025-08-19 15:52:19 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:52:19 INFO: Current average volume is: 343.6
+2025-08-19 15:52:19 INFO: Updated resistance to: 9.96 and support to: 9.47
+2025-08-19 15:55:20 INFO: {'PLTZ': {   'close': 9.98,
+    'high': 9.98,
+    'low': 9.98,
+    'open': 9.98,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.98}}
+2025-08-19 15:55:20 INFO: Current resistance is: 9.96 and support is: 9.47
+2025-08-19 15:55:20 INFO: Current average volume is: 312.2
+2025-08-19 15:55:20 INFO: The Current Close 9.98 is above the resistance...
+2025-08-19 15:55:20 INFO: Updated resistance to: 9.98 and support to: 9.47
+2025-08-19 15:56:20 INFO: {'PLTZ': {   'close': 9.93,
+    'high': 9.93,
+    'low': 9.93,
+    'open': 9.93,
+    'symbol': 'PLTZ',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 526.0,
+    'vwap': 9.93}}
+2025-08-19 15:56:20 INFO: Current resistance is: 9.98 and support is: 9.47
+2025-08-19 15:56:20 INFO: Current average volume is: 353.0
+2025-08-19 15:56:20 INFO: Updated resistance to: 9.98 and support to: 9.47
+2025-08-19 16:00:20 INFO: The Market is closed...

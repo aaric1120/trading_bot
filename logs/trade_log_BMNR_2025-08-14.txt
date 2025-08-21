@@ -1,0 +1,890 @@
+2025-08-14 10:40:19 INFO: === Strategy started ===
+2025-08-14 10:40:19 INFO: Start collecting the current highs/lows for: BMNR
+2025-08-14 10:40:20 INFO: Most recent stock data: {'BMNR': {   'close': 61.545,
+    'high': 61.695,
+    'low': 61.43,
+    'open': 61.555,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 4410.0,
+    'vwap': 61.558853}}
+2025-08-14 10:41:20 INFO: Most recent stock data: {'BMNR': {   'close': 61.61,
+    'high': 61.61,
+    'low': 61.47,
+    'open': 61.49,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1901.0,
+    'vwap': 61.517188}}
+2025-08-14 10:42:20 INFO: Most recent stock data: {'BMNR': {   'close': 61.225,
+    'high': 61.695,
+    'low': 61.19,
+    'open': 61.695,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2112.0,
+    'vwap': 61.256918}}
+2025-08-14 10:43:20 INFO: Most recent stock data: {'BMNR': {   'close': 60.66,
+    'high': 61.08,
+    'low': 60.27,
+    'open': 61.07,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 53.0,
+    'volume': 5837.0,
+    'vwap': 60.553341}}
+2025-08-14 10:44:20 INFO: Most recent stock data: {'BMNR': {   'close': 60.915,
+    'high': 60.975,
+    'low': 60.51,
+    'open': 60.675,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 4576.0,
+    'vwap': 60.720242}}
+2025-08-14 10:45:20 INFO: Most recent stock data: {'BMNR': {   'close': 60.04,
+    'high': 60.915,
+    'low': 60.04,
+    'open': 60.885,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2970.0,
+    'vwap': 60.458}}
+2025-08-14 10:46:20 INFO: Most recent stock data: {'BMNR': {   'close': 60.18,
+    'high': 60.18,
+    'low': 59.73,
+    'open': 59.87,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 3682.0,
+    'vwap': 59.925319}}
+2025-08-14 10:47:21 INFO: Most recent stock data: {'BMNR': {   'close': 60.325,
+    'high': 60.59,
+    'low': 60.23,
+    'open': 60.275,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 3056.0,
+    'vwap': 60.504705}}
+2025-08-14 10:48:21 INFO: Most recent stock data: {'BMNR': {   'close': 60.595,
+    'high': 60.74,
+    'low': 60.49,
+    'open': 60.49,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1005.0,
+    'vwap': 60.609392}}
+2025-08-14 10:49:21 INFO: Most recent stock data: {'BMNR': {   'close': 60.38,
+    'high': 60.38,
+    'low': 60.14,
+    'open': 60.22,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 919.0,
+    'vwap': 60.257855}}
+2025-08-14 10:50:21 INFO: Most recent stock data: {'BMNR': {   'close': 60.285,
+    'high': 60.5,
+    'low': 60.25,
+    'open': 60.45,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1001.0,
+    'vwap': 60.342}}
+2025-08-14 10:50:21 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 10:50:21 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-14 10:51:21 INFO: {'BMNR': {   'close': 60.87,
+    'high': 61.0,
+    'low': 60.175,
+    'open': 60.185,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2556.0,
+    'vwap': 60.557571}}
+2025-08-14 10:51:21 INFO: Current resistance is: 60.142 and support is: 59.085
+2025-08-14 10:51:21 INFO: Current average volume is: 2771.4
+2025-08-14 10:51:21 INFO: The Current Close 60.87 is above the resistance...
+2025-08-14 10:51:21 INFO: Updated resistance to: 60.418 and support to: 59.055
+2025-08-14 10:52:22 INFO: {'BMNR': {   'close': 60.88,
+    'high': 60.93,
+    'low': 60.7,
+    'open': 60.7,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1584.0,
+    'vwap': 60.864444}}
+2025-08-14 10:52:22 INFO: Current resistance is: 60.418 and support is: 59.055
+2025-08-14 10:52:22 INFO: Current average volume is: 2718.6
+2025-08-14 10:52:22 INFO: The current close: 60.88 is above the resistance of 60.418, but volume isn't enough...
+2025-08-14 10:52:22 INFO: Updated resistance to: 60.601 and support to: 59.159
+2025-08-14 10:53:22 INFO: {'BMNR': {   'close': 61.31,
+    'high': 61.39,
+    'low': 60.96,
+    'open': 60.96,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1497.0,
+    'vwap': 61.218182}}
+2025-08-14 10:53:22 INFO: Current resistance is: 60.601 and support is: 59.159
+2025-08-14 10:53:22 INFO: Current average volume is: 2284.6
+2025-08-14 10:53:22 INFO: The current close: 61.31 is above the resistance of 60.601, but volume isn't enough...
+2025-08-14 10:53:22 INFO: Updated resistance to: 60.93 and support to: 59.311
+2025-08-14 10:54:22 INFO: {'BMNR': {   'close': 61.58,
+    'high': 61.595,
+    'low': 61.34,
+    'open': 61.34,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1157.0,
+    'vwap': 61.49125}}
+2025-08-14 10:54:22 INFO: Current resistance is: 60.93 and support is: 59.311
+2025-08-14 10:54:22 INFO: Current average volume is: 1942.7
+2025-08-14 10:54:22 INFO: The current close: 61.58 is above the resistance of 60.93, but volume isn't enough...
+2025-08-14 10:54:22 INFO: Updated resistance to: 61.261 and support to: 59.526
+2025-08-14 10:55:22 INFO: {'BMNR': {   'close': 61.6,
+    'high': 61.82,
+    'low': 61.6,
+    'open': 61.67,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 3055.0,
+    'vwap': 61.763261}}
+2025-08-14 10:55:22 INFO: Current resistance is: 61.261 and support is: 59.526
+2025-08-14 10:55:22 INFO: Current average volume is: 1951.2
+2025-08-14 10:55:22 INFO: The current close: 61.6 is above the resistance of 61.261, but volume isn't enough...
+2025-08-14 10:55:22 INFO: Updated resistance to: 61.814 and support to: 59.765
+2025-08-14 10:56:23 INFO: {'BMNR': {   'close': 61.555,
+    'high': 61.83,
+    'low': 61.5,
+    'open': 61.7,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 56.0,
+    'volume': 5842.0,
+    'vwap': 61.641947}}
+2025-08-14 10:56:23 INFO: Current resistance is: 61.814 and support is: 59.765
+2025-08-14 10:56:23 INFO: Current average volume is: 2167.2
+2025-08-14 10:56:23 INFO: Updated resistance to: 61.84 and support to: 59.944
+2025-08-14 10:57:23 INFO: {'BMNR': {   'close': 61.22,
+    'high': 61.22,
+    'low': 61.22,
+    'open': 61.22,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 188.0,
+    'vwap': 61.22}}
+2025-08-14 10:57:23 INFO: Current resistance is: 61.84 and support is: 59.944
+2025-08-14 10:57:23 INFO: Current average volume is: 1880.4
+2025-08-14 10:57:23 INFO: Updated resistance to: 61.85 and support to: 60.034
+2025-08-14 10:59:23 INFO: {'BMNR': {   'close': 60.79,
+    'high': 61.38,
+    'low': 60.525,
+    'open': 61.38,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3937.0,
+    'vwap': 60.909028}}
+2025-08-14 10:59:23 INFO: Current resistance is: 61.85 and support is: 60.034
+2025-08-14 10:59:23 INFO: Current average volume is: 2173.6
+2025-08-14 10:59:23 INFO: Updated resistance to: 61.868 and support to: 59.967
+2025-08-14 11:00:23 INFO: {'BMNR': {   'close': 60.85,
+    'high': 60.96,
+    'low': 60.705,
+    'open': 60.715,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1450.0,
+    'vwap': 60.809605}}
+2025-08-14 11:00:23 INFO: Current resistance is: 61.868 and support is: 59.967
+2025-08-14 11:00:23 INFO: Current average volume is: 2226.7
+2025-08-14 11:00:23 INFO: Updated resistance to: 61.864 and support to: 59.945
+2025-08-14 11:01:23 INFO: {'BMNR': {   'close': 60.74,
+    'high': 60.92,
+    'low': 60.735,
+    'open': 60.89,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 995.0,
+    'vwap': 60.87}}
+2025-08-14 11:01:23 INFO: Current resistance is: 61.864 and support is: 59.945
+2025-08-14 11:01:23 INFO: Current average volume is: 2226.1
+2025-08-14 11:01:23 INFO: Updated resistance to: 61.853 and support to: 59.931
+2025-08-14 11:02:23 INFO: {'BMNR': {   'close': 61.23,
+    'high': 61.245,
+    'low': 60.74,
+    'open': 60.74,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1066.0,
+    'vwap': 61.09881}}
+2025-08-14 11:02:23 INFO: Current resistance is: 61.853 and support is: 59.931
+2025-08-14 11:02:23 INFO: Current average volume is: 2077.1
+2025-08-14 11:02:23 INFO: Updated resistance to: 61.864 and support to: 59.919
+2025-08-14 11:03:23 INFO: {'BMNR': {   'close': 61.005,
+    'high': 61.265,
+    'low': 60.94,
+    'open': 61.265,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 534.0,
+    'vwap': 61.067283}}
+2025-08-14 11:03:23 INFO: Current resistance is: 61.864 and support is: 59.919
+2025-08-14 11:03:23 INFO: Current average volume is: 1972.1
+2025-08-14 11:03:23 INFO: Updated resistance to: 61.875 and support to: 59.946
+2025-08-14 11:04:24 INFO: {'BMNR': {   'close': 61.21,
+    'high': 61.21,
+    'low': 61.21,
+    'open': 61.21,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 228.0,
+    'vwap': 61.21}}
+2025-08-14 11:04:24 INFO: Current resistance is: 61.875 and support is: 59.946
+2025-08-14 11:04:24 INFO: Current average volume is: 1845.2
+2025-08-14 11:04:24 INFO: Updated resistance to: 61.882 and support to: 60.017
+2025-08-14 11:05:24 INFO: {'BMNR': {   'close': 61.45,
+    'high': 61.53,
+    'low': 61.26,
+    'open': 61.315,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1596.0,
+    'vwap': 61.434266}}
+2025-08-14 11:05:24 INFO: Current resistance is: 61.882 and support is: 60.017
+2025-08-14 11:05:24 INFO: Current average volume is: 1889.1
+2025-08-14 11:05:24 INFO: Updated resistance to: 61.915 and support to: 60.086
+2025-08-14 11:06:24 INFO: {'BMNR': {   'close': 61.485,
+    'high': 61.55,
+    'low': 61.35,
+    'open': 61.42,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1564.0,
+    'vwap': 61.457554}}
+2025-08-14 11:06:24 INFO: Current resistance is: 61.915 and support is: 60.086
+2025-08-14 11:06:24 INFO: Current average volume is: 1740.0
+2025-08-14 11:06:24 INFO: Updated resistance to: 61.949 and support to: 60.162
+2025-08-14 11:07:24 INFO: {'BMNR': {   'close': 61.74,
+    'high': 61.78,
+    'low': 61.49,
+    'open': 61.59,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1759.0,
+    'vwap': 61.63}}
+2025-08-14 11:07:24 INFO: Current resistance is: 61.949 and support is: 60.162
+2025-08-14 11:07:24 INFO: Current average volume is: 1331.7
+2025-08-14 11:07:24 INFO: Updated resistance to: 62.0 and support to: 60.251
+2025-08-14 11:08:24 INFO: {'BMNR': {   'close': 61.785,
+    'high': 61.84,
+    'low': 61.63,
+    'open': 61.78,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 3422.0,
+    'vwap': 61.752315}}
+2025-08-14 11:08:24 INFO: Current resistance is: 62.0 and support is: 60.251
+2025-08-14 11:08:24 INFO: Current average volume is: 1655.1
+2025-08-14 11:08:24 INFO: Updated resistance to: 61.859 and support to: 60.35
+2025-08-14 11:09:24 INFO: {'BMNR': {   'close': 61.64,
+    'high': 61.715,
+    'low': 61.54,
+    'open': 61.71,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 848.0,
+    'vwap': 61.651455}}
+2025-08-14 11:09:24 INFO: Current resistance is: 61.859 and support is: 60.35
+2025-08-14 11:09:24 INFO: Current average volume is: 1346.2
+2025-08-14 11:09:24 INFO: Updated resistance to: 61.881 and support to: 60.423
+2025-08-14 11:11:24 INFO: {'BMNR': {   'close': 61.72,
+    'high': 61.825,
+    'low': 61.645,
+    'open': 61.755,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 5224.0,
+    'vwap': 61.78375}}
+2025-08-14 11:11:24 INFO: Current resistance is: 61.881 and support is: 60.423
+2025-08-14 11:11:24 INFO: Current average volume is: 1723.6
+2025-08-14 11:11:24 INFO: Updated resistance to: 61.907 and support to: 60.502
+2025-08-14 11:12:25 INFO: {'BMNR': {   'close': 61.795,
+    'high': 61.85,
+    'low': 61.585,
+    'open': 61.675,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 4988.0,
+    'vwap': 61.750951}}
+2025-08-14 11:12:25 INFO: Current resistance is: 61.907 and support is: 60.502
+2025-08-14 11:12:25 INFO: Current average volume is: 2122.9
+2025-08-14 11:12:25 INFO: Updated resistance to: 61.874 and support to: 60.563
+2025-08-14 11:13:25 INFO: {'BMNR': {   'close': 61.8,
+    'high': 61.82,
+    'low': 61.66,
+    'open': 61.795,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 3170.0,
+    'vwap': 61.787231}}
+2025-08-14 11:13:25 INFO: Current resistance is: 61.874 and support is: 60.563
+2025-08-14 11:13:25 INFO: Current average volume is: 2333.3
+2025-08-14 11:13:25 INFO: Updated resistance to: 61.9 and support to: 60.626
+2025-08-14 11:14:25 INFO: {'BMNR': {   'close': 61.46,
+    'high': 61.765,
+    'low': 61.46,
+    'open': 61.765,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 570.0,
+    'vwap': 61.673}}
+2025-08-14 11:14:25 INFO: Current resistance is: 61.9 and support is: 60.626
+2025-08-14 11:14:25 INFO: Current average volume is: 2336.9
+2025-08-14 11:14:25 INFO: Updated resistance to: 61.926 and support to: 60.653
+2025-08-14 11:15:25 INFO: {'BMNR': {   'close': 61.66,
+    'high': 61.67,
+    'low': 61.415,
+    'open': 61.415,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1600.0,
+    'vwap': 61.507813}}
+2025-08-14 11:15:25 INFO: Current resistance is: 61.926 and support is: 60.653
+2025-08-14 11:15:25 INFO: Current average volume is: 2474.1
+2025-08-14 11:15:25 INFO: Updated resistance to: 61.95 and support to: 60.669
+2025-08-14 11:16:25 INFO: {'BMNR': {   'close': 61.55,
+    'high': 61.775,
+    'low': 61.55,
+    'open': 61.605,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 534.0,
+    'vwap': 61.66625}}
+2025-08-14 11:16:25 INFO: Current resistance is: 61.95 and support is: 60.669
+2025-08-14 11:16:25 INFO: Current average volume is: 2367.9
+2025-08-14 11:16:25 INFO: Updated resistance to: 61.975 and support to: 60.701
+2025-08-14 11:17:25 INFO: {'BMNR': {   'close': 61.46,
+    'high': 61.525,
+    'low': 61.335,
+    'open': 61.485,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1139.0,
+    'vwap': 61.435}}
+2025-08-14 11:17:25 INFO: Current resistance is: 61.975 and support is: 60.701
+2025-08-14 11:17:25 INFO: Current average volume is: 2325.4
+2025-08-14 11:17:25 INFO: Updated resistance to: 61.994 and support to: 60.699
+2025-08-14 11:18:25 INFO: {'BMNR': {   'close': 61.07,
+    'high': 61.395,
+    'low': 60.97,
+    'open': 61.395,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1870.0,
+    'vwap': 61.234667}}
+2025-08-14 11:18:25 INFO: Current resistance is: 61.994 and support is: 60.699
+2025-08-14 11:18:25 INFO: Current average volume is: 2336.5
+2025-08-14 11:18:25 INFO: Updated resistance to: 62.006 and support to: 60.649
+2025-08-14 11:19:25 INFO: {'BMNR': {   'close': 60.95,
+    'high': 60.95,
+    'low': 60.85,
+    'open': 60.93,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1665.0,
+    'vwap': 60.883103}}
+2025-08-14 11:19:25 INFO: Current resistance is: 62.006 and support is: 60.649
+2025-08-14 11:19:25 INFO: Current average volume is: 2160.8
+2025-08-14 11:19:25 INFO: Updated resistance to: 62.003 and support to: 60.586
+2025-08-14 11:20:25 INFO: {'BMNR': {   'close': 60.8,
+    'high': 61.045,
+    'low': 60.745,
+    'open': 60.92,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1214.0,
+    'vwap': 60.898273}}
+2025-08-14 11:20:25 INFO: Current resistance is: 62.003 and support is: 60.586
+2025-08-14 11:20:25 INFO: Current average volume is: 2197.4
+2025-08-14 11:20:25 INFO: Updated resistance to: 62.0 and support to: 60.515
+2025-08-14 11:21:26 INFO: {'BMNR': {   'close': 60.255,
+    'high': 60.67,
+    'low': 60.15,
+    'open': 60.655,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2901.0,
+    'vwap': 60.307491}}
+2025-08-14 11:21:26 INFO: Current resistance is: 62.0 and support is: 60.515
+2025-08-14 11:21:26 INFO: Current average volume is: 1965.1
+2025-08-14 11:21:26 INFO: close price: 60.255 just dropped below support of 60.515...
+2025-08-14 11:22:26 INFO: {'BMNR': {   'close': 60.17,
+    'high': 60.26,
+    'low': 60.095,
+    'open': 60.23,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 2005.0,
+    'vwap': 60.177269}}
+2025-08-14 11:22:26 INFO: Current resistance is: 62.0 and support is: 60.515
+2025-08-14 11:22:26 INFO: Current average volume is: 1666.8
+2025-08-14 11:22:26 INFO: Closing price: 60.17 just dropped below support 60.515 again...ending trade...
+2025-08-14 12:55:40 INFO: === Strategy started ===
+2025-08-14 12:55:40 INFO: Start collecting the current highs/lows for: BMNR
+2025-08-14 12:55:40 INFO: Most recent stock data: {'BMNR': {   'close': 60.125,
+    'high': 60.155,
+    'low': 60.06,
+    'open': 60.155,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1106.0,
+    'vwap': 60.103507}}
+2025-08-14 12:56:41 INFO: Most recent stock data: {'BMNR': {   'close': 60.25,
+    'high': 60.26,
+    'low': 60.125,
+    'open': 60.125,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 969.0,
+    'vwap': 60.175625}}
+2025-08-14 12:57:41 INFO: Most recent stock data: {'BMNR': {   'close': 60.165,
+    'high': 60.5,
+    'low': 60.165,
+    'open': 60.4,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3241.0,
+    'vwap': 60.441005}}
+2025-08-14 12:58:41 INFO: Most recent stock data: {'BMNR': {   'close': 60.14,
+    'high': 60.15,
+    'low': 60.085,
+    'open': 60.135,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1092.0,
+    'vwap': 60.13026}}
+2025-08-14 12:59:41 INFO: Most recent stock data: {'BMNR': {   'close': 60.13,
+    'high': 60.21,
+    'low': 60.065,
+    'open': 60.21,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1023.0,
+    'vwap': 60.155205}}
+2025-08-14 13:00:41 INFO: Most recent stock data: {'BMNR': {   'close': 60.405,
+    'high': 60.41,
+    'low': 60.16,
+    'open': 60.16,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 975.0,
+    'vwap': 60.297222}}
+2025-08-14 13:01:41 INFO: Most recent stock data: {'BMNR': {   'close': 60.18,
+    'high': 60.46,
+    'low': 60.06,
+    'open': 60.43,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2286.0,
+    'vwap': 60.304773}}
+2025-08-14 13:02:41 INFO: Most recent stock data: {'BMNR': {   'close': 60.125,
+    'high': 60.205,
+    'low': 60.125,
+    'open': 60.205,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 452.0,
+    'vwap': 60.151667}}
+2025-08-14 13:03:41 INFO: Most recent stock data: {'BMNR': {   'close': 59.9,
+    'high': 60.15,
+    'low': 59.9,
+    'open': 60.15,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 843.0,
+    'vwap': 60.016667}}
+2025-08-14 13:04:41 INFO: Most recent stock data: {'BMNR': {   'close': 59.94,
+    'high': 59.965,
+    'low': 59.93,
+    'open': 59.96,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1828.0,
+    'vwap': 59.94322}}
+2025-08-14 13:05:42 INFO: Most recent stock data: {'BMNR': {   'close': 59.995,
+    'high': 59.995,
+    'low': 59.87,
+    'open': 59.925,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1096.0,
+    'vwap': 59.946111}}
+2025-08-14 13:05:42 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 13:05:42 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 13:06:42 INFO: {'BMNR': {   'close': 59.91,
+    'high': 60.12,
+    'low': 59.91,
+    'open': 59.975,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 646.0,
+    'vwap': 60.0375}}
+2025-08-14 13:06:42 INFO: Current resistance is: 60.5 and support is: 59.87
+2025-08-14 13:06:42 INFO: Current average volume is: 1348.2
+2025-08-14 13:06:42 INFO: Updated resistance to: 60.5 and support to: 59.87
+2025-08-14 13:07:42 INFO: {'BMNR': {   'close': 60.07,
+    'high': 60.07,
+    'low': 59.88,
+    'open': 59.88,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1320.0,
+    'vwap': 59.960385}}
+2025-08-14 13:07:42 INFO: Current resistance is: 60.5 and support is: 59.87
+2025-08-14 13:07:42 INFO: Current average volume is: 1156.1
+2025-08-14 13:07:42 INFO: Updated resistance to: 60.5 and support to: 59.87
+2025-08-14 13:08:42 INFO: {'BMNR': {   'close': 59.655,
+    'high': 60.02,
+    'low': 59.64,
+    'open': 60.02,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2796.0,
+    'vwap': 59.820417}}
+2025-08-14 13:08:42 INFO: Current resistance is: 60.5 and support is: 59.87
+2025-08-14 13:08:42 INFO: Current average volume is: 1326.5
+2025-08-14 13:08:42 INFO: close price: 59.655 just dropped below support of 59.87...
+2025-08-14 13:09:42 INFO: {'BMNR': {   'close': 59.87,
+    'high': 59.87,
+    'low': 59.635,
+    'open': 59.635,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1870.0,
+    'vwap': 59.726875}}
+2025-08-14 13:09:42 INFO: Current resistance is: 60.5 and support is: 59.87
+2025-08-14 13:09:42 INFO: Current average volume is: 1411.2
+2025-08-14 13:10:42 INFO: {'BMNR': {   'close': 59.88,
+    'high': 59.935,
+    'low': 59.85,
+    'open': 59.87,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1056.0,
+    'vwap': 59.889444}}
+2025-08-14 13:10:42 INFO: Current resistance is: 60.5 and support is: 59.87
+2025-08-14 13:10:42 INFO: Current average volume is: 1419.3
+2025-08-14 13:10:42 INFO: Updated resistance to: 60.5 and support to: 59.85
+2025-08-14 13:10:42 INFO: The engulfing candle pattern check is: 0. The Hammer candle pattern check is 0
+2025-08-14 13:11:42 INFO: {'BMNR': {   'close': 59.97,
+    'high': 60.015,
+    'low': 59.965,
+    'open': 59.965,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 918.0,
+    'vwap': 59.991667}}
+2025-08-14 13:11:42 INFO: Current resistance is: 60.5 and support is: 59.85
+2025-08-14 13:11:42 INFO: Current average volume is: 1282.5
+2025-08-14 13:11:42 INFO: Updated resistance to: 60.5 and support to: 59.85
+2025-08-14 13:12:42 INFO: {'BMNR': {   'close': 59.975,
+    'high': 60.02,
+    'low': 59.95,
+    'open': 59.955,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2564.0,
+    'vwap': 59.969778}}
+2025-08-14 13:12:42 INFO: Current resistance is: 60.5 and support is: 59.85
+2025-08-14 13:12:42 INFO: Current average volume is: 1493.7
+2025-08-14 13:12:42 INFO: Updated resistance to: 60.5 and support to: 59.85
+2025-08-14 13:13:43 INFO: {'BMNR': {   'close': 59.935,
+    'high': 59.935,
+    'low': 59.81,
+    'open': 59.855,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1550.0,
+    'vwap': 59.8775}}
+2025-08-14 13:13:43 INFO: Current resistance is: 60.5 and support is: 59.85
+2025-08-14 13:13:43 INFO: Current average volume is: 1564.4
+2025-08-14 13:13:43 INFO: Updated resistance to: 60.5 and support to: 59.81
+2025-08-14 13:14:43 INFO: {'BMNR': {   'close': 59.87,
+    'high': 59.975,
+    'low': 59.78,
+    'open': 59.955,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1022.0,
+    'vwap': 59.88375}}
+2025-08-14 13:14:43 INFO: Current resistance is: 60.5 and support is: 59.81
+2025-08-14 13:14:43 INFO: Current average volume is: 1483.8
+2025-08-14 13:14:43 INFO: Updated resistance to: 60.5 and support to: 59.78
+2025-08-14 13:15:43 INFO: {'BMNR': {   'close': 60.265,
+    'high': 60.265,
+    'low': 59.875,
+    'open': 59.875,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1671.0,
+    'vwap': 60.085938}}
+2025-08-14 13:15:43 INFO: Current resistance is: 60.5 and support is: 59.78
+2025-08-14 13:15:43 INFO: Current average volume is: 1541.3
+2025-08-14 13:15:43 INFO: Updated resistance to: 60.5 and support to: 59.78
+2025-08-14 13:16:43 INFO: {'BMNR': {   'close': 60.135,
+    'high': 60.28,
+    'low': 60.085,
+    'open': 60.275,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1531.0,
+    'vwap': 60.18675}}
+2025-08-14 13:16:43 INFO: Current resistance is: 60.5 and support is: 59.78
+2025-08-14 13:16:43 INFO: Current average volume is: 1629.8
+2025-08-14 13:16:43 INFO: Updated resistance to: 60.5 and support to: 59.78
+2025-08-14 13:17:43 INFO: {'BMNR': {   'close': 60.285,
+    'high': 60.285,
+    'low': 60.05,
+    'open': 60.14,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1425.0,
+    'vwap': 60.182273}}
+2025-08-14 13:17:43 INFO: Current resistance is: 60.5 and support is: 59.78
+2025-08-14 13:17:43 INFO: Current average volume is: 1640.3
+2025-08-14 13:17:43 INFO: Updated resistance to: 60.5 and support to: 59.78
+2025-08-14 13:18:43 INFO: {'BMNR': {   'close': 60.28,
+    'high': 60.33,
+    'low': 60.245,
+    'open': 60.245,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1516.0,
+    'vwap': 60.291397}}
+2025-08-14 13:18:43 INFO: Current resistance is: 60.5 and support is: 59.78
+2025-08-14 13:18:43 INFO: Current average volume is: 1512.3
+2025-08-14 13:18:43 INFO: Updated resistance to: 60.5 and support to: 59.78
+2025-08-14 13:19:43 INFO: {'BMNR': {   'close': 59.865,
+    'high': 60.13,
+    'low': 59.775,
+    'open': 60.13,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 811.0,
+    'vwap': 59.860014}}
+2025-08-14 13:19:43 INFO: Current resistance is: 60.5 and support is: 59.78
+2025-08-14 13:19:43 INFO: Current average volume is: 1406.4
+2025-08-14 13:19:43 INFO: Updated resistance to: 60.5 and support to: 59.775
+2025-08-14 13:20:43 INFO: {'BMNR': {   'close': 59.76,
+    'high': 59.76,
+    'low': 59.76,
+    'open': 59.76,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 59.76}}
+2025-08-14 13:20:43 INFO: Current resistance is: 60.5 and support is: 59.775
+2025-08-14 13:20:43 INFO: Current average volume is: 1310.8
+2025-08-14 13:20:43 INFO: close price: 59.76 just dropped below support of 59.775...
+2025-08-14 13:21:44 INFO: {'BMNR': {   'close': 59.62,
+    'high': 59.83,
+    'low': 59.62,
+    'open': 59.69,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 501.0,
+    'vwap': 59.724}}
+2025-08-14 13:21:44 INFO: Current resistance is: 60.5 and support is: 59.775
+2025-08-14 13:21:44 INFO: Current average volume is: 1269.1
+2025-08-14 13:21:44 INFO: Closing price: 59.62 just dropped below support 59.775 again...ending trade...
+2025-08-14 13:25:43 INFO: === Strategy started ===
+2025-08-14 13:25:43 INFO: Start collecting the current highs/lows for: BMNR
+2025-08-14 13:25:43 INFO: Most recent stock data: {'BMNR': {   'close': 59.83,
+    'high': 59.95,
+    'low': 59.655,
+    'open': 59.95,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2484.0,
+    'vwap': 59.700359}}
+2025-08-14 13:26:43 INFO: Most recent stock data: {'BMNR': {   'close': 59.975,
+    'high': 59.975,
+    'low': 59.775,
+    'open': 59.87,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 734.0,
+    'vwap': 59.871429}}
+2025-08-14 13:27:43 INFO: Most recent stock data: {'BMNR': {   'close': 60.215,
+    'high': 60.215,
+    'low': 59.965,
+    'open': 59.965,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 3332.0,
+    'vwap': 60.118594}}
+2025-08-14 13:28:43 INFO: Most recent stock data: {'BMNR': {   'close': 60.155,
+    'high': 60.22,
+    'low': 60.07,
+    'open': 60.22,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1028.0,
+    'vwap': 60.121667}}
+2025-08-14 13:29:43 INFO: Most recent stock data: {'BMNR': {   'close': 60.56,
+    'high': 60.66,
+    'low': 60.075,
+    'open': 60.075,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 3189.0,
+    'vwap': 60.380233}}
+2025-08-14 13:30:44 INFO: Most recent stock data: {'BMNR': {   'close': 60.735,
+    'high': 60.735,
+    'low': 60.54,
+    'open': 60.57,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3900.0,
+    'vwap': 60.643485}}
+2025-08-14 13:31:44 INFO: Most recent stock data: {'BMNR': {   'close': 60.855,
+    'high': 61.03,
+    'low': 60.74,
+    'open': 60.74,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 3408.0,
+    'vwap': 60.885625}}
+2025-08-14 13:32:44 INFO: Most recent stock data: {'BMNR': {   'close': 60.84,
+    'high': 60.95,
+    'low': 60.825,
+    'open': 60.875,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 6605.0,
+    'vwap': 60.887837}}
+2025-08-14 13:33:44 INFO: Most recent stock data: {'BMNR': {   'close': 61.03,
+    'high': 61.03,
+    'low': 60.76,
+    'open': 60.76,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1360.0,
+    'vwap': 60.844366}}
+2025-08-14 13:34:44 INFO: Most recent stock data: {'BMNR': {   'close': 61.09,
+    'high': 61.09,
+    'low': 60.68,
+    'open': 60.835,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2089.0,
+    'vwap': 60.790689}}
+2025-08-14 13:35:44 INFO: Most recent stock data: {'BMNR': {   'close': 61.08,
+    'high': 61.315,
+    'low': 61.04,
+    'open': 61.04,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 4364.0,
+    'vwap': 61.141972}}
+2025-08-14 13:35:44 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 13:35:44 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-14 13:36:44 INFO: {'BMNR': {   'close': 61.165,
+    'high': 61.18,
+    'low': 61.075,
+    'open': 61.13,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2101.0,
+    'vwap': 61.12619}}
+2025-08-14 13:36:44 INFO: Current resistance is: 61.456 and support is: 61.166
+2025-08-14 13:36:44 INFO: Current average volume is: 3137.6
+2025-08-14 13:36:44 INFO: close price: 61.165 just dropped below support of 61.166...
+2025-08-14 13:37:44 INFO: {'BMNR': {   'close': 60.99,
+    'high': 61.015,
+    'low': 60.85,
+    'open': 60.93,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2086.0,
+    'vwap': 60.936053}}
+2025-08-14 13:37:44 INFO: Current resistance is: 61.456 and support is: 61.166
+2025-08-14 13:37:44 INFO: Current average volume is: 3013.0
+2025-08-14 13:37:44 INFO: Closing price: 60.99 just dropped below support 61.166 again...ending trade...

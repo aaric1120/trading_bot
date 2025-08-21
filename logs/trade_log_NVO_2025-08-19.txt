@@ -1,0 +1,442 @@
+2025-08-19 09:55:14 INFO: === Strategy started ===
+2025-08-19 09:55:14 INFO: Start collecting the current highs/lows for: NVO
+2025-08-19 09:55:14 INFO: Most recent stock data: {'NVO': {   'close': 54.91,
+    'high': 54.91,
+    'low': 54.84,
+    'open': 54.895,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 61.0,
+    'volume': 2320.0,
+    'vwap': 54.888235}}
+2025-08-19 09:56:15 INFO: Most recent stock data: {'NVO': {   'close': 54.82,
+    'high': 54.905,
+    'low': 54.81,
+    'open': 54.905,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 54.0,
+    'volume': 2246.0,
+    'vwap': 54.850316}}
+2025-08-19 09:57:15 INFO: Most recent stock data: {'NVO': {   'close': 54.77,
+    'high': 54.83,
+    'low': 54.77,
+    'open': 54.83,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1048.0,
+    'vwap': 54.796837}}
+2025-08-19 09:58:15 INFO: Most recent stock data: {'NVO': {   'close': 54.74,
+    'high': 54.785,
+    'low': 54.705,
+    'open': 54.785,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 2387.0,
+    'vwap': 54.737958}}
+2025-08-19 09:59:16 INFO: Most recent stock data: {'NVO': {   'close': 54.675,
+    'high': 54.72,
+    'low': 54.675,
+    'open': 54.69,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 2700.0,
+    'vwap': 54.701782}}
+2025-08-19 10:00:16 INFO: Most recent stock data: {'NVO': {   'close': 54.725,
+    'high': 54.725,
+    'low': 54.665,
+    'open': 54.68,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1129.0,
+    'vwap': 54.694}}
+2025-08-19 10:01:16 INFO: Most recent stock data: {'NVO': {   'close': 54.69,
+    'high': 54.78,
+    'low': 54.69,
+    'open': 54.71,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 1803.0,
+    'vwap': 54.743571}}
+2025-08-19 10:02:16 INFO: Most recent stock data: {'NVO': {   'close': 54.695,
+    'high': 54.745,
+    'low': 54.67,
+    'open': 54.73,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 1670.0,
+    'vwap': 54.705}}
+2025-08-19 10:03:16 INFO: Most recent stock data: {'NVO': {   'close': 54.75,
+    'high': 54.795,
+    'low': 54.735,
+    'open': 54.77,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1660.0,
+    'vwap': 54.764545}}
+2025-08-19 10:04:16 INFO: Most recent stock data: {'NVO': {   'close': 54.73,
+    'high': 54.77,
+    'low': 54.72,
+    'open': 54.76,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 3445.0,
+    'vwap': 54.744615}}
+2025-08-19 10:05:16 INFO: Most recent stock data: {'NVO': {   'close': 54.74,
+    'high': 54.75,
+    'low': 54.69,
+    'open': 54.69,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1818.0,
+    'vwap': 54.723889}}
+2025-08-19 10:05:16 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 10:05:16 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 10:06:17 INFO: {'NVO': {   'close': 54.75,
+    'high': 54.78,
+    'low': 54.715,
+    'open': 54.75,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1384.0,
+    'vwap': 54.755909}}
+2025-08-19 10:06:17 INFO: Current resistance is: 54.91 and support is: 54.665
+2025-08-19 10:06:17 INFO: Current average volume is: 1904.4
+2025-08-19 10:06:17 INFO: Updated resistance to: 54.91 and support to: 54.665
+2025-08-19 10:07:17 INFO: {'NVO': {   'close': 54.72,
+    'high': 54.76,
+    'low': 54.71,
+    'open': 54.76,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2101.0,
+    'vwap': 54.722667}}
+2025-08-19 10:07:17 INFO: Current resistance is: 54.91 and support is: 54.665
+2025-08-19 10:07:17 INFO: Current average volume is: 2009.7
+2025-08-19 10:07:17 INFO: Updated resistance to: 54.91 and support to: 54.665
+2025-08-19 10:08:17 INFO: {'NVO': {   'close': 54.825,
+    'high': 54.83,
+    'low': 54.735,
+    'open': 54.735,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1018.0,
+    'vwap': 54.795625}}
+2025-08-19 10:08:17 INFO: Current resistance is: 54.91 and support is: 54.665
+2025-08-19 10:08:17 INFO: Current average volume is: 1872.8
+2025-08-19 10:08:17 INFO: Updated resistance to: 54.91 and support to: 54.665
+2025-08-19 10:09:17 INFO: {'NVO': {   'close': 54.865,
+    'high': 54.9,
+    'low': 54.86,
+    'open': 54.865,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1024.0,
+    'vwap': 54.871}}
+2025-08-19 10:09:17 INFO: Current resistance is: 54.91 and support is: 54.665
+2025-08-19 10:09:17 INFO: Current average volume is: 1705.2
+2025-08-19 10:09:17 INFO: Updated resistance to: 54.91 and support to: 54.665
+2025-08-19 10:12:17 INFO: {'NVO': {   'close': 54.95,
+    'high': 54.95,
+    'low': 54.92,
+    'open': 54.92,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 904.0,
+    'vwap': 54.932}}
+2025-08-19 10:12:17 INFO: Current resistance is: 54.91 and support is: 54.665
+2025-08-19 10:12:17 INFO: Current average volume is: 1682.7
+2025-08-19 10:12:17 INFO: The Current Close 54.95 is above the resistance...
+2025-08-19 10:12:17 INFO: Updated resistance to: 54.95 and support to: 54.665
+2025-08-19 10:14:18 INFO: {'NVO': {   'close': 54.94,
+    'high': 54.96,
+    'low': 54.905,
+    'open': 54.905,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2105.0,
+    'vwap': 54.943974}}
+2025-08-19 10:14:18 INFO: Current resistance is: 54.95 and support is: 54.665
+2025-08-19 10:14:18 INFO: Current average volume is: 1712.9
+2025-08-19 10:14:18 INFO: Updated resistance to: 54.96 and support to: 54.665
+2025-08-19 10:15:18 INFO: {'NVO': {   'close': 54.93,
+    'high': 54.97,
+    'low': 54.92,
+    'open': 54.95,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1950.0,
+    'vwap': 54.94247}}
+2025-08-19 10:15:18 INFO: Current resistance is: 54.96 and support is: 54.665
+2025-08-19 10:15:18 INFO: Current average volume is: 1740.9
+2025-08-19 10:15:18 INFO: Updated resistance to: 54.97 and support to: 54.665
+2025-08-19 10:18:18 INFO: {'NVO': {   'close': 54.91,
+    'high': 54.93,
+    'low': 54.905,
+    'open': 54.925,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2307.0,
+    'vwap': 54.914271}}
+2025-08-19 10:18:18 INFO: Current resistance is: 54.97 and support is: 54.665
+2025-08-19 10:18:18 INFO: Current average volume is: 1805.6
+2025-08-19 10:18:18 INFO: Updated resistance to: 54.97 and support to: 54.665
+2025-08-19 10:19:18 INFO: {'NVO': {   'close': 54.905,
+    'high': 54.92,
+    'low': 54.9,
+    'open': 54.92,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 610.0,
+    'vwap': 54.904167}}
+2025-08-19 10:19:18 INFO: Current resistance is: 54.97 and support is: 54.665
+2025-08-19 10:19:18 INFO: Current average volume is: 1522.1
+2025-08-19 10:19:18 INFO: Updated resistance to: 54.97 and support to: 54.665
+2025-08-19 10:21:19 INFO: {'NVO': {   'close': 55.02,
+    'high': 55.02,
+    'low': 54.93,
+    'open': 54.93,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1802.0,
+    'vwap': 54.986435}}
+2025-08-19 10:21:19 INFO: Current resistance is: 54.97 and support is: 54.665
+2025-08-19 10:21:19 INFO: Current average volume is: 1520.5
+2025-08-19 10:21:19 INFO: The Current Close 55.02 is above the resistance...
+2025-08-19 10:21:19 INFO: Updated resistance to: 55.02 and support to: 54.665
+2025-08-19 10:22:19 INFO: {'NVO': {   'close': 55.04,
+    'high': 55.085,
+    'low': 55.04,
+    'open': 55.04,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 2081.0,
+    'vwap': 55.061709}}
+2025-08-19 10:22:19 INFO: Current resistance is: 55.02 and support is: 54.665
+2025-08-19 10:22:19 INFO: Current average volume is: 1590.2
+2025-08-19 10:22:19 INFO: The current close: 55.04 is above the resistance of 55.02, but volume isn't enough...
+2025-08-19 10:22:19 INFO: Updated resistance to: 55.085 and support to: 54.665
+2025-08-19 10:25:20 INFO: {'NVO': {   'close': 54.96,
+    'high': 55.125,
+    'low': 54.96,
+    'open': 55.12,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2861.0,
+    'vwap': 55.06025}}
+2025-08-19 10:25:20 INFO: Current resistance is: 55.085 and support is: 54.665
+2025-08-19 10:25:20 INFO: Current average volume is: 1666.2
+2025-08-19 10:25:20 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:26:20 INFO: {'NVO': {   'close': 54.98,
+    'high': 54.98,
+    'low': 54.94,
+    'open': 54.96,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1501.0,
+    'vwap': 54.953636}}
+2025-08-19 10:26:20 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:26:20 INFO: Current average volume is: 1714.5
+2025-08-19 10:26:20 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:28:20 INFO: {'NVO': {   'close': 55.03,
+    'high': 55.03,
+    'low': 55.03,
+    'open': 55.03,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 206.0,
+    'vwap': 55.03}}
+2025-08-19 10:28:20 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:28:20 INFO: Current average volume is: 1632.7
+2025-08-19 10:28:20 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:30:20 INFO: {'NVO': {   'close': 54.985,
+    'high': 54.995,
+    'low': 54.98,
+    'open': 54.98,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1122.0,
+    'vwap': 54.987143}}
+2025-08-19 10:30:20 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:30:20 INFO: Current average volume is: 1654.5
+2025-08-19 10:30:20 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:31:20 INFO: {'NVO': {   'close': 54.96,
+    'high': 55.025,
+    'low': 54.96,
+    'open': 54.995,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2974.0,
+    'vwap': 54.991517}}
+2025-08-19 10:31:20 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:31:20 INFO: Current average volume is: 1741.4
+2025-08-19 10:31:20 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:32:20 INFO: {'NVO': {   'close': 54.975,
+    'high': 54.975,
+    'low': 54.92,
+    'open': 54.92,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 413.0,
+    'vwap': 54.9475}}
+2025-08-19 10:32:20 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:32:20 INFO: Current average volume is: 1587.7
+2025-08-19 10:32:20 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:33:21 INFO: {'NVO': {   'close': 54.93,
+    'high': 54.97,
+    'low': 54.89,
+    'open': 54.965,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1780.0,
+    'vwap': 54.935}}
+2025-08-19 10:33:21 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:33:21 INFO: Current average volume is: 1535.0
+2025-08-19 10:33:21 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:34:21 INFO: {'NVO': {   'close': 54.935,
+    'high': 54.935,
+    'low': 54.91,
+    'open': 54.925,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1150.0,
+    'vwap': 54.920402}}
+2025-08-19 10:34:21 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:34:21 INFO: Current average volume is: 1589.0
+2025-08-19 10:34:21 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:35:21 INFO: {'NVO': {   'close': 54.97,
+    'high': 54.97,
+    'low': 54.93,
+    'open': 54.93,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1096.0,
+    'vwap': 54.9465}}
+2025-08-19 10:35:21 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:35:21 INFO: Current average volume is: 1518.4
+2025-08-19 10:35:21 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:36:21 INFO: {'NVO': {   'close': 55.0,
+    'high': 55.0,
+    'low': 54.97,
+    'open': 54.98,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 968.0,
+    'vwap': 54.982222}}
+2025-08-19 10:36:21 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:36:21 INFO: Current average volume is: 1407.1
+2025-08-19 10:36:21 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:38:21 INFO: {'NVO': {   'close': 54.94,
+    'high': 54.99,
+    'low': 54.94,
+    'open': 54.99,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 758.0,
+    'vwap': 54.966}}
+2025-08-19 10:38:21 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:38:21 INFO: Current average volume is: 1196.8
+2025-08-19 10:38:21 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:39:21 INFO: {'NVO': {   'close': 54.88,
+    'high': 54.96,
+    'low': 54.88,
+    'open': 54.96,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1213.0,
+    'vwap': 54.908}}
+2025-08-19 10:39:21 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:39:21 INFO: Current average volume is: 1168.0
+2025-08-19 10:39:21 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:40:21 INFO: {'NVO': {   'close': 54.765,
+    'high': 54.83,
+    'low': 54.765,
+    'open': 54.83,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2494.0,
+    'vwap': 54.804146}}
+2025-08-19 10:40:21 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:40:21 INFO: Current average volume is: 1396.8
+2025-08-19 10:40:21 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:41:22 INFO: {'NVO': {   'close': 54.69,
+    'high': 54.745,
+    'low': 54.665,
+    'open': 54.745,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 2881.0,
+    'vwap': 54.714469}}
+2025-08-19 10:41:22 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:41:22 INFO: Current average volume is: 1572.7
+2025-08-19 10:41:22 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:42:22 INFO: {'NVO': {   'close': 54.73,
+    'high': 54.73,
+    'low': 54.7,
+    'open': 54.7,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1217.0,
+    'vwap': 54.713797}}
+2025-08-19 10:42:22 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:42:22 INFO: Current average volume is: 1397.0
+2025-08-19 10:42:22 INFO: Updated resistance to: 55.125 and support to: 54.665
+2025-08-19 10:43:22 INFO: {'NVO': {   'close': 54.615,
+    'high': 54.765,
+    'low': 54.615,
+    'open': 54.74,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2952.0,
+    'vwap': 54.711033}}
+2025-08-19 10:43:22 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:43:22 INFO: Current average volume is: 1650.9
+2025-08-19 10:43:22 INFO: close price: 54.615 just dropped below support of 54.665...
+2025-08-19 10:44:22 INFO: {'NVO': {   'close': 54.53,
+    'high': 54.6,
+    'low': 54.53,
+    'open': 54.6,
+    'symbol': 'NVO',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1124.0,
+    'vwap': 54.57}}
+2025-08-19 10:44:22 INFO: Current resistance is: 55.125 and support is: 54.665
+2025-08-19 10:44:22 INFO: Current average volume is: 1585.3
+2025-08-19 10:44:22 INFO: Closing price: 54.53 just dropped below support 54.665 again...ending trade...

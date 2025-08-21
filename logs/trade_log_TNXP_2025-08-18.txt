@@ -1,0 +1,751 @@
+2025-08-18 10:15:52 INFO: === Strategy started ===
+2025-08-18 10:15:52 INFO: Start collecting the current highs/lows for: TNXP
+2025-08-18 10:15:52 INFO: Most recent stock data: {'TNXP': {   'close': 43.92,
+    'high': 43.92,
+    'low': 43.92,
+    'open': 43.92,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 111.0,
+    'vwap': 43.92}}
+2025-08-18 10:16:54 INFO: Most recent stock data: {'TNXP': {   'close': 44.085,
+    'high': 44.31,
+    'low': 44.085,
+    'open': 44.31,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 331.0,
+    'vwap': 44.155313}}
+2025-08-18 10:19:54 INFO: Most recent stock data: {'TNXP': {   'close': 43.7,
+    'high': 43.7,
+    'low': 43.7,
+    'open': 43.7,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 510.0,
+    'vwap': 43.7}}
+2025-08-18 10:21:54 INFO: Most recent stock data: {'TNXP': {   'close': 43.52,
+    'high': 43.52,
+    'low': 43.52,
+    'open': 43.52,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 43.52}}
+2025-08-18 10:22:54 INFO: Most recent stock data: {'TNXP': {   'close': 43.39,
+    'high': 43.39,
+    'low': 43.39,
+    'open': 43.39,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 260.0,
+    'vwap': 43.39}}
+2025-08-18 10:23:54 INFO: Most recent stock data: {'TNXP': {   'close': 43.105,
+    'high': 43.405,
+    'low': 43.105,
+    'open': 43.405,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 557.0,
+    'vwap': 43.2677}}
+2025-08-18 10:24:55 INFO: Most recent stock data: {'TNXP': {   'close': 43.2,
+    'high': 43.2,
+    'low': 43.2,
+    'open': 43.2,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 250.0,
+    'vwap': 43.2}}
+2025-08-18 10:25:55 INFO: Most recent stock data: {'TNXP': {   'close': 44.09,
+    'high': 44.09,
+    'low': 43.99,
+    'open': 43.99,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 824.0,
+    'vwap': 44.071429}}
+2025-08-18 10:26:55 INFO: Most recent stock data: {'TNXP': {   'close': 43.995,
+    'high': 43.995,
+    'low': 43.92,
+    'open': 43.92,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 710.0,
+    'vwap': 43.973571}}
+2025-08-18 10:27:55 INFO: Most recent stock data: {'TNXP': {   'close': 44.12,
+    'high': 44.12,
+    'low': 44.08,
+    'open': 44.085,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 462.0,
+    'vwap': 44.0925}}
+2025-08-18 10:28:55 INFO: Most recent stock data: {'TNXP': {   'close': 44.105,
+    'high': 44.185,
+    'low': 44.105,
+    'open': 44.12,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1338.0,
+    'vwap': 44.166156}}
+2025-08-18 10:28:55 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-18 10:28:55 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-18 10:29:55 INFO: {'TNXP': {   'close': 44.56,
+    'high': 44.56,
+    'low': 44.56,
+    'open': 44.56,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 155.0,
+    'vwap': 44.56}}
+2025-08-18 10:29:55 INFO: Current resistance is: 44.31 and support is: 43.105
+2025-08-18 10:29:55 INFO: Current average volume is: 516.6
+2025-08-18 10:29:55 INFO: The Current Close 44.56 is above the resistance...
+2025-08-18 10:29:55 INFO: Updated resistance to: 44.56 and support to: 43.105
+2025-08-18 10:30:25 INFO: {'TNXP': {   'close': 44.35,
+    'high': 44.46,
+    'low': 44.35,
+    'open': 44.46,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 242.0,
+    'vwap': 44.405}}
+2025-08-18 10:30:25 INFO: Current resistance is: 44.56 and support is: 43.105
+2025-08-18 10:30:25 INFO: Current average volume is: 489.8
+2025-08-18 10:30:25 INFO: Updated resistance to: 44.56 and support to: 43.105
+2025-08-18 10:31:26 INFO: {'TNXP': {   'close': 43.89,
+    'high': 43.89,
+    'low': 43.89,
+    'open': 43.89,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 120.0,
+    'vwap': 43.89}}
+2025-08-18 10:31:26 INFO: Current resistance is: 44.56 and support is: 43.105
+2025-08-18 10:31:26 INFO: Current average volume is: 491.8
+2025-08-18 10:31:26 INFO: Updated resistance to: 44.56 and support to: 43.105
+2025-08-18 10:32:26 INFO: {'TNXP': {   'close': 43.8,
+    'high': 43.8,
+    'low': 43.8,
+    'open': 43.8,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 220.0,
+    'vwap': 43.8}}
+2025-08-18 10:32:26 INFO: Current resistance is: 44.56 and support is: 43.105
+2025-08-18 10:32:26 INFO: Current average volume is: 487.8
+2025-08-18 10:32:26 INFO: Updated resistance to: 44.56 and support to: 43.105
+2025-08-18 10:33:26 INFO: {'TNXP': {   'close': 43.885,
+    'high': 44.0,
+    'low': 43.885,
+    'open': 44.0,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 322.0,
+    'vwap': 43.923333}}
+2025-08-18 10:33:26 INFO: Current resistance is: 44.56 and support is: 43.105
+2025-08-18 10:33:26 INFO: Current average volume is: 464.3
+2025-08-18 10:33:26 INFO: Updated resistance to: 44.56 and support to: 43.105
+2025-08-18 10:34:26 INFO: {'TNXP': {   'close': 44.1,
+    'high': 44.1,
+    'low': 44.1,
+    'open': 44.1,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 353.0,
+    'vwap': 44.1}}
+2025-08-18 10:34:26 INFO: Current resistance is: 44.56 and support is: 43.105
+2025-08-18 10:34:26 INFO: Current average volume is: 474.6
+2025-08-18 10:34:26 INFO: Updated resistance to: 44.56 and support to: 43.105
+2025-08-18 10:35:26 INFO: {'TNXP': {   'close': 43.72,
+    'high': 43.72,
+    'low': 43.72,
+    'open': 43.72,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 194.0,
+    'vwap': 43.72}}
+2025-08-18 10:35:26 INFO: Current resistance is: 44.56 and support is: 43.105
+2025-08-18 10:35:26 INFO: Current average volume is: 411.6
+2025-08-18 10:35:26 INFO: Updated resistance to: 44.56 and support to: 43.105
+2025-08-18 10:37:26 INFO: {'TNXP': {   'close': 42.64,
+    'high': 42.735,
+    'low': 42.64,
+    'open': 42.735,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 249.0,
+    'vwap': 42.6875}}
+2025-08-18 10:37:26 INFO: Current resistance is: 44.56 and support is: 43.105
+2025-08-18 10:37:26 INFO: Current average volume is: 365.5
+2025-08-18 10:37:26 INFO: close price: 42.64 just dropped below support of 43.105...
+2025-08-18 10:39:27 INFO: {'TNXP': {   'close': 42.95,
+    'high': 42.95,
+    'low': 42.89,
+    'open': 42.95,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 485.0,
+    'vwap': 42.937629}}
+2025-08-18 10:39:27 INFO: Current resistance is: 44.56 and support is: 43.105
+2025-08-18 10:39:27 INFO: Current average volume is: 367.8
+2025-08-18 10:39:27 INFO: Closing price: 42.95 just dropped below support 43.105 again...ending trade...
+2025-08-18 10:45:47 INFO: === Strategy started ===
+2025-08-18 10:45:47 INFO: Start collecting the current highs/lows for: TNXP
+2025-08-18 10:45:47 INFO: Most recent stock data: {'TNXP': {   'close': 42.795,
+    'high': 42.795,
+    'low': 42.795,
+    'open': 42.795,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 260.0,
+    'vwap': 42.795}}
+2025-08-18 10:46:47 INFO: Most recent stock data: {'TNXP': {   'close': 42.43,
+    'high': 42.43,
+    'low': 42.43,
+    'open': 42.43,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 199.0,
+    'vwap': 42.43}}
+2025-08-18 10:49:48 INFO: Most recent stock data: {'TNXP': {   'close': 42.14,
+    'high': 42.14,
+    'low': 42.14,
+    'open': 42.14,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 42.14}}
+2025-08-18 10:52:48 INFO: Most recent stock data: {'TNXP': {   'close': 42.07,
+    'high': 42.07,
+    'low': 42.07,
+    'open': 42.07,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.07}}
+2025-08-18 10:58:49 INFO: Most recent stock data: {'TNXP': {   'close': 42.49,
+    'high': 42.49,
+    'low': 42.49,
+    'open': 42.49,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.49}}
+2025-08-18 12:00:53 INFO: === Strategy started ===
+2025-08-18 12:00:53 INFO: Start collecting the current highs/lows for: TNXP
+2025-08-18 12:00:53 INFO: Most recent stock data: {'TNXP': {   'close': 41.075,
+    'high': 41.075,
+    'low': 41.075,
+    'open': 41.075,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 248.0,
+    'vwap': 41.075}}
+2025-08-18 12:01:53 INFO: Most recent stock data: {'TNXP': {   'close': 41.49,
+    'high': 41.49,
+    'low': 41.25,
+    'open': 41.25,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 347.0,
+    'vwap': 41.33}}
+2025-08-18 12:06:54 INFO: Most recent stock data: {'TNXP': {   'close': 40.91,
+    'high': 40.91,
+    'low': 40.91,
+    'open': 40.91,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 40.91}}
+2025-08-18 12:10:54 INFO: Most recent stock data: {'TNXP': {   'close': 40.885,
+    'high': 40.885,
+    'low': 40.885,
+    'open': 40.885,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.885}}
+2025-08-18 12:20:56 INFO: Most recent stock data: {'TNXP': {   'close': 40.65,
+    'high': 40.65,
+    'low': 40.65,
+    'open': 40.65,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.65}}
+2025-08-18 12:30:57 INFO: Most recent stock data: {'TNXP': {   'close': 40.0,
+    'high': 40.0,
+    'low': 40.0,
+    'open': 40.0,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 40.0}}
+2025-08-18 12:32:57 INFO: Most recent stock data: {'TNXP': {   'close': 40.01,
+    'high': 40.01,
+    'low': 40.01,
+    'open': 40.01,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 361.0,
+    'vwap': 40.01}}
+2025-08-18 12:41:58 INFO: Most recent stock data: {'TNXP': {   'close': 40.15,
+    'high': 40.15,
+    'low': 40.15,
+    'open': 40.15,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 40.15}}
+2025-08-18 12:42:58 INFO: Most recent stock data: {'TNXP': {   'close': 40.07,
+    'high': 40.07,
+    'low': 40.07,
+    'open': 40.07,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.07}}
+2025-08-18 13:04:01 INFO: Most recent stock data: {'TNXP': {   'close': 39.955,
+    'high': 39.955,
+    'low': 39.955,
+    'open': 39.955,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.955}}
+2025-08-18 13:24:03 INFO: Most recent stock data: {'TNXP': {   'close': 40.26,
+    'high': 40.26,
+    'low': 40.26,
+    'open': 40.26,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.26}}
+2025-08-18 13:24:03 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-18 13:24:03 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-18 13:28:04 INFO: {'TNXP': {   'close': 40.0,
+    'high': 40.055,
+    'low': 40.0,
+    'open': 40.055,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 310.0,
+    'vwap': 40.0275}}
+2025-08-18 13:28:04 INFO: Current resistance is: 40.14 and support is: 39.703
+2025-08-18 13:28:04 INFO: Current average volume is: 169.1
+2025-08-18 13:28:04 INFO: Updated resistance to: 40.162 and support to: 39.609
+2025-08-18 13:31:04 INFO: {'TNXP': {   'close': 39.96,
+    'high': 39.96,
+    'low': 39.9,
+    'open': 39.9,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 701.0,
+    'vwap': 39.916667}}
+2025-08-18 13:31:04 INFO: Current resistance is: 40.162 and support is: 39.609
+2025-08-18 13:31:04 INFO: Current average volume is: 219.2
+2025-08-18 13:31:04 INFO: Updated resistance to: 40.154 and support to: 39.792
+2025-08-18 13:38:05 INFO: {'TNXP': {   'close': 39.91,
+    'high': 39.91,
+    'low': 39.91,
+    'open': 39.91,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.91}}
+2025-08-18 13:38:05 INFO: Current resistance is: 40.154 and support is: 39.792
+2025-08-18 13:38:05 INFO: Current average volume is: 219.2
+2025-08-18 13:38:05 INFO: Updated resistance to: 40.142 and support to: 39.699
+2025-08-18 13:40:05 INFO: {'TNXP': {   'close': 39.875,
+    'high': 39.875,
+    'low': 39.875,
+    'open': 39.875,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.875}}
+2025-08-18 13:40:05 INFO: Current resistance is: 40.142 and support is: 39.699
+2025-08-18 13:40:05 INFO: Current average volume is: 219.2
+2025-08-18 13:40:05 INFO: Updated resistance to: 40.132 and support to: 39.781
+2025-08-18 13:42:06 INFO: {'TNXP': {   'close': 39.66,
+    'high': 39.66,
+    'low': 39.64,
+    'open': 39.65,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 359.0,
+    'vwap': 39.65}}
+2025-08-18 13:42:06 INFO: Current resistance is: 40.132 and support is: 39.781
+2025-08-18 13:42:06 INFO: Current average volume is: 243.1
+2025-08-18 13:42:06 INFO: close price: 39.66 just dropped below support of 39.781...
+2025-08-18 13:57:07 INFO: {'TNXP': {   'close': 39.93,
+    'high': 39.93,
+    'low': 39.93,
+    'open': 39.93,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.93}}
+2025-08-18 13:57:07 INFO: Current resistance is: 40.132 and support is: 39.781
+2025-08-18 13:57:07 INFO: Current average volume is: 217.0
+2025-08-18 13:57:07 INFO: Updated resistance to: 40.104 and support to: 39.472
+2025-08-18 13:57:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-18 13:59:08 INFO: {'TNXP': {   'close': 40.475,
+    'high': 40.86,
+    'low': 40.475,
+    'open': 40.75,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 938.0,
+    'vwap': 40.577826}}
+2025-08-18 13:59:08 INFO: Current resistance is: 40.104 and support is: 39.472
+2025-08-18 13:59:08 INFO: Current average volume is: 290.8
+2025-08-18 13:59:08 INFO: The Current Close 40.475 is above the resistance...
+2025-08-18 13:59:08 INFO: Updated resistance to: 40.421 and support to: 39.439
+2025-08-18 14:01:08 INFO: {'TNXP': {   'close': 41.19,
+    'high': 41.19,
+    'low': 41.19,
+    'open': 41.19,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 210.0,
+    'vwap': 41.19}}
+2025-08-18 14:01:08 INFO: Current resistance is: 40.421 and support is: 39.439
+2025-08-18 14:01:08 INFO: Current average volume is: 301.8
+2025-08-18 14:01:08 INFO: The current close: 41.19 is above the resistance of 40.421, but volume isn't enough...
+2025-08-18 14:01:08 INFO: Updated resistance to: 40.776 and support to: 39.47
+2025-08-18 14:04:09 INFO: {'TNXP': {   'close': 40.835,
+    'high': 40.835,
+    'low': 40.835,
+    'open': 40.835,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.835}}
+2025-08-18 14:04:09 INFO: Current resistance is: 40.776 and support is: 39.47
+2025-08-18 14:04:09 INFO: Current average volume is: 301.8
+2025-08-18 14:04:09 INFO: The current close: 40.835 is above the resistance of 40.776, but volume isn't enough...
+2025-08-18 14:04:09 INFO: Updated resistance to: 40.972 and support to: 39.495
+2025-08-18 14:12:11 INFO: {'TNXP': {   'close': 40.455,
+    'high': 40.455,
+    'low': 40.455,
+    'open': 40.455,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.455}}
+2025-08-18 14:12:11 INFO: Current resistance is: 40.972 and support is: 39.495
+2025-08-18 14:12:11 INFO: Current average volume is: 301.8
+2025-08-18 14:12:11 INFO: Updated resistance to: 41.037 and support to: 39.498
+2025-08-18 14:13:11 INFO: {'TNXP': {   'close': 40.6,
+    'high': 40.74,
+    'low': 40.4,
+    'open': 40.4,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 450.0,
+    'vwap': 40.57619}}
+2025-08-18 14:13:11 INFO: Current resistance is: 41.037 and support is: 39.498
+2025-08-18 14:13:11 INFO: Current average volume is: 315.8
+2025-08-18 14:13:11 INFO: Updated resistance to: 41.164 and support to: 39.5
+2025-08-18 14:17:11 INFO: {'TNXP': {   'close': 40.745,
+    'high': 40.745,
+    'low': 40.745,
+    'open': 40.745,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.745}}
+2025-08-18 14:17:11 INFO: Current resistance is: 41.164 and support is: 39.5
+2025-08-18 14:17:11 INFO: Current average volume is: 255.7
+2025-08-18 14:17:11 INFO: Updated resistance to: 41.272 and support to: 39.534
+2025-08-18 14:20:12 INFO: {'TNXP': {   'close': 40.11,
+    'high': 40.11,
+    'low': 40.11,
+    'open': 40.11,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 147.0,
+    'vwap': 40.11}}
+2025-08-18 14:20:12 INFO: Current resistance is: 41.272 and support is: 39.534
+2025-08-18 14:20:12 INFO: Current average volume is: 260.4
+2025-08-18 14:20:12 INFO: Updated resistance to: 41.218 and support to: 39.511
+2025-08-18 14:26:13 INFO: {'TNXP': {   'close': 40.175,
+    'high': 40.175,
+    'low': 40.165,
+    'open': 40.165,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 40.17}}
+2025-08-18 14:26:13 INFO: Current resistance is: 41.218 and support is: 39.511
+2025-08-18 14:26:13 INFO: Current average volume is: 280.4
+2025-08-18 14:26:13 INFO: Updated resistance to: 41.188 and support to: 39.495
+2025-08-18 14:29:13 INFO: {'TNXP': {   'close': 40.18,
+    'high': 40.18,
+    'low': 40.18,
+    'open': 40.18,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 190.0,
+    'vwap': 40.18}}
+2025-08-18 14:29:13 INFO: Current resistance is: 41.188 and support is: 39.495
+2025-08-18 14:29:13 INFO: Current average volume is: 263.5
+2025-08-18 14:29:13 INFO: Updated resistance to: 41.163 and support to: 39.482
+2025-08-18 14:45:15 INFO: {'TNXP': {   'close': 40.31,
+    'high': 40.31,
+    'low': 40.31,
+    'open': 40.31,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.31}}
+2025-08-18 14:45:15 INFO: Current resistance is: 41.163 and support is: 39.482
+2025-08-18 14:45:15 INFO: Current average volume is: 263.5
+2025-08-18 14:45:15 INFO: Updated resistance to: 41.17 and support to: 39.482
+2025-08-18 14:51:16 INFO: {'TNXP': {   'close': 40.5,
+    'high': 40.5,
+    'low': 40.5,
+    'open': 40.5,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 208.0,
+    'vwap': 40.5}}
+2025-08-18 14:51:16 INFO: Current resistance is: 41.17 and support is: 39.482
+2025-08-18 14:51:16 INFO: Current average volume is: 190.5
+2025-08-18 14:51:16 INFO: Updated resistance to: 41.215 and support to: 39.502
+2025-08-18 15:04:17 INFO: {'TNXP': {   'close': 40.44,
+    'high': 40.44,
+    'low': 40.44,
+    'open': 40.44,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 120.0,
+    'vwap': 40.44}}
+2025-08-18 15:04:17 INFO: Current resistance is: 41.215 and support is: 39.502
+2025-08-18 15:04:17 INFO: Current average volume is: 181.5
+2025-08-18 15:04:17 INFO: Updated resistance to: 41.243 and support to: 39.515
+2025-08-18 15:05:17 INFO: {'TNXP': {   'close': 40.4,
+    'high': 40.4,
+    'low': 40.4,
+    'open': 40.4,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.4}}
+2025-08-18 15:05:17 INFO: Current resistance is: 41.243 and support is: 39.515
+2025-08-18 15:05:17 INFO: Current average volume is: 181.5
+2025-08-18 15:05:17 INFO: Updated resistance to: 41.26 and support to: 39.523
+2025-08-18 15:09:18 INFO: {'TNXP': {   'close': 40.28,
+    'high': 40.28,
+    'low': 40.28,
+    'open': 40.28,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.28}}
+2025-08-18 15:09:18 INFO: Current resistance is: 41.26 and support is: 39.523
+2025-08-18 15:09:18 INFO: Current average volume is: 181.5
+2025-08-18 15:09:18 INFO: Updated resistance to: 41.254 and support to: 39.52
+2025-08-18 15:24:20 INFO: {'TNXP': {   'close': 40.37,
+    'high': 40.37,
+    'low': 40.37,
+    'open': 40.37,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 148.0,
+    'vwap': 40.37}}
+2025-08-18 15:24:20 INFO: Current resistance is: 41.254 and support is: 39.52
+2025-08-18 15:24:20 INFO: Current average volume is: 151.3
+2025-08-18 15:24:20 INFO: Updated resistance to: 41.265 and support to: 39.525
+2025-08-18 15:25:20 INFO: {'TNXP': {   'close': 40.24,
+    'high': 40.32,
+    'low': 40.24,
+    'open': 40.32,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 40.28}}
+2025-08-18 15:25:20 INFO: Current resistance is: 41.265 and support is: 39.525
+2025-08-18 15:25:20 INFO: Current average volume is: 171.3
+2025-08-18 15:25:20 INFO: Updated resistance to: 41.266 and support to: 39.518
+2025-08-18 15:27:20 INFO: {'TNXP': {   'close': 40.21,
+    'high': 40.21,
+    'low': 40.21,
+    'open': 40.21,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 40.21}}
+2025-08-18 15:27:20 INFO: Current resistance is: 41.266 and support is: 39.518
+2025-08-18 15:27:20 INFO: Current average volume is: 166.6
+2025-08-18 15:27:20 INFO: Updated resistance to: 41.25 and support to: 39.509
+2025-08-18 15:32:21 INFO: {'TNXP': {   'close': 39.955,
+    'high': 39.955,
+    'low': 39.955,
+    'open': 39.955,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 210.0,
+    'vwap': 39.955}}
+2025-08-18 15:32:21 INFO: Current resistance is: 41.25 and support is: 39.509
+2025-08-18 15:32:21 INFO: Current average volume is: 157.6
+2025-08-18 15:32:21 INFO: Updated resistance to: 41.194 and support to: 39.476
+2025-08-18 15:34:21 INFO: {'TNXP': {   'close': 39.59,
+    'high': 39.59,
+    'low': 39.59,
+    'open': 39.59,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 39.59}}
+2025-08-18 15:34:21 INFO: Current resistance is: 41.194 and support is: 39.476
+2025-08-18 15:34:21 INFO: Current average volume is: 158.6
+2025-08-18 15:34:21 INFO: Updated resistance to: 41.087 and support to: 39.579
+2025-08-18 15:47:22 INFO: {'TNXP': {   'close': 40.115,
+    'high': 40.115,
+    'low': 40.115,
+    'open': 40.115,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 370.0,
+    'vwap': 40.115}}
+2025-08-18 15:47:22 INFO: Current resistance is: 41.087 and support is: 39.579
+2025-08-18 15:47:22 INFO: Current average volume is: 185.6
+2025-08-18 15:47:22 INFO: Updated resistance to: 41.073 and support to: 39.568
+2025-08-18 15:51:23 INFO: {'TNXP': {   'close': 39.97,
+    'high': 40.01,
+    'low': 39.97,
+    'open': 40.01,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 235.0,
+    'vwap': 39.99}}
+2025-08-18 15:51:23 INFO: Current resistance is: 41.073 and support is: 39.568
+2025-08-18 15:51:23 INFO: Current average volume is: 188.3
+2025-08-18 15:51:23 INFO: Updated resistance to: 41.045 and support to: 39.556
+2025-08-18 15:52:23 INFO: {'TNXP': {   'close': 40.085,
+    'high': 40.085,
+    'low': 40.085,
+    'open': 40.085,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 303.0,
+    'vwap': 40.085}}
+2025-08-18 15:52:23 INFO: Current resistance is: 41.045 and support is: 39.556
+2025-08-18 15:52:23 INFO: Current average volume is: 206.6
+2025-08-18 15:52:23 INFO: Updated resistance to: 41.031 and support to: 39.545
+2025-08-18 15:54:23 INFO: {'TNXP': {   'close': 40.07,
+    'high': 40.09,
+    'low': 40.07,
+    'open': 40.09,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 40.076667}}
+2025-08-18 15:54:23 INFO: Current resistance is: 41.031 and support is: 39.545
+2025-08-18 15:54:23 INFO: Current average volume is: 236.6
+2025-08-18 15:54:23 INFO: Updated resistance to: 41.019 and support to: 39.533
+2025-08-18 15:55:23 INFO: {'TNXP': {   'close': 40.05,
+    'high': 40.05,
+    'low': 40.03,
+    'open': 40.03,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 231.0,
+    'vwap': 40.04}}
+2025-08-18 15:55:23 INFO: Current resistance is: 41.019 and support is: 39.533
+2025-08-18 15:55:23 INFO: Current average volume is: 249.7
+2025-08-18 15:55:23 INFO: Updated resistance to: 41.004 and support to: 39.521
+2025-08-18 15:57:24 INFO: {'TNXP': {   'close': 40.055,
+    'high': 40.055,
+    'low': 40.055,
+    'open': 40.055,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 40.055}}
+2025-08-18 15:57:24 INFO: Current resistance is: 41.004 and support is: 39.521
+2025-08-18 15:57:24 INFO: Current average volume is: 247.4
+2025-08-18 15:57:24 INFO: Updated resistance to: 40.991 and support to: 39.51
+2025-08-18 15:59:24 INFO: {'TNXP': {   'close': 40.085,
+    'high': 40.085,
+    'low': 40.085,
+    'open': 40.085,
+    'symbol': 'TNXP',
+    'timestamp': datetime.datetime(2025, 8, 18, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 120.0,
+    'vwap': 40.085}}
+2025-08-18 15:59:24 INFO: Current resistance is: 40.991 and support is: 39.51
+2025-08-18 15:59:24 INFO: Current average volume is: 229.4
+2025-08-18 15:59:24 INFO: Updated resistance to: 40.984 and support to: 39.5
+2025-08-18 16:00:24 INFO: The Market is closed...

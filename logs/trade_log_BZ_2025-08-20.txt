@@ -1,0 +1,2447 @@
+2025-08-20 09:55:13 INFO: === Strategy started ===
+2025-08-20 09:55:13 INFO: Start collecting the current highs/lows for: BZ
+2025-08-20 09:55:13 INFO: Most recent stock data: {'BZ': {   'close': 20.605,
+    'high': 20.63,
+    'low': 20.605,
+    'open': 20.63,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 258.0,
+    'vwap': 20.6175}}
+2025-08-20 09:56:14 INFO: Most recent stock data: {'BZ': {   'close': 20.52,
+    'high': 20.585,
+    'low': 20.52,
+    'open': 20.57,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 965.0,
+    'vwap': 20.55246}}
+2025-08-20 09:57:14 INFO: Most recent stock data: {'BZ': {   'close': 20.68,
+    'high': 20.68,
+    'low': 20.56,
+    'open': 20.56,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 406.0,
+    'vwap': 20.598356}}
+2025-08-20 10:00:14 INFO: Most recent stock data: {'BZ': {   'close': 20.7,
+    'high': 20.77,
+    'low': 20.7,
+    'open': 20.77,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 508.0,
+    'vwap': 20.735}}
+2025-08-20 10:01:14 INFO: Most recent stock data: {'BZ': {   'close': 20.86,
+    'high': 20.86,
+    'low': 20.78,
+    'open': 20.8,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 762.0,
+    'vwap': 20.807273}}
+2025-08-20 10:02:15 INFO: Most recent stock data: {'BZ': {   'close': 21.01,
+    'high': 21.01,
+    'low': 21.01,
+    'open': 21.01,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 328.0,
+    'vwap': 21.01}}
+2025-08-20 10:03:15 INFO: Most recent stock data: {'BZ': {   'close': 21.07,
+    'high': 21.07,
+    'low': 21.03,
+    'open': 21.03,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 21.05}}
+2025-08-20 10:04:15 INFO: Most recent stock data: {'BZ': {   'close': 21.01,
+    'high': 21.06,
+    'low': 21.01,
+    'open': 21.06,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 727.0,
+    'vwap': 21.020949}}
+2025-08-20 10:05:15 INFO: Most recent stock data: {'BZ': {   'close': 21.085,
+    'high': 21.085,
+    'low': 21.02,
+    'open': 21.03,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1125.0,
+    'vwap': 21.037645}}
+2025-08-20 10:06:15 INFO: Most recent stock data: {'BZ': {   'close': 21.12,
+    'high': 21.12,
+    'low': 21.12,
+    'open': 21.12,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 331.0,
+    'vwap': 21.12}}
+2025-08-20 10:07:15 INFO: Most recent stock data: {'BZ': {   'close': 21.1,
+    'high': 21.17,
+    'low': 21.1,
+    'open': 21.16,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 928.0,
+    'vwap': 21.14}}
+2025-08-20 10:07:15 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 10:07:15 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-20 10:08:16 INFO: {'BZ': {   'close': 21.03,
+    'high': 21.055,
+    'low': 21.03,
+    'open': 21.055,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 634.0,
+    'vwap': 21.045576}}
+2025-08-20 10:08:16 INFO: Current resistance is: 21.232 and support is: 21.168
+2025-08-20 10:08:16 INFO: Current average volume is: 604.9
+2025-08-20 10:08:16 INFO: close price: 21.03 just dropped below support of 21.168...
+2025-08-20 10:09:16 INFO: {'BZ': {   'close': 21.09,
+    'high': 21.095,
+    'low': 21.085,
+    'open': 21.095,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 700.0,
+    'vwap': 21.09}}
+2025-08-20 10:09:16 INFO: Current resistance is: 21.232 and support is: 21.168
+2025-08-20 10:09:16 INFO: Current average volume is: 634.3
+2025-08-20 10:09:16 INFO: Closing price: 21.09 just dropped below support 21.168 again...ending trade...
+2025-08-20 10:25:10 INFO: === Strategy started ===
+2025-08-20 10:25:10 INFO: Start collecting the current highs/lows for: BZ
+2025-08-20 10:25:10 INFO: Most recent stock data: {'BZ': {   'close': 21.12,
+    'high': 21.14,
+    'low': 21.12,
+    'open': 21.14,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 305.0,
+    'vwap': 21.13}}
+2025-08-20 10:27:10 INFO: Most recent stock data: {'BZ': {   'close': 21.07,
+    'high': 21.07,
+    'low': 21.07,
+    'open': 21.07,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 232.0,
+    'vwap': 21.07}}
+2025-08-20 10:28:10 INFO: Most recent stock data: {'BZ': {   'close': 21.04,
+    'high': 21.055,
+    'low': 21.04,
+    'open': 21.055,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 440.0,
+    'vwap': 21.04875}}
+2025-08-20 10:29:11 INFO: Most recent stock data: {'BZ': {   'close': 21.065,
+    'high': 21.1,
+    'low': 21.065,
+    'open': 21.1,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 787.0,
+    'vwap': 21.07625}}
+2025-08-20 10:30:11 INFO: Most recent stock data: {'BZ': {   'close': 21.065,
+    'high': 21.07,
+    'low': 21.06,
+    'open': 21.06,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 588.0,
+    'vwap': 21.065}}
+2025-08-20 10:31:11 INFO: Most recent stock data: {'BZ': {   'close': 21.16,
+    'high': 21.16,
+    'low': 21.08,
+    'open': 21.08,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 360.0,
+    'vwap': 21.106667}}
+2025-08-20 10:32:11 INFO: Most recent stock data: {'BZ': {   'close': 21.18,
+    'high': 21.18,
+    'low': 21.18,
+    'open': 21.18,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 192.0,
+    'vwap': 21.18}}
+2025-08-20 10:33:11 INFO: Most recent stock data: {'BZ': {   'close': 21.21,
+    'high': 21.21,
+    'low': 21.21,
+    'open': 21.21,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 512.0,
+    'vwap': 21.21}}
+2025-08-20 10:34:11 INFO: Most recent stock data: {'BZ': {   'close': 21.22,
+    'high': 21.23,
+    'low': 21.22,
+    'open': 21.23,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 617.0,
+    'vwap': 21.221667}}
+2025-08-20 10:35:12 INFO: Most recent stock data: {'BZ': {   'close': 21.22,
+    'high': 21.22,
+    'low': 21.21,
+    'open': 21.22,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 309.0,
+    'vwap': 21.216764}}
+2025-08-20 10:36:12 INFO: Most recent stock data: {'BZ': {   'close': 21.215,
+    'high': 21.215,
+    'low': 21.18,
+    'open': 21.18,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 494.0,
+    'vwap': 21.1975}}
+2025-08-20 10:36:12 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 10:36:12 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-20 10:37:12 INFO: {'BZ': {   'close': 21.16,
+    'high': 21.16,
+    'low': 21.16,
+    'open': 21.16,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 190.0,
+    'vwap': 21.16}}
+2025-08-20 10:37:12 INFO: Current resistance is: 21.23 and support is: 21.04
+2025-08-20 10:37:12 INFO: Current average volume is: 448.9
+2025-08-20 10:37:12 INFO: Updated resistance to: 21.23 and support to: 21.04
+2025-08-20 10:39:12 INFO: {'BZ': {   'close': 21.22,
+    'high': 21.22,
+    'low': 21.21,
+    'open': 21.21,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 240.0,
+    'vwap': 21.215}}
+2025-08-20 10:39:12 INFO: Current resistance is: 21.23 and support is: 21.04
+2025-08-20 10:39:12 INFO: Current average volume is: 428.9
+2025-08-20 10:39:12 INFO: Updated resistance to: 21.23 and support to: 21.04
+2025-08-20 10:40:13 INFO: {'BZ': {   'close': 21.32,
+    'high': 21.32,
+    'low': 21.22,
+    'open': 21.22,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1053.0,
+    'vwap': 21.29625}}
+2025-08-20 10:40:13 INFO: Current resistance is: 21.23 and support is: 21.04
+2025-08-20 10:40:13 INFO: Current average volume is: 455.5
+2025-08-20 10:40:13 INFO: The Current Close 21.32 is above the resistance...
+2025-08-20 10:40:13 INFO: Updated resistance to: 21.32 and support to: 21.04
+2025-08-20 10:41:13 INFO: {'BZ': {   'close': 21.38,
+    'high': 21.39,
+    'low': 21.37,
+    'open': 21.37,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 905.0,
+    'vwap': 21.375172}}
+2025-08-20 10:41:13 INFO: Current resistance is: 21.32 and support is: 21.04
+2025-08-20 10:41:13 INFO: Current average volume is: 487.2
+2025-08-20 10:41:13 INFO: The current close: 21.38 is above the resistance of 21.32, but volume isn't enough...
+2025-08-20 10:41:13 INFO: Updated resistance to: 21.39 and support to: 21.04
+2025-08-20 10:42:13 INFO: {'BZ': {   'close': 21.495,
+    'high': 21.495,
+    'low': 21.43,
+    'open': 21.43,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1200.0,
+    'vwap': 21.463241}}
+2025-08-20 10:42:13 INFO: Current resistance is: 21.39 and support is: 21.04
+2025-08-20 10:42:13 INFO: Current average volume is: 571.2
+2025-08-20 10:42:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-20 10:43:13 INFO: {'BZ': {   'close': 21.48,
+    'high': 21.48,
+    'low': 21.48,
+    'open': 21.48,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 476.0,
+    'vwap': 21.48}}
+2025-08-20 10:43:13 INFO: Current resistance is: 21.39 and support is: 21.04
+2025-08-20 10:43:13 INFO: Current average volume is: 599.6
+2025-08-20 10:43:13 INFO: The current close: 21.48 is above the resistance of 21.39, but volume isn't enough...
+2025-08-20 10:43:13 INFO: Updated resistance to: 21.48 and support to: 21.04
+2025-08-20 10:45:14 INFO: {'BZ': {   'close': 21.55,
+    'high': 21.55,
+    'low': 21.505,
+    'open': 21.505,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 248.0,
+    'vwap': 21.5275}}
+2025-08-20 10:45:14 INFO: Current resistance is: 21.48 and support is: 21.04
+2025-08-20 10:45:14 INFO: Current average volume is: 573.2
+2025-08-20 10:45:14 INFO: The current close: 21.55 is above the resistance of 21.48, but volume isn't enough...
+2025-08-20 10:45:14 INFO: Updated resistance to: 21.55 and support to: 21.04
+2025-08-20 10:46:14 INFO: {'BZ': {   'close': 21.51,
+    'high': 21.52,
+    'low': 21.51,
+    'open': 21.52,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 260.0,
+    'vwap': 21.515}}
+2025-08-20 10:46:14 INFO: Current resistance is: 21.55 and support is: 21.04
+2025-08-20 10:46:14 INFO: Current average volume is: 537.5
+2025-08-20 10:46:14 INFO: Updated resistance to: 21.55 and support to: 21.04
+2025-08-20 10:47:15 INFO: {'BZ': {   'close': 21.49,
+    'high': 21.49,
+    'low': 21.47,
+    'open': 21.47,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 320.0,
+    'vwap': 21.476667}}
+2025-08-20 10:47:15 INFO: Current resistance is: 21.55 and support is: 21.04
+2025-08-20 10:47:15 INFO: Current average volume is: 538.6
+2025-08-20 10:47:15 INFO: Updated resistance to: 21.55 and support to: 21.04
+2025-08-20 10:48:15 INFO: {'BZ': {   'close': 21.5,
+    'high': 21.5,
+    'low': 21.5,
+    'open': 21.5,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 221.0,
+    'vwap': 21.5}}
+2025-08-20 10:48:15 INFO: Current resistance is: 21.55 and support is: 21.04
+2025-08-20 10:48:15 INFO: Current average volume is: 511.3
+2025-08-20 10:48:15 INFO: Updated resistance to: 21.55 and support to: 21.04
+2025-08-20 10:50:15 INFO: {'BZ': {   'close': 21.61,
+    'high': 21.62,
+    'low': 21.61,
+    'open': 21.62,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 397.0,
+    'vwap': 21.613333}}
+2025-08-20 10:50:15 INFO: Current resistance is: 21.55 and support is: 21.04
+2025-08-20 10:50:15 INFO: Current average volume is: 532.0
+2025-08-20 10:50:15 INFO: The Current Close 21.61 is above the resistance...
+2025-08-20 10:50:15 INFO: Updated resistance to: 21.62 and support to: 21.04
+2025-08-20 10:52:16 INFO: {'BZ': {   'close': 21.59,
+    'high': 21.59,
+    'low': 21.59,
+    'open': 21.59,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.59}}
+2025-08-20 10:52:16 INFO: Current resistance is: 21.62 and support is: 21.04
+2025-08-20 10:52:16 INFO: Current average volume is: 528.0
+2025-08-20 10:52:16 INFO: Updated resistance to: 21.62 and support to: 21.04
+2025-08-20 10:53:16 INFO: {'BZ': {   'close': 21.56,
+    'high': 21.56,
+    'low': 21.56,
+    'open': 21.56,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 21.56}}
+2025-08-20 10:53:16 INFO: Current resistance is: 21.62 and support is: 21.04
+2025-08-20 10:53:16 INFO: Current average volume is: 434.7
+2025-08-20 10:53:16 INFO: Updated resistance to: 21.62 and support to: 21.04
+2025-08-20 10:54:16 INFO: {'BZ': {   'close': 21.525,
+    'high': 21.58,
+    'low': 21.525,
+    'open': 21.58,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 206.0,
+    'vwap': 21.5525}}
+2025-08-20 10:54:16 INFO: Current resistance is: 21.62 and support is: 21.04
+2025-08-20 10:54:16 INFO: Current average volume is: 364.8
+2025-08-20 10:54:16 INFO: Updated resistance to: 21.62 and support to: 21.04
+2025-08-20 10:56:16 INFO: {'BZ': {   'close': 21.54,
+    'high': 21.54,
+    'low': 21.54,
+    'open': 21.54,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 474.0,
+    'vwap': 21.54}}
+2025-08-20 10:56:16 INFO: Current resistance is: 21.62 and support is: 21.04
+2025-08-20 10:56:16 INFO: Current average volume is: 292.2
+2025-08-20 10:56:16 INFO: Updated resistance to: 21.62 and support to: 21.04
+2025-08-20 10:57:17 INFO: {'BZ': {   'close': 21.555,
+    'high': 21.555,
+    'low': 21.53,
+    'open': 21.53,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 306.0,
+    'vwap': 21.538333}}
+2025-08-20 10:57:17 INFO: Current resistance is: 21.62 and support is: 21.04
+2025-08-20 10:57:17 INFO: Current average volume is: 275.2
+2025-08-20 10:57:17 INFO: Updated resistance to: 21.62 and support to: 21.04
+2025-08-20 10:58:17 INFO: {'BZ': {   'close': 21.585,
+    'high': 21.61,
+    'low': 21.585,
+    'open': 21.61,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 475.0,
+    'vwap': 21.595}}
+2025-08-20 10:58:17 INFO: Current resistance is: 21.62 and support is: 21.04
+2025-08-20 10:58:17 INFO: Current average volume is: 297.9
+2025-08-20 10:58:17 INFO: Updated resistance to: 21.62 and support to: 21.04
+2025-08-20 11:00:17 INFO: {'BZ': {   'close': 21.66,
+    'high': 21.66,
+    'low': 21.63,
+    'open': 21.63,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 916.0,
+    'vwap': 21.65625}}
+2025-08-20 11:00:17 INFO: Current resistance is: 21.62 and support is: 21.04
+2025-08-20 11:00:17 INFO: Current average volume is: 363.5
+2025-08-20 11:00:17 INFO: The Current Close 21.66 is above the resistance...
+2025-08-20 11:00:17 INFO: Updated resistance to: 21.66 and support to: 21.04
+2025-08-20 11:01:17 INFO: {'BZ': {   'close': 21.705,
+    'high': 21.705,
+    'low': 21.67,
+    'open': 21.67,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 813.0,
+    'vwap': 21.700625}}
+2025-08-20 11:01:17 INFO: Current resistance is: 21.66 and support is: 21.04
+2025-08-20 11:01:17 INFO: Current average volume is: 412.8
+2025-08-20 11:01:17 INFO: The current close: 21.705 is above the resistance of 21.66, but volume isn't enough...
+2025-08-20 11:01:17 INFO: Updated resistance to: 21.705 and support to: 21.04
+2025-08-20 11:04:18 INFO: {'BZ': {   'close': 21.69,
+    'high': 21.7,
+    'low': 21.69,
+    'open': 21.7,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 677.0,
+    'vwap': 21.698523}}
+2025-08-20 11:04:18 INFO: Current resistance is: 21.705 and support is: 21.04
+2025-08-20 11:04:18 INFO: Current average volume is: 458.4
+2025-08-20 11:04:18 INFO: Updated resistance to: 21.705 and support to: 21.04
+2025-08-20 11:05:19 INFO: {'BZ': {   'close': 21.71,
+    'high': 21.71,
+    'low': 21.68,
+    'open': 21.68,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 306.0,
+    'vwap': 21.695}}
+2025-08-20 11:05:19 INFO: Current resistance is: 21.705 and support is: 21.04
+2025-08-20 11:05:19 INFO: Current average volume is: 449.3
+2025-08-20 11:05:19 INFO: The Current Close 21.71 is above the resistance...
+2025-08-20 11:05:19 INFO: Updated resistance to: 21.71 and support to: 21.04
+2025-08-20 11:06:19 INFO: {'BZ': {   'close': 21.72,
+    'high': 21.72,
+    'low': 21.71,
+    'open': 21.71,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 800.0,
+    'vwap': 21.7125}}
+2025-08-20 11:06:19 INFO: Current resistance is: 21.71 and support is: 21.04
+2025-08-20 11:06:19 INFO: Current average volume is: 509.3
+2025-08-20 11:06:19 INFO: The current close: 21.72 is above the resistance of 21.71, but volume isn't enough...
+2025-08-20 11:06:19 INFO: Updated resistance to: 21.72 and support to: 21.04
+2025-08-20 11:07:19 INFO: {'BZ': {   'close': 21.69,
+    'high': 21.7,
+    'low': 21.69,
+    'open': 21.7,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 21.698571}}
+2025-08-20 11:07:19 INFO: Current resistance is: 21.72 and support is: 21.04
+2025-08-20 11:07:19 INFO: Current average volume is: 567.3
+2025-08-20 11:07:19 INFO: Updated resistance to: 21.72 and support to: 21.04
+2025-08-20 11:09:20 INFO: {'BZ': {   'close': 21.7,
+    'high': 21.71,
+    'low': 21.7,
+    'open': 21.71,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.705}}
+2025-08-20 11:09:20 INFO: Current resistance is: 21.72 and support is: 21.04
+2025-08-20 11:09:20 INFO: Current average volume is: 566.7
+2025-08-20 11:09:20 INFO: Updated resistance to: 21.72 and support to: 21.04
+2025-08-20 11:10:20 INFO: {'BZ': {   'close': 21.75,
+    'high': 21.755,
+    'low': 21.715,
+    'open': 21.73,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 3701.0,
+    'vwap': 21.745719}}
+2025-08-20 11:10:20 INFO: Current resistance is: 21.72 and support is: 21.04
+2025-08-20 11:10:20 INFO: Current average volume is: 889.4
+2025-08-20 11:10:20 INFO: The Current Close 21.75 is above the resistance...
+2025-08-20 11:10:20 INFO: Updated resistance to: 21.755 and support to: 21.04
+2025-08-20 11:12:20 INFO: {'BZ': {   'close': 21.7,
+    'high': 21.7,
+    'low': 21.7,
+    'open': 21.7,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.7}}
+2025-08-20 11:12:20 INFO: Current resistance is: 21.755 and support is: 21.04
+2025-08-20 11:12:20 INFO: Current average volume is: 868.8
+2025-08-20 11:12:20 INFO: Updated resistance to: 21.755 and support to: 21.04
+2025-08-20 11:13:21 INFO: {'BZ': {   'close': 21.625,
+    'high': 21.625,
+    'low': 21.625,
+    'open': 21.625,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 334.0,
+    'vwap': 21.625}}
+2025-08-20 11:13:21 INFO: Current resistance is: 21.755 and support is: 21.04
+2025-08-20 11:13:21 INFO: Current average volume is: 854.7
+2025-08-20 11:13:21 INFO: Updated resistance to: 21.755 and support to: 21.04
+2025-08-20 11:14:21 INFO: {'BZ': {   'close': 21.62,
+    'high': 21.62,
+    'low': 21.62,
+    'open': 21.62,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 21.62}}
+2025-08-20 11:14:21 INFO: Current resistance is: 21.755 and support is: 21.04
+2025-08-20 11:14:21 INFO: Current average volume is: 793.1
+2025-08-20 11:14:21 INFO: Updated resistance to: 21.755 and support to: 21.04
+2025-08-20 11:15:21 INFO: {'BZ': {   'close': 21.64,
+    'high': 21.64,
+    'low': 21.64,
+    'open': 21.64,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 394.0,
+    'vwap': 21.64}}
+2025-08-20 11:15:21 INFO: Current resistance is: 21.755 and support is: 21.04
+2025-08-20 11:15:21 INFO: Current average volume is: 751.2
+2025-08-20 11:15:21 INFO: Updated resistance to: 21.755 and support to: 21.04
+2025-08-20 11:18:21 INFO: {'BZ': {   'close': 21.85,
+    'high': 21.85,
+    'low': 21.81,
+    'open': 21.81,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 21.836667}}
+2025-08-20 11:18:21 INFO: Current resistance is: 21.755 and support is: 21.04
+2025-08-20 11:18:21 INFO: Current average volume is: 713.5
+2025-08-20 11:18:21 INFO: The Current Close 21.85 is above the resistance...
+2025-08-20 11:18:21 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:28:25 INFO: {'BZ': {   'close': 21.74,
+    'high': 21.74,
+    'low': 21.715,
+    'open': 21.715,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 723.0,
+    'vwap': 21.733641}}
+2025-08-20 11:28:25 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:28:25 INFO: Current average volume is: 755.2
+2025-08-20 11:28:25 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:29:25 INFO: {'BZ': {   'close': 21.71,
+    'high': 21.72,
+    'low': 21.71,
+    'open': 21.72,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.715}}
+2025-08-20 11:29:25 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:29:25 INFO: Current average volume is: 695.2
+2025-08-20 11:29:25 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:30:25 INFO: {'BZ': {   'close': 21.7,
+    'high': 21.71,
+    'low': 21.7,
+    'open': 21.71,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.705}}
+2025-08-20 11:30:25 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:30:25 INFO: Current average volume is: 645.2
+2025-08-20 11:30:25 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:31:25 INFO: {'BZ': {   'close': 21.68,
+    'high': 21.7,
+    'low': 21.68,
+    'open': 21.7,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 520.0,
+    'vwap': 21.683846}}
+2025-08-20 11:31:25 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:31:25 INFO: Current average volume is: 677.2
+2025-08-20 11:31:25 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:33:25 INFO: {'BZ': {   'close': 21.77,
+    'high': 21.77,
+    'low': 21.72,
+    'open': 21.72,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 21.753333}}
+2025-08-20 11:33:25 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:33:25 INFO: Current average volume is: 337.1
+2025-08-20 11:33:25 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:34:26 INFO: {'BZ': {   'close': 21.75,
+    'high': 21.78,
+    'low': 21.75,
+    'open': 21.78,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 734.0,
+    'vwap': 21.765714}}
+2025-08-20 11:34:26 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:34:26 INFO: Current average volume is: 400.5
+2025-08-20 11:34:26 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:35:26 INFO: {'BZ': {   'close': 21.68,
+    'high': 21.75,
+    'low': 21.68,
+    'open': 21.75,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1100.0,
+    'vwap': 21.720909}}
+2025-08-20 11:35:26 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:35:26 INFO: Current average volume is: 477.1
+2025-08-20 11:35:26 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:36:26 INFO: {'BZ': {   'close': 21.64,
+    'high': 21.65,
+    'low': 21.64,
+    'open': 21.65,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.645}}
+2025-08-20 11:36:26 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:36:26 INFO: Current average volume is: 467.1
+2025-08-20 11:36:26 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:37:26 INFO: {'BZ': {   'close': 21.61,
+    'high': 21.63,
+    'low': 21.595,
+    'open': 21.63,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 21.61625}}
+2025-08-20 11:37:26 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:37:26 INFO: Current average volume is: 467.7
+2025-08-20 11:37:26 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:38:26 INFO: {'BZ': {   'close': 21.6,
+    'high': 21.6,
+    'low': 21.6,
+    'open': 21.6,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 259.0,
+    'vwap': 21.6}}
+2025-08-20 11:38:26 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:38:26 INFO: Current average volume is: 463.6
+2025-08-20 11:38:26 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:40:27 INFO: {'BZ': {   'close': 21.66,
+    'high': 21.66,
+    'low': 21.66,
+    'open': 21.66,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 116.0,
+    'vwap': 21.66}}
+2025-08-20 11:40:27 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:40:27 INFO: Current average volume is: 402.9
+2025-08-20 11:40:27 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:41:27 INFO: {'BZ': {   'close': 21.64,
+    'high': 21.64,
+    'low': 21.62,
+    'open': 21.62,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.63}}
+2025-08-20 11:41:27 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:41:27 INFO: Current average volume is: 402.9
+2025-08-20 11:41:27 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:42:27 INFO: {'BZ': {   'close': 21.61,
+    'high': 21.61,
+    'low': 21.61,
+    'open': 21.61,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.61}}
+2025-08-20 11:42:27 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:42:27 INFO: Current average volume is: 392.9
+2025-08-20 11:42:27 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:44:27 INFO: {'BZ': {   'close': 21.62,
+    'high': 21.63,
+    'low': 21.62,
+    'open': 21.62,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 575.0,
+    'vwap': 21.622}}
+2025-08-20 11:44:27 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:44:27 INFO: Current average volume is: 398.4
+2025-08-20 11:44:27 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:46:27 INFO: {'BZ': {   'close': 21.65,
+    'high': 21.65,
+    'low': 21.63,
+    'open': 21.63,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 21.643333}}
+2025-08-20 11:46:27 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:46:27 INFO: Current average volume is: 398.4
+2025-08-20 11:46:27 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:47:28 INFO: {'BZ': {   'close': 21.69,
+    'high': 21.69,
+    'low': 21.65,
+    'open': 21.65,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 372.0,
+    'vwap': 21.663333}}
+2025-08-20 11:47:28 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:47:28 INFO: Current average volume is: 362.2
+2025-08-20 11:47:28 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:48:28 INFO: {'BZ': {   'close': 21.72,
+    'high': 21.72,
+    'low': 21.71,
+    'open': 21.71,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 359.0,
+    'vwap': 21.715}}
+2025-08-20 11:48:28 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:48:28 INFO: Current average volume is: 288.1
+2025-08-20 11:48:28 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:49:28 INFO: {'BZ': {   'close': 21.73,
+    'high': 21.74,
+    'low': 21.72,
+    'open': 21.74,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 699.0,
+    'vwap': 21.73}}
+2025-08-20 11:49:28 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:49:28 INFO: Current average volume is: 338.0
+2025-08-20 11:49:28 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:50:28 INFO: {'BZ': {   'close': 21.71,
+    'high': 21.8,
+    'low': 21.71,
+    'open': 21.76,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1555.0,
+    'vwap': 21.76478}}
+2025-08-20 11:50:28 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:50:28 INFO: Current average volume is: 453.5
+2025-08-20 11:50:28 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:51:28 INFO: {'BZ': {   'close': 21.63,
+    'high': 21.63,
+    'low': 21.63,
+    'open': 21.63,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.63}}
+2025-08-20 11:51:28 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:51:28 INFO: Current average volume is: 447.6
+2025-08-20 11:51:28 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:52:28 INFO: {'BZ': {   'close': 21.59,
+    'high': 21.59,
+    'low': 21.59,
+    'open': 21.59,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 134.0,
+    'vwap': 21.59}}
+2025-08-20 11:52:28 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:52:28 INFO: Current average volume is: 449.4
+2025-08-20 11:52:28 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:53:29 INFO: {'BZ': {   'close': 21.58,
+    'high': 21.58,
+    'low': 21.58,
+    'open': 21.58,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 124.0,
+    'vwap': 21.58}}
+2025-08-20 11:53:29 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:53:29 INFO: Current average volume is: 441.8
+2025-08-20 11:53:29 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:54:29 INFO: {'BZ': {   'close': 21.535,
+    'high': 21.535,
+    'low': 21.535,
+    'open': 21.535,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 21.535}}
+2025-08-20 11:54:29 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:54:29 INFO: Current average volume is: 446.8
+2025-08-20 11:54:29 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:56:29 INFO: {'BZ': {   'close': 21.645,
+    'high': 21.69,
+    'low': 21.605,
+    'open': 21.605,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 2930.0,
+    'vwap': 21.649278}}
+2025-08-20 11:56:29 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:56:29 INFO: Current average volume is: 682.3
+2025-08-20 11:56:29 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 11:57:29 INFO: {'BZ': {   'close': 21.65,
+    'high': 21.65,
+    'low': 21.64,
+    'open': 21.64,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1395.0,
+    'vwap': 21.648973}}
+2025-08-20 11:57:29 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 11:57:29 INFO: Current average volume is: 791.8
+2025-08-20 11:57:29 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:00:30 INFO: {'BZ': {   'close': 21.665,
+    'high': 21.675,
+    'low': 21.665,
+    'open': 21.675,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 357.0,
+    'vwap': 21.671774}}
+2025-08-20 12:00:30 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:00:30 INFO: Current average volume is: 790.3
+2025-08-20 12:00:30 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:02:30 INFO: {'BZ': {   'close': 21.72,
+    'high': 21.72,
+    'low': 21.72,
+    'open': 21.72,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 21.72}}
+2025-08-20 12:02:30 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:02:30 INFO: Current average volume is: 794.4
+2025-08-20 12:02:30 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:05:31 INFO: {'BZ': {   'close': 21.675,
+    'high': 21.675,
+    'low': 21.675,
+    'open': 21.675,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 375.0,
+    'vwap': 21.675}}
+2025-08-20 12:05:31 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:05:31 INFO: Current average volume is: 762.0
+2025-08-20 12:05:31 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:06:31 INFO: {'BZ': {   'close': 21.7,
+    'high': 21.7,
+    'low': 21.66,
+    'open': 21.66,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 677.0,
+    'vwap': 21.686667}}
+2025-08-20 12:06:31 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:06:31 INFO: Current average volume is: 674.2
+2025-08-20 12:06:31 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:07:31 INFO: {'BZ': {   'close': 21.685,
+    'high': 21.685,
+    'low': 21.685,
+    'open': 21.685,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 262.0,
+    'vwap': 21.685}}
+2025-08-20 12:07:31 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:07:31 INFO: Current average volume is: 680.4
+2025-08-20 12:07:31 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:08:31 INFO: {'BZ': {   'close': 21.64,
+    'high': 21.64,
+    'low': 21.64,
+    'open': 21.64,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 21.64}}
+2025-08-20 12:08:31 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:08:31 INFO: Current average volume is: 687.0
+2025-08-20 12:08:31 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:12:32 INFO: {'BZ': {   'close': 21.74,
+    'high': 21.76,
+    'low': 21.74,
+    'open': 21.75,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 2112.0,
+    'vwap': 21.749522}}
+2025-08-20 12:12:32 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:12:32 INFO: Current average volume is: 885.8
+2025-08-20 12:12:32 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:13:32 INFO: {'BZ': {   'close': 21.77,
+    'high': 21.775,
+    'low': 21.77,
+    'open': 21.775,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 246.0,
+    'vwap': 21.7725}}
+2025-08-20 12:13:32 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:13:32 INFO: Current average volume is: 895.4
+2025-08-20 12:13:32 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:15:32 INFO: {'BZ': {   'close': 21.69,
+    'high': 21.69,
+    'low': 21.69,
+    'open': 21.69,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 510.0,
+    'vwap': 21.69}}
+2025-08-20 12:15:32 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:15:32 INFO: Current average volume is: 653.4
+2025-08-20 12:15:32 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:19:33 INFO: {'BZ': {   'close': 21.73,
+    'high': 21.73,
+    'low': 21.73,
+    'open': 21.73,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.73}}
+2025-08-20 12:19:33 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:19:33 INFO: Current average volume is: 523.9
+2025-08-20 12:19:33 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:21:33 INFO: {'BZ': {   'close': 21.71,
+    'high': 21.71,
+    'low': 21.71,
+    'open': 21.71,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.71}}
+2025-08-20 12:21:33 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:21:33 INFO: Current average volume is: 498.2
+2025-08-20 12:21:33 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:22:33 INFO: {'BZ': {   'close': 21.7,
+    'high': 21.7,
+    'low': 21.7,
+    'open': 21.7,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.7}}
+2025-08-20 12:22:33 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:22:33 INFO: Current average volume is: 468.2
+2025-08-20 12:22:33 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:23:33 INFO: {'BZ': {   'close': 21.725,
+    'high': 21.75,
+    'low': 21.72,
+    'open': 21.72,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 975.0,
+    'vwap': 21.731875}}
+2025-08-20 12:23:33 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:23:33 INFO: Current average volume is: 528.2
+2025-08-20 12:23:33 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:24:34 INFO: {'BZ': {   'close': 21.71,
+    'high': 21.71,
+    'low': 21.71,
+    'open': 21.71,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 123.0,
+    'vwap': 21.71}}
+2025-08-20 12:24:34 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:24:34 INFO: Current average volume is: 472.8
+2025-08-20 12:24:34 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:25:34 INFO: {'BZ': {   'close': 21.74,
+    'high': 21.74,
+    'low': 21.73,
+    'open': 21.73,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.735}}
+2025-08-20 12:25:34 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:25:34 INFO: Current average volume is: 466.6
+2025-08-20 12:25:34 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:26:34 INFO: {'BZ': {   'close': 21.705,
+    'high': 21.755,
+    'low': 21.705,
+    'open': 21.75,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 3365.0,
+    'vwap': 21.742481}}
+2025-08-20 12:26:34 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:26:34 INFO: Current average volume is: 783.1
+2025-08-20 12:26:34 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:27:34 INFO: {'BZ': {   'close': 21.73,
+    'high': 21.73,
+    'low': 21.71,
+    'open': 21.71,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 630.0,
+    'vwap': 21.72}}
+2025-08-20 12:27:34 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:27:34 INFO: Current average volume is: 634.9
+2025-08-20 12:27:34 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:32:35 INFO: {'BZ': {   'close': 21.68,
+    'high': 21.68,
+    'low': 21.68,
+    'open': 21.68,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 139.0,
+    'vwap': 21.68}}
+2025-08-20 12:32:35 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:32:35 INFO: Current average volume is: 624.2
+2025-08-20 12:32:35 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:34:35 INFO: {'BZ': {   'close': 21.63,
+    'high': 21.63,
+    'low': 21.63,
+    'open': 21.63,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 123.0,
+    'vwap': 21.63}}
+2025-08-20 12:34:35 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:34:35 INFO: Current average volume is: 585.5
+2025-08-20 12:34:35 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:37:36 INFO: {'BZ': {   'close': 21.61,
+    'high': 21.635,
+    'low': 21.59,
+    'open': 21.62,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 943.0,
+    'vwap': 21.613982}}
+2025-08-20 12:37:36 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:37:36 INFO: Current average volume is: 669.8
+2025-08-20 12:37:36 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:40:36 INFO: {'BZ': {   'close': 21.62,
+    'high': 21.63,
+    'low': 21.575,
+    'open': 21.575,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1305.0,
+    'vwap': 21.611809}}
+2025-08-20 12:40:36 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:40:36 INFO: Current average volume is: 790.3
+2025-08-20 12:40:36 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:41:36 INFO: {'BZ': {   'close': 21.61,
+    'high': 21.61,
+    'low': 21.61,
+    'open': 21.61,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 183.0,
+    'vwap': 21.61}}
+2025-08-20 12:41:36 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:41:36 INFO: Current average volume is: 798.6
+2025-08-20 12:41:36 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:43:37 INFO: {'BZ': {   'close': 21.655,
+    'high': 21.66,
+    'low': 21.635,
+    'open': 21.635,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1596.0,
+    'vwap': 21.649724}}
+2025-08-20 12:43:37 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:43:37 INFO: Current average volume is: 860.7
+2025-08-20 12:43:37 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:46:37 INFO: {'BZ': {   'close': 21.675,
+    'high': 21.68,
+    'low': 21.65,
+    'open': 21.65,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 645.0,
+    'vwap': 21.673594}}
+2025-08-20 12:46:37 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:46:37 INFO: Current average volume is: 912.9
+2025-08-20 12:46:37 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:48:38 INFO: {'BZ': {   'close': 21.69,
+    'high': 21.71,
+    'low': 21.69,
+    'open': 21.71,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1163.0,
+    'vwap': 21.701}}
+2025-08-20 12:48:38 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:48:38 INFO: Current average volume is: 1009.2
+2025-08-20 12:48:38 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:51:38 INFO: {'BZ': {   'close': 21.715,
+    'high': 21.715,
+    'low': 21.715,
+    'open': 21.715,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 283.0,
+    'vwap': 21.715}}
+2025-08-20 12:51:38 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:51:38 INFO: Current average volume is: 701.0
+2025-08-20 12:51:38 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:52:38 INFO: {'BZ': {   'close': 21.71,
+    'high': 21.71,
+    'low': 21.71,
+    'open': 21.71,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 21.71}}
+2025-08-20 12:52:38 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:52:38 INFO: Current average volume is: 658.2
+2025-08-20 12:52:38 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:53:38 INFO: {'BZ': {   'close': 21.725,
+    'high': 21.725,
+    'low': 21.725,
+    'open': 21.725,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 422.0,
+    'vwap': 21.725}}
+2025-08-20 12:53:38 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:53:38 INFO: Current average volume is: 686.5
+2025-08-20 12:53:38 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:54:38 INFO: {'BZ': {   'close': 21.72,
+    'high': 21.72,
+    'low': 21.72,
+    'open': 21.72,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 762.0,
+    'vwap': 21.72}}
+2025-08-20 12:54:38 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:54:38 INFO: Current average volume is: 750.4
+2025-08-20 12:54:38 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 12:57:39 INFO: {'BZ': {   'close': 21.7,
+    'high': 21.7,
+    'low': 21.7,
+    'open': 21.7,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 446.0,
+    'vwap': 21.7}}
+2025-08-20 12:57:39 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 12:57:39 INFO: Current average volume is: 700.7
+2025-08-20 12:57:39 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 13:01:40 INFO: {'BZ': {   'close': 21.73,
+    'high': 21.73,
+    'low': 21.73,
+    'open': 21.73,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.73}}
+2025-08-20 13:01:40 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 13:01:40 INFO: Current average volume is: 590.2
+2025-08-20 13:01:40 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 13:05:40 INFO: {'BZ': {   'close': 21.74,
+    'high': 21.74,
+    'low': 21.72,
+    'open': 21.72,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 373.0,
+    'vwap': 21.73}}
+2025-08-20 13:05:40 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 13:05:40 INFO: Current average volume is: 609.2
+2025-08-20 13:05:40 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 13:07:41 INFO: {'BZ': {   'close': 21.775,
+    'high': 21.775,
+    'low': 21.76,
+    'open': 21.76,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.7675}}
+2025-08-20 13:07:41 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 13:07:41 INFO: Current average volume is: 469.6
+2025-08-20 13:07:41 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 13:08:41 INFO: {'BZ': {   'close': 21.75,
+    'high': 21.75,
+    'low': 21.75,
+    'open': 21.75,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.75}}
+2025-08-20 13:08:41 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 13:08:41 INFO: Current average volume is: 425.1
+2025-08-20 13:08:41 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 13:10:41 INFO: {'BZ': {   'close': 21.78,
+    'high': 21.8,
+    'low': 21.78,
+    'open': 21.8,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 21.7875}}
+2025-08-20 13:10:41 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 13:10:41 INFO: Current average volume is: 348.8
+2025-08-20 13:10:41 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 13:12:41 INFO: {'BZ': {   'close': 21.82,
+    'high': 21.83,
+    'low': 21.82,
+    'open': 21.83,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 511.0,
+    'vwap': 21.825951}}
+2025-08-20 13:12:41 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 13:12:41 INFO: Current average volume is: 371.6
+2025-08-20 13:12:41 INFO: Updated resistance to: 21.85 and support to: 21.04
+2025-08-20 13:13:42 INFO: {'BZ': {   'close': 21.83,
+    'high': 21.86,
+    'low': 21.83,
+    'open': 21.835,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1658.0,
+    'vwap': 21.838615}}
+2025-08-20 13:13:42 INFO: Current resistance is: 21.85 and support is: 21.04
+2025-08-20 13:13:42 INFO: Current average volume is: 517.2
+2025-08-20 13:13:42 INFO: Updated resistance to: 21.86 and support to: 21.04
+2025-08-20 13:14:42 INFO: {'BZ': {   'close': 21.81,
+    'high': 21.81,
+    'low': 21.81,
+    'open': 21.81,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 442.0,
+    'vwap': 21.81}}
+2025-08-20 13:14:42 INFO: Current resistance is: 21.86 and support is: 21.04
+2025-08-20 13:14:42 INFO: Current average volume is: 519.2
+2025-08-20 13:14:42 INFO: Updated resistance to: 21.86 and support to: 21.04
+2025-08-20 13:16:42 INFO: {'BZ': {   'close': 21.855,
+    'high': 21.855,
+    'low': 21.84,
+    'open': 21.84,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1128.0,
+    'vwap': 21.85}}
+2025-08-20 13:16:42 INFO: Current resistance is: 21.86 and support is: 21.04
+2025-08-20 13:16:42 INFO: Current average volume is: 555.8
+2025-08-20 13:16:42 INFO: Updated resistance to: 21.86 and support to: 21.04
+2025-08-20 13:17:42 INFO: {'BZ': {   'close': 21.845,
+    'high': 21.87,
+    'low': 21.845,
+    'open': 21.86,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1070.0,
+    'vwap': 21.860637}}
+2025-08-20 13:17:42 INFO: Current resistance is: 21.86 and support is: 21.04
+2025-08-20 13:17:42 INFO: Current average volume is: 618.2
+2025-08-20 13:17:42 INFO: Updated resistance to: 21.87 and support to: 21.04
+2025-08-20 13:18:42 INFO: {'BZ': {   'close': 21.88,
+    'high': 21.89,
+    'low': 21.83,
+    'open': 21.83,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 7115.0,
+    'vwap': 21.873542}}
+2025-08-20 13:18:42 INFO: Current resistance is: 21.87 and support is: 21.04
+2025-08-20 13:18:42 INFO: Current average volume is: 1309.7
+2025-08-20 13:18:42 INFO: The Current Close 21.88 is above the resistance...
+2025-08-20 13:18:42 INFO: Updated resistance to: 21.89 and support to: 21.04
+2025-08-20 13:19:12 INFO: {'BZ': {   'close': 21.87,
+    'high': 21.88,
+    'low': 21.84,
+    'open': 21.88,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1969.0,
+    'vwap': 21.871611}}
+2025-08-20 13:19:12 INFO: Current resistance is: 21.89 and support is: 21.04
+2025-08-20 13:19:12 INFO: Current average volume is: 1469.3
+2025-08-20 13:19:12 INFO: Updated resistance to: 21.89 and support to: 21.04
+2025-08-20 13:20:13 INFO: {'BZ': {   'close': 21.93,
+    'high': 21.93,
+    'low': 21.93,
+    'open': 21.93,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 470.0,
+    'vwap': 21.93}}
+2025-08-20 13:20:13 INFO: Current resistance is: 21.89 and support is: 21.04
+2025-08-20 13:20:13 INFO: Current average volume is: 1496.3
+2025-08-20 13:20:13 INFO: The Current Close 21.93 is above the resistance...
+2025-08-20 13:20:13 INFO: Updated resistance to: 21.93 and support to: 21.04
+2025-08-20 13:21:13 INFO: {'BZ': {   'close': 22.04,
+    'high': 22.045,
+    'low': 21.92,
+    'open': 21.92,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 808.0,
+    'vwap': 22.0}}
+2025-08-20 13:21:13 INFO: Current resistance is: 21.93 and support is: 21.04
+2025-08-20 13:21:13 INFO: Current average volume is: 1557.1
+2025-08-20 13:21:13 INFO: The current close: 22.04 is above the resistance of 21.93, but volume isn't enough...
+2025-08-20 13:21:13 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:22:13 INFO: {'BZ': {   'close': 21.98,
+    'high': 22.04,
+    'low': 21.98,
+    'open': 22.04,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 318.0,
+    'vwap': 22.0}}
+2025-08-20 13:22:13 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:22:13 INFO: Current average volume is: 1548.9
+2025-08-20 13:22:13 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:23:13 INFO: {'BZ': {   'close': 21.99,
+    'high': 21.99,
+    'low': 21.97,
+    'open': 21.97,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 328.0,
+    'vwap': 21.976667}}
+2025-08-20 13:23:13 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:23:13 INFO: Current average volume is: 1530.6
+2025-08-20 13:23:13 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:24:14 INFO: {'BZ': {   'close': 22.0,
+    'high': 22.0,
+    'low': 22.0,
+    'open': 22.0,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 304.0,
+    'vwap': 22.0}}
+2025-08-20 13:24:14 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:24:14 INFO: Current average volume is: 1395.2
+2025-08-20 13:24:14 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:25:14 INFO: {'BZ': {   'close': 21.91,
+    'high': 21.98,
+    'low': 21.91,
+    'open': 21.97,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2010.0,
+    'vwap': 21.943743}}
+2025-08-20 13:25:14 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:25:14 INFO: Current average volume is: 1552.0
+2025-08-20 13:25:14 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:26:14 INFO: {'BZ': {   'close': 21.95,
+    'high': 21.95,
+    'low': 21.95,
+    'open': 21.95,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 415.0,
+    'vwap': 21.95}}
+2025-08-20 13:26:14 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:26:14 INFO: Current average volume is: 1480.7
+2025-08-20 13:26:14 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:28:14 INFO: {'BZ': {   'close': 21.925,
+    'high': 21.925,
+    'low': 21.925,
+    'open': 21.925,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.925}}
+2025-08-20 13:28:14 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:28:14 INFO: Current average volume is: 1383.7
+2025-08-20 13:28:14 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:29:14 INFO: {'BZ': {   'close': 21.94,
+    'high': 21.94,
+    'low': 21.94,
+    'open': 21.94,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 125.0,
+    'vwap': 21.94}}
+2025-08-20 13:29:14 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:29:14 INFO: Current average volume is: 684.7
+2025-08-20 13:29:14 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:36:15 INFO: {'BZ': {   'close': 21.93,
+    'high': 21.96,
+    'low': 21.93,
+    'open': 21.96,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 21.945}}
+2025-08-20 13:36:15 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:36:15 INFO: Current average volume is: 517.8
+2025-08-20 13:36:15 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:38:16 INFO: {'BZ': {   'close': 21.91,
+    'high': 21.91,
+    'low': 21.91,
+    'open': 21.91,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 125.0,
+    'vwap': 21.91}}
+2025-08-20 13:38:16 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:38:16 INFO: Current average volume is: 483.3
+2025-08-20 13:38:16 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:40:16 INFO: {'BZ': {   'close': 21.94,
+    'high': 21.94,
+    'low': 21.94,
+    'open': 21.94,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.94}}
+2025-08-20 13:40:16 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:40:16 INFO: Current average volume is: 412.5
+2025-08-20 13:40:16 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:43:17 INFO: {'BZ': {   'close': 21.92,
+    'high': 21.92,
+    'low': 21.91,
+    'open': 21.92,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 684.0,
+    'vwap': 21.916115}}
+2025-08-20 13:43:17 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:43:17 INFO: Current average volume is: 449.1
+2025-08-20 13:43:17 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:44:17 INFO: {'BZ': {   'close': 21.9,
+    'high': 21.9,
+    'low': 21.9,
+    'open': 21.9,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 21.9}}
+2025-08-20 13:44:17 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:44:17 INFO: Current average volume is: 436.3
+2025-08-20 13:44:17 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:45:17 INFO: {'BZ': {   'close': 21.87,
+    'high': 21.87,
+    'low': 21.87,
+    'open': 21.87,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 139.0,
+    'vwap': 21.87}}
+2025-08-20 13:45:17 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:45:17 INFO: Current average volume is: 419.8
+2025-08-20 13:45:17 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:46:17 INFO: {'BZ': {   'close': 21.88,
+    'high': 21.88,
+    'low': 21.88,
+    'open': 21.88,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 138.0,
+    'vwap': 21.88}}
+2025-08-20 13:46:17 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:46:17 INFO: Current average volume is: 232.6
+2025-08-20 13:46:17 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:48:17 INFO: {'BZ': {   'close': 21.885,
+    'high': 21.885,
+    'low': 21.885,
+    'open': 21.885,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.885}}
+2025-08-20 13:48:17 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:48:17 INFO: Current average volume is: 201.1
+2025-08-20 13:48:17 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:49:18 INFO: {'BZ': {   'close': 21.83,
+    'high': 21.85,
+    'low': 21.83,
+    'open': 21.84,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1002.0,
+    'vwap': 21.84}}
+2025-08-20 13:49:18 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:49:18 INFO: Current average volume is: 291.3
+2025-08-20 13:49:18 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:50:18 INFO: {'BZ': {   'close': 21.905,
+    'high': 21.905,
+    'low': 21.905,
+    'open': 21.905,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 580.0,
+    'vwap': 21.905}}
+2025-08-20 13:50:18 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:50:18 INFO: Current average volume is: 336.8
+2025-08-20 13:50:18 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:51:18 INFO: {'BZ': {   'close': 21.84,
+    'high': 21.865,
+    'low': 21.84,
+    'open': 21.865,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 594.0,
+    'vwap': 21.857424}}
+2025-08-20 13:51:18 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:51:18 INFO: Current average volume is: 366.2
+2025-08-20 13:51:18 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:55:19 INFO: {'BZ': {   'close': 21.925,
+    'high': 21.925,
+    'low': 21.925,
+    'open': 21.925,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 902.0,
+    'vwap': 21.925}}
+2025-08-20 13:55:19 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:55:19 INFO: Current average volume is: 443.9
+2025-08-20 13:55:19 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:56:19 INFO: {'BZ': {   'close': 21.91,
+    'high': 21.92,
+    'low': 21.91,
+    'open': 21.92,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 617.0,
+    'vwap': 21.9125}}
+2025-08-20 13:56:19 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:56:19 INFO: Current average volume is: 495.6
+2025-08-20 13:56:19 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 13:58:19 INFO: {'BZ': {   'close': 21.99,
+    'high': 21.99,
+    'low': 21.98,
+    'open': 21.98,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 874.0,
+    'vwap': 21.985611}}
+2025-08-20 13:58:19 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 13:58:19 INFO: Current average volume is: 514.6
+2025-08-20 13:58:19 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:00:19 INFO: {'BZ': {   'close': 22.015,
+    'high': 22.015,
+    'low': 21.985,
+    'open': 21.99,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1284.0,
+    'vwap': 22.000056}}
+2025-08-20 14:00:19 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:00:19 INFO: Current average volume is: 623.0
+2025-08-20 14:00:19 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:04:20 INFO: {'BZ': {   'close': 21.97,
+    'high': 21.97,
+    'low': 21.97,
+    'open': 21.97,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.97}}
+2025-08-20 14:04:20 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:04:20 INFO: Current average volume is: 619.1
+2025-08-20 14:04:20 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:05:20 INFO: {'BZ': {   'close': 21.99,
+    'high': 21.99,
+    'low': 21.99,
+    'open': 21.99,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 21.99}}
+2025-08-20 14:05:20 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:05:20 INFO: Current average volume is: 615.3
+2025-08-20 14:05:20 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:06:20 INFO: {'BZ': {   'close': 21.95,
+    'high': 21.96,
+    'low': 21.95,
+    'open': 21.96,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 391.0,
+    'vwap': 21.955}}
+2025-08-20 14:06:20 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:06:20 INFO: Current average volume is: 644.4
+2025-08-20 14:06:20 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:07:21 INFO: {'BZ': {   'close': 21.975,
+    'high': 21.975,
+    'low': 21.975,
+    'open': 21.975,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 141.0,
+    'vwap': 21.975}}
+2025-08-20 14:07:21 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:07:21 INFO: Current average volume is: 558.3
+2025-08-20 14:07:21 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:08:22 INFO: {'BZ': {   'close': 21.99,
+    'high': 21.99,
+    'low': 21.99,
+    'open': 21.99,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 21.99}}
+2025-08-20 14:08:22 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:08:22 INFO: Current average volume is: 512.3
+2025-08-20 14:08:22 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:12:22 INFO: {'BZ': {   'close': 21.92,
+    'high': 21.95,
+    'low': 21.91,
+    'open': 21.91,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1140.0,
+    'vwap': 21.926981}}
+2025-08-20 14:12:22 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:12:22 INFO: Current average volume is: 566.9
+2025-08-20 14:12:22 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:13:22 INFO: {'BZ': {   'close': 21.9,
+    'high': 21.9,
+    'low': 21.9,
+    'open': 21.9,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 3357.0,
+    'vwap': 21.9}}
+2025-08-20 14:13:22 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:13:22 INFO: Current average volume is: 812.4
+2025-08-20 14:13:22 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:19:23 INFO: {'BZ': {   'close': 21.915,
+    'high': 21.915,
+    'low': 21.885,
+    'open': 21.885,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 975.0,
+    'vwap': 21.897638}}
+2025-08-20 14:19:23 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:19:23 INFO: Current average volume is: 848.2
+2025-08-20 14:19:23 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:21:24 INFO: {'BZ': {   'close': 21.88,
+    'high': 21.9,
+    'low': 21.88,
+    'open': 21.9,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 203.0,
+    'vwap': 21.89}}
+2025-08-20 14:21:24 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:21:24 INFO: Current average volume is: 781.1
+2025-08-20 14:21:24 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:24:24 INFO: {'BZ': {   'close': 22.025,
+    'high': 22.025,
+    'low': 22.0,
+    'open': 22.005,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 607.0,
+    'vwap': 22.008488}}
+2025-08-20 14:24:24 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:24:24 INFO: Current average volume is: 713.4
+2025-08-20 14:24:24 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:29:25 INFO: {'BZ': {   'close': 21.99,
+    'high': 21.99,
+    'low': 21.96,
+    'open': 21.96,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 909.0,
+    'vwap': 21.982405}}
+2025-08-20 14:29:25 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:29:25 INFO: Current average volume is: 794.3
+2025-08-20 14:29:25 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:32:25 INFO: {'BZ': {   'close': 21.97,
+    'high': 21.97,
+    'low': 21.97,
+    'open': 21.97,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 21.97}}
+2025-08-20 14:32:25 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:32:25 INFO: Current average volume is: 814.3
+2025-08-20 14:32:25 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:37:26 INFO: {'BZ': {   'close': 22.04,
+    'high': 22.04,
+    'low': 22.04,
+    'open': 22.04,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 22.04}}
+2025-08-20 14:37:26 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:37:26 INFO: Current average volume is: 795.2
+2025-08-20 14:37:26 INFO: Updated resistance to: 22.045 and support to: 21.04
+2025-08-20 14:39:27 INFO: {'BZ': {   'close': 22.06,
+    'high': 22.06,
+    'low': 22.06,
+    'open': 22.06,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 198.0,
+    'vwap': 22.06}}
+2025-08-20 14:39:27 INFO: Current resistance is: 22.045 and support is: 21.04
+2025-08-20 14:39:27 INFO: Current average volume is: 800.9
+2025-08-20 14:39:27 INFO: The Current Close 22.06 is above the resistance...
+2025-08-20 14:39:27 INFO: Updated resistance to: 22.06 and support to: 21.04
+2025-08-20 14:40:27 INFO: {'BZ': {   'close': 22.04,
+    'high': 22.05,
+    'low': 22.04,
+    'open': 22.05,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 22.045}}
+2025-08-20 14:40:27 INFO: Current resistance is: 22.06 and support is: 21.04
+2025-08-20 14:40:27 INFO: Current average volume is: 809.9
+2025-08-20 14:40:27 INFO: Updated resistance to: 22.06 and support to: 21.04
+2025-08-20 14:41:27 INFO: {'BZ': {   'close': 22.035,
+    'high': 22.065,
+    'low': 22.035,
+    'open': 22.065,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 206.0,
+    'vwap': 22.05}}
+2025-08-20 14:41:27 INFO: Current resistance is: 22.06 and support is: 21.04
+2025-08-20 14:41:27 INFO: Current average volume is: 716.5
+2025-08-20 14:41:27 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 14:43:27 INFO: {'BZ': {   'close': 22.02,
+    'high': 22.02,
+    'low': 22.02,
+    'open': 22.02,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 286.0,
+    'vwap': 22.02}}
+2025-08-20 14:43:27 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 14:43:27 INFO: Current average volume is: 409.4
+2025-08-20 14:43:27 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 14:45:28 INFO: {'BZ': {   'close': 22.01,
+    'high': 22.01,
+    'low': 22.01,
+    'open': 22.01,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 188.0,
+    'vwap': 22.01}}
+2025-08-20 14:45:28 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 14:45:28 INFO: Current average volume is: 330.7
+2025-08-20 14:45:28 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 14:46:28 INFO: {'BZ': {   'close': 21.995,
+    'high': 22.0,
+    'low': 21.99,
+    'open': 22.0,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2112.0,
+    'vwap': 21.994128}}
+2025-08-20 14:46:28 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 14:46:28 INFO: Current average volume is: 521.6
+2025-08-20 14:46:28 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 14:50:29 INFO: {'BZ': {   'close': 22.025,
+    'high': 22.025,
+    'low': 22.025,
+    'open': 22.025,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 22.025}}
+2025-08-20 14:50:29 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 14:50:29 INFO: Current average volume is: 471.4
+2025-08-20 14:50:29 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 14:52:29 INFO: {'BZ': {   'close': 22.065,
+    'high': 22.065,
+    'low': 22.055,
+    'open': 22.06,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1192.0,
+    'vwap': 22.061818}}
+2025-08-20 14:52:29 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 14:52:29 INFO: Current average volume is: 499.7
+2025-08-20 14:52:29 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 14:55:29 INFO: {'BZ': {   'close': 22.03,
+    'high': 22.04,
+    'low': 22.03,
+    'open': 22.04,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1043.0,
+    'vwap': 22.03345}}
+2025-08-20 14:55:29 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 14:55:29 INFO: Current average volume is: 574.0
+2025-08-20 14:55:29 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 14:56:30 INFO: {'BZ': {   'close': 22.025,
+    'high': 22.025,
+    'low': 22.015,
+    'open': 22.015,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1140.0,
+    'vwap': 22.023676}}
+2025-08-20 14:56:30 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 14:56:30 INFO: Current average volume is: 668.0
+2025-08-20 14:56:30 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 15:00:30 INFO: {'BZ': {   'close': 22.04,
+    'high': 22.04,
+    'low': 22.04,
+    'open': 22.04,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 174.0,
+    'vwap': 22.04}}
+2025-08-20 15:00:30 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 15:00:30 INFO: Current average volume is: 665.6
+2025-08-20 15:00:30 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 15:01:30 INFO: {'BZ': {   'close': 22.045,
+    'high': 22.045,
+    'low': 22.045,
+    'open': 22.045,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 129.0,
+    'vwap': 22.045}}
+2025-08-20 15:01:30 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 15:01:30 INFO: Current average volume is: 657.5
+2025-08-20 15:01:30 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 15:02:31 INFO: {'BZ': {   'close': 22.025,
+    'high': 22.025,
+    'low': 22.025,
+    'open': 22.025,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 414.0,
+    'vwap': 22.025}}
+2025-08-20 15:02:31 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 15:02:31 INFO: Current average volume is: 678.3
+2025-08-20 15:02:31 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 15:04:31 INFO: {'BZ': {   'close': 22.02,
+    'high': 22.02,
+    'low': 22.02,
+    'open': 22.02,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 607.0,
+    'vwap': 22.02}}
+2025-08-20 15:04:31 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 15:04:31 INFO: Current average volume is: 710.4
+2025-08-20 15:04:31 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 15:05:31 INFO: {'BZ': {   'close': 22.05,
+    'high': 22.06,
+    'low': 22.05,
+    'open': 22.06,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1064.0,
+    'vwap': 22.055}}
+2025-08-20 15:05:31 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 15:05:31 INFO: Current average volume is: 798.0
+2025-08-20 15:05:31 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 15:06:31 INFO: {'BZ': {   'close': 22.03,
+    'high': 22.045,
+    'low': 22.03,
+    'open': 22.045,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 856.0,
+    'vwap': 22.0425}}
+2025-08-20 15:06:31 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 15:06:31 INFO: Current average volume is: 672.4
+2025-08-20 15:06:31 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 15:07:31 INFO: {'BZ': {   'close': 22.06,
+    'high': 22.06,
+    'low': 22.06,
+    'open': 22.06,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 251.0,
+    'vwap': 22.06}}
+2025-08-20 15:07:31 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 15:07:31 INFO: Current average volume is: 687.0
+2025-08-20 15:07:31 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 15:08:32 INFO: {'BZ': {   'close': 22.065,
+    'high': 22.065,
+    'low': 22.065,
+    'open': 22.065,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 963.0,
+    'vwap': 22.065}}
+2025-08-20 15:08:32 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 15:08:32 INFO: Current average volume is: 664.1
+2025-08-20 15:08:32 INFO: Updated resistance to: 22.065 and support to: 21.04
+2025-08-20 15:12:32 INFO: {'BZ': {   'close': 22.11,
+    'high': 22.11,
+    'low': 22.105,
+    'open': 22.105,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 652.0,
+    'vwap': 22.106754}}
+2025-08-20 15:12:32 INFO: Current resistance is: 22.065 and support is: 21.04
+2025-08-20 15:12:32 INFO: Current average volume is: 625.0
+2025-08-20 15:12:32 INFO: The Current Close 22.11 is above the resistance...
+2025-08-20 15:12:32 INFO: Updated resistance to: 22.11 and support to: 21.04
+2025-08-20 15:19:04 INFO: {'BZ': {   'close': 22.08,
+    'high': 22.115,
+    'low': 22.08,
+    'open': 22.11,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1575.0,
+    'vwap': 22.094333}}
+2025-08-20 15:19:04 INFO: Current resistance is: 22.11 and support is: 21.04
+2025-08-20 15:19:04 INFO: Current average volume is: 668.5
+2025-08-20 15:19:04 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:20:04 INFO: {'BZ': {   'close': 22.04,
+    'high': 22.05,
+    'low': 22.04,
+    'open': 22.05,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 877.0,
+    'vwap': 22.048}}
+2025-08-20 15:20:04 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:20:04 INFO: Current average volume is: 738.8
+2025-08-20 15:20:04 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:24:05 INFO: {'BZ': {   'close': 22.095,
+    'high': 22.1,
+    'low': 22.09,
+    'open': 22.09,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 559.0,
+    'vwap': 22.095}}
+2025-08-20 15:24:05 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:24:05 INFO: Current average volume is: 781.8
+2025-08-20 15:24:05 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:25:05 INFO: {'BZ': {   'close': 22.06,
+    'high': 22.09,
+    'low': 22.06,
+    'open': 22.08,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1470.0,
+    'vwap': 22.078571}}
+2025-08-20 15:25:05 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:25:05 INFO: Current average volume is: 887.4
+2025-08-20 15:25:05 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:26:05 INFO: {'BZ': {   'close': 22.03,
+    'high': 22.04,
+    'low': 22.02,
+    'open': 22.04,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1053.0,
+    'vwap': 22.031667}}
+2025-08-20 15:26:05 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:26:05 INFO: Current average volume is: 932.0
+2025-08-20 15:26:05 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:27:06 INFO: {'BZ': {   'close': 22.05,
+    'high': 22.06,
+    'low': 22.05,
+    'open': 22.06,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 779.0,
+    'vwap': 22.056667}}
+2025-08-20 15:27:06 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:27:06 INFO: Current average volume is: 903.5
+2025-08-20 15:27:06 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:28:06 INFO: {'BZ': {   'close': 22.035,
+    'high': 22.05,
+    'low': 22.035,
+    'open': 22.05,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 685.0,
+    'vwap': 22.039167}}
+2025-08-20 15:28:06 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:28:06 INFO: Current average volume is: 886.4
+2025-08-20 15:28:06 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:29:06 INFO: {'BZ': {   'close': 22.04,
+    'high': 22.04,
+    'low': 22.03,
+    'open': 22.035,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 708.0,
+    'vwap': 22.035}}
+2025-08-20 15:29:06 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:29:06 INFO: Current average volume is: 932.1
+2025-08-20 15:29:06 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:30:06 INFO: {'BZ': {   'close': 22.05,
+    'high': 22.05,
+    'low': 22.05,
+    'open': 22.05,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 583.0,
+    'vwap': 22.05}}
+2025-08-20 15:30:06 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:30:06 INFO: Current average volume is: 894.1
+2025-08-20 15:30:06 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:31:06 INFO: {'BZ': {   'close': 22.045,
+    'high': 22.045,
+    'low': 22.045,
+    'open': 22.045,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 22.045}}
+2025-08-20 15:31:06 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:31:06 INFO: Current average volume is: 848.9
+2025-08-20 15:31:06 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:33:07 INFO: {'BZ': {   'close': 22.05,
+    'high': 22.06,
+    'low': 22.04,
+    'open': 22.06,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1309.0,
+    'vwap': 22.055104}}
+2025-08-20 15:33:07 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:33:07 INFO: Current average volume is: 822.3
+2025-08-20 15:33:07 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:37:07 INFO: {'BZ': {   'close': 22.07,
+    'high': 22.09,
+    'low': 22.07,
+    'open': 22.08,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 4238.0,
+    'vwap': 22.080045}}
+2025-08-20 15:37:07 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:37:07 INFO: Current average volume is: 1158.4
+2025-08-20 15:37:07 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:38:07 INFO: {'BZ': {   'close': 22.045,
+    'high': 22.07,
+    'low': 22.045,
+    'open': 22.07,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 572.0,
+    'vwap': 22.055}}
+2025-08-20 15:38:07 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:38:07 INFO: Current average volume is: 1159.7
+2025-08-20 15:38:07 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:39:07 INFO: {'BZ': {   'close': 22.06,
+    'high': 22.06,
+    'low': 22.04,
+    'open': 22.04,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1194.0,
+    'vwap': 22.048889}}
+2025-08-20 15:39:07 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:39:07 INFO: Current average volume is: 1132.1
+2025-08-20 15:39:07 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:40:08 INFO: {'BZ': {   'close': 22.03,
+    'high': 22.055,
+    'low': 22.03,
+    'open': 22.055,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 760.0,
+    'vwap': 22.04375}}
+2025-08-20 15:40:08 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:40:08 INFO: Current average volume is: 1102.8
+2025-08-20 15:40:08 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:43:08 INFO: {'BZ': {   'close': 21.98,
+    'high': 22.02,
+    'low': 21.98,
+    'open': 22.02,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 914.0,
+    'vwap': 21.994286}}
+2025-08-20 15:43:08 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:43:08 INFO: Current average volume is: 1116.3
+2025-08-20 15:43:08 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:44:08 INFO: {'BZ': {   'close': 21.96,
+    'high': 21.975,
+    'low': 21.96,
+    'open': 21.975,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1418.0,
+    'vwap': 21.972931}}
+2025-08-20 15:44:08 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:44:08 INFO: Current average volume is: 1189.6
+2025-08-20 15:44:08 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:45:08 INFO: {'BZ': {   'close': 21.95,
+    'high': 21.96,
+    'low': 21.945,
+    'open': 21.945,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 973.0,
+    'vwap': 21.951667}}
+2025-08-20 15:45:08 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:45:08 INFO: Current average volume is: 1216.1
+2025-08-20 15:45:08 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:46:09 INFO: {'BZ': {   'close': 21.975,
+    'high': 22.0,
+    'low': 21.9,
+    'open': 21.975,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 4540.0,
+    'vwap': 21.953899}}
+2025-08-20 15:46:09 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:46:09 INFO: Current average volume is: 1611.8
+2025-08-20 15:46:09 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:47:09 INFO: {'BZ': {   'close': 22.06,
+    'high': 22.06,
+    'low': 21.985,
+    'open': 21.985,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2074.0,
+    'vwap': 22.00825}}
+2025-08-20 15:47:09 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:47:09 INFO: Current average volume is: 1799.2
+2025-08-20 15:47:09 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:48:09 INFO: {'BZ': {   'close': 22.05,
+    'high': 22.07,
+    'low': 22.045,
+    'open': 22.07,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1099.0,
+    'vwap': 22.0625}}
+2025-08-20 15:48:09 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:48:09 INFO: Current average volume is: 1778.2
+2025-08-20 15:48:09 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:50:09 INFO: {'BZ': {   'close': 22.1,
+    'high': 22.105,
+    'low': 22.1,
+    'open': 22.105,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 809.0,
+    'vwap': 22.100833}}
+2025-08-20 15:50:09 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:50:09 INFO: Current average volume is: 1435.3
+2025-08-20 15:50:09 INFO: Updated resistance to: 22.115 and support to: 21.04
+2025-08-20 15:51:09 INFO: {'BZ': {   'close': 22.13,
+    'high': 22.13,
+    'low': 22.09,
+    'open': 22.09,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2514.0,
+    'vwap': 22.102305}}
+2025-08-20 15:51:09 INFO: Current resistance is: 22.115 and support is: 21.04
+2025-08-20 15:51:09 INFO: Current average volume is: 1629.5
+2025-08-20 15:51:09 INFO: The Current Close 22.13 is above the resistance...
+2025-08-20 15:51:09 INFO: Updated resistance to: 22.13 and support to: 21.04
+2025-08-20 15:52:10 INFO: {'BZ': {   'close': 22.155,
+    'high': 22.16,
+    'low': 22.14,
+    'open': 22.14,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1709.0,
+    'vwap': 22.153438}}
+2025-08-20 15:52:10 INFO: Current resistance is: 22.13 and support is: 21.04
+2025-08-20 15:52:10 INFO: Current average volume is: 1681.0
+2025-08-20 15:52:10 INFO: The current close: 22.155 is above the resistance of 22.13, but volume isn't enough...
+2025-08-20 15:52:10 INFO: Updated resistance to: 22.16 and support to: 21.04
+2025-08-20 15:54:10 INFO: {'BZ': {   'close': 22.18,
+    'high': 22.18,
+    'low': 22.17,
+    'open': 22.17,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 906.0,
+    'vwap': 22.175}}
+2025-08-20 15:54:10 INFO: Current resistance is: 22.16 and support is: 21.04
+2025-08-20 15:54:10 INFO: Current average volume is: 1695.6
+2025-08-20 15:54:10 INFO: The current close: 22.18 is above the resistance of 22.16, but volume isn't enough...
+2025-08-20 15:54:10 INFO: Updated resistance to: 22.18 and support to: 21.04
+2025-08-20 15:55:11 INFO: {'BZ': {   'close': 22.21,
+    'high': 22.21,
+    'low': 22.18,
+    'open': 22.18,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 3189.0,
+    'vwap': 22.195582}}
+2025-08-20 15:55:11 INFO: Current resistance is: 22.18 and support is: 21.04
+2025-08-20 15:55:11 INFO: Current average volume is: 1923.1
+2025-08-20 15:55:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-20 15:56:11 INFO: {'BZ': {   'close': 22.22,
+    'high': 22.23,
+    'low': 22.22,
+    'open': 22.23,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 949.0,
+    'vwap': 22.222667}}
+2025-08-20 15:56:11 INFO: Current resistance is: 22.18 and support is: 21.04
+2025-08-20 15:56:11 INFO: Current average volume is: 1876.2
+2025-08-20 15:56:11 INFO: The current close: 22.22 is above the resistance of 22.18, but volume isn't enough...
+2025-08-20 15:56:11 INFO: Updated resistance to: 22.23 and support to: 21.04
+2025-08-20 15:57:11 INFO: {'BZ': {   'close': 22.16,
+    'high': 22.22,
+    'low': 22.13,
+    'open': 22.22,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 4564.0,
+    'vwap': 22.160761}}
+2025-08-20 15:57:11 INFO: Current resistance is: 22.23 and support is: 21.04
+2025-08-20 15:57:11 INFO: Current average volume is: 2235.3
+2025-08-20 15:57:11 INFO: Updated resistance to: 22.23 and support to: 21.04
+2025-08-20 15:58:11 INFO: {'BZ': {   'close': 22.11,
+    'high': 22.16,
+    'low': 22.11,
+    'open': 22.14,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2430.0,
+    'vwap': 22.137093}}
+2025-08-20 15:58:11 INFO: Current resistance is: 22.23 and support is: 21.04
+2025-08-20 15:58:11 INFO: Current average volume is: 2024.3
+2025-08-20 15:58:11 INFO: Updated resistance to: 22.23 and support to: 21.04
+2025-08-20 15:59:12 INFO: {'BZ': {   'close': 22.085,
+    'high': 22.13,
+    'low': 22.085,
+    'open': 22.115,
+    'symbol': 'BZ',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 91.0,
+    'volume': 2793.0,
+    'vwap': 22.113792}}
+2025-08-20 15:59:12 INFO: Current resistance is: 22.23 and support is: 21.04
+2025-08-20 15:59:12 INFO: Current average volume is: 2096.2
+2025-08-20 15:59:12 INFO: Updated resistance to: 22.23 and support to: 21.04
+2025-08-20 16:00:12 INFO: The Market is closed...

@@ -1,0 +1,908 @@
+2025-08-20 11:55:20 INFO: === Strategy started ===
+2025-08-20 11:55:20 INFO: Start collecting the current highs/lows for: SRRK
+2025-08-20 11:55:20 INFO: Most recent stock data: {'SRRK': {   'close': 33.98,
+    'high': 34.075,
+    'low': 33.97,
+    'open': 34.075,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 600.0,
+    'vwap': 34.01}}
+2025-08-20 11:56:21 INFO: Most recent stock data: {'SRRK': {   'close': 34.18,
+    'high': 34.22,
+    'low': 34.0,
+    'open': 34.0,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1213.0,
+    'vwap': 34.08}}
+2025-08-20 11:57:21 INFO: Most recent stock data: {'SRRK': {   'close': 33.91,
+    'high': 34.0,
+    'low': 33.91,
+    'open': 34.0,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1368.0,
+    'vwap': 33.963095}}
+2025-08-20 11:58:21 INFO: Most recent stock data: {'SRRK': {   'close': 34.03,
+    'high': 34.03,
+    'low': 34.03,
+    'open': 34.03,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 213.0,
+    'vwap': 34.03}}
+2025-08-20 11:59:21 INFO: Most recent stock data: {'SRRK': {   'close': 33.81,
+    'high': 33.81,
+    'low': 33.81,
+    'open': 33.81,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 375.0,
+    'vwap': 33.81}}
+2025-08-20 12:00:21 INFO: Most recent stock data: {'SRRK': {   'close': 33.86,
+    'high': 33.86,
+    'low': 33.86,
+    'open': 33.86,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 549.0,
+    'vwap': 33.86}}
+2025-08-20 12:01:21 INFO: Most recent stock data: {'SRRK': {   'close': 34.135,
+    'high': 34.135,
+    'low': 33.93,
+    'open': 33.93,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1172.0,
+    'vwap': 34.067061}}
+2025-08-20 12:02:22 INFO: Most recent stock data: {'SRRK': {   'close': 34.17,
+    'high': 34.445,
+    'low': 34.17,
+    'open': 34.335,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1744.0,
+    'vwap': 34.297249}}
+2025-08-20 12:03:22 INFO: Most recent stock data: {'SRRK': {   'close': 34.105,
+    'high': 34.17,
+    'low': 34.01,
+    'open': 34.17,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1653.0,
+    'vwap': 34.053929}}
+2025-08-20 12:04:22 INFO: Most recent stock data: {'SRRK': {   'close': 34.11,
+    'high': 34.11,
+    'low': 34.11,
+    'open': 34.11,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 209.0,
+    'vwap': 34.11}}
+2025-08-20 12:05:22 INFO: Most recent stock data: {'SRRK': {   'close': 34.24,
+    'high': 34.24,
+    'low': 34.12,
+    'open': 34.12,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 841.0,
+    'vwap': 34.137176}}
+2025-08-20 12:05:22 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 12:05:22 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-20 12:12:23 INFO: {'SRRK': {   'close': 34.43,
+    'high': 34.43,
+    'low': 34.43,
+    'open': 34.43,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.43}}
+2025-08-20 12:12:23 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:12:23 INFO: Current average volume is: 822.4
+2025-08-20 12:12:23 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:13:23 INFO: {'SRRK': {   'close': 34.38,
+    'high': 34.38,
+    'low': 34.38,
+    'open': 34.38,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 34.38}}
+2025-08-20 12:13:23 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:13:23 INFO: Current average volume is: 705.6
+2025-08-20 12:13:23 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:15:24 INFO: {'SRRK': {   'close': 34.39,
+    'high': 34.39,
+    'low': 34.39,
+    'open': 34.39,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 308.0,
+    'vwap': 34.39}}
+2025-08-20 12:15:24 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:15:24 INFO: Current average volume is: 715.1
+2025-08-20 12:15:24 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:16:24 INFO: {'SRRK': {   'close': 34.4,
+    'high': 34.4,
+    'low': 34.4,
+    'open': 34.4,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 182.0,
+    'vwap': 34.4}}
+2025-08-20 12:16:24 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:16:24 INFO: Current average volume is: 695.8
+2025-08-20 12:16:24 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:17:24 INFO: {'SRRK': {   'close': 34.35,
+    'high': 34.36,
+    'low': 34.35,
+    'open': 34.36,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 667.0,
+    'vwap': 34.353839}}
+2025-08-20 12:17:24 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:17:24 INFO: Current average volume is: 707.6
+2025-08-20 12:17:24 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:20:25 INFO: {'SRRK': {   'close': 34.105,
+    'high': 34.155,
+    'low': 34.105,
+    'open': 34.155,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 450.0,
+    'vwap': 34.13625}}
+2025-08-20 12:20:25 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:20:25 INFO: Current average volume is: 635.4
+2025-08-20 12:20:25 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:22:25 INFO: {'SRRK': {   'close': 34.09,
+    'high': 34.21,
+    'low': 34.09,
+    'open': 34.2,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1328.0,
+    'vwap': 34.1285}}
+2025-08-20 12:22:25 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:22:25 INFO: Current average volume is: 593.8
+2025-08-20 12:22:25 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:26:25 INFO: {'SRRK': {   'close': 34.05,
+    'high': 34.05,
+    'low': 34.05,
+    'open': 34.05,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 286.0,
+    'vwap': 34.05}}
+2025-08-20 12:26:25 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:26:25 INFO: Current average volume is: 457.1
+2025-08-20 12:26:25 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:27:26 INFO: {'SRRK': {   'close': 34.11,
+    'high': 34.12,
+    'low': 34.11,
+    'open': 34.12,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 223.0,
+    'vwap': 34.115}}
+2025-08-20 12:27:26 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:27:26 INFO: Current average volume is: 458.5
+2025-08-20 12:27:26 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:28:26 INFO: {'SRRK': {   'close': 34.02,
+    'high': 34.055,
+    'low': 34.02,
+    'open': 34.055,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1195.0,
+    'vwap': 34.0375}}
+2025-08-20 12:28:26 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:28:26 INFO: Current average volume is: 493.9
+2025-08-20 12:28:26 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:30:26 INFO: {'SRRK': {   'close': 34.09,
+    'high': 34.09,
+    'low': 34.09,
+    'open': 34.09,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 435.0,
+    'vwap': 34.09}}
+2025-08-20 12:30:26 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:30:26 INFO: Current average volume is: 527.4
+2025-08-20 12:30:26 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:33:27 INFO: {'SRRK': {   'close': 34.205,
+    'high': 34.205,
+    'low': 34.205,
+    'open': 34.205,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 556.0,
+    'vwap': 34.205}}
+2025-08-20 12:33:27 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:33:27 INFO: Current average volume is: 563.0
+2025-08-20 12:33:27 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:34:27 INFO: {'SRRK': {   'close': 34.25,
+    'high': 34.26,
+    'low': 34.25,
+    'open': 34.26,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 389.0,
+    'vwap': 34.255}}
+2025-08-20 12:34:27 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:34:27 INFO: Current average volume is: 571.1
+2025-08-20 12:34:27 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:40:28 INFO: {'SRRK': {   'close': 34.19,
+    'high': 34.19,
+    'low': 34.19,
+    'open': 34.19,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 349.0,
+    'vwap': 34.19}}
+2025-08-20 12:40:28 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:40:28 INFO: Current average volume is: 587.8
+2025-08-20 12:40:28 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:41:28 INFO: {'SRRK': {   'close': 34.21,
+    'high': 34.21,
+    'low': 34.21,
+    'open': 34.21,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.21}}
+2025-08-20 12:41:28 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:41:28 INFO: Current average volume is: 531.1
+2025-08-20 12:41:28 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:42:28 INFO: {'SRRK': {   'close': 34.195,
+    'high': 34.25,
+    'low': 34.195,
+    'open': 34.25,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 485.0,
+    'vwap': 34.2225}}
+2025-08-20 12:42:28 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:42:28 INFO: Current average volume is: 534.6
+2025-08-20 12:42:28 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:52:30 INFO: {'SRRK': {   'close': 34.13,
+    'high': 34.13,
+    'low': 34.13,
+    'open': 34.13,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 330.0,
+    'vwap': 34.13}}
+2025-08-20 12:52:30 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:52:30 INFO: Current average volume is: 434.8
+2025-08-20 12:52:30 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:55:30 INFO: {'SRRK': {   'close': 34.0,
+    'high': 34.0,
+    'low': 34.0,
+    'open': 34.0,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.0}}
+2025-08-20 12:55:30 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:55:30 INFO: Current average volume is: 416.2
+2025-08-20 12:55:30 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:56:30 INFO: {'SRRK': {   'close': 33.83,
+    'high': 33.88,
+    'low': 33.82,
+    'open': 33.88,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 530.0,
+    'vwap': 33.844}}
+2025-08-20 12:56:30 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:56:30 INFO: Current average volume is: 446.9
+2025-08-20 12:56:30 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:58:31 INFO: {'SRRK': {   'close': 33.85,
+    'high': 33.85,
+    'low': 33.85,
+    'open': 33.85,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 33.85}}
+2025-08-20 12:58:31 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:58:31 INFO: Current average volume is: 337.4
+2025-08-20 12:58:31 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 12:59:31 INFO: {'SRRK': {   'close': 33.79,
+    'high': 33.825,
+    'low': 33.79,
+    'open': 33.825,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 212.0,
+    'vwap': 33.8075}}
+2025-08-20 12:59:31 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 12:59:31 INFO: Current average volume is: 315.1
+2025-08-20 12:59:31 INFO: close price: 33.79 just dropped below support of 33.81...
+2025-08-20 13:04:32 INFO: {'SRRK': {   'close': 33.81,
+    'high': 33.81,
+    'low': 33.81,
+    'open': 33.81,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 200.0,
+    'vwap': 33.81}}
+2025-08-20 13:04:32 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 13:04:32 INFO: Current average volume is: 279.5
+2025-08-20 13:04:32 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 13:04:32 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-20 13:05:32 INFO: {'SRRK': {   'close': 33.805,
+    'high': 33.805,
+    'low': 33.805,
+    'open': 33.805,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 33.805}}
+2025-08-20 13:05:32 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 13:05:32 INFO: Current average volume is: 250.6
+2025-08-20 13:05:32 INFO: close price: 33.805 just dropped below support of 33.81...
+2025-08-20 13:09:32 INFO: {'SRRK': {   'close': 34.08,
+    'high': 34.08,
+    'low': 34.08,
+    'open': 34.08,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.08}}
+2025-08-20 13:09:32 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 13:09:32 INFO: Current average volume is: 225.7
+2025-08-20 13:09:32 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 13:09:32 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-20 13:10:33 INFO: {'SRRK': {   'close': 34.075,
+    'high': 34.075,
+    'low': 34.075,
+    'open': 34.075,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.075}}
+2025-08-20 13:10:33 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 13:10:33 INFO: Current average volume is: 225.7
+2025-08-20 13:10:33 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 13:11:33 INFO: {'SRRK': {   'close': 34.08,
+    'high': 34.08,
+    'low': 34.08,
+    'open': 34.08,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 158.0,
+    'vwap': 34.08}}
+2025-08-20 13:11:33 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 13:11:33 INFO: Current average volume is: 193.0
+2025-08-20 13:11:33 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 13:12:33 INFO: {'SRRK': {   'close': 34.01,
+    'high': 34.01,
+    'low': 34.01,
+    'open': 34.01,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 125.0,
+    'vwap': 34.01}}
+2025-08-20 13:12:33 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 13:12:33 INFO: Current average volume is: 172.5
+2025-08-20 13:12:33 INFO: Updated resistance to: 34.445 and support to: 33.81
+2025-08-20 13:21:34 INFO: {'SRRK': {   'close': 33.7,
+    'high': 33.7,
+    'low': 33.7,
+    'open': 33.7,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 33.7}}
+2025-08-20 13:21:34 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 13:21:34 INFO: Current average volume is: 182.5
+2025-08-20 13:21:34 INFO: close price: 33.7 just dropped below support of 33.81...
+2025-08-20 13:23:35 INFO: {'SRRK': {   'close': 33.66,
+    'high': 33.66,
+    'low': 33.66,
+    'open': 33.66,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 158.0,
+    'vwap': 33.66}}
+2025-08-20 13:23:35 INFO: Current resistance is: 34.445 and support is: 33.81
+2025-08-20 13:23:35 INFO: Current average volume is: 145.3
+2025-08-20 13:23:35 INFO: Closing price: 33.66 just dropped below support 33.81 again...ending trade...
+2025-08-20 14:25:29 INFO: === Strategy started ===
+2025-08-20 14:25:29 INFO: Start collecting the current highs/lows for: SRRK
+2025-08-20 14:25:29 INFO: Most recent stock data: {'SRRK': {   'close': 33.735,
+    'high': 33.735,
+    'low': 33.735,
+    'open': 33.735,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 110.0,
+    'vwap': 33.735}}
+2025-08-20 14:26:29 INFO: Most recent stock data: {'SRRK': {   'close': 33.88,
+    'high': 33.88,
+    'low': 33.87,
+    'open': 33.87,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 250.0,
+    'vwap': 33.875}}
+2025-08-20 14:27:29 INFO: Most recent stock data: {'SRRK': {   'close': 33.92,
+    'high': 33.92,
+    'low': 33.875,
+    'open': 33.875,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 539.0,
+    'vwap': 33.903333}}
+2025-08-20 14:28:29 INFO: Most recent stock data: {'SRRK': {   'close': 33.81,
+    'high': 33.86,
+    'low': 33.81,
+    'open': 33.86,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 653.0,
+    'vwap': 33.8275}}
+2025-08-20 14:31:30 INFO: Most recent stock data: {'SRRK': {   'close': 33.745,
+    'high': 33.88,
+    'low': 33.745,
+    'open': 33.805,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 33.81}}
+2025-08-20 14:32:30 INFO: Most recent stock data: {'SRRK': {   'close': 33.77,
+    'high': 33.77,
+    'low': 33.77,
+    'open': 33.77,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 33.77}}
+2025-08-20 14:33:30 INFO: Most recent stock data: {'SRRK': {   'close': 33.6,
+    'high': 33.655,
+    'low': 33.6,
+    'open': 33.655,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1225.0,
+    'vwap': 33.629859}}
+2025-08-20 14:34:30 INFO: Most recent stock data: {'SRRK': {   'close': 33.65,
+    'high': 33.65,
+    'low': 33.65,
+    'open': 33.65,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 33.65}}
+2025-08-20 14:35:31 INFO: Most recent stock data: {'SRRK': {   'close': 33.74,
+    'high': 33.755,
+    'low': 33.74,
+    'open': 33.755,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 334.0,
+    'vwap': 33.7475}}
+2025-08-20 14:36:31 INFO: Most recent stock data: {'SRRK': {   'close': 33.7,
+    'high': 33.72,
+    'low': 33.67,
+    'open': 33.67,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 725.0,
+    'vwap': 33.698571}}
+2025-08-20 14:37:31 INFO: Most recent stock data: {'SRRK': {   'close': 33.75,
+    'high': 33.76,
+    'low': 33.68,
+    'open': 33.7,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1679.0,
+    'vwap': 33.723571}}
+2025-08-20 14:37:31 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 14:37:31 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-20 14:38:31 INFO: {'SRRK': {   'close': 33.71,
+    'high': 33.71,
+    'low': 33.71,
+    'open': 33.71,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 625.0,
+    'vwap': 33.71}}
+2025-08-20 14:38:31 INFO: Current resistance is: 33.92 and support is: 33.6
+2025-08-20 14:38:31 INFO: Current average volume is: 658.0
+2025-08-20 14:38:31 INFO: Updated resistance to: 33.92 and support to: 33.6
+2025-08-20 14:39:31 INFO: {'SRRK': {   'close': 33.68,
+    'high': 33.68,
+    'low': 33.66,
+    'open': 33.66,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 325.0,
+    'vwap': 33.67}}
+2025-08-20 14:39:31 INFO: Current resistance is: 33.92 and support is: 33.6
+2025-08-20 14:39:31 INFO: Current average volume is: 636.6
+2025-08-20 14:39:31 INFO: Updated resistance to: 33.92 and support to: 33.6
+2025-08-20 14:40:31 INFO: {'SRRK': {   'close': 33.53,
+    'high': 33.655,
+    'low': 33.53,
+    'open': 33.655,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 978.0,
+    'vwap': 33.608323}}
+2025-08-20 14:40:31 INFO: Current resistance is: 33.92 and support is: 33.6
+2025-08-20 14:40:31 INFO: Current average volume is: 669.1
+2025-08-20 14:40:31 INFO: close price: 33.53 just dropped below support of 33.6...
+2025-08-20 14:43:32 INFO: {'SRRK': {   'close': 33.55,
+    'high': 33.55,
+    'low': 33.55,
+    'open': 33.55,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 544.0,
+    'vwap': 33.55}}
+2025-08-20 14:43:32 INFO: Current resistance is: 33.92 and support is: 33.6
+2025-08-20 14:43:32 INFO: Current average volume is: 693.5
+2025-08-20 14:43:32 INFO: Closing price: 33.55 just dropped below support 33.6 again...ending trade...
+2025-08-20 14:55:29 INFO: === Strategy started ===
+2025-08-20 14:55:29 INFO: Start collecting the current highs/lows for: SRRK
+2025-08-20 14:55:29 INFO: Most recent stock data: {'SRRK': {   'close': 34.0,
+    'high': 34.0,
+    'low': 34.0,
+    'open': 34.0,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 34.0}}
+2025-08-20 14:58:30 INFO: Most recent stock data: {'SRRK': {   'close': 33.91,
+    'high': 33.91,
+    'low': 33.91,
+    'open': 33.91,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 33.91}}
+2025-08-20 14:59:30 INFO: Most recent stock data: {'SRRK': {   'close': 33.92,
+    'high': 33.92,
+    'low': 33.92,
+    'open': 33.92,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 33.92}}
+2025-08-20 15:00:30 INFO: Most recent stock data: {'SRRK': {   'close': 34.245,
+    'high': 34.245,
+    'low': 34.0,
+    'open': 34.0,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 619.0,
+    'vwap': 34.092684}}
+2025-08-20 15:04:31 INFO: Most recent stock data: {'SRRK': {   'close': 34.29,
+    'high': 34.29,
+    'low': 34.29,
+    'open': 34.29,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 162.0,
+    'vwap': 34.29}}
+2025-08-20 15:08:32 INFO: Most recent stock data: {'SRRK': {   'close': 34.36,
+    'high': 34.36,
+    'low': 34.36,
+    'open': 34.36,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 311.0,
+    'vwap': 34.36}}
+2025-08-20 15:09:32 INFO: Most recent stock data: {'SRRK': {   'close': 34.41,
+    'high': 34.41,
+    'low': 34.41,
+    'open': 34.41,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 34.41}}
+2025-08-20 15:11:32 INFO: Most recent stock data: {'SRRK': {   'close': 34.44,
+    'high': 34.44,
+    'low': 34.44,
+    'open': 34.44,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 34.44}}
+2025-08-20 15:12:32 INFO: Most recent stock data: {'SRRK': {   'close': 34.47,
+    'high': 34.47,
+    'low': 34.47,
+    'open': 34.47,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 260.0,
+    'vwap': 34.47}}
+2025-08-20 15:13:33 INFO: Most recent stock data: {'SRRK': {   'close': 34.45,
+    'high': 34.45,
+    'low': 34.45,
+    'open': 34.45,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 139.0,
+    'vwap': 34.45}}
+2025-08-20 15:16:33 INFO: Most recent stock data: {'SRRK': {   'close': 34.395,
+    'high': 34.395,
+    'low': 34.395,
+    'open': 34.395,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 187.0,
+    'vwap': 34.395}}
+2025-08-20 15:16:33 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 15:16:33 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-20 15:17:33 INFO: {'SRRK': {   'close': 34.37,
+    'high': 34.37,
+    'low': 34.37,
+    'open': 34.37,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 34.37}}
+2025-08-20 15:17:33 INFO: Current resistance is: 34.642 and support is: 34.527
+2025-08-20 15:17:33 INFO: Current average volume is: 218.8
+2025-08-20 15:17:33 INFO: close price: 34.37 just dropped below support of 34.527...
+2025-08-20 15:21:34 INFO: {'SRRK': {   'close': 34.3,
+    'high': 34.41,
+    'low': 34.3,
+    'open': 34.4,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1513.0,
+    'vwap': 34.353333}}
+2025-08-20 15:21:34 INFO: Current resistance is: 34.642 and support is: 34.527
+2025-08-20 15:21:34 INFO: Current average volume is: 360.1
+2025-08-20 15:21:34 INFO: Closing price: 34.3 just dropped below support 34.527 again...ending trade...
+2025-08-20 15:25:30 INFO: === Strategy started ===
+2025-08-20 15:25:30 INFO: Start collecting the current highs/lows for: SRRK
+2025-08-20 15:25:30 INFO: Most recent stock data: {'SRRK': {   'close': 34.3,
+    'high': 34.41,
+    'low': 34.3,
+    'open': 34.4,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1513.0,
+    'vwap': 34.353333}}
+2025-08-20 15:26:30 INFO: Most recent stock data: {'SRRK': {   'close': 34.25,
+    'high': 34.27,
+    'low': 34.25,
+    'open': 34.27,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 599.0,
+    'vwap': 34.26}}
+2025-08-20 15:28:31 INFO: Most recent stock data: {'SRRK': {   'close': 34.195,
+    'high': 34.195,
+    'low': 34.19,
+    'open': 34.19,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 305.0,
+    'vwap': 34.193182}}
+2025-08-20 15:31:31 INFO: Most recent stock data: {'SRRK': {   'close': 34.24,
+    'high': 34.25,
+    'low': 34.24,
+    'open': 34.25,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 945.0,
+    'vwap': 34.245714}}
+2025-08-20 15:34:32 INFO: Most recent stock data: {'SRRK': {   'close': 34.36,
+    'high': 34.36,
+    'low': 34.36,
+    'open': 34.36,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 106.0,
+    'vwap': 34.36}}
+2025-08-20 15:37:32 INFO: Most recent stock data: {'SRRK': {   'close': 34.39,
+    'high': 34.39,
+    'low': 34.39,
+    'open': 34.39,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 189.0,
+    'vwap': 34.39}}
+2025-08-20 15:42:33 INFO: Most recent stock data: {'SRRK': {   'close': 34.35,
+    'high': 34.35,
+    'low': 34.35,
+    'open': 34.35,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 728.0,
+    'vwap': 34.35}}
+2025-08-20 15:44:33 INFO: Most recent stock data: {'SRRK': {   'close': 34.395,
+    'high': 34.395,
+    'low': 34.39,
+    'open': 34.39,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 425.0,
+    'vwap': 34.393333}}
+2025-08-20 15:45:33 INFO: Most recent stock data: {'SRRK': {   'close': 34.34,
+    'high': 34.39,
+    'low': 34.34,
+    'open': 34.39,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 335.0,
+    'vwap': 34.373333}}
+2025-08-20 15:51:34 INFO: Most recent stock data: {'SRRK': {   'close': 34.24,
+    'high': 34.24,
+    'low': 34.24,
+    'open': 34.24,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 384.0,
+    'vwap': 34.24}}
+2025-08-20 15:53:35 INFO: Most recent stock data: {'SRRK': {   'close': 34.355,
+    'high': 34.37,
+    'low': 34.35,
+    'open': 34.37,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 409.0,
+    'vwap': 34.3575}}
+2025-08-20 15:53:35 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 15:53:35 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-20 15:54:35 INFO: {'SRRK': {   'close': 34.17,
+    'high': 34.32,
+    'low': 34.17,
+    'open': 34.32,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 610.0,
+    'vwap': 34.22}}
+2025-08-20 15:54:35 INFO: Current resistance is: 34.41 and support is: 34.19
+2025-08-20 15:54:35 INFO: Current average volume is: 443.6
+2025-08-20 15:54:35 INFO: close price: 34.17 just dropped below support of 34.19...
+2025-08-20 15:55:35 INFO: {'SRRK': {   'close': 34.46,
+    'high': 34.46,
+    'low': 34.145,
+    'open': 34.18,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1970.0,
+    'vwap': 34.2825}}
+2025-08-20 15:55:35 INFO: Current resistance is: 34.41 and support is: 34.19
+2025-08-20 15:55:35 INFO: Current average volume is: 610.1
+2025-08-20 15:55:35 INFO: The Current Close 34.46 is above the resistance...
+2025-08-20 15:55:35 INFO: Updated resistance to: 34.46 and support to: 34.145
+2025-08-20 15:56:05 INFO: {'SRRK': {   'close': 34.42,
+    'high': 34.42,
+    'low': 34.42,
+    'open': 34.42,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 823.0,
+    'vwap': 34.42}}
+2025-08-20 15:56:05 INFO: Current resistance is: 34.46 and support is: 34.145
+2025-08-20 15:56:05 INFO: Current average volume is: 597.9
+2025-08-20 15:56:05 INFO: Updated resistance to: 34.46 and support to: 34.145
+2025-08-20 15:57:05 INFO: {'SRRK': {   'close': 34.45,
+    'high': 34.45,
+    'low': 34.45,
+    'open': 34.45,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 588.0,
+    'vwap': 34.45}}
+2025-08-20 15:57:05 INFO: Current resistance is: 34.46 and support is: 34.145
+2025-08-20 15:57:05 INFO: Current average volume is: 646.1
+2025-08-20 15:57:05 INFO: Updated resistance to: 34.46 and support to: 34.145
+2025-08-20 15:58:06 INFO: {'SRRK': {   'close': 34.43,
+    'high': 34.46,
+    'low': 34.4,
+    'open': 34.43,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1585.0,
+    'vwap': 34.429177}}
+2025-08-20 15:58:06 INFO: Current resistance is: 34.46 and support is: 34.145
+2025-08-20 15:58:06 INFO: Current average volume is: 785.7
+2025-08-20 15:58:06 INFO: Updated resistance to: 34.46 and support to: 34.145
+2025-08-20 15:59:06 INFO: {'SRRK': {   'close': 34.39,
+    'high': 34.42,
+    'low': 34.38,
+    'open': 34.42,
+    'symbol': 'SRRK',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1415.0,
+    'vwap': 34.391927}}
+2025-08-20 15:59:06 INFO: Current resistance is: 34.46 and support is: 34.145
+2025-08-20 15:59:06 INFO: Current average volume is: 854.4
+2025-08-20 15:59:06 INFO: Updated resistance to: 34.46 and support to: 34.145
+2025-08-20 16:00:06 INFO: The Market is closed...

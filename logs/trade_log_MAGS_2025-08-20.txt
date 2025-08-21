@@ -1,0 +1,909 @@
+2025-08-20 10:40:11 INFO: === Strategy started ===
+2025-08-20 10:40:11 INFO: Start collecting the current highs/lows for: MAGS
+2025-08-20 10:40:12 INFO: Most recent stock data: {'MAGS': {   'close': 58.04,
+    'high': 58.04,
+    'low': 58.04,
+    'open': 58.04,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 268.0,
+    'vwap': 58.04}}
+2025-08-20 10:41:12 INFO: Most recent stock data: {'MAGS': {   'close': 57.99,
+    'high': 57.99,
+    'low': 57.99,
+    'open': 57.99,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 500.0,
+    'vwap': 57.99}}
+2025-08-20 10:42:12 INFO: Most recent stock data: {'MAGS': {   'close': 57.94,
+    'high': 57.94,
+    'low': 57.94,
+    'open': 57.94,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 262.0,
+    'vwap': 57.94}}
+2025-08-20 10:44:12 INFO: Most recent stock data: {'MAGS': {   'close': 57.995,
+    'high': 57.995,
+    'low': 57.995,
+    'open': 57.995,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 57.995}}
+2025-08-20 10:45:13 INFO: Most recent stock data: {'MAGS': {   'close': 57.95,
+    'high': 57.955,
+    'low': 57.95,
+    'open': 57.955,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 438.0,
+    'vwap': 57.9525}}
+2025-08-20 10:46:13 INFO: Most recent stock data: {'MAGS': {   'close': 58.0,
+    'high': 58.0,
+    'low': 57.99,
+    'open': 58.0,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 705.0,
+    'vwap': 57.995932}}
+2025-08-20 10:48:13 INFO: Most recent stock data: {'MAGS': {   'close': 57.915,
+    'high': 57.915,
+    'low': 57.915,
+    'open': 57.915,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 57.915}}
+2025-08-20 10:49:13 INFO: Most recent stock data: {'MAGS': {   'close': 57.995,
+    'high': 57.995,
+    'low': 57.995,
+    'open': 57.995,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 57.995}}
+2025-08-20 10:50:13 INFO: Most recent stock data: {'MAGS': {   'close': 57.89,
+    'high': 57.89,
+    'low': 57.89,
+    'open': 57.89,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 57.89}}
+2025-08-20 10:52:14 INFO: Most recent stock data: {'MAGS': {   'close': 57.91,
+    'high': 57.91,
+    'low': 57.91,
+    'open': 57.91,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 688.0,
+    'vwap': 57.91}}
+2025-08-20 10:53:14 INFO: Most recent stock data: {'MAGS': {   'close': 57.87,
+    'high': 57.87,
+    'low': 57.86,
+    'open': 57.86,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 321.0,
+    'vwap': 57.865}}
+2025-08-20 10:53:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 10:53:14 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-20 10:54:14 INFO: {'MAGS': {   'close': 57.875,
+    'high': 57.885,
+    'low': 57.875,
+    'open': 57.885,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1312.0,
+    'vwap': 57.878811}}
+2025-08-20 10:54:14 INFO: Current resistance is: 58.04 and support is: 57.86
+2025-08-20 10:54:14 INFO: Current average volume is: 422.6
+2025-08-20 10:54:14 INFO: Updated resistance to: 58.04 and support to: 57.86
+2025-08-20 10:57:15 INFO: {'MAGS': {   'close': 57.91,
+    'high': 57.91,
+    'low': 57.91,
+    'open': 57.91,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 602.0,
+    'vwap': 57.91}}
+2025-08-20 10:57:15 INFO: Current resistance is: 58.04 and support is: 57.86
+2025-08-20 10:57:15 INFO: Current average volume is: 456.6
+2025-08-20 10:57:15 INFO: Updated resistance to: 58.04 and support to: 57.86
+2025-08-20 11:07:16 INFO: {'MAGS': {   'close': 58.03,
+    'high': 58.03,
+    'low': 58.03,
+    'open': 58.03,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 137.0,
+    'vwap': 58.03}}
+2025-08-20 11:07:16 INFO: Current resistance is: 58.04 and support is: 57.86
+2025-08-20 11:07:16 INFO: Current average volume is: 450.3
+2025-08-20 11:07:16 INFO: Updated resistance to: 58.04 and support to: 57.86
+2025-08-20 11:08:17 INFO: {'MAGS': {   'close': 58.08,
+    'high': 58.08,
+    'low': 58.08,
+    'open': 58.08,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 58.08}}
+2025-08-20 11:08:17 INFO: Current resistance is: 58.04 and support is: 57.86
+2025-08-20 11:08:17 INFO: Current average volume is: 426.5
+2025-08-20 11:08:17 INFO: The Current Close 58.08 is above the resistance...
+2025-08-20 11:08:17 INFO: Updated resistance to: 58.08 and support to: 57.86
+2025-08-20 11:12:18 INFO: {'MAGS': {   'close': 58.13,
+    'high': 58.13,
+    'low': 58.11,
+    'open': 58.12,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 58.1225}}
+2025-08-20 11:12:18 INFO: Current resistance is: 58.08 and support is: 57.86
+2025-08-20 11:12:18 INFO: Current average volume is: 396.0
+2025-08-20 11:12:18 INFO: The current close: 58.13 is above the resistance of 58.08, but volume isn't enough...
+2025-08-20 11:12:18 INFO: Updated resistance to: 58.13 and support to: 57.86
+2025-08-20 11:13:18 INFO: {'MAGS': {   'close': 58.14,
+    'high': 58.14,
+    'low': 58.14,
+    'open': 58.14,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 58.14}}
+2025-08-20 11:13:18 INFO: Current resistance is: 58.13 and support is: 57.86
+2025-08-20 11:13:18 INFO: Current average volume is: 456.0
+2025-08-20 11:13:18 INFO: The current close: 58.14 is above the resistance of 58.13, but volume isn't enough...
+2025-08-20 11:13:18 INFO: Updated resistance to: 58.14 and support to: 57.86
+2025-08-20 11:17:19 INFO: {'MAGS': {   'close': 58.2,
+    'high': 58.2,
+    'low': 58.18,
+    'open': 58.18,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1126.0,
+    'vwap': 58.181818}}
+2025-08-20 11:17:19 INFO: Current resistance is: 58.14 and support is: 57.86
+2025-08-20 11:17:19 INFO: Current average volume is: 558.6
+2025-08-20 11:17:19 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-20 11:28:23 INFO: {'MAGS': {   'close': 58.355,
+    'high': 58.355,
+    'low': 58.355,
+    'open': 58.355,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 58.355}}
+2025-08-20 11:28:23 INFO: Current resistance is: 58.14 and support is: 57.86
+2025-08-20 11:28:23 INFO: Current average volume is: 598.6
+2025-08-20 11:28:23 INFO: The current close: 58.355 is above the resistance of 58.14, but volume isn't enough...
+2025-08-20 11:28:23 INFO: Updated resistance to: 58.355 and support to: 57.86
+2025-08-20 11:29:23 INFO: {'MAGS': {   'close': 58.37,
+    'high': 58.37,
+    'low': 58.37,
+    'open': 58.37,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.37}}
+2025-08-20 11:29:23 INFO: Current resistance is: 58.355 and support is: 57.86
+2025-08-20 11:29:23 INFO: Current average volume is: 539.8
+2025-08-20 11:29:23 INFO: The current close: 58.37 is above the resistance of 58.355, but volume isn't enough...
+2025-08-20 11:29:23 INFO: Updated resistance to: 58.37 and support to: 57.86
+2025-08-20 11:30:24 INFO: {'MAGS': {   'close': 58.385,
+    'high': 58.385,
+    'low': 58.385,
+    'open': 58.385,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 58.385}}
+2025-08-20 11:30:24 INFO: Current resistance is: 58.37 and support is: 57.86
+2025-08-20 11:30:24 INFO: Current average volume is: 557.7
+2025-08-20 11:30:24 INFO: The current close: 58.385 is above the resistance of 58.37, but volume isn't enough...
+2025-08-20 11:30:24 INFO: Updated resistance to: 58.385 and support to: 57.86
+2025-08-20 11:37:26 INFO: {'MAGS': {   'close': 58.42,
+    'high': 58.42,
+    'low': 58.42,
+    'open': 58.42,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1328.0,
+    'vwap': 58.42}}
+2025-08-20 11:37:26 INFO: Current resistance is: 58.385 and support is: 57.86
+2025-08-20 11:37:26 INFO: Current average volume is: 559.3
+2025-08-20 11:37:26 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-20 11:43:28 INFO: {'MAGS': {   'close': 58.44,
+    'high': 58.44,
+    'low': 58.44,
+    'open': 58.44,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 58.44}}
+2025-08-20 11:43:28 INFO: Current resistance is: 58.385 and support is: 57.86
+2025-08-20 11:43:28 INFO: Current average volume is: 509.2
+2025-08-20 11:43:28 INFO: The current close: 58.44 is above the resistance of 58.385, but volume isn't enough...
+2025-08-20 11:43:28 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 11:45:28 INFO: {'MAGS': {   'close': 58.39,
+    'high': 58.39,
+    'low': 58.39,
+    'open': 58.39,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 58.39}}
+2025-08-20 11:45:28 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 11:45:28 INFO: Current average volume is: 515.5
+2025-08-20 11:45:28 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 11:49:29 INFO: {'MAGS': {   'close': 58.36,
+    'high': 58.36,
+    'low': 58.36,
+    'open': 58.36,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 460.0,
+    'vwap': 58.36}}
+2025-08-20 11:49:29 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 11:49:29 INFO: Current average volume is: 541.5
+2025-08-20 11:49:29 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 11:50:29 INFO: {'MAGS': {   'close': 58.35,
+    'high': 58.35,
+    'low': 58.35,
+    'open': 58.35,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.35}}
+2025-08-20 11:50:29 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 11:50:29 INFO: Current average volume is: 511.5
+2025-08-20 11:50:29 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 11:55:30 INFO: {'MAGS': {   'close': 58.21,
+    'high': 58.21,
+    'low': 58.195,
+    'open': 58.195,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 58.2025}}
+2025-08-20 11:55:30 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 11:55:30 INFO: Current average volume is: 461.5
+2025-08-20 11:55:30 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 11:56:30 INFO: {'MAGS': {   'close': 58.22,
+    'high': 58.22,
+    'low': 58.22,
+    'open': 58.22,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.22}}
+2025-08-20 11:56:30 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 11:56:30 INFO: Current average volume is: 358.9
+2025-08-20 11:56:30 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 11:57:30 INFO: {'MAGS': {   'close': 58.2,
+    'high': 58.2,
+    'low': 58.2,
+    'open': 58.2,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.2}}
+2025-08-20 11:57:30 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 11:57:30 INFO: Current average volume is: 318.9
+2025-08-20 11:57:30 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 12:02:31 INFO: {'MAGS': {   'close': 58.3,
+    'high': 58.3,
+    'low': 58.27,
+    'open': 58.27,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 700.0,
+    'vwap': 58.285714}}
+2025-08-20 12:02:31 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 12:02:31 INFO: Current average volume is: 378.9
+2025-08-20 12:02:31 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 12:03:31 INFO: {'MAGS': {   'close': 58.33,
+    'high': 58.33,
+    'low': 58.32,
+    'open': 58.32,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 547.0,
+    'vwap': 58.3275}}
+2025-08-20 12:03:31 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 12:03:31 INFO: Current average volume is: 383.6
+2025-08-20 12:03:31 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 12:04:32 INFO: {'MAGS': {   'close': 58.35,
+    'high': 58.35,
+    'low': 58.33,
+    'open': 58.33,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 58.34}}
+2025-08-20 12:04:32 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 12:04:32 INFO: Current average volume is: 270.8
+2025-08-20 12:04:32 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 12:07:32 INFO: {'MAGS': {   'close': 58.36,
+    'high': 58.36,
+    'low': 58.36,
+    'open': 58.36,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.36}}
+2025-08-20 12:07:32 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 12:07:32 INFO: Current average volume is: 270.7
+2025-08-20 12:07:32 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 12:09:32 INFO: {'MAGS': {   'close': 58.34,
+    'high': 58.34,
+    'low': 58.34,
+    'open': 58.34,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.34}}
+2025-08-20 12:09:32 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 12:09:32 INFO: Current average volume is: 260.7
+2025-08-20 12:09:32 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 12:12:33 INFO: {'MAGS': {   'close': 58.43,
+    'high': 58.43,
+    'low': 58.43,
+    'open': 58.43,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 780.0,
+    'vwap': 58.43}}
+2025-08-20 12:12:33 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 12:12:33 INFO: Current average volume is: 292.7
+2025-08-20 12:12:33 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 12:13:33 INFO: {'MAGS': {   'close': 58.44,
+    'high': 58.44,
+    'low': 58.44,
+    'open': 58.44,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 165.0,
+    'vwap': 58.44}}
+2025-08-20 12:13:33 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 12:13:33 INFO: Current average volume is: 299.2
+2025-08-20 12:13:33 INFO: Updated resistance to: 58.44 and support to: 57.86
+2025-08-20 12:16:34 INFO: {'MAGS': {   'close': 58.45,
+    'high': 58.45,
+    'low': 58.45,
+    'open': 58.45,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 171.0,
+    'vwap': 58.45}}
+2025-08-20 12:16:34 INFO: Current resistance is: 58.44 and support is: 57.86
+2025-08-20 12:16:34 INFO: Current average volume is: 296.3
+2025-08-20 12:16:34 INFO: The Current Close 58.45 is above the resistance...
+2025-08-20 12:16:34 INFO: Updated resistance to: 58.45 and support to: 57.86
+2025-08-20 12:25:06 INFO: {'MAGS': {   'close': 58.54,
+    'high': 58.54,
+    'low': 58.54,
+    'open': 58.54,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 58.54}}
+2025-08-20 12:25:06 INFO: Current resistance is: 58.45 and support is: 57.86
+2025-08-20 12:25:06 INFO: Current average volume is: 306.3
+2025-08-20 12:25:06 INFO: The current close: 58.54 is above the resistance of 58.45, but volume isn't enough...
+2025-08-20 12:25:06 INFO: Updated resistance to: 58.54 and support to: 57.86
+2025-08-20 12:28:07 INFO: {'MAGS': {   'close': 58.63,
+    'high': 58.63,
+    'low': 58.62,
+    'open': 58.62,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1300.0,
+    'vwap': 58.62918}}
+2025-08-20 12:28:07 INFO: Current resistance is: 58.54 and support is: 57.86
+2025-08-20 12:28:07 INFO: Current average volume is: 426.3
+2025-08-20 12:28:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-20 12:31:08 INFO: {'MAGS': {   'close': 58.59,
+    'high': 58.59,
+    'low': 58.59,
+    'open': 58.59,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 318.0,
+    'vwap': 58.59}}
+2025-08-20 12:31:08 INFO: Current resistance is: 58.54 and support is: 57.86
+2025-08-20 12:31:08 INFO: Current average volume is: 388.1
+2025-08-20 12:31:08 INFO: The current close: 58.59 is above the resistance of 58.54, but volume isn't enough...
+2025-08-20 12:31:08 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 12:34:09 INFO: {'MAGS': {   'close': 58.56,
+    'high': 58.58,
+    'low': 58.56,
+    'open': 58.58,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 58.5675}}
+2025-08-20 12:34:09 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 12:34:09 INFO: Current average volume is: 413.4
+2025-08-20 12:34:09 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 12:37:10 INFO: {'MAGS': {   'close': 58.53,
+    'high': 58.53,
+    'low': 58.53,
+    'open': 58.53,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 103.0,
+    'vwap': 58.53}}
+2025-08-20 12:37:10 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 12:37:10 INFO: Current average volume is: 403.7
+2025-08-20 12:37:10 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 12:38:10 INFO: {'MAGS': {   'close': 58.5,
+    'high': 58.5,
+    'low': 58.5,
+    'open': 58.5,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1300.0,
+    'vwap': 58.5}}
+2025-08-20 12:38:10 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 12:38:10 INFO: Current average volume is: 523.7
+2025-08-20 12:38:10 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 12:43:11 INFO: {'MAGS': {   'close': 58.495,
+    'high': 58.495,
+    'low': 58.49,
+    'open': 58.49,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 58.493333}}
+2025-08-20 12:43:11 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 12:43:11 INFO: Current average volume is: 543.7
+2025-08-20 12:43:11 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 12:47:11 INFO: {'MAGS': {   'close': 58.54,
+    'high': 58.54,
+    'low': 58.54,
+    'open': 58.54,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 58.54}}
+2025-08-20 12:47:11 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 12:47:11 INFO: Current average volume is: 485.7
+2025-08-20 12:47:11 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 12:49:12 INFO: {'MAGS': {   'close': 58.5,
+    'high': 58.5,
+    'low': 58.5,
+    'open': 58.5,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 184.0,
+    'vwap': 58.5}}
+2025-08-20 12:49:12 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 12:49:12 INFO: Current average volume is: 487.6
+2025-08-20 12:49:12 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 12:50:12 INFO: {'MAGS': {   'close': 58.48,
+    'high': 58.48,
+    'low': 58.48,
+    'open': 58.48,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 135.0,
+    'vwap': 58.48}}
+2025-08-20 12:50:12 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 12:50:12 INFO: Current average volume is: 484.0
+2025-08-20 12:50:12 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 12:51:12 INFO: {'MAGS': {   'close': 58.49,
+    'high': 58.49,
+    'low': 58.49,
+    'open': 58.49,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 183.0,
+    'vwap': 58.49}}
+2025-08-20 12:51:12 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 12:51:12 INFO: Current average volume is: 482.3
+2025-08-20 12:51:12 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 12:53:12 INFO: {'MAGS': {   'close': 58.44,
+    'high': 58.44,
+    'low': 58.44,
+    'open': 58.44,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 58.44}}
+2025-08-20 12:53:12 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 12:53:12 INFO: Current average volume is: 372.3
+2025-08-20 12:53:12 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 13:00:14 INFO: {'MAGS': {   'close': 58.41,
+    'high': 58.41,
+    'low': 58.41,
+    'open': 58.41,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 58.41}}
+2025-08-20 13:00:14 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 13:00:14 INFO: Current average volume is: 360.5
+2025-08-20 13:00:14 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 13:13:16 INFO: {'MAGS': {   'close': 58.54,
+    'high': 58.54,
+    'low': 58.54,
+    'open': 58.54,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 58.54}}
+2025-08-20 13:13:16 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 13:13:16 INFO: Current average volume is: 320.5
+2025-08-20 13:13:16 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 13:18:16 INFO: {'MAGS': {   'close': 58.51,
+    'high': 58.515,
+    'low': 58.51,
+    'open': 58.515,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 58.51125}}
+2025-08-20 13:18:16 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 13:18:16 INFO: Current average volume is: 350.2
+2025-08-20 13:18:16 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 13:24:17 INFO: {'MAGS': {   'close': 58.53,
+    'high': 58.54,
+    'low': 58.53,
+    'open': 58.54,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 58.535}}
+2025-08-20 13:24:17 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 13:24:17 INFO: Current average volume is: 260.2
+2025-08-20 13:24:17 INFO: Updated resistance to: 58.59 and support to: 57.86
+2025-08-20 13:38:20 INFO: {'MAGS': {   'close': 58.65,
+    'high': 58.65,
+    'low': 58.65,
+    'open': 58.65,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 58.65}}
+2025-08-20 13:38:20 INFO: Current resistance is: 58.59 and support is: 57.86
+2025-08-20 13:38:20 INFO: Current average volume is: 250.2
+2025-08-20 13:38:20 INFO: The Current Close 58.65 is above the resistance...
+2025-08-20 13:38:20 INFO: Updated resistance to: 58.65 and support to: 57.86
+2025-08-20 13:40:20 INFO: {'MAGS': {   'close': 58.68,
+    'high': 58.68,
+    'low': 58.68,
+    'open': 58.68,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 250.0,
+    'vwap': 58.68}}
+2025-08-20 13:40:20 INFO: Current resistance is: 58.65 and support is: 57.86
+2025-08-20 13:40:20 INFO: Current average volume is: 255.2
+2025-08-20 13:40:20 INFO: The current close: 58.68 is above the resistance of 58.65, but volume isn't enough...
+2025-08-20 13:40:20 INFO: Updated resistance to: 58.68 and support to: 57.86
+2025-08-20 13:42:21 INFO: {'MAGS': {   'close': 58.67,
+    'high': 58.67,
+    'low': 58.67,
+    'open': 58.67,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 247.0,
+    'vwap': 58.67}}
+2025-08-20 13:42:21 INFO: Current resistance is: 58.68 and support is: 57.86
+2025-08-20 13:42:21 INFO: Current average volume is: 261.5
+2025-08-20 13:42:21 INFO: Updated resistance to: 58.68 and support to: 57.86
+2025-08-20 13:46:22 INFO: {'MAGS': {   'close': 58.75,
+    'high': 58.75,
+    'low': 58.71,
+    'open': 58.71,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 334.0,
+    'vwap': 58.737879}}
+2025-08-20 13:46:22 INFO: Current resistance is: 58.68 and support is: 57.86
+2025-08-20 13:46:22 INFO: Current average volume is: 281.4
+2025-08-20 13:46:22 INFO: The Current Close 58.75 is above the resistance...
+2025-08-20 13:46:22 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 13:53:24 INFO: {'MAGS': {   'close': 58.64,
+    'high': 58.64,
+    'low': 58.64,
+    'open': 58.64,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 58.64}}
+2025-08-20 13:53:24 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 13:53:24 INFO: Current average volume is: 283.1
+2025-08-20 13:53:24 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 13:54:24 INFO: {'MAGS': {   'close': 58.65,
+    'high': 58.65,
+    'low': 58.65,
+    'open': 58.65,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.65}}
+2025-08-20 13:54:24 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 13:54:24 INFO: Current average volume is: 273.1
+2025-08-20 13:54:24 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 13:58:25 INFO: {'MAGS': {   'close': 58.59,
+    'high': 58.59,
+    'low': 58.59,
+    'open': 58.59,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.59}}
+2025-08-20 13:58:25 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 13:58:25 INFO: Current average volume is: 263.1
+2025-08-20 13:58:25 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 14:06:26 INFO: {'MAGS': {   'close': 58.51,
+    'high': 58.51,
+    'low': 58.51,
+    'open': 58.51,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.51}}
+2025-08-20 14:06:26 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 14:06:26 INFO: Current average volume is: 233.1
+2025-08-20 14:06:26 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 14:14:27 INFO: {'MAGS': {   'close': 58.45,
+    'high': 58.45,
+    'low': 58.45,
+    'open': 58.45,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 144.0,
+    'vwap': 58.45}}
+2025-08-20 14:14:27 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 14:14:27 INFO: Current average volume is: 207.5
+2025-08-20 14:14:27 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 14:20:28 INFO: {'MAGS': {   'close': 58.42,
+    'high': 58.42,
+    'low': 58.42,
+    'open': 58.42,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 58.42}}
+2025-08-20 14:20:28 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 14:20:28 INFO: Current average volume is: 197.5
+2025-08-20 14:20:28 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 14:42:32 INFO: {'MAGS': {   'close': 58.51,
+    'high': 58.51,
+    'low': 58.51,
+    'open': 58.51,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 173.0,
+    'vwap': 58.51}}
+2025-08-20 14:42:32 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 14:42:32 INFO: Current average volume is: 194.8
+2025-08-20 14:42:32 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 14:44:32 INFO: {'MAGS': {   'close': 58.52,
+    'high': 58.52,
+    'low': 58.52,
+    'open': 58.52,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.52}}
+2025-08-20 14:44:32 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 14:44:32 INFO: Current average volume is: 179.8
+2025-08-20 14:44:32 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:06:36 INFO: {'MAGS': {   'close': 58.51,
+    'high': 58.51,
+    'low': 58.51,
+    'open': 58.51,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.51}}
+2025-08-20 15:06:36 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:06:36 INFO: Current average volume is: 165.1
+2025-08-20 15:06:36 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:13:37 INFO: {'MAGS': {   'close': 58.66,
+    'high': 58.66,
+    'low': 58.66,
+    'open': 58.66,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.66}}
+2025-08-20 15:13:37 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:13:37 INFO: Current average volume is: 141.7
+2025-08-20 15:13:37 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:15:37 INFO: {'MAGS': {   'close': 58.65,
+    'high': 58.65,
+    'low': 58.65,
+    'open': 58.65,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 264.0,
+    'vwap': 58.65}}
+2025-08-20 15:15:37 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:15:37 INFO: Current average volume is: 148.1
+2025-08-20 15:15:37 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:28:40 INFO: {'MAGS': {   'close': 58.675,
+    'high': 58.675,
+    'low': 58.67,
+    'open': 58.67,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 58.6725}}
+2025-08-20 15:28:40 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:28:40 INFO: Current average volume is: 158.1
+2025-08-20 15:28:40 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:31:40 INFO: {'MAGS': {   'close': 58.68,
+    'high': 58.68,
+    'low': 58.68,
+    'open': 58.68,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1300.0,
+    'vwap': 58.68}}
+2025-08-20 15:31:40 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:31:40 INFO: Current average volume is: 278.1
+2025-08-20 15:31:40 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:36:41 INFO: {'MAGS': {   'close': 58.74,
+    'high': 58.74,
+    'low': 58.74,
+    'open': 58.74,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 200.0,
+    'vwap': 58.74}}
+2025-08-20 15:36:41 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:36:41 INFO: Current average volume is: 288.1
+2025-08-20 15:36:41 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:51:43 INFO: {'MAGS': {   'close': 58.72,
+    'high': 58.73,
+    'low': 58.72,
+    'open': 58.73,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1775.0,
+    'vwap': 58.721176}}
+2025-08-20 15:51:43 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:51:43 INFO: Current average volume is: 451.2
+2025-08-20 15:51:43 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:54:44 INFO: {'MAGS': {   'close': 58.7,
+    'high': 58.7,
+    'low': 58.7,
+    'open': 58.7,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 58.7}}
+2025-08-20 15:54:44 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:54:44 INFO: Current average volume is: 431.2
+2025-08-20 15:54:44 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:55:44 INFO: {'MAGS': {   'close': 58.72,
+    'high': 58.72,
+    'low': 58.72,
+    'open': 58.72,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 260.0,
+    'vwap': 58.72}}
+2025-08-20 15:55:44 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:55:44 INFO: Current average volume is: 439.9
+2025-08-20 15:55:44 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:56:44 INFO: {'MAGS': {   'close': 58.75,
+    'high': 58.75,
+    'low': 58.75,
+    'open': 58.75,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 220.0,
+    'vwap': 58.75}}
+2025-08-20 15:56:44 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:56:44 INFO: Current average volume is: 451.9
+2025-08-20 15:56:44 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:57:44 INFO: {'MAGS': {   'close': 58.74,
+    'high': 58.74,
+    'low': 58.74,
+    'open': 58.74,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 58.74}}
+2025-08-20 15:57:44 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:57:44 INFO: Current average volume is: 461.9
+2025-08-20 15:57:44 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 15:58:44 INFO: {'MAGS': {   'close': 58.73,
+    'high': 58.73,
+    'low': 58.72,
+    'open': 58.72,
+    'symbol': 'MAGS',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 58.725122}}
+2025-08-20 15:58:44 INFO: Current resistance is: 58.75 and support is: 57.86
+2025-08-20 15:58:44 INFO: Current average volume is: 481.9
+2025-08-20 15:58:44 INFO: Updated resistance to: 58.75 and support to: 57.86
+2025-08-20 16:00:45 INFO: The Market is closed...

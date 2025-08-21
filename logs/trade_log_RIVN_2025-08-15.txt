@@ -1,0 +1,619 @@
+2025-08-15 09:55:13 INFO: === Strategy started ===
+2025-08-15 09:55:13 INFO: Start collecting the current highs/lows for: RIVN
+2025-08-15 09:55:14 INFO: Most recent stock data: {'RIVN': {   'close': 12.17,
+    'high': 12.17,
+    'low': 12.135,
+    'open': 12.14,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1940.0,
+    'vwap': 12.148529}}
+2025-08-15 09:56:14 INFO: Most recent stock data: {'RIVN': {   'close': 12.175,
+    'high': 12.175,
+    'low': 12.175,
+    'open': 12.175,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 3009.0,
+    'vwap': 12.175}}
+2025-08-15 09:59:15 INFO: Most recent stock data: {'RIVN': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 12.19}}
+2025-08-15 10:03:15 INFO: Most recent stock data: {'RIVN': {   'close': 12.21,
+    'high': 12.21,
+    'low': 12.185,
+    'open': 12.19,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 12.193}}
+2025-08-15 10:04:15 INFO: Most recent stock data: {'RIVN': {   'close': 12.21,
+    'high': 12.215,
+    'low': 12.21,
+    'open': 12.215,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 506.0,
+    'vwap': 12.211}}
+2025-08-15 10:05:15 INFO: Most recent stock data: {'RIVN': {   'close': 12.23,
+    'high': 12.23,
+    'low': 12.2,
+    'open': 12.2,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2020.0,
+    'vwap': 12.223564}}
+2025-08-15 10:06:15 INFO: Most recent stock data: {'RIVN': {   'close': 12.24,
+    'high': 12.24,
+    'low': 12.24,
+    'open': 12.24,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 924.0,
+    'vwap': 12.24}}
+2025-08-15 10:07:16 INFO: Most recent stock data: {'RIVN': {   'close': 12.22,
+    'high': 12.245,
+    'low': 12.22,
+    'open': 12.245,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2019.0,
+    'vwap': 12.227778}}
+2025-08-15 10:08:16 INFO: Most recent stock data: {'RIVN': {   'close': 12.23,
+    'high': 12.23,
+    'low': 12.23,
+    'open': 12.23,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2432.0,
+    'vwap': 12.23}}
+2025-08-15 10:10:16 INFO: Most recent stock data: {'RIVN': {   'close': 12.21,
+    'high': 12.21,
+    'low': 12.21,
+    'open': 12.21,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 286.0,
+    'vwap': 12.21}}
+2025-08-15 10:11:16 INFO: Most recent stock data: {'RIVN': {   'close': 12.23,
+    'high': 12.23,
+    'low': 12.215,
+    'open': 12.215,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1730.0,
+    'vwap': 12.221358}}
+2025-08-15 10:11:16 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 10:11:16 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-15 10:13:16 INFO: {'RIVN': {   'close': 12.21,
+    'high': 12.21,
+    'low': 12.205,
+    'open': 12.205,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 5340.0,
+    'vwap': 12.207457}}
+2025-08-15 10:13:16 INFO: Current resistance is: 12.245 and support is: 12.135
+2025-08-15 10:13:16 INFO: Current average volume is: 1605.7
+2025-08-15 10:13:16 INFO: Updated resistance to: 12.245 and support to: 12.135
+2025-08-15 10:14:16 INFO: {'RIVN': {   'close': 12.22,
+    'high': 12.24,
+    'low': 12.22,
+    'open': 12.22,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 5138.0,
+    'vwap': 12.231961}}
+2025-08-15 10:14:16 INFO: Current resistance is: 12.245 and support is: 12.135
+2025-08-15 10:14:16 INFO: Current average volume is: 2089.5
+2025-08-15 10:14:16 INFO: Updated resistance to: 12.245 and support to: 12.135
+2025-08-15 10:16:17 INFO: {'RIVN': {   'close': 12.295,
+    'high': 12.295,
+    'low': 12.25,
+    'open': 12.25,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 9396.0,
+    'vwap': 12.27212}}
+2025-08-15 10:16:17 INFO: Current resistance is: 12.245 and support is: 12.135
+2025-08-15 10:16:17 INFO: Current average volume is: 2979.1
+2025-08-15 10:16:17 INFO: The Current Close 12.295 is above the resistance...
+2025-08-15 10:16:17 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:17:17 INFO: {'RIVN': {   'close': 12.25,
+    'high': 12.275,
+    'low': 12.24,
+    'open': 12.275,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 11069.0,
+    'vwap': 12.254137}}
+2025-08-15 10:17:17 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:17:17 INFO: Current average volume is: 4035.4
+2025-08-15 10:17:17 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:18:17 INFO: {'RIVN': {   'close': 12.23,
+    'high': 12.24,
+    'low': 12.23,
+    'open': 12.24,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 464.0,
+    'vwap': 12.235}}
+2025-08-15 10:18:17 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:18:17 INFO: Current average volume is: 3879.8
+2025-08-15 10:18:17 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:22:17 INFO: {'RIVN': {   'close': 12.26,
+    'high': 12.26,
+    'low': 12.24,
+    'open': 12.255,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1757.0,
+    'vwap': 12.251144}}
+2025-08-15 10:22:17 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:22:17 INFO: Current average volume is: 3963.1
+2025-08-15 10:22:17 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:25:18 INFO: {'RIVN': {   'close': 12.23,
+    'high': 12.235,
+    'low': 12.23,
+    'open': 12.235,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 12.233062}}
+2025-08-15 10:25:18 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:25:18 INFO: Current average volume is: 3791.3
+2025-08-15 10:25:18 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:27:18 INFO: {'RIVN': {   'close': 12.255,
+    'high': 12.255,
+    'low': 12.24,
+    'open': 12.24,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 644.0,
+    'vwap': 12.245}}
+2025-08-15 10:27:18 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:27:18 INFO: Current average volume is: 3612.5
+2025-08-15 10:27:18 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:31:19 INFO: {'RIVN': {   'close': 12.21,
+    'high': 12.235,
+    'low': 12.21,
+    'open': 12.235,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 4981.0,
+    'vwap': 12.22962}}
+2025-08-15 10:31:19 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:31:19 INFO: Current average volume is: 4082.0
+2025-08-15 10:31:19 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:32:19 INFO: {'RIVN': {   'close': 12.205,
+    'high': 12.21,
+    'low': 12.205,
+    'open': 12.21,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 788.0,
+    'vwap': 12.205655}}
+2025-08-15 10:32:19 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:32:19 INFO: Current average volume is: 3987.8
+2025-08-15 10:32:19 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:33:19 INFO: {'RIVN': {   'close': 12.195,
+    'high': 12.195,
+    'low': 12.195,
+    'open': 12.195,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 662.0,
+    'vwap': 12.195}}
+2025-08-15 10:33:19 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:33:19 INFO: Current average volume is: 3520.0
+2025-08-15 10:33:19 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:36:19 INFO: {'RIVN': {   'close': 12.215,
+    'high': 12.215,
+    'low': 12.215,
+    'open': 12.215,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 267.0,
+    'vwap': 12.215}}
+2025-08-15 10:36:19 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:36:19 INFO: Current average volume is: 3032.9
+2025-08-15 10:36:19 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:38:19 INFO: {'RIVN': {   'close': 12.22,
+    'high': 12.22,
+    'low': 12.22,
+    'open': 12.22,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.22}}
+2025-08-15 10:38:19 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:38:19 INFO: Current average volume is: 2103.3
+2025-08-15 10:38:19 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:39:19 INFO: {'RIVN': {   'close': 12.24,
+    'high': 12.24,
+    'low': 12.235,
+    'open': 12.235,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 840.0,
+    'vwap': 12.23619}}
+2025-08-15 10:39:19 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:39:19 INFO: Current average volume is: 1080.4
+2025-08-15 10:39:19 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:40:20 INFO: {'RIVN': {   'close': 12.27,
+    'high': 12.27,
+    'low': 12.24,
+    'open': 12.25,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 7771.0,
+    'vwap': 12.260133}}
+2025-08-15 10:40:20 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:40:20 INFO: Current average volume is: 1811.1
+2025-08-15 10:40:20 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:41:20 INFO: {'RIVN': {   'close': 12.26,
+    'high': 12.275,
+    'low': 12.26,
+    'open': 12.27,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3870.0,
+    'vwap': 12.269587}}
+2025-08-15 10:41:20 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:41:20 INFO: Current average volume is: 2022.4
+2025-08-15 10:41:20 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:43:20 INFO: {'RIVN': {   'close': 12.285,
+    'high': 12.285,
+    'low': 12.285,
+    'open': 12.285,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 322.0,
+    'vwap': 12.285}}
+2025-08-15 10:43:20 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:43:20 INFO: Current average volume is: 2024.5
+2025-08-15 10:43:20 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:44:20 INFO: {'RIVN': {   'close': 12.28,
+    'high': 12.28,
+    'low': 12.28,
+    'open': 12.28,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 479.0,
+    'vwap': 12.28}}
+2025-08-15 10:44:20 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:44:20 INFO: Current average volume is: 2008.0
+2025-08-15 10:44:20 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:46:20 INFO: {'RIVN': {   'close': 12.255,
+    'high': 12.255,
+    'low': 12.255,
+    'open': 12.255,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 900.0,
+    'vwap': 12.255}}
+2025-08-15 10:46:20 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:46:20 INFO: Current average volume is: 1599.9
+2025-08-15 10:46:20 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:49:21 INFO: {'RIVN': {   'close': 12.25,
+    'high': 12.26,
+    'low': 12.245,
+    'open': 12.26,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 3737.0,
+    'vwap': 12.253153}}
+2025-08-15 10:49:21 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:49:21 INFO: Current average volume is: 1894.8
+2025-08-15 10:49:21 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:53:21 INFO: {'RIVN': {   'close': 12.235,
+    'high': 12.235,
+    'low': 12.235,
+    'open': 12.235,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 471.0,
+    'vwap': 12.235}}
+2025-08-15 10:53:21 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:53:21 INFO: Current average volume is: 1875.7
+2025-08-15 10:53:21 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:55:21 INFO: {'RIVN': {   'close': 12.24,
+    'high': 12.245,
+    'low': 12.24,
+    'open': 12.245,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 4614.0,
+    'vwap': 12.240219}}
+2025-08-15 10:55:21 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:55:21 INFO: Current average volume is: 2310.4
+2025-08-15 10:55:21 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 10:58:22 INFO: {'RIVN': {   'close': 12.26,
+    'high': 12.26,
+    'low': 12.25,
+    'open': 12.25,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2782.0,
+    'vwap': 12.253036}}
+2025-08-15 10:58:22 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 10:58:22 INFO: Current average volume is: 2578.6
+2025-08-15 10:58:22 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:00:22 INFO: {'RIVN': {   'close': 12.22,
+    'high': 12.23,
+    'low': 12.22,
+    'open': 12.23,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1170.0,
+    'vwap': 12.220974}}
+2025-08-15 11:00:22 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:00:22 INFO: Current average volume is: 2611.6
+2025-08-15 11:00:22 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:01:22 INFO: {'RIVN': {   'close': 12.225,
+    'high': 12.225,
+    'low': 12.225,
+    'open': 12.225,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 107.0,
+    'vwap': 12.225}}
+2025-08-15 11:01:22 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:01:22 INFO: Current average volume is: 1845.2
+2025-08-15 11:01:22 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:03:22 INFO: {'RIVN': {   'close': 12.235,
+    'high': 12.235,
+    'low': 12.235,
+    'open': 12.235,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 12.235}}
+2025-08-15 11:03:22 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:03:22 INFO: Current average volume is: 1468.3
+2025-08-15 11:03:22 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:05:22 INFO: {'RIVN': {   'close': 12.225,
+    'high': 12.225,
+    'low': 12.22,
+    'open': 12.22,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 390.0,
+    'vwap': 12.221613}}
+2025-08-15 11:05:22 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:05:22 INFO: Current average volume is: 1475.1
+2025-08-15 11:05:22 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:06:23 INFO: {'RIVN': {   'close': 12.185,
+    'high': 12.185,
+    'low': 12.185,
+    'open': 12.185,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 221.0,
+    'vwap': 12.185}}
+2025-08-15 11:06:23 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:06:23 INFO: Current average volume is: 1449.3
+2025-08-15 11:06:23 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:07:23 INFO: {'RIVN': {   'close': 12.2,
+    'high': 12.2,
+    'low': 12.18,
+    'open': 12.18,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 5488.0,
+    'vwap': 12.193361}}
+2025-08-15 11:07:23 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:07:23 INFO: Current average volume is: 1908.1
+2025-08-15 11:07:23 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:09:23 INFO: {'RIVN': {   'close': 12.21,
+    'high': 12.22,
+    'low': 12.21,
+    'open': 12.22,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 5969.0,
+    'vwap': 12.215936}}
+2025-08-15 11:09:23 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:09:23 INFO: Current average volume is: 2131.3
+2025-08-15 11:09:23 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:15:24 INFO: {'RIVN': {   'close': 12.205,
+    'high': 12.21,
+    'low': 12.205,
+    'open': 12.21,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2462.0,
+    'vwap': 12.209771}}
+2025-08-15 11:15:24 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:15:24 INFO: Current average volume is: 2330.4
+2025-08-15 11:15:24 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:17:24 INFO: {'RIVN': {   'close': 12.265,
+    'high': 12.265,
+    'low': 12.25,
+    'open': 12.25,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1209.0,
+    'vwap': 12.257641}}
+2025-08-15 11:17:24 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:17:24 INFO: Current average volume is: 1989.9
+2025-08-15 11:17:24 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:19:24 INFO: {'RIVN': {   'close': 12.26,
+    'high': 12.27,
+    'low': 12.26,
+    'open': 12.26,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 5234.0,
+    'vwap': 12.266528}}
+2025-08-15 11:19:24 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:19:24 INFO: Current average volume is: 2235.1
+2025-08-15 11:19:24 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:20:24 INFO: {'RIVN': {   'close': 12.255,
+    'high': 12.255,
+    'low': 12.255,
+    'open': 12.255,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 296.0,
+    'vwap': 12.255}}
+2025-08-15 11:20:24 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:20:24 INFO: Current average volume is: 2147.7
+2025-08-15 11:20:24 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:21:25 INFO: {'RIVN': {   'close': 12.26,
+    'high': 12.26,
+    'low': 12.26,
+    'open': 12.26,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1307.0,
+    'vwap': 12.26}}
+2025-08-15 11:21:25 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:21:25 INFO: Current average volume is: 2267.7
+2025-08-15 11:21:25 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:22:25 INFO: {'RIVN': {   'close': 12.255,
+    'high': 12.255,
+    'low': 12.25,
+    'open': 12.25,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 12.251667}}
+2025-08-15 11:22:25 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:22:25 INFO: Current average volume is: 2287.6
+2025-08-15 11:22:25 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:24:25 INFO: {'RIVN': {   'close': 12.215,
+    'high': 12.225,
+    'low': 12.215,
+    'open': 12.225,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 4137.0,
+    'vwap': 12.219262}}
+2025-08-15 11:24:25 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:24:25 INFO: Current average volume is: 2662.3
+2025-08-15 11:24:25 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:25:25 INFO: {'RIVN': {   'close': 12.185,
+    'high': 12.22,
+    'low': 12.185,
+    'open': 12.215,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 3502.0,
+    'vwap': 12.207661}}
+2025-08-15 11:25:25 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:25:25 INFO: Current average volume is: 2990.4
+2025-08-15 11:25:25 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:26:25 INFO: {'RIVN': {   'close': 12.195,
+    'high': 12.195,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1339.0,
+    'vwap': 12.190379}}
+2025-08-15 11:26:25 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:26:25 INFO: Current average volume is: 2575.5
+2025-08-15 11:26:25 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:28:25 INFO: {'RIVN': {   'close': 12.17,
+    'high': 12.175,
+    'low': 12.17,
+    'open': 12.175,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 419.0,
+    'vwap': 12.173215}}
+2025-08-15 11:28:25 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:28:25 INFO: Current average volume is: 2020.5
+2025-08-15 11:28:25 INFO: Updated resistance to: 12.295 and support to: 12.135
+2025-08-15 11:40:27 INFO: {'RIVN': {   'close': 12.135,
+    'high': 12.15,
+    'low': 12.135,
+    'open': 12.15,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 5111.0,
+    'vwap': 12.146533}}
+2025-08-15 11:40:27 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:40:27 INFO: Current average volume is: 2285.4
+2025-08-15 11:43:27 INFO: {'RIVN': {   'close': 12.13,
+    'high': 12.14,
+    'low': 12.13,
+    'open': 12.14,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 4782.0,
+    'vwap': 12.13463}}
+2025-08-15 11:43:27 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:43:27 INFO: Current average volume is: 2642.7
+2025-08-15 11:43:27 INFO: close price: 12.13 just dropped below support of 12.135...
+2025-08-15 11:44:27 INFO: {'RIVN': {   'close': 12.12,
+    'high': 12.12,
+    'low': 12.12,
+    'open': 12.12,
+    'symbol': 'RIVN',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 3929.0,
+    'vwap': 12.12}}
+2025-08-15 11:44:27 INFO: Current resistance is: 12.295 and support is: 12.135
+2025-08-15 11:44:27 INFO: Current average volume is: 2512.2
+2025-08-15 11:44:27 INFO: Closing price: 12.12 just dropped below support 12.135 again...ending trade...

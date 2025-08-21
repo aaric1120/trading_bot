@@ -1,0 +1,669 @@
+2025-08-14 11:10:26 INFO: === Strategy started ===
+2025-08-14 11:10:26 INFO: Start collecting the current highs/lows for: ETH
+2025-08-14 11:10:26 INFO: Most recent stock data: {'ETH': {   'close': 44.12,
+    'high': 44.2,
+    'low': 44.12,
+    'open': 44.18,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 612.0,
+    'vwap': 44.1475}}
+2025-08-14 11:11:27 INFO: Most recent stock data: {'ETH': {   'close': 44.01,
+    'high': 44.07,
+    'low': 44.01,
+    'open': 44.07,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 44.03}}
+2025-08-14 11:12:27 INFO: Most recent stock data: {'ETH': {   'close': 43.97,
+    'high': 43.97,
+    'low': 43.97,
+    'open': 43.97,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 43.97}}
+2025-08-14 11:13:27 INFO: Most recent stock data: {'ETH': {   'close': 43.98,
+    'high': 43.98,
+    'low': 43.98,
+    'open': 43.98,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 43.98}}
+2025-08-14 11:14:27 INFO: Most recent stock data: {'ETH': {   'close': 43.93,
+    'high': 44.04,
+    'low': 43.92,
+    'open': 44.04,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 43.975714}}
+2025-08-14 11:15:27 INFO: Most recent stock data: {'ETH': {   'close': 43.91,
+    'high': 43.93,
+    'low': 43.9,
+    'open': 43.92,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1379.0,
+    'vwap': 43.910769}}
+2025-08-14 11:16:27 INFO: Most recent stock data: {'ETH': {   'close': 43.84,
+    'high': 43.9,
+    'low': 43.84,
+    'open': 43.9,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1429.0,
+    'vwap': 43.888571}}
+2025-08-14 11:17:27 INFO: Most recent stock data: {'ETH': {   'close': 43.82,
+    'high': 43.85,
+    'low': 43.81,
+    'open': 43.83,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1400.0,
+    'vwap': 43.830714}}
+2025-08-14 11:18:28 INFO: Most recent stock data: {'ETH': {   'close': 43.84,
+    'high': 43.84,
+    'low': 43.84,
+    'open': 43.84,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 43.84}}
+2025-08-14 11:19:28 INFO: Most recent stock data: {'ETH': {   'close': 43.81,
+    'high': 43.83,
+    'low': 43.81,
+    'open': 43.83,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 43.825}}
+2025-08-14 11:20:28 INFO: Most recent stock data: {'ETH': {   'close': 43.75,
+    'high': 43.81,
+    'low': 43.75,
+    'open': 43.77,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 43.774277}}
+2025-08-14 11:20:28 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 11:20:28 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 11:21:28 INFO: {'ETH': {   'close': 43.71,
+    'high': 43.73,
+    'low': 43.66,
+    'open': 43.67,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 804.0,
+    'vwap': 43.6925}}
+2025-08-14 11:21:28 INFO: Current resistance is: 44.2 and support is: 43.75
+2025-08-14 11:21:28 INFO: Current average volume is: 721.2
+2025-08-14 11:21:28 INFO: close price: 43.71 just dropped below support of 43.75...
+2025-08-14 11:23:28 INFO: {'ETH': {   'close': 43.62,
+    'high': 43.65,
+    'low': 43.62,
+    'open': 43.65,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 800.0,
+    'vwap': 43.6375}}
+2025-08-14 11:23:28 INFO: Current resistance is: 44.2 and support is: 43.75
+2025-08-14 11:23:28 INFO: Current average volume is: 791.2
+2025-08-14 11:23:28 INFO: Closing price: 43.62 just dropped below support 43.75 again...ending trade...
+2025-08-14 11:25:30 INFO: === Strategy started ===
+2025-08-14 11:25:30 INFO: Start collecting the current highs/lows for: ETH
+2025-08-14 11:25:30 INFO: Most recent stock data: {'ETH': {   'close': 43.45,
+    'high': 43.53,
+    'low': 43.45,
+    'open': 43.5,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1700.0,
+    'vwap': 43.502941}}
+2025-08-14 11:26:30 INFO: Most recent stock data: {'ETH': {   'close': 43.41,
+    'high': 43.46,
+    'low': 43.37,
+    'open': 43.46,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1400.0,
+    'vwap': 43.417143}}
+2025-08-14 11:27:30 INFO: Most recent stock data: {'ETH': {   'close': 43.34,
+    'high': 43.41,
+    'low': 43.32,
+    'open': 43.32,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 574.0,
+    'vwap': 43.352}}
+2025-08-14 11:28:30 INFO: Most recent stock data: {'ETH': {   'close': 43.39,
+    'high': 43.43,
+    'low': 43.3,
+    'open': 43.34,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1200.0,
+    'vwap': 43.341667}}
+2025-08-14 11:29:31 INFO: Most recent stock data: {'ETH': {   'close': 43.52,
+    'high': 43.52,
+    'low': 43.42,
+    'open': 43.42,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 850.0,
+    'vwap': 43.4475}}
+2025-08-14 11:30:31 INFO: Most recent stock data: {'ETH': {   'close': 43.52,
+    'high': 43.53,
+    'low': 43.5,
+    'open': 43.53,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1144.0,
+    'vwap': 43.512727}}
+2025-08-14 11:31:31 INFO: Most recent stock data: {'ETH': {   'close': 43.54,
+    'high': 43.54,
+    'low': 43.47,
+    'open': 43.53,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 43.51}}
+2025-08-14 11:32:31 INFO: Most recent stock data: {'ETH': {   'close': 43.62,
+    'high': 43.62,
+    'low': 43.54,
+    'open': 43.54,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1000.0,
+    'vwap': 43.563}}
+2025-08-14 11:33:31 INFO: Most recent stock data: {'ETH': {   'close': 43.59,
+    'high': 43.61,
+    'low': 43.57,
+    'open': 43.61,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 43.581429}}
+2025-08-14 11:34:31 INFO: Most recent stock data: {'ETH': {   'close': 43.57,
+    'high': 43.63,
+    'low': 43.55,
+    'open': 43.63,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1800.0,
+    'vwap': 43.585}}
+2025-08-14 11:35:31 INFO: Most recent stock data: {'ETH': {   'close': 43.46,
+    'high': 43.55,
+    'low': 43.46,
+    'open': 43.55,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1200.0,
+    'vwap': 43.515}}
+2025-08-14 11:35:31 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 11:35:31 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 11:36:31 INFO: {'ETH': {   'close': 43.37,
+    'high': 43.42,
+    'low': 43.37,
+    'open': 43.4,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 800.0,
+    'vwap': 43.405}}
+2025-08-14 11:36:31 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:36:31 INFO: Current average volume is: 976.8
+2025-08-14 11:36:31 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:38:32 INFO: {'ETH': {   'close': 43.31,
+    'high': 43.31,
+    'low': 43.3,
+    'open': 43.31,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 43.304286}}
+2025-08-14 11:38:32 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:38:32 INFO: Current average volume is: 989.4
+2025-08-14 11:38:32 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:39:32 INFO: {'ETH': {   'close': 43.43,
+    'high': 43.49,
+    'low': 43.32,
+    'open': 43.32,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1800.0,
+    'vwap': 43.427778}}
+2025-08-14 11:39:32 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:39:32 INFO: Current average volume is: 1049.4
+2025-08-14 11:39:32 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:41:32 INFO: {'ETH': {   'close': 43.57,
+    'high': 43.57,
+    'low': 43.45,
+    'open': 43.46,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1705.0,
+    'vwap': 43.504}}
+2025-08-14 11:41:32 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:41:32 INFO: Current average volume is: 1134.9
+2025-08-14 11:41:32 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:42:32 INFO: {'ETH': {   'close': 43.49,
+    'high': 43.53,
+    'low': 43.49,
+    'open': 43.53,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 43.513333}}
+2025-08-14 11:42:32 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:42:32 INFO: Current average volume is: 1050.5
+2025-08-14 11:42:32 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:44:32 INFO: {'ETH': {   'close': 43.52,
+    'high': 43.55,
+    'low': 43.5,
+    'open': 43.5,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 43.522857}}
+2025-08-14 11:44:32 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:44:32 INFO: Current average volume is: 1070.5
+2025-08-14 11:44:32 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:46:33 INFO: {'ETH': {   'close': 43.36,
+    'high': 43.47,
+    'low': 43.36,
+    'open': 43.41,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 43.404}}
+2025-08-14 11:46:33 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:46:33 INFO: Current average volume is: 1020.5
+2025-08-14 11:46:33 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:47:33 INFO: {'ETH': {   'close': 43.45,
+    'high': 43.45,
+    'low': 43.38,
+    'open': 43.38,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 43.408571}}
+2025-08-14 11:47:33 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:47:33 INFO: Current average volume is: 1020.5
+2025-08-14 11:47:33 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:48:33 INFO: {'ETH': {   'close': 43.43,
+    'high': 43.43,
+    'low': 43.43,
+    'open': 43.43,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 43.43}}
+2025-08-14 11:48:33 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:48:33 INFO: Current average volume is: 850.5
+2025-08-14 11:48:33 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:49:33 INFO: {'ETH': {   'close': 43.45,
+    'high': 43.45,
+    'low': 43.45,
+    'open': 43.45,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 43.45}}
+2025-08-14 11:49:33 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:49:33 INFO: Current average volume is: 750.5
+2025-08-14 11:49:33 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:50:33 INFO: {'ETH': {   'close': 43.48,
+    'high': 43.48,
+    'low': 43.48,
+    'open': 43.48,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 43.48}}
+2025-08-14 11:50:33 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:50:33 INFO: Current average volume is: 690.5
+2025-08-14 11:50:33 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:51:33 INFO: {'ETH': {   'close': 43.52,
+    'high': 43.53,
+    'low': 43.5,
+    'open': 43.5,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 43.51}}
+2025-08-14 11:51:33 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:51:33 INFO: Current average volume is: 670.5
+2025-08-14 11:51:33 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:54:34 INFO: {'ETH': {   'close': 43.61,
+    'high': 43.61,
+    'low': 43.58,
+    'open': 43.58,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 414.0,
+    'vwap': 43.5975}}
+2025-08-14 11:54:34 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:54:34 INFO: Current average volume is: 531.9
+2025-08-14 11:54:34 INFO: Updated resistance to: 43.63 and support to: 43.3
+2025-08-14 11:56:34 INFO: {'ETH': {   'close': 43.65,
+    'high': 43.65,
+    'low': 43.59,
+    'open': 43.61,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 43.621667}}
+2025-08-14 11:56:34 INFO: Current resistance is: 43.63 and support is: 43.3
+2025-08-14 11:56:34 INFO: Current average volume is: 421.4
+2025-08-14 11:56:34 INFO: The Current Close 43.65 is above the resistance...
+2025-08-14 11:56:34 INFO: Updated resistance to: 43.65 and support to: 43.3
+2025-08-14 11:57:04 INFO: {'ETH': {   'close': 43.69,
+    'high': 43.69,
+    'low': 43.64,
+    'open': 43.64,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1100.0,
+    'vwap': 43.666364}}
+2025-08-14 11:57:04 INFO: Current resistance is: 43.65 and support is: 43.3
+2025-08-14 11:57:04 INFO: Current average volume is: 501.4
+2025-08-14 11:57:04 INFO: The marubozu candle pattern check is: 0. The three_white candle pattern check is 0. The closing_maru candle pattern check is 0. The belthold candle pattern check is 0
+2025-08-14 11:58:04 INFO: {'ETH': {   'close': 43.66,
+    'high': 43.67,
+    'low': 43.66,
+    'open': 43.67,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 43.665}}
+2025-08-14 11:58:04 INFO: Current resistance is: 43.65 and support is: 43.3
+2025-08-14 11:58:04 INFO: Current average volume is: 451.4
+2025-08-14 11:58:04 INFO: The current close: 43.66 is above the resistance of 43.65, but volume isn't enough...
+2025-08-14 11:58:04 INFO: Updated resistance to: 43.67 and support to: 43.3
+2025-08-14 11:59:04 INFO: {'ETH': {   'close': 43.6,
+    'high': 43.6,
+    'low': 43.6,
+    'open': 43.6,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 43.6}}
+2025-08-14 11:59:04 INFO: Current resistance is: 43.67 and support is: 43.3
+2025-08-14 11:59:04 INFO: Current average volume is: 421.4
+2025-08-14 11:59:04 INFO: Updated resistance to: 43.67 and support to: 43.3
+2025-08-14 12:00:05 INFO: {'ETH': {   'close': 43.56,
+    'high': 43.57,
+    'low': 43.56,
+    'open': 43.57,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 43.562}}
+2025-08-14 12:00:05 INFO: Current resistance is: 43.67 and support is: 43.3
+2025-08-14 12:00:05 INFO: Current average volume is: 401.4
+2025-08-14 12:00:05 INFO: Updated resistance to: 43.67 and support to: 43.3
+2025-08-14 12:01:05 INFO: {'ETH': {   'close': 43.55,
+    'high': 43.55,
+    'low': 43.52,
+    'open': 43.53,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 770.0,
+    'vwap': 43.541429}}
+2025-08-14 12:01:05 INFO: Current resistance is: 43.67 and support is: 43.3
+2025-08-14 12:01:05 INFO: Current average volume is: 468.4
+2025-08-14 12:01:05 INFO: Updated resistance to: 43.67 and support to: 43.3
+2025-08-14 12:02:05 INFO: {'ETH': {   'close': 43.54,
+    'high': 43.54,
+    'low': 43.54,
+    'open': 43.54,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 43.54}}
+2025-08-14 12:02:05 INFO: Current resistance is: 43.67 and support is: 43.3
+2025-08-14 12:02:05 INFO: Current average volume is: 458.4
+2025-08-14 12:02:05 INFO: Updated resistance to: 43.67 and support to: 43.3
+2025-08-14 12:03:05 INFO: {'ETH': {   'close': 43.53,
+    'high': 43.53,
+    'low': 43.53,
+    'open': 43.53,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 43.53}}
+2025-08-14 12:03:05 INFO: Current resistance is: 43.67 and support is: 43.3
+2025-08-14 12:03:05 INFO: Current average volume is: 448.5
+2025-08-14 12:03:05 INFO: Updated resistance to: 43.67 and support to: 43.3
+2025-08-14 12:05:05 INFO: {'ETH': {   'close': 43.46,
+    'high': 43.52,
+    'low': 43.46,
+    'open': 43.52,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 43.496667}}
+2025-08-14 12:05:05 INFO: Current resistance is: 43.67 and support is: 43.3
+2025-08-14 12:05:05 INFO: Current average volume is: 458.5
+2025-08-14 12:05:05 INFO: Updated resistance to: 43.67 and support to: 43.3
+2025-08-14 12:06:05 INFO: {'ETH': {   'close': 43.26,
+    'high': 43.38,
+    'low': 43.26,
+    'open': 43.37,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 513.0,
+    'vwap': 43.346}}
+2025-08-14 12:06:05 INFO: Current resistance is: 43.67 and support is: 43.3
+2025-08-14 12:06:05 INFO: Current average volume is: 468.4
+2025-08-14 12:06:05 INFO: close price: 43.26 just dropped below support of 43.3...
+2025-08-14 12:07:05 INFO: {'ETH': {   'close': 43.28,
+    'high': 43.28,
+    'low': 43.21,
+    'open': 43.26,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1140.0,
+    'vwap': 43.254545}}
+2025-08-14 12:07:05 INFO: Current resistance is: 43.67 and support is: 43.3
+2025-08-14 12:07:05 INFO: Current average volume is: 522.4
+2025-08-14 12:07:05 INFO: Closing price: 43.28 just dropped below support 43.3 again...ending trade...
+2025-08-14 12:55:40 INFO: === Strategy started ===
+2025-08-14 12:55:40 INFO: Start collecting the current highs/lows for: ETH
+2025-08-14 12:55:40 INFO: Most recent stock data: {'ETH': {   'close': 42.99,
+    'high': 42.99,
+    'low': 42.98,
+    'open': 42.99,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 42.9875}}
+2025-08-14 12:57:41 INFO: Most recent stock data: {'ETH': {   'close': 42.94,
+    'high': 42.94,
+    'low': 42.94,
+    'open': 42.94,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 42.94}}
+2025-08-14 12:58:41 INFO: Most recent stock data: {'ETH': {   'close': 43.0,
+    'high': 43.0,
+    'low': 42.95,
+    'open': 42.95,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 505.0,
+    'vwap': 42.97}}
+2025-08-14 12:59:41 INFO: Most recent stock data: {'ETH': {   'close': 42.9,
+    'high': 42.96,
+    'low': 42.9,
+    'open': 42.96,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 42.93}}
+2025-08-14 13:00:41 INFO: Most recent stock data: {'ETH': {   'close': 42.88,
+    'high': 42.93,
+    'low': 42.87,
+    'open': 42.92,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 815.0,
+    'vwap': 42.905}}
+2025-08-14 13:01:41 INFO: Most recent stock data: {'ETH': {   'close': 42.81,
+    'high': 42.83,
+    'low': 42.79,
+    'open': 42.82,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 997.0,
+    'vwap': 42.811111}}
+2025-08-14 13:02:41 INFO: Most recent stock data: {'ETH': {   'close': 42.71,
+    'high': 42.78,
+    'low': 42.68,
+    'open': 42.78,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1711.0,
+    'vwap': 42.710769}}
+2025-08-14 13:03:41 INFO: Most recent stock data: {'ETH': {   'close': 42.76,
+    'high': 42.76,
+    'low': 42.75,
+    'open': 42.75,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.755}}
+2025-08-14 13:04:41 INFO: Most recent stock data: {'ETH': {   'close': 42.77,
+    'high': 42.77,
+    'low': 42.76,
+    'open': 42.76,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 42.764}}
+2025-08-14 13:05:42 INFO: Most recent stock data: {'ETH': {   'close': 42.83,
+    'high': 42.83,
+    'low': 42.83,
+    'open': 42.83,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.83}}
+2025-08-14 13:06:42 INFO: Most recent stock data: {'ETH': {   'close': 42.77,
+    'high': 42.84,
+    'low': 42.77,
+    'open': 42.84,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 42.805}}
+2025-08-14 13:06:42 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 13:06:42 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 13:07:42 INFO: {'ETH': {   'close': 42.68,
+    'high': 42.7,
+    'low': 42.68,
+    'open': 42.68,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 42.686}}
+2025-08-14 13:07:42 INFO: Current resistance is: 43.0 and support is: 42.68
+2025-08-14 13:07:42 INFO: Current average volume is: 602.8
+2025-08-14 13:10:42 INFO: {'ETH': {   'close': 42.66,
+    'high': 42.69,
+    'low': 42.66,
+    'open': 42.69,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 42.68}}
+2025-08-14 13:10:42 INFO: Current resistance is: 43.0 and support is: 42.68
+2025-08-14 13:10:42 INFO: Current average volume is: 582.3
+2025-08-14 13:10:42 INFO: close price: 42.66 just dropped below support of 42.68...
+2025-08-14 13:11:42 INFO: {'ETH': {   'close': 42.68,
+    'high': 42.68,
+    'low': 42.68,
+    'open': 42.68,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 42.68}}
+2025-08-14 13:11:42 INFO: Current resistance is: 43.0 and support is: 42.68
+2025-08-14 13:11:42 INFO: Current average volume is: 552.3
+2025-08-14 13:12:42 INFO: {'ETH': {   'close': 42.56,
+    'high': 42.59,
+    'low': 42.5,
+    'open': 42.59,
+    'symbol': 'ETH',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1621.0,
+    'vwap': 42.527544}}
+2025-08-14 13:12:42 INFO: Current resistance is: 43.0 and support is: 42.68
+2025-08-14 13:12:42 INFO: Current average volume is: 632.9
+2025-08-14 13:12:42 INFO: Closing price: 42.56 just dropped below support 42.68 again...ending trade...

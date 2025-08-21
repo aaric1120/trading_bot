@@ -1,0 +1,351 @@
+2025-08-20 09:55:13 INFO: === Strategy started ===
+2025-08-20 09:55:13 INFO: Start collecting the current highs/lows for: TJX
+2025-08-20 09:55:13 INFO: Most recent stock data: {'TJX': {   'close': 141.09,
+    'high': 141.35,
+    'low': 141.09,
+    'open': 141.35,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1050.0,
+    'vwap': 141.23}}
+2025-08-20 09:56:14 INFO: Most recent stock data: {'TJX': {   'close': 141.15,
+    'high': 141.2,
+    'low': 140.925,
+    'open': 141.085,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 2476.0,
+    'vwap': 141.001667}}
+2025-08-20 09:57:14 INFO: Most recent stock data: {'TJX': {   'close': 141.07,
+    'high': 141.14,
+    'low': 141.07,
+    'open': 141.075,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 419.0,
+    'vwap': 141.10625}}
+2025-08-20 09:58:14 INFO: Most recent stock data: {'TJX': {   'close': 140.795,
+    'high': 140.86,
+    'low': 140.58,
+    'open': 140.86,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 4661.0,
+    'vwap': 140.712906}}
+2025-08-20 09:59:14 INFO: Most recent stock data: {'TJX': {   'close': 141.08,
+    'high': 141.19,
+    'low': 141.0,
+    'open': 141.19,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2542.0,
+    'vwap': 141.08186}}
+2025-08-20 10:00:14 INFO: Most recent stock data: {'TJX': {   'close': 140.97,
+    'high': 141.175,
+    'low': 140.97,
+    'open': 141.115,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2202.0,
+    'vwap': 141.070094}}
+2025-08-20 10:01:14 INFO: Most recent stock data: {'TJX': {   'close': 140.695,
+    'high': 141.005,
+    'low': 140.695,
+    'open': 141.005,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1216.0,
+    'vwap': 140.848333}}
+2025-08-20 10:02:15 INFO: Most recent stock data: {'TJX': {   'close': 140.635,
+    'high': 140.68,
+    'low': 140.485,
+    'open': 140.68,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1631.0,
+    'vwap': 140.591301}}
+2025-08-20 10:03:15 INFO: Most recent stock data: {'TJX': {   'close': 140.59,
+    'high': 140.7,
+    'low': 140.585,
+    'open': 140.7,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 869.0,
+    'vwap': 140.627273}}
+2025-08-20 10:04:15 INFO: Most recent stock data: {'TJX': {   'close': 140.44,
+    'high': 140.5,
+    'low': 140.36,
+    'open': 140.5,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 901.0,
+    'vwap': 140.443846}}
+2025-08-20 10:05:15 INFO: Most recent stock data: {'TJX': {   'close': 140.57,
+    'high': 140.57,
+    'low': 140.555,
+    'open': 140.555,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 568.0,
+    'vwap': 140.5625}}
+2025-08-20 10:05:15 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 10:05:15 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-20 10:06:15 INFO: {'TJX': {   'close': 140.515,
+    'high': 140.59,
+    'low': 140.505,
+    'open': 140.505,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 4356.0,
+    'vwap': 140.544632}}
+2025-08-20 10:06:15 INFO: Current resistance is: 140.493 and support is: 140.235
+2025-08-20 10:06:15 INFO: Current average volume is: 1936.5
+2025-08-20 10:06:15 INFO: The Current Close 140.515 is above the resistance...
+2025-08-20 10:06:15 INFO: Updated resistance to: 140.468 and support to: 140.187
+2025-08-20 10:07:16 INFO: {'TJX': {   'close': 140.795,
+    'high': 140.795,
+    'low': 140.65,
+    'open': 140.65,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 533.0,
+    'vwap': 140.745}}
+2025-08-20 10:07:16 INFO: Current resistance is: 140.468 and support is: 140.187
+2025-08-20 10:07:16 INFO: Current average volume is: 1947.9
+2025-08-20 10:07:16 INFO: The current close: 140.795 is above the resistance of 140.468, but volume isn't enough...
+2025-08-20 10:07:16 INFO: Updated resistance to: 140.549 and support to: 140.167
+2025-08-20 10:08:16 INFO: {'TJX': {   'close': 140.74,
+    'high': 140.825,
+    'low': 140.535,
+    'open': 140.745,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1643.0,
+    'vwap': 140.679231}}
+2025-08-20 10:08:16 INFO: Current resistance is: 140.549 and support is: 140.167
+2025-08-20 10:08:16 INFO: Current average volume is: 1646.1
+2025-08-20 10:08:16 INFO: The current close: 140.74 is above the resistance of 140.549, but volume isn't enough...
+2025-08-20 10:08:16 INFO: Updated resistance to: 140.628 and support to: 140.14
+2025-08-20 10:09:16 INFO: {'TJX': {   'close': 140.8,
+    'high': 140.875,
+    'low': 140.8,
+    'open': 140.825,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 433.0,
+    'vwap': 140.833333}}
+2025-08-20 10:09:16 INFO: Current resistance is: 140.628 and support is: 140.14
+2025-08-20 10:09:16 INFO: Current average volume is: 1435.2
+2025-08-20 10:09:16 INFO: The current close: 140.8 is above the resistance of 140.628, but volume isn't enough...
+2025-08-20 10:09:16 INFO: Updated resistance to: 140.713 and support to: 140.158
+2025-08-20 10:10:17 INFO: {'TJX': {   'close': 140.63,
+    'high': 140.71,
+    'low': 140.63,
+    'open': 140.71,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 625.0,
+    'vwap': 140.67}}
+2025-08-20 10:10:17 INFO: Current resistance is: 140.713 and support is: 140.158
+2025-08-20 10:10:17 INFO: Current average volume is: 1277.5
+2025-08-20 10:10:17 INFO: Updated resistance to: 140.724 and support to: 140.152
+2025-08-20 10:11:17 INFO: {'TJX': {   'close': 140.56,
+    'high': 140.65,
+    'low': 140.56,
+    'open': 140.62,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 709.0,
+    'vwap': 140.606429}}
+2025-08-20 10:11:17 INFO: Current resistance is: 140.724 and support is: 140.152
+2025-08-20 10:11:17 INFO: Current average volume is: 1226.8
+2025-08-20 10:11:17 INFO: Updated resistance to: 140.718 and support to: 140.137
+2025-08-20 10:12:17 INFO: {'TJX': {   'close': 140.66,
+    'high': 140.66,
+    'low': 140.66,
+    'open': 140.66,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 341.0,
+    'vwap': 140.66}}
+2025-08-20 10:12:17 INFO: Current resistance is: 140.718 and support is: 140.137
+2025-08-20 10:12:17 INFO: Current average volume is: 1097.8
+2025-08-20 10:12:17 INFO: Updated resistance to: 140.719 and support to: 140.142
+2025-08-20 10:13:17 INFO: {'TJX': {   'close': 141.055,
+    'high': 141.055,
+    'low': 140.9,
+    'open': 140.9,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 720.0,
+    'vwap': 141.003333}}
+2025-08-20 10:13:17 INFO: Current resistance is: 140.719 and support is: 140.142
+2025-08-20 10:13:17 INFO: Current average volume is: 1082.9
+2025-08-20 10:13:17 INFO: The Current Close 141.055 is above the resistance...
+2025-08-20 10:13:17 INFO: Updated resistance to: 140.843 and support to: 140.185
+2025-08-20 10:14:17 INFO: {'TJX': {   'close': 141.14,
+    'high': 141.25,
+    'low': 141.07,
+    'open': 141.07,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1069.0,
+    'vwap': 141.156667}}
+2025-08-20 10:14:17 INFO: Current resistance is: 140.843 and support is: 140.185
+2025-08-20 10:14:17 INFO: Current average volume is: 1099.7
+2025-08-20 10:14:17 INFO: The current close: 141.14 is above the resistance of 140.843, but volume isn't enough...
+2025-08-20 10:14:17 INFO: Updated resistance to: 141.001 and support to: 140.251
+2025-08-20 10:15:18 INFO: {'TJX': {   'close': 141.18,
+    'high': 141.18,
+    'low': 141.18,
+    'open': 141.18,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 585.0,
+    'vwap': 141.18}}
+2025-08-20 10:15:18 INFO: Current resistance is: 141.001 and support is: 140.251
+2025-08-20 10:15:18 INFO: Current average volume is: 1101.4
+2025-08-20 10:15:18 INFO: The current close: 141.18 is above the resistance of 141.001, but volume isn't enough...
+2025-08-20 10:15:18 INFO: Updated resistance to: 141.113 and support to: 140.327
+2025-08-20 10:16:18 INFO: {'TJX': {   'close': 140.74,
+    'high': 141.14,
+    'low': 140.74,
+    'open': 141.14,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1004.0,
+    'vwap': 140.846667}}
+2025-08-20 10:16:18 INFO: Current resistance is: 141.113 and support is: 140.327
+2025-08-20 10:16:18 INFO: Current average volume is: 766.2
+2025-08-20 10:16:18 INFO: Updated resistance to: 141.196 and support to: 140.327
+2025-08-20 10:17:18 INFO: {'TJX': {   'close': 140.98,
+    'high': 140.98,
+    'low': 140.865,
+    'open': 140.865,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 310.0,
+    'vwap': 140.9225}}
+2025-08-20 10:17:18 INFO: Current resistance is: 141.196 and support is: 140.327
+2025-08-20 10:17:18 INFO: Current average volume is: 743.9
+2025-08-20 10:17:18 INFO: Updated resistance to: 141.225 and support to: 140.346
+2025-08-20 10:19:19 INFO: {'TJX': {   'close': 141.21,
+    'high': 141.21,
+    'low': 141.21,
+    'open': 141.21,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 518.0,
+    'vwap': 141.21}}
+2025-08-20 10:19:19 INFO: Current resistance is: 141.225 and support is: 140.346
+2025-08-20 10:19:19 INFO: Current average volume is: 631.4
+2025-08-20 10:19:19 INFO: Updated resistance to: 141.306 and support to: 140.415
+2025-08-20 10:20:19 INFO: {'TJX': {   'close': 141.38,
+    'high': 141.41,
+    'low': 141.38,
+    'open': 141.41,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 141.4}}
+2025-08-20 10:20:19 INFO: Current resistance is: 141.306 and support is: 140.415
+2025-08-20 10:20:19 INFO: Current average volume is: 628.1
+2025-08-20 10:20:19 INFO: The Current Close 141.38 is above the resistance...
+2025-08-20 10:20:19 INFO: Updated resistance to: 141.413 and support to: 140.501
+2025-08-20 10:21:19 INFO: {'TJX': {   'close': 141.23,
+    'high': 141.29,
+    'low': 141.23,
+    'open': 141.29,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 404.0,
+    'vwap': 141.25}}
+2025-08-20 10:21:19 INFO: Current resistance is: 141.413 and support is: 140.501
+2025-08-20 10:21:19 INFO: Current average volume is: 606.0
+2025-08-20 10:21:19 INFO: Updated resistance to: 141.421 and support to: 140.556
+2025-08-20 10:22:19 INFO: {'TJX': {   'close': 141.12,
+    'high': 141.25,
+    'low': 141.12,
+    'open': 141.22,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 778.0,
+    'vwap': 141.185}}
+2025-08-20 10:22:19 INFO: Current resistance is: 141.421 and support is: 140.556
+2025-08-20 10:22:19 INFO: Current average volume is: 612.9
+2025-08-20 10:22:19 INFO: Updated resistance to: 141.431 and support to: 140.589
+2025-08-20 10:23:20 INFO: {'TJX': {   'close': 140.78,
+    'high': 141.045,
+    'low': 140.76,
+    'open': 141.045,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 768.0,
+    'vwap': 140.891667}}
+2025-08-20 10:23:20 INFO: Current resistance is: 141.431 and support is: 140.589
+2025-08-20 10:23:20 INFO: Current average volume is: 655.6
+2025-08-20 10:23:20 INFO: Updated resistance to: 141.438 and support to: 140.567
+2025-08-20 10:25:20 INFO: {'TJX': {   'close': 140.59,
+    'high': 140.59,
+    'low': 140.52,
+    'open': 140.52,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 282.0,
+    'vwap': 140.555}}
+2025-08-20 10:25:20 INFO: Current resistance is: 141.438 and support is: 140.567
+2025-08-20 10:25:20 INFO: Current average volume is: 611.8
+2025-08-20 10:25:20 INFO: Updated resistance to: 141.428 and support to: 140.514
+2025-08-20 10:26:20 INFO: {'TJX': {   'close': 140.37,
+    'high': 140.525,
+    'low': 140.37,
+    'open': 140.525,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 649.0,
+    'vwap': 140.463}}
+2025-08-20 10:26:20 INFO: Current resistance is: 141.428 and support is: 140.514
+2025-08-20 10:26:20 INFO: Current average volume is: 569.8
+2025-08-20 10:26:20 INFO: close price: 140.37 just dropped below support of 140.514...
+2025-08-20 10:27:20 INFO: {'TJX': {   'close': 140.34,
+    'high': 140.39,
+    'low': 140.32,
+    'open': 140.32,
+    'symbol': 'TJX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 936.0,
+    'vwap': 140.343571}}
+2025-08-20 10:27:20 INFO: Current resistance is: 141.428 and support is: 140.514
+2025-08-20 10:27:20 INFO: Current average volume is: 604.9
+2025-08-20 10:27:20 INFO: Closing price: 140.34 just dropped below support 140.514 again...ending trade...

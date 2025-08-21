@@ -1,0 +1,522 @@
+2025-08-21 09:55:12 INFO: === Strategy started ===
+2025-08-21 09:55:12 INFO: Start collecting the current highs/lows for: FUTU
+2025-08-21 09:55:13 INFO: Most recent stock data: {'FUTU': {   'close': 184.19,
+    'high': 184.19,
+    'low': 183.98,
+    'open': 183.98,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 484.0,
+    'vwap': 184.12}}
+2025-08-21 09:56:13 INFO: Most recent stock data: {'FUTU': {   'close': 183.71,
+    'high': 184.12,
+    'low': 183.71,
+    'open': 184.12,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 4825.0,
+    'vwap': 184.073864}}
+2025-08-21 09:57:13 INFO: Most recent stock data: {'FUTU': {   'close': 183.26,
+    'high': 183.26,
+    'low': 183.26,
+    'open': 183.26,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 233.0,
+    'vwap': 183.26}}
+2025-08-21 10:00:14 INFO: Most recent stock data: {'FUTU': {   'close': 182.66,
+    'high': 182.66,
+    'low': 182.66,
+    'open': 182.66,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 182.66}}
+2025-08-21 10:01:14 INFO: Most recent stock data: {'FUTU': {   'close': 182.86,
+    'high': 183.09,
+    'low': 182.86,
+    'open': 182.87,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 393.0,
+    'vwap': 182.94}}
+2025-08-21 10:02:14 INFO: Most recent stock data: {'FUTU': {   'close': 182.47,
+    'high': 182.79,
+    'low': 182.47,
+    'open': 182.79,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 427.0,
+    'vwap': 182.605}}
+2025-08-21 10:03:14 INFO: Most recent stock data: {'FUTU': {   'close': 182.52,
+    'high': 182.52,
+    'low': 182.52,
+    'open': 182.52,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 124.0,
+    'vwap': 182.52}}
+2025-08-21 10:04:14 INFO: Most recent stock data: {'FUTU': {   'close': 182.2,
+    'high': 182.2,
+    'low': 182.15,
+    'open': 182.15,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 302.0,
+    'vwap': 182.166667}}
+2025-08-21 10:05:15 INFO: Most recent stock data: {'FUTU': {   'close': 181.83,
+    'high': 181.83,
+    'low': 181.83,
+    'open': 181.83,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 238.0,
+    'vwap': 181.83}}
+2025-08-21 10:06:15 INFO: Most recent stock data: {'FUTU': {   'close': 181.92,
+    'high': 182.16,
+    'low': 181.92,
+    'open': 182.16,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 288.0,
+    'vwap': 182.04}}
+2025-08-21 10:08:15 INFO: Most recent stock data: {'FUTU': {   'close': 181.63,
+    'high': 181.82,
+    'low': 181.63,
+    'open': 181.82,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 475.0,
+    'vwap': 181.7175}}
+2025-08-21 10:08:15 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-21 10:08:15 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-21 10:10:16 INFO: {'FUTU': {   'close': 181.4,
+    'high': 181.4,
+    'low': 181.4,
+    'open': 181.4,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 181.4}}
+2025-08-21 10:10:16 INFO: Current resistance is: 181.643 and support is: 181.407
+2025-08-21 10:10:16 INFO: Current average volume is: 268.0
+2025-08-21 10:10:16 INFO: close price: 181.4 just dropped below support of 181.407...
+2025-08-21 10:11:16 INFO: {'FUTU': {   'close': 181.96,
+    'high': 181.96,
+    'low': 181.96,
+    'open': 181.96,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 181.96}}
+2025-08-21 10:11:16 INFO: Current resistance is: 181.643 and support is: 181.407
+2025-08-21 10:11:16 INFO: Current average volume is: 254.7
+2025-08-21 10:11:16 INFO: The Current Close 181.96 is above the resistance...
+2025-08-21 10:11:16 INFO: Updated resistance to: 181.522 and support to: 181.018
+2025-08-21 10:13:16 INFO: {'FUTU': {   'close': 182.82,
+    'high': 182.82,
+    'low': 182.82,
+    'open': 182.82,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 182.82}}
+2025-08-21 10:13:16 INFO: Current resistance is: 181.522 and support is: 181.018
+2025-08-21 10:13:16 INFO: Current average volume is: 254.7
+2025-08-21 10:13:16 INFO: The current close: 182.82 is above the resistance of 181.522, but volume isn't enough...
+2025-08-21 10:13:16 INFO: Updated resistance to: 181.973 and support to: 180.97
+2025-08-21 10:15:17 INFO: {'FUTU': {   'close': 182.79,
+    'high': 182.79,
+    'low': 182.79,
+    'open': 182.79,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 218.0,
+    'vwap': 182.79}}
+2025-08-21 10:15:17 INFO: Current resistance is: 181.973 and support is: 180.97
+2025-08-21 10:15:17 INFO: Current average volume is: 237.2
+2025-08-21 10:15:17 INFO: The current close: 182.79 is above the resistance of 181.973, but volume isn't enough...
+2025-08-21 10:15:17 INFO: Updated resistance to: 182.32 and support to: 180.962
+2025-08-21 10:16:18 INFO: {'FUTU': {   'close': 182.58,
+    'high': 182.58,
+    'low': 182.58,
+    'open': 182.58,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 235.0,
+    'vwap': 182.58}}
+2025-08-21 10:16:18 INFO: Current resistance is: 182.32 and support is: 180.962
+2025-08-21 10:16:18 INFO: Current average volume is: 218.0
+2025-08-21 10:16:18 INFO: The current close: 182.58 is above the resistance of 182.32, but volume isn't enough...
+2025-08-21 10:16:18 INFO: Updated resistance to: 182.526 and support to: 180.954
+2025-08-21 10:18:18 INFO: {'FUTU': {   'close': 181.8,
+    'high': 181.8,
+    'low': 181.8,
+    'open': 181.8,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 117.0,
+    'vwap': 181.8}}
+2025-08-21 10:18:18 INFO: Current resistance is: 182.526 and support is: 180.954
+2025-08-21 10:18:18 INFO: Current average volume is: 217.3
+2025-08-21 10:18:18 INFO: Updated resistance to: 182.438 and support to: 180.868
+2025-08-21 10:19:18 INFO: {'FUTU': {   'close': 181.5,
+    'high': 182.02,
+    'low': 181.5,
+    'open': 182.02,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 405.0,
+    'vwap': 181.673333}}
+2025-08-21 10:19:18 INFO: Current resistance is: 182.438 and support is: 180.868
+2025-08-21 10:19:18 INFO: Current average volume is: 227.6
+2025-08-21 10:19:18 INFO: Updated resistance to: 182.449 and support to: 180.755
+2025-08-21 10:20:19 INFO: {'FUTU': {   'close': 181.505,
+    'high': 181.505,
+    'low': 181.41,
+    'open': 181.41,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 181.4575}}
+2025-08-21 10:20:19 INFO: Current resistance is: 182.449 and support is: 180.755
+2025-08-21 10:20:19 INFO: Current average volume is: 223.8
+2025-08-21 10:20:19 INFO: Updated resistance to: 182.312 and support to: 180.644
+2025-08-21 10:21:19 INFO: {'FUTU': {   'close': 182.03,
+    'high': 182.03,
+    'low': 181.78,
+    'open': 181.78,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 576.0,
+    'vwap': 181.936667}}
+2025-08-21 10:21:19 INFO: Current resistance is: 182.312 and support is: 180.644
+2025-08-21 10:21:19 INFO: Current average volume is: 252.6
+2025-08-21 10:21:19 INFO: Updated resistance to: 182.361 and support to: 180.594
+2025-08-21 10:23:19 INFO: {'FUTU': {   'close': 181.6,
+    'high': 181.83,
+    'low': 181.6,
+    'open': 181.825,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 181.693429}}
+2025-08-21 10:23:19 INFO: Current resistance is: 182.361 and support is: 180.594
+2025-08-21 10:23:19 INFO: Current average volume is: 255.1
+2025-08-21 10:23:19 INFO: Updated resistance to: 182.355 and support to: 180.529
+2025-08-21 10:24:19 INFO: {'FUTU': {   'close': 181.39,
+    'high': 181.65,
+    'low': 181.39,
+    'open': 181.65,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 181.52}}
+2025-08-21 10:24:19 INFO: Current resistance is: 182.355 and support is: 180.529
+2025-08-21 10:24:19 INFO: Current average volume is: 275.1
+2025-08-21 10:24:19 INFO: Updated resistance to: 182.311 and support to: 181.303
+2025-08-21 10:27:20 INFO: {'FUTU': {   'close': 181.57,
+    'high': 181.57,
+    'low': 181.57,
+    'open': 181.57,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 288.0,
+    'vwap': 181.57}}
+2025-08-21 10:27:20 INFO: Current resistance is: 182.311 and support is: 181.303
+2025-08-21 10:27:20 INFO: Current average volume is: 293.9
+2025-08-21 10:27:20 INFO: Updated resistance to: 182.261 and support to: 181.223
+2025-08-21 10:29:20 INFO: {'FUTU': {   'close': 182.19,
+    'high': 182.19,
+    'low': 182.19,
+    'open': 182.19,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 182.19}}
+2025-08-21 10:29:20 INFO: Current resistance is: 182.261 and support is: 181.223
+2025-08-21 10:29:20 INFO: Current average volume is: 293.9
+2025-08-21 10:29:20 INFO: Updated resistance to: 182.374 and support to: 181.168
+2025-08-21 10:31:20 INFO: {'FUTU': {   'close': 182.36,
+    'high': 182.36,
+    'low': 182.36,
+    'open': 182.36,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 182.36}}
+2025-08-21 10:31:20 INFO: Current resistance is: 182.374 and support is: 181.168
+2025-08-21 10:31:20 INFO: Current average volume is: 282.1
+2025-08-21 10:31:20 INFO: Updated resistance to: 182.516 and support to: 181.132
+2025-08-21 10:32:21 INFO: {'FUTU': {   'close': 181.99,
+    'high': 181.99,
+    'low': 181.99,
+    'open': 181.99,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 181.99}}
+2025-08-21 10:32:21 INFO: Current resistance is: 182.516 and support is: 181.132
+2025-08-21 10:32:21 INFO: Current average volume is: 268.8
+2025-08-21 10:32:21 INFO: Updated resistance to: 182.559 and support to: 181.093
+2025-08-21 10:33:21 INFO: {'FUTU': {   'close': 182.3,
+    'high': 182.3,
+    'low': 182.07,
+    'open': 182.07,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 182.185}}
+2025-08-21 10:33:21 INFO: Current resistance is: 182.559 and support is: 181.093
+2025-08-21 10:33:21 INFO: Current average volume is: 277.1
+2025-08-21 10:33:21 INFO: Updated resistance to: 182.666 and support to: 181.064
+2025-08-21 10:34:21 INFO: {'FUTU': {   'close': 182.13,
+    'high': 182.13,
+    'low': 182.13,
+    'open': 182.13,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 182.13}}
+2025-08-21 10:34:21 INFO: Current resistance is: 182.666 and support is: 181.064
+2025-08-21 10:34:21 INFO: Current average volume is: 246.6
+2025-08-21 10:34:21 INFO: Updated resistance to: 182.728 and support to: 181.044
+2025-08-21 10:37:21 INFO: {'FUTU': {   'close': 181.29,
+    'high': 181.29,
+    'low': 181.29,
+    'open': 181.29,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 196.0,
+    'vwap': 181.29}}
+2025-08-21 10:37:21 INFO: Current resistance is: 182.728 and support is: 181.044
+2025-08-21 10:37:21 INFO: Current average volume is: 246.2
+2025-08-21 10:37:21 INFO: Updated resistance to: 182.617 and support to: 181.239
+2025-08-21 10:39:22 INFO: {'FUTU': {   'close': 180.5,
+    'high': 180.5,
+    'low': 180.5,
+    'open': 180.5,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 177.0,
+    'vwap': 180.5}}
+2025-08-21 10:39:22 INFO: Current resistance is: 182.617 and support is: 181.239
+2025-08-21 10:39:22 INFO: Current average volume is: 206.3
+2025-08-21 10:39:22 INFO: close price: 180.5 just dropped below support of 181.239...
+2025-08-21 10:40:22 INFO: {'FUTU': {   'close': 180.07,
+    'high': 180.07,
+    'low': 180.07,
+    'open': 180.07,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 227.0,
+    'vwap': 180.07}}
+2025-08-21 10:40:22 INFO: Current resistance is: 182.617 and support is: 181.239
+2025-08-21 10:40:22 INFO: Current average volume is: 179.0
+2025-08-21 10:40:22 INFO: Closing price: 180.07 just dropped below support 181.239 again...ending trade...
+2025-08-21 11:10:11 INFO: === Strategy started ===
+2025-08-21 11:10:11 INFO: Start collecting the current highs/lows for: FUTU
+2025-08-21 11:10:11 INFO: Most recent stock data: {'FUTU': {   'close': 181.11,
+    'high': 181.11,
+    'low': 181.11,
+    'open': 181.11,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 190.0,
+    'vwap': 181.11}}
+2025-08-21 11:11:11 INFO: Most recent stock data: {'FUTU': {   'close': 180.95,
+    'high': 180.95,
+    'low': 180.95,
+    'open': 180.95,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 180.95}}
+2025-08-21 11:12:12 INFO: Most recent stock data: {'FUTU': {   'close': 180.86,
+    'high': 180.86,
+    'low': 180.8,
+    'open': 180.8,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 271.0,
+    'vwap': 180.83}}
+2025-08-21 11:14:12 INFO: Most recent stock data: {'FUTU': {   'close': 180.85,
+    'high': 180.85,
+    'low': 180.69,
+    'open': 180.69,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 377.0,
+    'vwap': 180.743333}}
+2025-08-21 11:16:12 INFO: Most recent stock data: {'FUTU': {   'close': 180.58,
+    'high': 180.6,
+    'low': 180.58,
+    'open': 180.6,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 338.0,
+    'vwap': 180.593333}}
+2025-08-21 11:17:12 INFO: Most recent stock data: {'FUTU': {   'close': 180.91,
+    'high': 180.91,
+    'low': 180.91,
+    'open': 180.91,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 226.0,
+    'vwap': 180.91}}
+2025-08-21 11:18:13 INFO: Most recent stock data: {'FUTU': {   'close': 181.22,
+    'high': 181.35,
+    'low': 181.22,
+    'open': 181.35,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 181.285}}
+2025-08-21 11:19:13 INFO: Most recent stock data: {'FUTU': {   'close': 181.205,
+    'high': 181.205,
+    'low': 181.205,
+    'open': 181.205,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 121.0,
+    'vwap': 181.205}}
+2025-08-21 11:20:13 INFO: Most recent stock data: {'FUTU': {   'close': 181.51,
+    'high': 181.51,
+    'low': 181.51,
+    'open': 181.51,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 181.51}}
+2025-08-21 11:24:14 INFO: Most recent stock data: {'FUTU': {   'close': 181.21,
+    'high': 181.21,
+    'low': 181.21,
+    'open': 181.21,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 181.21}}
+2025-08-21 11:25:14 INFO: Most recent stock data: {'FUTU': {   'close': 181.37,
+    'high': 181.37,
+    'low': 181.37,
+    'open': 181.37,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 154.0,
+    'vwap': 181.37}}
+2025-08-21 11:25:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-21 11:25:14 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-21 11:35:16 INFO: {'FUTU': {   'close': 181.25,
+    'high': 181.25,
+    'low': 181.25,
+    'open': 181.25,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 210.0,
+    'vwap': 181.25}}
+2025-08-21 11:35:16 INFO: Current resistance is: 181.667 and support is: 180.971
+2025-08-21 11:35:16 INFO: Current average volume is: 209.7
+2025-08-21 11:35:16 INFO: Updated resistance to: 181.696 and support to: 180.985
+2025-08-21 11:37:16 INFO: {'FUTU': {   'close': 181.67,
+    'high': 181.72,
+    'low': 181.67,
+    'open': 181.72,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 181.695}}
+2025-08-21 11:37:16 INFO: Current resistance is: 181.696 and support is: 180.985
+2025-08-21 11:37:16 INFO: Current average volume is: 202.6
+2025-08-21 11:37:16 INFO: Updated resistance to: 181.777 and support to: 181.117
+2025-08-21 11:40:17 INFO: {'FUTU': {   'close': 181.675,
+    'high': 181.675,
+    'low': 181.675,
+    'open': 181.675,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 153.0,
+    'vwap': 181.675}}
+2025-08-21 11:40:17 INFO: Current resistance is: 181.777 and support is: 181.117
+2025-08-21 11:40:17 INFO: Current average volume is: 180.2
+2025-08-21 11:40:17 INFO: Updated resistance to: 181.842 and support to: 181.218
+2025-08-21 11:43:17 INFO: {'FUTU': {   'close': 181.54,
+    'high': 181.69,
+    'low': 181.54,
+    'open': 181.69,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 234.0,
+    'vwap': 181.615}}
+2025-08-21 11:43:17 INFO: Current resistance is: 181.842 and support is: 181.218
+2025-08-21 11:43:17 INFO: Current average volume is: 169.8
+2025-08-21 11:43:17 INFO: Updated resistance to: 181.906 and support to: 181.256
+2025-08-21 11:47:18 INFO: {'FUTU': {   'close': 180.86,
+    'high': 180.86,
+    'low': 180.86,
+    'open': 180.86,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 135.0,
+    'vwap': 180.86}}
+2025-08-21 11:47:18 INFO: Current resistance is: 181.906 and support is: 181.256
+2025-08-21 11:47:18 INFO: Current average volume is: 160.7
+2025-08-21 11:47:18 INFO: close price: 180.86 just dropped below support of 181.256...
+2025-08-21 11:49:18 INFO: {'FUTU': {   'close': 180.82,
+    'high': 180.84,
+    'low': 180.82,
+    'open': 180.84,
+    'symbol': 'FUTU',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 506.0,
+    'vwap': 180.835}}
+2025-08-21 11:49:18 INFO: Current resistance is: 181.906 and support is: 181.256
+2025-08-21 11:49:18 INFO: Current average volume is: 191.3
+2025-08-21 11:49:18 INFO: Closing price: 180.82 just dropped below support 181.256 again...ending trade...

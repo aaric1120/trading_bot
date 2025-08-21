@@ -1,0 +1,680 @@
+2025-08-20 09:55:13 INFO: === Strategy started ===
+2025-08-20 09:55:13 INFO: Start collecting the current highs/lows for: PPCB
+2025-08-20 09:55:13 INFO: Most recent stock data: {'PPCB': {   'close': 4.745,
+    'high': 4.855,
+    'low': 4.73,
+    'open': 4.855,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 864.0,
+    'vwap': 4.761875}}
+2025-08-20 09:56:15 INFO: Most recent stock data: {'PPCB': {   'close': 4.76,
+    'high': 4.8,
+    'low': 4.76,
+    'open': 4.8,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 4.78}}
+2025-08-20 09:59:15 INFO: Most recent stock data: {'PPCB': {   'close': 4.87,
+    'high': 4.87,
+    'low': 4.865,
+    'open': 4.865,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 4.8675}}
+2025-08-20 10:01:15 INFO: Most recent stock data: {'PPCB': {   'close': 4.915,
+    'high': 4.95,
+    'low': 4.915,
+    'open': 4.925,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 443.0,
+    'vwap': 4.926136}}
+2025-08-20 10:02:16 INFO: Most recent stock data: {'PPCB': {   'close': 4.98,
+    'high': 4.98,
+    'low': 4.98,
+    'open': 4.98,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 376.0,
+    'vwap': 4.98}}
+2025-08-20 10:05:16 INFO: Most recent stock data: {'PPCB': {   'close': 5.015,
+    'high': 5.035,
+    'low': 5.015,
+    'open': 5.025,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 687.0,
+    'vwap': 5.024643}}
+2025-08-20 10:06:16 INFO: Most recent stock data: {'PPCB': {   'close': 5.13,
+    'high': 5.15,
+    'low': 5.07,
+    'open': 5.07,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1060.0,
+    'vwap': 5.123333}}
+2025-08-20 10:07:16 INFO: Most recent stock data: {'PPCB': {   'close': 5.335,
+    'high': 5.345,
+    'low': 5.19,
+    'open': 5.19,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 3256.0,
+    'vwap': 5.254231}}
+2025-08-20 10:08:17 INFO: Most recent stock data: {'PPCB': {   'close': 5.305,
+    'high': 5.31,
+    'low': 5.26,
+    'open': 5.3,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 800.0,
+    'vwap': 5.2825}}
+2025-08-20 10:09:17 INFO: Most recent stock data: {'PPCB': {   'close': 5.515,
+    'high': 5.54,
+    'low': 5.49,
+    'open': 5.54,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 573.0,
+    'vwap': 5.51125}}
+2025-08-20 10:10:17 INFO: Most recent stock data: {'PPCB': {   'close': 5.48,
+    'high': 5.59,
+    'low': 5.48,
+    'open': 5.59,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 687.0,
+    'vwap': 5.528781}}
+2025-08-20 10:10:17 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 10:10:17 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-20 10:11:17 INFO: {'PPCB': {   'close': 5.44,
+    'high': 5.45,
+    'low': 5.37,
+    'open': 5.45,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1131.0,
+    'vwap': 5.417727}}
+2025-08-20 10:11:17 INFO: Current resistance is: 5.671 and support is: 5.58
+2025-08-20 10:11:17 INFO: Current average volume is: 921.3
+2025-08-20 10:11:17 INFO: close price: 5.44 just dropped below support of 5.58...
+2025-08-20 10:12:17 INFO: {'PPCB': {   'close': 5.55,
+    'high': 5.55,
+    'low': 5.375,
+    'open': 5.385,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1370.0,
+    'vwap': 5.479}}
+2025-08-20 10:12:17 INFO: Current resistance is: 5.671 and support is: 5.58
+2025-08-20 10:12:17 INFO: Current average volume is: 1038.3
+2025-08-20 10:12:17 INFO: Closing price: 5.55 just dropped below support 5.58 again...ending trade...
+2025-08-20 11:55:20 INFO: === Strategy started ===
+2025-08-20 11:55:20 INFO: Start collecting the current highs/lows for: PPCB
+2025-08-20 11:55:20 INFO: Most recent stock data: {'PPCB': {   'close': 4.6,
+    'high': 4.6,
+    'low': 4.6,
+    'open': 4.6,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.6}}
+2025-08-20 11:59:21 INFO: Most recent stock data: {'PPCB': {   'close': 4.56,
+    'high': 4.56,
+    'low': 4.56,
+    'open': 4.56,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.56}}
+2025-08-20 12:00:21 INFO: Most recent stock data: {'PPCB': {   'close': 4.57,
+    'high': 4.57,
+    'low': 4.57,
+    'open': 4.57,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.57}}
+2025-08-20 12:04:22 INFO: Most recent stock data: {'PPCB': {   'close': 4.59,
+    'high': 4.59,
+    'low': 4.59,
+    'open': 4.59,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.59}}
+2025-08-20 12:15:24 INFO: Most recent stock data: {'PPCB': {   'close': 4.61,
+    'high': 4.61,
+    'low': 4.61,
+    'open': 4.61,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 210.0,
+    'vwap': 4.61}}
+2025-08-20 12:26:25 INFO: Most recent stock data: {'PPCB': {   'close': 4.595,
+    'high': 4.605,
+    'low': 4.595,
+    'open': 4.605,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 330.0,
+    'vwap': 4.601667}}
+2025-08-20 12:41:28 INFO: Most recent stock data: {'PPCB': {   'close': 4.575,
+    'high': 4.575,
+    'low': 4.575,
+    'open': 4.575,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 4.575}}
+2025-08-20 12:43:28 INFO: Most recent stock data: {'PPCB': {   'close': 4.61,
+    'high': 4.61,
+    'low': 4.61,
+    'open': 4.61,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.61}}
+2025-08-20 12:46:29 INFO: Most recent stock data: {'PPCB': {   'close': 4.535,
+    'high': 4.54,
+    'low': 4.535,
+    'open': 4.54,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1558.0,
+    'vwap': 4.535321}}
+2025-08-20 12:52:30 INFO: Most recent stock data: {'PPCB': {   'close': 4.465,
+    'high': 4.465,
+    'low': 4.465,
+    'open': 4.465,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 110.0,
+    'vwap': 4.465}}
+2025-08-20 12:53:30 INFO: Most recent stock data: {'PPCB': {   'close': 4.495,
+    'high': 4.495,
+    'low': 4.485,
+    'open': 4.485,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 4.49}}
+2025-08-20 12:53:30 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 12:53:30 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-20 12:55:30 INFO: {'PPCB': {   'close': 4.475,
+    'high': 4.475,
+    'low': 4.475,
+    'open': 4.475,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.475}}
+2025-08-20 12:55:30 INFO: Current resistance is: 4.61 and support is: 4.465
+2025-08-20 12:55:30 INFO: Current average volume is: 300.8
+2025-08-20 12:55:30 INFO: Updated resistance to: 4.61 and support to: 4.465
+2025-08-20 12:57:31 INFO: {'PPCB': {   'close': 4.48,
+    'high': 4.48,
+    'low': 4.48,
+    'open': 4.48,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.48}}
+2025-08-20 12:57:31 INFO: Current resistance is: 4.61 and support is: 4.465
+2025-08-20 12:57:31 INFO: Current average volume is: 300.8
+2025-08-20 12:57:31 INFO: Updated resistance to: 4.61 and support to: 4.465
+2025-08-20 13:01:31 INFO: {'PPCB': {   'close': 4.675,
+    'high': 4.675,
+    'low': 4.675,
+    'open': 4.675,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 110.0,
+    'vwap': 4.675}}
+2025-08-20 13:01:31 INFO: Current resistance is: 4.61 and support is: 4.465
+2025-08-20 13:01:31 INFO: Current average volume is: 301.8
+2025-08-20 13:01:31 INFO: The Current Close 4.675 is above the resistance...
+2025-08-20 13:01:31 INFO: Updated resistance to: 4.675 and support to: 4.465
+2025-08-20 13:02:01 INFO: {'PPCB': {   'close': 4.665,
+    'high': 4.665,
+    'low': 4.665,
+    'open': 4.665,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 330.0,
+    'vwap': 4.665}}
+2025-08-20 13:02:01 INFO: Current resistance is: 4.675 and support is: 4.465
+2025-08-20 13:02:01 INFO: Current average volume is: 313.8
+2025-08-20 13:02:01 INFO: Updated resistance to: 4.675 and support to: 4.465
+2025-08-20 13:03:01 INFO: {'PPCB': {   'close': 4.68,
+    'high': 4.68,
+    'low': 4.68,
+    'open': 4.68,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 220.0,
+    'vwap': 4.68}}
+2025-08-20 13:03:01 INFO: Current resistance is: 4.675 and support is: 4.465
+2025-08-20 13:03:01 INFO: Current average volume is: 302.8
+2025-08-20 13:03:01 INFO: The Current Close 4.68 is above the resistance...
+2025-08-20 13:03:01 INFO: Updated resistance to: 4.68 and support to: 4.465
+2025-08-20 13:06:02 INFO: {'PPCB': {   'close': 4.61,
+    'high': 4.615,
+    'low': 4.61,
+    'open': 4.615,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 230.0,
+    'vwap': 4.612381}}
+2025-08-20 13:06:02 INFO: Current resistance is: 4.68 and support is: 4.465
+2025-08-20 13:06:02 INFO: Current average volume is: 305.8
+2025-08-20 13:06:02 INFO: Updated resistance to: 4.68 and support to: 4.465
+2025-08-20 13:15:04 INFO: {'PPCB': {   'close': 4.63,
+    'high': 4.63,
+    'low': 4.63,
+    'open': 4.63,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.63}}
+2025-08-20 13:15:04 INFO: Current resistance is: 4.68 and support is: 4.465
+2025-08-20 13:15:04 INFO: Current average volume is: 305.8
+2025-08-20 13:15:04 INFO: Updated resistance to: 4.68 and support to: 4.465
+2025-08-20 13:27:06 INFO: {'PPCB': {   'close': 4.605,
+    'high': 4.605,
+    'low': 4.605,
+    'open': 4.605,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.605}}
+2025-08-20 13:27:06 INFO: Current resistance is: 4.68 and support is: 4.465
+2025-08-20 13:27:06 INFO: Current average volume is: 160.0
+2025-08-20 13:27:06 INFO: Updated resistance to: 4.68 and support to: 4.465
+2025-08-20 13:52:10 INFO: {'PPCB': {   'close': 4.7,
+    'high': 4.7,
+    'low': 4.7,
+    'open': 4.7,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 230.0,
+    'vwap': 4.7}}
+2025-08-20 13:52:10 INFO: Current resistance is: 4.68 and support is: 4.465
+2025-08-20 13:52:10 INFO: Current average volume is: 172.0
+2025-08-20 13:52:10 INFO: The Current Close 4.7 is above the resistance...
+2025-08-20 13:52:10 INFO: Updated resistance to: 4.7 and support to: 4.465
+2025-08-20 13:54:11 INFO: {'PPCB': {   'close': 4.71,
+    'high': 4.71,
+    'low': 4.71,
+    'open': 4.71,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.71}}
+2025-08-20 13:54:11 INFO: Current resistance is: 4.7 and support is: 4.465
+2025-08-20 13:54:11 INFO: Current average volume is: 162.0
+2025-08-20 13:54:11 INFO: The current close: 4.71 is above the resistance of 4.7, but volume isn't enough...
+2025-08-20 13:54:11 INFO: Updated resistance to: 4.71 and support to: 4.465
+2025-08-20 14:09:15 INFO: {'PPCB': {   'close': 4.635,
+    'high': 4.635,
+    'low': 4.635,
+    'open': 4.635,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.635}}
+2025-08-20 14:09:15 INFO: Current resistance is: 4.71 and support is: 4.465
+2025-08-20 14:09:15 INFO: Current average volume is: 162.0
+2025-08-20 14:09:15 INFO: Updated resistance to: 4.71 and support to: 4.465
+2025-08-20 14:25:18 INFO: {'PPCB': {   'close': 4.68,
+    'high': 4.68,
+    'low': 4.65,
+    'open': 4.65,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 220.0,
+    'vwap': 4.663636}}
+2025-08-20 14:25:18 INFO: Current resistance is: 4.71 and support is: 4.465
+2025-08-20 14:25:18 INFO: Current average volume is: 174.0
+2025-08-20 14:25:18 INFO: Updated resistance to: 4.71 and support to: 4.465
+2025-08-20 14:26:18 INFO: {'PPCB': {   'close': 4.7,
+    'high': 4.7,
+    'low': 4.7,
+    'open': 4.7,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.7}}
+2025-08-20 14:26:18 INFO: Current resistance is: 4.71 and support is: 4.465
+2025-08-20 14:26:18 INFO: Current average volume is: 173.0
+2025-08-20 14:26:18 INFO: Updated resistance to: 4.71 and support to: 4.465
+2025-08-20 14:27:18 INFO: {'PPCB': {   'close': 4.765,
+    'high': 4.765,
+    'low': 4.765,
+    'open': 4.765,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 229.0,
+    'vwap': 4.765}}
+2025-08-20 14:27:18 INFO: Current resistance is: 4.71 and support is: 4.465
+2025-08-20 14:27:18 INFO: Current average volume is: 162.9
+2025-08-20 14:27:18 INFO: The Current Close 4.765 is above the resistance...
+2025-08-20 14:27:18 INFO: Updated resistance to: 4.765 and support to: 4.465
+2025-08-20 14:28:19 INFO: {'PPCB': {   'close': 4.78,
+    'high': 4.78,
+    'low': 4.78,
+    'open': 4.78,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 240.0,
+    'vwap': 4.78}}
+2025-08-20 14:28:19 INFO: Current resistance is: 4.765 and support is: 4.465
+2025-08-20 14:28:19 INFO: Current average volume is: 164.9
+2025-08-20 14:28:19 INFO: The current close: 4.78 is above the resistance of 4.765, but volume isn't enough...
+2025-08-20 14:28:19 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:31:20 INFO: {'PPCB': {   'close': 4.72,
+    'high': 4.72,
+    'low': 4.72,
+    'open': 4.72,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.72}}
+2025-08-20 14:31:20 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:31:20 INFO: Current average volume is: 151.9
+2025-08-20 14:31:20 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:33:20 INFO: {'PPCB': {   'close': 4.695,
+    'high': 4.695,
+    'low': 4.695,
+    'open': 4.695,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 120.0,
+    'vwap': 4.695}}
+2025-08-20 14:33:20 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:33:20 INFO: Current average volume is: 153.9
+2025-08-20 14:33:20 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:34:20 INFO: {'PPCB': {   'close': 4.68,
+    'high': 4.68,
+    'low': 4.68,
+    'open': 4.68,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.68}}
+2025-08-20 14:34:20 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:34:20 INFO: Current average volume is: 153.9
+2025-08-20 14:34:20 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:35:20 INFO: {'PPCB': {   'close': 4.66,
+    'high': 4.66,
+    'low': 4.66,
+    'open': 4.66,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 120.0,
+    'vwap': 4.66}}
+2025-08-20 14:35:20 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:35:20 INFO: Current average volume is: 142.9
+2025-08-20 14:35:20 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:36:20 INFO: {'PPCB': {   'close': 4.64,
+    'high': 4.64,
+    'low': 4.64,
+    'open': 4.64,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.64}}
+2025-08-20 14:36:20 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:36:20 INFO: Current average volume is: 142.9
+2025-08-20 14:36:20 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:39:21 INFO: {'PPCB': {   'close': 4.63,
+    'high': 4.63,
+    'low': 4.63,
+    'open': 4.63,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.63}}
+2025-08-20 14:39:21 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:39:21 INFO: Current average volume is: 142.9
+2025-08-20 14:39:21 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:44:22 INFO: {'PPCB': {   'close': 4.605,
+    'high': 4.605,
+    'low': 4.605,
+    'open': 4.605,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.605}}
+2025-08-20 14:44:22 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:44:22 INFO: Current average volume is: 130.9
+2025-08-20 14:44:22 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:47:22 INFO: {'PPCB': {   'close': 4.62,
+    'high': 4.62,
+    'low': 4.62,
+    'open': 4.62,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 4.62}}
+2025-08-20 14:47:22 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:47:22 INFO: Current average volume is: 131.9
+2025-08-20 14:47:22 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:52:23 INFO: {'PPCB': {   'close': 4.645,
+    'high': 4.645,
+    'low': 4.645,
+    'open': 4.645,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 120.0,
+    'vwap': 4.645}}
+2025-08-20 14:52:23 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:52:23 INFO: Current average volume is: 121.0
+2025-08-20 14:52:23 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:56:24 INFO: {'PPCB': {   'close': 4.59,
+    'high': 4.59,
+    'low': 4.59,
+    'open': 4.59,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.59}}
+2025-08-20 14:56:24 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:56:24 INFO: Current average volume is: 107.0
+2025-08-20 14:56:24 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 14:57:24 INFO: {'PPCB': {   'close': 4.57,
+    'high': 4.6,
+    'low': 4.57,
+    'open': 4.6,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 4.585}}
+2025-08-20 14:57:24 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 14:57:24 INFO: Current average volume is: 117.0
+2025-08-20 14:57:24 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:07:25 INFO: {'PPCB': {   'close': 4.52,
+    'high': 4.52,
+    'low': 4.52,
+    'open': 4.52,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.52}}
+2025-08-20 15:07:25 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:07:25 INFO: Current average volume is: 115.0
+2025-08-20 15:07:25 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:17:27 INFO: {'PPCB': {   'close': 4.515,
+    'high': 4.515,
+    'low': 4.515,
+    'open': 4.515,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 140.0,
+    'vwap': 4.515}}
+2025-08-20 15:17:27 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:17:27 INFO: Current average volume is: 119.0
+2025-08-20 15:17:27 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:22:28 INFO: {'PPCB': {   'close': 4.495,
+    'high': 4.495,
+    'low': 4.495,
+    'open': 4.495,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.495}}
+2025-08-20 15:22:28 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:22:28 INFO: Current average volume is: 117.0
+2025-08-20 15:22:28 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:30:29 INFO: {'PPCB': {   'close': 4.48,
+    'high': 4.48,
+    'low': 4.48,
+    'open': 4.48,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 4.48}}
+2025-08-20 15:30:29 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:30:29 INFO: Current average volume is: 127.0
+2025-08-20 15:30:29 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:34:30 INFO: {'PPCB': {   'close': 4.62,
+    'high': 4.63,
+    'low': 4.585,
+    'open': 4.585,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 656.0,
+    'vwap': 4.615583}}
+2025-08-20 15:34:30 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:34:30 INFO: Current average volume is: 182.6
+2025-08-20 15:34:30 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:37:30 INFO: {'PPCB': {   'close': 4.6,
+    'high': 4.6,
+    'low': 4.6,
+    'open': 4.6,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.6}}
+2025-08-20 15:37:30 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:37:30 INFO: Current average volume is: 182.6
+2025-08-20 15:37:30 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:40:31 INFO: {'PPCB': {   'close': 4.54,
+    'high': 4.54,
+    'low': 4.54,
+    'open': 4.54,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 4.54}}
+2025-08-20 15:40:31 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:40:31 INFO: Current average volume is: 181.6
+2025-08-20 15:40:31 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:48:32 INFO: {'PPCB': {   'close': 4.48,
+    'high': 4.48,
+    'low': 4.48,
+    'open': 4.48,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 4.48}}
+2025-08-20 15:48:32 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:48:32 INFO: Current average volume is: 189.6
+2025-08-20 15:48:32 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:50:32 INFO: {'PPCB': {   'close': 4.47,
+    'high': 4.47,
+    'low': 4.47,
+    'open': 4.47,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 290.0,
+    'vwap': 4.47}}
+2025-08-20 15:50:32 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:50:32 INFO: Current average volume is: 208.6
+2025-08-20 15:50:32 INFO: Updated resistance to: 4.78 and support to: 4.465
+2025-08-20 15:52:33 INFO: {'PPCB': {   'close': 4.41,
+    'high': 4.41,
+    'low': 4.41,
+    'open': 4.41,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 450.0,
+    'vwap': 4.41}}
+2025-08-20 15:52:33 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:52:33 INFO: Current average volume is: 233.6
+2025-08-20 15:52:33 INFO: close price: 4.41 just dropped below support of 4.465...
+2025-08-20 15:56:33 INFO: {'PPCB': {   'close': 4.415,
+    'high': 4.415,
+    'low': 4.415,
+    'open': 4.415,
+    'symbol': 'PPCB',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 580.0,
+    'vwap': 4.415}}
+2025-08-20 15:56:33 INFO: Current resistance is: 4.78 and support is: 4.465
+2025-08-20 15:56:33 INFO: Current average volume is: 281.6
+2025-08-20 15:56:33 INFO: Closing price: 4.415 just dropped below support 4.465 again...ending trade...

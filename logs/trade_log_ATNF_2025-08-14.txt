@@ -1,0 +1,2320 @@
+2025-08-14 09:55:17 INFO: === Strategy started ===
+2025-08-14 09:55:17 INFO: Start collecting the current highs/lows for: ATNF
+2025-08-14 09:55:18 INFO: Most recent stock data: {'ATNF': {   'close': 7.48,
+    'high': 7.5,
+    'low': 7.48,
+    'open': 7.5,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1183.0,
+    'vwap': 7.493974}}
+2025-08-14 09:56:18 INFO: Most recent stock data: {'ATNF': {   'close': 7.61,
+    'high': 7.61,
+    'low': 7.49,
+    'open': 7.49,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1967.0,
+    'vwap': 7.555833}}
+2025-08-14 09:58:18 INFO: Most recent stock data: {'ATNF': {   'close': 7.37,
+    'high': 7.37,
+    'low': 7.37,
+    'open': 7.37,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 140.0,
+    'vwap': 7.37}}
+2025-08-14 09:59:18 INFO: Most recent stock data: {'ATNF': {   'close': 7.505,
+    'high': 7.505,
+    'low': 7.44,
+    'open': 7.44,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 408.0,
+    'vwap': 7.485882}}
+2025-08-14 10:01:18 INFO: Most recent stock data: {'ATNF': {   'close': 7.465,
+    'high': 7.465,
+    'low': 7.465,
+    'open': 7.465,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 280.0,
+    'vwap': 7.465}}
+2025-08-14 10:03:19 INFO: Most recent stock data: {'ATNF': {   'close': 7.425,
+    'high': 7.425,
+    'low': 7.425,
+    'open': 7.425,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 7.425}}
+2025-08-14 10:05:19 INFO: Most recent stock data: {'ATNF': {   'close': 7.355,
+    'high': 7.355,
+    'low': 7.355,
+    'open': 7.355,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 400.0,
+    'vwap': 7.355}}
+2025-08-14 10:06:19 INFO: Most recent stock data: {'ATNF': {   'close': 7.205,
+    'high': 7.305,
+    'low': 7.205,
+    'open': 7.305,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 203.0,
+    'vwap': 7.255}}
+2025-08-14 10:07:19 INFO: Most recent stock data: {'ATNF': {   'close': 6.95,
+    'high': 7.13,
+    'low': 6.93,
+    'open': 7.105,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2773.0,
+    'vwap': 7.058}}
+2025-08-14 10:08:19 INFO: Most recent stock data: {'ATNF': {   'close': 6.915,
+    'high': 6.97,
+    'low': 6.89,
+    'open': 6.97,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1709.0,
+    'vwap': 6.91375}}
+2025-08-14 10:09:19 INFO: Most recent stock data: {'ATNF': {   'close': 7.11,
+    'high': 7.195,
+    'low': 6.93,
+    'open': 6.93,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2564.0,
+    'vwap': 7.070144}}
+2025-08-14 10:09:19 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 10:09:19 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-14 10:10:20 INFO: {'ATNF': {   'close': 7.06,
+    'high': 7.105,
+    'low': 7.06,
+    'open': 7.105,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 738.0,
+    'vwap': 7.079615}}
+2025-08-14 10:10:20 INFO: Current resistance is: 7.127 and support is: 6.762
+2025-08-14 10:10:20 INFO: Current average volume is: 941.5
+2025-08-14 10:10:20 INFO: Updated resistance to: 7.098 and support to: 6.718
+2025-08-14 10:11:20 INFO: {'ATNF': {   'close': 7.075,
+    'high': 7.075,
+    'low': 7.075,
+    'open': 7.075,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.075}}
+2025-08-14 10:11:20 INFO: Current resistance is: 7.098 and support is: 6.718
+2025-08-14 10:11:20 INFO: Current average volume is: 937.5
+2025-08-14 10:11:20 INFO: Updated resistance to: 7.071 and support to: 6.686
+2025-08-14 10:12:20 INFO: {'ATNF': {   'close': 7.015,
+    'high': 7.035,
+    'low': 7.015,
+    'open': 7.035,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 750.0,
+    'vwap': 7.027667}}
+2025-08-14 10:12:20 INFO: Current resistance is: 7.071 and support is: 6.686
+2025-08-14 10:12:20 INFO: Current average volume is: 971.7
+2025-08-14 10:12:20 INFO: Updated resistance to: 7.042 and support to: 6.654
+2025-08-14 10:13:20 INFO: {'ATNF': {   'close': 6.955,
+    'high': 7.015,
+    'low': 6.955,
+    'open': 7.015,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 620.0,
+    'vwap': 7.002337}}
+2025-08-14 10:13:20 INFO: Current resistance is: 7.042 and support is: 6.654
+2025-08-14 10:13:20 INFO: Current average volume is: 1005.7
+2025-08-14 10:13:20 INFO: Updated resistance to: 7.017 and support to: 6.62
+2025-08-14 10:15:20 INFO: {'ATNF': {   'close': 7.135,
+    'high': 7.135,
+    'low': 6.98,
+    'open': 6.98,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 699.0,
+    'vwap': 7.043768}}
+2025-08-14 10:15:20 INFO: Current resistance is: 7.017 and support is: 6.62
+2025-08-14 10:15:20 INFO: Current average volume is: 1055.6
+2025-08-14 10:15:20 INFO: The Current Close 7.135 is above the resistance...
+2025-08-14 10:15:20 INFO: Updated resistance to: 7.042 and support to: 6.595
+2025-08-14 10:17:21 INFO: {'ATNF': {   'close': 7.15,
+    'high': 7.15,
+    'low': 7.15,
+    'open': 7.15,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 207.0,
+    'vwap': 7.15}}
+2025-08-14 10:17:21 INFO: Current resistance is: 7.042 and support is: 6.595
+2025-08-14 10:17:21 INFO: Current average volume is: 1036.3
+2025-08-14 10:17:21 INFO: The current close: 7.15 is above the resistance of 7.042, but volume isn't enough...
+2025-08-14 10:17:21 INFO: Updated resistance to: 7.07 and support to: 6.603
+2025-08-14 10:19:21 INFO: {'ATNF': {   'close': 7.115,
+    'high': 7.115,
+    'low': 7.115,
+    'open': 7.115,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 212.0,
+    'vwap': 7.115}}
+2025-08-14 10:19:21 INFO: Current resistance is: 7.07 and support is: 6.603
+2025-08-14 10:19:21 INFO: Current average volume is: 1037.2
+2025-08-14 10:19:21 INFO: The current close: 7.115 is above the resistance of 7.07, but volume isn't enough...
+2025-08-14 10:19:21 INFO: Updated resistance to: 7.085 and support to: 6.606
+2025-08-14 10:21:22 INFO: {'ATNF': {   'close': 7.035,
+    'high': 7.08,
+    'low': 7.035,
+    'open': 7.08,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 405.0,
+    'vwap': 7.052308}}
+2025-08-14 10:21:22 INFO: Current resistance is: 7.085 and support is: 6.606
+2025-08-14 10:21:22 INFO: Current average volume is: 800.4
+2025-08-14 10:21:22 INFO: Updated resistance to: 7.089 and support to: 6.598
+2025-08-14 10:22:22 INFO: {'ATNF': {   'close': 7.025,
+    'high': 7.025,
+    'low': 7.025,
+    'open': 7.025,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 504.0,
+    'vwap': 7.025}}
+2025-08-14 10:22:22 INFO: Current resistance is: 7.089 and support is: 6.598
+2025-08-14 10:22:22 INFO: Current average volume is: 679.9
+2025-08-14 10:22:22 INFO: Updated resistance to: 7.081 and support to: 6.591
+2025-08-14 10:23:22 INFO: {'ATNF': {   'close': 7.005,
+    'high': 7.005,
+    'low': 7.005,
+    'open': 7.005,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 230.0,
+    'vwap': 7.005}}
+2025-08-14 10:23:22 INFO: Current resistance is: 7.081 and support is: 6.591
+2025-08-14 10:23:22 INFO: Current average volume is: 446.5
+2025-08-14 10:23:22 INFO: Updated resistance to: 7.071 and support to: 6.583
+2025-08-14 10:24:22 INFO: {'ATNF': {   'close': 6.955,
+    'high': 6.955,
+    'low': 6.955,
+    'open': 6.955,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 6.955}}
+2025-08-14 10:24:22 INFO: Current resistance is: 7.071 and support is: 6.583
+2025-08-14 10:24:22 INFO: Current average volume is: 382.7
+2025-08-14 10:24:22 INFO: Updated resistance to: 7.053 and support to: 6.569
+2025-08-14 10:25:22 INFO: {'ATNF': {   'close': 7.02,
+    'high': 7.02,
+    'low': 7.02,
+    'open': 7.02,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.02}}
+2025-08-14 10:25:22 INFO: Current resistance is: 7.053 and support is: 6.569
+2025-08-14 10:25:22 INFO: Current average volume is: 382.7
+2025-08-14 10:25:22 INFO: Updated resistance to: 7.055 and support to: 6.567
+2025-08-14 10:26:22 INFO: {'ATNF': {   'close': 7.04,
+    'high': 7.04,
+    'low': 7.03,
+    'open': 7.03,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 430.0,
+    'vwap': 7.032639}}
+2025-08-14 10:26:22 INFO: Current resistance is: 7.055 and support is: 6.567
+2025-08-14 10:26:22 INFO: Current average volume is: 350.7
+2025-08-14 10:26:22 INFO: Updated resistance to: 7.063 and support to: 6.568
+2025-08-14 10:29:23 INFO: {'ATNF': {   'close': 6.99,
+    'high': 6.99,
+    'low': 6.99,
+    'open': 6.99,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 362.0,
+    'vwap': 6.99}}
+2025-08-14 10:29:23 INFO: Current resistance is: 7.063 and support is: 6.568
+2025-08-14 10:29:23 INFO: Current average volume is: 324.9
+2025-08-14 10:29:23 INFO: Updated resistance to: 7.06 and support to: 6.564
+2025-08-14 10:30:23 INFO: {'ATNF': {   'close': 6.96,
+    'high': 6.96,
+    'low': 6.955,
+    'open': 6.955,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 820.0,
+    'vwap': 6.957049}}
+2025-08-14 10:30:23 INFO: Current resistance is: 7.06 and support is: 6.564
+2025-08-14 10:30:23 INFO: Current average volume is: 337.0
+2025-08-14 10:30:23 INFO: Updated resistance to: 7.053 and support to: 6.556
+2025-08-14 10:31:23 INFO: {'ATNF': {   'close': 6.965,
+    'high': 6.965,
+    'low': 6.965,
+    'open': 6.965,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 275.0,
+    'vwap': 6.965}}
+2025-08-14 10:31:23 INFO: Current resistance is: 7.053 and support is: 6.556
+2025-08-14 10:31:23 INFO: Current average volume is: 343.8
+2025-08-14 10:31:23 INFO: Updated resistance to: 7.05 and support to: 6.551
+2025-08-14 10:32:23 INFO: {'ATNF': {   'close': 7.02,
+    'high': 7.02,
+    'low': 6.97,
+    'open': 6.97,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 782.0,
+    'vwap': 6.998155}}
+2025-08-14 10:32:23 INFO: Current resistance is: 7.05 and support is: 6.551
+2025-08-14 10:32:23 INFO: Current average volume is: 400.8
+2025-08-14 10:32:23 INFO: Updated resistance to: 7.059 and support to: 6.547
+2025-08-14 10:33:23 INFO: {'ATNF': {   'close': 7.07,
+    'high': 7.07,
+    'low': 7.07,
+    'open': 7.07,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 400.0,
+    'vwap': 7.07}}
+2025-08-14 10:33:23 INFO: Current resistance is: 7.059 and support is: 6.547
+2025-08-14 10:33:23 INFO: Current average volume is: 400.3
+2025-08-14 10:33:23 INFO: The Current Close 7.07 is above the resistance...
+2025-08-14 10:33:23 INFO: Updated resistance to: 7.078 and support to: 6.559
+2025-08-14 10:34:23 INFO: {'ATNF': {   'close': 7.18,
+    'high': 7.18,
+    'low': 7.18,
+    'open': 7.18,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 213.0,
+    'vwap': 7.18}}
+2025-08-14 10:34:23 INFO: Current resistance is: 7.078 and support is: 6.559
+2025-08-14 10:34:23 INFO: Current average volume is: 371.2
+2025-08-14 10:34:23 INFO: The current close: 7.18 is above the resistance of 7.078, but volume isn't enough...
+2025-08-14 10:34:23 INFO: Updated resistance to: 7.117 and support to: 6.585
+2025-08-14 10:35:24 INFO: {'ATNF': {   'close': 7.145,
+    'high': 7.145,
+    'low': 7.11,
+    'open': 7.11,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1580.0,
+    'vwap': 7.116387}}
+2025-08-14 10:35:24 INFO: Current resistance is: 7.117 and support is: 6.585
+2025-08-14 10:35:24 INFO: Current average volume is: 506.2
+2025-08-14 10:35:24 INFO: The marubozu candle pattern check is: 0. The three_white candle pattern check is 0. The closing_maru candle pattern check is 0. The belthold candle pattern check is 0
+2025-08-14 10:36:24 INFO: {'ATNF': {   'close': 7.11,
+    'high': 7.13,
+    'low': 7.095,
+    'open': 7.125,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1221.0,
+    'vwap': 7.105}}
+2025-08-14 10:36:24 INFO: Current resistance is: 7.117 and support is: 6.585
+2025-08-14 10:36:24 INFO: Current average volume is: 618.3
+2025-08-14 10:36:24 INFO: Updated resistance to: 7.168 and support to: 6.611
+2025-08-14 10:37:24 INFO: {'ATNF': {   'close': 7.14,
+    'high': 7.14,
+    'low': 7.12,
+    'open': 7.12,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1454.0,
+    'vwap': 7.138361}}
+2025-08-14 10:37:24 INFO: Current resistance is: 7.168 and support is: 6.611
+2025-08-14 10:37:24 INFO: Current average volume is: 753.7
+2025-08-14 10:37:24 INFO: Updated resistance to: 7.191 and support to: 6.625
+2025-08-14 10:38:24 INFO: {'ATNF': {   'close': 7.13,
+    'high': 7.13,
+    'low': 7.13,
+    'open': 7.13,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.13}}
+2025-08-14 10:38:24 INFO: Current resistance is: 7.191 and support is: 6.625
+2025-08-14 10:38:24 INFO: Current average volume is: 720.7
+2025-08-14 10:38:24 INFO: Updated resistance to: 7.211 and support to: 6.639
+2025-08-14 10:39:24 INFO: {'ATNF': {   'close': 7.1,
+    'high': 7.105,
+    'low': 7.075,
+    'open': 7.105,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 800.0,
+    'vwap': 7.094475}}
+2025-08-14 10:39:24 INFO: Current resistance is: 7.211 and support is: 6.639
+2025-08-14 10:39:24 INFO: Current average volume is: 764.5
+2025-08-14 10:39:24 INFO: Updated resistance to: 7.224 and support to: 6.645
+2025-08-14 10:40:24 INFO: {'ATNF': {   'close': 7.045,
+    'high': 7.12,
+    'low': 7.03,
+    'open': 7.115,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 880.0,
+    'vwap': 7.090795}}
+2025-08-14 10:40:24 INFO: Current resistance is: 7.224 and support is: 6.645
+2025-08-14 10:40:24 INFO: Current average volume is: 770.5
+2025-08-14 10:40:24 INFO: Updated resistance to: 7.24 and support to: 6.646
+2025-08-14 10:41:24 INFO: {'ATNF': {   'close': 7.125,
+    'high': 7.125,
+    'low': 7.045,
+    'open': 7.045,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1067.0,
+    'vwap': 7.089038}}
+2025-08-14 10:41:24 INFO: Current resistance is: 7.24 and support is: 6.646
+2025-08-14 10:41:24 INFO: Current average volume is: 849.7
+2025-08-14 10:41:24 INFO: Updated resistance to: 7.255 and support to: 6.649
+2025-08-14 10:42:25 INFO: {'ATNF': {   'close': 7.19,
+    'high': 7.19,
+    'low': 7.15,
+    'open': 7.15,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 620.0,
+    'vwap': 7.162439}}
+2025-08-14 10:42:25 INFO: Current resistance is: 7.255 and support is: 6.649
+2025-08-14 10:42:25 INFO: Current average volume is: 833.5
+2025-08-14 10:42:25 INFO: Updated resistance to: 7.279 and support to: 6.664
+2025-08-14 10:43:25 INFO: {'ATNF': {   'close': 7.275,
+    'high': 7.3,
+    'low': 7.185,
+    'open': 7.185,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1813.0,
+    'vwap': 7.238611}}
+2025-08-14 10:43:25 INFO: Current resistance is: 7.279 and support is: 6.664
+2025-08-14 10:43:25 INFO: Current average volume is: 974.8
+2025-08-14 10:43:25 INFO: Updated resistance to: 7.316 and support to: 6.682
+2025-08-14 10:44:25 INFO: {'ATNF': {   'close': 7.255,
+    'high': 7.28,
+    'low': 7.255,
+    'open': 7.26,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1480.0,
+    'vwap': 7.266622}}
+2025-08-14 10:44:25 INFO: Current resistance is: 7.316 and support is: 6.682
+2025-08-14 10:44:25 INFO: Current average volume is: 1101.5
+2025-08-14 10:44:25 INFO: Updated resistance to: 7.348 and support to: 6.707
+2025-08-14 10:45:25 INFO: {'ATNF': {   'close': 7.34,
+    'high': 7.34,
+    'low': 7.3,
+    'open': 7.3,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 206.0,
+    'vwap': 7.32}}
+2025-08-14 10:45:25 INFO: Current resistance is: 7.348 and support is: 6.707
+2025-08-14 10:45:25 INFO: Current average volume is: 964.1
+2025-08-14 10:45:25 INFO: Updated resistance to: 7.386 and support to: 6.735
+2025-08-14 10:47:25 INFO: {'ATNF': {   'close': 7.345,
+    'high': 7.36,
+    'low': 7.32,
+    'open': 7.32,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 3728.0,
+    'vwap': 7.337741}}
+2025-08-14 10:47:25 INFO: Current resistance is: 7.386 and support is: 6.735
+2025-08-14 10:47:25 INFO: Current average volume is: 1214.8
+2025-08-14 10:47:25 INFO: Updated resistance to: 7.423 and support to: 6.763
+2025-08-14 10:48:25 INFO: {'ATNF': {   'close': 7.375,
+    'high': 7.375,
+    'low': 7.335,
+    'open': 7.335,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1194.0,
+    'vwap': 7.352727}}
+2025-08-14 10:48:25 INFO: Current resistance is: 7.423 and support is: 6.763
+2025-08-14 10:48:25 INFO: Current average volume is: 1188.8
+2025-08-14 10:48:25 INFO: Updated resistance to: 7.458 and support to: 6.79
+2025-08-14 10:49:25 INFO: {'ATNF': {   'close': 7.28,
+    'high': 7.42,
+    'low': 7.28,
+    'open': 7.375,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2601.0,
+    'vwap': 7.309151}}
+2025-08-14 10:49:25 INFO: Current resistance is: 7.458 and support is: 6.79
+2025-08-14 10:49:25 INFO: Current average volume is: 1438.9
+2025-08-14 10:49:25 INFO: Updated resistance to: 7.497 and support to: 6.81
+2025-08-14 10:51:26 INFO: {'ATNF': {   'close': 7.3,
+    'high': 7.3,
+    'low': 7.275,
+    'open': 7.275,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1168.0,
+    'vwap': 7.284589}}
+2025-08-14 10:51:26 INFO: Current resistance is: 7.497 and support is: 6.81
+2025-08-14 10:51:26 INFO: Current average volume is: 1475.7
+2025-08-14 10:51:26 INFO: Updated resistance to: 7.517 and support to: 6.827
+2025-08-14 10:52:26 INFO: {'ATNF': {   'close': 7.34,
+    'high': 7.34,
+    'low': 7.32,
+    'open': 7.32,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 712.0,
+    'vwap': 7.330714}}
+2025-08-14 10:52:26 INFO: Current resistance is: 7.517 and support is: 6.827
+2025-08-14 10:52:26 INFO: Current average volume is: 1458.9
+2025-08-14 10:52:26 INFO: Updated resistance to: 7.541 and support to: 6.848
+2025-08-14 10:55:26 INFO: {'ATNF': {   'close': 7.29,
+    'high': 7.29,
+    'low': 7.285,
+    'open': 7.285,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1000.0,
+    'vwap': 7.287222}}
+2025-08-14 10:55:26 INFO: Current resistance is: 7.541 and support is: 6.848
+2025-08-14 10:55:26 INFO: Current average volume is: 1452.2
+2025-08-14 10:55:26 INFO: Updated resistance to: 7.556 and support to: 6.864
+2025-08-14 10:59:27 INFO: {'ATNF': {   'close': 7.245,
+    'high': 7.245,
+    'low': 7.245,
+    'open': 7.245,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 458.0,
+    'vwap': 7.245}}
+2025-08-14 10:59:27 INFO: Current resistance is: 7.556 and support is: 6.864
+2025-08-14 10:59:27 INFO: Current average volume is: 1436.0
+2025-08-14 10:59:27 INFO: Updated resistance to: 7.565 and support to: 6.875
+2025-08-14 11:00:27 INFO: {'ATNF': {   'close': 7.24,
+    'high': 7.24,
+    'low': 7.24,
+    'open': 7.24,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.24}}
+2025-08-14 11:00:27 INFO: Current resistance is: 7.565 and support is: 6.875
+2025-08-14 11:00:27 INFO: Current average volume is: 1264.7
+2025-08-14 11:00:27 INFO: Updated resistance to: 7.573 and support to: 6.885
+2025-08-14 11:01:27 INFO: {'ATNF': {   'close': 7.225,
+    'high': 7.23,
+    'low': 7.205,
+    'open': 7.205,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2407.0,
+    'vwap': 7.222917}}
+2025-08-14 11:01:27 INFO: Current resistance is: 7.573 and support is: 6.885
+2025-08-14 11:01:27 INFO: Current average volume is: 1357.4
+2025-08-14 11:01:27 INFO: Updated resistance to: 7.579 and support to: 6.89
+2025-08-14 11:02:27 INFO: {'ATNF': {   'close': 7.21,
+    'high': 7.21,
+    'low': 7.21,
+    'open': 7.21,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 358.0,
+    'vwap': 7.21}}
+2025-08-14 11:02:27 INFO: Current resistance is: 7.579 and support is: 6.89
+2025-08-14 11:02:27 INFO: Current average volume is: 1372.6
+2025-08-14 11:02:27 INFO: Updated resistance to: 7.582 and support to: 6.896
+2025-08-14 11:03:27 INFO: {'ATNF': {   'close': 7.22,
+    'high': 7.22,
+    'low': 7.215,
+    'open': 7.215,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 500.0,
+    'vwap': 7.217696}}
+2025-08-14 11:03:27 INFO: Current resistance is: 7.582 and support is: 6.896
+2025-08-14 11:03:27 INFO: Current average volume is: 1049.8
+2025-08-14 11:03:27 INFO: Updated resistance to: 7.587 and support to: 6.902
+2025-08-14 11:04:27 INFO: {'ATNF': {   'close': 7.2,
+    'high': 7.2,
+    'low': 7.195,
+    'open': 7.195,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1404.0,
+    'vwap': 7.196392}}
+2025-08-14 11:04:27 INFO: Current resistance is: 7.587 and support is: 6.902
+2025-08-14 11:04:27 INFO: Current average volume is: 1070.8
+2025-08-14 11:04:27 INFO: Updated resistance to: 7.588 and support to: 6.905
+2025-08-14 11:05:27 INFO: {'ATNF': {   'close': 7.17,
+    'high': 7.21,
+    'low': 7.155,
+    'open': 7.205,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3300.0,
+    'vwap': 7.191962}}
+2025-08-14 11:05:27 INFO: Current resistance is: 7.588 and support is: 6.905
+2025-08-14 11:05:27 INFO: Current average volume is: 1140.7
+2025-08-14 11:05:27 INFO: Updated resistance to: 7.591 and support to: 6.905
+2025-08-14 11:06:27 INFO: {'ATNF': {   'close': 7.115,
+    'high': 7.12,
+    'low': 7.095,
+    'open': 7.1,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2480.0,
+    'vwap': 7.10195}}
+2025-08-14 11:06:27 INFO: Current resistance is: 7.591 and support is: 6.905
+2025-08-14 11:06:27 INFO: Current average volume is: 1271.9
+2025-08-14 11:06:27 INFO: Updated resistance to: 7.584 and support to: 6.899
+2025-08-14 11:07:28 INFO: {'ATNF': {   'close': 7.09,
+    'high': 7.09,
+    'low': 7.065,
+    'open': 7.065,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1423.0,
+    'vwap': 7.069622}}
+2025-08-14 11:07:28 INFO: Current resistance is: 7.584 and support is: 6.899
+2025-08-14 11:07:28 INFO: Current average volume is: 1343.0
+2025-08-14 11:07:28 INFO: Updated resistance to: 7.574 and support to: 6.891
+2025-08-14 11:09:28 INFO: {'ATNF': {   'close': 7.035,
+    'high': 7.035,
+    'low': 7.035,
+    'open': 7.035,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 151.0,
+    'vwap': 7.035}}
+2025-08-14 11:09:28 INFO: Current resistance is: 7.574 and support is: 6.891
+2025-08-14 11:09:28 INFO: Current average volume is: 1258.1
+2025-08-14 11:09:28 INFO: Updated resistance to: 7.56 and support to: 6.881
+2025-08-14 11:10:28 INFO: {'ATNF': {   'close': 7.03,
+    'high': 7.03,
+    'low': 7.025,
+    'open': 7.025,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 262.0,
+    'vwap': 7.0275}}
+2025-08-14 11:10:28 INFO: Current resistance is: 7.56 and support is: 6.881
+2025-08-14 11:10:28 INFO: Current average volume is: 1238.5
+2025-08-14 11:10:28 INFO: Updated resistance to: 7.546 and support to: 6.87
+2025-08-14 11:11:28 INFO: {'ATNF': {   'close': 7.01,
+    'high': 7.02,
+    'low': 7.0,
+    'open': 7.015,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1886.0,
+    'vwap': 7.010294}}
+2025-08-14 11:11:28 INFO: Current resistance is: 7.546 and support is: 6.87
+2025-08-14 11:11:28 INFO: Current average volume is: 1417.1
+2025-08-14 11:11:28 INFO: Updated resistance to: 7.532 and support to: 6.859
+2025-08-14 11:14:28 INFO: {'ATNF': {   'close': 7.015,
+    'high': 7.04,
+    'low': 7.015,
+    'open': 7.03,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 896.0,
+    'vwap': 7.025625}}
+2025-08-14 11:14:28 INFO: Current resistance is: 7.532 and support is: 6.859
+2025-08-14 11:14:28 INFO: Current average volume is: 1266.0
+2025-08-14 11:14:28 INFO: Updated resistance to: 7.521 and support to: 6.849
+2025-08-14 11:17:29 INFO: {'ATNF': {   'close': 7.01,
+    'high': 7.01,
+    'low': 6.99,
+    'open': 7.005,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 6031.0,
+    'vwap': 7.002421}}
+2025-08-14 11:17:29 INFO: Current resistance is: 7.521 and support is: 6.849
+2025-08-14 11:17:29 INFO: Current average volume is: 1833.3
+2025-08-14 11:17:29 INFO: Updated resistance to: 7.507 and support to: 6.837
+2025-08-14 11:19:29 INFO: {'ATNF': {   'close': 7.0,
+    'high': 7.0,
+    'low': 6.985,
+    'open': 6.985,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 6.997}}
+2025-08-14 11:19:29 INFO: Current resistance is: 7.507 and support is: 6.837
+2025-08-14 11:19:29 INFO: Current average volume is: 1833.3
+2025-08-14 11:19:29 INFO: Updated resistance to: 7.494 and support to: 6.826
+2025-08-14 11:24:30 INFO: {'ATNF': {   'close': 7.015,
+    'high': 7.02,
+    'low': 7.0,
+    'open': 7.0,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 3310.0,
+    'vwap': 7.007264}}
+2025-08-14 11:24:30 INFO: Current resistance is: 7.494 and support is: 6.826
+2025-08-14 11:24:30 INFO: Current average volume is: 2023.9
+2025-08-14 11:24:30 INFO: Updated resistance to: 7.484 and support to: 6.817
+2025-08-14 11:27:30 INFO: {'ATNF': {   'close': 6.985,
+    'high': 6.985,
+    'low': 6.985,
+    'open': 6.985,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 749.0,
+    'vwap': 6.985}}
+2025-08-14 11:27:30 INFO: Current resistance is: 7.484 and support is: 6.817
+2025-08-14 11:27:30 INFO: Current average volume is: 1768.8
+2025-08-14 11:27:30 INFO: Updated resistance to: 7.471 and support to: 6.807
+2025-08-14 11:30:30 INFO: {'ATNF': {   'close': 7.005,
+    'high': 7.03,
+    'low': 7.005,
+    'open': 7.03,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 653.0,
+    'vwap': 7.014686}}
+2025-08-14 11:30:30 INFO: Current resistance is: 7.471 and support is: 6.807
+2025-08-14 11:30:30 INFO: Current average volume is: 1586.1
+2025-08-14 11:30:30 INFO: Updated resistance to: 7.462 and support to: 6.8
+2025-08-14 11:32:30 INFO: {'ATNF': {   'close': 7.1,
+    'high': 7.12,
+    'low': 7.065,
+    'open': 7.085,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1200.0,
+    'vwap': 7.09}}
+2025-08-14 11:32:30 INFO: Current resistance is: 7.462 and support is: 6.8
+2025-08-14 11:32:30 INFO: Current average volume is: 1563.8
+2025-08-14 11:32:30 INFO: Updated resistance to: 7.463 and support to: 6.797
+2025-08-14 11:35:31 INFO: {'ATNF': {   'close': 7.08,
+    'high': 7.08,
+    'low': 7.075,
+    'open': 7.075,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 406.0,
+    'vwap': 7.078333}}
+2025-08-14 11:35:31 INFO: Current resistance is: 7.463 and support is: 6.797
+2025-08-14 11:35:31 INFO: Current average volume is: 1589.3
+2025-08-14 11:35:31 INFO: Updated resistance to: 7.46 and support to: 6.795
+2025-08-14 11:36:31 INFO: {'ATNF': {   'close': 7.09,
+    'high': 7.09,
+    'low': 7.085,
+    'open': 7.085,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 7.089}}
+2025-08-14 11:36:31 INFO: Current resistance is: 7.46 and support is: 6.795
+2025-08-14 11:36:31 INFO: Current average volume is: 1613.1
+2025-08-14 11:36:31 INFO: Updated resistance to: 7.458 and support to: 6.795
+2025-08-14 11:39:31 INFO: {'ATNF': {   'close': 7.02,
+    'high': 7.02,
+    'low': 7.02,
+    'open': 7.02,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.02}}
+2025-08-14 11:39:31 INFO: Current resistance is: 7.458 and support is: 6.795
+2025-08-14 11:39:31 INFO: Current average volume is: 1434.5
+2025-08-14 11:39:31 INFO: Updated resistance to: 7.45 and support to: 6.789
+2025-08-14 11:40:31 INFO: {'ATNF': {   'close': 7.025,
+    'high': 7.025,
+    'low': 7.025,
+    'open': 7.025,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1020.0,
+    'vwap': 7.025}}
+2025-08-14 11:40:31 INFO: Current resistance is: 7.45 and support is: 6.789
+2025-08-14 11:40:31 INFO: Current average volume is: 1446.9
+2025-08-14 11:40:31 INFO: Updated resistance to: 7.443 and support to: 6.784
+2025-08-14 11:42:32 INFO: {'ATNF': {   'close': 7.01,
+    'high': 7.01,
+    'low': 7.01,
+    'open': 7.01,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 7.01}}
+2025-08-14 11:42:32 INFO: Current resistance is: 7.443 and support is: 6.784
+2025-08-14 11:42:32 INFO: Current average volume is: 873.8
+2025-08-14 11:42:32 INFO: Updated resistance to: 7.436 and support to: 6.779
+2025-08-14 11:50:33 INFO: {'ATNF': {   'close': 7.025,
+    'high': 7.025,
+    'low': 7.005,
+    'open': 7.005,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1100.0,
+    'vwap': 7.011818}}
+2025-08-14 11:50:33 INFO: Current resistance is: 7.436 and support is: 6.779
+2025-08-14 11:50:33 INFO: Current average volume is: 933.8
+2025-08-14 11:50:33 INFO: Updated resistance to: 7.43 and support to: 6.773
+2025-08-14 11:52:33 INFO: {'ATNF': {   'close': 7.065,
+    'high': 7.065,
+    'low': 7.065,
+    'open': 7.065,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 7.065}}
+2025-08-14 11:52:33 INFO: Current resistance is: 7.43 and support is: 6.773
+2025-08-14 11:52:33 INFO: Current average volume is: 622.8
+2025-08-14 11:52:33 INFO: Updated resistance to: 7.427 and support to: 6.772
+2025-08-14 11:53:33 INFO: {'ATNF': {   'close': 7.03,
+    'high': 7.03,
+    'low': 7.03,
+    'open': 7.03,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 461.0,
+    'vwap': 7.03}}
+2025-08-14 11:53:33 INFO: Current resistance is: 7.427 and support is: 6.772
+2025-08-14 11:53:33 INFO: Current average volume is: 594.0
+2025-08-14 11:53:33 INFO: Updated resistance to: 7.422 and support to: 6.768
+2025-08-14 11:54:33 INFO: {'ATNF': {   'close': 7.02,
+    'high': 7.02,
+    'low': 7.02,
+    'open': 7.02,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 709.0,
+    'vwap': 7.02}}
+2025-08-14 11:54:33 INFO: Current resistance is: 7.422 and support is: 6.768
+2025-08-14 11:54:33 INFO: Current average volume is: 599.6
+2025-08-14 11:54:33 INFO: Updated resistance to: 7.417 and support to: 6.764
+2025-08-14 11:57:33 INFO: {'ATNF': {   'close': 7.025,
+    'high': 7.025,
+    'low': 7.025,
+    'open': 7.025,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 493.0,
+    'vwap': 7.025}}
+2025-08-14 11:57:33 INFO: Current resistance is: 7.417 and support is: 6.764
+2025-08-14 11:57:33 INFO: Current average volume is: 528.9
+2025-08-14 11:57:33 INFO: Updated resistance to: 7.412 and support to: 6.761
+2025-08-14 11:59:34 INFO: {'ATNF': {   'close': 7.045,
+    'high': 7.045,
+    'low': 7.045,
+    'open': 7.045,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 7.045}}
+2025-08-14 11:59:34 INFO: Current resistance is: 7.412 and support is: 6.761
+2025-08-14 11:59:34 INFO: Current average volume is: 558.3
+2025-08-14 11:59:34 INFO: Updated resistance to: 7.41 and support to: 6.759
+2025-08-14 12:00:34 INFO: {'ATNF': {   'close': 7.06,
+    'high': 7.06,
+    'low': 7.06,
+    'open': 7.06,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 7.06}}
+2025-08-14 12:00:34 INFO: Current resistance is: 7.41 and support is: 6.759
+2025-08-14 12:00:34 INFO: Current average volume is: 548.3
+2025-08-14 12:00:34 INFO: Updated resistance to: 7.408 and support to: 6.758
+2025-08-14 12:01:34 INFO: {'ATNF': {   'close': 7.08,
+    'high': 7.08,
+    'low': 7.055,
+    'open': 7.055,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1108.0,
+    'vwap': 7.060909}}
+2025-08-14 12:01:34 INFO: Current resistance is: 7.408 and support is: 6.758
+2025-08-14 12:01:34 INFO: Current average volume is: 649.1
+2025-08-14 12:01:34 INFO: Updated resistance to: 7.408 and support to: 6.758
+2025-08-14 12:02:34 INFO: {'ATNF': {   'close': 7.1,
+    'high': 7.1,
+    'low': 7.09,
+    'open': 7.09,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 410.0,
+    'vwap': 7.095}}
+2025-08-14 12:02:34 INFO: Current resistance is: 7.408 and support is: 6.758
+2025-08-14 12:02:34 INFO: Current average volume is: 588.1
+2025-08-14 12:02:34 INFO: Updated resistance to: 7.41 and support to: 6.759
+2025-08-14 12:04:34 INFO: {'ATNF': {   'close': 7.01,
+    'high': 7.01,
+    'low': 7.01,
+    'open': 7.01,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 7.01}}
+2025-08-14 12:04:34 INFO: Current resistance is: 7.41 and support is: 6.759
+2025-08-14 12:04:34 INFO: Current average volume is: 568.6
+2025-08-14 12:04:34 INFO: Updated resistance to: 7.405 and support to: 6.755
+2025-08-14 12:06:34 INFO: {'ATNF': {   'close': 7.035,
+    'high': 7.035,
+    'low': 7.03,
+    'open': 7.03,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 720.0,
+    'vwap': 7.033812}}
+2025-08-14 12:06:34 INFO: Current resistance is: 7.405 and support is: 6.755
+2025-08-14 12:06:34 INFO: Current average volume is: 530.6
+2025-08-14 12:06:34 INFO: Updated resistance to: 7.402 and support to: 6.753
+2025-08-14 12:07:35 INFO: {'ATNF': {   'close': 7.05,
+    'high': 7.05,
+    'low': 7.05,
+    'open': 7.05,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.05}}
+2025-08-14 12:07:35 INFO: Current resistance is: 7.402 and support is: 6.753
+2025-08-14 12:07:35 INFO: Current average volume is: 520.6
+2025-08-14 12:07:35 INFO: Updated resistance to: 7.401 and support to: 6.752
+2025-08-14 12:09:35 INFO: {'ATNF': {   'close': 7.04,
+    'high': 7.04,
+    'low': 7.035,
+    'open': 7.035,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 800.0,
+    'vwap': 7.038125}}
+2025-08-14 12:09:35 INFO: Current resistance is: 7.401 and support is: 6.752
+2025-08-14 12:09:35 INFO: Current average volume is: 554.5
+2025-08-14 12:09:35 INFO: Updated resistance to: 7.399 and support to: 6.75
+2025-08-14 12:17:36 INFO: {'ATNF': {   'close': 7.015,
+    'high': 7.015,
+    'low': 7.015,
+    'open': 7.015,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 420.0,
+    'vwap': 7.015}}
+2025-08-14 12:17:36 INFO: Current resistance is: 7.399 and support is: 6.75
+2025-08-14 12:17:36 INFO: Current average volume is: 525.6
+2025-08-14 12:17:36 INFO: Updated resistance to: 7.395 and support to: 6.747
+2025-08-14 12:23:37 INFO: {'ATNF': {   'close': 7.03,
+    'high': 7.03,
+    'low': 7.005,
+    'open': 7.005,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1420.0,
+    'vwap': 7.017661}}
+2025-08-14 12:23:37 INFO: Current resistance is: 7.395 and support is: 6.747
+2025-08-14 12:23:37 INFO: Current average volume is: 618.3
+2025-08-14 12:23:37 INFO: Updated resistance to: 7.393 and support to: 6.744
+2025-08-14 12:24:37 INFO: {'ATNF': {   'close': 7.11,
+    'high': 7.11,
+    'low': 7.11,
+    'open': 7.11,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 399.0,
+    'vwap': 7.11}}
+2025-08-14 12:24:37 INFO: Current resistance is: 7.393 and support is: 6.744
+2025-08-14 12:24:37 INFO: Current average volume is: 588.2
+2025-08-14 12:24:37 INFO: Updated resistance to: 7.396 and support to: 6.747
+2025-08-14 12:25:37 INFO: {'ATNF': {   'close': 7.1,
+    'high': 7.12,
+    'low': 7.1,
+    'open': 7.12,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 427.0,
+    'vwap': 7.109549}}
+2025-08-14 12:25:37 INFO: Current resistance is: 7.396 and support is: 6.747
+2025-08-14 12:25:37 INFO: Current average volume is: 590.9
+2025-08-14 12:25:37 INFO: Updated resistance to: 7.399 and support to: 6.75
+2025-08-14 12:26:37 INFO: {'ATNF': {   'close': 7.14,
+    'high': 7.14,
+    'low': 7.11,
+    'open': 7.11,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1103.0,
+    'vwap': 7.115455}}
+2025-08-14 12:26:37 INFO: Current resistance is: 7.399 and support is: 6.75
+2025-08-14 12:26:37 INFO: Current average volume is: 590.4
+2025-08-14 12:26:37 INFO: Updated resistance to: 7.404 and support to: 6.753
+2025-08-14 12:27:37 INFO: {'ATNF': {   'close': 7.12,
+    'high': 7.12,
+    'low': 7.105,
+    'open': 7.105,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1861.0,
+    'vwap': 7.111139}}
+2025-08-14 12:27:37 INFO: Current resistance is: 7.404 and support is: 6.753
+2025-08-14 12:27:37 INFO: Current average volume is: 735.5
+2025-08-14 12:27:37 INFO: Updated resistance to: 7.408 and support to: 6.755
+2025-08-14 12:29:37 INFO: {'ATNF': {   'close': 7.06,
+    'high': 7.06,
+    'low': 7.06,
+    'open': 7.06,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 344.0,
+    'vwap': 7.06}}
+2025-08-14 12:29:37 INFO: Current resistance is: 7.408 and support is: 6.755
+2025-08-14 12:29:37 INFO: Current average volume is: 759.4
+2025-08-14 12:29:37 INFO: Updated resistance to: 7.407 and support to: 6.755
+2025-08-14 12:30:37 INFO: {'ATNF': {   'close': 7.08,
+    'high': 7.08,
+    'low': 7.065,
+    'open': 7.065,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1952.0,
+    'vwap': 7.071462}}
+2025-08-14 12:30:37 INFO: Current resistance is: 7.407 and support is: 6.755
+2025-08-14 12:30:37 INFO: Current average volume is: 882.6
+2025-08-14 12:30:37 INFO: Updated resistance to: 7.408 and support to: 6.756
+2025-08-14 12:31:37 INFO: {'ATNF': {   'close': 7.32,
+    'high': 7.32,
+    'low': 7.1,
+    'open': 7.1,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 4822.0,
+    'vwap': 7.218084}}
+2025-08-14 12:31:37 INFO: Current resistance is: 7.408 and support is: 6.756
+2025-08-14 12:31:37 INFO: Current average volume is: 1354.8
+2025-08-14 12:31:37 INFO: Updated resistance to: 7.424 and support to: 6.758
+2025-08-14 12:32:38 INFO: {'ATNF': {   'close': 7.41,
+    'high': 7.41,
+    'low': 7.305,
+    'open': 7.305,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 6130.0,
+    'vwap': 7.351427}}
+2025-08-14 12:32:38 INFO: Current resistance is: 7.424 and support is: 6.758
+2025-08-14 12:32:38 INFO: Current average volume is: 1887.8
+2025-08-14 12:32:38 INFO: Updated resistance to: 7.445 and support to: 6.772
+2025-08-14 12:33:38 INFO: {'ATNF': {   'close': 7.51,
+    'high': 7.51,
+    'low': 7.38,
+    'open': 7.38,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3165.0,
+    'vwap': 7.449706}}
+2025-08-14 12:33:38 INFO: Current resistance is: 7.445 and support is: 6.772
+2025-08-14 12:33:38 INFO: Current average volume is: 2162.3
+2025-08-14 12:33:38 INFO: The Current Close 7.51 is above the resistance...
+2025-08-14 12:33:38 INFO: Updated resistance to: 7.471 and support to: 6.79
+2025-08-14 12:34:08 INFO: {'ATNF': {   'close': 7.525,
+    'high': 7.525,
+    'low': 7.5,
+    'open': 7.5,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1900.0,
+    'vwap': 7.514444}}
+2025-08-14 12:34:08 INFO: Current resistance is: 7.471 and support is: 6.79
+2025-08-14 12:34:08 INFO: Current average volume is: 2210.3
+2025-08-14 12:34:08 INFO: The current close: 7.525 is above the resistance of 7.471, but volume isn't enough...
+2025-08-14 12:34:08 INFO: Updated resistance to: 7.498 and support to: 6.813
+2025-08-14 12:35:08 INFO: {'ATNF': {   'close': 7.365,
+    'high': 7.44,
+    'low': 7.365,
+    'open': 7.365,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 5170.0,
+    'vwap': 7.386704}}
+2025-08-14 12:35:08 INFO: Current resistance is: 7.498 and support is: 6.813
+2025-08-14 12:35:08 INFO: Current average volume is: 2687.4
+2025-08-14 12:35:08 INFO: Updated resistance to: 7.518 and support to: 6.829
+2025-08-14 12:37:08 INFO: {'ATNF': {   'close': 7.35,
+    'high': 7.35,
+    'low': 7.265,
+    'open': 7.265,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 4847.0,
+    'vwap': 7.304235}}
+2025-08-14 12:37:08 INFO: Current resistance is: 7.518 and support is: 6.829
+2025-08-14 12:37:08 INFO: Current average volume is: 3129.4
+2025-08-14 12:37:08 INFO: Updated resistance to: 7.531 and support to: 6.838
+2025-08-14 12:38:08 INFO: {'ATNF': {   'close': 7.44,
+    'high': 7.44,
+    'low': 7.35,
+    'open': 7.35,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1120.0,
+    'vwap': 7.393661}}
+2025-08-14 12:38:08 INFO: Current resistance is: 7.531 and support is: 6.838
+2025-08-14 12:38:08 INFO: Current average volume is: 3131.1
+2025-08-14 12:38:08 INFO: Updated resistance to: 7.55 and support to: 6.851
+2025-08-14 12:39:09 INFO: {'ATNF': {   'close': 7.48,
+    'high': 7.49,
+    'low': 7.455,
+    'open': 7.475,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3330.0,
+    'vwap': 7.474381}}
+2025-08-14 12:39:09 INFO: Current resistance is: 7.55 and support is: 6.851
+2025-08-14 12:39:09 INFO: Current average volume is: 3278.0
+2025-08-14 12:39:09 INFO: Updated resistance to: 7.571 and support to: 6.87
+2025-08-14 12:41:09 INFO: {'ATNF': {   'close': 7.45,
+    'high': 7.45,
+    'low': 7.44,
+    'open': 7.44,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 800.0,
+    'vwap': 7.445}}
+2025-08-14 12:41:09 INFO: Current resistance is: 7.571 and support is: 6.87
+2025-08-14 12:41:09 INFO: Current average volume is: 3323.6
+2025-08-14 12:41:09 INFO: Updated resistance to: 7.589 and support to: 6.887
+2025-08-14 12:43:09 INFO: {'ATNF': {   'close': 7.46,
+    'high': 7.46,
+    'low': 7.46,
+    'open': 7.46,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 7.46}}
+2025-08-14 12:43:09 INFO: Current resistance is: 7.589 and support is: 6.887
+2025-08-14 12:43:09 INFO: Current average volume is: 3148.4
+2025-08-14 12:43:09 INFO: Updated resistance to: 7.606 and support to: 6.905
+2025-08-14 12:44:09 INFO: {'ATNF': {   'close': 7.415,
+    'high': 7.435,
+    'low': 7.415,
+    'open': 7.435,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 7.425}}
+2025-08-14 12:44:09 INFO: Current resistance is: 7.606 and support is: 6.905
+2025-08-14 12:44:09 INFO: Current average volume is: 2716.2
+2025-08-14 12:44:09 INFO: Updated resistance to: 7.622 and support to: 6.919
+2025-08-14 12:45:09 INFO: {'ATNF': {   'close': 7.42,
+    'high': 7.42,
+    'low': 7.42,
+    'open': 7.42,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 203.0,
+    'vwap': 7.42}}
+2025-08-14 12:45:09 INFO: Current resistance is: 7.622 and support is: 6.919
+2025-08-14 12:45:09 INFO: Current average volume is: 2123.5
+2025-08-14 12:45:09 INFO: Updated resistance to: 7.636 and support to: 6.934
+2025-08-14 12:47:09 INFO: {'ATNF': {   'close': 7.5,
+    'high': 7.5,
+    'low': 7.49,
+    'open': 7.49,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 7.495}}
+2025-08-14 12:47:09 INFO: Current resistance is: 7.636 and support is: 6.934
+2025-08-14 12:47:09 INFO: Current average volume is: 1827.0
+2025-08-14 12:47:09 INFO: Updated resistance to: 7.654 and support to: 6.951
+2025-08-14 12:50:10 INFO: {'ATNF': {   'close': 7.55,
+    'high': 7.55,
+    'low': 7.435,
+    'open': 7.435,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 4096.0,
+    'vwap': 7.468933}}
+2025-08-14 12:50:10 INFO: Current resistance is: 7.654 and support is: 6.951
+2025-08-14 12:50:10 INFO: Current average volume is: 2046.6
+2025-08-14 12:50:10 INFO: Updated resistance to: 7.674 and support to: 6.965
+2025-08-14 12:51:10 INFO: {'ATNF': {   'close': 7.57,
+    'high': 7.655,
+    'low': 7.57,
+    'open': 7.585,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 3500.0,
+    'vwap': 7.597229}}
+2025-08-14 12:51:10 INFO: Current resistance is: 7.674 and support is: 6.965
+2025-08-14 12:51:10 INFO: Current average volume is: 1879.6
+2025-08-14 12:51:10 INFO: Updated resistance to: 7.656 and support to: 6.986
+2025-08-14 12:52:10 INFO: {'ATNF': {   'close': 7.51,
+    'high': 7.59,
+    'low': 7.51,
+    'open': 7.59,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2357.0,
+    'vwap': 7.522407}}
+2025-08-14 12:52:10 INFO: Current resistance is: 7.656 and support is: 6.986
+2025-08-14 12:52:10 INFO: Current average volume is: 1630.6
+2025-08-14 12:52:10 INFO: Updated resistance to: 7.657 and support to: 7.002
+2025-08-14 12:53:10 INFO: {'ATNF': {   'close': 7.465,
+    'high': 7.465,
+    'low': 7.445,
+    'open': 7.445,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 647.0,
+    'vwap': 7.45629}}
+2025-08-14 12:53:10 INFO: Current resistance is: 7.657 and support is: 7.002
+2025-08-14 12:53:10 INFO: Current average volume is: 1583.3
+2025-08-14 12:53:10 INFO: Updated resistance to: 7.658 and support to: 7.015
+2025-08-14 12:54:10 INFO: {'ATNF': {   'close': 7.455,
+    'high': 7.455,
+    'low': 7.455,
+    'open': 7.455,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 223.0,
+    'vwap': 7.455}}
+2025-08-14 12:54:10 INFO: Current resistance is: 7.658 and support is: 7.015
+2025-08-14 12:54:10 INFO: Current average volume is: 1272.6
+2025-08-14 12:54:10 INFO: Updated resistance to: 7.66 and support to: 7.028
+2025-08-14 12:56:11 INFO: {'ATNF': {   'close': 7.37,
+    'high': 7.38,
+    'low': 7.36,
+    'open': 7.37,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2541.0,
+    'vwap': 7.368498}}
+2025-08-14 12:56:11 INFO: Current resistance is: 7.66 and support is: 7.028
+2025-08-14 12:56:11 INFO: Current average volume is: 1446.7
+2025-08-14 12:56:11 INFO: Updated resistance to: 7.661 and support to: 7.035
+2025-08-14 12:59:11 INFO: {'ATNF': {   'close': 7.34,
+    'high': 7.34,
+    'low': 7.34,
+    'open': 7.34,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 321.0,
+    'vwap': 7.34}}
+2025-08-14 12:59:11 INFO: Current resistance is: 7.661 and support is: 7.035
+2025-08-14 12:59:11 INFO: Current average volume is: 1458.8
+2025-08-14 12:59:11 INFO: Updated resistance to: 7.663 and support to: 7.042
+2025-08-14 13:01:11 INFO: {'ATNF': {   'close': 7.27,
+    'high': 7.28,
+    'low': 7.215,
+    'open': 7.275,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2335.0,
+    'vwap': 7.242613}}
+2025-08-14 13:01:11 INFO: Current resistance is: 7.663 and support is: 7.042
+2025-08-14 13:01:11 INFO: Current average volume is: 1642.3
+2025-08-14 13:01:11 INFO: Updated resistance to: 7.664 and support to: 7.042
+2025-08-14 13:04:12 INFO: {'ATNF': {   'close': 7.18,
+    'high': 7.22,
+    'low': 7.18,
+    'open': 7.205,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 2000.0,
+    'vwap': 7.199231}}
+2025-08-14 13:04:12 INFO: Current resistance is: 7.664 and support is: 7.042
+2025-08-14 13:04:12 INFO: Current average volume is: 1822.0
+2025-08-14 13:04:12 INFO: Updated resistance to: 7.666 and support to: 7.04
+2025-08-14 13:05:12 INFO: {'ATNF': {   'close': 7.2,
+    'high': 7.2,
+    'low': 7.15,
+    'open': 7.15,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 7.1875}}
+2025-08-14 13:05:12 INFO: Current resistance is: 7.666 and support is: 7.04
+2025-08-14 13:05:12 INFO: Current average volume is: 1842.0
+2025-08-14 13:05:12 INFO: Updated resistance to: 7.667 and support to: 7.037
+2025-08-14 13:06:12 INFO: {'ATNF': {   'close': 7.16,
+    'high': 7.16,
+    'low': 7.16,
+    'open': 7.16,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 112.0,
+    'vwap': 7.16}}
+2025-08-14 13:06:12 INFO: Current resistance is: 7.667 and support is: 7.037
+2025-08-14 13:06:12 INFO: Current average volume is: 1443.6
+2025-08-14 13:06:12 INFO: Updated resistance to: 7.667 and support to: 7.035
+2025-08-14 13:07:12 INFO: {'ATNF': {   'close': 7.125,
+    'high': 7.125,
+    'low': 7.125,
+    'open': 7.125,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 306.0,
+    'vwap': 7.125}}
+2025-08-14 13:07:12 INFO: Current resistance is: 7.667 and support is: 7.035
+2025-08-14 13:07:12 INFO: Current average volume is: 1124.2
+2025-08-14 13:07:12 INFO: Updated resistance to: 7.668 and support to: 7.031
+2025-08-14 13:08:12 INFO: {'ATNF': {   'close': 7.12,
+    'high': 7.15,
+    'low': 7.12,
+    'open': 7.14,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 310.0,
+    'vwap': 7.136667}}
+2025-08-14 13:08:12 INFO: Current resistance is: 7.668 and support is: 7.031
+2025-08-14 13:08:12 INFO: Current average volume is: 919.5
+2025-08-14 13:08:12 INFO: Updated resistance to: 7.669 and support to: 7.027
+2025-08-14 13:10:12 INFO: {'ATNF': {   'close': 7.135,
+    'high': 7.135,
+    'low': 7.11,
+    'open': 7.11,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 640.0,
+    'vwap': 7.115}}
+2025-08-14 13:10:12 INFO: Current resistance is: 7.669 and support is: 7.027
+2025-08-14 13:10:12 INFO: Current average volume is: 918.8
+2025-08-14 13:10:12 INFO: Updated resistance to: 7.669 and support to: 7.022
+2025-08-14 13:12:13 INFO: {'ATNF': {   'close': 7.095,
+    'high': 7.105,
+    'low': 7.095,
+    'open': 7.105,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1804.0,
+    'vwap': 7.097326}}
+2025-08-14 13:12:13 INFO: Current resistance is: 7.669 and support is: 7.022
+2025-08-14 13:12:13 INFO: Current average volume is: 1076.9
+2025-08-14 13:12:13 INFO: Updated resistance to: 7.669 and support to: 7.017
+2025-08-14 13:16:13 INFO: {'ATNF': {   'close': 7.15,
+    'high': 7.15,
+    'low': 7.115,
+    'open': 7.115,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1440.0,
+    'vwap': 7.134015}}
+2025-08-14 13:16:13 INFO: Current resistance is: 7.669 and support is: 7.017
+2025-08-14 13:16:13 INFO: Current average volume is: 966.8
+2025-08-14 13:16:13 INFO: Updated resistance to: 7.67 and support to: 7.013
+2025-08-14 13:17:13 INFO: {'ATNF': {   'close': 7.18,
+    'high': 7.18,
+    'low': 7.18,
+    'open': 7.18,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.18}}
+2025-08-14 13:17:13 INFO: Current resistance is: 7.67 and support is: 7.013
+2025-08-14 13:17:13 INFO: Current average volume is: 944.7
+2025-08-14 13:17:13 INFO: Updated resistance to: 7.67 and support to: 7.012
+2025-08-14 13:18:13 INFO: {'ATNF': {   'close': 7.145,
+    'high': 7.15,
+    'low': 7.145,
+    'open': 7.15,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 7.146}}
+2025-08-14 13:18:13 INFO: Current resistance is: 7.67 and support is: 7.012
+2025-08-14 13:18:13 INFO: Current average volume is: 771.2
+2025-08-14 13:18:13 INFO: Updated resistance to: 7.67 and support to: 7.009
+2025-08-14 13:22:14 INFO: {'ATNF': {   'close': 7.135,
+    'high': 7.135,
+    'low': 7.135,
+    'open': 7.135,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 130.0,
+    'vwap': 7.135}}
+2025-08-14 13:22:14 INFO: Current resistance is: 7.67 and support is: 7.009
+2025-08-14 13:22:14 INFO: Current average volume is: 584.2
+2025-08-14 13:22:14 INFO: Updated resistance to: 7.671 and support to: 7.007
+2025-08-14 13:27:14 INFO: {'ATNF': {   'close': 7.085,
+    'high': 7.085,
+    'low': 7.085,
+    'open': 7.085,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.085}}
+2025-08-14 13:27:14 INFO: Current resistance is: 7.671 and support is: 7.007
+2025-08-14 13:27:14 INFO: Current average volume is: 554.2
+2025-08-14 13:27:14 INFO: Updated resistance to: 7.67 and support to: 7.002
+2025-08-14 13:28:14 INFO: {'ATNF': {   'close': 7.045,
+    'high': 7.065,
+    'low': 7.045,
+    'open': 7.065,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1800.0,
+    'vwap': 7.049444}}
+2025-08-14 13:28:14 INFO: Current resistance is: 7.67 and support is: 7.002
+2025-08-14 13:28:14 INFO: Current average volume is: 723.0
+2025-08-14 13:28:14 INFO: Updated resistance to: 7.67 and support to: 6.995
+2025-08-14 13:29:15 INFO: {'ATNF': {   'close': 7.05,
+    'high': 7.05,
+    'low': 7.035,
+    'open': 7.035,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1950.0,
+    'vwap': 7.037821}}
+2025-08-14 13:29:15 INFO: Current resistance is: 7.67 and support is: 6.995
+2025-08-14 13:29:15 INFO: Current average volume is: 887.4
+2025-08-14 13:29:15 INFO: Updated resistance to: 7.669 and support to: 6.988
+2025-08-14 13:32:15 INFO: {'ATNF': {   'close': 7.055,
+    'high': 7.055,
+    'low': 7.055,
+    'open': 7.055,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.055}}
+2025-08-14 13:32:15 INFO: Current resistance is: 7.669 and support is: 6.988
+2025-08-14 13:32:15 INFO: Current average volume is: 866.4
+2025-08-14 13:32:15 INFO: Updated resistance to: 7.668 and support to: 6.982
+2025-08-14 13:43:16 INFO: {'ATNF': {   'close': 7.045,
+    'high': 7.045,
+    'low': 7.045,
+    'open': 7.045,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.045}}
+2025-08-14 13:43:16 INFO: Current resistance is: 7.668 and support is: 6.982
+2025-08-14 13:43:16 INFO: Current average volume is: 812.4
+2025-08-14 13:43:16 INFO: Updated resistance to: 7.667 and support to: 6.976
+2025-08-14 13:52:17 INFO: {'ATNF': {   'close': 7.035,
+    'high': 7.035,
+    'low': 7.02,
+    'open': 7.02,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 700.0,
+    'vwap': 7.03}}
+2025-08-14 13:52:17 INFO: Current resistance is: 7.667 and support is: 6.976
+2025-08-14 13:52:17 INFO: Current average volume is: 702.0
+2025-08-14 13:52:17 INFO: Updated resistance to: 7.666 and support to: 6.969
+2025-08-14 13:56:18 INFO: {'ATNF': {   'close': 7.025,
+    'high': 7.03,
+    'low': 7.025,
+    'open': 7.025,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 7.028}}
+2025-08-14 13:56:18 INFO: Current resistance is: 7.666 and support is: 6.969
+2025-08-14 13:56:18 INFO: Current average volume is: 618.0
+2025-08-14 13:56:18 INFO: Updated resistance to: 7.665 and support to: 6.962
+2025-08-14 13:59:18 INFO: {'ATNF': {   'close': 7.045,
+    'high': 7.045,
+    'low': 7.045,
+    'open': 7.045,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.045}}
+2025-08-14 13:59:18 INFO: Current resistance is: 7.665 and support is: 6.962
+2025-08-14 13:59:18 INFO: Current average volume is: 618.0
+2025-08-14 13:59:18 INFO: Updated resistance to: 7.664 and support to: 6.957
+2025-08-14 14:02:19 INFO: {'ATNF': {   'close': 7.05,
+    'high': 7.05,
+    'low': 7.05,
+    'open': 7.05,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 142.0,
+    'vwap': 7.05}}
+2025-08-14 14:02:19 INFO: Current resistance is: 7.664 and support is: 6.957
+2025-08-14 14:02:19 INFO: Current average volume is: 572.2
+2025-08-14 14:02:19 INFO: Updated resistance to: 7.663 and support to: 6.952
+2025-08-14 14:03:19 INFO: {'ATNF': {   'close': 7.065,
+    'high': 7.065,
+    'low': 7.045,
+    'open': 7.045,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 7.059}}
+2025-08-14 14:03:19 INFO: Current resistance is: 7.663 and support is: 6.952
+2025-08-14 14:03:19 INFO: Current average volume is: 609.2
+2025-08-14 14:03:19 INFO: Updated resistance to: 7.662 and support to: 6.946
+2025-08-14 14:04:19 INFO: {'ATNF': {   'close': 7.075,
+    'high': 7.08,
+    'low': 7.06,
+    'open': 7.06,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 960.0,
+    'vwap': 7.068602}}
+2025-08-14 14:04:19 INFO: Current resistance is: 7.662 and support is: 6.946
+2025-08-14 14:04:19 INFO: Current average volume is: 695.2
+2025-08-14 14:04:19 INFO: Updated resistance to: 7.661 and support to: 6.942
+2025-08-14 14:08:19 INFO: {'ATNF': {   'close': 7.045,
+    'high': 7.045,
+    'low': 7.045,
+    'open': 7.045,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 200.0,
+    'vwap': 7.045}}
+2025-08-14 14:08:19 INFO: Current resistance is: 7.661 and support is: 6.942
+2025-08-14 14:08:19 INFO: Current average volume is: 535.2
+2025-08-14 14:08:19 INFO: Updated resistance to: 7.66 and support to: 6.937
+2025-08-14 14:09:19 INFO: {'ATNF': {   'close': 7.06,
+    'high': 7.06,
+    'low': 7.055,
+    'open': 7.055,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 7.059167}}
+2025-08-14 14:09:19 INFO: Current resistance is: 7.66 and support is: 6.937
+2025-08-14 14:09:19 INFO: Current average volume is: 400.2
+2025-08-14 14:09:19 INFO: Updated resistance to: 7.659 and support to: 6.932
+2025-08-14 14:12:20 INFO: {'ATNF': {   'close': 7.08,
+    'high': 7.08,
+    'low': 7.08,
+    'open': 7.08,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 300.0,
+    'vwap': 7.08}}
+2025-08-14 14:12:20 INFO: Current resistance is: 7.659 and support is: 6.932
+2025-08-14 14:12:20 INFO: Current average volume is: 420.2
+2025-08-14 14:12:20 INFO: Updated resistance to: 7.658 and support to: 6.929
+2025-08-14 14:16:20 INFO: {'ATNF': {   'close': 7.065,
+    'high': 7.065,
+    'low': 7.065,
+    'open': 7.065,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 830.0,
+    'vwap': 7.065}}
+2025-08-14 14:16:20 INFO: Current resistance is: 7.658 and support is: 6.929
+2025-08-14 14:16:20 INFO: Current average volume is: 493.2
+2025-08-14 14:16:20 INFO: Updated resistance to: 7.657 and support to: 6.925
+2025-08-14 14:18:21 INFO: {'ATNF': {   'close': 7.04,
+    'high': 7.05,
+    'low': 7.04,
+    'open': 7.05,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 723.0,
+    'vwap': 7.042}}
+2025-08-14 14:18:21 INFO: Current resistance is: 7.657 and support is: 6.925
+2025-08-14 14:18:21 INFO: Current average volume is: 495.5
+2025-08-14 14:18:21 INFO: Updated resistance to: 7.656 and support to: 6.92
+2025-08-14 14:19:21 INFO: {'ATNF': {   'close': 7.015,
+    'high': 7.015,
+    'low': 7.015,
+    'open': 7.015,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.015}}
+2025-08-14 14:19:21 INFO: Current resistance is: 7.656 and support is: 6.92
+2025-08-14 14:19:21 INFO: Current average volume is: 445.5
+2025-08-14 14:19:21 INFO: Updated resistance to: 7.654 and support to: 6.915
+2025-08-14 14:20:21 INFO: {'ATNF': {   'close': 7.01,
+    'high': 7.01,
+    'low': 7.005,
+    'open': 7.01,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 594.0,
+    'vwap': 7.008768}}
+2025-08-14 14:20:21 INFO: Current resistance is: 7.654 and support is: 6.915
+2025-08-14 14:20:21 INFO: Current average volume is: 494.9
+2025-08-14 14:20:21 INFO: Updated resistance to: 7.652 and support to: 6.909
+2025-08-14 14:32:22 INFO: {'ATNF': {   'close': 6.96,
+    'high': 7.005,
+    'low': 6.955,
+    'open': 7.005,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1834.0,
+    'vwap': 6.977099}}
+2025-08-14 14:32:22 INFO: Current resistance is: 7.652 and support is: 6.909
+2025-08-14 14:32:22 INFO: Current average volume is: 664.1
+2025-08-14 14:32:22 INFO: Updated resistance to: 7.65 and support to: 6.901
+2025-08-14 14:33:22 INFO: {'ATNF': {   'close': 7.0,
+    'high': 7.02,
+    'low': 6.99,
+    'open': 7.0,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1400.0,
+    'vwap': 7.005}}
+2025-08-14 14:33:22 INFO: Current resistance is: 7.65 and support is: 6.901
+2025-08-14 14:33:22 INFO: Current average volume is: 754.1
+2025-08-14 14:33:22 INFO: Updated resistance to: 7.649 and support to: 6.895
+2025-08-14 14:35:23 INFO: {'ATNF': {   'close': 7.03,
+    'high': 7.03,
+    'low': 7.03,
+    'open': 7.03,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 7.03}}
+2025-08-14 14:35:23 INFO: Current resistance is: 7.649 and support is: 6.895
+2025-08-14 14:35:23 INFO: Current average volume is: 688.1
+2025-08-14 14:35:23 INFO: Updated resistance to: 7.647 and support to: 6.891
+2025-08-14 14:37:23 INFO: {'ATNF': {   'close': 7.13,
+    'high': 7.13,
+    'low': 7.1,
+    'open': 7.11,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 7.113333}}
+2025-08-14 14:37:23 INFO: Current resistance is: 7.647 and support is: 6.891
+2025-08-14 14:37:23 INFO: Current average volume is: 718.1
+2025-08-14 14:37:23 INFO: Updated resistance to: 7.647 and support to: 6.889
+2025-08-14 14:40:23 INFO: {'ATNF': {   'close': 7.02,
+    'high': 7.02,
+    'low': 7.02,
+    'open': 7.02,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 433.0,
+    'vwap': 7.02}}
+2025-08-14 14:40:23 INFO: Current resistance is: 7.647 and support is: 6.889
+2025-08-14 14:40:23 INFO: Current average volume is: 701.4
+2025-08-14 14:40:23 INFO: Updated resistance to: 7.645 and support to: 6.885
+2025-08-14 14:41:23 INFO: {'ATNF': {   'close': 7.015,
+    'high': 7.015,
+    'low': 7.005,
+    'open': 7.005,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 2300.0,
+    'vwap': 7.008913}}
+2025-08-14 14:41:23 INFO: Current resistance is: 7.645 and support is: 6.885
+2025-08-14 14:41:23 INFO: Current average volume is: 901.4
+2025-08-14 14:41:23 INFO: Updated resistance to: 7.643 and support to: 6.88
+2025-08-14 14:42:23 INFO: {'ATNF': {   'close': 7.04,
+    'high': 7.04,
+    'low': 7.04,
+    'open': 7.04,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.04}}
+2025-08-14 14:42:23 INFO: Current resistance is: 7.643 and support is: 6.88
+2025-08-14 14:42:23 INFO: Current average volume is: 828.4
+2025-08-14 14:42:23 INFO: Updated resistance to: 7.642 and support to: 6.876
+2025-08-14 14:46:24 INFO: {'ATNF': {   'close': 7.05,
+    'high': 7.05,
+    'low': 7.05,
+    'open': 7.05,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 296.0,
+    'vwap': 7.05}}
+2025-08-14 14:46:24 INFO: Current resistance is: 7.642 and support is: 6.876
+2025-08-14 14:46:24 INFO: Current average volume is: 785.7
+2025-08-14 14:46:24 INFO: Updated resistance to: 7.64 and support to: 6.873
+2025-08-14 14:48:24 INFO: {'ATNF': {   'close': 7.005,
+    'high': 7.005,
+    'low': 7.005,
+    'open': 7.005,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.005}}
+2025-08-14 14:48:24 INFO: Current resistance is: 7.64 and support is: 6.873
+2025-08-14 14:48:24 INFO: Current average volume is: 785.7
+2025-08-14 14:48:24 INFO: Updated resistance to: 7.638 and support to: 6.868
+2025-08-14 14:51:25 INFO: {'ATNF': {   'close': 7.08,
+    'high': 7.14,
+    'low': 7.08,
+    'open': 7.14,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 600.0,
+    'vwap': 7.12}}
+2025-08-14 14:51:25 INFO: Current resistance is: 7.638 and support is: 6.868
+2025-08-14 14:51:25 INFO: Current average volume is: 786.3
+2025-08-14 14:51:25 INFO: Updated resistance to: 7.638 and support to: 6.866
+2025-08-14 14:53:25 INFO: {'ATNF': {   'close': 7.115,
+    'high': 7.115,
+    'low': 7.115,
+    'open': 7.115,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 400.0,
+    'vwap': 7.115}}
+2025-08-14 14:53:25 INFO: Current resistance is: 7.638 and support is: 6.866
+2025-08-14 14:53:25 INFO: Current average volume is: 642.9
+2025-08-14 14:53:25 INFO: Updated resistance to: 7.637 and support to: 6.866
+2025-08-14 15:00:26 INFO: {'ATNF': {   'close': 7.105,
+    'high': 7.105,
+    'low': 7.105,
+    'open': 7.105,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 800.0,
+    'vwap': 7.105}}
+2025-08-14 15:00:26 INFO: Current resistance is: 7.637 and support is: 6.866
+2025-08-14 15:00:26 INFO: Current average volume is: 582.9
+2025-08-14 15:00:26 INFO: Updated resistance to: 7.637 and support to: 6.865
+2025-08-14 15:02:26 INFO: {'ATNF': {   'close': 7.05,
+    'high': 7.06,
+    'low': 7.05,
+    'open': 7.05,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1100.0,
+    'vwap': 7.050909}}
+2025-08-14 15:02:26 INFO: Current resistance is: 7.637 and support is: 6.865
+2025-08-14 15:02:26 INFO: Current average volume is: 662.9
+2025-08-14 15:02:26 INFO: Updated resistance to: 7.635 and support to: 6.862
+2025-08-14 15:03:26 INFO: {'ATNF': {   'close': 7.035,
+    'high': 7.035,
+    'low': 7.03,
+    'open': 7.03,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 7.0325}}
+2025-08-14 15:03:26 INFO: Current resistance is: 7.635 and support is: 6.862
+2025-08-14 15:03:26 INFO: Current average volume is: 632.9
+2025-08-14 15:03:26 INFO: Updated resistance to: 7.634 and support to: 6.859
+2025-08-14 15:04:26 INFO: {'ATNF': {   'close': 7.08,
+    'high': 7.08,
+    'low': 7.07,
+    'open': 7.07,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 7.075}}
+2025-08-14 15:04:26 INFO: Current resistance is: 7.634 and support is: 6.859
+2025-08-14 15:04:26 INFO: Current average volume is: 639.6
+2025-08-14 15:04:26 INFO: Updated resistance to: 7.633 and support to: 6.857
+2025-08-14 15:05:26 INFO: {'ATNF': {   'close': 7.13,
+    'high': 7.13,
+    'low': 7.13,
+    'open': 7.13,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.13}}
+2025-08-14 15:05:26 INFO: Current resistance is: 7.633 and support is: 6.857
+2025-08-14 15:05:26 INFO: Current average volume is: 419.6
+2025-08-14 15:05:26 INFO: Updated resistance to: 7.632 and support to: 6.857
+2025-08-14 15:08:27 INFO: {'ATNF': {   'close': 7.25,
+    'high': 7.25,
+    'low': 7.19,
+    'open': 7.19,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 7.202}}
+2025-08-14 15:08:27 INFO: Current resistance is: 7.632 and support is: 6.857
+2025-08-14 15:08:27 INFO: Current average volume is: 459.6
+2025-08-14 15:08:27 INFO: Updated resistance to: 7.633 and support to: 6.86
+2025-08-14 15:09:27 INFO: {'ATNF': {   'close': 7.27,
+    'high': 7.27,
+    'low': 7.205,
+    'open': 7.21,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1200.0,
+    'vwap': 7.227083}}
+2025-08-14 15:09:27 INFO: Current resistance is: 7.633 and support is: 6.86
+2025-08-14 15:09:27 INFO: Current average volume is: 550.0
+2025-08-14 15:09:27 INFO: Updated resistance to: 7.635 and support to: 6.862
+2025-08-14 15:10:27 INFO: {'ATNF': {   'close': 7.33,
+    'high': 7.4,
+    'low': 7.32,
+    'open': 7.4,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1630.0,
+    'vwap': 7.336933}}
+2025-08-14 15:10:27 INFO: Current resistance is: 7.635 and support is: 6.862
+2025-08-14 15:10:27 INFO: Current average volume is: 703.0
+2025-08-14 15:10:27 INFO: Updated resistance to: 7.638 and support to: 6.869
+2025-08-14 15:11:27 INFO: {'ATNF': {   'close': 7.315,
+    'high': 7.315,
+    'low': 7.315,
+    'open': 7.315,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.315}}
+2025-08-14 15:11:27 INFO: Current resistance is: 7.638 and support is: 6.869
+2025-08-14 15:11:27 INFO: Current average volume is: 653.0
+2025-08-14 15:11:27 INFO: Updated resistance to: 7.64 and support to: 6.876
+2025-08-14 15:12:27 INFO: {'ATNF': {   'close': 7.45,
+    'high': 7.45,
+    'low': 7.45,
+    'open': 7.45,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 7.45}}
+2025-08-14 15:12:27 INFO: Current resistance is: 7.64 and support is: 6.876
+2025-08-14 15:12:27 INFO: Current average volume is: 623.0
+2025-08-14 15:12:27 INFO: Updated resistance to: 7.643 and support to: 6.887
+2025-08-14 15:14:27 INFO: {'ATNF': {   'close': 7.4,
+    'high': 7.4,
+    'low': 7.4,
+    'open': 7.4,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 140.0,
+    'vwap': 7.4}}
+2025-08-14 15:14:27 INFO: Current resistance is: 7.643 and support is: 6.887
+2025-08-14 15:14:27 INFO: Current average volume is: 557.0
+2025-08-14 15:14:27 INFO: Updated resistance to: 7.646 and support to: 6.896
+2025-08-14 15:15:27 INFO: {'ATNF': {   'close': 7.41,
+    'high': 7.415,
+    'low': 7.405,
+    'open': 7.41,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1160.0,
+    'vwap': 7.408534}}
+2025-08-14 15:15:27 INFO: Current resistance is: 7.646 and support is: 6.896
+2025-08-14 15:15:27 INFO: Current average volume is: 563.0
+2025-08-14 15:15:27 INFO: Updated resistance to: 7.65 and support to: 6.905
+2025-08-14 15:16:28 INFO: {'ATNF': {   'close': 7.395,
+    'high': 7.395,
+    'low': 7.385,
+    'open': 7.385,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1960.0,
+    'vwap': 7.394487}}
+2025-08-14 15:16:28 INFO: Current resistance is: 7.65 and support is: 6.905
+2025-08-14 15:16:28 INFO: Current average volume is: 739.0
+2025-08-14 15:16:28 INFO: Updated resistance to: 7.653 and support to: 6.913
+2025-08-14 15:17:28 INFO: {'ATNF': {   'close': 7.45,
+    'high': 7.45,
+    'low': 7.45,
+    'open': 7.45,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 400.0,
+    'vwap': 7.45}}
+2025-08-14 15:17:28 INFO: Current resistance is: 7.653 and support is: 6.913
+2025-08-14 15:17:28 INFO: Current average volume is: 729.0
+2025-08-14 15:17:28 INFO: Updated resistance to: 7.656 and support to: 6.923
+2025-08-14 15:18:28 INFO: {'ATNF': {   'close': 7.52,
+    'high': 7.53,
+    'low': 7.485,
+    'open': 7.485,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1070.0,
+    'vwap': 7.5105}}
+2025-08-14 15:18:28 INFO: Current resistance is: 7.656 and support is: 6.923
+2025-08-14 15:18:28 INFO: Current average volume is: 826.0
+2025-08-14 15:18:28 INFO: Updated resistance to: 7.661 and support to: 6.934
+2025-08-14 15:21:28 INFO: {'ATNF': {   'close': 7.57,
+    'high': 7.57,
+    'low': 7.43,
+    'open': 7.43,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 4109.0,
+    'vwap': 7.507553}}
+2025-08-14 15:21:28 INFO: Current resistance is: 7.661 and support is: 6.934
+2025-08-14 15:21:28 INFO: Current average volume is: 1186.9
+2025-08-14 15:21:28 INFO: Updated resistance to: 7.666 and support to: 6.943
+2025-08-14 15:24:29 INFO: {'ATNF': {   'close': 7.6,
+    'high': 7.6,
+    'low': 7.575,
+    'open': 7.59,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2067.0,
+    'vwap': 7.588045}}
+2025-08-14 15:24:29 INFO: Current resistance is: 7.666 and support is: 6.943
+2025-08-14 15:24:29 INFO: Current average volume is: 1273.6
+2025-08-14 15:24:29 INFO: Updated resistance to: 7.672 and support to: 6.956
+2025-08-14 15:25:29 INFO: {'ATNF': {   'close': 7.53,
+    'high': 7.53,
+    'low': 7.5,
+    'open': 7.5,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 7.524}}
+2025-08-14 15:25:29 INFO: Current resistance is: 7.672 and support is: 6.956
+2025-08-14 15:25:29 INFO: Current average volume is: 1160.6
+2025-08-14 15:25:29 INFO: Updated resistance to: 7.676 and support to: 6.967
+2025-08-14 15:27:29 INFO: {'ATNF': {   'close': 7.595,
+    'high': 7.595,
+    'low': 7.595,
+    'open': 7.595,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 261.0,
+    'vwap': 7.595}}
+2025-08-14 15:27:29 INFO: Current resistance is: 7.676 and support is: 6.967
+2025-08-14 15:27:29 INFO: Current average volume is: 1176.7
+2025-08-14 15:27:29 INFO: Updated resistance to: 7.682 and support to: 6.98
+2025-08-14 15:30:29 INFO: {'ATNF': {   'close': 7.625,
+    'high': 7.625,
+    'low': 7.625,
+    'open': 7.625,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 7.625}}
+2025-08-14 15:30:29 INFO: Current resistance is: 7.682 and support is: 6.98
+2025-08-14 15:30:29 INFO: Current average volume is: 1186.7
+2025-08-14 15:30:29 INFO: Updated resistance to: 7.688 and support to: 6.995
+2025-08-14 15:31:29 INFO: {'ATNF': {   'close': 7.68,
+    'high': 7.68,
+    'low': 7.63,
+    'open': 7.63,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1300.0,
+    'vwap': 7.634167}}
+2025-08-14 15:31:29 INFO: Current resistance is: 7.688 and support is: 6.995
+2025-08-14 15:31:29 INFO: Current average volume is: 1302.7
+2025-08-14 15:31:29 INFO: Updated resistance to: 7.681 and support to: 7.009
+2025-08-14 15:32:30 INFO: {'ATNF': {   'close': 7.66,
+    'high': 7.66,
+    'low': 7.66,
+    'open': 7.66,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2050.0,
+    'vwap': 7.66}}
+2025-08-14 15:32:30 INFO: Current resistance is: 7.681 and support is: 7.009
+2025-08-14 15:32:30 INFO: Current average volume is: 1391.7
+2025-08-14 15:32:30 INFO: Updated resistance to: 7.681 and support to: 7.024
+2025-08-14 15:33:30 INFO: {'ATNF': {   'close': 7.72,
+    'high': 7.725,
+    'low': 7.695,
+    'open': 7.725,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1642.0,
+    'vwap': 7.707133}}
+2025-08-14 15:33:30 INFO: Current resistance is: 7.681 and support is: 7.024
+2025-08-14 15:33:30 INFO: Current average volume is: 1359.9
+2025-08-14 15:33:30 INFO: The Current Close 7.72 is above the resistance...
+2025-08-14 15:33:30 INFO: Updated resistance to: 7.726 and support to: 7.039
+2025-08-14 15:35:30 INFO: {'ATNF': {   'close': 7.715,
+    'high': 7.745,
+    'low': 7.715,
+    'open': 7.745,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 7.739}}
+2025-08-14 15:35:30 INFO: Current resistance is: 7.726 and support is: 7.039
+2025-08-14 15:35:30 INFO: Current average volume is: 1369.9
+2025-08-14 15:35:30 INFO: Updated resistance to: 7.746 and support to: 7.055
+2025-08-14 15:36:30 INFO: {'ATNF': {   'close': 7.655,
+    'high': 7.725,
+    'low': 7.655,
+    'open': 7.705,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1888.0,
+    'vwap': 7.688056}}
+2025-08-14 15:36:30 INFO: Current resistance is: 7.746 and support is: 7.055
+2025-08-14 15:36:30 INFO: Current average volume is: 1451.7
+2025-08-14 15:36:30 INFO: Updated resistance to: 7.747 and support to: 7.069
+2025-08-14 15:37:30 INFO: {'ATNF': {   'close': 7.635,
+    'high': 7.66,
+    'low': 7.58,
+    'open': 7.655,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2668.0,
+    'vwap': 7.616664}}
+2025-08-14 15:37:30 INFO: Current resistance is: 7.747 and support is: 7.069
+2025-08-14 15:37:30 INFO: Current average volume is: 1307.6
+2025-08-14 15:37:30 INFO: Updated resistance to: 7.748 and support to: 7.08
+2025-08-14 15:38:30 INFO: {'ATNF': {   'close': 7.72,
+    'high': 7.72,
+    'low': 7.7,
+    'open': 7.715,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 7.713571}}
+2025-08-14 15:38:30 INFO: Current resistance is: 7.748 and support is: 7.08
+2025-08-14 15:38:30 INFO: Current average volume is: 1170.9
+2025-08-14 15:38:30 INFO: Updated resistance to: 7.749 and support to: 7.094
+2025-08-14 15:39:31 INFO: {'ATNF': {   'close': 7.725,
+    'high': 7.75,
+    'low': 7.72,
+    'open': 7.72,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1110.0,
+    'vwap': 7.732273}}
+2025-08-14 15:39:31 INFO: Current resistance is: 7.749 and support is: 7.094
+2025-08-14 15:39:31 INFO: Current average volume is: 1231.9
+2025-08-14 15:39:31 INFO: Updated resistance to: 7.751 and support to: 7.109
+2025-08-14 15:41:31 INFO: {'ATNF': {   'close': 7.57,
+    'high': 7.605,
+    'low': 7.555,
+    'open': 7.585,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 3032.0,
+    'vwap': 7.575825}}
+2025-08-14 15:41:31 INFO: Current resistance is: 7.751 and support is: 7.109
+2025-08-14 15:41:31 INFO: Current average volume is: 1509.0
+2025-08-14 15:41:31 INFO: Updated resistance to: 7.752 and support to: 7.118
+2025-08-14 15:42:31 INFO: {'ATNF': {   'close': 7.605,
+    'high': 7.62,
+    'low': 7.57,
+    'open': 7.58,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2353.0,
+    'vwap': 7.58087}}
+2025-08-14 15:42:31 INFO: Current resistance is: 7.752 and support is: 7.118
+2025-08-14 15:42:31 INFO: Current average volume is: 1724.3
+2025-08-14 15:42:31 INFO: Updated resistance to: 7.754 and support to: 7.128
+2025-08-14 15:43:31 INFO: {'ATNF': {   'close': 7.48,
+    'high': 7.54,
+    'low': 7.46,
+    'open': 7.52,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1789.0,
+    'vwap': 7.515955}}
+2025-08-14 15:43:31 INFO: Current resistance is: 7.754 and support is: 7.128
+2025-08-14 15:43:31 INFO: Current average volume is: 1773.2
+2025-08-14 15:43:31 INFO: Updated resistance to: 7.755 and support to: 7.134
+2025-08-14 15:44:31 INFO: {'ATNF': {   'close': 7.49,
+    'high': 7.49,
+    'low': 7.455,
+    'open': 7.455,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 2020.0,
+    'vwap': 7.475644}}
+2025-08-14 15:44:31 INFO: Current resistance is: 7.755 and support is: 7.134
+2025-08-14 15:44:31 INFO: Current average volume is: 1770.2
+2025-08-14 15:44:31 INFO: Updated resistance to: 7.757 and support to: 7.139
+2025-08-14 15:45:31 INFO: {'ATNF': {   'close': 7.51,
+    'high': 7.52,
+    'low': 7.505,
+    'open': 7.51,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1416.0,
+    'vwap': 7.509167}}
+2025-08-14 15:45:31 INFO: Current resistance is: 7.757 and support is: 7.139
+2025-08-14 15:45:31 INFO: Current average volume is: 1747.6
+2025-08-14 15:45:31 INFO: Updated resistance to: 7.758 and support to: 7.146
+2025-08-14 15:46:31 INFO: {'ATNF': {   'close': 7.505,
+    'high': 7.535,
+    'low': 7.48,
+    'open': 7.52,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3266.0,
+    'vwap': 7.499637}}
+2025-08-14 15:46:31 INFO: Current resistance is: 7.758 and support is: 7.146
+2025-08-14 15:46:31 INFO: Current average volume is: 2024.2
+2025-08-14 15:46:31 INFO: Updated resistance to: 7.76 and support to: 7.152
+2025-08-14 15:48:32 INFO: {'ATNF': {   'close': 7.53,
+    'high': 7.54,
+    'low': 7.5,
+    'open': 7.5,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2500.0,
+    'vwap': 7.532066}}
+2025-08-14 15:48:32 INFO: Current resistance is: 7.76 and support is: 7.152
+2025-08-14 15:48:32 INFO: Current average volume is: 2085.4
+2025-08-14 15:48:32 INFO: Updated resistance to: 7.761 and support to: 7.159
+2025-08-14 15:49:32 INFO: {'ATNF': {   'close': 7.585,
+    'high': 7.585,
+    'low': 7.535,
+    'open': 7.535,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1263.0,
+    'vwap': 7.564167}}
+2025-08-14 15:49:32 INFO: Current resistance is: 7.761 and support is: 7.159
+2025-08-14 15:49:32 INFO: Current average volume is: 1944.9
+2025-08-14 15:49:32 INFO: Updated resistance to: 7.763 and support to: 7.167
+2025-08-14 15:51:32 INFO: {'ATNF': {   'close': 7.605,
+    'high': 7.62,
+    'low': 7.59,
+    'open': 7.59,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 800.0,
+    'vwap': 7.60875}}
+2025-08-14 15:51:32 INFO: Current resistance is: 7.763 and support is: 7.167
+2025-08-14 15:51:32 INFO: Current average volume is: 1954.9
+2025-08-14 15:51:32 INFO: Updated resistance to: 7.765 and support to: 7.175
+2025-08-14 15:52:32 INFO: {'ATNF': {   'close': 7.625,
+    'high': 7.65,
+    'low': 7.6,
+    'open': 7.6,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2365.0,
+    'vwap': 7.626822}}
+2025-08-14 15:52:32 INFO: Current resistance is: 7.765 and support is: 7.175
+2025-08-14 15:52:32 INFO: Current average volume is: 2080.4
+2025-08-14 15:52:32 INFO: Updated resistance to: 7.767 and support to: 7.185
+2025-08-14 15:53:32 INFO: {'ATNF': {   'close': 7.68,
+    'high': 7.68,
+    'low': 7.635,
+    'open': 7.64,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2158.0,
+    'vwap': 7.644043}}
+2025-08-14 15:53:32 INFO: Current resistance is: 7.767 and support is: 7.185
+2025-08-14 15:53:32 INFO: Current average volume is: 1993.0
+2025-08-14 15:53:32 INFO: Updated resistance to: 7.769 and support to: 7.194
+2025-08-14 15:55:33 INFO: {'ATNF': {   'close': 7.695,
+    'high': 7.7,
+    'low': 7.69,
+    'open': 7.695,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2028.0,
+    'vwap': 7.69593}}
+2025-08-14 15:55:33 INFO: Current resistance is: 7.769 and support is: 7.194
+2025-08-14 15:55:33 INFO: Current average volume is: 1960.5
+2025-08-14 15:55:33 INFO: Updated resistance to: 7.771 and support to: 7.206
+2025-08-14 15:57:33 INFO: {'ATNF': {   'close': 7.745,
+    'high': 7.745,
+    'low': 7.735,
+    'open': 7.735,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1214.0,
+    'vwap': 7.742273}}
+2025-08-14 15:57:33 INFO: Current resistance is: 7.771 and support is: 7.206
+2025-08-14 15:57:33 INFO: Current average volume is: 1903.0
+2025-08-14 15:57:33 INFO: Updated resistance to: 7.774 and support to: 7.218
+2025-08-14 15:59:33 INFO: {'ATNF': {   'close': 7.725,
+    'high': 7.725,
+    'low': 7.725,
+    'open': 7.725,
+    'symbol': 'ATNF',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2054.0,
+    'vwap': 7.725}}
+2025-08-14 15:59:33 INFO: Current resistance is: 7.774 and support is: 7.218
+2025-08-14 15:59:33 INFO: Current average volume is: 1906.4
+2025-08-14 15:59:33 INFO: Updated resistance to: 7.776 and support to: 7.23
+2025-08-14 16:00:33 INFO: The Market is closed...

@@ -1,0 +1,663 @@
+2025-08-19 09:55:14 INFO: === Strategy started ===
+2025-08-19 09:55:14 INFO: Start collecting the current highs/lows for: ACDC
+2025-08-19 09:55:14 INFO: Most recent stock data: {'ACDC': {   'close': 3.98,
+    'high': 3.99,
+    'low': 3.98,
+    'open': 3.99,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 463.0,
+    'vwap': 3.98361}}
+2025-08-19 10:01:16 INFO: Most recent stock data: {'ACDC': {   'close': 3.95,
+    'high': 3.95,
+    'low': 3.95,
+    'open': 3.95,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 3.95}}
+2025-08-19 10:02:16 INFO: Most recent stock data: {'ACDC': {   'close': 3.925,
+    'high': 3.925,
+    'low': 3.925,
+    'open': 3.925,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 355.0,
+    'vwap': 3.925}}
+2025-08-19 10:08:17 INFO: Most recent stock data: {'ACDC': {   'close': 3.945,
+    'high': 3.945,
+    'low': 3.945,
+    'open': 3.945,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 3.945}}
+2025-08-19 10:10:17 INFO: Most recent stock data: {'ACDC': {   'close': 3.91,
+    'high': 3.91,
+    'low': 3.91,
+    'open': 3.91,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 206.0,
+    'vwap': 3.91}}
+2025-08-19 10:12:17 INFO: Most recent stock data: {'ACDC': {   'close': 3.895,
+    'high': 3.925,
+    'low': 3.895,
+    'open': 3.92,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 766.0,
+    'vwap': 3.914286}}
+2025-08-19 10:14:17 INFO: Most recent stock data: {'ACDC': {   'close': 3.905,
+    'high': 3.905,
+    'low': 3.905,
+    'open': 3.905,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 800.0,
+    'vwap': 3.905}}
+2025-08-19 10:15:17 INFO: Most recent stock data: {'ACDC': {   'close': 3.89,
+    'high': 3.89,
+    'low': 3.89,
+    'open': 3.89,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 823.0,
+    'vwap': 3.89}}
+2025-08-19 10:16:17 INFO: Most recent stock data: {'ACDC': {   'close': 3.88,
+    'high': 3.88,
+    'low': 3.88,
+    'open': 3.88,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 3.88}}
+2025-08-19 10:19:18 INFO: Most recent stock data: {'ACDC': {   'close': 3.9,
+    'high': 3.915,
+    'low': 3.895,
+    'open': 3.915,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 800.0,
+    'vwap': 3.90375}}
+2025-08-19 10:20:18 INFO: Most recent stock data: {'ACDC': {   'close': 3.9,
+    'high': 3.9,
+    'low': 3.9,
+    'open': 3.9,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 250.0,
+    'vwap': 3.9}}
+2025-08-19 10:20:18 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 10:20:18 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 10:22:18 INFO: {'ACDC': {   'close': 3.905,
+    'high': 3.905,
+    'low': 3.905,
+    'open': 3.905,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 3.905}}
+2025-08-19 10:22:18 INFO: Current resistance is: 3.99 and support is: 3.88
+2025-08-19 10:22:18 INFO: Current average volume is: 430.0
+2025-08-19 10:22:18 INFO: Updated resistance to: 3.99 and support to: 3.88
+2025-08-19 10:26:19 INFO: {'ACDC': {   'close': 3.87,
+    'high': 3.87,
+    'low': 3.87,
+    'open': 3.87,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 266.0,
+    'vwap': 3.87}}
+2025-08-19 10:26:19 INFO: Current resistance is: 3.99 and support is: 3.88
+2025-08-19 10:26:19 INFO: Current average volume is: 421.1
+2025-08-19 10:26:19 INFO: close price: 3.87 just dropped below support of 3.88...
+2025-08-19 10:29:19 INFO: {'ACDC': {   'close': 3.9,
+    'high': 3.91,
+    'low': 3.9,
+    'open': 3.9,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1681.0,
+    'vwap': 3.901053}}
+2025-08-19 10:29:19 INFO: Current resistance is: 3.99 and support is: 3.88
+2025-08-19 10:29:19 INFO: Current average volume is: 579.2
+2025-08-19 10:29:19 INFO: Updated resistance to: 3.99 and support to: 3.88
+2025-08-19 10:29:19 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-19 10:31:19 INFO: {'ACDC': {   'close': 3.86,
+    'high': 3.89,
+    'low': 3.86,
+    'open': 3.89,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 3.872}}
+2025-08-19 10:31:19 INFO: Current resistance is: 3.99 and support is: 3.88
+2025-08-19 10:31:19 INFO: Current average volume is: 608.6
+2025-08-19 10:31:19 INFO: close price: 3.86 just dropped below support of 3.88...
+2025-08-19 10:33:20 INFO: {'ACDC': {   'close': 3.85,
+    'high': 3.85,
+    'low': 3.84,
+    'open': 3.84,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 483.0,
+    'vwap': 3.845}}
+2025-08-19 10:33:20 INFO: Current resistance is: 3.99 and support is: 3.88
+2025-08-19 10:33:20 INFO: Current average volume is: 580.3
+2025-08-19 10:33:20 INFO: Closing price: 3.85 just dropped below support 3.88 again...ending trade...
+2025-08-19 10:55:12 INFO: === Strategy started ===
+2025-08-19 10:55:12 INFO: Start collecting the current highs/lows for: ACDC
+2025-08-19 10:55:12 INFO: Most recent stock data: {'ACDC': {   'close': 3.78,
+    'high': 3.78,
+    'low': 3.78,
+    'open': 3.78,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 3.78}}
+2025-08-19 11:00:13 INFO: Most recent stock data: {'ACDC': {   'close': 3.785,
+    'high': 3.785,
+    'low': 3.785,
+    'open': 3.785,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 360.0,
+    'vwap': 3.785}}
+2025-08-19 11:01:13 INFO: Most recent stock data: {'ACDC': {   'close': 3.77,
+    'high': 3.775,
+    'low': 3.77,
+    'open': 3.775,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 514.0,
+    'vwap': 3.774}}
+2025-08-19 11:02:13 INFO: Most recent stock data: {'ACDC': {   'close': 3.79,
+    'high': 3.79,
+    'low': 3.79,
+    'open': 3.79,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 232.0,
+    'vwap': 3.79}}
+2025-08-19 11:03:13 INFO: Most recent stock data: {'ACDC': {   'close': 3.785,
+    'high': 3.785,
+    'low': 3.785,
+    'open': 3.785,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 3.785}}
+2025-08-19 11:05:13 INFO: Most recent stock data: {'ACDC': {   'close': 3.83,
+    'high': 3.83,
+    'low': 3.83,
+    'open': 3.83,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 3.83}}
+2025-08-19 11:25:14 INFO: === Strategy started ===
+2025-08-19 11:25:14 INFO: Start collecting the current highs/lows for: ACDC
+2025-08-19 11:25:14 INFO: Most recent stock data: {'ACDC': {   'close': 3.835,
+    'high': 3.835,
+    'low': 3.835,
+    'open': 3.835,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 3.835}}
+2025-08-19 11:31:15 INFO: Most recent stock data: {'ACDC': {   'close': 3.81,
+    'high': 3.81,
+    'low': 3.81,
+    'open': 3.81,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 179.0,
+    'vwap': 3.81}}
+2025-08-19 11:38:16 INFO: Most recent stock data: {'ACDC': {   'close': 3.82,
+    'high': 3.82,
+    'low': 3.82,
+    'open': 3.82,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 3.82}}
+2025-08-19 12:10:19 INFO: === Strategy started ===
+2025-08-19 12:10:19 INFO: Start collecting the current highs/lows for: ACDC
+2025-08-19 12:10:19 INFO: Most recent stock data: {'ACDC': {   'close': 3.76,
+    'high': 3.76,
+    'low': 3.76,
+    'open': 3.76,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 175.0,
+    'vwap': 3.76}}
+2025-08-19 12:13:19 INFO: Most recent stock data: {'ACDC': {   'close': 3.765,
+    'high': 3.765,
+    'low': 3.765,
+    'open': 3.765,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 3.765}}
+2025-08-19 12:14:20 INFO: Most recent stock data: {'ACDC': {   'close': 3.8,
+    'high': 3.8,
+    'low': 3.8,
+    'open': 3.8,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 350.0,
+    'vwap': 3.8}}
+2025-08-19 12:18:20 INFO: Most recent stock data: {'ACDC': {   'close': 3.81,
+    'high': 3.81,
+    'low': 3.81,
+    'open': 3.81,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 3.81}}
+2025-08-19 12:19:20 INFO: Most recent stock data: {'ACDC': {   'close': 3.85,
+    'high': 3.85,
+    'low': 3.85,
+    'open': 3.85,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 3.85}}
+2025-08-19 12:25:21 INFO: Most recent stock data: {'ACDC': {   'close': 3.83,
+    'high': 3.83,
+    'low': 3.83,
+    'open': 3.83,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 700.0,
+    'vwap': 3.83}}
+2025-08-19 12:26:21 INFO: Most recent stock data: {'ACDC': {   'close': 3.9,
+    'high': 3.93,
+    'low': 3.89,
+    'open': 3.89,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 4611.0,
+    'vwap': 3.902581}}
+2025-08-19 12:27:21 INFO: Most recent stock data: {'ACDC': {   'close': 3.905,
+    'high': 3.905,
+    'low': 3.905,
+    'open': 3.905,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 220.0,
+    'vwap': 3.905}}
+2025-08-19 12:28:21 INFO: Most recent stock data: {'ACDC': {   'close': 3.88,
+    'high': 3.89,
+    'low': 3.88,
+    'open': 3.89,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 636.0,
+    'vwap': 3.885}}
+2025-08-19 12:40:21 INFO: === Strategy started ===
+2025-08-19 12:40:21 INFO: Start collecting the current highs/lows for: ACDC
+2025-08-19 12:40:21 INFO: Most recent stock data: {'ACDC': {   'close': 3.93,
+    'high': 3.93,
+    'low': 3.93,
+    'open': 3.93,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1345.0,
+    'vwap': 3.93}}
+2025-08-19 12:44:22 INFO: Most recent stock data: {'ACDC': {   'close': 3.92,
+    'high': 3.92,
+    'low': 3.92,
+    'open': 3.92,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 356.0,
+    'vwap': 3.92}}
+2025-08-19 12:47:22 INFO: Most recent stock data: {'ACDC': {   'close': 3.915,
+    'high': 3.915,
+    'low': 3.915,
+    'open': 3.915,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 210.0,
+    'vwap': 3.915}}
+2025-08-19 12:49:22 INFO: Most recent stock data: {'ACDC': {   'close': 3.905,
+    'high': 3.91,
+    'low': 3.905,
+    'open': 3.91,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 915.0,
+    'vwap': 3.909372}}
+2025-08-19 12:50:22 INFO: Most recent stock data: {'ACDC': {   'close': 3.9,
+    'high': 3.9,
+    'low': 3.9,
+    'open': 3.9,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 720.0,
+    'vwap': 3.9}}
+2025-08-19 12:54:23 INFO: Most recent stock data: {'ACDC': {   'close': 3.92,
+    'high': 3.92,
+    'low': 3.92,
+    'open': 3.92,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 359.0,
+    'vwap': 3.92}}
+2025-08-19 12:55:23 INFO: Most recent stock data: {'ACDC': {   'close': 3.94,
+    'high': 3.94,
+    'low': 3.94,
+    'open': 3.94,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 634.0,
+    'vwap': 3.94}}
+2025-08-19 12:56:23 INFO: Most recent stock data: {'ACDC': {   'close': 3.96,
+    'high': 3.96,
+    'low': 3.96,
+    'open': 3.96,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 164.0,
+    'vwap': 3.96}}
+2025-08-19 12:57:23 INFO: Most recent stock data: {'ACDC': {   'close': 3.98,
+    'high': 3.98,
+    'low': 3.965,
+    'open': 3.965,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 239.0,
+    'vwap': 3.9725}}
+2025-08-19 12:59:24 INFO: Most recent stock data: {'ACDC': {   'close': 3.995,
+    'high': 4.005,
+    'low': 3.98,
+    'open': 3.98,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2099.0,
+    'vwap': 3.992586}}
+2025-08-19 13:01:24 INFO: Most recent stock data: {'ACDC': {   'close': 3.97,
+    'high': 4.0,
+    'low': 3.95,
+    'open': 4.0,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 4689.0,
+    'vwap': 3.972798}}
+2025-08-19 13:01:24 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 13:01:24 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 13:05:24 INFO: {'ACDC': {   'close': 3.955,
+    'high': 3.96,
+    'low': 3.955,
+    'open': 3.96,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 475.0,
+    'vwap': 3.95875}}
+2025-08-19 13:05:24 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:05:24 INFO: Current average volume is: 1050.4
+2025-08-19 13:05:24 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:06:25 INFO: {'ACDC': {   'close': 3.95,
+    'high': 3.955,
+    'low': 3.95,
+    'open': 3.955,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1106.0,
+    'vwap': 3.950525}}
+2025-08-19 13:06:25 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:06:25 INFO: Current average volume is: 1140.0
+2025-08-19 13:06:25 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:07:25 INFO: {'ACDC': {   'close': 3.935,
+    'high': 3.95,
+    'low': 3.935,
+    'open': 3.95,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 800.0,
+    'vwap': 3.943188}}
+2025-08-19 13:07:25 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:07:25 INFO: Current average volume is: 1128.5
+2025-08-19 13:07:25 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:11:25 INFO: {'ACDC': {   'close': 3.915,
+    'high': 3.915,
+    'low': 3.915,
+    'open': 3.915,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 140.0,
+    'vwap': 3.915}}
+2025-08-19 13:11:25 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:11:25 INFO: Current average volume is: 1070.5
+2025-08-19 13:11:25 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:13:25 INFO: {'ACDC': {   'close': 3.92,
+    'high': 3.92,
+    'low': 3.92,
+    'open': 3.92,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 342.0,
+    'vwap': 3.92}}
+2025-08-19 13:13:25 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:13:25 INFO: Current average volume is: 1068.8
+2025-08-19 13:13:25 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:16:26 INFO: {'ACDC': {   'close': 3.9,
+    'high': 3.9,
+    'low': 3.9,
+    'open': 3.9,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 512.0,
+    'vwap': 3.9}}
+2025-08-19 13:16:26 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:16:26 INFO: Current average volume is: 1056.6
+2025-08-19 13:16:26 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:18:26 INFO: {'ACDC': {   'close': 3.91,
+    'high': 3.91,
+    'low': 3.91,
+    'open': 3.91,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 3.91}}
+2025-08-19 13:18:26 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:18:26 INFO: Current average volume is: 1100.2
+2025-08-19 13:18:26 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:21:26 INFO: {'ACDC': {   'close': 3.905,
+    'high': 3.905,
+    'low': 3.905,
+    'open': 3.905,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 109.0,
+    'vwap': 3.905}}
+2025-08-19 13:21:26 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:21:26 INFO: Current average volume is: 1087.2
+2025-08-19 13:21:26 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:22:26 INFO: {'ACDC': {   'close': 3.91,
+    'high': 3.91,
+    'low': 3.91,
+    'open': 3.91,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 3.91}}
+2025-08-19 13:22:26 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:22:26 INFO: Current average volume is: 897.3
+2025-08-19 13:22:26 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:24:27 INFO: {'ACDC': {   'close': 3.92,
+    'high': 3.92,
+    'low': 3.92,
+    'open': 3.92,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 3.92}}
+2025-08-19 13:24:27 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:24:27 INFO: Current average volume is: 448.4
+2025-08-19 13:24:27 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:27:27 INFO: {'ACDC': {   'close': 3.905,
+    'high': 3.91,
+    'low': 3.905,
+    'open': 3.905,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 900.0,
+    'vwap': 3.907225}}
+2025-08-19 13:27:27 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:27:27 INFO: Current average volume is: 490.9
+2025-08-19 13:27:27 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:28:27 INFO: {'ACDC': {   'close': 3.95,
+    'high': 3.95,
+    'low': 3.92,
+    'open': 3.92,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 813.0,
+    'vwap': 3.941429}}
+2025-08-19 13:28:27 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:28:27 INFO: Current average volume is: 461.6
+2025-08-19 13:28:27 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:34:28 INFO: {'ACDC': {   'close': 3.91,
+    'high': 3.91,
+    'low': 3.91,
+    'open': 3.91,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 3.91}}
+2025-08-19 13:34:28 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:34:28 INFO: Current average volume is: 401.6
+2025-08-19 13:34:28 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:36:28 INFO: {'ACDC': {   'close': 3.92,
+    'high': 3.92,
+    'low': 3.92,
+    'open': 3.92,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 214.0,
+    'vwap': 3.92}}
+2025-08-19 13:36:28 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:36:28 INFO: Current average volume is: 409.0
+2025-08-19 13:36:28 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:37:28 INFO: {'ACDC': {   'close': 3.93,
+    'high': 3.93,
+    'low': 3.93,
+    'open': 3.93,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 167.0,
+    'vwap': 3.93}}
+2025-08-19 13:37:28 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:37:28 INFO: Current average volume is: 391.5
+2025-08-19 13:37:28 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:38:28 INFO: {'ACDC': {   'close': 3.92,
+    'high': 3.92,
+    'low': 3.92,
+    'open': 3.92,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 3.92}}
+2025-08-19 13:38:28 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:38:28 INFO: Current average volume is: 360.3
+2025-08-19 13:38:28 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:45:29 INFO: {'ACDC': {   'close': 3.9,
+    'high': 3.91,
+    'low': 3.9,
+    'open': 3.91,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 910.0,
+    'vwap': 3.902809}}
+2025-08-19 13:45:29 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:45:29 INFO: Current average volume is: 391.3
+2025-08-19 13:45:29 INFO: Updated resistance to: 4.005 and support to: 3.9
+2025-08-19 13:47:30 INFO: {'ACDC': {   'close': 3.895,
+    'high': 3.9,
+    'low': 3.895,
+    'open': 3.9,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 3.899375}}
+2025-08-19 13:47:30 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:47:30 INFO: Current average volume is: 460.4
+2025-08-19 13:47:30 INFO: close price: 3.895 just dropped below support of 3.9...
+2025-08-19 13:55:31 INFO: {'ACDC': {   'close': 3.89,
+    'high': 3.89,
+    'low': 3.89,
+    'open': 3.89,
+    'symbol': 'ACDC',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1000.0,
+    'vwap': 3.89}}
+2025-08-19 13:55:31 INFO: Current resistance is: 4.005 and support is: 3.9
+2025-08-19 13:55:31 INFO: Current average volume is: 540.4
+2025-08-19 13:55:31 INFO: Closing price: 3.89 just dropped below support 3.9 again...ending trade...

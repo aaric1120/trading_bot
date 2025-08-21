@@ -1,0 +1,4047 @@
+2025-08-15 09:55:13 INFO: === Strategy started ===
+2025-08-15 09:55:13 INFO: Start collecting the current highs/lows for: RBLX
+2025-08-15 09:55:14 INFO: Most recent stock data: {'RBLX': {   'close': 114.18,
+    'high': 114.28,
+    'low': 114.01,
+    'open': 114.28,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 66.0,
+    'volume': 6278.0,
+    'vwap': 114.123779}}
+2025-08-15 09:56:14 INFO: Most recent stock data: {'RBLX': {   'close': 113.83,
+    'high': 114.56,
+    'low': 113.795,
+    'open': 114.23,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2810.0,
+    'vwap': 114.260966}}
+2025-08-15 09:57:14 INFO: Most recent stock data: {'RBLX': {   'close': 114.4,
+    'high': 114.42,
+    'low': 113.755,
+    'open': 113.76,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 50.0,
+    'volume': 2274.0,
+    'vwap': 114.029316}}
+2025-08-15 09:58:14 INFO: Most recent stock data: {'RBLX': {   'close': 114.7,
+    'high': 114.7,
+    'low': 114.44,
+    'open': 114.44,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 585.0,
+    'vwap': 114.526667}}
+2025-08-15 09:59:15 INFO: Most recent stock data: {'RBLX': {   'close': 115.18,
+    'high': 115.18,
+    'low': 115.015,
+    'open': 115.075,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 4409.0,
+    'vwap': 115.066673}}
+2025-08-15 10:00:15 INFO: Most recent stock data: {'RBLX': {   'close': 114.915,
+    'high': 115.6,
+    'low': 114.915,
+    'open': 115.3,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 2679.0,
+    'vwap': 115.223571}}
+2025-08-15 10:01:15 INFO: Most recent stock data: {'RBLX': {   'close': 114.355,
+    'high': 114.905,
+    'low': 114.145,
+    'open': 114.905,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2500.0,
+    'vwap': 114.364545}}
+2025-08-15 10:02:15 INFO: Most recent stock data: {'RBLX': {   'close': 114.02,
+    'high': 114.08,
+    'low': 113.91,
+    'open': 114.0,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 3030.0,
+    'vwap': 114.021151}}
+2025-08-15 10:03:15 INFO: Most recent stock data: {'RBLX': {   'close': 114.09,
+    'high': 114.14,
+    'low': 113.885,
+    'open': 114.015,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 2365.0,
+    'vwap': 113.983433}}
+2025-08-15 10:05:15 INFO: Most recent stock data: {'RBLX': {   'close': 114.0,
+    'high': 114.0,
+    'low': 113.92,
+    'open': 113.99,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1354.0,
+    'vwap': 113.989}}
+2025-08-15 10:06:15 INFO: Most recent stock data: {'RBLX': {   'close': 114.39,
+    'high': 114.71,
+    'low': 113.95,
+    'open': 113.97,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 68.0,
+    'volume': 17643.0,
+    'vwap': 114.407889}}
+2025-08-15 10:06:15 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 10:06:15 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-15 10:07:16 INFO: {'RBLX': {   'close': 114.51,
+    'high': 114.51,
+    'low': 114.31,
+    'open': 114.46,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1425.0,
+    'vwap': 114.423303}}
+2025-08-15 10:07:16 INFO: Current resistance is: 115.6 and support is: 113.755
+2025-08-15 10:07:16 INFO: Current average volume is: 3826.4
+2025-08-15 10:07:16 INFO: Updated resistance to: 115.6 and support to: 113.755
+2025-08-15 10:09:16 INFO: {'RBLX': {   'close': 114.355,
+    'high': 114.6,
+    'low': 114.355,
+    'open': 114.51,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 55.0,
+    'volume': 3556.0,
+    'vwap': 114.514123}}
+2025-08-15 10:09:16 INFO: Current resistance is: 115.6 and support is: 113.755
+2025-08-15 10:09:16 INFO: Current average volume is: 3954.6
+2025-08-15 10:09:16 INFO: Updated resistance to: 115.6 and support to: 113.755
+2025-08-15 10:10:16 INFO: {'RBLX': {   'close': 115.42,
+    'high': 115.42,
+    'low': 114.45,
+    'open': 114.465,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 54.0,
+    'volume': 5902.0,
+    'vwap': 114.939219}}
+2025-08-15 10:10:16 INFO: Current resistance is: 115.6 and support is: 113.755
+2025-08-15 10:10:16 INFO: Current average volume is: 4486.3
+2025-08-15 10:10:16 INFO: Updated resistance to: 115.6 and support to: 113.755
+2025-08-15 10:11:16 INFO: {'RBLX': {   'close': 115.435,
+    'high': 115.51,
+    'low': 115.06,
+    'open': 115.345,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 4347.0,
+    'vwap': 115.413222}}
+2025-08-15 10:11:16 INFO: Current resistance is: 115.6 and support is: 113.755
+2025-08-15 10:11:16 INFO: Current average volume is: 4480.1
+2025-08-15 10:11:16 INFO: Updated resistance to: 115.6 and support to: 113.755
+2025-08-15 10:12:16 INFO: {'RBLX': {   'close': 115.3,
+    'high': 115.99,
+    'low': 115.29,
+    'open': 115.5,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 110.0,
+    'volume': 5314.0,
+    'vwap': 115.725389}}
+2025-08-15 10:12:16 INFO: Current resistance is: 115.6 and support is: 113.755
+2025-08-15 10:12:16 INFO: Current average volume is: 4743.6
+2025-08-15 10:12:16 INFO: Updated resistance to: 115.99 and support to: 113.755
+2025-08-15 10:13:16 INFO: {'RBLX': {   'close': 115.36,
+    'high': 115.37,
+    'low': 115.26,
+    'open': 115.37,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2871.0,
+    'vwap': 115.313333}}
+2025-08-15 10:13:16 INFO: Current resistance is: 115.99 and support is: 113.755
+2025-08-15 10:13:16 INFO: Current average volume is: 4780.7
+2025-08-15 10:13:16 INFO: Updated resistance to: 115.99 and support to: 113.755
+2025-08-15 10:14:16 INFO: {'RBLX': {   'close': 116.26,
+    'high': 116.26,
+    'low': 115.45,
+    'open': 115.45,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2562.0,
+    'vwap': 115.913265}}
+2025-08-15 10:14:16 INFO: Current resistance is: 115.99 and support is: 113.755
+2025-08-15 10:14:16 INFO: Current average volume is: 4733.9
+2025-08-15 10:14:16 INFO: The Current Close 116.26 is above the resistance...
+2025-08-15 10:14:16 INFO: Updated resistance to: 116.26 and support to: 113.755
+2025-08-15 10:15:17 INFO: {'RBLX': {   'close': 115.905,
+    'high': 115.93,
+    'low': 115.47,
+    'open': 115.865,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 105.0,
+    'volume': 5677.0,
+    'vwap': 115.683387}}
+2025-08-15 10:15:17 INFO: Current resistance is: 116.26 and support is: 113.755
+2025-08-15 10:15:17 INFO: Current average volume is: 5065.1
+2025-08-15 10:15:17 INFO: Updated resistance to: 116.26 and support to: 113.755
+2025-08-15 10:16:17 INFO: {'RBLX': {   'close': 116.185,
+    'high': 116.41,
+    'low': 115.925,
+    'open': 115.925,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 1875.0,
+    'vwap': 116.248636}}
+2025-08-15 10:16:17 INFO: Current resistance is: 116.26 and support is: 113.755
+2025-08-15 10:16:17 INFO: Current average volume is: 5117.2
+2025-08-15 10:16:17 INFO: Updated resistance to: 116.41 and support to: 113.755
+2025-08-15 10:17:17 INFO: {'RBLX': {   'close': 115.985,
+    'high': 116.08,
+    'low': 115.855,
+    'open': 116.03,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1684.0,
+    'vwap': 116.003834}}
+2025-08-15 10:17:17 INFO: Current resistance is: 116.41 and support is: 113.755
+2025-08-15 10:17:17 INFO: Current average volume is: 3521.3
+2025-08-15 10:17:17 INFO: Updated resistance to: 116.41 and support to: 113.755
+2025-08-15 10:18:17 INFO: {'RBLX': {   'close': 116.47,
+    'high': 116.55,
+    'low': 116.14,
+    'open': 116.235,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3526.0,
+    'vwap': 116.24947}}
+2025-08-15 10:18:17 INFO: Current resistance is: 116.41 and support is: 113.755
+2025-08-15 10:18:17 INFO: Current average volume is: 3731.4
+2025-08-15 10:18:17 INFO: The Current Close 116.47 is above the resistance...
+2025-08-15 10:18:17 INFO: Updated resistance to: 116.55 and support to: 113.755
+2025-08-15 10:19:17 INFO: {'RBLX': {   'close': 116.72,
+    'high': 116.735,
+    'low': 116.24,
+    'open': 116.325,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2799.0,
+    'vwap': 116.519756}}
+2025-08-15 10:19:17 INFO: Current resistance is: 116.55 and support is: 113.755
+2025-08-15 10:19:17 INFO: Current average volume is: 3655.7
+2025-08-15 10:19:17 INFO: The current close: 116.72 is above the resistance of 116.55, but volume isn't enough...
+2025-08-15 10:19:17 INFO: Updated resistance to: 116.735 and support to: 113.755
+2025-08-15 10:20:17 INFO: {'RBLX': {   'close': 116.76,
+    'high': 117.0,
+    'low': 116.64,
+    'open': 116.96,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1672.0,
+    'vwap': 116.796667}}
+2025-08-15 10:20:17 INFO: Current resistance is: 116.735 and support is: 113.755
+2025-08-15 10:20:17 INFO: Current average volume is: 3232.7
+2025-08-15 10:20:17 INFO: The current close: 116.76 is above the resistance of 116.735, but volume isn't enough...
+2025-08-15 10:20:17 INFO: Updated resistance to: 117.0 and support to: 113.755
+2025-08-15 10:21:18 INFO: {'RBLX': {   'close': 116.5,
+    'high': 116.95,
+    'low': 116.38,
+    'open': 116.87,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 2838.0,
+    'vwap': 116.615405}}
+2025-08-15 10:21:18 INFO: Current resistance is: 117.0 and support is: 113.755
+2025-08-15 10:21:18 INFO: Current average volume is: 3081.8
+2025-08-15 10:21:18 INFO: Updated resistance to: 117.0 and support to: 113.755
+2025-08-15 10:22:18 INFO: {'RBLX': {   'close': 116.53,
+    'high': 116.69,
+    'low': 116.41,
+    'open': 116.41,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1412.0,
+    'vwap': 116.54337}}
+2025-08-15 10:22:18 INFO: Current resistance is: 117.0 and support is: 113.755
+2025-08-15 10:22:18 INFO: Current average volume is: 2691.6
+2025-08-15 10:22:18 INFO: Updated resistance to: 117.0 and support to: 113.755
+2025-08-15 10:23:18 INFO: {'RBLX': {   'close': 116.47,
+    'high': 116.76,
+    'low': 116.47,
+    'open': 116.605,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 741.0,
+    'vwap': 116.6025}}
+2025-08-15 10:23:18 INFO: Current resistance is: 117.0 and support is: 113.755
+2025-08-15 10:23:18 INFO: Current average volume is: 2478.6
+2025-08-15 10:23:18 INFO: Updated resistance to: 117.0 and support to: 113.755
+2025-08-15 10:24:18 INFO: {'RBLX': {   'close': 116.25,
+    'high': 116.67,
+    'low': 116.25,
+    'open': 116.67,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 586.0,
+    'vwap': 116.501}}
+2025-08-15 10:24:18 INFO: Current resistance is: 117.0 and support is: 113.755
+2025-08-15 10:24:18 INFO: Current average volume is: 2281.0
+2025-08-15 10:24:18 INFO: Updated resistance to: 117.0 and support to: 113.755
+2025-08-15 10:25:18 INFO: {'RBLX': {   'close': 115.615,
+    'high': 115.73,
+    'low': 115.55,
+    'open': 115.73,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1188.0,
+    'vwap': 115.644622}}
+2025-08-15 10:25:18 INFO: Current resistance is: 117.0 and support is: 113.755
+2025-08-15 10:25:18 INFO: Current average volume is: 1832.1
+2025-08-15 10:25:18 INFO: Updated resistance to: 117.0 and support to: 113.755
+2025-08-15 10:26:18 INFO: {'RBLX': {   'close': 115.555,
+    'high': 115.685,
+    'low': 115.52,
+    'open': 115.67,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 820.0,
+    'vwap': 115.59}}
+2025-08-15 10:26:18 INFO: Current resistance is: 117.0 and support is: 113.755
+2025-08-15 10:26:18 INFO: Current average volume is: 1726.6
+2025-08-15 10:26:18 INFO: Updated resistance to: 117.0 and support to: 113.755
+2025-08-15 10:27:18 INFO: {'RBLX': {   'close': 116.62,
+    'high': 116.62,
+    'low': 116.39,
+    'open': 116.39,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 801.0,
+    'vwap': 116.476674}}
+2025-08-15 10:27:18 INFO: Current resistance is: 117.0 and support is: 113.755
+2025-08-15 10:27:18 INFO: Current average volume is: 1638.3
+2025-08-15 10:27:18 INFO: Updated resistance to: 117.0 and support to: 113.755
+2025-08-15 10:28:19 INFO: {'RBLX': {   'close': 116.84,
+    'high': 116.99,
+    'low': 116.78,
+    'open': 116.99,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1170.0,
+    'vwap': 116.852827}}
+2025-08-15 10:28:19 INFO: Current resistance is: 117.0 and support is: 113.755
+2025-08-15 10:28:19 INFO: Current average volume is: 1402.7
+2025-08-15 10:28:19 INFO: Updated resistance to: 117.0 and support to: 113.755
+2025-08-15 10:29:19 INFO: {'RBLX': {   'close': 117.105,
+    'high': 117.14,
+    'low': 116.805,
+    'open': 116.805,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 1593.0,
+    'vwap': 116.937857}}
+2025-08-15 10:29:19 INFO: Current resistance is: 117.0 and support is: 113.755
+2025-08-15 10:29:19 INFO: Current average volume is: 1282.1
+2025-08-15 10:29:19 INFO: The Current Close 117.105 is above the resistance...
+2025-08-15 10:29:19 INFO: Updated resistance to: 117.14 and support to: 113.755
+2025-08-15 10:30:19 INFO: {'RBLX': {   'close': 116.95,
+    'high': 117.17,
+    'low': 116.89,
+    'open': 117.17,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1042.0,
+    'vwap': 117.055}}
+2025-08-15 10:30:19 INFO: Current resistance is: 117.14 and support is: 113.755
+2025-08-15 10:30:19 INFO: Current average volume is: 1219.1
+2025-08-15 10:30:19 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:32:19 INFO: {'RBLX': {   'close': 116.37,
+    'high': 116.79,
+    'low': 116.34,
+    'open': 116.79,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1408.0,
+    'vwap': 116.645745}}
+2025-08-15 10:32:19 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:32:19 INFO: Current average volume is: 1076.1
+2025-08-15 10:32:19 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:33:19 INFO: {'RBLX': {   'close': 115.71,
+    'high': 115.71,
+    'low': 115.71,
+    'open': 115.71,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 763.0,
+    'vwap': 115.71}}
+2025-08-15 10:33:19 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:33:19 INFO: Current average volume is: 1011.2
+2025-08-15 10:33:19 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:34:19 INFO: {'RBLX': {   'close': 115.73,
+    'high': 115.93,
+    'low': 115.73,
+    'open': 115.92,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1849.0,
+    'vwap': 115.884419}}
+2025-08-15 10:34:19 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:34:19 INFO: Current average volume is: 1122.0
+2025-08-15 10:34:19 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:35:19 INFO: {'RBLX': {   'close': 115.69,
+    'high': 115.69,
+    'low': 115.69,
+    'open': 115.69,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 229.0,
+    'vwap': 115.69}}
+2025-08-15 10:35:19 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:35:19 INFO: Current average volume is: 1086.3
+2025-08-15 10:35:19 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:36:20 INFO: {'RBLX': {   'close': 115.81,
+    'high': 115.845,
+    'low': 115.775,
+    'open': 115.775,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 644.0,
+    'vwap': 115.819}}
+2025-08-15 10:36:20 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:36:20 INFO: Current average volume is: 1031.9
+2025-08-15 10:36:20 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:37:20 INFO: {'RBLX': {   'close': 115.53,
+    'high': 115.88,
+    'low': 115.485,
+    'open': 115.88,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1102.0,
+    'vwap': 115.605}}
+2025-08-15 10:37:20 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:37:20 INFO: Current average volume is: 1060.1
+2025-08-15 10:37:20 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:38:20 INFO: {'RBLX': {   'close': 115.71,
+    'high': 115.755,
+    'low': 115.45,
+    'open': 115.45,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1097.0,
+    'vwap': 115.6125}}
+2025-08-15 10:38:20 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:38:20 INFO: Current average volume is: 1089.7
+2025-08-15 10:38:20 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:39:20 INFO: {'RBLX': {   'close': 115.825,
+    'high': 115.825,
+    'low': 115.48,
+    'open': 115.68,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 2254.0,
+    'vwap': 115.620241}}
+2025-08-15 10:39:20 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:39:20 INFO: Current average volume is: 1198.1
+2025-08-15 10:39:20 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:40:20 INFO: {'RBLX': {   'close': 116.07,
+    'high': 116.07,
+    'low': 115.76,
+    'open': 115.76,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1890.0,
+    'vwap': 115.809338}}
+2025-08-15 10:40:20 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:40:20 INFO: Current average volume is: 1227.8
+2025-08-15 10:40:20 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:41:20 INFO: {'RBLX': {   'close': 115.85,
+    'high': 115.98,
+    'low': 115.85,
+    'open': 115.89,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2620.0,
+    'vwap': 115.952599}}
+2025-08-15 10:41:20 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:41:20 INFO: Current average volume is: 1385.6
+2025-08-15 10:41:20 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:42:20 INFO: {'RBLX': {   'close': 115.805,
+    'high': 116.0,
+    'low': 115.805,
+    'open': 116.0,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 922.0,
+    'vwap': 115.915833}}
+2025-08-15 10:42:20 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:42:20 INFO: Current average volume is: 1337.0
+2025-08-15 10:42:20 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:44:21 INFO: {'RBLX': {   'close': 115.48,
+    'high': 115.78,
+    'low': 115.435,
+    'open': 115.78,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 2233.0,
+    'vwap': 115.507922}}
+2025-08-15 10:44:21 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:44:21 INFO: Current average volume is: 1484.0
+2025-08-15 10:44:21 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:45:21 INFO: {'RBLX': {   'close': 115.29,
+    'high': 115.38,
+    'low': 115.29,
+    'open': 115.295,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 498.0,
+    'vwap': 115.321667}}
+2025-08-15 10:45:21 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:45:21 INFO: Current average volume is: 1348.9
+2025-08-15 10:45:21 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:46:21 INFO: {'RBLX': {   'close': 115.045,
+    'high': 115.05,
+    'low': 115.045,
+    'open': 115.05,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 658.0,
+    'vwap': 115.0475}}
+2025-08-15 10:46:21 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:46:21 INFO: Current average volume is: 1391.8
+2025-08-15 10:46:21 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:47:21 INFO: {'RBLX': {   'close': 115.095,
+    'high': 115.17,
+    'low': 115.095,
+    'open': 115.17,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 400.0,
+    'vwap': 115.1325}}
+2025-08-15 10:47:21 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:47:21 INFO: Current average volume is: 1367.4
+2025-08-15 10:47:21 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:48:21 INFO: {'RBLX': {   'close': 114.75,
+    'high': 115.06,
+    'low': 114.74,
+    'open': 114.99,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1436.0,
+    'vwap': 114.876083}}
+2025-08-15 10:48:21 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:48:21 INFO: Current average volume is: 1400.8
+2025-08-15 10:48:21 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:49:21 INFO: {'RBLX': {   'close': 114.81,
+    'high': 114.81,
+    'low': 114.75,
+    'open': 114.75,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 557.0,
+    'vwap': 114.79}}
+2025-08-15 10:49:21 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:49:21 INFO: Current average volume is: 1346.8
+2025-08-15 10:49:21 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:50:21 INFO: {'RBLX': {   'close': 115.145,
+    'high': 115.145,
+    'low': 115.145,
+    'open': 115.145,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 586.0,
+    'vwap': 115.145}}
+2025-08-15 10:50:21 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:50:21 INFO: Current average volume is: 1180.0
+2025-08-15 10:50:21 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:51:21 INFO: {'RBLX': {   'close': 115.49,
+    'high': 115.49,
+    'low': 115.28,
+    'open': 115.28,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 927.0,
+    'vwap': 115.331667}}
+2025-08-15 10:51:21 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:51:21 INFO: Current average volume is: 1083.7
+2025-08-15 10:51:21 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:52:21 INFO: {'RBLX': {   'close': 115.42,
+    'high': 115.505,
+    'low': 115.42,
+    'open': 115.495,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2191.0,
+    'vwap': 115.47183}}
+2025-08-15 10:52:21 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:52:21 INFO: Current average volume is: 1040.8
+2025-08-15 10:52:21 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:54:22 INFO: {'RBLX': {   'close': 115.49,
+    'high': 115.515,
+    'low': 115.46,
+    'open': 115.46,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 486.0,
+    'vwap': 115.488438}}
+2025-08-15 10:54:22 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:54:22 INFO: Current average volume is: 997.2
+2025-08-15 10:54:22 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:55:22 INFO: {'RBLX': {   'close': 115.43,
+    'high': 115.705,
+    'low': 115.43,
+    'open': 115.55,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1807.0,
+    'vwap': 115.586764}}
+2025-08-15 10:55:22 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:55:22 INFO: Current average volume is: 954.6
+2025-08-15 10:55:22 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:56:22 INFO: {'RBLX': {   'close': 115.53,
+    'high': 115.585,
+    'low': 115.4,
+    'open': 115.4,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 555.0,
+    'vwap': 115.519}}
+2025-08-15 10:56:22 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:56:22 INFO: Current average volume is: 960.3
+2025-08-15 10:56:22 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:57:22 INFO: {'RBLX': {   'close': 116.0,
+    'high': 116.0,
+    'low': 115.595,
+    'open': 115.595,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 879.0,
+    'vwap': 115.843333}}
+2025-08-15 10:57:22 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:57:22 INFO: Current average volume is: 982.4
+2025-08-15 10:57:22 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:58:22 INFO: {'RBLX': {   'close': 116.065,
+    'high': 116.07,
+    'low': 115.905,
+    'open': 115.95,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1733.0,
+    'vwap': 115.99695}}
+2025-08-15 10:58:22 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:58:22 INFO: Current average volume is: 1115.7
+2025-08-15 10:58:22 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 10:59:22 INFO: {'RBLX': {   'close': 116.055,
+    'high': 116.14,
+    'low': 116.05,
+    'open': 116.055,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1002.0,
+    'vwap': 116.067857}}
+2025-08-15 10:59:22 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 10:59:22 INFO: Current average volume is: 1072.3
+2025-08-15 10:59:22 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:00:22 INFO: {'RBLX': {   'close': 116.24,
+    'high': 116.245,
+    'low': 116.13,
+    'open': 116.13,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 821.0,
+    'vwap': 116.183125}}
+2025-08-15 11:00:22 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:00:22 INFO: Current average volume is: 1098.7
+2025-08-15 11:00:22 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:01:23 INFO: {'RBLX': {   'close': 116.38,
+    'high': 116.645,
+    'low': 116.38,
+    'open': 116.645,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 921.0,
+    'vwap': 116.525064}}
+2025-08-15 11:01:23 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:01:23 INFO: Current average volume is: 1132.2
+2025-08-15 11:01:23 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:02:23 INFO: {'RBLX': {   'close': 116.45,
+    'high': 116.465,
+    'low': 116.45,
+    'open': 116.465,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 602.0,
+    'vwap': 116.4575}}
+2025-08-15 11:02:23 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:02:23 INFO: Current average volume is: 1099.7
+2025-08-15 11:02:23 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:03:23 INFO: {'RBLX': {   'close': 116.14,
+    'high': 116.35,
+    'low': 116.14,
+    'open': 116.27,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 809.0,
+    'vwap': 116.283333}}
+2025-08-15 11:03:23 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:03:23 INFO: Current average volume is: 961.5
+2025-08-15 11:03:23 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:04:23 INFO: {'RBLX': {   'close': 116.05,
+    'high': 116.27,
+    'low': 116.05,
+    'open': 116.2,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 888.0,
+    'vwap': 116.164167}}
+2025-08-15 11:04:23 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:04:23 INFO: Current average volume is: 1001.7
+2025-08-15 11:04:23 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:05:23 INFO: {'RBLX': {   'close': 116.11,
+    'high': 116.11,
+    'low': 116.0,
+    'open': 116.0,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 116.073333}}
+2025-08-15 11:05:23 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:05:23 INFO: Current average volume is: 851.0
+2025-08-15 11:05:23 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:06:23 INFO: {'RBLX': {   'close': 116.145,
+    'high': 116.145,
+    'low': 116.145,
+    'open': 116.145,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 116.145}}
+2025-08-15 11:06:23 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:06:23 INFO: Current average volume is: 805.6
+2025-08-15 11:06:23 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:07:23 INFO: {'RBLX': {   'close': 116.07,
+    'high': 116.19,
+    'low': 116.05,
+    'open': 116.05,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1140.0,
+    'vwap': 116.118396}}
+2025-08-15 11:07:23 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:07:23 INFO: Current average volume is: 831.7
+2025-08-15 11:07:23 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:08:23 INFO: {'RBLX': {   'close': 115.86,
+    'high': 115.86,
+    'low': 115.76,
+    'open': 115.81,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 959.0,
+    'vwap': 115.781111}}
+2025-08-15 11:08:23 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:08:23 INFO: Current average volume is: 754.3
+2025-08-15 11:08:23 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:09:23 INFO: {'RBLX': {   'close': 115.91,
+    'high': 115.935,
+    'low': 115.865,
+    'open': 115.9,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 912.0,
+    'vwap': 115.893143}}
+2025-08-15 11:09:23 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:09:23 INFO: Current average volume is: 745.3
+2025-08-15 11:09:23 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:10:24 INFO: {'RBLX': {   'close': 116.26,
+    'high': 116.26,
+    'low': 115.92,
+    'open': 115.92,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 602.0,
+    'vwap': 116.134}}
+2025-08-15 11:10:24 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:10:24 INFO: Current average volume is: 723.4
+2025-08-15 11:10:24 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:11:24 INFO: {'RBLX': {   'close': 116.415,
+    'high': 116.415,
+    'low': 116.415,
+    'open': 116.415,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 116.415}}
+2025-08-15 11:11:24 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:11:24 INFO: Current average volume is: 651.4
+2025-08-15 11:11:24 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:12:24 INFO: {'RBLX': {   'close': 116.79,
+    'high': 116.79,
+    'low': 116.325,
+    'open': 116.325,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 957.0,
+    'vwap': 116.393814}}
+2025-08-15 11:12:24 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:12:24 INFO: Current average volume is: 686.9
+2025-08-15 11:12:24 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:13:24 INFO: {'RBLX': {   'close': 116.62,
+    'high': 116.755,
+    'low': 116.62,
+    'open': 116.755,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 977.0,
+    'vwap': 116.665}}
+2025-08-15 11:13:24 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:13:24 INFO: Current average volume is: 703.7
+2025-08-15 11:13:24 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:14:24 INFO: {'RBLX': {   'close': 116.72,
+    'high': 116.72,
+    'low': 116.53,
+    'open': 116.53,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 368.0,
+    'vwap': 116.626667}}
+2025-08-15 11:14:24 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:14:24 INFO: Current average volume is: 651.7
+2025-08-15 11:14:24 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:15:24 INFO: {'RBLX': {   'close': 116.64,
+    'high': 116.695,
+    'low': 116.64,
+    'open': 116.695,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 570.0,
+    'vwap': 116.67875}}
+2025-08-15 11:15:24 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:15:24 INFO: Current average volume is: 678.7
+2025-08-15 11:15:24 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:16:24 INFO: {'RBLX': {   'close': 116.62,
+    'high': 116.73,
+    'low': 116.54,
+    'open': 116.73,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1045.0,
+    'vwap': 116.592143}}
+2025-08-15 11:16:24 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:16:24 INFO: Current average volume is: 773.1
+2025-08-15 11:16:24 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:17:24 INFO: {'RBLX': {   'close': 116.86,
+    'high': 116.86,
+    'low': 116.69,
+    'open': 116.69,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 361.0,
+    'vwap': 116.775}}
+2025-08-15 11:17:24 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:17:24 INFO: Current average volume is: 695.2
+2025-08-15 11:17:24 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:18:25 INFO: {'RBLX': {   'close': 116.72,
+    'high': 116.87,
+    'low': 116.68,
+    'open': 116.77,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 1574.0,
+    'vwap': 116.764444}}
+2025-08-15 11:18:25 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:18:25 INFO: Current average volume is: 756.7
+2025-08-15 11:18:25 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:19:25 INFO: {'RBLX': {   'close': 116.695,
+    'high': 116.795,
+    'low': 116.695,
+    'open': 116.74,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 939.0,
+    'vwap': 116.746111}}
+2025-08-15 11:19:25 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:19:25 INFO: Current average volume is: 759.4
+2025-08-15 11:19:25 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:20:25 INFO: {'RBLX': {   'close': 116.48,
+    'high': 116.665,
+    'low': 116.385,
+    'open': 116.66,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 822.0,
+    'vwap': 116.504167}}
+2025-08-15 11:20:25 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:20:25 INFO: Current average volume is: 781.4
+2025-08-15 11:20:25 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:22:25 INFO: {'RBLX': {   'close': 116.64,
+    'high': 116.72,
+    'low': 116.495,
+    'open': 116.72,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1063.0,
+    'vwap': 116.635531}}
+2025-08-15 11:22:25 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:22:25 INFO: Current average volume is: 867.6
+2025-08-15 11:22:25 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:23:25 INFO: {'RBLX': {   'close': 116.26,
+    'high': 116.445,
+    'low': 116.26,
+    'open': 116.4,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 404.0,
+    'vwap': 116.368333}}
+2025-08-15 11:23:25 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:23:25 INFO: Current average volume is: 812.3
+2025-08-15 11:23:25 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:24:25 INFO: {'RBLX': {   'close': 116.56,
+    'high': 116.56,
+    'low': 116.42,
+    'open': 116.42,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 669.0,
+    'vwap': 116.505}}
+2025-08-15 11:24:25 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:24:25 INFO: Current average volume is: 781.5
+2025-08-15 11:24:25 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:26:26 INFO: {'RBLX': {   'close': 116.49,
+    'high': 116.49,
+    'low': 116.445,
+    'open': 116.445,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 336.0,
+    'vwap': 116.47}}
+2025-08-15 11:26:26 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:26:26 INFO: Current average volume is: 778.3
+2025-08-15 11:26:26 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:28:26 INFO: {'RBLX': {   'close': 116.67,
+    'high': 116.675,
+    'low': 116.615,
+    'open': 116.615,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1180.0,
+    'vwap': 116.66534}}
+2025-08-15 11:28:26 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:28:26 INFO: Current average volume is: 839.3
+2025-08-15 11:28:26 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:29:26 INFO: {'RBLX': {   'close': 116.985,
+    'high': 116.985,
+    'low': 116.795,
+    'open': 116.795,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1308.0,
+    'vwap': 116.873957}}
+2025-08-15 11:29:26 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:29:26 INFO: Current average volume is: 865.6
+2025-08-15 11:29:26 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:30:26 INFO: {'RBLX': {   'close': 116.74,
+    'high': 116.85,
+    'low': 116.74,
+    'open': 116.85,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1088.0,
+    'vwap': 116.810626}}
+2025-08-15 11:30:26 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:30:26 INFO: Current average volume is: 938.3
+2025-08-15 11:30:26 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:31:26 INFO: {'RBLX': {   'close': 116.82,
+    'high': 116.975,
+    'low': 116.765,
+    'open': 116.87,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1283.0,
+    'vwap': 116.857222}}
+2025-08-15 11:31:26 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:31:26 INFO: Current average volume is: 909.2
+2025-08-15 11:31:26 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:32:26 INFO: {'RBLX': {   'close': 116.885,
+    'high': 116.885,
+    'low': 116.82,
+    'open': 116.88,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 831.0,
+    'vwap': 116.864152}}
+2025-08-15 11:32:26 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:32:26 INFO: Current average volume is: 898.4
+2025-08-15 11:32:26 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:33:26 INFO: {'RBLX': {   'close': 116.98,
+    'high': 116.98,
+    'low': 116.97,
+    'open': 116.98,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 636.0,
+    'vwap': 116.975}}
+2025-08-15 11:33:26 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:33:26 INFO: Current average volume is: 879.8
+2025-08-15 11:33:26 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:34:26 INFO: {'RBLX': {   'close': 116.8,
+    'high': 116.8,
+    'low': 116.755,
+    'open': 116.755,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 692.0,
+    'vwap': 116.793056}}
+2025-08-15 11:34:26 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:34:26 INFO: Current average volume is: 842.7
+2025-08-15 11:34:26 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:35:27 INFO: {'RBLX': {   'close': 116.55,
+    'high': 116.78,
+    'low': 116.55,
+    'open': 116.78,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 795.0,
+    'vwap': 116.6125}}
+2025-08-15 11:35:27 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:35:27 INFO: Current average volume is: 881.8
+2025-08-15 11:35:27 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:36:27 INFO: {'RBLX': {   'close': 116.62,
+    'high': 116.62,
+    'low': 116.525,
+    'open': 116.525,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 654.0,
+    'vwap': 116.560954}}
+2025-08-15 11:36:27 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:36:27 INFO: Current average volume is: 880.3
+2025-08-15 11:36:27 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:37:27 INFO: {'RBLX': {   'close': 116.89,
+    'high': 116.97,
+    'low': 116.62,
+    'open': 116.73,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2630.0,
+    'vwap': 116.744792}}
+2025-08-15 11:37:27 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:37:27 INFO: Current average volume is: 1109.7
+2025-08-15 11:37:27 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:38:27 INFO: {'RBLX': {   'close': 116.655,
+    'high': 116.705,
+    'low': 116.655,
+    'open': 116.695,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 486.0,
+    'vwap': 116.6875}}
+2025-08-15 11:38:27 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:38:27 INFO: Current average volume is: 1040.3
+2025-08-15 11:38:27 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:39:27 INFO: {'RBLX': {   'close': 116.775,
+    'high': 116.775,
+    'low': 116.62,
+    'open': 116.62,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 401.0,
+    'vwap': 116.68125}}
+2025-08-15 11:39:27 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:39:27 INFO: Current average volume is: 949.6
+2025-08-15 11:39:27 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:40:27 INFO: {'RBLX': {   'close': 116.46,
+    'high': 116.54,
+    'low': 116.46,
+    'open': 116.54,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 539.0,
+    'vwap': 116.486144}}
+2025-08-15 11:40:27 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:40:27 INFO: Current average volume is: 894.7
+2025-08-15 11:40:27 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:42:27 INFO: {'RBLX': {   'close': 116.02,
+    'high': 116.365,
+    'low': 116.02,
+    'open': 116.33,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 660.0,
+    'vwap': 116.238333}}
+2025-08-15 11:42:27 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:42:27 INFO: Current average volume is: 832.4
+2025-08-15 11:42:27 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:43:28 INFO: {'RBLX': {   'close': 115.99,
+    'high': 116.105,
+    'low': 115.99,
+    'open': 116.02,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1127.0,
+    'vwap': 116.029474}}
+2025-08-15 11:43:28 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:43:28 INFO: Current average volume is: 862.0
+2025-08-15 11:43:28 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:44:28 INFO: {'RBLX': {   'close': 115.71,
+    'high': 115.975,
+    'low': 115.71,
+    'open': 115.975,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1284.0,
+    'vwap': 115.870122}}
+2025-08-15 11:44:28 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:44:28 INFO: Current average volume is: 926.8
+2025-08-15 11:44:28 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:45:28 INFO: {'RBLX': {   'close': 115.9,
+    'high': 115.92,
+    'low': 115.9,
+    'open': 115.91,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 610.0,
+    'vwap': 115.91}}
+2025-08-15 11:45:28 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:45:28 INFO: Current average volume is: 918.6
+2025-08-15 11:45:28 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:46:28 INFO: {'RBLX': {   'close': 115.805,
+    'high': 115.87,
+    'low': 115.75,
+    'open': 115.87,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1168.0,
+    'vwap': 115.805}}
+2025-08-15 11:46:28 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:46:28 INFO: Current average volume is: 955.9
+2025-08-15 11:46:28 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:47:28 INFO: {'RBLX': {   'close': 115.56,
+    'high': 115.735,
+    'low': 115.555,
+    'open': 115.735,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2058.0,
+    'vwap': 115.645996}}
+2025-08-15 11:47:28 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:47:28 INFO: Current average volume is: 1096.3
+2025-08-15 11:47:28 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:48:28 INFO: {'RBLX': {   'close': 115.69,
+    'high': 115.69,
+    'low': 115.595,
+    'open': 115.595,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1045.0,
+    'vwap': 115.666667}}
+2025-08-15 11:48:28 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:48:28 INFO: Current average volume is: 937.8
+2025-08-15 11:48:28 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:49:28 INFO: {'RBLX': {   'close': 115.31,
+    'high': 115.72,
+    'low': 115.31,
+    'open': 115.72,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1434.0,
+    'vwap': 115.526667}}
+2025-08-15 11:49:28 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:49:28 INFO: Current average volume is: 1032.6
+2025-08-15 11:49:28 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:50:28 INFO: {'RBLX': {   'close': 115.405,
+    'high': 115.47,
+    'low': 115.33,
+    'open': 115.33,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1081.0,
+    'vwap': 115.404444}}
+2025-08-15 11:50:28 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:50:28 INFO: Current average volume is: 1100.6
+2025-08-15 11:50:28 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:51:29 INFO: {'RBLX': {   'close': 115.4,
+    'high': 115.58,
+    'low': 115.4,
+    'open': 115.52,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1322.0,
+    'vwap': 115.448182}}
+2025-08-15 11:51:29 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:51:29 INFO: Current average volume is: 1178.9
+2025-08-15 11:51:29 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:52:29 INFO: {'RBLX': {   'close': 115.61,
+    'high': 115.61,
+    'low': 115.395,
+    'open': 115.395,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 603.0,
+    'vwap': 115.512}}
+2025-08-15 11:52:29 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:52:29 INFO: Current average volume is: 1173.2
+2025-08-15 11:52:29 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:53:29 INFO: {'RBLX': {   'close': 115.74,
+    'high': 115.74,
+    'low': 115.74,
+    'open': 115.74,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 210.0,
+    'vwap': 115.74}}
+2025-08-15 11:53:29 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:53:29 INFO: Current average volume is: 1081.5
+2025-08-15 11:53:29 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:54:29 INFO: {'RBLX': {   'close': 115.75,
+    'high': 115.75,
+    'low': 115.75,
+    'open': 115.75,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 241.0,
+    'vwap': 115.75}}
+2025-08-15 11:54:29 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:54:29 INFO: Current average volume is: 977.2
+2025-08-15 11:54:29 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:55:29 INFO: {'RBLX': {   'close': 115.63,
+    'high': 115.66,
+    'low': 115.63,
+    'open': 115.66,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 394.0,
+    'vwap': 115.65}}
+2025-08-15 11:55:29 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:55:29 INFO: Current average volume is: 955.6
+2025-08-15 11:55:29 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:57:29 INFO: {'RBLX': {   'close': 115.54,
+    'high': 115.585,
+    'low': 115.54,
+    'open': 115.585,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 630.0,
+    'vwap': 115.576319}}
+2025-08-15 11:57:29 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:57:29 INFO: Current average volume is: 901.8
+2025-08-15 11:57:29 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 11:58:29 INFO: {'RBLX': {   'close': 115.285,
+    'high': 115.38,
+    'low': 115.285,
+    'open': 115.335,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 940.0,
+    'vwap': 115.338}}
+2025-08-15 11:58:29 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 11:58:29 INFO: Current average volume is: 790.0
+2025-08-15 11:58:29 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:00:30 INFO: {'RBLX': {   'close': 115.31,
+    'high': 115.33,
+    'low': 115.31,
+    'open': 115.33,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 437.0,
+    'vwap': 115.315}}
+2025-08-15 12:00:30 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:00:30 INFO: Current average volume is: 729.2
+2025-08-15 12:00:30 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:01:30 INFO: {'RBLX': {   'close': 115.44,
+    'high': 115.51,
+    'low': 115.415,
+    'open': 115.44,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 115.443571}}
+2025-08-15 12:01:30 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:01:30 INFO: Current average volume is: 655.8
+2025-08-15 12:01:30 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:02:30 INFO: {'RBLX': {   'close': 115.39,
+    'high': 115.4,
+    'low': 115.39,
+    'open': 115.4,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 216.0,
+    'vwap': 115.395}}
+2025-08-15 12:02:30 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:02:30 INFO: Current average volume is: 569.3
+2025-08-15 12:02:30 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:03:30 INFO: {'RBLX': {   'close': 115.66,
+    'high': 115.7,
+    'low': 115.585,
+    'open': 115.585,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 463.0,
+    'vwap': 115.64375}}
+2025-08-15 12:03:30 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:03:30 INFO: Current average volume is: 483.4
+2025-08-15 12:03:30 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:05:30 INFO: {'RBLX': {   'close': 115.505,
+    'high': 115.52,
+    'low': 115.505,
+    'open': 115.52,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 353.0,
+    'vwap': 115.5125}}
+2025-08-15 12:05:30 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:05:30 INFO: Current average volume is: 458.4
+2025-08-15 12:05:30 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:06:30 INFO: {'RBLX': {   'close': 115.565,
+    'high': 115.565,
+    'low': 115.49,
+    'open': 115.49,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 273.0,
+    'vwap': 115.5275}}
+2025-08-15 12:06:30 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:06:30 INFO: Current average volume is: 464.7
+2025-08-15 12:06:30 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:07:30 INFO: {'RBLX': {   'close': 115.775,
+    'high': 115.82,
+    'low': 115.63,
+    'open': 115.63,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1082.0,
+    'vwap': 115.767745}}
+2025-08-15 12:07:30 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:07:30 INFO: Current average volume is: 548.8
+2025-08-15 12:07:30 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:08:31 INFO: {'RBLX': {   'close': 115.45,
+    'high': 115.68,
+    'low': 115.43,
+    'open': 115.68,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 2601.0,
+    'vwap': 115.520712}}
+2025-08-15 12:08:31 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:08:31 INFO: Current average volume is: 769.5
+2025-08-15 12:08:31 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:09:31 INFO: {'RBLX': {   'close': 115.44,
+    'high': 115.44,
+    'low': 115.435,
+    'open': 115.44,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 115.438333}}
+2025-08-15 12:09:31 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:09:31 INFO: Current average volume is: 736.6
+2025-08-15 12:09:31 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:10:31 INFO: {'RBLX': {   'close': 115.67,
+    'high': 115.67,
+    'low': 115.595,
+    'open': 115.595,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 260.0,
+    'vwap': 115.6325}}
+2025-08-15 12:10:31 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:10:31 INFO: Current average volume is: 668.6
+2025-08-15 12:10:31 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:11:31 INFO: {'RBLX': {   'close': 115.615,
+    'high': 115.615,
+    'low': 115.615,
+    'open': 115.615,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 276.0,
+    'vwap': 115.615}}
+2025-08-15 12:11:31 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:11:31 INFO: Current average volume is: 652.5
+2025-08-15 12:11:31 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:12:31 INFO: {'RBLX': {   'close': 116.25,
+    'high': 116.25,
+    'low': 115.795,
+    'open': 115.795,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1407.0,
+    'vwap': 115.9525}}
+2025-08-15 12:12:31 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:12:31 INFO: Current average volume is: 723.2
+2025-08-15 12:12:31 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:13:31 INFO: {'RBLX': {   'close': 116.55,
+    'high': 116.55,
+    'low': 116.46,
+    'open': 116.5,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 634.0,
+    'vwap': 116.506}}
+2025-08-15 12:13:31 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:13:31 INFO: Current average volume is: 765.0
+2025-08-15 12:13:31 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:14:31 INFO: {'RBLX': {   'close': 116.27,
+    'high': 116.61,
+    'low': 116.27,
+    'open': 116.6,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1083.0,
+    'vwap': 116.49}}
+2025-08-15 12:14:31 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:14:31 INFO: Current average volume is: 827.0
+2025-08-15 12:14:31 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:15:32 INFO: {'RBLX': {   'close': 116.3,
+    'high': 116.45,
+    'low': 116.3,
+    'open': 116.435,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 964.0,
+    'vwap': 116.367143}}
+2025-08-15 12:15:32 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:15:32 INFO: Current average volume is: 888.1
+2025-08-15 12:15:32 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:16:32 INFO: {'RBLX': {   'close': 116.34,
+    'high': 116.61,
+    'low': 116.335,
+    'open': 116.61,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1099.0,
+    'vwap': 116.498333}}
+2025-08-15 12:16:32 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:16:32 INFO: Current average volume is: 970.7
+2025-08-15 12:16:32 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:17:32 INFO: {'RBLX': {   'close': 116.43,
+    'high': 116.555,
+    'low': 116.36,
+    'open': 116.36,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 704.0,
+    'vwap': 116.440714}}
+2025-08-15 12:17:32 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:17:32 INFO: Current average volume is: 932.9
+2025-08-15 12:17:32 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:18:32 INFO: {'RBLX': {   'close': 116.425,
+    'high': 116.425,
+    'low': 116.425,
+    'open': 116.425,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 255.0,
+    'vwap': 116.425}}
+2025-08-15 12:18:32 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:18:32 INFO: Current average volume is: 698.3
+2025-08-15 12:18:32 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:19:32 INFO: {'RBLX': {   'close': 116.32,
+    'high': 116.38,
+    'low': 116.32,
+    'open': 116.38,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 484.0,
+    'vwap': 116.3525}}
+2025-08-15 12:19:32 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:19:32 INFO: Current average volume is: 716.6
+2025-08-15 12:19:32 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:20:32 INFO: {'RBLX': {   'close': 116.18,
+    'high': 116.25,
+    'low': 116.17,
+    'open': 116.25,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 825.0,
+    'vwap': 116.19}}
+2025-08-15 12:20:32 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:20:32 INFO: Current average volume is: 773.1
+2025-08-15 12:20:32 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:21:32 INFO: {'RBLX': {   'close': 116.195,
+    'high': 116.225,
+    'low': 116.18,
+    'open': 116.18,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 754.0,
+    'vwap': 116.201429}}
+2025-08-15 12:21:32 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:21:32 INFO: Current average volume is: 820.9
+2025-08-15 12:21:32 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:22:32 INFO: {'RBLX': {   'close': 116.2,
+    'high': 116.25,
+    'low': 116.115,
+    'open': 116.25,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 834.0,
+    'vwap': 116.152857}}
+2025-08-15 12:22:32 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:22:32 INFO: Current average volume is: 763.6
+2025-08-15 12:22:32 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:24:33 INFO: {'RBLX': {   'close': 116.055,
+    'high': 116.105,
+    'low': 115.975,
+    'open': 116.105,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 944.0,
+    'vwap': 116.012857}}
+2025-08-15 12:24:33 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:24:33 INFO: Current average volume is: 794.6
+2025-08-15 12:24:33 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:25:33 INFO: {'RBLX': {   'close': 116.21,
+    'high': 116.21,
+    'low': 116.21,
+    'open': 116.21,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 319.0,
+    'vwap': 116.21}}
+2025-08-15 12:25:33 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:25:33 INFO: Current average volume is: 718.2
+2025-08-15 12:25:33 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:26:33 INFO: {'RBLX': {   'close': 116.225,
+    'high': 116.225,
+    'low': 116.225,
+    'open': 116.225,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 182.0,
+    'vwap': 116.225}}
+2025-08-15 12:26:33 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:26:33 INFO: Current average volume is: 640.0
+2025-08-15 12:26:33 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:27:33 INFO: {'RBLX': {   'close': 116.475,
+    'high': 116.475,
+    'low': 116.295,
+    'open': 116.295,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1060.0,
+    'vwap': 116.419143}}
+2025-08-15 12:27:33 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:27:33 INFO: Current average volume is: 636.1
+2025-08-15 12:27:33 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:28:33 INFO: {'RBLX': {   'close': 116.56,
+    'high': 116.56,
+    'low': 116.46,
+    'open': 116.46,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 420.0,
+    'vwap': 116.5075}}
+2025-08-15 12:28:33 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:28:33 INFO: Current average volume is: 607.7
+2025-08-15 12:28:33 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:29:33 INFO: {'RBLX': {   'close': 116.54,
+    'high': 116.54,
+    'low': 116.51,
+    'open': 116.51,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 721.0,
+    'vwap': 116.523333}}
+2025-08-15 12:29:33 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:29:33 INFO: Current average volume is: 654.3
+2025-08-15 12:29:33 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:30:33 INFO: {'RBLX': {   'close': 116.265,
+    'high': 116.38,
+    'low': 116.265,
+    'open': 116.36,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 116.3275}}
+2025-08-15 12:30:33 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:30:33 INFO: Current average volume is: 665.9
+2025-08-15 12:30:33 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:31:34 INFO: {'RBLX': {   'close': 116.365,
+    'high': 116.365,
+    'low': 116.26,
+    'open': 116.26,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 401.0,
+    'vwap': 116.325}}
+2025-08-15 12:31:34 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:31:34 INFO: Current average volume is: 623.5
+2025-08-15 12:31:34 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:32:34 INFO: {'RBLX': {   'close': 116.16,
+    'high': 116.22,
+    'low': 116.16,
+    'open': 116.215,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 623.0,
+    'vwap': 116.186}}
+2025-08-15 12:32:34 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:32:34 INFO: Current average volume is: 610.4
+2025-08-15 12:32:34 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:33:34 INFO: {'RBLX': {   'close': 116.37,
+    'high': 116.37,
+    'low': 116.36,
+    'open': 116.36,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 680.0,
+    'vwap': 116.368152}}
+2025-08-15 12:33:34 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:33:34 INFO: Current average volume is: 595.0
+2025-08-15 12:33:34 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:34:34 INFO: {'RBLX': {   'close': 116.42,
+    'high': 116.42,
+    'low': 116.315,
+    'open': 116.34,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 550.0,
+    'vwap': 116.35375}}
+2025-08-15 12:34:34 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:34:34 INFO: Current average volume is: 555.6
+2025-08-15 12:34:34 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:35:34 INFO: {'RBLX': {   'close': 116.625,
+    'high': 116.625,
+    'low': 116.5,
+    'open': 116.5,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 341.0,
+    'vwap': 116.583333}}
+2025-08-15 12:35:34 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:35:34 INFO: Current average volume is: 557.8
+2025-08-15 12:35:34 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:36:34 INFO: {'RBLX': {   'close': 116.505,
+    'high': 116.655,
+    'low': 116.505,
+    'open': 116.64,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 440.0,
+    'vwap': 116.58375}}
+2025-08-15 12:36:34 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:36:34 INFO: Current average volume is: 583.6
+2025-08-15 12:36:34 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:37:34 INFO: {'RBLX': {   'close': 116.48,
+    'high': 116.64,
+    'low': 116.48,
+    'open': 116.53,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1196.0,
+    'vwap': 116.560412}}
+2025-08-15 12:37:34 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:37:34 INFO: Current average volume is: 597.2
+2025-08-15 12:37:34 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:38:34 INFO: {'RBLX': {   'close': 116.44,
+    'high': 116.515,
+    'low': 116.395,
+    'open': 116.49,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1172.0,
+    'vwap': 116.456822}}
+2025-08-15 12:38:34 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:38:34 INFO: Current average volume is: 672.4
+2025-08-15 12:38:34 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:39:34 INFO: {'RBLX': {   'close': 116.74,
+    'high': 116.77,
+    'low': 116.35,
+    'open': 116.35,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2884.0,
+    'vwap': 116.624383}}
+2025-08-15 12:39:34 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:39:34 INFO: Current average volume is: 888.7
+2025-08-15 12:39:34 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:40:35 INFO: {'RBLX': {   'close': 116.54,
+    'high': 116.73,
+    'low': 116.54,
+    'open': 116.73,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2280.0,
+    'vwap': 116.664262}}
+2025-08-15 12:40:35 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:40:35 INFO: Current average volume is: 1056.7
+2025-08-15 12:40:35 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:42:35 INFO: {'RBLX': {   'close': 116.79,
+    'high': 116.87,
+    'low': 116.77,
+    'open': 116.77,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 979.0,
+    'vwap': 116.84936}}
+2025-08-15 12:42:35 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:42:35 INFO: Current average volume is: 1114.5
+2025-08-15 12:42:35 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:43:35 INFO: {'RBLX': {   'close': 116.85,
+    'high': 116.89,
+    'low': 116.775,
+    'open': 116.775,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1088.0,
+    'vwap': 116.850714}}
+2025-08-15 12:43:35 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:43:35 INFO: Current average volume is: 1161.0
+2025-08-15 12:43:35 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:44:35 INFO: {'RBLX': {   'close': 116.56,
+    'high': 116.63,
+    'low': 116.56,
+    'open': 116.63,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1004.0,
+    'vwap': 116.57956}}
+2025-08-15 12:44:35 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:44:35 INFO: Current average volume is: 1193.4
+2025-08-15 12:44:35 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:45:35 INFO: {'RBLX': {   'close': 116.59,
+    'high': 116.59,
+    'low': 116.54,
+    'open': 116.55,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 479.0,
+    'vwap': 116.554751}}
+2025-08-15 12:45:35 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:45:35 INFO: Current average volume is: 1186.3
+2025-08-15 12:45:35 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:46:35 INFO: {'RBLX': {   'close': 116.5,
+    'high': 116.62,
+    'low': 116.5,
+    'open': 116.61,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1475.0,
+    'vwap': 116.588777}}
+2025-08-15 12:46:35 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:46:35 INFO: Current average volume is: 1299.7
+2025-08-15 12:46:35 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:47:35 INFO: {'RBLX': {   'close': 116.75,
+    'high': 116.75,
+    'low': 116.72,
+    'open': 116.725,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1986.0,
+    'vwap': 116.731992}}
+2025-08-15 12:47:35 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:47:35 INFO: Current average volume is: 1454.3
+2025-08-15 12:47:35 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:48:36 INFO: {'RBLX': {   'close': 116.92,
+    'high': 116.97,
+    'low': 116.83,
+    'open': 116.94,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1000.0,
+    'vwap': 116.905556}}
+2025-08-15 12:48:36 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:48:36 INFO: Current average volume is: 1434.7
+2025-08-15 12:48:36 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:49:36 INFO: {'RBLX': {   'close': 116.78,
+    'high': 116.93,
+    'low': 116.78,
+    'open': 116.89,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 701.0,
+    'vwap': 116.853333}}
+2025-08-15 12:49:36 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:49:36 INFO: Current average volume is: 1387.6
+2025-08-15 12:49:36 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:51:36 INFO: {'RBLX': {   'close': 116.82,
+    'high': 116.82,
+    'low': 116.8,
+    'open': 116.8,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 341.0,
+    'vwap': 116.806667}}
+2025-08-15 12:51:36 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:51:36 INFO: Current average volume is: 1133.3
+2025-08-15 12:51:36 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:53:36 INFO: {'RBLX': {   'close': 116.87,
+    'high': 116.91,
+    'low': 116.87,
+    'open': 116.89,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 741.0,
+    'vwap': 116.891769}}
+2025-08-15 12:53:36 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:53:36 INFO: Current average volume is: 979.4
+2025-08-15 12:53:36 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:54:36 INFO: {'RBLX': {   'close': 116.86,
+    'high': 116.86,
+    'low': 116.86,
+    'open': 116.86,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 107.0,
+    'vwap': 116.86}}
+2025-08-15 12:54:36 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:54:36 INFO: Current average volume is: 892.2
+2025-08-15 12:54:36 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:55:36 INFO: {'RBLX': {   'close': 116.975,
+    'high': 117.0,
+    'low': 116.935,
+    'open': 116.935,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 834.0,
+    'vwap': 116.982857}}
+2025-08-15 12:55:36 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:55:36 INFO: Current average volume is: 866.8
+2025-08-15 12:55:36 INFO: Updated resistance to: 117.17 and support to: 113.755
+2025-08-15 12:56:37 INFO: {'RBLX': {   'close': 117.43,
+    'high': 117.43,
+    'low': 116.985,
+    'open': 116.99,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 831.0,
+    'vwap': 117.065833}}
+2025-08-15 12:56:37 INFO: Current resistance is: 117.17 and support is: 113.755
+2025-08-15 12:56:37 INFO: Current average volume is: 849.5
+2025-08-15 12:56:37 INFO: The Current Close 117.43 is above the resistance...
+2025-08-15 12:56:37 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 12:57:07 INFO: {'RBLX': {   'close': 117.38,
+    'high': 117.42,
+    'low': 117.38,
+    'open': 117.42,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 622.0,
+    'vwap': 117.399615}}
+2025-08-15 12:57:07 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 12:57:07 INFO: Current average volume is: 863.8
+2025-08-15 12:57:07 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 12:58:07 INFO: {'RBLX': {   'close': 117.4,
+    'high': 117.4,
+    'low': 117.4,
+    'open': 117.4,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 279.0,
+    'vwap': 117.4}}
+2025-08-15 12:58:07 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 12:58:07 INFO: Current average volume is: 744.2
+2025-08-15 12:58:07 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 12:59:07 INFO: {'RBLX': {   'close': 117.095,
+    'high': 117.285,
+    'low': 117.06,
+    'open': 117.285,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 1336.0,
+    'vwap': 117.147222}}
+2025-08-15 12:59:07 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 12:59:07 INFO: Current average volume is: 679.2
+2025-08-15 12:59:07 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:00:07 INFO: {'RBLX': {   'close': 117.06,
+    'high': 117.13,
+    'low': 117.055,
+    'open': 117.13,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 569.0,
+    'vwap': 117.083}}
+2025-08-15 13:00:07 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:00:07 INFO: Current average volume is: 636.1
+2025-08-15 13:00:07 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:01:07 INFO: {'RBLX': {   'close': 116.74,
+    'high': 117.14,
+    'low': 116.74,
+    'open': 117.14,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1707.0,
+    'vwap': 116.877}}
+2025-08-15 13:01:07 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:01:07 INFO: Current average volume is: 736.7
+2025-08-15 13:01:07 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:02:07 INFO: {'RBLX': {   'close': 116.88,
+    'high': 116.88,
+    'low': 116.78,
+    'open': 116.78,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1000.0,
+    'vwap': 116.834444}}
+2025-08-15 13:02:07 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:02:07 INFO: Current average volume is: 802.6
+2025-08-15 13:02:07 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:04:08 INFO: {'RBLX': {   'close': 116.75,
+    'high': 116.89,
+    'low': 116.585,
+    'open': 116.59,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2850.0,
+    'vwap': 116.743699}}
+2025-08-15 13:04:08 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:04:08 INFO: Current average volume is: 1013.5
+2025-08-15 13:04:08 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:05:08 INFO: {'RBLX': {   'close': 116.74,
+    'high': 116.74,
+    'low': 116.65,
+    'open': 116.65,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 1882.0,
+    'vwap': 116.715536}}
+2025-08-15 13:05:08 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:05:08 INFO: Current average volume is: 1191.0
+2025-08-15 13:05:08 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:06:08 INFO: {'RBLX': {   'close': 116.555,
+    'high': 116.565,
+    'low': 116.505,
+    'open': 116.565,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 2273.0,
+    'vwap': 116.543611}}
+2025-08-15 13:06:08 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:06:08 INFO: Current average volume is: 1334.9
+2025-08-15 13:06:08 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:07:08 INFO: {'RBLX': {   'close': 116.55,
+    'high': 116.775,
+    'low': 116.54,
+    'open': 116.59,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 917.0,
+    'vwap': 116.657857}}
+2025-08-15 13:07:08 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:07:08 INFO: Current average volume is: 1343.5
+2025-08-15 13:07:08 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:08:08 INFO: {'RBLX': {   'close': 116.435,
+    'high': 116.55,
+    'low': 116.28,
+    'open': 116.55,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1193.0,
+    'vwap': 116.425946}}
+2025-08-15 13:08:08 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:08:08 INFO: Current average volume is: 1400.6
+2025-08-15 13:08:08 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:09:08 INFO: {'RBLX': {   'close': 116.41,
+    'high': 116.41,
+    'low': 116.4,
+    'open': 116.4,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 116.4075}}
+2025-08-15 13:09:08 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:09:08 INFO: Current average volume is: 1412.7
+2025-08-15 13:09:08 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:10:08 INFO: {'RBLX': {   'close': 116.58,
+    'high': 116.64,
+    'low': 116.495,
+    'open': 116.495,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 116.571}}
+2025-08-15 13:10:08 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:10:08 INFO: Current average volume is: 1329.1
+2025-08-15 13:10:08 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:11:08 INFO: {'RBLX': {   'close': 116.59,
+    'high': 116.62,
+    'low': 116.59,
+    'open': 116.62,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 423.0,
+    'vwap': 116.6}}
+2025-08-15 13:11:08 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:11:08 INFO: Current average volume is: 1314.5
+2025-08-15 13:11:08 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:12:08 INFO: {'RBLX': {   'close': 116.31,
+    'high': 116.56,
+    'low': 116.31,
+    'open': 116.56,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1157.0,
+    'vwap': 116.456429}}
+2025-08-15 13:12:08 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:12:08 INFO: Current average volume is: 1259.5
+2025-08-15 13:12:08 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:13:09 INFO: {'RBLX': {   'close': 116.24,
+    'high': 116.25,
+    'low': 116.23,
+    'open': 116.25,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 116.24}}
+2025-08-15 13:13:09 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:13:09 INFO: Current average volume is: 1189.5
+2025-08-15 13:13:09 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:14:09 INFO: {'RBLX': {   'close': 116.12,
+    'high': 116.23,
+    'low': 116.12,
+    'open': 116.12,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 817.0,
+    'vwap': 116.150833}}
+2025-08-15 13:14:09 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:14:09 INFO: Current average volume is: 986.2
+2025-08-15 13:14:09 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:15:09 INFO: {'RBLX': {   'close': 116.085,
+    'high': 116.085,
+    'low': 116.08,
+    'open': 116.08,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 608.0,
+    'vwap': 116.081667}}
+2025-08-15 13:15:09 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:15:09 INFO: Current average volume is: 858.8
+2025-08-15 13:15:09 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:16:09 INFO: {'RBLX': {   'close': 116.05,
+    'high': 116.16,
+    'low': 116.05,
+    'open': 116.1,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 756.0,
+    'vwap': 116.095833}}
+2025-08-15 13:16:09 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:16:09 INFO: Current average volume is: 707.1
+2025-08-15 13:16:09 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:17:09 INFO: {'RBLX': {   'close': 116.195,
+    'high': 116.195,
+    'low': 116.11,
+    'open': 116.11,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 392.0,
+    'vwap': 116.1525}}
+2025-08-15 13:17:09 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:17:09 INFO: Current average volume is: 654.6
+2025-08-15 13:17:09 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:18:09 INFO: {'RBLX': {   'close': 116.22,
+    'high': 116.22,
+    'low': 116.18,
+    'open': 116.18,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 116.193333}}
+2025-08-15 13:18:09 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:18:09 INFO: Current average volume is: 565.4
+2025-08-15 13:18:09 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:19:09 INFO: {'RBLX': {   'close': 116.14,
+    'high': 116.14,
+    'low': 116.115,
+    'open': 116.115,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 217.0,
+    'vwap': 116.1275}}
+2025-08-15 13:19:09 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:19:09 INFO: Current average volume is: 547.1
+2025-08-15 13:19:09 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:20:09 INFO: {'RBLX': {   'close': 116.08,
+    'high': 116.08,
+    'low': 116.08,
+    'open': 116.08,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 166.0,
+    'vwap': 116.08}}
+2025-08-15 13:20:09 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:20:09 INFO: Current average volume is: 513.7
+2025-08-15 13:20:09 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:21:10 INFO: {'RBLX': {   'close': 116.14,
+    'high': 116.14,
+    'low': 116.035,
+    'open': 116.035,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 312.0,
+    'vwap': 116.08}}
+2025-08-15 13:21:10 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:21:10 INFO: Current average volume is: 502.6
+2025-08-15 13:21:10 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:22:10 INFO: {'RBLX': {   'close': 116.235,
+    'high': 116.235,
+    'low': 116.15,
+    'open': 116.15,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 116.188333}}
+2025-08-15 13:22:10 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:22:10 INFO: Current average volume is: 416.9
+2025-08-15 13:22:10 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:23:10 INFO: {'RBLX': {   'close': 116.365,
+    'high': 116.365,
+    'low': 116.24,
+    'open': 116.24,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 116.291667}}
+2025-08-15 13:23:10 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:23:10 INFO: Current average volume is: 416.9
+2025-08-15 13:23:10 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:24:10 INFO: {'RBLX': {   'close': 116.41,
+    'high': 116.41,
+    'low': 116.41,
+    'open': 116.41,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 176.0,
+    'vwap': 116.41}}
+2025-08-15 13:24:10 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:24:10 INFO: Current average volume is: 352.8
+2025-08-15 13:24:10 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:25:10 INFO: {'RBLX': {   'close': 116.47,
+    'high': 116.47,
+    'low': 116.42,
+    'open': 116.42,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 486.0,
+    'vwap': 116.445}}
+2025-08-15 13:25:10 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:25:10 INFO: Current average volume is: 340.6
+2025-08-15 13:25:10 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:26:10 INFO: {'RBLX': {   'close': 116.395,
+    'high': 116.395,
+    'low': 116.38,
+    'open': 116.38,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 574.0,
+    'vwap': 116.3875}}
+2025-08-15 13:26:10 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:26:10 INFO: Current average volume is: 322.4
+2025-08-15 13:26:10 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:27:10 INFO: {'RBLX': {   'close': 116.4,
+    'high': 116.4,
+    'low': 116.4,
+    'open': 116.4,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 184.0,
+    'vwap': 116.4}}
+2025-08-15 13:27:10 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:27:10 INFO: Current average volume is: 301.6
+2025-08-15 13:27:10 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:28:10 INFO: {'RBLX': {   'close': 116.395,
+    'high': 116.45,
+    'low': 116.395,
+    'open': 116.45,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 548.0,
+    'vwap': 116.42125}}
+2025-08-15 13:28:10 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:28:10 INFO: Current average volume is: 326.3
+2025-08-15 13:28:10 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:29:11 INFO: {'RBLX': {   'close': 116.175,
+    'high': 116.395,
+    'low': 116.175,
+    'open': 116.395,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1129.0,
+    'vwap': 116.266}}
+2025-08-15 13:29:11 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:29:11 INFO: Current average volume is: 417.5
+2025-08-15 13:29:11 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:30:11 INFO: {'RBLX': {   'close': 116.18,
+    'high': 116.2,
+    'low': 116.18,
+    'open': 116.185,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 666.0,
+    'vwap': 116.185}}
+2025-08-15 13:30:11 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:30:11 INFO: Current average volume is: 467.5
+2025-08-15 13:30:11 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:31:11 INFO: {'RBLX': {   'close': 116.0,
+    'high': 116.105,
+    'low': 116.0,
+    'open': 116.08,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2138.0,
+    'vwap': 116.054643}}
+2025-08-15 13:31:11 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:31:11 INFO: Current average volume is: 650.1
+2025-08-15 13:31:11 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:32:11 INFO: {'RBLX': {   'close': 115.93,
+    'high': 115.93,
+    'low': 115.93,
+    'open': 115.93,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 209.0,
+    'vwap': 115.93}}
+2025-08-15 13:32:11 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:32:11 INFO: Current average volume is: 641.0
+2025-08-15 13:32:11 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:33:11 INFO: {'RBLX': {   'close': 115.91,
+    'high': 115.91,
+    'low': 115.91,
+    'open': 115.91,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 250.0,
+    'vwap': 115.91}}
+2025-08-15 13:33:11 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:33:11 INFO: Current average volume is: 636.0
+2025-08-15 13:33:11 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:34:11 INFO: {'RBLX': {   'close': 115.835,
+    'high': 115.87,
+    'low': 115.815,
+    'open': 115.87,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 549.0,
+    'vwap': 115.83375}}
+2025-08-15 13:34:11 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:34:11 INFO: Current average volume is: 673.3
+2025-08-15 13:34:11 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:35:11 INFO: {'RBLX': {   'close': 115.88,
+    'high': 115.92,
+    'low': 115.88,
+    'open': 115.91,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 425.0,
+    'vwap': 115.9075}}
+2025-08-15 13:35:11 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:35:11 INFO: Current average volume is: 667.2
+2025-08-15 13:35:11 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:36:11 INFO: {'RBLX': {   'close': 115.91,
+    'high': 115.91,
+    'low': 115.845,
+    'open': 115.855,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 606.0,
+    'vwap': 115.86375}}
+2025-08-15 13:36:11 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:36:11 INFO: Current average volume is: 670.4
+2025-08-15 13:36:11 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:37:12 INFO: {'RBLX': {   'close': 115.9,
+    'high': 115.9,
+    'low': 115.7,
+    'open': 115.8,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 3162.0,
+    'vwap': 115.826073}}
+2025-08-15 13:37:12 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:37:12 INFO: Current average volume is: 968.2
+2025-08-15 13:37:12 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:38:12 INFO: {'RBLX': {   'close': 115.715,
+    'high': 115.715,
+    'low': 115.695,
+    'open': 115.695,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 835.0,
+    'vwap': 115.701}}
+2025-08-15 13:38:12 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:38:12 INFO: Current average volume is: 996.9
+2025-08-15 13:38:12 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:39:12 INFO: {'RBLX': {   'close': 115.74,
+    'high': 115.74,
+    'low': 115.645,
+    'open': 115.73,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 699.0,
+    'vwap': 115.705}}
+2025-08-15 13:39:12 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:39:12 INFO: Current average volume is: 953.9
+2025-08-15 13:39:12 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:40:12 INFO: {'RBLX': {   'close': 115.795,
+    'high': 115.795,
+    'low': 115.735,
+    'open': 115.735,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 115.763}}
+2025-08-15 13:40:12 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:40:12 INFO: Current average volume is: 937.3
+2025-08-15 13:40:12 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:41:12 INFO: {'RBLX': {   'close': 115.79,
+    'high': 115.87,
+    'low': 115.79,
+    'open': 115.815,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 363.0,
+    'vwap': 115.825}}
+2025-08-15 13:41:12 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:41:12 INFO: Current average volume is: 759.8
+2025-08-15 13:41:12 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:43:12 INFO: {'RBLX': {   'close': 115.715,
+    'high': 115.81,
+    'low': 115.715,
+    'open': 115.8,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 755.0,
+    'vwap': 115.761}}
+2025-08-15 13:43:12 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:43:12 INFO: Current average volume is: 814.4
+2025-08-15 13:43:12 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:44:12 INFO: {'RBLX': {   'close': 115.72,
+    'high': 115.72,
+    'low': 115.68,
+    'open': 115.71,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 866.0,
+    'vwap': 115.701667}}
+2025-08-15 13:44:12 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:44:12 INFO: Current average volume is: 876.0
+2025-08-15 13:44:12 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:45:12 INFO: {'RBLX': {   'close': 115.73,
+    'high': 115.755,
+    'low': 115.7,
+    'open': 115.755,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 765.0,
+    'vwap': 115.735}}
+2025-08-15 13:45:12 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:45:12 INFO: Current average volume is: 897.6
+2025-08-15 13:45:12 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:46:13 INFO: {'RBLX': {   'close': 115.76,
+    'high': 115.84,
+    'low': 115.715,
+    'open': 115.715,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1342.0,
+    'vwap': 115.783182}}
+2025-08-15 13:46:13 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:46:13 INFO: Current average volume is: 989.3
+2025-08-15 13:46:13 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:47:13 INFO: {'RBLX': {   'close': 115.64,
+    'high': 115.76,
+    'low': 115.6,
+    'open': 115.76,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 849.0,
+    'vwap': 115.668333}}
+2025-08-15 13:47:13 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:47:13 INFO: Current average volume is: 1013.6
+2025-08-15 13:47:13 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:48:13 INFO: {'RBLX': {   'close': 115.475,
+    'high': 115.52,
+    'low': 115.45,
+    'open': 115.52,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1346.0,
+    'vwap': 115.490027}}
+2025-08-15 13:48:13 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:48:13 INFO: Current average volume is: 832.0
+2025-08-15 13:48:13 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:49:13 INFO: {'RBLX': {   'close': 115.4,
+    'high': 115.535,
+    'low': 115.4,
+    'open': 115.535,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 914.0,
+    'vwap': 115.506667}}
+2025-08-15 13:49:13 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:49:13 INFO: Current average volume is: 839.9
+2025-08-15 13:49:13 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:50:13 INFO: {'RBLX': {   'close': 115.53,
+    'high': 115.53,
+    'low': 115.425,
+    'open': 115.43,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 115.455}}
+2025-08-15 13:50:13 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:50:13 INFO: Current average volume is: 820.0
+2025-08-15 13:50:13 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:51:13 INFO: {'RBLX': {   'close': 115.525,
+    'high': 115.525,
+    'low': 115.51,
+    'open': 115.51,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 450.0,
+    'vwap': 115.5175}}
+2025-08-15 13:51:13 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:51:13 INFO: Current average volume is: 815.0
+2025-08-15 13:51:13 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:52:13 INFO: {'RBLX': {   'close': 115.625,
+    'high': 115.625,
+    'low': 115.55,
+    'open': 115.55,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 673.0,
+    'vwap': 115.585833}}
+2025-08-15 13:52:13 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:52:13 INFO: Current average volume is: 846.0
+2025-08-15 13:52:13 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:54:14 INFO: {'RBLX': {   'close': 115.43,
+    'high': 115.43,
+    'low': 115.43,
+    'open': 115.43,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 243.0,
+    'vwap': 115.43}}
+2025-08-15 13:54:14 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:54:14 INFO: Current average volume is: 794.8
+2025-08-15 13:54:14 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:55:14 INFO: {'RBLX': {   'close': 115.56,
+    'high': 115.56,
+    'low': 115.545,
+    'open': 115.545,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 886.0,
+    'vwap': 115.555}}
+2025-08-15 13:55:14 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:55:14 INFO: Current average volume is: 796.8
+2025-08-15 13:55:14 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:56:14 INFO: {'RBLX': {   'close': 115.52,
+    'high': 115.54,
+    'low': 115.52,
+    'open': 115.54,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 749.0,
+    'vwap': 115.53}}
+2025-08-15 13:56:14 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:56:14 INFO: Current average volume is: 795.2
+2025-08-15 13:56:14 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:57:14 INFO: {'RBLX': {   'close': 115.57,
+    'high': 115.655,
+    'low': 115.57,
+    'open': 115.655,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1076.0,
+    'vwap': 115.617289}}
+2025-08-15 13:57:14 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:57:14 INFO: Current average volume is: 768.6
+2025-08-15 13:57:14 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:58:14 INFO: {'RBLX': {   'close': 115.635,
+    'high': 115.635,
+    'low': 115.55,
+    'open': 115.56,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 946.0,
+    'vwap': 115.585714}}
+2025-08-15 13:58:14 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:58:14 INFO: Current average volume is: 778.3
+2025-08-15 13:58:14 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 13:59:14 INFO: {'RBLX': {   'close': 115.68,
+    'high': 115.68,
+    'low': 115.655,
+    'open': 115.655,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 347.0,
+    'vwap': 115.6675}}
+2025-08-15 13:59:14 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 13:59:14 INFO: Current average volume is: 678.4
+2025-08-15 13:59:14 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:01:14 INFO: {'RBLX': {   'close': 115.74,
+    'high': 115.835,
+    'low': 115.63,
+    'open': 115.63,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1235.0,
+    'vwap': 115.707222}}
+2025-08-15 14:01:14 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:01:14 INFO: Current average volume is: 710.5
+2025-08-15 14:01:14 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:02:15 INFO: {'RBLX': {   'close': 115.735,
+    'high': 115.77,
+    'low': 115.735,
+    'open': 115.745,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 685.0,
+    'vwap': 115.7475}}
+2025-08-15 14:02:15 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:02:15 INFO: Current average volume is: 729.0
+2025-08-15 14:02:15 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:03:15 INFO: {'RBLX': {   'close': 115.645,
+    'high': 115.66,
+    'low': 115.62,
+    'open': 115.62,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 710.0,
+    'vwap': 115.6425}}
+2025-08-15 14:03:15 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:03:15 INFO: Current average volume is: 755.0
+2025-08-15 14:03:15 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:04:15 INFO: {'RBLX': {   'close': 115.46,
+    'high': 115.685,
+    'low': 115.36,
+    'open': 115.685,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2203.0,
+    'vwap': 115.446433}}
+2025-08-15 14:04:15 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:04:15 INFO: Current average volume is: 908.0
+2025-08-15 14:04:15 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:05:15 INFO: {'RBLX': {   'close': 115.445,
+    'high': 115.545,
+    'low': 115.43,
+    'open': 115.43,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1785.0,
+    'vwap': 115.467273}}
+2025-08-15 14:05:15 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:05:15 INFO: Current average volume is: 1062.2
+2025-08-15 14:05:15 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:06:15 INFO: {'RBLX': {   'close': 115.35,
+    'high': 115.39,
+    'low': 115.33,
+    'open': 115.38,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 850.0,
+    'vwap': 115.359333}}
+2025-08-15 14:06:15 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:06:15 INFO: Current average volume is: 1058.6
+2025-08-15 14:06:15 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:07:15 INFO: {'RBLX': {   'close': 115.51,
+    'high': 115.51,
+    'low': 115.275,
+    'open': 115.275,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1115.0,
+    'vwap': 115.402778}}
+2025-08-15 14:07:15 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:07:15 INFO: Current average volume is: 1095.2
+2025-08-15 14:07:15 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:08:15 INFO: {'RBLX': {   'close': 115.48,
+    'high': 115.525,
+    'low': 115.415,
+    'open': 115.515,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2372.0,
+    'vwap': 115.48075}}
+2025-08-15 14:08:15 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:08:15 INFO: Current average volume is: 1224.8
+2025-08-15 14:08:15 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:09:15 INFO: {'RBLX': {   'close': 115.67,
+    'high': 115.71,
+    'low': 115.485,
+    'open': 115.485,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 893.0,
+    'vwap': 115.6225}}
+2025-08-15 14:09:15 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:09:15 INFO: Current average volume is: 1219.5
+2025-08-15 14:09:15 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:11:16 INFO: {'RBLX': {   'close': 115.78,
+    'high': 115.81,
+    'low': 115.64,
+    'open': 115.64,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 615.0,
+    'vwap': 115.719}}
+2025-08-15 14:11:16 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:11:16 INFO: Current average volume is: 1246.3
+2025-08-15 14:11:16 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:12:16 INFO: {'RBLX': {   'close': 116.02,
+    'high': 116.02,
+    'low': 115.815,
+    'open': 115.815,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1286.0,
+    'vwap': 115.897222}}
+2025-08-15 14:12:16 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:12:16 INFO: Current average volume is: 1251.4
+2025-08-15 14:12:16 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:13:16 INFO: {'RBLX': {   'close': 116.16,
+    'high': 116.165,
+    'low': 116.085,
+    'open': 116.085,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1601.0,
+    'vwap': 116.102308}}
+2025-08-15 14:13:16 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:13:16 INFO: Current average volume is: 1343.0
+2025-08-15 14:13:16 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:14:16 INFO: {'RBLX': {   'close': 116.06,
+    'high': 116.16,
+    'low': 115.995,
+    'open': 116.16,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1891.0,
+    'vwap': 116.033636}}
+2025-08-15 14:14:16 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:14:16 INFO: Current average volume is: 1461.1
+2025-08-15 14:14:16 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:15:16 INFO: {'RBLX': {   'close': 115.89,
+    'high': 116.03,
+    'low': 115.825,
+    'open': 115.97,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1337.0,
+    'vwap': 115.938536}}
+2025-08-15 14:15:16 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:15:16 INFO: Current average volume is: 1374.5
+2025-08-15 14:15:16 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:16:16 INFO: {'RBLX': {   'close': 115.87,
+    'high': 115.885,
+    'low': 115.87,
+    'open': 115.885,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 386.0,
+    'vwap': 115.875}}
+2025-08-15 14:16:16 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:16:16 INFO: Current average volume is: 1234.6
+2025-08-15 14:16:16 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:17:16 INFO: {'RBLX': {   'close': 115.96,
+    'high': 115.96,
+    'low': 115.915,
+    'open': 115.915,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 605.0,
+    'vwap': 115.931667}}
+2025-08-15 14:17:16 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:17:16 INFO: Current average volume is: 1210.1
+2025-08-15 14:17:16 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:18:17 INFO: {'RBLX': {   'close': 116.09,
+    'high': 116.09,
+    'low': 115.9,
+    'open': 115.905,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 724.0,
+    'vwap': 115.954419}}
+2025-08-15 14:18:17 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:18:17 INFO: Current average volume is: 1171.0
+2025-08-15 14:18:17 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:19:17 INFO: {'RBLX': {   'close': 116.145,
+    'high': 116.175,
+    'low': 116.105,
+    'open': 116.105,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 973.0,
+    'vwap': 116.145}}
+2025-08-15 14:19:17 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:19:17 INFO: Current average volume is: 1031.1
+2025-08-15 14:19:17 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:20:17 INFO: {'RBLX': {   'close': 116.06,
+    'high': 116.13,
+    'low': 116.06,
+    'open': 116.13,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 907.0,
+    'vwap': 116.0825}}
+2025-08-15 14:20:17 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:20:17 INFO: Current average volume is: 1032.5
+2025-08-15 14:20:17 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:21:17 INFO: {'RBLX': {   'close': 115.845,
+    'high': 115.965,
+    'low': 115.845,
+    'open': 115.965,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 838.0,
+    'vwap': 115.913238}}
+2025-08-15 14:21:17 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:21:17 INFO: Current average volume is: 1054.8
+2025-08-15 14:21:17 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:22:17 INFO: {'RBLX': {   'close': 116.05,
+    'high': 116.05,
+    'low': 115.85,
+    'open': 115.85,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1080.0,
+    'vwap': 115.95}}
+2025-08-15 14:22:17 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:22:17 INFO: Current average volume is: 1034.2
+2025-08-15 14:22:17 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:23:17 INFO: {'RBLX': {   'close': 115.99,
+    'high': 116.045,
+    'low': 115.99,
+    'open': 116.045,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 590.0,
+    'vwap': 116.00375}}
+2025-08-15 14:23:17 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:23:17 INFO: Current average volume is: 933.1
+2025-08-15 14:23:17 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:24:17 INFO: {'RBLX': {   'close': 116.07,
+    'high': 116.07,
+    'low': 115.98,
+    'open': 115.98,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1018.0,
+    'vwap': 116.053333}}
+2025-08-15 14:24:17 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:24:17 INFO: Current average volume is: 845.8
+2025-08-15 14:24:17 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:26:17 INFO: {'RBLX': {   'close': 115.885,
+    'high': 115.89,
+    'low': 115.865,
+    'open': 115.87,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 656.0,
+    'vwap': 115.879}}
+2025-08-15 14:26:17 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:26:17 INFO: Current average volume is: 777.7
+2025-08-15 14:26:17 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:27:18 INFO: {'RBLX': {   'close': 115.795,
+    'high': 115.8,
+    'low': 115.79,
+    'open': 115.79,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 679.0,
+    'vwap': 115.795}}
+2025-08-15 14:27:18 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:27:18 INFO: Current average volume is: 807.0
+2025-08-15 14:27:18 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:28:18 INFO: {'RBLX': {   'close': 115.89,
+    'high': 115.89,
+    'low': 115.685,
+    'open': 115.73,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1473.0,
+    'vwap': 115.778214}}
+2025-08-15 14:28:18 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:28:18 INFO: Current average volume is: 893.8
+2025-08-15 14:28:18 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:29:18 INFO: {'RBLX': {   'close': 115.97,
+    'high': 115.985,
+    'low': 115.94,
+    'open': 115.965,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 635.0,
+    'vwap': 115.966}}
+2025-08-15 14:29:18 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:29:18 INFO: Current average volume is: 884.9
+2025-08-15 14:29:18 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:31:18 INFO: {'RBLX': {   'close': 116.08,
+    'high': 116.08,
+    'low': 115.985,
+    'open': 115.985,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 761.0,
+    'vwap': 116.0325}}
+2025-08-15 14:31:18 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:31:18 INFO: Current average volume is: 863.7
+2025-08-15 14:31:18 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:32:18 INFO: {'RBLX': {   'close': 116.015,
+    'high': 116.06,
+    'low': 115.955,
+    'open': 116.06,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 953.0,
+    'vwap': 116.00875}}
+2025-08-15 14:32:18 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:32:18 INFO: Current average volume is: 868.3
+2025-08-15 14:32:18 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:33:18 INFO: {'RBLX': {   'close': 116.05,
+    'high': 116.11,
+    'low': 116.05,
+    'open': 116.11,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 975.0,
+    'vwap': 116.0675}}
+2025-08-15 14:33:18 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:33:18 INFO: Current average volume is: 882.0
+2025-08-15 14:33:18 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:34:19 INFO: {'RBLX': {   'close': 115.915,
+    'high': 116.06,
+    'low': 115.915,
+    'open': 116.06,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 475.0,
+    'vwap': 115.968333}}
+2025-08-15 14:34:19 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:34:19 INFO: Current average volume is: 821.5
+2025-08-15 14:34:19 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:35:19 INFO: {'RBLX': {   'close': 115.78,
+    'high': 115.985,
+    'low': 115.745,
+    'open': 115.985,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1263.0,
+    'vwap': 115.863197}}
+2025-08-15 14:35:19 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:35:19 INFO: Current average volume is: 888.8
+2025-08-15 14:35:19 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:36:19 INFO: {'RBLX': {   'close': 115.73,
+    'high': 115.775,
+    'low': 115.73,
+    'open': 115.77,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 404.0,
+    'vwap': 115.758333}}
+2025-08-15 14:36:19 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:36:19 INFO: Current average volume is: 827.4
+2025-08-15 14:36:19 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:37:19 INFO: {'RBLX': {   'close': 115.62,
+    'high': 115.69,
+    'low': 115.62,
+    'open': 115.69,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 897.0,
+    'vwap': 115.640755}}
+2025-08-15 14:37:19 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:37:19 INFO: Current average volume is: 851.5
+2025-08-15 14:37:19 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:38:19 INFO: {'RBLX': {   'close': 115.51,
+    'high': 115.58,
+    'low': 115.49,
+    'open': 115.535,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1540.0,
+    'vwap': 115.539375}}
+2025-08-15 14:38:19 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:38:19 INFO: Current average volume is: 937.6
+2025-08-15 14:38:19 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:39:19 INFO: {'RBLX': {   'close': 115.55,
+    'high': 115.605,
+    'low': 115.485,
+    'open': 115.485,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 658.0,
+    'vwap': 115.555}}
+2025-08-15 14:39:19 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:39:19 INFO: Current average volume is: 856.1
+2025-08-15 14:39:19 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:40:19 INFO: {'RBLX': {   'close': 115.57,
+    'high': 115.57,
+    'low': 115.525,
+    'open': 115.53,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 913.0,
+    'vwap': 115.545}}
+2025-08-15 14:40:19 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:40:19 INFO: Current average volume is: 883.9
+2025-08-15 14:40:19 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:41:19 INFO: {'RBLX': {   'close': 115.555,
+    'high': 115.6,
+    'low': 115.555,
+    'open': 115.575,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1383.0,
+    'vwap': 115.577825}}
+2025-08-15 14:41:19 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:41:19 INFO: Current average volume is: 946.1
+2025-08-15 14:41:19 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:42:20 INFO: {'RBLX': {   'close': 115.64,
+    'high': 115.645,
+    'low': 115.545,
+    'open': 115.595,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1300.0,
+    'vwap': 115.597222}}
+2025-08-15 14:42:20 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:42:20 INFO: Current average volume is: 980.8
+2025-08-15 14:42:20 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:43:20 INFO: {'RBLX': {   'close': 115.71,
+    'high': 115.815,
+    'low': 115.65,
+    'open': 115.65,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1325.0,
+    'vwap': 115.76021}}
+2025-08-15 14:43:20 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:43:20 INFO: Current average volume is: 1015.8
+2025-08-15 14:43:20 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:44:20 INFO: {'RBLX': {   'close': 115.57,
+    'high': 115.63,
+    'low': 115.57,
+    'open': 115.63,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 557.0,
+    'vwap': 115.6}}
+2025-08-15 14:44:20 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:44:20 INFO: Current average volume is: 1024.0
+2025-08-15 14:44:20 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:45:20 INFO: {'RBLX': {   'close': 115.34,
+    'high': 115.54,
+    'low': 115.305,
+    'open': 115.53,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1377.0,
+    'vwap': 115.393706}}
+2025-08-15 14:45:20 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:45:20 INFO: Current average volume is: 1035.4
+2025-08-15 14:45:20 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:46:20 INFO: {'RBLX': {   'close': 115.32,
+    'high': 115.36,
+    'low': 115.32,
+    'open': 115.335,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1134.0,
+    'vwap': 115.335342}}
+2025-08-15 14:46:20 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:46:20 INFO: Current average volume is: 1108.4
+2025-08-15 14:46:20 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:47:20 INFO: {'RBLX': {   'close': 115.41,
+    'high': 115.41,
+    'low': 115.35,
+    'open': 115.35,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 115.38}}
+2025-08-15 14:47:20 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:47:20 INFO: Current average volume is: 1048.7
+2025-08-15 14:47:20 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:48:20 INFO: {'RBLX': {   'close': 115.34,
+    'high': 115.365,
+    'low': 115.31,
+    'open': 115.36,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1342.0,
+    'vwap': 115.333535}}
+2025-08-15 14:48:20 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:48:20 INFO: Current average volume is: 1028.9
+2025-08-15 14:48:20 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:50:20 INFO: {'RBLX': {   'close': 115.11,
+    'high': 115.115,
+    'low': 115.03,
+    'open': 115.115,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1011.0,
+    'vwap': 115.0975}}
+2025-08-15 14:50:20 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:50:20 INFO: Current average volume is: 1064.2
+2025-08-15 14:50:20 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:51:21 INFO: {'RBLX': {   'close': 114.87,
+    'high': 115.11,
+    'low': 114.865,
+    'open': 115.105,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1757.0,
+    'vwap': 114.996384}}
+2025-08-15 14:51:21 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:51:21 INFO: Current average volume is: 1148.6
+2025-08-15 14:51:21 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:52:21 INFO: {'RBLX': {   'close': 115.055,
+    'high': 115.055,
+    'low': 114.99,
+    'open': 115.02,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1222.0,
+    'vwap': 115.034941}}
+2025-08-15 14:52:21 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:52:21 INFO: Current average volume is: 1132.5
+2025-08-15 14:52:21 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:53:21 INFO: {'RBLX': {   'close': 115.05,
+    'high': 115.05,
+    'low': 115.0,
+    'open': 115.03,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 434.0,
+    'vwap': 115.025}}
+2025-08-15 14:53:21 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:53:21 INFO: Current average volume is: 1045.9
+2025-08-15 14:53:21 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:54:21 INFO: {'RBLX': {   'close': 114.68,
+    'high': 115.065,
+    'low': 114.67,
+    'open': 115.05,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1013.0,
+    'vwap': 114.840714}}
+2025-08-15 14:54:21 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:54:21 INFO: Current average volume is: 1014.7
+2025-08-15 14:54:21 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:55:21 INFO: {'RBLX': {   'close': 114.905,
+    'high': 114.905,
+    'low': 114.64,
+    'open': 114.73,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2365.0,
+    'vwap': 114.761951}}
+2025-08-15 14:55:21 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:55:21 INFO: Current average volume is: 1195.5
+2025-08-15 14:55:21 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:56:21 INFO: {'RBLX': {   'close': 115.045,
+    'high': 115.045,
+    'low': 114.86,
+    'open': 114.86,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 815.0,
+    'vwap': 114.975}}
+2025-08-15 14:56:21 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:56:21 INFO: Current average volume is: 1139.3
+2025-08-15 14:56:21 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:57:21 INFO: {'RBLX': {   'close': 115.03,
+    'high': 115.09,
+    'low': 114.97,
+    'open': 115.05,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 3221.0,
+    'vwap': 115.05653}}
+2025-08-15 14:57:21 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:57:21 INFO: Current average volume is: 1348.0
+2025-08-15 14:57:21 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:58:21 INFO: {'RBLX': {   'close': 115.085,
+    'high': 115.14,
+    'low': 114.925,
+    'open': 115.015,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2594.0,
+    'vwap': 115.008976}}
+2025-08-15 14:58:21 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:58:21 INFO: Current average volume is: 1577.4
+2025-08-15 14:58:21 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 14:59:22 INFO: {'RBLX': {   'close': 115.03,
+    'high': 115.075,
+    'low': 114.99,
+    'open': 114.99,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 3090.0,
+    'vwap': 115.023341}}
+2025-08-15 14:59:22 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 14:59:22 INFO: Current average volume is: 1752.2
+2025-08-15 14:59:22 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:00:22 INFO: {'RBLX': {   'close': 115.045,
+    'high': 115.06,
+    'low': 114.98,
+    'open': 114.995,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 2530.0,
+    'vwap': 115.033603}}
+2025-08-15 15:00:22 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:00:22 INFO: Current average volume is: 1904.1
+2025-08-15 15:00:22 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:01:22 INFO: {'RBLX': {   'close': 115.15,
+    'high': 115.15,
+    'low': 115.04,
+    'open': 115.05,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 3273.0,
+    'vwap': 115.069154}}
+2025-08-15 15:01:22 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:01:22 INFO: Current average volume is: 2055.7
+2025-08-15 15:01:22 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:02:22 INFO: {'RBLX': {   'close': 115.09,
+    'high': 115.17,
+    'low': 115.045,
+    'open': 115.045,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 916.0,
+    'vwap': 115.1025}}
+2025-08-15 15:02:22 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:02:22 INFO: Current average volume is: 2025.1
+2025-08-15 15:02:22 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:03:22 INFO: {'RBLX': {   'close': 115.125,
+    'high': 115.13,
+    'low': 114.88,
+    'open': 115.02,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 3070.0,
+    'vwap': 115.017153}}
+2025-08-15 15:03:22 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:03:22 INFO: Current average volume is: 2288.7
+2025-08-15 15:03:22 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:04:22 INFO: {'RBLX': {   'close': 115.02,
+    'high': 115.035,
+    'low': 115.02,
+    'open': 115.035,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 791.0,
+    'vwap': 115.026}}
+2025-08-15 15:04:22 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:04:22 INFO: Current average volume is: 2266.5
+2025-08-15 15:04:22 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:05:22 INFO: {'RBLX': {   'close': 115.01,
+    'high': 115.01,
+    'low': 114.965,
+    'open': 114.965,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 628.0,
+    'vwap': 114.975}}
+2025-08-15 15:05:22 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:05:22 INFO: Current average volume is: 2092.8
+2025-08-15 15:05:22 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:06:22 INFO: {'RBLX': {   'close': 115.25,
+    'high': 115.3,
+    'low': 115.12,
+    'open': 115.12,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 926.0,
+    'vwap': 115.2075}}
+2025-08-15 15:06:22 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:06:22 INFO: Current average volume is: 2103.9
+2025-08-15 15:06:22 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:07:23 INFO: {'RBLX': {   'close': 115.24,
+    'high': 115.345,
+    'low': 115.24,
+    'open': 115.28,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1776.0,
+    'vwap': 115.281071}}
+2025-08-15 15:07:23 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:07:23 INFO: Current average volume is: 1959.4
+2025-08-15 15:07:23 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:08:23 INFO: {'RBLX': {   'close': 115.025,
+    'high': 115.185,
+    'low': 115.01,
+    'open': 115.17,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2767.0,
+    'vwap': 115.105841}}
+2025-08-15 15:08:23 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:08:23 INFO: Current average volume is: 1976.7
+2025-08-15 15:08:23 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:09:23 INFO: {'RBLX': {   'close': 115.21,
+    'high': 115.21,
+    'low': 115.015,
+    'open': 115.015,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1313.0,
+    'vwap': 115.097778}}
+2025-08-15 15:09:23 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:09:23 INFO: Current average volume is: 1799.0
+2025-08-15 15:09:23 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:10:23 INFO: {'RBLX': {   'close': 115.25,
+    'high': 115.25,
+    'low': 115.185,
+    'open': 115.205,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1254.0,
+    'vwap': 115.206875}}
+2025-08-15 15:10:23 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:10:23 INFO: Current average volume is: 1671.4
+2025-08-15 15:10:23 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:11:23 INFO: {'RBLX': {   'close': 115.44,
+    'high': 115.455,
+    'low': 115.31,
+    'open': 115.31,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1726.0,
+    'vwap': 115.356071}}
+2025-08-15 15:11:23 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:11:23 INFO: Current average volume is: 1516.7
+2025-08-15 15:11:23 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:12:23 INFO: {'RBLX': {   'close': 115.5,
+    'high': 115.515,
+    'low': 115.5,
+    'open': 115.515,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 228.0,
+    'vwap': 115.5075}}
+2025-08-15 15:12:23 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:12:23 INFO: Current average volume is: 1447.9
+2025-08-15 15:12:23 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:13:23 INFO: {'RBLX': {   'close': 115.2,
+    'high': 115.55,
+    'low': 115.13,
+    'open': 115.55,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 2456.0,
+    'vwap': 115.326765}}
+2025-08-15 15:13:23 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:13:23 INFO: Current average volume is: 1386.5
+2025-08-15 15:13:23 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:14:23 INFO: {'RBLX': {   'close': 115.19,
+    'high': 115.21,
+    'low': 115.115,
+    'open': 115.21,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 883.0,
+    'vwap': 115.17625}}
+2025-08-15 15:14:23 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:14:23 INFO: Current average volume is: 1395.7
+2025-08-15 15:14:23 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:15:24 INFO: {'RBLX': {   'close': 115.315,
+    'high': 115.365,
+    'low': 115.2,
+    'open': 115.2,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1859.0,
+    'vwap': 115.261995}}
+2025-08-15 15:15:24 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:15:24 INFO: Current average volume is: 1518.8
+2025-08-15 15:15:24 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:16:24 INFO: {'RBLX': {   'close': 115.415,
+    'high': 115.415,
+    'low': 115.34,
+    'open': 115.34,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1314.0,
+    'vwap': 115.371383}}
+2025-08-15 15:16:24 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:16:24 INFO: Current average volume is: 1557.6
+2025-08-15 15:16:24 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:17:24 INFO: {'RBLX': {   'close': 115.33,
+    'high': 115.45,
+    'low': 115.33,
+    'open': 115.41,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1764.0,
+    'vwap': 115.379667}}
+2025-08-15 15:17:24 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:17:24 INFO: Current average volume is: 1556.4
+2025-08-15 15:17:24 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:18:24 INFO: {'RBLX': {   'close': 115.55,
+    'high': 115.55,
+    'low': 115.34,
+    'open': 115.35,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1815.0,
+    'vwap': 115.402757}}
+2025-08-15 15:18:24 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:18:24 INFO: Current average volume is: 1461.2
+2025-08-15 15:18:24 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:19:24 INFO: {'RBLX': {   'close': 115.93,
+    'high': 115.93,
+    'low': 115.86,
+    'open': 115.86,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 650.0,
+    'vwap': 115.886667}}
+2025-08-15 15:19:24 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:19:24 INFO: Current average volume is: 1394.9
+2025-08-15 15:19:24 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:20:24 INFO: {'RBLX': {   'close': 115.85,
+    'high': 115.9,
+    'low': 115.83,
+    'open': 115.83,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 600.0,
+    'vwap': 115.873}}
+2025-08-15 15:20:24 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:20:24 INFO: Current average volume is: 1329.5
+2025-08-15 15:20:24 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:21:24 INFO: {'RBLX': {   'close': 115.765,
+    'high': 115.91,
+    'low': 115.765,
+    'open': 115.9,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1017.0,
+    'vwap': 115.832222}}
+2025-08-15 15:21:24 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:21:24 INFO: Current average volume is: 1258.6
+2025-08-15 15:21:24 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:23:24 INFO: {'RBLX': {   'close': 115.86,
+    'high': 115.86,
+    'low': 115.79,
+    'open': 115.825,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 786.0,
+    'vwap': 115.819167}}
+2025-08-15 15:23:24 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:23:24 INFO: Current average volume is: 1314.4
+2025-08-15 15:23:24 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:24:25 INFO: {'RBLX': {   'close': 115.785,
+    'high': 115.89,
+    'low': 115.76,
+    'open': 115.89,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1038.0,
+    'vwap': 115.8096}}
+2025-08-15 15:24:25 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:24:25 INFO: Current average volume is: 1172.6
+2025-08-15 15:24:25 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:25:25 INFO: {'RBLX': {   'close': 116.11,
+    'high': 116.155,
+    'low': 115.87,
+    'open': 115.87,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 1739.0,
+    'vwap': 116.078636}}
+2025-08-15 15:25:25 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:25:25 INFO: Current average volume is: 1258.2
+2025-08-15 15:25:25 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:26:25 INFO: {'RBLX': {   'close': 115.93,
+    'high': 116.115,
+    'low': 115.88,
+    'open': 116.115,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1476.0,
+    'vwap': 115.959167}}
+2025-08-15 15:26:25 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:26:25 INFO: Current average volume is: 1219.9
+2025-08-15 15:26:25 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:27:25 INFO: {'RBLX': {   'close': 115.965,
+    'high': 115.965,
+    'low': 115.91,
+    'open': 115.92,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1140.0,
+    'vwap': 115.94}}
+2025-08-15 15:27:25 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:27:25 INFO: Current average volume is: 1202.5
+2025-08-15 15:27:25 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:28:25 INFO: {'RBLX': {   'close': 115.89,
+    'high': 116.0,
+    'low': 115.865,
+    'open': 115.99,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1519.0,
+    'vwap': 115.91945}}
+2025-08-15 15:28:25 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:28:25 INFO: Current average volume is: 1178.0
+2025-08-15 15:28:25 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:29:25 INFO: {'RBLX': {   'close': 115.775,
+    'high': 115.875,
+    'low': 115.775,
+    'open': 115.875,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1307.0,
+    'vwap': 115.811334}}
+2025-08-15 15:29:25 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:29:25 INFO: Current average volume is: 1127.2
+2025-08-15 15:29:25 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:30:25 INFO: {'RBLX': {   'close': 115.89,
+    'high': 115.91,
+    'low': 115.845,
+    'open': 115.845,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1149.0,
+    'vwap': 115.862731}}
+2025-08-15 15:30:25 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:30:25 INFO: Current average volume is: 1177.1
+2025-08-15 15:30:25 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:31:25 INFO: {'RBLX': {   'close': 116.015,
+    'high': 116.03,
+    'low': 115.97,
+    'open': 115.97,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 771.0,
+    'vwap': 116.008}}
+2025-08-15 15:31:25 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:31:25 INFO: Current average volume is: 1194.2
+2025-08-15 15:31:25 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:32:26 INFO: {'RBLX': {   'close': 116.39,
+    'high': 116.39,
+    'low': 116.135,
+    'open': 116.135,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1263.0,
+    'vwap': 116.243}}
+2025-08-15 15:32:26 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:32:26 INFO: Current average volume is: 1218.8
+2025-08-15 15:32:26 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:33:26 INFO: {'RBLX': {   'close': 116.41,
+    'high': 116.41,
+    'low': 116.405,
+    'open': 116.405,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 446.0,
+    'vwap': 116.407549}}
+2025-08-15 15:33:26 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:33:26 INFO: Current average volume is: 1184.8
+2025-08-15 15:33:26 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:34:26 INFO: {'RBLX': {   'close': 116.785,
+    'high': 116.785,
+    'low': 116.51,
+    'open': 116.61,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 878.0,
+    'vwap': 116.605}}
+2025-08-15 15:34:26 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:34:26 INFO: Current average volume is: 1168.8
+2025-08-15 15:34:26 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:35:26 INFO: {'RBLX': {   'close': 116.58,
+    'high': 116.77,
+    'low': 116.58,
+    'open': 116.77,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 483.0,
+    'vwap': 116.698333}}
+2025-08-15 15:35:26 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:35:26 INFO: Current average volume is: 1043.2
+2025-08-15 15:35:26 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:36:26 INFO: {'RBLX': {   'close': 116.45,
+    'high': 116.63,
+    'low': 116.425,
+    'open': 116.595,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1246.0,
+    'vwap': 116.526119}}
+2025-08-15 15:36:26 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:36:26 INFO: Current average volume is: 1020.2
+2025-08-15 15:36:26 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:37:26 INFO: {'RBLX': {   'close': 116.68,
+    'high': 116.68,
+    'low': 116.51,
+    'open': 116.54,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1198.0,
+    'vwap': 116.56}}
+2025-08-15 15:37:26 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:37:26 INFO: Current average volume is: 1026.0
+2025-08-15 15:37:26 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:38:26 INFO: {'RBLX': {   'close': 116.73,
+    'high': 116.73,
+    'low': 116.725,
+    'open': 116.725,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 438.0,
+    'vwap': 116.728333}}
+2025-08-15 15:38:26 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:38:26 INFO: Current average volume is: 917.9
+2025-08-15 15:38:26 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:39:26 INFO: {'RBLX': {   'close': 116.86,
+    'high': 116.86,
+    'low': 116.735,
+    'open': 116.735,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 400.0,
+    'vwap': 116.7975}}
+2025-08-15 15:39:26 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:39:26 INFO: Current average volume is: 827.2
+2025-08-15 15:39:26 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:40:26 INFO: {'RBLX': {   'close': 116.5,
+    'high': 116.61,
+    'low': 116.5,
+    'open': 116.61,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 770.0,
+    'vwap': 116.553333}}
+2025-08-15 15:40:26 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:40:26 INFO: Current average volume is: 789.3
+2025-08-15 15:40:26 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:41:27 INFO: {'RBLX': {   'close': 116.605,
+    'high': 116.605,
+    'low': 116.33,
+    'open': 116.48,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1504.0,
+    'vwap': 116.445152}}
+2025-08-15 15:41:27 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:41:27 INFO: Current average volume is: 862.6
+2025-08-15 15:41:27 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:42:27 INFO: {'RBLX': {   'close': 116.63,
+    'high': 116.66,
+    'low': 116.53,
+    'open': 116.53,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 1280.0,
+    'vwap': 116.585}}
+2025-08-15 15:42:27 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:42:27 INFO: Current average volume is: 864.3
+2025-08-15 15:42:27 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:43:27 INFO: {'RBLX': {   'close': 116.56,
+    'high': 116.595,
+    'low': 116.49,
+    'open': 116.49,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 715.0,
+    'vwap': 116.549739}}
+2025-08-15 15:43:27 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:43:27 INFO: Current average volume is: 891.2
+2025-08-15 15:43:27 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:44:27 INFO: {'RBLX': {   'close': 116.49,
+    'high': 116.62,
+    'low': 116.48,
+    'open': 116.565,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 2297.0,
+    'vwap': 116.556197}}
+2025-08-15 15:44:27 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:44:27 INFO: Current average volume is: 1033.1
+2025-08-15 15:44:27 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:45:27 INFO: {'RBLX': {   'close': 116.68,
+    'high': 116.68,
+    'low': 116.505,
+    'open': 116.505,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1177.0,
+    'vwap': 116.563227}}
+2025-08-15 15:45:27 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:45:27 INFO: Current average volume is: 1102.5
+2025-08-15 15:45:27 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:46:27 INFO: {'RBLX': {   'close': 116.82,
+    'high': 116.82,
+    'low': 116.82,
+    'open': 116.82,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 310.0,
+    'vwap': 116.82}}
+2025-08-15 15:46:27 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:46:27 INFO: Current average volume is: 1008.9
+2025-08-15 15:46:27 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:47:27 INFO: {'RBLX': {   'close': 116.9,
+    'high': 116.92,
+    'low': 116.76,
+    'open': 116.92,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1372.0,
+    'vwap': 116.849537}}
+2025-08-15 15:47:27 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:47:27 INFO: Current average volume is: 1026.3
+2025-08-15 15:47:27 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:48:27 INFO: {'RBLX': {   'close': 116.615,
+    'high': 116.98,
+    'low': 116.615,
+    'open': 116.98,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 719.0,
+    'vwap': 116.858}}
+2025-08-15 15:48:27 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:48:27 INFO: Current average volume is: 1054.4
+2025-08-15 15:48:27 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:49:28 INFO: {'RBLX': {   'close': 116.94,
+    'high': 116.94,
+    'low': 116.78,
+    'open': 116.78,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1074.0,
+    'vwap': 116.873333}}
+2025-08-15 15:49:28 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:49:28 INFO: Current average volume is: 1121.8
+2025-08-15 15:49:28 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:50:28 INFO: {'RBLX': {   'close': 117.22,
+    'high': 117.22,
+    'low': 116.99,
+    'open': 116.99,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1931.0,
+    'vwap': 117.195309}}
+2025-08-15 15:50:28 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:50:28 INFO: Current average volume is: 1237.9
+2025-08-15 15:50:28 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:52:28 INFO: {'RBLX': {   'close': 117.105,
+    'high': 117.175,
+    'low': 116.79,
+    'open': 116.815,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 59.0,
+    'volume': 4202.0,
+    'vwap': 117.039869}}
+2025-08-15 15:52:28 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:52:28 INFO: Current average volume is: 1507.7
+2025-08-15 15:52:28 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:53:28 INFO: {'RBLX': {   'close': 117.37,
+    'high': 117.41,
+    'low': 117.075,
+    'open': 117.075,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 50.0,
+    'volume': 3170.0,
+    'vwap': 117.261567}}
+2025-08-15 15:53:28 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:53:28 INFO: Current average volume is: 1696.7
+2025-08-15 15:53:28 INFO: Updated resistance to: 117.43 and support to: 113.755
+2025-08-15 15:54:28 INFO: {'RBLX': {   'close': 117.59,
+    'high': 117.63,
+    'low': 117.32,
+    'open': 117.38,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 74.0,
+    'volume': 5228.0,
+    'vwap': 117.451278}}
+2025-08-15 15:54:28 INFO: Current resistance is: 117.43 and support is: 113.755
+2025-08-15 15:54:28 INFO: Current average volume is: 2148.0
+2025-08-15 15:54:28 INFO: The Current Close 117.59 is above the resistance...
+2025-08-15 15:54:28 INFO: Updated resistance to: 117.63 and support to: 113.755
+2025-08-15 15:55:28 INFO: {'RBLX': {   'close': 117.45,
+    'high': 117.56,
+    'low': 117.4,
+    'open': 117.525,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2654.0,
+    'vwap': 117.468913}}
+2025-08-15 15:55:28 INFO: Current resistance is: 117.63 and support is: 113.755
+2025-08-15 15:55:28 INFO: Current average volume is: 2183.7
+2025-08-15 15:55:28 INFO: Updated resistance to: 117.63 and support to: 113.755
+2025-08-15 15:56:29 INFO: {'RBLX': {   'close': 117.23,
+    'high': 117.45,
+    'low': 117.035,
+    'open': 117.445,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 96.0,
+    'volume': 7205.0,
+    'vwap': 117.201491}}
+2025-08-15 15:56:29 INFO: Current resistance is: 117.63 and support is: 113.755
+2025-08-15 15:56:29 INFO: Current average volume is: 2786.5
+2025-08-15 15:56:29 INFO: Updated resistance to: 117.63 and support to: 113.755
+2025-08-15 15:57:29 INFO: {'RBLX': {   'close': 117.105,
+    'high': 117.185,
+    'low': 117.1,
+    'open': 117.14,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 85.0,
+    'volume': 6437.0,
+    'vwap': 117.143596}}
+2025-08-15 15:57:29 INFO: Current resistance is: 117.63 and support is: 113.755
+2025-08-15 15:57:29 INFO: Current average volume is: 3399.2
+2025-08-15 15:57:29 INFO: Updated resistance to: 117.63 and support to: 113.755
+2025-08-15 15:58:29 INFO: {'RBLX': {   'close': 117.26,
+    'high': 117.26,
+    'low': 117.045,
+    'open': 117.125,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 90.0,
+    'volume': 5828.0,
+    'vwap': 117.186634}}
+2025-08-15 15:58:29 INFO: Current resistance is: 117.63 and support is: 113.755
+2025-08-15 15:58:29 INFO: Current average volume is: 3844.8
+2025-08-15 15:58:29 INFO: Updated resistance to: 117.63 and support to: 113.755
+2025-08-15 15:59:29 INFO: {'RBLX': {   'close': 117.345,
+    'high': 117.55,
+    'low': 117.32,
+    'open': 117.32,
+    'symbol': 'RBLX',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 116.0,
+    'volume': 5582.0,
+    'vwap': 117.416063}}
+2025-08-15 15:59:29 INFO: Current resistance is: 117.63 and support is: 113.755
+2025-08-15 15:59:29 INFO: Current average volume is: 4331.1
+2025-08-15 15:59:29 INFO: Updated resistance to: 117.63 and support to: 113.755
+2025-08-15 16:00:29 INFO: The Market is closed...

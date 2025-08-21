@@ -1,0 +1,1890 @@
+2025-08-15 09:55:13 INFO: === Strategy started ===
+2025-08-15 09:55:13 INFO: Start collecting the current highs/lows for: CRWV
+2025-08-15 09:55:14 INFO: Most recent stock data: {'CRWV': {   'close': 100.77,
+    'high': 101.035,
+    'low': 100.545,
+    'open': 100.92,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 72.0,
+    'volume': 7747.0,
+    'vwap': 100.837087}}
+2025-08-15 09:56:14 INFO: Most recent stock data: {'CRWV': {   'close': 100.62,
+    'high': 101.025,
+    'low': 100.235,
+    'open': 100.235,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2505.0,
+    'vwap': 100.722222}}
+2025-08-15 09:57:14 INFO: Most recent stock data: {'CRWV': {   'close': 101.25,
+    'high': 101.26,
+    'low': 100.66,
+    'open': 100.66,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 81.0,
+    'volume': 9835.0,
+    'vwap': 101.032346}}
+2025-08-15 09:58:15 INFO: Most recent stock data: {'CRWV': {   'close': 100.9,
+    'high': 101.49,
+    'low': 100.72,
+    'open': 101.44,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 3031.0,
+    'vwap': 101.240284}}
+2025-08-15 09:59:15 INFO: Most recent stock data: {'CRWV': {   'close': 101.1,
+    'high': 101.26,
+    'low': 100.87,
+    'open': 101.07,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3649.0,
+    'vwap': 101.030694}}
+2025-08-15 10:00:15 INFO: Most recent stock data: {'CRWV': {   'close': 100.9,
+    'high': 101.29,
+    'low': 100.48,
+    'open': 101.29,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 2704.0,
+    'vwap': 100.715882}}
+2025-08-15 10:01:15 INFO: Most recent stock data: {'CRWV': {   'close': 100.825,
+    'high': 101.25,
+    'low': 100.35,
+    'open': 100.74,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 4497.0,
+    'vwap': 100.74504}}
+2025-08-15 10:02:15 INFO: Most recent stock data: {'CRWV': {   'close': 99.65,
+    'high': 101.15,
+    'low': 99.65,
+    'open': 100.825,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 3527.0,
+    'vwap': 100.124179}}
+2025-08-15 10:03:15 INFO: Most recent stock data: {'CRWV': {   'close': 98.55,
+    'high': 99.99,
+    'low': 98.425,
+    'open': 99.99,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 7517.0,
+    'vwap': 98.958469}}
+2025-08-15 10:04:15 INFO: Most recent stock data: {'CRWV': {   'close': 98.55,
+    'high': 98.86,
+    'low': 98.16,
+    'open': 98.35,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 84.0,
+    'volume': 8701.0,
+    'vwap': 98.387962}}
+2025-08-15 10:05:15 INFO: Most recent stock data: {'CRWV': {   'close': 98.5,
+    'high': 99.19,
+    'low': 98.13,
+    'open': 98.83,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 5656.0,
+    'vwap': 98.527097}}
+2025-08-15 10:05:15 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 10:05:15 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-15 10:06:16 INFO: {'CRWV': {   'close': 98.235,
+    'high': 98.64,
+    'low': 98.03,
+    'open': 98.46,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 9539.0,
+    'vwap': 98.166747}}
+2025-08-15 10:06:16 INFO: Current resistance is: 99.862 and support is: 97.86
+2025-08-15 10:06:16 INFO: Current average volume is: 5865.6
+2025-08-15 10:06:16 INFO: Updated resistance to: 99.365 and support to: 97.752
+2025-08-15 10:07:16 INFO: {'CRWV': {   'close': 97.83,
+    'high': 98.505,
+    'low': 97.83,
+    'open': 98.43,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 71.0,
+    'volume': 8795.0,
+    'vwap': 98.304142}}
+2025-08-15 10:07:16 INFO: Current resistance is: 99.365 and support is: 97.752
+2025-08-15 10:07:16 INFO: Current average volume is: 5761.6
+2025-08-15 10:07:16 INFO: Updated resistance to: 98.965 and support to: 97.551
+2025-08-15 10:08:16 INFO: {'CRWV': {   'close': 97.335,
+    'high': 97.825,
+    'low': 97.0,
+    'open': 97.825,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 71.0,
+    'volume': 7228.0,
+    'vwap': 97.30568}}
+2025-08-15 10:08:16 INFO: Current resistance is: 98.965 and support is: 97.551
+2025-08-15 10:08:16 INFO: Current average volume is: 6181.3
+2025-08-15 10:08:16 INFO: close price: 97.335 just dropped below support of 97.551...
+2025-08-15 10:09:16 INFO: {'CRWV': {   'close': 96.93,
+    'high': 97.47,
+    'low': 96.905,
+    'open': 97.005,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 6906.0,
+    'vwap': 96.987079}}
+2025-08-15 10:09:16 INFO: Current resistance is: 98.965 and support is: 97.551
+2025-08-15 10:09:16 INFO: Current average volume is: 6507.0
+2025-08-15 10:09:16 INFO: Closing price: 96.93 just dropped below support 97.551 again...ending trade...
+2025-08-15 10:40:12 INFO: === Strategy started ===
+2025-08-15 10:40:12 INFO: Start collecting the current highs/lows for: CRWV
+2025-08-15 10:40:12 INFO: Most recent stock data: {'CRWV': {   'close': 98.86,
+    'high': 98.875,
+    'low': 98.715,
+    'open': 98.715,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 969.0,
+    'vwap': 98.828333}}
+2025-08-15 10:41:12 INFO: Most recent stock data: {'CRWV': {   'close': 97.985,
+    'high': 98.905,
+    'low': 97.95,
+    'open': 98.905,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 3117.0,
+    'vwap': 98.225894}}
+2025-08-15 10:42:12 INFO: Most recent stock data: {'CRWV': {   'close': 97.96,
+    'high': 97.99,
+    'low': 97.675,
+    'open': 97.85,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 3431.0,
+    'vwap': 97.817143}}
+2025-08-15 10:43:13 INFO: Most recent stock data: {'CRWV': {   'close': 97.995,
+    'high': 98.01,
+    'low': 97.79,
+    'open': 97.95,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1676.0,
+    'vwap': 97.93312}}
+2025-08-15 10:45:13 INFO: Most recent stock data: {'CRWV': {   'close': 97.76,
+    'high': 97.785,
+    'low': 97.715,
+    'open': 97.785,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2578.0,
+    'vwap': 97.752553}}
+2025-08-15 10:46:13 INFO: Most recent stock data: {'CRWV': {   'close': 97.77,
+    'high': 97.77,
+    'low': 97.77,
+    'open': 97.77,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 110.0,
+    'vwap': 97.77}}
+2025-08-15 10:47:14 INFO: Most recent stock data: {'CRWV': {   'close': 97.905,
+    'high': 97.905,
+    'low': 97.73,
+    'open': 97.74,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 620.0,
+    'vwap': 97.777}}
+2025-08-15 10:48:14 INFO: Most recent stock data: {'CRWV': {   'close': 97.795,
+    'high': 97.795,
+    'low': 97.64,
+    'open': 97.64,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1094.0,
+    'vwap': 97.7025}}
+2025-08-15 10:49:14 INFO: Most recent stock data: {'CRWV': {   'close': 97.44,
+    'high': 97.78,
+    'low': 97.44,
+    'open': 97.78,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1033.0,
+    'vwap': 97.554545}}
+2025-08-15 10:50:14 INFO: Most recent stock data: {'CRWV': {   'close': 97.35,
+    'high': 97.495,
+    'low': 97.25,
+    'open': 97.495,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 4220.0,
+    'vwap': 97.435044}}
+2025-08-15 10:51:14 INFO: Most recent stock data: {'CRWV': {   'close': 97.925,
+    'high': 97.925,
+    'low': 97.73,
+    'open': 97.73,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 331.0,
+    'vwap': 97.801667}}
+2025-08-15 10:51:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 10:51:14 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-15 10:52:14 INFO: {'CRWV': {   'close': 97.63,
+    'high': 98.005,
+    'low': 97.63,
+    'open': 98.0,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1433.0,
+    'vwap': 97.934524}}
+2025-08-15 10:52:14 INFO: Current resistance is: 97.875 and support is: 97.092
+2025-08-15 10:52:14 INFO: Current average volume is: 1652.6
+2025-08-15 10:52:14 INFO: Updated resistance to: 98.027 and support to: 97.052
+2025-08-15 10:53:14 INFO: {'CRWV': {   'close': 97.145,
+    'high': 97.57,
+    'low': 97.145,
+    'open': 97.54,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 59.0,
+    'volume': 5386.0,
+    'vwap': 97.334675}}
+2025-08-15 10:53:14 INFO: Current resistance is: 98.027 and support is: 97.052
+2025-08-15 10:53:14 INFO: Current average volume is: 1848.1
+2025-08-15 10:53:14 INFO: Updated resistance to: 97.974 and support to: 97.073
+2025-08-15 10:54:14 INFO: {'CRWV': {   'close': 97.3,
+    'high': 97.505,
+    'low': 97.005,
+    'open': 97.145,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 58.0,
+    'volume': 5796.0,
+    'vwap': 97.185}}
+2025-08-15 10:54:14 INFO: Current resistance is: 97.974 and support is: 97.073
+2025-08-15 10:54:14 INFO: Current average volume is: 2260.1
+2025-08-15 10:54:14 INFO: Updated resistance to: 97.92 and support to: 96.927
+2025-08-15 10:55:15 INFO: {'CRWV': {   'close': 97.005,
+    'high': 97.375,
+    'low': 97.0,
+    'open': 97.375,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 4713.0,
+    'vwap': 97.106461}}
+2025-08-15 10:55:15 INFO: Current resistance is: 97.92 and support is: 96.927
+2025-08-15 10:55:15 INFO: Current average volume is: 2473.6
+2025-08-15 10:55:15 INFO: Updated resistance to: 97.841 and support to: 96.921
+2025-08-15 10:56:15 INFO: {'CRWV': {   'close': 96.98,
+    'high': 97.295,
+    'low': 96.98,
+    'open': 96.995,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 3951.0,
+    'vwap': 97.110696}}
+2025-08-15 10:56:15 INFO: Current resistance is: 97.841 and support is: 96.921
+2025-08-15 10:56:15 INFO: Current average volume is: 2857.7
+2025-08-15 10:56:15 INFO: Updated resistance to: 97.762 and support to: 96.901
+2025-08-15 10:57:15 INFO: {'CRWV': {   'close': 97.66,
+    'high': 97.74,
+    'low': 96.97,
+    'open': 96.985,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 3419.0,
+    'vwap': 97.276718}}
+2025-08-15 10:57:15 INFO: Current resistance is: 97.762 and support is: 96.901
+2025-08-15 10:57:15 INFO: Current average volume is: 3137.6
+2025-08-15 10:57:15 INFO: Updated resistance to: 97.847 and support to: 96.892
+2025-08-15 10:58:15 INFO: {'CRWV': {   'close': 97.43,
+    'high': 97.735,
+    'low': 97.38,
+    'open': 97.73,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2219.0,
+    'vwap': 97.584316}}
+2025-08-15 10:58:15 INFO: Current resistance is: 97.847 and support is: 96.892
+2025-08-15 10:58:15 INFO: Current average volume is: 3250.1
+2025-08-15 10:58:15 INFO: Updated resistance to: 97.919 and support to: 96.833
+2025-08-15 10:59:15 INFO: {'CRWV': {   'close': 97.98,
+    'high': 97.98,
+    'low': 97.49,
+    'open': 97.49,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1135.0,
+    'vwap': 97.722727}}
+2025-08-15 10:59:15 INFO: Current resistance is: 97.919 and support is: 96.833
+2025-08-15 10:59:15 INFO: Current average volume is: 3260.3
+2025-08-15 10:59:15 INFO: The Current Close 97.98 is above the resistance...
+2025-08-15 10:59:15 INFO: Updated resistance to: 98.052 and support to: 96.794
+2025-08-15 11:00:15 INFO: {'CRWV': {   'close': 98.025,
+    'high': 98.08,
+    'low': 97.86,
+    'open': 98.0,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1383.0,
+    'vwap': 97.995278}}
+2025-08-15 11:00:15 INFO: Current resistance is: 98.052 and support is: 96.794
+2025-08-15 11:00:15 INFO: Current average volume is: 2976.6
+2025-08-15 11:00:15 INFO: Updated resistance to: 98.192 and support to: 96.788
+2025-08-15 11:02:15 INFO: {'CRWV': {   'close': 98.06,
+    'high': 98.06,
+    'low': 97.985,
+    'open': 97.985,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 635.0,
+    'vwap': 98.014}}
+2025-08-15 11:02:15 INFO: Current resistance is: 98.192 and support is: 96.788
+2025-08-15 11:02:15 INFO: Current average volume is: 3007.0
+2025-08-15 11:02:15 INFO: Updated resistance to: 98.304 and support to: 96.802
+2025-08-15 11:03:16 INFO: {'CRWV': {   'close': 98.24,
+    'high': 98.24,
+    'low': 98.03,
+    'open': 98.03,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2056.0,
+    'vwap': 98.139227}}
+2025-08-15 11:03:16 INFO: Current resistance is: 98.304 and support is: 96.802
+2025-08-15 11:03:16 INFO: Current average volume is: 3069.3
+2025-08-15 11:03:16 INFO: Updated resistance to: 98.445 and support to: 96.828
+2025-08-15 11:04:16 INFO: {'CRWV': {   'close': 98.17,
+    'high': 98.34,
+    'low': 98.02,
+    'open': 98.3,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1892.0,
+    'vwap': 98.227755}}
+2025-08-15 11:04:16 INFO: Current resistance is: 98.445 and support is: 96.828
+2025-08-15 11:04:16 INFO: Current average volume is: 2719.9
+2025-08-15 11:04:16 INFO: Updated resistance to: 98.588 and support to: 96.858
+2025-08-15 11:05:16 INFO: {'CRWV': {   'close': 98.305,
+    'high': 98.45,
+    'low': 98.15,
+    'open': 98.15,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2174.0,
+    'vwap': 98.338462}}
+2025-08-15 11:05:16 INFO: Current resistance is: 98.588 and support is: 96.858
+2025-08-15 11:05:16 INFO: Current average volume is: 2357.7
+2025-08-15 11:05:16 INFO: Updated resistance to: 98.736 and support to: 96.901
+2025-08-15 11:06:16 INFO: {'CRWV': {   'close': 98.01,
+    'high': 98.24,
+    'low': 98.01,
+    'open': 98.24,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1075.0,
+    'vwap': 98.15104}}
+2025-08-15 11:06:16 INFO: Current resistance is: 98.736 and support is: 96.901
+2025-08-15 11:06:16 INFO: Current average volume is: 1993.9
+2025-08-15 11:06:16 INFO: Updated resistance to: 98.815 and support to: 96.933
+2025-08-15 11:07:16 INFO: {'CRWV': {   'close': 98.32,
+    'high': 98.32,
+    'low': 98.14,
+    'open': 98.14,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 939.0,
+    'vwap': 98.204815}}
+2025-08-15 11:07:16 INFO: Current resistance is: 98.815 and support is: 96.933
+2025-08-15 11:07:16 INFO: Current average volume is: 1692.7
+2025-08-15 11:07:16 INFO: Updated resistance to: 98.9 and support to: 96.976
+2025-08-15 11:08:16 INFO: {'CRWV': {   'close': 98.21,
+    'high': 98.71,
+    'low': 98.21,
+    'open': 98.42,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 940.0,
+    'vwap': 98.573551}}
+2025-08-15 11:08:16 INFO: Current resistance is: 98.9 and support is: 96.976
+2025-08-15 11:08:16 INFO: Current average volume is: 1444.8
+2025-08-15 11:08:16 INFO: Updated resistance to: 99.053 and support to: 97.024
+2025-08-15 11:09:16 INFO: {'CRWV': {   'close': 98.3,
+    'high': 98.35,
+    'low': 98.04,
+    'open': 98.04,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1852.0,
+    'vwap': 98.241242}}
+2025-08-15 11:09:16 INFO: Current resistance is: 99.053 and support is: 97.024
+2025-08-15 11:09:16 INFO: Current average volume is: 1408.1
+2025-08-15 11:09:16 INFO: Updated resistance to: 99.114 and support to: 97.054
+2025-08-15 11:10:16 INFO: {'CRWV': {   'close': 98.2,
+    'high': 98.42,
+    'low': 98.2,
+    'open': 98.28,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1932.0,
+    'vwap': 98.356263}}
+2025-08-15 11:10:16 INFO: Current resistance is: 99.114 and support is: 97.054
+2025-08-15 11:10:16 INFO: Current average volume is: 1487.8
+2025-08-15 11:10:16 INFO: Updated resistance to: 99.179 and support to: 97.097
+2025-08-15 11:11:17 INFO: {'CRWV': {   'close': 98.22,
+    'high': 98.3,
+    'low': 98.22,
+    'open': 98.3,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 420.0,
+    'vwap': 98.25125}}
+2025-08-15 11:11:17 INFO: Current resistance is: 99.179 and support is: 97.097
+2025-08-15 11:11:17 INFO: Current average volume is: 1391.5
+2025-08-15 11:11:17 INFO: Updated resistance to: 99.213 and support to: 97.14
+2025-08-15 11:12:17 INFO: {'CRWV': {   'close': 98.13,
+    'high': 98.13,
+    'low': 98.06,
+    'open': 98.06,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1900.0,
+    'vwap': 98.122105}}
+2025-08-15 11:12:17 INFO: Current resistance is: 99.213 and support is: 97.14
+2025-08-15 11:12:17 INFO: Current average volume is: 1518.0
+2025-08-15 11:12:17 INFO: Updated resistance to: 99.212 and support to: 97.165
+2025-08-15 11:13:17 INFO: {'CRWV': {   'close': 98.37,
+    'high': 98.37,
+    'low': 98.08,
+    'open': 98.1,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 546.0,
+    'vwap': 98.228}}
+2025-08-15 11:13:17 INFO: Current resistance is: 99.212 and support is: 97.165
+2025-08-15 11:13:17 INFO: Current average volume is: 1367.0
+2025-08-15 11:13:17 INFO: Updated resistance to: 99.252 and support to: 97.19
+2025-08-15 11:14:17 INFO: {'CRWV': {   'close': 98.42,
+    'high': 98.42,
+    'low': 98.28,
+    'open': 98.36,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 450.0,
+    'vwap': 98.37}}
+2025-08-15 11:14:17 INFO: Current resistance is: 99.252 and support is: 97.19
+2025-08-15 11:14:17 INFO: Current average volume is: 1222.8
+2025-08-15 11:14:17 INFO: Updated resistance to: 99.296 and support to: 97.231
+2025-08-15 11:15:17 INFO: {'CRWV': {   'close': 98.64,
+    'high': 98.715,
+    'low': 98.39,
+    'open': 98.42,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 3990.0,
+    'vwap': 98.615161}}
+2025-08-15 11:15:17 INFO: Current resistance is: 99.296 and support is: 97.231
+2025-08-15 11:15:17 INFO: Current average volume is: 1404.4
+2025-08-15 11:15:17 INFO: Updated resistance to: 99.383 and support to: 97.279
+2025-08-15 11:16:17 INFO: {'CRWV': {   'close': 98.92,
+    'high': 98.92,
+    'low': 98.765,
+    'open': 98.765,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 701.0,
+    'vwap': 98.788485}}
+2025-08-15 11:16:17 INFO: Current resistance is: 99.383 and support is: 97.279
+2025-08-15 11:16:17 INFO: Current average volume is: 1367.0
+2025-08-15 11:16:17 INFO: Updated resistance to: 98.937 and support to: 97.358
+2025-08-15 11:17:17 INFO: {'CRWV': {   'close': 98.715,
+    'high': 99.0,
+    'low': 98.56,
+    'open': 99.0,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1897.0,
+    'vwap': 98.788}}
+2025-08-15 11:17:17 INFO: Current resistance is: 98.937 and support is: 97.358
+2025-08-15 11:17:17 INFO: Current average volume is: 1462.8
+2025-08-15 11:17:17 INFO: Updated resistance to: 99.02 and support to: 97.413
+2025-08-15 11:18:17 INFO: {'CRWV': {   'close': 98.73,
+    'high': 98.83,
+    'low': 98.72,
+    'open': 98.72,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1236.0,
+    'vwap': 98.761}}
+2025-08-15 11:18:17 INFO: Current resistance is: 99.02 and support is: 97.413
+2025-08-15 11:18:17 INFO: Current average volume is: 1492.4
+2025-08-15 11:18:17 INFO: Updated resistance to: 99.043 and support to: 97.478
+2025-08-15 11:19:18 INFO: {'CRWV': {   'close': 98.91,
+    'high': 99.0,
+    'low': 98.77,
+    'open': 98.77,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1659.0,
+    'vwap': 98.874992}}
+2025-08-15 11:19:18 INFO: Current resistance is: 99.043 and support is: 97.478
+2025-08-15 11:19:18 INFO: Current average volume is: 1473.1
+2025-08-15 11:19:18 INFO: Updated resistance to: 99.07 and support to: 97.542
+2025-08-15 11:22:18 INFO: {'CRWV': {   'close': 98.99,
+    'high': 98.99,
+    'low': 98.84,
+    'open': 98.85,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1351.0,
+    'vwap': 98.897052}}
+2025-08-15 11:22:18 INFO: Current resistance is: 99.07 and support is: 97.542
+2025-08-15 11:22:18 INFO: Current average volume is: 1415.0
+2025-08-15 11:22:18 INFO: Updated resistance to: 99.099 and support to: 97.608
+2025-08-15 11:23:18 INFO: {'CRWV': {   'close': 98.89,
+    'high': 98.94,
+    'low': 98.87,
+    'open': 98.89,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1550.0,
+    'vwap': 98.888519}}
+2025-08-15 11:23:18 INFO: Current resistance is: 99.099 and support is: 97.608
+2025-08-15 11:23:18 INFO: Current average volume is: 1528.0
+2025-08-15 11:23:18 INFO: Updated resistance to: 99.128 and support to: 97.672
+2025-08-15 11:25:18 INFO: {'CRWV': {   'close': 98.45,
+    'high': 98.6,
+    'low': 98.405,
+    'open': 98.6,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2125.0,
+    'vwap': 98.521589}}
+2025-08-15 11:25:18 INFO: Current resistance is: 99.128 and support is: 97.672
+2025-08-15 11:25:18 INFO: Current average volume is: 1550.5
+2025-08-15 11:25:18 INFO: Updated resistance to: 99.151 and support to: 97.69
+2025-08-15 11:26:18 INFO: {'CRWV': {   'close': 98.44,
+    'high': 98.67,
+    'low': 98.385,
+    'open': 98.385,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2012.0,
+    'vwap': 98.504967}}
+2025-08-15 11:26:18 INFO: Current resistance is: 99.151 and support is: 97.69
+2025-08-15 11:26:18 INFO: Current average volume is: 1697.1
+2025-08-15 11:26:18 INFO: Updated resistance to: 99.174 and support to: 97.705
+2025-08-15 11:27:19 INFO: {'CRWV': {   'close': 98.53,
+    'high': 98.59,
+    'low': 98.475,
+    'open': 98.475,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 3274.0,
+    'vwap': 98.546094}}
+2025-08-15 11:27:19 INFO: Current resistance is: 99.174 and support is: 97.705
+2025-08-15 11:27:19 INFO: Current average volume is: 1979.5
+2025-08-15 11:27:19 INFO: Updated resistance to: 99.195 and support to: 97.726
+2025-08-15 11:28:19 INFO: {'CRWV': {   'close': 98.35,
+    'high': 98.53,
+    'low': 98.32,
+    'open': 98.53,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3480.0,
+    'vwap': 98.405962}}
+2025-08-15 11:28:19 INFO: Current resistance is: 99.195 and support is: 97.726
+2025-08-15 11:28:19 INFO: Current average volume is: 1928.5
+2025-08-15 11:28:19 INFO: Updated resistance to: 99.212 and support to: 97.732
+2025-08-15 11:30:19 INFO: {'CRWV': {   'close': 98.525,
+    'high': 98.525,
+    'low': 98.28,
+    'open': 98.28,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2207.0,
+    'vwap': 98.38325}}
+2025-08-15 11:30:19 INFO: Current resistance is: 99.212 and support is: 97.732
+2025-08-15 11:30:19 INFO: Current average volume is: 2079.1
+2025-08-15 11:30:19 INFO: Updated resistance to: 99.229 and support to: 97.733
+2025-08-15 11:31:19 INFO: {'CRWV': {   'close': 98.39,
+    'high': 98.53,
+    'low': 98.315,
+    'open': 98.53,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1978.0,
+    'vwap': 98.452941}}
+2025-08-15 11:31:19 INFO: Current resistance is: 99.229 and support is: 97.733
+2025-08-15 11:31:19 INFO: Current average volume is: 2087.2
+2025-08-15 11:31:19 INFO: Updated resistance to: 99.244 and support to: 97.737
+2025-08-15 11:32:19 INFO: {'CRWV': {   'close': 98.55,
+    'high': 98.625,
+    'low': 98.43,
+    'open': 98.43,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1379.0,
+    'vwap': 98.4648}}
+2025-08-15 11:32:19 INFO: Current resistance is: 99.244 and support is: 97.737
+2025-08-15 11:32:19 INFO: Current average volume is: 2101.5
+2025-08-15 11:32:19 INFO: Updated resistance to: 99.262 and support to: 97.75
+2025-08-15 11:33:19 INFO: {'CRWV': {   'close': 98.715,
+    'high': 98.715,
+    'low': 98.485,
+    'open': 98.485,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 703.0,
+    'vwap': 98.681429}}
+2025-08-15 11:33:19 INFO: Current resistance is: 99.262 and support is: 97.75
+2025-08-15 11:33:19 INFO: Current average volume is: 2005.9
+2025-08-15 11:33:19 INFO: Updated resistance to: 99.281 and support to: 97.766
+2025-08-15 11:34:19 INFO: {'CRWV': {   'close': 98.86,
+    'high': 98.99,
+    'low': 98.73,
+    'open': 98.73,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1921.0,
+    'vwap': 98.861073}}
+2025-08-15 11:34:19 INFO: Current resistance is: 99.281 and support is: 97.766
+2025-08-15 11:34:19 INFO: Current average volume is: 2062.9
+2025-08-15 11:34:19 INFO: Updated resistance to: 99.309 and support to: 97.8
+2025-08-15 11:35:19 INFO: {'CRWV': {   'close': 98.775,
+    'high': 99.0,
+    'low': 98.77,
+    'open': 98.94,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3658.0,
+    'vwap': 98.946269}}
+2025-08-15 11:35:19 INFO: Current resistance is: 99.309 and support is: 97.8
+2025-08-15 11:35:19 INFO: Current average volume is: 2273.7
+2025-08-15 11:35:19 INFO: Updated resistance to: 99.337 and support to: 97.835
+2025-08-15 11:36:20 INFO: {'CRWV': {   'close': 98.64,
+    'high': 98.64,
+    'low': 98.64,
+    'open': 98.64,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 201.0,
+    'vwap': 98.64}}
+2025-08-15 11:36:20 INFO: Current resistance is: 99.337 and support is: 97.835
+2025-08-15 11:36:20 INFO: Current average volume is: 2081.3
+2025-08-15 11:36:20 INFO: Updated resistance to: 99.351 and support to: 97.856
+2025-08-15 11:37:20 INFO: {'CRWV': {   'close': 98.675,
+    'high': 98.7,
+    'low': 98.63,
+    'open': 98.67,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 98.669}}
+2025-08-15 11:37:20 INFO: Current resistance is: 99.351 and support is: 97.856
+2025-08-15 11:37:20 INFO: Current average volume is: 1930.1
+2025-08-15 11:37:20 INFO: Updated resistance to: 99.366 and support to: 97.876
+2025-08-15 11:38:20 INFO: {'CRWV': {   'close': 98.91,
+    'high': 98.91,
+    'low': 98.71,
+    'open': 98.795,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1328.0,
+    'vwap': 98.859529}}
+2025-08-15 11:38:20 INFO: Current resistance is: 99.366 and support is: 97.876
+2025-08-15 11:38:20 INFO: Current average volume is: 1735.5
+2025-08-15 11:38:20 INFO: Updated resistance to: 99.389 and support to: 97.9
+2025-08-15 11:39:20 INFO: {'CRWV': {   'close': 99.23,
+    'high': 99.23,
+    'low': 98.915,
+    'open': 98.92,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 6566.0,
+    'vwap': 99.061978}}
+2025-08-15 11:39:20 INFO: Current resistance is: 99.389 and support is: 97.9
+2025-08-15 11:39:20 INFO: Current average volume is: 2044.1
+2025-08-15 11:39:20 INFO: Updated resistance to: 99.252 and support to: 97.938
+2025-08-15 11:40:20 INFO: {'CRWV': {   'close': 99.13,
+    'high': 99.22,
+    'low': 99.085,
+    'open': 99.19,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2068.0,
+    'vwap': 99.131972}}
+2025-08-15 11:40:20 INFO: Current resistance is: 99.252 and support is: 97.938
+2025-08-15 11:40:20 INFO: Current average volume is: 2030.2
+2025-08-15 11:40:20 INFO: Updated resistance to: 99.276 and support to: 97.986
+2025-08-15 11:41:20 INFO: {'CRWV': {   'close': 98.76,
+    'high': 99.2,
+    'low': 98.76,
+    'open': 99.17,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 64.0,
+    'volume': 4458.0,
+    'vwap': 99.011756}}
+2025-08-15 11:41:20 INFO: Current resistance is: 99.276 and support is: 97.986
+2025-08-15 11:41:20 INFO: Current average volume is: 2278.2
+2025-08-15 11:41:20 INFO: Updated resistance to: 99.299 and support to: 98.006
+2025-08-15 11:42:20 INFO: {'CRWV': {   'close': 99.015,
+    'high': 99.015,
+    'low': 98.875,
+    'open': 98.96,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 840.0,
+    'vwap': 98.957857}}
+2025-08-15 11:42:20 INFO: Current resistance is: 99.299 and support is: 98.006
+2025-08-15 11:42:20 INFO: Current average volume is: 2224.3
+2025-08-15 11:42:20 INFO: Updated resistance to: 99.322 and support to: 98.034
+2025-08-15 11:43:20 INFO: {'CRWV': {   'close': 99.15,
+    'high': 99.3,
+    'low': 99.08,
+    'open': 99.08,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2482.0,
+    'vwap': 99.194047}}
+2025-08-15 11:43:20 INFO: Current resistance is: 99.322 and support is: 98.034
+2025-08-15 11:43:20 INFO: Current average volume is: 2402.2
+2025-08-15 11:43:20 INFO: Updated resistance to: 99.324 and support to: 98.074
+2025-08-15 11:45:21 INFO: {'CRWV': {   'close': 98.74,
+    'high': 99.26,
+    'low': 98.705,
+    'open': 99.26,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1679.0,
+    'vwap': 98.929286}}
+2025-08-15 11:45:21 INFO: Current resistance is: 99.324 and support is: 98.074
+2025-08-15 11:45:21 INFO: Current average volume is: 2378.0
+2025-08-15 11:45:21 INFO: Updated resistance to: 99.348 and support to: 98.084
+2025-08-15 11:46:21 INFO: {'CRWV': {   'close': 98.76,
+    'high': 98.81,
+    'low': 98.71,
+    'open': 98.81,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1838.0,
+    'vwap': 98.740948}}
+2025-08-15 11:46:21 INFO: Current resistance is: 99.348 and support is: 98.084
+2025-08-15 11:46:21 INFO: Current average volume is: 2196.0
+2025-08-15 11:46:21 INFO: Updated resistance to: 99.37 and support to: 98.094
+2025-08-15 11:47:21 INFO: {'CRWV': {   'close': 98.68,
+    'high': 98.83,
+    'low': 98.41,
+    'open': 98.41,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 895.0,
+    'vwap': 98.64}}
+2025-08-15 11:47:21 INFO: Current resistance is: 99.37 and support is: 98.094
+2025-08-15 11:47:21 INFO: Current average volume is: 2265.4
+2025-08-15 11:47:21 INFO: Updated resistance to: 99.391 and support to: 98.082
+2025-08-15 11:49:21 INFO: {'CRWV': {   'close': 99.34,
+    'high': 99.34,
+    'low': 99.04,
+    'open': 99.04,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 413.0,
+    'vwap': 99.22}}
+2025-08-15 11:49:21 INFO: Current resistance is: 99.391 and support is: 98.082
+2025-08-15 11:49:21 INFO: Current average volume is: 2256.7
+2025-08-15 11:49:21 INFO: Updated resistance to: 99.363 and support to: 98.114
+2025-08-15 11:50:21 INFO: {'CRWV': {   'close': 99.68,
+    'high': 99.685,
+    'low': 99.345,
+    'open': 99.345,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1547.0,
+    'vwap': 99.624672}}
+2025-08-15 11:50:21 INFO: Current resistance is: 99.363 and support is: 98.114
+2025-08-15 11:50:21 INFO: Current average volume is: 2278.6
+2025-08-15 11:50:21 INFO: The Current Close 99.68 is above the resistance...
+2025-08-15 11:50:21 INFO: Updated resistance to: 99.709 and support to: 98.165
+2025-08-15 11:51:22 INFO: {'CRWV': {   'close': 100.0,
+    'high': 100.07,
+    'low': 99.67,
+    'open': 99.68,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 9843.0,
+    'vwap': 99.974149}}
+2025-08-15 11:51:22 INFO: Current resistance is: 99.709 and support is: 98.165
+2025-08-15 11:51:22 INFO: Current average volume is: 2606.3
+2025-08-15 11:51:22 INFO: The marubozu candle pattern check is: 0. The three_white candle pattern check is 0. The closing_maru candle pattern check is 0. The belthold candle pattern check is 0
+2025-08-15 11:52:22 INFO: {'CRWV': {   'close': 99.99,
+    'high': 100.05,
+    'low': 99.77,
+    'open': 100.0,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 4175.0,
+    'vwap': 99.960027}}
+2025-08-15 11:52:22 INFO: Current resistance is: 99.709 and support is: 98.165
+2025-08-15 11:52:22 INFO: Current average volume is: 2817.0
+2025-08-15 11:52:22 INFO: The current close: 99.99 is above the resistance of 99.709, but volume isn't enough...
+2025-08-15 11:52:22 INFO: Updated resistance to: 100.122 and support to: 98.309
+2025-08-15 11:54:22 INFO: {'CRWV': {   'close': 100.3,
+    'high': 100.345,
+    'low': 100.1,
+    'open': 100.1,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2018.0,
+    'vwap': 100.223994}}
+2025-08-15 11:54:22 INFO: Current resistance is: 100.122 and support is: 98.309
+2025-08-15 11:54:22 INFO: Current average volume is: 2573.0
+2025-08-15 11:54:22 INFO: The current close: 100.3 is above the resistance of 100.122, but volume isn't enough...
+2025-08-15 11:54:22 INFO: Updated resistance to: 100.372 and support to: 98.401
+2025-08-15 11:55:22 INFO: {'CRWV': {   'close': 100.35,
+    'high': 100.395,
+    'low': 100.08,
+    'open': 100.305,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1254.0,
+    'vwap': 100.257}}
+2025-08-15 11:55:22 INFO: Current resistance is: 100.372 and support is: 98.401
+2025-08-15 11:55:22 INFO: Current average volume is: 2614.4
+2025-08-15 11:55:22 INFO: Updated resistance to: 100.424 and support to: 98.487
+2025-08-15 11:56:23 INFO: {'CRWV': {   'close': 100.12,
+    'high': 100.17,
+    'low': 100.02,
+    'open': 100.12,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1225.0,
+    'vwap': 100.108393}}
+2025-08-15 11:56:23 INFO: Current resistance is: 100.424 and support is: 98.487
+2025-08-15 11:56:23 INFO: Current average volume is: 2488.7
+2025-08-15 11:56:23 INFO: Updated resistance to: 100.454 and support to: 98.563
+2025-08-15 11:57:23 INFO: {'CRWV': {   'close': 99.95,
+    'high': 100.15,
+    'low': 99.89,
+    'open': 100.15,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 850.0,
+    'vwap': 100.0375}}
+2025-08-15 11:57:23 INFO: Current resistance is: 100.454 and support is: 98.563
+2025-08-15 11:57:23 INFO: Current average volume is: 2405.8
+2025-08-15 11:57:23 INFO: Updated resistance to: 100.486 and support to: 98.627
+2025-08-15 11:58:23 INFO: {'CRWV': {   'close': 99.76,
+    'high': 99.76,
+    'low': 99.76,
+    'open': 99.76,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 105.0,
+    'vwap': 99.76}}
+2025-08-15 11:58:23 INFO: Current resistance is: 100.486 and support is: 98.627
+2025-08-15 11:58:23 INFO: Current average volume is: 2232.5
+2025-08-15 11:58:23 INFO: Updated resistance to: 100.516 and support to: 98.679
+2025-08-15 11:59:23 INFO: {'CRWV': {   'close': 99.32,
+    'high': 99.43,
+    'low': 99.27,
+    'open': 99.27,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 700.0,
+    'vwap': 99.344286}}
+2025-08-15 11:59:23 INFO: Current resistance is: 100.516 and support is: 98.679
+2025-08-15 11:59:23 INFO: Current average volume is: 2213.0
+2025-08-15 11:59:23 INFO: Updated resistance to: 100.545 and support to: 98.696
+2025-08-15 12:00:23 INFO: {'CRWV': {   'close': 99.76,
+    'high': 99.76,
+    'low': 99.76,
+    'open': 99.76,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 99.76}}
+2025-08-15 12:00:23 INFO: Current resistance is: 100.545 and support is: 98.696
+2025-08-15 12:00:23 INFO: Current average volume is: 2186.7
+2025-08-15 12:00:23 INFO: Updated resistance to: 100.575 and support to: 98.743
+2025-08-15 12:02:23 INFO: {'CRWV': {   'close': 99.875,
+    'high': 99.91,
+    'low': 99.855,
+    'open': 99.855,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 499.0,
+    'vwap': 99.88}}
+2025-08-15 12:02:23 INFO: Current resistance is: 100.575 and support is: 98.743
+2025-08-15 12:02:23 INFO: Current average volume is: 2081.9
+2025-08-15 12:02:23 INFO: Updated resistance to: 100.606 and support to: 98.793
+2025-08-15 12:03:24 INFO: {'CRWV': {   'close': 99.9,
+    'high': 99.9,
+    'low': 99.9,
+    'open': 99.9,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 109.0,
+    'vwap': 99.9}}
+2025-08-15 12:03:24 INFO: Current resistance is: 100.606 and support is: 98.793
+2025-08-15 12:03:24 INFO: Current average volume is: 1108.5
+2025-08-15 12:03:24 INFO: Updated resistance to: 100.637 and support to: 98.844
+2025-08-15 12:04:24 INFO: {'CRWV': {   'close': 99.91,
+    'high': 99.91,
+    'low': 99.84,
+    'open': 99.84,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1225.0,
+    'vwap': 99.896667}}
+2025-08-15 12:04:24 INFO: Current resistance is: 100.637 and support is: 98.844
+2025-08-15 12:04:24 INFO: Current average volume is: 813.5
+2025-08-15 12:04:24 INFO: Updated resistance to: 100.668 and support to: 98.888
+2025-08-15 12:05:24 INFO: {'CRWV': {   'close': 100.335,
+    'high': 100.38,
+    'low': 99.805,
+    'open': 99.805,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1201.0,
+    'vwap': 100.216667}}
+2025-08-15 12:05:24 INFO: Current resistance is: 100.668 and support is: 98.888
+2025-08-15 12:05:24 INFO: Current average volume is: 731.8
+2025-08-15 12:05:24 INFO: Updated resistance to: 100.704 and support to: 98.927
+2025-08-15 12:06:24 INFO: {'CRWV': {   'close': 100.58,
+    'high': 100.73,
+    'low': 100.355,
+    'open': 100.48,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1210.0,
+    'vwap': 100.545}}
+2025-08-15 12:06:24 INFO: Current resistance is: 100.704 and support is: 98.927
+2025-08-15 12:06:24 INFO: Current average volume is: 727.4
+2025-08-15 12:06:24 INFO: Updated resistance to: 100.762 and support to: 98.997
+2025-08-15 12:07:24 INFO: {'CRWV': {   'close': 100.66,
+    'high': 100.75,
+    'low': 100.28,
+    'open': 100.605,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2845.0,
+    'vwap': 100.618269}}
+2025-08-15 12:07:24 INFO: Current resistance is: 100.762 and support is: 98.997
+2025-08-15 12:07:24 INFO: Current average volume is: 889.4
+2025-08-15 12:07:24 INFO: Updated resistance to: 100.782 and support to: 99.059
+2025-08-15 12:09:24 INFO: {'CRWV': {   'close': 100.43,
+    'high': 100.67,
+    'low': 100.43,
+    'open': 100.67,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1409.0,
+    'vwap': 100.542308}}
+2025-08-15 12:09:24 INFO: Current resistance is: 100.782 and support is: 99.059
+2025-08-15 12:09:24 INFO: Current average volume is: 945.3
+2025-08-15 12:09:24 INFO: Updated resistance to: 100.816 and support to: 99.127
+2025-08-15 12:10:24 INFO: {'CRWV': {   'close': 100.42,
+    'high': 100.42,
+    'low': 100.42,
+    'open': 100.42,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 100.42}}
+2025-08-15 12:10:24 INFO: Current resistance is: 100.816 and support is: 99.127
+2025-08-15 12:10:24 INFO: Current average volume is: 954.8
+2025-08-15 12:10:24 INFO: Updated resistance to: 100.85 and support to: 99.191
+2025-08-15 12:11:24 INFO: {'CRWV': {   'close': 100.24,
+    'high': 100.24,
+    'low': 100.21,
+    'open': 100.21,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 100.225}}
+2025-08-15 12:11:24 INFO: Current resistance is: 100.85 and support is: 99.191
+2025-08-15 12:11:24 INFO: Current average volume is: 904.8
+2025-08-15 12:11:24 INFO: Updated resistance to: 100.883 and support to: 99.24
+2025-08-15 12:12:25 INFO: {'CRWV': {   'close': 100.92,
+    'high': 100.92,
+    'low': 100.92,
+    'open': 100.92,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 130.0,
+    'vwap': 100.92}}
+2025-08-15 12:12:25 INFO: Current resistance is: 100.883 and support is: 99.24
+2025-08-15 12:12:25 INFO: Current average volume is: 902.8
+2025-08-15 12:12:25 INFO: The Current Close 100.92 is above the resistance...
+2025-08-15 12:12:25 INFO: Updated resistance to: 100.954 and support to: 99.326
+2025-08-15 12:13:25 INFO: {'CRWV': {   'close': 100.99,
+    'high': 101.0,
+    'low': 100.94,
+    'open': 100.985,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1450.0,
+    'vwap': 100.982083}}
+2025-08-15 12:13:25 INFO: Current resistance is: 100.954 and support is: 99.326
+2025-08-15 12:13:25 INFO: Current average volume is: 997.9
+2025-08-15 12:13:25 INFO: The current close: 100.99 is above the resistance of 100.954, but volume isn't enough...
+2025-08-15 12:13:25 INFO: Updated resistance to: 101.035 and support to: 99.41
+2025-08-15 12:14:25 INFO: {'CRWV': {   'close': 100.61,
+    'high': 100.895,
+    'low': 100.61,
+    'open': 100.88,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1707.0,
+    'vwap': 100.83125}}
+2025-08-15 12:14:25 INFO: Current resistance is: 101.035 and support is: 99.41
+2025-08-15 12:14:25 INFO: Current average volume is: 1157.7
+2025-08-15 12:14:25 INFO: Updated resistance to: 101.07 and support to: 99.471
+2025-08-15 12:15:25 INFO: {'CRWV': {   'close': 100.77,
+    'high': 100.84,
+    'low': 100.65,
+    'open': 100.65,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 4521.0,
+    'vwap': 100.798084}}
+2025-08-15 12:15:25 INFO: Current resistance is: 101.07 and support is: 99.471
+2025-08-15 12:15:25 INFO: Current average volume is: 1487.3
+2025-08-15 12:15:25 INFO: Updated resistance to: 101.106 and support to: 99.532
+2025-08-15 12:16:25 INFO: {'CRWV': {   'close': 100.49,
+    'high': 100.69,
+    'low': 100.49,
+    'open': 100.66,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 631.0,
+    'vwap': 100.6025}}
+2025-08-15 12:16:25 INFO: Current resistance is: 101.106 and support is: 99.532
+2025-08-15 12:16:25 INFO: Current average volume is: 1430.3
+2025-08-15 12:16:25 INFO: Updated resistance to: 101.142 and support to: 99.58
+2025-08-15 12:18:26 INFO: {'CRWV': {   'close': 100.555,
+    'high': 100.555,
+    'low': 100.555,
+    'open': 100.555,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 100.555}}
+2025-08-15 12:18:26 INFO: Current resistance is: 101.142 and support is: 99.58
+2025-08-15 12:18:26 INFO: Current average volume is: 1329.3
+2025-08-15 12:18:26 INFO: Updated resistance to: 101.178 and support to: 99.629
+2025-08-15 12:19:26 INFO: {'CRWV': {   'close': 100.525,
+    'high': 100.575,
+    'low': 100.525,
+    'open': 100.575,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 746.0,
+    'vwap': 100.534346}}
+2025-08-15 12:19:26 INFO: Current resistance is: 101.178 and support is: 99.629
+2025-08-15 12:19:26 INFO: Current average volume is: 1119.4
+2025-08-15 12:19:26 INFO: Updated resistance to: 101.214 and support to: 99.674
+2025-08-15 12:20:26 INFO: {'CRWV': {   'close': 100.29,
+    'high': 100.325,
+    'low': 100.175,
+    'open': 100.18,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2792.0,
+    'vwap': 100.262912}}
+2025-08-15 12:20:26 INFO: Current resistance is: 101.214 and support is: 99.674
+2025-08-15 12:20:26 INFO: Current average volume is: 1257.7
+2025-08-15 12:20:26 INFO: Updated resistance to: 101.248 and support to: 99.698
+2025-08-15 12:21:26 INFO: {'CRWV': {   'close': 100.48,
+    'high': 100.51,
+    'low': 100.285,
+    'open': 100.29,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2430.0,
+    'vwap': 100.363469}}
+2025-08-15 12:21:26 INFO: Current resistance is: 101.248 and support is: 99.698
+2025-08-15 12:21:26 INFO: Current average volume is: 1480.7
+2025-08-15 12:21:26 INFO: Updated resistance to: 101.283 and support to: 99.726
+2025-08-15 12:22:26 INFO: {'CRWV': {   'close': 100.555,
+    'high': 100.6,
+    'low': 100.47,
+    'open': 100.51,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 3556.0,
+    'vwap': 100.583088}}
+2025-08-15 12:22:26 INFO: Current resistance is: 101.283 and support is: 99.726
+2025-08-15 12:22:26 INFO: Current average volume is: 1816.3
+2025-08-15 12:22:26 INFO: Updated resistance to: 101.318 and support to: 99.762
+2025-08-15 12:24:26 INFO: {'CRWV': {   'close': 100.01,
+    'high': 100.055,
+    'low': 100.01,
+    'open': 100.05,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 919.0,
+    'vwap': 100.037506}}
+2025-08-15 12:24:26 INFO: Current resistance is: 101.318 and support is: 99.762
+2025-08-15 12:24:26 INFO: Current average volume is: 1895.2
+2025-08-15 12:24:26 INFO: Updated resistance to: 101.349 and support to: 99.772
+2025-08-15 12:25:26 INFO: {'CRWV': {   'close': 100.26,
+    'high': 100.44,
+    'low': 100.26,
+    'open': 100.35,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1368.0,
+    'vwap': 100.364}}
+2025-08-15 12:25:26 INFO: Current resistance is: 101.349 and support is: 99.772
+2025-08-15 12:25:26 INFO: Current average volume is: 1887.0
+2025-08-15 12:25:26 INFO: Updated resistance to: 101.383 and support to: 99.794
+2025-08-15 12:26:27 INFO: {'CRWV': {   'close': 100.12,
+    'high': 100.195,
+    'low': 100.12,
+    'open': 100.195,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 317.0,
+    'vwap': 100.168333}}
+2025-08-15 12:26:27 INFO: Current resistance is: 101.383 and support is: 99.794
+2025-08-15 12:26:27 INFO: Current average volume is: 1748.0
+2025-08-15 12:26:27 INFO: Updated resistance to: 101.413 and support to: 99.808
+2025-08-15 12:27:27 INFO: {'CRWV': {   'close': 100.45,
+    'high': 100.45,
+    'low': 100.19,
+    'open': 100.19,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1408.0,
+    'vwap': 100.244815}}
+2025-08-15 12:27:27 INFO: Current resistance is: 101.413 and support is: 99.808
+2025-08-15 12:27:27 INFO: Current average volume is: 1436.7
+2025-08-15 12:27:27 INFO: Updated resistance to: 101.445 and support to: 99.824
+2025-08-15 12:28:27 INFO: {'CRWV': {   'close': 100.54,
+    'high': 100.685,
+    'low': 100.54,
+    'open': 100.68,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 602.0,
+    'vwap': 100.614}}
+2025-08-15 12:28:27 INFO: Current resistance is: 101.445 and support is: 99.824
+2025-08-15 12:28:27 INFO: Current average volume is: 1433.8
+2025-08-15 12:28:27 INFO: Updated resistance to: 101.479 and support to: 99.857
+2025-08-15 12:29:27 INFO: {'CRWV': {   'close': 100.395,
+    'high': 100.6,
+    'low': 100.395,
+    'open': 100.6,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 587.0,
+    'vwap': 100.528333}}
+2025-08-15 12:29:27 INFO: Current resistance is: 101.479 and support is: 99.857
+2025-08-15 12:29:27 INFO: Current average volume is: 1472.5
+2025-08-15 12:29:27 INFO: Updated resistance to: 101.512 and support to: 99.881
+2025-08-15 12:30:27 INFO: {'CRWV': {   'close': 100.59,
+    'high': 100.59,
+    'low': 100.59,
+    'open': 100.59,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 332.0,
+    'vwap': 100.59}}
+2025-08-15 12:30:27 INFO: Current resistance is: 101.512 and support is: 99.881
+2025-08-15 12:30:27 INFO: Current average volume is: 1431.1
+2025-08-15 12:30:27 INFO: Updated resistance to: 101.544 and support to: 99.913
+2025-08-15 12:31:27 INFO: {'CRWV': {   'close': 100.5,
+    'high': 100.525,
+    'low': 100.46,
+    'open': 100.475,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 850.0,
+    'vwap': 100.486875}}
+2025-08-15 12:31:27 INFO: Current resistance is: 101.544 and support is: 99.913
+2025-08-15 12:31:27 INFO: Current average volume is: 1236.9
+2025-08-15 12:31:27 INFO: Updated resistance to: 101.575 and support to: 99.937
+2025-08-15 12:32:27 INFO: {'CRWV': {   'close': 100.405,
+    'high': 100.5,
+    'low': 100.405,
+    'open': 100.5,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 650.0,
+    'vwap': 100.47}}
+2025-08-15 12:32:27 INFO: Current resistance is: 101.575 and support is: 99.937
+2025-08-15 12:32:27 INFO: Current average volume is: 1058.9
+2025-08-15 12:32:27 INFO: Updated resistance to: 101.605 and support to: 99.957
+2025-08-15 12:33:27 INFO: {'CRWV': {   'close': 100.34,
+    'high': 100.34,
+    'low': 100.21,
+    'open': 100.29,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 808.0,
+    'vwap': 100.270833}}
+2025-08-15 12:33:27 INFO: Current resistance is: 101.605 and support is: 99.957
+2025-08-15 12:33:27 INFO: Current average volume is: 784.1
+2025-08-15 12:33:27 INFO: Updated resistance to: 101.632 and support to: 99.966
+2025-08-15 12:34:27 INFO: {'CRWV': {   'close': 100.5,
+    'high': 100.53,
+    'low': 100.25,
+    'open': 100.34,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 6251.0,
+    'vwap': 100.446911}}
+2025-08-15 12:34:27 INFO: Current resistance is: 101.632 and support is: 99.966
+2025-08-15 12:34:27 INFO: Current average volume is: 1317.3
+2025-08-15 12:34:27 INFO: Updated resistance to: 101.662 and support to: 99.977
+2025-08-15 12:35:28 INFO: {'CRWV': {   'close': 100.36,
+    'high': 100.605,
+    'low': 100.21,
+    'open': 100.59,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1179.0,
+    'vwap': 100.447191}}
+2025-08-15 12:35:28 INFO: Current resistance is: 101.662 and support is: 99.977
+2025-08-15 12:35:28 INFO: Current average volume is: 1298.4
+2025-08-15 12:35:28 INFO: Updated resistance to: 101.691 and support to: 99.984
+2025-08-15 12:36:28 INFO: {'CRWV': {   'close': 100.04,
+    'high': 100.14,
+    'low': 100.04,
+    'open': 100.14,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 371.0,
+    'vwap': 100.073333}}
+2025-08-15 12:36:28 INFO: Current resistance is: 101.691 and support is: 99.984
+2025-08-15 12:36:28 INFO: Current average volume is: 1303.8
+2025-08-15 12:36:28 INFO: Updated resistance to: 101.715 and support to: 99.983
+2025-08-15 12:37:28 INFO: {'CRWV': {   'close': 100.165,
+    'high': 100.165,
+    'low': 99.99,
+    'open': 100.0,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 4935.0,
+    'vwap': 100.0295}}
+2025-08-15 12:37:28 INFO: Current resistance is: 101.715 and support is: 99.983
+2025-08-15 12:37:28 INFO: Current average volume is: 1656.5
+2025-08-15 12:37:28 INFO: Updated resistance to: 101.738 and support to: 99.979
+2025-08-15 12:38:28 INFO: {'CRWV': {   'close': 100.32,
+    'high': 100.32,
+    'low': 100.05,
+    'open': 100.05,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1124.0,
+    'vwap': 100.188101}}
+2025-08-15 12:38:28 INFO: Current resistance is: 101.738 and support is: 99.979
+2025-08-15 12:38:28 INFO: Current average volume is: 1708.7
+2025-08-15 12:38:28 INFO: Updated resistance to: 101.762 and support to: 99.977
+2025-08-15 12:39:28 INFO: {'CRWV': {   'close': 100.535,
+    'high': 100.58,
+    'low': 100.315,
+    'open': 100.33,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 4270.0,
+    'vwap': 100.511941}}
+2025-08-15 12:39:28 INFO: Current resistance is: 101.762 and support is: 99.977
+2025-08-15 12:39:28 INFO: Current average volume is: 2077.0
+2025-08-15 12:39:28 INFO: Updated resistance to: 101.789 and support to: 99.987
+2025-08-15 12:40:28 INFO: {'CRWV': {   'close': 100.32,
+    'high': 100.535,
+    'low': 100.3,
+    'open': 100.535,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 3455.0,
+    'vwap': 100.477143}}
+2025-08-15 12:40:28 INFO: Current resistance is: 101.789 and support is: 99.987
+2025-08-15 12:40:28 INFO: Current average volume is: 2389.3
+2025-08-15 12:40:28 INFO: Updated resistance to: 101.815 and support to: 99.996
+2025-08-15 12:41:28 INFO: {'CRWV': {   'close': 100.42,
+    'high': 100.505,
+    'low': 100.4,
+    'open': 100.4,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 676.0,
+    'vwap': 100.456667}}
+2025-08-15 12:41:28 INFO: Current resistance is: 101.815 and support is: 99.996
+2025-08-15 12:41:28 INFO: Current average volume is: 2371.9
+2025-08-15 12:41:28 INFO: Updated resistance to: 101.84 and support to: 100.009
+2025-08-15 12:42:28 INFO: {'CRWV': {   'close': 100.68,
+    'high': 100.78,
+    'low': 100.47,
+    'open': 100.47,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 6087.0,
+    'vwap': 100.708585}}
+2025-08-15 12:42:28 INFO: Current resistance is: 101.84 and support is: 100.009
+2025-08-15 12:42:28 INFO: Current average volume is: 2915.6
+2025-08-15 12:42:28 INFO: Updated resistance to: 101.869 and support to: 100.024
+2025-08-15 12:43:29 INFO: {'CRWV': {   'close': 100.725,
+    'high': 100.725,
+    'low': 100.64,
+    'open': 100.64,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1083.0,
+    'vwap': 100.703382}}
+2025-08-15 12:43:29 INFO: Current resistance is: 101.869 and support is: 100.024
+2025-08-15 12:43:29 INFO: Current average volume is: 2943.1
+2025-08-15 12:43:29 INFO: Updated resistance to: 101.896 and support to: 100.046
+2025-08-15 12:44:29 INFO: {'CRWV': {   'close': 100.73,
+    'high': 100.73,
+    'low': 100.67,
+    'open': 100.68,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1975.0,
+    'vwap': 100.695328}}
+2025-08-15 12:44:29 INFO: Current resistance is: 101.896 and support is: 100.046
+2025-08-15 12:44:29 INFO: Current average volume is: 2515.5
+2025-08-15 12:44:29 INFO: Updated resistance to: 101.922 and support to: 100.069
+2025-08-15 12:45:29 INFO: {'CRWV': {   'close': 100.85,
+    'high': 100.9,
+    'low': 100.7,
+    'open': 100.7,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 18443.0,
+    'vwap': 100.848426}}
+2025-08-15 12:45:29 INFO: Current resistance is: 101.922 and support is: 100.069
+2025-08-15 12:45:29 INFO: Current average volume is: 4241.9
+2025-08-15 12:45:29 INFO: Updated resistance to: 101.951 and support to: 100.091
+2025-08-15 12:46:29 INFO: {'CRWV': {   'close': 100.95,
+    'high': 101.0,
+    'low': 100.785,
+    'open': 100.835,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 6407.0,
+    'vwap': 100.88254}}
+2025-08-15 12:46:29 INFO: Current resistance is: 101.951 and support is: 100.091
+2025-08-15 12:46:29 INFO: Current average volume is: 4845.5
+2025-08-15 12:46:29 INFO: Updated resistance to: 101.98 and support to: 100.117
+2025-08-15 12:47:29 INFO: {'CRWV': {   'close': 101.12,
+    'high': 101.12,
+    'low': 100.92,
+    'open': 100.985,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 46.0,
+    'volume': 4765.0,
+    'vwap': 101.01162}}
+2025-08-15 12:47:29 INFO: Current resistance is: 101.98 and support is: 100.117
+2025-08-15 12:47:29 INFO: Current average volume is: 4828.5
+2025-08-15 12:47:29 INFO: Updated resistance to: 101.151 and support to: 100.147
+2025-08-15 12:48:29 INFO: {'CRWV': {   'close': 101.58,
+    'high': 101.67,
+    'low': 101.15,
+    'open': 101.15,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 119.0,
+    'volume': 14017.0,
+    'vwap': 101.450379}}
+2025-08-15 12:48:29 INFO: Current resistance is: 101.151 and support is: 100.147
+2025-08-15 12:48:29 INFO: Current average volume is: 6117.8
+2025-08-15 12:48:29 INFO: The Current Close 101.58 is above the resistance...
+2025-08-15 12:48:29 INFO: Updated resistance to: 101.701 and support to: 100.185
+2025-08-15 12:49:29 INFO: {'CRWV': {   'close': 101.48,
+    'high': 101.61,
+    'low': 101.41,
+    'open': 101.55,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 4587.0,
+    'vwap': 101.513308}}
+2025-08-15 12:49:29 INFO: Current resistance is: 101.701 and support is: 100.185
+2025-08-15 12:49:29 INFO: Current average volume is: 6149.5
+2025-08-15 12:49:29 INFO: Updated resistance to: 101.732 and support to: 100.234
+2025-08-15 12:50:29 INFO: {'CRWV': {   'close': 101.69,
+    'high': 101.76,
+    'low': 101.5,
+    'open': 101.5,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 3659.0,
+    'vwap': 101.643082}}
+2025-08-15 12:50:29 INFO: Current resistance is: 101.732 and support is: 100.234
+2025-08-15 12:50:29 INFO: Current average volume is: 6169.9
+2025-08-15 12:50:29 INFO: Updated resistance to: 101.791 and support to: 100.285
+2025-08-15 12:51:30 INFO: {'CRWV': {   'close': 101.89,
+    'high': 101.97,
+    'low': 101.59,
+    'open': 101.59,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 4487.0,
+    'vwap': 101.800478}}
+2025-08-15 12:51:30 INFO: Current resistance is: 101.791 and support is: 100.285
+2025-08-15 12:51:30 INFO: Current average volume is: 6551.0
+2025-08-15 12:51:30 INFO: The Current Close 101.89 is above the resistance...
+2025-08-15 12:51:30 INFO: Updated resistance to: 102.002 and support to: 100.337
+2025-08-15 12:52:30 INFO: {'CRWV': {   'close': 101.42,
+    'high': 101.63,
+    'low': 101.29,
+    'open': 101.63,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 2351.0,
+    'vwap': 101.443324}}
+2025-08-15 12:52:30 INFO: Current resistance is: 102.002 and support is: 100.337
+2025-08-15 12:52:30 INFO: Current average volume is: 6177.4
+2025-08-15 12:52:30 INFO: Updated resistance to: 102.033 and support to: 100.375
+2025-08-15 12:53:30 INFO: {'CRWV': {   'close': 101.62,
+    'high': 101.62,
+    'low': 101.41,
+    'open': 101.43,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 2658.0,
+    'vwap': 101.497012}}
+2025-08-15 12:53:30 INFO: Current resistance is: 102.033 and support is: 100.375
+2025-08-15 12:53:30 INFO: Current average volume is: 6334.9
+2025-08-15 12:53:30 INFO: Updated resistance to: 102.065 and support to: 100.416
+2025-08-15 12:54:30 INFO: {'CRWV': {   'close': 101.76,
+    'high': 101.76,
+    'low': 101.6,
+    'open': 101.605,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1550.0,
+    'vwap': 101.674444}}
+2025-08-15 12:54:30 INFO: Current resistance is: 102.065 and support is: 100.416
+2025-08-15 12:54:30 INFO: Current average volume is: 6292.4
+2025-08-15 12:54:30 INFO: Updated resistance to: 102.098 and support to: 100.464
+2025-08-15 12:55:30 INFO: {'CRWV': {   'close': 101.7,
+    'high': 101.8,
+    'low': 101.61,
+    'open': 101.725,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1027.0,
+    'vwap': 101.720122}}
+2025-08-15 12:55:30 INFO: Current resistance is: 102.098 and support is: 100.464
+2025-08-15 12:55:30 INFO: Current average volume is: 4550.8
+2025-08-15 12:55:30 INFO: Updated resistance to: 102.13 and support to: 100.51
+2025-08-15 12:56:30 INFO: {'CRWV': {   'close': 101.21,
+    'high': 101.35,
+    'low': 101.21,
+    'open': 101.31,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 667.0,
+    'vwap': 101.283333}}
+2025-08-15 12:56:30 INFO: Current resistance is: 102.13 and support is: 100.51
+2025-08-15 12:56:30 INFO: Current average volume is: 3976.8
+2025-08-15 12:56:30 INFO: Updated resistance to: 102.162 and support to: 100.538
+2025-08-15 12:57:30 INFO: {'CRWV': {   'close': 101.2,
+    'high': 101.23,
+    'low': 101.195,
+    'open': 101.195,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 593.0,
+    'vwap': 101.204873}}
+2025-08-15 12:57:30 INFO: Current resistance is: 102.162 and support is: 100.538
+2025-08-15 12:57:30 INFO: Current average volume is: 3559.6
+2025-08-15 12:57:30 INFO: Updated resistance to: 102.193 and support to: 100.564
+2025-08-15 12:58:31 INFO: {'CRWV': {   'close': 100.46,
+    'high': 101.07,
+    'low': 100.415,
+    'open': 101.07,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2316.0,
+    'vwap': 100.68375}}
+2025-08-15 12:58:31 INFO: Current resistance is: 102.193 and support is: 100.564
+2025-08-15 12:58:31 INFO: Current average volume is: 2389.5
+2025-08-15 12:58:31 INFO: close price: 100.46 just dropped below support of 100.564...
+2025-08-15 12:59:31 INFO: {'CRWV': {   'close': 100.365,
+    'high': 100.365,
+    'low': 100.21,
+    'open': 100.32,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 816.0,
+    'vwap': 100.288906}}
+2025-08-15 12:59:31 INFO: Current resistance is: 102.193 and support is: 100.564
+2025-08-15 12:59:31 INFO: Current average volume is: 2012.4
+2025-08-15 12:59:31 INFO: Closing price: 100.365 just dropped below support 100.564 again...ending trade...
+2025-08-15 13:10:26 INFO: === Strategy started ===
+2025-08-15 13:10:26 INFO: Start collecting the current highs/lows for: CRWV
+2025-08-15 13:10:27 INFO: Most recent stock data: {'CRWV': {   'close': 100.415,
+    'high': 100.44,
+    'low': 100.38,
+    'open': 100.38,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2502.0,
+    'vwap': 100.398409}}
+2025-08-15 13:11:27 INFO: Most recent stock data: {'CRWV': {   'close': 100.45,
+    'high': 100.45,
+    'low': 100.3,
+    'open': 100.33,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1943.0,
+    'vwap': 100.324583}}
+2025-08-15 13:12:27 INFO: Most recent stock data: {'CRWV': {   'close': 100.38,
+    'high': 100.405,
+    'low': 100.38,
+    'open': 100.405,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 682.0,
+    'vwap': 100.4}}
+2025-08-15 13:13:27 INFO: Most recent stock data: {'CRWV': {   'close': 100.25,
+    'high': 100.35,
+    'low': 100.24,
+    'open': 100.31,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1385.0,
+    'vwap': 100.305556}}
+2025-08-15 13:14:27 INFO: Most recent stock data: {'CRWV': {   'close': 100.34,
+    'high': 100.49,
+    'low': 100.2,
+    'open': 100.2,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2740.0,
+    'vwap': 100.410913}}
+2025-08-15 13:15:27 INFO: Most recent stock data: {'CRWV': {   'close': 100.275,
+    'high': 100.36,
+    'low': 100.24,
+    'open': 100.32,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2753.0,
+    'vwap': 100.32587}}
+2025-08-15 13:16:27 INFO: Most recent stock data: {'CRWV': {   'close': 100.28,
+    'high': 100.345,
+    'low': 100.155,
+    'open': 100.24,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2265.0,
+    'vwap': 100.276253}}
+2025-08-15 13:17:28 INFO: Most recent stock data: {'CRWV': {   'close': 100.24,
+    'high': 100.305,
+    'low': 100.2,
+    'open': 100.305,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1275.0,
+    'vwap': 100.272143}}
+2025-08-15 13:18:28 INFO: Most recent stock data: {'CRWV': {   'close': 100.155,
+    'high': 100.25,
+    'low': 100.14,
+    'open': 100.14,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1738.0,
+    'vwap': 100.199315}}
+2025-08-15 13:19:28 INFO: Most recent stock data: {'CRWV': {   'close': 100.16,
+    'high': 100.17,
+    'low': 100.0,
+    'open': 100.015,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 3580.0,
+    'vwap': 100.081379}}
+2025-08-15 13:20:28 INFO: Most recent stock data: {'CRWV': {   'close': 99.86,
+    'high': 99.86,
+    'low': 99.84,
+    'open': 99.84,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 367.0,
+    'vwap': 99.853333}}
+2025-08-15 13:20:28 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 13:20:28 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-15 13:21:28 INFO: {'CRWV': {   'close': 99.84,
+    'high': 99.95,
+    'low': 99.83,
+    'open': 99.83,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 872.0,
+    'vwap': 99.874194}}
+2025-08-15 13:21:28 INFO: Current resistance is: 100.19 and support is: 99.797
+2025-08-15 13:21:28 INFO: Current average volume is: 1765.7
+2025-08-15 13:21:28 INFO: Updated resistance to: 100.115 and support to: 99.783
+2025-08-15 13:22:28 INFO: {'CRWV': {   'close': 100.135,
+    'high': 100.135,
+    'low': 100.08,
+    'open': 100.08,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 866.0,
+    'vwap': 100.127143}}
+2025-08-15 13:22:28 INFO: Current resistance is: 100.115 and support is: 99.783
+2025-08-15 13:22:28 INFO: Current average volume is: 1784.1
+2025-08-15 13:22:28 INFO: The Current Close 100.135 is above the resistance...
+2025-08-15 13:22:28 INFO: Updated resistance to: 100.115 and support to: 99.751
+2025-08-15 13:23:28 INFO: {'CRWV': {   'close': 100.04,
+    'high': 100.11,
+    'low': 100.04,
+    'open': 100.05,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 590.0,
+    'vwap': 100.065}}
+2025-08-15 13:23:28 INFO: Current resistance is: 100.115 and support is: 99.751
+2025-08-15 13:23:28 INFO: Current average volume is: 1704.6
+2025-08-15 13:23:28 INFO: Updated resistance to: 100.111 and support to: 99.726
+2025-08-15 13:24:29 INFO: {'CRWV': {   'close': 100.08,
+    'high': 100.2,
+    'low': 100.08,
+    'open': 100.2,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 546.0,
+    'vwap': 100.12}}
+2025-08-15 13:24:29 INFO: Current resistance is: 100.111 and support is: 99.726
+2025-08-15 13:24:29 INFO: Current average volume is: 1485.2
+2025-08-15 13:24:29 INFO: Updated resistance to: 100.135 and support to: 99.71
+2025-08-15 13:25:29 INFO: {'CRWV': {   'close': 99.985,
+    'high': 100.1,
+    'low': 99.985,
+    'open': 100.1,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1320.0,
+    'vwap': 100.062579}}
+2025-08-15 13:25:29 INFO: Current resistance is: 100.135 and support is: 99.71
+2025-08-15 13:25:29 INFO: Current average volume is: 1341.9
+2025-08-15 13:25:29 INFO: Updated resistance to: 100.13 and support to: 99.69
+2025-08-15 13:26:29 INFO: {'CRWV': {   'close': 99.845,
+    'high': 99.985,
+    'low': 99.845,
+    'open': 99.96,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 769.0,
+    'vwap': 99.93375}}
+2025-08-15 13:26:29 INFO: Current resistance is: 100.13 and support is: 99.69
+2025-08-15 13:26:29 INFO: Current average volume is: 1192.3
+2025-08-15 13:26:29 INFO: Updated resistance to: 100.099 and support to: 99.656
+2025-08-15 13:27:29 INFO: {'CRWV': {   'close': 99.81,
+    'high': 99.84,
+    'low': 99.81,
+    'open': 99.84,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 423.0,
+    'vwap': 99.83}}
+2025-08-15 13:27:29 INFO: Current resistance is: 100.099 and support is: 99.656
+2025-08-15 13:27:29 INFO: Current average volume is: 1107.1
+2025-08-15 13:27:29 INFO: Updated resistance to: 100.04 and support to: 99.78
+2025-08-15 13:28:29 INFO: {'CRWV': {   'close': 99.795,
+    'high': 99.82,
+    'low': 99.795,
+    'open': 99.82,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 427.0,
+    'vwap': 99.8075}}
+2025-08-15 13:28:29 INFO: Current resistance is: 100.04 and support is: 99.78
+2025-08-15 13:28:29 INFO: Current average volume is: 976.0
+2025-08-15 13:28:29 INFO: Updated resistance to: 99.988 and support to: 99.765
+2025-08-15 13:29:29 INFO: {'CRWV': {   'close': 99.805,
+    'high': 99.805,
+    'low': 99.68,
+    'open': 99.74,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1591.0,
+    'vwap': 99.723085}}
+2025-08-15 13:29:29 INFO: Current resistance is: 99.988 and support is: 99.765
+2025-08-15 13:29:29 INFO: Current average volume is: 777.1
+2025-08-15 13:29:29 INFO: Updated resistance to: 99.943 and support to: 99.649
+2025-08-15 13:30:29 INFO: {'CRWV': {   'close': 99.62,
+    'high': 99.845,
+    'low': 99.62,
+    'open': 99.845,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1074.0,
+    'vwap': 99.747857}}
+2025-08-15 13:30:29 INFO: Current resistance is: 99.943 and support is: 99.649
+2025-08-15 13:30:29 INFO: Current average volume is: 847.8
+2025-08-15 13:30:29 INFO: close price: 99.62 just dropped below support of 99.649...
+2025-08-15 13:31:29 INFO: {'CRWV': {   'close': 99.29,
+    'high': 99.55,
+    'low': 99.21,
+    'open': 99.55,
+    'symbol': 'CRWV',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 2188.0,
+    'vwap': 99.35748}}
+2025-08-15 13:31:29 INFO: Current resistance is: 99.943 and support is: 99.649
+2025-08-15 13:31:29 INFO: Current average volume is: 979.4
+2025-08-15 13:31:29 INFO: Closing price: 99.29 just dropped below support 99.649 again...ending trade...

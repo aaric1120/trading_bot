@@ -1,0 +1,1793 @@
+2025-08-14 11:10:26 INFO: === Strategy started ===
+2025-08-14 11:10:26 INFO: Start collecting the current highs/lows for: SDGR
+2025-08-14 11:10:26 INFO: Most recent stock data: {'SDGR': {   'close': 18.715,
+    'high': 18.765,
+    'low': 18.715,
+    'open': 18.765,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 448.0,
+    'vwap': 18.745}}
+2025-08-14 11:13:27 INFO: Most recent stock data: {'SDGR': {   'close': 18.885,
+    'high': 18.885,
+    'low': 18.885,
+    'open': 18.885,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 346.0,
+    'vwap': 18.885}}
+2025-08-14 11:14:27 INFO: Most recent stock data: {'SDGR': {   'close': 18.905,
+    'high': 18.905,
+    'low': 18.905,
+    'open': 18.905,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 188.0,
+    'vwap': 18.905}}
+2025-08-14 11:16:27 INFO: Most recent stock data: {'SDGR': {   'close': 19.125,
+    'high': 19.125,
+    'low': 19.125,
+    'open': 19.125,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 639.0,
+    'vwap': 19.125}}
+2025-08-14 11:17:27 INFO: Most recent stock data: {'SDGR': {   'close': 19.1,
+    'high': 19.1,
+    'low': 19.1,
+    'open': 19.1,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 773.0,
+    'vwap': 19.1}}
+2025-08-14 11:19:28 INFO: Most recent stock data: {'SDGR': {   'close': 19.13,
+    'high': 19.22,
+    'low': 19.12,
+    'open': 19.22,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1127.0,
+    'vwap': 19.1765}}
+2025-08-14 11:20:28 INFO: Most recent stock data: {'SDGR': {   'close': 19.095,
+    'high': 19.145,
+    'low': 19.095,
+    'open': 19.145,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 395.0,
+    'vwap': 19.12}}
+2025-08-14 11:21:28 INFO: Most recent stock data: {'SDGR': {   'close': 19.025,
+    'high': 19.105,
+    'low': 19.025,
+    'open': 19.105,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 8160.0,
+    'vwap': 19.068527}}
+2025-08-14 11:22:28 INFO: Most recent stock data: {'SDGR': {   'close': 19.07,
+    'high': 19.07,
+    'low': 18.99,
+    'open': 19.02,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2494.0,
+    'vwap': 19.007955}}
+2025-08-14 11:23:28 INFO: Most recent stock data: {'SDGR': {   'close': 19.11,
+    'high': 19.135,
+    'low': 19.11,
+    'open': 19.135,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1261.0,
+    'vwap': 19.121486}}
+2025-08-14 11:24:28 INFO: Most recent stock data: {'SDGR': {   'close': 19.065,
+    'high': 19.11,
+    'low': 19.055,
+    'open': 19.11,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2582.0,
+    'vwap': 19.080306}}
+2025-08-14 11:24:28 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 11:24:28 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 11:25:28 INFO: {'SDGR': {   'close': 19.085,
+    'high': 19.085,
+    'low': 19.065,
+    'open': 19.065,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 478.0,
+    'vwap': 19.078333}}
+2025-08-14 11:25:28 INFO: Current resistance is: 19.22 and support is: 18.715
+2025-08-14 11:25:28 INFO: Current average volume is: 1809.7
+2025-08-14 11:25:28 INFO: Updated resistance to: 19.22 and support to: 18.715
+2025-08-14 11:27:29 INFO: {'SDGR': {   'close': 19.095,
+    'high': 19.095,
+    'low': 19.095,
+    'open': 19.095,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 19.095}}
+2025-08-14 11:27:29 INFO: Current resistance is: 19.22 and support is: 18.715
+2025-08-14 11:27:29 INFO: Current average volume is: 1801.4
+2025-08-14 11:27:29 INFO: Updated resistance to: 19.22 and support to: 18.715
+2025-08-14 11:29:29 INFO: {'SDGR': {   'close': 19.12,
+    'high': 19.12,
+    'low': 19.11,
+    'open': 19.11,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 340.0,
+    'vwap': 19.115}}
+2025-08-14 11:29:29 INFO: Current resistance is: 19.22 and support is: 18.715
+2025-08-14 11:29:29 INFO: Current average volume is: 1771.5
+2025-08-14 11:29:29 INFO: Updated resistance to: 19.22 and support to: 18.715
+2025-08-14 11:31:29 INFO: {'SDGR': {   'close': 19.17,
+    'high': 19.17,
+    'low': 19.17,
+    'open': 19.17,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 127.0,
+    'vwap': 19.17}}
+2025-08-14 11:31:29 INFO: Current resistance is: 19.22 and support is: 18.715
+2025-08-14 11:31:29 INFO: Current average volume is: 1706.9
+2025-08-14 11:31:29 INFO: Updated resistance to: 19.22 and support to: 18.715
+2025-08-14 11:32:29 INFO: {'SDGR': {   'close': 19.18,
+    'high': 19.18,
+    'low': 19.175,
+    'open': 19.175,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 256.0,
+    'vwap': 19.1775}}
+2025-08-14 11:32:29 INFO: Current resistance is: 19.22 and support is: 18.715
+2025-08-14 11:32:29 INFO: Current average volume is: 1619.8
+2025-08-14 11:32:29 INFO: Updated resistance to: 19.22 and support to: 18.715
+2025-08-14 11:33:29 INFO: {'SDGR': {   'close': 19.24,
+    'high': 19.25,
+    'low': 19.24,
+    'open': 19.25,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 502.0,
+    'vwap': 19.245}}
+2025-08-14 11:33:29 INFO: Current resistance is: 19.22 and support is: 18.715
+2025-08-14 11:33:29 INFO: Current average volume is: 1630.5
+2025-08-14 11:33:29 INFO: The Current Close 19.24 is above the resistance...
+2025-08-14 11:33:29 INFO: Updated resistance to: 19.25 and support to: 18.715
+2025-08-14 11:38:00 INFO: {'SDGR': {   'close': 19.2,
+    'high': 19.2,
+    'low': 19.2,
+    'open': 19.2,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 429.0,
+    'vwap': 19.2}}
+2025-08-14 11:38:00 INFO: Current resistance is: 19.25 and support is: 18.715
+2025-08-14 11:38:00 INFO: Current average volume is: 857.4
+2025-08-14 11:38:00 INFO: Updated resistance to: 19.25 and support to: 18.715
+2025-08-14 11:39:01 INFO: {'SDGR': {   'close': 19.24,
+    'high': 19.24,
+    'low': 19.24,
+    'open': 19.24,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 103.0,
+    'vwap': 19.24}}
+2025-08-14 11:39:01 INFO: Current resistance is: 19.25 and support is: 18.715
+2025-08-14 11:39:01 INFO: Current average volume is: 618.3
+2025-08-14 11:39:01 INFO: Updated resistance to: 19.25 and support to: 18.715
+2025-08-14 11:40:01 INFO: {'SDGR': {   'close': 19.255,
+    'high': 19.255,
+    'low': 19.255,
+    'open': 19.255,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.255}}
+2025-08-14 11:40:01 INFO: Current resistance is: 19.25 and support is: 18.715
+2025-08-14 11:40:01 INFO: Current average volume is: 502.2
+2025-08-14 11:40:01 INFO: The Current Close 19.255 is above the resistance...
+2025-08-14 11:40:01 INFO: Updated resistance to: 19.255 and support to: 18.715
+2025-08-14 11:42:01 INFO: {'SDGR': {   'close': 19.25,
+    'high': 19.27,
+    'low': 19.25,
+    'open': 19.265,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 837.0,
+    'vwap': 19.264375}}
+2025-08-14 11:42:01 INFO: Current resistance is: 19.255 and support is: 18.715
+2025-08-14 11:42:01 INFO: Current average volume is: 327.7
+2025-08-14 11:42:01 INFO: Updated resistance to: 19.27 and support to: 18.715
+2025-08-14 11:43:01 INFO: {'SDGR': {   'close': 19.185,
+    'high': 19.21,
+    'low': 19.185,
+    'open': 19.21,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 19.20375}}
+2025-08-14 11:43:01 INFO: Current resistance is: 19.27 and support is: 18.715
+2025-08-14 11:43:01 INFO: Current average volume is: 319.9
+2025-08-14 11:43:01 INFO: Updated resistance to: 19.27 and support to: 18.715
+2025-08-14 11:44:01 INFO: {'SDGR': {   'close': 19.16,
+    'high': 19.16,
+    'low': 19.12,
+    'open': 19.12,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 233.0,
+    'vwap': 19.14}}
+2025-08-14 11:44:01 INFO: Current resistance is: 19.27 and support is: 18.715
+2025-08-14 11:44:01 INFO: Current average volume is: 332.7
+2025-08-14 11:44:01 INFO: Updated resistance to: 19.27 and support to: 18.715
+2025-08-14 11:45:02 INFO: {'SDGR': {   'close': 19.18,
+    'high': 19.18,
+    'low': 19.18,
+    'open': 19.18,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 233.0,
+    'vwap': 19.18}}
+2025-08-14 11:45:02 INFO: Current resistance is: 19.27 and support is: 18.715
+2025-08-14 11:45:02 INFO: Current average volume is: 322.0
+2025-08-14 11:45:02 INFO: Updated resistance to: 19.27 and support to: 18.715
+2025-08-14 11:46:02 INFO: {'SDGR': {   'close': 19.2,
+    'high': 19.2,
+    'low': 19.2,
+    'open': 19.2,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 176.0,
+    'vwap': 19.2}}
+2025-08-14 11:46:02 INFO: Current resistance is: 19.27 and support is: 18.715
+2025-08-14 11:46:02 INFO: Current average volume is: 326.9
+2025-08-14 11:46:02 INFO: Updated resistance to: 19.27 and support to: 18.715
+2025-08-14 11:48:02 INFO: {'SDGR': {   'close': 19.215,
+    'high': 19.215,
+    'low': 19.215,
+    'open': 19.215,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 19.215}}
+2025-08-14 11:48:02 INFO: Current resistance is: 19.27 and support is: 18.715
+2025-08-14 11:48:02 INFO: Current average volume is: 316.3
+2025-08-14 11:48:02 INFO: Updated resistance to: 19.27 and support to: 18.715
+2025-08-14 11:49:02 INFO: {'SDGR': {   'close': 19.22,
+    'high': 19.22,
+    'low': 19.22,
+    'open': 19.22,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 174.0,
+    'vwap': 19.22}}
+2025-08-14 11:49:02 INFO: Current resistance is: 19.27 and support is: 18.715
+2025-08-14 11:49:02 INFO: Current average volume is: 283.5
+2025-08-14 11:49:02 INFO: Updated resistance to: 19.27 and support to: 18.715
+2025-08-14 11:51:02 INFO: {'SDGR': {   'close': 19.23,
+    'high': 19.23,
+    'low': 19.23,
+    'open': 19.23,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 344.0,
+    'vwap': 19.23}}
+2025-08-14 11:51:02 INFO: Current resistance is: 19.27 and support is: 18.715
+2025-08-14 11:51:02 INFO: Current average volume is: 275.0
+2025-08-14 11:51:02 INFO: Updated resistance to: 19.27 and support to: 18.715
+2025-08-14 11:53:03 INFO: {'SDGR': {   'close': 19.26,
+    'high': 19.26,
+    'low': 19.26,
+    'open': 19.26,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 468.0,
+    'vwap': 19.26}}
+2025-08-14 11:53:03 INFO: Current resistance is: 19.27 and support is: 18.715
+2025-08-14 11:53:03 INFO: Current average volume is: 311.5
+2025-08-14 11:53:03 INFO: Updated resistance to: 19.27 and support to: 18.715
+2025-08-14 11:55:03 INFO: {'SDGR': {   'close': 19.445,
+    'high': 19.455,
+    'low': 19.445,
+    'open': 19.455,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 814.0,
+    'vwap': 19.453145}}
+2025-08-14 11:55:03 INFO: Current resistance is: 19.27 and support is: 18.715
+2025-08-14 11:55:03 INFO: Current average volume is: 382.9
+2025-08-14 11:55:03 INFO: The Current Close 19.445 is above the resistance...
+2025-08-14 11:55:03 INFO: Updated resistance to: 19.455 and support to: 18.715
+2025-08-14 11:56:03 INFO: {'SDGR': {   'close': 19.36,
+    'high': 19.36,
+    'low': 19.36,
+    'open': 19.36,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 19.36}}
+2025-08-14 11:56:03 INFO: Current resistance is: 19.455 and support is: 18.715
+2025-08-14 11:56:03 INFO: Current average volume is: 349.2
+2025-08-14 11:56:03 INFO: Updated resistance to: 19.455 and support to: 18.715
+2025-08-14 11:57:03 INFO: {'SDGR': {   'close': 19.405,
+    'high': 19.405,
+    'low': 19.405,
+    'open': 19.405,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 281.0,
+    'vwap': 19.405}}
+2025-08-14 11:57:03 INFO: Current resistance is: 19.455 and support is: 18.715
+2025-08-14 11:57:03 INFO: Current average volume is: 337.3
+2025-08-14 11:57:03 INFO: Updated resistance to: 19.455 and support to: 18.715
+2025-08-14 11:58:03 INFO: {'SDGR': {   'close': 19.42,
+    'high': 19.42,
+    'low': 19.42,
+    'open': 19.42,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.42}}
+2025-08-14 11:58:03 INFO: Current resistance is: 19.455 and support is: 18.715
+2025-08-14 11:58:03 INFO: Current average volume is: 324.0
+2025-08-14 11:58:03 INFO: Updated resistance to: 19.455 and support to: 18.715
+2025-08-14 11:59:03 INFO: {'SDGR': {   'close': 19.465,
+    'high': 19.49,
+    'low': 19.46,
+    'open': 19.49,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 540.0,
+    'vwap': 19.47625}}
+2025-08-14 11:59:03 INFO: Current resistance is: 19.455 and support is: 18.715
+2025-08-14 11:59:03 INFO: Current average volume is: 354.7
+2025-08-14 11:59:03 INFO: The Current Close 19.465 is above the resistance...
+2025-08-14 11:59:03 INFO: Updated resistance to: 19.49 and support to: 18.715
+2025-08-14 12:00:04 INFO: {'SDGR': {   'close': 19.455,
+    'high': 19.46,
+    'low': 19.455,
+    'open': 19.46,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 323.0,
+    'vwap': 19.458195}}
+2025-08-14 12:00:04 INFO: Current resistance is: 19.49 and support is: 18.715
+2025-08-14 12:00:04 INFO: Current average volume is: 369.4
+2025-08-14 12:00:04 INFO: Updated resistance to: 19.49 and support to: 18.715
+2025-08-14 12:01:04 INFO: {'SDGR': {   'close': 19.49,
+    'high': 19.49,
+    'low': 19.475,
+    'open': 19.475,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 706.0,
+    'vwap': 19.486957}}
+2025-08-14 12:01:04 INFO: Current resistance is: 19.49 and support is: 18.715
+2025-08-14 12:01:04 INFO: Current average volume is: 425.0
+2025-08-14 12:02:04 INFO: {'SDGR': {   'close': 19.495,
+    'high': 19.495,
+    'low': 19.495,
+    'open': 19.495,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 19.495}}
+2025-08-14 12:02:04 INFO: Current resistance is: 19.49 and support is: 18.715
+2025-08-14 12:02:04 INFO: Current average volume is: 418.6
+2025-08-14 12:02:04 INFO: The Current Close 19.495 is above the resistance...
+2025-08-14 12:02:04 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:04:04 INFO: {'SDGR': {   'close': 19.385,
+    'high': 19.385,
+    'low': 19.385,
+    'open': 19.385,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 19.385}}
+2025-08-14 12:04:04 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:04:04 INFO: Current average volume is: 404.2
+2025-08-14 12:04:04 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:05:04 INFO: {'SDGR': {   'close': 19.355,
+    'high': 19.355,
+    'low': 19.355,
+    'open': 19.355,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 111.0,
+    'vwap': 19.355}}
+2025-08-14 12:05:04 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:05:04 INFO: Current average volume is: 368.5
+2025-08-14 12:05:04 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:06:05 INFO: {'SDGR': {   'close': 19.29,
+    'high': 19.39,
+    'low': 19.29,
+    'open': 19.36,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1361.0,
+    'vwap': 19.337634}}
+2025-08-14 12:06:05 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:06:05 INFO: Current average volume is: 423.2
+2025-08-14 12:06:05 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:09:05 INFO: {'SDGR': {   'close': 19.235,
+    'high': 19.26,
+    'low': 19.235,
+    'open': 19.26,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 827.0,
+    'vwap': 19.250822}}
+2025-08-14 12:09:05 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:09:05 INFO: Current average volume is: 455.9
+2025-08-14 12:09:05 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:10:05 INFO: {'SDGR': {   'close': 19.22,
+    'high': 19.235,
+    'low': 19.22,
+    'open': 19.235,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 232.0,
+    'vwap': 19.2275}}
+2025-08-14 12:10:05 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:10:05 INFO: Current average volume is: 451.0
+2025-08-14 12:10:05 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:11:05 INFO: {'SDGR': {   'close': 19.13,
+    'high': 19.17,
+    'low': 19.13,
+    'open': 19.17,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 552.0,
+    'vwap': 19.157097}}
+2025-08-14 12:11:05 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:11:05 INFO: Current average volume is: 496.2
+2025-08-14 12:11:05 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:12:05 INFO: {'SDGR': {   'close': 19.175,
+    'high': 19.175,
+    'low': 19.115,
+    'open': 19.115,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1242.0,
+    'vwap': 19.124279}}
+2025-08-14 12:12:05 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:12:05 INFO: Current average volume is: 566.4
+2025-08-14 12:12:05 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:13:05 INFO: {'SDGR': {   'close': 19.145,
+    'high': 19.16,
+    'low': 19.14,
+    'open': 19.16,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 890.0,
+    'vwap': 19.154167}}
+2025-08-14 12:13:05 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:13:05 INFO: Current average volume is: 623.1
+2025-08-14 12:13:05 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:14:06 INFO: {'SDGR': {   'close': 19.12,
+    'high': 19.13,
+    'low': 19.12,
+    'open': 19.13,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 301.0,
+    'vwap': 19.126667}}
+2025-08-14 12:14:06 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:14:06 INFO: Current average volume is: 582.6
+2025-08-14 12:14:06 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:17:06 INFO: {'SDGR': {   'close': 19.16,
+    'high': 19.16,
+    'low': 19.16,
+    'open': 19.16,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 151.0,
+    'vwap': 19.16}}
+2025-08-14 12:17:06 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:17:06 INFO: Current average volume is: 586.7
+2025-08-14 12:17:06 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:19:06 INFO: {'SDGR': {   'close': 19.15,
+    'high': 19.2,
+    'low': 19.15,
+    'open': 19.2,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 663.0,
+    'vwap': 19.1875}}
+2025-08-14 12:19:06 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:19:06 INFO: Current average volume is: 633.0
+2025-08-14 12:19:06 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:20:06 INFO: {'SDGR': {   'close': 19.18,
+    'high': 19.18,
+    'low': 19.18,
+    'open': 19.18,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.18}}
+2025-08-14 12:20:06 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:20:06 INFO: Current average volume is: 631.9
+2025-08-14 12:20:06 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:24:07 INFO: {'SDGR': {   'close': 19.19,
+    'high': 19.19,
+    'low': 19.19,
+    'open': 19.19,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 147.0,
+    'vwap': 19.19}}
+2025-08-14 12:24:07 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:24:07 INFO: Current average volume is: 510.5
+2025-08-14 12:24:07 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:27:07 INFO: {'SDGR': {   'close': 19.25,
+    'high': 19.25,
+    'low': 19.25,
+    'open': 19.25,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.25}}
+2025-08-14 12:27:07 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:27:07 INFO: Current average volume is: 437.8
+2025-08-14 12:27:07 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:33:08 INFO: {'SDGR': {   'close': 19.32,
+    'high': 19.325,
+    'low': 19.32,
+    'open': 19.325,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 402.0,
+    'vwap': 19.321667}}
+2025-08-14 12:33:08 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:33:08 INFO: Current average volume is: 454.8
+2025-08-14 12:33:08 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:36:08 INFO: {'SDGR': {   'close': 19.38,
+    'high': 19.38,
+    'low': 19.38,
+    'open': 19.38,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 313.0,
+    'vwap': 19.38}}
+2025-08-14 12:36:08 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:36:08 INFO: Current average volume is: 430.9
+2025-08-14 12:36:08 INFO: Updated resistance to: 19.495 and support to: 18.715
+2025-08-14 12:37:08 INFO: {'SDGR': {   'close': 19.51,
+    'high': 19.51,
+    'low': 19.435,
+    'open': 19.435,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 789.0,
+    'vwap': 19.460373}}
+2025-08-14 12:37:08 INFO: Current resistance is: 19.495 and support is: 18.715
+2025-08-14 12:37:08 INFO: Current average volume is: 385.6
+2025-08-14 12:37:08 INFO: The Current Close 19.51 is above the resistance...
+2025-08-14 12:37:08 INFO: Updated resistance to: 19.51 and support to: 18.715
+2025-08-14 12:40:09 INFO: {'SDGR': {   'close': 19.53,
+    'high': 19.53,
+    'low': 19.53,
+    'open': 19.53,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 108.0,
+    'vwap': 19.53}}
+2025-08-14 12:40:09 INFO: Current resistance is: 19.51 and support is: 18.715
+2025-08-14 12:40:09 INFO: Current average volume is: 307.4
+2025-08-14 12:40:09 INFO: The current close: 19.53 is above the resistance of 19.51, but volume isn't enough...
+2025-08-14 12:40:09 INFO: Updated resistance to: 19.53 and support to: 18.715
+2025-08-14 12:41:09 INFO: {'SDGR': {   'close': 19.55,
+    'high': 19.55,
+    'low': 19.55,
+    'open': 19.55,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.55}}
+2025-08-14 12:41:09 INFO: Current resistance is: 19.53 and support is: 18.715
+2025-08-14 12:41:09 INFO: Current average volume is: 287.3
+2025-08-14 12:41:09 INFO: The current close: 19.55 is above the resistance of 19.53, but volume isn't enough...
+2025-08-14 12:41:09 INFO: Updated resistance to: 19.55 and support to: 18.715
+2025-08-14 12:46:11 INFO: {'SDGR': {   'close': 19.65,
+    'high': 19.65,
+    'low': 19.61,
+    'open': 19.61,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 967.0,
+    'vwap': 19.625238}}
+2025-08-14 12:46:11 INFO: Current resistance is: 19.55 and support is: 18.715
+2025-08-14 12:46:11 INFO: Current average volume is: 368.9
+2025-08-14 12:46:11 INFO: The current close: 19.65 is above the resistance of 19.55, but volume isn't enough...
+2025-08-14 12:46:11 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 12:47:11 INFO: {'SDGR': {   'close': 19.575,
+    'high': 19.575,
+    'low': 19.575,
+    'open': 19.575,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 158.0,
+    'vwap': 19.575}}
+2025-08-14 12:47:11 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 12:47:11 INFO: Current average volume is: 318.4
+2025-08-14 12:47:11 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 12:48:11 INFO: {'SDGR': {   'close': 19.43,
+    'high': 19.43,
+    'low': 19.43,
+    'open': 19.43,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 141.0,
+    'vwap': 19.43}}
+2025-08-14 12:48:11 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 12:48:11 INFO: Current average volume is: 322.5
+2025-08-14 12:48:11 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 12:49:11 INFO: {'SDGR': {   'close': 19.31,
+    'high': 19.365,
+    'low': 19.295,
+    'open': 19.365,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2522.0,
+    'vwap': 19.342869}}
+2025-08-14 12:49:11 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 12:49:11 INFO: Current average volume is: 560.0
+2025-08-14 12:49:11 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 12:51:11 INFO: {'SDGR': {   'close': 19.41,
+    'high': 19.41,
+    'low': 19.41,
+    'open': 19.41,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 123.0,
+    'vwap': 19.41}}
+2025-08-14 12:51:11 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 12:51:11 INFO: Current average volume is: 562.3
+2025-08-14 12:51:11 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 12:52:11 INFO: {'SDGR': {   'close': 19.315,
+    'high': 19.315,
+    'low': 19.315,
+    'open': 19.315,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.315}}
+2025-08-14 12:52:11 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 12:52:11 INFO: Current average volume is: 532.1
+2025-08-14 12:52:11 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 12:54:12 INFO: {'SDGR': {   'close': 19.21,
+    'high': 19.21,
+    'low': 19.21,
+    'open': 19.21,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 525.0,
+    'vwap': 19.21}}
+2025-08-14 12:54:12 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 12:54:12 INFO: Current average volume is: 553.3
+2025-08-14 12:54:12 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 12:57:12 INFO: {'SDGR': {   'close': 19.165,
+    'high': 19.165,
+    'low': 19.165,
+    'open': 19.165,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 178.0,
+    'vwap': 19.165}}
+2025-08-14 12:57:12 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 12:57:12 INFO: Current average volume is: 492.2
+2025-08-14 12:57:12 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 12:58:12 INFO: {'SDGR': {   'close': 19.2,
+    'high': 19.2,
+    'low': 19.18,
+    'open': 19.18,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 611.0,
+    'vwap': 19.193333}}
+2025-08-14 12:58:12 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 12:58:12 INFO: Current average volume is: 542.5
+2025-08-14 12:58:12 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 12:59:12 INFO: {'SDGR': {   'close': 19.22,
+    'high': 19.22,
+    'low': 19.21,
+    'open': 19.21,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 222.0,
+    'vwap': 19.215}}
+2025-08-14 12:59:12 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 12:59:12 INFO: Current average volume is: 554.7
+2025-08-14 12:59:12 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:04:13 INFO: {'SDGR': {   'close': 19.25,
+    'high': 19.31,
+    'low': 19.25,
+    'open': 19.28,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 1580.0,
+    'vwap': 19.277972}}
+2025-08-14 13:04:13 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:04:13 INFO: Current average volume is: 616.0
+2025-08-14 13:04:13 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:06:13 INFO: {'SDGR': {   'close': 19.235,
+    'high': 19.235,
+    'low': 19.235,
+    'open': 19.235,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 238.0,
+    'vwap': 19.235}}
+2025-08-14 13:06:13 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:06:13 INFO: Current average volume is: 624.0
+2025-08-14 13:06:13 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:07:13 INFO: {'SDGR': {   'close': 19.195,
+    'high': 19.195,
+    'low': 19.195,
+    'open': 19.195,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 176.0,
+    'vwap': 19.195}}
+2025-08-14 13:07:13 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:07:13 INFO: Current average volume is: 627.5
+2025-08-14 13:07:13 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:10:13 INFO: {'SDGR': {   'close': 19.145,
+    'high': 19.145,
+    'low': 19.145,
+    'open': 19.145,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 121.0,
+    'vwap': 19.145}}
+2025-08-14 13:10:13 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:10:13 INFO: Current average volume is: 387.4
+2025-08-14 13:10:13 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:15:14 INFO: {'SDGR': {   'close': 19.18,
+    'high': 19.18,
+    'low': 19.18,
+    'open': 19.18,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 169.0,
+    'vwap': 19.18}}
+2025-08-14 13:15:14 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:15:14 INFO: Current average volume is: 392.0
+2025-08-14 13:15:14 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:21:15 INFO: {'SDGR': {   'close': 19.07,
+    'high': 19.105,
+    'low': 19.07,
+    'open': 19.105,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 515.0,
+    'vwap': 19.094198}}
+2025-08-14 13:21:15 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:21:15 INFO: Current average volume is: 433.5
+2025-08-14 13:21:15 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:28:16 INFO: {'SDGR': {   'close': 18.86,
+    'high': 18.86,
+    'low': 18.835,
+    'open': 18.835,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 292.0,
+    'vwap': 18.8475}}
+2025-08-14 13:28:16 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:28:16 INFO: Current average volume is: 410.2
+2025-08-14 13:28:16 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:29:16 INFO: {'SDGR': {   'close': 18.855,
+    'high': 18.855,
+    'low': 18.855,
+    'open': 18.855,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 156.0,
+    'vwap': 18.855}}
+2025-08-14 13:29:16 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:29:16 INFO: Current average volume is: 408.0
+2025-08-14 13:29:16 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:30:16 INFO: {'SDGR': {   'close': 18.85,
+    'high': 18.85,
+    'low': 18.85,
+    'open': 18.85,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 266.0,
+    'vwap': 18.85}}
+2025-08-14 13:30:16 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:30:16 INFO: Current average volume is: 373.5
+2025-08-14 13:30:16 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:31:17 INFO: {'SDGR': {   'close': 18.88,
+    'high': 18.88,
+    'low': 18.865,
+    'open': 18.865,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 427.0,
+    'vwap': 18.870137}}
+2025-08-14 13:31:17 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:31:17 INFO: Current average volume is: 394.0
+2025-08-14 13:31:17 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:34:17 INFO: {'SDGR': {   'close': 18.925,
+    'high': 18.925,
+    'low': 18.925,
+    'open': 18.925,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 497.0,
+    'vwap': 18.925}}
+2025-08-14 13:34:17 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:34:17 INFO: Current average volume is: 285.7
+2025-08-14 13:34:17 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:36:17 INFO: {'SDGR': {   'close': 19.08,
+    'high': 19.085,
+    'low': 19.08,
+    'open': 19.085,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 231.0,
+    'vwap': 19.0825}}
+2025-08-14 13:36:17 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:36:17 INFO: Current average volume is: 285.0
+2025-08-14 13:36:17 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:42:18 INFO: {'SDGR': {   'close': 19.125,
+    'high': 19.125,
+    'low': 19.125,
+    'open': 19.125,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 271.0,
+    'vwap': 19.125}}
+2025-08-14 13:42:18 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:42:18 INFO: Current average volume is: 294.5
+2025-08-14 13:42:18 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:44:18 INFO: {'SDGR': {   'close': 19.16,
+    'high': 19.16,
+    'low': 19.16,
+    'open': 19.16,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 235.0,
+    'vwap': 19.16}}
+2025-08-14 13:44:18 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:44:18 INFO: Current average volume is: 305.9
+2025-08-14 13:44:18 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:45:18 INFO: {'SDGR': {   'close': 19.175,
+    'high': 19.175,
+    'low': 19.175,
+    'open': 19.175,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 405.0,
+    'vwap': 19.175}}
+2025-08-14 13:45:18 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:45:18 INFO: Current average volume is: 329.5
+2025-08-14 13:45:18 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:47:18 INFO: {'SDGR': {   'close': 19.21,
+    'high': 19.21,
+    'low': 19.165,
+    'open': 19.165,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 370.0,
+    'vwap': 19.1875}}
+2025-08-14 13:47:18 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:47:18 INFO: Current average volume is: 315.0
+2025-08-14 13:47:18 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:48:19 INFO: {'SDGR': {   'close': 19.22,
+    'high': 19.24,
+    'low': 19.22,
+    'open': 19.24,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 594.0,
+    'vwap': 19.233711}}
+2025-08-14 13:48:19 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:48:19 INFO: Current average volume is: 345.2
+2025-08-14 13:48:19 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:53:19 INFO: {'SDGR': {   'close': 19.25,
+    'high': 19.265,
+    'low': 19.25,
+    'open': 19.26,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 619.0,
+    'vwap': 19.25566}}
+2025-08-14 13:53:19 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:53:19 INFO: Current average volume is: 391.5
+2025-08-14 13:53:19 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:57:20 INFO: {'SDGR': {   'close': 19.22,
+    'high': 19.245,
+    'low': 19.185,
+    'open': 19.245,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 582.0,
+    'vwap': 19.222855}}
+2025-08-14 13:57:20 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:57:20 INFO: Current average volume is: 423.1
+2025-08-14 13:57:20 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 13:58:20 INFO: {'SDGR': {   'close': 19.21,
+    'high': 19.21,
+    'low': 19.21,
+    'open': 19.21,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.21}}
+2025-08-14 13:58:20 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 13:58:20 INFO: Current average volume is: 390.4
+2025-08-14 13:58:20 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:01:20 INFO: {'SDGR': {   'close': 19.165,
+    'high': 19.165,
+    'low': 19.165,
+    'open': 19.165,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 205.0,
+    'vwap': 19.165}}
+2025-08-14 14:01:20 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:01:20 INFO: Current average volume is: 361.2
+2025-08-14 14:01:20 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:04:21 INFO: {'SDGR': {   'close': 19.115,
+    'high': 19.115,
+    'low': 19.1,
+    'open': 19.1,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 823.0,
+    'vwap': 19.1075}}
+2025-08-14 14:04:21 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:04:21 INFO: Current average volume is: 420.4
+2025-08-14 14:04:21 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:05:21 INFO: {'SDGR': {   'close': 19.155,
+    'high': 19.155,
+    'low': 19.155,
+    'open': 19.155,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 157.0,
+    'vwap': 19.155}}
+2025-08-14 14:05:21 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:05:21 INFO: Current average volume is: 409.0
+2025-08-14 14:05:21 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:08:21 INFO: {'SDGR': {   'close': 19.14,
+    'high': 19.14,
+    'low': 19.14,
+    'open': 19.14,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 219.0,
+    'vwap': 19.14}}
+2025-08-14 14:08:21 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:08:21 INFO: Current average volume is: 407.4
+2025-08-14 14:08:21 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:10:21 INFO: {'SDGR': {   'close': 19.135,
+    'high': 19.135,
+    'low': 19.135,
+    'open': 19.135,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 239.0,
+    'vwap': 19.135}}
+2025-08-14 14:10:21 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:10:21 INFO: Current average volume is: 390.8
+2025-08-14 14:10:21 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:12:22 INFO: {'SDGR': {   'close': 19.175,
+    'high': 19.185,
+    'low': 19.175,
+    'open': 19.185,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 347.0,
+    'vwap': 19.179587}}
+2025-08-14 14:12:22 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:12:22 INFO: Current average volume is: 388.5
+2025-08-14 14:12:22 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:15:22 INFO: {'SDGR': {   'close': 19.18,
+    'high': 19.195,
+    'low': 19.18,
+    'open': 19.195,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 442.0,
+    'vwap': 19.185396}}
+2025-08-14 14:15:22 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:15:22 INFO: Current average volume is: 373.3
+2025-08-14 14:15:22 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:17:22 INFO: {'SDGR': {   'close': 19.17,
+    'high': 19.17,
+    'low': 19.17,
+    'open': 19.17,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 120.0,
+    'vwap': 19.17}}
+2025-08-14 14:17:22 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:17:22 INFO: Current average volume is: 323.4
+2025-08-14 14:17:22 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:18:22 INFO: {'SDGR': {   'close': 19.11,
+    'high': 19.125,
+    'low': 19.11,
+    'open': 19.125,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 465.0,
+    'vwap': 19.1175}}
+2025-08-14 14:18:22 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:18:22 INFO: Current average volume is: 311.7
+2025-08-14 14:18:22 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:21:23 INFO: {'SDGR': {   'close': 19.19,
+    'high': 19.19,
+    'low': 19.19,
+    'open': 19.19,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 138.0,
+    'vwap': 19.19}}
+2025-08-14 14:21:23 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:21:23 INFO: Current average volume is: 315.5
+2025-08-14 14:21:23 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:22:23 INFO: {'SDGR': {   'close': 19.185,
+    'high': 19.185,
+    'low': 19.185,
+    'open': 19.185,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 151.0,
+    'vwap': 19.185}}
+2025-08-14 14:22:23 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:22:23 INFO: Current average volume is: 310.1
+2025-08-14 14:22:23 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:24:23 INFO: {'SDGR': {   'close': 19.21,
+    'high': 19.21,
+    'low': 19.21,
+    'open': 19.21,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 112.0,
+    'vwap': 19.21}}
+2025-08-14 14:24:23 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:24:23 INFO: Current average volume is: 239.0
+2025-08-14 14:24:23 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:27:23 INFO: {'SDGR': {   'close': 19.3,
+    'high': 19.3,
+    'low': 19.28,
+    'open': 19.28,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 321.0,
+    'vwap': 19.29}}
+2025-08-14 14:27:23 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:27:23 INFO: Current average volume is: 255.4
+2025-08-14 14:27:23 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:29:24 INFO: {'SDGR': {   'close': 19.305,
+    'high': 19.305,
+    'low': 19.305,
+    'open': 19.305,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 19.305}}
+2025-08-14 14:29:24 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:29:24 INFO: Current average volume is: 243.5
+2025-08-14 14:29:24 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:32:24 INFO: {'SDGR': {   'close': 19.36,
+    'high': 19.375,
+    'low': 19.36,
+    'open': 19.36,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 675.0,
+    'vwap': 19.368182}}
+2025-08-14 14:32:24 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:32:24 INFO: Current average volume is: 287.1
+2025-08-14 14:32:24 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:35:24 INFO: {'SDGR': {   'close': 19.45,
+    'high': 19.45,
+    'low': 19.44,
+    'open': 19.44,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 19.445}}
+2025-08-14 14:35:24 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:35:24 INFO: Current average volume is: 272.5
+2025-08-14 14:35:24 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:36:24 INFO: {'SDGR': {   'close': 19.445,
+    'high': 19.445,
+    'low': 19.445,
+    'open': 19.445,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 269.0,
+    'vwap': 19.445}}
+2025-08-14 14:36:24 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:36:24 INFO: Current average volume is: 255.2
+2025-08-14 14:36:24 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:37:25 INFO: {'SDGR': {   'close': 19.41,
+    'high': 19.41,
+    'low': 19.41,
+    'open': 19.41,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 212.0,
+    'vwap': 19.41}}
+2025-08-14 14:37:25 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:37:25 INFO: Current average volume is: 264.4
+2025-08-14 14:37:25 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:39:25 INFO: {'SDGR': {   'close': 19.425,
+    'high': 19.465,
+    'low': 19.425,
+    'open': 19.465,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 301.0,
+    'vwap': 19.45}}
+2025-08-14 14:39:25 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:39:25 INFO: Current average volume is: 248.0
+2025-08-14 14:39:25 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:40:25 INFO: {'SDGR': {   'close': 19.42,
+    'high': 19.42,
+    'low': 19.42,
+    'open': 19.42,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 143.0,
+    'vwap': 19.42}}
+2025-08-14 14:40:25 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:40:25 INFO: Current average volume is: 248.5
+2025-08-14 14:40:25 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:43:25 INFO: {'SDGR': {   'close': 19.44,
+    'high': 19.44,
+    'low': 19.44,
+    'open': 19.44,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 245.0,
+    'vwap': 19.44}}
+2025-08-14 14:43:25 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:43:25 INFO: Current average volume is: 257.9
+2025-08-14 14:43:25 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:47:26 INFO: {'SDGR': {   'close': 19.43,
+    'high': 19.435,
+    'low': 19.43,
+    'open': 19.435,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 302.0,
+    'vwap': 19.432706}}
+2025-08-14 14:47:26 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:47:26 INFO: Current average volume is: 276.9
+2025-08-14 14:47:26 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:48:26 INFO: {'SDGR': {   'close': 19.42,
+    'high': 19.42,
+    'low': 19.415,
+    'open': 19.415,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 244.0,
+    'vwap': 19.4175}}
+2025-08-14 14:48:26 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:48:26 INFO: Current average volume is: 269.2
+2025-08-14 14:48:26 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:53:26 INFO: {'SDGR': {   'close': 19.43,
+    'high': 19.43,
+    'low': 19.43,
+    'open': 19.43,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 132.0,
+    'vwap': 19.43}}
+2025-08-14 14:53:26 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:53:26 INFO: Current average volume is: 272.4
+2025-08-14 14:53:26 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:56:27 INFO: {'SDGR': {   'close': 19.44,
+    'high': 19.44,
+    'low': 19.44,
+    'open': 19.44,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 323.0,
+    'vwap': 19.44}}
+2025-08-14 14:56:27 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:56:27 INFO: Current average volume is: 237.2
+2025-08-14 14:56:27 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 14:59:27 INFO: {'SDGR': {   'close': 19.55,
+    'high': 19.55,
+    'low': 19.46,
+    'open': 19.46,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 738.0,
+    'vwap': 19.48963}}
+2025-08-14 14:59:27 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 14:59:27 INFO: Current average volume is: 290.9
+2025-08-14 14:59:27 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:00:27 INFO: {'SDGR': {   'close': 19.525,
+    'high': 19.525,
+    'low': 19.525,
+    'open': 19.525,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 144.0,
+    'vwap': 19.525}}
+2025-08-14 15:00:27 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:00:27 INFO: Current average volume is: 278.4
+2025-08-14 15:00:27 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:01:27 INFO: {'SDGR': {   'close': 19.535,
+    'high': 19.535,
+    'low': 19.53,
+    'open': 19.53,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 19.531667}}
+2025-08-14 15:01:27 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:01:27 INFO: Current average volume is: 287.2
+2025-08-14 15:01:27 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:03:28 INFO: {'SDGR': {   'close': 19.55,
+    'high': 19.55,
+    'low': 19.55,
+    'open': 19.55,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 258.0,
+    'vwap': 19.55}}
+2025-08-14 15:03:28 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:03:28 INFO: Current average volume is: 282.9
+2025-08-14 15:03:28 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:04:28 INFO: {'SDGR': {   'close': 19.56,
+    'high': 19.56,
+    'low': 19.56,
+    'open': 19.56,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 207.0,
+    'vwap': 19.56}}
+2025-08-14 15:04:28 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:04:28 INFO: Current average volume is: 289.3
+2025-08-14 15:04:28 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:05:28 INFO: {'SDGR': {   'close': 19.545,
+    'high': 19.545,
+    'low': 19.545,
+    'open': 19.545,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 382.0,
+    'vwap': 19.545}}
+2025-08-14 15:05:28 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:05:28 INFO: Current average volume is: 303.0
+2025-08-14 15:05:28 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:07:28 INFO: {'SDGR': {   'close': 19.575,
+    'high': 19.575,
+    'low': 19.57,
+    'open': 19.57,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 220.0,
+    'vwap': 19.5725}}
+2025-08-14 15:07:28 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:07:28 INFO: Current average volume is: 294.8
+2025-08-14 15:07:28 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:08:28 INFO: {'SDGR': {   'close': 19.55,
+    'high': 19.55,
+    'low': 19.54,
+    'open': 19.55,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 647.0,
+    'vwap': 19.54625}}
+2025-08-14 15:08:28 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:08:28 INFO: Current average volume is: 335.1
+2025-08-14 15:08:28 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:09:28 INFO: {'SDGR': {   'close': 19.545,
+    'high': 19.545,
+    'low': 19.545,
+    'open': 19.545,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 382.0,
+    'vwap': 19.545}}
+2025-08-14 15:09:28 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:09:28 INFO: Current average volume is: 360.1
+2025-08-14 15:09:28 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:10:28 INFO: {'SDGR': {   'close': 19.575,
+    'high': 19.575,
+    'low': 19.55,
+    'open': 19.55,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 402.0,
+    'vwap': 19.565942}}
+2025-08-14 15:10:28 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:10:28 INFO: Current average volume is: 368.0
+2025-08-14 15:10:28 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:11:29 INFO: {'SDGR': {   'close': 19.56,
+    'high': 19.58,
+    'low': 19.56,
+    'open': 19.58,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 19.5725}}
+2025-08-14 15:11:29 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:11:29 INFO: Current average volume is: 354.2
+2025-08-14 15:11:29 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:13:29 INFO: {'SDGR': {   'close': 19.575,
+    'high': 19.575,
+    'low': 19.55,
+    'open': 19.57,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 810.0,
+    'vwap': 19.56}}
+2025-08-14 15:13:29 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:13:29 INFO: Current average volume is: 420.8
+2025-08-14 15:13:29 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:14:29 INFO: {'SDGR': {   'close': 19.545,
+    'high': 19.545,
+    'low': 19.545,
+    'open': 19.545,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 365.0,
+    'vwap': 19.545}}
+2025-08-14 15:14:29 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:14:29 INFO: Current average volume is: 427.3
+2025-08-14 15:14:29 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:15:29 INFO: {'SDGR': {   'close': 19.56,
+    'high': 19.56,
+    'low': 19.56,
+    'open': 19.56,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 207.0,
+    'vwap': 19.56}}
+2025-08-14 15:15:29 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:15:29 INFO: Current average volume is: 422.2
+2025-08-14 15:15:29 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:18:29 INFO: {'SDGR': {   'close': 19.58,
+    'high': 19.58,
+    'low': 19.58,
+    'open': 19.58,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 124.0,
+    'vwap': 19.58}}
+2025-08-14 15:18:29 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:18:29 INFO: Current average volume is: 413.9
+2025-08-14 15:18:29 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:21:30 INFO: {'SDGR': {   'close': 19.64,
+    'high': 19.64,
+    'low': 19.64,
+    'open': 19.64,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 19.64}}
+2025-08-14 15:21:30 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:21:30 INFO: Current average volume is: 385.8
+2025-08-14 15:21:30 INFO: Updated resistance to: 19.65 and support to: 18.715
+2025-08-14 15:22:30 INFO: {'SDGR': {   'close': 19.69,
+    'high': 19.695,
+    'low': 19.69,
+    'open': 19.695,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 207.0,
+    'vwap': 19.6925}}
+2025-08-14 15:22:30 INFO: Current resistance is: 19.65 and support is: 18.715
+2025-08-14 15:22:30 INFO: Current average volume is: 384.5
+2025-08-14 15:22:30 INFO: The Current Close 19.69 is above the resistance...
+2025-08-14 15:22:30 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:24:00 INFO: {'SDGR': {   'close': 19.64,
+    'high': 19.64,
+    'low': 19.635,
+    'open': 19.635,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 480.0,
+    'vwap': 19.6375}}
+2025-08-14 15:24:00 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:24:00 INFO: Current average volume is: 367.8
+2025-08-14 15:24:00 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:25:00 INFO: {'SDGR': {   'close': 19.65,
+    'high': 19.65,
+    'low': 19.65,
+    'open': 19.65,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 19.65}}
+2025-08-14 15:25:00 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:25:00 INFO: Current average volume is: 340.6
+2025-08-14 15:25:00 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:28:01 INFO: {'SDGR': {   'close': 19.675,
+    'high': 19.675,
+    'low': 19.675,
+    'open': 19.675,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 320.0,
+    'vwap': 19.675}}
+2025-08-14 15:28:01 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:28:01 INFO: Current average volume is: 332.4
+2025-08-14 15:28:01 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:29:01 INFO: {'SDGR': {   'close': 19.65,
+    'high': 19.66,
+    'low': 19.65,
+    'open': 19.66,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 465.0,
+    'vwap': 19.653333}}
+2025-08-14 15:29:01 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:29:01 INFO: Current average volume is: 318.9
+2025-08-14 15:29:01 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:32:01 INFO: {'SDGR': {   'close': 19.62,
+    'high': 19.64,
+    'low': 19.62,
+    'open': 19.64,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 473.0,
+    'vwap': 19.629302}}
+2025-08-14 15:32:01 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:32:01 INFO: Current average volume is: 285.2
+2025-08-14 15:32:01 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:34:01 INFO: {'SDGR': {   'close': 19.6,
+    'high': 19.61,
+    'low': 19.575,
+    'open': 19.6,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1350.0,
+    'vwap': 19.588333}}
+2025-08-14 15:34:01 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:34:01 INFO: Current average volume is: 383.7
+2025-08-14 15:34:01 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:37:02 INFO: {'SDGR': {   'close': 19.58,
+    'high': 19.585,
+    'low': 19.58,
+    'open': 19.585,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 388.0,
+    'vwap': 19.582404}}
+2025-08-14 15:37:02 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:37:02 INFO: Current average volume is: 401.8
+2025-08-14 15:37:02 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:38:02 INFO: {'SDGR': {   'close': 19.46,
+    'high': 19.46,
+    'low': 19.45,
+    'open': 19.45,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1357.0,
+    'vwap': 19.456891}}
+2025-08-14 15:38:02 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:38:02 INFO: Current average volume is: 525.1
+2025-08-14 15:38:02 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:39:02 INFO: {'SDGR': {   'close': 19.455,
+    'high': 19.48,
+    'low': 19.455,
+    'open': 19.48,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 770.0,
+    'vwap': 19.471667}}
+2025-08-14 15:39:02 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:39:02 INFO: Current average volume is: 592.0
+2025-08-14 15:39:02 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:41:02 INFO: {'SDGR': {   'close': 19.45,
+    'high': 19.475,
+    'low': 19.425,
+    'open': 19.425,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2610.0,
+    'vwap': 19.447166}}
+2025-08-14 15:41:02 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:41:02 INFO: Current average volume is: 832.3
+2025-08-14 15:41:02 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:43:02 INFO: {'SDGR': {   'close': 19.415,
+    'high': 19.415,
+    'low': 19.415,
+    'open': 19.415,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 652.0,
+    'vwap': 19.415}}
+2025-08-14 15:43:02 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:43:02 INFO: Current average volume is: 849.5
+2025-08-14 15:43:02 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:44:03 INFO: {'SDGR': {   'close': 19.36,
+    'high': 19.36,
+    'low': 19.36,
+    'open': 19.36,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 260.0,
+    'vwap': 19.36}}
+2025-08-14 15:44:03 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:44:03 INFO: Current average volume is: 864.5
+2025-08-14 15:44:03 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:45:03 INFO: {'SDGR': {   'close': 19.385,
+    'high': 19.385,
+    'low': 19.37,
+    'open': 19.37,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 301.0,
+    'vwap': 19.3775}}
+2025-08-14 15:45:03 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:45:03 INFO: Current average volume is: 862.6
+2025-08-14 15:45:03 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:46:03 INFO: {'SDGR': {   'close': 19.39,
+    'high': 19.39,
+    'low': 19.38,
+    'open': 19.38,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 673.0,
+    'vwap': 19.385112}}
+2025-08-14 15:46:03 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:46:03 INFO: Current average volume is: 883.4
+2025-08-14 15:46:03 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:47:03 INFO: {'SDGR': {   'close': 19.505,
+    'high': 19.505,
+    'low': 19.385,
+    'open': 19.385,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 816.0,
+    'vwap': 19.422905}}
+2025-08-14 15:47:03 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:47:03 INFO: Current average volume is: 917.7
+2025-08-14 15:47:03 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:48:03 INFO: {'SDGR': {   'close': 19.525,
+    'high': 19.54,
+    'low': 19.51,
+    'open': 19.51,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1043.0,
+    'vwap': 19.526667}}
+2025-08-14 15:48:03 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:48:03 INFO: Current average volume is: 887.0
+2025-08-14 15:48:03 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:49:03 INFO: {'SDGR': {   'close': 19.455,
+    'high': 19.525,
+    'low': 19.455,
+    'open': 19.525,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 510.0,
+    'vwap': 19.49875}}
+2025-08-14 15:49:03 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:49:03 INFO: Current average volume is: 899.2
+2025-08-14 15:49:03 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:50:03 INFO: {'SDGR': {   'close': 19.47,
+    'high': 19.47,
+    'low': 19.46,
+    'open': 19.46,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 518.0,
+    'vwap': 19.466466}}
+2025-08-14 15:50:03 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:50:03 INFO: Current average volume is: 815.3
+2025-08-14 15:50:03 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:51:03 INFO: {'SDGR': {   'close': 19.495,
+    'high': 19.5,
+    'low': 19.48,
+    'open': 19.48,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1837.0,
+    'vwap': 19.483187}}
+2025-08-14 15:51:03 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:51:03 INFO: Current average volume is: 922.0
+2025-08-14 15:51:03 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:53:04 INFO: {'SDGR': {   'close': 19.42,
+    'high': 19.49,
+    'low': 19.405,
+    'open': 19.49,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2004.0,
+    'vwap': 19.420313}}
+2025-08-14 15:53:04 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:53:04 INFO: Current average volume is: 861.4
+2025-08-14 15:53:04 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:54:04 INFO: {'SDGR': {   'close': 19.455,
+    'high': 19.46,
+    'low': 19.415,
+    'open': 19.415,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 676.0,
+    'vwap': 19.439}}
+2025-08-14 15:54:04 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:54:04 INFO: Current average volume is: 863.8
+2025-08-14 15:54:04 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:57:04 INFO: {'SDGR': {   'close': 19.425,
+    'high': 19.435,
+    'low': 19.425,
+    'open': 19.435,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 237.0,
+    'vwap': 19.43}}
+2025-08-14 15:57:04 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:57:04 INFO: Current average volume is: 861.5
+2025-08-14 15:57:04 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 15:58:04 INFO: {'SDGR': {   'close': 19.395,
+    'high': 19.395,
+    'low': 19.335,
+    'open': 19.395,
+    'symbol': 'SDGR',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 55.0,
+    'volume': 5542.0,
+    'vwap': 19.36922}}
+2025-08-14 15:58:04 INFO: Current resistance is: 19.695 and support is: 18.715
+2025-08-14 15:58:04 INFO: Current average volume is: 1385.6
+2025-08-14 15:58:04 INFO: Updated resistance to: 19.695 and support to: 18.715
+2025-08-14 16:00:04 INFO: The Market is closed...

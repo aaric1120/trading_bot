@@ -1,0 +1,1611 @@
+2025-08-19 09:55:14 INFO: === Strategy started ===
+2025-08-19 09:55:14 INFO: Start collecting the current highs/lows for: ALTS
+2025-08-19 09:55:14 INFO: Most recent stock data: {'ALTS': {   'close': 6.05,
+    'high': 6.05,
+    'low': 6.01,
+    'open': 6.035,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 6.029286}}
+2025-08-19 09:57:15 INFO: Most recent stock data: {'ALTS': {   'close': 6.065,
+    'high': 6.07,
+    'low': 6.06,
+    'open': 6.06,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1037.0,
+    'vwap': 6.066}}
+2025-08-19 10:00:16 INFO: Most recent stock data: {'ALTS': {   'close': 6.03,
+    'high': 6.03,
+    'low': 6.03,
+    'open': 6.03,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 6.03}}
+2025-08-19 10:01:16 INFO: Most recent stock data: {'ALTS': {   'close': 5.96,
+    'high': 6.02,
+    'low': 5.96,
+    'open': 6.02,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1600.0,
+    'vwap': 5.982667}}
+2025-08-19 10:02:16 INFO: Most recent stock data: {'ALTS': {   'close': 6.01,
+    'high': 6.01,
+    'low': 5.965,
+    'open': 5.965,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 310.0,
+    'vwap': 5.9875}}
+2025-08-19 10:03:16 INFO: Most recent stock data: {'ALTS': {   'close': 6.03,
+    'high': 6.03,
+    'low': 6.01,
+    'open': 6.02,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 6.022}}
+2025-08-19 10:05:16 INFO: Most recent stock data: {'ALTS': {   'close': 6.05,
+    'high': 6.05,
+    'low': 6.04,
+    'open': 6.04,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 6.0475}}
+2025-08-19 10:07:16 INFO: Most recent stock data: {'ALTS': {   'close': 6.05,
+    'high': 6.06,
+    'low': 6.05,
+    'open': 6.06,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 6.052857}}
+2025-08-19 10:08:17 INFO: Most recent stock data: {'ALTS': {   'close': 6.02,
+    'high': 6.05,
+    'low': 6.01,
+    'open': 6.01,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1000.0,
+    'vwap': 6.037}}
+2025-08-19 10:09:17 INFO: Most recent stock data: {'ALTS': {   'close': 6.02,
+    'high': 6.03,
+    'low': 6.0,
+    'open': 6.0,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 900.0,
+    'vwap': 6.015556}}
+2025-08-19 10:10:17 INFO: Most recent stock data: {'ALTS': {   'close': 6.01,
+    'high': 6.02,
+    'low': 6.01,
+    'open': 6.02,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 6.0175}}
+2025-08-19 10:10:17 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 10:10:17 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 10:12:17 INFO: {'ALTS': {   'close': 6.03,
+    'high': 6.03,
+    'low': 6.03,
+    'open': 6.03,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 6.03}}
+2025-08-19 10:12:17 INFO: Current resistance is: 6.07 and support is: 5.96
+2025-08-19 10:12:17 INFO: Current average volume is: 641.0
+2025-08-19 10:12:17 INFO: Updated resistance to: 6.07 and support to: 5.96
+2025-08-19 10:13:17 INFO: {'ALTS': {   'close': 6.01,
+    'high': 6.01,
+    'low': 6.01,
+    'open': 6.01,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 360.0,
+    'vwap': 6.01}}
+2025-08-19 10:13:17 INFO: Current resistance is: 6.07 and support is: 5.96
+2025-08-19 10:13:17 INFO: Current average volume is: 627.0
+2025-08-19 10:13:17 INFO: Updated resistance to: 6.07 and support to: 5.96
+2025-08-19 10:15:18 INFO: {'ALTS': {   'close': 5.97,
+    'high': 6.0,
+    'low': 5.97,
+    'open': 6.0,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 870.0,
+    'vwap': 5.981429}}
+2025-08-19 10:15:18 INFO: Current resistance is: 6.07 and support is: 5.96
+2025-08-19 10:15:18 INFO: Current average volume is: 554.0
+2025-08-19 10:15:18 INFO: Updated resistance to: 6.07 and support to: 5.96
+2025-08-19 10:16:18 INFO: {'ALTS': {   'close': 6.0,
+    'high': 6.02,
+    'low': 5.96,
+    'open': 5.96,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 737.0,
+    'vwap': 5.987143}}
+2025-08-19 10:16:18 INFO: Current resistance is: 6.07 and support is: 5.96
+2025-08-19 10:16:18 INFO: Current average volume is: 596.7
+2025-08-19 10:16:18 INFO: Updated resistance to: 6.07 and support to: 5.96
+2025-08-19 10:20:18 INFO: {'ALTS': {   'close': 6.02,
+    'high': 6.03,
+    'low': 6.0,
+    'open': 6.0,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 851.0,
+    'vwap': 6.01}}
+2025-08-19 10:20:18 INFO: Current resistance is: 6.07 and support is: 5.96
+2025-08-19 10:20:18 INFO: Current average volume is: 631.8
+2025-08-19 10:20:18 INFO: Updated resistance to: 6.07 and support to: 5.96
+2025-08-19 10:23:18 INFO: {'ALTS': {   'close': 6.0,
+    'high': 6.0,
+    'low': 5.98,
+    'open': 5.98,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 721.0,
+    'vwap': 5.983333}}
+2025-08-19 10:23:18 INFO: Current resistance is: 6.07 and support is: 5.96
+2025-08-19 10:23:18 INFO: Current average volume is: 663.9
+2025-08-19 10:23:18 INFO: Updated resistance to: 6.07 and support to: 5.96
+2025-08-19 10:25:19 INFO: {'ALTS': {   'close': 5.94,
+    'high': 5.95,
+    'low': 5.94,
+    'open': 5.95,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 5.941667}}
+2025-08-19 10:25:19 INFO: Current resistance is: 6.07 and support is: 5.96
+2025-08-19 10:25:19 INFO: Current average volume is: 653.9
+2025-08-19 10:25:19 INFO: close price: 5.94 just dropped below support of 5.96...
+2025-08-19 10:26:19 INFO: {'ALTS': {   'close': 5.92,
+    'high': 5.93,
+    'low': 5.92,
+    'open': 5.93,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.923333}}
+2025-08-19 10:26:19 INFO: Current resistance is: 6.07 and support is: 5.96
+2025-08-19 10:26:19 INFO: Current average volume is: 583.9
+2025-08-19 10:26:19 INFO: Closing price: 5.92 just dropped below support 5.96 again...ending trade...
+2025-08-19 11:10:13 INFO: === Strategy started ===
+2025-08-19 11:10:13 INFO: Start collecting the current highs/lows for: ALTS
+2025-08-19 11:10:13 INFO: Most recent stock data: {'ALTS': {   'close': 5.83,
+    'high': 5.83,
+    'low': 5.83,
+    'open': 5.83,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.83}}
+2025-08-19 11:11:14 INFO: Most recent stock data: {'ALTS': {   'close': 5.88,
+    'high': 5.88,
+    'low': 5.85,
+    'open': 5.85,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1575.0,
+    'vwap': 5.851905}}
+2025-08-19 11:12:14 INFO: Most recent stock data: {'ALTS': {   'close': 5.84,
+    'high': 5.9,
+    'low': 5.84,
+    'open': 5.875,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 3768.0,
+    'vwap': 5.877472}}
+2025-08-19 11:13:14 INFO: Most recent stock data: {'ALTS': {   'close': 5.84,
+    'high': 5.84,
+    'low': 5.83,
+    'open': 5.83,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.835}}
+2025-08-19 11:15:14 INFO: Most recent stock data: {'ALTS': {   'close': 5.85,
+    'high': 5.85,
+    'low': 5.85,
+    'open': 5.85,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1201.0,
+    'vwap': 5.85}}
+2025-08-19 11:19:15 INFO: Most recent stock data: {'ALTS': {   'close': 5.86,
+    'high': 5.875,
+    'low': 5.86,
+    'open': 5.875,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1250.0,
+    'vwap': 5.8692}}
+2025-08-19 11:20:15 INFO: Most recent stock data: {'ALTS': {   'close': 5.85,
+    'high': 5.85,
+    'low': 5.85,
+    'open': 5.85,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 5.85}}
+2025-08-19 11:21:15 INFO: Most recent stock data: {'ALTS': {   'close': 5.84,
+    'high': 5.86,
+    'low': 5.84,
+    'open': 5.86,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 5.846}}
+2025-08-19 11:22:15 INFO: Most recent stock data: {'ALTS': {   'close': 5.85,
+    'high': 5.85,
+    'low': 5.85,
+    'open': 5.85,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 225.0,
+    'vwap': 5.85}}
+2025-08-19 11:28:16 INFO: Most recent stock data: {'ALTS': {   'close': 5.86,
+    'high': 5.86,
+    'low': 5.86,
+    'open': 5.86,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 493.0,
+    'vwap': 5.86}}
+2025-08-19 11:30:16 INFO: Most recent stock data: {'ALTS': {   'close': 5.85,
+    'high': 5.85,
+    'low': 5.85,
+    'open': 5.85,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 214.0,
+    'vwap': 5.85}}
+2025-08-19 11:30:16 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 11:30:16 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 11:40:17 INFO: {'ALTS': {   'close': 5.87,
+    'high': 5.87,
+    'low': 5.865,
+    'open': 5.865,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 368.0,
+    'vwap': 5.867725}}
+2025-08-19 11:40:17 INFO: Current resistance is: 5.9 and support is: 5.83
+2025-08-19 11:40:17 INFO: Current average volume is: 841.9
+2025-08-19 11:40:17 INFO: Updated resistance to: 5.9 and support to: 5.83
+2025-08-19 11:41:17 INFO: {'ALTS': {   'close': 5.86,
+    'high': 5.88,
+    'low': 5.86,
+    'open': 5.88,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 5.864}}
+2025-08-19 11:41:17 INFO: Current resistance is: 5.9 and support is: 5.83
+2025-08-19 11:41:17 INFO: Current average volume is: 515.1
+2025-08-19 11:41:17 INFO: Updated resistance to: 5.9 and support to: 5.83
+2025-08-19 11:43:18 INFO: {'ALTS': {   'close': 5.905,
+    'high': 5.91,
+    'low': 5.905,
+    'open': 5.91,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 930.0,
+    'vwap': 5.909444}}
+2025-08-19 11:43:18 INFO: Current resistance is: 5.9 and support is: 5.83
+2025-08-19 11:43:18 INFO: Current average volume is: 588.1
+2025-08-19 11:43:18 INFO: The Current Close 5.905 is above the resistance...
+2025-08-19 11:43:18 INFO: Updated resistance to: 5.91 and support to: 5.83
+2025-08-19 11:47:19 INFO: {'ALTS': {   'close': 5.93,
+    'high': 5.93,
+    'low': 5.91,
+    'open': 5.92,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 738.0,
+    'vwap': 5.92}}
+2025-08-19 11:47:19 INFO: Current resistance is: 5.91 and support is: 5.83
+2025-08-19 11:47:19 INFO: Current average volume is: 541.8
+2025-08-19 11:47:19 INFO: The current close: 5.93 is above the resistance of 5.91, but volume isn't enough...
+2025-08-19 11:47:19 INFO: Updated resistance to: 5.93 and support to: 5.83
+2025-08-19 11:49:19 INFO: {'ALTS': {   'close': 5.95,
+    'high': 5.96,
+    'low': 5.94,
+    'open': 5.94,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2357.0,
+    'vwap': 5.942174}}
+2025-08-19 11:49:19 INFO: Current resistance is: 5.93 and support is: 5.83
+2025-08-19 11:49:19 INFO: Current average volume is: 652.5
+2025-08-19 11:49:19 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-19 11:51:19 INFO: {'ALTS': {   'close': 5.89,
+    'high': 5.91,
+    'low': 5.89,
+    'open': 5.91,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 684.0,
+    'vwap': 5.902381}}
+2025-08-19 11:51:19 INFO: Current resistance is: 5.93 and support is: 5.83
+2025-08-19 11:51:19 INFO: Current average volume is: 700.9
+2025-08-19 11:51:19 INFO: Updated resistance to: 5.93 and support to: 5.83
+2025-08-19 11:52:20 INFO: {'ALTS': {   'close': 5.87,
+    'high': 5.88,
+    'low': 5.87,
+    'open': 5.88,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.875}}
+2025-08-19 11:52:20 INFO: Current resistance is: 5.93 and support is: 5.83
+2025-08-19 11:52:20 INFO: Current average volume is: 670.9
+2025-08-19 11:52:20 INFO: Updated resistance to: 5.93 and support to: 5.83
+2025-08-19 12:02:21 INFO: {'ALTS': {   'close': 5.85,
+    'high': 5.85,
+    'low': 5.85,
+    'open': 5.85,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.85}}
+2025-08-19 12:02:21 INFO: Current resistance is: 5.93 and support is: 5.83
+2025-08-19 12:02:21 INFO: Current average volume is: 658.4
+2025-08-19 12:02:21 INFO: Updated resistance to: 5.93 and support to: 5.83
+2025-08-19 12:07:21 INFO: {'ALTS': {   'close': 5.83,
+    'high': 5.83,
+    'low': 5.83,
+    'open': 5.83,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.83}}
+2025-08-19 12:07:21 INFO: Current resistance is: 5.93 and support is: 5.83
+2025-08-19 12:07:21 INFO: Current average volume is: 639.1
+2025-08-19 12:07:21 INFO: Updated resistance to: 5.93 and support to: 5.83
+2025-08-19 12:09:22 INFO: {'ALTS': {   'close': 5.78,
+    'high': 5.8,
+    'low': 5.78,
+    'open': 5.8,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2000.0,
+    'vwap': 5.79}}
+2025-08-19 12:09:22 INFO: Current resistance is: 5.93 and support is: 5.83
+2025-08-19 12:09:22 INFO: Current average volume is: 817.7
+2025-08-19 12:09:22 INFO: close price: 5.78 just dropped below support of 5.83...
+2025-08-19 12:10:22 INFO: {'ALTS': {   'close': 5.77,
+    'high': 5.77,
+    'low': 5.77,
+    'open': 5.77,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 140.0,
+    'vwap': 5.77}}
+2025-08-19 12:10:22 INFO: Current resistance is: 5.93 and support is: 5.83
+2025-08-19 12:10:22 INFO: Current average volume is: 794.9
+2025-08-19 12:10:22 INFO: Closing price: 5.77 just dropped below support 5.83 again...ending trade...
+2025-08-19 12:55:21 INFO: === Strategy started ===
+2025-08-19 12:55:21 INFO: Start collecting the current highs/lows for: ALTS
+2025-08-19 12:55:22 INFO: Most recent stock data: {'ALTS': {   'close': 5.72,
+    'high': 5.72,
+    'low': 5.71,
+    'open': 5.71,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 350.0,
+    'vwap': 5.713333}}
+2025-08-19 12:58:22 INFO: Most recent stock data: {'ALTS': {   'close': 5.76,
+    'high': 5.76,
+    'low': 5.73,
+    'open': 5.73,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 425.0,
+    'vwap': 5.752941}}
+2025-08-19 12:59:22 INFO: Most recent stock data: {'ALTS': {   'close': 5.77,
+    'high': 5.77,
+    'low': 5.77,
+    'open': 5.77,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 5.77}}
+2025-08-19 13:00:22 INFO: Most recent stock data: {'ALTS': {   'close': 5.75,
+    'high': 5.78,
+    'low': 5.75,
+    'open': 5.76,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 725.0,
+    'vwap': 5.764138}}
+2025-08-19 13:01:22 INFO: Most recent stock data: {'ALTS': {   'close': 5.73,
+    'high': 5.74,
+    'low': 5.73,
+    'open': 5.74,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 310.0,
+    'vwap': 5.736667}}
+2025-08-19 13:02:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.7,
+    'high': 5.7,
+    'low': 5.7,
+    'open': 5.7,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.7}}
+2025-08-19 13:03:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.695,
+    'high': 5.695,
+    'low': 5.69,
+    'open': 5.69,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.6925}}
+2025-08-19 13:04:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.7,
+    'high': 5.7,
+    'low': 5.7,
+    'open': 5.7,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.7}}
+2025-08-19 13:05:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.71,
+    'high': 5.71,
+    'low': 5.71,
+    'open': 5.71,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.71}}
+2025-08-19 13:06:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.7,
+    'high': 5.7,
+    'low': 5.7,
+    'open': 5.7,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 5.7}}
+2025-08-19 13:07:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.68,
+    'high': 5.68,
+    'low': 5.68,
+    'open': 5.68,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 226.0,
+    'vwap': 5.68}}
+2025-08-19 13:07:23 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 13:07:23 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 13:15:24 INFO: {'ALTS': {   'close': 5.7,
+    'high': 5.7,
+    'low': 5.7,
+    'open': 5.7,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 163.0,
+    'vwap': 5.7}}
+2025-08-19 13:15:24 INFO: Current resistance is: 5.78 and support is: 5.68
+2025-08-19 13:15:24 INFO: Current average volume is: 212.6
+2025-08-19 13:15:24 INFO: Updated resistance to: 5.78 and support to: 5.68
+2025-08-19 13:17:25 INFO: {'ALTS': {   'close': 5.61,
+    'high': 5.68,
+    'low': 5.5,
+    'open': 5.68,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2458.0,
+    'vwap': 5.601734}}
+2025-08-19 13:17:25 INFO: Current resistance is: 5.78 and support is: 5.68
+2025-08-19 13:17:25 INFO: Current average volume is: 448.3
+2025-08-19 13:17:25 INFO: close price: 5.61 just dropped below support of 5.68...
+2025-08-19 13:19:25 INFO: {'ALTS': {   'close': 5.6,
+    'high': 5.61,
+    'low': 5.555,
+    'open': 5.6,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2925.0,
+    'vwap': 5.591391}}
+2025-08-19 13:19:25 INFO: Current resistance is: 5.78 and support is: 5.68
+2025-08-19 13:19:25 INFO: Current average volume is: 668.3
+2025-08-19 13:19:25 INFO: Closing price: 5.6 just dropped below support 5.68 again...ending trade...
+2025-08-19 13:25:23 INFO: === Strategy started ===
+2025-08-19 13:25:23 INFO: Start collecting the current highs/lows for: ALTS
+2025-08-19 13:25:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.71,
+    'high': 5.71,
+    'low': 5.69,
+    'open': 5.69,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 5.7}}
+2025-08-19 13:26:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.65,
+    'high': 5.67,
+    'low': 5.65,
+    'open': 5.67,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.66}}
+2025-08-19 13:27:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.61,
+    'high': 5.64,
+    'low': 5.61,
+    'open': 5.64,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 572.0,
+    'vwap': 5.625}}
+2025-08-19 13:29:23 INFO: Most recent stock data: {'ALTS': {   'close': 5.63,
+    'high': 5.63,
+    'low': 5.63,
+    'open': 5.63,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 500.0,
+    'vwap': 5.63}}
+2025-08-19 13:30:24 INFO: Most recent stock data: {'ALTS': {   'close': 5.62,
+    'high': 5.62,
+    'low': 5.62,
+    'open': 5.62,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.62}}
+2025-08-19 13:32:24 INFO: Most recent stock data: {'ALTS': {   'close': 5.51,
+    'high': 5.58,
+    'low': 5.51,
+    'open': 5.58,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 900.0,
+    'vwap': 5.56}}
+2025-08-19 13:33:24 INFO: Most recent stock data: {'ALTS': {   'close': 5.5,
+    'high': 5.52,
+    'low': 5.5,
+    'open': 5.52,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 5.508}}
+2025-08-19 13:34:24 INFO: Most recent stock data: {'ALTS': {   'close': 5.41,
+    'high': 5.47,
+    'low': 5.41,
+    'open': 5.47,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 350.0,
+    'vwap': 5.43}}
+2025-08-19 13:35:24 INFO: Most recent stock data: {'ALTS': {   'close': 5.33,
+    'high': 5.45,
+    'low': 5.33,
+    'open': 5.45,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1194.0,
+    'vwap': 5.395455}}
+2025-08-19 13:36:24 INFO: Most recent stock data: {'ALTS': {   'close': 5.42,
+    'high': 5.43,
+    'low': 5.34,
+    'open': 5.34,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 906.0,
+    'vwap': 5.40375}}
+2025-08-19 13:39:25 INFO: Most recent stock data: {'ALTS': {   'close': 5.54,
+    'high': 5.54,
+    'low': 5.45,
+    'open': 5.45,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1390.0,
+    'vwap': 5.494644}}
+2025-08-19 13:39:25 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 13:39:25 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 13:40:25 INFO: {'ALTS': {   'close': 5.52,
+    'high': 5.58,
+    'low': 5.52,
+    'open': 5.55,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1110.0,
+    'vwap': 5.546667}}
+2025-08-19 13:40:25 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:40:25 INFO: Current average volume is: 752.2
+2025-08-19 13:40:25 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:41:25 INFO: {'ALTS': {   'close': 5.46,
+    'high': 5.49,
+    'low': 5.44,
+    'open': 5.49,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1000.0,
+    'vwap': 5.458}}
+2025-08-19 13:41:25 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:41:25 INFO: Current average volume is: 795.0
+2025-08-19 13:41:25 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:45:26 INFO: {'ALTS': {   'close': 5.37,
+    'high': 5.37,
+    'low': 5.37,
+    'open': 5.37,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.37}}
+2025-08-19 13:45:26 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:45:26 INFO: Current average volume is: 775.0
+2025-08-19 13:45:26 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:46:26 INFO: {'ALTS': {   'close': 5.36,
+    'high': 5.38,
+    'low': 5.33,
+    'open': 5.38,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2407.0,
+    'vwap': 5.360465}}
+2025-08-19 13:46:26 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:46:26 INFO: Current average volume is: 1005.7
+2025-08-19 13:46:26 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:47:26 INFO: {'ALTS': {   'close': 5.39,
+    'high': 5.39,
+    'low': 5.37,
+    'open': 5.37,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1400.0,
+    'vwap': 5.381429}}
+2025-08-19 13:47:26 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:47:26 INFO: Current average volume is: 1055.7
+2025-08-19 13:47:26 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:48:26 INFO: {'ALTS': {   'close': 5.415,
+    'high': 5.43,
+    'low': 5.4,
+    'open': 5.4,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 16744.0,
+    'vwap': 5.416677}}
+2025-08-19 13:48:26 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:48:26 INFO: Current average volume is: 2680.1
+2025-08-19 13:48:26 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:49:26 INFO: {'ALTS': {   'close': 5.41,
+    'high': 5.415,
+    'low': 5.41,
+    'open': 5.415,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 588.0,
+    'vwap': 5.412}}
+2025-08-19 13:49:26 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:49:26 INFO: Current average volume is: 2703.9
+2025-08-19 13:49:26 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:50:26 INFO: {'ALTS': {   'close': 5.39,
+    'high': 5.41,
+    'low': 5.39,
+    'open': 5.41,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 523.0,
+    'vwap': 5.401472}}
+2025-08-19 13:50:26 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:50:26 INFO: Current average volume is: 2636.8
+2025-08-19 13:50:26 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:55:27 INFO: {'ALTS': {   'close': 5.42,
+    'high': 5.42,
+    'low': 5.41,
+    'open': 5.415,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 5.416}}
+2025-08-19 13:55:27 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:55:27 INFO: Current average volume is: 2596.2
+2025-08-19 13:55:27 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:56:27 INFO: {'ALTS': {   'close': 5.48,
+    'high': 5.48,
+    'low': 5.42,
+    'open': 5.42,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.453333}}
+2025-08-19 13:56:27 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:56:27 INFO: Current average volume is: 2487.2
+2025-08-19 13:56:27 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:57:27 INFO: {'ALTS': {   'close': 5.45,
+    'high': 5.46,
+    'low': 5.45,
+    'open': 5.46,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1696.0,
+    'vwap': 5.457333}}
+2025-08-19 13:57:27 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:57:27 INFO: Current average volume is: 2545.8
+2025-08-19 13:57:27 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:58:27 INFO: {'ALTS': {   'close': 5.505,
+    'high': 5.51,
+    'low': 5.48,
+    'open': 5.48,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1200.0,
+    'vwap': 5.502083}}
+2025-08-19 13:58:27 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:58:27 INFO: Current average volume is: 2565.8
+2025-08-19 13:58:27 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 13:59:27 INFO: {'ALTS': {   'close': 5.47,
+    'high': 5.47,
+    'low': 5.465,
+    'open': 5.47,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1521.0,
+    'vwap': 5.466449}}
+2025-08-19 13:59:27 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 13:59:27 INFO: Current average volume is: 2687.9
+2025-08-19 13:59:27 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:01:28 INFO: {'ALTS': {   'close': 5.49,
+    'high': 5.49,
+    'low': 5.48,
+    'open': 5.48,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1800.0,
+    'vwap': 5.488889}}
+2025-08-19 14:01:28 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:01:28 INFO: Current average volume is: 2627.2
+2025-08-19 14:01:28 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:02:28 INFO: {'ALTS': {   'close': 5.46,
+    'high': 5.5,
+    'low': 5.45,
+    'open': 5.5,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 3200.0,
+    'vwap': 5.47375}}
+2025-08-19 14:02:28 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:02:28 INFO: Current average volume is: 2807.2
+2025-08-19 14:02:28 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:07:28 INFO: {'ALTS': {   'close': 5.43,
+    'high': 5.44,
+    'low': 5.43,
+    'open': 5.44,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.436667}}
+2025-08-19 14:07:28 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:07:28 INFO: Current average volume is: 1162.8
+2025-08-19 14:07:28 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:08:29 INFO: {'ALTS': {   'close': 5.415,
+    'high': 5.43,
+    'low': 5.415,
+    'open': 5.43,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 10300.0,
+    'vwap': 5.41534}}
+2025-08-19 14:08:29 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:08:29 INFO: Current average volume is: 2134.0
+2025-08-19 14:08:29 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:09:29 INFO: {'ALTS': {   'close': 5.4,
+    'high': 5.42,
+    'low': 5.4,
+    'open': 5.42,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 5.408}}
+2025-08-19 14:09:29 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:09:29 INFO: Current average volume is: 2131.7
+2025-08-19 14:09:29 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:10:29 INFO: {'ALTS': {   'close': 5.395,
+    'high': 5.395,
+    'low': 5.39,
+    'open': 5.39,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.3925}}
+2025-08-19 14:10:29 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:10:29 INFO: Current average volume is: 2101.7
+2025-08-19 14:10:29 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:11:29 INFO: {'ALTS': {   'close': 5.37,
+    'high': 5.37,
+    'low': 5.37,
+    'open': 5.37,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 5.37}}
+2025-08-19 14:11:29 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:11:29 INFO: Current average volume is: 2082.7
+2025-08-19 14:11:29 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:14:29 INFO: {'ALTS': {   'close': 5.4,
+    'high': 5.41,
+    'low': 5.4,
+    'open': 5.41,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.405}}
+2025-08-19 14:14:29 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:14:29 INFO: Current average volume is: 1933.1
+2025-08-19 14:14:29 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:16:29 INFO: {'ALTS': {   'close': 5.42,
+    'high': 5.42,
+    'low': 5.42,
+    'open': 5.42,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 191.0,
+    'vwap': 5.42}}
+2025-08-19 14:16:29 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:16:29 INFO: Current average volume is: 1832.2
+2025-08-19 14:16:29 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:18:30 INFO: {'ALTS': {   'close': 5.49,
+    'high': 5.49,
+    'low': 5.44,
+    'open': 5.44,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1158.0,
+    'vwap': 5.464}}
+2025-08-19 14:18:30 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:18:30 INFO: Current average volume is: 1795.9
+2025-08-19 14:18:30 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:19:30 INFO: {'ALTS': {   'close': 5.45,
+    'high': 5.46,
+    'low': 5.45,
+    'open': 5.45,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 5.451667}}
+2025-08-19 14:19:30 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:19:30 INFO: Current average volume is: 1675.9
+2025-08-19 14:19:30 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:21:30 INFO: {'ALTS': {   'close': 5.44,
+    'high': 5.44,
+    'low': 5.44,
+    'open': 5.44,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 215.0,
+    'vwap': 5.44}}
+2025-08-19 14:21:30 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:21:30 INFO: Current average volume is: 1377.4
+2025-08-19 14:21:30 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:23:30 INFO: {'ALTS': {   'close': 5.43,
+    'high': 5.43,
+    'low': 5.43,
+    'open': 5.43,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.43}}
+2025-08-19 14:23:30 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:23:30 INFO: Current average volume is: 1367.4
+2025-08-19 14:23:30 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:25:31 INFO: {'ALTS': {   'close': 5.47,
+    'high': 5.47,
+    'low': 5.46,
+    'open': 5.46,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 380.0,
+    'vwap': 5.466667}}
+2025-08-19 14:25:31 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:25:31 INFO: Current average volume is: 375.4
+2025-08-19 14:25:31 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:26:31 INFO: {'ALTS': {   'close': 5.49,
+    'high': 5.52,
+    'low': 5.49,
+    'open': 5.49,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 5.505}}
+2025-08-19 14:26:31 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:26:31 INFO: Current average volume is: 365.4
+2025-08-19 14:26:31 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:28:31 INFO: {'ALTS': {   'close': 5.42,
+    'high': 5.43,
+    'low': 5.42,
+    'open': 5.43,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.423333}}
+2025-08-19 14:28:31 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:28:31 INFO: Current average volume is: 375.4
+2025-08-19 14:28:31 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:30:31 INFO: {'ALTS': {   'close': 5.49,
+    'high': 5.505,
+    'low': 5.47,
+    'open': 5.47,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 5.49}}
+2025-08-19 14:30:31 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:30:31 INFO: Current average volume is: 434.4
+2025-08-19 14:30:31 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:31:31 INFO: {'ALTS': {   'close': 5.46,
+    'high': 5.46,
+    'low': 5.46,
+    'open': 5.46,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.46}}
+2025-08-19 14:31:31 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:31:31 INFO: Current average volume is: 444.4
+2025-08-19 14:31:31 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:33:32 INFO: {'ALTS': {   'close': 5.47,
+    'high': 5.47,
+    'low': 5.47,
+    'open': 5.47,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 5.47}}
+2025-08-19 14:33:32 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:33:32 INFO: Current average volume is: 455.3
+2025-08-19 14:33:32 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:34:32 INFO: {'ALTS': {   'close': 5.425,
+    'high': 5.46,
+    'low': 5.425,
+    'open': 5.46,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 892.0,
+    'vwap': 5.436875}}
+2025-08-19 14:34:32 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:34:32 INFO: Current average volume is: 428.7
+2025-08-19 14:34:32 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:35:32 INFO: {'ALTS': {   'close': 5.435,
+    'high': 5.435,
+    'low': 5.435,
+    'open': 5.435,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 5.435}}
+2025-08-19 14:35:32 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:35:32 INFO: Current average volume is: 418.7
+2025-08-19 14:35:32 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:36:32 INFO: {'ALTS': {   'close': 5.42,
+    'high': 5.43,
+    'low': 5.42,
+    'open': 5.425,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 800.0,
+    'vwap': 5.423125}}
+2025-08-19 14:36:32 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:36:32 INFO: Current average volume is: 477.2
+2025-08-19 14:36:32 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:39:32 INFO: {'ALTS': {   'close': 5.5,
+    'high': 5.5,
+    'low': 5.44,
+    'open': 5.44,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2100.0,
+    'vwap': 5.464286}}
+2025-08-19 14:39:32 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:39:32 INFO: Current average volume is: 667.2
+2025-08-19 14:39:32 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:40:32 INFO: {'ALTS': {   'close': 5.49,
+    'high': 5.49,
+    'low': 5.49,
+    'open': 5.49,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 150.0,
+    'vwap': 5.49}}
+2025-08-19 14:40:32 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:40:32 INFO: Current average volume is: 644.2
+2025-08-19 14:40:32 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:44:33 INFO: {'ALTS': {   'close': 5.54,
+    'high': 5.54,
+    'low': 5.525,
+    'open': 5.525,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1000.0,
+    'vwap': 5.5295}}
+2025-08-19 14:44:33 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:44:33 INFO: Current average volume is: 704.2
+2025-08-19 14:44:33 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:45:33 INFO: {'ALTS': {   'close': 5.46,
+    'high': 5.535,
+    'low': 5.46,
+    'open': 5.535,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2658.0,
+    'vwap': 5.528604}}
+2025-08-19 14:45:33 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:45:33 INFO: Current average volume is: 940.0
+2025-08-19 14:45:33 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:49:33 INFO: {'ALTS': {   'close': 5.465,
+    'high': 5.47,
+    'low': 5.465,
+    'open': 5.47,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1200.0,
+    'vwap': 5.465833}}
+2025-08-19 14:49:33 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:49:33 INFO: Current average volume is: 990.0
+2025-08-19 14:49:33 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:50:34 INFO: {'ALTS': {   'close': 5.46,
+    'high': 5.46,
+    'low': 5.46,
+    'open': 5.46,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1192.0,
+    'vwap': 5.46}}
+2025-08-19 14:50:34 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:50:34 INFO: Current average volume is: 1079.2
+2025-08-19 14:50:34 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:52:34 INFO: {'ALTS': {   'close': 5.47,
+    'high': 5.48,
+    'low': 5.47,
+    'open': 5.48,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 542.0,
+    'vwap': 5.472}}
+2025-08-19 14:52:34 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:52:34 INFO: Current average volume is: 1103.4
+2025-08-19 14:52:34 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:53:34 INFO: {'ALTS': {   'close': 5.455,
+    'high': 5.455,
+    'low': 5.455,
+    'open': 5.455,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 658.0,
+    'vwap': 5.455}}
+2025-08-19 14:53:34 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:53:34 INFO: Current average volume is: 1080.0
+2025-08-19 14:53:34 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:54:34 INFO: {'ALTS': {   'close': 5.46,
+    'high': 5.48,
+    'low': 5.46,
+    'open': 5.48,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1463.0,
+    'vwap': 5.465714}}
+2025-08-19 14:54:34 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:54:34 INFO: Current average volume is: 1176.3
+2025-08-19 14:54:34 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:55:34 INFO: {'ALTS': {   'close': 5.44,
+    'high': 5.44,
+    'low': 5.44,
+    'open': 5.44,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.44}}
+2025-08-19 14:55:34 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:55:34 INFO: Current average volume is: 1106.3
+2025-08-19 14:55:34 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 14:57:34 INFO: {'ALTS': {   'close': 5.42,
+    'high': 5.42,
+    'low': 5.42,
+    'open': 5.42,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 5.42}}
+2025-08-19 14:57:34 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 14:57:34 INFO: Current average volume is: 956.3
+2025-08-19 14:57:34 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 15:01:35 INFO: {'ALTS': {   'close': 5.41,
+    'high': 5.41,
+    'low': 5.41,
+    'open': 5.41,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 5.41}}
+2025-08-19 15:01:35 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 15:01:35 INFO: Current average volume is: 961.3
+2025-08-19 15:01:35 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 15:04:35 INFO: {'ALTS': {   'close': 5.42,
+    'high': 5.42,
+    'low': 5.42,
+    'open': 5.42,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1196.0,
+    'vwap': 5.42}}
+2025-08-19 15:04:35 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 15:04:35 INFO: Current average volume is: 980.9
+2025-08-19 15:04:35 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 15:06:35 INFO: {'ALTS': {   'close': 5.385,
+    'high': 5.385,
+    'low': 5.385,
+    'open': 5.385,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 133.0,
+    'vwap': 5.385}}
+2025-08-19 15:06:35 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 15:06:35 INFO: Current average volume is: 728.4
+2025-08-19 15:06:35 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 15:10:41 INFO: {'ALTS': {   'close': 5.35,
+    'high': 5.36,
+    'low': 5.35,
+    'open': 5.36,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1434.0,
+    'vwap': 5.358538}}
+2025-08-19 15:10:41 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 15:10:41 INFO: Current average volume is: 751.8
+2025-08-19 15:10:41 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 15:11:41 INFO: {'ALTS': {   'close': 5.38,
+    'high': 5.38,
+    'low': 5.355,
+    'open': 5.355,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 571.0,
+    'vwap': 5.37}}
+2025-08-19 15:11:41 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 15:11:41 INFO: Current average volume is: 689.7
+2025-08-19 15:11:41 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 15:13:41 INFO: {'ALTS': {   'close': 5.35,
+    'high': 5.35,
+    'low': 5.35,
+    'open': 5.35,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 5.35}}
+2025-08-19 15:13:41 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 15:13:41 INFO: Current average volume is: 646.5
+2025-08-19 15:13:41 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 15:14:41 INFO: {'ALTS': {   'close': 5.36,
+    'high': 5.36,
+    'low': 5.36,
+    'open': 5.36,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.36}}
+2025-08-19 15:14:41 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 15:14:41 INFO: Current average volume is: 590.7
+2025-08-19 15:14:41 INFO: Updated resistance to: 5.71 and support to: 5.33
+2025-08-19 15:15:42 INFO: {'ALTS': {   'close': 5.29,
+    'high': 5.35,
+    'low': 5.29,
+    'open': 5.35,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1000.0,
+    'vwap': 5.316667}}
+2025-08-19 15:15:42 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 15:15:42 INFO: Current average volume is: 544.4
+2025-08-19 15:15:42 INFO: close price: 5.29 just dropped below support of 5.33...
+2025-08-19 15:16:42 INFO: {'ALTS': {   'close': 5.305,
+    'high': 5.305,
+    'low': 5.3,
+    'open': 5.305,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 929.0,
+    'vwap': 5.304444}}
+2025-08-19 15:16:42 INFO: Current resistance is: 5.71 and support is: 5.33
+2025-08-19 15:16:42 INFO: Current average volume is: 627.3
+2025-08-19 15:16:42 INFO: Closing price: 5.305 just dropped below support 5.33 again...ending trade...
+2025-08-19 15:25:24 INFO: === Strategy started ===
+2025-08-19 15:25:24 INFO: Start collecting the current highs/lows for: ALTS
+2025-08-19 15:25:25 INFO: Most recent stock data: {'ALTS': {   'close': 5.37,
+    'high': 5.37,
+    'low': 5.36,
+    'open': 5.36,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 5.365}}
+2025-08-19 15:26:25 INFO: Most recent stock data: {'ALTS': {   'close': 5.355,
+    'high': 5.355,
+    'low': 5.355,
+    'open': 5.355,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 5.355}}
+2025-08-19 15:27:25 INFO: Most recent stock data: {'ALTS': {   'close': 5.3,
+    'high': 5.32,
+    'low': 5.3,
+    'open': 5.32,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 324.0,
+    'vwap': 5.313333}}
+2025-08-19 15:28:25 INFO: Most recent stock data: {'ALTS': {   'close': 5.31,
+    'high': 5.31,
+    'low': 5.31,
+    'open': 5.31,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 145.0,
+    'vwap': 5.31}}
+2025-08-19 15:30:25 INFO: Most recent stock data: {'ALTS': {   'close': 5.295,
+    'high': 5.295,
+    'low': 5.295,
+    'open': 5.295,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 5.295}}
+2025-08-19 15:33:26 INFO: Most recent stock data: {'ALTS': {   'close': 5.33,
+    'high': 5.33,
+    'low': 5.31,
+    'open': 5.31,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 263.0,
+    'vwap': 5.32}}
+2025-08-19 15:34:26 INFO: Most recent stock data: {'ALTS': {   'close': 5.35,
+    'high': 5.35,
+    'low': 5.33,
+    'open': 5.33,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 937.0,
+    'vwap': 5.345}}
+2025-08-19 15:35:26 INFO: Most recent stock data: {'ALTS': {   'close': 5.35,
+    'high': 5.36,
+    'low': 5.345,
+    'open': 5.36,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 908.0,
+    'vwap': 5.351101}}
+2025-08-19 15:36:26 INFO: Most recent stock data: {'ALTS': {   'close': 5.33,
+    'high': 5.33,
+    'low': 5.33,
+    'open': 5.33,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 343.0,
+    'vwap': 5.33}}
+2025-08-19 15:37:26 INFO: Most recent stock data: {'ALTS': {   'close': 5.3,
+    'high': 5.3,
+    'low': 5.3,
+    'open': 5.3,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 675.0,
+    'vwap': 5.3}}
+2025-08-19 15:39:27 INFO: Most recent stock data: {'ALTS': {   'close': 5.27,
+    'high': 5.27,
+    'low': 5.27,
+    'open': 5.27,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 250.0,
+    'vwap': 5.27}}
+2025-08-19 15:39:27 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 15:39:27 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 15:42:27 INFO: {'ALTS': {   'close': 5.28,
+    'high': 5.3,
+    'low': 5.28,
+    'open': 5.28,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 818.0,
+    'vwap': 5.285714}}
+2025-08-19 15:42:27 INFO: Current resistance is: 5.37 and support is: 5.27
+2025-08-19 15:42:27 INFO: Current average volume is: 486.3
+2025-08-19 15:42:27 INFO: Updated resistance to: 5.37 and support to: 5.27
+2025-08-19 15:45:27 INFO: {'ALTS': {   'close': 5.345,
+    'high': 5.345,
+    'low': 5.31,
+    'open': 5.32,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 900.0,
+    'vwap': 5.322778}}
+2025-08-19 15:45:27 INFO: Current resistance is: 5.37 and support is: 5.27
+2025-08-19 15:45:27 INFO: Current average volume is: 543.9
+2025-08-19 15:45:27 INFO: Updated resistance to: 5.37 and support to: 5.27
+2025-08-19 15:46:27 INFO: {'ALTS': {   'close': 5.36,
+    'high': 5.36,
+    'low': 5.36,
+    'open': 5.36,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 208.0,
+    'vwap': 5.36}}
+2025-08-19 15:46:27 INFO: Current resistance is: 5.37 and support is: 5.27
+2025-08-19 15:46:27 INFO: Current average volume is: 550.2
+2025-08-19 15:46:27 INFO: Updated resistance to: 5.37 and support to: 5.27
+2025-08-19 15:47:28 INFO: {'ALTS': {   'close': 5.6,
+    'high': 5.615,
+    'low': 5.37,
+    'open': 5.37,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 7251.0,
+    'vwap': 5.535833}}
+2025-08-19 15:47:28 INFO: Current resistance is: 5.37 and support is: 5.27
+2025-08-19 15:47:28 INFO: Current average volume is: 1255.3
+2025-08-19 15:47:28 INFO: The Current Close 5.6 is above the resistance...
+2025-08-19 15:47:28 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:48:28 INFO: {'ALTS': {   'close': 5.605,
+    'high': 5.605,
+    'low': 5.605,
+    'open': 5.605,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 600.0,
+    'vwap': 5.605}}
+2025-08-19 15:48:28 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:48:28 INFO: Current average volume is: 1289.0
+2025-08-19 15:48:28 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:50:28 INFO: {'ALTS': {   'close': 5.42,
+    'high': 5.59,
+    'low': 5.39,
+    'open': 5.59,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 63.0,
+    'volume': 12523.0,
+    'vwap': 5.447121}}
+2025-08-19 15:50:28 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:50:28 INFO: Current average volume is: 2447.6
+2025-08-19 15:50:28 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:51:28 INFO: {'ALTS': {   'close': 5.435,
+    'high': 5.44,
+    'low': 5.4,
+    'open': 5.415,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 8000.0,
+    'vwap': 5.428375}}
+2025-08-19 15:51:28 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:51:28 INFO: Current average volume is: 3156.8
+2025-08-19 15:51:28 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:52:28 INFO: {'ALTS': {   'close': 5.47,
+    'high': 5.47,
+    'low': 5.43,
+    'open': 5.44,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 6700.0,
+    'vwap': 5.439167}}
+2025-08-19 15:52:28 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:52:28 INFO: Current average volume is: 3792.5
+2025-08-19 15:52:28 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:53:28 INFO: {'ALTS': {   'close': 5.4,
+    'high': 5.42,
+    'low': 5.375,
+    'open': 5.42,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 6303.0,
+    'vwap': 5.387062}}
+2025-08-19 15:53:28 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:53:28 INFO: Current average volume is: 4355.3
+2025-08-19 15:53:28 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:54:29 INFO: {'ALTS': {   'close': 5.48,
+    'high': 5.48,
+    'low': 5.39,
+    'open': 5.4,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 4800.0,
+    'vwap': 5.408936}}
+2025-08-19 15:54:29 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:54:29 INFO: Current average volume is: 4810.3
+2025-08-19 15:54:29 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:55:29 INFO: {'ALTS': {   'close': 5.45,
+    'high': 5.46,
+    'low': 5.45,
+    'open': 5.46,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1433.0,
+    'vwap': 5.453214}}
+2025-08-19 15:55:29 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:55:29 INFO: Current average volume is: 4871.8
+2025-08-19 15:55:29 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:57:29 INFO: {'ALTS': {   'close': 5.48,
+    'high': 5.48,
+    'low': 5.47,
+    'open': 5.47,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 901.0,
+    'vwap': 5.472857}}
+2025-08-19 15:57:29 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:57:29 INFO: Current average volume is: 4871.9
+2025-08-19 15:57:29 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:58:29 INFO: {'ALTS': {   'close': 5.54,
+    'high': 5.54,
+    'low': 5.49,
+    'open': 5.49,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 23381.0,
+    'vwap': 5.52867}}
+2025-08-19 15:58:29 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:58:29 INFO: Current average volume is: 7189.2
+2025-08-19 15:58:29 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 15:59:29 INFO: {'ALTS': {   'close': 5.46,
+    'high': 5.545,
+    'low': 5.46,
+    'open': 5.545,
+    'symbol': 'ALTS',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1455.0,
+    'vwap': 5.505417}}
+2025-08-19 15:59:29 INFO: Current resistance is: 5.615 and support is: 5.27
+2025-08-19 15:59:29 INFO: Current average volume is: 6609.6
+2025-08-19 15:59:29 INFO: Updated resistance to: 5.615 and support to: 5.27
+2025-08-19 16:00:29 INFO: The Market is closed...

@@ -1,0 +1,943 @@
+2025-08-19 10:55:12 INFO: === Strategy started ===
+2025-08-19 10:55:12 INFO: Start collecting the current highs/lows for: EVH
+2025-08-19 10:55:12 INFO: Most recent stock data: {'EVH': {   'close': 9.36,
+    'high': 9.36,
+    'low': 9.315,
+    'open': 9.315,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1989.0,
+    'vwap': 9.343682}}
+2025-08-19 10:57:12 INFO: Most recent stock data: {'EVH': {   'close': 9.32,
+    'high': 9.32,
+    'low': 9.32,
+    'open': 9.32,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.32}}
+2025-08-19 10:58:13 INFO: Most recent stock data: {'EVH': {   'close': 9.27,
+    'high': 9.285,
+    'low': 9.27,
+    'open': 9.285,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1549.0,
+    'vwap': 9.28}}
+2025-08-19 10:59:13 INFO: Most recent stock data: {'EVH': {   'close': 9.285,
+    'high': 9.29,
+    'low': 9.25,
+    'open': 9.265,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 3040.0,
+    'vwap': 9.276026}}
+2025-08-19 11:00:13 INFO: Most recent stock data: {'EVH': {   'close': 9.295,
+    'high': 9.3,
+    'low': 9.28,
+    'open': 9.28,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2213.0,
+    'vwap': 9.293333}}
+2025-08-19 11:02:13 INFO: Most recent stock data: {'EVH': {   'close': 9.33,
+    'high': 9.33,
+    'low': 9.3,
+    'open': 9.3,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1073.0,
+    'vwap': 9.306}}
+2025-08-19 11:03:13 INFO: Most recent stock data: {'EVH': {   'close': 9.38,
+    'high': 9.38,
+    'low': 9.34,
+    'open': 9.34,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 9.368}}
+2025-08-19 11:04:13 INFO: Most recent stock data: {'EVH': {   'close': 9.37,
+    'high': 9.4,
+    'low': 9.365,
+    'open': 9.38,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1256.0,
+    'vwap': 9.382888}}
+2025-08-19 11:05:13 INFO: Most recent stock data: {'EVH': {   'close': 9.37,
+    'high': 9.37,
+    'low': 9.37,
+    'open': 9.37,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 203.0,
+    'vwap': 9.37}}
+2025-08-19 11:07:14 INFO: Most recent stock data: {'EVH': {   'close': 9.27,
+    'high': 9.315,
+    'low': 9.27,
+    'open': 9.315,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2044.0,
+    'vwap': 9.307921}}
+2025-08-19 11:08:14 INFO: Most recent stock data: {'EVH': {   'close': 9.28,
+    'high': 9.28,
+    'low': 9.28,
+    'open': 9.28,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 210.0,
+    'vwap': 9.28}}
+2025-08-19 11:08:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 11:08:14 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 11:09:14 INFO: {'EVH': {   'close': 9.27,
+    'high': 9.27,
+    'low': 9.27,
+    'open': 9.27,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 505.0,
+    'vwap': 9.27}}
+2025-08-19 11:09:14 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:09:14 INFO: Current average volume is: 1259.3
+2025-08-19 11:09:14 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:11:14 INFO: {'EVH': {   'close': 9.29,
+    'high': 9.29,
+    'low': 9.29,
+    'open': 9.29,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 371.0,
+    'vwap': 9.29}}
+2025-08-19 11:11:14 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:11:14 INFO: Current average volume is: 1141.5
+2025-08-19 11:11:14 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:13:14 INFO: {'EVH': {   'close': 9.32,
+    'high': 9.32,
+    'low': 9.3,
+    'open': 9.3,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 787.0,
+    'vwap': 9.312222}}
+2025-08-19 11:13:14 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:13:14 INFO: Current average volume is: 916.2
+2025-08-19 11:13:14 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:14:15 INFO: {'EVH': {   'close': 9.31,
+    'high': 9.31,
+    'low': 9.31,
+    'open': 9.31,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 854.0,
+    'vwap': 9.31}}
+2025-08-19 11:14:15 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:14:15 INFO: Current average volume is: 780.3
+2025-08-19 11:14:15 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:16:15 INFO: {'EVH': {   'close': 9.29,
+    'high': 9.29,
+    'low': 9.29,
+    'open': 9.29,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 379.0,
+    'vwap': 9.29}}
+2025-08-19 11:16:15 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:16:15 INFO: Current average volume is: 710.9
+2025-08-19 11:16:15 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:17:15 INFO: {'EVH': {   'close': 9.27,
+    'high': 9.27,
+    'low': 9.27,
+    'open': 9.27,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 600.0,
+    'vwap': 9.27}}
+2025-08-19 11:17:15 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:17:15 INFO: Current average volume is: 720.9
+2025-08-19 11:17:15 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:19:15 INFO: {'EVH': {   'close': 9.3,
+    'high': 9.3,
+    'low': 9.285,
+    'open': 9.285,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 793.0,
+    'vwap': 9.290639}}
+2025-08-19 11:19:15 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:19:15 INFO: Current average volume is: 674.6
+2025-08-19 11:19:15 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:20:15 INFO: {'EVH': {   'close': 9.325,
+    'high': 9.325,
+    'low': 9.325,
+    'open': 9.325,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 588.0,
+    'vwap': 9.325}}
+2025-08-19 11:20:15 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:20:15 INFO: Current average volume is: 713.1
+2025-08-19 11:20:15 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:21:15 INFO: {'EVH': {   'close': 9.3,
+    'high': 9.3,
+    'low': 9.3,
+    'open': 9.3,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 455.0,
+    'vwap': 9.3}}
+2025-08-19 11:21:15 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:21:15 INFO: Current average volume is: 554.2
+2025-08-19 11:21:15 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:22:16 INFO: {'EVH': {   'close': 9.29,
+    'high': 9.29,
+    'low': 9.29,
+    'open': 9.29,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 346.0,
+    'vwap': 9.29}}
+2025-08-19 11:22:16 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:22:16 INFO: Current average volume is: 567.8
+2025-08-19 11:22:16 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:24:16 INFO: {'EVH': {   'close': 9.25,
+    'high': 9.25,
+    'low': 9.25,
+    'open': 9.25,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 213.0,
+    'vwap': 9.25}}
+2025-08-19 11:24:16 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:24:16 INFO: Current average volume is: 538.6
+2025-08-19 11:24:16 INFO: Updated resistance to: 9.4 and support to: 9.25
+2025-08-19 11:30:16 INFO: {'EVH': {   'close': 9.21,
+    'high': 9.21,
+    'low': 9.21,
+    'open': 9.21,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 506.0,
+    'vwap': 9.21}}
+2025-08-19 11:30:16 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:30:16 INFO: Current average volume is: 552.1
+2025-08-19 11:30:16 INFO: close price: 9.21 just dropped below support of 9.25...
+2025-08-19 11:31:17 INFO: {'EVH': {   'close': 9.23,
+    'high': 9.23,
+    'low': 9.22,
+    'open': 9.22,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 822.0,
+    'vwap': 9.226}}
+2025-08-19 11:31:17 INFO: Current resistance is: 9.4 and support is: 9.25
+2025-08-19 11:31:17 INFO: Current average volume is: 555.6
+2025-08-19 11:31:17 INFO: Closing price: 9.23 just dropped below support 9.25 again...ending trade...
+2025-08-19 11:40:16 INFO: === Strategy started ===
+2025-08-19 11:40:16 INFO: Start collecting the current highs/lows for: EVH
+2025-08-19 11:40:16 INFO: Most recent stock data: {'EVH': {   'close': 9.35,
+    'high': 9.385,
+    'low': 9.35,
+    'open': 9.385,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 9.3675}}
+2025-08-19 11:42:17 INFO: Most recent stock data: {'EVH': {   'close': 9.34,
+    'high': 9.34,
+    'low': 9.34,
+    'open': 9.34,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 436.0,
+    'vwap': 9.34}}
+2025-08-19 11:45:17 INFO: Most recent stock data: {'EVH': {   'close': 9.35,
+    'high': 9.35,
+    'low': 9.35,
+    'open': 9.35,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 645.0,
+    'vwap': 9.35}}
+2025-08-19 11:48:17 INFO: Most recent stock data: {'EVH': {   'close': 9.36,
+    'high': 9.36,
+    'low': 9.36,
+    'open': 9.36,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 935.0,
+    'vwap': 9.36}}
+2025-08-19 11:52:18 INFO: Most recent stock data: {'EVH': {   'close': 9.34,
+    'high': 9.34,
+    'low': 9.34,
+    'open': 9.34,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 800.0,
+    'vwap': 9.34}}
+2025-08-19 11:53:18 INFO: Most recent stock data: {'EVH': {   'close': 9.37,
+    'high': 9.37,
+    'low': 9.35,
+    'open': 9.35,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1073.0,
+    'vwap': 9.3625}}
+2025-08-19 11:55:18 INFO: Most recent stock data: {'EVH': {   'close': 9.4,
+    'high': 9.4,
+    'low': 9.39,
+    'open': 9.39,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 720.0,
+    'vwap': 9.395}}
+2025-08-19 11:58:19 INFO: Most recent stock data: {'EVH': {   'close': 9.36,
+    'high': 9.36,
+    'low': 9.36,
+    'open': 9.36,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 142.0,
+    'vwap': 9.36}}
+2025-08-19 12:00:19 INFO: Most recent stock data: {'EVH': {   'close': 9.3,
+    'high': 9.315,
+    'low': 9.3,
+    'open': 9.31,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 639.0,
+    'vwap': 9.308333}}
+2025-08-19 12:02:19 INFO: Most recent stock data: {'EVH': {   'close': 9.305,
+    'high': 9.305,
+    'low': 9.305,
+    'open': 9.305,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1016.0,
+    'vwap': 9.305}}
+2025-08-19 12:03:19 INFO: Most recent stock data: {'EVH': {   'close': 9.32,
+    'high': 9.32,
+    'low': 9.3,
+    'open': 9.3,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 55.0,
+    'volume': 3555.0,
+    'vwap': 9.308065}}
+2025-08-19 12:03:19 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 12:03:19 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 12:08:20 INFO: {'EVH': {   'close': 9.31,
+    'high': 9.31,
+    'low': 9.31,
+    'open': 9.31,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 228.0,
+    'vwap': 9.31}}
+2025-08-19 12:08:20 INFO: Current resistance is: 9.4 and support is: 9.3
+2025-08-19 12:08:20 INFO: Current average volume is: 975.3
+2025-08-19 12:08:20 INFO: Updated resistance to: 9.4 and support to: 9.3
+2025-08-19 12:11:20 INFO: {'EVH': {   'close': 9.29,
+    'high': 9.29,
+    'low': 9.29,
+    'open': 9.29,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 142.0,
+    'vwap': 9.29}}
+2025-08-19 12:11:20 INFO: Current resistance is: 9.4 and support is: 9.3
+2025-08-19 12:11:20 INFO: Current average volume is: 925.0
+2025-08-19 12:11:20 INFO: close price: 9.29 just dropped below support of 9.3...
+2025-08-19 12:17:21 INFO: {'EVH': {   'close': 9.25,
+    'high': 9.25,
+    'low': 9.25,
+    'open': 9.25,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 190.0,
+    'vwap': 9.25}}
+2025-08-19 12:17:21 INFO: Current resistance is: 9.4 and support is: 9.3
+2025-08-19 12:17:21 INFO: Current average volume is: 850.5
+2025-08-19 12:17:21 INFO: Closing price: 9.25 just dropped below support 9.3 again...ending trade...
+2025-08-19 12:40:21 INFO: === Strategy started ===
+2025-08-19 12:40:21 INFO: Start collecting the current highs/lows for: EVH
+2025-08-19 12:40:21 INFO: Most recent stock data: {'EVH': {   'close': 9.26,
+    'high': 9.26,
+    'low': 9.255,
+    'open': 9.255,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.2575}}
+2025-08-19 12:41:22 INFO: Most recent stock data: {'EVH': {   'close': 9.275,
+    'high': 9.275,
+    'low': 9.275,
+    'open': 9.275,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 472.0,
+    'vwap': 9.275}}
+2025-08-19 12:44:22 INFO: Most recent stock data: {'EVH': {   'close': 9.28,
+    'high': 9.28,
+    'low': 9.28,
+    'open': 9.28,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 9.28}}
+2025-08-19 12:45:22 INFO: Most recent stock data: {'EVH': {   'close': 9.3,
+    'high': 9.3,
+    'low': 9.29,
+    'open': 9.29,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 587.0,
+    'vwap': 9.2925}}
+2025-08-19 12:49:22 INFO: Most recent stock data: {'EVH': {   'close': 9.26,
+    'high': 9.26,
+    'low': 9.245,
+    'open': 9.26,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 1429.0,
+    'vwap': 9.250529}}
+2025-08-19 12:51:23 INFO: Most recent stock data: {'EVH': {   'close': 9.27,
+    'high': 9.27,
+    'low': 9.24,
+    'open': 9.24,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2318.0,
+    'vwap': 9.250814}}
+2025-08-19 12:56:23 INFO: Most recent stock data: {'EVH': {   'close': 9.245,
+    'high': 9.25,
+    'low': 9.245,
+    'open': 9.25,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 215.0,
+    'vwap': 9.2475}}
+2025-08-19 12:57:23 INFO: Most recent stock data: {'EVH': {   'close': 9.23,
+    'high': 9.24,
+    'low': 9.23,
+    'open': 9.24,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 564.0,
+    'vwap': 9.235}}
+2025-08-19 12:58:24 INFO: Most recent stock data: {'EVH': {   'close': 9.235,
+    'high': 9.235,
+    'low': 9.235,
+    'open': 9.235,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 9.235}}
+2025-08-19 12:59:24 INFO: Most recent stock data: {'EVH': {   'close': 9.24,
+    'high': 9.24,
+    'low': 9.24,
+    'open': 9.24,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 456.0,
+    'vwap': 9.24}}
+2025-08-19 13:02:24 INFO: Most recent stock data: {'EVH': {   'close': 9.25,
+    'high': 9.25,
+    'low': 9.225,
+    'open': 9.225,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 775.0,
+    'vwap': 9.242163}}
+2025-08-19 13:02:24 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 13:02:24 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 13:04:24 INFO: {'EVH': {   'close': 9.26,
+    'high': 9.26,
+    'low': 9.26,
+    'open': 9.26,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 129.0,
+    'vwap': 9.26}}
+2025-08-19 13:04:24 INFO: Current resistance is: 9.3 and support is: 9.225
+2025-08-19 13:04:24 INFO: Current average volume is: 677.8
+2025-08-19 13:04:24 INFO: Updated resistance to: 9.3 and support to: 9.225
+2025-08-19 13:09:25 INFO: {'EVH': {   'close': 9.245,
+    'high': 9.245,
+    'low': 9.245,
+    'open': 9.245,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 496.0,
+    'vwap': 9.245}}
+2025-08-19 13:09:25 INFO: Current resistance is: 9.3 and support is: 9.225
+2025-08-19 13:09:25 INFO: Current average volume is: 716.9
+2025-08-19 13:09:25 INFO: Updated resistance to: 9.3 and support to: 9.225
+2025-08-19 13:13:25 INFO: {'EVH': {   'close': 9.25,
+    'high': 9.25,
+    'low': 9.25,
+    'open': 9.25,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 594.0,
+    'vwap': 9.25}}
+2025-08-19 13:13:25 INFO: Current resistance is: 9.3 and support is: 9.225
+2025-08-19 13:13:25 INFO: Current average volume is: 717.6
+2025-08-19 13:13:25 INFO: Updated resistance to: 9.3 and support to: 9.225
+2025-08-19 13:14:26 INFO: {'EVH': {   'close': 9.26,
+    'high': 9.26,
+    'low': 9.26,
+    'open': 9.26,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 250.0,
+    'vwap': 9.26}}
+2025-08-19 13:14:26 INFO: Current resistance is: 9.3 and support is: 9.225
+2025-08-19 13:14:26 INFO: Current average volume is: 599.7
+2025-08-19 13:14:26 INFO: Updated resistance to: 9.3 and support to: 9.225
+2025-08-19 13:18:26 INFO: {'EVH': {   'close': 9.31,
+    'high': 9.31,
+    'low': 9.31,
+    'open': 9.31,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.31}}
+2025-08-19 13:18:26 INFO: Current resistance is: 9.3 and support is: 9.225
+2025-08-19 13:18:26 INFO: Current average volume is: 377.9
+2025-08-19 13:18:26 INFO: The Current Close 9.31 is above the resistance...
+2025-08-19 13:18:26 INFO: Updated resistance to: 9.31 and support to: 9.225
+2025-08-19 13:19:26 INFO: {'EVH': {   'close': 9.3,
+    'high': 9.3,
+    'low': 9.3,
+    'open': 9.3,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 254.0,
+    'vwap': 9.3}}
+2025-08-19 13:19:26 INFO: Current resistance is: 9.31 and support is: 9.225
+2025-08-19 13:19:26 INFO: Current average volume is: 381.8
+2025-08-19 13:19:26 INFO: Updated resistance to: 9.31 and support to: 9.225
+2025-08-19 13:20:26 INFO: {'EVH': {   'close': 9.36,
+    'high': 9.36,
+    'low': 9.36,
+    'open': 9.36,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 528.0,
+    'vwap': 9.36}}
+2025-08-19 13:20:26 INFO: Current resistance is: 9.31 and support is: 9.225
+2025-08-19 13:20:26 INFO: Current average volume is: 378.2
+2025-08-19 13:20:26 INFO: The Current Close 9.36 is above the resistance...
+2025-08-19 13:20:26 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 13:21:27 INFO: {'EVH': {   'close': 9.34,
+    'high': 9.34,
+    'low': 9.34,
+    'open': 9.34,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.34}}
+2025-08-19 13:21:27 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 13:21:27 INFO: Current average volume is: 368.2
+2025-08-19 13:21:27 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 13:25:27 INFO: {'EVH': {   'close': 9.33,
+    'high': 9.33,
+    'low': 9.33,
+    'open': 9.33,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 670.0,
+    'vwap': 9.33}}
+2025-08-19 13:25:27 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 13:25:27 INFO: Current average volume is: 389.6
+2025-08-19 13:25:27 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 13:28:28 INFO: {'EVH': {   'close': 9.36,
+    'high': 9.36,
+    'low': 9.36,
+    'open': 9.36,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 126.0,
+    'vwap': 9.36}}
+2025-08-19 13:28:28 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 13:28:28 INFO: Current average volume is: 324.7
+2025-08-19 13:28:28 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 13:32:28 INFO: {'EVH': {   'close': 9.32,
+    'high': 9.32,
+    'low': 9.32,
+    'open': 9.32,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 491.0,
+    'vwap': 9.32}}
+2025-08-19 13:32:28 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 13:32:28 INFO: Current average volume is: 360.9
+2025-08-19 13:32:28 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 13:37:29 INFO: {'EVH': {   'close': 9.34,
+    'high': 9.34,
+    'low': 9.34,
+    'open': 9.34,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 132.0,
+    'vwap': 9.34}}
+2025-08-19 13:37:29 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 13:37:29 INFO: Current average volume is: 324.5
+2025-08-19 13:37:29 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 13:39:29 INFO: {'EVH': {   'close': 9.33,
+    'high': 9.33,
+    'low': 9.33,
+    'open': 9.33,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 199.0,
+    'vwap': 9.33}}
+2025-08-19 13:39:29 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 13:39:29 INFO: Current average volume is: 285.0
+2025-08-19 13:39:29 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 13:45:30 INFO: {'EVH': {   'close': 9.32,
+    'high': 9.32,
+    'low': 9.3,
+    'open': 9.3,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 1060.0,
+    'vwap': 9.305714}}
+2025-08-19 13:45:30 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 13:45:30 INFO: Current average volume is: 366.0
+2025-08-19 13:45:30 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 13:53:31 INFO: {'EVH': {   'close': 9.35,
+    'high': 9.35,
+    'low': 9.34,
+    'open': 9.34,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 517.0,
+    'vwap': 9.346667}}
+2025-08-19 13:53:31 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 13:53:31 INFO: Current average volume is: 407.7
+2025-08-19 13:53:31 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 14:04:32 INFO: {'EVH': {   'close': 9.33,
+    'high': 9.33,
+    'low': 9.33,
+    'open': 9.33,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 384.0,
+    'vwap': 9.33}}
+2025-08-19 14:04:32 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:04:32 INFO: Current average volume is: 420.7
+2025-08-19 14:04:32 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 14:06:32 INFO: {'EVH': {   'close': 9.335,
+    'high': 9.335,
+    'low': 9.335,
+    'open': 9.335,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 193.0,
+    'vwap': 9.335}}
+2025-08-19 14:06:32 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:06:32 INFO: Current average volume is: 387.2
+2025-08-19 14:06:32 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 14:17:34 INFO: {'EVH': {   'close': 9.295,
+    'high': 9.295,
+    'low': 9.295,
+    'open': 9.295,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 892.0,
+    'vwap': 9.295}}
+2025-08-19 14:17:34 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:17:34 INFO: Current average volume is: 466.4
+2025-08-19 14:17:34 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 14:22:34 INFO: {'EVH': {   'close': 9.265,
+    'high': 9.265,
+    'low': 9.265,
+    'open': 9.265,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 565.0,
+    'vwap': 9.265}}
+2025-08-19 14:22:34 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:22:34 INFO: Current average volume is: 455.9
+2025-08-19 14:22:34 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 14:26:35 INFO: {'EVH': {   'close': 9.22,
+    'high': 9.245,
+    'low': 9.22,
+    'open': 9.245,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 409.0,
+    'vwap': 9.2325}}
+2025-08-19 14:26:35 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:26:35 INFO: Current average volume is: 484.2
+2025-08-19 14:26:35 INFO: close price: 9.22 just dropped below support of 9.225...
+2025-08-19 14:27:35 INFO: {'EVH': {   'close': 9.23,
+    'high': 9.23,
+    'low': 9.23,
+    'open': 9.23,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 9.23}}
+2025-08-19 14:27:35 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:27:35 INFO: Current average volume is: 445.2
+2025-08-19 14:27:35 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 14:27:35 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-19 14:29:35 INFO: {'EVH': {   'close': 9.235,
+    'high': 9.235,
+    'low': 9.235,
+    'open': 9.235,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 218.0,
+    'vwap': 9.235}}
+2025-08-19 14:29:35 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:29:35 INFO: Current average volume is: 453.8
+2025-08-19 14:29:35 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 14:32:36 INFO: {'EVH': {   'close': 9.245,
+    'high': 9.245,
+    'low': 9.245,
+    'open': 9.245,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 313.0,
+    'vwap': 9.245}}
+2025-08-19 14:32:36 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:32:36 INFO: Current average volume is: 465.2
+2025-08-19 14:32:36 INFO: Updated resistance to: 9.36 and support to: 9.225
+2025-08-19 14:42:37 INFO: {'EVH': {   'close': 9.18,
+    'high': 9.18,
+    'low': 9.18,
+    'open': 9.18,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 9.18}}
+2025-08-19 14:42:37 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:42:37 INFO: Current average volume is: 371.2
+2025-08-19 14:42:37 INFO: close price: 9.18 just dropped below support of 9.225...
+2025-08-19 14:44:37 INFO: {'EVH': {   'close': 9.185,
+    'high': 9.185,
+    'low': 9.185,
+    'open': 9.185,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 169.0,
+    'vwap': 9.185}}
+2025-08-19 14:44:37 INFO: Current resistance is: 9.36 and support is: 9.225
+2025-08-19 14:44:37 INFO: Current average volume is: 336.4
+2025-08-19 14:44:37 INFO: Closing price: 9.185 just dropped below support 9.225 again...ending trade...
+2025-08-19 14:55:24 INFO: === Strategy started ===
+2025-08-19 14:55:24 INFO: Start collecting the current highs/lows for: EVH
+2025-08-19 14:55:25 INFO: Most recent stock data: {'EVH': {   'close': 9.195,
+    'high': 9.195,
+    'low': 9.19,
+    'open': 9.19,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 452.0,
+    'vwap': 9.193333}}
+2025-08-19 14:58:25 INFO: Most recent stock data: {'EVH': {   'close': 9.24,
+    'high': 9.24,
+    'low': 9.175,
+    'open': 9.175,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 665.0,
+    'vwap': 9.21375}}
+2025-08-19 14:59:25 INFO: Most recent stock data: {'EVH': {   'close': 9.23,
+    'high': 9.23,
+    'low': 9.23,
+    'open': 9.23,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 150.0,
+    'vwap': 9.23}}
+2025-08-19 15:00:25 INFO: Most recent stock data: {'EVH': {   'close': 9.235,
+    'high': 9.235,
+    'low': 9.235,
+    'open': 9.235,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 474.0,
+    'vwap': 9.235}}
+2025-08-19 15:03:26 INFO: Most recent stock data: {'EVH': {   'close': 9.21,
+    'high': 9.21,
+    'low': 9.21,
+    'open': 9.21,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 130.0,
+    'vwap': 9.21}}
+2025-08-19 15:05:26 INFO: Most recent stock data: {'EVH': {   'close': 9.19,
+    'high': 9.19,
+    'low': 9.19,
+    'open': 9.19,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 306.0,
+    'vwap': 9.19}}
+2025-08-19 15:07:26 INFO: Most recent stock data: {'EVH': {   'close': 9.2,
+    'high': 9.2,
+    'low': 9.2,
+    'open': 9.2,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 395.0,
+    'vwap': 9.2}}
+2025-08-19 15:11:26 INFO: Most recent stock data: {'EVH': {   'close': 9.19,
+    'high': 9.19,
+    'low': 9.19,
+    'open': 9.19,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 158.0,
+    'vwap': 9.19}}
+2025-08-19 15:15:27 INFO: Most recent stock data: {'EVH': {   'close': 9.175,
+    'high': 9.185,
+    'low': 9.175,
+    'open': 9.185,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 331.0,
+    'vwap': 9.180392}}
+2025-08-19 15:17:27 INFO: Most recent stock data: {'EVH': {   'close': 9.15,
+    'high': 9.15,
+    'low': 9.15,
+    'open': 9.15,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 449.0,
+    'vwap': 9.15}}
+2025-08-19 15:19:28 INFO: Most recent stock data: {'EVH': {   'close': 9.155,
+    'high': 9.155,
+    'low': 9.155,
+    'open': 9.155,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 791.0,
+    'vwap': 9.155}}
+2025-08-19 15:19:28 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-19 15:19:28 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-19 15:21:28 INFO: {'EVH': {   'close': 9.15,
+    'high': 9.15,
+    'low': 9.15,
+    'open': 9.15,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 116.0,
+    'vwap': 9.15}}
+2025-08-19 15:21:28 INFO: Current resistance is: 9.24 and support is: 9.15
+2025-08-19 15:21:28 INFO: Current average volume is: 330.0
+2025-08-19 15:21:28 INFO: Updated resistance to: 9.24 and support to: 9.15
+2025-08-19 15:26:28 INFO: {'EVH': {   'close': 9.07,
+    'high': 9.16,
+    'low': 9.065,
+    'open': 9.16,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 456.0,
+    'vwap': 9.10875}}
+2025-08-19 15:26:28 INFO: Current resistance is: 9.24 and support is: 9.15
+2025-08-19 15:26:28 INFO: Current average volume is: 360.6
+2025-08-19 15:26:28 INFO: close price: 9.07 just dropped below support of 9.15...
+2025-08-19 15:28:29 INFO: {'EVH': {   'close': 9.09,
+    'high': 9.09,
+    'low': 9.06,
+    'open': 9.065,
+    'symbol': 'EVH',
+    'timestamp': datetime.datetime(2025, 8, 19, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 335.0,
+    'vwap': 9.071667}}
+2025-08-19 15:28:29 INFO: Current resistance is: 9.24 and support is: 9.15
+2025-08-19 15:28:29 INFO: Current average volume is: 346.7
+2025-08-19 15:28:29 INFO: Closing price: 9.09 just dropped below support 9.15 again...ending trade...

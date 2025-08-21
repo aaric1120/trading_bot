@@ -1,0 +1,626 @@
+2025-08-15 11:25:19 INFO: === Strategy started ===
+2025-08-15 11:25:19 INFO: Start collecting the current highs/lows for: INTC
+2025-08-15 11:25:19 INFO: Most recent stock data: {'INTC': {   'close': 24.71,
+    'high': 24.76,
+    'low': 24.71,
+    'open': 24.76,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 7507.0,
+    'vwap': 24.72287}}
+2025-08-15 11:26:19 INFO: Most recent stock data: {'INTC': {   'close': 24.76,
+    'high': 24.78,
+    'low': 24.735,
+    'open': 24.735,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 9517.0,
+    'vwap': 24.77545}}
+2025-08-15 11:27:19 INFO: Most recent stock data: {'INTC': {   'close': 24.785,
+    'high': 24.81,
+    'low': 24.765,
+    'open': 24.765,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 12730.0,
+    'vwap': 24.78711}}
+2025-08-15 11:28:20 INFO: Most recent stock data: {'INTC': {   'close': 24.84,
+    'high': 24.85,
+    'low': 24.81,
+    'open': 24.81,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 22677.0,
+    'vwap': 24.843027}}
+2025-08-15 11:29:20 INFO: Most recent stock data: {'INTC': {   'close': 24.85,
+    'high': 24.86,
+    'low': 24.84,
+    'open': 24.84,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 4225.0,
+    'vwap': 24.849671}}
+2025-08-15 11:30:20 INFO: Most recent stock data: {'INTC': {   'close': 24.92,
+    'high': 24.935,
+    'low': 24.86,
+    'open': 24.86,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 12182.0,
+    'vwap': 24.909809}}
+2025-08-15 11:31:20 INFO: Most recent stock data: {'INTC': {   'close': 24.92,
+    'high': 24.975,
+    'low': 24.875,
+    'open': 24.92,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 79.0,
+    'volume': 22008.0,
+    'vwap': 24.928937}}
+2025-08-15 11:32:20 INFO: Most recent stock data: {'INTC': {   'close': 24.925,
+    'high': 24.94,
+    'low': 24.91,
+    'open': 24.92,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 4758.0,
+    'vwap': 24.92944}}
+2025-08-15 11:33:20 INFO: Most recent stock data: {'INTC': {   'close': 25.0,
+    'high': 25.0,
+    'low': 24.92,
+    'open': 24.94,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 69.0,
+    'volume': 20595.0,
+    'vwap': 24.970439}}
+2025-08-15 11:34:20 INFO: Most recent stock data: {'INTC': {   'close': 25.075,
+    'high': 25.075,
+    'low': 25.015,
+    'open': 25.015,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 4645.0,
+    'vwap': 25.049061}}
+2025-08-15 11:35:20 INFO: Most recent stock data: {'INTC': {   'close': 25.205,
+    'high': 25.21,
+    'low': 25.085,
+    'open': 25.085,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 99.0,
+    'volume': 31668.0,
+    'vwap': 25.157812}}
+2025-08-15 11:35:20 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 11:37:21 INFO: Most recent stock data: {'INTC': {   'close': 25.15,
+    'high': 25.2,
+    'low': 25.14,
+    'open': 25.2,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 83.0,
+    'volume': 42858.0,
+    'vwap': 25.178189}}
+2025-08-15 11:37:21 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 11:37:21 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-15 11:38:21 INFO: {'INTC': {   'close': 25.14,
+    'high': 25.17,
+    'low': 25.13,
+    'open': 25.14,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 54.0,
+    'volume': 23721.0,
+    'vwap': 25.148508}}
+2025-08-15 11:38:21 INFO: Current resistance is: 25.291 and support is: 25.147
+2025-08-15 11:38:21 INFO: Current average volume is: 18933.7
+2025-08-15 11:38:21 INFO: close price: 25.14 just dropped below support of 25.147...
+2025-08-15 11:40:21 INFO: {'INTC': {   'close': 25.125,
+    'high': 25.16,
+    'low': 25.12,
+    'open': 25.16,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 70.0,
+    'volume': 28440.0,
+    'vwap': 25.137919}}
+2025-08-15 11:40:21 INFO: Current resistance is: 25.291 and support is: 25.147
+2025-08-15 11:40:21 INFO: Current average volume is: 19510.0
+2025-08-15 11:40:21 INFO: Closing price: 25.125 just dropped below support 25.147 again...ending trade...
+2025-08-15 13:25:29 INFO: === Strategy started ===
+2025-08-15 13:25:29 INFO: Start collecting the current highs/lows for: INTC
+2025-08-15 13:25:29 INFO: Most recent stock data: {'INTC': {   'close': 25.39,
+    'high': 25.39,
+    'low': 25.34,
+    'open': 25.36,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 17633.0,
+    'vwap': 25.364832}}
+2025-08-15 13:26:29 INFO: Most recent stock data: {'INTC': {   'close': 25.435,
+    'high': 25.45,
+    'low': 25.39,
+    'open': 25.39,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 21060.0,
+    'vwap': 25.412585}}
+2025-08-15 13:27:29 INFO: Most recent stock data: {'INTC': {   'close': 25.42,
+    'high': 25.44,
+    'low': 25.395,
+    'open': 25.43,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 12378.0,
+    'vwap': 25.428028}}
+2025-08-15 13:28:29 INFO: Most recent stock data: {'INTC': {   'close': 25.385,
+    'high': 25.43,
+    'low': 25.385,
+    'open': 25.415,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 9493.0,
+    'vwap': 25.402321}}
+2025-08-15 13:29:29 INFO: Most recent stock data: {'INTC': {   'close': 25.385,
+    'high': 25.4,
+    'low': 25.37,
+    'open': 25.38,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 61.0,
+    'volume': 17973.0,
+    'vwap': 25.383659}}
+2025-08-15 13:30:29 INFO: Most recent stock data: {'INTC': {   'close': 25.425,
+    'high': 25.425,
+    'low': 25.385,
+    'open': 25.385,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 13234.0,
+    'vwap': 25.408738}}
+2025-08-15 13:31:30 INFO: Most recent stock data: {'INTC': {   'close': 25.44,
+    'high': 25.48,
+    'low': 25.37,
+    'open': 25.42,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 118.0,
+    'volume': 48817.0,
+    'vwap': 25.41367}}
+2025-08-15 13:32:30 INFO: Most recent stock data: {'INTC': {   'close': 25.48,
+    'high': 25.495,
+    'low': 25.45,
+    'open': 25.45,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 5299.0,
+    'vwap': 25.460019}}
+2025-08-15 13:35:30 INFO: Most recent stock data: {'INTC': {   'close': 25.475,
+    'high': 25.485,
+    'low': 25.46,
+    'open': 25.475,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 63.0,
+    'volume': 32501.0,
+    'vwap': 25.474476}}
+2025-08-15 13:36:30 INFO: Most recent stock data: {'INTC': {   'close': 25.43,
+    'high': 25.465,
+    'low': 25.41,
+    'open': 25.465,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 95.0,
+    'volume': 33302.0,
+    'vwap': 25.421995}}
+2025-08-15 13:37:30 INFO: Most recent stock data: {'INTC': {   'close': 25.47,
+    'high': 25.47,
+    'low': 25.43,
+    'open': 25.43,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 3741.0,
+    'vwap': 25.449349}}
+2025-08-15 13:37:30 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 13:37:30 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-15 13:38:30 INFO: {'INTC': {   'close': 25.455,
+    'high': 25.485,
+    'low': 25.44,
+    'open': 25.475,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 19620.0,
+    'vwap': 25.459734}}
+2025-08-15 13:38:30 INFO: Current resistance is: 25.495 and support is: 25.34
+2025-08-15 13:38:30 INFO: Current average volume is: 19635.8
+2025-08-15 13:38:30 INFO: Updated resistance to: 25.495 and support to: 25.34
+2025-08-15 13:39:31 INFO: {'INTC': {   'close': 25.4,
+    'high': 25.475,
+    'low': 25.395,
+    'open': 25.46,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 21454.0,
+    'vwap': 25.444047}}
+2025-08-15 13:39:31 INFO: Current resistance is: 25.495 and support is: 25.34
+2025-08-15 13:39:31 INFO: Current average volume is: 20543.4
+2025-08-15 13:39:31 INFO: Updated resistance to: 25.495 and support to: 25.34
+2025-08-15 13:41:31 INFO: {'INTC': {   'close': 25.37,
+    'high': 25.415,
+    'low': 25.37,
+    'open': 25.4,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 22132.0,
+    'vwap': 25.395236}}
+2025-08-15 13:41:31 INFO: Current resistance is: 25.495 and support is: 25.34
+2025-08-15 13:41:31 INFO: Current average volume is: 21807.3
+2025-08-15 13:41:31 INFO: Updated resistance to: 25.495 and support to: 25.34
+2025-08-15 13:42:31 INFO: {'INTC': {   'close': 25.335,
+    'high': 25.37,
+    'low': 25.33,
+    'open': 25.37,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 11077.0,
+    'vwap': 25.350443}}
+2025-08-15 13:42:31 INFO: Current resistance is: 25.495 and support is: 25.34
+2025-08-15 13:42:31 INFO: Current average volume is: 21117.7
+2025-08-15 13:42:31 INFO: close price: 25.335 just dropped below support of 25.34...
+2025-08-15 13:43:31 INFO: {'INTC': {   'close': 25.3,
+    'high': 25.33,
+    'low': 25.3,
+    'open': 25.33,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 34388.0,
+    'vwap': 25.315921}}
+2025-08-15 13:43:31 INFO: Current resistance is: 25.495 and support is: 25.34
+2025-08-15 13:43:31 INFO: Current average volume is: 23233.1
+2025-08-15 13:43:31 INFO: Closing price: 25.3 just dropped below support 25.34 again...ending trade...
+2025-08-15 13:55:32 INFO: === Strategy started ===
+2025-08-15 13:55:32 INFO: Start collecting the current highs/lows for: INTC
+2025-08-15 13:55:32 INFO: Most recent stock data: {'INTC': {   'close': 25.29,
+    'high': 25.3,
+    'low': 25.285,
+    'open': 25.3,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 8370.0,
+    'vwap': 25.291235}}
+2025-08-15 13:56:32 INFO: Most recent stock data: {'INTC': {   'close': 25.32,
+    'high': 25.32,
+    'low': 25.29,
+    'open': 25.3,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 15662.0,
+    'vwap': 25.302092}}
+2025-08-15 13:57:32 INFO: Most recent stock data: {'INTC': {   'close': 25.37,
+    'high': 25.37,
+    'low': 25.32,
+    'open': 25.32,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 52.0,
+    'volume': 15050.0,
+    'vwap': 25.332002}}
+2025-08-15 13:58:32 INFO: Most recent stock data: {'INTC': {   'close': 25.375,
+    'high': 25.39,
+    'low': 25.355,
+    'open': 25.365,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 23367.0,
+    'vwap': 25.367973}}
+2025-08-15 13:59:33 INFO: Most recent stock data: {'INTC': {   'close': 25.35,
+    'high': 25.375,
+    'low': 25.345,
+    'open': 25.375,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 19064.0,
+    'vwap': 25.359274}}
+2025-08-15 14:00:33 INFO: Most recent stock data: {'INTC': {   'close': 25.355,
+    'high': 25.36,
+    'low': 25.35,
+    'open': 25.35,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 7641.0,
+    'vwap': 25.352728}}
+2025-08-15 14:01:33 INFO: Most recent stock data: {'INTC': {   'close': 25.385,
+    'high': 25.405,
+    'low': 25.355,
+    'open': 25.355,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 50.0,
+    'volume': 12088.0,
+    'vwap': 25.38654}}
+2025-08-15 14:02:33 INFO: Most recent stock data: {'INTC': {   'close': 25.305,
+    'high': 25.385,
+    'low': 25.305,
+    'open': 25.385,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 67.0,
+    'volume': 59529.0,
+    'vwap': 25.353725}}
+2025-08-15 14:04:33 INFO: Most recent stock data: {'INTC': {   'close': 25.315,
+    'high': 25.35,
+    'low': 25.315,
+    'open': 25.325,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 67.0,
+    'volume': 24443.0,
+    'vwap': 25.336202}}
+2025-08-15 14:05:33 INFO: Most recent stock data: {'INTC': {   'close': 25.285,
+    'high': 25.31,
+    'low': 25.285,
+    'open': 25.31,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 5533.0,
+    'vwap': 25.297547}}
+2025-08-15 14:06:33 INFO: Most recent stock data: {'INTC': {   'close': 25.26,
+    'high': 25.28,
+    'low': 25.245,
+    'open': 25.275,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 22307.0,
+    'vwap': 25.259096}}
+2025-08-15 14:06:33 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 14:06:33 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-15 14:07:34 INFO: {'INTC': {   'close': 25.235,
+    'high': 25.26,
+    'low': 25.235,
+    'open': 25.255,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 5986.0,
+    'vwap': 25.249322}}
+2025-08-15 14:07:34 INFO: Current resistance is: 25.405 and support is: 25.245
+2025-08-15 14:07:34 INFO: Current average volume is: 19500.8
+2025-08-15 14:07:34 INFO: close price: 25.235 just dropped below support of 25.245...
+2025-08-15 14:08:34 INFO: {'INTC': {   'close': 25.215,
+    'high': 25.24,
+    'low': 25.2,
+    'open': 25.215,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 8632.0,
+    'vwap': 25.216755}}
+2025-08-15 14:08:34 INFO: Current resistance is: 25.405 and support is: 25.245
+2025-08-15 14:08:34 INFO: Current average volume is: 18859.0
+2025-08-15 14:08:34 INFO: Closing price: 25.215 just dropped below support 25.245 again...ending trade...
+2025-08-15 14:55:33 INFO: === Strategy started ===
+2025-08-15 14:55:33 INFO: Start collecting the current highs/lows for: INTC
+2025-08-15 14:55:33 INFO: Most recent stock data: {'INTC': {   'close': 24.92,
+    'high': 24.93,
+    'low': 24.88,
+    'open': 24.9,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 73.0,
+    'volume': 26937.0,
+    'vwap': 24.901013}}
+2025-08-15 14:56:33 INFO: Most recent stock data: {'INTC': {   'close': 24.96,
+    'high': 24.96,
+    'low': 24.89,
+    'open': 24.92,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 16415.0,
+    'vwap': 24.908014}}
+2025-08-15 14:57:33 INFO: Most recent stock data: {'INTC': {   'close': 24.94,
+    'high': 24.965,
+    'low': 24.935,
+    'open': 24.965,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 7422.0,
+    'vwap': 24.941315}}
+2025-08-15 14:59:34 INFO: Most recent stock data: {'INTC': {   'close': 24.865,
+    'high': 24.915,
+    'low': 24.865,
+    'open': 24.915,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 70.0,
+    'volume': 45590.0,
+    'vwap': 24.885358}}
+2025-08-15 15:00:34 INFO: Most recent stock data: {'INTC': {   'close': 24.875,
+    'high': 24.89,
+    'low': 24.86,
+    'open': 24.875,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 9763.0,
+    'vwap': 24.878273}}
+2025-08-15 15:01:34 INFO: Most recent stock data: {'INTC': {   'close': 24.84,
+    'high': 24.885,
+    'low': 24.84,
+    'open': 24.875,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 119.0,
+    'volume': 55215.0,
+    'vwap': 24.851515}}
+2025-08-15 15:02:34 INFO: Most recent stock data: {'INTC': {   'close': 24.895,
+    'high': 24.9,
+    'low': 24.845,
+    'open': 24.845,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 45.0,
+    'volume': 15251.0,
+    'vwap': 24.883177}}
+2025-08-15 15:03:34 INFO: Most recent stock data: {'INTC': {   'close': 24.825,
+    'high': 24.895,
+    'low': 24.825,
+    'open': 24.895,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 84.0,
+    'volume': 52856.0,
+    'vwap': 24.843671}}
+2025-08-15 15:04:34 INFO: Most recent stock data: {'INTC': {   'close': 24.76,
+    'high': 24.825,
+    'low': 24.745,
+    'open': 24.825,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 118.0,
+    'volume': 69210.0,
+    'vwap': 24.774304}}
+2025-08-15 15:05:34 INFO: Most recent stock data: {'INTC': {   'close': 24.76,
+    'high': 24.76,
+    'low': 24.74,
+    'open': 24.74,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 5195.0,
+    'vwap': 24.750241}}
+2025-08-15 15:06:34 INFO: Most recent stock data: {'INTC': {   'close': 24.75,
+    'high': 24.765,
+    'low': 24.73,
+    'open': 24.76,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 57.0,
+    'volume': 19932.0,
+    'vwap': 24.742811}}
+2025-08-15 15:06:34 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 15:06:34 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-15 15:08:35 INFO: {'INTC': {   'close': 24.79,
+    'high': 24.79,
+    'low': 24.755,
+    'open': 24.755,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1514.0,
+    'vwap': 24.786923}}
+2025-08-15 15:08:35 INFO: Current resistance is: 24.965 and support is: 24.73
+2025-08-15 15:08:35 INFO: Current average volume is: 28194.8
+2025-08-15 15:08:35 INFO: Updated resistance to: 24.965 and support to: 24.73
+2025-08-15 15:09:35 INFO: {'INTC': {   'close': 24.815,
+    'high': 24.815,
+    'low': 24.78,
+    'open': 24.79,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 8382.0,
+    'vwap': 24.793096}}
+2025-08-15 15:09:35 INFO: Current resistance is: 24.965 and support is: 24.73
+2025-08-15 15:09:35 INFO: Current average volume is: 28290.8
+2025-08-15 15:09:35 INFO: Updated resistance to: 24.965 and support to: 24.73
+2025-08-15 15:10:35 INFO: {'INTC': {   'close': 24.79,
+    'high': 24.82,
+    'low': 24.775,
+    'open': 24.82,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 18501.0,
+    'vwap': 24.799775}}
+2025-08-15 15:10:35 INFO: Current resistance is: 24.965 and support is: 24.73
+2025-08-15 15:10:35 INFO: Current average volume is: 25581.9
+2025-08-15 15:10:35 INFO: Updated resistance to: 24.965 and support to: 24.73
+2025-08-15 15:12:35 INFO: {'INTC': {   'close': 24.78,
+    'high': 24.78,
+    'low': 24.745,
+    'open': 24.78,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 25687.0,
+    'vwap': 24.756835}}
+2025-08-15 15:12:35 INFO: Current resistance is: 24.965 and support is: 24.73
+2025-08-15 15:12:35 INFO: Current average volume is: 27174.3
+2025-08-15 15:12:35 INFO: Updated resistance to: 24.965 and support to: 24.73
+2025-08-15 15:13:35 INFO: {'INTC': {   'close': 24.77,
+    'high': 24.785,
+    'low': 24.74,
+    'open': 24.785,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 53.0,
+    'volume': 19744.0,
+    'vwap': 24.755473}}
+2025-08-15 15:13:35 INFO: Current resistance is: 24.965 and support is: 24.73
+2025-08-15 15:13:35 INFO: Current average volume is: 23627.2
+2025-08-15 15:13:35 INFO: Updated resistance to: 24.965 and support to: 24.73
+2025-08-15 15:15:36 INFO: {'INTC': {   'close': 24.74,
+    'high': 24.765,
+    'low': 24.72,
+    'open': 24.765,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 22227.0,
+    'vwap': 24.730281}}
+2025-08-15 15:15:36 INFO: Current resistance is: 24.965 and support is: 24.73
+2025-08-15 15:15:36 INFO: Current average volume is: 24324.8
+2025-08-15 15:15:36 INFO: Updated resistance to: 24.965 and support to: 24.72
+2025-08-15 15:16:36 INFO: {'INTC': {   'close': 24.705,
+    'high': 24.75,
+    'low': 24.69,
+    'open': 24.745,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 78.0,
+    'volume': 35380.0,
+    'vwap': 24.721135}}
+2025-08-15 15:16:36 INFO: Current resistance is: 24.965 and support is: 24.72
+2025-08-15 15:16:36 INFO: Current average volume is: 22577.2
+2025-08-15 15:16:36 INFO: close price: 24.705 just dropped below support of 24.72...
+2025-08-15 15:17:36 INFO: {'INTC': {   'close': 24.69,
+    'high': 24.72,
+    'low': 24.68,
+    'open': 24.72,
+    'symbol': 'INTC',
+    'timestamp': datetime.datetime(2025, 8, 15, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 9324.0,
+    'vwap': 24.702589}}
+2025-08-15 15:17:36 INFO: Current resistance is: 24.965 and support is: 24.72
+2025-08-15 15:17:36 INFO: Current average volume is: 16588.6
+2025-08-15 15:17:36 INFO: Closing price: 24.69 just dropped below support 24.72 again...ending trade...

@@ -93,16 +93,16 @@ class BaseTrade:
         lows = np.array(self.lows[-int(self.param["candle_data"]):], dtype=float)
 
         # candles for breakouts
-        marubozu = CDLMARUBOZU(opens, highs, lows, closes)[-1]
-        three_white = CDL3WHITESOLDIERS(opens, highs, lows, closes)[-1]
-        closing_maru = CDLCLOSINGMARUBOZU(opens, highs, lows, closes)[-1]
-        belthold = CDLBELTHOLD(opens, highs, lows, closes)[-1]
+        marubozu = CDLMARUBOZU(opens, highs, lows, closes)
+        three_white = CDL3WHITESOLDIERS(opens, highs, lows, closes)
+        closing_maru = CDLCLOSINGMARUBOZU(opens, highs, lows, closes)
+        belthold = CDLBELTHOLD(opens, highs, lows, closes)
 
         print(f"The marubozu candle pattern check is: {marubozu}. The three_white candle pattern check is {three_white}."
               f" The closing_maru candle pattern check is {closing_maru}. The belthold candle pattern check is {belthold}")
         logging.info(f"The marubozu candle pattern check is: {marubozu}. The three_white candle pattern check is {three_white}."
                      f" The closing_maru candle pattern check is {closing_maru}. The belthold candle pattern check is {belthold}")
-        return int(marubozu) == 100 or int(three_white) == 100 or int(closing_maru) == 100 or int(belthold) == 100
+        return int(marubozu[-1]) == 100 or int(three_white[-1]) == 100 or int(closing_maru[-1]) == 100 or int(belthold[-1]) == 100
 
     def reverse_candle_check(self): # PARAM
         opens = np.array(self.opens[-int(self.param["candle_data"]):], dtype=float)
@@ -111,12 +111,12 @@ class BaseTrade:
         lows = np.array(self.lows[-int(self.param["candle_data"]):], dtype=float)
 
         # Engulf needs 2 bar to confirm
-        engulf = CDLENGULFING(opens, highs, lows, closes)[-1]
+        engulf = CDLENGULFING(opens, highs, lows, closes)
         # Hammer only needs one
-        hammer = CDLHAMMER(opens, highs, lows, closes)[-1]
+        hammer = CDLHAMMER(opens, highs, lows, closes)
         print(f"The engulfing candle pattern check is: {engulf}. The Hammer candle pattern check is {hammer}")
         logging.info(f"The engulfing candle pattern check is: {engulf}. The Hammer candle pattern check is {hammer}")
-        return int(engulf) == 100 or int(hammer) == 100
+        return int(engulf[-1]) == 100 or int(hammer[-1]) == 100
 
     def place_order(self, price, stop_loss, take_profit, close, volume):
         if dt.datetime.now().time() >= MARKET_DEADLINE:
@@ -377,8 +377,9 @@ class BaseTrade:
                     logging.info(f"Current resistance is: {self.resist} and support is: {self.support}")
                     logging.info(f"Current average volume is: {self.avg_vol}")
 
+
                     # If close between resistance and support, update the line
-                    if self.support < close < self.resist:
+                    if self.support <= close <= self.resist:
                         self.get_new_lines()
                         print(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")

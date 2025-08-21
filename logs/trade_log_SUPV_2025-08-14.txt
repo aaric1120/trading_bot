@@ -1,0 +1,878 @@
+2025-08-14 10:55:23 INFO: === Strategy started ===
+2025-08-14 10:55:23 INFO: Start collecting the current highs/lows for: SUPV
+2025-08-14 10:55:23 INFO: Most recent stock data: {'SUPV': {   'close': 9.92,
+    'high': 9.94,
+    'low': 9.92,
+    'open': 9.935,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2208.0,
+    'vwap': 9.931141}}
+2025-08-14 10:57:24 INFO: Most recent stock data: {'SUPV': {   'close': 9.91,
+    'high': 9.935,
+    'low': 9.91,
+    'open': 9.935,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 797.0,
+    'vwap': 9.9225}}
+2025-08-14 10:59:24 INFO: Most recent stock data: {'SUPV': {   'close': 9.91,
+    'high': 9.91,
+    'low': 9.9,
+    'open': 9.9,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 204.0,
+    'vwap': 9.905}}
+2025-08-14 11:00:24 INFO: Most recent stock data: {'SUPV': {   'close': 9.94,
+    'high': 9.95,
+    'low': 9.93,
+    'open': 9.93,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 9.94}}
+2025-08-14 11:02:24 INFO: Most recent stock data: {'SUPV': {   'close': 9.935,
+    'high': 9.935,
+    'low': 9.92,
+    'open': 9.93,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 412.0,
+    'vwap': 9.928333}}
+2025-08-14 11:04:25 INFO: Most recent stock data: {'SUPV': {   'close': 9.9,
+    'high': 9.91,
+    'low': 9.9,
+    'open': 9.91,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.905}}
+2025-08-14 11:06:25 INFO: Most recent stock data: {'SUPV': {   'close': 9.87,
+    'high': 9.87,
+    'low': 9.865,
+    'open': 9.865,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 473.0,
+    'vwap': 9.868889}}
+2025-08-14 11:07:25 INFO: Most recent stock data: {'SUPV': {   'close': 9.82,
+    'high': 9.85,
+    'low': 9.82,
+    'open': 9.85,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 718.0,
+    'vwap': 9.845}}
+2025-08-14 11:10:25 INFO: Most recent stock data: {'SUPV': {   'close': 9.81,
+    'high': 9.83,
+    'low': 9.8,
+    'open': 9.8,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1626.0,
+    'vwap': 9.821331}}
+2025-08-14 11:11:25 INFO: Most recent stock data: {'SUPV': {   'close': 9.73,
+    'high': 9.8,
+    'low': 9.73,
+    'open': 9.8,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 393.0,
+    'vwap': 9.751538}}
+2025-08-14 11:12:26 INFO: Most recent stock data: {'SUPV': {   'close': 9.73,
+    'high': 9.73,
+    'low': 9.71,
+    'open': 9.72,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1222.0,
+    'vwap': 9.716667}}
+2025-08-14 11:12:26 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 11:12:26 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 11:13:26 INFO: {'SUPV': {   'close': 9.78,
+    'high': 9.78,
+    'low': 9.74,
+    'open': 9.74,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 9.77}}
+2025-08-14 11:13:26 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:13:26 INFO: Current average volume is: 604.8
+2025-08-14 11:13:26 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:14:26 INFO: {'SUPV': {   'close': 9.75,
+    'high': 9.75,
+    'low': 9.745,
+    'open': 9.745,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 371.0,
+    'vwap': 9.746667}}
+2025-08-14 11:14:26 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:14:26 INFO: Current average volume is: 621.5
+2025-08-14 11:14:26 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:17:26 INFO: {'SUPV': {   'close': 9.785,
+    'high': 9.785,
+    'low': 9.75,
+    'open': 9.75,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 403.0,
+    'vwap': 9.761667}}
+2025-08-14 11:17:26 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:17:26 INFO: Current average volume is: 621.8
+2025-08-14 11:17:26 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:18:26 INFO: {'SUPV': {   'close': 9.78,
+    'high': 9.79,
+    'low': 9.78,
+    'open': 9.79,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.785}}
+2025-08-14 11:18:26 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:18:26 INFO: Current average volume is: 600.6
+2025-08-14 11:18:26 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:19:27 INFO: {'SUPV': {   'close': 9.76,
+    'high': 9.77,
+    'low': 9.76,
+    'open': 9.77,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 400.0,
+    'vwap': 9.765}}
+2025-08-14 11:19:27 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:19:27 INFO: Current average volume is: 620.6
+2025-08-14 11:19:27 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:20:27 INFO: {'SUPV': {   'close': 9.75,
+    'high': 9.76,
+    'low': 9.75,
+    'open': 9.76,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 302.0,
+    'vwap': 9.755}}
+2025-08-14 11:20:27 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:20:27 INFO: Current average volume is: 603.5
+2025-08-14 11:20:27 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:22:27 INFO: {'SUPV': {   'close': 9.73,
+    'high': 9.74,
+    'low': 9.73,
+    'open': 9.74,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1250.0,
+    'vwap': 9.739167}}
+2025-08-14 11:22:27 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:22:27 INFO: Current average volume is: 656.7
+2025-08-14 11:22:27 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:24:27 INFO: {'SUPV': {   'close': 9.78,
+    'high': 9.78,
+    'low': 9.755,
+    'open': 9.755,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 850.0,
+    'vwap': 9.760773}}
+2025-08-14 11:24:27 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:24:27 INFO: Current average volume is: 579.1
+2025-08-14 11:24:27 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:26:27 INFO: {'SUPV': {   'close': 9.805,
+    'high': 9.805,
+    'low': 9.805,
+    'open': 9.805,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 211.0,
+    'vwap': 9.805}}
+2025-08-14 11:26:27 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:26:27 INFO: Current average volume is: 560.9
+2025-08-14 11:26:27 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:28:28 INFO: {'SUPV': {   'close': 9.815,
+    'high': 9.84,
+    'low': 9.8,
+    'open': 9.84,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1610.0,
+    'vwap': 9.82}}
+2025-08-14 11:28:28 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:28:28 INFO: Current average volume is: 599.7
+2025-08-14 11:28:28 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:31:28 INFO: {'SUPV': {   'close': 9.8,
+    'high': 9.8,
+    'low': 9.78,
+    'open': 9.78,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 609.0,
+    'vwap': 9.789412}}
+2025-08-14 11:31:28 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:31:28 INFO: Current average volume is: 620.6
+2025-08-14 11:31:28 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:32:28 INFO: {'SUPV': {   'close': 9.755,
+    'high': 9.765,
+    'low': 9.755,
+    'open': 9.765,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 9.76}}
+2025-08-14 11:32:28 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:32:28 INFO: Current average volume is: 613.5
+2025-08-14 11:32:28 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:34:28 INFO: {'SUPV': {   'close': 9.78,
+    'high': 9.78,
+    'low': 9.77,
+    'open': 9.77,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.775}}
+2025-08-14 11:34:28 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:34:28 INFO: Current average volume is: 593.2
+2025-08-14 11:34:28 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:36:29 INFO: {'SUPV': {   'close': 9.73,
+    'high': 9.73,
+    'low': 9.73,
+    'open': 9.73,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 9.73}}
+2025-08-14 11:36:29 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:36:29 INFO: Current average volume is: 623.2
+2025-08-14 11:36:29 INFO: Updated resistance to: 9.95 and support to: 9.71
+2025-08-14 11:37:29 INFO: {'SUPV': {   'close': 9.67,
+    'high': 9.68,
+    'low': 9.67,
+    'open': 9.68,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 272.0,
+    'vwap': 9.674}}
+2025-08-14 11:37:29 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:37:29 INFO: Current average volume is: 610.4
+2025-08-14 11:37:29 INFO: close price: 9.67 just dropped below support of 9.71...
+2025-08-14 11:38:29 INFO: {'SUPV': {   'close': 9.65,
+    'high': 9.67,
+    'low': 9.65,
+    'open': 9.65,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1786.0,
+    'vwap': 9.652446}}
+2025-08-14 11:38:29 INFO: Current resistance is: 9.95 and support is: 9.71
+2025-08-14 11:38:29 INFO: Current average volume is: 758.8
+2025-08-14 11:38:29 INFO: Closing price: 9.65 just dropped below support 9.71 again...ending trade...
+2025-08-14 14:25:49 INFO: === Strategy started ===
+2025-08-14 14:25:49 INFO: Start collecting the current highs/lows for: SUPV
+2025-08-14 14:25:49 INFO: Most recent stock data: {'SUPV': {   'close': 9.9,
+    'high': 9.9,
+    'low': 9.88,
+    'open': 9.885,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 586.0,
+    'vwap': 9.89}}
+2025-08-14 14:26:49 INFO: Most recent stock data: {'SUPV': {   'close': 9.875,
+    'high': 9.875,
+    'low': 9.875,
+    'open': 9.875,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.875}}
+2025-08-14 14:27:49 INFO: Most recent stock data: {'SUPV': {   'close': 9.865,
+    'high': 9.865,
+    'low': 9.865,
+    'open': 9.865,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.865}}
+2025-08-14 14:28:49 INFO: Most recent stock data: {'SUPV': {   'close': 9.86,
+    'high': 9.86,
+    'low': 9.86,
+    'open': 9.86,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 229.0,
+    'vwap': 9.86}}
+2025-08-14 14:29:49 INFO: Most recent stock data: {'SUPV': {   'close': 9.855,
+    'high': 9.875,
+    'low': 9.855,
+    'open': 9.875,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 482.0,
+    'vwap': 9.863333}}
+2025-08-14 14:31:50 INFO: Most recent stock data: {'SUPV': {   'close': 9.895,
+    'high': 9.895,
+    'low': 9.895,
+    'open': 9.895,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 223.0,
+    'vwap': 9.895}}
+2025-08-14 14:32:50 INFO: Most recent stock data: {'SUPV': {   'close': 9.905,
+    'high': 9.905,
+    'low': 9.905,
+    'open': 9.905,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.905}}
+2025-08-14 14:34:50 INFO: Most recent stock data: {'SUPV': {   'close': 9.89,
+    'high': 9.895,
+    'low': 9.88,
+    'open': 9.89,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1725.0,
+    'vwap': 9.887419}}
+2025-08-14 14:36:50 INFO: Most recent stock data: {'SUPV': {   'close': 9.91,
+    'high': 9.92,
+    'low': 9.895,
+    'open': 9.895,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1001.0,
+    'vwap': 9.909595}}
+2025-08-14 14:37:50 INFO: Most recent stock data: {'SUPV': {   'close': 9.905,
+    'high': 9.91,
+    'low': 9.905,
+    'open': 9.91,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1672.0,
+    'vwap': 9.90546}}
+2025-08-14 14:38:50 INFO: Most recent stock data: {'SUPV': {   'close': 9.88,
+    'high': 9.905,
+    'low': 9.88,
+    'open': 9.905,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 9.891}}
+2025-08-14 14:38:50 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 14:38:50 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-14 14:39:51 INFO: {'SUPV': {   'close': 9.9,
+    'high': 9.9,
+    'low': 9.9,
+    'open': 9.9,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 382.0,
+    'vwap': 9.9}}
+2025-08-14 14:39:51 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:39:51 INFO: Current average volume is: 641.4
+2025-08-14 14:39:51 INFO: Updated resistance to: 9.92 and support to: 9.855
+2025-08-14 14:40:51 INFO: {'SUPV': {   'close': 9.905,
+    'high': 9.905,
+    'low': 9.905,
+    'open': 9.905,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.905}}
+2025-08-14 14:40:51 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:40:51 INFO: Current average volume is: 651.4
+2025-08-14 14:40:51 INFO: Updated resistance to: 9.92 and support to: 9.855
+2025-08-14 14:41:51 INFO: {'SUPV': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.92,
+    'open': 9.92,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 9.92}}
+2025-08-14 14:41:51 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:41:51 INFO: Current average volume is: 678.5
+2025-08-14 14:43:51 INFO: {'SUPV': {   'close': 9.91,
+    'high': 9.91,
+    'low': 9.91,
+    'open': 9.91,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 9.91}}
+2025-08-14 14:43:51 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:43:51 INFO: Current average volume is: 650.3
+2025-08-14 14:43:51 INFO: Updated resistance to: 9.92 and support to: 9.855
+2025-08-14 14:45:51 INFO: {'SUPV': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.92,
+    'open': 9.92,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 235.0,
+    'vwap': 9.92}}
+2025-08-14 14:45:51 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:45:51 INFO: Current average volume is: 651.5
+2025-08-14 14:46:51 INFO: {'SUPV': {   'close': 9.9,
+    'high': 9.9,
+    'low': 9.9,
+    'open': 9.9,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 150.0,
+    'vwap': 9.9}}
+2025-08-14 14:46:51 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:46:51 INFO: Current average volume is: 656.5
+2025-08-14 14:46:51 INFO: Updated resistance to: 9.92 and support to: 9.855
+2025-08-14 14:50:52 INFO: {'SUPV': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.905,
+    'open': 9.905,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 311.0,
+    'vwap': 9.911276}}
+2025-08-14 14:50:52 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:50:52 INFO: Current average volume is: 515.1
+2025-08-14 14:53:52 INFO: {'SUPV': {   'close': 9.91,
+    'high': 9.91,
+    'low': 9.91,
+    'open': 9.91,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 597.0,
+    'vwap': 9.91}}
+2025-08-14 14:53:52 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:53:52 INFO: Current average volume is: 474.7
+2025-08-14 14:53:52 INFO: Updated resistance to: 9.92 and support to: 9.855
+2025-08-14 14:55:52 INFO: {'SUPV': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.92,
+    'open': 9.92,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 963.0,
+    'vwap': 9.92}}
+2025-08-14 14:55:52 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:55:52 INFO: Current average volume is: 403.8
+2025-08-14 14:56:53 INFO: {'SUPV': {   'close': 9.91,
+    'high': 9.91,
+    'low': 9.91,
+    'open': 9.91,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 224.0,
+    'vwap': 9.91}}
+2025-08-14 14:56:53 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:56:53 INFO: Current average volume is: 376.2
+2025-08-14 14:56:53 INFO: Updated resistance to: 9.92 and support to: 9.855
+2025-08-14 14:57:53 INFO: {'SUPV': {   'close': 9.905,
+    'high': 9.905,
+    'low': 9.905,
+    'open': 9.905,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 9.905}}
+2025-08-14 14:57:53 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 14:57:53 INFO: Current average volume is: 358.0
+2025-08-14 14:57:53 INFO: Updated resistance to: 9.92 and support to: 9.855
+2025-08-14 15:00:53 INFO: {'SUPV': {   'close': 9.93,
+    'high': 9.93,
+    'low': 9.93,
+    'open': 9.93,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 245.0,
+    'vwap': 9.93}}
+2025-08-14 15:00:53 INFO: Current resistance is: 9.92 and support is: 9.855
+2025-08-14 15:00:53 INFO: Current average volume is: 362.5
+2025-08-14 15:00:53 INFO: The Current Close 9.93 is above the resistance...
+2025-08-14 15:00:53 INFO: Updated resistance to: 9.93 and support to: 9.855
+2025-08-14 15:01:23 INFO: {'SUPV': {   'close': 9.91,
+    'high': 9.91,
+    'low': 9.91,
+    'open': 9.91,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.91}}
+2025-08-14 15:01:23 INFO: Current resistance is: 9.93 and support is: 9.855
+2025-08-14 15:01:23 INFO: Current average volume is: 322.5
+2025-08-14 15:01:23 INFO: Updated resistance to: 9.93 and support to: 9.855
+2025-08-14 15:04:24 INFO: {'SUPV': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.92,
+    'open': 9.92,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 112.0,
+    'vwap': 9.92}}
+2025-08-14 15:04:24 INFO: Current resistance is: 9.93 and support is: 9.855
+2025-08-14 15:04:24 INFO: Current average volume is: 313.7
+2025-08-14 15:04:24 INFO: Updated resistance to: 9.93 and support to: 9.855
+2025-08-14 15:08:24 INFO: {'SUPV': {   'close': 9.94,
+    'high': 9.94,
+    'low': 9.94,
+    'open': 9.94,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 300.0,
+    'vwap': 9.94}}
+2025-08-14 15:08:24 INFO: Current resistance is: 9.93 and support is: 9.855
+2025-08-14 15:08:24 INFO: Current average volume is: 320.2
+2025-08-14 15:08:24 INFO: The Current Close 9.94 is above the resistance...
+2025-08-14 15:08:24 INFO: Updated resistance to: 9.94 and support to: 9.855
+2025-08-14 15:11:25 INFO: {'SUPV': {   'close': 9.935,
+    'high': 9.935,
+    'low': 9.935,
+    'open': 9.935,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 300.0,
+    'vwap': 9.935}}
+2025-08-14 15:11:25 INFO: Current resistance is: 9.94 and support is: 9.855
+2025-08-14 15:11:25 INFO: Current average volume is: 335.2
+2025-08-14 15:11:25 INFO: Updated resistance to: 9.94 and support to: 9.855
+2025-08-14 15:12:25 INFO: {'SUPV': {   'close': 9.94,
+    'high': 9.94,
+    'low': 9.94,
+    'open': 9.94,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 172.0,
+    'vwap': 9.94}}
+2025-08-14 15:12:25 INFO: Current resistance is: 9.94 and support is: 9.855
+2025-08-14 15:12:25 INFO: Current average volume is: 321.3
+2025-08-14 15:13:25 INFO: {'SUPV': {   'close': 9.95,
+    'high': 9.95,
+    'low': 9.95,
+    'open': 9.95,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 9.95}}
+2025-08-14 15:13:25 INFO: Current resistance is: 9.94 and support is: 9.855
+2025-08-14 15:13:25 INFO: Current average volume is: 271.8
+2025-08-14 15:13:25 INFO: The Current Close 9.95 is above the resistance...
+2025-08-14 15:13:25 INFO: Updated resistance to: 9.95 and support to: 9.855
+2025-08-14 15:14:25 INFO: {'SUPV': {   'close': 10.01,
+    'high': 10.01,
+    'low': 9.99,
+    'open': 9.99,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 778.0,
+    'vwap': 10.000714}}
+2025-08-14 15:14:25 INFO: Current resistance is: 9.95 and support is: 9.855
+2025-08-14 15:14:25 INFO: Current average volume is: 253.3
+2025-08-14 15:14:25 INFO: The current close: 10.01 is above the resistance of 9.95, but volume isn't enough...
+2025-08-14 15:14:25 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:15:25 INFO: {'SUPV': {   'close': 9.955,
+    'high': 9.955,
+    'low': 9.955,
+    'open': 9.955,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 9.955}}
+2025-08-14 15:15:25 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:15:25 INFO: Current average volume is: 240.9
+2025-08-14 15:15:25 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:17:26 INFO: {'SUPV': {   'close': 9.905,
+    'high': 9.92,
+    'low': 9.9,
+    'open': 9.92,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 753.0,
+    'vwap': 9.9075}}
+2025-08-14 15:17:26 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:17:26 INFO: Current average volume is: 296.2
+2025-08-14 15:17:26 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:21:26 INFO: {'SUPV': {   'close': 9.95,
+    'high': 9.95,
+    'low': 9.94,
+    'open': 9.94,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 800.0,
+    'vwap': 9.94375}}
+2025-08-14 15:21:26 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:21:26 INFO: Current average volume is: 351.7
+2025-08-14 15:21:26 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:26:27 INFO: {'SUPV': {   'close': 9.93,
+    'high': 9.935,
+    'low': 9.93,
+    'open': 9.935,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 316.0,
+    'vwap': 9.933333}}
+2025-08-14 15:26:27 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:26:27 INFO: Current average volume is: 373.3
+2025-08-14 15:26:27 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:27:27 INFO: {'SUPV': {   'close': 9.92,
+    'high': 9.925,
+    'low': 9.92,
+    'open': 9.925,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 279.0,
+    'vwap': 9.9225}}
+2025-08-14 15:27:27 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:27:27 INFO: Current average volume is: 390.0
+2025-08-14 15:27:27 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:28:27 INFO: {'SUPV': {   'close': 9.905,
+    'high': 9.91,
+    'low': 9.89,
+    'open': 9.91,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 627.0,
+    'vwap': 9.903404}}
+2025-08-14 15:28:27 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:28:27 INFO: Current average volume is: 422.7
+2025-08-14 15:28:27 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:30:27 INFO: {'SUPV': {   'close': 9.925,
+    'high': 9.925,
+    'low': 9.925,
+    'open': 9.925,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 514.0,
+    'vwap': 9.925}}
+2025-08-14 15:30:27 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:30:27 INFO: Current average volume is: 444.1
+2025-08-14 15:30:27 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:33:28 INFO: {'SUPV': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.92,
+    'open': 9.92,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 700.0,
+    'vwap': 9.92}}
+2025-08-14 15:33:28 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:33:28 INFO: Current average volume is: 496.9
+2025-08-14 15:33:28 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:38:28 INFO: {'SUPV': {   'close': 9.9,
+    'high': 9.9,
+    'low': 9.9,
+    'open': 9.9,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 732.0,
+    'vwap': 9.9}}
+2025-08-14 15:38:28 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:38:28 INFO: Current average volume is: 559.9
+2025-08-14 15:38:28 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:39:28 INFO: {'SUPV': {   'close': 9.905,
+    'high': 9.905,
+    'low': 9.905,
+    'open': 9.905,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 9.905}}
+2025-08-14 15:39:28 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:39:28 INFO: Current average volume is: 512.1
+2025-08-14 15:39:28 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:40:28 INFO: {'SUPV': {   'close': 9.91,
+    'high': 9.91,
+    'low': 9.91,
+    'open': 9.91,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 304.0,
+    'vwap': 9.91}}
+2025-08-14 15:40:28 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:40:28 INFO: Current average volume is: 532.5
+2025-08-14 15:40:28 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:41:29 INFO: {'SUPV': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.92,
+    'open': 9.92,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 9.92}}
+2025-08-14 15:41:29 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:41:29 INFO: Current average volume is: 517.2
+2025-08-14 15:41:29 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:45:29 INFO: {'SUPV': {   'close': 9.9,
+    'high': 9.91,
+    'low': 9.9,
+    'open': 9.91,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 800.0,
+    'vwap': 9.9075}}
+2025-08-14 15:45:29 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:45:29 INFO: Current average volume is: 517.2
+2025-08-14 15:45:29 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:51:30 INFO: {'SUPV': {   'close': 9.895,
+    'high': 9.9,
+    'low': 9.885,
+    'open': 9.9,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1000.0,
+    'vwap': 9.8895}}
+2025-08-14 15:51:30 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:51:30 INFO: Current average volume is: 585.6
+2025-08-14 15:51:30 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:52:30 INFO: {'SUPV': {   'close': 9.92,
+    'high': 9.92,
+    'low': 9.895,
+    'open': 9.895,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 791.0,
+    'vwap': 9.908433}}
+2025-08-14 15:52:30 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:52:30 INFO: Current average volume is: 636.8
+2025-08-14 15:52:30 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:53:30 INFO: {'SUPV': {   'close': 9.925,
+    'high': 9.925,
+    'low': 9.92,
+    'open': 9.92,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 900.0,
+    'vwap': 9.924444}}
+2025-08-14 15:53:30 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:53:30 INFO: Current average volume is: 664.1
+2025-08-14 15:53:30 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:54:30 INFO: {'SUPV': {   'close': 9.94,
+    'high': 9.94,
+    'low': 9.94,
+    'open': 9.94,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 404.0,
+    'vwap': 9.94}}
+2025-08-14 15:54:30 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:54:30 INFO: Current average volume is: 653.1
+2025-08-14 15:54:30 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:55:30 INFO: {'SUPV': {   'close': 9.895,
+    'high': 9.9,
+    'low': 9.89,
+    'open': 9.9,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1017.0,
+    'vwap': 9.8955}}
+2025-08-14 15:55:30 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:55:30 INFO: Current average volume is: 684.8
+2025-08-14 15:55:30 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:57:30 INFO: {'SUPV': {   'close': 9.86,
+    'high': 9.87,
+    'low': 9.86,
+    'open': 9.87,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 9.862}}
+2025-08-14 15:57:30 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:57:30 INFO: Current average volume is: 661.6
+2025-08-14 15:57:30 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:58:31 INFO: {'SUPV': {   'close': 9.885,
+    'high': 9.885,
+    'low': 9.855,
+    'open': 9.86,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1079.0,
+    'vwap': 9.8615}}
+2025-08-14 15:58:31 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:58:31 INFO: Current average volume is: 739.5
+2025-08-14 15:58:31 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 15:59:31 INFO: {'SUPV': {   'close': 9.89,
+    'high': 9.89,
+    'low': 9.86,
+    'open': 9.885,
+    'symbol': 'SUPV',
+    'timestamp': datetime.datetime(2025, 8, 14, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1463.0,
+    'vwap': 9.88119}}
+2025-08-14 15:59:31 INFO: Current resistance is: 10.01 and support is: 9.855
+2025-08-14 15:59:31 INFO: Current average volume is: 855.4
+2025-08-14 15:59:31 INFO: Updated resistance to: 10.01 and support to: 9.855
+2025-08-14 16:00:31 INFO: The Market is closed...

@@ -1,0 +1,380 @@
+2025-08-18 11:45:51 INFO: === Strategy started ===
+2025-08-18 11:45:51 INFO: Start collecting the current highs/lows for: DUOL
+2025-08-18 11:45:51 INFO: Most recent stock data: {'DUOL': {   'close': 362.5,
+    'high': 362.5,
+    'low': 362.5,
+    'open': 362.5,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 222.0,
+    'vwap': 362.5}}
+2025-08-18 11:46:51 INFO: Most recent stock data: {'DUOL': {   'close': 363.24,
+    'high': 363.24,
+    'low': 363.23,
+    'open': 363.23,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 347.0,
+    'vwap': 363.235}}
+2025-08-18 11:48:52 INFO: Most recent stock data: {'DUOL': {   'close': 363.23,
+    'high': 363.23,
+    'low': 363.13,
+    'open': 363.13,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 488.0,
+    'vwap': 363.196667}}
+2025-08-18 11:49:52 INFO: Most recent stock data: {'DUOL': {   'close': 363.5,
+    'high': 363.5,
+    'low': 363.5,
+    'open': 363.5,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 222.0,
+    'vwap': 363.5}}
+2025-08-18 11:50:52 INFO: Most recent stock data: {'DUOL': {   'close': 364.105,
+    'high': 364.105,
+    'low': 364.105,
+    'open': 364.105,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 116.0,
+    'vwap': 364.105}}
+2025-08-18 11:52:52 INFO: Most recent stock data: {'DUOL': {   'close': 364.7,
+    'high': 365.0,
+    'low': 364.7,
+    'open': 365.0,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 560.0,
+    'vwap': 364.81625}}
+2025-08-18 11:53:52 INFO: Most recent stock data: {'DUOL': {   'close': 365.48,
+    'high': 365.48,
+    'low': 365.48,
+    'open': 365.48,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 156.0,
+    'vwap': 365.48}}
+2025-08-18 11:55:53 INFO: Most recent stock data: {'DUOL': {   'close': 365.78,
+    'high': 365.78,
+    'low': 365.78,
+    'open': 365.78,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 205.0,
+    'vwap': 365.78}}
+2025-08-18 11:56:53 INFO: Most recent stock data: {'DUOL': {   'close': 365.59,
+    'high': 365.77,
+    'low': 365.59,
+    'open': 365.77,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 31.0,
+    'volume': 1428.0,
+    'vwap': 365.644944}}
+2025-08-18 11:57:53 INFO: Most recent stock data: {'DUOL': {   'close': 365.495,
+    'high': 365.66,
+    'low': 365.495,
+    'open': 365.66,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1095.0,
+    'vwap': 365.524321}}
+2025-08-18 12:00:53 INFO: Most recent stock data: {'DUOL': {   'close': 365.8,
+    'high': 365.8,
+    'low': 365.445,
+    'open': 365.445,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 502.0,
+    'vwap': 365.6225}}
+2025-08-18 12:00:53 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-18 12:00:53 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-18 12:01:53 INFO: {'DUOL': {   'close': 365.19,
+    'high': 366.2,
+    'low': 365.19,
+    'open': 365.935,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 63.0,
+    'volume': 2860.0,
+    'vwap': 365.998399}}
+2025-08-18 12:01:53 INFO: Current resistance is: 366.161 and support is: 366.21
+2025-08-18 12:01:53 INFO: Current average volume is: 763.2
+2025-08-18 12:01:53 INFO: close price: 365.19 just dropped below support of 366.21...
+2025-08-18 12:04:54 INFO: {'DUOL': {   'close': 366.58,
+    'high': 366.58,
+    'low': 366.58,
+    'open': 366.58,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 214.0,
+    'vwap': 366.58}}
+2025-08-18 12:04:54 INFO: Current resistance is: 366.161 and support is: 366.21
+2025-08-18 12:04:54 INFO: Current average volume is: 735.8
+2025-08-18 12:04:54 INFO: The Current Close 366.58 is above the resistance...
+2025-08-18 12:04:54 INFO: Updated resistance to: 366.91 and support to: 366.327
+2025-08-18 12:05:24 INFO: {'DUOL': {   'close': 366.97,
+    'high': 366.97,
+    'low': 366.91,
+    'open': 366.91,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 681.0,
+    'vwap': 366.94}}
+2025-08-18 12:05:24 INFO: Current resistance is: 366.91 and support is: 366.327
+2025-08-18 12:05:24 INFO: Current average volume is: 781.7
+2025-08-18 12:05:24 INFO: The current close: 366.97 is above the resistance of 366.91, but volume isn't enough...
+2025-08-18 12:05:24 INFO: Updated resistance to: 367.295 and support to: 366.692
+2025-08-18 12:07:24 INFO: {'DUOL': {   'close': 366.02,
+    'high': 366.02,
+    'low': 365.74,
+    'open': 365.93,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 1003.0,
+    'vwap': 365.898333}}
+2025-08-18 12:07:24 INFO: Current resistance is: 367.295 and support is: 366.692
+2025-08-18 12:07:24 INFO: Current average volume is: 870.4
+2025-08-18 12:07:24 INFO: close price: 366.02 just dropped below support of 366.692...
+2025-08-18 12:08:24 INFO: {'DUOL': {   'close': 366.255,
+    'high': 366.255,
+    'low': 366.255,
+    'open': 366.255,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 138.0,
+    'vwap': 366.255}}
+2025-08-18 12:08:24 INFO: Current resistance is: 367.295 and support is: 366.692
+2025-08-18 12:08:24 INFO: Current average volume is: 828.2
+2025-08-18 12:08:24 INFO: Closing price: 366.255 just dropped below support 366.692 again...ending trade...
+2025-08-18 12:45:56 INFO: === Strategy started ===
+2025-08-18 12:45:56 INFO: Start collecting the current highs/lows for: DUOL
+2025-08-18 12:45:56 INFO: Most recent stock data: {'DUOL': {   'close': 364.15,
+    'high': 364.15,
+    'low': 364.15,
+    'open': 364.15,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 223.0,
+    'vwap': 364.15}}
+2025-08-18 12:47:56 INFO: Most recent stock data: {'DUOL': {   'close': 364.45,
+    'high': 364.45,
+    'low': 364.45,
+    'open': 364.45,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 167.0,
+    'vwap': 364.45}}
+2025-08-18 12:48:56 INFO: Most recent stock data: {'DUOL': {   'close': 364.58,
+    'high': 364.58,
+    'low': 364.58,
+    'open': 364.58,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 364.58}}
+2025-08-18 12:49:57 INFO: Most recent stock data: {'DUOL': {   'close': 364.245,
+    'high': 364.245,
+    'low': 364.245,
+    'open': 364.245,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 236.0,
+    'vwap': 364.245}}
+2025-08-18 12:50:57 INFO: Most recent stock data: {'DUOL': {   'close': 364.73,
+    'high': 364.73,
+    'low': 364.21,
+    'open': 364.21,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 593.0,
+    'vwap': 364.386667}}
+2025-08-18 12:51:57 INFO: Most recent stock data: {'DUOL': {   'close': 365.56,
+    'high': 365.56,
+    'low': 365.56,
+    'open': 365.56,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 118.0,
+    'vwap': 365.56}}
+2025-08-18 12:56:57 INFO: Most recent stock data: {'DUOL': {   'close': 365.74,
+    'high': 365.74,
+    'low': 365.74,
+    'open': 365.74,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 227.0,
+    'vwap': 365.74}}
+2025-08-18 12:59:58 INFO: Most recent stock data: {'DUOL': {   'close': 365.78,
+    'high': 365.78,
+    'low': 365.78,
+    'open': 365.78,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 365.78}}
+2025-08-18 13:00:58 INFO: Most recent stock data: {'DUOL': {   'close': 365.1,
+    'high': 365.15,
+    'low': 365.1,
+    'open': 365.15,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 398.0,
+    'vwap': 365.125}}
+2025-08-18 13:02:58 INFO: Most recent stock data: {'DUOL': {   'close': 365.77,
+    'high': 365.77,
+    'low': 365.77,
+    'open': 365.77,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 365.77}}
+2025-08-18 13:10:59 INFO: Most recent stock data: {'DUOL': {   'close': 366.435,
+    'high': 366.435,
+    'low': 366.435,
+    'open': 366.435,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 262.0,
+    'vwap': 366.435}}
+2025-08-18 13:10:59 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-18 13:10:59 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-18 13:17:00 INFO: {'DUOL': {   'close': 366.95,
+    'high': 367.1,
+    'low': 366.95,
+    'open': 367.1,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 290.0,
+    'vwap': 367.025}}
+2025-08-18 13:17:00 INFO: Current resistance is: 366.64 and support is: 366.436
+2025-08-18 13:17:00 INFO: Current average volume is: 245.5
+2025-08-18 13:17:00 INFO: The Current Close 366.95 is above the resistance...
+2025-08-18 13:17:00 INFO: Updated resistance to: 367.333 and support to: 366.926
+2025-08-18 13:21:01 INFO: {'DUOL': {   'close': 366.93,
+    'high': 366.93,
+    'low': 366.93,
+    'open': 366.93,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 333.0,
+    'vwap': 366.93}}
+2025-08-18 13:21:01 INFO: Current resistance is: 367.333 and support is: 366.926
+2025-08-18 13:21:01 INFO: Current average volume is: 266.8
+2025-08-18 13:21:01 INFO: Updated resistance to: 367.572 and support to: 367.234
+2025-08-18 13:22:01 INFO: {'DUOL': {   'close': 367.19,
+    'high': 367.19,
+    'low': 367.19,
+    'open': 367.19,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 202.0,
+    'vwap': 367.19}}
+2025-08-18 13:22:01 INFO: Current resistance is: 367.572 and support is: 367.234
+2025-08-18 13:22:01 INFO: Current average volume is: 263.4
+2025-08-18 13:22:01 INFO: close price: 367.19 just dropped below support of 367.234...
+2025-08-18 13:25:01 INFO: {'DUOL': {   'close': 367.61,
+    'high': 367.61,
+    'low': 366.95,
+    'open': 366.95,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 583.0,
+    'vwap': 367.28}}
+2025-08-18 13:25:01 INFO: Current resistance is: 367.572 and support is: 367.234
+2025-08-18 13:25:01 INFO: Current average volume is: 262.4
+2025-08-18 13:25:01 INFO: The Current Close 367.61 is above the resistance...
+2025-08-18 13:25:01 INFO: Updated resistance to: 367.856 and support to: 367.636
+2025-08-18 13:30:03 INFO: {'DUOL': {   'close': 369.05,
+    'high': 369.05,
+    'low': 369.05,
+    'open': 369.05,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 549.0,
+    'vwap': 369.05}}
+2025-08-18 13:30:03 INFO: Current resistance is: 367.856 and support is: 367.636
+2025-08-18 13:30:03 INFO: Current average volume is: 305.5
+2025-08-18 13:30:03 INFO: The current close: 369.05 is above the resistance of 367.856, but volume isn't enough...
+2025-08-18 13:30:03 INFO: Updated resistance to: 369.326 and support to: 368.429
+2025-08-18 13:36:04 INFO: {'DUOL': {   'close': 370.6,
+    'high': 370.6,
+    'low': 370.6,
+    'open': 370.6,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 370.6}}
+2025-08-18 13:36:04 INFO: Current resistance is: 369.326 and support is: 368.429
+2025-08-18 13:36:04 INFO: Current average volume is: 302.9
+2025-08-18 13:36:04 INFO: The current close: 370.6 is above the resistance of 369.326, but volume isn't enough...
+2025-08-18 13:36:04 INFO: Updated resistance to: 370.922 and support to: 369.532
+2025-08-18 13:39:05 INFO: {'DUOL': {   'close': 369.61,
+    'high': 370.905,
+    'low': 369.61,
+    'open': 370.905,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 1375.0,
+    'vwap': 370.305833}}
+2025-08-18 13:39:05 INFO: Current resistance is: 370.922 and support is: 369.532
+2025-08-18 13:39:05 INFO: Current average volume is: 429.4
+2025-08-18 13:39:05 INFO: Updated resistance to: 371.259 and support to: 370.058
+2025-08-18 13:41:05 INFO: {'DUOL': {   'close': 369.15,
+    'high': 369.15,
+    'low': 369.15,
+    'open': 369.15,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 123.0,
+    'vwap': 369.15}}
+2025-08-18 13:41:05 INFO: Current resistance is: 371.259 and support is: 370.058
+2025-08-18 13:41:05 INFO: Current average volume is: 401.9
+2025-08-18 13:41:05 INFO: close price: 369.15 just dropped below support of 370.058...
+2025-08-18 13:43:05 INFO: {'DUOL': {   'close': 369.47,
+    'high': 369.47,
+    'low': 369.47,
+    'open': 369.47,
+    'symbol': 'DUOL',
+    'timestamp': datetime.datetime(2025, 8, 18, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 105.0,
+    'vwap': 369.47}}
+2025-08-18 13:43:05 INFO: Current resistance is: 371.259 and support is: 370.058
+2025-08-18 13:43:05 INFO: Current average volume is: 402.3
+2025-08-18 13:43:05 INFO: Closing price: 369.47 just dropped below support 370.058 again...ending trade...

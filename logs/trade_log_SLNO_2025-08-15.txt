@@ -1,0 +1,628 @@
+2025-08-15 11:10:15 INFO: === Strategy started ===
+2025-08-15 11:10:15 INFO: Start collecting the current highs/lows for: SLNO
+2025-08-15 11:10:16 INFO: Most recent stock data: {'SLNO': {   'close': 69.92,
+    'high': 69.995,
+    'low': 69.9,
+    'open': 69.97,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 1903.0,
+    'vwap': 69.975435}}
+2025-08-15 11:11:16 INFO: Most recent stock data: {'SLNO': {   'close': 70.09,
+    'high': 70.09,
+    'low': 70.09,
+    'open': 70.09,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 284.0,
+    'vwap': 70.09}}
+2025-08-15 11:12:16 INFO: Most recent stock data: {'SLNO': {   'close': 69.925,
+    'high': 70.07,
+    'low': 69.92,
+    'open': 70.07,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 956.0,
+    'vwap': 69.983}}
+2025-08-15 11:17:17 INFO: Most recent stock data: {'SLNO': {   'close': 69.98,
+    'high': 70.0,
+    'low': 69.9,
+    'open': 69.9,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 881.0,
+    'vwap': 69.966}}
+2025-08-15 11:20:17 INFO: Most recent stock data: {'SLNO': {   'close': 70.04,
+    'high': 70.04,
+    'low': 70.0,
+    'open': 70.0,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 1595.0,
+    'vwap': 70.005563}}
+2025-08-15 11:22:17 INFO: Most recent stock data: {'SLNO': {   'close': 70.04,
+    'high': 70.11,
+    'low': 70.04,
+    'open': 70.11,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 763.0,
+    'vwap': 70.074}}
+2025-08-15 11:23:17 INFO: Most recent stock data: {'SLNO': {   'close': 70.04,
+    'high': 70.04,
+    'low': 69.985,
+    'open': 69.985,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 554.0,
+    'vwap': 70.02625}}
+2025-08-15 11:26:18 INFO: Most recent stock data: {'SLNO': {   'close': 70.96,
+    'high': 70.96,
+    'low': 70.62,
+    'open': 70.62,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2043.0,
+    'vwap': 70.828333}}
+2025-08-15 11:27:18 INFO: Most recent stock data: {'SLNO': {   'close': 71.015,
+    'high': 71.04,
+    'low': 71.0,
+    'open': 71.04,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1044.0,
+    'vwap': 71.024081}}
+2025-08-15 11:28:18 INFO: Most recent stock data: {'SLNO': {   'close': 71.14,
+    'high': 71.14,
+    'low': 71.09,
+    'open': 71.1,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 757.0,
+    'vwap': 71.115}}
+2025-08-15 11:29:18 INFO: Most recent stock data: {'SLNO': {   'close': 71.15,
+    'high': 71.15,
+    'low': 71.14,
+    'open': 71.14,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 235.0,
+    'vwap': 71.145}}
+2025-08-15 11:29:18 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 11:29:18 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-15 11:30:18 INFO: {'SLNO': {   'close': 71.1,
+    'high': 71.27,
+    'low': 71.1,
+    'open': 71.23,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 2118.0,
+    'vwap': 71.212825}}
+2025-08-15 11:30:18 INFO: Current resistance is: 71.285 and support is: 71.386
+2025-08-15 11:30:18 INFO: Current average volume is: 1094.6
+2025-08-15 11:30:18 INFO: close price: 71.1 just dropped below support of 71.386...
+2025-08-15 11:31:18 INFO: {'SLNO': {   'close': 71.01,
+    'high': 71.01,
+    'low': 70.95,
+    'open': 70.95,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 882.0,
+    'vwap': 70.986667}}
+2025-08-15 11:31:18 INFO: Current resistance is: 71.285 and support is: 71.386
+2025-08-15 11:31:18 INFO: Current average volume is: 1087.2
+2025-08-15 11:31:18 INFO: Closing price: 71.01 just dropped below support 71.386 again...ending trade...
+2025-08-15 13:25:29 INFO: === Strategy started ===
+2025-08-15 13:25:29 INFO: Start collecting the current highs/lows for: SLNO
+2025-08-15 13:25:29 INFO: Most recent stock data: {'SLNO': {   'close': 71.785,
+    'high': 71.795,
+    'low': 71.785,
+    'open': 71.795,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 251.0,
+    'vwap': 71.79}}
+2025-08-15 13:26:29 INFO: Most recent stock data: {'SLNO': {   'close': 72.02,
+    'high': 72.02,
+    'low': 71.925,
+    'open': 71.925,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 285.0,
+    'vwap': 71.9725}}
+2025-08-15 13:27:29 INFO: Most recent stock data: {'SLNO': {   'close': 72.085,
+    'high': 72.09,
+    'low': 71.985,
+    'open': 71.985,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1032.0,
+    'vwap': 72.020948}}
+2025-08-15 13:28:29 INFO: Most recent stock data: {'SLNO': {   'close': 72.145,
+    'high': 72.2,
+    'low': 72.06,
+    'open': 72.06,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 348.0,
+    'vwap': 72.135}}
+2025-08-15 13:29:29 INFO: Most recent stock data: {'SLNO': {   'close': 72.14,
+    'high': 72.14,
+    'low': 72.075,
+    'open': 72.14,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 563.0,
+    'vwap': 72.12375}}
+2025-08-15 13:30:29 INFO: Most recent stock data: {'SLNO': {   'close': 72.06,
+    'high': 72.06,
+    'low': 72.06,
+    'open': 72.06,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 72.06}}
+2025-08-15 13:31:30 INFO: Most recent stock data: {'SLNO': {   'close': 71.96,
+    'high': 72.01,
+    'low': 71.96,
+    'open': 72.01,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 71.98}}
+2025-08-15 13:32:30 INFO: Most recent stock data: {'SLNO': {   'close': 71.53,
+    'high': 71.74,
+    'low': 71.53,
+    'open': 71.74,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 449.0,
+    'vwap': 71.6775}}
+2025-08-15 13:36:30 INFO: Most recent stock data: {'SLNO': {   'close': 71.58,
+    'high': 71.58,
+    'low': 71.58,
+    'open': 71.58,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.58}}
+2025-08-15 13:38:30 INFO: Most recent stock data: {'SLNO': {   'close': 71.465,
+    'high': 71.465,
+    'low': 71.465,
+    'open': 71.465,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 824.0,
+    'vwap': 71.465}}
+2025-08-15 13:40:31 INFO: Most recent stock data: {'SLNO': {   'close': 71.34,
+    'high': 71.34,
+    'low': 71.34,
+    'open': 71.34,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 123.0,
+    'vwap': 71.34}}
+2025-08-15 13:40:31 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 13:40:31 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-15 13:48:32 INFO: {'SLNO': {   'close': 71.83,
+    'high': 71.83,
+    'low': 71.83,
+    'open': 71.83,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.83}}
+2025-08-15 13:48:32 INFO: Current resistance is: 71.685 and support is: 71.281
+2025-08-15 13:48:32 INFO: Current average volume is: 413.9
+2025-08-15 13:48:32 INFO: The Current Close 71.83 is above the resistance...
+2025-08-15 13:48:32 INFO: Updated resistance to: 71.745 and support to: 71.252
+2025-08-15 13:50:02 INFO: {'SLNO': {   'close': 71.96,
+    'high': 71.96,
+    'low': 71.96,
+    'open': 71.96,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 379.0,
+    'vwap': 71.96}}
+2025-08-15 13:50:02 INFO: Current resistance is: 71.745 and support is: 71.252
+2025-08-15 13:50:02 INFO: Current average volume is: 348.6
+2025-08-15 13:50:02 INFO: The current close: 71.96 is above the resistance of 71.745, but volume isn't enough...
+2025-08-15 13:50:02 INFO: Updated resistance to: 71.837 and support to: 71.252
+2025-08-15 13:51:02 INFO: {'SLNO': {   'close': 71.815,
+    'high': 71.97,
+    'low': 71.815,
+    'open': 71.97,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 364.0,
+    'vwap': 71.91373}}
+2025-08-15 13:51:02 INFO: Current resistance is: 71.837 and support is: 71.252
+2025-08-15 13:51:02 INFO: Current average volume is: 350.2
+2025-08-15 13:51:02 INFO: Updated resistance to: 71.914 and support to: 71.247
+2025-08-15 13:52:02 INFO: {'SLNO': {   'close': 71.85,
+    'high': 71.89,
+    'low': 71.845,
+    'open': 71.845,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1080.0,
+    'vwap': 71.87}}
+2025-08-15 13:52:02 INFO: Current resistance is: 71.914 and support is: 71.247
+2025-08-15 13:52:02 INFO: Current average volume is: 401.9
+2025-08-15 13:52:02 INFO: Updated resistance to: 71.952 and support to: 71.25
+2025-08-15 13:53:02 INFO: {'SLNO': {   'close': 71.9,
+    'high': 71.9,
+    'low': 71.88,
+    'open': 71.88,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 705.0,
+    'vwap': 71.890215}}
+2025-08-15 13:53:02 INFO: Current resistance is: 71.952 and support is: 71.25
+2025-08-15 13:53:02 INFO: Current average volume is: 442.4
+2025-08-15 13:53:02 INFO: Updated resistance to: 71.987 and support to: 71.259
+2025-08-15 13:54:03 INFO: {'SLNO': {   'close': 71.92,
+    'high': 71.92,
+    'low': 71.92,
+    'open': 71.92,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 462.0,
+    'vwap': 71.92}}
+2025-08-15 13:54:03 INFO: Current resistance is: 71.987 and support is: 71.259
+2025-08-15 13:54:03 INFO: Current average volume is: 458.6
+2025-08-15 13:54:03 INFO: Updated resistance to: 72.021 and support to: 71.276
+2025-08-15 13:55:03 INFO: {'SLNO': {   'close': 71.99,
+    'high': 71.99,
+    'low': 71.99,
+    'open': 71.99,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.99}}
+2025-08-15 13:55:03 INFO: Current resistance is: 72.021 and support is: 71.276
+2025-08-15 13:55:03 INFO: Current average volume is: 423.7
+2025-08-15 13:55:03 INFO: Updated resistance to: 72.068 and support to: 71.301
+2025-08-15 13:57:03 INFO: {'SLNO': {   'close': 71.995,
+    'high': 71.995,
+    'low': 71.995,
+    'open': 71.995,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 354.0,
+    'vwap': 71.995}}
+2025-08-15 13:57:03 INFO: Current resistance is: 72.068 and support is: 71.301
+2025-08-15 13:57:03 INFO: Current average volume is: 449.1
+2025-08-15 13:57:03 INFO: Updated resistance to: 72.109 and support to: 71.326
+2025-08-15 13:58:03 INFO: {'SLNO': {   'close': 71.96,
+    'high': 71.96,
+    'low': 71.96,
+    'open': 71.96,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 71.96}}
+2025-08-15 13:58:03 INFO: Current resistance is: 72.109 and support is: 71.326
+2025-08-15 13:58:03 INFO: Current average volume is: 377.7
+2025-08-15 13:58:03 INFO: Updated resistance to: 72.134 and support to: 71.343
+2025-08-15 14:00:03 INFO: {'SLNO': {   'close': 71.85,
+    'high': 71.89,
+    'low': 71.83,
+    'open': 71.89,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 700.0,
+    'vwap': 71.852857}}
+2025-08-15 14:00:03 INFO: Current resistance is: 72.134 and support is: 71.343
+2025-08-15 14:00:03 INFO: Current average volume is: 435.4
+2025-08-15 14:00:03 INFO: Updated resistance to: 72.139 and support to: 71.341
+2025-08-15 14:01:03 INFO: {'SLNO': {   'close': 71.6,
+    'high': 71.76,
+    'low': 71.6,
+    'open': 71.76,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 1882.0,
+    'vwap': 71.652733}}
+2025-08-15 14:01:03 INFO: Current resistance is: 72.139 and support is: 71.341
+2025-08-15 14:01:03 INFO: Current average volume is: 613.6
+2025-08-15 14:01:03 INFO: Updated resistance to: 72.114 and support to: 71.305
+2025-08-15 14:12:05 INFO: {'SLNO': {   'close': 71.77,
+    'high': 71.8,
+    'low': 71.77,
+    'open': 71.8,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 227.0,
+    'vwap': 71.785}}
+2025-08-15 14:12:05 INFO: Current resistance is: 72.114 and support is: 71.305
+2025-08-15 14:12:05 INFO: Current average volume is: 598.4
+2025-08-15 14:12:05 INFO: Updated resistance to: 72.102 and support to: 71.298
+2025-08-15 14:13:05 INFO: {'SLNO': {   'close': 71.815,
+    'high': 71.815,
+    'low': 71.815,
+    'open': 71.815,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 127.0,
+    'vwap': 71.815}}
+2025-08-15 14:13:05 INFO: Current resistance is: 72.102 and support is: 71.298
+2025-08-15 14:13:05 INFO: Current average volume is: 574.7
+2025-08-15 14:13:05 INFO: Updated resistance to: 72.095 and support to: 71.298
+2025-08-15 14:14:05 INFO: {'SLNO': {   'close': 71.7,
+    'high': 71.71,
+    'low': 71.7,
+    'open': 71.71,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 645.0,
+    'vwap': 71.706667}}
+2025-08-15 14:14:05 INFO: Current resistance is: 72.095 and support is: 71.298
+2025-08-15 14:14:05 INFO: Current average volume is: 531.2
+2025-08-15 14:14:05 INFO: Updated resistance to: 72.069 and support to: 71.282
+2025-08-15 14:15:05 INFO: {'SLNO': {   'close': 71.74,
+    'high': 71.74,
+    'low': 71.74,
+    'open': 71.74,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.74}}
+2025-08-15 14:15:05 INFO: Current resistance is: 72.069 and support is: 71.282
+2025-08-15 14:15:05 INFO: Current average volume is: 470.7
+2025-08-15 14:15:05 INFO: Updated resistance to: 72.052 and support to: 71.273
+2025-08-15 14:17:05 INFO: {'SLNO': {   'close': 71.8,
+    'high': 71.8,
+    'low': 71.775,
+    'open': 71.8,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1012.0,
+    'vwap': 71.7915}}
+2025-08-15 14:17:05 INFO: Current resistance is: 72.052 and support is: 71.273
+2025-08-15 14:17:05 INFO: Current average volume is: 525.7
+2025-08-15 14:17:05 INFO: Updated resistance to: 72.049 and support to: 71.27
+2025-08-15 14:19:06 INFO: {'SLNO': {   'close': 71.66,
+    'high': 71.73,
+    'low': 71.61,
+    'open': 71.73,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 891.0,
+    'vwap': 71.68}}
+2025-08-15 14:19:06 INFO: Current resistance is: 72.049 and support is: 71.27
+2025-08-15 14:19:06 INFO: Current average volume is: 604.8
+2025-08-15 14:19:06 INFO: Updated resistance to: 72.034 and support to: 71.245
+2025-08-15 14:20:06 INFO: {'SLNO': {   'close': 71.63,
+    'high': 71.72,
+    'low': 71.63,
+    'open': 71.72,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 240.0,
+    'vwap': 71.675}}
+2025-08-15 14:20:06 INFO: Current resistance is: 72.034 and support is: 71.245
+2025-08-15 14:20:06 INFO: Current average volume is: 593.4
+2025-08-15 14:20:06 INFO: Updated resistance to: 72.019 and support to: 71.226
+2025-08-15 14:21:06 INFO: {'SLNO': {   'close': 71.67,
+    'high': 71.67,
+    'low': 71.65,
+    'open': 71.65,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 453.0,
+    'vwap': 71.66}}
+2025-08-15 14:21:06 INFO: Current resistance is: 72.019 and support is: 71.226
+2025-08-15 14:21:06 INFO: Current average volume is: 627.7
+2025-08-15 14:21:06 INFO: Updated resistance to: 71.998 and support to: 71.211
+2025-08-15 14:22:06 INFO: {'SLNO': {   'close': 71.725,
+    'high': 71.725,
+    'low': 71.725,
+    'open': 71.725,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 71.725}}
+2025-08-15 14:22:06 INFO: Current resistance is: 71.998 and support is: 71.211
+2025-08-15 14:22:06 INFO: Current average volume is: 567.8
+2025-08-15 14:22:06 INFO: Updated resistance to: 71.989 and support to: 71.207
+2025-08-15 14:23:06 INFO: {'SLNO': {   'close': 71.86,
+    'high': 71.86,
+    'low': 71.86,
+    'open': 71.86,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 71.86}}
+2025-08-15 14:23:06 INFO: Current resistance is: 71.989 and support is: 71.207
+2025-08-15 14:23:06 INFO: Current average volume is: 389.7
+2025-08-15 14:23:06 INFO: Updated resistance to: 72.004 and support to: 71.221
+2025-08-15 14:25:06 INFO: {'SLNO': {   'close': 71.95,
+    'high': 71.95,
+    'low': 71.895,
+    'open': 71.9,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 71.915}}
+2025-08-15 14:25:06 INFO: Current resistance is: 72.004 and support is: 71.221
+2025-08-15 14:25:06 INFO: Current average volume is: 397.0
+2025-08-15 14:25:06 INFO: Updated resistance to: 72.032 and support to: 71.238
+2025-08-15 14:26:07 INFO: {'SLNO': {   'close': 71.97,
+    'high': 72.0,
+    'low': 71.97,
+    'open': 72.0,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 71.986}}
+2025-08-15 14:26:07 INFO: Current resistance is: 72.032 and support is: 71.238
+2025-08-15 14:26:07 INFO: Current average volume is: 434.3
+2025-08-15 14:26:07 INFO: Updated resistance to: 72.064 and support to: 71.263
+2025-08-15 14:27:07 INFO: {'SLNO': {   'close': 71.96,
+    'high': 71.96,
+    'low': 71.96,
+    'open': 71.96,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 71.96}}
+2025-08-15 14:27:07 INFO: Current resistance is: 72.064 and support is: 71.263
+2025-08-15 14:27:07 INFO: Current average volume is: 379.8
+2025-08-15 14:27:07 INFO: Updated resistance to: 72.088 and support to: 71.284
+2025-08-15 14:28:07 INFO: {'SLNO': {   'close': 71.74,
+    'high': 71.91,
+    'low': 71.74,
+    'open': 71.91,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 429.0,
+    'vwap': 71.818333}}
+2025-08-15 14:28:07 INFO: Current resistance is: 72.088 and support is: 71.284
+2025-08-15 14:28:07 INFO: Current average volume is: 412.7
+2025-08-15 14:28:07 INFO: Updated resistance to: 72.102 and support to: 71.278
+2025-08-15 14:32:07 INFO: {'SLNO': {   'close': 71.96,
+    'high': 71.96,
+    'low': 71.96,
+    'open': 71.96,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 71.96}}
+2025-08-15 14:32:07 INFO: Current resistance is: 72.102 and support is: 71.278
+2025-08-15 14:32:07 INFO: Current average volume is: 321.6
+2025-08-15 14:32:07 INFO: Updated resistance to: 72.121 and support to: 71.298
+2025-08-15 14:33:07 INFO: {'SLNO': {   'close': 71.97,
+    'high': 71.97,
+    'low': 71.94,
+    'open': 71.94,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 469.0,
+    'vwap': 71.95}}
+2025-08-15 14:33:07 INFO: Current resistance is: 72.121 and support is: 71.298
+2025-08-15 14:33:07 INFO: Current average volume is: 279.4
+2025-08-15 14:33:07 INFO: Updated resistance to: 72.141 and support to: 71.313
+2025-08-15 14:34:08 INFO: {'SLNO': {   'close': 71.91,
+    'high': 71.91,
+    'low': 71.91,
+    'open': 71.91,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 210.0,
+    'vwap': 71.91}}
+2025-08-15 14:34:08 INFO: Current resistance is: 72.141 and support is: 71.313
+2025-08-15 14:34:08 INFO: Current average volume is: 276.4
+2025-08-15 14:34:08 INFO: Updated resistance to: 72.15 and support to: 71.325
+2025-08-15 14:36:08 INFO: {'SLNO': {   'close': 71.75,
+    'high': 71.9,
+    'low': 71.75,
+    'open': 71.89,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1252.0,
+    'vwap': 71.842143}}
+2025-08-15 14:36:08 INFO: Current resistance is: 72.15 and support is: 71.325
+2025-08-15 14:36:08 INFO: Current average volume is: 356.3
+2025-08-15 14:36:08 INFO: Updated resistance to: 72.157 and support to: 71.318
+2025-08-15 14:38:08 INFO: {'SLNO': {   'close': 71.5,
+    'high': 71.72,
+    'low': 71.47,
+    'open': 71.72,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 684.0,
+    'vwap': 71.545}}
+2025-08-15 14:38:08 INFO: Current resistance is: 72.157 and support is: 71.318
+2025-08-15 14:38:08 INFO: Current average volume is: 414.6
+2025-08-15 14:38:08 INFO: Updated resistance to: 72.14 and support to: 71.281
+2025-08-15 14:40:08 INFO: {'SLNO': {   'close': 71.31,
+    'high': 71.37,
+    'low': 71.25,
+    'open': 71.25,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 506.0,
+    'vwap': 71.295}}
+2025-08-15 14:40:08 INFO: Current resistance is: 72.14 and support is: 71.281
+2025-08-15 14:40:08 INFO: Current average volume is: 455.1
+2025-08-15 14:40:08 INFO: Updated resistance to: 72.079 and support to: 71.246
+2025-08-15 14:41:09 INFO: {'SLNO': {   'close': 70.8,
+    'high': 71.285,
+    'low': 70.8,
+    'open': 71.28,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 1389.0,
+    'vwap': 71.14875}}
+2025-08-15 14:41:09 INFO: Current resistance is: 72.079 and support is: 71.246
+2025-08-15 14:41:09 INFO: Current average volume is: 564.0
+2025-08-15 14:41:09 INFO: close price: 70.8 just dropped below support of 71.246...
+2025-08-15 14:42:09 INFO: {'SLNO': {   'close': 70.87,
+    'high': 70.87,
+    'low': 70.86,
+    'open': 70.86,
+    'symbol': 'SLNO',
+    'timestamp': datetime.datetime(2025, 8, 15, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 661.0,
+    'vwap': 70.863333}}
+2025-08-15 14:42:09 INFO: Current resistance is: 72.079 and support is: 71.246
+2025-08-15 14:42:09 INFO: Current average volume is: 580.1
+2025-08-15 14:42:09 INFO: Closing price: 70.87 just dropped below support 71.246 again...ending trade...

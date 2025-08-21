@@ -1,0 +1,776 @@
+2025-08-15 10:25:11 INFO: === Strategy started ===
+2025-08-15 10:25:11 INFO: Start collecting the current highs/lows for: NU
+2025-08-15 10:25:11 INFO: Most recent stock data: {'NU': {   'close': 13.39,
+    'high': 13.445,
+    'low': 13.385,
+    'open': 13.4,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 96.0,
+    'volume': 73890.0,
+    'vwap': 13.411207}}
+2025-08-15 10:26:11 INFO: Most recent stock data: {'NU': {   'close': 13.385,
+    'high': 13.425,
+    'low': 13.36,
+    'open': 13.395,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 77.0,
+    'volume': 20784.0,
+    'vwap': 13.394473}}
+2025-08-15 10:27:11 INFO: Most recent stock data: {'NU': {   'close': 13.375,
+    'high': 13.395,
+    'low': 13.37,
+    'open': 13.38,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 55.0,
+    'volume': 24372.0,
+    'vwap': 13.378533}}
+2025-08-15 10:29:11 INFO: Most recent stock data: {'NU': {   'close': 13.4,
+    'high': 13.4,
+    'low': 13.36,
+    'open': 13.39,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 24363.0,
+    'vwap': 13.378324}}
+2025-08-15 10:30:11 INFO: Most recent stock data: {'NU': {   'close': 13.345,
+    'high': 13.39,
+    'low': 13.345,
+    'open': 13.39,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 15258.0,
+    'vwap': 13.367186}}
+2025-08-15 10:31:12 INFO: Most recent stock data: {'NU': {   'close': 13.32,
+    'high': 13.33,
+    'low': 13.305,
+    'open': 13.33,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 73.0,
+    'volume': 37307.0,
+    'vwap': 13.320764}}
+2025-08-15 10:33:12 INFO: Most recent stock data: {'NU': {   'close': 13.44,
+    'high': 13.44,
+    'low': 13.405,
+    'open': 13.405,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 90.0,
+    'volume': 44036.0,
+    'vwap': 13.410054}}
+2025-08-15 10:34:12 INFO: Most recent stock data: {'NU': {   'close': 13.41,
+    'high': 13.435,
+    'low': 13.39,
+    'open': 13.435,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 18238.0,
+    'vwap': 13.40683}}
+2025-08-15 10:35:12 INFO: Most recent stock data: {'NU': {   'close': 13.39,
+    'high': 13.415,
+    'low': 13.385,
+    'open': 13.41,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 12874.0,
+    'vwap': 13.40385}}
+2025-08-15 10:37:12 INFO: Most recent stock data: {'NU': {   'close': 13.38,
+    'high': 13.4,
+    'low': 13.37,
+    'open': 13.395,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 6438.0,
+    'vwap': 13.380651}}
+2025-08-15 10:38:12 INFO: Most recent stock data: {'NU': {   'close': 13.36,
+    'high': 13.38,
+    'low': 13.36,
+    'open': 13.38,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 9391.0,
+    'vwap': 13.368789}}
+2025-08-15 10:38:12 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 10:38:12 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-15 10:39:13 INFO: {'NU': {   'close': 13.38,
+    'high': 13.385,
+    'low': 13.34,
+    'open': 13.35,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 12200.0,
+    'vwap': 13.35252}}
+2025-08-15 10:39:13 INFO: Current resistance is: 13.445 and support is: 13.305
+2025-08-15 10:39:13 INFO: Current average volume is: 20447.7
+2025-08-15 10:39:13 INFO: Updated resistance to: 13.445 and support to: 13.305
+2025-08-15 10:43:13 INFO: {'NU': {   'close': 13.45,
+    'high': 13.48,
+    'low': 13.385,
+    'open': 13.385,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 14503.0,
+    'vwap': 13.439579}}
+2025-08-15 10:43:13 INFO: Current resistance is: 13.445 and support is: 13.305
+2025-08-15 10:43:13 INFO: Current average volume is: 19460.8
+2025-08-15 10:43:13 INFO: The Current Close 13.45 is above the resistance...
+2025-08-15 10:43:13 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 10:44:13 INFO: {'NU': {   'close': 13.4,
+    'high': 13.445,
+    'low': 13.39,
+    'open': 13.43,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 72.0,
+    'volume': 21015.0,
+    'vwap': 13.412865}}
+2025-08-15 10:44:13 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 10:44:13 INFO: Current average volume is: 19126.0
+2025-08-15 10:44:13 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 10:46:13 INFO: {'NU': {   'close': 13.39,
+    'high': 13.41,
+    'low': 13.38,
+    'open': 13.41,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 16368.0,
+    'vwap': 13.393148}}
+2025-08-15 10:46:13 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 10:46:13 INFO: Current average volume is: 19237.0
+2025-08-15 10:46:13 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 10:48:14 INFO: {'NU': {   'close': 13.4,
+    'high': 13.405,
+    'low': 13.39,
+    'open': 13.4,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 21709.0,
+    'vwap': 13.397168}}
+2025-08-15 10:48:14 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 10:48:14 INFO: Current average volume is: 17677.2
+2025-08-15 10:48:14 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 10:51:14 INFO: {'NU': {   'close': 13.395,
+    'high': 13.395,
+    'low': 13.395,
+    'open': 13.395,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 505.0,
+    'vwap': 13.395}}
+2025-08-15 10:51:14 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 10:51:14 INFO: Current average volume is: 13324.1
+2025-08-15 10:51:14 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 10:54:14 INFO: {'NU': {   'close': 13.405,
+    'high': 13.44,
+    'low': 13.405,
+    'open': 13.44,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 30098.0,
+    'vwap': 13.420953}}
+2025-08-15 10:54:14 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 10:54:14 INFO: Current average volume is: 14510.1
+2025-08-15 10:54:14 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 10:55:14 INFO: {'NU': {   'close': 13.365,
+    'high': 13.39,
+    'low': 13.365,
+    'open': 13.385,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 7052.0,
+    'vwap': 13.388075}}
+2025-08-15 10:55:14 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 10:55:14 INFO: Current average volume is: 13927.9
+2025-08-15 10:55:14 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 10:56:15 INFO: {'NU': {   'close': 13.35,
+    'high': 13.365,
+    'low': 13.32,
+    'open': 13.365,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 96.0,
+    'volume': 37810.0,
+    'vwap': 13.336468}}
+2025-08-15 10:56:15 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 10:56:15 INFO: Current average volume is: 17065.1
+2025-08-15 10:56:15 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 10:57:15 INFO: {'NU': {   'close': 13.395,
+    'high': 13.4,
+    'low': 13.355,
+    'open': 13.355,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 16020.0,
+    'vwap': 13.381572}}
+2025-08-15 10:57:15 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 10:57:15 INFO: Current average volume is: 17728.0
+2025-08-15 10:57:15 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 10:58:15 INFO: {'NU': {   'close': 13.38,
+    'high': 13.395,
+    'low': 13.375,
+    'open': 13.39,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 8809.0,
+    'vwap': 13.384154}}
+2025-08-15 10:58:15 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 10:58:15 INFO: Current average volume is: 17388.9
+2025-08-15 10:58:15 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 11:00:15 INFO: {'NU': {   'close': 13.345,
+    'high': 13.36,
+    'low': 13.345,
+    'open': 13.36,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 15964.0,
+    'vwap': 13.353983}}
+2025-08-15 11:00:15 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 11:00:15 INFO: Current average volume is: 17535.0
+2025-08-15 11:00:15 INFO: Updated resistance to: 13.48 and support to: 13.305
+2025-08-15 11:01:15 INFO: {'NU': {   'close': 13.285,
+    'high': 13.34,
+    'low': 13.28,
+    'open': 13.34,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 27340.0,
+    'vwap': 13.293866}}
+2025-08-15 11:01:15 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 11:01:15 INFO: Current average volume is: 18167.5
+2025-08-15 11:01:15 INFO: close price: 13.285 just dropped below support of 13.305...
+2025-08-15 11:02:15 INFO: {'NU': {   'close': 13.3,
+    'high': 13.3,
+    'low': 13.255,
+    'open': 13.285,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 122.0,
+    'volume': 50008.0,
+    'vwap': 13.276112}}
+2025-08-15 11:02:15 INFO: Current resistance is: 13.48 and support is: 13.305
+2025-08-15 11:02:15 INFO: Current average volume is: 21531.5
+2025-08-15 11:02:15 INFO: Closing price: 13.3 just dropped below support 13.305 again...ending trade...
+2025-08-15 11:25:19 INFO: === Strategy started ===
+2025-08-15 11:25:19 INFO: Start collecting the current highs/lows for: NU
+2025-08-15 11:25:19 INFO: Most recent stock data: {'NU': {   'close': 13.29,
+    'high': 13.29,
+    'low': 13.29,
+    'open': 13.29,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1700.0,
+    'vwap': 13.29}}
+2025-08-15 11:26:19 INFO: Most recent stock data: {'NU': {   'close': 13.28,
+    'high': 13.28,
+    'low': 13.28,
+    'open': 13.28,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2458.0,
+    'vwap': 13.28}}
+2025-08-15 11:27:19 INFO: Most recent stock data: {'NU': {   'close': 13.285,
+    'high': 13.285,
+    'low': 13.275,
+    'open': 13.275,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2737.0,
+    'vwap': 13.280187}}
+2025-08-15 11:29:20 INFO: Most recent stock data: {'NU': {   'close': 13.33,
+    'high': 13.335,
+    'low': 13.3,
+    'open': 13.3,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1591.0,
+    'vwap': 13.318}}
+2025-08-15 11:32:20 INFO: Most recent stock data: {'NU': {   'close': 13.37,
+    'high': 13.38,
+    'low': 13.37,
+    'open': 13.37,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 3156.0,
+    'vwap': 13.371379}}
+2025-08-15 11:33:20 INFO: Most recent stock data: {'NU': {   'close': 13.375,
+    'high': 13.385,
+    'low': 13.35,
+    'open': 13.37,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 16005.0,
+    'vwap': 13.371115}}
+2025-08-15 11:34:20 INFO: Most recent stock data: {'NU': {   'close': 13.38,
+    'high': 13.38,
+    'low': 13.37,
+    'open': 13.37,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 5356.0,
+    'vwap': 13.375374}}
+2025-08-15 11:35:20 INFO: Most recent stock data: {'NU': {   'close': 13.38,
+    'high': 13.39,
+    'low': 13.38,
+    'open': 13.38,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 7342.0,
+    'vwap': 13.387298}}
+2025-08-15 11:37:20 INFO: Most recent stock data: {'NU': {   'close': 13.38,
+    'high': 13.405,
+    'low': 13.37,
+    'open': 13.39,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2392.0,
+    'vwap': 13.393689}}
+2025-08-15 11:38:21 INFO: Most recent stock data: {'NU': {   'close': 13.375,
+    'high': 13.375,
+    'low': 13.375,
+    'open': 13.375,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 260.0,
+    'vwap': 13.375}}
+2025-08-15 11:39:21 INFO: Most recent stock data: {'NU': {   'close': 13.38,
+    'high': 13.38,
+    'low': 13.355,
+    'open': 13.37,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 30302.0,
+    'vwap': 13.355865}}
+2025-08-15 11:39:21 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 11:39:21 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-15 11:42:21 INFO: {'NU': {   'close': 13.375,
+    'high': 13.375,
+    'low': 13.375,
+    'open': 13.375,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 973.0,
+    'vwap': 13.375}}
+2025-08-15 11:42:21 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:42:21 INFO: Current average volume is: 7011.4
+2025-08-15 11:42:21 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:44:21 INFO: {'NU': {   'close': 13.36,
+    'high': 13.36,
+    'low': 13.33,
+    'open': 13.355,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 8632.0,
+    'vwap': 13.349556}}
+2025-08-15 11:44:21 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:44:21 INFO: Current average volume is: 7600.9
+2025-08-15 11:44:21 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:45:21 INFO: {'NU': {   'close': 13.34,
+    'high': 13.35,
+    'low': 13.335,
+    'open': 13.35,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 3099.0,
+    'vwap': 13.337947}}
+2025-08-15 11:45:21 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:45:21 INFO: Current average volume is: 7751.7
+2025-08-15 11:45:21 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:46:22 INFO: {'NU': {   'close': 13.3,
+    'high': 13.33,
+    'low': 13.3,
+    'open': 13.33,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 4575.0,
+    'vwap': 13.304364}}
+2025-08-15 11:46:22 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:46:22 INFO: Current average volume is: 7893.6
+2025-08-15 11:46:22 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:47:22 INFO: {'NU': {   'close': 13.285,
+    'high': 13.315,
+    'low': 13.285,
+    'open': 13.3,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 13863.0,
+    'vwap': 13.294237}}
+2025-08-15 11:47:22 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:47:22 INFO: Current average volume is: 7679.4
+2025-08-15 11:47:22 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:48:22 INFO: {'NU': {   'close': 13.275,
+    'high': 13.285,
+    'low': 13.27,
+    'open': 13.275,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 26991.0,
+    'vwap': 13.277061}}
+2025-08-15 11:48:22 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:48:22 INFO: Current average volume is: 9842.9
+2025-08-15 11:50:22 INFO: {'NU': {   'close': 13.31,
+    'high': 13.31,
+    'low': 13.275,
+    'open': 13.285,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 6465.0,
+    'vwap': 13.284623}}
+2025-08-15 11:50:22 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:50:22 INFO: Current average volume is: 9755.2
+2025-08-15 11:50:22 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:51:22 INFO: {'NU': {   'close': 13.33,
+    'high': 13.33,
+    'low': 13.305,
+    'open': 13.305,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1059.0,
+    'vwap': 13.311427}}
+2025-08-15 11:51:22 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:51:22 INFO: Current average volume is: 9621.9
+2025-08-15 11:51:22 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:52:22 INFO: {'NU': {   'close': 13.34,
+    'high': 13.34,
+    'low': 13.325,
+    'open': 13.34,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 594.0,
+    'vwap': 13.335789}}
+2025-08-15 11:52:22 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:52:22 INFO: Current average volume is: 9655.3
+2025-08-15 11:52:22 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:54:23 INFO: {'NU': {   'close': 13.365,
+    'high': 13.365,
+    'low': 13.335,
+    'open': 13.335,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 16610.0,
+    'vwap': 13.342319}}
+2025-08-15 11:54:23 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:54:23 INFO: Current average volume is: 8286.1
+2025-08-15 11:54:23 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:55:23 INFO: {'NU': {   'close': 13.335,
+    'high': 13.36,
+    'low': 13.33,
+    'open': 13.36,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 6192.0,
+    'vwap': 13.340185}}
+2025-08-15 11:55:23 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:55:23 INFO: Current average volume is: 8808.0
+2025-08-15 11:55:23 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:56:23 INFO: {'NU': {   'close': 13.28,
+    'high': 13.335,
+    'low': 13.275,
+    'open': 13.335,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 8152.0,
+    'vwap': 13.291936}}
+2025-08-15 11:56:23 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:56:23 INFO: Current average volume is: 8760.0
+2025-08-15 11:56:23 INFO: Updated resistance to: 13.405 and support to: 13.275
+2025-08-15 11:57:23 INFO: {'NU': {   'close': 13.24,
+    'high': 13.27,
+    'low': 13.235,
+    'open': 13.27,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 50.0,
+    'volume': 33953.0,
+    'vwap': 13.262264}}
+2025-08-15 11:57:23 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:57:23 INFO: Current average volume is: 11845.4
+2025-08-15 11:57:23 INFO: close price: 13.24 just dropped below support of 13.275...
+2025-08-15 11:59:23 INFO: {'NU': {   'close': 13.265,
+    'high': 13.265,
+    'low': 13.24,
+    'open': 13.255,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 11257.0,
+    'vwap': 13.248086}}
+2025-08-15 11:59:23 INFO: Current resistance is: 13.405 and support is: 13.275
+2025-08-15 11:59:23 INFO: Current average volume is: 12513.6
+2025-08-15 11:59:23 INFO: Closing price: 13.265 just dropped below support 13.275 again...ending trade...
+2025-08-15 12:10:21 INFO: === Strategy started ===
+2025-08-15 12:10:21 INFO: Start collecting the current highs/lows for: NU
+2025-08-15 12:10:22 INFO: Most recent stock data: {'NU': {   'close': 13.3,
+    'high': 13.315,
+    'low': 13.3,
+    'open': 13.315,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 11047.0,
+    'vwap': 13.30522}}
+2025-08-15 12:11:22 INFO: Most recent stock data: {'NU': {   'close': 13.295,
+    'high': 13.295,
+    'low': 13.285,
+    'open': 13.295,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 6843.0,
+    'vwap': 13.29136}}
+2025-08-15 12:12:22 INFO: Most recent stock data: {'NU': {   'close': 13.31,
+    'high': 13.31,
+    'low': 13.3,
+    'open': 13.305,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 3687.0,
+    'vwap': 13.303202}}
+2025-08-15 12:15:22 INFO: Most recent stock data: {'NU': {   'close': 13.26,
+    'high': 13.27,
+    'low': 13.26,
+    'open': 13.27,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1168.0,
+    'vwap': 13.266818}}
+2025-08-15 12:16:22 INFO: Most recent stock data: {'NU': {   'close': 13.25,
+    'high': 13.26,
+    'low': 13.25,
+    'open': 13.26,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 3624.0,
+    'vwap': 13.250562}}
+2025-08-15 12:17:23 INFO: Most recent stock data: {'NU': {   'close': 13.265,
+    'high': 13.265,
+    'low': 13.24,
+    'open': 13.25,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 6919.0,
+    'vwap': 13.250409}}
+2025-08-15 12:18:23 INFO: Most recent stock data: {'NU': {   'close': 13.29,
+    'high': 13.29,
+    'low': 13.285,
+    'open': 13.29,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 633.0,
+    'vwap': 13.288}}
+2025-08-15 12:19:23 INFO: Most recent stock data: {'NU': {   'close': 13.32,
+    'high': 13.32,
+    'low': 13.29,
+    'open': 13.29,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 8103.0,
+    'vwap': 13.298568}}
+2025-08-15 12:20:24 INFO: Most recent stock data: {'NU': {   'close': 13.27,
+    'high': 13.31,
+    'low': 13.27,
+    'open': 13.31,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 18498.0,
+    'vwap': 13.301007}}
+2025-08-15 12:22:24 INFO: Most recent stock data: {'NU': {   'close': 13.275,
+    'high': 13.275,
+    'low': 13.275,
+    'open': 13.275,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 13.275}}
+2025-08-15 12:23:24 INFO: Most recent stock data: {'NU': {   'close': 13.27,
+    'high': 13.28,
+    'low': 13.27,
+    'open': 13.28,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2196.0,
+    'vwap': 13.272976}}
+2025-08-15 12:23:24 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-15 12:23:24 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-15 12:24:24 INFO: {'NU': {   'close': 13.29,
+    'high': 13.29,
+    'low': 13.26,
+    'open': 13.26,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 13024.0,
+    'vwap': 13.273276}}
+2025-08-15 12:24:24 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:24:24 INFO: Current average volume is: 5815.2
+2025-08-15 12:24:24 INFO: Updated resistance to: 13.32 and support to: 13.24
+2025-08-15 12:26:25 INFO: {'NU': {   'close': 13.3,
+    'high': 13.3,
+    'low': 13.28,
+    'open': 13.295,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 7925.0,
+    'vwap': 13.288327}}
+2025-08-15 12:26:25 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:26:25 INFO: Current average volume is: 6239.0
+2025-08-15 12:26:25 INFO: Updated resistance to: 13.32 and support to: 13.24
+2025-08-15 12:29:25 INFO: {'NU': {   'close': 13.275,
+    'high': 13.29,
+    'low': 13.275,
+    'open': 13.29,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 2397.0,
+    'vwap': 13.282391}}
+2025-08-15 12:29:25 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:29:25 INFO: Current average volume is: 6361.9
+2025-08-15 12:29:25 INFO: Updated resistance to: 13.32 and support to: 13.24
+2025-08-15 12:30:25 INFO: {'NU': {   'close': 13.285,
+    'high': 13.285,
+    'low': 13.27,
+    'open': 13.28,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2178.0,
+    'vwap': 13.27821}}
+2025-08-15 12:30:25 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:30:25 INFO: Current average volume is: 6217.3
+2025-08-15 12:30:25 INFO: Updated resistance to: 13.32 and support to: 13.24
+2025-08-15 12:31:25 INFO: {'NU': {   'close': 13.29,
+    'high': 13.295,
+    'low': 13.29,
+    'open': 13.295,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1749.0,
+    'vwap': 13.292426}}
+2025-08-15 12:31:25 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:31:25 INFO: Current average volume is: 5700.3
+2025-08-15 12:31:25 INFO: Updated resistance to: 13.32 and support to: 13.24
+2025-08-15 12:32:25 INFO: {'NU': {   'close': 13.285,
+    'high': 13.29,
+    'low': 13.285,
+    'open': 13.29,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 2100.0,
+    'vwap': 13.287381}}
+2025-08-15 12:32:25 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:32:25 INFO: Current average volume is: 5847.0
+2025-08-15 12:32:25 INFO: Updated resistance to: 13.32 and support to: 13.24
+2025-08-15 12:34:26 INFO: {'NU': {   'close': 13.27,
+    'high': 13.27,
+    'low': 13.255,
+    'open': 13.27,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 9900.0,
+    'vwap': 13.264258}}
+2025-08-15 12:34:26 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:34:26 INFO: Current average volume is: 6026.7
+2025-08-15 12:34:26 INFO: Updated resistance to: 13.32 and support to: 13.24
+2025-08-15 12:36:26 INFO: {'NU': {   'close': 13.24,
+    'high': 13.265,
+    'low': 13.235,
+    'open': 13.265,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 8948.0,
+    'vwap': 13.247061}}
+2025-08-15 12:36:26 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:36:26 INFO: Current average volume is: 5071.7
+2025-08-15 12:37:26 INFO: {'NU': {   'close': 13.25,
+    'high': 13.25,
+    'low': 13.24,
+    'open': 13.24,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 6949.0,
+    'vwap': 13.24291}}
+2025-08-15 12:37:26 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:37:26 INFO: Current average volume is: 5736.6
+2025-08-15 12:37:26 INFO: Updated resistance to: 13.32 and support to: 13.24
+2025-08-15 12:43:27 INFO: {'NU': {   'close': 13.17,
+    'high': 13.18,
+    'low': 13.17,
+    'open': 13.18,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 7821.0,
+    'vwap': 13.174374}}
+2025-08-15 12:43:27 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:43:27 INFO: Current average volume is: 6299.1
+2025-08-15 12:43:27 INFO: close price: 13.17 just dropped below support of 13.24...
+2025-08-15 12:49:27 INFO: {'NU': {   'close': 13.195,
+    'high': 13.205,
+    'low': 13.185,
+    'open': 13.19,
+    'symbol': 'NU',
+    'timestamp': datetime.datetime(2025, 8, 15, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 26934.0,
+    'vwap': 13.195707}}
+2025-08-15 12:49:27 INFO: Current resistance is: 13.32 and support is: 13.24
+2025-08-15 12:49:27 INFO: Current average volume is: 7690.1
+2025-08-15 12:49:27 INFO: Closing price: 13.195 just dropped below support 13.24 again...ending trade...

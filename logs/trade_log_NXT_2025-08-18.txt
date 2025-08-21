@@ -1,0 +1,903 @@
+2025-08-18 10:45:47 INFO: === Strategy started ===
+2025-08-18 10:45:47 INFO: Start collecting the current highs/lows for: NXT
+2025-08-18 10:45:47 INFO: Most recent stock data: {'NXT': {   'close': 66.145,
+    'high': 66.3,
+    'low': 66.145,
+    'open': 66.3,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1200.0,
+    'vwap': 66.1875}}
+2025-08-18 10:46:47 INFO: Most recent stock data: {'NXT': {   'close': 66.09,
+    'high': 66.09,
+    'low': 66.09,
+    'open': 66.09,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 310.0,
+    'vwap': 66.09}}
+2025-08-18 10:47:47 INFO: Most recent stock data: {'NXT': {   'close': 65.6,
+    'high': 65.77,
+    'low': 65.6,
+    'open': 65.77,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 326.0,
+    'vwap': 65.685}}
+2025-08-18 10:48:47 INFO: Most recent stock data: {'NXT': {   'close': 65.72,
+    'high': 65.72,
+    'low': 65.565,
+    'open': 65.57,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1275.0,
+    'vwap': 65.608421}}
+2025-08-18 10:49:48 INFO: Most recent stock data: {'NXT': {   'close': 65.77,
+    'high': 65.77,
+    'low': 65.77,
+    'open': 65.77,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 369.0,
+    'vwap': 65.77}}
+2025-08-18 10:50:48 INFO: Most recent stock data: {'NXT': {   'close': 65.92,
+    'high': 65.94,
+    'low': 65.92,
+    'open': 65.94,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 708.0,
+    'vwap': 65.924808}}
+2025-08-18 10:51:48 INFO: Most recent stock data: {'NXT': {   'close': 65.9,
+    'high': 65.915,
+    'low': 65.9,
+    'open': 65.915,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 378.0,
+    'vwap': 65.91}}
+2025-08-18 10:52:48 INFO: Most recent stock data: {'NXT': {   'close': 65.69,
+    'high': 65.69,
+    'low': 65.69,
+    'open': 65.69,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 418.0,
+    'vwap': 65.69}}
+2025-08-18 10:54:48 INFO: Most recent stock data: {'NXT': {   'close': 65.61,
+    'high': 65.63,
+    'low': 65.61,
+    'open': 65.63,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 657.0,
+    'vwap': 65.623333}}
+2025-08-18 10:55:48 INFO: Most recent stock data: {'NXT': {   'close': 65.63,
+    'high': 65.655,
+    'low': 65.56,
+    'open': 65.56,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1100.0,
+    'vwap': 65.630833}}
+2025-08-18 10:56:48 INFO: Most recent stock data: {'NXT': {   'close': 65.64,
+    'high': 65.64,
+    'low': 65.64,
+    'open': 65.64,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 330.0,
+    'vwap': 65.64}}
+2025-08-18 10:56:48 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-18 10:56:48 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-18 10:57:49 INFO: {'NXT': {   'close': 65.71,
+    'high': 65.735,
+    'low': 65.66,
+    'open': 65.66,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 660.0,
+    'vwap': 65.71}}
+2025-08-18 10:57:49 INFO: Current resistance is: 65.762 and support is: 65.483
+2025-08-18 10:57:49 INFO: Current average volume is: 622.1
+2025-08-18 10:57:49 INFO: Updated resistance to: 65.806 and support to: 65.458
+2025-08-18 10:58:49 INFO: {'NXT': {   'close': 65.705,
+    'high': 65.705,
+    'low': 65.675,
+    'open': 65.675,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 65.695833}}
+2025-08-18 10:58:49 INFO: Current resistance is: 65.806 and support is: 65.458
+2025-08-18 10:58:49 INFO: Current average volume is: 659.5
+2025-08-18 10:58:49 INFO: Updated resistance to: 65.829 and support to: 65.442
+2025-08-18 10:59:49 INFO: {'NXT': {   'close': 65.46,
+    'high': 65.5,
+    'low': 65.46,
+    'open': 65.5,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 230.0,
+    'vwap': 65.48}}
+2025-08-18 10:59:49 INFO: Current resistance is: 65.829 and support is: 65.442
+2025-08-18 10:59:49 INFO: Current average volume is: 555.0
+2025-08-18 10:59:49 INFO: Updated resistance to: 65.77 and support to: 65.428
+2025-08-18 11:00:49 INFO: {'NXT': {   'close': 65.55,
+    'high': 65.56,
+    'low': 65.305,
+    'open': 65.36,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 14, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 917.0,
+    'vwap': 65.452273}}
+2025-08-18 11:00:49 INFO: Current resistance is: 65.77 and support is: 65.428
+2025-08-18 11:00:49 INFO: Current average volume is: 609.8
+2025-08-18 11:00:49 INFO: Updated resistance to: 65.752 and support to: 65.268
+2025-08-18 11:01:49 INFO: {'NXT': {   'close': 65.8,
+    'high': 65.8,
+    'low': 65.645,
+    'open': 65.645,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 65.710833}}
+2025-08-18 11:01:49 INFO: Current resistance is: 65.752 and support is: 65.268
+2025-08-18 11:01:49 INFO: Current average volume is: 599.0
+2025-08-18 11:01:49 INFO: The Current Close 65.8 is above the resistance...
+2025-08-18 11:01:49 INFO: Updated resistance to: 65.828 and support to: 65.242
+2025-08-18 11:02:19 INFO: {'NXT': {   'close': 65.91,
+    'high': 65.91,
+    'low': 65.91,
+    'open': 65.91,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 356.0,
+    'vwap': 65.91}}
+2025-08-18 11:02:19 INFO: Current resistance is: 65.828 and support is: 65.242
+2025-08-18 11:02:19 INFO: Current average volume is: 596.8
+2025-08-18 11:02:19 INFO: The current close: 65.91 is above the resistance of 65.828, but volume isn't enough...
+2025-08-18 11:02:19 INFO: Updated resistance to: 65.926 and support to: 65.238
+2025-08-18 11:04:20 INFO: {'NXT': {   'close': 66.025,
+    'high': 66.025,
+    'low': 66.02,
+    'open': 66.02,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 303.0,
+    'vwap': 66.0225}}
+2025-08-18 11:04:20 INFO: Current resistance is: 65.926 and support is: 65.238
+2025-08-18 11:04:20 INFO: Current average volume is: 585.3
+2025-08-18 11:04:20 INFO: The current close: 66.025 is above the resistance of 65.926, but volume isn't enough...
+2025-08-18 11:04:20 INFO: Updated resistance to: 66.043 and support to: 65.251
+2025-08-18 11:05:20 INFO: {'NXT': {   'close': 65.985,
+    'high': 65.985,
+    'low': 65.985,
+    'open': 65.985,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 283.0,
+    'vwap': 65.985}}
+2025-08-18 11:05:20 INFO: Current resistance is: 66.043 and support is: 65.251
+2025-08-18 11:05:20 INFO: Current average volume is: 547.9
+2025-08-18 11:05:20 INFO: Updated resistance to: 66.126 and support to: 65.268
+2025-08-18 11:07:20 INFO: {'NXT': {   'close': 66.12,
+    'high': 66.12,
+    'low': 66.12,
+    'open': 66.12,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 701.0,
+    'vwap': 66.12}}
+2025-08-18 11:07:20 INFO: Current resistance is: 66.126 and support is: 65.268
+2025-08-18 11:07:20 INFO: Current average volume is: 508.0
+2025-08-18 11:07:20 INFO: Updated resistance to: 66.232 and support to: 65.299
+2025-08-18 11:08:20 INFO: {'NXT': {   'close': 65.845,
+    'high': 66.04,
+    'low': 65.845,
+    'open': 66.04,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 901.0,
+    'vwap': 65.990952}}
+2025-08-18 11:08:20 INFO: Current resistance is: 66.232 and support is: 65.299
+2025-08-18 11:08:20 INFO: Current average volume is: 565.1
+2025-08-18 11:08:20 INFO: Updated resistance to: 66.297 and support to: 65.306
+2025-08-18 11:10:20 INFO: {'NXT': {   'close': 65.92,
+    'high': 65.92,
+    'low': 65.92,
+    'open': 65.92,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 65.92}}
+2025-08-18 11:10:20 INFO: Current resistance is: 66.297 and support is: 65.306
+2025-08-18 11:10:20 INFO: Current average volume is: 519.1
+2025-08-18 11:10:20 INFO: Updated resistance to: 66.32 and support to: 65.321
+2025-08-18 11:12:21 INFO: {'NXT': {   'close': 65.75,
+    'high': 65.9,
+    'low': 65.75,
+    'open': 65.9,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 551.0,
+    'vwap': 65.803333}}
+2025-08-18 11:12:21 INFO: Current resistance is: 66.32 and support is: 65.321
+2025-08-18 11:12:21 INFO: Current average volume is: 504.2
+2025-08-18 11:12:21 INFO: Updated resistance to: 66.334 and support to: 65.318
+2025-08-18 11:14:21 INFO: {'NXT': {   'close': 65.85,
+    'high': 65.85,
+    'low': 65.795,
+    'open': 65.795,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 311.0,
+    'vwap': 65.813333}}
+2025-08-18 11:14:21 INFO: Current resistance is: 66.334 and support is: 65.318
+2025-08-18 11:14:21 INFO: Current average volume is: 512.3
+2025-08-18 11:14:21 INFO: Updated resistance to: 66.334 and support to: 65.32
+2025-08-18 11:15:21 INFO: {'NXT': {   'close': 65.88,
+    'high': 65.88,
+    'low': 65.88,
+    'open': 65.88,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 500.0,
+    'vwap': 65.88}}
+2025-08-18 11:15:21 INFO: Current resistance is: 66.334 and support is: 65.32
+2025-08-18 11:15:21 INFO: Current average volume is: 470.6
+2025-08-18 11:15:21 INFO: Updated resistance to: 66.34 and support to: 65.331
+2025-08-18 11:16:21 INFO: {'NXT': {   'close': 65.96,
+    'high': 65.96,
+    'low': 65.96,
+    'open': 65.96,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 115.0,
+    'vwap': 65.96}}
+2025-08-18 11:16:21 INFO: Current resistance is: 66.34 and support is: 65.331
+2025-08-18 11:16:21 INFO: Current average volume is: 422.1
+2025-08-18 11:16:21 INFO: Updated resistance to: 66.363 and support to: 65.348
+2025-08-18 11:17:21 INFO: {'NXT': {   'close': 66.06,
+    'high': 66.06,
+    'low': 65.975,
+    'open': 65.975,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 486.0,
+    'vwap': 66.025}}
+2025-08-18 11:17:21 INFO: Current resistance is: 66.363 and support is: 65.348
+2025-08-18 11:17:21 INFO: Current average volume is: 435.1
+2025-08-18 11:17:21 INFO: Updated resistance to: 66.405 and support to: 65.367
+2025-08-18 11:19:22 INFO: {'NXT': {   'close': 65.89,
+    'high': 65.89,
+    'low': 65.89,
+    'open': 65.89,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 65.89}}
+2025-08-18 11:19:22 INFO: Current resistance is: 66.405 and support is: 65.367
+2025-08-18 11:19:22 INFO: Current average volume is: 424.8
+2025-08-18 11:19:22 INFO: Updated resistance to: 66.405 and support to: 65.374
+2025-08-18 11:21:22 INFO: {'NXT': {   'close': 65.8,
+    'high': 65.865,
+    'low': 65.8,
+    'open': 65.86,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 934.0,
+    'vwap': 65.841667}}
+2025-08-18 11:21:22 INFO: Current resistance is: 66.405 and support is: 65.374
+2025-08-18 11:21:22 INFO: Current average volume is: 489.9
+2025-08-18 11:21:22 INFO: Updated resistance to: 66.399 and support to: 65.372
+2025-08-18 11:24:22 INFO: {'NXT': {   'close': 65.96,
+    'high': 65.97,
+    'low': 65.96,
+    'open': 65.97,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 697.0,
+    'vwap': 65.9675}}
+2025-08-18 11:24:22 INFO: Current resistance is: 66.399 and support is: 65.372
+2025-08-18 11:24:22 INFO: Current average volume is: 489.5
+2025-08-18 11:24:22 INFO: Updated resistance to: 66.415 and support to: 65.387
+2025-08-18 11:25:22 INFO: {'NXT': {   'close': 66.08,
+    'high': 66.08,
+    'low': 65.99,
+    'open': 65.99,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 1150.0,
+    'vwap': 66.049006}}
+2025-08-18 11:25:22 INFO: Current resistance is: 66.415 and support is: 65.387
+2025-08-18 11:25:22 INFO: Current average volume is: 514.4
+2025-08-18 11:25:22 INFO: Updated resistance to: 66.449 and support to: 65.403
+2025-08-18 11:29:23 INFO: {'NXT': {   'close': 66.125,
+    'high': 66.125,
+    'low': 66.125,
+    'open': 66.125,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 132.0,
+    'vwap': 66.125}}
+2025-08-18 11:29:23 INFO: Current resistance is: 66.449 and support is: 65.403
+2025-08-18 11:29:23 INFO: Current average volume is: 507.6
+2025-08-18 11:29:23 INFO: Updated resistance to: 66.487 and support to: 65.432
+2025-08-18 11:30:23 INFO: {'NXT': {   'close': 66.085,
+    'high': 66.085,
+    'low': 66.085,
+    'open': 66.085,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 111.0,
+    'vwap': 66.085}}
+2025-08-18 11:30:23 INFO: Current resistance is: 66.487 and support is: 65.432
+2025-08-18 11:30:23 INFO: Current average volume is: 463.6
+2025-08-18 11:30:23 INFO: Updated resistance to: 66.513 and support to: 65.454
+2025-08-18 11:31:23 INFO: {'NXT': {   'close': 66.105,
+    'high': 66.11,
+    'low': 66.105,
+    'open': 66.105,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 995.0,
+    'vwap': 66.105833}}
+2025-08-18 11:31:23 INFO: Current resistance is: 66.513 and support is: 65.454
+2025-08-18 11:31:23 INFO: Current average volume is: 532.0
+2025-08-18 11:31:23 INFO: Updated resistance to: 66.539 and support to: 65.477
+2025-08-18 11:32:23 INFO: {'NXT': {   'close': 66.01,
+    'high': 66.01,
+    'low': 65.935,
+    'open': 65.94,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 937.0,
+    'vwap': 65.964545}}
+2025-08-18 11:32:23 INFO: Current resistance is: 66.539 and support is: 65.477
+2025-08-18 11:32:23 INFO: Current average volume is: 575.7
+2025-08-18 11:32:23 INFO: Updated resistance to: 66.546 and support to: 65.481
+2025-08-18 11:35:24 INFO: {'NXT': {   'close': 66.02,
+    'high': 66.08,
+    'low': 65.975,
+    'open': 65.975,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1091.0,
+    'vwap': 66.004678}}
+2025-08-18 11:35:24 INFO: Current resistance is: 66.546 and support is: 65.481
+2025-08-18 11:35:24 INFO: Current average volume is: 673.3
+2025-08-18 11:35:24 INFO: Updated resistance to: 66.563 and support to: 65.488
+2025-08-18 11:37:24 INFO: {'NXT': {   'close': 65.96,
+    'high': 65.96,
+    'low': 65.96,
+    'open': 65.96,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 251.0,
+    'vwap': 65.96}}
+2025-08-18 11:37:24 INFO: Current resistance is: 66.563 and support is: 65.488
+2025-08-18 11:37:24 INFO: Current average volume is: 649.8
+2025-08-18 11:37:24 INFO: Updated resistance to: 66.559 and support to: 65.493
+2025-08-18 11:39:24 INFO: {'NXT': {   'close': 66.225,
+    'high': 66.23,
+    'low': 66.205,
+    'open': 66.205,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 976.0,
+    'vwap': 66.218333}}
+2025-08-18 11:39:24 INFO: Current resistance is: 66.559 and support is: 65.493
+2025-08-18 11:39:24 INFO: Current average volume is: 727.4
+2025-08-18 11:39:24 INFO: Updated resistance to: 66.597 and support to: 65.521
+2025-08-18 11:40:24 INFO: {'NXT': {   'close': 66.17,
+    'high': 66.225,
+    'low': 66.17,
+    'open': 66.225,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 425.0,
+    'vwap': 66.184946}}
+2025-08-18 11:40:24 INFO: Current resistance is: 66.597 and support is: 65.521
+2025-08-18 11:40:24 INFO: Current average volume is: 676.5
+2025-08-18 11:40:24 INFO: Updated resistance to: 66.629 and support to: 65.544
+2025-08-18 11:41:24 INFO: {'NXT': {   'close': 66.31,
+    'high': 66.31,
+    'low': 66.2,
+    'open': 66.2,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 66.256667}}
+2025-08-18 11:41:24 INFO: Current resistance is: 66.629 and support is: 65.544
+2025-08-18 11:41:24 INFO: Current average volume is: 636.8
+2025-08-18 11:41:24 INFO: Updated resistance to: 66.319 and support to: 65.567
+2025-08-18 11:42:24 INFO: {'NXT': {   'close': 66.285,
+    'high': 66.285,
+    'low': 66.285,
+    'open': 66.285,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 66.285}}
+2025-08-18 11:42:24 INFO: Current resistance is: 66.319 and support is: 65.567
+2025-08-18 11:42:24 INFO: Current average volume is: 541.8
+2025-08-18 11:42:24 INFO: Updated resistance to: 66.33 and support to: 65.597
+2025-08-18 11:43:25 INFO: {'NXT': {   'close': 66.37,
+    'high': 66.37,
+    'low': 66.34,
+    'open': 66.34,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 457.0,
+    'vwap': 66.351132}}
+2025-08-18 11:43:25 INFO: Current resistance is: 66.33 and support is: 65.597
+2025-08-18 11:43:25 INFO: Current average volume is: 574.3
+2025-08-18 11:43:25 INFO: The Current Close 66.37 is above the resistance...
+2025-08-18 11:43:25 INFO: Updated resistance to: 66.381 and support to: 65.629
+2025-08-18 11:45:25 INFO: {'NXT': {   'close': 66.36,
+    'high': 66.36,
+    'low': 66.36,
+    'open': 66.36,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 124.0,
+    'vwap': 66.36}}
+2025-08-18 11:45:25 INFO: Current resistance is: 66.381 and support is: 65.629
+2025-08-18 11:45:25 INFO: Current average volume is: 575.6
+2025-08-18 11:45:25 INFO: Updated resistance to: 66.392 and support to: 65.661
+2025-08-18 11:46:25 INFO: {'NXT': {   'close': 66.35,
+    'high': 66.355,
+    'low': 66.35,
+    'open': 66.355,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 602.0,
+    'vwap': 66.352}}
+2025-08-18 11:46:25 INFO: Current resistance is: 66.392 and support is: 65.661
+2025-08-18 11:46:25 INFO: Current average volume is: 536.3
+2025-08-18 11:46:25 INFO: Updated resistance to: 66.405 and support to: 65.69
+2025-08-18 11:47:25 INFO: {'NXT': {   'close': 66.42,
+    'high': 66.42,
+    'low': 66.39,
+    'open': 66.4,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 527.0,
+    'vwap': 66.404376}}
+2025-08-18 11:47:25 INFO: Current resistance is: 66.405 and support is: 65.69
+2025-08-18 11:47:25 INFO: Current average volume is: 495.3
+2025-08-18 11:47:25 INFO: The Current Close 66.42 is above the resistance...
+2025-08-18 11:47:25 INFO: Updated resistance to: 66.432 and support to: 65.719
+2025-08-18 11:48:25 INFO: {'NXT': {   'close': 66.425,
+    'high': 66.46,
+    'low': 66.41,
+    'open': 66.43,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 1514.0,
+    'vwap': 66.432482}}
+2025-08-18 11:48:25 INFO: Current resistance is: 66.432 and support is: 65.719
+2025-08-18 11:48:25 INFO: Current average volume is: 537.6
+2025-08-18 11:48:25 INFO: Updated resistance to: 66.473 and support to: 65.749
+2025-08-18 11:49:26 INFO: {'NXT': {   'close': 66.39,
+    'high': 66.39,
+    'low': 66.39,
+    'open': 66.39,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 470.0,
+    'vwap': 66.39}}
+2025-08-18 11:49:26 INFO: Current resistance is: 66.473 and support is: 65.749
+2025-08-18 11:49:26 INFO: Current average volume is: 559.5
+2025-08-18 11:49:26 INFO: Updated resistance to: 66.486 and support to: 65.774
+2025-08-18 11:50:26 INFO: {'NXT': {   'close': 66.37,
+    'high': 66.38,
+    'low': 66.37,
+    'open': 66.38,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 549.0,
+    'vwap': 66.376667}}
+2025-08-18 11:50:26 INFO: Current resistance is: 66.486 and support is: 65.774
+2025-08-18 11:50:26 INFO: Current average volume is: 516.8
+2025-08-18 11:50:26 INFO: Updated resistance to: 66.5 and support to: 65.796
+2025-08-18 11:53:26 INFO: {'NXT': {   'close': 66.415,
+    'high': 66.43,
+    'low': 66.415,
+    'open': 66.43,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 508.0,
+    'vwap': 66.42}}
+2025-08-18 11:53:26 INFO: Current resistance is: 66.5 and support is: 65.796
+2025-08-18 11:53:26 INFO: Current average volume is: 525.1
+2025-08-18 11:53:26 INFO: Updated resistance to: 66.514 and support to: 65.82
+2025-08-18 11:55:26 INFO: {'NXT': {   'close': 66.37,
+    'high': 66.395,
+    'low': 66.37,
+    'open': 66.395,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 543.0,
+    'vwap': 66.379642}}
+2025-08-18 11:55:26 INFO: Current resistance is: 66.514 and support is: 65.82
+2025-08-18 11:55:26 INFO: Current average volume is: 549.4
+2025-08-18 11:55:26 INFO: Updated resistance to: 66.528 and support to: 65.838
+2025-08-18 11:56:26 INFO: {'NXT': {   'close': 66.32,
+    'high': 66.32,
+    'low': 66.32,
+    'open': 66.32,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 66.32}}
+2025-08-18 11:56:26 INFO: Current resistance is: 66.528 and support is: 65.838
+2025-08-18 11:56:26 INFO: Current average volume is: 539.4
+2025-08-18 11:56:26 INFO: Updated resistance to: 66.541 and support to: 65.85
+2025-08-18 11:58:27 INFO: {'NXT': {   'close': 66.33,
+    'high': 66.34,
+    'low': 66.33,
+    'open': 66.34,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 501.0,
+    'vwap': 66.336667}}
+2025-08-18 11:58:27 INFO: Current resistance is: 66.541 and support is: 65.85
+2025-08-18 11:58:27 INFO: Current average volume is: 543.8
+2025-08-18 11:58:27 INFO: Updated resistance to: 66.554 and support to: 65.863
+2025-08-18 12:00:27 INFO: {'NXT': {   'close': 66.41,
+    'high': 66.435,
+    'low': 66.4,
+    'open': 66.4,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 405.0,
+    'vwap': 66.415}}
+2025-08-18 12:00:27 INFO: Current resistance is: 66.554 and support is: 65.863
+2025-08-18 12:00:27 INFO: Current average volume is: 571.9
+2025-08-18 12:00:27 INFO: Updated resistance to: 66.569 and support to: 65.88
+2025-08-18 12:01:27 INFO: {'NXT': {   'close': 66.34,
+    'high': 66.36,
+    'low': 66.34,
+    'open': 66.36,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 66.35}}
+2025-08-18 12:01:27 INFO: Current resistance is: 66.569 and support is: 65.88
+2025-08-18 12:01:27 INFO: Current average volume is: 531.7
+2025-08-18 12:01:27 INFO: Updated resistance to: 66.581 and support to: 65.89
+2025-08-18 12:02:27 INFO: {'NXT': {   'close': 66.45,
+    'high': 66.45,
+    'low': 66.4,
+    'open': 66.4,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 237.0,
+    'vwap': 66.425}}
+2025-08-18 12:02:27 INFO: Current resistance is: 66.581 and support is: 65.89
+2025-08-18 12:02:27 INFO: Current average volume is: 502.7
+2025-08-18 12:02:27 INFO: Updated resistance to: 66.596 and support to: 65.905
+2025-08-18 12:04:27 INFO: {'NXT': {   'close': 66.47,
+    'high': 66.47,
+    'low': 66.47,
+    'open': 66.47,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 118.0,
+    'vwap': 66.47}}
+2025-08-18 12:04:27 INFO: Current resistance is: 66.596 and support is: 65.905
+2025-08-18 12:04:27 INFO: Current average volume is: 363.1
+2025-08-18 12:04:27 INFO: Updated resistance to: 66.484 and support to: 65.924
+2025-08-18 12:05:28 INFO: {'NXT': {   'close': 66.42,
+    'high': 66.42,
+    'low': 66.42,
+    'open': 66.42,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 202.0,
+    'vwap': 66.42}}
+2025-08-18 12:05:28 INFO: Current resistance is: 66.484 and support is: 65.924
+2025-08-18 12:05:28 INFO: Current average volume is: 336.3
+2025-08-18 12:05:28 INFO: Updated resistance to: 66.497 and support to: 65.938
+2025-08-18 12:06:28 INFO: {'NXT': {   'close': 66.4,
+    'high': 66.4,
+    'low': 66.315,
+    'open': 66.315,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 533.0,
+    'vwap': 66.34875}}
+2025-08-18 12:06:28 INFO: Current resistance is: 66.497 and support is: 65.938
+2025-08-18 12:06:28 INFO: Current average volume is: 334.7
+2025-08-18 12:06:28 INFO: Updated resistance to: 66.51 and support to: 65.942
+2025-08-18 12:09:28 INFO: {'NXT': {   'close': 66.45,
+    'high': 66.45,
+    'low': 66.41,
+    'open': 66.41,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 244.0,
+    'vwap': 66.43}}
+2025-08-18 12:09:28 INFO: Current resistance is: 66.51 and support is: 65.942
+2025-08-18 12:09:28 INFO: Current average volume is: 308.3
+2025-08-18 12:09:28 INFO: Updated resistance to: 66.524 and support to: 65.953
+2025-08-18 12:10:28 INFO: {'NXT': {   'close': 66.5,
+    'high': 66.5,
+    'low': 66.5,
+    'open': 66.5,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 153.0,
+    'vwap': 66.5}}
+2025-08-18 12:10:28 INFO: Current resistance is: 66.524 and support is: 65.953
+2025-08-18 12:10:28 INFO: Current average volume is: 269.3
+2025-08-18 12:10:28 INFO: Updated resistance to: 66.513 and support to: 65.971
+2025-08-18 12:12:28 INFO: {'NXT': {   'close': 66.53,
+    'high': 66.535,
+    'low': 66.53,
+    'open': 66.535,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 66.533333}}
+2025-08-18 12:12:28 INFO: Current resistance is: 66.513 and support is: 65.971
+2025-08-18 12:12:28 INFO: Current average volume is: 289.3
+2025-08-18 12:12:28 INFO: The Current Close 66.53 is above the resistance...
+2025-08-18 12:12:28 INFO: Updated resistance to: 66.549 and support to: 65.989
+2025-08-18 12:13:29 INFO: {'NXT': {   'close': 66.55,
+    'high': 66.59,
+    'low': 66.55,
+    'open': 66.59,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 705.0,
+    'vwap': 66.577961}}
+2025-08-18 12:13:29 INFO: Current resistance is: 66.549 and support is: 65.989
+2025-08-18 12:13:29 INFO: Current average volume is: 309.7
+2025-08-18 12:13:29 INFO: The current close: 66.55 is above the resistance of 66.549, but volume isn't enough...
+2025-08-18 12:13:29 INFO: Updated resistance to: 66.604 and support to: 66.007
+2025-08-18 12:16:29 INFO: {'NXT': {   'close': 66.46,
+    'high': 66.46,
+    'low': 66.39,
+    'open': 66.39,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 342.0,
+    'vwap': 66.413333}}
+2025-08-18 12:16:29 INFO: Current resistance is: 66.604 and support is: 66.007
+2025-08-18 12:16:29 INFO: Current average volume is: 303.4
+2025-08-18 12:16:29 INFO: Updated resistance to: 66.617 and support to: 66.012
+2025-08-18 12:18:30 INFO: {'NXT': {   'close': 66.1,
+    'high': 66.1,
+    'low': 66.1,
+    'open': 66.1,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 290.0,
+    'vwap': 66.1}}
+2025-08-18 12:18:30 INFO: Current resistance is: 66.617 and support is: 66.012
+2025-08-18 12:18:30 INFO: Current average volume is: 312.4
+2025-08-18 12:18:30 INFO: Updated resistance to: 66.629 and support to: 65.996
+2025-08-18 12:19:30 INFO: {'NXT': {   'close': 66.09,
+    'high': 66.09,
+    'low': 66.09,
+    'open': 66.09,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 154.0,
+    'vwap': 66.09}}
+2025-08-18 12:19:30 INFO: Current resistance is: 66.629 and support is: 65.996
+2025-08-18 12:19:30 INFO: Current average volume is: 304.1
+2025-08-18 12:19:30 INFO: Updated resistance to: 66.639 and support to: 65.98
+2025-08-18 12:20:30 INFO: {'NXT': {   'close': 65.91,
+    'high': 66.065,
+    'low': 65.91,
+    'open': 66.065,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 1285.0,
+    'vwap': 65.975833}}
+2025-08-18 12:20:30 INFO: Current resistance is: 66.639 and support is: 65.98
+2025-08-18 12:20:30 INFO: Current average volume is: 420.8
+2025-08-18 12:20:30 INFO: close price: 65.91 just dropped below support of 65.98...
+2025-08-18 12:21:30 INFO: {'NXT': {   'close': 66.05,
+    'high': 66.05,
+    'low': 66.045,
+    'open': 66.045,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 230.0,
+    'vwap': 66.0475}}
+2025-08-18 12:21:30 INFO: Current resistance is: 66.639 and support is: 65.98
+2025-08-18 12:21:30 INFO: Current average volume is: 423.6
+2025-08-18 12:21:30 INFO: Updated resistance to: 66.657 and support to: 65.934
+2025-08-18 12:21:30 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-18 12:22:30 INFO: {'NXT': {   'close': 66.03,
+    'high': 66.03,
+    'low': 66.03,
+    'open': 66.03,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 217.0,
+    'vwap': 66.03}}
+2025-08-18 12:22:30 INFO: Current resistance is: 66.657 and support is: 65.934
+2025-08-18 12:22:30 INFO: Current average volume is: 392.0
+2025-08-18 12:22:30 INFO: Updated resistance to: 66.664 and support to: 65.916
+2025-08-18 12:25:30 INFO: {'NXT': {   'close': 66.17,
+    'high': 66.17,
+    'low': 66.17,
+    'open': 66.17,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 66.17}}
+2025-08-18 12:25:30 INFO: Current resistance is: 66.664 and support is: 65.916
+2025-08-18 12:25:30 INFO: Current average volume is: 377.6
+2025-08-18 12:25:30 INFO: Updated resistance to: 66.672 and support to: 65.908
+2025-08-18 12:27:31 INFO: {'NXT': {   'close': 66.1,
+    'high': 66.26,
+    'low': 66.1,
+    'open': 66.26,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 468.0,
+    'vwap': 66.155}}
+2025-08-18 12:27:31 INFO: Current resistance is: 66.672 and support is: 65.908
+2025-08-18 12:27:31 INFO: Current average volume is: 409.1
+2025-08-18 12:27:31 INFO: Updated resistance to: 66.68 and support to: 65.896
+2025-08-18 12:29:31 INFO: {'NXT': {   'close': 66.09,
+    'high': 66.09,
+    'low': 66.09,
+    'open': 66.09,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 192.0,
+    'vwap': 66.09}}
+2025-08-18 12:29:31 INFO: Current resistance is: 66.68 and support is: 65.896
+2025-08-18 12:29:31 INFO: Current average volume is: 398.3
+2025-08-18 12:29:31 INFO: Updated resistance to: 66.685 and support to: 65.883
+2025-08-18 12:30:31 INFO: {'NXT': {   'close': 65.995,
+    'high': 66.0,
+    'low': 65.995,
+    'open': 65.995,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 521.0,
+    'vwap': 65.996667}}
+2025-08-18 12:30:31 INFO: Current resistance is: 66.685 and support is: 65.883
+2025-08-18 12:30:31 INFO: Current average volume is: 379.9
+2025-08-18 12:30:31 INFO: Updated resistance to: 66.689 and support to: 65.865
+2025-08-18 12:31:31 INFO: {'NXT': {   'close': 66.05,
+    'high': 66.05,
+    'low': 66.01,
+    'open': 66.01,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 402.0,
+    'vwap': 66.025}}
+2025-08-18 12:31:31 INFO: Current resistance is: 66.689 and support is: 65.865
+2025-08-18 12:31:31 INFO: Current average volume is: 385.9
+2025-08-18 12:31:31 INFO: Updated resistance to: 66.693 and support to: 65.848
+2025-08-18 12:33:31 INFO: {'NXT': {   'close': 65.87,
+    'high': 65.87,
+    'low': 65.78,
+    'open': 65.85,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2247.0,
+    'vwap': 65.814805}}
+2025-08-18 12:33:31 INFO: Current resistance is: 66.693 and support is: 65.848
+2025-08-18 12:33:31 INFO: Current average volume is: 581.6
+2025-08-18 12:33:31 INFO: Updated resistance to: 66.694 and support to: 65.817
+2025-08-18 12:34:31 INFO: {'NXT': {   'close': 65.88,
+    'high': 65.88,
+    'low': 65.86,
+    'open': 65.86,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 550.0,
+    'vwap': 65.868}}
+2025-08-18 12:34:31 INFO: Current resistance is: 66.694 and support is: 65.817
+2025-08-18 12:34:31 INFO: Current average volume is: 621.2
+2025-08-18 12:34:31 INFO: Updated resistance to: 66.694 and support to: 65.792
+2025-08-18 12:35:32 INFO: {'NXT': {   'close': 65.78,
+    'high': 65.85,
+    'low': 65.78,
+    'open': 65.83,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 701.0,
+    'vwap': 65.828333}}
+2025-08-18 12:35:32 INFO: Current resistance is: 66.694 and support is: 65.792
+2025-08-18 12:35:32 INFO: Current average volume is: 562.8
+2025-08-18 12:35:32 INFO: close price: 65.78 just dropped below support of 65.792...
+2025-08-18 12:36:32 INFO: {'NXT': {   'close': 65.74,
+    'high': 65.765,
+    'low': 65.74,
+    'open': 65.755,
+    'symbol': 'NXT',
+    'timestamp': datetime.datetime(2025, 8, 18, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1516.0,
+    'vwap': 65.747083}}
+2025-08-18 12:36:32 INFO: Current resistance is: 66.694 and support is: 65.792
+2025-08-18 12:36:32 INFO: Current average volume is: 691.4
+2025-08-18 12:36:32 INFO: Closing price: 65.74 just dropped below support 65.792 again...ending trade...

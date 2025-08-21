@@ -1,0 +1,1282 @@
+2025-08-20 10:25:10 INFO: === Strategy started ===
+2025-08-20 10:25:10 INFO: Start collecting the current highs/lows for: QQQI
+2025-08-20 10:25:10 INFO: Most recent stock data: {'QQQI': {   'close': 51.96,
+    'high': 51.96,
+    'low': 51.96,
+    'open': 51.96,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 301.0,
+    'vwap': 51.96}}
+2025-08-20 10:27:11 INFO: Most recent stock data: {'QQQI': {   'close': 51.94,
+    'high': 51.94,
+    'low': 51.94,
+    'open': 51.94,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 165.0,
+    'vwap': 51.94}}
+2025-08-20 10:33:11 INFO: Most recent stock data: {'QQQI': {   'close': 51.83,
+    'high': 51.83,
+    'low': 51.83,
+    'open': 51.83,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 51.83}}
+2025-08-20 10:35:12 INFO: Most recent stock data: {'QQQI': {   'close': 51.85,
+    'high': 51.85,
+    'low': 51.85,
+    'open': 51.85,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 104.0,
+    'vwap': 51.85}}
+2025-08-20 10:36:12 INFO: Most recent stock data: {'QQQI': {   'close': 51.83,
+    'high': 51.83,
+    'low': 51.83,
+    'open': 51.83,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 118.0,
+    'vwap': 51.83}}
+2025-08-20 10:37:12 INFO: Most recent stock data: {'QQQI': {   'close': 51.85,
+    'high': 51.85,
+    'low': 51.85,
+    'open': 51.85,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 332.0,
+    'vwap': 51.85}}
+2025-08-20 10:39:12 INFO: Most recent stock data: {'QQQI': {   'close': 51.86,
+    'high': 51.86,
+    'low': 51.86,
+    'open': 51.86,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 182.0,
+    'vwap': 51.86}}
+2025-08-20 10:40:13 INFO: Most recent stock data: {'QQQI': {   'close': 51.83,
+    'high': 51.84,
+    'low': 51.83,
+    'open': 51.84,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 51.835992}}
+2025-08-20 10:42:13 INFO: Most recent stock data: {'QQQI': {   'close': 51.8,
+    'high': 51.8,
+    'low': 51.8,
+    'open': 51.8,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 1200.0,
+    'vwap': 51.8}}
+2025-08-20 10:44:13 INFO: Most recent stock data: {'QQQI': {   'close': 51.79,
+    'high': 51.79,
+    'low': 51.79,
+    'open': 51.79,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 700.0,
+    'vwap': 51.79}}
+2025-08-20 10:47:14 INFO: Most recent stock data: {'QQQI': {   'close': 51.75,
+    'high': 51.81,
+    'low': 51.75,
+    'open': 51.81,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 3273.0,
+    'vwap': 51.781546}}
+2025-08-20 10:47:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 10:47:14 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-20 10:48:14 INFO: {'QQQI': {   'close': 51.79,
+    'high': 51.79,
+    'low': 51.77,
+    'open': 51.77,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1600.0,
+    'vwap': 51.771875}}
+2025-08-20 10:48:14 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 10:48:14 INFO: Current average volume is: 840.9
+2025-08-20 10:48:14 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 10:49:14 INFO: {'QQQI': {   'close': 51.82,
+    'high': 51.82,
+    'low': 51.82,
+    'open': 51.82,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 51.82}}
+2025-08-20 10:49:14 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 10:49:14 INFO: Current average volume is: 810.9
+2025-08-20 10:49:14 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 10:52:15 INFO: {'QQQI': {   'close': 51.78,
+    'high': 51.78,
+    'low': 51.78,
+    'open': 51.78,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 829.0,
+    'vwap': 51.78}}
+2025-08-20 10:52:15 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 10:52:15 INFO: Current average volume is: 883.4
+2025-08-20 10:52:15 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 10:53:15 INFO: {'QQQI': {   'close': 51.75,
+    'high': 51.75,
+    'low': 51.75,
+    'open': 51.75,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 418.0,
+    'vwap': 51.75}}
+2025-08-20 10:53:15 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 10:53:15 INFO: Current average volume is: 913.4
+2025-08-20 10:53:15 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 11:02:16 INFO: {'QQQI': {   'close': 51.8,
+    'high': 51.8,
+    'low': 51.8,
+    'open': 51.8,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 162.0,
+    'vwap': 51.8}}
+2025-08-20 11:02:16 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 11:02:16 INFO: Current average volume is: 896.4
+2025-08-20 11:02:16 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 11:06:17 INFO: {'QQQI': {   'close': 51.83,
+    'high': 51.83,
+    'low': 51.83,
+    'open': 51.83,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 1000.0,
+    'vwap': 51.83}}
+2025-08-20 11:06:17 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 11:06:17 INFO: Current average volume is: 978.2
+2025-08-20 11:06:17 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 11:09:18 INFO: {'QQQI': {   'close': 51.9,
+    'high': 51.9,
+    'low': 51.9,
+    'open': 51.9,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 446.0,
+    'vwap': 51.9}}
+2025-08-20 11:09:18 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 11:09:18 INFO: Current average volume is: 972.8
+2025-08-20 11:09:18 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 11:12:18 INFO: {'QQQI': {   'close': 51.93,
+    'high': 51.93,
+    'low': 51.93,
+    'open': 51.93,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1957.0,
+    'vwap': 51.93}}
+2025-08-20 11:12:18 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 11:12:18 INFO: Current average volume is: 1048.5
+2025-08-20 11:12:18 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 11:14:18 INFO: {'QQQI': {   'close': 51.92,
+    'high': 51.92,
+    'low': 51.92,
+    'open': 51.92,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 2202.0,
+    'vwap': 51.92}}
+2025-08-20 11:14:18 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 11:14:18 INFO: Current average volume is: 1198.7
+2025-08-20 11:14:18 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 11:16:19 INFO: {'QQQI': {   'close': 51.93,
+    'high': 51.93,
+    'low': 51.93,
+    'open': 51.93,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 300.0,
+    'vwap': 51.93}}
+2025-08-20 11:16:19 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 11:16:19 INFO: Current average volume is: 901.4
+2025-08-20 11:16:19 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 11:17:19 INFO: {'QQQI': {   'close': 51.96,
+    'high': 51.96,
+    'low': 51.96,
+    'open': 51.96,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1500.0,
+    'vwap': 51.96}}
+2025-08-20 11:17:19 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 11:17:19 INFO: Current average volume is: 891.4
+2025-08-20 11:17:19 INFO: Updated resistance to: 51.96 and support to: 51.75
+2025-08-20 11:20:19 INFO: {'QQQI': {   'close': 52.0,
+    'high': 52.0,
+    'low': 52.0,
+    'open': 52.0,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 2453.0,
+    'vwap': 52.0}}
+2025-08-20 11:20:19 INFO: Current resistance is: 51.96 and support is: 51.75
+2025-08-20 11:20:19 INFO: Current average volume is: 1126.7
+2025-08-20 11:20:19 INFO: The Current Close 52.0 is above the resistance...
+2025-08-20 11:20:19 INFO: Updated resistance to: 52.0 and support to: 51.75
+2025-08-20 11:21:20 INFO: {'QQQI': {   'close': 52.03,
+    'high': 52.03,
+    'low': 52.03,
+    'open': 52.03,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 516.0,
+    'vwap': 52.03}}
+2025-08-20 11:21:20 INFO: Current resistance is: 52.0 and support is: 51.75
+2025-08-20 11:21:20 INFO: Current average volume is: 1095.4
+2025-08-20 11:21:20 INFO: The current close: 52.03 is above the resistance of 52.0, but volume isn't enough...
+2025-08-20 11:21:20 INFO: Updated resistance to: 52.03 and support to: 51.75
+2025-08-20 11:23:20 INFO: {'QQQI': {   'close': 52.06,
+    'high': 52.06,
+    'low': 52.05,
+    'open': 52.05,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 547.0,
+    'vwap': 52.05557}}
+2025-08-20 11:23:20 INFO: Current resistance is: 52.03 and support is: 51.75
+2025-08-20 11:23:20 INFO: Current average volume is: 1108.3
+2025-08-20 11:23:20 INFO: The current close: 52.06 is above the resistance of 52.03, but volume isn't enough...
+2025-08-20 11:23:20 INFO: Updated resistance to: 52.06 and support to: 51.75
+2025-08-20 11:26:21 INFO: {'QQQI': {   'close': 52.07,
+    'high': 52.08,
+    'low': 52.07,
+    'open': 52.08,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 801.0,
+    'vwap': 52.075}}
+2025-08-20 11:26:21 INFO: Current resistance is: 52.06 and support is: 51.75
+2025-08-20 11:26:21 INFO: Current average volume is: 1172.2
+2025-08-20 11:26:21 INFO: The current close: 52.07 is above the resistance of 52.06, but volume isn't enough...
+2025-08-20 11:26:21 INFO: Updated resistance to: 52.08 and support to: 51.75
+2025-08-20 11:29:22 INFO: {'QQQI': {   'close': 52.1,
+    'high': 52.1,
+    'low': 52.1,
+    'open': 52.1,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 614.0,
+    'vwap': 52.1}}
+2025-08-20 11:29:22 INFO: Current resistance is: 52.08 and support is: 51.75
+2025-08-20 11:29:22 INFO: Current average volume is: 1133.6
+2025-08-20 11:29:22 INFO: The current close: 52.1 is above the resistance of 52.08, but volume isn't enough...
+2025-08-20 11:29:22 INFO: Updated resistance to: 52.1 and support to: 51.75
+2025-08-20 11:30:22 INFO: {'QQQI': {   'close': 52.11,
+    'high': 52.11,
+    'low': 52.11,
+    'open': 52.11,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 500.0,
+    'vwap': 52.11}}
+2025-08-20 11:30:22 INFO: Current resistance is: 52.1 and support is: 51.75
+2025-08-20 11:30:22 INFO: Current average volume is: 1139.0
+2025-08-20 11:30:22 INFO: The current close: 52.11 is above the resistance of 52.1, but volume isn't enough...
+2025-08-20 11:30:22 INFO: Updated resistance to: 52.11 and support to: 51.75
+2025-08-20 11:33:23 INFO: {'QQQI': {   'close': 52.14,
+    'high': 52.14,
+    'low': 52.14,
+    'open': 52.14,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 338.0,
+    'vwap': 52.14}}
+2025-08-20 11:33:23 INFO: Current resistance is: 52.11 and support is: 51.75
+2025-08-20 11:33:23 INFO: Current average volume is: 977.1
+2025-08-20 11:33:23 INFO: The current close: 52.14 is above the resistance of 52.11, but volume isn't enough...
+2025-08-20 11:33:23 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 11:35:24 INFO: {'QQQI': {   'close': 52.16,
+    'high': 52.16,
+    'low': 52.16,
+    'open': 52.16,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1700.0,
+    'vwap': 52.16}}
+2025-08-20 11:35:24 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 11:35:24 INFO: Current average volume is: 926.9
+2025-08-20 11:35:24 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-20 11:40:26 INFO: {'QQQI': {   'close': 52.12,
+    'high': 52.12,
+    'low': 52.12,
+    'open': 52.12,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1901.0,
+    'vwap': 52.12}}
+2025-08-20 11:40:26 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 11:40:26 INFO: Current average volume is: 1087.0
+2025-08-20 11:40:26 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 11:47:27 INFO: {'QQQI': {   'close': 52.14,
+    'high': 52.14,
+    'low': 52.14,
+    'open': 52.14,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 301.0,
+    'vwap': 52.14}}
+2025-08-20 11:47:27 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 11:47:27 INFO: Current average volume is: 967.1
+2025-08-20 11:47:27 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 11:49:27 INFO: {'QQQI': {   'close': 52.12,
+    'high': 52.12,
+    'low': 52.12,
+    'open': 52.12,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 2047.0,
+    'vwap': 52.12}}
+2025-08-20 11:49:27 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 11:49:27 INFO: Current average volume is: 926.5
+2025-08-20 11:49:27 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 11:52:28 INFO: {'QQQI': {   'close': 52.06,
+    'high': 52.06,
+    'low': 52.06,
+    'open': 52.06,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1900.0,
+    'vwap': 52.06}}
+2025-08-20 11:52:28 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 11:52:28 INFO: Current average volume is: 1064.9
+2025-08-20 11:52:28 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 11:54:28 INFO: {'QQQI': {   'close': 52.0,
+    'high': 52.0,
+    'low': 52.0,
+    'open': 52.0,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 301.0,
+    'vwap': 52.0}}
+2025-08-20 11:54:28 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 11:54:28 INFO: Current average volume is: 1040.3
+2025-08-20 11:54:28 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 11:56:28 INFO: {'QQQI': {   'close': 52.01,
+    'high': 52.01,
+    'low': 52.01,
+    'open': 52.01,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 301.0,
+    'vwap': 52.01}}
+2025-08-20 11:56:28 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 11:56:28 INFO: Current average volume is: 990.3
+2025-08-20 11:56:28 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 11:57:28 INFO: {'QQQI': {   'close': 51.97,
+    'high': 51.97,
+    'low': 51.97,
+    'open': 51.97,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 146.0,
+    'vwap': 51.97}}
+2025-08-20 11:57:28 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 11:57:28 INFO: Current average volume is: 943.5
+2025-08-20 11:57:28 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 11:58:29 INFO: {'QQQI': {   'close': 51.99,
+    'high': 51.99,
+    'low': 51.99,
+    'open': 51.99,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 2000.0,
+    'vwap': 51.99}}
+2025-08-20 11:58:29 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 11:58:29 INFO: Current average volume is: 1093.5
+2025-08-20 11:58:29 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 12:01:29 INFO: {'QQQI': {   'close': 52.01,
+    'high': 52.01,
+    'low': 52.01,
+    'open': 52.01,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 303.0,
+    'vwap': 52.01}}
+2025-08-20 12:01:29 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 12:01:29 INFO: Current average volume is: 1090.0
+2025-08-20 12:01:29 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 12:04:30 INFO: {'QQQI': {   'close': 52.085,
+    'high': 52.085,
+    'low': 52.07,
+    'open': 52.07,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1018.0,
+    'vwap': 52.077}}
+2025-08-20 12:04:30 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 12:04:30 INFO: Current average volume is: 1021.8
+2025-08-20 12:04:30 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 12:05:30 INFO: {'QQQI': {   'close': 52.09,
+    'high': 52.09,
+    'low': 52.09,
+    'open': 52.09,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1800.0,
+    'vwap': 52.09}}
+2025-08-20 12:05:30 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 12:05:30 INFO: Current average volume is: 1011.7
+2025-08-20 12:05:30 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 12:07:30 INFO: {'QQQI': {   'close': 52.07,
+    'high': 52.07,
+    'low': 52.07,
+    'open': 52.07,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 1200.0,
+    'vwap': 52.07}}
+2025-08-20 12:07:30 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 12:07:30 INFO: Current average volume is: 1101.6
+2025-08-20 12:07:30 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 12:12:31 INFO: {'QQQI': {   'close': 52.13,
+    'high': 52.13,
+    'low': 52.13,
+    'open': 52.13,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 1600.0,
+    'vwap': 52.13}}
+2025-08-20 12:12:31 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 12:12:31 INFO: Current average volume is: 1056.9
+2025-08-20 12:12:31 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 12:15:31 INFO: {'QQQI': {   'close': 52.14,
+    'high': 52.14,
+    'low': 52.14,
+    'open': 52.14,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1601.0,
+    'vwap': 52.14}}
+2025-08-20 12:15:31 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 12:15:31 INFO: Current average volume is: 1027.0
+2025-08-20 12:15:31 INFO: Updated resistance to: 52.14 and support to: 51.75
+2025-08-20 12:16:32 INFO: {'QQQI': {   'close': 52.15,
+    'high': 52.15,
+    'low': 52.15,
+    'open': 52.15,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1000.0,
+    'vwap': 52.15}}
+2025-08-20 12:16:32 INFO: Current resistance is: 52.14 and support is: 51.75
+2025-08-20 12:16:32 INFO: Current average volume is: 1096.9
+2025-08-20 12:16:32 INFO: The Current Close 52.15 is above the resistance...
+2025-08-20 12:16:32 INFO: Updated resistance to: 52.15 and support to: 51.75
+2025-08-20 12:18:02 INFO: {'QQQI': {   'close': 52.18,
+    'high': 52.18,
+    'low': 52.17,
+    'open': 52.17,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 2404.0,
+    'vwap': 52.178333}}
+2025-08-20 12:18:02 INFO: Current resistance is: 52.15 and support is: 51.75
+2025-08-20 12:18:02 INFO: Current average volume is: 1307.2
+2025-08-20 12:18:02 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-20 12:23:04 INFO: {'QQQI': {   'close': 52.19,
+    'high': 52.2,
+    'low': 52.19,
+    'open': 52.2,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 4600.0,
+    'vwap': 52.195435}}
+2025-08-20 12:23:04 INFO: Current resistance is: 52.15 and support is: 51.75
+2025-08-20 12:23:04 INFO: Current average volume is: 1752.6
+2025-08-20 12:23:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-20 12:25:04 INFO: {'QQQI': {   'close': 52.21,
+    'high': 52.21,
+    'low': 52.21,
+    'open': 52.21,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 300.0,
+    'vwap': 52.21}}
+2025-08-20 12:25:04 INFO: Current resistance is: 52.15 and support is: 51.75
+2025-08-20 12:25:04 INFO: Current average volume is: 1582.6
+2025-08-20 12:25:04 INFO: The current close: 52.21 is above the resistance of 52.15, but volume isn't enough...
+2025-08-20 12:25:04 INFO: Updated resistance to: 52.21 and support to: 51.75
+2025-08-20 12:27:05 INFO: {'QQQI': {   'close': 52.24,
+    'high': 52.24,
+    'low': 52.24,
+    'open': 52.24,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 303.0,
+    'vwap': 52.24}}
+2025-08-20 12:27:05 INFO: Current resistance is: 52.21 and support is: 51.75
+2025-08-20 12:27:05 INFO: Current average volume is: 1582.6
+2025-08-20 12:27:05 INFO: The current close: 52.24 is above the resistance of 52.21, but volume isn't enough...
+2025-08-20 12:27:05 INFO: Updated resistance to: 52.24 and support to: 51.75
+2025-08-20 12:30:06 INFO: {'QQQI': {   'close': 52.25,
+    'high': 52.25,
+    'low': 52.25,
+    'open': 52.25,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 319.0,
+    'vwap': 52.25}}
+2025-08-20 12:30:06 INFO: Current resistance is: 52.24 and support is: 51.75
+2025-08-20 12:30:06 INFO: Current average volume is: 1512.7
+2025-08-20 12:30:06 INFO: The current close: 52.25 is above the resistance of 52.24, but volume isn't enough...
+2025-08-20 12:30:06 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:32:07 INFO: {'QQQI': {   'close': 52.23,
+    'high': 52.23,
+    'low': 52.23,
+    'open': 52.23,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 500.0,
+    'vwap': 52.23}}
+2025-08-20 12:32:07 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:32:07 INFO: Current average volume is: 1382.7
+2025-08-20 12:32:07 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:34:07 INFO: {'QQQI': {   'close': 52.22,
+    'high': 52.22,
+    'low': 52.22,
+    'open': 52.22,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 601.0,
+    'vwap': 52.22}}
+2025-08-20 12:34:07 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:34:07 INFO: Current average volume is: 1322.8
+2025-08-20 12:34:07 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:36:07 INFO: {'QQQI': {   'close': 52.21,
+    'high': 52.21,
+    'low': 52.21,
+    'open': 52.21,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1799.0,
+    'vwap': 52.21}}
+2025-08-20 12:36:07 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:36:07 INFO: Current average volume is: 1342.7
+2025-08-20 12:36:07 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:37:07 INFO: {'QQQI': {   'close': 52.18,
+    'high': 52.2,
+    'low': 52.18,
+    'open': 52.2,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1501.0,
+    'vwap': 52.198667}}
+2025-08-20 12:37:07 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:37:07 INFO: Current average volume is: 1332.7
+2025-08-20 12:37:07 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:39:08 INFO: {'QQQI': {   'close': 52.19,
+    'high': 52.19,
+    'low': 52.19,
+    'open': 52.19,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 401.0,
+    'vwap': 52.19}}
+2025-08-20 12:39:08 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:39:08 INFO: Current average volume is: 1272.8
+2025-08-20 12:39:08 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:42:08 INFO: {'QQQI': {   'close': 52.18,
+    'high': 52.18,
+    'low': 52.18,
+    'open': 52.18,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1701.0,
+    'vwap': 52.18}}
+2025-08-20 12:42:08 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:42:08 INFO: Current average volume is: 1202.5
+2025-08-20 12:42:08 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:48:09 INFO: {'QQQI': {   'close': 52.2,
+    'high': 52.2,
+    'low': 52.2,
+    'open': 52.2,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1900.0,
+    'vwap': 52.2}}
+2025-08-20 12:48:09 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:48:09 INFO: Current average volume is: 932.5
+2025-08-20 12:48:09 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:49:09 INFO: {'QQQI': {   'close': 52.18,
+    'high': 52.18,
+    'low': 52.18,
+    'open': 52.18,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1301.0,
+    'vwap': 52.18}}
+2025-08-20 12:49:09 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:49:09 INFO: Current average volume is: 1032.6
+2025-08-20 12:49:09 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:53:10 INFO: {'QQQI': {   'close': 52.17,
+    'high': 52.17,
+    'low': 52.17,
+    'open': 52.17,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 356.0,
+    'vwap': 52.17}}
+2025-08-20 12:53:10 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:53:10 INFO: Current average volume is: 1037.9
+2025-08-20 12:53:10 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:56:10 INFO: {'QQQI': {   'close': 52.14,
+    'high': 52.16,
+    'low': 52.14,
+    'open': 52.16,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 52.148}}
+2025-08-20 12:56:10 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:56:10 INFO: Current average volume is: 1056.0
+2025-08-20 12:56:10 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 12:58:11 INFO: {'QQQI': {   'close': 52.12,
+    'high': 52.12,
+    'low': 52.12,
+    'open': 52.12,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 518.0,
+    'vwap': 52.12}}
+2025-08-20 12:58:11 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 12:58:11 INFO: Current average volume is: 1057.8
+2025-08-20 12:58:11 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:02:11 INFO: {'QQQI': {   'close': 52.14,
+    'high': 52.14,
+    'low': 52.14,
+    'open': 52.14,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 883.0,
+    'vwap': 52.14}}
+2025-08-20 13:02:11 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:02:11 INFO: Current average volume is: 1086.0
+2025-08-20 13:02:11 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:03:12 INFO: {'QQQI': {   'close': 52.16,
+    'high': 52.16,
+    'low': 52.16,
+    'open': 52.16,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 401.0,
+    'vwap': 52.16}}
+2025-08-20 13:03:12 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:03:12 INFO: Current average volume is: 946.2
+2025-08-20 13:03:12 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:11:13 INFO: {'QQQI': {   'close': 52.19,
+    'high': 52.19,
+    'low': 52.19,
+    'open': 52.19,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1101.0,
+    'vwap': 52.19}}
+2025-08-20 13:11:13 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:11:13 INFO: Current average volume is: 906.2
+2025-08-20 13:11:13 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:14:13 INFO: {'QQQI': {   'close': 52.17,
+    'high': 52.17,
+    'low': 52.17,
+    'open': 52.17,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1055.0,
+    'vwap': 52.17}}
+2025-08-20 13:14:13 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:14:13 INFO: Current average volume is: 971.6
+2025-08-20 13:14:13 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:16:14 INFO: {'QQQI': {   'close': 52.15,
+    'high': 52.15,
+    'low': 52.14,
+    'open': 52.14,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 750.0,
+    'vwap': 52.142}}
+2025-08-20 13:16:14 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:16:14 INFO: Current average volume is: 876.5
+2025-08-20 13:16:14 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:17:14 INFO: {'QQQI': {   'close': 52.16,
+    'high': 52.16,
+    'low': 52.16,
+    'open': 52.16,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 1700.0,
+    'vwap': 52.16}}
+2025-08-20 13:17:14 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:17:14 INFO: Current average volume is: 856.5
+2025-08-20 13:17:14 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:23:15 INFO: {'QQQI': {   'close': 52.17,
+    'high': 52.17,
+    'low': 52.17,
+    'open': 52.17,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 603.0,
+    'vwap': 52.17}}
+2025-08-20 13:23:15 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:23:15 INFO: Current average volume is: 786.7
+2025-08-20 13:23:15 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:26:15 INFO: {'QQQI': {   'close': 52.14,
+    'high': 52.14,
+    'low': 52.14,
+    'open': 52.14,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 401.0,
+    'vwap': 52.14}}
+2025-08-20 13:26:15 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:26:15 INFO: Current average volume is: 791.2
+2025-08-20 13:26:15 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:31:16 INFO: {'QQQI': {   'close': 52.17,
+    'high': 52.17,
+    'low': 52.17,
+    'open': 52.17,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1018.0,
+    'vwap': 52.17}}
+2025-08-20 13:31:16 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:31:16 INFO: Current average volume is: 843.0
+2025-08-20 13:31:16 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:33:16 INFO: {'QQQI': {   'close': 52.21,
+    'high': 52.21,
+    'low': 52.21,
+    'open': 52.21,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 600.0,
+    'vwap': 52.21}}
+2025-08-20 13:33:16 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:33:16 INFO: Current average volume is: 851.2
+2025-08-20 13:33:16 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:34:17 INFO: {'QQQI': {   'close': 52.23,
+    'high': 52.23,
+    'low': 52.23,
+    'open': 52.23,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 182.0,
+    'vwap': 52.23}}
+2025-08-20 13:34:17 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:34:17 INFO: Current average volume is: 781.1
+2025-08-20 13:34:17 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:44:18 INFO: {'QQQI': {   'close': 52.24,
+    'high': 52.24,
+    'low': 52.24,
+    'open': 52.24,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1000.0,
+    'vwap': 52.24}}
+2025-08-20 13:44:18 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:44:18 INFO: Current average volume is: 841.0
+2025-08-20 13:44:18 INFO: Updated resistance to: 52.25 and support to: 51.75
+2025-08-20 13:47:19 INFO: {'QQQI': {   'close': 52.26,
+    'high': 52.27,
+    'low': 52.26,
+    'open': 52.27,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 910.0,
+    'vwap': 52.266667}}
+2025-08-20 13:47:19 INFO: Current resistance is: 52.25 and support is: 51.75
+2025-08-20 13:47:19 INFO: Current average volume is: 821.9
+2025-08-20 13:47:19 INFO: The Current Close 52.26 is above the resistance...
+2025-08-20 13:47:19 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 13:50:20 INFO: {'QQQI': {   'close': 52.25,
+    'high': 52.25,
+    'low': 52.25,
+    'open': 52.25,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1102.0,
+    'vwap': 52.25}}
+2025-08-20 13:50:20 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 13:50:20 INFO: Current average volume is: 826.6
+2025-08-20 13:50:20 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 13:51:20 INFO: {'QQQI': {   'close': 52.23,
+    'high': 52.24,
+    'low': 52.23,
+    'open': 52.24,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 3616.0,
+    'vwap': 52.231089}}
+2025-08-20 13:51:20 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 13:51:20 INFO: Current average volume is: 1113.2
+2025-08-20 13:51:20 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 13:59:21 INFO: {'QQQI': {   'close': 52.18,
+    'high': 52.18,
+    'low': 52.18,
+    'open': 52.18,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 52.18}}
+2025-08-20 13:59:21 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 13:59:21 INFO: Current average volume is: 953.3
+2025-08-20 13:59:21 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:01:22 INFO: {'QQQI': {   'close': 52.19,
+    'high': 52.19,
+    'low': 52.19,
+    'open': 52.19,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 52.19}}
+2025-08-20 14:01:22 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:01:22 INFO: Current average volume is: 903.0
+2025-08-20 14:01:22 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:02:22 INFO: {'QQQI': {   'close': 52.16,
+    'high': 52.17,
+    'low': 52.16,
+    'open': 52.17,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1705.0,
+    'vwap': 52.161765}}
+2025-08-20 14:02:22 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:02:22 INFO: Current average volume is: 1033.4
+2025-08-20 14:02:22 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:03:22 INFO: {'QQQI': {   'close': 52.09,
+    'high': 52.11,
+    'low': 52.09,
+    'open': 52.11,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 2804.0,
+    'vwap': 52.102143}}
+2025-08-20 14:03:22 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:03:22 INFO: Current average volume is: 1212.0
+2025-08-20 14:03:22 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:05:22 INFO: {'QQQI': {   'close': 52.11,
+    'high': 52.12,
+    'low': 52.11,
+    'open': 52.12,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 761.0,
+    'vwap': 52.114286}}
+2025-08-20 14:05:22 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:05:22 INFO: Current average volume is: 1228.1
+2025-08-20 14:05:22 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:07:22 INFO: {'QQQI': {   'close': 52.09,
+    'high': 52.1,
+    'low': 52.09,
+    'open': 52.1,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 2121.0,
+    'vwap': 52.091444}}
+2025-08-20 14:07:22 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:07:22 INFO: Current average volume is: 1422.0
+2025-08-20 14:07:22 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:11:25 INFO: {'QQQI': {   'close': 52.14,
+    'high': 52.14,
+    'low': 52.13,
+    'open': 52.14,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 2102.0,
+    'vwap': 52.134759}}
+2025-08-20 14:11:25 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:11:25 INFO: Current average volume is: 1532.2
+2025-08-20 14:11:25 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:12:25 INFO: {'QQQI': {   'close': 52.12,
+    'high': 52.12,
+    'low': 52.12,
+    'open': 52.12,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 516.0,
+    'vwap': 52.12}}
+2025-08-20 14:12:25 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:12:25 INFO: Current average volume is: 1492.8
+2025-08-20 14:12:25 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:13:25 INFO: {'QQQI': {   'close': 52.11,
+    'high': 52.11,
+    'low': 52.11,
+    'open': 52.11,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 2007.0,
+    'vwap': 52.11}}
+2025-08-20 14:13:25 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:13:25 INFO: Current average volume is: 1583.3
+2025-08-20 14:13:25 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:16:26 INFO: {'QQQI': {   'close': 52.1,
+    'high': 52.1,
+    'low': 52.1,
+    'open': 52.1,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 52.1}}
+2025-08-20 14:16:26 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:16:26 INFO: Current average volume is: 1271.7
+2025-08-20 14:16:26 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:19:26 INFO: {'QQQI': {   'close': 52.09,
+    'high': 52.09,
+    'low': 52.09,
+    'open': 52.09,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 52.09}}
+2025-08-20 14:19:26 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:19:26 INFO: Current average volume is: 1311.6
+2025-08-20 14:19:26 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:23:27 INFO: {'QQQI': {   'close': 52.05,
+    'high': 52.05,
+    'low': 52.05,
+    'open': 52.05,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 510.0,
+    'vwap': 52.05}}
+2025-08-20 14:23:27 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:23:27 INFO: Current average volume is: 1352.6
+2025-08-20 14:23:27 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:24:27 INFO: {'QQQI': {   'close': 52.07,
+    'high': 52.07,
+    'low': 52.06,
+    'open': 52.06,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 601.0,
+    'vwap': 52.068333}}
+2025-08-20 14:24:27 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:24:27 INFO: Current average volume is: 1242.2
+2025-08-20 14:24:27 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:28:28 INFO: {'QQQI': {   'close': 52.09,
+    'high': 52.09,
+    'low': 52.09,
+    'open': 52.09,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 52.09}}
+2025-08-20 14:28:28 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:28:28 INFO: Current average volume is: 1011.8
+2025-08-20 14:28:28 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:30:28 INFO: {'QQQI': {   'close': 52.08,
+    'high': 52.08,
+    'low': 52.08,
+    'open': 52.08,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 399.0,
+    'vwap': 52.08}}
+2025-08-20 14:30:28 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:30:28 INFO: Current average volume is: 975.6
+2025-08-20 14:30:28 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:36:29 INFO: {'QQQI': {   'close': 52.11,
+    'high': 52.11,
+    'low': 52.11,
+    'open': 52.11,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 931.0,
+    'vwap': 52.11}}
+2025-08-20 14:36:29 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:36:29 INFO: Current average volume is: 856.6
+2025-08-20 14:36:29 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:37:29 INFO: {'QQQI': {   'close': 52.1,
+    'high': 52.1,
+    'low': 52.1,
+    'open': 52.1,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 52.1}}
+2025-08-20 14:37:29 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:37:29 INFO: Current average volume is: 666.4
+2025-08-20 14:37:29 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:42:30 INFO: {'QQQI': {   'close': 52.16,
+    'high': 52.16,
+    'low': 52.16,
+    'open': 52.16,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 300.0,
+    'vwap': 52.16}}
+2025-08-20 14:42:30 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:42:30 INFO: Current average volume is: 644.8
+2025-08-20 14:42:30 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:45:30 INFO: {'QQQI': {   'close': 52.17,
+    'high': 52.17,
+    'low': 52.17,
+    'open': 52.17,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 781.0,
+    'vwap': 52.17}}
+2025-08-20 14:45:30 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:45:30 INFO: Current average volume is: 522.2
+2025-08-20 14:45:30 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:48:31 INFO: {'QQQI': {   'close': 52.2,
+    'high': 52.2,
+    'low': 52.19,
+    'open': 52.19,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 222.0,
+    'vwap': 52.195495}}
+2025-08-20 14:48:31 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:48:31 INFO: Current average volume is: 494.4
+2025-08-20 14:48:31 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:49:31 INFO: {'QQQI': {   'close': 52.21,
+    'high': 52.21,
+    'low': 52.2,
+    'open': 52.2,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 320.0,
+    'vwap': 52.203135}}
+2025-08-20 14:49:31 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:49:31 INFO: Current average volume is: 476.4
+2025-08-20 14:49:31 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:55:32 INFO: {'QQQI': {   'close': 52.19,
+    'high': 52.19,
+    'low': 52.19,
+    'open': 52.19,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 1500.0,
+    'vwap': 52.19}}
+2025-08-20 14:55:32 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:55:32 INFO: Current average volume is: 575.4
+2025-08-20 14:55:32 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:56:32 INFO: {'QQQI': {   'close': 52.18,
+    'high': 52.18,
+    'low': 52.18,
+    'open': 52.18,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 600.0,
+    'vwap': 52.18}}
+2025-08-20 14:56:32 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:56:32 INFO: Current average volume is: 575.3
+2025-08-20 14:56:32 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 14:58:33 INFO: {'QQQI': {   'close': 52.16,
+    'high': 52.16,
+    'low': 52.16,
+    'open': 52.16,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 600.0,
+    'vwap': 52.16}}
+2025-08-20 14:58:33 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 14:58:33 INFO: Current average volume is: 585.3
+2025-08-20 14:58:33 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 15:03:33 INFO: {'QQQI': {   'close': 52.17,
+    'high': 52.18,
+    'low': 52.17,
+    'open': 52.18,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 703.0,
+    'vwap': 52.178571}}
+2025-08-20 15:03:33 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 15:03:33 INFO: Current average volume is: 615.7
+2025-08-20 15:03:33 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 15:12:35 INFO: {'QQQI': {   'close': 52.24,
+    'high': 52.24,
+    'low': 52.24,
+    'open': 52.24,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 300.0,
+    'vwap': 52.24}}
+2025-08-20 15:12:35 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 15:12:35 INFO: Current average volume is: 552.6
+2025-08-20 15:12:35 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 15:17:36 INFO: {'QQQI': {   'close': 52.27,
+    'high': 52.27,
+    'low': 52.27,
+    'open': 52.27,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 264.0,
+    'vwap': 52.27}}
+2025-08-20 15:17:36 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 15:17:36 INFO: Current average volume is: 559.0
+2025-08-20 15:17:36 INFO: Updated resistance to: 52.27 and support to: 51.75
+2025-08-20 15:19:36 INFO: {'QQQI': {   'close': 52.3,
+    'high': 52.3,
+    'low': 52.3,
+    'open': 52.3,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 400.0,
+    'vwap': 52.3}}
+2025-08-20 15:19:36 INFO: Current resistance is: 52.27 and support is: 51.75
+2025-08-20 15:19:36 INFO: Current average volume is: 569.0
+2025-08-20 15:19:36 INFO: The Current Close 52.3 is above the resistance...
+2025-08-20 15:19:36 INFO: Updated resistance to: 52.3 and support to: 51.75
+2025-08-20 15:24:08 INFO: {'QQQI': {   'close': 52.35,
+    'high': 52.35,
+    'low': 52.33,
+    'open': 52.33,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 486.0,
+    'vwap': 52.335}}
+2025-08-20 15:24:08 INFO: Current resistance is: 52.3 and support is: 51.75
+2025-08-20 15:24:08 INFO: Current average volume is: 539.5
+2025-08-20 15:24:08 INFO: The current close: 52.35 is above the resistance of 52.3, but volume isn't enough...
+2025-08-20 15:24:08 INFO: Updated resistance to: 52.35 and support to: 51.75
+2025-08-20 15:27:08 INFO: {'QQQI': {   'close': 52.32,
+    'high': 52.32,
+    'low': 52.32,
+    'open': 52.32,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 607.0,
+    'vwap': 52.32}}
+2025-08-20 15:27:08 INFO: Current resistance is: 52.35 and support is: 51.75
+2025-08-20 15:27:08 INFO: Current average volume is: 578.0
+2025-08-20 15:27:08 INFO: Updated resistance to: 52.35 and support to: 51.75
+2025-08-20 15:32:09 INFO: {'QQQI': {   'close': 52.3,
+    'high': 52.3,
+    'low': 52.3,
+    'open': 52.3,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 700.0,
+    'vwap': 52.3}}
+2025-08-20 15:32:09 INFO: Current resistance is: 52.35 and support is: 51.75
+2025-08-20 15:32:09 INFO: Current average volume is: 616.0
+2025-08-20 15:32:09 INFO: Updated resistance to: 52.35 and support to: 51.75
+2025-08-20 15:46:12 INFO: {'QQQI': {   'close': 52.34,
+    'high': 52.34,
+    'low': 52.33,
+    'open': 52.33,
+    'symbol': 'QQQI',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 3201.0,
+    'vwap': 52.335313}}
+2025-08-20 15:46:12 INFO: Current resistance is: 52.35 and support is: 51.75
+2025-08-20 15:46:12 INFO: Current average volume is: 786.1
+2025-08-20 15:46:12 INFO: Updated resistance to: 52.35 and support to: 51.75
+2025-08-20 16:00:14 INFO: The Market is closed...

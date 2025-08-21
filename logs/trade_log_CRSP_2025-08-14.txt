@@ -1,0 +1,287 @@
+2025-08-14 09:55:17 INFO: === Strategy started ===
+2025-08-14 09:55:17 INFO: Start collecting the current highs/lows for: CRSP
+2025-08-14 09:55:18 INFO: Most recent stock data: {'CRSP': {   'close': 57.75,
+    'high': 57.75,
+    'low': 57.74,
+    'open': 57.75,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 520.0,
+    'vwap': 57.746667}}
+2025-08-14 09:57:18 INFO: Most recent stock data: {'CRSP': {   'close': 57.48,
+    'high': 57.48,
+    'low': 57.48,
+    'open': 57.48,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 110.0,
+    'vwap': 57.48}}
+2025-08-14 09:58:18 INFO: Most recent stock data: {'CRSP': {   'close': 57.325,
+    'high': 57.36,
+    'low': 57.22,
+    'open': 57.36,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 769.0,
+    'vwap': 57.281667}}
+2025-08-14 09:59:18 INFO: Most recent stock data: {'CRSP': {   'close': 57.455,
+    'high': 57.455,
+    'low': 57.455,
+    'open': 57.455,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 104.0,
+    'vwap': 57.455}}
+2025-08-14 10:02:19 INFO: Most recent stock data: {'CRSP': {   'close': 57.55,
+    'high': 57.59,
+    'low': 57.55,
+    'open': 57.59,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 400.0,
+    'vwap': 57.563333}}
+2025-08-14 10:04:19 INFO: Most recent stock data: {'CRSP': {   'close': 57.89,
+    'high': 57.91,
+    'low': 57.835,
+    'open': 57.835,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 527.0,
+    'vwap': 57.88125}}
+2025-08-14 10:05:19 INFO: Most recent stock data: {'CRSP': {   'close': 57.6,
+    'high': 57.61,
+    'low': 57.6,
+    'open': 57.61,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1407.0,
+    'vwap': 57.607718}}
+2025-08-14 10:06:19 INFO: Most recent stock data: {'CRSP': {   'close': 57.66,
+    'high': 57.66,
+    'low': 57.66,
+    'open': 57.66,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 57.66}}
+2025-08-14 10:09:19 INFO: Most recent stock data: {'CRSP': {   'close': 57.83,
+    'high': 57.83,
+    'low': 57.73,
+    'open': 57.76,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1102.0,
+    'vwap': 57.801}}
+2025-08-14 10:10:19 INFO: Most recent stock data: {'CRSP': {   'close': 58.085,
+    'high': 58.085,
+    'low': 57.84,
+    'open': 57.88,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 940.0,
+    'vwap': 57.900556}}
+2025-08-14 10:11:20 INFO: Most recent stock data: {'CRSP': {   'close': 57.89,
+    'high': 57.89,
+    'low': 57.89,
+    'open': 57.89,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 226.0,
+    'vwap': 57.89}}
+2025-08-14 10:11:20 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-14 10:11:20 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-14 10:12:20 INFO: {'CRSP': {   'close': 57.93,
+    'high': 57.93,
+    'low': 57.93,
+    'open': 57.93,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 57.93}}
+2025-08-14 10:12:20 INFO: Current resistance is: 58.175 and support is: 57.562
+2025-08-14 10:12:20 INFO: Current average volume is: 567.7
+2025-08-14 10:12:20 INFO: Updated resistance to: 58.216 and support to: 57.625
+2025-08-14 10:13:20 INFO: {'CRSP': {   'close': 57.91,
+    'high': 57.91,
+    'low': 57.91,
+    'open': 57.91,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 57.91}}
+2025-08-14 10:13:20 INFO: Current resistance is: 58.216 and support is: 57.625
+2025-08-14 10:13:20 INFO: Current average volume is: 502.8
+2025-08-14 10:13:20 INFO: Updated resistance to: 58.249 and support to: 57.661
+2025-08-14 10:15:20 INFO: {'CRSP': {   'close': 57.965,
+    'high': 58.025,
+    'low': 57.965,
+    'open': 58.0,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 547.0,
+    'vwap': 58.006}}
+2025-08-14 10:15:20 INFO: Current resistance is: 58.249 and support is: 57.661
+2025-08-14 10:15:20 INFO: Current average volume is: 547.1
+2025-08-14 10:15:20 INFO: Updated resistance to: 58.291 and support to: 57.702
+2025-08-14 10:16:20 INFO: {'CRSP': {   'close': 58.17,
+    'high': 58.21,
+    'low': 58.17,
+    'open': 58.21,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 625.0,
+    'vwap': 58.185}}
+2025-08-14 10:16:20 INFO: Current resistance is: 58.291 and support is: 57.702
+2025-08-14 10:16:20 INFO: Current average volume is: 569.6
+2025-08-14 10:16:20 INFO: Updated resistance to: 58.255 and support to: 57.797
+2025-08-14 10:17:20 INFO: {'CRSP': {   'close': 58.565,
+    'high': 58.565,
+    'low': 58.565,
+    'open': 58.565,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 267.0,
+    'vwap': 58.565}}
+2025-08-14 10:17:20 INFO: Current resistance is: 58.255 and support is: 57.797
+2025-08-14 10:17:20 INFO: Current average volume is: 543.6
+2025-08-14 10:17:20 INFO: The Current Close 58.565 is above the resistance...
+2025-08-14 10:17:20 INFO: Updated resistance to: 58.619 and support to: 57.989
+2025-08-14 10:18:21 INFO: {'CRSP': {   'close': 58.45,
+    'high': 58.45,
+    'low': 58.45,
+    'open': 58.45,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 290.0,
+    'vwap': 58.45}}
+2025-08-14 10:18:21 INFO: Current resistance is: 58.619 and support is: 57.989
+2025-08-14 10:18:21 INFO: Current average volume is: 431.9
+2025-08-14 10:18:21 INFO: Updated resistance to: 58.68 and support to: 58.103
+2025-08-14 10:21:21 INFO: {'CRSP': {   'close': 58.89,
+    'high': 58.965,
+    'low': 58.89,
+    'open': 58.965,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 372.0,
+    'vwap': 58.9275}}
+2025-08-14 10:21:21 INFO: Current resistance is: 58.68 and support is: 58.103
+2025-08-14 10:21:21 INFO: Current average volume is: 458.9
+2025-08-14 10:21:21 INFO: The Current Close 58.89 is above the resistance...
+2025-08-14 10:21:21 INFO: Updated resistance to: 59.033 and support to: 58.312
+2025-08-14 10:28:23 INFO: {'CRSP': {   'close': 58.785,
+    'high': 58.84,
+    'low': 58.785,
+    'open': 58.84,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 277.0,
+    'vwap': 58.8125}}
+2025-08-14 10:28:23 INFO: Current resistance is: 59.033 and support is: 58.312
+2025-08-14 10:28:23 INFO: Current average volume is: 376.4
+2025-08-14 10:28:23 INFO: Updated resistance to: 59.109 and support to: 58.449
+2025-08-14 10:30:23 INFO: {'CRSP': {   'close': 59.505,
+    'high': 59.505,
+    'low': 59.505,
+    'open': 59.505,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 59.505}}
+2025-08-14 10:30:23 INFO: Current resistance is: 59.109 and support is: 58.449
+2025-08-14 10:30:23 INFO: Current average volume is: 292.4
+2025-08-14 10:30:23 INFO: The Current Close 59.505 is above the resistance...
+2025-08-14 10:30:23 INFO: Updated resistance to: 59.589 and support to: 58.74
+2025-08-14 10:31:23 INFO: {'CRSP': {   'close': 59.435,
+    'high': 59.63,
+    'low': 59.35,
+    'open': 59.63,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 541.0,
+    'vwap': 59.44375}}
+2025-08-14 10:31:23 INFO: Current resistance is: 59.589 and support is: 58.74
+2025-08-14 10:31:23 INFO: Current average volume is: 323.9
+2025-08-14 10:31:23 INFO: Updated resistance to: 59.723 and support to: 58.937
+2025-08-14 10:32:23 INFO: {'CRSP': {   'close': 59.765,
+    'high': 59.84,
+    'low': 59.54,
+    'open': 59.54,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2002.0,
+    'vwap': 59.767979}}
+2025-08-14 10:32:23 INFO: Current resistance is: 59.723 and support is: 58.937
+2025-08-14 10:32:23 INFO: Current average volume is: 514.1
+2025-08-14 10:32:23 INFO: The Current Close 59.765 is above the resistance...
+2025-08-14 10:32:23 INFO: Updated resistance to: 59.941 and support to: 59.14
+2025-08-14 10:33:24 INFO: {'CRSP': {   'close': 59.84,
+    'high': 60.0,
+    'low': 59.84,
+    'open': 59.99,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2112.0,
+    'vwap': 59.917381}}
+2025-08-14 10:33:24 INFO: Current resistance is: 59.941 and support is: 59.14
+2025-08-14 10:33:24 INFO: Current average volume is: 713.3
+2025-08-14 10:33:24 INFO: Updated resistance to: 60.108 and support to: 59.372
+2025-08-14 10:37:24 INFO: {'CRSP': {   'close': 59.67,
+    'high': 59.825,
+    'low': 59.67,
+    'open': 59.81,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 813.0,
+    'vwap': 59.75}}
+2025-08-14 10:37:24 INFO: Current resistance is: 60.108 and support is: 59.372
+2025-08-14 10:37:24 INFO: Current average volume is: 739.9
+2025-08-14 10:37:24 INFO: Updated resistance to: 60.221 and support to: 59.524
+2025-08-14 10:39:24 INFO: {'CRSP': {   'close': 59.495,
+    'high': 59.6,
+    'low': 59.495,
+    'open': 59.6,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 515.0,
+    'vwap': 59.5475}}
+2025-08-14 10:39:24 INFO: Current resistance is: 60.221 and support is: 59.524
+2025-08-14 10:39:24 INFO: Current average volume is: 728.9
+2025-08-14 10:39:24 INFO: close price: 59.495 just dropped below support of 59.524...
+2025-08-14 10:40:24 INFO: {'CRSP': {   'close': 59.4,
+    'high': 59.4,
+    'low': 59.4,
+    'open': 59.4,
+    'symbol': 'CRSP',
+    'timestamp': datetime.datetime(2025, 8, 14, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 434.0,
+    'vwap': 59.4}}
+2025-08-14 10:40:24 INFO: Current resistance is: 60.221 and support is: 59.524
+2025-08-14 10:40:24 INFO: Current average volume is: 745.6
+2025-08-14 10:40:24 INFO: Closing price: 59.4 just dropped below support 59.524 again...ending trade...

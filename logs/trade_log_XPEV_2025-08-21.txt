@@ -1,0 +1,3001 @@
+2025-08-21 09:55:12 INFO: === Strategy started ===
+2025-08-21 09:55:12 INFO: Start collecting the current highs/lows for: XPEV
+2025-08-21 09:55:13 INFO: Most recent stock data: {'XPEV': {   'close': 21.98,
+    'high': 21.98,
+    'low': 21.96,
+    'open': 21.96,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1883.0,
+    'vwap': 21.972987}}
+2025-08-21 09:56:13 INFO: Most recent stock data: {'XPEV': {   'close': 22.05,
+    'high': 22.06,
+    'low': 21.965,
+    'open': 21.995,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 4449.0,
+    'vwap': 22.007871}}
+2025-08-21 09:57:13 INFO: Most recent stock data: {'XPEV': {   'close': 22.005,
+    'high': 22.03,
+    'low': 22.005,
+    'open': 22.01,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1259.0,
+    'vwap': 22.015413}}
+2025-08-21 09:58:13 INFO: Most recent stock data: {'XPEV': {   'close': 22.055,
+    'high': 22.055,
+    'low': 22.01,
+    'open': 22.015,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1777.0,
+    'vwap': 22.032333}}
+2025-08-21 09:59:14 INFO: Most recent stock data: {'XPEV': {   'close': 22.075,
+    'high': 22.075,
+    'low': 22.075,
+    'open': 22.075,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 401.0,
+    'vwap': 22.075}}
+2025-08-21 10:00:14 INFO: Most recent stock data: {'XPEV': {   'close': 22.11,
+    'high': 22.11,
+    'low': 22.035,
+    'open': 22.04,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 13, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2558.0,
+    'vwap': 22.063069}}
+2025-08-21 10:01:14 INFO: Most recent stock data: {'XPEV': {   'close': 22.11,
+    'high': 22.14,
+    'low': 22.075,
+    'open': 22.14,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 3624.0,
+    'vwap': 22.107319}}
+2025-08-21 10:03:14 INFO: Most recent stock data: {'XPEV': {   'close': 22.225,
+    'high': 22.25,
+    'low': 22.15,
+    'open': 22.15,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 5536.0,
+    'vwap': 22.205351}}
+2025-08-21 10:04:14 INFO: Most recent stock data: {'XPEV': {   'close': 22.225,
+    'high': 22.23,
+    'low': 22.21,
+    'open': 22.21,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1148.0,
+    'vwap': 22.221818}}
+2025-08-21 10:05:15 INFO: Most recent stock data: {'XPEV': {   'close': 22.255,
+    'high': 22.28,
+    'low': 22.22,
+    'open': 22.27,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2305.0,
+    'vwap': 22.269348}}
+2025-08-21 10:06:15 INFO: Most recent stock data: {'XPEV': {   'close': 22.26,
+    'high': 22.295,
+    'low': 22.26,
+    'open': 22.27,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 601.0,
+    'vwap': 22.278117}}
+2025-08-21 10:06:15 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-21 10:06:15 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-21 10:07:15 INFO: {'XPEV': {   'close': 22.27,
+    'high': 22.275,
+    'low': 22.27,
+    'open': 22.275,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 435.0,
+    'vwap': 22.271355}}
+2025-08-21 10:07:15 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:07:15 INFO: Current average volume is: 1964.4
+2025-08-21 10:07:15 INFO: Updated resistance to: 22.295 and support to: 21.96
+2025-08-21 10:08:15 INFO: {'XPEV': {   'close': 22.21,
+    'high': 22.25,
+    'low': 22.2,
+    'open': 22.25,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3670.0,
+    'vwap': 22.226441}}
+2025-08-21 10:08:15 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:08:15 INFO: Current average volume is: 2205.5
+2025-08-21 10:08:15 INFO: Updated resistance to: 22.295 and support to: 21.96
+2025-08-21 10:09:15 INFO: {'XPEV': {   'close': 22.25,
+    'high': 22.29,
+    'low': 22.19,
+    'open': 22.2,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1383.0,
+    'vwap': 22.223462}}
+2025-08-21 10:09:15 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:09:15 INFO: Current average volume is: 2166.1
+2025-08-21 10:09:15 INFO: Updated resistance to: 22.295 and support to: 21.96
+2025-08-21 10:12:16 INFO: {'XPEV': {   'close': 22.225,
+    'high': 22.235,
+    'low': 22.21,
+    'open': 22.21,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1964.0,
+    'vwap': 22.221684}}
+2025-08-21 10:12:16 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:12:16 INFO: Current average volume is: 2322.4
+2025-08-21 10:12:16 INFO: Updated resistance to: 22.295 and support to: 21.96
+2025-08-21 10:14:16 INFO: {'XPEV': {   'close': 22.255,
+    'high': 22.285,
+    'low': 22.25,
+    'open': 22.28,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 5047.0,
+    'vwap': 22.264245}}
+2025-08-21 10:14:16 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:14:16 INFO: Current average volume is: 2571.3
+2025-08-21 10:14:16 INFO: Updated resistance to: 22.295 and support to: 21.96
+2025-08-21 10:15:16 INFO: {'XPEV': {   'close': 22.25,
+    'high': 22.28,
+    'low': 22.225,
+    'open': 22.24,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 1754.0,
+    'vwap': 22.250482}}
+2025-08-21 10:15:16 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:15:16 INFO: Current average volume is: 2384.3
+2025-08-21 10:15:16 INFO: Updated resistance to: 22.295 and support to: 21.96
+2025-08-21 10:16:17 INFO: {'XPEV': {   'close': 22.2,
+    'high': 22.26,
+    'low': 22.2,
+    'open': 22.25,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 5098.0,
+    'vwap': 22.229044}}
+2025-08-21 10:16:17 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:16:17 INFO: Current average volume is: 2340.5
+2025-08-21 10:16:17 INFO: Updated resistance to: 22.295 and support to: 21.96
+2025-08-21 10:17:17 INFO: {'XPEV': {   'close': 22.22,
+    'high': 22.225,
+    'low': 22.175,
+    'open': 22.18,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 3160.0,
+    'vwap': 22.192979}}
+2025-08-21 10:17:17 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:17:17 INFO: Current average volume is: 2541.7
+2025-08-21 10:17:17 INFO: Updated resistance to: 22.295 and support to: 21.96
+2025-08-21 10:18:17 INFO: {'XPEV': {   'close': 22.245,
+    'high': 22.245,
+    'low': 22.23,
+    'open': 22.24,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1807.0,
+    'vwap': 22.239063}}
+2025-08-21 10:18:17 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:18:17 INFO: Current average volume is: 2491.9
+2025-08-21 10:18:17 INFO: Updated resistance to: 22.295 and support to: 21.96
+2025-08-21 10:20:17 INFO: {'XPEV': {   'close': 22.375,
+    'high': 22.38,
+    'low': 22.31,
+    'open': 22.31,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1752.0,
+    'vwap': 22.339861}}
+2025-08-21 10:20:17 INFO: Current resistance is: 22.295 and support is: 21.96
+2025-08-21 10:20:17 INFO: Current average volume is: 2607.0
+2025-08-21 10:20:17 INFO: The Current Close 22.375 is above the resistance...
+2025-08-21 10:20:17 INFO: Updated resistance to: 22.38 and support to: 21.96
+2025-08-21 10:21:18 INFO: {'XPEV': {   'close': 22.43,
+    'high': 22.43,
+    'low': 22.365,
+    'open': 22.365,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 3171.0,
+    'vwap': 22.403333}}
+2025-08-21 10:21:18 INFO: Current resistance is: 22.38 and support is: 21.96
+2025-08-21 10:21:18 INFO: Current average volume is: 2880.6
+2025-08-21 10:21:18 INFO: The current close: 22.43 is above the resistance of 22.38, but volume isn't enough...
+2025-08-21 10:21:18 INFO: Updated resistance to: 22.43 and support to: 21.96
+2025-08-21 10:22:23 INFO: {'XPEV': {   'close': 22.41,
+    'high': 22.44,
+    'low': 22.39,
+    'open': 22.44,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 6418.0,
+    'vwap': 22.414562}}
+2025-08-21 10:22:23 INFO: Current resistance is: 22.43 and support is: 21.96
+2025-08-21 10:22:23 INFO: Current average volume is: 3155.4
+2025-08-21 10:22:23 INFO: Updated resistance to: 22.44 and support to: 21.96
+2025-08-21 10:23:23 INFO: {'XPEV': {   'close': 22.43,
+    'high': 22.445,
+    'low': 22.4,
+    'open': 22.41,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2758.0,
+    'vwap': 22.419752}}
+2025-08-21 10:23:23 INFO: Current resistance is: 22.44 and support is: 21.96
+2025-08-21 10:23:23 INFO: Current average volume is: 3292.9
+2025-08-21 10:23:23 INFO: Updated resistance to: 22.445 and support to: 21.96
+2025-08-21 10:25:23 INFO: {'XPEV': {   'close': 22.47,
+    'high': 22.515,
+    'low': 22.45,
+    'open': 22.45,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 6910.0,
+    'vwap': 22.481309}}
+2025-08-21 10:25:23 INFO: Current resistance is: 22.445 and support is: 21.96
+2025-08-21 10:25:23 INFO: Current average volume is: 3787.5
+2025-08-21 10:25:23 INFO: The Current Close 22.47 is above the resistance...
+2025-08-21 10:25:23 INFO: Updated resistance to: 22.515 and support to: 21.96
+2025-08-21 10:26:24 INFO: {'XPEV': {   'close': 22.51,
+    'high': 22.51,
+    'low': 22.475,
+    'open': 22.475,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 603.0,
+    'vwap': 22.498333}}
+2025-08-21 10:26:24 INFO: Current resistance is: 22.515 and support is: 21.96
+2025-08-21 10:26:24 INFO: Current average volume is: 3343.1
+2025-08-21 10:26:24 INFO: Updated resistance to: 22.515 and support to: 21.96
+2025-08-21 10:27:24 INFO: {'XPEV': {   'close': 22.52,
+    'high': 22.52,
+    'low': 22.48,
+    'open': 22.48,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 901.0,
+    'vwap': 22.515556}}
+2025-08-21 10:27:24 INFO: Current resistance is: 22.515 and support is: 21.96
+2025-08-21 10:27:24 INFO: Current average volume is: 3257.8
+2025-08-21 10:27:24 INFO: The Current Close 22.52 is above the resistance...
+2025-08-21 10:27:24 INFO: Updated resistance to: 22.52 and support to: 21.96
+2025-08-21 10:28:24 INFO: {'XPEV': {   'close': 22.53,
+    'high': 22.53,
+    'low': 22.515,
+    'open': 22.525,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 838.0,
+    'vwap': 22.521875}}
+2025-08-21 10:28:24 INFO: Current resistance is: 22.52 and support is: 21.96
+2025-08-21 10:28:24 INFO: Current average volume is: 2831.8
+2025-08-21 10:28:24 INFO: The current close: 22.53 is above the resistance of 22.52, but volume isn't enough...
+2025-08-21 10:28:24 INFO: Updated resistance to: 22.53 and support to: 21.96
+2025-08-21 10:29:25 INFO: {'XPEV': {   'close': 22.435,
+    'high': 22.54,
+    'low': 22.435,
+    'open': 22.54,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 6832.0,
+    'vwap': 22.461324}}
+2025-08-21 10:29:25 INFO: Current resistance is: 22.53 and support is: 21.96
+2025-08-21 10:29:25 INFO: Current average volume is: 3199.0
+2025-08-21 10:29:25 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:30:25 INFO: {'XPEV': {   'close': 22.45,
+    'high': 22.465,
+    'low': 22.44,
+    'open': 22.45,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1278.0,
+    'vwap': 22.451565}}
+2025-08-21 10:30:25 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:30:25 INFO: Current average volume is: 3146.1
+2025-08-21 10:30:25 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:32:25 INFO: {'XPEV': {   'close': 22.33,
+    'high': 22.375,
+    'low': 22.33,
+    'open': 22.33,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2411.0,
+    'vwap': 22.345625}}
+2025-08-21 10:32:25 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:32:25 INFO: Current average volume is: 3212.0
+2025-08-21 10:32:25 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:33:25 INFO: {'XPEV': {   'close': 22.31,
+    'high': 22.345,
+    'low': 22.29,
+    'open': 22.31,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 14808.0,
+    'vwap': 22.310769}}
+2025-08-21 10:33:25 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:33:25 INFO: Current average volume is: 4375.7
+2025-08-21 10:33:25 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:34:26 INFO: {'XPEV': {   'close': 22.32,
+    'high': 22.33,
+    'low': 22.32,
+    'open': 22.32,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 350.0,
+    'vwap': 22.323333}}
+2025-08-21 10:34:26 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:34:26 INFO: Current average volume is: 3768.9
+2025-08-21 10:34:26 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:35:26 INFO: {'XPEV': {   'close': 22.37,
+    'high': 22.37,
+    'low': 22.335,
+    'open': 22.335,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 5700.0,
+    'vwap': 22.342442}}
+2025-08-21 10:35:26 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:35:26 INFO: Current average volume is: 4063.1
+2025-08-21 10:35:26 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:36:26 INFO: {'XPEV': {   'close': 22.395,
+    'high': 22.395,
+    'low': 22.345,
+    'open': 22.385,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 9439.0,
+    'vwap': 22.361164}}
+2025-08-21 10:36:26 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:36:26 INFO: Current average volume is: 4316.0
+2025-08-21 10:36:26 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:37:26 INFO: {'XPEV': {   'close': 22.335,
+    'high': 22.39,
+    'low': 22.335,
+    'open': 22.38,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 9990.0,
+    'vwap': 22.355991}}
+2025-08-21 10:37:26 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:37:26 INFO: Current average volume is: 5254.7
+2025-08-21 10:37:26 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:39:26 INFO: {'XPEV': {   'close': 22.26,
+    'high': 22.305,
+    'low': 22.26,
+    'open': 22.3,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1353.0,
+    'vwap': 22.2858}}
+2025-08-21 10:39:26 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:39:26 INFO: Current average volume is: 5299.9
+2025-08-21 10:39:26 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:40:27 INFO: {'XPEV': {   'close': 22.28,
+    'high': 22.28,
+    'low': 22.22,
+    'open': 22.235,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 7370.0,
+    'vwap': 22.233112}}
+2025-08-21 10:40:27 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:40:27 INFO: Current average volume is: 5953.1
+2025-08-21 10:40:27 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:42:27 INFO: {'XPEV': {   'close': 22.315,
+    'high': 22.315,
+    'low': 22.315,
+    'open': 22.315,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 22.315}}
+2025-08-21 10:42:27 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:42:27 INFO: Current average volume is: 5289.9
+2025-08-21 10:42:27 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:43:27 INFO: {'XPEV': {   'close': 22.41,
+    'high': 22.43,
+    'low': 22.34,
+    'open': 22.34,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 43.0,
+    'volume': 7034.0,
+    'vwap': 22.406776}}
+2025-08-21 10:43:27 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:43:27 INFO: Current average volume is: 5865.5
+2025-08-21 10:43:27 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:44:27 INFO: {'XPEV': {   'close': 22.47,
+    'high': 22.47,
+    'low': 22.39,
+    'open': 22.39,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 5243.0,
+    'vwap': 22.446737}}
+2025-08-21 10:44:27 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:44:27 INFO: Current average volume is: 6148.7
+2025-08-21 10:44:27 INFO: Updated resistance to: 22.54 and support to: 21.96
+2025-08-21 10:45:27 INFO: {'XPEV': {   'close': 22.56,
+    'high': 22.58,
+    'low': 22.47,
+    'open': 22.47,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 78.0,
+    'volume': 8241.0,
+    'vwap': 22.517208}}
+2025-08-21 10:45:27 INFO: Current resistance is: 22.54 and support is: 21.96
+2025-08-21 10:45:27 INFO: Current average volume is: 5492.0
+2025-08-21 10:45:27 INFO: The Current Close 22.56 is above the resistance...
+2025-08-21 10:45:27 INFO: Updated resistance to: 22.58 and support to: 21.96
+2025-08-21 10:46:28 INFO: {'XPEV': {   'close': 22.55,
+    'high': 22.59,
+    'low': 22.55,
+    'open': 22.57,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 5007.0,
+    'vwap': 22.568967}}
+2025-08-21 10:46:28 INFO: Current resistance is: 22.58 and support is: 21.96
+2025-08-21 10:46:28 INFO: Current average volume is: 5957.7
+2025-08-21 10:46:28 INFO: Updated resistance to: 22.59 and support to: 21.96
+2025-08-21 10:48:28 INFO: {'XPEV': {   'close': 22.51,
+    'high': 22.555,
+    'low': 22.51,
+    'open': 22.555,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1320.0,
+    'vwap': 22.545604}}
+2025-08-21 10:48:28 INFO: Current resistance is: 22.59 and support is: 21.96
+2025-08-21 10:48:28 INFO: Current average volume is: 5519.7
+2025-08-21 10:48:28 INFO: Updated resistance to: 22.59 and support to: 21.96
+2025-08-21 10:51:29 INFO: {'XPEV': {   'close': 22.55,
+    'high': 22.57,
+    'low': 22.535,
+    'open': 22.56,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 3080.0,
+    'vwap': 22.551336}}
+2025-08-21 10:51:29 INFO: Current resistance is: 22.59 and support is: 21.96
+2025-08-21 10:51:29 INFO: Current average volume is: 4883.8
+2025-08-21 10:51:29 INFO: Updated resistance to: 22.59 and support to: 21.96
+2025-08-21 10:52:29 INFO: {'XPEV': {   'close': 22.61,
+    'high': 22.61,
+    'low': 22.565,
+    'open': 22.575,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 3596.0,
+    'vwap': 22.596282}}
+2025-08-21 10:52:29 INFO: Current resistance is: 22.59 and support is: 21.96
+2025-08-21 10:52:29 INFO: Current average volume is: 4244.4
+2025-08-21 10:52:29 INFO: The Current Close 22.61 is above the resistance...
+2025-08-21 10:52:29 INFO: Updated resistance to: 22.61 and support to: 21.96
+2025-08-21 10:53:29 INFO: {'XPEV': {   'close': 22.62,
+    'high': 22.625,
+    'low': 22.61,
+    'open': 22.61,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3864.0,
+    'vwap': 22.615316}}
+2025-08-21 10:53:29 INFO: Current resistance is: 22.61 and support is: 21.96
+2025-08-21 10:53:29 INFO: Current average volume is: 4495.5
+2025-08-21 10:53:29 INFO: The current close: 22.62 is above the resistance of 22.61, but volume isn't enough...
+2025-08-21 10:53:29 INFO: Updated resistance to: 22.625 and support to: 21.96
+2025-08-21 10:54:29 INFO: {'XPEV': {   'close': 22.7,
+    'high': 22.7,
+    'low': 22.65,
+    'open': 22.65,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 3465.0,
+    'vwap': 22.681791}}
+2025-08-21 10:54:29 INFO: Current resistance is: 22.625 and support is: 21.96
+2025-08-21 10:54:29 INFO: Current average volume is: 4105.0
+2025-08-21 10:54:29 INFO: The current close: 22.7 is above the resistance of 22.625, but volume isn't enough...
+2025-08-21 10:54:29 INFO: Updated resistance to: 22.7 and support to: 21.96
+2025-08-21 10:55:30 INFO: {'XPEV': {   'close': 22.72,
+    'high': 22.72,
+    'low': 22.695,
+    'open': 22.7,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 4282.0,
+    'vwap': 22.7119}}
+2025-08-21 10:55:30 INFO: Current resistance is: 22.7 and support is: 21.96
+2025-08-21 10:55:30 INFO: Current average volume is: 4513.2
+2025-08-21 10:55:30 INFO: The current close: 22.72 is above the resistance of 22.7, but volume isn't enough...
+2025-08-21 10:55:30 INFO: Updated resistance to: 22.72 and support to: 21.96
+2025-08-21 10:56:30 INFO: {'XPEV': {   'close': 22.735,
+    'high': 22.755,
+    'low': 22.71,
+    'open': 22.735,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 65.0,
+    'volume': 12624.0,
+    'vwap': 22.732583}}
+2025-08-21 10:56:30 INFO: Current resistance is: 22.72 and support is: 21.96
+2025-08-21 10:56:30 INFO: Current average volume is: 5072.2
+2025-08-21 10:56:30 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-21 10:57:30 INFO: {'XPEV': {   'close': 22.79,
+    'high': 22.795,
+    'low': 22.755,
+    'open': 22.755,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2724.0,
+    'vwap': 22.774522}}
+2025-08-21 10:57:30 INFO: Current resistance is: 22.72 and support is: 21.96
+2025-08-21 10:57:30 INFO: Current average volume is: 4820.3
+2025-08-21 10:57:30 INFO: The current close: 22.79 is above the resistance of 22.72, but volume isn't enough...
+2025-08-21 10:57:30 INFO: Updated resistance to: 22.795 and support to: 21.96
+2025-08-21 10:58:01 INFO: {'XPEV': {   'close': 22.765,
+    'high': 22.82,
+    'low': 22.765,
+    'open': 22.8,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 4495.0,
+    'vwap': 22.799446}}
+2025-08-21 10:58:01 INFO: Current resistance is: 22.795 and support is: 21.96
+2025-08-21 10:58:01 INFO: Current average volume is: 4445.7
+2025-08-21 10:58:01 INFO: Updated resistance to: 22.82 and support to: 21.96
+2025-08-21 10:59:01 INFO: {'XPEV': {   'close': 22.755,
+    'high': 22.795,
+    'low': 22.755,
+    'open': 22.765,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 14, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1856.0,
+    'vwap': 22.784706}}
+2025-08-21 10:59:01 INFO: Current resistance is: 22.82 and support is: 21.96
+2025-08-21 10:59:01 INFO: Current average volume is: 4130.6
+2025-08-21 10:59:01 INFO: Updated resistance to: 22.82 and support to: 21.96
+2025-08-21 11:01:01 INFO: {'XPEV': {   'close': 22.8,
+    'high': 22.82,
+    'low': 22.775,
+    'open': 22.82,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2240.0,
+    'vwap': 22.80381}}
+2025-08-21 11:01:01 INFO: Current resistance is: 22.82 and support is: 21.96
+2025-08-21 11:01:01 INFO: Current average volume is: 4222.6
+2025-08-21 11:01:01 INFO: Updated resistance to: 22.82 and support to: 21.96
+2025-08-21 11:02:01 INFO: {'XPEV': {   'close': 22.815,
+    'high': 22.84,
+    'low': 22.795,
+    'open': 22.795,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 4780.0,
+    'vwap': 22.823422}}
+2025-08-21 11:02:01 INFO: Current resistance is: 22.82 and support is: 21.96
+2025-08-21 11:02:01 INFO: Current average volume is: 4392.6
+2025-08-21 11:02:01 INFO: Updated resistance to: 22.84 and support to: 21.96
+2025-08-21 11:03:01 INFO: {'XPEV': {   'close': 22.82,
+    'high': 22.85,
+    'low': 22.805,
+    'open': 22.825,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2833.0,
+    'vwap': 22.840085}}
+2025-08-21 11:03:01 INFO: Current resistance is: 22.84 and support is: 21.96
+2025-08-21 11:03:01 INFO: Current average volume is: 4316.3
+2025-08-21 11:03:01 INFO: Updated resistance to: 22.85 and support to: 21.96
+2025-08-21 11:05:02 INFO: {'XPEV': {   'close': 22.815,
+    'high': 22.88,
+    'low': 22.815,
+    'open': 22.85,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1898.0,
+    'vwap': 22.860271}}
+2025-08-21 11:05:02 INFO: Current resistance is: 22.85 and support is: 21.96
+2025-08-21 11:05:02 INFO: Current average volume is: 4119.7
+2025-08-21 11:05:02 INFO: Updated resistance to: 22.88 and support to: 21.96
+2025-08-21 11:07:02 INFO: {'XPEV': {   'close': 22.825,
+    'high': 22.825,
+    'low': 22.825,
+    'open': 22.825,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 247.0,
+    'vwap': 22.825}}
+2025-08-21 11:07:02 INFO: Current resistance is: 22.88 and support is: 21.96
+2025-08-21 11:07:02 INFO: Current average volume is: 3797.9
+2025-08-21 11:07:02 INFO: Updated resistance to: 22.88 and support to: 21.96
+2025-08-21 11:08:02 INFO: {'XPEV': {   'close': 22.785,
+    'high': 22.785,
+    'low': 22.77,
+    'open': 22.785,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1320.0,
+    'vwap': 22.779231}}
+2025-08-21 11:08:02 INFO: Current resistance is: 22.88 and support is: 21.96
+2025-08-21 11:08:02 INFO: Current average volume is: 3501.7
+2025-08-21 11:08:02 INFO: Updated resistance to: 22.88 and support to: 21.96
+2025-08-21 11:09:02 INFO: {'XPEV': {   'close': 22.84,
+    'high': 22.84,
+    'low': 22.79,
+    'open': 22.79,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1297.0,
+    'vwap': 22.817731}}
+2025-08-21 11:09:02 INFO: Current resistance is: 22.88 and support is: 21.96
+2025-08-21 11:09:02 INFO: Current average volume is: 2369.0
+2025-08-21 11:09:02 INFO: Updated resistance to: 22.88 and support to: 21.96
+2025-08-21 11:10:03 INFO: {'XPEV': {   'close': 22.88,
+    'high': 22.88,
+    'low': 22.82,
+    'open': 22.825,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2075.0,
+    'vwap': 22.853026}}
+2025-08-21 11:10:03 INFO: Current resistance is: 22.88 and support is: 21.96
+2025-08-21 11:10:03 INFO: Current average volume is: 2304.1
+2025-08-21 11:10:03 INFO: Updated resistance to: 22.88 and support to: 21.96
+2025-08-21 11:11:03 INFO: {'XPEV': {   'close': 22.84,
+    'high': 22.9,
+    'low': 22.84,
+    'open': 22.875,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 4960.0,
+    'vwap': 22.886322}}
+2025-08-21 11:11:03 INFO: Current resistance is: 22.88 and support is: 21.96
+2025-08-21 11:11:03 INFO: Current average volume is: 2350.6
+2025-08-21 11:11:03 INFO: Updated resistance to: 22.9 and support to: 21.96
+2025-08-21 11:12:03 INFO: {'XPEV': {   'close': 22.865,
+    'high': 22.865,
+    'low': 22.845,
+    'open': 22.845,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1715.0,
+    'vwap': 22.852941}}
+2025-08-21 11:12:03 INFO: Current resistance is: 22.9 and support is: 21.96
+2025-08-21 11:12:03 INFO: Current average volume is: 2336.5
+2025-08-21 11:12:03 INFO: Updated resistance to: 22.9 and support to: 21.96
+2025-08-21 11:13:03 INFO: {'XPEV': {   'close': 22.855,
+    'high': 22.875,
+    'low': 22.82,
+    'open': 22.875,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 3820.0,
+    'vwap': 22.846857}}
+2025-08-21 11:13:03 INFO: Current resistance is: 22.9 and support is: 21.96
+2025-08-21 11:13:03 INFO: Current average volume is: 2494.5
+2025-08-21 11:13:03 INFO: Updated resistance to: 22.9 and support to: 21.96
+2025-08-21 11:14:03 INFO: {'XPEV': {   'close': 22.775,
+    'high': 22.895,
+    'low': 22.77,
+    'open': 22.885,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 63.0,
+    'volume': 9273.0,
+    'vwap': 22.836835}}
+2025-08-21 11:14:03 INFO: Current resistance is: 22.9 and support is: 21.96
+2025-08-21 11:14:03 INFO: Current average volume is: 2943.8
+2025-08-21 11:14:03 INFO: Updated resistance to: 22.9 and support to: 21.96
+2025-08-21 11:16:04 INFO: {'XPEV': {   'close': 22.835,
+    'high': 22.835,
+    'low': 22.74,
+    'open': 22.74,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2443.0,
+    'vwap': 22.793043}}
+2025-08-21 11:16:04 INFO: Current resistance is: 22.9 and support is: 21.96
+2025-08-21 11:16:04 INFO: Current average volume is: 2904.8
+2025-08-21 11:16:04 INFO: Updated resistance to: 22.9 and support to: 21.96
+2025-08-21 11:17:04 INFO: {'XPEV': {   'close': 22.88,
+    'high': 22.88,
+    'low': 22.85,
+    'open': 22.85,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 5597.0,
+    'vwap': 22.855858}}
+2025-08-21 11:17:04 INFO: Current resistance is: 22.9 and support is: 21.96
+2025-08-21 11:17:04 INFO: Current average volume is: 3274.7
+2025-08-21 11:17:04 INFO: Updated resistance to: 22.9 and support to: 21.96
+2025-08-21 11:18:04 INFO: {'XPEV': {   'close': 22.96,
+    'high': 22.98,
+    'low': 22.9,
+    'open': 22.9,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 4437.0,
+    'vwap': 22.939202}}
+2025-08-21 11:18:04 INFO: Current resistance is: 22.9 and support is: 21.96
+2025-08-21 11:18:04 INFO: Current average volume is: 3693.7
+2025-08-21 11:18:04 INFO: The Current Close 22.96 is above the resistance...
+2025-08-21 11:18:04 INFO: Updated resistance to: 22.98 and support to: 21.96
+2025-08-21 11:19:04 INFO: {'XPEV': {   'close': 23.0,
+    'high': 23.07,
+    'low': 22.97,
+    'open': 22.97,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 47.0,
+    'volume': 9283.0,
+    'vwap': 23.018908}}
+2025-08-21 11:19:04 INFO: Current resistance is: 22.98 and support is: 21.96
+2025-08-21 11:19:04 INFO: Current average volume is: 4490.0
+2025-08-21 11:19:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-21 11:20:05 INFO: {'XPEV': {   'close': 23.05,
+    'high': 23.065,
+    'low': 23.01,
+    'open': 23.01,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1542.0,
+    'vwap': 23.045295}}
+2025-08-21 11:20:05 INFO: Current resistance is: 22.98 and support is: 21.96
+2025-08-21 11:20:05 INFO: Current average volume is: 4514.5
+2025-08-21 11:20:05 INFO: The current close: 23.05 is above the resistance of 22.98, but volume isn't enough...
+2025-08-21 11:20:05 INFO: Updated resistance to: 23.065 and support to: 21.96
+2025-08-21 11:21:05 INFO: {'XPEV': {   'close': 23.09,
+    'high': 23.09,
+    'low': 23.08,
+    'open': 23.08,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1583.0,
+    'vwap': 23.086092}}
+2025-08-21 11:21:05 INFO: Current resistance is: 23.065 and support is: 21.96
+2025-08-21 11:21:05 INFO: Current average volume is: 4465.3
+2025-08-21 11:21:05 INFO: The current close: 23.09 is above the resistance of 23.065, but volume isn't enough...
+2025-08-21 11:21:05 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:24:06 INFO: {'XPEV': {   'close': 23.07,
+    'high': 23.07,
+    'low': 23.0,
+    'open': 23.015,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2010.0,
+    'vwap': 23.022519}}
+2025-08-21 11:24:06 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:24:06 INFO: Current average volume is: 4170.3
+2025-08-21 11:24:06 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:25:06 INFO: {'XPEV': {   'close': 22.99,
+    'high': 23.03,
+    'low': 22.99,
+    'open': 23.03,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2323.0,
+    'vwap': 23.011043}}
+2025-08-21 11:25:06 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:25:06 INFO: Current average volume is: 4231.1
+2025-08-21 11:25:06 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:26:07 INFO: {'XPEV': {   'close': 23.035,
+    'high': 23.035,
+    'low': 23.01,
+    'open': 23.01,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3800.0,
+    'vwap': 23.027632}}
+2025-08-21 11:26:07 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:26:07 INFO: Current average volume is: 4229.1
+2025-08-21 11:26:07 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:28:07 INFO: {'XPEV': {   'close': 23.025,
+    'high': 23.055,
+    'low': 23.0,
+    'open': 23.02,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3288.0,
+    'vwap': 23.025562}}
+2025-08-21 11:28:07 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:28:07 INFO: Current average volume is: 3630.6
+2025-08-21 11:28:07 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:29:07 INFO: {'XPEV': {   'close': 22.96,
+    'high': 22.995,
+    'low': 22.955,
+    'open': 22.995,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 3828.0,
+    'vwap': 22.967992}}
+2025-08-21 11:29:07 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:29:07 INFO: Current average volume is: 3769.1
+2025-08-21 11:29:07 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:32:08 INFO: {'XPEV': {   'close': 22.915,
+    'high': 22.965,
+    'low': 22.91,
+    'open': 22.965,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 3863.0,
+    'vwap': 22.934589}}
+2025-08-21 11:32:08 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:32:08 INFO: Current average volume is: 3595.7
+2025-08-21 11:32:08 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:33:08 INFO: {'XPEV': {   'close': 22.905,
+    'high': 22.925,
+    'low': 22.88,
+    'open': 22.9,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3433.0,
+    'vwap': 22.900781}}
+2025-08-21 11:33:08 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:33:08 INFO: Current average volume is: 3495.3
+2025-08-21 11:33:08 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:34:08 INFO: {'XPEV': {   'close': 22.935,
+    'high': 22.935,
+    'low': 22.9,
+    'open': 22.905,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 4719.0,
+    'vwap': 22.911137}}
+2025-08-21 11:34:08 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:34:08 INFO: Current average volume is: 3038.9
+2025-08-21 11:34:08 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:35:08 INFO: {'XPEV': {   'close': 22.975,
+    'high': 22.99,
+    'low': 22.935,
+    'open': 22.935,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3394.0,
+    'vwap': 22.957745}}
+2025-08-21 11:35:08 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:35:08 INFO: Current average volume is: 3224.1
+2025-08-21 11:35:08 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:36:08 INFO: {'XPEV': {   'close': 22.98,
+    'high': 22.995,
+    'low': 22.93,
+    'open': 22.93,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2809.0,
+    'vwap': 22.970741}}
+2025-08-21 11:36:08 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:36:08 INFO: Current average volume is: 3346.7
+2025-08-21 11:36:08 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:37:08 INFO: {'XPEV': {   'close': 23.015,
+    'high': 23.02,
+    'low': 22.98,
+    'open': 22.98,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1800.0,
+    'vwap': 23.0}}
+2025-08-21 11:37:08 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:37:08 INFO: Current average volume is: 3325.7
+2025-08-21 11:37:08 INFO: Updated resistance to: 23.09 and support to: 21.96
+2025-08-21 11:38:09 INFO: {'XPEV': {   'close': 23.14,
+    'high': 23.14,
+    'low': 23.02,
+    'open': 23.02,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1983.0,
+    'vwap': 23.074521}}
+2025-08-21 11:38:09 INFO: Current resistance is: 23.09 and support is: 21.96
+2025-08-21 11:38:09 INFO: Current average volume is: 3291.7
+2025-08-21 11:38:09 INFO: The Current Close 23.14 is above the resistance...
+2025-08-21 11:38:09 INFO: Updated resistance to: 23.14 and support to: 21.96
+2025-08-21 11:39:09 INFO: {'XPEV': {   'close': 23.2,
+    'high': 23.215,
+    'low': 23.145,
+    'open': 23.145,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 64.0,
+    'volume': 13697.0,
+    'vwap': 23.173593}}
+2025-08-21 11:39:09 INFO: Current resistance is: 23.14 and support is: 21.96
+2025-08-21 11:39:09 INFO: Current average volume is: 4281.4
+2025-08-21 11:39:09 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-21 11:40:09 INFO: {'XPEV': {   'close': 23.225,
+    'high': 23.23,
+    'low': 23.2,
+    'open': 23.215,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 2365.0,
+    'vwap': 23.214562}}
+2025-08-21 11:40:09 INFO: Current resistance is: 23.14 and support is: 21.96
+2025-08-21 11:40:09 INFO: Current average volume is: 4189.1
+2025-08-21 11:40:09 INFO: The current close: 23.225 is above the resistance of 23.14, but volume isn't enough...
+2025-08-21 11:40:09 INFO: Updated resistance to: 23.23 and support to: 21.96
+2025-08-21 11:41:10 INFO: {'XPEV': {   'close': 23.24,
+    'high': 23.245,
+    'low': 23.225,
+    'open': 23.225,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3463.0,
+    'vwap': 23.240238}}
+2025-08-21 11:41:10 INFO: Current resistance is: 23.23 and support is: 21.96
+2025-08-21 11:41:10 INFO: Current average volume is: 4152.6
+2025-08-21 11:41:10 INFO: The current close: 23.24 is above the resistance of 23.23, but volume isn't enough...
+2025-08-21 11:41:10 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:45:11 INFO: {'XPEV': {   'close': 23.22,
+    'high': 23.24,
+    'low': 23.185,
+    'open': 23.24,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 3178.0,
+    'vwap': 23.210358}}
+2025-08-21 11:45:11 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:45:11 INFO: Current average volume is: 4084.1
+2025-08-21 11:45:11 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:46:11 INFO: {'XPEV': {   'close': 23.215,
+    'high': 23.225,
+    'low': 23.215,
+    'open': 23.22,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1371.0,
+    'vwap': 23.218732}}
+2025-08-21 11:46:11 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:46:11 INFO: Current average volume is: 3877.9
+2025-08-21 11:46:11 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:47:11 INFO: {'XPEV': {   'close': 23.155,
+    'high': 23.205,
+    'low': 23.15,
+    'open': 23.205,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2248.0,
+    'vwap': 23.161324}}
+2025-08-21 11:47:11 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:47:11 INFO: Current average volume is: 3630.8
+2025-08-21 11:47:11 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:48:11 INFO: {'XPEV': {   'close': 23.17,
+    'high': 23.17,
+    'low': 23.135,
+    'open': 23.135,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1140.0,
+    'vwap': 23.159894}}
+2025-08-21 11:48:11 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:48:11 INFO: Current average volume is: 3405.4
+2025-08-21 11:48:11 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:49:12 INFO: {'XPEV': {   'close': 23.19,
+    'high': 23.19,
+    'low': 23.17,
+    'open': 23.185,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2801.0,
+    'vwap': 23.180926}}
+2025-08-21 11:49:12 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:49:12 INFO: Current average volume is: 3404.6
+2025-08-21 11:49:12 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:52:12 INFO: {'XPEV': {   'close': 23.15,
+    'high': 23.15,
+    'low': 23.105,
+    'open': 23.12,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 41.0,
+    'volume': 6098.0,
+    'vwap': 23.119922}}
+2025-08-21 11:52:12 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:52:12 INFO: Current average volume is: 3834.4
+2025-08-21 11:52:12 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:53:12 INFO: {'XPEV': {   'close': 23.215,
+    'high': 23.225,
+    'low': 23.16,
+    'open': 23.16,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3681.0,
+    'vwap': 23.207529}}
+2025-08-21 11:53:12 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:53:12 INFO: Current average volume is: 4004.2
+2025-08-21 11:53:12 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:54:12 INFO: {'XPEV': {   'close': 23.195,
+    'high': 23.195,
+    'low': 23.195,
+    'open': 23.195,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 610.0,
+    'vwap': 23.195}}
+2025-08-21 11:54:12 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:54:12 INFO: Current average volume is: 2695.5
+2025-08-21 11:54:12 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:55:13 INFO: {'XPEV': {   'close': 23.165,
+    'high': 23.21,
+    'low': 23.165,
+    'open': 23.2,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2501.0,
+    'vwap': 23.197313}}
+2025-08-21 11:55:13 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:55:13 INFO: Current average volume is: 2709.1
+2025-08-21 11:55:13 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:57:13 INFO: {'XPEV': {   'close': 23.215,
+    'high': 23.225,
+    'low': 23.155,
+    'open': 23.155,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2620.0,
+    'vwap': 23.210046}}
+2025-08-21 11:57:13 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:57:13 INFO: Current average volume is: 2624.8
+2025-08-21 11:57:13 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:58:13 INFO: {'XPEV': {   'close': 23.185,
+    'high': 23.195,
+    'low': 23.185,
+    'open': 23.195,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 275.0,
+    'vwap': 23.191364}}
+2025-08-21 11:58:13 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:58:13 INFO: Current average volume is: 2334.5
+2025-08-21 11:58:13 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 11:59:13 INFO: {'XPEV': {   'close': 23.17,
+    'high': 23.175,
+    'low': 23.155,
+    'open': 23.16,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1859.0,
+    'vwap': 23.165556}}
+2025-08-21 11:59:13 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 11:59:13 INFO: Current average volume is: 2383.3
+2025-08-21 11:59:13 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:01:14 INFO: {'XPEV': {   'close': 23.205,
+    'high': 23.21,
+    'low': 23.185,
+    'open': 23.185,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 657.0,
+    'vwap': 23.193772}}
+2025-08-21 12:01:14 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:01:14 INFO: Current average volume is: 2224.2
+2025-08-21 12:01:14 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:02:14 INFO: {'XPEV': {   'close': 23.2,
+    'high': 23.22,
+    'low': 23.175,
+    'open': 23.175,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 4530.0,
+    'vwap': 23.195568}}
+2025-08-21 12:02:14 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:02:14 INFO: Current average volume is: 2563.2
+2025-08-21 12:02:14 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:05:14 INFO: {'XPEV': {   'close': 23.035,
+    'high': 23.15,
+    'low': 23.035,
+    'open': 23.15,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1548.0,
+    'vwap': 23.073362}}
+2025-08-21 12:05:14 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:05:14 INFO: Current average volume is: 2437.9
+2025-08-21 12:05:14 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:06:14 INFO: {'XPEV': {   'close': 23.055,
+    'high': 23.06,
+    'low': 23.02,
+    'open': 23.02,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2324.0,
+    'vwap': 23.037727}}
+2025-08-21 12:06:14 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:06:14 INFO: Current average volume is: 2060.5
+2025-08-21 12:06:14 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:07:15 INFO: {'XPEV': {   'close': 23.065,
+    'high': 23.09,
+    'low': 23.055,
+    'open': 23.06,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 5363.0,
+    'vwap': 23.076559}}
+2025-08-21 12:07:15 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:07:15 INFO: Current average volume is: 2228.7
+2025-08-21 12:07:15 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:09:15 INFO: {'XPEV': {   'close': 23.035,
+    'high': 23.095,
+    'low': 23.02,
+    'open': 23.07,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 4204.0,
+    'vwap': 23.04727}}
+2025-08-21 12:09:15 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:09:15 INFO: Current average volume is: 2588.1
+2025-08-21 12:09:15 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:11:15 INFO: {'XPEV': {   'close': 22.97,
+    'high': 23.025,
+    'low': 22.97,
+    'open': 23.025,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 54.0,
+    'volume': 9640.0,
+    'vwap': 22.988635}}
+2025-08-21 12:11:15 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:11:15 INFO: Current average volume is: 3302.0
+2025-08-21 12:11:15 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:12:16 INFO: {'XPEV': {   'close': 22.955,
+    'high': 22.975,
+    'low': 22.955,
+    'open': 22.975,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2393.0,
+    'vwap': 22.963039}}
+2025-08-21 12:12:16 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:12:16 INFO: Current average volume is: 3279.3
+2025-08-21 12:12:16 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:13:16 INFO: {'XPEV': {   'close': 22.995,
+    'high': 22.995,
+    'low': 22.96,
+    'open': 22.96,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2381.0,
+    'vwap': 22.985588}}
+2025-08-21 12:13:16 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:13:16 INFO: Current average volume is: 3489.9
+2025-08-21 12:13:16 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:14:16 INFO: {'XPEV': {   'close': 22.985,
+    'high': 23.005,
+    'low': 22.98,
+    'open': 23.0,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 3282.0,
+    'vwap': 22.987921}}
+2025-08-21 12:14:16 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:14:16 INFO: Current average volume is: 3632.2
+2025-08-21 12:14:16 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:15:16 INFO: {'XPEV': {   'close': 22.95,
+    'high': 22.985,
+    'low': 22.95,
+    'open': 22.985,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 2230.0,
+    'vwap': 22.9685}}
+2025-08-21 12:15:16 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:15:16 INFO: Current average volume is: 3789.5
+2025-08-21 12:15:16 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:16:16 INFO: {'XPEV': {   'close': 22.945,
+    'high': 22.975,
+    'low': 22.94,
+    'open': 22.945,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1906.0,
+    'vwap': 22.948158}}
+2025-08-21 12:16:16 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:16:16 INFO: Current average volume is: 3527.1
+2025-08-21 12:16:16 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:17:16 INFO: {'XPEV': {   'close': 22.99,
+    'high': 22.99,
+    'low': 22.93,
+    'open': 22.94,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 39.0,
+    'volume': 4699.0,
+    'vwap': 22.946437}}
+2025-08-21 12:17:16 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:17:16 INFO: Current average volume is: 3842.2
+2025-08-21 12:17:16 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:18:17 INFO: {'XPEV': {   'close': 23.015,
+    'high': 23.015,
+    'low': 22.975,
+    'open': 22.985,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2737.0,
+    'vwap': 22.988121}}
+2025-08-21 12:18:17 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:18:17 INFO: Current average volume is: 3883.5
+2025-08-21 12:18:17 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:19:17 INFO: {'XPEV': {   'close': 23.02,
+    'high': 23.035,
+    'low': 23.01,
+    'open': 23.01,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 34.0,
+    'volume': 4880.0,
+    'vwap': 23.025064}}
+2025-08-21 12:19:17 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:19:17 INFO: Current average volume is: 3835.2
+2025-08-21 12:19:17 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:20:17 INFO: {'XPEV': {   'close': 23.07,
+    'high': 23.07,
+    'low': 23.045,
+    'open': 23.05,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3427.0,
+    'vwap': 23.053751}}
+2025-08-21 12:20:17 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:20:17 INFO: Current average volume is: 3757.5
+2025-08-21 12:20:17 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:21:17 INFO: {'XPEV': {   'close': 23.01,
+    'high': 23.065,
+    'low': 22.995,
+    'open': 23.065,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3171.0,
+    'vwap': 23.015504}}
+2025-08-21 12:21:17 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:21:17 INFO: Current average volume is: 3110.6
+2025-08-21 12:21:17 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:22:17 INFO: {'XPEV': {   'close': 22.97,
+    'high': 23.005,
+    'low': 22.97,
+    'open': 23.0,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 777.0,
+    'vwap': 22.993698}}
+2025-08-21 12:22:17 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:22:17 INFO: Current average volume is: 2949.0
+2025-08-21 12:22:17 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:23:17 INFO: {'XPEV': {   'close': 23.01,
+    'high': 23.02,
+    'low': 22.99,
+    'open': 22.99,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 3416.0,
+    'vwap': 22.999575}}
+2025-08-21 12:23:17 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:23:17 INFO: Current average volume is: 3052.5
+2025-08-21 12:23:17 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:25:18 INFO: {'XPEV': {   'close': 22.99,
+    'high': 22.99,
+    'low': 22.985,
+    'open': 22.985,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1406.0,
+    'vwap': 22.986429}}
+2025-08-21 12:25:18 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:25:18 INFO: Current average volume is: 2864.9
+2025-08-21 12:25:18 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:26:18 INFO: {'XPEV': {   'close': 22.94,
+    'high': 22.975,
+    'low': 22.94,
+    'open': 22.97,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 3915.0,
+    'vwap': 22.956886}}
+2025-08-21 12:26:18 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:26:18 INFO: Current average volume is: 3033.4
+2025-08-21 12:26:18 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:27:18 INFO: {'XPEV': {   'close': 22.915,
+    'high': 22.935,
+    'low': 22.89,
+    'open': 22.935,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 23.0,
+    'volume': 5833.0,
+    'vwap': 22.906082}}
+2025-08-21 12:27:18 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:27:18 INFO: Current average volume is: 3426.1
+2025-08-21 12:27:18 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:28:18 INFO: {'XPEV': {   'close': 22.88,
+    'high': 22.915,
+    'low': 22.88,
+    'open': 22.915,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 5735.0,
+    'vwap': 22.895047}}
+2025-08-21 12:28:18 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:28:18 INFO: Current average volume is: 3529.7
+2025-08-21 12:28:18 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:29:18 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.895,
+    'low': 22.89,
+    'open': 22.89,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 978.0,
+    'vwap': 22.890776}}
+2025-08-21 12:29:18 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:29:18 INFO: Current average volume is: 3353.8
+2025-08-21 12:29:18 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:30:19 INFO: {'XPEV': {   'close': 22.91,
+    'high': 22.91,
+    'low': 22.88,
+    'open': 22.88,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 405.0,
+    'vwap': 22.8875}}
+2025-08-21 12:30:19 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:30:19 INFO: Current average volume is: 2906.3
+2025-08-21 12:30:19 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:32:19 INFO: {'XPEV': {   'close': 22.915,
+    'high': 22.92,
+    'low': 22.89,
+    'open': 22.92,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1246.0,
+    'vwap': 22.89964}}
+2025-08-21 12:32:19 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:32:19 INFO: Current average volume is: 2688.2
+2025-08-21 12:32:19 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:33:19 INFO: {'XPEV': {   'close': 22.93,
+    'high': 22.93,
+    'low': 22.93,
+    'open': 22.93,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 217.0,
+    'vwap': 22.93}}
+2025-08-21 12:33:19 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:33:19 INFO: Current average volume is: 2392.8
+2025-08-21 12:33:19 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:34:19 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.91,
+    'low': 22.89,
+    'open': 22.91,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 626.0,
+    'vwap': 22.89358}}
+2025-08-21 12:34:19 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:34:19 INFO: Current average volume is: 2377.7
+2025-08-21 12:34:19 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:35:19 INFO: {'XPEV': {   'close': 22.93,
+    'high': 22.935,
+    'low': 22.885,
+    'open': 22.89,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 4206.0,
+    'vwap': 22.911089}}
+2025-08-21 12:35:19 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:35:19 INFO: Current average volume is: 2456.7
+2025-08-21 12:35:19 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:36:20 INFO: {'XPEV': {   'close': 22.94,
+    'high': 22.95,
+    'low': 22.94,
+    'open': 22.945,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1905.0,
+    'vwap': 22.946316}}
+2025-08-21 12:36:20 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:36:20 INFO: Current average volume is: 2506.6
+2025-08-21 12:36:20 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:38:20 INFO: {'XPEV': {   'close': 22.99,
+    'high': 22.99,
+    'low': 22.99,
+    'open': 22.99,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 255.0,
+    'vwap': 22.99}}
+2025-08-21 12:38:20 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:38:20 INFO: Current average volume is: 2140.6
+2025-08-21 12:38:20 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:39:20 INFO: {'XPEV': {   'close': 23.0,
+    'high': 23.0,
+    'low': 23.0,
+    'open': 23.0,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1019.0,
+    'vwap': 23.0}}
+2025-08-21 12:39:20 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:39:20 INFO: Current average volume is: 1659.2
+2025-08-21 12:39:20 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:40:20 INFO: {'XPEV': {   'close': 22.935,
+    'high': 22.965,
+    'low': 22.935,
+    'open': 22.965,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 1953.0,
+    'vwap': 22.947724}}
+2025-08-21 12:40:20 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:40:20 INFO: Current average volume is: 1281.0
+2025-08-21 12:40:20 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:41:20 INFO: {'XPEV': {   'close': 22.95,
+    'high': 22.95,
+    'low': 22.945,
+    'open': 22.945,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2974.0,
+    'vwap': 22.948103}}
+2025-08-21 12:41:20 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:41:20 INFO: Current average volume is: 1480.6
+2025-08-21 12:41:20 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:42:21 INFO: {'XPEV': {   'close': 23.005,
+    'high': 23.03,
+    'low': 22.955,
+    'open': 22.955,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2809.0,
+    'vwap': 22.997929}}
+2025-08-21 12:42:21 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:42:21 INFO: Current average volume is: 1721.0
+2025-08-21 12:42:21 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:43:21 INFO: {'XPEV': {   'close': 22.985,
+    'high': 22.99,
+    'low': 22.985,
+    'open': 22.99,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 750.0,
+    'vwap': 22.985667}}
+2025-08-21 12:43:21 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:43:21 INFO: Current average volume is: 1671.4
+2025-08-21 12:43:21 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:44:21 INFO: {'XPEV': {   'close': 23.0,
+    'high': 23.0,
+    'low': 23.0,
+    'open': 23.0,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 287.0,
+    'vwap': 23.0}}
+2025-08-21 12:44:21 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:44:21 INFO: Current average volume is: 1678.4
+2025-08-21 12:44:21 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:45:21 INFO: {'XPEV': {   'close': 22.975,
+    'high': 22.98,
+    'low': 22.975,
+    'open': 22.98,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 309.0,
+    'vwap': 22.978148}}
+2025-08-21 12:45:21 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:45:21 INFO: Current average volume is: 1646.7
+2025-08-21 12:45:21 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:47:21 INFO: {'XPEV': {   'close': 22.965,
+    'high': 22.965,
+    'low': 22.96,
+    'open': 22.96,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 377.0,
+    'vwap': 22.963195}}
+2025-08-21 12:47:21 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:47:21 INFO: Current average volume is: 1263.8
+2025-08-21 12:47:21 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:48:22 INFO: {'XPEV': {   'close': 22.97,
+    'high': 22.97,
+    'low': 22.965,
+    'open': 22.97,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 786.0,
+    'vwap': 22.968571}}
+2025-08-21 12:48:22 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:48:22 INFO: Current average volume is: 1151.9
+2025-08-21 12:48:22 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:51:22 INFO: {'XPEV': {   'close': 22.96,
+    'high': 22.96,
+    'low': 22.955,
+    'open': 22.955,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 602.0,
+    'vwap': 22.959004}}
+2025-08-21 12:51:22 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:51:22 INFO: Current average volume is: 1186.6
+2025-08-21 12:51:22 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:52:22 INFO: {'XPEV': {   'close': 22.95,
+    'high': 22.95,
+    'low': 22.95,
+    'open': 22.95,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 22.95}}
+2025-08-21 12:52:22 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:52:22 INFO: Current average volume is: 1094.7
+2025-08-21 12:52:22 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:53:23 INFO: {'XPEV': {   'close': 22.955,
+    'high': 22.955,
+    'low': 22.91,
+    'open': 22.92,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1099.0,
+    'vwap': 22.9155}}
+2025-08-21 12:53:23 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:53:23 INFO: Current average volume is: 1009.3
+2025-08-21 12:53:23 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:54:23 INFO: {'XPEV': {   'close': 23.0,
+    'high': 23.0,
+    'low': 23.0,
+    'open': 23.0,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 23.0}}
+2025-08-21 12:54:23 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:54:23 INFO: Current average volume is: 721.9
+2025-08-21 12:54:23 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:56:23 INFO: {'XPEV': {   'close': 22.995,
+    'high': 23.03,
+    'low': 22.995,
+    'open': 23.03,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 4226.0,
+    'vwap': 23.000348}}
+2025-08-21 12:56:23 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:56:23 INFO: Current average volume is: 863.6
+2025-08-21 12:56:23 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:57:23 INFO: {'XPEV': {   'close': 22.975,
+    'high': 22.975,
+    'low': 22.975,
+    'open': 22.975,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 22.975}}
+2025-08-21 12:57:23 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:57:23 INFO: Current average volume is: 798.8
+2025-08-21 12:57:23 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 12:59:24 INFO: {'XPEV': {   'close': 22.93,
+    'high': 22.93,
+    'low': 22.93,
+    'open': 22.93,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 222.0,
+    'vwap': 22.93}}
+2025-08-21 12:59:24 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 12:59:24 INFO: Current average volume is: 792.3
+2025-08-21 12:59:24 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:02:24 INFO: {'XPEV': {   'close': 22.99,
+    'high': 22.99,
+    'low': 22.96,
+    'open': 22.96,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 503.0,
+    'vwap': 22.98}}
+2025-08-21 13:02:24 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:02:24 INFO: Current average volume is: 811.7
+2025-08-21 13:02:24 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:05:24 INFO: {'XPEV': {   'close': 22.935,
+    'high': 22.94,
+    'low': 22.935,
+    'open': 22.94,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 823.0,
+    'vwap': 22.936962}}
+2025-08-21 13:05:24 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:05:24 INFO: Current average volume is: 856.3
+2025-08-21 13:05:24 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:06:25 INFO: {'XPEV': {   'close': 22.93,
+    'high': 22.95,
+    'low': 22.93,
+    'open': 22.95,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 4361.0,
+    'vwap': 22.936278}}
+2025-08-21 13:06:25 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:06:25 INFO: Current average volume is: 1213.8
+2025-08-21 13:06:25 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:08:25 INFO: {'XPEV': {   'close': 22.92,
+    'high': 22.94,
+    'low': 22.92,
+    'open': 22.94,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 22.933197}}
+2025-08-21 13:08:25 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:08:25 INFO: Current average volume is: 1183.6
+2025-08-21 13:08:25 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:09:25 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.9,
+    'low': 22.89,
+    'open': 22.9,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1944.0,
+    'vwap': 22.897037}}
+2025-08-21 13:09:25 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:09:25 INFO: Current average volume is: 1368.0
+2025-08-21 13:09:25 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:11:25 INFO: {'XPEV': {   'close': 22.86,
+    'high': 22.91,
+    'low': 22.855,
+    'open': 22.91,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2387.0,
+    'vwap': 22.870227}}
+2025-08-21 13:11:25 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:11:25 INFO: Current average volume is: 1496.8
+2025-08-21 13:11:25 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:12:26 INFO: {'XPEV': {   'close': 22.85,
+    'high': 22.85,
+    'low': 22.84,
+    'open': 22.84,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1813.0,
+    'vwap': 22.843125}}
+2025-08-21 13:12:26 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:12:26 INFO: Current average volume is: 1668.1
+2025-08-21 13:12:26 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:13:26 INFO: {'XPEV': {   'close': 22.87,
+    'high': 22.87,
+    'low': 22.855,
+    'open': 22.855,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 499.0,
+    'vwap': 22.86125}}
+2025-08-21 13:13:26 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:13:26 INFO: Current average volume is: 1295.4
+2025-08-21 13:13:26 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:14:26 INFO: {'XPEV': {   'close': 22.88,
+    'high': 22.88,
+    'low': 22.875,
+    'open': 22.875,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 204.0,
+    'vwap': 22.8775}}
+2025-08-21 13:14:26 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:14:26 INFO: Current average volume is: 1305.6
+2025-08-21 13:14:26 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:16:26 INFO: {'XPEV': {   'close': 22.865,
+    'high': 22.87,
+    'low': 22.865,
+    'open': 22.87,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 22.866667}}
+2025-08-21 13:16:26 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:16:26 INFO: Current average volume is: 1323.4
+2025-08-21 13:16:26 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:19:27 INFO: {'XPEV': {   'close': 22.86,
+    'high': 22.86,
+    'low': 22.86,
+    'open': 22.86,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 22.86}}
+2025-08-21 13:19:27 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:19:27 INFO: Current average volume is: 1283.1
+2025-08-21 13:19:27 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:21:27 INFO: {'XPEV': {   'close': 22.88,
+    'high': 22.88,
+    'low': 22.87,
+    'open': 22.87,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 22.8725}}
+2025-08-21 13:21:27 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:21:27 INFO: Current average volume is: 1240.8
+2025-08-21 13:21:27 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:25:28 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.895,
+    'low': 22.89,
+    'open': 22.895,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 231.0,
+    'vwap': 22.8925}}
+2025-08-21 13:25:28 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:25:28 INFO: Current average volume is: 827.8
+2025-08-21 13:25:28 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:26:28 INFO: {'XPEV': {   'close': 22.88,
+    'high': 22.88,
+    'low': 22.88,
+    'open': 22.88,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 22.88}}
+2025-08-21 13:26:28 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:26:28 INFO: Current average volume is: 807.8
+2025-08-21 13:26:28 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:28:28 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.89,
+    'low': 22.89,
+    'open': 22.89,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1201.0,
+    'vwap': 22.89}}
+2025-08-21 13:28:28 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:28:28 INFO: Current average volume is: 733.5
+2025-08-21 13:28:28 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:30:29 INFO: {'XPEV': {   'close': 22.915,
+    'high': 22.92,
+    'low': 22.915,
+    'open': 22.92,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 22.919}}
+2025-08-21 13:30:29 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:30:29 INFO: Current average volume is: 544.8
+2025-08-21 13:30:29 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:31:29 INFO: {'XPEV': {   'close': 22.93,
+    'high': 22.93,
+    'low': 22.925,
+    'open': 22.925,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 1005.0,
+    'vwap': 22.9255}}
+2025-08-21 13:31:29 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:31:29 INFO: Current average volume is: 464.0
+2025-08-21 13:31:29 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:32:29 INFO: {'XPEV': {   'close': 22.92,
+    'high': 22.92,
+    'low': 22.92,
+    'open': 22.92,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 900.0,
+    'vwap': 22.92}}
+2025-08-21 13:32:29 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:32:29 INFO: Current average volume is: 504.1
+2025-08-21 13:32:29 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:33:29 INFO: {'XPEV': {   'close': 22.91,
+    'high': 22.91,
+    'low': 22.91,
+    'open': 22.91,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1221.0,
+    'vwap': 22.91}}
+2025-08-21 13:33:29 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:33:29 INFO: Current average volume is: 605.8
+2025-08-21 13:33:29 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:34:29 INFO: {'XPEV': {   'close': 22.95,
+    'high': 22.95,
+    'low': 22.95,
+    'open': 22.95,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 22.95}}
+2025-08-21 13:34:29 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:34:29 INFO: Current average volume is: 575.8
+2025-08-21 13:34:29 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:38:30 INFO: {'XPEV': {   'close': 22.98,
+    'high': 22.995,
+    'low': 22.98,
+    'open': 22.995,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 284.0,
+    'vwap': 22.9875}}
+2025-08-21 13:38:30 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:38:30 INFO: Current average volume is: 594.2
+2025-08-21 13:38:30 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:39:30 INFO: {'XPEV': {   'close': 22.97,
+    'high': 22.98,
+    'low': 22.97,
+    'open': 22.98,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2108.0,
+    'vwap': 22.975025}}
+2025-08-21 13:39:30 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:39:30 INFO: Current average volume is: 765.0
+2025-08-21 13:39:30 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:40:30 INFO: {'XPEV': {   'close': 22.95,
+    'high': 22.95,
+    'low': 22.95,
+    'open': 22.95,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 22.95}}
+2025-08-21 13:40:30 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:40:30 INFO: Current average volume is: 751.9
+2025-08-21 13:40:30 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:41:30 INFO: {'XPEV': {   'close': 22.98,
+    'high': 22.98,
+    'low': 22.97,
+    'open': 22.97,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1047.0,
+    'vwap': 22.974965}}
+2025-08-21 13:41:30 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:41:30 INFO: Current average volume is: 846.6
+2025-08-21 13:41:30 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:46:31 INFO: {'XPEV': {   'close': 23.01,
+    'high': 23.01,
+    'low': 23.0,
+    'open': 23.0,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1350.0,
+    'vwap': 23.001667}}
+2025-08-21 13:46:31 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:46:31 INFO: Current average volume is: 861.5
+2025-08-21 13:46:31 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:47:31 INFO: {'XPEV': {   'close': 22.985,
+    'high': 22.99,
+    'low': 22.985,
+    'open': 22.99,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 751.0,
+    'vwap': 22.985666}}
+2025-08-21 13:47:31 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:47:31 INFO: Current average volume is: 886.6
+2025-08-21 13:47:31 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:49:32 INFO: {'XPEV': {   'close': 23.03,
+    'high': 23.03,
+    'low': 22.995,
+    'open': 22.995,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1423.0,
+    'vwap': 23.004837}}
+2025-08-21 13:49:32 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:49:32 INFO: Current average volume is: 928.4
+2025-08-21 13:49:32 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:50:32 INFO: {'XPEV': {   'close': 23.005,
+    'high': 23.02,
+    'low': 23.005,
+    'open': 23.02,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 559.0,
+    'vwap': 23.017}}
+2025-08-21 13:50:32 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:50:32 INFO: Current average volume is: 894.3
+2025-08-21 13:50:32 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:52:32 INFO: {'XPEV': {   'close': 22.985,
+    'high': 22.995,
+    'low': 22.985,
+    'open': 22.995,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 22.99}}
+2025-08-21 13:52:32 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:52:32 INFO: Current average volume is: 792.2
+2025-08-21 13:52:32 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:54:33 INFO: {'XPEV': {   'close': 22.97,
+    'high': 22.975,
+    'low': 22.965,
+    'open': 22.965,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 2132.0,
+    'vwap': 22.966248}}
+2025-08-21 13:54:33 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:54:33 INFO: Current average volume is: 995.4
+2025-08-21 13:54:33 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 13:56:33 INFO: {'XPEV': {   'close': 22.98,
+    'high': 22.98,
+    'low': 22.98,
+    'open': 22.98,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 22.98}}
+2025-08-21 13:56:33 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 13:56:33 INFO: Current average volume is: 987.0
+2025-08-21 13:56:33 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:00:34 INFO: {'XPEV': {   'close': 22.985,
+    'high': 22.985,
+    'low': 22.985,
+    'open': 22.985,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 445.0,
+    'vwap': 22.985}}
+2025-08-21 14:00:34 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:00:34 INFO: Current average volume is: 820.7
+2025-08-21 14:00:34 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:02:34 INFO: {'XPEV': {   'close': 22.965,
+    'high': 22.975,
+    'low': 22.965,
+    'open': 22.975,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 900.0,
+    'vwap': 22.96625}}
+2025-08-21 14:02:34 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:02:34 INFO: Current average volume is: 900.7
+2025-08-21 14:02:34 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:03:34 INFO: {'XPEV': {   'close': 22.97,
+    'high': 22.97,
+    'low': 22.97,
+    'open': 22.97,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 22.97}}
+2025-08-21 14:03:34 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:03:34 INFO: Current average volume is: 806.0
+2025-08-21 14:03:34 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:04:34 INFO: {'XPEV': {   'close': 22.99,
+    'high': 22.99,
+    'low': 22.985,
+    'open': 22.985,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 518.0,
+    'vwap': 22.985965}}
+2025-08-21 14:04:34 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:04:34 INFO: Current average volume is: 722.8
+2025-08-21 14:04:34 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:07:35 INFO: {'XPEV': {   'close': 22.975,
+    'high': 22.98,
+    'low': 22.975,
+    'open': 22.98,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 463.0,
+    'vwap': 22.97875}}
+2025-08-21 14:07:35 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:07:35 INFO: Current average volume is: 694.0
+2025-08-21 14:07:35 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:08:35 INFO: {'XPEV': {   'close': 22.97,
+    'high': 22.975,
+    'low': 22.97,
+    'open': 22.975,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 898.0,
+    'vwap': 22.97125}}
+2025-08-21 14:08:35 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:08:35 INFO: Current average volume is: 641.5
+2025-08-21 14:08:35 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:10:35 INFO: {'XPEV': {   'close': 22.92,
+    'high': 22.955,
+    'low': 22.92,
+    'open': 22.955,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1299.0,
+    'vwap': 22.923333}}
+2025-08-21 14:10:35 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:10:35 INFO: Current average volume is: 715.5
+2025-08-21 14:10:35 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:11:36 INFO: {'XPEV': {   'close': 22.93,
+    'high': 22.93,
+    'low': 22.91,
+    'open': 22.92,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1888.0,
+    'vwap': 22.917416}}
+2025-08-21 14:11:36 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:11:36 INFO: Current average volume is: 884.3
+2025-08-21 14:11:36 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:15:36 INFO: {'XPEV': {   'close': 22.9,
+    'high': 22.925,
+    'low': 22.9,
+    'open': 22.925,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1194.0,
+    'vwap': 22.907727}}
+2025-08-21 14:15:36 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:15:36 INFO: Current average volume is: 790.5
+2025-08-21 14:15:36 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:16:36 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.89,
+    'low': 22.89,
+    'open': 22.89,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 902.0,
+    'vwap': 22.89}}
+2025-08-21 14:16:36 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:16:36 INFO: Current average volume is: 860.7
+2025-08-21 14:16:36 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:19:37 INFO: {'XPEV': {   'close': 22.875,
+    'high': 22.875,
+    'low': 22.875,
+    'open': 22.875,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 22.875}}
+2025-08-21 14:19:37 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:19:37 INFO: Current average volume is: 836.4
+2025-08-21 14:19:37 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:21:37 INFO: {'XPEV': {   'close': 22.905,
+    'high': 22.92,
+    'low': 22.9,
+    'open': 22.92,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 2186.0,
+    'vwap': 22.908095}}
+2025-08-21 14:21:37 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:21:37 INFO: Current average volume is: 965.0
+2025-08-21 14:21:37 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:24:38 INFO: {'XPEV': {   'close': 22.915,
+    'high': 22.915,
+    'low': 22.915,
+    'open': 22.915,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 138.0,
+    'vwap': 22.915}}
+2025-08-21 14:24:38 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:24:38 INFO: Current average volume is: 968.8
+2025-08-21 14:24:38 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:25:38 INFO: {'XPEV': {   'close': 22.9,
+    'high': 22.9,
+    'low': 22.885,
+    'open': 22.885,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 494.0,
+    'vwap': 22.89625}}
+2025-08-21 14:25:38 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:25:38 INFO: Current average volume is: 966.4
+2025-08-21 14:25:38 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:27:38 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.89,
+    'low': 22.88,
+    'open': 22.89,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2745.0,
+    'vwap': 22.883423}}
+2025-08-21 14:27:38 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:27:38 INFO: Current average volume is: 1194.6
+2025-08-21 14:27:38 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:28:38 INFO: {'XPEV': {   'close': 22.895,
+    'high': 22.895,
+    'low': 22.895,
+    'open': 22.895,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 800.0,
+    'vwap': 22.895}}
+2025-08-21 14:28:38 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:28:38 INFO: Current average volume is: 1184.8
+2025-08-21 14:28:38 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:29:39 INFO: {'XPEV': {   'close': 22.9,
+    'high': 22.9,
+    'low': 22.9,
+    'open': 22.9,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 22.9}}
+2025-08-21 14:29:39 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:29:39 INFO: Current average volume is: 1134.9
+2025-08-21 14:29:39 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:30:39 INFO: {'XPEV': {   'close': 22.875,
+    'high': 22.875,
+    'low': 22.875,
+    'open': 22.875,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 303.0,
+    'vwap': 22.875}}
+2025-08-21 14:30:39 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:30:39 INFO: Current average volume is: 976.4
+2025-08-21 14:30:39 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:31:39 INFO: {'XPEV': {   'close': 22.865,
+    'high': 22.87,
+    'low': 22.865,
+    'open': 22.87,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 3510.0,
+    'vwap': 22.867736}}
+2025-08-21 14:31:39 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:31:39 INFO: Current average volume is: 1208.0
+2025-08-21 14:31:39 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:32:39 INFO: {'XPEV': {   'close': 22.855,
+    'high': 22.855,
+    'low': 22.855,
+    'open': 22.855,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 596.0,
+    'vwap': 22.855}}
+2025-08-21 14:32:39 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:32:39 INFO: Current average volume is: 1177.4
+2025-08-21 14:32:39 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:35:40 INFO: {'XPEV': {   'close': 22.83,
+    'high': 22.84,
+    'low': 22.83,
+    'open': 22.84,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 4513.0,
+    'vwap': 22.832959}}
+2025-08-21 14:35:40 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:35:40 INFO: Current average volume is: 1608.5
+2025-08-21 14:35:40 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:37:40 INFO: {'XPEV': {   'close': 22.845,
+    'high': 22.845,
+    'low': 22.845,
+    'open': 22.845,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 253.0,
+    'vwap': 22.845}}
+2025-08-21 14:37:40 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:37:40 INFO: Current average volume is: 1415.2
+2025-08-21 14:37:40 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:38:40 INFO: {'XPEV': {   'close': 22.85,
+    'high': 22.855,
+    'low': 22.85,
+    'open': 22.85,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 3010.0,
+    'vwap': 22.854486}}
+2025-08-21 14:38:40 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:38:40 INFO: Current average volume is: 1702.4
+2025-08-21 14:38:40 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:40:40 INFO: {'XPEV': {   'close': 22.87,
+    'high': 22.87,
+    'low': 22.87,
+    'open': 22.87,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 22.87}}
+2025-08-21 14:40:40 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:40:40 INFO: Current average volume is: 1683.0
+2025-08-21 14:40:40 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:42:41 INFO: {'XPEV': {   'close': 22.85,
+    'high': 22.85,
+    'low': 22.85,
+    'open': 22.85,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 741.0,
+    'vwap': 22.85}}
+2025-08-21 14:42:41 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:42:41 INFO: Current average volume is: 1482.6
+2025-08-21 14:42:41 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:44:41 INFO: {'XPEV': {   'close': 22.845,
+    'high': 22.855,
+    'low': 22.845,
+    'open': 22.855,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 22.850625}}
+2025-08-21 14:44:41 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:44:41 INFO: Current average volume is: 1482.6
+2025-08-21 14:44:41 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:45:41 INFO: {'XPEV': {   'close': 22.83,
+    'high': 22.84,
+    'low': 22.825,
+    'open': 22.84,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1371.0,
+    'vwap': 22.830833}}
+2025-08-21 14:45:41 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:45:41 INFO: Current average volume is: 1539.7
+2025-08-21 14:45:41 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:46:41 INFO: {'XPEV': {   'close': 22.78,
+    'high': 22.8,
+    'low': 22.78,
+    'open': 22.8,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1471.0,
+    'vwap': 22.790693}}
+2025-08-21 14:46:41 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:46:41 INFO: Current average volume is: 1656.5
+2025-08-21 14:46:41 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:47:42 INFO: {'XPEV': {   'close': 22.8,
+    'high': 22.805,
+    'low': 22.79,
+    'open': 22.79,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2407.0,
+    'vwap': 22.799894}}
+2025-08-21 14:47:42 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:47:42 INFO: Current average volume is: 1546.2
+2025-08-21 14:47:42 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:50:42 INFO: {'XPEV': {   'close': 22.79,
+    'high': 22.79,
+    'low': 22.77,
+    'open': 22.78,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 913.0,
+    'vwap': 22.777778}}
+2025-08-21 14:50:42 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:50:42 INFO: Current average volume is: 1577.9
+2025-08-21 14:50:42 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:51:42 INFO: {'XPEV': {   'close': 22.78,
+    'high': 22.78,
+    'low': 22.755,
+    'open': 22.755,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 2229.0,
+    'vwap': 22.769203}}
+2025-08-21 14:51:42 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:51:42 INFO: Current average volume is: 1349.5
+2025-08-21 14:51:42 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:52:43 INFO: {'XPEV': {   'close': 22.77,
+    'high': 22.775,
+    'low': 22.77,
+    'open': 22.775,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 2135.0,
+    'vwap': 22.771698}}
+2025-08-21 14:52:43 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:52:43 INFO: Current average volume is: 1537.7
+2025-08-21 14:52:43 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:53:43 INFO: {'XPEV': {   'close': 22.79,
+    'high': 22.79,
+    'low': 22.78,
+    'open': 22.78,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1477.0,
+    'vwap': 22.782143}}
+2025-08-21 14:53:43 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:53:43 INFO: Current average volume is: 1384.4
+2025-08-21 14:53:43 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:55:43 INFO: {'XPEV': {   'close': 22.76,
+    'high': 22.77,
+    'low': 22.76,
+    'open': 22.77,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2839.0,
+    'vwap': 22.76712}}
+2025-08-21 14:55:43 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:55:43 INFO: Current average volume is: 1638.3
+2025-08-21 14:55:43 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:56:43 INFO: {'XPEV': {   'close': 22.745,
+    'high': 22.75,
+    'low': 22.745,
+    'open': 22.75,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 1121.0,
+    'vwap': 22.746694}}
+2025-08-21 14:56:43 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:56:43 INFO: Current average volume is: 1676.3
+2025-08-21 14:56:43 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:57:43 INFO: {'XPEV': {   'close': 22.79,
+    'high': 22.79,
+    'low': 22.75,
+    'open': 22.755,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2013.0,
+    'vwap': 22.759724}}
+2025-08-21 14:57:43 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:57:43 INFO: Current average volume is: 1797.6
+2025-08-21 14:57:43 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:58:44 INFO: {'XPEV': {   'close': 22.8,
+    'high': 22.8,
+    'low': 22.8,
+    'open': 22.8,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 22.8}}
+2025-08-21 14:58:44 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:58:44 INFO: Current average volume is: 1670.5
+2025-08-21 14:58:44 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 14:59:44 INFO: {'XPEV': {   'close': 22.79,
+    'high': 22.79,
+    'low': 22.79,
+    'open': 22.79,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 356.0,
+    'vwap': 22.79}}
+2025-08-21 14:59:44 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 14:59:44 INFO: Current average volume is: 1559.0
+2025-08-21 14:59:44 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:01:44 INFO: {'XPEV': {   'close': 22.815,
+    'high': 22.815,
+    'low': 22.8,
+    'open': 22.81,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 22.808333}}
+2025-08-21 15:01:44 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:01:44 INFO: Current average volume is: 1348.3
+2025-08-21 15:01:44 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:02:44 INFO: {'XPEV': {   'close': 22.82,
+    'high': 22.83,
+    'low': 22.815,
+    'open': 22.815,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2240.0,
+    'vwap': 22.823014}}
+2025-08-21 15:02:44 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:02:44 INFO: Current average volume is: 1481.0
+2025-08-21 15:02:44 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:03:44 INFO: {'XPEV': {   'close': 22.815,
+    'high': 22.82,
+    'low': 22.81,
+    'open': 22.81,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 3207.0,
+    'vwap': 22.812656}}
+2025-08-21 15:03:44 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:03:44 INFO: Current average volume is: 1578.8
+2025-08-21 15:03:44 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:06:45 INFO: {'XPEV': {   'close': 22.805,
+    'high': 22.805,
+    'low': 22.805,
+    'open': 22.805,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 194.0,
+    'vwap': 22.805}}
+2025-08-21 15:06:45 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:06:45 INFO: Current average volume is: 1384.7
+2025-08-21 15:06:45 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:07:45 INFO: {'XPEV': {   'close': 22.82,
+    'high': 22.82,
+    'low': 22.81,
+    'open': 22.81,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 22.815}}
+2025-08-21 15:07:45 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:07:45 INFO: Current average volume is: 1257.0
+2025-08-21 15:07:45 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:10:46 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.895,
+    'low': 22.84,
+    'open': 22.845,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2825.0,
+    'vwap': 22.8527}}
+2025-08-21 15:10:46 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:10:46 INFO: Current average volume is: 1255.6
+2025-08-21 15:10:46 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:11:46 INFO: {'XPEV': {   'close': 22.905,
+    'high': 22.905,
+    'low': 22.9,
+    'open': 22.9,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 22.9025}}
+2025-08-21 15:11:46 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:11:46 INFO: Current average volume is: 1163.5
+2025-08-21 15:11:46 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:12:46 INFO: {'XPEV': {   'close': 22.91,
+    'high': 22.91,
+    'low': 22.91,
+    'open': 22.91,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 120.0,
+    'vwap': 22.91}}
+2025-08-21 15:12:46 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:12:46 INFO: Current average volume is: 974.2
+2025-08-21 15:12:46 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:16:47 INFO: {'XPEV': {   'close': 22.87,
+    'high': 22.89,
+    'low': 22.87,
+    'open': 22.89,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 433.0,
+    'vwap': 22.883333}}
+2025-08-21 15:16:47 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:16:47 INFO: Current average volume is: 1007.5
+2025-08-21 15:16:47 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:18:47 INFO: {'XPEV': {   'close': 22.84,
+    'high': 22.855,
+    'low': 22.83,
+    'open': 22.83,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2760.0,
+    'vwap': 22.849384}}
+2025-08-21 15:18:47 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:18:47 INFO: Current average volume is: 1247.9
+2025-08-21 15:18:47 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:20:47 INFO: {'XPEV': {   'close': 22.835,
+    'high': 22.835,
+    'low': 22.825,
+    'open': 22.825,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 2094.0,
+    'vwap': 22.83165}}
+2025-08-21 15:20:47 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:20:47 INFO: Current average volume is: 1427.3
+2025-08-21 15:20:47 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:21:47 INFO: {'XPEV': {   'close': 22.83,
+    'high': 22.83,
+    'low': 22.82,
+    'open': 22.83,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 22.824286}}
+2025-08-21 15:21:47 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:21:47 INFO: Current average volume is: 1273.3
+2025-08-21 15:21:47 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:22:48 INFO: {'XPEV': {   'close': 22.875,
+    'high': 22.88,
+    'low': 22.84,
+    'open': 22.84,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 3754.0,
+    'vwap': 22.867922}}
+2025-08-21 15:22:48 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:22:48 INFO: Current average volume is: 1328.0
+2025-08-21 15:22:48 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:23:48 INFO: {'XPEV': {   'close': 22.91,
+    'high': 22.91,
+    'low': 22.88,
+    'open': 22.88,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2105.0,
+    'vwap': 22.891429}}
+2025-08-21 15:23:48 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:23:48 INFO: Current average volume is: 1519.1
+2025-08-21 15:23:48 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:24:48 INFO: {'XPEV': {   'close': 22.9,
+    'high': 22.915,
+    'low': 22.9,
+    'open': 22.915,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1300.0,
+    'vwap': 22.901923}}
+2025-08-21 15:24:48 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:24:48 INFO: Current average volume is: 1629.1
+2025-08-21 15:24:48 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:27:48 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.9,
+    'low': 22.89,
+    'open': 22.9,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1031.0,
+    'vwap': 22.891572}}
+2025-08-21 15:27:48 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:27:48 INFO: Current average volume is: 1449.7
+2025-08-21 15:27:48 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:28:49 INFO: {'XPEV': {   'close': 22.86,
+    'high': 22.885,
+    'low': 22.86,
+    'open': 22.885,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 400.0,
+    'vwap': 22.871667}}
+2025-08-21 15:28:49 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:28:49 INFO: Current average volume is: 1469.7
+2025-08-21 15:28:49 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:29:49 INFO: {'XPEV': {   'close': 22.855,
+    'high': 22.86,
+    'low': 22.855,
+    'open': 22.86,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1502.0,
+    'vwap': 22.85733}}
+2025-08-21 15:29:49 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:29:49 INFO: Current average volume is: 1607.9
+2025-08-21 15:29:49 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:30:49 INFO: {'XPEV': {   'close': 22.85,
+    'high': 22.85,
+    'low': 22.84,
+    'open': 22.85,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 968.0,
+    'vwap': 22.843889}}
+2025-08-21 15:30:49 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:30:49 INFO: Current average volume is: 1661.4
+2025-08-21 15:30:49 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:31:49 INFO: {'XPEV': {   'close': 22.86,
+    'high': 22.86,
+    'low': 22.86,
+    'open': 22.86,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 437.0,
+    'vwap': 22.86}}
+2025-08-21 15:31:49 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:31:49 INFO: Current average volume is: 1429.1
+2025-08-21 15:31:49 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:33:49 INFO: {'XPEV': {   'close': 22.855,
+    'high': 22.87,
+    'low': 22.85,
+    'open': 22.87,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2549.0,
+    'vwap': 22.860042}}
+2025-08-21 15:33:49 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:33:49 INFO: Current average volume is: 1474.6
+2025-08-21 15:33:49 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:35:50 INFO: {'XPEV': {   'close': 22.88,
+    'high': 22.88,
+    'low': 22.875,
+    'open': 22.88,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 550.0,
+    'vwap': 22.876818}}
+2025-08-21 15:35:50 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:35:50 INFO: Current average volume is: 1459.6
+2025-08-21 15:35:50 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:37:50 INFO: {'XPEV': {   'close': 22.91,
+    'high': 22.91,
+    'low': 22.89,
+    'open': 22.89,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1800.0,
+    'vwap': 22.905}}
+2025-08-21 15:37:50 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:37:50 INFO: Current average volume is: 1264.2
+2025-08-21 15:37:50 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:39:50 INFO: {'XPEV': {   'close': 22.87,
+    'high': 22.94,
+    'low': 22.87,
+    'open': 22.9,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 61.0,
+    'volume': 10093.0,
+    'vwap': 22.910249}}
+2025-08-21 15:39:50 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:39:50 INFO: Current average volume is: 2063.0
+2025-08-21 15:39:50 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:42:51 INFO: {'XPEV': {   'close': 22.88,
+    'high': 22.88,
+    'low': 22.86,
+    'open': 22.86,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 700.0,
+    'vwap': 22.8675}}
+2025-08-21 15:42:51 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:42:51 INFO: Current average volume is: 2003.0
+2025-08-21 15:42:51 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:43:51 INFO: {'XPEV': {   'close': 22.89,
+    'high': 22.9,
+    'low': 22.875,
+    'open': 22.9,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1774.0,
+    'vwap': 22.886871}}
+2025-08-21 15:43:51 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:43:51 INFO: Current average volume is: 2077.3
+2025-08-21 15:43:51 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:46:52 INFO: {'XPEV': {   'close': 22.91,
+    'high': 22.915,
+    'low': 22.89,
+    'open': 22.91,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3316.0,
+    'vwap': 22.911341}}
+2025-08-21 15:46:52 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:46:52 INFO: Current average volume is: 2368.9
+2025-08-21 15:46:52 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:49:52 INFO: {'XPEV': {   'close': 22.895,
+    'high': 22.895,
+    'low': 22.885,
+    'open': 22.885,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1463.0,
+    'vwap': 22.894194}}
+2025-08-21 15:49:52 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:49:52 INFO: Current average volume is: 2365.0
+2025-08-21 15:49:52 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:50:52 INFO: {'XPEV': {   'close': 22.845,
+    'high': 22.89,
+    'low': 22.84,
+    'open': 22.89,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 50.0,
+    'volume': 6334.0,
+    'vwap': 22.874529}}
+2025-08-21 15:50:52 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:50:52 INFO: Current average volume is: 2901.6
+2025-08-21 15:50:52 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:51:52 INFO: {'XPEV': {   'close': 22.745,
+    'high': 22.845,
+    'low': 22.735,
+    'open': 22.845,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 6096.0,
+    'vwap': 22.769558}}
+2025-08-21 15:51:52 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:51:52 INFO: Current average volume is: 3467.5
+2025-08-21 15:51:52 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:52:53 INFO: {'XPEV': {   'close': 22.75,
+    'high': 22.76,
+    'low': 22.725,
+    'open': 22.76,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 4958.0,
+    'vwap': 22.741689}}
+2025-08-21 15:52:53 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:52:53 INFO: Current average volume is: 3708.4
+2025-08-21 15:52:53 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:53:53 INFO: {'XPEV': {   'close': 22.78,
+    'high': 22.78,
+    'low': 22.745,
+    'open': 22.75,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 5375.0,
+    'vwap': 22.762201}}
+2025-08-21 15:53:53 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:53:53 INFO: Current average volume is: 4190.9
+2025-08-21 15:53:53 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:55:53 INFO: {'XPEV': {   'close': 22.79,
+    'high': 22.79,
+    'low': 22.76,
+    'open': 22.785,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 32.0,
+    'volume': 6709.0,
+    'vwap': 22.775151}}
+2025-08-21 15:55:53 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:55:53 INFO: Current average volume is: 4681.8
+2025-08-21 15:55:53 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:56:53 INFO: {'XPEV': {   'close': 22.845,
+    'high': 22.845,
+    'low': 22.785,
+    'open': 22.8,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 68.0,
+    'volume': 8150.0,
+    'vwap': 22.810749}}
+2025-08-21 15:56:53 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:56:53 INFO: Current average volume is: 4487.5
+2025-08-21 15:56:53 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:57:53 INFO: {'XPEV': {   'close': 22.825,
+    'high': 22.84,
+    'low': 22.825,
+    'open': 22.84,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 64.0,
+    'volume': 9116.0,
+    'vwap': 22.833735}}
+2025-08-21 15:57:53 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:57:53 INFO: Current average volume is: 5329.1
+2025-08-21 15:57:53 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:58:54 INFO: {'XPEV': {   'close': 22.815,
+    'high': 22.85,
+    'low': 22.815,
+    'open': 22.825,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 92.0,
+    'volume': 11574.0,
+    'vwap': 22.829878}}
+2025-08-21 15:58:54 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:58:54 INFO: Current average volume is: 6309.1
+2025-08-21 15:58:54 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 15:59:54 INFO: {'XPEV': {   'close': 22.79,
+    'high': 22.81,
+    'low': 22.77,
+    'open': 22.81,
+    'symbol': 'XPEV',
+    'timestamp': datetime.datetime(2025, 8, 21, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 108.0,
+    'volume': 15700.0,
+    'vwap': 22.792787}}
+2025-08-21 15:59:54 INFO: Current resistance is: 23.245 and support is: 21.96
+2025-08-21 15:59:54 INFO: Current average volume is: 7547.5
+2025-08-21 15:59:54 INFO: Updated resistance to: 23.245 and support to: 21.96
+2025-08-21 16:00:54 INFO: The Market is closed...

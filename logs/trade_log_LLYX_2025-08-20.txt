@@ -1,0 +1,718 @@
+2025-08-20 09:55:13 INFO: === Strategy started ===
+2025-08-20 09:55:13 INFO: Start collecting the current highs/lows for: LLYX
+2025-08-20 09:55:13 INFO: Most recent stock data: {'LLYX': {   'close': 11.77,
+    'high': 11.77,
+    'low': 11.77,
+    'open': 11.77,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 11.77}}
+2025-08-20 09:56:14 INFO: Most recent stock data: {'LLYX': {   'close': 11.67,
+    'high': 11.67,
+    'low': 11.67,
+    'open': 11.67,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 11.67}}
+2025-08-20 09:57:14 INFO: Most recent stock data: {'LLYX': {   'close': 11.59,
+    'high': 11.66,
+    'low': 11.59,
+    'open': 11.66,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 517.0,
+    'vwap': 11.622951}}
+2025-08-20 09:58:14 INFO: Most recent stock data: {'LLYX': {   'close': 11.54,
+    'high': 11.59,
+    'low': 11.54,
+    'open': 11.59,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1500.0,
+    'vwap': 11.551864}}
+2025-08-20 09:59:14 INFO: Most recent stock data: {'LLYX': {   'close': 11.61,
+    'high': 11.61,
+    'low': 11.61,
+    'open': 11.61,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 13, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 11.61}}
+2025-08-20 10:01:14 INFO: Most recent stock data: {'LLYX': {   'close': 11.71,
+    'high': 11.71,
+    'low': 11.67,
+    'open': 11.68,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 900.0,
+    'vwap': 11.695556}}
+2025-08-20 10:02:15 INFO: Most recent stock data: {'LLYX': {   'close': 11.74,
+    'high': 11.75,
+    'low': 11.73,
+    'open': 11.74,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1800.0,
+    'vwap': 11.740556}}
+2025-08-20 10:03:15 INFO: Most recent stock data: {'LLYX': {   'close': 11.74,
+    'high': 11.74,
+    'low': 11.74,
+    'open': 11.74,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 11.74}}
+2025-08-20 10:04:15 INFO: Most recent stock data: {'LLYX': {   'close': 11.77,
+    'high': 11.77,
+    'low': 11.75,
+    'open': 11.75,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 340.0,
+    'vwap': 11.758235}}
+2025-08-20 10:06:15 INFO: Most recent stock data: {'LLYX': {   'close': 11.77,
+    'high': 11.79,
+    'low': 11.77,
+    'open': 11.79,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 350.0,
+    'vwap': 11.778571}}
+2025-08-20 10:10:16 INFO: Most recent stock data: {'LLYX': {   'close': 11.8,
+    'high': 11.8,
+    'low': 11.8,
+    'open': 11.8,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 11.8}}
+2025-08-20 10:10:16 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-20 10:10:16 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-20 10:12:16 INFO: {'LLYX': {   'close': 11.78,
+    'high': 11.78,
+    'low': 11.78,
+    'open': 11.78,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 170.0,
+    'vwap': 11.78}}
+2025-08-20 10:12:16 INFO: Current resistance is: 11.8 and support is: 11.54
+2025-08-20 10:12:16 INFO: Current average volume is: 637.7
+2025-08-20 10:12:16 INFO: Updated resistance to: 11.8 and support to: 11.54
+2025-08-20 10:13:17 INFO: {'LLYX': {   'close': 11.82,
+    'high': 11.82,
+    'low': 11.82,
+    'open': 11.82,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.82}}
+2025-08-20 10:13:17 INFO: Current resistance is: 11.8 and support is: 11.54
+2025-08-20 10:13:17 INFO: Current average volume is: 606.0
+2025-08-20 10:13:17 INFO: The Current Close 11.82 is above the resistance...
+2025-08-20 10:13:17 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:14:17 INFO: {'LLYX': {   'close': 11.81,
+    'high': 11.81,
+    'low': 11.81,
+    'open': 11.81,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 11.81}}
+2025-08-20 10:14:17 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:14:17 INFO: Current average volume is: 506.0
+2025-08-20 10:14:17 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:18:18 INFO: {'LLYX': {   'close': 11.78,
+    'high': 11.79,
+    'low': 11.78,
+    'open': 11.79,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 600.0,
+    'vwap': 11.783043}}
+2025-08-20 10:18:18 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:18:18 INFO: Current average volume is: 516.0
+2025-08-20 10:18:18 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:20:18 INFO: {'LLYX': {   'close': 11.76,
+    'high': 11.76,
+    'low': 11.76,
+    'open': 11.76,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 160.0,
+    'vwap': 11.76}}
+2025-08-20 10:20:18 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:20:18 INFO: Current average volume is: 442.0
+2025-08-20 10:20:18 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:23:18 INFO: {'LLYX': {   'close': 11.72,
+    'high': 11.73,
+    'low': 11.72,
+    'open': 11.73,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 314.0,
+    'vwap': 11.723631}}
+2025-08-20 10:23:18 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:23:18 INFO: Current average volume is: 293.4
+2025-08-20 10:23:18 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:24:19 INFO: {'LLYX': {   'close': 11.71,
+    'high': 11.71,
+    'low': 11.71,
+    'open': 11.71,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.71}}
+2025-08-20 10:24:19 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:24:19 INFO: Current average volume is: 303.4
+2025-08-20 10:24:19 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:29:19 INFO: {'LLYX': {   'close': 11.78,
+    'high': 11.79,
+    'low': 11.78,
+    'open': 11.79,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 425.0,
+    'vwap': 11.784048}}
+2025-08-20 10:29:19 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:29:19 INFO: Current average volume is: 311.9
+2025-08-20 10:29:19 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:30:20 INFO: {'LLYX': {   'close': 11.77,
+    'high': 11.77,
+    'low': 11.77,
+    'open': 11.77,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.77}}
+2025-08-20 10:30:20 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:30:20 INFO: Current average volume is: 296.9
+2025-08-20 10:30:20 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:32:20 INFO: {'LLYX': {   'close': 11.74,
+    'high': 11.74,
+    'low': 11.74,
+    'open': 11.74,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.74}}
+2025-08-20 10:32:20 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:32:20 INFO: Current average volume is: 296.9
+2025-08-20 10:32:20 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:33:20 INFO: {'LLYX': {   'close': 11.73,
+    'high': 11.73,
+    'low': 11.73,
+    'open': 11.73,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.73}}
+2025-08-20 10:33:20 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:33:20 INFO: Current average volume is: 299.9
+2025-08-20 10:33:20 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:34:20 INFO: {'LLYX': {   'close': 11.72,
+    'high': 11.72,
+    'low': 11.72,
+    'open': 11.72,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.72}}
+2025-08-20 10:34:20 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:34:20 INFO: Current average volume is: 299.9
+2025-08-20 10:34:20 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:35:20 INFO: {'LLYX': {   'close': 11.7,
+    'high': 11.7,
+    'low': 11.7,
+    'open': 11.7,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 11.7}}
+2025-08-20 10:35:20 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:35:20 INFO: Current average volume is: 289.9
+2025-08-20 10:35:20 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:40:21 INFO: {'LLYX': {   'close': 11.67,
+    'high': 11.67,
+    'low': 11.67,
+    'open': 11.67,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 11.67}}
+2025-08-20 10:40:21 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:40:21 INFO: Current average volume is: 249.9
+2025-08-20 10:40:21 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:44:22 INFO: {'LLYX': {   'close': 11.65,
+    'high': 11.65,
+    'low': 11.65,
+    'open': 11.65,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 11.65}}
+2025-08-20 10:44:22 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:44:22 INFO: Current average volume is: 253.9
+2025-08-20 10:44:22 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:46:22 INFO: {'LLYX': {   'close': 11.58,
+    'high': 11.62,
+    'low': 11.58,
+    'open': 11.62,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 11.604791}}
+2025-08-20 10:46:22 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:46:22 INFO: Current average volume is: 262.5
+2025-08-20 10:46:22 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:51:23 INFO: {'LLYX': {   'close': 11.6,
+    'high': 11.6,
+    'low': 11.6,
+    'open': 11.6,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.6}}
+2025-08-20 10:51:23 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:51:23 INFO: Current average volume is: 262.5
+2025-08-20 10:51:23 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:53:23 INFO: {'LLYX': {   'close': 11.62,
+    'high': 11.62,
+    'low': 11.62,
+    'open': 11.62,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 11.62}}
+2025-08-20 10:53:23 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:53:23 INFO: Current average volume is: 240.0
+2025-08-20 10:53:23 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:54:23 INFO: {'LLYX': {   'close': 11.66,
+    'high': 11.66,
+    'low': 11.66,
+    'open': 11.66,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 11.66}}
+2025-08-20 10:54:23 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:54:23 INFO: Current average volume is: 230.0
+2025-08-20 10:54:23 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 10:57:24 INFO: {'LLYX': {   'close': 11.67,
+    'high': 11.67,
+    'low': 11.67,
+    'open': 11.67,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 14, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 11.67}}
+2025-08-20 10:57:24 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 10:57:24 INFO: Current average volume is: 230.0
+2025-08-20 10:57:24 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:05:25 INFO: {'LLYX': {   'close': 11.7,
+    'high': 11.7,
+    'low': 11.7,
+    'open': 11.7,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 11.7}}
+2025-08-20 11:05:25 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:05:25 INFO: Current average volume is: 250.0
+2025-08-20 11:05:25 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:09:26 INFO: {'LLYX': {   'close': 11.72,
+    'high': 11.72,
+    'low': 11.72,
+    'open': 11.72,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.72}}
+2025-08-20 11:09:26 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:09:26 INFO: Current average volume is: 250.0
+2025-08-20 11:09:26 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:18:28 INFO: {'LLYX': {   'close': 11.71,
+    'high': 11.71,
+    'low': 11.71,
+    'open': 11.71,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 225.0,
+    'vwap': 11.71}}
+2025-08-20 11:18:28 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:18:28 INFO: Current average volume is: 232.5
+2025-08-20 11:18:28 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:24:29 INFO: {'LLYX': {   'close': 11.78,
+    'high': 11.78,
+    'low': 11.78,
+    'open': 11.78,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 175.0,
+    'vwap': 11.78}}
+2025-08-20 11:24:29 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:24:29 INFO: Current average volume is: 230.0
+2025-08-20 11:24:29 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:29:29 INFO: {'LLYX': {   'close': 11.74,
+    'high': 11.74,
+    'low': 11.74,
+    'open': 11.74,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.74}}
+2025-08-20 11:29:29 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:29:29 INFO: Current average volume is: 230.0
+2025-08-20 11:29:29 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:30:30 INFO: {'LLYX': {   'close': 11.73,
+    'high': 11.73,
+    'low': 11.73,
+    'open': 11.73,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 11.73}}
+2025-08-20 11:30:30 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:30:30 INFO: Current average volume is: 240.0
+2025-08-20 11:30:30 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:31:30 INFO: {'LLYX': {   'close': 11.74,
+    'high': 11.74,
+    'low': 11.74,
+    'open': 11.74,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.74}}
+2025-08-20 11:31:30 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:31:30 INFO: Current average volume is: 240.0
+2025-08-20 11:31:30 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:34:30 INFO: {'LLYX': {   'close': 11.735,
+    'high': 11.735,
+    'low': 11.735,
+    'open': 11.735,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.735}}
+2025-08-20 11:34:30 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:34:30 INFO: Current average volume is: 240.0
+2025-08-20 11:34:30 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:35:30 INFO: {'LLYX': {   'close': 11.75,
+    'high': 11.75,
+    'low': 11.75,
+    'open': 11.75,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 11.75}}
+2025-08-20 11:35:30 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:35:30 INFO: Current average volume is: 250.0
+2025-08-20 11:35:30 INFO: Updated resistance to: 11.82 and support to: 11.54
+2025-08-20 11:46:32 INFO: {'LLYX': {   'close': 11.84,
+    'high': 11.84,
+    'low': 11.82,
+    'open': 11.82,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 11.835748}}
+2025-08-20 11:46:32 INFO: Current resistance is: 11.82 and support is: 11.54
+2025-08-20 11:46:32 INFO: Current average volume is: 310.0
+2025-08-20 11:46:32 INFO: The Current Close 11.84 is above the resistance...
+2025-08-20 11:46:32 INFO: Updated resistance to: 11.84 and support to: 11.54
+2025-08-20 11:48:03 INFO: {'LLYX': {   'close': 11.83,
+    'high': 11.83,
+    'low': 11.83,
+    'open': 11.83,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 11.83}}
+2025-08-20 11:48:03 INFO: Current resistance is: 11.84 and support is: 11.54
+2025-08-20 11:48:03 INFO: Current average volume is: 280.0
+2025-08-20 11:48:03 INFO: Updated resistance to: 11.84 and support to: 11.54
+2025-08-20 11:59:05 INFO: {'LLYX': {   'close': 11.88,
+    'high': 11.88,
+    'low': 11.88,
+    'open': 11.88,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 11.88}}
+2025-08-20 11:59:05 INFO: Current resistance is: 11.84 and support is: 11.54
+2025-08-20 11:59:05 INFO: Current average volume is: 280.0
+2025-08-20 11:59:05 INFO: The Current Close 11.88 is above the resistance...
+2025-08-20 11:59:05 INFO: Updated resistance to: 11.88 and support to: 11.54
+2025-08-20 12:02:06 INFO: {'LLYX': {   'close': 11.91,
+    'high': 11.91,
+    'low': 11.91,
+    'open': 11.91,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 11.91}}
+2025-08-20 12:02:06 INFO: Current resistance is: 11.88 and support is: 11.54
+2025-08-20 12:02:06 INFO: Current average volume is: 277.5
+2025-08-20 12:02:06 INFO: The current close: 11.91 is above the resistance of 11.88, but volume isn't enough...
+2025-08-20 12:02:06 INFO: Updated resistance to: 11.91 and support to: 11.54
+2025-08-20 12:05:07 INFO: {'LLYX': {   'close': 11.9,
+    'high': 11.9,
+    'low': 11.9,
+    'open': 11.9,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 11.9}}
+2025-08-20 12:05:07 INFO: Current resistance is: 11.91 and support is: 11.54
+2025-08-20 12:05:07 INFO: Current average volume is: 290.0
+2025-08-20 12:05:07 INFO: Updated resistance to: 11.91 and support to: 11.54
+2025-08-20 12:19:09 INFO: {'LLYX': {   'close': 11.93,
+    'high': 11.93,
+    'low': 11.915,
+    'open': 11.915,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 11.9225}}
+2025-08-20 12:19:09 INFO: Current resistance is: 11.91 and support is: 11.54
+2025-08-20 12:19:09 INFO: Current average volume is: 310.0
+2025-08-20 12:19:09 INFO: The Current Close 11.93 is above the resistance...
+2025-08-20 12:19:09 INFO: Updated resistance to: 11.93 and support to: 11.54
+2025-08-20 12:32:13 INFO: {'LLYX': {   'close': 11.91,
+    'high': 11.91,
+    'low': 11.91,
+    'open': 11.91,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 450.0,
+    'vwap': 11.91}}
+2025-08-20 12:32:13 INFO: Current resistance is: 11.93 and support is: 11.54
+2025-08-20 12:32:13 INFO: Current average volume is: 305.0
+2025-08-20 12:32:13 INFO: Updated resistance to: 11.93 and support to: 11.54
+2025-08-20 12:39:15 INFO: {'LLYX': {   'close': 11.92,
+    'high': 11.925,
+    'low': 11.92,
+    'open': 11.925,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 420.0,
+    'vwap': 11.922785}}
+2025-08-20 12:39:15 INFO: Current resistance is: 11.93 and support is: 11.54
+2025-08-20 12:39:15 INFO: Current average volume is: 327.0
+2025-08-20 12:39:15 INFO: Updated resistance to: 11.93 and support to: 11.54
+2025-08-20 12:49:16 INFO: {'LLYX': {   'close': 11.99,
+    'high': 11.99,
+    'low': 11.99,
+    'open': 11.99,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 600.0,
+    'vwap': 11.99}}
+2025-08-20 12:49:16 INFO: Current resistance is: 11.93 and support is: 11.54
+2025-08-20 12:49:16 INFO: Current average volume is: 367.0
+2025-08-20 12:49:16 INFO: The Current Close 11.99 is above the resistance...
+2025-08-20 12:49:16 INFO: Updated resistance to: 11.99 and support to: 11.54
+2025-08-20 13:07:22 INFO: {'LLYX': {   'close': 11.95,
+    'high': 11.95,
+    'low': 11.95,
+    'open': 11.95,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 11.95}}
+2025-08-20 13:07:22 INFO: Current resistance is: 11.99 and support is: 11.54
+2025-08-20 13:07:22 INFO: Current average volume is: 357.0
+2025-08-20 13:07:22 INFO: Updated resistance to: 11.99 and support to: 11.54
+2025-08-20 13:18:24 INFO: {'LLYX': {   'close': 11.97,
+    'high': 11.97,
+    'low': 11.97,
+    'open': 11.97,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 600.0,
+    'vwap': 11.97}}
+2025-08-20 13:18:24 INFO: Current resistance is: 11.99 and support is: 11.54
+2025-08-20 13:18:24 INFO: Current average volume is: 337.0
+2025-08-20 13:18:24 INFO: Updated resistance to: 11.99 and support to: 11.54
+2025-08-20 13:29:26 INFO: {'LLYX': {   'close': 11.98,
+    'high': 11.98,
+    'low': 11.98,
+    'open': 11.98,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 175.0,
+    'vwap': 11.98}}
+2025-08-20 13:29:26 INFO: Current resistance is: 11.99 and support is: 11.54
+2025-08-20 13:29:26 INFO: Current average volume is: 344.5
+2025-08-20 13:29:26 INFO: Updated resistance to: 11.99 and support to: 11.54
+2025-08-20 14:06:32 INFO: {'LLYX': {   'close': 12.03,
+    'high': 12.03,
+    'low': 12.03,
+    'open': 12.03,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 12.03}}
+2025-08-20 14:06:32 INFO: Current resistance is: 11.99 and support is: 11.54
+2025-08-20 14:06:32 INFO: Current average volume is: 344.5
+2025-08-20 14:06:32 INFO: The Current Close 12.03 is above the resistance...
+2025-08-20 14:06:32 INFO: Updated resistance to: 12.03 and support to: 11.54
+2025-08-20 14:40:13 INFO: {'LLYX': {   'close': 12.07,
+    'high': 12.07,
+    'low': 12.07,
+    'open': 12.07,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 175.0,
+    'vwap': 12.07}}
+2025-08-20 14:40:13 INFO: Current resistance is: 12.03 and support is: 11.54
+2025-08-20 14:40:13 INFO: Current average volume is: 342.0
+2025-08-20 14:40:13 INFO: The current close: 12.07 is above the resistance of 12.03, but volume isn't enough...
+2025-08-20 14:40:13 INFO: Updated resistance to: 12.07 and support to: 11.54
+2025-08-20 14:42:14 INFO: {'LLYX': {   'close': 12.1,
+    'high': 12.1,
+    'low': 12.1,
+    'open': 12.1,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 12.1}}
+2025-08-20 14:42:14 INFO: Current resistance is: 12.07 and support is: 11.54
+2025-08-20 14:42:14 INFO: Current average volume is: 362.0
+2025-08-20 14:42:14 INFO: The current close: 12.1 is above the resistance of 12.07, but volume isn't enough...
+2025-08-20 14:42:14 INFO: Updated resistance to: 12.1 and support to: 11.54
+2025-08-20 15:03:20 INFO: {'LLYX': {   'close': 12.11,
+    'high': 12.11,
+    'low': 12.11,
+    'open': 12.11,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 500.0,
+    'vwap': 12.11}}
+2025-08-20 15:03:20 INFO: Current resistance is: 12.1 and support is: 11.54
+2025-08-20 15:03:20 INFO: Current average volume is: 372.0
+2025-08-20 15:03:20 INFO: The current close: 12.11 is above the resistance of 12.1, but volume isn't enough...
+2025-08-20 15:03:20 INFO: Updated resistance to: 12.11 and support to: 11.54
+2025-08-20 15:13:24 INFO: {'LLYX': {   'close': 12.13,
+    'high': 12.13,
+    'low': 12.13,
+    'open': 12.13,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.13}}
+2025-08-20 15:13:24 INFO: Current resistance is: 12.11 and support is: 11.54
+2025-08-20 15:13:24 INFO: Current average volume is: 337.0
+2025-08-20 15:13:24 INFO: The current close: 12.13 is above the resistance of 12.11, but volume isn't enough...
+2025-08-20 15:13:24 INFO: Updated resistance to: 12.13 and support to: 11.54
+2025-08-20 15:14:24 INFO: {'LLYX': {   'close': 12.15,
+    'high': 12.15,
+    'low': 12.15,
+    'open': 12.15,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 12.15}}
+2025-08-20 15:14:24 INFO: Current resistance is: 12.13 and support is: 11.54
+2025-08-20 15:14:24 INFO: Current average volume is: 345.0
+2025-08-20 15:14:24 INFO: The current close: 12.15 is above the resistance of 12.13, but volume isn't enough...
+2025-08-20 15:14:24 INFO: Updated resistance to: 12.15 and support to: 11.54
+2025-08-20 15:16:25 INFO: {'LLYX': {   'close': 12.16,
+    'high': 12.16,
+    'low': 12.16,
+    'open': 12.16,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 250.0,
+    'vwap': 12.16}}
+2025-08-20 15:16:25 INFO: Current resistance is: 12.15 and support is: 11.54
+2025-08-20 15:16:25 INFO: Current average volume is: 310.0
+2025-08-20 15:16:25 INFO: The current close: 12.16 is above the resistance of 12.15, but volume isn't enough...
+2025-08-20 15:16:25 INFO: Updated resistance to: 12.16 and support to: 11.54
+2025-08-20 15:40:02 INFO: {'LLYX': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 12.19}}
+2025-08-20 15:40:02 INFO: Current resistance is: 12.16 and support is: 11.54
+2025-08-20 15:40:02 INFO: Current average volume is: 380.0
+2025-08-20 15:40:02 INFO: The current close: 12.19 is above the resistance of 12.16, but volume isn't enough...
+2025-08-20 15:40:02 INFO: Updated resistance to: 12.19 and support to: 11.54
+2025-08-20 15:53:07 INFO: {'LLYX': {   'close': 12.17,
+    'high': 12.17,
+    'low': 12.17,
+    'open': 12.17,
+    'symbol': 'LLYX',
+    'timestamp': datetime.datetime(2025, 8, 20, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 12.17}}
+2025-08-20 15:53:07 INFO: Current resistance is: 12.19 and support is: 11.54
+2025-08-20 15:53:07 INFO: Current average volume is: 340.0
+2025-08-20 15:53:07 INFO: Updated resistance to: 12.19 and support to: 11.54
+2025-08-20 16:00:08 INFO: The Market is closed...
