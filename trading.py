@@ -377,13 +377,12 @@ class BaseTrade:
                     logging.info(f"Current resistance is: {self.resist} and support is: {self.support}")
                     logging.info(f"Current average volume is: {self.avg_vol}")
 
-
                     # check if bullish candle
                     breakout_chk = self.breakout_candle_check()
                     reverse_chk = self.reverse_candle_check()
 
                     if breakout_chk:
-                        if close > self.closes[-1] and close > self.resist and \
+                        if close > self.closes[-2] and close > self.resist and \
                                 (self.avg_vol * self.param["volume_mult"] <= volume) and (volume >= self.param["volume_threshold"]):
                             # Set stop loss at just below resistance
                             stop_loss = round(self.resist * self.param["stop_loss"], 2)
@@ -396,7 +395,7 @@ class BaseTrade:
                             return
 
                     elif reverse_chk:
-                        if close > self.closes[-1] and (self.avg_vol*self.param["volume_mult"] <= volume) and \
+                        if close > self.closes[-2] and (self.avg_vol*self.param["volume_mult"] <= volume) and \
                                 (volume >= self.param["volume_threshold"]):
                             print(f"Reversal conditions met, buying for reversal...")
                             logging.info(f"Reversal conditions met, buying for reversal...")
