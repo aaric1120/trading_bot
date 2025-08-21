@@ -378,15 +378,25 @@ class BaseTrade:
                     logging.info(f"Current average volume is: {self.avg_vol}")
 
 
-                    # If close between resistance and support, update the line
-                    if self.support <= close <= self.resist:
-                        self.get_new_lines()
-                        print(f"Updated resistance to: {self.resist} and support to: {self.support}")
-                        logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
+                    # check if bullish candle
+                    breakout_chk = self.breakout_candle_check()
+                    reverse_chk = self.reverse_candle_check()
 
-                        # Check for reversal
-                        if breakdown and self.reverse_candle_check() and \
-                                (self.avg_vol*self.param["volume_mult"] <= volume) and \
+                    if breakout_chk:
+                        if close > self.closes[-1] and close > self.resist and \
+                                (self.avg_vol * self.param["volume_mult"] <= volume) and (volume >= self.param["volume_threshold"]):
+                            # Set stop loss at just below resistance
+                            stop_loss = round(self.resist * self.param["stop_loss"], 2)
+
+                            price = round(close * self.param["price"], 2)
+
+                            take_profit = round(price * self.param["take_profit"], 2)
+
+                            self.place_order(price, stop_loss, take_profit, close, volume)
+                            return
+
+                    elif reverse_chk:
+                        if close > self.closes[-1] and (self.avg_vol*self.param["volume_mult"] <= volume) and \
                                 (volume >= self.param["volume_threshold"]):
                             print(f"Reversal conditions met, buying for reversal...")
                             logging.info(f"Reversal conditions met, buying for reversal...")
@@ -401,62 +411,12 @@ class BaseTrade:
                             self.place_order(price, stop_loss, take_profit, close, volume)
                             return
 
-                        else:
-                            breakout, breakdown = False, False
-
-                    # if resistance is broken initially
-                    elif close > self.resist and not breakout:
-                        # set breakout check to true
-                        print(f"The Current Close {close} is above the resistance...")
-                        logging.info(f"The Current Close {close} is above the resistance...")
-                        self.get_new_lines()
-                        print(f"Updated resistance to: {self.resist} and support to: {self.support}")
-                        logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
-                        breakout, breakdown = True, False
-
-                    # If close above resistance, but volume isnt enough
-                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] > volume
-                                                               or volume < self.param["volume_threshold"]):
-                        print(f"The current close: {close} is above the resistance of {self.resist}, but volume isn't enough...")
-                        logging.info(
-                            f"The current close: {close} is above the resistance of {self.resist}, but volume isn't enough...")
+                    else:
                         self.get_new_lines()
                         print(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
 
-                    # second bar also closes above resistance: BUY
-                    elif close > self.resist and breakout and (self.avg_vol*self.param["volume_mult"] <= volume) and \
-                            (volume >= self.param["volume_threshold"]) and self.breakout_candle_check():
-
-                        # Set stop loss at just below resistance
-                        stop_loss = round(self.resist * self.param["stop_loss"], 2)
-
-                        price = round(close * self.param["price"], 2)
-
-                        take_profit = round(price * self.param["take_profit"], 2)
-
-                        self.place_order(price, stop_loss, take_profit, close, volume)
-                        return
-
-                    # if intially breaking through the support
-                    elif close < self.support and not breakdown:
-                        print(f"close price: {close} just dropped below support of {self.support}...")
-                        logging.info(f"close price: {close} just dropped below support of {self.support}...")
-                        breakdown, breakout = True, False
-
-                    # if breaks through the support a second time, end the trade
-                    elif close < self.support and breakdown:
-                        print(f"Closing price: {close} just dropped below support {self.support} again...ending trade...")
-                        logging.info(
-                            f"Closing price: {close} just dropped below support {self.support} again...ending trade...")
-
-                        return
-
-                # Bar updates every Minute for latest data unless initial breakout, then half the time (PARAM)
-                if not breakout:
-                    tm.sleep(60)
-                else:
-                    tm.sleep(30)
+                tm.sleep(30)
 
                 # Check close time for market
                 if dt.datetime.now().time() >= MARKET_CLOSE_TIME:
