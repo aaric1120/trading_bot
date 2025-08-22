@@ -377,40 +377,48 @@ class BaseTrade:
                     logging.info(f"Current resistance is: {self.resist} and support is: {self.support}")
                     logging.info(f"Current average volume is: {self.avg_vol}")
 
-                    # check if bullish candle
-                    breakout_chk = self.breakout_candle_check()
-                    reverse_chk = self.reverse_candle_check()
-
-                    if breakout_chk:
-                        if close > self.closes[-2] and close > self.resist and \
+                    if self.breakout_candle_check() and close > self.closes[-2] and close > self.resist and \
                                 (self.avg_vol * self.param["volume_mult"] <= volume) and (volume >= self.param["volume_threshold"]):
-                            # Set stop loss at just below resistance
-                            stop_loss = round(self.resist * self.param["stop_loss"], 2)
+                        # Set stop loss at just below resistance
+                        stop_loss = round(self.resist * self.param["stop_loss"], 2)
 
-                            price = round(close * self.param["price"], 2)
+                        price = round(close * self.param["price"], 2)
 
-                            take_profit = round(price * self.param["take_profit"], 2)
+                        take_profit = round(price * self.param["take_profit"], 2)
 
-                            self.place_order(price, stop_loss, take_profit, close, volume)
-                            return
+                        self.place_order(price, stop_loss, take_profit, close, volume)
+                        return
 
-                    elif reverse_chk:
-                        if close > self.closes[-2] and (self.avg_vol*self.param["volume_mult"] <= volume) and \
-                                (volume >= self.param["volume_threshold"]):
-                            print(f"Reversal conditions met, buying for reversal...")
-                            logging.info(f"Reversal conditions met, buying for reversal...")
+                    if self.reverse_candle_check() and ((close > self.support and breakdown) or (close < self.support)) \
+                            and (self.avg_vol*self.param["volume_mult"] <= volume) and (volume >= self.param["volume_threshold"]):
+                        print(f"Reversal conditions met, buying for reversal...")
+                        logging.info(f"Reversal conditions met, buying for reversal...")
 
-                            # Set stop loss at just below current close
-                            stop_loss = round(close * self.param["stop_loss"], 2)
+                        # Set stop loss at just below current close
+                        stop_loss = round(close * self.param["stop_loss"], 2)
 
-                            price = round(close * self.param["price"], 2)
+                        price = round(close * self.param["price"], 2)
 
-                            take_profit = round(price * self.param["take_profit"], 2)
+                        take_profit = round(price * self.param["take_profit"], 2)
 
-                            self.place_order(price, stop_loss, take_profit, close, volume)
-                            return
+                        self.place_order(price, stop_loss, take_profit, close, volume)
+                        return
+
+                    if close < self.support and not breakdown:
+                        breakdown = True
+                        print(f"the current close {close} has dropped below the current support {self.support} once...")
+                        logging.info(f"the current close {close} has dropped below the current support {self.support} once...")
+                        self.get_new_lines()
+                        print(f"Updated resistance to: {self.resist} and support to: {self.support}")
+                        logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")
+
+                    elif close < self.support and breakdown:
+                        print(f"the current close {close} is below the support again, ending trade...")
+                        logging.info(f"the current close {close} is below the support again, ending trade...")
+                        return
 
                     else:
+                        breakdown, breakout = False, False
                         self.get_new_lines()
                         print(f"Updated resistance to: {self.resist} and support to: {self.support}")
                         logging.info(f"Updated resistance to: {self.resist} and support to: {self.support}")

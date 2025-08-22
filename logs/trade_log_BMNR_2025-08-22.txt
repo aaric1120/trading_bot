@@ -1,0 +1,174 @@
+2025-08-22 14:54:27 INFO: === Strategy started ===
+2025-08-22 14:54:27 INFO: Start collecting the current highs/lows for: BMNR
+2025-08-22 14:54:27 INFO: Most recent stock data: {'BMNR': {   'close': 53.205,
+    'high': 53.225,
+    'low': 53.115,
+    'open': 53.17,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 1872.0,
+    'vwap': 53.155616}}
+2025-08-22 14:55:27 INFO: Most recent stock data: {'BMNR': {   'close': 52.95,
+    'high': 53.2,
+    'low': 52.93,
+    'open': 53.2,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 2168.0,
+    'vwap': 53.013774}}
+2025-08-22 14:56:27 INFO: Most recent stock data: {'BMNR': {   'close': 52.97,
+    'high': 53.09,
+    'low': 52.97,
+    'open': 52.99,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 2334.0,
+    'vwap': 53.029658}}
+2025-08-22 14:58:28 INFO: Most recent stock data: {'BMNR': {   'close': 52.99,
+    'high': 53.04,
+    'low': 52.99,
+    'open': 53.025,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2227.0,
+    'vwap': 53.010506}}
+2025-08-22 14:59:28 INFO: Most recent stock data: {'BMNR': {   'close': 53.085,
+    'high': 53.115,
+    'low': 53.05,
+    'open': 53.115,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2228.0,
+    'vwap': 53.091818}}
+2025-08-22 15:00:28 INFO: Most recent stock data: {'BMNR': {   'close': 53.075,
+    'high': 53.14,
+    'low': 53.035,
+    'open': 53.08,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2321.0,
+    'vwap': 53.078063}}
+2025-08-22 15:01:28 INFO: Most recent stock data: {'BMNR': {   'close': 53.12,
+    'high': 53.125,
+    'low': 53.06,
+    'open': 53.085,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2429.0,
+    'vwap': 53.108099}}
+2025-08-22 15:02:28 INFO: Most recent stock data: {'BMNR': {   'close': 53.27,
+    'high': 53.27,
+    'low': 53.085,
+    'open': 53.145,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1000.0,
+    'vwap': 53.14}}
+2025-08-22 15:04:28 INFO: Most recent stock data: {'BMNR': {   'close': 53.5,
+    'high': 53.51,
+    'low': 53.23,
+    'open': 53.23,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 3013.0,
+    'vwap': 53.357143}}
+2025-08-22 15:05:28 INFO: Most recent stock data: {'BMNR': {   'close': 53.465,
+    'high': 53.49,
+    'low': 53.37,
+    'open': 53.49,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 2201.0,
+    'vwap': 53.42175}}
+2025-08-22 15:06:29 INFO: Most recent stock data: {'BMNR': {   'close': 53.84,
+    'high': 53.84,
+    'low': 53.5,
+    'open': 53.5,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 2723.0,
+    'vwap': 53.588915}}
+2025-08-22 15:06:29 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 15:06:29 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-22 15:07:29 INFO: {'BMNR': {   'close': 53.935,
+    'high': 54.0,
+    'low': 53.88,
+    'open': 53.88,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 53.0,
+    'volume': 5818.0,
+    'vwap': 53.945451}}
+2025-08-22 15:07:29 INFO: Current resistance is: 53.894 and support is: 53.354
+2025-08-22 15:07:29 INFO: Current average volume is: 2629.4
+2025-08-22 15:07:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:07:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:07:29 INFO: Updated resistance to: 54.07 and support to: 53.61
+2025-08-22 15:08:29 INFO: {'BMNR': {   'close': 53.88,
+    'high': 53.935,
+    'low': 53.63,
+    'open': 53.935,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 4065.0,
+    'vwap': 53.778602}}
+2025-08-22 15:08:29 INFO: Current resistance is: 54.07 and support is: 53.61
+2025-08-22 15:08:29 INFO: Current average volume is: 2802.5
+2025-08-22 15:08:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:08:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:08:29 INFO: Updated resistance to: 54.149 and support to: 53.689
+2025-08-22 15:09:29 INFO: {'BMNR': {   'close': 53.84,
+    'high': 53.865,
+    'low': 53.71,
+    'open': 53.81,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 81.0,
+    'volume': 6604.0,
+    'vwap': 53.788089}}
+2025-08-22 15:09:29 INFO: Current resistance is: 54.149 and support is: 53.689
+2025-08-22 15:09:29 INFO: Current average volume is: 3240.2
+2025-08-22 15:09:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:09:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:09:29 INFO: Updated resistance to: 54.22 and support to: 53.77
+2025-08-22 15:10:30 INFO: {'BMNR': {   'close': 53.715,
+    'high': 53.825,
+    'low': 53.58,
+    'open': 53.825,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 4877.0,
+    'vwap': 53.690944}}
+2025-08-22 15:10:30 INFO: Current resistance is: 54.22 and support is: 53.77
+2025-08-22 15:10:30 INFO: Current average volume is: 3505.1
+2025-08-22 15:10:30 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:10:30 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:10:30 INFO: the current close 53.715 has dropped below the current support 53.77 once...
+2025-08-22 15:10:30 INFO: Updated resistance to: 54.279 and support to: 53.779
+2025-08-22 15:11:00 INFO: {'BMNR': {   'close': 53.65,
+    'high': 53.7,
+    'low': 53.59,
+    'open': 53.675,
+    'symbol': 'BMNR',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 3854.0,
+    'vwap': 53.651765}}
+2025-08-22 15:11:00 INFO: Current resistance is: 54.279 and support is: 53.779
+2025-08-22 15:11:00 INFO: Current average volume is: 3658.4
+2025-08-22 15:11:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:11:00 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:11:00 INFO: the current close 53.65 is below the support again, ending trade...

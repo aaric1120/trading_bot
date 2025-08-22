@@ -1,0 +1,595 @@
+2025-08-22 14:54:27 INFO: === Strategy started ===
+2025-08-22 14:54:27 INFO: Start collecting the current highs/lows for: CSX
+2025-08-22 14:54:27 INFO: Most recent stock data: {'CSX': {   'close': 34.585,
+    'high': 34.59,
+    'low': 34.565,
+    'open': 34.565,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2843.0,
+    'vwap': 34.582768}}
+2025-08-22 14:56:27 INFO: Most recent stock data: {'CSX': {   'close': 34.575,
+    'high': 34.58,
+    'low': 34.575,
+    'open': 34.58,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 970.0,
+    'vwap': 34.579444}}
+2025-08-22 14:57:27 INFO: Most recent stock data: {'CSX': {   'close': 34.565,
+    'high': 34.59,
+    'low': 34.565,
+    'open': 34.58,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 53.0,
+    'volume': 11921.0,
+    'vwap': 34.580462}}
+2025-08-22 14:58:27 INFO: Most recent stock data: {'CSX': {   'close': 34.55,
+    'high': 34.57,
+    'low': 34.53,
+    'open': 34.565,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 4357.0,
+    'vwap': 34.543462}}
+2025-08-22 14:59:28 INFO: Most recent stock data: {'CSX': {   'close': 34.58,
+    'high': 34.58,
+    'low': 34.56,
+    'open': 34.56,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1803.0,
+    'vwap': 34.567971}}
+2025-08-22 15:01:28 INFO: Most recent stock data: {'CSX': {   'close': 34.575,
+    'high': 34.585,
+    'low': 34.57,
+    'open': 34.585,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 44.0,
+    'volume': 6183.0,
+    'vwap': 34.576566}}
+2025-08-22 15:02:28 INFO: Most recent stock data: {'CSX': {   'close': 34.61,
+    'high': 34.625,
+    'low': 34.575,
+    'open': 34.575,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2700.0,
+    'vwap': 34.603996}}
+2025-08-22 15:03:28 INFO: Most recent stock data: {'CSX': {   'close': 34.6,
+    'high': 34.61,
+    'low': 34.595,
+    'open': 34.605,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 40.0,
+    'volume': 11374.0,
+    'vwap': 34.600045}}
+2025-08-22 15:06:28 INFO: Most recent stock data: {'CSX': {   'close': 34.59,
+    'high': 34.6,
+    'low': 34.58,
+    'open': 34.6,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 30.0,
+    'volume': 3281.0,
+    'vwap': 34.594049}}
+2025-08-22 15:07:29 INFO: Most recent stock data: {'CSX': {   'close': 34.54,
+    'high': 34.58,
+    'low': 34.54,
+    'open': 34.58,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 2593.0,
+    'vwap': 34.567083}}
+2025-08-22 15:08:29 INFO: Most recent stock data: {'CSX': {   'close': 34.555,
+    'high': 34.56,
+    'low': 34.535,
+    'open': 34.54,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 54.0,
+    'volume': 5805.0,
+    'vwap': 34.542638}}
+2025-08-22 15:08:29 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 15:08:29 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-22 15:09:29 INFO: {'CSX': {   'close': 34.55,
+    'high': 34.55,
+    'low': 34.54,
+    'open': 34.55,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 636.0,
+    'vwap': 34.548333}}
+2025-08-22 15:09:29 INFO: Current resistance is: 34.625 and support is: 34.53
+2025-08-22 15:09:29 INFO: Current average volume is: 5065.3
+2025-08-22 15:09:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:09:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:09:29 INFO: Updated resistance to: 34.625 and support to: 34.53
+2025-08-22 15:10:29 INFO: {'CSX': {   'close': 34.5,
+    'high': 34.54,
+    'low': 34.495,
+    'open': 34.54,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2459.0,
+    'vwap': 34.515621}}
+2025-08-22 15:10:29 INFO: Current resistance is: 34.625 and support is: 34.53
+2025-08-22 15:10:29 INFO: Current average volume is: 4119.1
+2025-08-22 15:10:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:10:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:10:29 INFO: the current close 34.5 has dropped below the current support 34.53 once...
+2025-08-22 15:10:29 INFO: Updated resistance to: 34.625 and support to: 34.495
+2025-08-22 15:11:30 INFO: {'CSX': {   'close': 34.525,
+    'high': 34.53,
+    'low': 34.52,
+    'open': 34.52,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 3151.0,
+    'vwap': 34.523838}}
+2025-08-22 15:11:30 INFO: Current resistance is: 34.625 and support is: 34.495
+2025-08-22 15:11:30 INFO: Current average volume is: 3998.5
+2025-08-22 15:11:30 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:11:30 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:11:30 INFO: Updated resistance to: 34.625 and support to: 34.495
+2025-08-22 15:12:30 INFO: {'CSX': {   'close': 34.51,
+    'high': 34.525,
+    'low': 34.5,
+    'open': 34.525,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 1623.0,
+    'vwap': 34.510156}}
+2025-08-22 15:12:30 INFO: Current resistance is: 34.625 and support is: 34.495
+2025-08-22 15:12:30 INFO: Current average volume is: 3980.5
+2025-08-22 15:12:30 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:12:30 INFO: The engulfing candle pattern check is: [  0   0   0   0 -80]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:12:30 INFO: Updated resistance to: 34.625 and support to: 34.495
+2025-08-22 15:14:00 INFO: {'CSX': {   'close': 34.515,
+    'high': 34.515,
+    'low': 34.505,
+    'open': 34.505,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 750.0,
+    'vwap': 34.512143}}
+2025-08-22 15:14:00 INFO: Current resistance is: 34.625 and support is: 34.495
+2025-08-22 15:14:00 INFO: Current average volume is: 3437.2
+2025-08-22 15:14:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:14:00 INFO: The engulfing candle pattern check is: [  0   0   0 -80   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:14:00 INFO: Updated resistance to: 34.625 and support to: 34.495
+2025-08-22 15:15:00 INFO: {'CSX': {   'close': 34.55,
+    'high': 34.72,
+    'low': 34.4,
+    'open': 34.515,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 379.0,
+    'volume': 82538.0,
+    'vwap': 34.555619}}
+2025-08-22 15:15:00 INFO: Current resistance is: 34.625 and support is: 34.495
+2025-08-22 15:15:00 INFO: Current average volume is: 11421.0
+2025-08-22 15:15:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:15:00 INFO: The engulfing candle pattern check is: [  0   0 -80   0   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:15:00 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:16:01 INFO: {'CSX': {   'close': 34.56,
+    'high': 34.56,
+    'low': 34.54,
+    'open': 34.56,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 33.0,
+    'volume': 5825.0,
+    'vwap': 34.551821}}
+2025-08-22 15:16:01 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:16:01 INFO: Current average volume is: 10866.1
+2025-08-22 15:16:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:16:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:16:01 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:17:01 INFO: {'CSX': {   'close': 34.55,
+    'high': 34.57,
+    'low': 34.55,
+    'open': 34.565,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 72.0,
+    'volume': 12152.0,
+    'vwap': 34.557941}}
+2025-08-22 15:17:01 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:17:01 INFO: Current average volume is: 11753.2
+2025-08-22 15:17:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:17:01 INFO: The engulfing candle pattern check is: [   0    0    0    0 -100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:17:01 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:19:01 INFO: {'CSX': {   'close': 34.63,
+    'high': 34.63,
+    'low': 34.56,
+    'open': 34.56,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 10052.0,
+    'vwap': 34.59136}}
+2025-08-22 15:19:01 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:19:01 INFO: Current average volume is: 12499.1
+2025-08-22 15:19:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:19:01 INFO: The engulfing candle pattern check is: [   0    0    0 -100    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:19:01 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:20:02 INFO: {'CSX': {   'close': 34.66,
+    'high': 34.66,
+    'low': 34.62,
+    'open': 34.635,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 3472.0,
+    'vwap': 34.633819}}
+2025-08-22 15:20:02 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:20:02 INFO: Current average volume is: 12265.8
+2025-08-22 15:20:02 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:20:02 INFO: The engulfing candle pattern check is: [   0    0 -100    0    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:20:02 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:22:02 INFO: {'CSX': {   'close': 34.615,
+    'high': 34.615,
+    'low': 34.615,
+    'open': 34.615,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 763.0,
+    'vwap': 34.615}}
+2025-08-22 15:22:02 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:22:02 INFO: Current average volume is: 12278.5
+2025-08-22 15:22:02 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:22:02 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:22:02 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:24:03 INFO: {'CSX': {   'close': 34.645,
+    'high': 34.665,
+    'low': 34.62,
+    'open': 34.62,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 1812.0,
+    'vwap': 34.639876}}
+2025-08-22 15:24:03 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:24:03 INFO: Current average volume is: 12213.8
+2025-08-22 15:24:03 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:24:03 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:24:03 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:26:03 INFO: {'CSX': {   'close': 34.66,
+    'high': 34.67,
+    'low': 34.64,
+    'open': 34.66,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2235.0,
+    'vwap': 34.64975}}
+2025-08-22 15:26:03 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:26:03 INFO: Current average volume is: 12122.2
+2025-08-22 15:26:03 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:26:03 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:26:03 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:28:04 INFO: {'CSX': {   'close': 34.68,
+    'high': 34.685,
+    'low': 34.655,
+    'open': 34.655,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1449.0,
+    'vwap': 34.67072}}
+2025-08-22 15:28:04 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:28:04 INFO: Current average volume is: 12104.8
+2025-08-22 15:28:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:28:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:28:04 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:29:04 INFO: {'CSX': {   'close': 34.705,
+    'high': 34.705,
+    'low': 34.67,
+    'open': 34.68,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 6624.0,
+    'vwap': 34.689068}}
+2025-08-22 15:29:04 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:29:04 INFO: Current average volume is: 12692.2
+2025-08-22 15:29:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:29:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:29:04 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:30:04 INFO: {'CSX': {   'close': 34.715,
+    'high': 34.72,
+    'low': 34.69,
+    'open': 34.705,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 38.0,
+    'volume': 6111.0,
+    'vwap': 34.707218}}
+2025-08-22 15:30:04 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:30:04 INFO: Current average volume is: 5049.5
+2025-08-22 15:30:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:30:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:30:04 INFO: Updated resistance to: 34.72 and support to: 34.4
+2025-08-22 15:31:04 INFO: {'CSX': {   'close': 34.73,
+    'high': 34.745,
+    'low': 34.715,
+    'open': 34.72,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 49.0,
+    'volume': 6742.0,
+    'vwap': 34.726186}}
+2025-08-22 15:31:04 INFO: Current resistance is: 34.72 and support is: 34.4
+2025-08-22 15:31:04 INFO: Current average volume is: 5141.2
+2025-08-22 15:31:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:31:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:31:04 INFO: Updated resistance to: 34.745 and support to: 34.4
+2025-08-22 15:32:06 INFO: {'CSX': {   'close': 34.83,
+    'high': 34.83,
+    'low': 34.725,
+    'open': 34.725,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 117.0,
+    'volume': 24219.0,
+    'vwap': 34.785295}}
+2025-08-22 15:32:06 INFO: Current resistance is: 34.745 and support is: 34.4
+2025-08-22 15:32:06 INFO: Current average volume is: 6347.9
+2025-08-22 15:32:06 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:32:06 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:32:06 INFO: Updated resistance to: 34.83 and support to: 34.4
+2025-08-22 15:33:06 INFO: {'CSX': {   'close': 34.86,
+    'high': 34.875,
+    'low': 34.835,
+    'open': 34.84,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 84.0,
+    'volume': 15437.0,
+    'vwap': 34.85783}}
+2025-08-22 15:33:06 INFO: Current resistance is: 34.83 and support is: 34.4
+2025-08-22 15:33:06 INFO: Current average volume is: 6886.4
+2025-08-22 15:33:06 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:33:06 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:33:06 INFO: Updated resistance to: 34.875 and support to: 34.4
+2025-08-22 15:35:06 INFO: {'CSX': {   'close': 34.825,
+    'high': 34.98,
+    'low': 34.81,
+    'open': 34.875,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 168.0,
+    'volume': 54302.0,
+    'vwap': 34.861404}}
+2025-08-22 15:35:06 INFO: Current resistance is: 34.875 and support is: 34.4
+2025-08-22 15:35:06 INFO: Current average volume is: 11969.4
+2025-08-22 15:35:06 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:35:06 INFO: The engulfing candle pattern check is: [   0    0    0    0 -100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:35:06 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:36:07 INFO: {'CSX': {   'close': 34.82,
+    'high': 34.865,
+    'low': 34.82,
+    'open': 34.84,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 75.0,
+    'volume': 14019.0,
+    'vwap': 34.832637}}
+2025-08-22 15:36:07 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:36:07 INFO: Current average volume is: 13295.0
+2025-08-22 15:36:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:36:07 INFO: The engulfing candle pattern check is: [   0    0    0 -100    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:36:07 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:37:07 INFO: {'CSX': {   'close': 34.79,
+    'high': 34.82,
+    'low': 34.79,
+    'open': 34.815,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 157.0,
+    'volume': 30721.0,
+    'vwap': 34.803638}}
+2025-08-22 15:37:07 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:37:07 INFO: Current average volume is: 16185.9
+2025-08-22 15:37:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:37:07 INFO: The engulfing candle pattern check is: [   0    0 -100    0    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:37:07 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:39:07 INFO: {'CSX': {   'close': 34.795,
+    'high': 34.8,
+    'low': 34.795,
+    'open': 34.795,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 63.0,
+    'volume': 10396.0,
+    'vwap': 34.798957}}
+2025-08-22 15:39:07 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:39:07 INFO: Current average volume is: 17002.0
+2025-08-22 15:39:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:39:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:39:07 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:40:07 INFO: {'CSX': {   'close': 34.77,
+    'high': 34.795,
+    'low': 34.76,
+    'open': 34.79,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 62.0,
+    'volume': 8640.0,
+    'vwap': 34.776617}}
+2025-08-22 15:40:07 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:40:07 INFO: Current average volume is: 17721.1
+2025-08-22 15:40:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:40:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:40:07 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:41:08 INFO: {'CSX': {   'close': 34.765,
+    'high': 34.775,
+    'low': 34.75,
+    'open': 34.775,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 42.0,
+    'volume': 7642.0,
+    'vwap': 34.763838}}
+2025-08-22 15:41:08 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:41:08 INFO: Current average volume is: 17822.9
+2025-08-22 15:41:08 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:41:08 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:41:08 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:42:08 INFO: {'CSX': {   'close': 34.72,
+    'high': 34.755,
+    'low': 34.72,
+    'open': 34.755,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 877.0,
+    'vwap': 34.737203}}
+2025-08-22 15:42:08 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:42:08 INFO: Current average volume is: 17299.5
+2025-08-22 15:42:08 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:42:08 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:42:08 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:43:08 INFO: {'CSX': {   'close': 34.705,
+    'high': 34.73,
+    'low': 34.705,
+    'open': 34.73,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 68.0,
+    'volume': 12330.0,
+    'vwap': 34.720404}}
+2025-08-22 15:43:08 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:43:08 INFO: Current average volume is: 17858.3
+2025-08-22 15:43:08 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:43:08 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:43:08 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:44:08 INFO: {'CSX': {   'close': 34.68,
+    'high': 34.68,
+    'low': 34.675,
+    'open': 34.68,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1206.0,
+    'vwap': 34.676732}}
+2025-08-22 15:44:08 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:44:08 INFO: Current average volume is: 15557.0
+2025-08-22 15:44:08 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:44:08 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:44:08 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:46:09 INFO: {'CSX': {   'close': 34.66,
+    'high': 34.67,
+    'low': 34.65,
+    'open': 34.665,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 4276.0,
+    'vwap': 34.665244}}
+2025-08-22 15:46:09 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:46:09 INFO: Current average volume is: 14440.9
+2025-08-22 15:46:09 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:46:09 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:46:09 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:52:10 INFO: {'CSX': {   'close': 34.63,
+    'high': 34.65,
+    'low': 34.6,
+    'open': 34.65,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 100.0,
+    'volume': 17386.0,
+    'vwap': 34.624203}}
+2025-08-22 15:52:10 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:52:10 INFO: Current average volume is: 10749.3
+2025-08-22 15:52:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:52:10 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:52:10 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:53:11 INFO: {'CSX': {   'close': 34.615,
+    'high': 34.63,
+    'low': 34.605,
+    'open': 34.63,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 59.0,
+    'volume': 11578.0,
+    'vwap': 34.616393}}
+2025-08-22 15:53:11 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:53:11 INFO: Current average volume is: 10505.2
+2025-08-22 15:53:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:53:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:53:11 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:54:11 INFO: {'CSX': {   'close': 34.62,
+    'high': 34.625,
+    'low': 34.615,
+    'open': 34.62,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 51.0,
+    'volume': 8734.0,
+    'vwap': 34.618847}}
+2025-08-22 15:54:11 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:54:11 INFO: Current average volume is: 8306.5
+2025-08-22 15:54:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:54:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:54:11 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:55:11 INFO: {'CSX': {   'close': 34.615,
+    'high': 34.63,
+    'low': 34.61,
+    'open': 34.615,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 96.0,
+    'volume': 29707.0,
+    'vwap': 34.624299}}
+2025-08-22 15:55:11 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:55:11 INFO: Current average volume is: 10237.6
+2025-08-22 15:55:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:55:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:55:11 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:56:11 INFO: {'CSX': {   'close': 34.6,
+    'high': 34.61,
+    'low': 34.58,
+    'open': 34.61,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 146.0,
+    'volume': 34936.0,
+    'vwap': 34.590574}}
+2025-08-22 15:56:11 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:56:11 INFO: Current average volume is: 12867.2
+2025-08-22 15:56:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:56:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:56:11 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 15:58:12 INFO: {'CSX': {   'close': 34.585,
+    'high': 34.6,
+    'low': 34.56,
+    'open': 34.585,
+    'symbol': 'CSX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 269.0,
+    'volume': 56685.0,
+    'vwap': 34.582457}}
+2025-08-22 15:58:12 INFO: Current resistance is: 34.98 and support is: 34.4
+2025-08-22 15:58:12 INFO: Current average volume is: 17771.5
+2025-08-22 15:58:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:58:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:58:12 INFO: Updated resistance to: 34.98 and support to: 34.4
+2025-08-22 16:00:12 INFO: The Market is closed...

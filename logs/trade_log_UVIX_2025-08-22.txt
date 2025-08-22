@@ -1,0 +1,810 @@
+2025-08-22 12:39:11 INFO: === Strategy started ===
+2025-08-22 12:39:11 INFO: Start collecting the current highs/lows for: UVIX
+2025-08-22 12:39:11 INFO: Most recent stock data: {'UVIX': {   'close': 12.31,
+    'high': 12.31,
+    'low': 12.305,
+    'open': 12.305,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 12.306667}}
+2025-08-22 12:40:12 INFO: Most recent stock data: {'UVIX': {   'close': 12.38,
+    'high': 12.38,
+    'low': 12.35,
+    'open': 12.35,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 3353.0,
+    'vwap': 12.363636}}
+2025-08-22 12:42:12 INFO: Most recent stock data: {'UVIX': {   'close': 12.35,
+    'high': 12.35,
+    'low': 12.34,
+    'open': 12.34,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 12.345}}
+2025-08-22 12:46:12 INFO: Most recent stock data: {'UVIX': {   'close': 12.3,
+    'high': 12.31,
+    'low': 12.3,
+    'open': 12.3,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 6002.0,
+    'vwap': 12.301999}}
+2025-08-22 12:47:12 INFO: Most recent stock data: {'UVIX': {   'close': 12.32,
+    'high': 12.32,
+    'low': 12.32,
+    'open': 12.32,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 193.0,
+    'vwap': 12.32}}
+2025-08-22 12:49:13 INFO: Most recent stock data: {'UVIX': {   'close': 12.35,
+    'high': 12.37,
+    'low': 12.35,
+    'open': 12.35,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 3660.0,
+    'vwap': 12.353333}}
+2025-08-22 12:50:13 INFO: Most recent stock data: {'UVIX': {   'close': 12.36,
+    'high': 12.36,
+    'low': 12.34,
+    'open': 12.35,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 2013.0,
+    'vwap': 12.3505}}
+2025-08-22 12:52:13 INFO: Most recent stock data: {'UVIX': {   'close': 12.38,
+    'high': 12.38,
+    'low': 12.36,
+    'open': 12.36,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2000.0,
+    'vwap': 12.368}}
+2025-08-22 12:53:13 INFO: Most recent stock data: {'UVIX': {   'close': 12.39,
+    'high': 12.39,
+    'low': 12.38,
+    'open': 12.39,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 573.0,
+    'vwap': 12.386146}}
+2025-08-22 12:55:13 INFO: Most recent stock data: {'UVIX': {   'close': 12.395,
+    'high': 12.4,
+    'low': 12.395,
+    'open': 12.4,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1299.0,
+    'vwap': 12.398164}}
+2025-08-22 12:56:14 INFO: Most recent stock data: {'UVIX': {   'close': 12.39,
+    'high': 12.39,
+    'low': 12.39,
+    'open': 12.39,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 700.0,
+    'vwap': 12.39}}
+2025-08-22 12:56:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 12:56:14 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-22 12:57:14 INFO: {'UVIX': {   'close': 12.47,
+    'high': 12.47,
+    'low': 12.42,
+    'open': 12.42,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 3200.0,
+    'vwap': 12.432935}}
+2025-08-22 12:57:14 INFO: Current resistance is: 12.4 and support is: 12.3
+2025-08-22 12:57:14 INFO: Current average volume is: 2014.0
+2025-08-22 12:57:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:57:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:57:14 INFO: Updated resistance to: 12.47 and support to: 12.3
+2025-08-22 12:59:14 INFO: {'UVIX': {   'close': 12.46,
+    'high': 12.49,
+    'low': 12.46,
+    'open': 12.485,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1700.0,
+    'vwap': 12.470429}}
+2025-08-22 12:59:14 INFO: Current resistance is: 12.47 and support is: 12.3
+2025-08-22 12:59:14 INFO: Current average volume is: 2134.0
+2025-08-22 12:59:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:59:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:59:14 INFO: Updated resistance to: 12.49 and support to: 12.3
+2025-08-22 13:02:15 INFO: {'UVIX': {   'close': 12.4,
+    'high': 12.4,
+    'low': 12.4,
+    'open': 12.4,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 12.4}}
+2025-08-22 13:02:15 INFO: Current resistance is: 12.49 and support is: 12.3
+2025-08-22 13:02:15 INFO: Current average volume is: 1563.8
+2025-08-22 13:02:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:02:15 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:02:15 INFO: Updated resistance to: 12.49 and support to: 12.3
+2025-08-22 13:03:15 INFO: {'UVIX': {   'close': 12.37,
+    'high': 12.37,
+    'low': 12.37,
+    'open': 12.37,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 12.37}}
+2025-08-22 13:03:15 INFO: Current resistance is: 12.49 and support is: 12.3
+2025-08-22 13:03:15 INFO: Current average volume is: 1574.5
+2025-08-22 13:03:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:03:15 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:03:15 INFO: Updated resistance to: 12.49 and support to: 12.3
+2025-08-22 13:04:16 INFO: {'UVIX': {   'close': 12.38,
+    'high': 12.38,
+    'low': 12.38,
+    'open': 12.38,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.38}}
+2025-08-22 13:04:16 INFO: Current resistance is: 12.49 and support is: 12.3
+2025-08-22 13:04:16 INFO: Current average volume is: 1218.5
+2025-08-22 13:04:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:04:16 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:04:16 INFO: Updated resistance to: 12.49 and support to: 12.3
+2025-08-22 13:07:16 INFO: {'UVIX': {   'close': 12.35,
+    'high': 12.35,
+    'low': 12.35,
+    'open': 12.35,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.35}}
+2025-08-22 13:07:16 INFO: Current resistance is: 12.49 and support is: 12.3
+2025-08-22 13:07:16 INFO: Current average volume is: 1027.2
+2025-08-22 13:07:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:07:16 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:07:16 INFO: Updated resistance to: 12.49 and support to: 12.3
+2025-08-22 13:08:17 INFO: {'UVIX': {   'close': 12.32,
+    'high': 12.34,
+    'low': 12.32,
+    'open': 12.34,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 12.33}}
+2025-08-22 13:08:17 INFO: Current resistance is: 12.49 and support is: 12.3
+2025-08-22 13:08:17 INFO: Current average volume is: 867.2
+2025-08-22 13:08:17 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:08:17 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:08:17 INFO: Updated resistance to: 12.49 and support to: 12.3
+2025-08-22 13:10:17 INFO: {'UVIX': {   'close': 12.31,
+    'high': 12.33,
+    'low': 12.31,
+    'open': 12.33,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 12.325}}
+2025-08-22 13:10:17 INFO: Current resistance is: 12.49 and support is: 12.3
+2025-08-22 13:10:17 INFO: Current average volume is: 849.9
+2025-08-22 13:10:17 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:10:17 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:10:17 INFO: Updated resistance to: 12.49 and support to: 12.3
+2025-08-22 13:11:17 INFO: {'UVIX': {   'close': 12.3,
+    'high': 12.31,
+    'low': 12.3,
+    'open': 12.31,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 800.0,
+    'vwap': 12.3075}}
+2025-08-22 13:11:17 INFO: Current resistance is: 12.49 and support is: 12.3
+2025-08-22 13:11:17 INFO: Current average volume is: 800.0
+2025-08-22 13:11:17 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:11:17 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:11:17 INFO: Updated resistance to: 12.49 and support to: 12.3
+2025-08-22 13:12:18 INFO: {'UVIX': {   'close': 12.28,
+    'high': 12.28,
+    'low': 12.28,
+    'open': 12.28,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 610.0,
+    'vwap': 12.28}}
+2025-08-22 13:12:18 INFO: Current resistance is: 12.49 and support is: 12.3
+2025-08-22 13:12:18 INFO: Current average volume is: 791.0
+2025-08-22 13:12:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:12:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:12:18 INFO: the current close 12.28 has dropped below the current support 12.3 once...
+2025-08-22 13:12:18 INFO: Updated resistance to: 12.49 and support to: 12.28
+2025-08-22 13:15:18 INFO: {'UVIX': {   'close': 12.24,
+    'high': 12.25,
+    'low': 12.24,
+    'open': 12.25,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 12.2425}}
+2025-08-22 13:15:18 INFO: Current resistance is: 12.49 and support is: 12.28
+2025-08-22 13:15:18 INFO: Current average volume is: 511.0
+2025-08-22 13:15:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:15:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:15:18 INFO: the current close 12.24 is below the support again, ending trade...
+2025-08-22 13:54:21 INFO: === Strategy started ===
+2025-08-22 13:54:21 INFO: Start collecting the current highs/lows for: UVIX
+2025-08-22 13:54:21 INFO: Most recent stock data: {'UVIX': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.19}}
+2025-08-22 13:56:21 INFO: Most recent stock data: {'UVIX': {   'close': 12.16,
+    'high': 12.16,
+    'low': 12.16,
+    'open': 12.16,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.16}}
+2025-08-22 13:57:22 INFO: Most recent stock data: {'UVIX': {   'close': 12.17,
+    'high': 12.17,
+    'low': 12.145,
+    'open': 12.155,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 2040.0,
+    'vwap': 12.161417}}
+2025-08-22 14:01:22 INFO: Most recent stock data: {'UVIX': {   'close': 12.2,
+    'high': 12.2,
+    'low': 12.2,
+    'open': 12.2,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 12.2}}
+2025-08-22 14:02:22 INFO: Most recent stock data: {'UVIX': {   'close': 12.17,
+    'high': 12.185,
+    'low': 12.17,
+    'open': 12.185,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 800.0,
+    'vwap': 12.17375}}
+2025-08-22 14:03:22 INFO: Most recent stock data: {'UVIX': {   'close': 12.155,
+    'high': 12.155,
+    'low': 12.155,
+    'open': 12.155,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 500.0,
+    'vwap': 12.155}}
+2025-08-22 14:05:23 INFO: Most recent stock data: {'UVIX': {   'close': 12.15,
+    'high': 12.15,
+    'low': 12.15,
+    'open': 12.15,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.15}}
+2025-08-22 14:06:23 INFO: Most recent stock data: {'UVIX': {   'close': 12.18,
+    'high': 12.18,
+    'low': 12.16,
+    'open': 12.16,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 900.0,
+    'vwap': 12.177531}}
+2025-08-22 14:12:24 INFO: Most recent stock data: {'UVIX': {   'close': 12.175,
+    'high': 12.19,
+    'low': 12.175,
+    'open': 12.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 209.0,
+    'vwap': 12.1825}}
+2025-08-22 14:14:24 INFO: Most recent stock data: {'UVIX': {   'close': 12.16,
+    'high': 12.16,
+    'low': 12.16,
+    'open': 12.16,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 12.16}}
+2025-08-22 14:15:24 INFO: Most recent stock data: {'UVIX': {   'close': 12.155,
+    'high': 12.155,
+    'low': 12.155,
+    'open': 12.155,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 1200.0,
+    'vwap': 12.155}}
+2025-08-22 14:15:24 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 14:15:24 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-22 14:21:25 INFO: {'UVIX': {   'close': 12.18,
+    'high': 12.18,
+    'low': 12.18,
+    'open': 12.18,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.18}}
+2025-08-22 14:21:25 INFO: Current resistance is: 12.2 and support is: 12.145
+2025-08-22 14:21:25 INFO: Current average volume is: 654.9
+2025-08-22 14:21:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:21:25 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:21:25 INFO: Updated resistance to: 12.2 and support to: 12.145
+2025-08-22 14:23:26 INFO: {'UVIX': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.19}}
+2025-08-22 14:23:26 INFO: Current resistance is: 12.2 and support is: 12.145
+2025-08-22 14:23:26 INFO: Current average volume is: 460.9
+2025-08-22 14:23:26 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:23:26 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:23:26 INFO: Updated resistance to: 12.2 and support to: 12.145
+2025-08-22 14:33:28 INFO: {'UVIX': {   'close': 12.2,
+    'high': 12.2,
+    'low': 12.2,
+    'open': 12.2,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 12.2}}
+2025-08-22 14:33:28 INFO: Current resistance is: 12.2 and support is: 12.145
+2025-08-22 14:33:28 INFO: Current average volume is: 450.9
+2025-08-22 14:33:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:33:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:33:28 INFO: Updated resistance to: 12.2 and support to: 12.145
+2025-08-22 14:38:29 INFO: {'UVIX': {   'close': 12.165,
+    'high': 12.165,
+    'low': 12.165,
+    'open': 12.165,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 162.0,
+    'vwap': 12.165}}
+2025-08-22 14:38:29 INFO: Current resistance is: 12.2 and support is: 12.145
+2025-08-22 14:38:29 INFO: Current average volume is: 387.1
+2025-08-22 14:38:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:38:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:38:29 INFO: Updated resistance to: 12.2 and support to: 12.145
+2025-08-22 14:39:30 INFO: {'UVIX': {   'close': 12.18,
+    'high': 12.18,
+    'low': 12.18,
+    'open': 12.18,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 186.0,
+    'vwap': 12.18}}
+2025-08-22 14:39:30 INFO: Current resistance is: 12.2 and support is: 12.145
+2025-08-22 14:39:30 INFO: Current average volume is: 355.7
+2025-08-22 14:39:30 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:39:30 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:39:30 INFO: Updated resistance to: 12.2 and support to: 12.145
+2025-08-22 14:40:00 INFO: {'UVIX': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.19}}
+2025-08-22 14:40:00 INFO: Current resistance is: 12.2 and support is: 12.145
+2025-08-22 14:40:00 INFO: Current average volume is: 355.7
+2025-08-22 14:40:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:40:00 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:40:00 INFO: Updated resistance to: 12.2 and support to: 12.145
+2025-08-22 14:43:01 INFO: {'UVIX': {   'close': 12.24,
+    'high': 12.24,
+    'low': 12.24,
+    'open': 12.24,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 600.0,
+    'vwap': 12.24}}
+2025-08-22 14:43:01 INFO: Current resistance is: 12.2 and support is: 12.145
+2025-08-22 14:43:01 INFO: Current average volume is: 325.7
+2025-08-22 14:43:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:43:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:43:01 INFO: Updated resistance to: 12.24 and support to: 12.145
+2025-08-22 14:45:01 INFO: {'UVIX': {   'close': 12.225,
+    'high': 12.23,
+    'low': 12.225,
+    'open': 12.23,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 12.226667}}
+2025-08-22 14:45:01 INFO: Current resistance is: 12.24 and support is: 12.145
+2025-08-22 14:45:01 INFO: Current average volume is: 334.8
+2025-08-22 14:45:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:45:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:45:01 INFO: Updated resistance to: 12.24 and support to: 12.145
+2025-08-22 14:50:02 INFO: {'UVIX': {   'close': 12.2,
+    'high': 12.2,
+    'low': 12.2,
+    'open': 12.2,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 12.2}}
+2025-08-22 14:50:02 INFO: Current resistance is: 12.24 and support is: 12.145
+2025-08-22 14:50:02 INFO: Current average volume is: 324.8
+2025-08-22 14:50:02 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:50:02 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:50:02 INFO: Updated resistance to: 12.24 and support to: 12.145
+2025-08-22 14:57:04 INFO: {'UVIX': {   'close': 12.24,
+    'high': 12.24,
+    'low': 12.23,
+    'open': 12.23,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 800.0,
+    'vwap': 12.2375}}
+2025-08-22 14:57:04 INFO: Current resistance is: 12.24 and support is: 12.145
+2025-08-22 14:57:04 INFO: Current average volume is: 284.8
+2025-08-22 14:57:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:57:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:57:04 INFO: Updated resistance to: 12.24 and support to: 12.145
+2025-08-22 14:58:04 INFO: {'UVIX': {   'close': 12.25,
+    'high': 12.25,
+    'low': 12.25,
+    'open': 12.25,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 800.0,
+    'vwap': 12.25}}
+2025-08-22 14:58:04 INFO: Current resistance is: 12.24 and support is: 12.145
+2025-08-22 14:58:04 INFO: Current average volume is: 354.8
+2025-08-22 14:58:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:58:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:58:04 INFO: Updated resistance to: 12.25 and support to: 12.145
+2025-08-22 14:59:04 INFO: {'UVIX': {   'close': 12.22,
+    'high': 12.225,
+    'low': 12.22,
+    'open': 12.225,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 470.0,
+    'vwap': 12.22375}}
+2025-08-22 14:59:04 INFO: Current resistance is: 12.25 and support is: 12.145
+2025-08-22 14:59:04 INFO: Current average volume is: 391.8
+2025-08-22 14:59:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:59:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:59:04 INFO: Updated resistance to: 12.25 and support to: 12.145
+2025-08-22 15:03:06 INFO: {'UVIX': {   'close': 12.24,
+    'high': 12.255,
+    'low': 12.24,
+    'open': 12.255,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 2105.0,
+    'vwap': 12.246905}}
+2025-08-22 15:03:06 INFO: Current resistance is: 12.25 and support is: 12.145
+2025-08-22 15:03:06 INFO: Current average volume is: 572.3
+2025-08-22 15:03:06 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:03:06 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:03:06 INFO: Updated resistance to: 12.255 and support to: 12.145
+2025-08-22 15:08:07 INFO: {'UVIX': {   'close': 12.26,
+    'high': 12.26,
+    'low': 12.26,
+    'open': 12.26,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 112.0,
+    'vwap': 12.26}}
+2025-08-22 15:08:07 INFO: Current resistance is: 12.255 and support is: 12.145
+2025-08-22 15:08:07 INFO: Current average volume is: 567.3
+2025-08-22 15:08:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:08:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:08:07 INFO: Updated resistance to: 12.26 and support to: 12.145
+2025-08-22 15:09:07 INFO: {'UVIX': {   'close': 12.265,
+    'high': 12.27,
+    'low': 12.265,
+    'open': 12.27,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 503.0,
+    'vwap': 12.267}}
+2025-08-22 15:09:07 INFO: Current resistance is: 12.26 and support is: 12.145
+2025-08-22 15:09:07 INFO: Current average volume is: 599.0
+2025-08-22 15:09:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:09:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:09:07 INFO: Updated resistance to: 12.27 and support to: 12.145
+2025-08-22 15:10:07 INFO: {'UVIX': {   'close': 12.28,
+    'high': 12.28,
+    'low': 12.28,
+    'open': 12.28,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 12.28}}
+2025-08-22 15:10:07 INFO: Current resistance is: 12.27 and support is: 12.145
+2025-08-22 15:10:07 INFO: Current average volume is: 649.0
+2025-08-22 15:10:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:10:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:10:07 INFO: Updated resistance to: 12.28 and support to: 12.145
+2025-08-22 15:14:08 INFO: {'UVIX': {   'close': 12.24,
+    'high': 12.25,
+    'low': 12.24,
+    'open': 12.25,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 848.0,
+    'vwap': 12.245249}}
+2025-08-22 15:14:08 INFO: Current resistance is: 12.28 and support is: 12.145
+2025-08-22 15:14:08 INFO: Current average volume is: 673.8
+2025-08-22 15:14:08 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:14:08 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:14:08 INFO: Updated resistance to: 12.28 and support to: 12.145
+2025-08-22 15:25:11 INFO: {'UVIX': {   'close': 12.23,
+    'high': 12.23,
+    'low': 12.23,
+    'open': 12.23,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 12.23}}
+2025-08-22 15:25:11 INFO: Current resistance is: 12.28 and support is: 12.145
+2025-08-22 15:25:11 INFO: Current average volume is: 673.8
+2025-08-22 15:25:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:25:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:25:11 INFO: Updated resistance to: 12.28 and support to: 12.145
+2025-08-22 15:27:12 INFO: {'UVIX': {   'close': 12.21,
+    'high': 12.21,
+    'low': 12.21,
+    'open': 12.21,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 12.21}}
+2025-08-22 15:27:12 INFO: Current resistance is: 12.28 and support is: 12.145
+2025-08-22 15:27:12 INFO: Current average volume is: 663.8
+2025-08-22 15:27:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:27:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:27:12 INFO: Updated resistance to: 12.28 and support to: 12.145
+2025-08-22 15:28:12 INFO: {'UVIX': {   'close': 12.225,
+    'high': 12.225,
+    'low': 12.22,
+    'open': 12.22,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 580.0,
+    'vwap': 12.223}}
+2025-08-22 15:28:12 INFO: Current resistance is: 12.28 and support is: 12.145
+2025-08-22 15:28:12 INFO: Current average volume is: 641.8
+2025-08-22 15:28:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:28:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:28:12 INFO: Updated resistance to: 12.28 and support to: 12.145
+2025-08-22 15:31:13 INFO: {'UVIX': {   'close': 12.24,
+    'high': 12.24,
+    'low': 12.24,
+    'open': 12.24,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 12.24}}
+2025-08-22 15:31:13 INFO: Current resistance is: 12.28 and support is: 12.145
+2025-08-22 15:31:13 INFO: Current average volume is: 591.8
+2025-08-22 15:31:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:31:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:31:13 INFO: Updated resistance to: 12.28 and support to: 12.145
+2025-08-22 15:33:13 INFO: {'UVIX': {   'close': 12.26,
+    'high': 12.26,
+    'low': 12.22,
+    'open': 12.22,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2700.0,
+    'vwap': 12.237131}}
+2025-08-22 15:33:13 INFO: Current resistance is: 12.28 and support is: 12.145
+2025-08-22 15:33:13 INFO: Current average volume is: 814.8
+2025-08-22 15:33:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:33:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:33:13 INFO: Updated resistance to: 12.28 and support to: 12.145
+2025-08-22 15:34:13 INFO: {'UVIX': {   'close': 12.27,
+    'high': 12.27,
+    'low': 12.26,
+    'open': 12.26,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1000.0,
+    'vwap': 12.268}}
+2025-08-22 15:34:13 INFO: Current resistance is: 12.28 and support is: 12.145
+2025-08-22 15:34:13 INFO: Current average volume is: 704.3
+2025-08-22 15:34:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:34:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:34:13 INFO: Updated resistance to: 12.28 and support to: 12.145
+2025-08-22 15:35:14 INFO: {'UVIX': {   'close': 12.305,
+    'high': 12.32,
+    'low': 12.29,
+    'open': 12.29,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1200.0,
+    'vwap': 12.305718}}
+2025-08-22 15:35:14 INFO: Current resistance is: 12.28 and support is: 12.145
+2025-08-22 15:35:14 INFO: Current average volume is: 813.1
+2025-08-22 15:35:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:35:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:35:14 INFO: Updated resistance to: 12.32 and support to: 12.145
+2025-08-22 15:39:15 INFO: {'UVIX': {   'close': 12.28,
+    'high': 12.3,
+    'low': 12.28,
+    'open': 12.3,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1500.0,
+    'vwap': 12.296}}
+2025-08-22 15:39:15 INFO: Current resistance is: 12.32 and support is: 12.145
+2025-08-22 15:39:15 INFO: Current average volume is: 912.8
+2025-08-22 15:39:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:39:15 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:39:15 INFO: Updated resistance to: 12.32 and support to: 12.145
+2025-08-22 15:40:15 INFO: {'UVIX': {   'close': 12.31,
+    'high': 12.31,
+    'low': 12.27,
+    'open': 12.27,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1300.0,
+    'vwap': 12.303077}}
+2025-08-22 15:40:15 INFO: Current resistance is: 12.32 and support is: 12.145
+2025-08-22 15:40:15 INFO: Current average volume is: 982.8
+2025-08-22 15:40:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:40:15 INFO: The engulfing candle pattern check is: [  0   0   0   0 100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:40:15 INFO: Updated resistance to: 12.32 and support to: 12.145
+2025-08-22 15:41:15 INFO: {'UVIX': {   'close': 12.28,
+    'high': 12.32,
+    'low': 12.28,
+    'open': 12.32,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 6333.0,
+    'vwap': 12.301621}}
+2025-08-22 15:41:15 INFO: Current resistance is: 12.32 and support is: 12.145
+2025-08-22 15:41:15 INFO: Current average volume is: 1531.3
+2025-08-22 15:41:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:41:15 INFO: The engulfing candle pattern check is: [  0   0   0 100   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:41:15 INFO: Updated resistance to: 12.32 and support to: 12.145
+2025-08-22 15:43:16 INFO: {'UVIX': {   'close': 12.27,
+    'high': 12.27,
+    'low': 12.27,
+    'open': 12.27,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 127.0,
+    'vwap': 12.27}}
+2025-08-22 15:43:16 INFO: Current resistance is: 12.32 and support is: 12.145
+2025-08-22 15:43:16 INFO: Current average volume is: 1514.0
+2025-08-22 15:43:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:43:16 INFO: The engulfing candle pattern check is: [  0   0 100   0   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:43:16 INFO: Updated resistance to: 12.32 and support to: 12.145
+2025-08-22 15:45:16 INFO: {'UVIX': {   'close': 12.2,
+    'high': 12.21,
+    'low': 12.2,
+    'open': 12.21,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 12.203333}}
+2025-08-22 15:45:16 INFO: Current resistance is: 12.32 and support is: 12.145
+2025-08-22 15:45:16 INFO: Current average volume is: 1534.0
+2025-08-22 15:45:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:45:16 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:45:16 INFO: Updated resistance to: 12.32 and support to: 12.145
+2025-08-22 15:46:16 INFO: {'UVIX': {   'close': 12.19,
+    'high': 12.19,
+    'low': 12.19,
+    'open': 12.19,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 500.0,
+    'vwap': 12.19}}
+2025-08-22 15:46:16 INFO: Current resistance is: 12.32 and support is: 12.145
+2025-08-22 15:46:16 INFO: Current average volume is: 1526.0
+2025-08-22 15:46:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:46:16 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:46:16 INFO: Updated resistance to: 12.32 and support to: 12.145
+2025-08-22 15:49:17 INFO: {'UVIX': {   'close': 12.12,
+    'high': 12.15,
+    'low': 12.12,
+    'open': 12.15,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 12.14}}
+2025-08-22 15:49:17 INFO: Current resistance is: 12.32 and support is: 12.145
+2025-08-22 15:49:17 INFO: Current average volume is: 1526.0
+2025-08-22 15:49:17 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:49:17 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:49:17 INFO: the current close 12.12 has dropped below the current support 12.145 once...
+2025-08-22 15:49:17 INFO: Updated resistance to: 12.32 and support to: 12.12
+2025-08-22 15:51:18 INFO: {'UVIX': {   'close': 12.11,
+    'high': 12.11,
+    'low': 12.1,
+    'open': 12.11,
+    'symbol': 'UVIX',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1171.0,
+    'vwap': 12.105401}}
+2025-08-22 15:51:18 INFO: Current resistance is: 12.32 and support is: 12.12
+2025-08-22 15:51:18 INFO: Current average volume is: 1373.1
+2025-08-22 15:51:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:51:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:51:18 INFO: the current close 12.11 is below the support again, ending trade...

@@ -1,0 +1,433 @@
+2025-08-22 10:25:12 INFO: === Strategy started ===
+2025-08-22 10:25:12 INFO: Start collecting the current highs/lows for: TNA
+2025-08-22 10:25:13 INFO: Most recent stock data: {'TNA': {   'close': 40.67,
+    'high': 40.68,
+    'low': 40.34,
+    'open': 40.35,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 3448.0,
+    'vwap': 40.521471}}
+2025-08-22 10:26:13 INFO: Most recent stock data: {'TNA': {   'close': 40.94,
+    'high': 41.0,
+    'low': 40.66,
+    'open': 40.66,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 26.0,
+    'volume': 3704.0,
+    'vwap': 40.83493}}
+2025-08-22 10:27:13 INFO: Most recent stock data: {'TNA': {   'close': 40.84,
+    'high': 40.93,
+    'low': 40.84,
+    'open': 40.89,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1325.0,
+    'vwap': 40.894649}}
+2025-08-22 10:28:13 INFO: Most recent stock data: {'TNA': {   'close': 40.57,
+    'high': 40.86,
+    'low': 40.57,
+    'open': 40.86,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 330.0,
+    'vwap': 40.666667}}
+2025-08-22 10:30:13 INFO: Most recent stock data: {'TNA': {   'close': 41.0,
+    'high': 41.005,
+    'low': 40.96,
+    'open': 40.97,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 13499.0,
+    'vwap': 40.998316}}
+2025-08-22 10:31:13 INFO: Most recent stock data: {'TNA': {   'close': 41.075,
+    'high': 41.075,
+    'low': 41.005,
+    'open': 41.005,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 21.0,
+    'volume': 15739.0,
+    'vwap': 41.0537}}
+2025-08-22 10:32:13 INFO: Most recent stock data: {'TNA': {   'close': 41.15,
+    'high': 41.15,
+    'low': 41.015,
+    'open': 41.015,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 554.0,
+    'vwap': 41.042}}
+2025-08-22 10:33:14 INFO: Most recent stock data: {'TNA': {   'close': 41.13,
+    'high': 41.24,
+    'low': 41.13,
+    'open': 41.24,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1220.0,
+    'vwap': 41.183182}}
+2025-08-22 10:34:14 INFO: Most recent stock data: {'TNA': {   'close': 41.28,
+    'high': 41.28,
+    'low': 41.16,
+    'open': 41.23,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2752.0,
+    'vwap': 41.219266}}
+2025-08-22 10:35:14 INFO: Most recent stock data: {'TNA': {   'close': 41.23,
+    'high': 41.33,
+    'low': 41.23,
+    'open': 41.285,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1500.0,
+    'vwap': 41.2925}}
+2025-08-22 10:36:14 INFO: Most recent stock data: {'TNA': {   'close': 41.17,
+    'high': 41.17,
+    'low': 41.15,
+    'open': 41.17,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1151.0,
+    'vwap': 41.158688}}
+2025-08-22 10:36:14 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 10:36:14 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-22 10:37:14 INFO: {'TNA': {   'close': 41.235,
+    'high': 41.31,
+    'low': 41.22,
+    'open': 41.22,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1560.0,
+    'vwap': 41.246296}}
+2025-08-22 10:37:14 INFO: Current resistance is: 41.434 and support is: 41.186
+2025-08-22 10:37:14 INFO: Current average volume is: 3963.0
+2025-08-22 10:37:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 10:37:14 INFO: The engulfing candle pattern check is: [  0   0 -80   0   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 10:37:14 INFO: Updated resistance to: 41.478 and support to: 41.191
+2025-08-22 10:40:15 INFO: {'TNA': {   'close': 41.29,
+    'high': 41.29,
+    'low': 41.26,
+    'open': 41.26,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1265.0,
+    'vwap': 41.265833}}
+2025-08-22 10:40:15 INFO: Current resistance is: 41.478 and support is: 41.191
+2025-08-22 10:40:15 INFO: Current average volume is: 3957.0
+2025-08-22 10:40:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 10:40:15 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 10:40:15 INFO: Updated resistance to: 41.512 and support to: 41.202
+2025-08-22 10:41:15 INFO: {'TNA': {   'close': 41.4,
+    'high': 41.4,
+    'low': 41.27,
+    'open': 41.27,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 952.0,
+    'vwap': 41.337778}}
+2025-08-22 10:41:15 INFO: Current resistance is: 41.512 and support is: 41.202
+2025-08-22 10:41:15 INFO: Current average volume is: 4019.2
+2025-08-22 10:41:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 10:41:15 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 10:41:15 INFO: Updated resistance to: 41.445 and support to: 41.205
+2025-08-22 10:42:16 INFO: {'TNA': {   'close': 41.18,
+    'high': 41.29,
+    'low': 41.18,
+    'open': 41.29,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 41.258333}}
+2025-08-22 10:42:16 INFO: Current resistance is: 41.445 and support is: 41.205
+2025-08-22 10:42:16 INFO: Current average volume is: 2729.3
+2025-08-22 10:42:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 10:42:16 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 10:42:16 INFO: Updated resistance to: 41.481 and support to: 41.165
+2025-08-22 10:43:16 INFO: {'TNA': {   'close': 41.3,
+    'high': 41.3,
+    'low': 41.15,
+    'open': 41.15,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 14, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2117.0,
+    'vwap': 41.245645}}
+2025-08-22 10:43:16 INFO: Current resistance is: 41.481 and support is: 41.165
+2025-08-22 10:43:16 INFO: Current average volume is: 1367.1
+2025-08-22 10:43:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 10:43:16 INFO: The engulfing candle pattern check is: [  0   0   0   0 100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 10:43:16 INFO: Reversal conditions met, buying for reversal...
+2025-08-22 10:43:16 INFO: The current volume: 2117.0 is higher than the average volume: 1367.1 by required factor
+2025-08-22 10:43:16 ERROR: {"code":40310000,"cost_basis":"129766.43","daytrading_buying_power":"128393.33","message":"insufficient day trading buying power"}
+2025-08-22 11:54:07 INFO: === Strategy started ===
+2025-08-22 11:54:07 INFO: Start collecting the current highs/lows for: TNA
+2025-08-22 11:54:07 INFO: Most recent stock data: {'TNA': {   'close': 41.8,
+    'high': 41.8,
+    'low': 41.8,
+    'open': 41.8,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 41.8}}
+2025-08-22 11:55:07 INFO: Most recent stock data: {'TNA': {   'close': 41.82,
+    'high': 41.825,
+    'low': 41.82,
+    'open': 41.825,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 643.0,
+    'vwap': 41.823333}}
+2025-08-22 11:57:08 INFO: Most recent stock data: {'TNA': {   'close': 41.695,
+    'high': 41.82,
+    'low': 41.695,
+    'open': 41.82,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 3005.0,
+    'vwap': 41.77088}}
+2025-08-22 11:58:08 INFO: Most recent stock data: {'TNA': {   'close': 41.75,
+    'high': 41.75,
+    'low': 41.735,
+    'open': 41.745,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 446.0,
+    'vwap': 41.74125}}
+2025-08-22 11:59:08 INFO: Most recent stock data: {'TNA': {   'close': 41.67,
+    'high': 41.73,
+    'low': 41.67,
+    'open': 41.73,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1011.0,
+    'vwap': 41.703333}}
+2025-08-22 12:00:08 INFO: Most recent stock data: {'TNA': {   'close': 41.65,
+    'high': 41.67,
+    'low': 41.64,
+    'open': 41.66,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1190.0,
+    'vwap': 41.657253}}
+2025-08-22 12:01:08 INFO: Most recent stock data: {'TNA': {   'close': 41.66,
+    'high': 41.7,
+    'low': 41.62,
+    'open': 41.65,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 19.0,
+    'volume': 2898.0,
+    'vwap': 41.666837}}
+2025-08-22 12:02:08 INFO: Most recent stock data: {'TNA': {   'close': 41.78,
+    'high': 41.78,
+    'low': 41.65,
+    'open': 41.65,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2499.0,
+    'vwap': 41.730498}}
+2025-08-22 12:03:09 INFO: Most recent stock data: {'TNA': {   'close': 41.89,
+    'high': 41.9,
+    'low': 41.795,
+    'open': 41.795,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 2366.0,
+    'vwap': 41.85413}}
+2025-08-22 12:04:09 INFO: Most recent stock data: {'TNA': {   'close': 41.93,
+    'high': 41.93,
+    'low': 41.9,
+    'open': 41.9,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 41.915}}
+2025-08-22 12:05:09 INFO: Most recent stock data: {'TNA': {   'close': 41.95,
+    'high': 41.95,
+    'low': 41.95,
+    'open': 41.95,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 106.0,
+    'vwap': 41.95}}
+2025-08-22 12:05:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 12:05:09 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-22 12:06:09 INFO: {'TNA': {   'close': 41.925,
+    'high': 41.96,
+    'low': 41.925,
+    'open': 41.96,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 207.0,
+    'vwap': 41.9425}}
+2025-08-22 12:06:09 INFO: Current resistance is: 41.95 and support is: 41.62
+2025-08-22 12:06:09 INFO: Current average volume is: 1392.8
+2025-08-22 12:06:09 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:06:09 INFO: The engulfing candle pattern check is: [   0    0    0    0 -100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:06:09 INFO: Updated resistance to: 41.96 and support to: 41.62
+2025-08-22 12:10:10 INFO: {'TNA': {   'close': 41.88,
+    'high': 41.89,
+    'low': 41.88,
+    'open': 41.885,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 430.0,
+    'vwap': 41.885}}
+2025-08-22 12:10:10 INFO: Current resistance is: 41.96 and support is: 41.62
+2025-08-22 12:10:10 INFO: Current average volume is: 1135.3
+2025-08-22 12:10:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:10:10 INFO: The engulfing candle pattern check is: [   0    0    0 -100    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:10:10 INFO: Updated resistance to: 41.96 and support to: 41.62
+2025-08-22 12:12:11 INFO: {'TNA': {   'close': 41.91,
+    'high': 41.91,
+    'low': 41.91,
+    'open': 41.91,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 41.91}}
+2025-08-22 12:12:11 INFO: Current resistance is: 41.96 and support is: 41.62
+2025-08-22 12:12:11 INFO: Current average volume is: 1110.7
+2025-08-22 12:12:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:12:11 INFO: The engulfing candle pattern check is: [   0    0 -100    0    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:12:11 INFO: Updated resistance to: 41.96 and support to: 41.62
+2025-08-22 12:14:11 INFO: {'TNA': {   'close': 41.85,
+    'high': 41.89,
+    'low': 41.85,
+    'open': 41.89,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 41.87}}
+2025-08-22 12:14:11 INFO: Current resistance is: 41.96 and support is: 41.62
+2025-08-22 12:14:11 INFO: Current average volume is: 1029.6
+2025-08-22 12:14:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:14:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:14:11 INFO: Updated resistance to: 41.96 and support to: 41.62
+2025-08-22 12:16:11 INFO: {'TNA': {   'close': 41.93,
+    'high': 41.93,
+    'low': 41.805,
+    'open': 41.82,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 3375.0,
+    'vwap': 41.819621}}
+2025-08-22 12:16:11 INFO: Current resistance is: 41.96 and support is: 41.62
+2025-08-22 12:16:11 INFO: Current average volume is: 1248.1
+2025-08-22 12:16:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:16:12 INFO: The engulfing candle pattern check is: [  0   0   0   0 100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:16:12 INFO: Updated resistance to: 41.96 and support to: 41.62
+2025-08-22 12:18:12 INFO: {'TNA': {   'close': 41.78,
+    'high': 41.78,
+    'low': 41.775,
+    'open': 41.775,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 534.0,
+    'vwap': 41.776255}}
+2025-08-22 12:18:12 INFO: Current resistance is: 41.96 and support is: 41.62
+2025-08-22 12:18:12 INFO: Current average volume is: 1011.7
+2025-08-22 12:18:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:18:12 INFO: The engulfing candle pattern check is: [  0   0   0 100   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:18:12 INFO: Updated resistance to: 41.96 and support to: 41.62
+2025-08-22 12:21:13 INFO: {'TNA': {   'close': 41.68,
+    'high': 41.68,
+    'low': 41.68,
+    'open': 41.68,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 41.68}}
+2025-08-22 12:21:13 INFO: Current resistance is: 41.96 and support is: 41.62
+2025-08-22 12:21:13 INFO: Current average volume is: 781.8
+2025-08-22 12:21:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:21:13 INFO: The engulfing candle pattern check is: [  0   0 100   0   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:21:13 INFO: Updated resistance to: 41.96 and support to: 41.62
+2025-08-22 12:22:13 INFO: {'TNA': {   'close': 41.76,
+    'high': 41.76,
+    'low': 41.76,
+    'open': 41.76,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 206.0,
+    'vwap': 41.76}}
+2025-08-22 12:22:13 INFO: Current resistance is: 41.96 and support is: 41.62
+2025-08-22 12:22:13 INFO: Current average volume is: 565.8
+2025-08-22 12:22:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:22:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:22:13 INFO: Updated resistance to: 41.96 and support to: 41.62
+2025-08-22 12:23:13 INFO: {'TNA': {   'close': 41.73,
+    'high': 41.73,
+    'low': 41.73,
+    'open': 41.73,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 41.73}}
+2025-08-22 12:23:13 INFO: Current resistance is: 41.96 and support is: 41.62
+2025-08-22 12:23:13 INFO: Current average volume is: 555.8
+2025-08-22 12:23:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:23:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:23:13 INFO: Updated resistance to: 41.96 and support to: 41.62
+2025-08-22 12:25:14 INFO: {'TNA': {   'close': 41.56,
+    'high': 41.58,
+    'low': 41.56,
+    'open': 41.58,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 331.0,
+    'vwap': 41.566667}}
+2025-08-22 12:25:14 INFO: Current resistance is: 41.96 and support is: 41.62
+2025-08-22 12:25:14 INFO: Current average volume is: 578.3
+2025-08-22 12:25:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:25:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:25:14 INFO: the current close 41.56 has dropped below the current support 41.62 once...
+2025-08-22 12:25:14 INFO: Updated resistance to: 41.96 and support to: 41.56
+2025-08-22 12:26:14 INFO: {'TNA': {   'close': 41.52,
+    'high': 41.52,
+    'low': 41.52,
+    'open': 41.52,
+    'symbol': 'TNA',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 179.0,
+    'vwap': 41.52}}
+2025-08-22 12:26:14 INFO: Current resistance is: 41.96 and support is: 41.56
+2025-08-22 12:26:14 INFO: Current average volume is: 575.5
+2025-08-22 12:26:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:26:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:26:14 INFO: the current close 41.52 is below the support again, ending trade...

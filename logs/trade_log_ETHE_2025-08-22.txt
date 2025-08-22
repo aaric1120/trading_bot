@@ -1,0 +1,2299 @@
+2025-08-22 11:54:07 INFO: === Strategy started ===
+2025-08-22 11:54:07 INFO: Start collecting the current highs/lows for: ETHE
+2025-08-22 11:54:07 INFO: Most recent stock data: {'ETHE': {   'close': 38.32,
+    'high': 38.32,
+    'low': 38.3,
+    'open': 38.3,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 302.0,
+    'vwap': 38.313333}}
+2025-08-22 11:55:08 INFO: Most recent stock data: {'ETHE': {   'close': 38.33,
+    'high': 38.33,
+    'low': 38.32,
+    'open': 38.32,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 720.0,
+    'vwap': 38.322817}}
+2025-08-22 11:56:08 INFO: Most recent stock data: {'ETHE': {   'close': 38.41,
+    'high': 38.41,
+    'low': 38.39,
+    'open': 38.39,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 680.0,
+    'vwap': 38.403378}}
+2025-08-22 11:58:08 INFO: Most recent stock data: {'ETHE': {   'close': 38.32,
+    'high': 38.32,
+    'low': 38.32,
+    'open': 38.32,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 38.32}}
+2025-08-22 11:59:08 INFO: Most recent stock data: {'ETHE': {   'close': 38.265,
+    'high': 38.265,
+    'low': 38.265,
+    'open': 38.265,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 202.0,
+    'vwap': 38.265}}
+2025-08-22 12:00:08 INFO: Most recent stock data: {'ETHE': {   'close': 38.12,
+    'high': 38.26,
+    'low': 38.12,
+    'open': 38.25,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1610.0,
+    'vwap': 38.209627}}
+2025-08-22 12:01:08 INFO: Most recent stock data: {'ETHE': {   'close': 38.24,
+    'high': 38.24,
+    'low': 38.13,
+    'open': 38.13,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 322.0,
+    'vwap': 38.166667}}
+2025-08-22 12:02:08 INFO: Most recent stock data: {'ETHE': {   'close': 38.35,
+    'high': 38.35,
+    'low': 38.28,
+    'open': 38.28,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1430.0,
+    'vwap': 38.302857}}
+2025-08-22 12:05:09 INFO: Most recent stock data: {'ETHE': {   'close': 38.43,
+    'high': 38.43,
+    'low': 38.43,
+    'open': 38.43,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 38.43}}
+2025-08-22 12:08:09 INFO: Most recent stock data: {'ETHE': {   'close': 38.78,
+    'high': 38.8,
+    'low': 38.5,
+    'open': 38.5,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 36.0,
+    'volume': 4787.0,
+    'vwap': 38.690022}}
+2025-08-22 12:09:09 INFO: Most recent stock data: {'ETHE': {   'close': 39.16,
+    'high': 39.16,
+    'low': 38.925,
+    'open': 38.925,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 83.0,
+    'volume': 11710.0,
+    'vwap': 39.02309}}
+2025-08-22 12:09:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 12:09:09 INFO: no pattern detected...collecting more data points...
+2025-08-22 12:10:09 INFO: Most recent stock data: {'ETHE': {   'close': 39.095,
+    'high': 39.185,
+    'low': 39.04,
+    'open': 39.185,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 3394.0,
+    'vwap': 39.072764}}
+2025-08-22 12:10:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 12:10:09 INFO: Pattern matched as Symmetrical Triangle, starting trading strategy
+2025-08-22 12:11:10 INFO: {'ETHE': {   'close': 38.95,
+    'high': 39.05,
+    'low': 38.95,
+    'open': 39.05,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1264.0,
+    'vwap': 39.025207}}
+2025-08-22 12:11:10 INFO: Current resistance is: 39.257 and support is: 38.486
+2025-08-22 12:11:10 INFO: Current average volume is: 2501.9
+2025-08-22 12:11:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:11:10 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:11:10 INFO: Updated resistance to: 39.334 and support to: 38.589
+2025-08-22 12:12:10 INFO: {'ETHE': {   'close': 39.01,
+    'high': 39.01,
+    'low': 39.01,
+    'open': 39.01,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 39.01}}
+2025-08-22 12:12:10 INFO: Current resistance is: 39.334 and support is: 38.589
+2025-08-22 12:12:10 INFO: Current average volume is: 2502.1
+2025-08-22 12:12:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:12:10 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:12:10 INFO: Updated resistance to: 39.403 and support to: 38.684
+2025-08-22 12:13:10 INFO: {'ETHE': {   'close': 39.18,
+    'high': 39.18,
+    'low': 39.02,
+    'open': 39.02,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 28.0,
+    'volume': 4354.0,
+    'vwap': 39.112555}}
+2025-08-22 12:13:10 INFO: Current resistance is: 39.403 and support is: 38.684
+2025-08-22 12:13:10 INFO: Current average volume is: 2917.3
+2025-08-22 12:13:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:13:10 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:13:10 INFO: Updated resistance to: 39.481 and support to: 38.759
+2025-08-22 12:15:11 INFO: {'ETHE': {   'close': 39.335,
+    'high': 39.37,
+    'low': 39.25,
+    'open': 39.25,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 3216.0,
+    'vwap': 39.31347}}
+2025-08-22 12:15:11 INFO: Current resistance is: 39.481 and support is: 38.759
+2025-08-22 12:15:11 INFO: Current average volume is: 3077.9
+2025-08-22 12:15:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:15:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:15:11 INFO: Updated resistance to: 39.447 and support to: 38.873
+2025-08-22 12:16:11 INFO: {'ETHE': {   'close': 39.26,
+    'high': 39.33,
+    'low': 39.22,
+    'open': 39.33,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1740.0,
+    'vwap': 39.260588}}
+2025-08-22 12:16:11 INFO: Current resistance is: 39.447 and support is: 38.873
+2025-08-22 12:16:11 INFO: Current average volume is: 3219.7
+2025-08-22 12:16:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:16:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:16:11 INFO: Updated resistance to: 39.525 and support to: 38.956
+2025-08-22 12:17:11 INFO: {'ETHE': {   'close': 39.21,
+    'high': 39.24,
+    'low': 39.21,
+    'open': 39.24,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 455.0,
+    'vwap': 39.225}}
+2025-08-22 12:17:11 INFO: Current resistance is: 39.525 and support is: 38.956
+2025-08-22 12:17:11 INFO: Current average volume is: 3122.2
+2025-08-22 12:17:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:17:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:17:11 INFO: Updated resistance to: 39.594 and support to: 39.018
+2025-08-22 12:19:12 INFO: {'ETHE': {   'close': 39.18,
+    'high': 39.2,
+    'low': 39.1,
+    'open': 39.115,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1300.0,
+    'vwap': 39.144615}}
+2025-08-22 12:19:12 INFO: Current resistance is: 39.594 and support is: 39.018
+2025-08-22 12:19:12 INFO: Current average volume is: 3232.2
+2025-08-22 12:19:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:19:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:19:12 INFO: Updated resistance to: 39.653 and support to: 39.042
+2025-08-22 12:20:12 INFO: {'ETHE': {   'close': 39.19,
+    'high': 39.23,
+    'low': 39.13,
+    'open': 39.13,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1569.0,
+    'vwap': 39.197649}}
+2025-08-22 12:20:12 INFO: Current resistance is: 39.653 and support is: 39.042
+2025-08-22 12:20:12 INFO: Current average volume is: 2910.4
+2025-08-22 12:20:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:20:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:20:12 INFO: Updated resistance to: 39.707 and support to: 39.064
+2025-08-22 12:22:13 INFO: {'ETHE': {   'close': 39.15,
+    'high': 39.17,
+    'low': 39.15,
+    'open': 39.17,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 39.163333}}
+2025-08-22 12:22:13 INFO: Current resistance is: 39.707 and support is: 39.064
+2025-08-22 12:22:13 INFO: Current average volume is: 1769.4
+2025-08-22 12:22:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:22:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:22:13 INFO: Updated resistance to: 39.749 and support to: 39.084
+2025-08-22 12:23:13 INFO: {'ETHE': {   'close': 39.195,
+    'high': 39.215,
+    'low': 39.195,
+    'open': 39.215,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 920.0,
+    'vwap': 39.211648}}
+2025-08-22 12:23:13 INFO: Current resistance is: 39.749 and support is: 39.084
+2025-08-22 12:23:13 INFO: Current average volume is: 1522.0
+2025-08-22 12:23:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:23:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:23:13 INFO: Updated resistance to: 39.789 and support to: 39.107
+2025-08-22 12:24:13 INFO: {'ETHE': {   'close': 39.26,
+    'high': 39.26,
+    'low': 39.26,
+    'open': 39.26,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 170.0,
+    'vwap': 39.26}}
+2025-08-22 12:24:13 INFO: Current resistance is: 39.789 and support is: 39.107
+2025-08-22 12:24:13 INFO: Current average volume is: 1412.6
+2025-08-22 12:24:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:24:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:24:13 INFO: Updated resistance to: 39.827 and support to: 39.137
+2025-08-22 12:25:13 INFO: {'ETHE': {   'close': 39.23,
+    'high': 39.23,
+    'low': 39.19,
+    'open': 39.19,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 39.21}}
+2025-08-22 12:25:13 INFO: Current resistance is: 39.827 and support is: 39.137
+2025-08-22 12:25:13 INFO: Current average volume is: 1442.4
+2025-08-22 12:25:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:25:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:25:13 INFO: Updated resistance to: 39.858 and support to: 39.146
+2025-08-22 12:26:14 INFO: {'ETHE': {   'close': 39.2,
+    'high': 39.2,
+    'low': 39.2,
+    'open': 39.2,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 39.2}}
+2025-08-22 12:26:14 INFO: Current resistance is: 39.858 and support is: 39.146
+2025-08-22 12:26:14 INFO: Current average volume is: 1027.0
+2025-08-22 12:26:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:26:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:26:14 INFO: Updated resistance to: 39.881 and support to: 39.153
+2025-08-22 12:27:14 INFO: {'ETHE': {   'close': 39.21,
+    'high': 39.21,
+    'low': 39.21,
+    'open': 39.21,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.21}}
+2025-08-22 12:27:14 INFO: Current resistance is: 39.881 and support is: 39.153
+2025-08-22 12:27:14 INFO: Current average volume is: 715.4
+2025-08-22 12:27:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:27:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:27:14 INFO: Updated resistance to: 39.902 and support to: 39.158
+2025-08-22 12:28:14 INFO: {'ETHE': {   'close': 39.18,
+    'high': 39.18,
+    'low': 39.18,
+    'open': 39.18,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 39.18}}
+2025-08-22 12:28:14 INFO: Current resistance is: 39.902 and support is: 39.158
+2025-08-22 12:28:14 INFO: Current average volume is: 591.4
+2025-08-22 12:28:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:28:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:28:14 INFO: Updated resistance to: 39.916 and support to: 39.155
+2025-08-22 12:32:15 INFO: {'ETHE': {   'close': 39.27,
+    'high': 39.27,
+    'low': 39.22,
+    'open': 39.22,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 315.0,
+    'vwap': 39.253333}}
+2025-08-22 12:32:15 INFO: Current resistance is: 39.916 and support is: 39.155
+2025-08-22 12:32:15 INFO: Current average volume is: 577.4
+2025-08-22 12:32:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:32:15 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:32:15 INFO: Updated resistance to: 39.936 and support to: 39.157
+2025-08-22 12:34:16 INFO: {'ETHE': {   'close': 39.38,
+    'high': 39.44,
+    'low': 39.38,
+    'open': 39.41,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 873.0,
+    'vwap': 39.418372}}
+2025-08-22 12:34:16 INFO: Current resistance is: 39.936 and support is: 39.157
+2025-08-22 12:34:16 INFO: Current average volume is: 534.7
+2025-08-22 12:34:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:34:16 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:34:16 INFO: Updated resistance to: 39.483 and support to: 39.184
+2025-08-22 12:35:16 INFO: {'ETHE': {   'close': 39.33,
+    'high': 39.33,
+    'low': 39.3,
+    'open': 39.3,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1100.0,
+    'vwap': 39.321818}}
+2025-08-22 12:35:16 INFO: Current resistance is: 39.483 and support is: 39.184
+2025-08-22 12:35:16 INFO: Current average volume is: 487.8
+2025-08-22 12:35:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:35:16 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:35:16 INFO: Updated resistance to: 39.523 and support to: 39.192
+2025-08-22 12:37:16 INFO: {'ETHE': {   'close': 39.21,
+    'high': 39.21,
+    'low': 39.2,
+    'open': 39.2,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 39.206667}}
+2025-08-22 12:37:16 INFO: Current resistance is: 39.523 and support is: 39.192
+2025-08-22 12:37:16 INFO: Current average volume is: 487.8
+2025-08-22 12:37:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:37:16 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:37:16 INFO: Updated resistance to: 39.557 and support to: 39.182
+2025-08-22 12:38:17 INFO: {'ETHE': {   'close': 39.23,
+    'high': 39.23,
+    'low': 39.23,
+    'open': 39.23,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.23}}
+2025-08-22 12:38:17 INFO: Current resistance is: 39.557 and support is: 39.182
+2025-08-22 12:38:17 INFO: Current average volume is: 405.8
+2025-08-22 12:38:17 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:38:17 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:38:17 INFO: Updated resistance to: 39.589 and support to: 39.176
+2025-08-22 12:39:17 INFO: {'ETHE': {   'close': 39.3,
+    'high': 39.3,
+    'low': 39.3,
+    'open': 39.3,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 39.3}}
+2025-08-22 12:39:17 INFO: Current resistance is: 39.589 and support is: 39.176
+2025-08-22 12:39:17 INFO: Current average volume is: 408.8
+2025-08-22 12:39:17 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:39:17 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:39:17 INFO: Updated resistance to: 39.619 and support to: 39.179
+2025-08-22 12:41:17 INFO: {'ETHE': {   'close': 39.34,
+    'high': 39.34,
+    'low': 39.34,
+    'open': 39.34,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.34}}
+2025-08-22 12:41:17 INFO: Current resistance is: 39.619 and support is: 39.179
+2025-08-22 12:41:17 INFO: Current average volume is: 378.8
+2025-08-22 12:41:17 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:41:17 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:41:17 INFO: Updated resistance to: 39.647 and support to: 39.186
+2025-08-22 12:42:18 INFO: {'ETHE': {   'close': 39.33,
+    'high': 39.33,
+    'low': 39.31,
+    'open': 39.31,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1000.0,
+    'vwap': 39.32002}}
+2025-08-22 12:42:18 INFO: Current resistance is: 39.647 and support is: 39.186
+2025-08-22 12:42:18 INFO: Current average volume is: 458.8
+2025-08-22 12:42:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:42:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:42:18 INFO: Updated resistance to: 39.673 and support to: 39.187
+2025-08-22 12:43:18 INFO: {'ETHE': {   'close': 39.23,
+    'high': 39.23,
+    'low': 39.23,
+    'open': 39.23,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 39.23}}
+2025-08-22 12:43:18 INFO: Current resistance is: 39.673 and support is: 39.187
+2025-08-22 12:43:18 INFO: Current average volume is: 508.8
+2025-08-22 12:43:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:43:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:43:18 INFO: Updated resistance to: 39.694 and support to: 39.175
+2025-08-22 12:45:18 INFO: {'ETHE': {   'close': 39.28,
+    'high': 39.28,
+    'low': 39.28,
+    'open': 39.28,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 39.28}}
+2025-08-22 12:45:18 INFO: Current resistance is: 39.694 and support is: 39.175
+2025-08-22 12:45:18 INFO: Current average volume is: 478.8
+2025-08-22 12:45:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:45:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:45:18 INFO: Updated resistance to: 39.714 and support to: 39.169
+2025-08-22 12:47:19 INFO: {'ETHE': {   'close': 39.19,
+    'high': 39.24,
+    'low': 39.19,
+    'open': 39.24,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1000.0,
+    'vwap': 39.224}}
+2025-08-22 12:47:19 INFO: Current resistance is: 39.714 and support is: 39.169
+2025-08-22 12:47:19 INFO: Current average volume is: 547.3
+2025-08-22 12:47:19 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:47:19 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:47:19 INFO: Updated resistance to: 39.73 and support to: 39.151
+2025-08-22 12:49:19 INFO: {'ETHE': {   'close': 39.21,
+    'high': 39.21,
+    'low': 39.21,
+    'open': 39.21,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.21}}
+2025-08-22 12:49:19 INFO: Current resistance is: 39.73 and support is: 39.151
+2025-08-22 12:49:19 INFO: Current average volume is: 470.0
+2025-08-22 12:49:19 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:49:19 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:49:19 INFO: Updated resistance to: 39.744 and support to: 39.136
+2025-08-22 12:50:20 INFO: {'ETHE': {   'close': 39.23,
+    'high': 39.23,
+    'low': 39.19,
+    'open': 39.19,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 39.22}}
+2025-08-22 12:50:20 INFO: Current resistance is: 39.744 and support is: 39.136
+2025-08-22 12:50:20 INFO: Current average volume is: 400.0
+2025-08-22 12:50:20 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:50:20 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:50:20 INFO: Updated resistance to: 39.757 and support to: 39.119
+2025-08-22 12:51:20 INFO: {'ETHE': {   'close': 39.24,
+    'high': 39.24,
+    'low': 39.24,
+    'open': 39.24,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 39.24}}
+2025-08-22 12:51:20 INFO: Current resistance is: 39.757 and support is: 39.119
+2025-08-22 12:51:20 INFO: Current average volume is: 390.0
+2025-08-22 12:51:20 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:51:20 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:51:20 INFO: Updated resistance to: 39.769 and support to: 39.108
+2025-08-22 12:52:20 INFO: {'ETHE': {   'close': 39.22,
+    'high': 39.25,
+    'low': 39.22,
+    'open': 39.25,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 39.235}}
+2025-08-22 12:52:20 INFO: Current resistance is: 39.769 and support is: 39.108
+2025-08-22 12:52:20 INFO: Current average volume is: 420.0
+2025-08-22 12:52:20 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:52:20 INFO: The engulfing candle pattern check is: [   0    0    0    0 -100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:52:20 INFO: Updated resistance to: 39.78 and support to: 39.095
+2025-08-22 12:54:21 INFO: {'ETHE': {   'close': 39.27,
+    'high': 39.27,
+    'low': 39.27,
+    'open': 39.27,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 39.27}}
+2025-08-22 12:54:21 INFO: Current resistance is: 39.78 and support is: 39.095
+2025-08-22 12:54:21 INFO: Current average volume is: 420.0
+2025-08-22 12:54:21 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:54:21 INFO: The engulfing candle pattern check is: [   0    0    0 -100    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:54:21 INFO: Updated resistance to: 39.791 and support to: 39.088
+2025-08-22 12:55:21 INFO: {'ETHE': {   'close': 39.21,
+    'high': 39.21,
+    'low': 39.21,
+    'open': 39.21,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.21}}
+2025-08-22 12:55:21 INFO: Current resistance is: 39.791 and support is: 39.088
+2025-08-22 12:55:21 INFO: Current average volume is: 420.0
+2025-08-22 12:55:21 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:55:21 INFO: The engulfing candle pattern check is: [   0    0 -100    0    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:55:21 INFO: Updated resistance to: 39.797 and support to: 39.074
+2025-08-22 12:56:21 INFO: {'ETHE': {   'close': 39.28,
+    'high': 39.28,
+    'low': 39.28,
+    'open': 39.28,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 39.28}}
+2025-08-22 12:56:21 INFO: Current resistance is: 39.797 and support is: 39.074
+2025-08-22 12:56:21 INFO: Current average volume is: 330.1
+2025-08-22 12:56:21 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:56:21 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:56:21 INFO: Updated resistance to: 39.807 and support to: 39.068
+2025-08-22 13:01:22 INFO: {'ETHE': {   'close': 39.36,
+    'high': 39.36,
+    'low': 39.25,
+    'open': 39.25,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 400.0,
+    'vwap': 39.29}}
+2025-08-22 13:01:22 INFO: Current resistance is: 39.807 and support is: 39.068
+2025-08-22 13:01:22 INFO: Current average volume is: 310.1
+2025-08-22 13:01:22 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:01:22 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:01:22 INFO: Updated resistance to: 39.819 and support to: 39.058
+2025-08-22 13:02:23 INFO: {'ETHE': {   'close': 39.4,
+    'high': 39.445,
+    'low': 39.37,
+    'open': 39.37,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2702.0,
+    'vwap': 39.415074}}
+2025-08-22 13:02:23 INFO: Current resistance is: 39.819 and support is: 39.058
+2025-08-22 13:02:23 INFO: Current average volume is: 560.3
+2025-08-22 13:02:23 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:02:23 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:02:23 INFO: Updated resistance to: 39.466 and support to: 39.062
+2025-08-22 13:03:23 INFO: {'ETHE': {   'close': 39.42,
+    'high': 39.44,
+    'low': 39.41,
+    'open': 39.43,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1449.0,
+    'vwap': 39.421875}}
+2025-08-22 13:03:23 INFO: Current resistance is: 39.466 and support is: 39.062
+2025-08-22 13:03:23 INFO: Current average volume is: 605.2
+2025-08-22 13:03:23 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:03:23 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:03:23 INFO: Updated resistance to: 39.486 and support to: 39.069
+2025-08-22 13:06:24 INFO: {'ETHE': {   'close': 39.46,
+    'high': 39.48,
+    'low': 39.45,
+    'open': 39.45,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1020.0,
+    'vwap': 39.462941}}
+2025-08-22 13:06:24 INFO: Current resistance is: 39.486 and support is: 39.069
+2025-08-22 13:06:24 INFO: Current average volume is: 697.2
+2025-08-22 13:06:24 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:06:24 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:06:24 INFO: Updated resistance to: 39.5 and support to: 39.079
+2025-08-22 13:07:24 INFO: {'ETHE': {   'close': 39.38,
+    'high': 39.46,
+    'low': 39.38,
+    'open': 39.46,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1409.0,
+    'vwap': 39.425385}}
+2025-08-22 13:07:24 INFO: Current resistance is: 39.5 and support is: 39.079
+2025-08-22 13:07:24 INFO: Current average volume is: 798.1
+2025-08-22 13:07:24 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:07:24 INFO: The engulfing candle pattern check is: [  0   0   0   0 -80]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:07:24 INFO: Updated resistance to: 39.52 and support to: 39.081
+2025-08-22 13:09:24 INFO: {'ETHE': {   'close': 39.37,
+    'high': 39.37,
+    'low': 39.37,
+    'open': 39.37,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 39.37}}
+2025-08-22 13:09:24 INFO: Current resistance is: 39.52 and support is: 39.081
+2025-08-22 13:09:24 INFO: Current average volume is: 798.3
+2025-08-22 13:09:24 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:09:24 INFO: The engulfing candle pattern check is: [  0   0   0 -80   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:09:24 INFO: Updated resistance to: 39.538 and support to: 39.08
+2025-08-22 13:10:25 INFO: {'ETHE': {   'close': 39.41,
+    'high': 39.41,
+    'low': 39.35,
+    'open': 39.36,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 880.0,
+    'vwap': 39.38}}
+2025-08-22 13:10:25 INFO: Current resistance is: 39.538 and support is: 39.08
+2025-08-22 13:10:25 INFO: Current average volume is: 846.3
+2025-08-22 13:10:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:10:25 INFO: The engulfing candle pattern check is: [  0   0 -80   0   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:10:25 INFO: Updated resistance to: 39.556 and support to: 39.077
+2025-08-22 13:11:25 INFO: {'ETHE': {   'close': 39.47,
+    'high': 39.47,
+    'low': 39.38,
+    'open': 39.38,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1322.0,
+    'vwap': 39.40803}}
+2025-08-22 13:11:25 INFO: Current resistance is: 39.556 and support is: 39.077
+2025-08-22 13:11:25 INFO: Current average volume is: 958.5
+2025-08-22 13:11:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:11:25 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:11:25 INFO: Updated resistance to: 39.574 and support to: 39.077
+2025-08-22 13:12:25 INFO: {'ETHE': {   'close': 39.52,
+    'high': 39.56,
+    'low': 39.48,
+    'open': 39.48,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 20.0,
+    'volume': 2741.0,
+    'vwap': 39.516314}}
+2025-08-22 13:12:25 INFO: Current resistance is: 39.574 and support is: 39.077
+2025-08-22 13:12:25 INFO: Current average volume is: 1222.6
+2025-08-22 13:12:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:12:25 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:12:25 INFO: Updated resistance to: 39.579 and support to: 39.086
+2025-08-22 13:13:25 INFO: {'ETHE': {   'close': 39.51,
+    'high': 39.53,
+    'low': 39.51,
+    'open': 39.53,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 12, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 201.0,
+    'vwap': 39.52}}
+2025-08-22 13:13:25 INFO: Current resistance is: 39.579 and support is: 39.086
+2025-08-22 13:13:25 INFO: Current average volume is: 1232.6
+2025-08-22 13:13:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:13:25 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:13:25 INFO: Updated resistance to: 39.597 and support to: 39.096
+2025-08-22 13:15:26 INFO: {'ETHE': {   'close': 39.77,
+    'high': 39.77,
+    'low': 39.62,
+    'open': 39.64,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 53.0,
+    'volume': 8864.0,
+    'vwap': 39.675369}}
+2025-08-22 13:15:26 INFO: Current resistance is: 39.597 and support is: 39.096
+2025-08-22 13:15:26 INFO: Current average volume is: 2079.0
+2025-08-22 13:15:26 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:15:26 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:15:26 INFO: Updated resistance to: 39.789 and support to: 39.116
+2025-08-22 13:16:26 INFO: {'ETHE': {   'close': 39.84,
+    'high': 39.86,
+    'low': 39.77,
+    'open': 39.77,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 35.0,
+    'volume': 3653.0,
+    'vwap': 39.822763}}
+2025-08-22 13:16:26 INFO: Current resistance is: 39.789 and support is: 39.116
+2025-08-22 13:16:26 INFO: Current average volume is: 2174.1
+2025-08-22 13:16:26 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:16:26 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:16:26 INFO: Updated resistance to: 39.879 and support to: 39.148
+2025-08-22 13:17:26 INFO: {'ETHE': {   'close': 39.74,
+    'high': 39.79,
+    'low': 39.71,
+    'open': 39.79,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1802.0,
+    'vwap': 39.729412}}
+2025-08-22 13:17:26 INFO: Current resistance is: 39.879 and support is: 39.148
+2025-08-22 13:17:26 INFO: Current average volume is: 2209.4
+2025-08-22 13:17:26 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:17:26 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:17:26 INFO: Updated resistance to: 39.899 and support to: 39.172
+2025-08-22 13:18:27 INFO: {'ETHE': {   'close': 39.84,
+    'high': 39.84,
+    'low': 39.7,
+    'open': 39.71,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1770.0,
+    'vwap': 39.784118}}
+2025-08-22 13:18:27 INFO: Current resistance is: 39.899 and support is: 39.172
+2025-08-22 13:18:27 INFO: Current average volume is: 2284.4
+2025-08-22 13:18:27 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:18:27 INFO: The engulfing candle pattern check is: [  0   0   0   0 100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:18:27 INFO: Updated resistance to: 39.918 and support to: 39.193
+2025-08-22 13:19:27 INFO: {'ETHE': {   'close': 39.85,
+    'high': 39.85,
+    'low': 39.82,
+    'open': 39.82,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 406.0,
+    'vwap': 39.84}}
+2025-08-22 13:19:27 INFO: Current resistance is: 39.918 and support is: 39.193
+2025-08-22 13:19:27 INFO: Current average volume is: 2184.1
+2025-08-22 13:19:27 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:19:27 INFO: The engulfing candle pattern check is: [  0   0   0 100   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:19:27 INFO: Updated resistance to: 39.939 and support to: 39.223
+2025-08-22 13:20:27 INFO: {'ETHE': {   'close': 39.915,
+    'high': 39.915,
+    'low': 39.915,
+    'open': 39.915,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 250.0,
+    'vwap': 39.915}}
+2025-08-22 13:20:27 INFO: Current resistance is: 39.939 and support is: 39.223
+2025-08-22 13:20:27 INFO: Current average volume is: 2188.9
+2025-08-22 13:20:27 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:20:27 INFO: The engulfing candle pattern check is: [  0   0 100   0   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:20:27 INFO: Updated resistance to: 39.935 and support to: 39.259
+2025-08-22 13:21:27 INFO: {'ETHE': {   'close': 39.9,
+    'high': 39.9,
+    'low': 39.74,
+    'open': 39.81,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 29.0,
+    'volume': 4494.0,
+    'vwap': 39.796019}}
+2025-08-22 13:21:27 INFO: Current resistance is: 39.935 and support is: 39.259
+2025-08-22 13:21:27 INFO: Current average volume is: 2550.3
+2025-08-22 13:21:27 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:21:27 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:21:27 INFO: Updated resistance to: 39.955 and support to: 39.277
+2025-08-22 13:22:28 INFO: {'ETHE': {   'close': 39.83,
+    'high': 39.83,
+    'low': 39.83,
+    'open': 39.83,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 39.83}}
+2025-08-22 13:22:28 INFO: Current resistance is: 39.955 and support is: 39.277
+2025-08-22 13:22:28 INFO: Current average volume is: 2448.1
+2025-08-22 13:22:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:22:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:22:28 INFO: Updated resistance to: 39.975 and support to: 39.301
+2025-08-22 13:23:28 INFO: {'ETHE': {   'close': 39.78,
+    'high': 39.81,
+    'low': 39.78,
+    'open': 39.81,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 885.0,
+    'vwap': 39.783659}}
+2025-08-22 13:23:28 INFO: Current resistance is: 39.975 and support is: 39.301
+2025-08-22 13:23:28 INFO: Current average volume is: 2262.5
+2025-08-22 13:23:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:23:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:23:28 INFO: Updated resistance to: 39.995 and support to: 39.319
+2025-08-22 13:24:28 INFO: {'ETHE': {   'close': 39.87,
+    'high': 39.87,
+    'low': 39.87,
+    'open': 39.87,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 600.0,
+    'vwap': 39.87}}
+2025-08-22 13:24:28 INFO: Current resistance is: 39.995 and support is: 39.319
+2025-08-22 13:24:28 INFO: Current average volume is: 2302.4
+2025-08-22 13:24:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:24:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:24:28 INFO: Updated resistance to: 40.015 and support to: 39.343
+2025-08-22 13:25:28 INFO: {'ETHE': {   'close': 39.9,
+    'high': 39.97,
+    'low': 39.9,
+    'open': 39.97,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 626.0,
+    'vwap': 39.951395}}
+2025-08-22 13:25:28 INFO: Current resistance is: 40.015 and support is: 39.343
+2025-08-22 13:25:28 INFO: Current average volume is: 1478.6
+2025-08-22 13:25:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:25:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:25:28 INFO: Updated resistance to: 39.99 and support to: 39.367
+2025-08-22 13:28:29 INFO: {'ETHE': {   'close': 39.91,
+    'high': 39.93,
+    'low': 39.91,
+    'open': 39.93,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 652.0,
+    'vwap': 39.916154}}
+2025-08-22 13:28:29 INFO: Current resistance is: 39.99 and support is: 39.367
+2025-08-22 13:28:29 INFO: Current average volume is: 1178.5
+2025-08-22 13:28:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:28:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:28:29 INFO: Updated resistance to: 40.01 and support to: 39.39
+2025-08-22 13:29:29 INFO: {'ETHE': {   'close': 40.04,
+    'high': 40.04,
+    'low': 39.96,
+    'open': 39.96,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 37.0,
+    'volume': 3714.0,
+    'vwap': 40.017492}}
+2025-08-22 13:29:29 INFO: Current resistance is: 40.01 and support is: 39.39
+2025-08-22 13:29:29 INFO: Current average volume is: 1369.7
+2025-08-22 13:29:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:29:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:29:29 INFO: Updated resistance to: 40.06 and support to: 39.416
+2025-08-22 13:30:29 INFO: {'ETHE': {   'close': 40.03,
+    'high': 40.05,
+    'low': 40.03,
+    'open': 40.05,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 308.0,
+    'vwap': 40.043333}}
+2025-08-22 13:30:29 INFO: Current resistance is: 40.06 and support is: 39.416
+2025-08-22 13:30:29 INFO: Current average volume is: 1223.5
+2025-08-22 13:30:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:30:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:30:29 INFO: Updated resistance to: 40.07 and support to: 39.445
+2025-08-22 13:31:30 INFO: {'ETHE': {   'close': 40.02,
+    'high': 40.03,
+    'low': 40.02,
+    'open': 40.03,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 374.0,
+    'vwap': 40.023333}}
+2025-08-22 13:31:30 INFO: Current resistance is: 40.07 and support is: 39.445
+2025-08-22 13:31:30 INFO: Current average volume is: 1220.3
+2025-08-22 13:31:30 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:31:30 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:31:30 INFO: Updated resistance to: 40.091 and support to: 39.472
+2025-08-22 13:32:30 INFO: {'ETHE': {   'close': 39.98,
+    'high': 40.0,
+    'low': 39.98,
+    'open': 40.0,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 31, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 447.0,
+    'vwap': 39.9875}}
+2025-08-22 13:32:30 INFO: Current resistance is: 40.091 and support is: 39.472
+2025-08-22 13:32:30 INFO: Current average volume is: 1240.0
+2025-08-22 13:32:30 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:32:30 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:32:30 INFO: Updated resistance to: 40.111 and support to: 39.493
+2025-08-22 13:33:00 INFO: {'ETHE': {   'close': 39.82,
+    'high': 39.93,
+    'low': 39.82,
+    'open': 39.93,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 55.0,
+    'volume': 6424.0,
+    'vwap': 39.884879}}
+2025-08-22 13:33:00 INFO: Current resistance is: 40.111 and support is: 39.493
+2025-08-22 13:33:00 INFO: Current average volume is: 1433.0
+2025-08-22 13:33:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:33:00 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:33:00 INFO: Updated resistance to: 40.131 and support to: 39.5
+2025-08-22 13:34:00 INFO: {'ETHE': {   'close': 39.85,
+    'high': 39.85,
+    'low': 39.75,
+    'open': 39.79,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 27.0,
+    'volume': 3154.0,
+    'vwap': 39.783651}}
+2025-08-22 13:34:00 INFO: Current resistance is: 40.131 and support is: 39.5
+2025-08-22 13:34:00 INFO: Current average volume is: 1718.4
+2025-08-22 13:34:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:34:00 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:34:00 INFO: Updated resistance to: 40.15 and support to: 39.502
+2025-08-22 13:35:01 INFO: {'ETHE': {   'close': 39.8,
+    'high': 39.81,
+    'low': 39.79,
+    'open': 39.8,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 34, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 1564.0,
+    'vwap': 39.797333}}
+2025-08-22 13:35:01 INFO: Current resistance is: 40.15 and support is: 39.502
+2025-08-22 13:35:01 INFO: Current average volume is: 1786.3
+2025-08-22 13:35:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:35:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:35:01 INFO: Updated resistance to: 40.169 and support to: 39.506
+2025-08-22 13:36:01 INFO: {'ETHE': {   'close': 39.915,
+    'high': 39.915,
+    'low': 39.81,
+    'open': 39.81,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 24.0,
+    'volume': 2503.0,
+    'vwap': 39.86875}}
+2025-08-22 13:36:01 INFO: Current resistance is: 40.169 and support is: 39.506
+2025-08-22 13:36:01 INFO: Current average volume is: 1976.6
+2025-08-22 13:36:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:36:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:36:01 INFO: Updated resistance to: 40.187 and support to: 39.51
+2025-08-22 13:37:01 INFO: {'ETHE': {   'close': 39.88,
+    'high': 39.93,
+    'low': 39.88,
+    'open': 39.9,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 930.0,
+    'vwap': 39.91}}
+2025-08-22 13:37:01 INFO: Current resistance is: 40.187 and support is: 39.51
+2025-08-22 13:37:01 INFO: Current average volume is: 2007.0
+2025-08-22 13:37:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:37:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:37:01 INFO: Updated resistance to: 40.206 and support to: 39.519
+2025-08-22 13:38:01 INFO: {'ETHE': {   'close': 39.82,
+    'high': 39.87,
+    'low': 39.82,
+    'open': 39.86,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 944.0,
+    'vwap': 39.839873}}
+2025-08-22 13:38:01 INFO: Current resistance is: 40.206 and support is: 39.519
+2025-08-22 13:38:01 INFO: Current average volume is: 2036.2
+2025-08-22 13:38:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:38:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:38:01 INFO: Updated resistance to: 40.223 and support to: 39.523
+2025-08-22 13:41:02 INFO: {'ETHE': {   'close': 39.72,
+    'high': 39.79,
+    'low': 39.71,
+    'open': 39.79,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 14.0,
+    'volume': 1430.0,
+    'vwap': 39.727073}}
+2025-08-22 13:41:02 INFO: Current resistance is: 40.223 and support is: 39.523
+2025-08-22 13:41:02 INFO: Current average volume is: 1807.8
+2025-08-22 13:41:02 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:41:02 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:41:02 INFO: Updated resistance to: 40.24 and support to: 39.518
+2025-08-22 13:42:02 INFO: {'ETHE': {   'close': 39.68,
+    'high': 39.75,
+    'low': 39.68,
+    'open': 39.75,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1000.0,
+    'vwap': 39.718}}
+2025-08-22 13:42:02 INFO: Current resistance is: 40.24 and support is: 39.518
+2025-08-22 13:42:02 INFO: Current average volume is: 1877.0
+2025-08-22 13:42:02 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:42:02 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:42:02 INFO: Updated resistance to: 40.255 and support to: 39.511
+2025-08-22 13:43:03 INFO: {'ETHE': {   'close': 39.57,
+    'high': 39.61,
+    'low': 39.57,
+    'open': 39.6,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 18.0,
+    'volume': 2403.0,
+    'vwap': 39.593677}}
+2025-08-22 13:43:03 INFO: Current resistance is: 40.255 and support is: 39.511
+2025-08-22 13:43:03 INFO: Current average volume is: 2079.9
+2025-08-22 13:43:03 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:43:03 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:43:03 INFO: Updated resistance to: 40.268 and support to: 39.497
+2025-08-22 13:46:03 INFO: {'ETHE': {   'close': 39.68,
+    'high': 39.75,
+    'low': 39.68,
+    'open': 39.75,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 474.0,
+    'vwap': 39.702381}}
+2025-08-22 13:46:03 INFO: Current resistance is: 40.268 and support is: 39.497
+2025-08-22 13:46:03 INFO: Current average volume is: 2082.6
+2025-08-22 13:46:03 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:46:03 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:46:03 INFO: Updated resistance to: 40.282 and support to: 39.49
+2025-08-22 13:48:04 INFO: {'ETHE': {   'close': 39.65,
+    'high': 39.65,
+    'low': 39.59,
+    'open': 39.59,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 961.0,
+    'vwap': 39.633704}}
+2025-08-22 13:48:04 INFO: Current resistance is: 40.282 and support is: 39.49
+2025-08-22 13:48:04 INFO: Current average volume is: 1536.3
+2025-08-22 13:48:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:48:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:48:04 INFO: Updated resistance to: 40.295 and support to: 39.477
+2025-08-22 13:49:04 INFO: {'ETHE': {   'close': 39.73,
+    'high': 39.73,
+    'low': 39.68,
+    'open': 39.68,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 15.0,
+    'volume': 1202.0,
+    'vwap': 39.709091}}
+2025-08-22 13:49:04 INFO: Current resistance is: 40.295 and support is: 39.477
+2025-08-22 13:49:04 INFO: Current average volume is: 1341.1
+2025-08-22 13:49:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:49:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:49:04 INFO: Updated resistance to: 40.308 and support to: 39.47
+2025-08-22 13:50:04 INFO: {'ETHE': {   'close': 39.65,
+    'high': 39.7,
+    'low': 39.65,
+    'open': 39.7,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 39.674056}}
+2025-08-22 13:50:04 INFO: Current resistance is: 40.308 and support is: 39.47
+2025-08-22 13:50:04 INFO: Current average volume is: 1234.7
+2025-08-22 13:50:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:50:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:50:04 INFO: Updated resistance to: 40.319 and support to: 39.462
+2025-08-22 13:51:04 INFO: {'ETHE': {   'close': 39.64,
+    'high': 39.64,
+    'low': 39.64,
+    'open': 39.64,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 39.64}}
+2025-08-22 13:51:04 INFO: Current resistance is: 40.319 and support is: 39.462
+2025-08-22 13:51:04 INFO: Current average volume is: 1004.4
+2025-08-22 13:51:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:51:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:51:04 INFO: Updated resistance to: 40.33 and support to: 39.452
+2025-08-22 13:52:05 INFO: {'ETHE': {   'close': 39.66,
+    'high': 39.66,
+    'low': 39.66,
+    'open': 39.66,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 39.66}}
+2025-08-22 13:52:05 INFO: Current resistance is: 40.33 and support is: 39.452
+2025-08-22 13:52:05 INFO: Current average volume is: 941.4
+2025-08-22 13:52:05 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:52:05 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:52:05 INFO: Updated resistance to: 40.34 and support to: 39.444
+2025-08-22 13:55:05 INFO: {'ETHE': {   'close': 39.65,
+    'high': 39.65,
+    'low': 39.65,
+    'open': 39.65,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 440.0,
+    'vwap': 39.65}}
+2025-08-22 13:55:05 INFO: Current resistance is: 40.34 and support is: 39.444
+2025-08-22 13:55:05 INFO: Current average volume is: 891.0
+2025-08-22 13:55:05 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:55:05 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:55:05 INFO: Updated resistance to: 40.35 and support to: 39.436
+2025-08-22 13:57:06 INFO: {'ETHE': {   'close': 39.72,
+    'high': 39.72,
+    'low': 39.72,
+    'open': 39.72,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 130.0,
+    'vwap': 39.72}}
+2025-08-22 13:57:06 INFO: Current resistance is: 40.35 and support is: 39.436
+2025-08-22 13:57:06 INFO: Current average volume is: 761.0
+2025-08-22 13:57:06 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:57:06 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:57:06 INFO: Updated resistance to: 40.36 and support to: 39.432
+2025-08-22 13:59:06 INFO: {'ETHE': {   'close': 39.68,
+    'high': 39.68,
+    'low': 39.66,
+    'open': 39.67,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 571.0,
+    'vwap': 39.66633}}
+2025-08-22 13:59:06 INFO: Current resistance is: 40.36 and support is: 39.432
+2025-08-22 13:59:06 INFO: Current average volume is: 718.1
+2025-08-22 13:59:06 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 13:59:06 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 13:59:06 INFO: Updated resistance to: 40.37 and support to: 39.424
+2025-08-22 14:00:07 INFO: {'ETHE': {   'close': 39.64,
+    'high': 39.64,
+    'low': 39.64,
+    'open': 39.64,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 294.0,
+    'vwap': 39.64}}
+2025-08-22 14:00:07 INFO: Current resistance is: 40.37 and support is: 39.424
+2025-08-22 14:00:07 INFO: Current average volume is: 507.2
+2025-08-22 14:00:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:00:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:00:07 INFO: Updated resistance to: 40.378 and support to: 39.414
+2025-08-22 14:01:07 INFO: {'ETHE': {   'close': 39.62,
+    'high': 39.62,
+    'low': 39.62,
+    'open': 39.62,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 630.0,
+    'vwap': 39.62}}
+2025-08-22 14:01:07 INFO: Current resistance is: 40.378 and support is: 39.414
+2025-08-22 14:01:07 INFO: Current average volume is: 522.8
+2025-08-22 14:01:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:01:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:01:07 INFO: Updated resistance to: 40.385 and support to: 39.404
+2025-08-22 14:02:07 INFO: {'ETHE': {   'close': 39.65,
+    'high': 39.65,
+    'low': 39.61,
+    'open': 39.61,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 39.63}}
+2025-08-22 14:02:07 INFO: Current resistance is: 40.385 and support is: 39.404
+2025-08-22 14:02:07 INFO: Current average volume is: 446.7
+2025-08-22 14:02:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:02:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:02:07 INFO: Updated resistance to: 40.393 and support to: 39.393
+2025-08-22 14:03:07 INFO: {'ETHE': {   'close': 39.59,
+    'high': 39.59,
+    'low': 39.59,
+    'open': 39.59,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 192.0,
+    'vwap': 39.59}}
+2025-08-22 14:03:07 INFO: Current resistance is: 40.393 and support is: 39.393
+2025-08-22 14:03:07 INFO: Current average volume is: 345.7
+2025-08-22 14:03:07 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:03:07 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:03:07 INFO: Updated resistance to: 40.399 and support to: 39.381
+2025-08-22 14:04:08 INFO: {'ETHE': {   'close': 39.58,
+    'high': 39.58,
+    'low': 39.49,
+    'open': 39.52,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1000.0,
+    'vwap': 39.514}}
+2025-08-22 14:04:08 INFO: Current resistance is: 40.399 and support is: 39.381
+2025-08-22 14:04:08 INFO: Current average volume is: 395.7
+2025-08-22 14:04:08 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:04:08 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:04:08 INFO: Updated resistance to: 40.405 and support to: 39.364
+2025-08-22 14:05:08 INFO: {'ETHE': {   'close': 39.66,
+    'high': 39.68,
+    'low': 39.63,
+    'open': 39.63,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1236.0,
+    'vwap': 39.655935}}
+2025-08-22 14:05:08 INFO: Current resistance is: 40.405 and support is: 39.364
+2025-08-22 14:05:08 INFO: Current average volume is: 499.3
+2025-08-22 14:05:08 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:05:08 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:05:08 INFO: Updated resistance to: 40.412 and support to: 39.355
+2025-08-22 14:06:08 INFO: {'ETHE': {   'close': 39.62,
+    'high': 39.66,
+    'low': 39.62,
+    'open': 39.66,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 855.0,
+    'vwap': 39.64}}
+2025-08-22 14:06:08 INFO: Current resistance is: 40.412 and support is: 39.355
+2025-08-22 14:06:08 INFO: Current average volume is: 554.8
+2025-08-22 14:06:08 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:06:08 INFO: The engulfing candle pattern check is: [  0   0   0   0 -80]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:06:08 INFO: Updated resistance to: 40.418 and support to: 39.345
+2025-08-22 14:07:08 INFO: {'ETHE': {   'close': 39.58,
+    'high': 39.58,
+    'low': 39.57,
+    'open': 39.57,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 700.0,
+    'vwap': 39.571429}}
+2025-08-22 14:07:08 INFO: Current resistance is: 40.418 and support is: 39.345
+2025-08-22 14:07:08 INFO: Current average volume is: 580.8
+2025-08-22 14:07:08 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:07:08 INFO: The engulfing candle pattern check is: [  0   0   0 -80   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:07:08 INFO: Updated resistance to: 40.423 and support to: 39.333
+2025-08-22 14:08:09 INFO: {'ETHE': {   'close': 39.55,
+    'high': 39.55,
+    'low': 39.55,
+    'open': 39.55,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.55}}
+2025-08-22 14:08:09 INFO: Current resistance is: 40.423 and support is: 39.333
+2025-08-22 14:08:09 INFO: Current average volume is: 577.8
+2025-08-22 14:08:09 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:08:09 INFO: The engulfing candle pattern check is: [  0   0 -80   0   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:08:09 INFO: Updated resistance to: 40.427 and support to: 39.32
+2025-08-22 14:09:09 INFO: {'ETHE': {   'close': 39.57,
+    'high': 39.58,
+    'low': 39.57,
+    'open': 39.58,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 39.5775}}
+2025-08-22 14:09:09 INFO: Current resistance is: 40.427 and support is: 39.32
+2025-08-22 14:09:09 INFO: Current average volume is: 560.7
+2025-08-22 14:09:09 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:09:09 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:09:09 INFO: Updated resistance to: 40.431 and support to: 39.309
+2025-08-22 14:11:09 INFO: {'ETHE': {   'close': 39.56,
+    'high': 39.57,
+    'low': 39.56,
+    'open': 39.57,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 39.565}}
+2025-08-22 14:11:09 INFO: Current resistance is: 40.431 and support is: 39.309
+2025-08-22 14:11:09 INFO: Current average volume is: 551.3
+2025-08-22 14:11:09 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:11:09 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:11:09 INFO: Updated resistance to: 40.434 and support to: 39.297
+2025-08-22 14:12:10 INFO: {'ETHE': {   'close': 39.63,
+    'high': 39.63,
+    'low': 39.63,
+    'open': 39.63,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.63}}
+2025-08-22 14:12:10 INFO: Current resistance is: 40.434 and support is: 39.297
+2025-08-22 14:12:10 INFO: Current average volume is: 498.3
+2025-08-22 14:12:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:12:10 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:12:10 INFO: Updated resistance to: 40.439 and support to: 39.289
+2025-08-22 14:15:10 INFO: {'ETHE': {   'close': 39.57,
+    'high': 39.59,
+    'low': 39.57,
+    'open': 39.58,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 800.0,
+    'vwap': 39.57875}}
+2025-08-22 14:15:10 INFO: Current resistance is: 40.439 and support is: 39.289
+2025-08-22 14:15:10 INFO: Current average volume is: 558.3
+2025-08-22 14:15:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:15:10 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:15:10 INFO: Updated resistance to: 40.442 and support to: 39.278
+2025-08-22 14:17:11 INFO: {'ETHE': {   'close': 39.56,
+    'high': 39.56,
+    'low': 39.56,
+    'open': 39.56,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 39.56}}
+2025-08-22 14:17:11 INFO: Current resistance is: 40.442 and support is: 39.278
+2025-08-22 14:17:11 INFO: Current average volume is: 559.1
+2025-08-22 14:17:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:17:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:17:11 INFO: Updated resistance to: 40.445 and support to: 39.266
+2025-08-22 14:20:11 INFO: {'ETHE': {   'close': 39.515,
+    'high': 39.515,
+    'low': 39.51,
+    'open': 39.51,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 620.0,
+    'vwap': 39.511739}}
+2025-08-22 14:20:11 INFO: Current resistance is: 40.445 and support is: 39.266
+2025-08-22 14:20:11 INFO: Current average volume is: 521.1
+2025-08-22 14:20:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:20:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:20:11 INFO: Updated resistance to: 40.447 and support to: 39.252
+2025-08-22 14:21:12 INFO: {'ETHE': {   'close': 39.43,
+    'high': 39.46,
+    'low': 39.42,
+    'open': 39.46,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 802.0,
+    'vwap': 39.43625}}
+2025-08-22 14:21:12 INFO: Current resistance is: 40.447 and support is: 39.252
+2025-08-22 14:21:12 INFO: Current average volume is: 477.7
+2025-08-22 14:21:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:21:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:21:12 INFO: Updated resistance to: 40.447 and support to: 39.234
+2025-08-22 14:22:12 INFO: {'ETHE': {   'close': 39.38,
+    'high': 39.41,
+    'low': 39.38,
+    'open': 39.41,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 39.3975}}
+2025-08-22 14:22:12 INFO: Current resistance is: 40.447 and support is: 39.234
+2025-08-22 14:22:12 INFO: Current average volume is: 432.2
+2025-08-22 14:22:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:22:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:22:12 INFO: Updated resistance to: 40.446 and support to: 39.214
+2025-08-22 14:23:12 INFO: {'ETHE': {   'close': 39.4,
+    'high': 39.4,
+    'low': 39.4,
+    'open': 39.4,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 144.0,
+    'vwap': 39.4}}
+2025-08-22 14:23:12 INFO: Current resistance is: 40.446 and support is: 39.214
+2025-08-22 14:23:12 INFO: Current average volume is: 376.6
+2025-08-22 14:23:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:23:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:23:12 INFO: Updated resistance to: 40.445 and support to: 39.195
+2025-08-22 14:24:12 INFO: {'ETHE': {   'close': 39.31,
+    'high': 39.39,
+    'low': 39.31,
+    'open': 39.39,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 23, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1034.0,
+    'vwap': 39.335946}}
+2025-08-22 14:24:12 INFO: Current resistance is: 40.445 and support is: 39.195
+2025-08-22 14:24:12 INFO: Current average volume is: 470.0
+2025-08-22 14:24:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:24:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:24:12 INFO: Updated resistance to: 40.443 and support to: 39.173
+2025-08-22 14:25:13 INFO: {'ETHE': {   'close': 39.275,
+    'high': 39.315,
+    'low': 39.275,
+    'open': 39.315,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 625.0,
+    'vwap': 39.296667}}
+2025-08-22 14:25:13 INFO: Current resistance is: 40.443 and support is: 39.173
+2025-08-22 14:25:13 INFO: Current average volume is: 492.5
+2025-08-22 14:25:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:25:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:25:13 INFO: Updated resistance to: 40.44 and support to: 39.149
+2025-08-22 14:26:13 INFO: {'ETHE': {   'close': 39.44,
+    'high': 39.44,
+    'low': 39.395,
+    'open': 39.395,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1286.0,
+    'vwap': 39.42879}}
+2025-08-22 14:26:13 INFO: Current resistance is: 40.44 and support is: 39.149
+2025-08-22 14:26:13 INFO: Current average volume is: 601.1
+2025-08-22 14:26:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:26:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:26:13 INFO: Updated resistance to: 40.439 and support to: 39.132
+2025-08-22 14:27:13 INFO: {'ETHE': {   'close': 39.49,
+    'high': 39.49,
+    'low': 39.46,
+    'open': 39.46,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 494.0,
+    'vwap': 39.47}}
+2025-08-22 14:27:13 INFO: Current resistance is: 40.439 and support is: 39.132
+2025-08-22 14:27:13 INFO: Current average volume is: 640.5
+2025-08-22 14:27:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:27:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:27:13 INFO: Updated resistance to: 40.439 and support to: 39.118
+2025-08-22 14:28:13 INFO: {'ETHE': {   'close': 39.45,
+    'high': 39.45,
+    'low': 39.45,
+    'open': 39.45,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 39.45}}
+2025-08-22 14:28:13 INFO: Current resistance is: 40.439 and support is: 39.118
+2025-08-22 14:28:13 INFO: Current average volume is: 570.7
+2025-08-22 14:28:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:28:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:28:13 INFO: Updated resistance to: 40.438 and support to: 39.105
+2025-08-22 14:30:14 INFO: {'ETHE': {   'close': 39.47,
+    'high': 39.47,
+    'low': 39.47,
+    'open': 39.47,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.47}}
+2025-08-22 14:30:14 INFO: Current resistance is: 40.438 and support is: 39.105
+2025-08-22 14:30:14 INFO: Current average volume is: 560.7
+2025-08-22 14:30:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:30:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:30:14 INFO: Updated resistance to: 40.438 and support to: 39.093
+2025-08-22 14:31:14 INFO: {'ETHE': {   'close': 39.43,
+    'high': 39.43,
+    'low': 39.43,
+    'open': 39.43,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 200.0,
+    'vwap': 39.43}}
+2025-08-22 14:31:14 INFO: Current resistance is: 40.438 and support is: 39.093
+2025-08-22 14:31:14 INFO: Current average volume is: 518.7
+2025-08-22 14:31:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:31:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:31:14 INFO: Updated resistance to: 40.436 and support to: 39.079
+2025-08-22 14:33:15 INFO: {'ETHE': {   'close': 39.47,
+    'high': 39.47,
+    'low': 39.47,
+    'open': 39.47,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 519.0,
+    'vwap': 39.47}}
+2025-08-22 14:33:15 INFO: Current resistance is: 40.436 and support is: 39.079
+2025-08-22 14:33:15 INFO: Current average volume is: 490.4
+2025-08-22 14:33:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:33:15 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:33:15 INFO: Updated resistance to: 40.435 and support to: 39.067
+2025-08-22 14:34:15 INFO: {'ETHE': {   'close': 39.53,
+    'high': 39.53,
+    'low': 39.53,
+    'open': 39.53,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 470.0,
+    'vwap': 39.53}}
+2025-08-22 14:34:15 INFO: Current resistance is: 40.435 and support is: 39.067
+2025-08-22 14:34:15 INFO: Current average volume is: 497.4
+2025-08-22 14:34:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:34:15 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:34:15 INFO: Updated resistance to: 40.436 and support to: 39.059
+2025-08-22 14:36:15 INFO: {'ETHE': {   'close': 39.56,
+    'high': 39.56,
+    'low': 39.56,
+    'open': 39.56,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.56}}
+2025-08-22 14:36:15 INFO: Current resistance is: 40.436 and support is: 39.059
+2025-08-22 14:36:15 INFO: Current average volume is: 493.0
+2025-08-22 14:36:15 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:36:15 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:36:15 INFO: Updated resistance to: 40.437 and support to: 39.052
+2025-08-22 14:40:16 INFO: {'ETHE': {   'close': 39.54,
+    'high': 39.54,
+    'low': 39.54,
+    'open': 39.54,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 39, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 39.54}}
+2025-08-22 14:40:16 INFO: Current resistance is: 40.437 and support is: 39.052
+2025-08-22 14:40:16 INFO: Current average volume is: 409.6
+2025-08-22 14:40:16 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:40:16 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:40:16 INFO: Updated resistance to: 40.437 and support to: 39.044
+2025-08-22 14:41:17 INFO: {'ETHE': {   'close': 39.59,
+    'high': 39.59,
+    'low': 39.56,
+    'open': 39.56,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1434.0,
+    'vwap': 39.570484}}
+2025-08-22 14:41:17 INFO: Current resistance is: 40.437 and support is: 39.044
+2025-08-22 14:41:17 INFO: Current average volume is: 490.5
+2025-08-22 14:41:17 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:41:17 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:41:17 INFO: Updated resistance to: 40.439 and support to: 39.038
+2025-08-22 14:42:17 INFO: {'ETHE': {   'close': 39.58,
+    'high': 39.58,
+    'low': 39.58,
+    'open': 39.58,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 39.58}}
+2025-08-22 14:42:17 INFO: Current resistance is: 40.439 and support is: 39.038
+2025-08-22 14:42:17 INFO: Current average volume is: 431.9
+2025-08-22 14:42:17 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:42:17 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:42:17 INFO: Updated resistance to: 40.44 and support to: 39.032
+2025-08-22 14:45:18 INFO: {'ETHE': {   'close': 39.64,
+    'high': 39.64,
+    'low': 39.64,
+    'open': 39.64,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 200.0,
+    'vwap': 39.64}}
+2025-08-22 14:45:18 INFO: Current resistance is: 40.44 and support is: 39.032
+2025-08-22 14:45:18 INFO: Current average volume is: 402.5
+2025-08-22 14:45:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:45:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:45:18 INFO: Updated resistance to: 40.442 and support to: 39.03
+2025-08-22 14:46:18 INFO: {'ETHE': {   'close': 39.58,
+    'high': 39.61,
+    'low': 39.58,
+    'open': 39.61,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 45, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1180.0,
+    'vwap': 39.588644}}
+2025-08-22 14:46:18 INFO: Current resistance is: 40.442 and support is: 39.03
+2025-08-22 14:46:18 INFO: Current average volume is: 510.3
+2025-08-22 14:46:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:46:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:46:18 INFO: Updated resistance to: 40.444 and support to: 39.024
+2025-08-22 14:47:18 INFO: {'ETHE': {   'close': 39.57,
+    'high': 39.57,
+    'low': 39.57,
+    'open': 39.57,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 270.0,
+    'vwap': 39.57}}
+2025-08-22 14:47:18 INFO: Current resistance is: 40.444 and support is: 39.024
+2025-08-22 14:47:18 INFO: Current average volume is: 527.3
+2025-08-22 14:47:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:47:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:47:18 INFO: Updated resistance to: 40.444 and support to: 39.018
+2025-08-22 14:48:18 INFO: {'ETHE': {   'close': 39.67,
+    'high': 39.67,
+    'low': 39.64,
+    'open': 39.64,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 500.0,
+    'vwap': 39.655}}
+2025-08-22 14:48:18 INFO: Current resistance is: 40.444 and support is: 39.018
+2025-08-22 14:48:18 INFO: Current average volume is: 557.3
+2025-08-22 14:48:18 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:48:18 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:48:18 INFO: Updated resistance to: 40.447 and support to: 39.016
+2025-08-22 14:52:19 INFO: {'ETHE': {   'close': 39.57,
+    'high': 39.57,
+    'low': 39.57,
+    'open': 39.57,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 102.0,
+    'vwap': 39.57}}
+2025-08-22 14:52:19 INFO: Current resistance is: 40.447 and support is: 39.016
+2025-08-22 14:52:19 INFO: Current average volume is: 515.6
+2025-08-22 14:52:19 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:52:19 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:52:19 INFO: Updated resistance to: 40.448 and support to: 39.01
+2025-08-22 14:53:20 INFO: {'ETHE': {   'close': 39.51,
+    'high': 39.51,
+    'low': 39.51,
+    'open': 39.51,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.51}}
+2025-08-22 14:53:20 INFO: Current resistance is: 40.448 and support is: 39.01
+2025-08-22 14:53:20 INFO: Current average volume is: 478.6
+2025-08-22 14:53:20 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:53:20 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:53:20 INFO: Updated resistance to: 40.447 and support to: 39.001
+2025-08-22 14:58:21 INFO: {'ETHE': {   'close': 39.55,
+    'high': 39.55,
+    'low': 39.53,
+    'open': 39.54,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 400.0,
+    'vwap': 39.54}}
+2025-08-22 14:58:21 INFO: Current resistance is: 40.447 and support is: 39.001
+2025-08-22 14:58:21 INFO: Current average volume is: 508.6
+2025-08-22 14:58:21 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:58:21 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:58:21 INFO: Updated resistance to: 40.447 and support to: 38.994
+2025-08-22 14:59:21 INFO: {'ETHE': {   'close': 39.57,
+    'high': 39.59,
+    'low': 39.57,
+    'open': 39.57,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1300.0,
+    'vwap': 39.576923}}
+2025-08-22 14:59:21 INFO: Current resistance is: 40.447 and support is: 38.994
+2025-08-22 14:59:21 INFO: Current average volume is: 618.6
+2025-08-22 14:59:21 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:59:21 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:59:21 INFO: Updated resistance to: 40.447 and support to: 38.989
+2025-08-22 15:03:22 INFO: {'ETHE': {   'close': 39.61,
+    'high': 39.61,
+    'low': 39.61,
+    'open': 39.61,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 500.0,
+    'vwap': 39.61}}
+2025-08-22 15:03:22 INFO: Current resistance is: 40.447 and support is: 38.989
+2025-08-22 15:03:22 INFO: Current average volume is: 525.2
+2025-08-22 15:03:22 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:03:22 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:03:22 INFO: Updated resistance to: 40.448 and support to: 38.985
+2025-08-22 15:04:22 INFO: {'ETHE': {   'close': 39.62,
+    'high': 39.63,
+    'low': 39.62,
+    'open': 39.63,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 284.0,
+    'vwap': 39.626479}}
+2025-08-22 15:04:22 INFO: Current resistance is: 40.448 and support is: 38.985
+2025-08-22 15:04:22 INFO: Current average volume is: 483.6
+2025-08-22 15:04:22 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:04:22 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:04:22 INFO: Updated resistance to: 40.45 and support to: 38.982
+2025-08-22 15:05:23 INFO: {'ETHE': {   'close': 39.65,
+    'high': 39.65,
+    'low': 39.65,
+    'open': 39.65,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 4, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 39.65}}
+2025-08-22 15:05:23 INFO: Current resistance is: 40.45 and support is: 38.982
+2025-08-22 15:05:23 INFO: Current average volume is: 473.6
+2025-08-22 15:05:23 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:05:23 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:05:23 INFO: Updated resistance to: 40.452 and support to: 38.98
+2025-08-22 15:06:23 INFO: {'ETHE': {   'close': 39.72,
+    'high': 39.74,
+    'low': 39.72,
+    'open': 39.74,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 860.0,
+    'vwap': 39.725263}}
+2025-08-22 15:06:23 INFO: Current resistance is: 40.452 and support is: 38.98
+2025-08-22 15:06:23 INFO: Current average volume is: 441.6
+2025-08-22 15:06:23 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:06:23 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:06:23 INFO: Updated resistance to: 40.455 and support to: 38.981
+2025-08-22 15:07:23 INFO: {'ETHE': {   'close': 39.655,
+    'high': 39.68,
+    'low': 39.65,
+    'open': 39.68,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2820.0,
+    'vwap': 39.65725}}
+2025-08-22 15:07:23 INFO: Current resistance is: 40.455 and support is: 38.981
+2025-08-22 15:07:23 INFO: Current average volume is: 696.6
+2025-08-22 15:07:23 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:07:23 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:07:23 INFO: Updated resistance to: 40.458 and support to: 38.979
+2025-08-22 15:08:23 INFO: {'ETHE': {   'close': 39.66,
+    'high': 39.66,
+    'low': 39.655,
+    'open': 39.655,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 921.0,
+    'vwap': 39.65663}}
+2025-08-22 15:08:23 INFO: Current resistance is: 40.458 and support is: 38.979
+2025-08-22 15:08:23 INFO: Current average volume is: 738.7
+2025-08-22 15:08:23 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:08:23 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:08:23 INFO: Updated resistance to: 40.459 and support to: 38.977
+2025-08-22 15:09:24 INFO: {'ETHE': {   'close': 39.63,
+    'high': 39.65,
+    'low': 39.63,
+    'open': 39.65,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 39.636667}}
+2025-08-22 15:09:24 INFO: Current resistance is: 40.459 and support is: 38.977
+2025-08-22 15:09:24 INFO: Current average volume is: 758.5
+2025-08-22 15:09:24 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:09:24 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:09:24 INFO: Updated resistance to: 40.461 and support to: 38.974
+2025-08-22 15:10:24 INFO: {'ETHE': {   'close': 39.62,
+    'high': 39.62,
+    'low': 39.62,
+    'open': 39.62,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 302.0,
+    'vwap': 39.62}}
+2025-08-22 15:10:24 INFO: Current resistance is: 40.461 and support is: 38.974
+2025-08-22 15:10:24 INFO: Current average volume is: 778.7
+2025-08-22 15:10:24 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:10:24 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:10:24 INFO: Updated resistance to: 40.462 and support to: 38.971
+2025-08-22 15:15:25 INFO: {'ETHE': {   'close': 39.715,
+    'high': 39.715,
+    'low': 39.7,
+    'open': 39.7,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 880.0,
+    'vwap': 39.701705}}
+2025-08-22 15:15:25 INFO: Current resistance is: 40.462 and support is: 38.971
+2025-08-22 15:15:25 INFO: Current average volume is: 826.7
+2025-08-22 15:15:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:15:25 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:15:25 INFO: Updated resistance to: 40.464 and support to: 38.971
+2025-08-22 15:16:25 INFO: {'ETHE': {   'close': 39.745,
+    'high': 39.745,
+    'low': 39.74,
+    'open': 39.74,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 39.742513}}
+2025-08-22 15:16:25 INFO: Current resistance is: 40.464 and support is: 38.971
+2025-08-22 15:16:25 INFO: Current average volume is: 736.7
+2025-08-22 15:16:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:16:25 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:16:25 INFO: Updated resistance to: 40.468 and support to: 38.972
+2025-08-22 15:18:26 INFO: {'ETHE': {   'close': 39.735,
+    'high': 39.78,
+    'low': 39.735,
+    'open': 39.78,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1590.0,
+    'vwap': 39.755419}}
+2025-08-22 15:18:26 INFO: Current resistance is: 40.468 and support is: 38.972
+2025-08-22 15:18:26 INFO: Current average volume is: 845.7
+2025-08-22 15:18:26 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:18:26 INFO: The engulfing candle pattern check is: [   0    0    0    0 -100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:18:26 INFO: Updated resistance to: 40.472 and support to: 38.973
+2025-08-22 15:19:26 INFO: {'ETHE': {   'close': 39.77,
+    'high': 39.81,
+    'low': 39.77,
+    'open': 39.81,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 720.0,
+    'vwap': 39.786667}}
+2025-08-22 15:19:26 INFO: Current resistance is: 40.472 and support is: 38.973
+2025-08-22 15:19:26 INFO: Current average volume is: 889.3
+2025-08-22 15:19:26 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:19:26 INFO: The engulfing candle pattern check is: [   0    0    0 -100    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:19:26 INFO: Updated resistance to: 40.476 and support to: 38.976
+2025-08-22 15:22:27 INFO: {'ETHE': {   'close': 39.82,
+    'high': 39.82,
+    'low': 39.82,
+    'open': 39.82,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 39.82}}
+2025-08-22 15:22:27 INFO: Current resistance is: 40.476 and support is: 38.976
+2025-08-22 15:22:27 INFO: Current average volume is: 909.3
+2025-08-22 15:22:27 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:22:27 INFO: The engulfing candle pattern check is: [   0    0 -100    0    0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:22:27 INFO: Updated resistance to: 40.481 and support to: 38.98
+2025-08-22 15:25:27 INFO: {'ETHE': {   'close': 39.71,
+    'high': 39.74,
+    'low': 39.71,
+    'open': 39.74,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 226.0,
+    'vwap': 39.726726}}
+2025-08-22 15:25:27 INFO: Current resistance is: 40.481 and support is: 38.98
+2025-08-22 15:25:27 INFO: Current average volume is: 845.9
+2025-08-22 15:25:27 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:25:27 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:25:27 INFO: Updated resistance to: 40.484 and support to: 38.98
+2025-08-22 15:26:28 INFO: {'ETHE': {   'close': 39.67,
+    'high': 39.67,
+    'low': 39.67,
+    'open': 39.67,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 39.67}}
+2025-08-22 15:26:28 INFO: Current resistance is: 40.484 and support is: 38.98
+2025-08-22 15:26:28 INFO: Current average volume is: 583.9
+2025-08-22 15:26:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:26:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:26:28 INFO: Updated resistance to: 40.485 and support to: 38.978
+2025-08-22 15:28:28 INFO: {'ETHE': {   'close': 39.8,
+    'high': 39.8,
+    'low': 39.75,
+    'open': 39.75,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 27, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 341.0,
+    'vwap': 39.766667}}
+2025-08-22 15:28:28 INFO: Current resistance is: 40.485 and support is: 38.978
+2025-08-22 15:28:28 INFO: Current average volume is: 525.9
+2025-08-22 15:28:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:28:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:28:28 INFO: Updated resistance to: 40.489 and support to: 38.979
+2025-08-22 15:29:28 INFO: {'ETHE': {   'close': 39.82,
+    'high': 39.83,
+    'low': 39.82,
+    'open': 39.83,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 28, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 797.0,
+    'vwap': 39.828369}}
+2025-08-22 15:29:28 INFO: Current resistance is: 40.489 and support is: 38.979
+2025-08-22 15:29:28 INFO: Current average volume is: 575.6
+2025-08-22 15:29:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:29:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:29:28 INFO: Updated resistance to: 40.494 and support to: 38.983
+2025-08-22 15:33:29 INFO: {'ETHE': {   'close': 39.88,
+    'high': 39.88,
+    'low': 39.83,
+    'open': 39.85,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 22.0,
+    'volume': 2120.0,
+    'vwap': 39.8555}}
+2025-08-22 15:33:29 INFO: Current resistance is: 40.494 and support is: 38.983
+2025-08-22 15:33:29 INFO: Current average volume is: 757.4
+2025-08-22 15:33:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:33:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:33:29 INFO: Updated resistance to: 40.499 and support to: 38.987
+2025-08-22 15:34:30 INFO: {'ETHE': {   'close': 39.76,
+    'high': 39.785,
+    'low': 39.76,
+    'open': 39.785,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 33, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 866.0,
+    'vwap': 39.76981}}
+2025-08-22 15:34:30 INFO: Current resistance is: 40.499 and support is: 38.987
+2025-08-22 15:34:30 INFO: Current average volume is: 756.0
+2025-08-22 15:34:30 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:34:30 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:34:30 INFO: Updated resistance to: 40.503 and support to: 38.989
+2025-08-22 15:36:00 INFO: {'ETHE': {   'close': 39.83,
+    'high': 39.83,
+    'low': 39.82,
+    'open': 39.82,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 35, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 531.0,
+    'vwap': 39.826}}
+2025-08-22 15:36:00 INFO: Current resistance is: 40.503 and support is: 38.989
+2025-08-22 15:36:00 INFO: Current average volume is: 769.1
+2025-08-22 15:36:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:36:00 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:36:00 INFO: Updated resistance to: 40.507 and support to: 38.992
+2025-08-22 15:37:00 INFO: {'ETHE': {   'close': 39.79,
+    'high': 39.79,
+    'low': 39.78,
+    'open': 39.79,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1120.0,
+    'vwap': 39.786364}}
+2025-08-22 15:37:00 INFO: Current resistance is: 40.507 and support is: 38.992
+2025-08-22 15:37:00 INFO: Current average volume is: 722.1
+2025-08-22 15:37:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:37:00 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:37:00 INFO: Updated resistance to: 40.51 and support to: 38.994
+2025-08-22 15:38:00 INFO: {'ETHE': {   'close': 39.8,
+    'high': 39.8,
+    'low': 39.8,
+    'open': 39.8,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 37, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 209.0,
+    'vwap': 39.8}}
+2025-08-22 15:38:00 INFO: Current resistance is: 40.51 and support is: 38.994
+2025-08-22 15:38:00 INFO: Current average volume is: 671.0
+2025-08-22 15:38:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:38:00 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:38:00 INFO: Updated resistance to: 40.514 and support to: 38.996
+2025-08-22 15:39:01 INFO: {'ETHE': {   'close': 39.84,
+    'high': 39.84,
+    'low': 39.79,
+    'open': 39.79,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 38, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 640.0,
+    'vwap': 39.818438}}
+2025-08-22 15:39:01 INFO: Current resistance is: 40.514 and support is: 38.996
+2025-08-22 15:39:01 INFO: Current average volume is: 705.0
+2025-08-22 15:39:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:39:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:39:01 INFO: Updated resistance to: 40.518 and support to: 38.998
+2025-08-22 15:41:01 INFO: {'ETHE': {   'close': 39.905,
+    'high': 39.91,
+    'low': 39.82,
+    'open': 39.82,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1752.0,
+    'vwap': 39.851429}}
+2025-08-22 15:41:01 INFO: Current resistance is: 40.518 and support is: 38.998
+2025-08-22 15:41:01 INFO: Current average volume is: 857.6
+2025-08-22 15:41:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:41:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:41:01 INFO: Updated resistance to: 40.523 and support to: 39.001
+2025-08-22 15:42:01 INFO: {'ETHE': {   'close': 39.885,
+    'high': 39.885,
+    'low': 39.85,
+    'open': 39.86,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 300.0,
+    'vwap': 39.865}}
+2025-08-22 15:42:01 INFO: Current resistance is: 40.523 and support is: 39.001
+2025-08-22 15:42:01 INFO: Current average volume is: 867.6
+2025-08-22 15:42:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:42:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:42:01 INFO: Updated resistance to: 40.528 and support to: 39.005
+2025-08-22 15:43:02 INFO: {'ETHE': {   'close': 39.89,
+    'high': 39.9,
+    'low': 39.88,
+    'open': 39.88,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 42, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 600.0,
+    'vwap': 39.891667}}
+2025-08-22 15:43:02 INFO: Current resistance is: 40.528 and support is: 39.005
+2025-08-22 15:43:02 INFO: Current average volume is: 893.5
+2025-08-22 15:43:02 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:43:02 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:43:02 INFO: Updated resistance to: 40.533 and support to: 39.009
+2025-08-22 15:44:02 INFO: {'ETHE': {   'close': 39.96,
+    'high': 39.98,
+    'low': 39.86,
+    'open': 39.86,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 43, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2060.0,
+    'vwap': 39.942178}}
+2025-08-22 15:44:02 INFO: Current resistance is: 40.533 and support is: 39.009
+2025-08-22 15:44:02 INFO: Current average volume is: 1019.8
+2025-08-22 15:44:02 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:44:02 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:44:02 INFO: Updated resistance to: 40.54 and support to: 39.013
+2025-08-22 15:45:02 INFO: {'ETHE': {   'close': 39.94,
+    'high': 40.0,
+    'low': 39.93,
+    'open': 39.98,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 44, tzinfo=TzInfo(UTC)),
+    'trade_count': 25.0,
+    'volume': 3442.0,
+    'vwap': 39.970417}}
+2025-08-22 15:45:02 INFO: Current resistance is: 40.54 and support is: 39.013
+2025-08-22 15:45:02 INFO: Current average volume is: 1152.0
+2025-08-22 15:45:02 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:45:02 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:45:02 INFO: Updated resistance to: 40.547 and support to: 39.02
+2025-08-22 15:47:03 INFO: {'ETHE': {   'close': 40.01,
+    'high': 40.02,
+    'low': 40.01,
+    'open': 40.01,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 46, tzinfo=TzInfo(UTC)),
+    'trade_count': 48.0,
+    'volume': 5651.0,
+    'vwap': 40.014915}}
+2025-08-22 15:47:03 INFO: Current resistance is: 40.547 and support is: 39.02
+2025-08-22 15:47:03 INFO: Current average volume is: 1630.5
+2025-08-22 15:47:03 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:47:03 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:47:03 INFO: Updated resistance to: 40.555 and support to: 39.029
+2025-08-22 15:48:03 INFO: {'ETHE': {   'close': 39.99,
+    'high': 40.0,
+    'low': 39.99,
+    'open': 40.0,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 47, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 878.0,
+    'vwap': 39.991144}}
+2025-08-22 15:48:03 INFO: Current resistance is: 40.555 and support is: 39.029
+2025-08-22 15:48:03 INFO: Current average volume is: 1665.2
+2025-08-22 15:48:03 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:48:03 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:48:03 INFO: Updated resistance to: 40.561 and support to: 39.037
+2025-08-22 15:49:03 INFO: {'ETHE': {   'close': 39.92,
+    'high': 39.97,
+    'low': 39.92,
+    'open': 39.97,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 48, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 2375.0,
+    'vwap': 39.956339}}
+2025-08-22 15:49:03 INFO: Current resistance is: 40.561 and support is: 39.037
+2025-08-22 15:49:03 INFO: Current average volume is: 1790.7
+2025-08-22 15:49:03 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:49:03 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:49:03 INFO: Updated resistance to: 40.567 and support to: 39.042
+2025-08-22 15:50:03 INFO: {'ETHE': {   'close': 39.94,
+    'high': 39.94,
+    'low': 39.9,
+    'open': 39.9,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 49, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 282.0,
+    'vwap': 39.92}}
+2025-08-22 15:50:03 INFO: Current resistance is: 40.567 and support is: 39.042
+2025-08-22 15:50:03 INFO: Current average volume is: 1798.0
+2025-08-22 15:50:03 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:50:03 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:50:03 INFO: Updated resistance to: 40.573 and support to: 39.046
+2025-08-22 15:51:04 INFO: {'ETHE': {   'close': 39.99,
+    'high': 39.99,
+    'low': 39.98,
+    'open': 39.99,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 50, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 512.0,
+    'vwap': 39.9875}}
+2025-08-22 15:51:04 INFO: Current resistance is: 40.573 and support is: 39.046
+2025-08-22 15:51:04 INFO: Current average volume is: 1785.2
+2025-08-22 15:51:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:51:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:51:04 INFO: Updated resistance to: 40.579 and support to: 39.053
+2025-08-22 15:52:04 INFO: {'ETHE': {   'close': 40.02,
+    'high': 40.04,
+    'low': 40.0,
+    'open': 40.0,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 51, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1560.0,
+    'vwap': 40.033151}}
+2025-08-22 15:52:04 INFO: Current resistance is: 40.579 and support is: 39.053
+2025-08-22 15:52:04 INFO: Current average volume is: 1766.0
+2025-08-22 15:52:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:52:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:52:04 INFO: Updated resistance to: 40.586 and support to: 39.06
+2025-08-22 15:53:04 INFO: {'ETHE': {   'close': 40.03,
+    'high': 40.035,
+    'low': 40.03,
+    'open': 40.035,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 52, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 1560.0,
+    'vwap': 40.030321}}
+2025-08-22 15:53:04 INFO: Current resistance is: 40.586 and support is: 39.06
+2025-08-22 15:53:04 INFO: Current average volume is: 1892.0
+2025-08-22 15:53:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:53:04 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:53:04 INFO: Updated resistance to: 40.593 and support to: 39.069
+2025-08-22 15:54:04 INFO: {'ETHE': {   'close': 40.05,
+    'high': 40.05,
+    'low': 40.02,
+    'open': 40.02,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1033.0,
+    'vwap': 40.043289}}
+2025-08-22 15:54:04 INFO: Current resistance is: 40.593 and support is: 39.069
+2025-08-22 15:54:04 INFO: Current average volume is: 1935.3
+2025-08-22 15:54:04 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:54:04 INFO: The engulfing candle pattern check is: [  0   0   0   0 100]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:54:04 INFO: Updated resistance to: 40.6 and support to: 39.076
+2025-08-22 15:55:05 INFO: {'ETHE': {   'close': 40.02,
+    'high': 40.04,
+    'low': 40.0,
+    'open': 40.0,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 17.0,
+    'volume': 2540.0,
+    'vwap': 40.010924}}
+2025-08-22 15:55:05 INFO: Current resistance is: 40.6 and support is: 39.076
+2025-08-22 15:55:05 INFO: Current average volume is: 1983.3
+2025-08-22 15:55:05 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:55:05 INFO: The engulfing candle pattern check is: [  0   0   0 100   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:55:05 INFO: Updated resistance to: 40.606 and support to: 39.083
+2025-08-22 15:57:05 INFO: {'ETHE': {   'close': 40.035,
+    'high': 40.06,
+    'low': 40.03,
+    'open': 40.055,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1600.0,
+    'vwap': 40.040938}}
+2025-08-22 15:57:05 INFO: Current resistance is: 40.606 and support is: 39.083
+2025-08-22 15:57:05 INFO: Current average volume is: 1799.1
+2025-08-22 15:57:05 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:57:05 INFO: The engulfing candle pattern check is: [  0   0 100   0   0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:57:05 INFO: Updated resistance to: 40.066 and support to: 39.09
+2025-08-22 15:58:05 INFO: {'ETHE': {   'close': 40.04,
+    'high': 40.05,
+    'low': 40.02,
+    'open': 40.02,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 16.0,
+    'volume': 2281.0,
+    'vwap': 40.040442}}
+2025-08-22 15:58:05 INFO: Current resistance is: 40.066 and support is: 39.09
+2025-08-22 15:58:05 INFO: Current average volume is: 1462.1
+2025-08-22 15:58:05 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:58:05 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:58:05 INFO: Updated resistance to: 40.072 and support to: 39.097
+2025-08-22 15:59:05 INFO: {'ETHE': {   'close': 40.07,
+    'high': 40.1,
+    'low': 40.07,
+    'open': 40.07,
+    'symbol': 'ETHE',
+    'timestamp': datetime.datetime(2025, 8, 22, 19, 58, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 3000.0,
+    'vwap': 40.075345}}
+2025-08-22 15:59:05 INFO: Current resistance is: 40.072 and support is: 39.097
+2025-08-22 15:59:05 INFO: Current average volume is: 1674.3
+2025-08-22 15:59:05 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 15:59:05 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 15:59:05 INFO: Updated resistance to: 40.106 and support to: 39.106
+2025-08-22 16:00:06 INFO: The Market is closed...

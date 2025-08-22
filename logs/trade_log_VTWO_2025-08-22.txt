@@ -1,0 +1,587 @@
+2025-08-22 11:54:07 INFO: === Strategy started ===
+2025-08-22 11:54:07 INFO: Start collecting the current highs/lows for: VTWO
+2025-08-22 11:54:07 INFO: Most recent stock data: {'VTWO': {   'close': 95.03,
+    'high': 95.03,
+    'low': 95.03,
+    'open': 95.03,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 95.03}}
+2025-08-22 11:55:08 INFO: Most recent stock data: {'VTWO': {   'close': 95.04,
+    'high': 95.04,
+    'low': 95.04,
+    'open': 95.04,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 54, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1015.0,
+    'vwap': 95.04}}
+2025-08-22 11:57:08 INFO: Most recent stock data: {'VTWO': {   'close': 94.93,
+    'high': 95.03,
+    'low': 94.93,
+    'open': 95.03,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 13.0,
+    'volume': 1620.0,
+    'vwap': 94.970397}}
+2025-08-22 11:58:08 INFO: Most recent stock data: {'VTWO': {   'close': 94.97,
+    'high': 94.97,
+    'low': 94.97,
+    'open': 94.97,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 94.97}}
+2025-08-22 12:00:08 INFO: Most recent stock data: {'VTWO': {   'close': 94.89,
+    'high': 94.91,
+    'low': 94.89,
+    'open': 94.91,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 15, 59, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 774.0,
+    'vwap': 94.895181}}
+2025-08-22 12:01:08 INFO: Most recent stock data: {'VTWO': {   'close': 94.9,
+    'high': 94.93,
+    'low': 94.87,
+    'open': 94.91,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 11.0,
+    'volume': 1800.0,
+    'vwap': 94.903333}}
+2025-08-22 12:02:09 INFO: Most recent stock data: {'VTWO': {   'close': 94.97,
+    'high': 94.97,
+    'low': 94.93,
+    'open': 94.93,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 1, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 400.0,
+    'vwap': 94.95}}
+2025-08-22 12:03:09 INFO: Most recent stock data: {'VTWO': {   'close': 95.12,
+    'high': 95.12,
+    'low': 95.08,
+    'open': 95.08,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 576.0,
+    'vwap': 95.100833}}
+2025-08-22 12:07:09 INFO: Most recent stock data: {'VTWO': {   'close': 95.1,
+    'high': 95.1,
+    'low': 95.1,
+    'open': 95.1,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 6, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 95.1}}
+2025-08-22 12:08:09 INFO: Most recent stock data: {'VTWO': {   'close': 95.09,
+    'high': 95.09,
+    'low': 95.09,
+    'open': 95.09,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 7, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 95.09}}
+2025-08-22 12:09:09 INFO: Most recent stock data: {'VTWO': {   'close': 95.1,
+    'high': 95.1,
+    'low': 95.1,
+    'open': 95.1,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 8, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 95.1}}
+2025-08-22 12:09:09 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 12:09:09 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-22 12:10:10 INFO: {'VTWO': {   'close': 95.08,
+    'high': 95.09,
+    'low': 95.08,
+    'open': 95.09,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 95.086}}
+2025-08-22 12:10:10 INFO: Current resistance is: 95.12 and support is: 94.87
+2025-08-22 12:10:10 INFO: Current average volume is: 687.0
+2025-08-22 12:10:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:10:10 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:10:10 INFO: Updated resistance to: 95.12 and support to: 94.87
+2025-08-22 12:11:10 INFO: {'VTWO': {   'close': 95.1,
+    'high': 95.1,
+    'low': 95.07,
+    'open': 95.08,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 10, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 1000.0,
+    'vwap': 95.085}}
+2025-08-22 12:11:10 INFO: Current resistance is: 95.12 and support is: 94.87
+2025-08-22 12:11:10 INFO: Current average volume is: 625.0
+2025-08-22 12:11:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:11:10 INFO: The engulfing candle pattern check is: [ 0  0  0  0 80]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:11:10 INFO: Updated resistance to: 95.12 and support to: 94.87
+2025-08-22 12:12:10 INFO: {'VTWO': {   'close': 95.12,
+    'high': 95.12,
+    'low': 95.12,
+    'open': 95.12,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 95.12}}
+2025-08-22 12:12:10 INFO: Current resistance is: 95.12 and support is: 94.87
+2025-08-22 12:12:10 INFO: Current average volume is: 635.0
+2025-08-22 12:12:10 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:12:10 INFO: The engulfing candle pattern check is: [ 0  0  0 80  0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:12:10 INFO: Updated resistance to: 95.12 and support to: 94.87
+2025-08-22 12:14:11 INFO: {'VTWO': {   'close': 95.04,
+    'high': 95.09,
+    'low': 95.04,
+    'open': 95.09,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 889.0,
+    'vwap': 95.0525}}
+2025-08-22 12:14:11 INFO: Current resistance is: 95.12 and support is: 94.87
+2025-08-22 12:14:11 INFO: Current average volume is: 646.5
+2025-08-22 12:14:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:14:11 INFO: The engulfing candle pattern check is: [ 0  0 80  0  0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:14:11 INFO: Updated resistance to: 95.12 and support to: 94.87
+2025-08-22 12:15:11 INFO: {'VTWO': {   'close': 95.06,
+    'high': 95.07,
+    'low': 95.05,
+    'open': 95.05,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 14, tzinfo=TzInfo(UTC)),
+    'trade_count': 12.0,
+    'volume': 1593.0,
+    'vwap': 95.058}}
+2025-08-22 12:15:11 INFO: Current resistance is: 95.12 and support is: 94.87
+2025-08-22 12:15:11 INFO: Current average volume is: 625.8
+2025-08-22 12:15:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:15:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:15:11 INFO: Updated resistance to: 95.12 and support to: 94.87
+2025-08-22 12:16:11 INFO: {'VTWO': {   'close': 95.13,
+    'high': 95.13,
+    'low': 95.04,
+    'open': 95.04,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 15, tzinfo=TzInfo(UTC)),
+    'trade_count': 8.0,
+    'volume': 980.0,
+    'vwap': 95.066667}}
+2025-08-22 12:16:11 INFO: Current resistance is: 95.12 and support is: 94.87
+2025-08-22 12:16:11 INFO: Current average volume is: 683.8
+2025-08-22 12:16:11 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:16:11 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:16:11 INFO: Updated resistance to: 95.13 and support to: 94.87
+2025-08-22 12:18:12 INFO: {'VTWO': {   'close': 94.99,
+    'high': 94.99,
+    'low': 94.99,
+    'open': 94.99,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 202.0,
+    'vwap': 94.99}}
+2025-08-22 12:18:12 INFO: Current resistance is: 95.13 and support is: 94.87
+2025-08-22 12:18:12 INFO: Current average volume is: 646.4
+2025-08-22 12:18:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:18:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:18:12 INFO: Updated resistance to: 95.13 and support to: 94.87
+2025-08-22 12:19:12 INFO: {'VTWO': {   'close': 94.92,
+    'high': 94.94,
+    'low': 94.91,
+    'open': 94.91,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 9.0,
+    'volume': 1108.0,
+    'vwap': 94.926}}
+2025-08-22 12:19:12 INFO: Current resistance is: 95.13 and support is: 94.87
+2025-08-22 12:19:12 INFO: Current average volume is: 697.2
+2025-08-22 12:19:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:19:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:19:12 INFO: Updated resistance to: 95.13 and support to: 94.87
+2025-08-22 12:20:12 INFO: {'VTWO': {   'close': 94.96,
+    'high': 94.96,
+    'low': 94.93,
+    'open': 94.93,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 19, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 94.945}}
+2025-08-22 12:20:12 INFO: Current resistance is: 95.13 and support is: 94.87
+2025-08-22 12:20:12 INFO: Current average volume is: 737.2
+2025-08-22 12:20:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:20:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:20:12 INFO: Updated resistance to: 95.13 and support to: 94.87
+2025-08-22 12:21:12 INFO: {'VTWO': {   'close': 94.93,
+    'high': 94.93,
+    'low': 94.92,
+    'open': 94.92,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 94.926}}
+2025-08-22 12:21:12 INFO: Current resistance is: 95.13 and support is: 94.87
+2025-08-22 12:21:12 INFO: Current average volume is: 767.2
+2025-08-22 12:21:12 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:21:12 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:21:12 INFO: Updated resistance to: 95.13 and support to: 94.87
+2025-08-22 12:22:13 INFO: {'VTWO': {   'close': 94.98,
+    'high': 94.98,
+    'low': 94.94,
+    'open': 94.94,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 21, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 680.0,
+    'vwap': 94.967304}}
+2025-08-22 12:22:13 INFO: Current resistance is: 95.13 and support is: 94.87
+2025-08-22 12:22:13 INFO: Current average volume is: 785.2
+2025-08-22 12:22:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:22:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:22:13 INFO: Updated resistance to: 95.13 and support to: 94.87
+2025-08-22 12:23:13 INFO: {'VTWO': {   'close': 94.94,
+    'high': 94.94,
+    'low': 94.92,
+    'open': 94.93,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 7.0,
+    'volume': 1200.0,
+    'vwap': 94.928197}}
+2025-08-22 12:23:13 INFO: Current resistance is: 95.13 and support is: 94.87
+2025-08-22 12:23:13 INFO: Current average volume is: 805.2
+2025-08-22 12:23:13 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:23:13 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:23:13 INFO: Updated resistance to: 95.13 and support to: 94.87
+2025-08-22 12:26:14 INFO: {'VTWO': {   'close': 94.8,
+    'high': 94.8,
+    'low': 94.79,
+    'open': 94.79,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 94.794}}
+2025-08-22 12:26:14 INFO: Current resistance is: 95.13 and support is: 94.87
+2025-08-22 12:26:14 INFO: Current average volume is: 825.2
+2025-08-22 12:26:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:26:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:26:14 INFO: the current close 94.8 has dropped below the current support 94.87 once...
+2025-08-22 12:26:14 INFO: Updated resistance to: 95.13 and support to: 94.79
+2025-08-22 12:27:14 INFO: {'VTWO': {   'close': 94.78,
+    'high': 94.78,
+    'low': 94.78,
+    'open': 94.78,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 16, 26, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 94.78}}
+2025-08-22 12:27:14 INFO: Current resistance is: 95.13 and support is: 94.79
+2025-08-22 12:27:14 INFO: Current average volume is: 766.3
+2025-08-22 12:27:14 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 12:27:14 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 12:27:14 INFO: the current close 94.78 is below the support again, ending trade...
+2025-08-22 13:54:21 INFO: === Strategy started ===
+2025-08-22 13:54:21 INFO: Start collecting the current highs/lows for: VTWO
+2025-08-22 13:54:21 INFO: Most recent stock data: {'VTWO': {   'close': 94.92,
+    'high': 94.92,
+    'low': 94.92,
+    'open': 94.92,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 53, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 94.92}}
+2025-08-22 13:56:21 INFO: Most recent stock data: {'VTWO': {   'close': 94.94,
+    'high': 94.94,
+    'low': 94.93,
+    'open': 94.93,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 55, tzinfo=TzInfo(UTC)),
+    'trade_count': 5.0,
+    'volume': 321.0,
+    'vwap': 94.933333}}
+2025-08-22 13:57:22 INFO: Most recent stock data: {'VTWO': {   'close': 94.95,
+    'high': 94.95,
+    'low': 94.95,
+    'open': 94.95,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 56, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 94.95}}
+2025-08-22 13:58:22 INFO: Most recent stock data: {'VTWO': {   'close': 94.88,
+    'high': 94.88,
+    'low': 94.88,
+    'open': 94.88,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 17, 57, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 398.0,
+    'vwap': 94.88}}
+2025-08-22 14:01:22 INFO: Most recent stock data: {'VTWO': {   'close': 94.9,
+    'high': 94.9,
+    'low': 94.89,
+    'open': 94.89,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 0, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 500.0,
+    'vwap': 94.895}}
+2025-08-22 14:03:22 INFO: Most recent stock data: {'VTWO': {   'close': 94.92,
+    'high': 94.92,
+    'low': 94.92,
+    'open': 94.92,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 2, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 94.92}}
+2025-08-22 14:04:22 INFO: Most recent stock data: {'VTWO': {   'close': 94.95,
+    'high': 94.95,
+    'low': 94.95,
+    'open': 94.95,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 3, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 94.95}}
+2025-08-22 14:06:23 INFO: Most recent stock data: {'VTWO': {   'close': 94.91,
+    'high': 94.92,
+    'low': 94.9,
+    'open': 94.92,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 5, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 800.0,
+    'vwap': 94.91}}
+2025-08-22 14:10:23 INFO: Most recent stock data: {'VTWO': {   'close': 94.91,
+    'high': 94.91,
+    'low': 94.91,
+    'open': 94.91,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 9, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 94.91}}
+2025-08-22 14:12:24 INFO: Most recent stock data: {'VTWO': {   'close': 94.9,
+    'high': 94.9,
+    'low': 94.9,
+    'open': 94.9,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 11, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 94.9}}
+2025-08-22 14:14:24 INFO: Most recent stock data: {'VTWO': {   'close': 94.91,
+    'high': 94.91,
+    'low': 94.91,
+    'open': 94.91,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 13, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 94.91}}
+2025-08-22 14:14:24 INFO: Collected 10.0 minutes of data, trying to match pattern...
+2025-08-22 14:14:24 INFO: Pattern matched as Rectangle, starting trading strategy
+2025-08-22 14:17:25 INFO: {'VTWO': {   'close': 94.93,
+    'high': 94.93,
+    'low': 94.93,
+    'open': 94.93,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 16, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 194.0,
+    'vwap': 94.93}}
+2025-08-22 14:17:25 INFO: Current resistance is: 94.95 and support is: 94.88
+2025-08-22 14:17:25 INFO: Current average volume is: 289.3
+2025-08-22 14:17:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:17:25 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:17:25 INFO: Updated resistance to: 94.95 and support to: 94.88
+2025-08-22 14:18:25 INFO: {'VTWO': {   'close': 94.95,
+    'high': 94.95,
+    'low': 94.95,
+    'open': 94.95,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 17, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 106.0,
+    'vwap': 94.95}}
+2025-08-22 14:18:25 INFO: Current resistance is: 94.95 and support is: 94.88
+2025-08-22 14:18:25 INFO: Current average volume is: 289.8
+2025-08-22 14:18:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:18:25 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:18:25 INFO: Updated resistance to: 94.95 and support to: 94.88
+2025-08-22 14:19:25 INFO: {'VTWO': {   'close': 94.92,
+    'high': 94.94,
+    'low': 94.92,
+    'open': 94.94,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 18, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 400.0,
+    'vwap': 94.9275}}
+2025-08-22 14:19:25 INFO: Current resistance is: 94.95 and support is: 94.88
+2025-08-22 14:19:25 INFO: Current average volume is: 290.0
+2025-08-22 14:19:25 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:19:25 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:19:25 INFO: Updated resistance to: 94.95 and support to: 94.88
+2025-08-22 14:21:26 INFO: {'VTWO': {   'close': 94.87,
+    'high': 94.87,
+    'low': 94.86,
+    'open': 94.86,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 20, tzinfo=TzInfo(UTC)),
+    'trade_count': 6.0,
+    'volume': 700.0,
+    'vwap': 94.866667}}
+2025-08-22 14:21:26 INFO: Current resistance is: 94.95 and support is: 94.88
+2025-08-22 14:21:26 INFO: Current average volume is: 310.0
+2025-08-22 14:21:26 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:21:26 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:21:26 INFO: the current close 94.87 has dropped below the current support 94.88 once...
+2025-08-22 14:21:26 INFO: Updated resistance to: 94.95 and support to: 94.86
+2025-08-22 14:23:26 INFO: {'VTWO': {   'close': 94.9,
+    'high': 94.9,
+    'low': 94.9,
+    'open': 94.9,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 22, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 94.9}}
+2025-08-22 14:23:26 INFO: Current resistance is: 94.95 and support is: 94.86
+2025-08-22 14:23:26 INFO: Current average volume is: 310.0
+2025-08-22 14:23:26 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:23:26 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:23:26 INFO: Updated resistance to: 94.95 and support to: 94.86
+2025-08-22 14:25:27 INFO: {'VTWO': {   'close': 94.88,
+    'high': 94.88,
+    'low': 94.88,
+    'open': 94.88,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 24, tzinfo=TzInfo(UTC)),
+    'trade_count': 10.0,
+    'volume': 1675.0,
+    'vwap': 94.88}}
+2025-08-22 14:25:27 INFO: Current resistance is: 94.95 and support is: 94.86
+2025-08-22 14:25:27 INFO: Current average volume is: 467.5
+2025-08-22 14:25:27 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:25:27 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:25:27 INFO: Updated resistance to: 94.95 and support to: 94.86
+2025-08-22 14:26:27 INFO: {'VTWO': {   'close': 94.93,
+    'high': 94.93,
+    'low': 94.93,
+    'open': 94.93,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 25, tzinfo=TzInfo(UTC)),
+    'trade_count': 3.0,
+    'volume': 500.0,
+    'vwap': 94.93}}
+2025-08-22 14:26:27 INFO: Current resistance is: 94.95 and support is: 94.86
+2025-08-22 14:26:27 INFO: Current average volume is: 437.5
+2025-08-22 14:26:27 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:26:27 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:26:27 INFO: Updated resistance to: 94.95 and support to: 94.86
+2025-08-22 14:30:28 INFO: {'VTWO': {   'close': 94.86,
+    'high': 94.86,
+    'low': 94.86,
+    'open': 94.86,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 29, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 101.0,
+    'vwap': 94.86}}
+2025-08-22 14:30:28 INFO: Current resistance is: 94.95 and support is: 94.86
+2025-08-22 14:30:28 INFO: Current average volume is: 417.6
+2025-08-22 14:30:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:30:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:30:28 INFO: Updated resistance to: 94.95 and support to: 94.86
+2025-08-22 14:31:28 INFO: {'VTWO': {   'close': 94.89,
+    'high': 94.89,
+    'low': 94.89,
+    'open': 94.89,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 30, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 200.0,
+    'vwap': 94.89}}
+2025-08-22 14:31:28 INFO: Current resistance is: 94.95 and support is: 94.86
+2025-08-22 14:31:28 INFO: Current average volume is: 417.6
+2025-08-22 14:31:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:31:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:31:28 INFO: Updated resistance to: 94.95 and support to: 94.86
+2025-08-22 14:33:28 INFO: {'VTWO': {   'close': 94.87,
+    'high': 94.87,
+    'low': 94.85,
+    'open': 94.85,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 32, tzinfo=TzInfo(UTC)),
+    'trade_count': 4.0,
+    'volume': 600.0,
+    'vwap': 94.856667}}
+2025-08-22 14:33:28 INFO: Current resistance is: 94.95 and support is: 94.86
+2025-08-22 14:33:28 INFO: Current average volume is: 467.6
+2025-08-22 14:33:28 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:33:28 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:33:28 INFO: Updated resistance to: 94.95 and support to: 94.85
+2025-08-22 14:37:29 INFO: {'VTWO': {   'close': 94.86,
+    'high': 94.86,
+    'low': 94.86,
+    'open': 94.86,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 36, tzinfo=TzInfo(UTC)),
+    'trade_count': 2.0,
+    'volume': 300.0,
+    'vwap': 94.86}}
+2025-08-22 14:37:29 INFO: Current resistance is: 94.95 and support is: 94.85
+2025-08-22 14:37:29 INFO: Current average volume is: 478.2
+2025-08-22 14:37:29 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:37:29 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:37:29 INFO: Updated resistance to: 94.95 and support to: 94.85
+2025-08-22 14:41:00 INFO: {'VTWO': {   'close': 94.83,
+    'high': 94.83,
+    'low': 94.83,
+    'open': 94.83,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 40, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 100.0,
+    'vwap': 94.83}}
+2025-08-22 14:41:00 INFO: Current resistance is: 94.95 and support is: 94.85
+2025-08-22 14:41:00 INFO: Current average volume is: 477.6
+2025-08-22 14:41:00 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:41:00 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:41:00 INFO: the current close 94.83 has dropped below the current support 94.85 once...
+2025-08-22 14:41:00 INFO: Updated resistance to: 94.95 and support to: 94.83
+2025-08-22 14:42:01 INFO: {'VTWO': {   'close': 94.79,
+    'high': 94.79,
+    'low': 94.79,
+    'open': 94.79,
+    'symbol': 'VTWO',
+    'timestamp': datetime.datetime(2025, 8, 22, 18, 41, tzinfo=TzInfo(UTC)),
+    'trade_count': 1.0,
+    'volume': 169.0,
+    'vwap': 94.79}}
+2025-08-22 14:42:01 INFO: Current resistance is: 94.95 and support is: 94.83
+2025-08-22 14:42:01 INFO: Current average volume is: 454.5
+2025-08-22 14:42:01 INFO: The marubozu candle pattern check is: [0 0 0 0 0]. The three_white candle pattern check is [0 0 0 0 0]. The closing_maru candle pattern check is [0 0 0 0 0]. The belthold candle pattern check is [0 0 0 0 0]
+2025-08-22 14:42:01 INFO: The engulfing candle pattern check is: [0 0 0 0 0]. The Hammer candle pattern check is [0 0 0 0 0]
+2025-08-22 14:42:01 INFO: the current close 94.79 is below the support again, ending trade...
